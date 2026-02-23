@@ -1,0 +1,17 @@
+export default () => ({
+  PORT: parseInt(process.env.PORT || '3000', 10),
+  MONGO_URI: process.env.MONGO_URI,
+  JWT_SECRET: process.env.JWT_SECRET || 'change_this',
+  JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || '3600s',
+  OTP_EXPIRES_MINUTES: parseInt(process.env.OTP_EXPIRES_MINUTES || '10', 10),
+  OTP_RESEND_COOLDOWN_SECONDS: parseInt(process.env.OTP_RESEND_COOLDOWN_SECONDS || '60', 10),
+  SMTP_HOST: process.env.SMTP_HOST,
+  SMTP_PORT: parseInt(process.env.SMTP_PORT || '587', 10),
+  SMTP_USER: process.env.SMTP_USER,
+  SMTP_PASS: process.env.SMTP_PASS,
+  EMAIL_FROM: process.env.EMAIL_FROM || 'no-reply@edmira.com',
+  THROTTLE_TTL: parseInt(process.env.THROTTLE_TTL || '60', 10),
+  THROTTLE_LIMIT: parseInt(process.env.THROTTLE_LIMIT || '10', 10),
+  AUTH_LOCK_ATTEMPTS: parseInt(process.env.AUTH_LOCK_ATTEMPTS || '5', 10),
+  AUTH_LOCK_TTL_SECONDS: parseInt(process.env.AUTH_LOCK_TTL_SECONDS || '300', 10),
+});
