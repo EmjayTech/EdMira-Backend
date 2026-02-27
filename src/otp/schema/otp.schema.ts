@@ -6,6 +6,9 @@ export class Otp {
   @Prop({ required: true })
   code: string;
 
+  @Prop({ required: true })
+  email: string;
+
   @Prop({ type: Types.ObjectId, ref: 'User', required: true })
   userId: Types.ObjectId;
 

@@ -13,6 +13,7 @@ import { ResetPasswordDto } from './dto/rest-password.dto';
 import { SignupDto } from './dto/signup.dto';
 import { VerifyOtpDto } from './dto/verify-otp.dto';
 import { Public } from 'src/common/decorators/public.decorator';
+import { Request } from 'express';
 
 
 @ApiTags('Auth')
@@ -60,8 +61,10 @@ export class AuthController {
   @ApiOperation({ summary: 'Log out user' })
   @ApiResponse({ status: 200, description: 'Logout successful.' })
   @HttpCode(HttpStatus.OK)
-  logout(@GetCurrentUser('userId') userId: string) {
-    return this.authService.logout(userId);
+  logout(@GetCurrentUser('userId') userId: string, @Req() req: Request) {
+    // Extract access token for blacklisting
+    const accessToken = req.get('Authorization')?.replace(/^Bearer\s+/i, '').trim();
+    return this.authService.logout(userId, accessToken);
   }
 
   @UseGuards(JwtAuthGuard)

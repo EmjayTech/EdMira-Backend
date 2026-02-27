@@ -13,7 +13,7 @@ import { ProfessionalProfile, ProfessionalProfileSchema } from "../schema/profes
 export class User {
   _id?: mongoose.Schema.Types.ObjectId;
 
-  @Prop()
+  @Prop({ unique: true, required: true })
   email: string;
 
   @Exclude()

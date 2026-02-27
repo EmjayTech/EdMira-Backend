@@ -1,15 +1,12 @@
 import { Global, Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { JwtModule } from '@nestjs/jwt';
 import { User, userModel } from './model/user.model';
 import { UsersService } from './user.service';
+import { UsersRepository } from './user.repository';
 
 @Global()
 @Module({
-  providers: [UsersService],
-  exports: [UsersService],
   imports: [
-    JwtModule,
     MongooseModule.forFeatureAsync([
       {
         name: User.name,
@@ -19,5 +16,7 @@ import { UsersService } from './user.service';
       },
     ]),
   ],
+  providers: [UsersService, UsersRepository],
+  exports: [UsersService, UsersRepository, MongooseModule],
 })
-export class UserModule {}
+export class UserModule { }

@@ -1,7 +1,14 @@
 // src/auth/auth.service.ts
-import { Injectable, ConflictException, UnauthorizedException, BadRequestException } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model, Types } from 'mongoose';
+import {
+  Injectable,
+  ConflictException,
+  UnauthorizedException,
+  BadRequestException,
+  Inject,
+} from '@nestjs/common';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import { Cache } from 'cache-manager';
+import { Types } from 'mongoose';
 import * as bcrypt from 'bcrypt';
 import * as crypto from 'crypto';
 import { JWT_ACCESS_EXPIRATION, JWT_REFRESH_EXPIRATION, SALT_ROUNDS } from '../common/config/constants';
@@ -16,25 +23,28 @@ import { ForgotPasswordDto } from './dto/forgot-password.dto';
 import { ResetPasswordDto } from './dto/rest-password.dto';
 import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
-import { User, UserDocument } from '../users/model/user.model';
+import { UsersRepository } from '../users/user.repository';
 
-
+/** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
+const AT_BLACKLIST_TTL = 15 * 60;
 
 @Injectable()
 export class AuthService {
   constructor(
-    @InjectModel(User.name) private readonly userModel: Model<UserDocument>,
+    private readonly usersRepository: UsersRepository,
     private readonly emailService: EmailService,
     private readonly otpService: OtpService,
     private jwtService: JwtService,
     private configService: ConfigService,
+    @Inject(CACHE_MANAGER) private cacheManager: Cache,
   ) { }
 
+  // ──────────────────────────────────── Signup ────────────────────────────────────
 
-  async signup(signupDto: SignupDto): Promise<{ message: string; user: Partial<User> }> {
+  async signup(signupDto: SignupDto): Promise<{ message: string; user: any }> {
     this.validateProfiles(signupDto);
 
-    const existingUser = await this.userModel.findOne({ email: signupDto.email });
+    const existingUser = await this.usersRepository.findByEmail(signupDto.email);
     if (existingUser) {
       throw new ConflictException('Email already in use');
     }
@@ -42,45 +52,31 @@ export class AuthService {
     const { password, userType, studentProfile, professionalProfile, ...rest } = signupDto;
     const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
 
-    const user = new this.userModel({
+    const savedUser = await this.usersRepository.create({
       ...rest,
       password: hashedPassword,
       userType,
       studentProfile: (userType === UserType.STUDENT || userType === UserType.HYBRID)
-        ? studentProfile
+        ? studentProfile as any
         : undefined,
       professionalProfile: (userType === UserType.PROFESSIONAL || userType === UserType.HYBRID)
-        ? professionalProfile
+        ? professionalProfile as any
         : undefined,
     });
 
-    const savedUser = await user.save();
-
     try {
-      // Generate OTP and send welcome message together
-      const otpCode = await this.otpService.createOtp(savedUser.id, savedUser.email);
+      const otpCode = await this.otpService.createOtp(savedUser._id as Types.ObjectId, savedUser.email);
       await this.emailService.sendWelcomeAndVerificationEmail(savedUser.email, savedUser.firstName, userType, otpCode);
     } catch (error) {
       console.error('Failed to send welcome email:', error);
-      // We don't throw here to avoid rolling back valid user creation, but in real world maybe we should.
-      // For now, let's just log it so we can debug.
     }
 
-    // Return sanitized user object (using class-transformer would be better globally, but manual here ensures safety immediately)
-    // ...existing code...
-
-    // Return sanitized user object
-    const { password: _password, ...safeUser } = savedUser.toObject();
+    const { password: _password, refreshToken: _rt, ...safeUser } = savedUser.toObject();
 
     return {
       message: 'Signup successful. Please check your email for the verification code.',
       user: safeUser,
     };
-
-// ...existing code...
-
-
-  
   }
 
   private validateProfiles(dto: SignupDto) {
@@ -97,8 +93,10 @@ export class AuthService {
     }
   }
 
+  // ──────────────────────────────────── OTP Verify ────────────────────────────────
+
   async verifyOtp(dto: VerifyOtpDto): Promise<{ message: string }> {
-    const user = await this.userModel.findOne({ email: dto.email });
+    const user = await this.usersRepository.findByEmail(dto.email);
     if (!user) {
       throw new BadRequestException('User not found');
     }
@@ -108,57 +106,77 @@ export class AuthService {
     }
 
     try {
-      await this.otpService.verifyOtp(user._id, dto.code);
-      user.isVerified = true;
-      await user.save();
+      await this.otpService.verifyOtp(user._id as Types.ObjectId, dto.code);
+      await this.usersRepository.markVerified(user._id as any);
       return { message: 'OTP verified successfully. Account activated.' };
     } catch (error) {
       console.error(`OTP Verification failed for ${dto.email}:`, error.message);
-      throw error; // Re-throw the BadRequestException from OtpService
+      throw error;
     }
   }
 
-  async resendOtp(dto: ResendOtpDto) {
-    const user = await this.userModel.findOne({ email: dto.email });
-    if (!user) throw new BadRequestException('User not found');
+  // ──────────────────────────────── Resend OTP (anti-enumeration) ─────────────────
 
-    const otp = await this.otpService.createOtp(user._id, user.email);
+  async resendOtp(dto: ResendOtpDto) {
+    const user = await this.usersRepository.findByEmail(dto.email);
+    // Return generic message even if user not found — prevents email enumeration
+    if (!user) {
+      return { message: 'If an account with this email exists, a new verification code has been sent.' };
+    }
+
+    const otp = await this.otpService.createOtp(user._id as Types.ObjectId, user.email);
     await this.emailService.sendResendOtpEmail(user.email, user.firstName, otp);
 
-    return { message: 'New verification code sent successfully.' };
+    return { message: 'If an account with this email exists, a new verification code has been sent.' };
   }
+
+  // ──────────────────────────────────── Login ─────────────────────────────────────
+
   async login(dto: LoginDto): Promise<{ accessToken: string; refreshToken: string }> {
-    const user = await this.userModel.findOne({ email: dto.email });
+    const user = await this.usersRepository.findByEmail(dto.email);
     if (!user) throw new UnauthorizedException('Invalid credentials');
 
     const valid = await bcrypt.compare(dto.password, user.password);
     if (!valid) throw new UnauthorizedException('Invalid credentials');
     if (!user.isVerified) throw new UnauthorizedException('Please verify your email first');
 
-    const tokens = await this.getTokens(user._id, user.email, user.userType);
-    await this.updateRtHash(user._id, tokens.refreshToken);
+    const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
+    await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     return tokens;
   }
 
-  async logout(userId: string) {
-    await this.userModel.updateOne({ _id: userId }, { refreshToken: null });
+  // ────────────────────────────── Logout (with AT blacklist) ──────────────────────
+
+  async logout(userId: string, accessToken?: string) {
+    await this.usersRepository.clearRefreshToken(userId);
+
+    // Blacklist the access token in Redis so it cannot be reused until it expires
+    if (accessToken) {
+      await this.cacheManager.set(
+        `bl_${accessToken}`,
+        '1',
+        AT_BLACKLIST_TTL * 1000, // cache-manager expects ms
+      );
+    }
   }
 
+  // ──────────────────────────────── Refresh Tokens ────────────────────────────────
+
   async refreshTokens(userId: string, rt: string) {
-    const user = await this.userModel.findById(userId);
+    const user = await this.usersRepository.findById(userId);
     if (!user || !user.refreshToken) throw new UnauthorizedException('Access Denied');
 
     const rtMatches = await bcrypt.compare(rt, user.refreshToken);
     if (!rtMatches) throw new UnauthorizedException('Access Denied');
 
-    const tokens = await this.getTokens(user._id, user.email, user.userType);
-    await this.updateRtHash(user._id, tokens.refreshToken);
+    const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
+    await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     return tokens;
   }
 
   async updateRtHash(userId: Types.ObjectId, rt: string) {
     const hash = await bcrypt.hash(rt, SALT_ROUNDS);
-    await this.userModel.updateOne({ _id: userId }, { refreshToken: hash });
+    await this.usersRepository.updateRefreshToken(userId, hash);
   }
 
   async getTokens(userId: any, email: string, userType: string) {
@@ -179,55 +197,59 @@ export class AuthService {
       ),
     ]);
 
-    return {
-      accessToken: at,
-      refreshToken: rt,
-    };
+    return { accessToken: at, refreshToken: rt };
   }
+
+  // ────────────────────────── Forgot Password (anti-enumeration) ─────────────────
 
   async forgotPassword(dto: ForgotPasswordDto) {
-    const user = await this.userModel.findOne({ email: dto.email });
-    if (!user) throw new BadRequestException('User not found');
+    const user = await this.usersRepository.findByEmail(dto.email);
+    // Return generic success even if user not found — prevents email enumeration
+    if (!user) {
+      return { message: 'If an account with this email exists, a password reset code has been sent.' };
+    }
 
-    const otp = await this.otpService.createOtp(user._id, user.email);
+    const otp = await this.otpService.createOtp(user._id as Types.ObjectId, user.email);
     await this.emailService.sendPasswordReset(user.email, otp);
-    return { message: 'Password reset code sent' };
+    return { message: 'If an account with this email exists, a password reset code has been sent.' };
   }
 
+  // ──────────────────────────────── Reset Password ────────────────────────────────
+
   async resetPassword(dto: ResetPasswordDto) {
-    const user = await this.userModel.findOne({ email: dto.email });
+    const user = await this.usersRepository.findByEmail(dto.email);
     if (!user) throw new BadRequestException('Email not found');
 
-    await this.otpService.verifyOtp(user._id, dto.code);
-    user.password = await bcrypt.hash(dto.newPassword, SALT_ROUNDS);
-    await user.save();
+    await this.otpService.verifyOtp(user._id as Types.ObjectId, dto.code);
+    const hashedPassword = await bcrypt.hash(dto.newPassword, SALT_ROUNDS);
+    await this.usersRepository.updatePassword(user._id as any, hashedPassword);
 
     return { message: 'Password reset successful' };
   }
 
-  async validateSocialLogin(profile: any): Promise<any> {
-    const { email, firstName, lastName, socialId, provider, picture } = profile;
+  // ──────────────────────────────── Social Login ─────────────────────────────────
 
-    // 1. Check if user exists by email
-    let user = await this.userModel.findOne({ email });
+  async validateSocialLogin(profile: any): Promise<any> {
+    const { email, firstName, lastName, socialId, provider } = profile;
+
+    let user: any = await this.usersRepository.findByEmail(email);
 
     if (user) {
-      // 2. If exists, update social ID if not present (Account linking)
+      // Account linking: attach social ID if not already linked
       if (!user.socialId) {
-        user.socialId = socialId;
-        user.provider = provider;
-        await user.save();
+        await this.usersRepository.updateSocialId(user._id as any, socialId, provider);
       }
       return user;
     }
 
-    // 3. Create new user
-    // Note: We need a password for the schema even if social login.
-    // We'll generate a random strong password.
-    const randomPassword = crypto.randomBytes(16).toString('hex') + '1A!';
+    // Create new social user
+    // Note: Generate a strong random password for the schema even though social users don't use it
+    const randomPassword = crypto.randomBytes(32).toString('hex');
     const hashedPassword = await bcrypt.hash(randomPassword, SALT_ROUNDS);
 
-    user = new this.userModel({
+    // TODO: Allow social users to choose their profile type (Student/Professional/Hybrid) after first login.
+    // Currently defaults to STUDENT for auto-created social accounts.
+    user = await this.usersRepository.create({
       email,
       firstName,
       lastName,
@@ -239,7 +261,6 @@ export class AuthService {
       isVerified: true,
     });
 
-    await user.save();
     return user;
   }
 }

@@ -4,6 +4,7 @@ import { AppModule } from './app.module';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import helmet from 'helmet';
 import compression from 'compression';
+import { ConfigService } from '@nestjs/config';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -13,7 +14,19 @@ async function bootstrap() {
   // Security & Optimization
   app.use(helmet());
   app.use(compression());
-  app.enableCors(); // Configure specifically for production as needed
+
+  // CORS — restrict origins from env; allow all only in development
+  const configService = app.get(ConfigService);
+  const allowedOrigins = configService.get<string>('ALLOWED_ORIGINS');
+  const nodeEnv = configService.get<string>('NODE_ENV');
+  app.enableCors({
+    origin: nodeEnv === 'development' && !allowedOrigins
+      ? true
+      : allowedOrigins?.split(',').map((o) => o.trim()) || [],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  });
 
   app.useGlobalPipes(new ValidationPipe({
     whitelist: true,

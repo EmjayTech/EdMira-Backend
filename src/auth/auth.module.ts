@@ -12,7 +12,7 @@ import { OtpService } from '../otp/otp.service';
 import { OtpRepository } from '../otp/otp.repository';
 import { JwtStrategy } from './jwt/jwt.strategy';
 import { RtStrategy } from './jwt/rt.strategy';
-import { GoogleStrategy } from './strategies/google.strategy'; // Social Strategies
+import { GoogleStrategy } from './strategies/google.strategy';
 import { LinkedInStrategy } from './strategies/linkedin.strategy';
 import { MicrosoftStrategy } from './strategies/microsoft.strategy';
 import { AppleStrategy } from './strategies/apple.strategy';
@@ -20,18 +20,19 @@ import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
 import { RolesGuard } from '../common/guards/roles.guard';
 import { EmailService } from '../mailer/mailer.service';
 import { Otp, OtpSchema } from '../otp/schema/otp.schema';
-import { User, userModel } from '../users/model/user.model';
+import { UserModule } from '../users/user.module';
 
 
 @Module({
   imports: [
     ConfigModule,
     PassportModule,
+    UserModule,
+
     /**
-     * ✅ Mongoose Schemas
+     * ✅ Mongoose Schemas (OTP only — User is provided by UserModule)
      */
     MongooseModule.forFeature([
-      { name: User.name, schema: userModel },
       { name: Otp.name, schema: OtpSchema },
     ]),
 
@@ -58,7 +59,7 @@ import { User, userModel } from '../users/model/user.model';
     OtpRepository,
     EmailService,
     JwtStrategy,
-    RtStrategy, // Added RtStrategy to providers
+    RtStrategy,
     GoogleStrategy,
     LinkedInStrategy,
     MicrosoftStrategy,
