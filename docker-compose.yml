@@ -4,6 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
       target: development
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
     ports:
       - '4000:4000'
     volumes:

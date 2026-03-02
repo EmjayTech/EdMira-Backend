@@ -13,7 +13,7 @@ export class EmailService implements OnModuleInit {
     this.transporter = nodemailer.createTransport({
       host: this.getEnv('MAIL_HOST'),
       port: Number(this.getEnv('MAIL_PORT')),
-      secure: false,
+      secure: this.configService.get<string>('MAIL_SECURE') === 'true',
       auth: {
         user: this.getEnv('MAIL_USER'),
         pass: this.getEnv('MAIL_PASSWORD'),
