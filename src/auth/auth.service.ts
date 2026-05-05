@@ -10,7 +10,6 @@ import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
 import { Types } from 'mongoose';
 import * as bcrypt from 'bcrypt';
-import * as crypto from 'crypto';
 import { JWT_ACCESS_EXPIRATION, JWT_REFRESH_EXPIRATION, SALT_ROUNDS } from '../common/config/constants';
 import { SignupDto } from './dto/signup.dto';
 import { EmailService } from '../mailer/mailer.service';
@@ -225,42 +224,5 @@ export class AuthService {
     await this.usersRepository.updatePassword(user._id as any, hashedPassword);
 
     return { message: 'Password reset successful' };
-  }
-
-  // ──────────────────────────────── Social Login ─────────────────────────────────
-
-  async validateSocialLogin(profile: any): Promise<any> {
-    const { email, firstName, lastName, socialId, provider } = profile;
-
-    let user: any = await this.usersRepository.findByEmail(email);
-
-    if (user) {
-      // Account linking: attach social ID if not already linked
-      if (!user.socialId) {
-        await this.usersRepository.updateSocialId(user._id as any, socialId, provider);
-      }
-      return user;
-    }
-
-    // Create new social user
-    // Note: Generate a strong random password for the schema even though social users don't use it
-    const randomPassword = crypto.randomBytes(32).toString('hex');
-    const hashedPassword = await bcrypt.hash(randomPassword, SALT_ROUNDS);
-
-    // TODO: Allow social users to choose their profile type (Student/Professional/Hybrid) after first login.
-    // Currently defaults to STUDENT for auto-created social accounts.
-    user = await this.usersRepository.create({
-      email,
-      firstName,
-      lastName,
-      username: email.split('@')[0],
-      password: hashedPassword,
-      socialId,
-      provider,
-      userType: UserType.STUDENT,
-      isVerified: true,
-    });
-
-    return user;
   }
 }

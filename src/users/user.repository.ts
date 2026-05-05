@@ -1,4 +1,4 @@
-import { Injectable, ConflictException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { User, UserDocument } from './model/user.model';
@@ -42,16 +42,6 @@ export class UsersRepository {
   async clearRefreshToken(userId: string | Types.ObjectId) {
     return this.userModel
       .updateOne({ _id: userId }, { refreshToken: null })
-      .exec();
-  }
-
-  async updateSocialId(
-    userId: string | Types.ObjectId,
-    socialId: string,
-    provider: string,
-  ) {
-    return this.userModel
-      .findByIdAndUpdate(userId, { socialId, provider }, { new: true })
       .exec();
   }
 }

@@ -82,12 +82,6 @@ export class User {
   @Exclude()
   @Prop()
   refreshToken?: string;
-
-  @Prop()
-  socialId?: string;
-
-  @Prop()
-  provider?: string;
 }
 
 export type UserDocument = User & mongoose.Document;
