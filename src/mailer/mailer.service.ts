@@ -1,41 +1,17 @@
-// src/mail/email.service.ts
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+// src/mailer/mailer.service.ts
+import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import * as nodemailer from 'nodemailer';
-import { Transporter } from 'nodemailer';
+import { Resend } from 'resend';
 
 @Injectable()
-export class EmailService implements OnModuleInit {
+export class EmailService {
   private readonly logger = new Logger(EmailService.name);
-  private transporter: Transporter;
+  private readonly resend: Resend;
+  private readonly from: string;
 
   constructor(private readonly configService: ConfigService) {
-    this.transporter = nodemailer.createTransport({
-      host: this.getEnv('MAIL_HOST'),
-      port: Number(this.getEnv('MAIL_PORT')),
-      secure: this.configService.get<string>('MAIL_SECURE') === 'true',
-      auth: {
-        user: this.getEnv('MAIL_USER'),
-        pass: this.getEnv('MAIL_PASSWORD'),
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-  }
-
-
-  async onModuleInit() {
-    try {
-      await this.transporter.verify();
-      this.logger.log('Gmail SMTP connection established successfully');
-    } catch (error) {
-      this.logger.error(' Gmail SMTP connection failed', error);
-      if (this.configService.get<string>('NODE_ENV') === 'production') {
-        throw error;
-      }
-      this.logger.warn('Continuing startup without SMTP in non-production environment');
-    }
+    this.resend = new Resend(this.getEnv('RESEND_API_KEY'));
+    this.from = this.getEnv('MAIL_FROM');
   }
 
   async sendWelcomeAndVerificationEmail(
@@ -46,7 +22,7 @@ export class EmailService implements OnModuleInit {
   ): Promise<void> {
     await this.sendMail({
       to: email,
-      subject: 'Welcome to EdMira Verify Your Account',
+      subject: 'Welcome to EdMira — Verify Your Account',
       html: this.getWelcomeVerificationTemplate(firstName, userType, code),
     });
   }
@@ -58,7 +34,7 @@ export class EmailService implements OnModuleInit {
   ): Promise<void> {
     await this.sendMail({
       to: email,
-      subject: 'EdMira Your New Verification Code',
+      subject: 'EdMira — Your New Verification Code',
       html: this.getResendOtpTemplate(firstName, code),
     });
   }
@@ -66,7 +42,7 @@ export class EmailService implements OnModuleInit {
   async sendPasswordReset(email: string, code: string): Promise<void> {
     await this.sendMail({
       to: email,
-      subject: 'Reset Your Password EdMira',
+      subject: 'Reset Your Password — EdMira',
       html: `
         <h2>Password Reset</h2>
         <p>Your reset code is:</p>
@@ -76,22 +52,20 @@ export class EmailService implements OnModuleInit {
     });
   }
 
-  private async sendMail(options: {
-    to: string;
-    subject: string;
-    html: string;
-  }): Promise<void> {
-    try {
-      await this.transporter.sendMail({
-        from: `EdMira <${this.getEnv('MAIL_FROM')}>`,
-        ...options,
-      });
+  private async sendMail(options: { to: string; subject: string; html: string }): Promise<void> {
+    const { data, error } = await this.resend.emails.send({
+      from: this.from,
+      to: options.to,
+      subject: options.subject,
+      html: options.html,
+    });
 
-      this.logger.log(`Email sent to ${options.to}`);
-    } catch (error) {
-      this.logger.error(`Failed to send email to ${options.to}`, error);
-      throw error;
+    if (error) {
+      this.logger.error(`Failed to send email to ${options.to}: ${error.message}`);
+      throw new Error(`Email send failed: ${error.message}`);
     }
+
+    this.logger.log(`Email sent to ${options.to} (id=${data?.id})`);
   }
 
   private getEnv(key: string): string {
