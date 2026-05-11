@@ -1,4 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Document } from 'mongoose';
 import { Department } from 'src/common/enum/department.enum';
 import { Institution } from 'src/common/enum/institution.enum';
 import { Level, LevelType } from 'src/common/enum/level.enum';

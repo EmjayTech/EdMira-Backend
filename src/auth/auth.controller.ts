@@ -22,18 +22,18 @@ export class AuthController {
 
   @Public()
   @Post('signup')
-  @ApiOperation({ summary: 'Register a new user' })
-  @ApiResponse({ status: 201, description: 'User successfully registered. OTP sent.' })
-  @ApiResponse({ status: 409, description: 'Email already exists.' })
+  @ApiOperation({ summary: 'Initiate signup — OTP is emailed; account is only created after /verify succeeds' })
+  @ApiResponse({ status: 201, description: 'OTP sent. No account is created yet — call /verify with the code to finalize signup.' })
+  @ApiResponse({ status: 409, description: 'Email already in use.' })
   signup(@Body() signUp: SignupDto) {
     return this.authService.signup(signUp);
   }
 
   @Public()
   @Post('verify')
-  @ApiOperation({ summary: 'Verify email with OTP' })
-  @ApiResponse({ status: 201, description: 'Email verified successfully.' })
-  @ApiResponse({ status: 400, description: 'Invalid or expired OTP.' })
+  @ApiOperation({ summary: 'Verify signup OTP and create the user account' })
+  @ApiResponse({ status: 201, description: 'OTP verified, account created, access + refresh tokens returned.' })
+  @ApiResponse({ status: 400, description: 'Invalid, expired, or missing pending signup OTP.' })
   verify(@Body() otp: VerifyOtpDto) {
     return this.authService.verifyOtp(otp);
   }

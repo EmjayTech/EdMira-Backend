@@ -10,6 +10,7 @@ import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
 import { Types } from 'mongoose';
 import * as bcrypt from 'bcrypt';
+import * as crypto from 'crypto';
 import { JWT_ACCESS_EXPIRATION, JWT_REFRESH_EXPIRATION, SALT_ROUNDS } from '../common/config/constants';
 import { SignupDto } from './dto/signup.dto';
 import { EmailService } from '../mailer/mailer.service';
@@ -27,6 +28,20 @@ import { UsersRepository } from '../users/user.repository';
 /** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
 const AT_BLACKLIST_TTL = 15 * 60;
 
+/** Pending-signup OTP/cache settings */
+const PENDING_SIGNUP_TTL_MS = 10 * 60 * 1000;
+const OTP_RESEND_COOLDOWN_MS = 60 * 1000;
+const MAX_OTP_ATTEMPTS = 3;
+const pendingKey = (email: string) => `pending_signup:${email.toLowerCase()}`;
+
+type PendingSignup = {
+  payload: SignupDto & { password: string };
+  otpHash: string;
+  expiresAt: number;
+  attemptCount: number;
+  lastOtpIssuedAt: number;
+};
+
 @Injectable()
 export class AuthService {
   constructor(
@@ -40,7 +55,7 @@ export class AuthService {
 
   // ──────────────────────────────────── Signup ────────────────────────────────────
 
-  async signup(signupDto: SignupDto): Promise<{ message: string; user: any }> {
+  async signup(signupDto: SignupDto): Promise<{ message: string }> {
     this.validateProfiles(signupDto);
 
     const existingUser = await this.usersRepository.findByEmail(signupDto.email);
@@ -48,34 +63,53 @@ export class AuthService {
       throw new ConflictException('Email already in use');
     }
 
-    const { password, userType, studentProfile, professionalProfile, ...rest } = signupDto;
-    const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
-
-    const savedUser = await this.usersRepository.create({
-      ...rest,
-      password: hashedPassword,
-      userType,
-      studentProfile: (userType === UserType.STUDENT || userType === UserType.HYBRID)
-        ? studentProfile as any
-        : undefined,
-      professionalProfile: (userType === UserType.PROFESSIONAL || userType === UserType.HYBRID)
-        ? professionalProfile as any
-        : undefined,
-    });
-
-    try {
-      const otpCode = await this.otpService.createOtp(savedUser._id as Types.ObjectId, savedUser.email);
-      await this.emailService.sendWelcomeAndVerificationEmail(savedUser.email, savedUser.firstName, userType, otpCode);
-    } catch (error) {
-      console.error('Failed to send welcome email:', error);
+    const existingPending = await this.cacheManager.get<PendingSignup>(pendingKey(signupDto.email));
+    if (existingPending) {
+      const elapsed = Date.now() - existingPending.lastOtpIssuedAt;
+      if (elapsed < OTP_RESEND_COOLDOWN_MS) {
+        const remaining = Math.ceil((OTP_RESEND_COOLDOWN_MS - elapsed) / 1000);
+        throw new BadRequestException(
+          `A verification code was recently sent. Please wait ${remaining} seconds before requesting a new one.`,
+        );
+      }
     }
 
-    const { password: _password, refreshToken: _rt, ...safeUser } = savedUser.toObject();
+    const hashedPassword = await bcrypt.hash(signupDto.password, SALT_ROUNDS);
+    const otpCode = this.generateOtpCode();
+    const now = Date.now();
+
+    const pending: PendingSignup = {
+      payload: { ...signupDto, password: hashedPassword },
+      otpHash: this.hashOtp(otpCode),
+      expiresAt: now + PENDING_SIGNUP_TTL_MS,
+      attemptCount: 0,
+      lastOtpIssuedAt: now,
+    };
+
+    await this.cacheManager.set(pendingKey(signupDto.email), pending, PENDING_SIGNUP_TTL_MS);
+
+    try {
+      await this.emailService.sendWelcomeAndVerificationEmail(
+        signupDto.email,
+        signupDto.firstName,
+        signupDto.userType,
+        otpCode,
+      );
+    } catch (error) {
+      console.error('Failed to send verification email:', error);
+    }
 
     return {
-      message: 'Signup successful. Please check your email for the verification code.',
-      user: safeUser,
+      message: 'Signup initiated. Please check your email for the verification code. Your account will be created after verification.',
     };
+  }
+
+  private generateOtpCode(): string {
+    return crypto.randomInt(100000, 999999).toString();
+  }
+
+  private hashOtp(code: string): string {
+    return crypto.createHash('sha256').update(code).digest('hex');
   }
 
   private validateProfiles(dto: SignupDto) {
@@ -94,39 +128,97 @@ export class AuthService {
 
   // ──────────────────────────────────── OTP Verify ────────────────────────────────
 
-  async verifyOtp(dto: VerifyOtpDto): Promise<{ message: string }> {
-    const user = await this.usersRepository.findByEmail(dto.email);
-    if (!user) {
-      throw new BadRequestException('User not found');
+  async verifyOtp(dto: VerifyOtpDto): Promise<{ message: string; user: any; accessToken: string; refreshToken: string }> {
+    const key = pendingKey(dto.email);
+    const pending = await this.cacheManager.get<PendingSignup>(key);
+
+    if (!pending) {
+      throw new BadRequestException('No pending signup for this email or it has expired. Please sign up again.');
     }
 
-    if (user.isVerified) {
-      return { message: 'User is already verified' };
+    if (Date.now() > pending.expiresAt) {
+      await this.cacheManager.del(key);
+      throw new BadRequestException('Verification code has expired. Please sign up again.');
     }
 
-    try {
-      await this.otpService.verifyOtp(user._id as Types.ObjectId, dto.code);
-      await this.usersRepository.markVerified(user._id as any);
-      return { message: 'OTP verified successfully. Account activated.' };
-    } catch (error) {
-      console.error(`OTP Verification failed for ${dto.email}:`, error.message);
-      throw error;
+    if (pending.attemptCount >= MAX_OTP_ATTEMPTS) {
+      await this.cacheManager.del(key);
+      throw new BadRequestException('Too many failed attempts. Please sign up again.');
     }
+
+    if (pending.otpHash !== this.hashOtp(dto.code)) {
+      pending.attemptCount += 1;
+      const remainingTtl = Math.max(pending.expiresAt - Date.now(), 1000);
+      await this.cacheManager.set(key, pending, remainingTtl);
+      const remaining = MAX_OTP_ATTEMPTS - pending.attemptCount;
+      throw new BadRequestException(
+        `Invalid OTP. ${remaining > 0 ? `${remaining} attempt(s) left.` : 'Account locked.'}`,
+      );
+    }
+
+    // Double-check email wasn't taken while pending (race condition guard)
+    const collision = await this.usersRepository.findByEmail(dto.email);
+    if (collision) {
+      await this.cacheManager.del(key);
+      throw new ConflictException('Email already in use');
+    }
+
+    const { password, userType, studentProfile, professionalProfile, ...rest } = pending.payload;
+
+    const savedUser = await this.usersRepository.create({
+      ...rest,
+      password,
+      userType,
+      studentProfile: (userType === UserType.STUDENT || userType === UserType.HYBRID)
+        ? studentProfile as any
+        : undefined,
+      professionalProfile: (userType === UserType.PROFESSIONAL || userType === UserType.HYBRID)
+        ? professionalProfile as any
+        : undefined,
+      isVerified: true,
+    });
+
+    await this.cacheManager.del(key);
+
+    const tokens = await this.getTokens(savedUser._id as Types.ObjectId, savedUser.email, savedUser.userType);
+    await this.updateRtHash(savedUser._id as Types.ObjectId, tokens.refreshToken);
+
+    const { password: _p, refreshToken: _rt, ...safeUser } = savedUser.toObject();
+
+    return {
+      message: 'Email verified successfully. Account created.',
+      user: safeUser,
+      ...tokens,
+    };
   }
 
-  // ──────────────────────────────── Resend OTP (anti-enumeration) ─────────────────
+  // ──────────────────────────────── Resend OTP (pending signups) ──────────────────
 
   async resendOtp(dto: ResendOtpDto) {
-    const user = await this.usersRepository.findByEmail(dto.email);
-    // Return generic message even if user not found — prevents email enumeration
-    if (!user) {
-      return { message: 'If an account with this email exists, a new verification code has been sent.' };
+    const key = pendingKey(dto.email);
+    const pending = await this.cacheManager.get<PendingSignup>(key);
+
+    // Generic response when nothing pending — avoids leaking existence
+    if (!pending) {
+      return { message: 'If a pending signup with this email exists, a new verification code has been sent.' };
     }
 
-    const otp = await this.otpService.createOtp(user._id as Types.ObjectId, user.email);
-    await this.emailService.sendResendOtpEmail(user.email, user.firstName, otp);
+    const elapsed = Date.now() - pending.lastOtpIssuedAt;
+    if (elapsed < OTP_RESEND_COOLDOWN_MS) {
+      const remaining = Math.ceil((OTP_RESEND_COOLDOWN_MS - elapsed) / 1000);
+      throw new BadRequestException(`Please wait ${remaining} seconds before requesting a new OTP.`);
+    }
 
-    return { message: 'If an account with this email exists, a new verification code has been sent.' };
+    const otpCode = this.generateOtpCode();
+    pending.otpHash = this.hashOtp(otpCode);
+    pending.lastOtpIssuedAt = Date.now();
+    pending.attemptCount = 0;
+    pending.expiresAt = Date.now() + PENDING_SIGNUP_TTL_MS;
+
+    await this.cacheManager.set(key, pending, PENDING_SIGNUP_TTL_MS);
+    await this.emailService.sendResendOtpEmail(pending.payload.email, pending.payload.firstName, otpCode);
+
+    return { message: 'If a pending signup with this email exists, a new verification code has been sent.' };
   }
 
   // ──────────────────────────────────── Login ─────────────────────────────────────
