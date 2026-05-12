@@ -317,4 +317,13 @@ export class AuthService {
 
     return { message: 'Password reset successful' };
   }
+
+  async getFullProfile(userId: string) {
+  const user = await this.usersRepository.findById(userId);
+  if (!user) throw new UnauthorizedException('User not found');
+
+  // Strip sensitive fields
+  const { password, refreshToken, ...safeUser } = user.toObject();
+  return safeUser;
+}
 }

@@ -74,9 +74,9 @@ export class AuthController {
   @UseInterceptors(CacheInterceptor)
   @CacheKey('user_profile')
   @CacheTTL(300) // 5 minutes
-  getProfile(@GetCurrentUser() user: any) {
-    return user;
-  }
+  getProfile(@GetCurrentUser('userId') userId: string) {
+  return this.authService.getFullProfile(userId);
+}
 
   @Public()
   @UseGuards(RtGuard)
