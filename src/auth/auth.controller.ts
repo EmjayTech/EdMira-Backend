@@ -1,5 +1,4 @@
-import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Req, UseInterceptors } from '@nestjs/common';
-import { CacheInterceptor, CacheKey, CacheTTL } from '@nestjs/cache-manager';
+import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Patch, Req } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
@@ -11,6 +10,7 @@ import { ResendOtpDto } from './dto/resend-otp.dto';
 import { ResetPasswordDto } from './dto/rest-password.dto';
 import { SignupDto } from './dto/signup.dto';
 import { VerifyOtpDto } from './dto/verify-otp.dto';
+import { UpdateProfileDto } from './dto/update-profile.dto';
 import { Public } from 'src/common/decorators/public.decorator';
 import { Request } from 'express';
 
@@ -71,12 +71,18 @@ export class AuthController {
   @ApiBearerAuth()
   @ApiOperation({ summary: 'Get current user profile' })
   @ApiResponse({ status: 200, description: 'Returns user profile.' })
-  @UseInterceptors(CacheInterceptor)
-  @CacheKey('user_profile')
-  @CacheTTL(300) // 5 minutes
+  // Not cached: a fixed cache key would serve one user's profile to others.
   getProfile(@GetCurrentUser('userId') userId: string) {
-  return this.authService.getFullProfile(userId);
-}
+    return this.authService.getFullProfile(userId);
+  }
+
+  @Patch('profile')
+  @ApiBearerAuth()
+  @ApiOperation({ summary: 'Update name and academic info of the current user' })
+  @ApiResponse({ status: 200, description: 'Returns the updated profile.' })
+  updateProfile(@GetCurrentUser('userId') userId: string, @Body() dto: UpdateProfileDto) {
+    return this.authService.updateProfile(userId, dto);
+  }
 
   @Public()
   @UseGuards(RtGuard)

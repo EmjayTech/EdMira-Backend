@@ -9,5 +9,11 @@ export enum Level {
   LEVEL_300 = '300 Level',
   LEVEL_400 = '400 Level',
   LEVEL_500 = '500 Level',
-  LEVEL_600 = '600 Level'
+  LEVEL_600 = '600 Level',
+
+  // Postgraduate
+  MSC = 'Master of Science (M.Sc.)',
+  MPHIL = 'Master of Philosophy (M.Phil.)',
+  PHD = 'Doctor of Philosophy (Ph.D.)',
+  HIGHER_DOCTORATE = 'Higher Doctorates',
 }

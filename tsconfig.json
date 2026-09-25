@@ -9,7 +9,9 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "target": "ES2021",
-    "lib": ["ES2021"],
+    "lib": [
+      "ES2021"
+    ],
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
@@ -25,8 +27,14 @@
       "src/*": [
         "./src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

@@ -55,4 +55,7 @@ export class SignupDto {
 
   @ApiProperty({ example: '8012345678', required: false })
   @IsOptional() @IsString() phoneNumber?: string;
+
+  @ApiProperty({ example: 'ADA2026', required: false })
+  @IsOptional() @IsString() referralCode?: string;
 }

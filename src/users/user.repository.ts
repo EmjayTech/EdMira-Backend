@@ -39,6 +39,13 @@ export class UsersRepository {
       .exec();
   }
 
+  /** `$set` specific (possibly nested, dotted) fields; returns the updated user. */
+  async updateFields(userId: string | Types.ObjectId, fields: Record<string, unknown>) {
+    return this.userModel
+      .findByIdAndUpdate(userId, { $set: fields }, { new: true, runValidators: true })
+      .exec();
+  }
+
   async clearRefreshToken(userId: string | Types.ObjectId) {
     return this.userModel
       .updateOne({ _id: userId }, { refreshToken: null })

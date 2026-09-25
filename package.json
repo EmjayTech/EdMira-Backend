@@ -7,25 +7,12 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "build": "nest build",
-    "test": "jest --runInBand",
+    "test": "jest --config jest.config.js --runInBand",
     "test:watch": "jest --watch",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testEnvironment": "node",
-    "testRegex": ".*\\.spec\\.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "moduleNameMapper": {
-      "^src/(.*)$": "<rootDir>/$1"
-    }
+    "test:e2e": "jest --config ./test/jest-e2e.json --runInBand",
+    "seed": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/seed/seed.ts",
+    "start:prod": "node dist/main",
+    "dev:memory": "ts-node --transpile-only -r tsconfig-paths/register test/support/dev-server.ts"
   },
   "dependencies": {
     "@nestjs/cache-manager": "^3.0.1",

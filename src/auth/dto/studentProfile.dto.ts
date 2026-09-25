@@ -14,7 +14,7 @@ const LEVEL_BY_DIGITS: Record<string, Level> = {
   '600': Level.LEVEL_600,
 };
 
-function normalizeLevel(value: unknown): unknown {
+export function normalizeLevel(value: unknown): unknown {
   if (typeof value !== 'string') return value;
   const match = value.trim().match(/^(\d{3})\s*(l|level)?$/i);
   if (!match) return value;

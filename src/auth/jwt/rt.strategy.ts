@@ -17,8 +17,11 @@ export class RtStrategy extends PassportStrategy(Strategy, 'jwt-refresh') {
     validate(req: Request, payload: any) {
         const authorizationHeader = req.get('Authorization');
         const refreshToken = authorizationHeader?.replace(/^Bearer\s+/i, '').trim() ?? '';
+        // Same shape as JwtStrategy, so @GetCurrentUser('userId') works here too.
         return {
-            ...payload,
+            userId: payload.sub,
+            email: payload.email,
+            userType: payload.userType,
             refreshToken,
         };
     }

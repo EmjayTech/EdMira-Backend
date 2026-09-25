@@ -6,6 +6,11 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { HealthModule } from './health/health.module';
+import { ContentModule } from './content/content.module';
+import { FeedbackModule } from './feedback/feedback.module';
+import { NewsModule } from './news/news.module';
+import { QuizModule } from './quiz/quiz.module';
+import { ReferenceModule } from './reference/reference.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import { redisStore } from 'cache-manager-redis-store';
 import * as Joi from 'joi';
@@ -67,6 +72,11 @@ import * as Joi from 'joi';
     }),
     AuthModule,
     HealthModule,
+    ReferenceModule,
+    ContentModule,
+    QuizModule,
+    FeedbackModule,
+    NewsModule,
   ],
   providers: [
     {

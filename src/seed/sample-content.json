@@ -1,0 +1,1244 @@
+{
+  "courses": [
+    {
+      "id": "anatomy",
+      "title": "Anatomy",
+      "code": "ANA",
+      "color": "#0A369D",
+      "description": "Structure of the human body — upper limb, thorax and head & neck essentials.",
+      "status": "published"
+    },
+    {
+      "id": "physiology",
+      "title": "Physiology",
+      "code": "PHY",
+      "color": "#0F766E",
+      "description": "How organ systems work — cardiovascular, renal and respiratory physiology.",
+      "status": "published"
+    },
+    {
+      "id": "biochemistry",
+      "title": "Biochemistry",
+      "code": "BCH",
+      "color": "#7C3AED",
+      "description": "Metabolism, enzymes and vitamins that underpin clinical medicine.",
+      "status": "published"
+    },
+    {
+      "id": "pharmacology",
+      "title": "Pharmacology",
+      "code": "PHA",
+      "color": "#C2410C",
+      "description": "Principles of drug action, autonomic drugs and antimicrobials.",
+      "status": "published"
+    },
+    {
+      "id": "pathology",
+      "title": "Pathology",
+      "code": "PAT",
+      "color": "#BE123C",
+      "description": "Mechanisms of disease.",
+      "status": "draft"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ana-brachial-plexus",
+      "courseId": "anatomy",
+      "order": 1,
+      "title": "Brachial Plexus",
+      "summary": "Roots, trunks and the classic nerve injuries of the upper limb.",
+      "readMinutes": 6,
+      "material": [
+        {
+          "heading": "Overview",
+          "body": "The brachial plexus is formed by the anterior rami of C5–T1. It is organised as roots, trunks, divisions, cords and terminal branches, and supplies the skin and muscles of the upper limb.",
+          "keyPoints": [
+            "Roots: C5, C6, C7, C8, T1",
+            "Trunks: upper (C5–6), middle (C7), lower (C8–T1)",
+            "Cords are named by their relation to the axillary artery"
+          ]
+        },
+        {
+          "heading": "Terminal branches",
+          "body": "Five terminal branches arise from the cords: musculocutaneous, axillary, radial, median and ulnar nerves.",
+          "keyPoints": [
+            "Axillary nerve — deltoid, teres minor; at risk in surgical neck fractures",
+            "Radial nerve — extensors; at risk in midshaft humerus fractures (wrist drop)",
+            "Ulnar nerve — most intrinsic hand muscles (claw hand)",
+            "Median nerve — thenar muscles (ape hand, carpal tunnel)"
+          ]
+        },
+        {
+          "heading": "Plexus injuries",
+          "body": "Upper trunk injury (Erb's palsy, C5–C6) gives the \"waiter's tip\" posture. Lower trunk injury (Klumpke's palsy, C8–T1) affects the intrinsic hand muscles and may cause claw hand."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "ana-heart",
+      "courseId": "anatomy",
+      "order": 2,
+      "title": "Anatomy of the Heart",
+      "summary": "Chambers, valves, conducting system and coronary circulation.",
+      "readMinutes": 7,
+      "material": [
+        {
+          "heading": "Chambers and surfaces",
+          "body": "The heart has four chambers. The sternocostal (anterior) surface is formed mainly by the right ventricle, which makes it the most anterior chamber."
+        },
+        {
+          "heading": "Valves",
+          "body": "Atrioventricular valves (tricuspid on the right, mitral on the left) separate atria from ventricles. Semilunar valves (pulmonary and aortic) guard the outflow tracts.",
+          "keyPoints": [
+            "Tricuspid: right atrium → right ventricle",
+            "Mitral (bicuspid): left atrium → left ventricle"
+          ]
+        },
+        {
+          "heading": "Conducting system and blood supply",
+          "body": "The sinoatrial node lies in the wall of the right atrium near the opening of the superior vena cava. The left coronary artery divides into the left anterior descending and circumflex arteries. Most cardiac veins drain into the coronary sinus."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves",
+      "courseId": "anatomy",
+      "order": 3,
+      "title": "Cranial Nerves",
+      "summary": "Functions and foramina of the twelve cranial nerves.",
+      "readMinutes": 8,
+      "material": [
+        {
+          "heading": "Eye movements",
+          "body": "Most extraocular muscles are supplied by the oculomotor nerve (CN III). The exceptions are superior oblique (trochlear, CN IV) and lateral rectus (abducens, CN VI).",
+          "keyPoints": [
+            "Memory aid: LR6 SO4, the rest 3"
+          ]
+        },
+        {
+          "heading": "Face and tongue",
+          "body": "The mandibular division of the trigeminal nerve (V3) supplies the muscles of mastication. Taste from the anterior two-thirds of the tongue travels in the chorda tympani, a branch of the facial nerve (CN VII)."
+        },
+        {
+          "heading": "Skull foramina",
+          "body": "The glossopharyngeal (IX), vagus (X) and accessory (XI) nerves leave the skull through the jugular foramen. The hypoglossal nerve (XII) uses the hypoglossal canal."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle",
+      "courseId": "physiology",
+      "order": 1,
+      "title": "The Cardiac Cycle",
+      "summary": "Pressure and volume changes, heart sounds and cardiac output.",
+      "readMinutes": 7,
+      "material": [
+        {
+          "heading": "Phases",
+          "body": "Each cycle has systole (isovolumetric contraction, ejection) and diastole (isovolumetric relaxation, filling). During the isovolumetric phases all four valves are closed."
+        },
+        {
+          "heading": "Heart sounds",
+          "body": "S1 is caused by closure of the atrioventricular (mitral and tricuspid) valves at the start of systole. S2 is caused by closure of the aortic and pulmonary valves."
+        },
+        {
+          "heading": "Cardiac output",
+          "body": "Cardiac output = heart rate × stroke volume. A typical resting stroke volume is about 70 mL, giving an output of about 5 L/min at 70 beats per minute.",
+          "keyPoints": [
+            "JVP a wave = atrial contraction"
+          ]
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "phy-renal",
+      "courseId": "physiology",
+      "order": 2,
+      "title": "Renal Physiology",
+      "summary": "Filtration, tubular reabsorption and hormonal control.",
+      "readMinutes": 8,
+      "material": [
+        {
+          "heading": "Glomerular filtration",
+          "body": "Normal GFR is about 125 mL/min (about 180 L/day). The macula densa in the distal tubule senses NaCl delivery and helps regulate GFR through tubuloglomerular feedback."
+        },
+        {
+          "heading": "Tubular handling",
+          "body": "The proximal convoluted tubule reabsorbs most filtered sodium, water, and almost all filtered glucose and amino acids."
+        },
+        {
+          "heading": "Hormonal control",
+          "body": "ADH inserts aquaporin-2 channels in the collecting duct, increasing water reabsorption. Aldosterone increases sodium reabsorption and potassium secretion in the distal nephron."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory",
+      "courseId": "physiology",
+      "order": 3,
+      "title": "Respiratory Physiology",
+      "summary": "Lung volumes, control of breathing and oxygen transport.",
+      "readMinutes": 7,
+      "material": [
+        {
+          "heading": "Lung volumes",
+          "body": "Tidal volume at rest is about 500 mL. Residual volume is the air left after maximal expiration and cannot be measured by simple spirometry."
+        },
+        {
+          "heading": "Control of breathing",
+          "body": "In healthy people the main chemical drive to breathe is arterial PCO₂, sensed mainly by central chemoreceptors through changes in CSF H⁺."
+        },
+        {
+          "heading": "Oxygen transport",
+          "body": "Surfactant from type II pneumocytes reduces alveolar surface tension. The oxygen–haemoglobin curve shifts right with increased CO₂, H⁺, temperature and 2,3-BPG."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis",
+      "courseId": "biochemistry",
+      "order": 1,
+      "title": "Glycolysis",
+      "summary": "Steps, regulation and energy yield of glucose breakdown.",
+      "readMinutes": 6,
+      "material": [
+        {
+          "heading": "Overview",
+          "body": "Glycolysis converts glucose to pyruvate in the cytoplasm. Under anaerobic conditions pyruvate is reduced to lactate, regenerating NAD⁺."
+        },
+        {
+          "heading": "Regulation",
+          "body": "Phosphofructokinase-1 (PFK-1) is the rate-limiting enzyme. Hexokinase and pyruvate kinase are the other irreversible steps."
+        },
+        {
+          "heading": "Energy and clinical links",
+          "body": "Anaerobic glycolysis gives a net 2 ATP per glucose. Red cells depend on glycolysis, so pyruvate kinase deficiency causes haemolytic anaemia."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes",
+      "courseId": "biochemistry",
+      "order": 2,
+      "title": "Enzymes & Kinetics",
+      "summary": "How enzymes work and how inhibitors change their kinetics.",
+      "readMinutes": 6,
+      "material": [
+        {
+          "heading": "How enzymes work",
+          "body": "Enzymes speed up reactions by lowering the activation energy. They do not change the equilibrium of the reaction."
+        },
+        {
+          "heading": "Michaelis–Menten kinetics",
+          "body": "Km is the substrate concentration at which the reaction rate is half of Vmax. A lower Km means higher affinity. Allosteric enzymes show sigmoidal rather than hyperbolic kinetics."
+        },
+        {
+          "heading": "Inhibition",
+          "body": "Competitive inhibitors raise Km without changing Vmax. Non-competitive inhibitors lower Vmax without changing Km."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins",
+      "courseId": "biochemistry",
+      "order": 3,
+      "title": "Vitamins",
+      "summary": "Functions and deficiency states of key vitamins.",
+      "readMinutes": 5,
+      "material": [
+        {
+          "heading": "Water-soluble vitamins",
+          "body": "Thiamine (B1) deficiency causes beriberi and Wernicke encephalopathy. Niacin (B3) deficiency causes pellagra. Vitamin C deficiency causes scurvy."
+        },
+        {
+          "heading": "Fat-soluble vitamins",
+          "body": "Vitamin A deficiency causes night blindness. Vitamin K is required for γ-carboxylation of clotting factors II, VII, IX and X."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics",
+      "courseId": "pharmacology",
+      "order": 1,
+      "title": "Pharmacokinetics",
+      "summary": "Absorption, distribution, metabolism and elimination.",
+      "readMinutes": 7,
+      "material": [
+        {
+          "heading": "Bioavailability",
+          "body": "Bioavailability is the fraction of a dose that reaches the systemic circulation unchanged. It is 100% for intravenous drugs. Oral drugs may undergo first-pass metabolism, mainly in the liver."
+        },
+        {
+          "heading": "Distribution and dosing",
+          "body": "The loading dose depends on the volume of distribution. Steady state is reached after about 4–5 half-lives of regular dosing."
+        },
+        {
+          "heading": "Elimination kinetics",
+          "body": "Most drugs follow first-order kinetics. A few, such as ethanol, follow zero-order kinetics — a constant amount is eliminated per unit time."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic",
+      "courseId": "pharmacology",
+      "order": 2,
+      "title": "Autonomic Drugs",
+      "summary": "Cholinergic and adrenergic agonists and antagonists.",
+      "readMinutes": 7,
+      "material": [
+        {
+          "heading": "Cholinergic drugs",
+          "body": "Atropine is a muscarinic antagonist. Organophosphates inhibit acetylcholinesterase; poisoning is treated with atropine and pralidoxime."
+        },
+        {
+          "heading": "Adrenergic drugs",
+          "body": "Salbutamol is a β2 agonist used in asthma. Propranolol is a non-selective β blocker. Intramuscular adrenaline is the first-line treatment for anaphylaxis."
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials",
+      "courseId": "pharmacology",
+      "order": 3,
+      "title": "Antimicrobials",
+      "summary": "Mechanisms and important adverse effects of antibiotics.",
+      "readMinutes": 6,
+      "material": [
+        {
+          "heading": "Mechanisms",
+          "body": "β-lactams such as penicillins inhibit bacterial cell wall synthesis. Aminoglycosides inhibit the 30S ribosomal subunit."
+        },
+        {
+          "heading": "Adverse effects to remember",
+          "body": "Aminoglycosides are nephrotoxic and ototoxic. Chloramphenicol can cause grey baby syndrome. Rifampicin turns body fluids red-orange. Metronidazole with alcohol causes a disulfiram-like reaction."
+        }
+      ],
+      "status": "published"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ana-brachial-plexus-q1",
+      "topicId": "ana-brachial-plexus",
+      "stem": "The brachial plexus is formed by the anterior rami of which spinal nerves?",
+      "options": [
+        "C1–C4",
+        "C5–T1",
+        "T1–T5",
+        "L1–L4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The brachial plexus arises from the anterior rami of C5, C6, C7, C8 and T1. C1–C4 form the cervical plexus.",
+      "status": "published"
+    },
+    {
+      "id": "ana-brachial-plexus-q2",
+      "topicId": "ana-brachial-plexus",
+      "stem": "A newborn delivered with shoulder dystocia holds the arm adducted and internally rotated with the forearm pronated. Which posture is this?",
+      "options": [
+        "Claw hand",
+        "Waiter's tip",
+        "Wrist drop",
+        "Ape hand"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is Erb's palsy from injury to the upper trunk (C5–C6), which produces the \"waiter's tip\" posture.",
+      "status": "published"
+    },
+    {
+      "id": "ana-brachial-plexus-q3",
+      "topicId": "ana-brachial-plexus",
+      "stem": "Which nerve is most at risk in a fracture of the midshaft of the humerus?",
+      "options": [
+        "Axillary nerve",
+        "Radial nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answerIndex": 1,
+      "explanation": "The radial nerve runs in the radial (spiral) groove of the humerus. Injury here causes wrist drop.",
+      "status": "published"
+    },
+    {
+      "id": "ana-brachial-plexus-q4",
+      "topicId": "ana-brachial-plexus",
+      "stem": "A fracture of the surgical neck of the humerus most commonly injures which nerve?",
+      "options": [
+        "Radial nerve",
+        "Median nerve",
+        "Axillary nerve",
+        "Long thoracic nerve"
+      ],
+      "answerIndex": 2,
+      "explanation": "The axillary nerve winds around the surgical neck with the posterior circumflex humeral artery. Injury weakens deltoid and teres minor.",
+      "status": "published"
+    },
+    {
+      "id": "ana-brachial-plexus-q5",
+      "topicId": "ana-brachial-plexus",
+      "stem": "Klumpke's palsy results from injury to which roots?",
+      "options": [
+        "C5–C6",
+        "C6–C7",
+        "C7 only",
+        "C8–T1"
+      ],
+      "answerIndex": 3,
+      "explanation": "Klumpke's palsy is a lower trunk injury (C8–T1), affecting the intrinsic muscles of the hand.",
+      "status": "published"
+    },
+    {
+      "id": "ana-heart-q1",
+      "topicId": "ana-heart",
+      "stem": "Where is the sinoatrial node located?",
+      "options": [
+        "Wall of the right atrium",
+        "Wall of the left atrium",
+        "Interventricular septum",
+        "Apex of the left ventricle"
+      ],
+      "answerIndex": 0,
+      "explanation": "The SA node lies in the wall of the right atrium near the opening of the superior vena cava.",
+      "status": "published"
+    },
+    {
+      "id": "ana-heart-q2",
+      "topicId": "ana-heart",
+      "stem": "The tricuspid valve lies between which two chambers?",
+      "options": [
+        "Left atrium and left ventricle",
+        "Right atrium and right ventricle",
+        "Right ventricle and pulmonary trunk",
+        "Left ventricle and aorta"
+      ],
+      "answerIndex": 1,
+      "explanation": "The tricuspid valve is the right atrioventricular valve. The mitral valve is on the left.",
+      "status": "published"
+    },
+    {
+      "id": "ana-heart-q3",
+      "topicId": "ana-heart",
+      "stem": "The left anterior descending artery is a branch of which vessel?",
+      "options": [
+        "Right coronary artery",
+        "Left coronary artery",
+        "Circumflex artery",
+        "Posterior descending artery"
+      ],
+      "answerIndex": 1,
+      "explanation": "The left coronary artery divides into the left anterior descending and circumflex arteries.",
+      "status": "published"
+    },
+    {
+      "id": "ana-heart-q4",
+      "topicId": "ana-heart",
+      "stem": "Which chamber forms most of the anterior (sternocostal) surface of the heart?",
+      "options": [
+        "Right atrium",
+        "Left atrium",
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "answerIndex": 2,
+      "explanation": "The right ventricle forms most of the sternocostal surface, making it the most anterior chamber.",
+      "status": "published"
+    },
+    {
+      "id": "ana-heart-q5",
+      "topicId": "ana-heart",
+      "stem": "The great cardiac vein drains into the:",
+      "options": [
+        "Superior vena cava",
+        "Coronary sinus",
+        "Left atrium directly",
+        "Inferior vena cava"
+      ],
+      "answerIndex": 1,
+      "explanation": "The great cardiac vein runs with the LAD and drains into the coronary sinus, which opens into the right atrium.",
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves-q1",
+      "topicId": "ana-cranial-nerves",
+      "stem": "Which cranial nerve supplies the lateral rectus muscle?",
+      "options": [
+        "Oculomotor (III)",
+        "Trochlear (IV)",
+        "Abducens (VI)",
+        "Facial (VII)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lateral rectus is supplied by the abducens nerve (LR6). Palsy causes inability to abduct the eye.",
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves-q2",
+      "topicId": "ana-cranial-nerves",
+      "stem": "The superior oblique muscle is supplied by the:",
+      "options": [
+        "Oculomotor nerve",
+        "Trochlear nerve",
+        "Abducens nerve",
+        "Ophthalmic nerve"
+      ],
+      "answerIndex": 1,
+      "explanation": "Superior oblique is supplied by the trochlear nerve (SO4).",
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves-q3",
+      "topicId": "ana-cranial-nerves",
+      "stem": "The muscles of mastication are supplied by the:",
+      "options": [
+        "Facial nerve",
+        "Maxillary nerve (V2)",
+        "Mandibular nerve (V3)",
+        "Hypoglossal nerve"
+      ],
+      "answerIndex": 2,
+      "explanation": "The mandibular division of the trigeminal nerve (V3) supplies the muscles of mastication.",
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves-q4",
+      "topicId": "ana-cranial-nerves",
+      "stem": "Taste from the anterior two-thirds of the tongue is carried by the:",
+      "options": [
+        "Chorda tympani (facial nerve)",
+        "Lingual branch of glossopharyngeal",
+        "Hypoglossal nerve",
+        "Vagus nerve"
+      ],
+      "answerIndex": 0,
+      "explanation": "Taste from the anterior two-thirds travels in the chorda tympani, a branch of the facial nerve. General sensation is via the lingual nerve (V3).",
+      "status": "published"
+    },
+    {
+      "id": "ana-cranial-nerves-q5",
+      "topicId": "ana-cranial-nerves",
+      "stem": "Which cranial nerve passes through the jugular foramen?",
+      "options": [
+        "Hypoglossal",
+        "Vagus",
+        "Facial",
+        "Abducens"
+      ],
+      "answerIndex": 1,
+      "explanation": "CN IX, X and XI pass through the jugular foramen. The hypoglossal nerve uses the hypoglossal canal.",
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle-q1",
+      "topicId": "phy-cardiac-cycle",
+      "stem": "The first heart sound (S1) is caused by:",
+      "options": [
+        "Closure of the aortic and pulmonary valves",
+        "Closure of the mitral and tricuspid valves",
+        "Rapid ventricular filling",
+        "Atrial contraction"
+      ],
+      "answerIndex": 1,
+      "explanation": "S1 marks the start of systole and is caused by closure of the atrioventricular valves.",
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle-q2",
+      "topicId": "phy-cardiac-cycle",
+      "stem": "During isovolumetric contraction:",
+      "options": [
+        "Only the AV valves are open",
+        "Only the semilunar valves are open",
+        "All four valves are closed",
+        "All four valves are open"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pressure rises in a closed ventricle — both AV and semilunar valves are closed, so volume does not change.",
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle-q3",
+      "topicId": "phy-cardiac-cycle",
+      "stem": "A typical resting stroke volume in an adult is about:",
+      "options": [
+        "20 mL",
+        "70 mL",
+        "150 mL",
+        "250 mL"
+      ],
+      "answerIndex": 1,
+      "explanation": "Resting stroke volume is about 70 mL. At 70 beats/min this gives a cardiac output of about 5 L/min.",
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle-q4",
+      "topicId": "phy-cardiac-cycle",
+      "stem": "Cardiac output is calculated as:",
+      "options": [
+        "Heart rate × stroke volume",
+        "Stroke volume ÷ heart rate",
+        "Mean arterial pressure × heart rate",
+        "End-diastolic volume − heart rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cardiac output = heart rate × stroke volume.",
+      "status": "published"
+    },
+    {
+      "id": "phy-cardiac-cycle-q5",
+      "topicId": "phy-cardiac-cycle",
+      "stem": "The \"a\" wave of the jugular venous pulse corresponds to:",
+      "options": [
+        "Ventricular contraction",
+        "Atrial contraction",
+        "Tricuspid valve closure",
+        "Rapid ventricular filling"
+      ],
+      "answerIndex": 1,
+      "explanation": "The a wave is produced by right atrial contraction. It is absent in atrial fibrillation.",
+      "status": "published"
+    },
+    {
+      "id": "phy-renal-q1",
+      "topicId": "phy-renal",
+      "stem": "Most filtered glucose is reabsorbed in the:",
+      "options": [
+        "Proximal convoluted tubule",
+        "Loop of Henle",
+        "Distal convoluted tubule",
+        "Collecting duct"
+      ],
+      "answerIndex": 0,
+      "explanation": "Almost all filtered glucose is reabsorbed in the proximal convoluted tubule via SGLT transporters.",
+      "status": "published"
+    },
+    {
+      "id": "phy-renal-q2",
+      "topicId": "phy-renal",
+      "stem": "A normal adult glomerular filtration rate is approximately:",
+      "options": [
+        "25 mL/min",
+        "60 mL/min",
+        "125 mL/min",
+        "500 mL/min"
+      ],
+      "answerIndex": 2,
+      "explanation": "Normal GFR is about 125 mL/min, or roughly 180 L/day.",
+      "status": "published"
+    },
+    {
+      "id": "phy-renal-q3",
+      "topicId": "phy-renal",
+      "stem": "ADH increases water reabsorption mainly by acting on the:",
+      "options": [
+        "Proximal tubule",
+        "Descending loop of Henle",
+        "Collecting duct",
+        "Glomerulus"
+      ],
+      "answerIndex": 2,
+      "explanation": "ADH acts on V2 receptors in the collecting duct to insert aquaporin-2 channels.",
+      "status": "published"
+    },
+    {
+      "id": "phy-renal-q4",
+      "topicId": "phy-renal",
+      "stem": "Aldosterone acts on the distal nephron to:",
+      "options": [
+        "Decrease sodium reabsorption",
+        "Increase sodium reabsorption and potassium secretion",
+        "Increase glucose reabsorption",
+        "Decrease hydrogen ion secretion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aldosterone increases ENaC and Na⁺/K⁺-ATPase activity, so sodium is reabsorbed and potassium secreted.",
+      "status": "published"
+    },
+    {
+      "id": "phy-renal-q5",
+      "topicId": "phy-renal",
+      "stem": "The macula densa senses:",
+      "options": [
+        "Blood pressure in the afferent arteriole",
+        "NaCl concentration in the distal tubule",
+        "Plasma osmolality",
+        "Urea concentration"
+      ],
+      "answerIndex": 1,
+      "explanation": "The macula densa senses tubular NaCl and drives tubuloglomerular feedback and renin release.",
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory-q1",
+      "topicId": "phy-respiratory",
+      "stem": "Normal resting tidal volume in an adult is about:",
+      "options": [
+        "150 mL",
+        "500 mL",
+        "1200 mL",
+        "3000 mL"
+      ],
+      "answerIndex": 1,
+      "explanation": "Resting tidal volume is about 500 mL (roughly 7 mL/kg).",
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory-q2",
+      "topicId": "phy-respiratory",
+      "stem": "In a healthy person the main chemical stimulus for breathing is:",
+      "options": [
+        "Arterial PO₂",
+        "Arterial PCO₂",
+        "Plasma bicarbonate",
+        "Haemoglobin concentration"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arterial PCO₂, acting through CSF H⁺ on central chemoreceptors, is the main drive. Hypoxic drive matters more when PO₂ is very low.",
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory-q3",
+      "topicId": "phy-respiratory",
+      "stem": "Surfactant is produced by:",
+      "options": [
+        "Type I pneumocytes",
+        "Type II pneumocytes",
+        "Alveolar macrophages",
+        "Club cells only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Type II pneumocytes secrete surfactant, which reduces surface tension and prevents alveolar collapse.",
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory-q4",
+      "topicId": "phy-respiratory",
+      "stem": "Which shifts the oxygen–haemoglobin dissociation curve to the right?",
+      "options": [
+        "Decreased temperature",
+        "Alkalosis",
+        "Increased 2,3-BPG",
+        "Decreased PCO₂"
+      ],
+      "answerIndex": 2,
+      "explanation": "Increased 2,3-BPG, CO₂, H⁺ and temperature shift the curve right, helping oxygen unloading in tissues.",
+      "status": "published"
+    },
+    {
+      "id": "phy-respiratory-q5",
+      "topicId": "phy-respiratory",
+      "stem": "Which lung volume cannot be measured by simple spirometry?",
+      "options": [
+        "Tidal volume",
+        "Vital capacity",
+        "Residual volume",
+        "Inspiratory reserve volume"
+      ],
+      "answerIndex": 2,
+      "explanation": "Residual volume stays in the lungs and needs helium dilution or body plethysmography to measure.",
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis-q1",
+      "topicId": "bch-glycolysis",
+      "stem": "The rate-limiting enzyme of glycolysis is:",
+      "options": [
+        "Hexokinase",
+        "Phosphofructokinase-1",
+        "Pyruvate kinase",
+        "Aldolase"
+      ],
+      "answerIndex": 1,
+      "explanation": "PFK-1 is the main control point, activated by AMP and fructose-2,6-bisphosphate and inhibited by ATP and citrate.",
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis-q2",
+      "topicId": "bch-glycolysis",
+      "stem": "The net ATP yield of anaerobic glycolysis per glucose molecule is:",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "4 ATP are produced but 2 are used in the preparatory phase, giving a net 2 ATP.",
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis-q3",
+      "topicId": "bch-glycolysis",
+      "stem": "Glycolysis takes place in the:",
+      "options": [
+        "Mitochondrial matrix",
+        "Cytoplasm",
+        "Endoplasmic reticulum",
+        "Nucleus"
+      ],
+      "answerIndex": 1,
+      "explanation": "All glycolytic enzymes are cytoplasmic.",
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis-q4",
+      "topicId": "bch-glycolysis",
+      "stem": "Under anaerobic conditions in skeletal muscle, pyruvate is converted to:",
+      "options": [
+        "Acetyl-CoA",
+        "Lactate",
+        "Ethanol",
+        "Oxaloacetate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lactate dehydrogenase reduces pyruvate to lactate, regenerating NAD⁺ so glycolysis can continue.",
+      "status": "published"
+    },
+    {
+      "id": "bch-glycolysis-q5",
+      "topicId": "bch-glycolysis",
+      "stem": "Which enzyme deficiency of glycolysis classically causes haemolytic anaemia?",
+      "options": [
+        "Glucokinase",
+        "Pyruvate kinase",
+        "Phosphoglucomutase",
+        "Lactate dehydrogenase"
+      ],
+      "answerIndex": 1,
+      "explanation": "Red cells rely on glycolysis for ATP. Pyruvate kinase deficiency reduces ATP and causes haemolysis.",
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes-q1",
+      "topicId": "bch-enzymes",
+      "stem": "A competitive inhibitor:",
+      "options": [
+        "Increases Km, Vmax unchanged",
+        "Decreases Vmax, Km unchanged",
+        "Decreases both Km and Vmax",
+        "Has no effect on Km or Vmax"
+      ],
+      "answerIndex": 0,
+      "explanation": "A competitive inhibitor competes for the active site. More substrate overcomes it, so Vmax is unchanged but Km rises.",
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes-q2",
+      "topicId": "bch-enzymes",
+      "stem": "Km is defined as the substrate concentration at which:",
+      "options": [
+        "The reaction stops",
+        "The rate is half of Vmax",
+        "The rate equals Vmax",
+        "The enzyme is denatured"
+      ],
+      "answerIndex": 1,
+      "explanation": "Km is the substrate concentration giving half-maximal velocity. A low Km means high affinity.",
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes-q3",
+      "topicId": "bch-enzymes",
+      "stem": "A non-competitive inhibitor:",
+      "options": [
+        "Increases Km",
+        "Decreases Vmax without changing Km",
+        "Increases Vmax",
+        "Binds only at the active site"
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-competitive inhibitors bind away from the active site, reducing Vmax without changing Km.",
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes-q4",
+      "topicId": "bch-enzymes",
+      "stem": "Enzymes increase the rate of reactions by:",
+      "options": [
+        "Increasing the activation energy",
+        "Lowering the activation energy",
+        "Changing the equilibrium constant",
+        "Raising the temperature"
+      ],
+      "answerIndex": 1,
+      "explanation": "Enzymes lower the activation energy. They do not change the equilibrium of the reaction.",
+      "status": "published"
+    },
+    {
+      "id": "bch-enzymes-q5",
+      "topicId": "bch-enzymes",
+      "stem": "Allosteric enzymes typically show which velocity–substrate curve?",
+      "options": [
+        "Hyperbolic",
+        "Linear",
+        "Sigmoidal",
+        "Bell-shaped"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cooperative binding in allosteric enzymes gives a sigmoidal curve.",
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins-q1",
+      "topicId": "bch-vitamins",
+      "stem": "Scurvy is caused by deficiency of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vitamin C is needed for collagen hydroxylation. Deficiency causes bleeding gums and poor wound healing.",
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins-q2",
+      "topicId": "bch-vitamins",
+      "stem": "Wernicke encephalopathy is caused by deficiency of:",
+      "options": [
+        "Thiamine (B1)",
+        "Riboflavin (B2)",
+        "Niacin (B3)",
+        "Pyridoxine (B6)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thiamine deficiency, often with chronic alcohol use, causes Wernicke encephalopathy: confusion, ophthalmoplegia and ataxia.",
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins-q3",
+      "topicId": "bch-vitamins",
+      "stem": "Pellagra (dermatitis, diarrhoea, dementia) is due to deficiency of:",
+      "options": [
+        "Thiamine",
+        "Niacin",
+        "Folate",
+        "Vitamin K"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pellagra is caused by niacin (B3) deficiency.",
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins-q4",
+      "topicId": "bch-vitamins",
+      "stem": "Vitamin K is required for:",
+      "options": [
+        "Hydroxylation of proline",
+        "γ-carboxylation of factors II, VII, IX and X",
+        "Synthesis of rhodopsin",
+        "Calcium absorption"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vitamin K is a cofactor for γ-carboxylation of clotting factors II, VII, IX and X (and proteins C and S).",
+      "status": "published"
+    },
+    {
+      "id": "bch-vitamins-q5",
+      "topicId": "bch-vitamins",
+      "stem": "Night blindness is an early sign of deficiency of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vitamin A is needed to form rhodopsin in rod cells.",
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics-q1",
+      "topicId": "pha-pharmacokinetics",
+      "stem": "With regular dosing, steady-state concentration is reached after about:",
+      "options": [
+        "1 half-life",
+        "2 half-lives",
+        "4–5 half-lives",
+        "10 half-lives"
+      ],
+      "answerIndex": 2,
+      "explanation": "About 94–97% of steady state is reached after 4–5 half-lives.",
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics-q2",
+      "topicId": "pha-pharmacokinetics",
+      "stem": "First-pass metabolism of oral drugs occurs mainly in the:",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Lungs",
+        "Brain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Drugs absorbed from the gut go through the portal vein to the liver before reaching the systemic circulation.",
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics-q3",
+      "topicId": "pha-pharmacokinetics",
+      "stem": "Which of the following follows zero-order elimination kinetics?",
+      "options": [
+        "Ethanol",
+        "Penicillin",
+        "Gentamicin",
+        "Amoxicillin"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ethanol is eliminated at a constant rate because alcohol dehydrogenase is saturated at usual concentrations.",
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics-q4",
+      "topicId": "pha-pharmacokinetics",
+      "stem": "The bioavailability of a drug given intravenously is:",
+      "options": [
+        "0%",
+        "50%",
+        "Variable",
+        "100%"
+      ],
+      "answerIndex": 3,
+      "explanation": "An IV dose goes straight into the systemic circulation, so bioavailability is 100% by definition.",
+      "status": "published"
+    },
+    {
+      "id": "pha-pharmacokinetics-q5",
+      "topicId": "pha-pharmacokinetics",
+      "stem": "The loading dose of a drug mainly depends on its:",
+      "options": [
+        "Half-life",
+        "Volume of distribution",
+        "Clearance",
+        "Protein binding only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loading dose = Vd × target concentration ÷ bioavailability. The maintenance dose depends on clearance.",
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic-q1",
+      "topicId": "pha-autonomic",
+      "stem": "Atropine acts as a:",
+      "options": [
+        "Muscarinic antagonist",
+        "Nicotinic agonist",
+        "β1 agonist",
+        "Cholinesterase inhibitor"
+      ],
+      "answerIndex": 0,
+      "explanation": "Atropine competitively blocks muscarinic receptors, e.g. treating bradycardia and organophosphate poisoning.",
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic-q2",
+      "topicId": "pha-autonomic",
+      "stem": "The first-line drug for anaphylaxis is:",
+      "options": [
+        "IV hydrocortisone",
+        "Oral antihistamine",
+        "Intramuscular adrenaline",
+        "Nebulised salbutamol"
+      ],
+      "answerIndex": 2,
+      "explanation": "IM adrenaline is first-line. Antihistamines and steroids are adjuncts.",
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic-q3",
+      "topicId": "pha-autonomic",
+      "stem": "Propranolol is best described as a:",
+      "options": [
+        "Selective β1 blocker",
+        "Non-selective β blocker",
+        "α1 blocker",
+        "β2 agonist"
+      ],
+      "answerIndex": 1,
+      "explanation": "Propranolol blocks both β1 and β2 receptors, so it is used with caution in asthma.",
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic-q4",
+      "topicId": "pha-autonomic",
+      "stem": "Along with atropine, which drug is used in organophosphate poisoning to reactivate acetylcholinesterase?",
+      "options": [
+        "Neostigmine",
+        "Pralidoxime",
+        "Physostigmine",
+        "Naloxone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pralidoxime regenerates acetylcholinesterase if given before the enzyme \"ages\".",
+      "status": "published"
+    },
+    {
+      "id": "pha-autonomic-q5",
+      "topicId": "pha-autonomic",
+      "stem": "Salbutamol relieves bronchospasm by acting as a:",
+      "options": [
+        "β2 agonist",
+        "Muscarinic agonist",
+        "β1 antagonist",
+        "Leukotriene antagonist"
+      ],
+      "answerIndex": 0,
+      "explanation": "Salbutamol stimulates β2 receptors on bronchial smooth muscle, causing bronchodilation.",
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials-q1",
+      "topicId": "pha-antimicrobials",
+      "stem": "Penicillins act by inhibiting:",
+      "options": [
+        "Protein synthesis",
+        "Cell wall synthesis",
+        "DNA gyrase",
+        "Folate synthesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "β-lactams bind penicillin-binding proteins and block peptidoglycan cross-linking in the cell wall.",
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials-q2",
+      "topicId": "pha-antimicrobials",
+      "stem": "The major adverse effects of aminoglycosides are:",
+      "options": [
+        "Hepatotoxicity and rash",
+        "Nephrotoxicity and ototoxicity",
+        "Tendon rupture and QT prolongation",
+        "Grey baby syndrome"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aminoglycosides such as gentamicin are nephrotoxic and ototoxic, so levels are monitored.",
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials-q3",
+      "topicId": "pha-antimicrobials",
+      "stem": "Grey baby syndrome is associated with:",
+      "options": [
+        "Chloramphenicol",
+        "Tetracycline",
+        "Ciprofloxacin",
+        "Ceftriaxone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Newborns cannot conjugate chloramphenicol well, so it accumulates and causes circulatory collapse.",
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials-q4",
+      "topicId": "pha-antimicrobials",
+      "stem": "Which drug turns urine and tears red-orange?",
+      "options": [
+        "Isoniazid",
+        "Ethambutol",
+        "Rifampicin",
+        "Pyrazinamide"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rifampicin colours body fluids red-orange. Patients should be warned.",
+      "status": "published"
+    },
+    {
+      "id": "pha-antimicrobials-q5",
+      "topicId": "pha-antimicrobials",
+      "stem": "Taking alcohol with which antibiotic can cause a disulfiram-like reaction?",
+      "options": [
+        "Amoxicillin",
+        "Metronidazole",
+        "Azithromycin",
+        "Doxycycline"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metronidazole inhibits aldehyde dehydrogenase, causing flushing, nausea and vomiting with alcohol.",
+      "status": "published"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "category": "admissions",
+      "institution": "All universities",
+      "title": "Post-UTME season: what aspiring medical students should prepare",
+      "summary": "Screening windows open at different times for each school. Here is a checklist so you are ready when yours does.",
+      "body": [
+        "Each university sets its own post-UTME or screening timetable, and medicine is usually one of the most competitive courses. Check your chosen school’s official admissions portal regularly rather than relying on forwarded messages.",
+        "Have these ready: your UTME result slip, O’level results (with the right subject combination for medicine), passport photographs, and a working email address and phone number.",
+        "Only pay fees through the official portal, and keep every receipt and printout until admission is confirmed."
+      ],
+      "source": "EdMira",
+      "hoursAgo": 3
+    },
+    {
+      "id": "news-2",
+      "category": "scholarships",
+      "institution": "Federal & state universities",
+      "title": "Scholarship season: how to find awards open to medical students",
+      "summary": "Government, state, corporate and alumni scholarships all accept medical students. Deadlines are tight, so start early.",
+      "body": [
+        "Many scholarships for Nigerian undergraduates open once a year, and several give extra weight to students in medicine and other health sciences.",
+        "Look at four places: your state scholarship board, corporate foundations, your faculty’s alumni association, and notices from your school’s student affairs office.",
+        "Keep a scanned copy of your admission letter, latest results and a reference letter so you can apply within a day of a call going out."
+      ],
+      "source": "EdMira",
+      "hoursAgo": 20
+    },
+    {
+      "id": "news-3",
+      "category": "clinical",
+      "institution": "Teaching hospitals",
+      "title": "Starting clinical postings? A first-week checklist",
+      "summary": "Moving from the lecture hall to the wards is a big step. These habits help you settle in quickly.",
+      "body": [
+        "Arrive early for your first ward round, introduce yourself to the resident doctors, and find out how clerking is shared among your group.",
+        "Carry a small notebook for cases you see. Reviewing them against your textbook the same evening is one of the fastest ways to learn.",
+        "Keep practising topic questions on EdMira alongside your postings so the theory keeps pace with what you see on the ward."
+      ],
+      "source": "EdMira",
+      "hoursAgo": 46
+    },
+    {
+      "id": "news-4",
+      "category": "exams",
+      "institution": "Medical schools",
+      "title": "Professional exams: building a revision plan that works",
+      "summary": "Spread revision across every course, practise past-question styles, and track your weak topics week by week.",
+      "body": [
+        "Start by listing every course in your coming professional exam and how confident you feel in each one.",
+        "Spend more time on your weakest topics, but touch every course each week so nothing goes cold.",
+        "Use the Progress tab to see which topics are averaging under 60% and revisit them first."
+      ],
+      "source": "EdMira",
+      "hoursAgo": 72
+    },
+    {
+      "id": "news-5",
+      "category": "calendar",
+      "institution": "All universities",
+      "title": "Semester resumption: where to find your school’s official calendar",
+      "summary": "Resumption and exam dates change often. Here is how to avoid acting on outdated or fake notices.",
+      "body": [
+        "Rely on your university’s official website, registrar’s notices and your faculty’s verified class channels for resumption and exam dates.",
+        "Be wary of screenshots with no date or source. If in doubt, confirm with your class representative or faculty office."
+      ],
+      "source": "EdMira",
+      "hoursAgo": 120
+    }
+  ]
+}

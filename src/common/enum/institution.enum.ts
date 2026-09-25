@@ -19,5 +19,6 @@ export enum Institution {
   
   // State Universities
   ABIA_STATE_UNIVERSITY = 'Abia State University, Uturu',
-  AMBROSE_ALLI_UNIVERSITY = 'Ambrose Alli University, Ekpoma'
+  AMBROSE_ALLI_UNIVERSITY = 'Ambrose Alli University, Ekpoma',
+  BENUE_STATE_UNIVERSITY = 'Benue State University, Makurdi',
 }

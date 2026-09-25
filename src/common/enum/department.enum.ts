@@ -32,4 +32,16 @@ export enum Department {
   // Others
   EPIDEMIOLOGY = 'Epidemiology',
   ENVIRONMENTAL_HEALTH = 'Environmental Health',
+
+  // Options offered by the mobile app's sign-up picker
+  // (see src/reference/academic-options.ts). Values above are kept for
+  // existing accounts.
+  MBBS = 'Medicine & Surgery (MBBS)',
+  BDS = 'Dentistry (BDS)',
+  NURSING_SCIENCE = 'Nursing Science',
+  BIOMEDICAL_ENGINEERING = 'Biomedical engineering',
+  SCHOOL_OF_NURSING = 'School/College of Nursing',
+  COMMUNITY_MEDICINE = 'Community Medicine',
+  HAEMATOLOGY = 'Haematology',
+  OTHERS = 'Others',
 }

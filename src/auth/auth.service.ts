@@ -24,6 +24,7 @@ import { ResetPasswordDto } from './dto/rest-password.dto';
 import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 import { UsersRepository } from '../users/user.repository';
+import { UpdateProfileDto } from './dto/update-profile.dto';
 
 /** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
 const AT_BLACKLIST_TTL = 15 * 60;
@@ -163,14 +164,24 @@ export class AuthService {
       throw new ConflictException('Email already in use');
     }
 
-    const { password, userType, studentProfile, professionalProfile, ...rest } = pending.payload;
+    const {
+      password,
+      userType,
+      studentProfile,
+      professionalProfile,
+      countryCode,
+      phoneNumber,
+      referralCode,
+      ...rest
+    } = pending.payload;
 
     const savedUser = await this.usersRepository.create({
       ...rest,
       password,
       userType,
+      phone: phoneNumber ? { countryCode, number: phoneNumber } : undefined,
       studentProfile: (userType === UserType.STUDENT || userType === UserType.HYBRID)
-        ? studentProfile as any
+        ? { ...studentProfile, referralCode } as any
         : undefined,
       professionalProfile: (userType === UserType.PROFESSIONAL || userType === UserType.HYBRID)
         ? professionalProfile as any
@@ -257,17 +268,32 @@ export class AuthService {
     const user = await this.usersRepository.findById(userId);
     if (!user || !user.refreshToken) throw new UnauthorizedException('Access Denied');
 
-    const rtMatches = await bcrypt.compare(rt, user.refreshToken);
-    if (!rtMatches) throw new UnauthorizedException('Access Denied');
+    if (!this.refreshTokenMatches(rt, user.refreshToken)) {
+      throw new UnauthorizedException('Access Denied');
+    }
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     return tokens;
   }
 
+  /**
+   * Refresh tokens are long random JWTs, so a SHA-256 digest is the right
+   * hash. (bcrypt only reads the first 72 bytes, which every refresh token
+   * for the same user shares — an old, rotated token would still match.)
+   */
+  private hashRefreshToken(rt: string) {
+    return crypto.createHash('sha256').update(rt).digest('hex');
+  }
+
+  private refreshTokenMatches(rt: string, storedHash: string) {
+    const actual = Buffer.from(this.hashRefreshToken(rt), 'hex');
+    const expected = Buffer.from(storedHash, 'hex');
+    return actual.length === expected.length && crypto.timingSafeEqual(actual, expected);
+  }
+
   async updateRtHash(userId: Types.ObjectId, rt: string) {
-    const hash = await bcrypt.hash(rt, SALT_ROUNDS);
-    await this.usersRepository.updateRefreshToken(userId, hash);
+    await this.usersRepository.updateRefreshToken(userId, this.hashRefreshToken(rt));
   }
 
   async getTokens(userId: any, email: string, userType: string) {
@@ -319,11 +345,26 @@ export class AuthService {
   }
 
   async getFullProfile(userId: string) {
-  const user = await this.usersRepository.findById(userId);
-  if (!user) throw new UnauthorizedException('User not found');
+    const user = await this.usersRepository.findById(userId);
+    if (!user) throw new UnauthorizedException('User not found');
+    return this.toSafeProfile(user);
+  }
 
-  // Strip sensitive fields
-  const { password, refreshToken, ...safeUser } = user.toObject();
-  return safeUser;
-}
+  async updateProfile(userId: string, dto: UpdateProfileDto) {
+    const set: Record<string, unknown> = {};
+    if (dto.firstName !== undefined) set.firstName = dto.firstName.trim();
+    if (dto.lastName !== undefined) set.lastName = dto.lastName.trim();
+    for (const [key, value] of Object.entries(dto.studentProfile ?? {})) {
+      if (value !== undefined) set[`studentProfile.${key}`] = value;
+    }
+    const user = await this.usersRepository.updateFields(userId, set);
+    if (!user) throw new UnauthorizedException('User not found');
+    return this.toSafeProfile(user);
+  }
+
+  /** Profile without password / refresh-token hashes, plus a string `id`. */
+  private toSafeProfile(user: { toObject: () => any }) {
+    const { password, refreshToken, __v, ...safeUser } = user.toObject();
+    return { id: String(safeUser._id), ...safeUser };
+  }
 }
