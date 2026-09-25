@@ -6,6 +6,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { HealthModule } from './health/health.module';
+import { AdminModule } from './admin/admin.module';
 import { ContentModule } from './content/content.module';
 import { FeedbackModule } from './feedback/feedback.module';
 import { NewsModule } from './news/news.module';
@@ -77,6 +78,7 @@ import * as Joi from 'joi';
     QuizModule,
     FeedbackModule,
     NewsModule,
+    AdminModule,
   ],
   providers: [
     {

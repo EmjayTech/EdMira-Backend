@@ -7,9 +7,10 @@ import { Address, AddressSchema } from "../schema/address.schema";
 import { UserType } from "src/common/enum/user-type.enum";
 import { StudentProfile, StudentProfileSchema } from "../schema/studentProfile.schema";
 import { ProfessionalProfile, ProfessionalProfileSchema } from "../schema/professionalProfile.schema";
+import { AccountStatus, StaffRole } from "src/common/enum/staff-role.enum";
 
 
-@Schema()
+@Schema({ timestamps: true })
 export class User {
   _id?: mongoose.Schema.Types.ObjectId;
 
@@ -46,8 +47,20 @@ export class User {
   @Prop()
   lastLogin: Date;
 
-  @Prop()
-  role: string;
+  /**
+   * Admin-dashboard role (StaffRole); unset for students. Not enum-validated
+   * so older accounts with legacy values still save — StaffGuard only
+   * accepts StaffRole values.
+   */
+  @Prop({ type: String })
+  role?: StaffRole;
+
+  /** Suspended accounts can't log in or refresh (admin → Students). */
+  @Prop({ type: String, enum: Object.values(AccountStatus), default: AccountStatus.ACTIVE })
+  status: AccountStatus;
+
+  createdAt?: Date;
+  updatedAt?: Date;
   @Prop({ type: String, enum: Object.values(UserType) })
   userType: UserType;
 

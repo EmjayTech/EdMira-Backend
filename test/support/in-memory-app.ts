@@ -74,10 +74,28 @@ export async function startInMemoryApp({ logEmails = false } = {}) {
   await app.init();
   const connection = app.get<Connection>(getConnectionToken());
 
+  const { UsersRepository } = await import('../../src/users/user.repository');
+  const bcrypt = await import('bcrypt');
+
+  /** Creates a verified staff account (what `yarn staff` does). */
+  async function createStaff(email: string, role: 'admin' | 'creator' | 'reviewer', password: string, name: string) {
+    const [firstName, ...rest] = name.split(' ');
+    await app.get(UsersRepository).create({
+      email,
+      password: await bcrypt.hash(password, 10),
+      firstName,
+      lastName: rest.join(' '),
+      username: email.split('@')[0],
+      role: role as any,
+      isVerified: true,
+    });
+  }
+
   return {
     app,
     mail,
     connection,
+    createStaff,
     async stop() {
       await app.close();
       await mongo.stop();

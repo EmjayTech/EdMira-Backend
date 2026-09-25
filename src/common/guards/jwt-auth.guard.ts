@@ -5,6 +5,9 @@ import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
 import { IS_PUBLIC_KEY } from '../decorators/public.decorator';
 
+/** Cache flag that revokes a suspended user's live access tokens. */
+export const suspendedKey = (userId: string) => `suspended_${userId}`;
+
 @Injectable()
 export class JwtAuthGuard extends AuthGuard('jwt') {
   constructor(
@@ -34,6 +37,12 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
       if (isBlacklisted) {
         throw new UnauthorizedException('Token has been revoked');
       }
+    }
+
+    // Set when an admin suspends the account (lasts as long as an access token).
+    const userId = request.user?.userId;
+    if (userId && (await this.cacheManager.get(suspendedKey(userId)))) {
+      throw new UnauthorizedException('This account has been suspended.');
     }
 
     return true;

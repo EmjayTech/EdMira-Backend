@@ -20,5 +20,6 @@ import { FeedbackService } from './feedback.service';
   ],
   controllers: [FeedbackController],
   providers: [FeedbackService],
+  exports: [MongooseModule],
 })
 export class FeedbackModule {}

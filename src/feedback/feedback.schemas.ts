@@ -46,7 +46,12 @@ export class QuestionReport {
   handledById?: mongoose.Types.ObjectId;
 
   @Prop()
+  handledByName?: string;
+
+  @Prop()
   handledAt?: Date;
+
+  createdAt?: Date;
 }
 
 export type QuestionReportDocument = HydratedDocument<QuestionReport>;
@@ -70,6 +75,8 @@ export class Feedback {
 
   @Prop({ type: String, enum: ['new', 'reviewed', 'planned', 'wont_do'], default: 'new', index: true })
   status: string;
+
+  createdAt?: Date;
 }
 
 export type FeedbackDocument = HydratedDocument<Feedback>;

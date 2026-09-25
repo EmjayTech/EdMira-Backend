@@ -12,5 +12,6 @@ import { QuizService } from './quiz.service';
   ],
   controllers: [QuizController],
   providers: [QuizService],
+  exports: [MongooseModule],
 })
 export class QuizModule {}

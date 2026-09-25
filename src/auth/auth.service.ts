@@ -5,6 +5,7 @@ import {
   UnauthorizedException,
   BadRequestException,
   Inject,
+  ForbiddenException,
 } from '@nestjs/common';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
@@ -25,6 +26,7 @@ import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 import { UsersRepository } from '../users/user.repository';
 import { UpdateProfileDto } from './dto/update-profile.dto';
+import { AccountStatus } from '../common/enum/staff-role.enum';
 
 /** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
 const AT_BLACKLIST_TTL = 15 * 60;
@@ -194,11 +196,9 @@ export class AuthService {
     const tokens = await this.getTokens(savedUser._id as Types.ObjectId, savedUser.email, savedUser.userType);
     await this.updateRtHash(savedUser._id as Types.ObjectId, tokens.refreshToken);
 
-    const { password: _p, refreshToken: _rt, ...safeUser } = savedUser.toObject();
-
     return {
       message: 'Email verified successfully. Account created.',
-      user: safeUser,
+      user: this.toSafeProfile(savedUser),
       ...tokens,
     };
   }
@@ -241,6 +241,7 @@ export class AuthService {
     const valid = await bcrypt.compare(dto.password, user.password);
     if (!valid) throw new UnauthorizedException('Invalid credentials');
     if (!user.isVerified) throw new UnauthorizedException('Please verify your email first');
+    this.assertActive(user);
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
@@ -271,10 +272,17 @@ export class AuthService {
     if (!this.refreshTokenMatches(rt, user.refreshToken)) {
       throw new UnauthorizedException('Access Denied');
     }
+    this.assertActive(user);
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     return tokens;
+  }
+
+  private assertActive(user: { status?: string }) {
+    if (user.status === AccountStatus.SUSPENDED) {
+      throw new ForbiddenException('This account has been suspended. Contact EdMira support.');
+    }
   }
 
   /**
@@ -364,7 +372,8 @@ export class AuthService {
 
   /** Profile without password / refresh-token hashes, plus a string `id`. */
   private toSafeProfile(user: { toObject: () => any }) {
-    const { password, refreshToken, __v, ...safeUser } = user.toObject();
-    return { id: String(safeUser._id), ...safeUser };
+    // `_id` is replaced by a string `id`: raw ObjectIds serialize as {}.
+    const { password, refreshToken, __v, _id, ...safeUser } = user.toObject();
+    return { id: String(_id), ...safeUser };
   }
 }
