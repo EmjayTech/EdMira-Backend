@@ -88,6 +88,15 @@ describe('AuthService', () => {
       );
     });
 
+    it('reports a failed email instead of claiming a code was sent', async () => {
+      users.findByEmail.mockResolvedValue(null);
+      email.sendWelcomeAndVerificationEmail.mockRejectedValueOnce(new Error('Resend: domain not verified'));
+      await expect(service.signup(signupDto)).rejects.toThrow("couldn't send the verification email");
+      // Nothing left pending, so the student can simply try again.
+      users.findByEmail.mockResolvedValue(null);
+      await expect(service.signup(signupDto)).resolves.toHaveProperty('message');
+    });
+
     it('refuses an email that is already registered', async () => {
       users.findByEmail.mockResolvedValue({ email: signupDto.email });
       await expect(service.signup(signupDto)).rejects.toThrow(ConflictException);

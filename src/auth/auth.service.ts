@@ -6,6 +6,7 @@ import {
   BadRequestException,
   Inject,
   ForbiddenException,
+  ServiceUnavailableException,
 } from '@nestjs/common';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
@@ -99,7 +100,13 @@ export class AuthService {
         otpCode,
       );
     } catch (error) {
+      // Don't claim a code was sent when it wasn't — the student would wait
+      // for an email that never arrives. Let them try again instead.
       console.error('Failed to send verification email:', error);
+      await this.cacheManager.del(pendingKey(signupDto.email));
+      throw new ServiceUnavailableException(
+        "We couldn't send the verification email. Please check the address and try again in a moment.",
+      );
     }
 
     return {
