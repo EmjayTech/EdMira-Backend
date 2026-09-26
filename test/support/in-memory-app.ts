@@ -1,4 +1,4 @@
-import { INestApplication } from '@nestjs/common';
+import { ConsoleLogger, INestApplication } from '@nestjs/common';
 import { getConnectionToken } from '@nestjs/mongoose';
 import { Test } from '@nestjs/testing';
 import { MongoMemoryServer } from 'mongodb-memory-server';
@@ -71,6 +71,9 @@ export async function startInMemoryApp({ logEmails = false } = {}) {
     .compile();
 
   const app: INestApplication = configureApp(moduleRef.createNestApplication());
+  // The testing module's default logger hides everything but errors; show normal logs
+  // for `yarn dev:memory` (Jest still gets the quiet one).
+  if (process.env.NODE_ENV !== 'test') app.useLogger(new ConsoleLogger());
   await app.init();
   const connection = app.get<Connection>(getConnectionToken());
 

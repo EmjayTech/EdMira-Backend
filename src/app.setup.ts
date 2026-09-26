@@ -4,6 +4,7 @@ import { Reflector } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import compression from 'compression';
 import helmet from 'helmet';
+import { requestLogger } from './common/middleware/request-logger';
 
 /**
  * Everything main.ts applies to the app. Shared with the e2e tests so they
@@ -11,6 +12,9 @@ import helmet from 'helmet';
  */
 export function configureApp(app: INestApplication) {
   app.setGlobalPrefix('api/v1');
+
+  // One log line per request (skipped under Jest to keep test output clean).
+  if (process.env.NODE_ENV !== 'test') app.use(requestLogger);
 
   // Security & Optimization
   app.use(helmet());
