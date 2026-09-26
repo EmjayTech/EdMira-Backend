@@ -4,6 +4,7 @@
  *   yarn staff ada@edmira.com admin --password 'S3cure!pass' --name "Ada Obi"
  *   yarn staff reviewer@uni.edu reviewer        # promote an existing account
  *   yarn staff someone@uni.edu none             # remove staff access
+ *   yarn staff you@edmira.com admin --name "New Name"   # rename (shown in the dashboard)
  *
  * Roles: admin | creator | reviewer | none. Uses MONGODB_URI (from .env).
  */
@@ -38,8 +39,13 @@ async function main() {
   if (user) {
     user.set('role', newRole);
     if (password) user.set('password', await bcrypt.hash(password, SALT_ROUNDS));
+    if (name) {
+      const [firstName, ...rest] = name.trim().split(/\s+/);
+      user.set({ firstName, lastName: rest.join(' ') });
+    }
     await user.save();
-    console.log(`${user.get('email')} → ${newRole ?? 'no staff access'}`);
+    const shownName = [user.get('firstName'), user.get('lastName')].filter(Boolean).join(' ');
+    console.log(`${user.get('email')} (${shownName || 'no name'}) → ${newRole ?? 'no staff access'}`);
   } else {
     if (!newRole) throw new Error(`No account for ${email}.`);
     if (!password || password.length < 10) {
