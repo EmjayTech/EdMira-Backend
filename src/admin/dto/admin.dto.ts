@@ -4,17 +4,21 @@ import {
   ArrayMaxSize,
   IsArray,
   IsIn,
+  IsISO8601,
   IsInt,
   IsMongoId,
   IsOptional,
   IsString,
+  IsUrl,
   Matches,
   MaxLength,
   Min,
+  ValidateIf,
   ValidateNested,
 } from 'class-validator';
 import { ContentStatus } from '../../common/enum/content-status.enum';
 import { AccountStatus } from '../../common/enum/staff-role.enum';
+import { NEWS_CATEGORIES } from '../../news/news.schema';
 import { REVIEW_ACTIONS } from '../workflow';
 
 // Business rules (required text, option counts, …) are checked in workflow.ts
@@ -82,4 +86,34 @@ export class FeedbackUpdateDto {
 
 export class StudentStatusDto {
   @ApiProperty({ enum: AccountStatus }) @IsIn(Object.values(AccountStatus)) status: AccountStatus;
+}
+
+/** Empty string = clear the field. */
+const optionalUrl = (field: 'sourceUrl' | 'imageUrl') =>
+  ValidateIf((o: NewsInputDto) => o[field] != null && o[field] !== '');
+
+export class NewsInputDto {
+  @ApiProperty() @IsString() @MaxLength(200) title: string;
+  @ApiProperty() @IsString() @MaxLength(500) summary: string;
+  @ApiProperty({ type: [String], description: 'Paragraphs' })
+  @IsArray() @ArrayMaxSize(50) @IsString({ each: true }) @MaxLength(5000, { each: true })
+  body: string[];
+  @ApiProperty({ enum: NEWS_CATEGORIES }) @IsIn(NEWS_CATEGORIES) category: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) institution?: string;
+  @ApiProperty({ required: false, example: 'EdMira' }) @IsOptional() @IsString() @MaxLength(80) source?: string;
+  @ApiProperty({ required: false }) @optionalUrl('sourceUrl')
+  @IsUrl({ protocols: ['http', 'https'], require_protocol: true }, { message: 'Link to the original story must be a full web address (https://…).' })
+  sourceUrl?: string;
+  @ApiProperty({ required: false }) @optionalUrl('imageUrl')
+  @IsUrl({ protocols: ['https'], require_protocol: true }, { message: 'Image must be an https:// web address.' })
+  imageUrl?: string;
+  @ApiProperty({ required: false, description: 'ISO date. In the future = scheduled. Omit to use the publish time.' })
+  @IsOptional() @IsISO8601({}, { message: 'Publish date must be a valid date.' })
+  publishedAt?: string;
+}
+
+export const NEWS_STATUSES = [ContentStatus.DRAFT, ContentStatus.PUBLISHED, ContentStatus.ARCHIVED] as const;
+
+export class NewsStatusDto {
+  @ApiProperty({ enum: NEWS_STATUSES }) @IsIn(NEWS_STATUSES) status: (typeof NEWS_STATUSES)[number];
 }

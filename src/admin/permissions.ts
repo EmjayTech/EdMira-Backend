@@ -18,6 +18,8 @@ export const PERMISSIONS = {
   viewFeedback: [StaffRole.ADMIN],
   viewStudents: [StaffRole.ADMIN],
   viewAudit: [StaffRole.ADMIN],
+  /** Write and publish campus news (no medical review needed). */
+  manageNews: [StaffRole.ADMIN],
 } as const;
 
 export type Permission = keyof typeof PERMISSIONS;

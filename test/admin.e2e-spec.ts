@@ -308,3 +308,79 @@ describe('activity log and role changes', () => {
     await as('creator').get('/admin/courses').expect(403);
   });
 });
+
+describe('campus news', () => {
+  const story = (overrides: object = {}) => ({
+    title: 'Post-UTME screening dates announced',
+    summary: 'UNILAG releases its screening timetable.',
+    body: ['Screening starts on 3 November.', '  ', 'Bring your JAMB slip.'],
+    category: 'admissions',
+    institution: 'University of Lagos',
+    source: 'UNILAG',
+    sourceUrl: 'https://unilag.edu.ng/news',
+    ...overrides,
+  });
+  const publicTitles = async () =>
+    (await http().get(api('/news?limit=20')).set(bearer(tokens.student)).expect(200)).body.map((n: any) => n.title);
+
+  it('is admin-only', async () => {
+    await as('reviewer').get('/admin/news').expect(403);
+    await as('reviewer').post('/admin/news', story()).expect(403);
+  });
+
+  it('validates stories with readable messages', async () => {
+    const res = await as('admin').post('/admin/news', story({ title: ' ', summary: '' })).expect(400);
+    expect(res.body.message).toBe('Give the story a title. Write a short summary.');
+    const bad = await as('admin').post('/admin/news', story({ imageUrl: 'http://x.com/a.jpg' })).expect(400);
+    expect(JSON.stringify(bad.body.message)).toContain('https://');
+    await as('admin').post('/admin/news', story({ category: 'gossip' })).expect(400);
+  });
+
+  let id: string;
+
+  it('creates drafts that students cannot see, then publishes them straight away', async () => {
+    const created = await as('admin').post('/admin/news', story()).expect(201);
+    id = created.body.id;
+    expect(created.body).toMatchObject({ status: 'draft', createdByName: 'Ada Admin', isSample: false });
+    expect(created.body.body).toEqual(['Screening starts on 3 November.', 'Bring your JAMB slip.']);
+    expect(await publicTitles()).not.toContain('Post-UTME screening dates announced');
+
+    const published = await as('admin').post(`/admin/news/${id}/status`, { status: 'published' }).expect(201);
+    expect(published.body.status).toBe('published');
+    const titles = await publicTitles();
+    expect(titles[0]).toBe('Post-UTME screening dates announced');
+    const article = await http().get(api(`/news/${id}`)).set(bearer(tokens.student)).expect(200);
+    expect(article.body).toMatchObject({ institution: 'University of Lagos', sourceUrl: 'https://unilag.edu.ng/news' });
+  });
+
+  it('edits stay live, and an empty link clears it', async () => {
+    const res = await as('admin').patch(`/admin/news/${id}`, story({ title: 'Screening dates moved', sourceUrl: '' })).expect(200);
+    expect(res.body).toMatchObject({ status: 'published', sourceUrl: '' });
+    const article = await http().get(api(`/news/${id}`)).set(bearer(tokens.student)).expect(200);
+    expect(article.body.title).toBe('Screening dates moved');
+    expect(article.body.sourceUrl).toBeUndefined();
+  });
+
+  it('keeps future-dated stories hidden until their date', async () => {
+    const future = new Date(Date.now() + 7 * 864e5).toISOString();
+    const res = await as('admin').post('/admin/news', story({ title: 'Scheduled story', publishedAt: future })).expect(201);
+    await as('admin').post(`/admin/news/${res.body.id}/status`, { status: 'published' }).expect(201);
+    expect(await publicTitles()).not.toContain('Scheduled story');
+    const all = await as('admin').get('/admin/news').expect(200);
+    expect(all.body.find((n: any) => n.id === res.body.id).publishedAt).toBe(future);
+  });
+
+  it('archiving removes a story from the app; in_review is not a news status', async () => {
+    await as('admin').post(`/admin/news/${id}/status`, { status: 'in_review' }).expect(400);
+    await as('admin').post(`/admin/news/${id}/status`, { status: 'archived' }).expect(201);
+    expect(await publicTitles()).not.toContain('Screening dates moved');
+    await http().get(api(`/news/${id}`)).set(bearer(tokens.student)).expect(404);
+  });
+
+  it('logs news changes in the activity log', async () => {
+    const res = await as('admin').get('/admin/audit-log').expect(200);
+    const summaries = res.body.map((e: any) => e.summary);
+    expect(summaries).toContain('Published news “Post-UTME screening dates announced”');
+    expect(summaries[0]).toBe('Archived news “Screening dates moved”');
+  });
+});

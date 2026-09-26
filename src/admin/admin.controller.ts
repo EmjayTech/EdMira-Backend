@@ -2,12 +2,15 @@ import { Body, Controller, Get, Param, Patch, Post, UseGuards } from '@nestjs/co
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
 import { AdminContentService } from './admin-content.service';
+import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
 import { AuditService } from './audit/audit.service';
 import {
   CourseInputDto,
   CourseStatusDto,
   FeedbackUpdateDto,
+  NewsInputDto,
+  NewsStatusDto,
   QuestionInputDto,
   ReportUpdateDto,
   StudentStatusDto,
@@ -29,6 +32,7 @@ export class AdminController {
   constructor(
     private readonly content: AdminContentService,
     private readonly people: AdminPeopleService,
+    private readonly newsAdmin: AdminNewsService,
     private readonly auditLog: AuditService,
   ) {}
 
@@ -103,6 +107,33 @@ export class AdminController {
   @Post('questions/:id/transitions')
   transitionQuestion(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: TransitionDto) {
     return this.content.transition(staff, 'question', id, dto);
+  }
+
+  // ── News ──
+  @Get('news')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'All campus news, every status' })
+  listNews() {
+    return this.newsAdmin.list();
+  }
+
+  @Post('news')
+  @RequirePermission('manageNews')
+  createNews(@CurrentStaff() staff: Staff, @Body() dto: NewsInputDto) {
+    return this.newsAdmin.save(staff, dto);
+  }
+
+  @Patch('news/:id')
+  @RequirePermission('manageNews')
+  updateNews(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: NewsInputDto) {
+    return this.newsAdmin.save(staff, dto, id);
+  }
+
+  @Post('news/:id/status')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'Publish / unpublish (draft) / archive a story (admin, no review)' })
+  setNewsStatus(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: NewsStatusDto) {
+    return this.newsAdmin.setStatus(staff, id, dto.status);
   }
 
   // ── Reports ──

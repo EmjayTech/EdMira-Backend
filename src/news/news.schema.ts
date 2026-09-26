@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { HydratedDocument } from 'mongoose';
+import mongoose, { HydratedDocument } from 'mongoose';
 import { ContentStatus } from '../common/enum/content-status.enum';
 
 export const NEWS_CATEGORIES = [
@@ -46,10 +46,17 @@ export class NewsArticle {
   @Prop({ type: String, enum: Object.values(ContentStatus), default: ContentStatus.DRAFT, index: true })
   status: ContentStatus;
 
+  /** Staff member who wrote it (admin dashboard). */
+  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User' })
+  createdById?: mongoose.Types.ObjectId;
+
+  @Prop()
+  createdByName?: string;
+
   /** Placeholder stories from the seed script; the app labels them "Sample". */
   @Prop({ default: false })
   isSample: boolean;
 }
 
-export type NewsArticleDocument = HydratedDocument<NewsArticle>;
+export type NewsArticleDocument = HydratedDocument<NewsArticle> & { createdAt?: Date; updatedAt?: Date };
 export const NewsArticleSchema = SchemaFactory.createForClass(NewsArticle);

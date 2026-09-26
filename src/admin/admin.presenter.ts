@@ -1,3 +1,4 @@
+import { NewsArticleDocument } from '../news/news.schema';
 import { CourseDocument } from '../content/schemas/course.schema';
 import { QuestionDocument } from '../content/schemas/question.schema';
 import { TopicDocument } from '../content/schemas/topic.schema';
@@ -108,4 +109,21 @@ export const adminAttempt = (a: QuizAttemptDocument) => ({
   total: a.total,
   correctCount: a.correctCount,
   score: a.score,
+});
+
+export const adminNews = (n: NewsArticleDocument) => ({
+  id: n.id,
+  title: n.title,
+  summary: n.summary,
+  body: [...n.body],
+  category: n.category,
+  institution: n.institution ?? '',
+  source: n.source,
+  sourceUrl: n.sourceUrl ?? '',
+  imageUrl: n.imageUrl ?? '',
+  publishedAt: iso(n.publishedAt),
+  status: n.status,
+  isSample: n.isSample,
+  createdByName: n.createdByName ?? 'EdMira',
+  updatedAt: iso(n.updatedAt),
 });

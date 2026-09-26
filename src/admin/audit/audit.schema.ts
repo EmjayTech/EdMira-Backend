@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import mongoose, { HydratedDocument } from 'mongoose';
 
-export const AUDIT_ENTITIES = ['course', 'topic', 'question', 'report', 'feedback', 'student'] as const;
+export const AUDIT_ENTITIES = ['course', 'topic', 'question', 'report', 'feedback', 'student', 'news'] as const;
 export type AuditEntity = (typeof AUDIT_ENTITIES)[number];
 
 /** One staff action, shown in the dashboard's Activity log. Append-only. */
