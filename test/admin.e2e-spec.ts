@@ -215,6 +215,133 @@ describe('content lifecycle', () => {
   });
 });
 
+describe('study materials (slides, videos, textbooks)', () => {
+  // The student: University of Lagos · Anatomy · 200 Level.
+  let anatomyId: string;
+  let topicId: string;
+  let slides: any;
+  let video: any;
+  let ibadanBook: any;
+  const PDF = Buffer.from('%PDF-1.4\n% EdMira test slides\n');
+
+  const upload = (who: keyof typeof tokens, name: string, body = PDF) =>
+    http().post(api('/admin/uploads')).set(bearer(tokens[who])).attach('file', body, name);
+  const studentMaterials = async () =>
+    (await as('student').get(`/courses/${anatomyId}/resources`).expect(200)).body as any[];
+  const approve = async (id: string) => {
+    await as('creator').post(`/admin/resources/${id}/transitions`, { action: 'submit' }).expect(201);
+    await as('reviewer').post(`/admin/resources/${id}/transitions`, { action: 'approve' }).expect(201);
+  };
+
+  beforeAll(async () => {
+    anatomyId = (await as('admin').get('/admin/courses').expect(200)).body.find((c: any) => c.title === 'Anatomy').id;
+    topicId = (await as('admin').get('/admin/topics').expect(200)).body.find(
+      (t: any) => t.courseId === anatomyId && t.status === 'published',
+    ).id;
+  });
+
+  it('reports whether uploads are available', async () => {
+    const res = await as('creator').get('/admin/uploads/status').expect(200);
+    expect(res.body).toMatchObject({ enabled: true, types: expect.arrayContaining(['.pdf', '.pptx']) });
+  });
+
+  it('uploads slides and refuses other file types', async () => {
+    await upload('creator', 'virus.exe').expect(400);
+    await upload('reviewer', 'slides.pdf').expect(403);
+    const file = (await upload('creator', 'Upper limb — lecture 3.pdf').expect(201)).body;
+    expect(file).toMatchObject({ name: 'Upper limb — lecture 3.pdf', size: PDF.length, mimeType: 'application/pdf' });
+
+    slides = (
+      await as('creator')
+        .post('/admin/resources', { courseId: anatomyId, kind: 'slides', title: 'Upper limb slides', file })
+        .expect(201)
+    ).body;
+    expect(slides).toMatchObject({ status: 'draft', topicId: '', institution: '', file: { name: file.name } });
+  });
+
+  it('validates materials with readable messages', async () => {
+    const bad = async (body: object, message: string) => {
+      const res = await as('creator').post('/admin/resources', { courseId: anatomyId, ...body }).expect(400);
+      expect(res.body.message).toContain(message);
+    };
+    await bad({ kind: 'notes', title: 'Handout' }, 'Upload a file or paste a link.');
+    await bad({ kind: 'video', title: 'Brachial plexus', link: 'https://vimeo.com/123' }, 'Videos must be YouTube links.');
+    await bad({ kind: 'textbook', title: 'Gray', link: 'ftp://files' }, 'Links must start with http:// or https://.');
+    const other = (await as('admin').get('/admin/courses').expect(200)).body.find((c: any) => c.title === 'Physiology');
+    await bad({ kind: 'notes', title: 'x', link: 'https://a.b', courseId: other.id, topicId }, 'different course');
+  });
+
+  it('adds a topic video and a school-only textbook', async () => {
+    video = (
+      await as('creator')
+        .post('/admin/resources', {
+          courseId: anatomyId, topicId, kind: 'video', title: 'Brachial plexus in 10 minutes',
+          link: 'https://youtu.be/dQw4w9WgXcQ?t=5',
+        })
+        .expect(201)
+    ).body;
+    expect(video.youTubeId).toBe('dQw4w9WgXcQ');
+    ibadanBook = (
+      await as('creator')
+        .post('/admin/resources', {
+          courseId: anatomyId, kind: 'textbook', title: 'UI Anatomy manual',
+          link: 'https://ui.edu.ng/anatomy-manual.pdf', institution: 'University of Ibadan',
+        })
+        .expect(201)
+    ).body;
+  });
+
+  it('hides materials from students until another reviewer approves them', async () => {
+    expect(await studentMaterials()).toEqual([]);
+    await as('creator').post(`/admin/resources/${slides.id}/transitions`, { action: 'submit' }).expect(201);
+    await as('creator').post(`/admin/resources/${slides.id}/transitions`, { action: 'approve' }).expect(403);
+    await as('reviewer').post(`/admin/resources/${slides.id}/transitions`, { action: 'approve' }).expect(201);
+    await approve(video.id);
+    await approve(ibadanBook.id);
+
+    const materials = await studentMaterials();
+    expect(materials.map(m => m.title).sort()).toEqual(['Brachial plexus in 10 minutes', 'Upper limb slides']);
+    expect(materials.find(m => m.kind === 'video')).toMatchObject({ source: 'youtube', youTubeId: 'dQw4w9WgXcQ', topicId });
+    const pdf = materials.find(m => m.kind === 'slides');
+    expect(pdf).toMatchObject({ source: 'file', file: { name: 'Upper limb — lecture 3.pdf', mimeType: 'application/pdf' } });
+    expect(pdf.file).not.toHaveProperty('key');
+  });
+
+  it('shows a school\'s own materials only to its students', async () => {
+    const ids = (await studentMaterials()).map(m => m.id);
+    expect(ids).not.toContain(ibadanBook.id); // student is at Lagos
+    await as('admin')
+      .patch(`/admin/resources/${ibadanBook.id}`, {
+        courseId: anatomyId, kind: 'textbook', title: ibadanBook.title, link: ibadanBook.link,
+        institution: 'University of Lagos',
+      })
+      .expect(200); // back to review after editing published content
+    await as('reviewer').post(`/admin/resources/${ibadanBook.id}/transitions`, { action: 'approve' }).expect(201);
+    expect((await studentMaterials()).map(m => m.id)).toContain(ibadanBook.id);
+  });
+
+  it('downloads files through short-lived signed links', async () => {
+    const res = await as('student').get(`/resources/${slides.id}/download`).expect(200);
+    expect(res.body).toMatchObject({ name: 'Upper limb — lecture 3.pdf', size: PDF.length });
+    const url = new URL(res.body.url);
+    const file = await http().get(url.pathname + url.search).buffer(true).parse((r, cb) => {
+      const chunks: Buffer[] = [];
+      r.on('data', (c: Buffer) => chunks.push(c));
+      r.on('end', () => cb(null, Buffer.concat(chunks)));
+    }).expect(200);
+    expect(Buffer.compare(file.body, PDF)).toBe(0);
+
+    await http().get(url.pathname + url.search.replace(/sig=\w/, 'sig=0')).expect(404);
+    await as('student').get(`/resources/${video.id}/download`).expect(404); // a link, not a file
+  });
+
+  it('logs material changes', async () => {
+    const summaries = (await as('admin').get('/admin/audit-log').expect(200)).body.map((e: any) => e.summary);
+    expect(summaries).toContain('Added material “Upper limb slides”');
+    expect(summaries).toContain('Approved and published material “Upper limb slides”');
+  });
+});
+
 describe('reports, feedback, students', () => {
   let reportId: string;
   let studentId: string;
@@ -306,6 +433,84 @@ describe('activity log and role changes', () => {
   it('removing a role takes effect immediately', async () => {
     await server.connection.collection('users').updateOne({ email: 'creator@edmira.com' }, { $unset: { role: '' } });
     await as('creator').get('/admin/courses').expect(403);
+  });
+});
+
+describe('who a course is for (audience rules)', () => {
+  // The student above: University of Lagos · Anatomy · 200 Level.
+  const courseByTitle = async (who: keyof typeof tokens, path: string, title: string) =>
+    (await as(who).get(path).expect(200)).body.find((c: any) => c.title === title);
+
+  it('marks every course as the student\'s own until rules are added', async () => {
+    const courses = (await as('student').get('/courses').expect(200)).body;
+    expect(courses.every((c: any) => c.forYou === true)).toBe(true);
+  });
+
+  it('saves rules, dropping blanks and duplicates', async () => {
+    const anatomy = await courseByTitle('admin', '/admin/courses', 'Anatomy');
+    const res = await as('admin')
+      .patch(`/admin/courses/${anatomy.id}`, {
+        title: 'Anatomy',
+        audience: [
+          { level: '200 Level', department: 'Anatomy', institution: '' },
+          { level: '200 Level', department: 'Anatomy' },
+          { level: '100 Level', department: 'Nursing Science', institution: 'University of Lagos' },
+        ],
+      })
+      .expect(200);
+    expect(res.body.audience).toEqual([
+      { level: '200 Level', department: 'Anatomy' },
+      { level: '100 Level', department: 'Nursing Science', institution: 'University of Lagos' },
+    ]);
+  });
+
+  it('leaves the rules alone when an edit doesn\'t send them', async () => {
+    const anatomy = await courseByTitle('admin', '/admin/courses', 'Anatomy');
+    const res = await as('admin').patch(`/admin/courses/${anatomy.id}`, { title: 'Anatomy' }).expect(200);
+    expect(res.body.audience).toHaveLength(2);
+  });
+
+  it('rejects levels, departments and schools that don\'t exist', async () => {
+    const anatomy = await courseByTitle('admin', '/admin/courses', 'Anatomy');
+    for (const rule of [{ level: '700 Level' }, { level: '200 Level', department: 'Astrology' }, { institution: 'University of Lagos' }]) {
+      await as('admin').patch(`/admin/courses/${anatomy.id}`, { title: 'Anatomy', audience: [rule] }).expect(400);
+    }
+  });
+
+  it('marks courses forYou by level, department and school — but still lists them all', async () => {
+    const pharm = await courseByTitle('admin', '/admin/courses', 'Pharmacology');
+    await as('admin')
+      .patch(`/admin/courses/${pharm.id}`, { title: 'Pharmacology', audience: [{ level: '300 Level' }] })
+      .expect(200);
+    const physio = await courseByTitle('admin', '/admin/courses', 'Physiology');
+    await as('admin')
+      .patch(`/admin/courses/${physio.id}`, {
+        title: 'Physiology',
+        audience: [{ level: '200 Level', institution: 'University of Ibadan' }],
+      })
+      .expect(200);
+
+    const courses = (await as('student').get('/courses').expect(200)).body;
+    const forYou = Object.fromEntries(courses.map((c: any) => [c.title, c.forYou]));
+    expect(forYou).toMatchObject({
+      Anatomy: true, // 200 Level · Anatomy · any school
+      Biochemistry: true, // no rules = everyone
+      Pharmacology: false, // 300 Level only
+      Physiology: false, // 200 Level, but only at Ibadan
+    });
+
+    // Topics and search follow the course.
+    const topicId = courses.find((c: any) => c.title === 'Pharmacology').topics[0].id;
+    expect((await as('student').get(`/topics/${topicId}`).expect(200)).body.course.forYou).toBe(false);
+    const found = (await as('student').get('/search?q=pharmacology').expect(200)).body.courses;
+    expect(found[0]).toMatchObject({ title: 'Pharmacology', forYou: false });
+  });
+
+  it('follows the student when they change level in Edit profile', async () => {
+    await as('student').patch('/auth/profile', { studentProfile: { level: '300 Level' } }).expect(200);
+    const pharm = await courseByTitle('student', '/courses', 'Pharmacology');
+    const anatomy = await courseByTitle('student', '/courses', 'Anatomy');
+    expect([pharm.forYou, anatomy.forYou]).toEqual([true, false]);
   });
 });
 

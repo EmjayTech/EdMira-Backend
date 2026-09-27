@@ -4,6 +4,7 @@ import { ContentController } from './content.controller';
 import { ContentService } from './content.service';
 import { Course, CourseSchema } from './schemas/course.schema';
 import { Question, QuestionSchema } from './schemas/question.schema';
+import { Resource, ResourceSchema } from './schemas/resource.schema';
 import { Topic, TopicSchema } from './schemas/topic.schema';
 
 @Module({
@@ -12,6 +13,7 @@ import { Topic, TopicSchema } from './schemas/topic.schema';
       { name: Course.name, schema: CourseSchema },
       { name: Topic.name, schema: TopicSchema },
       { name: Question.name, schema: QuestionSchema },
+      { name: Resource.name, schema: ResourceSchema },
     ]),
   ],
   controllers: [ContentController],

@@ -1,4 +1,6 @@
+import { isForStudent, StudentAcademics } from './audience';
 import { CourseDocument } from './schemas/course.schema';
+import { ResourceDocument, youTubeId } from './schemas/resource.schema';
 import { QuestionDocument } from './schemas/question.schema';
 import { TopicDocument } from './schemas/topic.schema';
 
@@ -7,13 +9,15 @@ import { TopicDocument } from './schemas/topic.schema';
  * app repo). Keep these in sync with the app's DTO mappers.
  */
 
-export const presentCourse = (course: CourseDocument) => ({
+/** `forYou`: the course matches the student's level / department / school. */
+export const presentCourse = (course: CourseDocument, student?: StudentAcademics) => ({
   id: course.id,
   title: course.title,
   description: course.description,
   code: course.code,
   color: course.color,
   status: course.status,
+  forYou: isForStudent(course.audience, student),
 });
 
 export const presentTopic = (topic: TopicDocument, { withMaterial = true } = {}) => ({
@@ -51,3 +55,25 @@ export const presentReviewQuestion = (question: QuestionDocument) => ({
   answerIndex: question.answerIndex,
   explanation: question.explanation,
 });
+
+/**
+ * A study material for the app. Files are fetched through
+ * GET /resources/:id/download (short-lived link); links open as they are.
+ */
+export const presentResource = (r: ResourceDocument) => {
+  const videoId = youTubeId(r.link);
+  return {
+    id: r.id,
+    courseId: String(r.courseId),
+    ...(r.topicId ? { topicId: String(r.topicId) } : {}),
+    kind: r.kind,
+    title: r.title,
+    description: r.description ?? '',
+    ...(r.institution ? { institution: r.institution } : {}),
+    source: r.file ? 'file' : videoId ? 'youtube' : 'link',
+    ...(r.file ? { file: { name: r.file.name, size: r.file.size, mimeType: r.file.mimeType } } : {}),
+    ...(r.link ? { link: r.link } : {}),
+    ...(videoId ? { youTubeId: videoId } : {}),
+    updatedAt: r.updatedAt?.toISOString(),
+  };
+};

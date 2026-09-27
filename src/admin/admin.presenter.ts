@@ -1,6 +1,8 @@
 import { NewsArticleDocument } from '../news/news.schema';
+import { presentAudience } from '../content/audience';
 import { CourseDocument } from '../content/schemas/course.schema';
 import { QuestionDocument } from '../content/schemas/question.schema';
+import { ResourceDocument, youTubeId } from '../content/schemas/resource.schema';
 import { TopicDocument } from '../content/schemas/topic.schema';
 import { FeedbackDocument, QuestionReportDocument } from '../feedback/feedback.schemas';
 import { QuizAttemptDocument } from '../quiz/quiz-attempt.schema';
@@ -11,7 +13,7 @@ import { UserDocument } from '../users/model/user.model';
 const iso = (d?: Date) => (d ? d.toISOString() : undefined);
 const idString = (id: unknown) => (id == null ? undefined : String(id));
 
-const authored = (item: TopicDocument | QuestionDocument) => ({
+const authored = (item: TopicDocument | QuestionDocument | ResourceDocument) => ({
   status: item.status,
   createdById: idString(item.createdById) ?? '',
   createdByName: item.createdByName ?? 'EdMira',
@@ -33,8 +35,23 @@ export const adminCourse = (c: CourseDocument) => ({
   description: c.description,
   code: c.code ?? '',
   color: c.color ?? '#0A369D',
+  audience: presentAudience(c.audience),
   status: c.status,
   updatedAt: iso(c.updatedAt),
+});
+
+export const adminResource = (r: ResourceDocument) => ({
+  id: r.id,
+  courseId: String(r.courseId),
+  topicId: r.topicId ? String(r.topicId) : '',
+  kind: r.kind,
+  title: r.title,
+  description: r.description ?? '',
+  institution: r.institution ?? '',
+  link: r.link ?? '',
+  youTubeId: youTubeId(r.link) ?? undefined,
+  file: r.file ? { key: r.file.key, name: r.file.name, size: r.file.size, mimeType: r.file.mimeType } : undefined,
+  ...authored(r),
 });
 
 export const adminTopic = (t: TopicDocument) => ({

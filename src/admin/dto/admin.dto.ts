@@ -17,12 +17,30 @@ import {
   ValidateNested,
 } from 'class-validator';
 import { ContentStatus } from '../../common/enum/content-status.enum';
+import { Department } from '../../common/enum/department.enum';
+import { Institution } from '../../common/enum/institution.enum';
+import { Level } from '../../common/enum/level.enum';
 import { AccountStatus } from '../../common/enum/staff-role.enum';
+import { RESOURCE_KINDS } from '../../content/schemas/resource.schema';
 import { NEWS_CATEGORIES } from '../../news/news.schema';
 import { REVIEW_ACTIONS } from '../workflow';
 
 // Business rules (required text, option counts, …) are checked in workflow.ts
 // so the messages match the dashboard; these DTOs only check types.
+
+/** Blank ("any") department / institution skips validation. */
+const unlessBlank = ValidateIf((_, value) => value !== '' && value != null);
+
+/** One "who is this course for" rule. Department / institution omitted or '' = any. */
+export class AudienceRuleDto {
+  @ApiProperty({ enum: Level }) @IsIn(Object.values(Level)) level: Level;
+  @ApiProperty({ enum: Department, required: false })
+  @unlessBlank @IsIn(Object.values(Department))
+  department?: Department;
+  @ApiProperty({ enum: Institution, required: false })
+  @unlessBlank @IsIn(Object.values(Institution))
+  institution?: Institution;
+}
 
 export class CourseInputDto {
   @ApiProperty() @IsString() @MaxLength(120) title: string;
@@ -32,6 +50,9 @@ export class CourseInputDto {
   @IsOptional()
   @Matches(/^#[0-9a-fA-F]{6}$/, { message: 'color must be a hex colour like #0A369D' })
   color?: string;
+  @ApiProperty({ required: false, type: [AudienceRuleDto], description: 'Empty = every student. Omit to leave unchanged.' })
+  @IsOptional() @IsArray() @ArrayMaxSize(200) @ValidateNested({ each: true }) @Type(() => AudienceRuleDto)
+  audience?: AudienceRuleDto[];
 }
 
 export class CourseStatusDto {
@@ -64,6 +85,32 @@ export class QuestionInputDto {
   @ApiProperty({ type: [String] }) @IsArray() @IsString({ each: true }) options: string[];
   @ApiProperty() @IsInt() answerIndex: number;
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(4000) explanation?: string;
+}
+
+export class ResourceFileDto {
+  @ApiProperty() @IsString() @Matches(/^materials\/[\w-]+\.\w+$/, { message: 'Upload the file again.' }) key: string;
+  @ApiProperty() @IsString() @MaxLength(200) name: string;
+  @ApiProperty() @IsInt() @Min(1) size: number;
+  @ApiProperty() @IsString() mimeType: string;
+}
+
+export class ResourceInputDto {
+  @ApiProperty() @IsMongoId() courseId: string;
+  @ApiProperty({ required: false, description: 'Omit or "" for the whole course' })
+  @unlessBlank @IsMongoId()
+  topicId?: string;
+  @ApiProperty({ enum: RESOURCE_KINDS }) @IsIn(RESOURCE_KINDS) kind: (typeof RESOURCE_KINDS)[number];
+  @ApiProperty() @IsString() @MaxLength(200) title: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(1000) description?: string;
+  @ApiProperty({ enum: Institution, required: false, description: 'Omit or "" for every school' })
+  @unlessBlank @IsIn(Object.values(Institution))
+  institution?: Institution;
+  @ApiProperty({ required: false, description: 'YouTube / web link (instead of a file)' })
+  @IsOptional() @IsString() @MaxLength(2000)
+  link?: string;
+  @ApiProperty({ required: false, type: ResourceFileDto, description: 'From POST /admin/uploads' })
+  @IsOptional() @ValidateNested() @Type(() => ResourceFileDto)
+  file?: ResourceFileDto;
 }
 
 export class TransitionDto {

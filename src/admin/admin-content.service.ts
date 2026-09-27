@@ -4,12 +4,16 @@ import { Model, Types } from 'mongoose';
 import { ContentStatus } from '../common/enum/content-status.enum';
 import { Course, CourseDocument } from '../content/schemas/course.schema';
 import { Question, QuestionDocument } from '../content/schemas/question.schema';
+import { Resource, ResourceDocument, youTubeId } from '../content/schemas/resource.schema';
+import { FileStorageService } from '../storage/file-storage.service';
 import { Topic, TopicDocument } from '../content/schemas/topic.schema';
-import { adminCourse, adminQuestion, adminTopic } from './admin.presenter';
+import { adminCourse, adminQuestion, adminResource, adminTopic } from './admin.presenter';
 import { AuditService } from './audit/audit.service';
 import {
+  AudienceRuleDto,
   CourseInputDto,
   QuestionInputDto,
+  ResourceInputDto,
   TopicInputDto,
   TransitionDto,
 } from './dto/admin.dto';
@@ -22,6 +26,7 @@ import {
   nextStatus,
   statusAfterEdit,
   validateQuestion,
+  validateResource,
   validateTopic,
 } from './workflow';
 
@@ -42,6 +47,21 @@ const VERB: Record<ReviewAction, string> = {
   restore: 'Restored to draft:',
 };
 
+/** Drops "any" blanks and duplicate rules, keeping the admin's order. */
+const cleanAudience = (rules: AudienceRuleDto[]) => {
+  const seen = new Set<string>();
+  return rules
+    .map(({ level, department, institution }) => ({
+      level,
+      ...(department ? { department } : {}),
+      ...(institution ? { institution } : {}),
+    }))
+    .filter(rule => {
+      const key = [rule.level, rule.department ?? '', rule.institution ?? ''].join('|');
+      return !seen.has(key) && seen.add(key);
+    });
+};
+
 /** Courses, topics and questions in every status, plus the review workflow. */
 @Injectable()
 export class AdminContentService {
@@ -49,7 +69,9 @@ export class AdminContentService {
     @InjectModel(Course.name) private readonly courses: Model<CourseDocument>,
     @InjectModel(Topic.name) private readonly topics: Model<TopicDocument>,
     @InjectModel(Question.name) private readonly questions: Model<QuestionDocument>,
+    @InjectModel(Resource.name) private readonly resources: Model<ResourceDocument>,
     private readonly audit: AuditService,
+    private readonly storage: FileStorageService,
   ) {}
 
   private async findOr404<T>(query: Promise<T | null>, what: string): Promise<T> {
@@ -72,6 +94,7 @@ export class AdminContentService {
       description: input.description?.trim() ?? '',
       code: (input.code?.trim() || title.slice(0, 3)).toUpperCase(),
       ...(input.color && { color: input.color }),
+      ...(input.audience && { audience: cleanAudience(input.audience) }),
     };
 
     if (id) {
@@ -195,13 +218,82 @@ export class AdminContentService {
     return adminQuestion(question);
   }
 
+  // ── Study materials ────────────────────────────────────────────────────────
+
+  async listResources() {
+    return (await this.resources.find().sort({ courseId: 1, createdAt: 1 }).exec()).map(adminResource);
+  }
+
+  async saveResource(staff: Staff, input: ResourceInputDto, id?: string) {
+    const link = input.link?.trim() || undefined;
+    validateResource({
+      courseId: input.courseId,
+      kind: input.kind,
+      title: input.title,
+      link,
+      hasFile: !!input.file,
+      isYouTube: !!youTubeId(link),
+    });
+    const course = await this.findOr404(this.courses.findById(input.courseId).exec(), 'course');
+    if (input.topicId) {
+      const topic = await this.findOr404(this.topics.findById(input.topicId).exec(), 'topic');
+      if (String(topic.courseId) !== course.id) {
+        throw new BadRequestException('That topic belongs to a different course.');
+      }
+    }
+    const fields = {
+      courseId: course._id,
+      topicId: input.topicId ? new Types.ObjectId(input.topicId) : undefined,
+      kind: input.kind,
+      title: input.title.trim(),
+      description: input.description?.trim() ?? '',
+      institution: input.institution || undefined,
+      link,
+      file: input.file,
+    };
+
+    if (id) {
+      const resource = await this.findOr404(this.resources.findById(id).exec(), 'material');
+      const wasPublished = resource.status === ContentStatus.PUBLISHED;
+      resource.set({ ...fields, status: statusAfterEdit(resource.status) });
+      await resource.save();
+      await this.audit.log(
+        staff,
+        'resource',
+        resource.id,
+        'edited',
+        wasPublished
+          ? `Edited published material “${resource.title}” — sent back for review`
+          : `Edited material “${resource.title}”`,
+      );
+      return adminResource(resource);
+    }
+    const resource = await this.resources.create({
+      ...fields,
+      status: ContentStatus.DRAFT,
+      createdById: new Types.ObjectId(staff.id),
+      createdByName: staff.name,
+    });
+    await this.audit.log(staff, 'resource', resource.id, 'created', `Added material “${resource.title}”`);
+    return adminResource(resource);
+  }
+
+  /** Staff preview / download of an uploaded material, in any status. */
+  async resourceFileLink(id: string, baseUrl: string) {
+    const resource = await this.findOr404(this.resources.findById(id).exec(), 'material');
+    if (!resource.file) throw new BadRequestException('This material is a link, not a file.');
+    return this.storage.signedUrl(resource.file, baseUrl);
+  }
+
   // ── Review workflow ────────────────────────────────────────────────────────
 
-  async transition(staff: Staff, kind: 'topic' | 'question', id: string, dto: TransitionDto) {
+  async transition(staff: Staff, kind: 'topic' | 'question' | 'resource', id: string, dto: TransitionDto) {
     const item =
       kind === 'topic'
         ? await this.findOr404(this.topics.findById(id).exec(), 'topic')
-        : await this.findOr404(this.questions.findById(id).exec(), 'question');
+        : kind === 'question'
+          ? await this.findOr404(this.questions.findById(id).exec(), 'question')
+          : await this.findOr404(this.resources.findById(id).exec(), 'material');
 
     const { action } = dto;
     const note = dto.note?.trim() ?? '';
@@ -225,7 +317,9 @@ export class AdminContentService {
     const label =
       kind === 'topic'
         ? `topic “${(item as TopicDocument).title}”`
-        : `question “${short((item as QuestionDocument).stem)}”`;
+        : kind === 'question'
+          ? `question “${short((item as QuestionDocument).stem)}”`
+          : `material “${(item as ResourceDocument).title}”`;
     await this.audit.log(
       staff,
       kind,
@@ -233,6 +327,7 @@ export class AdminContentService {
       action.replace('_', ' '),
       `${VERB[action]} ${label}${note ? ` — “${short(note, 80)}”` : ''}`,
     );
-    return kind === 'topic' ? adminTopic(item as TopicDocument) : adminQuestion(item as QuestionDocument);
+    if (kind === 'topic') return adminTopic(item as TopicDocument);
+    return kind === 'question' ? adminQuestion(item as QuestionDocument) : adminResource(item as ResourceDocument);
   }
 }

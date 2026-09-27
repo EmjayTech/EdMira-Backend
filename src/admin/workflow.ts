@@ -131,6 +131,31 @@ export function validateQuestion(input: QuestionFields) {
   if (errors.length) throw new BadRequestException(errors.join(' '));
 }
 
+export interface ResourceFields {
+  courseId: string;
+  kind: string;
+  title: string;
+  link?: string;
+  hasFile: boolean;
+  isYouTube: boolean;
+}
+
+export function validateResource(input: ResourceFields) {
+  const errors: string[] = [];
+  if (!input.courseId) errors.push('Choose a course.');
+  if (!input.title?.trim()) errors.push('Give the material a title.');
+  const link = input.link?.trim();
+  if (input.hasFile && link) errors.push('Use either a file or a link, not both.');
+  else if (!input.hasFile && !link) {
+    errors.push(input.kind === 'video' ? 'Paste the YouTube link.' : 'Upload a file or paste a link.');
+  }
+  if (link && !/^https?:\/\/\S+$/i.test(link)) errors.push('Links must start with http:// or https://.');
+  else if (input.kind === 'video' && (input.hasFile || (link && !input.isYouTube))) {
+    errors.push('Videos must be YouTube links.');
+  }
+  if (errors.length) throw new BadRequestException(errors.join(' '));
+}
+
 /** Rough reading time, matching the dashboard and the mobile app. */
 export function estimateReadMinutes(material: TopicFields['material']) {
   const words = material

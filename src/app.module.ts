@@ -12,6 +12,7 @@ import { FeedbackModule } from './feedback/feedback.module';
 import { NewsModule } from './news/news.module';
 import { QuizModule } from './quiz/quiz.module';
 import { ReferenceModule } from './reference/reference.module';
+import { StorageModule } from './storage/storage.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import { redisStore } from 'cache-manager-redis-store';
 import * as Joi from 'joi';
@@ -27,6 +28,13 @@ import * as Joi from 'joi';
         PORT: Joi.number().default(4000),
         MONGODB_URI: Joi.string().required(),
         REDIS_HOST: Joi.string().allow('').optional(),
+        // Study-material uploads (S3-compatible, e.g. Cloudflare R2). Optional.
+        STORAGE_BUCKET: Joi.string().allow('').optional(),
+        STORAGE_ENDPOINT: Joi.string().allow('').optional(),
+        STORAGE_REGION: Joi.string().allow('').optional(),
+        STORAGE_ACCESS_KEY_ID: Joi.string().allow('').optional(),
+        STORAGE_SECRET_ACCESS_KEY: Joi.string().allow('').optional(),
+        UPLOAD_DIR: Joi.string().allow('').optional(),
         REDIS_PORT: Joi.alternatives().try(Joi.number(), Joi.string().allow('')).optional(),
         REDIS_PASSWORD: Joi.string().allow('').optional(),
         JWT_SECRET: Joi.string().required(),
@@ -74,6 +82,7 @@ import * as Joi from 'joi';
     AuthModule,
     HealthModule,
     ReferenceModule,
+    StorageModule,
     ContentModule,
     QuizModule,
     FeedbackModule,
