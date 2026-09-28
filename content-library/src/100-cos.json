@@ -1,0 +1,99 @@
+{
+  "title": "Introduction to Computing (COS 101)",
+  "code": "COS101",
+  "color": "#334155",
+  "description": "Computer hardware and software, number systems, the internet, and computing in health care.",
+  "for": { "100": ["*"] },
+  "topics": [
+    {
+      "title": "History and Classification of Computers",
+      "summary": "Generations of computers, types by size and purpose, and characteristics of computers.",
+      "notes": [
+        { "h": "Generations", "b": "First-generation computers (1940s–50s) used vacuum tubes (e.g. ENIAC); second generation used transistors; third generation used integrated circuits; fourth generation uses microprocessors (VLSI), giving personal computers; fifth generation focuses on artificial intelligence and parallel processing. Charles Babbage designed the Analytical Engine and is called the 'father of the computer'; Ada Lovelace wrote the first algorithm for it.", "k": ["1st: vacuum tubes; 2nd: transistors; 3rd: ICs; 4th: microprocessors; 5th: AI", "Charles Babbage: father of the computer"] },
+        { "h": "Types and characteristics", "b": "By size and power: supercomputers, mainframes, minicomputers and microcomputers (desktops, laptops, smartphones). By data handled: analog (continuous data), digital (discrete data) and hybrid computers (e.g. some ICU monitors). Computers are characterised by speed, accuracy, storage, diligence and versatility, but they lack intelligence of their own — 'garbage in, garbage out' (GIGO).", "k": ["Analog, digital, hybrid", "GIGO: garbage in, garbage out"] }
+      ],
+      "q": [
+        ["First-generation computers used:", "Transistors", "Vacuum tubes", "Integrated circuits", "Microprocessors", "Quantum chips", 1, "ENIAC and its contemporaries used vacuum tubes."],
+        ["The 'father of the computer' is:", "Alan Turing", "Charles Babbage", "Bill Gates", "Blaise Pascal", "John von Neumann", 1, "Babbage designed the Analytical Engine."],
+        ["Microprocessors characterise which generation?", "First", "Second", "Third", "Fourth", "Fifth", 3, "Fourth-generation computers use VLSI microprocessors."],
+        ["A computer that processes continuous data such as temperature is:", "Digital", "Analog", "Microcomputer", "Mainframe", "Supercomputer", 1, "Analog computers handle continuously varying quantities."],
+        ["GIGO means:", "Good input, good output", "Garbage in, garbage out", "Graphics in, graphics out", "General input, general output", "Gigabyte in, gigabyte out", 1, "Wrong input data produce wrong results."],
+        ["A smartphone is best classified as a:", "Supercomputer", "Mainframe", "Microcomputer", "Minicomputer", "Analog computer", 2, "Smartphones are small personal (micro) computers."],
+        ["Who is credited with writing the first computer algorithm?", "Ada Lovelace", "Grace Hopper", "Charles Babbage", "Herman Hollerith", "Tim Berners-Lee", 0, "Ada Lovelace wrote an algorithm for Babbage's Analytical Engine."],
+        ["Which is NOT a characteristic of computers?", "Speed", "Accuracy", "Storage", "Independent common sense", "Diligence", 3, "Computers follow instructions; they have no independent judgement."]
+      ]
+    },
+    {
+      "title": "Hardware: Input, Output, Processing and Storage",
+      "summary": "The CPU, memory types, input/output devices and storage units.",
+      "notes": [
+        { "h": "The CPU and memory", "b": "The central processing unit (CPU) consists of the arithmetic and logic unit (ALU), which performs calculations and comparisons, the control unit (CU), which directs operations, and registers. Primary memory includes RAM (random access memory — volatile, holds running programs) and ROM (read-only memory — non-volatile, holds firmware such as the BIOS). Cache memory is very fast memory close to the CPU.", "k": ["CPU = ALU + control unit + registers", "RAM is volatile; ROM is non-volatile", "BIOS is stored in ROM"] },
+        { "h": "Devices and storage units", "b": "Input devices: keyboard, mouse, scanner, microphone, barcode reader, webcam. Output devices: monitor, printer, speaker, projector. Secondary storage: hard disk drives (magnetic), solid-state drives and flash drives (flash memory), optical discs (CD, DVD), and cloud storage. Units: 1 byte = 8 bits; 1 KB = 1,024 bytes; 1 MB = 1,024 KB; 1 GB = 1,024 MB; 1 TB = 1,024 GB.", "k": ["1 byte = 8 bits", "KB → MB → GB → TB (×1,024)", "SSDs use flash memory"] }
+      ],
+      "q": [
+        ["The part of the CPU that performs calculations is the:", "Control unit", "ALU", "RAM", "Cache", "Bus", 1, "The arithmetic and logic unit carries out arithmetic and logical operations."],
+        ["Which memory loses its content when power is switched off?", "ROM", "RAM", "Hard disk", "Flash drive", "DVD", 1, "RAM is volatile."],
+        ["One byte is equal to:", "4 bits", "8 bits", "16 bits", "1,024 bits", "2 bits", 1, "A byte is 8 bits."],
+        ["Which is an input device?", "Printer", "Monitor", "Scanner", "Speaker", "Projector", 2, "A scanner captures data into the computer."],
+        ["1 GB is equal to:", "1,024 KB", "1,024 MB", "1,000 bytes", "1,024 TB", "8 MB", 1, "1 GB = 1,024 MB."],
+        ["The BIOS is stored in:", "RAM", "ROM", "Cache", "The monitor", "The ALU", 1, "The BIOS firmware resides in non-volatile ROM/flash."],
+        ["Which storage device has no moving parts?", "Hard disk drive", "Solid-state drive", "CD drive", "Floppy disk", "Tape drive", 1, "SSDs use flash memory chips with no moving parts."],
+        ["The unit that directs and coordinates the computer's operations is the:", "ALU", "Control unit", "Register", "Power supply", "Motherboard", 1, "The control unit fetches, decodes and coordinates instructions."]
+      ]
+    },
+    {
+      "title": "Software and Operating Systems",
+      "summary": "System and application software, operating systems, programming languages and translators.",
+      "notes": [
+        { "h": "Types of software", "b": "System software manages the hardware: operating systems (Windows, macOS, Linux, Android, iOS), utility programs (antivirus, disk defragmenter) and language translators. Application software performs user tasks: word processors (Microsoft Word), spreadsheets (Excel), presentation (PowerPoint), databases, and specialised packages such as hospital information systems and statistical software (SPSS). Functions of an operating system include memory management, process management, file management, device management and providing a user interface.", "k": ["System software vs application software", "OS manages memory, processes, files and devices", "Examples: Windows, Linux, Android"] },
+        { "h": "Programming languages and translators", "b": "Machine language (binary) is the only language the CPU understands directly. Assembly language uses mnemonics and is translated by an assembler. High-level languages (Python, Java, C, BASIC) are closer to English; compilers translate the whole program at once into machine code, while interpreters translate and execute line by line.", "k": ["Machine code = binary", "Assembler: assembly → machine code", "Compiler: whole program; interpreter: line by line"] }
+      ],
+      "q": [
+        ["Which is an operating system?", "Microsoft Word", "Linux", "Excel", "SPSS", "Chrome", 1, "Linux is an operating system; the others are applications."],
+        ["A spreadsheet program is an example of:", "System software", "Application software", "Firmware", "A compiler", "An operating system", 1, "Spreadsheets perform user tasks, so they are application software."],
+        ["The only language a computer understands directly is:", "Python", "Assembly language", "Machine language", "BASIC", "English", 2, "The CPU executes binary machine code."],
+        ["A translator that converts a whole high-level program into machine code before running it is a/an:", "Interpreter", "Compiler", "Assembler", "Editor", "Loader", 1, "Compilers translate the entire source program at once."],
+        ["Antivirus software is classified as:", "Application software", "A utility program", "A programming language", "Hardware", "Firmware only", 1, "Antivirus is a utility within system software."],
+        ["Which is NOT a function of an operating system?", "Memory management", "File management", "Typing a thesis", "Device management", "Process scheduling", 2, "Typing a document is done in application software."],
+        ["Assembly language is translated into machine code by a/an:", "Compiler", "Interpreter", "Assembler", "Linker", "Debugger", 2, "An assembler converts mnemonics to machine code."],
+        ["Android is an operating system mainly for:", "Mainframes", "Mobile devices", "Supercomputers", "Printers", "Calculators", 1, "Android runs on smartphones and tablets."]
+      ]
+    },
+    {
+      "title": "Number Systems and Data Representation",
+      "summary": "Binary, octal, decimal and hexadecimal conversion and binary arithmetic.",
+      "notes": [
+        { "h": "Number bases", "b": "Computers use binary (base 2: digits 0 and 1). Other bases: octal (base 8: 0–7), decimal (base 10) and hexadecimal (base 16: 0–9 and A–F, where A = 10 and F = 15). To convert decimal to binary, divide repeatedly by 2 and read the remainders from bottom to top. To convert binary to decimal, multiply each bit by its place value (1, 2, 4, 8, 16 …) and add. Each hexadecimal digit corresponds to four binary digits (e.g. F = 1111).", "k": ["Binary base 2; octal base 8; hex base 16", "Hex A–F = 10–15", "One hex digit = 4 bits"] },
+        { "h": "Binary arithmetic and codes", "b": "Binary addition rules: 0 + 0 = 0; 0 + 1 = 1; 1 + 1 = 10 (0 carry 1); 1 + 1 + 1 = 11. Characters are represented by codes such as ASCII (7 or 8 bits, 'A' = 65) and Unicode, which covers all world scripts including Hausa, Yoruba and Igbo characters.", "k": ["1 + 1 = 10 in binary", "ASCII 'A' = 65", "Unicode covers all scripts"] }
+      ],
+      "q": [
+        ["Convert 13 (decimal) to binary:", "1011", "1101", "1110", "1001", "1111", 1, "13 = 8 + 4 + 1 = 1101₂."],
+        ["Convert 10110₂ to decimal:", "20", "22", "24", "26", "18", 1, "16 + 4 + 2 = 22."],
+        ["In hexadecimal, the digit F represents:", "10", "14", "15", "16", "12", 2, "Hex digits A–F represent 10–15."],
+        ["1 + 1 in binary equals:", "2", "10", "11", "01", "0", 1, "1 + 1 = 10₂ (0 carry 1)."],
+        ["The base of the octal system is:", "2", "8", "10", "16", "12", 1, "Octal uses digits 0–7, base 8."],
+        ["How many binary digits represent one hexadecimal digit?", "2", "3", "4", "8", "16", 2, "16 = 2⁴, so each hex digit maps to 4 bits."],
+        ["In ASCII, the capital letter 'A' has the decimal code:", "1", "48", "65", "97", "100", 2, "'A' = 65 and 'a' = 97 in ASCII."],
+        ["Which coding system can represent Yoruba tonal characters such as 'ẹ'?", "ASCII only", "Unicode", "Morse code", "BCD", "Octal", 1, "Unicode includes characters of virtually all written languages."]
+      ]
+    },
+    {
+      "title": "Internet, Networks and Computing in Health Care",
+      "summary": "Networks, the internet and email, cybersecurity, and health information systems.",
+      "notes": [
+        { "h": "Networks and the internet", "b": "A network links computers to share resources. LAN (local area network) covers a building; MAN a city; WAN a wide area — the internet is the largest WAN. Network topologies include bus, star, ring and mesh. The World Wide Web (invented by Tim Berners-Lee, 1989) is a system of web pages accessed through browsers using HTTP/HTTPS; a URL is a web address. Email addresses have the form user@domain. Cybersecurity threats include viruses, phishing, ransomware and weak passwords; protect data with strong passwords, updates, antivirus and two-factor authentication.", "k": ["LAN < MAN < WAN", "Tim Berners-Lee invented the Web", "HTTPS encrypts web traffic", "Phishing tricks users into revealing data"] },
+        { "h": "Computers in health care", "b": "Health applications include electronic medical records (EMR), hospital information systems, laboratory information systems, picture archiving and communication systems (PACS) for radiology images, telemedicine, and the DHIS2 platform used by Nigeria's national health management information system. Patient data must be kept confidential and secure in line with the Nigeria Data Protection Act (2023).", "k": ["EMR, HIS, LIS, PACS", "DHIS2 for national health data", "Protect patient confidentiality"] }
+      ],
+      "q": [
+        ["A network covering a single hospital building is a:", "WAN", "MAN", "LAN", "PAN only", "Internet", 2, "A local area network covers a small area such as a building."],
+        ["The World Wide Web was invented by:", "Bill Gates", "Tim Berners-Lee", "Steve Jobs", "Vint Cerf", "Charles Babbage", 1, "Berners-Lee proposed the Web at CERN in 1989."],
+        ["An email that pretends to be from your bank to steal your password is called:", "Spam filtering", "Phishing", "Encryption", "Firewall", "Backup", 1, "Phishing uses deception to obtain sensitive information."],
+        ["In radiology departments, images are stored and shared using:", "PACS", "SPSS", "DNS", "BIOS", "ASCII", 0, "Picture Archiving and Communication Systems store medical images."],
+        ["The largest WAN in the world is the:", "Intranet", "Internet", "LAN", "Ethernet", "Bluetooth", 1, "The internet is a global wide area network."],
+        ["In a star topology, all computers connect to a:", "Central hub or switch", "Single cable backbone", "Ring", "Printer", "Satellite", 0, "Star networks link every node to a central device."],
+        ["Which platform is used for Nigeria's national health management information system?", "DHIS2", "Moodle", "WordPress", "AutoCAD", "Photoshop", 0, "DHIS2 is used for routine health data reporting in Nigeria."],
+        ["HTTPS differs from HTTP because it:", "Is faster", "Encrypts data in transit", "Works offline", "Uses no internet", "Blocks all adverts", 1, "HTTPS uses TLS encryption to protect data."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+ "courses": [
+  {
+   "title": "Therapeutic Exercise and Electrotherapy",
+   "code": "PTH311",
+   "color": "#EA580C",
+   "description": "Principles of exercise prescription, strength, endurance, flexibility and balance training, and electrophysical agents in physiotherapy.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Physiotherapy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Exercise Prescription",
+     "order": 1,
+     "summary": "FITT principle, overload, specificity, progression and exercise safety.",
+     "material": [
+      {
+       "heading": "Training principles",
+       "body": "Exercise prescription follows the FITT principle: Frequency, Intensity, Time (duration) and Type — often extended to FITT-VP (Volume, Progression). Key principles: overload (the body must be stressed beyond its usual level to adapt), specificity (adaptations are specific to the type of training — SAID: specific adaptation to imposed demands), progression (gradual increase in load), reversibility ('use it or lose it' — detraining), and individuality. Intensity for aerobic exercise may be set by heart rate reserve (Karvonen method: target HR = [(HRmax − HRrest) × intensity] + HRrest; HRmax ≈ 220 − age), percentage of VO2max, or the Borg rating of perceived exertion (RPE 6–20 scale; about 12–14 = moderate).",
+       "keyPoints": [
+        "FITT: frequency, intensity, time, type",
+        "Overload, specificity (SAID), progression, reversibility",
+        "Karvonen method; HRmax ≈ 220 − age",
+        "Borg RPE 12–14 = moderate"
+       ]
+      },
+      {
+       "heading": "Safety",
+       "body": "Pre-exercise screening identifies cardiovascular, metabolic and musculoskeletal risks. Sessions include a warm-up (5–10 minutes) and cool-down. Stop exercise for chest pain, severe breathlessness, dizziness, palpitations, pallor or confusion. Contraindications include unstable angina, uncontrolled hypertension (e.g. resting BP > 180/110 mmHg), acute febrile illness, uncontrolled arrhythmias and acute deep vein thrombosis. People with diabetes should check glucose (risk of hypoglycaemia with insulin) and foot care.",
+       "keyPoints": [
+        "Warm-up and cool-down",
+        "Stop for chest pain, dizziness, severe breathlessness",
+        "Contraindications: unstable angina, BP > 180/110",
+        "Diabetes: watch for hypoglycaemia"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In the FITT principle, 'I' stands for:",
+       "options": [
+        "Inspiration",
+        "Injury",
+        "Individuality",
+        "Intensity",
+        "Interval"
+       ],
+       "answerIndex": 3,
+       "explanation": "Frequency, Intensity, Time, Type."
+      },
+      {
+       "stem": "The principle that the body adapts specifically to the demands placed on it is:",
+       "options": [
+        "Specificity (SAID)",
+        "Reversibility",
+        "Individuality",
+        "Recovery",
+        "Overload only"
+       ],
+       "answerIndex": 0,
+       "explanation": "SAID: specific adaptation to imposed demands."
+      },
+      {
+       "stem": "The estimated maximum heart rate of a 40-year-old is:",
+       "options": [
+        "140 bpm",
+        "160 bpm",
+        "180 bpm",
+        "200 bpm",
+        "220 bpm"
+       ],
+       "answerIndex": 2,
+       "explanation": "220 − 40 = 180 bpm."
+      },
+      {
+       "stem": "The Karvonen method uses:",
+       "options": [
+        "Resting blood pressure",
+        "Heart rate reserve",
+        "Oxygen saturation",
+        "Respiratory rate",
+        "Body mass index"
+       ],
+       "answerIndex": 1,
+       "explanation": "Target HR = (HRmax − HRrest) × intensity + HRrest."
+      },
+      {
+       "stem": "On the Borg 6–20 scale, moderate intensity corresponds to about:",
+       "options": [
+        "6–8",
+        "12–14",
+        "18–20",
+        "1–2",
+        "25"
+       ],
+       "answerIndex": 1,
+       "explanation": "12–14 is 'somewhat hard'."
+      },
+      {
+       "stem": "Loss of training effects after stopping exercise illustrates:",
+       "options": [
+        "Specificity",
+        "Reversibility",
+        "Individuality",
+        "Progression",
+        "Overload"
+       ],
+       "answerIndex": 1,
+       "explanation": "'Use it or lose it'."
+      },
+      {
+       "stem": "Exercise should be stopped immediately if the patient develops:",
+       "options": [
+        "Mild sweating",
+        "Chest pain or dizziness",
+        "Faster breathing",
+        "Mild muscle fatigue",
+        "Increased heart rate"
+       ],
+       "answerIndex": 1,
+       "explanation": "These may indicate cardiac ischaemia or hypotension."
+      },
+      {
+       "stem": "Which is a contraindication to exercise training?",
+       "options": [
+        "Mild osteoarthritis",
+        "Obesity",
+        "Unstable angina",
+        "Type 2 diabetes with good control",
+        "Controlled hypertension"
+       ],
+       "answerIndex": 2,
+       "explanation": "Unstable angina carries a high risk of cardiac events."
+      }
+     ]
+    },
+    {
+     "title": "Strength, Endurance and Flexibility Training",
+     "order": 2,
+     "summary": "Resistance training variables, aerobic endurance, stretching methods and their effects.",
+     "material": [
+      {
+       "heading": "Strength and endurance",
+       "body": "Resistance training variables: load (often as a percentage of one-repetition maximum, 1RM), repetitions, sets, rest and speed. For strength: roughly 60–80% of 1RM for 8–12 repetitions (general guidance), 2–3 sets; for muscular endurance: lighter loads with more repetitions (15–20+). Progressive resistance exercise (DeLorme's method) increases load as strength improves. Open kinetic chain exercises move the distal segment freely (e.g. seated knee extension); closed kinetic chain exercises fix the distal segment (e.g. squats), promoting co-contraction and function. Aerobic training (e.g. 150 minutes/week of moderate activity per WHO guidance) improves VO2max, stroke volume, capillarisation and mitochondrial density, and lowers resting heart rate and blood pressure.",
+       "keyPoints": [
+        "Strength: ~60–80% 1RM, 8–12 reps",
+        "Endurance: light load, many reps",
+        "Open vs closed kinetic chain",
+        "WHO: 150 min/week moderate activity"
+       ]
+      },
+      {
+       "heading": "Flexibility",
+       "body": "Flexibility is the range of motion available at a joint. Stretching methods: static stretching (holding a stretch for about 15–30 seconds, repeated), dynamic stretching (controlled movement through range — suitable for warm-up), ballistic stretching (bouncing — higher injury risk), and proprioceptive neuromuscular facilitation (PNF) techniques such as contract–relax and hold–relax, which use autogenic inhibition (via Golgi tendon organs) and reciprocal inhibition to gain range. Passive range-of-motion exercises maintain joint mobility in patients who cannot move (e.g. unconscious or paralysed patients) and prevent contractures.",
+       "keyPoints": [
+        "Static stretch: hold 15–30 s",
+        "PNF: contract–relax, hold–relax",
+        "Autogenic and reciprocal inhibition",
+        "Passive ROM prevents contractures"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The maximum load that can be lifted once through full range is the:",
+       "options": [
+        "1RM",
+        "Borg score",
+        "HRR",
+        "MET",
+        "VO2max"
+       ],
+       "answerIndex": 0,
+       "explanation": "One-repetition maximum."
+      },
+      {
+       "stem": "A squat is an example of a:",
+       "options": [
+        "Open kinetic chain exercise",
+        "Stretch",
+        "Isometric exercise only",
+        "Closed kinetic chain exercise",
+        "Passive exercise"
+       ],
+       "answerIndex": 3,
+       "explanation": "The feet are fixed on the ground."
+      },
+      {
+       "stem": "Seated knee extension with a weight on the ankle is:",
+       "options": [
+        "Passive",
+        "Ballistic",
+        "Isometric",
+        "Open kinetic chain",
+        "Closed kinetic chain"
+       ],
+       "answerIndex": 3,
+       "explanation": "The distal segment moves freely."
+      },
+      {
+       "stem": "WHO recommends that adults do at least ___ minutes of moderate aerobic activity per week.",
+       "options": [
+        "30",
+        "60",
+        "150",
+        "500",
+        "1,000"
+       ],
+       "answerIndex": 2,
+       "explanation": "At least 150–300 minutes of moderate activity weekly."
+      },
+      {
+       "stem": "A static stretch is typically held for about:",
+       "options": [
+        "5 minutes",
+        "1 hour",
+        "1–2 seconds",
+        "15–30 seconds",
+        "No hold"
+       ],
+       "answerIndex": 3,
+       "explanation": "Holding 15–30 seconds improves flexibility."
+      },
+      {
+       "stem": "Hold–relax and contract–relax are techniques of:",
+       "options": [
+        "Ballistic stretching",
+        "Proprioceptive neuromuscular facilitation (PNF)",
+        "Electrotherapy",
+        "Hydrotherapy only",
+        "Aerobic training"
+       ],
+       "answerIndex": 1,
+       "explanation": "PNF uses contraction to facilitate relaxation and range."
+      },
+      {
+       "stem": "Endurance training increases:",
+       "options": [
+        "Resting heart rate",
+        "Mitochondrial density and capillarisation",
+        "Muscle fibre death",
+        "Blood pressure at rest",
+        "Body fat"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aerobic adaptations improve oxygen delivery and use."
+      },
+      {
+       "stem": "Passive range-of-motion exercises for an unconscious patient mainly prevent:",
+       "options": [
+        "Fever",
+        "Hypertension",
+        "Infection",
+        "Anaemia",
+        "Joint contractures"
+       ],
+       "answerIndex": 4,
+       "explanation": "Moving joints maintains mobility."
+      }
+     ]
+    },
+    {
+     "title": "Electrical Stimulation: TENS and NMES",
+     "order": 3,
+     "summary": "Current types, pain modulation with TENS, neuromuscular stimulation, and safety.",
+     "material": [
+      {
+       "heading": "Currents and TENS",
+       "body": "Therapeutic currents: direct (monophasic, continuous — iontophoresis), alternating/biphasic pulsed currents (most TENS and NMES), and interferential current (two medium-frequency currents, e.g. 4,000 Hz and 4,100 Hz, interfering to give a low-frequency beat, 100 Hz, deep in tissues). TENS parameters: conventional (high frequency 80–150 Hz, short pulse, low intensity, comfortable tingling) activates Aβ fibres to 'close the gate'; acupuncture-like TENS (low frequency 2–4 Hz, higher intensity, visible muscle twitch) releases endogenous opioids; burst mode combines both. TENS is useful in labour pain, postoperative pain and chronic musculoskeletal pain.",
+       "keyPoints": [
+        "Conventional TENS: 80–150 Hz, gate control",
+        "Acupuncture-like TENS: 2–4 Hz, endorphins",
+        "Interferential: beat frequency deep in tissues"
+       ]
+      },
+      {
+       "heading": "NMES and safety",
+       "body": "Neuromuscular electrical stimulation produces muscle contraction to strengthen weak muscles (e.g. quadriceps after knee surgery), re-educate muscles and reduce disuse atrophy; functional electrical stimulation (FES) assists function, e.g. dorsiflexion for foot drop after stroke. Denervated muscle needs long-duration pulses (galvanic/interrupted direct current). Contraindications to electrotherapy include demand pacemakers and implanted electrical devices (especially over the thorax), over the pregnant uterus, over the carotid sinus, over areas of malignancy or active bleeding, broken skin (relative), impaired sensation (relative) and in patients unable to communicate. Test skin sensation before application.",
+       "keyPoints": [
+        "NMES: strengthen and prevent atrophy",
+        "FES for foot drop",
+        "Denervated muscle needs long pulses",
+        "Avoid pacemakers, pregnant uterus, carotid sinus, malignancy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Conventional (high-frequency) TENS relieves pain mainly through:",
+       "options": [
+        "Heating tissue",
+        "The gate control mechanism",
+        "Endogenous opioid release",
+        "Reducing blood flow",
+        "Killing nerve fibres"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aβ fibre stimulation inhibits pain transmission in the dorsal horn."
+      },
+      {
+       "stem": "Acupuncture-like (low-frequency) TENS acts mainly by:",
+       "options": [
+        "Blocking muscle contraction",
+        "Cooling tissue",
+        "Stimulating endogenous opioid release",
+        "Closing the gate only",
+        "Heating tissue"
+       ],
+       "answerIndex": 2,
+       "explanation": "Low-frequency, strong stimulation releases endorphins."
+      },
+      {
+       "stem": "Interferential therapy produces its effect through:",
+       "options": [
+        "Ultrasound waves",
+        "Infrared heat",
+        "Magnetic fields",
+        "Interference of two medium-frequency currents creating a low-frequency beat",
+        "Direct current only"
+       ],
+       "answerIndex": 3,
+       "explanation": "The beat frequency acts in deeper tissues."
+      },
+      {
+       "stem": "NMES is commonly used after knee surgery to:",
+       "options": [
+        "Strengthen the quadriceps and prevent atrophy",
+        "Heal skin",
+        "Reduce fever",
+        "Relieve pain only",
+        "Increase joint effusion"
+       ],
+       "answerIndex": 0,
+       "explanation": "Electrically induced contractions maintain muscle strength."
+      },
+      {
+       "stem": "Functional electrical stimulation can assist a stroke patient with:",
+       "options": [
+        "Dysphagia only",
+        "Visual loss",
+        "Hearing loss",
+        "Aphasia",
+        "Foot drop"
+       ],
+       "answerIndex": 4,
+       "explanation": "Stimulating the common fibular nerve lifts the foot during swing."
+      },
+      {
+       "stem": "Electrotherapy is contraindicated over the:",
+       "options": [
+        "Quadriceps",
+        "Calf",
+        "Forearm",
+        "Carotid sinus",
+        "Lumbar muscles in healthy adults"
+       ],
+       "answerIndex": 3,
+       "explanation": "Stimulation may cause bradycardia or hypotension."
+      },
+      {
+       "stem": "Denervated muscles require stimulation with:",
+       "options": [
+        "Very short pulses",
+        "Ultrasound",
+        "Ice",
+        "High-frequency TENS",
+        "Long-duration pulses (interrupted direct current)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Muscle fibres without nerve supply need longer pulses."
+      },
+      {
+       "stem": "Before applying electrical stimulation, the therapist should test the patient's:",
+       "options": [
+        "Blood glucose",
+        "Hearing",
+        "Vision",
+        "Skin sensation",
+        "Taste"
+       ],
+       "answerIndex": 3,
+       "explanation": "Impaired sensation increases burn risk."
+      }
+     ]
+    },
+    {
+     "title": "Heat, Cold, Ultrasound and Other Electrophysical Agents",
+     "order": 4,
+     "summary": "Superficial and deep heating, cryotherapy, therapeutic ultrasound, shortwave diathermy and laser.",
+     "material": [
+      {
+       "heading": "Thermal agents",
+       "body": "Superficial heating (hot packs, paraffin wax — useful for hand arthritis, infrared lamps) penetrates about 1–2 cm, increasing blood flow, tissue extensibility and pain relief. Deep heating: shortwave diathermy (27.12 MHz electromagnetic energy — contraindicated with metal implants, pacemakers, pregnancy) and continuous therapeutic ultrasound. Cryotherapy (ice packs, ice massage, cold sprays) reduces pain, swelling, metabolic rate and muscle spasm; use for 10–20 minutes with a barrier. Hunting response: alternating vasoconstriction and vasodilation with prolonged cold. Contraindications to cold include Raynaud's phenomenon, cold urticaria, cryoglobulinaemia and impaired circulation.",
+       "keyPoints": [
+        "Superficial heat penetrates 1–2 cm",
+        "Shortwave diathermy 27.12 MHz; avoid metal",
+        "Ice 10–20 min with barrier",
+        "Cold contraindicated in Raynaud's"
+       ]
+      },
+      {
+       "heading": "Ultrasound and laser",
+       "body": "Therapeutic ultrasound uses frequencies of 1 MHz (deeper, up to ~5 cm) or 3 MHz (superficial, 1–2 cm); a coupling medium (gel) is essential because ultrasound does not travel through air. Continuous mode produces thermal effects; pulsed mode (e.g. 20% duty cycle) produces non-thermal effects (cavitation, acoustic streaming) that may aid tissue healing. The effective radiating area and beam non-uniformity ratio (BNR — lower is safer) describe the transducer; keep the head moving to avoid hot spots. Low-level laser therapy (photobiomodulation) is used for wound healing and pain; protective goggles are required. Hydrotherapy uses warm water's buoyancy and support for exercise.",
+       "keyPoints": [
+        "1 MHz deep; 3 MHz superficial",
+        "Coupling gel essential",
+        "Pulsed ultrasound: non-thermal effects",
+        "Keep transducer moving; low BNR safer",
+        "Laser: wear goggles"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Paraffin wax baths are especially useful for treating:",
+       "options": [
+        "Stiff arthritic hands",
+        "Open wounds",
+        "Acute ankle sprain",
+        "Chest infections",
+        "Acute gout"
+       ],
+       "answerIndex": 0,
+       "explanation": "Wax provides even superficial heat to the small joints of the hand."
+      },
+      {
+       "stem": "Shortwave diathermy operates at a frequency of about:",
+       "options": [
+        "50 Hz",
+        "27.12 MHz",
+        "1 MHz",
+        "2.45 GHz",
+        "100 Hz"
+       ],
+       "answerIndex": 1,
+       "explanation": "27.12 MHz is the standard SWD frequency."
+      },
+      {
+       "stem": "Shortwave diathermy is contraindicated in patients with:",
+       "options": [
+        "Chronic back pain",
+        "Osteoarthritis of the knee",
+        "Metal implants or pacemakers",
+        "Muscle stiffness",
+        "Tension headache"
+       ],
+       "answerIndex": 2,
+       "explanation": "Electromagnetic fields heat metal and disturb pacemakers."
+      },
+      {
+       "stem": "A coupling gel is used in therapeutic ultrasound because:",
+       "options": [
+        "Ultrasound does not travel well through air",
+        "It blocks heat",
+        "It increases frequency",
+        "It is antiseptic",
+        "It cools the skin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Air gaps reflect nearly all ultrasound energy."
+      },
+      {
+       "stem": "Pulsed therapeutic ultrasound mainly produces:",
+       "options": [
+        "Non-thermal (mechanical) effects",
+        "Cooling",
+        "Electrical stimulation",
+        "X-rays",
+        "Thermal effects"
+       ],
+       "answerIndex": 0,
+       "explanation": "Low duty cycles minimise heating."
+      },
+      {
+       "stem": "To treat a superficial tendon, the therapist should choose an ultrasound frequency of:",
+       "options": [
+        "1 MHz",
+        "3 MHz",
+        "50 Hz",
+        "100 kHz",
+        "27 MHz"
+       ],
+       "answerIndex": 1,
+       "explanation": "3 MHz is absorbed more superficially."
+      },
+      {
+       "stem": "Cryotherapy is contraindicated in:",
+       "options": [
+        "Post-exercise soreness",
+        "Acute bursitis",
+        "Raynaud's phenomenon",
+        "Muscle spasm",
+        "Acute sprains"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cold may trigger vasospasm."
+      },
+      {
+       "stem": "When using low-level laser therapy, both patient and therapist should wear:",
+       "options": [
+        "Ear plugs",
+        "Protective goggles",
+        "Lead aprons",
+        "Gloves only",
+        "Masks"
+       ],
+       "answerIndex": 1,
+       "explanation": "Laser light can damage the retina."
+      }
+     ]
+    },
+    {
+     "title": "Exercise for Special Populations",
+     "order": 5,
+     "summary": "Exercise in older adults, pregnancy, children, chronic diseases and after cardiac events.",
+     "material": [
+      {
+       "heading": "Older adults and pregnancy",
+       "body": "Older adults benefit from aerobic, strengthening, balance and flexibility training to prevent falls, sarcopenia and osteoporosis; start low, progress slowly, and include functional tasks (sit-to-stand, stair climbing). Weight-bearing and resistance exercise improve bone density. In uncomplicated pregnancy, moderate exercise (about 150 minutes/week) is safe and beneficial — reducing gestational diabetes, excess weight gain and back pain; avoid lying flat on the back for prolonged periods after the first trimester (supine hypotension from aortocaval compression), contact sports, scuba diving, and exercise in heat. Pelvic floor muscle training prevents and treats urinary incontinence. Warning signs to stop: vaginal bleeding, leakage of amniotic fluid, regular painful contractions, chest pain, dizziness, calf pain or swelling.",
+       "keyPoints": [
+        "Older adults: balance and strength to prevent falls",
+        "Weight-bearing exercise improves bone density",
+        "Pregnancy: avoid prolonged supine after first trimester",
+        "Pelvic floor training for incontinence"
+       ]
+      },
+      {
+       "heading": "Chronic diseases",
+       "body": "Cardiac rehabilitation after myocardial infarction or cardiac surgery progresses through phases: inpatient mobilisation (phase I), early post-discharge (phase II), supervised outpatient exercise (phase III) and long-term maintenance (phase IV); it reduces mortality and improves quality of life. Pulmonary rehabilitation for COPD combines exercise training, breathing techniques and education, improving exercise tolerance. In diabetes, exercise improves insulin sensitivity; check glucose before exercise and carry a quick sugar source. In hypertension, regular aerobic exercise lowers blood pressure by about 5–8 mmHg. In osteoarthritis, strengthening (quadriceps) and aerobic exercise reduce pain and improve function. People with sickle cell disease should exercise moderately, stay well hydrated and avoid extremes of temperature.",
+       "keyPoints": [
+        "Cardiac rehab phases I–IV",
+        "Pulmonary rehab for COPD",
+        "Diabetes: check glucose, carry sugar",
+        "Osteoarthritis: quadriceps strengthening",
+        "Sickle cell: hydrate, avoid extremes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "After the first trimester, pregnant women should avoid prolonged exercise in which position?",
+       "options": [
+        "Lying flat on the back",
+        "Side-lying",
+        "Sitting",
+        "Kneeling",
+        "Standing"
+       ],
+       "answerIndex": 0,
+       "explanation": "The uterus compresses the vena cava, causing supine hypotension."
+      },
+      {
+       "stem": "Which exercise best improves bone density in older adults?",
+       "options": [
+        "Passive movements",
+        "Breathing exercises",
+        "Weight-bearing and resistance exercise",
+        "Swimming only",
+        "Seated stretching only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mechanical loading stimulates bone formation."
+      },
+      {
+       "stem": "Pelvic floor muscle training is mainly used to prevent and treat:",
+       "options": [
+        "Urinary incontinence",
+        "Back pain",
+        "Asthma",
+        "Diabetes",
+        "Hypertension"
+       ],
+       "answerIndex": 0,
+       "explanation": "It strengthens the continence mechanism."
+      },
+      {
+       "stem": "The supervised outpatient exercise stage of cardiac rehabilitation is:",
+       "options": [
+        "Phase 0",
+        "Phase IV",
+        "Phase III",
+        "Phase I",
+        "Phase II"
+       ],
+       "answerIndex": 2,
+       "explanation": "Phase III is structured outpatient exercise."
+      },
+      {
+       "stem": "Pulmonary rehabilitation is especially beneficial for patients with:",
+       "options": [
+        "Acute appendicitis",
+        "Cataract",
+        "Fractured skull",
+        "Otitis media",
+        "COPD"
+       ],
+       "answerIndex": 4,
+       "explanation": "It improves breathlessness and exercise capacity."
+      },
+      {
+       "stem": "A person with type 1 diabetes planning exercise should:",
+       "options": [
+        "Double insulin",
+        "Exercise only at night",
+        "Skip meals",
+        "Avoid all exercise",
+        "Check blood glucose and carry a quick source of sugar"
+       ],
+       "answerIndex": 4,
+       "explanation": "Exercise can cause hypoglycaemia."
+      },
+      {
+       "stem": "For knee osteoarthritis, the most important muscle group to strengthen is the:",
+       "options": [
+        "Gastrocnemius",
+        "Quadriceps",
+        "Hamstrings only",
+        "Deltoid",
+        "Biceps"
+       ],
+       "answerIndex": 1,
+       "explanation": "Quadriceps strength reduces pain and improves function."
+      },
+      {
+       "stem": "A person with sickle cell disease exercising should especially:",
+       "options": [
+        "Avoid all activity",
+        "Train at high altitude",
+        "Exercise in extreme heat",
+        "Hold their breath",
+        "Maintain hydration and avoid temperature extremes"
+       ],
+       "answerIndex": 4,
+       "explanation": "Dehydration and cold can precipitate crises."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

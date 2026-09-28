@@ -1,0 +1,634 @@
+{
+ "courses": [
+  {
+   "title": "Entrepreneurship and Innovation (ENT 211)",
+   "code": "ENT211",
+   "color": "#475569",
+   "description": "Entrepreneurship concepts, opportunity identification, business planning, financing and innovation — including health-care enterprise in Nigeria.",
+   "audience": [
+    {
+     "level": "200 Level"
+    },
+    {
+     "level": "300 Level"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Concepts of Entrepreneurship",
+     "order": 1,
+     "summary": "Definitions, characteristics of entrepreneurs and the role of entrepreneurship in development.",
+     "material": [
+      {
+       "heading": "Meaning",
+       "body": "Entrepreneurship is the process of identifying an opportunity, mobilising resources and bearing risk to create value through a new or improved product, service or organisation. The term comes from the French 'entreprendre' (to undertake). Joseph Schumpeter described the entrepreneur as an innovator who brings 'creative destruction' — new combinations that displace old ones. Richard Cantillon first used the term in economics and stressed risk-bearing.",
+       "keyPoints": [
+        "Entrepreneur: identifies opportunity and bears risk",
+        "Schumpeter: innovation and creative destruction",
+        "Cantillon: risk-bearing"
+       ]
+      },
+      {
+       "heading": "Characteristics and importance",
+       "body": "Successful entrepreneurs typically show need for achievement (David McClelland), calculated risk-taking, creativity, self-confidence, persistence, an internal locus of control and good networking. Entrepreneurship creates jobs, mobilises local resources, promotes innovation, reduces rural–urban migration and diversifies the economy — important for Nigeria's large youth population. Intrapreneurship is entrepreneurial behaviour within an existing organisation. Social entrepreneurship pursues social goals (e.g. affordable clinics, health apps).",
+       "keyPoints": [
+        "McClelland: need for achievement",
+        "Intrapreneurship: innovation inside an organisation",
+        "Social entrepreneurship: social goals"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The economist who described the entrepreneur as an innovator causing 'creative destruction' is:",
+       "options": [
+        "Joseph Schumpeter",
+        "Karl Marx",
+        "John Keynes",
+        "David Ricardo",
+        "Adam Smith"
+       ],
+       "answerIndex": 0,
+       "explanation": "Schumpeter emphasised innovation."
+      },
+      {
+       "stem": "The term 'entrepreneur' is derived from a French word meaning:",
+       "options": [
+        "To undertake",
+        "To borrow",
+        "To manage",
+        "To save",
+        "To trade"
+       ],
+       "answerIndex": 0,
+       "explanation": "'Entreprendre' means to undertake."
+      },
+      {
+       "stem": "The 'need for achievement' theory of entrepreneurship is associated with:",
+       "options": [
+        "Abraham Maslow",
+        "Max Weber",
+        "Frederick Taylor",
+        "Peter Drucker",
+        "David McClelland"
+       ],
+       "answerIndex": 4,
+       "explanation": "McClelland linked achievement motivation to entrepreneurship."
+      },
+      {
+       "stem": "Entrepreneurial behaviour by an employee within an existing organisation is:",
+       "options": [
+        "Privatisation",
+        "Intrapreneurship",
+        "Franchising",
+        "Liquidation",
+        "Outsourcing"
+       ],
+       "answerIndex": 1,
+       "explanation": "Intrapreneurs innovate inside companies."
+      },
+      {
+       "stem": "Which is NOT a typical characteristic of successful entrepreneurs?",
+       "options": [
+        "Self-confidence",
+        "Calculated risk-taking",
+        "Persistence",
+        "Avoidance of all risk",
+        "Creativity"
+       ],
+       "answerIndex": 3,
+       "explanation": "Entrepreneurs take calculated, not zero, risks."
+      },
+      {
+       "stem": "A business set up mainly to solve a social problem, such as affordable rural clinics, is an example of:",
+       "options": [
+        "Monopoly",
+        "Nationalisation",
+        "Sole proprietorship only",
+        "Speculation",
+        "Social entrepreneurship"
+       ],
+       "answerIndex": 4,
+       "explanation": "Social entrepreneurs pursue social impact."
+      },
+      {
+       "stem": "An entrepreneur who believes outcomes depend on their own actions has an:",
+       "options": [
+        "Dependent personality",
+        "External locus of control",
+        "Internal locus of control",
+        "Fixed mindset",
+        "Risk-averse attitude"
+       ],
+       "answerIndex": 2,
+       "explanation": "Internal locus of control is common among entrepreneurs."
+      },
+      {
+       "stem": "The first economist to use the term 'entrepreneur', stressing risk-bearing, was:",
+       "options": [
+        "Alfred Marshall",
+        "Milton Friedman",
+        "Thomas Malthus",
+        "Richard Cantillon",
+        "Jean-Baptiste Say"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cantillon described entrepreneurs as bearers of uncertainty."
+      }
+     ]
+    },
+    {
+     "title": "Opportunity Identification and Creativity",
+     "order": 2,
+     "summary": "Sources of business ideas, feasibility, SWOT analysis and creativity techniques.",
+     "material": [
+      {
+       "heading": "Finding opportunities",
+       "body": "Business ideas come from unmet needs, problems, hobbies and skills, changes in technology, government policy, demographic trends and gaps in existing markets (e.g. long hospital queues suggesting appointment apps, poor cold-chain suggesting solar fridges). An idea becomes an opportunity when it is attractive, durable, timely and can create value for customers. A feasibility study assesses market, technical, financial, legal and organisational viability before investment.",
+       "keyPoints": [
+        "Opportunity = idea + value + timing + viability",
+        "Feasibility: market, technical, financial, legal"
+       ]
+      },
+      {
+       "heading": "Analysis and creativity",
+       "body": "SWOT analysis examines internal Strengths and Weaknesses and external Opportunities and Threats. PESTLE analysis examines Political, Economic, Social, Technological, Legal and Environmental factors. Creativity techniques include brainstorming (generating many ideas without criticism), mind mapping and design thinking (empathise, define, ideate, prototype, test). Innovation may be incremental (improving existing products) or radical/disruptive.",
+       "keyPoints": [
+        "SWOT: internal S/W, external O/T",
+        "PESTLE for the macro-environment",
+        "Design thinking: empathise → define → ideate → prototype → test"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In SWOT analysis, 'threats' are:",
+       "options": [
+        "Financial ratios",
+        "Employee skills",
+        "External factors",
+        "Company strengths",
+        "Internal factors"
+       ],
+       "answerIndex": 2,
+       "explanation": "Opportunities and threats are external; strengths and weaknesses internal."
+      },
+      {
+       "stem": "A study to determine whether a business idea is viable before investing is a:",
+       "options": [
+        "Merger",
+        "Market crash",
+        "Feasibility study",
+        "Tax return",
+        "Audit"
+       ],
+       "answerIndex": 2,
+       "explanation": "Feasibility studies examine market, technical and financial viability."
+      },
+      {
+       "stem": "Generating many ideas freely without criticism is:",
+       "options": [
+        "Budgeting",
+        "Benchmarking",
+        "Brainstorming",
+        "Auditing",
+        "Forecasting"
+       ],
+       "answerIndex": 2,
+       "explanation": "Brainstorming defers judgement to encourage creativity."
+      },
+      {
+       "stem": "In PESTLE, the 'T' stands for:",
+       "options": [
+        "Technological",
+        "Transport",
+        "Training",
+        "Tax",
+        "Trade"
+       ],
+       "answerIndex": 0,
+       "explanation": "Political, Economic, Social, Technological, Legal, Environmental."
+      },
+      {
+       "stem": "The first stage of design thinking is to:",
+       "options": [
+        "Advertise",
+        "Prototype",
+        "Sell",
+        "Test",
+        "Empathise"
+       ],
+       "answerIndex": 4,
+       "explanation": "Design thinking begins by understanding users' needs."
+      },
+      {
+       "stem": "Improving an existing product step by step is called:",
+       "options": [
+        "Radical innovation",
+        "Invention",
+        "Disruptive innovation",
+        "Incremental innovation",
+        "Imitation only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Incremental innovation makes small improvements."
+      },
+      {
+       "stem": "Which is an example of a weakness in SWOT for a new pharmacy?",
+       "options": [
+        "New government health insurance scheme",
+        "Competitor closing down",
+        "Limited start-up capital",
+        "Rising population",
+        "Growing demand for medicines"
+       ],
+       "answerIndex": 2,
+       "explanation": "Limited capital is an internal weakness."
+      },
+      {
+       "stem": "A business opportunity differs from an idea in that it:",
+       "options": [
+        "Needs no market",
+        "Requires no planning",
+        "Is always cheap",
+        "Is only for large firms",
+        "Can create value for customers and is viable"
+       ],
+       "answerIndex": 4,
+       "explanation": "An opportunity is an idea with real market value and feasibility."
+      }
+     ]
+    },
+    {
+     "title": "The Business Plan and Forms of Business Ownership",
+     "order": 3,
+     "summary": "Components of a business plan and types of business ownership in Nigeria.",
+     "material": [
+      {
+       "heading": "Business plan",
+       "body": "A business plan is a written document describing a business's goals and how it will achieve them. Typical sections: executive summary (written last, read first), business description, market analysis, marketing plan (the 4 Ps — product, price, place, promotion), operations plan, management and organisation, and financial plan (start-up costs, projected income statement, cash flow and break-even analysis). It guides the entrepreneur and helps attract investors and lenders.",
+       "keyPoints": [
+        "Executive summary is written last",
+        "Marketing mix: 4 Ps",
+        "Financial plan includes cash flow and break-even"
+       ]
+      },
+      {
+       "heading": "Forms of ownership",
+       "body": "A sole proprietorship is owned by one person — easy to start, but with unlimited liability. A partnership has 2–20 partners sharing profits and liabilities. A limited liability company (private 'Ltd' or public 'Plc') is a separate legal entity; shareholders' liability is limited to their shares. Cooperatives are owned by members for mutual benefit. In Nigeria businesses and companies are registered with the Corporate Affairs Commission (CAC) under the Companies and Allied Matters Act (CAMA) 2020.",
+       "keyPoints": [
+        "Sole proprietor: unlimited liability",
+        "Limited company: separate legal entity",
+        "Registration: Corporate Affairs Commission (CAMA 2020)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The section of a business plan usually written last is the:",
+       "options": [
+        "Market analysis",
+        "Operations plan",
+        "Appendix",
+        "Executive summary",
+        "Financial plan"
+       ],
+       "answerIndex": 3,
+       "explanation": "It summarises the whole plan, so it is written last."
+      },
+      {
+       "stem": "The 4 Ps of the marketing mix are product, price, place and:",
+       "options": [
+        "People",
+        "Planning",
+        "Packaging",
+        "Promotion",
+        "Profit"
+       ],
+       "answerIndex": 3,
+       "explanation": "The classic marketing mix: product, price, place, promotion."
+      },
+      {
+       "stem": "A major disadvantage of a sole proprietorship is:",
+       "options": [
+        "Difficult registration",
+        "Too many owners",
+        "Separate legal entity",
+        "Unlimited liability",
+        "Mandatory stock listing"
+       ],
+       "answerIndex": 3,
+       "explanation": "The owner is personally liable for all debts."
+      },
+      {
+       "stem": "In Nigeria, companies are registered with the:",
+       "options": [
+        "CBN",
+        "SON",
+        "CAC",
+        "FIRS",
+        "NAFDAC"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Corporate Affairs Commission registers companies."
+      },
+      {
+       "stem": "Shareholders of a limited liability company are liable for debts:",
+       "options": [
+        "Only if they are directors",
+        "Never, even for unpaid shares",
+        "Without limit",
+        "Only up to the value of their shares",
+        "Jointly with the government"
+       ],
+       "answerIndex": 3,
+       "explanation": "Their liability is limited to their investment."
+      },
+      {
+       "stem": "Break-even point is where:",
+       "options": [
+        "Total revenue equals total cost",
+        "Sales are zero",
+        "Fixed costs are zero",
+        "Variable costs exceed revenue",
+        "Profit is maximum"
+       ],
+       "answerIndex": 0,
+       "explanation": "At break-even there is neither profit nor loss."
+      },
+      {
+       "stem": "A business owned and controlled by members for their mutual benefit is a:",
+       "options": [
+        "Cooperative society",
+        "Parastatal",
+        "Sole proprietorship",
+        "Public limited company",
+        "Multinational"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cooperatives serve their members."
+      },
+      {
+       "stem": "The law governing company registration in Nigeria is:",
+       "options": [
+        "The Electoral Act",
+        "NHIA Act",
+        "CAMA 2020",
+        "The Land Use Act",
+        "Criminal Code"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Companies and Allied Matters Act 2020."
+      }
+     ]
+    },
+    {
+     "title": "Financing, Record Keeping and Marketing",
+     "order": 4,
+     "summary": "Sources of finance, basic bookkeeping, and marketing a small business.",
+     "material": [
+      {
+       "heading": "Finance",
+       "body": "Sources of finance include personal savings, family and friends, cooperative societies and esusu/ajo rotating savings, microfinance banks, commercial bank loans, government intervention funds (e.g. Bank of Industry, SMEDAN support), grants, angel investors and venture capital (in exchange for equity), and crowdfunding. Debt financing must be repaid with interest; equity financing gives investors ownership. Working capital = current assets − current liabilities.",
+       "keyPoints": [
+        "Debt: repay with interest; equity: give up ownership",
+        "Esusu/ajo: rotating savings",
+        "SMEDAN supports small businesses"
+       ]
+      },
+      {
+       "heading": "Records and marketing",
+       "body": "Good records (cash book, sales and purchases records, inventory, receipts) help track performance, plan, pay tax and obtain loans. The income statement shows profit or loss over a period; the balance sheet shows assets, liabilities and owner's equity at a point in time (Assets = Liabilities + Equity). Marketing identifies customers' needs and satisfies them profitably; small businesses use word of mouth, social media, customer service and branding. Mixing personal and business money is a common cause of small-business failure.",
+       "keyPoints": [
+        "Assets = Liabilities + Equity",
+        "Income statement: profit or loss",
+        "Separate personal and business money"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Money raised by selling part ownership of a business is:",
+       "options": [
+        "Overdraft",
+        "Debt financing",
+        "Equity financing",
+        "Grant",
+        "Trade credit"
+       ],
+       "answerIndex": 2,
+       "explanation": "Equity investors receive ownership shares."
+      },
+      {
+       "stem": "The accounting equation is:",
+       "options": [
+        "Assets = Liabilities + Equity",
+        "Liabilities = Assets + Equity",
+        "Equity = Revenue + Liabilities",
+        "Assets = Revenue − Expenses",
+        "Profit = Assets − Equity"
+       ],
+       "answerIndex": 0,
+       "explanation": "The balance sheet always balances this way."
+      },
+      {
+       "stem": "The financial statement that shows profit or loss over a period is the:",
+       "options": [
+        "Invoice",
+        "Balance sheet",
+        "Income statement",
+        "Receipt",
+        "Bank statement"
+       ],
+       "answerIndex": 2,
+       "explanation": "The income (profit and loss) statement."
+      },
+      {
+       "stem": "A rotating savings scheme common in Nigeria is:",
+       "options": [
+        "Esusu/ajo",
+        "Mortgage",
+        "Insurance premium",
+        "Stock exchange",
+        "Treasury bill"
+       ],
+       "answerIndex": 0,
+       "explanation": "Members contribute regularly and take turns collecting the pool."
+      },
+      {
+       "stem": "Working capital equals:",
+       "options": [
+        "Total assets − total liabilities",
+        "Revenue − expenses",
+        "Equity − debt",
+        "Fixed assets + current assets",
+        "Current assets − current liabilities"
+       ],
+       "answerIndex": 4,
+       "explanation": "It measures short-term liquidity."
+      },
+      {
+       "stem": "The Nigerian agency that promotes small and medium enterprises is:",
+       "options": [
+        "NAFDAC",
+        "NCC",
+        "SMEDAN",
+        "INEC",
+        "NDLEA"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Small and Medium Enterprises Development Agency of Nigeria."
+      },
+      {
+       "stem": "A common cause of small-business failure is:",
+       "options": [
+        "Knowing your customers",
+        "Mixing personal and business funds",
+        "Good customer service",
+        "Planning finances",
+        "Keeping good records"
+       ],
+       "answerIndex": 1,
+       "explanation": "Poor financial separation hides the true state of the business."
+      },
+      {
+       "stem": "Investors who provide capital to early-stage businesses in exchange for equity are:",
+       "options": [
+        "Angel investors",
+        "Tax collectors",
+        "Regulators",
+        "Auditors",
+        "Creditors only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Angel investors fund start-ups for a share of ownership."
+      }
+     ]
+    },
+    {
+     "title": "Innovation and Entrepreneurship in Health Care",
+     "order": 5,
+     "summary": "Innovation types, intellectual property, and health-sector business opportunities.",
+     "material": [
+      {
+       "heading": "Innovation and intellectual property",
+       "body": "Innovation is the successful application of new ideas: product, process, service, business-model or social innovation. Intellectual property protects creations: patents (inventions, typically 20 years), trademarks (brand names and logos), copyright (literary and artistic works, software) and industrial designs. In Nigeria patents and trademarks are registered with the Commercial Law Department (Trademarks, Patents and Designs Registry) and copyright is administered by the Nigerian Copyright Commission.",
+       "keyPoints": [
+        "Patent: inventions (~20 years)",
+        "Trademark: brands; copyright: creative works",
+        "Nigerian Copyright Commission"
+       ]
+      },
+      {
+       "heading": "Health-care enterprise",
+       "body": "Health professionals can build ventures in community pharmacy, diagnostic laboratories, imaging centres, physiotherapy clinics, home nursing, medical supplies, health insurance support, telemedicine and digital health apps. Health businesses must comply with professional regulations (e.g. PCN licensing of pharmacies, MLSCN registration of laboratories), NAFDAC product registration, and ethical standards that put patient welfare first.",
+       "keyPoints": [
+        "Health ventures need regulatory approval",
+        "NAFDAC registers health products",
+        "Patient welfare comes first"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Legal protection for a new invention is a:",
+       "options": [
+        "Copyright",
+        "Licence to trade",
+        "Patent",
+        "Trademark",
+        "Franchise"
+       ],
+       "answerIndex": 2,
+       "explanation": "Patents protect inventions for about 20 years."
+      },
+      {
+       "stem": "A company logo is protected by a:",
+       "options": [
+        "Utility model",
+        "Patent",
+        "Trademark",
+        "Copyright",
+        "Trade secret only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Trademarks protect brand names and logos."
+      },
+      {
+       "stem": "Software code and textbooks are protected by:",
+       "options": [
+        "Trademark",
+        "Geographical indication",
+        "Industrial design",
+        "Patent",
+        "Copyright"
+       ],
+       "answerIndex": 4,
+       "explanation": "Copyright covers literary and artistic works including software."
+      },
+      {
+       "stem": "Which Nigerian agency registers drugs and health products before sale?",
+       "options": [
+        "FIRS",
+        "SON",
+        "NAFDAC",
+        "NCC",
+        "CAC"
+       ],
+       "answerIndex": 2,
+       "explanation": "The National Agency for Food and Drug Administration and Control."
+      },
+      {
+       "stem": "A community pharmacy premises must be licensed by the:",
+       "options": [
+        "NUC",
+        "NMCN",
+        "PCN",
+        "CBN",
+        "MDCN"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Pharmacy Council of Nigeria licenses pharmacy premises."
+      },
+      {
+       "stem": "Offering consultations by video call to rural patients is an example of:",
+       "options": [
+        "Copyright",
+        "Price fixing",
+        "Monopoly",
+        "Process innovation in telemedicine",
+        "Franchising"
+       ],
+       "answerIndex": 3,
+       "explanation": "Telemedicine is a service/process innovation."
+      },
+      {
+       "stem": "Changing how a clinic delivers care to cut waiting time is a:",
+       "options": [
+        "Merger",
+        "Patent infringement",
+        "Trademark",
+        "Product innovation",
+        "Process innovation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Process innovation improves how things are done."
+      },
+      {
+       "stem": "The main ethical principle for health entrepreneurs is that:",
+       "options": [
+        "Profit comes before patients",
+        "Advertising must exaggerate",
+        "Regulations can be ignored",
+        "Patient welfare comes first",
+        "Only the rich should be served"
+       ],
+       "answerIndex": 3,
+       "explanation": "Professional ethics require putting patient welfare first."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

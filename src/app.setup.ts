@@ -1,4 +1,5 @@
 import { ClassSerializerInterceptor, INestApplication, ValidationPipe } from '@nestjs/common';
+import type { NestExpressApplication } from '@nestjs/platform-express';
 import { ConfigService } from '@nestjs/config';
 import { Reflector } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
@@ -12,6 +13,8 @@ import { requestLogger } from './common/middleware/request-logger';
  */
 export function configureApp(app: INestApplication) {
   app.setGlobalPrefix('api/v1');
+  // Bulk content imports send a whole course (notes + questions) at once.
+  (app as NestExpressApplication).useBodyParser('json', { limit: '5mb' });
 
   // One log line per request (skipped under Jest to keep test output clean).
   if (process.env.NODE_ENV !== 'test') app.use(requestLogger);

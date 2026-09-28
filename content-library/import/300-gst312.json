@@ -1,0 +1,637 @@
+{
+ "courses": [
+  {
+   "title": "Peace and Conflict Resolution (GST 312)",
+   "code": "GST312",
+   "color": "#475569",
+   "description": "General-studies course on the nature of peace and conflict, causes of conflict in Nigeria, conflict resolution methods, and peace-building — including conflict in the health workplace.",
+   "audience": [
+    {
+     "level": "300 Level"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Concepts of Peace and Conflict",
+     "order": 1,
+     "summary": "Definitions, types of peace and conflict, and theories of conflict.",
+     "material": [
+      {
+       "heading": "Peace",
+       "body": "Johan Galtung, regarded as the father of peace studies, distinguished negative peace (the absence of direct violence or war) from positive peace (the presence of social justice, equity and conditions that prevent violence). He also described direct violence (physical harm), structural violence (harm built into unjust social structures — e.g. poverty, unequal access to health care) and cultural violence (beliefs that justify violence).",
+       "keyPoints": [
+        "Galtung: father of peace studies",
+        "Negative peace: absence of violence",
+        "Positive peace: presence of justice",
+        "Structural violence: unjust systems"
+       ]
+      },
+      {
+       "heading": "Conflict and theories",
+       "body": "Conflict is a struggle between parties who perceive incompatible goals, scarce resources or interference. It is natural and can be constructive (driving change) or destructive. Levels: intrapersonal, interpersonal, intragroup, intergroup, and international. Theories: structural conflict theory (inequalities in society — Marx), relative deprivation / frustration–aggression theory (the gap between expectations and reality leads to aggression — Ted Gurr), human needs theory (unmet basic needs — Burton), and psychocultural theory (identity and fear).",
+       "keyPoints": [
+        "Conflict can be constructive or destructive",
+        "Frustration–aggression / relative deprivation (Gurr)",
+        "Human needs theory (Burton)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The father of peace studies is:",
+       "options": [
+        "Kofi Annan",
+        "Mahatma Gandhi",
+        "John Burton",
+        "Karl Marx",
+        "Johan Galtung"
+       ],
+       "answerIndex": 4,
+       "explanation": "Galtung founded modern peace research."
+      },
+      {
+       "stem": "The absence of war or direct violence is called:",
+       "options": [
+        "Negative peace",
+        "Cultural peace",
+        "Absolute peace",
+        "Positive peace",
+        "Structural peace"
+       ],
+       "answerIndex": 0,
+       "explanation": "Negative peace is simply the absence of violence."
+      },
+      {
+       "stem": "Poverty and unequal access to health care caused by unjust systems are examples of:",
+       "options": [
+        "Direct violence",
+        "Structural violence",
+        "Cultural violence",
+        "Negative peace",
+        "Mediation"
+       ],
+       "answerIndex": 1,
+       "explanation": "Harm built into social structures is structural violence."
+      },
+      {
+       "stem": "The theory that a gap between expectations and achievement leads to aggression is:",
+       "options": [
+        "Relative deprivation theory",
+        "Social contract theory",
+        "Human needs theory",
+        "Functionalism",
+        "Game theory"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ted Gurr's relative deprivation theory."
+      },
+      {
+       "stem": "Conflict within an individual, such as choosing between two courses, is:",
+       "options": [
+        "Interpersonal",
+        "Structural",
+        "Intrapersonal",
+        "International",
+        "Intergroup"
+       ],
+       "answerIndex": 2,
+       "explanation": "Intrapersonal conflict occurs within one person."
+      },
+      {
+       "stem": "The human needs theory of conflict is associated with:",
+       "options": [
+        "Karl Marx",
+        "John Burton",
+        "Thomas Hobbes",
+        "Max Weber",
+        "Johan Galtung"
+       ],
+       "answerIndex": 1,
+       "explanation": "Burton argued unmet basic needs drive conflict."
+      },
+      {
+       "stem": "Which statement about conflict is correct?",
+       "options": [
+        "All conflict is destructive",
+        "Conflict only occurs between nations",
+        "Conflict never occurs in hospitals",
+        "Conflict is always violent",
+        "Conflict can be constructive when well managed"
+       ],
+       "answerIndex": 4,
+       "explanation": "Managed conflict can drive positive change."
+      },
+      {
+       "stem": "Positive peace refers to:",
+       "options": [
+        "Suppression of dissent",
+        "Silence",
+        "The presence of justice and conditions that prevent violence",
+        "Only a ceasefire",
+        "Military victory"
+       ],
+       "answerIndex": 2,
+       "explanation": "Positive peace addresses root causes."
+      }
+     ]
+    },
+    {
+     "title": "Causes and Types of Conflict in Nigeria",
+     "order": 2,
+     "summary": "Ethnic, religious, resource, political and communal conflicts in Nigeria.",
+     "material": [
+      {
+       "heading": "Causes",
+       "body": "Common causes of conflict in Nigeria include competition over land and resources (farmer–herder conflicts in the Middle Belt), ethno-religious tensions (e.g. crises in Jos, Kaduna), political competition and electoral violence, chieftaincy and boundary disputes (e.g. Ife–Modakeke, Aguleri–Umuleri), resource control and environmental degradation in the Niger Delta, youth unemployment, poverty, and insurgency and terrorism (Boko Haram in the North-East since about 2009), as well as banditry and kidnapping.",
+       "keyPoints": [
+        "Farmer–herder conflicts over land and water",
+        "Ife–Modakeke, Aguleri–Umuleri communal conflicts",
+        "Niger Delta: resource control",
+        "Boko Haram insurgency in the North-East"
+       ]
+      },
+      {
+       "heading": "Effects on health",
+       "body": "Conflict kills and injures, displaces people into internally displaced persons (IDP) camps, destroys health facilities, disrupts immunisation (e.g. hampering polio eradication), increases malnutrition, sexual and gender-based violence and mental health problems such as post-traumatic stress disorder, and drives health workers away. Humanitarian law protects health workers and facilities during armed conflict; the Red Cross emblem signals protection.",
+       "keyPoints": [
+        "Conflict → displacement (IDPs), malnutrition, PTSD",
+        "Disrupts immunisation",
+        "Humanitarian law protects health workers"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Boko Haram insurgency is concentrated mainly in:",
+       "options": [
+        "South-East Nigeria",
+        "South-West Nigeria",
+        "North-East Nigeria",
+        "South-South Nigeria",
+        "North-Central only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Borno, Yobe and Adamawa have been most affected."
+      },
+      {
+       "stem": "Conflicts over grazing land and water between farmers and herders are examples of:",
+       "options": [
+        "International conflict",
+        "Intrapersonal conflict",
+        "Religious conflict only",
+        "Electoral conflict",
+        "Resource-based conflict"
+       ],
+       "answerIndex": 4,
+       "explanation": "Competition for land and water drives these clashes."
+      },
+      {
+       "stem": "The Ife–Modakeke crisis is an example of a/an:",
+       "options": [
+        "Communal conflict",
+        "Religious conflict only",
+        "Border conflict with Benin",
+        "International war",
+        "Labour dispute"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a long-standing communal conflict in Osun State."
+      },
+      {
+       "stem": "Conflict in the Niger Delta has been largely linked to:",
+       "options": [
+        "Resource control and environmental degradation from oil",
+        "Cocoa prices",
+        "Chieftaincy titles only",
+        "Tourism",
+        "Religious differences only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oil wealth and pollution underlie many grievances."
+      },
+      {
+       "stem": "People forced to flee their homes but who remain within their country are:",
+       "options": [
+        "Internally displaced persons",
+        "Migrants",
+        "Asylum seekers abroad",
+        "Expatriates",
+        "Refugees"
+       ],
+       "answerIndex": 0,
+       "explanation": "IDPs have not crossed an international border."
+      },
+      {
+       "stem": "A common mental health consequence of exposure to violent conflict is:",
+       "options": [
+        "Asthma",
+        "Diabetes",
+        "Post-traumatic stress disorder",
+        "Glaucoma",
+        "Scurvy"
+       ],
+       "answerIndex": 2,
+       "explanation": "PTSD is common among survivors of violence."
+      },
+      {
+       "stem": "Insecurity in the North has particularly hampered:",
+       "options": [
+        "Banking",
+        "Internet access",
+        "Tourism only",
+        "Polio immunisation campaigns",
+        "Road construction only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Conflict limited access for vaccinators."
+      },
+      {
+       "stem": "The Aguleri–Umuleri conflict occurred in:",
+       "options": [
+        "Anambra State",
+        "Borno State",
+        "Plateau State",
+        "Kano State",
+        "Lagos State"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a communal land dispute in Anambra State."
+      }
+     ]
+    },
+    {
+     "title": "Conflict Management and Resolution Methods",
+     "order": 3,
+     "summary": "Negotiation, mediation, arbitration, adjudication and alternative dispute resolution.",
+     "material": [
+      {
+       "heading": "Styles of handling conflict",
+       "body": "The Thomas–Kilmann model describes five styles based on assertiveness and cooperativeness: competing (win–lose), accommodating (lose–win), avoiding (lose–lose), compromising (partial win–partial win) and collaborating (win–win, problem-solving). Collaboration is best for important long-term relationships; avoidance may suit trivial issues.",
+       "keyPoints": [
+        "Thomas–Kilmann: compete, accommodate, avoid, compromise, collaborate",
+        "Collaboration = win–win"
+       ]
+      },
+      {
+       "heading": "Methods",
+       "body": "Negotiation is direct discussion between parties to reach agreement. Mediation involves a neutral third party who facilitates communication but does not impose a decision. Conciliation is similar, with the third party suggesting terms. Arbitration involves a neutral arbitrator whose decision is usually binding. Adjudication (litigation) is resolution by the courts. Alternative dispute resolution (ADR) refers to methods outside court — negotiation, mediation, conciliation, arbitration — which are quicker and cheaper and preserve relationships. Traditional African methods use elders, chiefs, age grades and religious leaders. Early warning and early response systems detect rising tensions.",
+       "keyPoints": [
+        "Mediation: third party facilitates, no imposed decision",
+        "Arbitration: decision usually binding",
+        "ADR avoids courts",
+        "Traditional institutions resolve disputes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A conflict style aiming for a win–win solution is:",
+       "options": [
+        "Collaborating",
+        "Accommodating",
+        "Avoiding",
+        "Competing",
+        "Withdrawing"
+       ],
+       "answerIndex": 0,
+       "explanation": "Collaboration seeks solutions satisfying both parties."
+      },
+      {
+       "stem": "A neutral third party who helps disputants communicate but does not impose a decision is a:",
+       "options": [
+        "Mediator",
+        "Judge",
+        "Prosecutor",
+        "Police officer",
+        "Arbitrator"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mediators facilitate agreement."
+      },
+      {
+       "stem": "In arbitration, the arbitrator's decision is usually:",
+       "options": [
+        "Advisory only",
+        "Temporary",
+        "Secret",
+        "Binding",
+        "Ignored"
+       ],
+       "answerIndex": 3,
+       "explanation": "Parties agree in advance to accept the award."
+      },
+      {
+       "stem": "Resolution of a dispute by the courts is called:",
+       "options": [
+        "Collaboration",
+        "Conciliation",
+        "Mediation",
+        "Negotiation",
+        "Adjudication (litigation)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Courts adjudicate disputes."
+      },
+      {
+       "stem": "Which is NOT a form of alternative dispute resolution?",
+       "options": [
+        "Negotiation",
+        "Conciliation",
+        "Arbitration",
+        "Mediation",
+        "Litigation in court"
+       ],
+       "answerIndex": 4,
+       "explanation": "ADR refers to methods outside the courts."
+      },
+      {
+       "stem": "The Thomas–Kilmann model classifies conflict styles by:",
+       "options": [
+        "Age and sex",
+        "Religion and ethnicity",
+        "Income and education",
+        "Power and wealth",
+        "Assertiveness and cooperativeness"
+       ],
+       "answerIndex": 4,
+       "explanation": "Five styles are plotted on these two dimensions."
+      },
+      {
+       "stem": "Giving in to the other party's wishes to maintain harmony is:",
+       "options": [
+        "Competing",
+        "Accommodating",
+        "Collaborating",
+        "Litigating",
+        "Avoiding"
+       ],
+       "answerIndex": 1,
+       "explanation": "Accommodating sacrifices one's own concerns."
+      },
+      {
+       "stem": "An advantage of ADR over court litigation is that it:",
+       "options": [
+        "Produces public criminal records",
+        "Is always slower",
+        "Is usually quicker, cheaper and preserves relationships",
+        "Requires a judge",
+        "Excludes the parties"
+       ],
+       "answerIndex": 2,
+       "explanation": "ADR is flexible and less adversarial."
+      }
+     ]
+    },
+    {
+     "title": "Peace-building, Human Rights and Security",
+     "order": 4,
+     "summary": "Peacekeeping versus peace-building, human rights, and institutions for peace.",
+     "material": [
+      {
+       "heading": "Peace processes",
+       "body": "Peacemaking brings parties to agreement (diplomacy, negotiation); peacekeeping maintains a ceasefire, often with neutral forces such as UN or ECOMOG troops (Nigeria led ECOMOG in Liberia and Sierra Leone in the 1990s); peace-building addresses root causes to prevent relapse — reconciliation, disarmament, demobilisation and reintegration (DDR), rebuilding institutions, justice and development. The Niger Delta Amnesty Programme (2009) offered DDR to militants. Transitional justice includes truth commissions (e.g. the Oputa Panel in Nigeria, 1999–2002).",
+       "keyPoints": [
+        "Peacemaking → peacekeeping → peace-building",
+        "DDR: disarmament, demobilisation, reintegration",
+        "Niger Delta Amnesty (2009)",
+        "Oputa Panel: human rights investigation"
+       ]
+      },
+      {
+       "heading": "Human rights and institutions",
+       "body": "Human rights are inherent entitlements of every person, set out in the Universal Declaration of Human Rights (1948) and, for Africa, the African Charter on Human and Peoples' Rights (1981). Chapter IV of the 1999 Nigerian Constitution guarantees fundamental rights (life, dignity, personal liberty, fair hearing, privacy, freedom of thought and religion, expression, movement, and freedom from discrimination). The National Human Rights Commission promotes and protects them. International organisations for peace include the United Nations (1945), African Union (2002, successor to the OAU founded 1963) and ECOWAS (1975).",
+       "keyPoints": [
+        "UDHR 1948",
+        "African Charter 1981",
+        "Chapter IV of the 1999 Constitution: fundamental rights",
+        "ECOWAS 1975; AU 2002"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Deploying neutral troops to maintain a ceasefire is:",
+       "options": [
+        "Peacekeeping",
+        "Litigation",
+        "Peace-building",
+        "Negotiation",
+        "Peacemaking"
+       ],
+       "answerIndex": 0,
+       "explanation": "Peacekeepers monitor and maintain agreements."
+      },
+      {
+       "stem": "DDR stands for:",
+       "options": [
+        "Development, Democracy, Reform",
+        "Disarmament, Demobilisation and Reintegration",
+        "Detection, Delay, Recovery",
+        "Defence, Deterrence, Response",
+        "Dialogue, Diplomacy, Resolution"
+       ],
+       "answerIndex": 1,
+       "explanation": "DDR helps ex-combatants return to civilian life."
+      },
+      {
+       "stem": "The Niger Delta Amnesty Programme began in:",
+       "options": [
+        "1999",
+        "2009",
+        "2015",
+        "1970",
+        "2020"
+       ],
+       "answerIndex": 1,
+       "explanation": "It was declared in 2009."
+      },
+      {
+       "stem": "Fundamental human rights are found in which chapter of the 1999 Constitution?",
+       "options": [
+        "Chapter II",
+        "Chapter I",
+        "Chapter VI",
+        "Chapter IV",
+        "Chapter VIII"
+       ],
+       "answerIndex": 3,
+       "explanation": "Chapter IV lists fundamental rights."
+      },
+      {
+       "stem": "The Universal Declaration of Human Rights was adopted in:",
+       "options": [
+        "1945",
+        "1948",
+        "1960",
+        "1981",
+        "1999"
+       ],
+       "answerIndex": 1,
+       "explanation": "The UN General Assembly adopted it in 1948."
+      },
+      {
+       "stem": "ECOWAS was established in:",
+       "options": [
+        "1963",
+        "1975",
+        "1999",
+        "2002",
+        "1945"
+       ],
+       "answerIndex": 1,
+       "explanation": "The Economic Community of West African States was founded in 1975."
+      },
+      {
+       "stem": "Addressing root causes of conflict to prevent relapse is called:",
+       "options": [
+        "Peace-building",
+        "Ceasefire",
+        "Adjudication",
+        "Arbitration",
+        "Peacekeeping"
+       ],
+       "answerIndex": 0,
+       "explanation": "Peace-building works on justice, reconciliation and development."
+      },
+      {
+       "stem": "Nigeria's human rights investigation panel set up in 1999 is popularly known as the:",
+       "options": [
+        "Justice Uwais Panel",
+        "Okigbo Panel",
+        "Aguda Panel",
+        "Belgore Panel",
+        "Oputa Panel"
+       ],
+       "answerIndex": 4,
+       "explanation": "The Human Rights Violations Investigation Commission was chaired by Justice Oputa."
+      }
+     ]
+    },
+    {
+     "title": "Conflict in the Health-care Workplace",
+     "order": 5,
+     "summary": "Sources of conflict among health workers and patients, strikes, and constructive handling.",
+     "material": [
+      {
+       "heading": "Sources",
+       "body": "Health-care workplaces are prone to conflict because of heavy workloads, staff shortages, hierarchy and role ambiguity between professions (inter-professional rivalry), scarce resources, poor communication, remuneration disputes and industrial action (strikes by health unions), and patients' or relatives' frustration over delays, costs or poor outcomes, which may lead to aggression against staff. Poorly handled conflict harms teamwork and patient safety.",
+       "keyPoints": [
+        "Inter-professional rivalry and role ambiguity",
+        "Workload and resource scarcity",
+        "Conflict harms patient safety"
+       ]
+      },
+      {
+       "heading": "Constructive handling",
+       "body": "Constructive approaches include clear communication (active listening, 'I' statements), clarifying roles and shared goals centred on patients, structured tools (SBAR), timely feedback, fair grievance procedures, team meetings, mediation by supervisors or human resources, collective bargaining and social dialogue between unions and management, and de-escalation techniques with angry patients (stay calm, listen, acknowledge feelings, explain, set boundaries, and ensure safety). Workplace violence should be reported.",
+       "keyPoints": [
+        "Focus on shared patient-centred goals",
+        "'I' statements and active listening",
+        "De-escalation: calm, listen, acknowledge, explain",
+        "Collective bargaining for labour disputes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A frequent source of conflict between health professions is:",
+       "options": [
+        "Shared goals",
+        "Adequate staffing",
+        "Role ambiguity and inter-professional rivalry",
+        "Clear job descriptions",
+        "Good communication"
+       ],
+       "answerIndex": 2,
+       "explanation": "Unclear roles and status competition fuel conflict."
+      },
+      {
+       "stem": "When a relative becomes angry in the ward, the first step is to:",
+       "options": [
+        "Call them names",
+        "Walk away without a word",
+        "Threaten them",
+        "Stay calm and listen",
+        "Shout back"
+       ],
+       "answerIndex": 3,
+       "explanation": "Calm listening de-escalates tension."
+      },
+      {
+       "stem": "An example of an 'I' statement is:",
+       "options": [
+        "'Everyone hates you.'",
+        "'Do it now!'",
+        "'I feel concerned when handovers are missed, because patients may be harmed.'",
+        "'You always make mistakes.'",
+        "'You never listen.'"
+       ],
+       "answerIndex": 2,
+       "explanation": "'I' statements express feelings without blame."
+      },
+      {
+       "stem": "Negotiation between health unions and government over pay is called:",
+       "options": [
+        "Adjudication",
+        "Avoidance",
+        "Mediation by patients",
+        "Arbitration by doctors",
+        "Collective bargaining"
+       ],
+       "answerIndex": 4,
+       "explanation": "Collective bargaining is negotiation between workers' representatives and employers."
+      },
+      {
+       "stem": "Poorly managed conflict in health teams can lead to:",
+       "options": [
+        "Improved patient safety",
+        "Better communication",
+        "Higher morale",
+        "Fewer complaints",
+        "Reduced teamwork and more errors"
+       ],
+       "answerIndex": 4,
+       "explanation": "Conflict undermines coordination and safety."
+      },
+      {
+       "stem": "Focusing on shared patient-centred goals helps conflict resolution because it:",
+       "options": [
+        "Hides disagreements",
+        "Replaces communication",
+        "Removes all differences",
+        "Unites parties around a common purpose",
+        "Punishes staff"
+       ],
+       "answerIndex": 3,
+       "explanation": "Common goals encourage collaboration."
+      },
+      {
+       "stem": "Violence against health workers by patients or relatives should be:",
+       "options": [
+        "Settled by revenge",
+        "Posted on social media only",
+        "Ignored",
+        "Reported and addressed through institutional procedures",
+        "Kept secret"
+       ],
+       "answerIndex": 3,
+       "explanation": "Reporting enables safety measures and support."
+      },
+      {
+       "stem": "The communication tool used for structured clinical handover is:",
+       "options": [
+        "SWOT",
+        "SBAR",
+        "PESTLE",
+        "DDR",
+        "SMART"
+       ],
+       "answerIndex": 1,
+       "explanation": "Situation, Background, Assessment, Recommendation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

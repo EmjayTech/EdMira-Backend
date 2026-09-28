@@ -1,0 +1,99 @@
+{
+  "title": "Haematology I: Blood Cells and Anaemias",
+  "code": "HAE301",
+  "color": "#B91C1C",
+  "description": "Haematopoiesis, the full blood count and blood film, red cell indices, classification and laboratory diagnosis of anaemias, and haemoglobinopathies.",
+  "for": { "300": ["MLS", "HAE"], "200": ["HAE"] },
+  "topics": [
+    {
+      "title": "Haematopoiesis and Blood Cell Morphology",
+      "summary": "Sites of blood formation, cell lineages, growth factors and normal cell morphology.",
+      "notes": [
+        { "h": "Haematopoiesis", "b": "Blood formation occurs in the yolk sac (first weeks of embryonic life), then the liver and spleen (fetal period), and the bone marrow from about the 7th month of gestation onward; in adults active marrow is mainly in the axial skeleton (vertebrae, pelvis, sternum, ribs, skull) and proximal femur and humerus. Pluripotent haematopoietic stem cells (CD34+) give rise to myeloid progenitors (erythrocytes, granulocytes, monocytes, megakaryocytes) and lymphoid progenitors. Growth factors: erythropoietin (red cells), thrombopoietin (platelets), G-CSF (neutrophils), GM-CSF. Extramedullary haematopoiesis in the liver and spleen occurs in severe chronic anaemias and marrow infiltration.", "k": ["Sites: yolk sac → liver/spleen → bone marrow", "Adult marrow: axial skeleton", "EPO: red cells; TPO: platelets; G-CSF: neutrophils"] },
+        { "h": "Erythropoiesis and morphology", "b": "Red cell maturation: proerythroblast → basophilic, polychromatic and orthochromatic erythroblasts → reticulocyte → mature red cell (about 7 days). Reticulocytes contain residual RNA, stained supravitally with new methylene blue or brilliant cresyl blue; a normal count is about 0.5–2.5%. The reticulocyte count distinguishes marrow underproduction (low) from haemolysis or bleeding (high). Normal red cells are biconcave discs about 7–8 µm with central pallor; a Romanowsky stain (Leishman, Giemsa, Wright) is used for blood films. Abnormal forms: target cells (HbC, thalassaemia, liver disease), sickle cells, spherocytes (hereditary spherocytosis, autoimmune haemolysis), schistocytes/fragments (DIC, microangiopathy), tear drops (myelofibrosis), pencil cells (iron deficiency).", "k": ["Reticulocyte count: marrow response", "Romanowsky stains: Leishman, Giemsa", "Spherocytes: HS or autoimmune haemolysis", "Schistocytes: DIC/microangiopathy"] }
+      ],
+      "q": [
+        ["In adults, active haematopoiesis occurs mainly in the:", "Liver", "Spleen", "Bone marrow of the axial skeleton", "Yolk sac", "Lymph nodes", 2, "Adults use marrow in vertebrae, pelvis, sternum and ribs."],
+        ["Red cell production is stimulated by:", "Thrombopoietin", "Erythropoietin", "G-CSF", "Interleukin-2", "Insulin", 1, "Erythropoietin from the kidney drives erythropoiesis."],
+        ["Reticulocytes are stained using:", "Gram stain", "New methylene blue (supravital stain)", "Ziehl–Neelsen", "PAS", "Congo red", 1, "Supravital stains precipitate residual RNA."],
+        ["A raised reticulocyte count in an anaemic patient suggests:", "Aplastic anaemia", "Haemolysis or acute bleeding", "Iron deficiency before treatment", "Vitamin B12 deficiency untreated", "Chronic kidney disease", 1, "The marrow responds to red cell loss."],
+        ["Fragmented red cells (schistocytes) are typical of:", "Iron deficiency", "Disseminated intravascular coagulation", "Hereditary spherocytosis", "Vitamin B12 deficiency", "Normal blood", 1, "Red cells are sheared in microangiopathic haemolysis."],
+        ["The stain routinely used for blood films in Nigerian laboratories is:", "Gram stain", "Leishman or Giemsa (Romanowsky) stain", "Ziehl–Neelsen", "Lugol's iodine", "India ink", 1, "Romanowsky stains show cell morphology and malaria parasites."],
+        ["Tear-drop red cells are characteristic of:", "Myelofibrosis", "Iron deficiency", "Sickle cell trait", "Malaria", "G6PD deficiency", 0, "They form as cells squeeze through fibrotic marrow."],
+        ["Haematopoiesis in the fetus from about the 7th month occurs mainly in the:", "Yolk sac", "Liver only", "Bone marrow", "Thymus", "Kidney", 2, "The marrow becomes the main site late in gestation."]
+      ]
+    },
+    {
+      "title": "Full Blood Count and Red Cell Indices",
+      "summary": "Components of the FBC, calculation and interpretation of indices, and ESR.",
+      "notes": [
+        { "h": "FBC parameters", "b": "The full blood count reports haemoglobin (Hb), packed cell volume (PCV/haematocrit), red cell count (RBC), red cell indices, white cell count with differential, and platelets. Indices: mean cell volume MCV = PCV / RBC (normal 80–100 fL); mean cell haemoglobin MCH = Hb / RBC (27–32 pg); mean cell haemoglobin concentration MCHC = Hb / PCV (32–36 g/dL); red cell distribution width (RDW) reflects variation in size (anisocytosis) and rises early in iron deficiency. Manual methods: Hb by the cyanmethaemoglobin (Drabkin's) method, PCV by microhaematocrit centrifugation, counts with a haemocytometer (Neubauer chamber). Automated analysers use impedance (Coulter principle) and flow cytometry.", "k": ["MCV = PCV/RBC (80–100 fL)", "MCH = Hb/RBC; MCHC = Hb/PCV", "RDW ↑ early in iron deficiency", "Coulter principle: impedance"] },
+        { "h": "ESR and interpretation", "b": "The erythrocyte sedimentation rate (Westergren method, 1 hour) rises with increased plasma fibrinogen and globulins (inflammation, infection, TB, myeloma, pregnancy) and anaemia; it is non-specific. MCV classifies anaemia: microcytic (< 80 fL — iron deficiency, thalassaemia, anaemia of chronic disease, sideroblastic anaemia, lead), normocytic (acute blood loss, chronic disease, renal failure, haemolysis, marrow failure) and macrocytic (> 100 fL — B12 or folate deficiency, alcohol, liver disease, hypothyroidism, reticulocytosis, drugs such as hydroxyurea and zidovudine).", "k": ["ESR: Westergren, non-specific", "Microcytic: iron deficiency, thalassaemia", "Macrocytic: B12/folate, alcohol, liver disease", "Hydroxyurea and zidovudine raise MCV"] }
+      ],
+      "q": [
+        ["MCV is calculated as:", "Hb / RBC", "PCV / RBC", "Hb / PCV", "RBC / PCV", "PCV × Hb", 1, "MCV = haematocrit ÷ red cell count."],
+        ["The normal range for MCV in adults is about:", "50–70 fL", "80–100 fL", "110–130 fL", "27–32 pg", "32–36 g/dL", 1, "Normal MCV is 80–100 femtolitres."],
+        ["MCHC is calculated as:", "Hb / PCV", "PCV / RBC", "Hb / RBC", "RBC / Hb", "PCV / Hb", 0, "It is the haemoglobin concentration in packed red cells."],
+        ["An anaemia with MCV 68 fL is most likely due to:", "Vitamin B12 deficiency", "Iron deficiency", "Alcoholism", "Hypothyroidism", "Folate deficiency", 1, "Iron deficiency is the commonest microcytic anaemia."],
+        ["Automated cell counters that detect cells by changes in electrical resistance use the:", "Coulter (impedance) principle", "Beer–Lambert law", "Doppler effect", "Photoelectric effect", "Westergren method", 0, "Cells passing an aperture change the impedance."],
+        ["The reference method for haemoglobin estimation is the:", "Sahli method", "Cyanmethaemoglobin (Drabkin's) method", "Copper sulphate method", "Tallquist method", "Westergren method", 1, "It measures all haemoglobin forms except sulfhaemoglobin."],
+        ["A raised RDW indicates increased:", "Cell colour", "Variation in red cell size (anisocytosis)", "White cell count", "Platelet count", "Plasma viscosity", 1, "RDW measures the spread of red cell volumes."],
+        ["Which drug commonly causes macrocytosis?", "Paracetamol", "Hydroxyurea", "Amoxicillin", "Omeprazole", "Aspirin", 1, "Hydroxyurea impairs DNA synthesis, raising MCV."]
+      ]
+    },
+    {
+      "title": "Iron Deficiency and Megaloblastic Anaemias",
+      "summary": "Iron metabolism, iron studies, vitamin B12 and folate deficiency and their laboratory diagnosis.",
+      "notes": [
+        { "h": "Iron deficiency", "b": "Iron is absorbed in the duodenum as Fe2+ via DMT1, stored as ferritin and transported by transferrin; hepcidin from the liver regulates absorption and release. Causes of iron deficiency in Nigeria: chronic blood loss (hookworm, menorrhagia, gastrointestinal bleeding), increased requirements (pregnancy, infancy, adolescence) and poor intake. Laboratory features: microcytic hypochromic cells, pencil cells, raised RDW, low serum ferritin (the best single test — but ferritin rises in inflammation), low serum iron, raised total iron-binding capacity (TIBC) and low transferrin saturation, absent bone-marrow iron stores (Perls' Prussian blue stain). In anaemia of chronic disease, ferritin is normal or raised with low TIBC.", "k": ["Ferritin: best single test for iron stores", "Iron deficiency: ↓ferritin, ↑TIBC", "Chronic disease: ferritin normal/↑, TIBC ↓", "Hookworm is a major Nigerian cause"] },
+        { "h": "Megaloblastic anaemia", "b": "Deficiency of vitamin B12 or folate impairs DNA synthesis, causing megaloblastic changes: macrocytic oval red cells (MCV often > 110 fL), hypersegmented neutrophils (≥ 6 lobes — an early sign), pancytopenia, raised LDH and bilirubin (ineffective erythropoiesis) and megaloblastic marrow. Vitamin B12 deficiency causes are pernicious anaemia (autoimmune loss of intrinsic factor — anti-intrinsic factor and anti-parietal cell antibodies), gastrectomy, ileal disease, strict vegan diet and fish tapeworm; it also causes neurological damage (subacute combined degeneration). Folate deficiency results from poor diet, pregnancy, haemolysis (sickle cell disease), malabsorption, alcohol and drugs (methotrexate, phenytoin, trimethoprim). Giving folate alone to a B12-deficient patient may worsen neurological damage.", "k": ["Hypersegmented neutrophils: early sign", "Pernicious anaemia: anti-intrinsic factor antibodies", "B12 deficiency → neurological damage", "Don't give folate alone in B12 deficiency"] }
+      ],
+      "q": [
+        ["The best single test to assess body iron stores is:", "Serum iron", "Serum ferritin", "Haemoglobin", "MCV", "Reticulocyte count", 1, "Low ferritin is diagnostic of iron deficiency."],
+        ["In iron deficiency anaemia, the total iron-binding capacity is typically:", "Low", "High", "Normal", "Absent", "Unmeasurable", 1, "Transferrin (TIBC) rises when iron is lacking."],
+        ["Bone marrow iron stores are demonstrated with:", "PAS stain", "Perls' Prussian blue stain", "Sudan black", "Leishman stain", "Congo red", 1, "Perls' stain turns haemosiderin blue."],
+        ["An important parasitic cause of iron deficiency anaemia in Nigeria is:", "Ascaris lumbricoides", "Hookworm", "Enterobius", "Giardia", "Taenia saginata", 1, "Hookworms cause chronic intestinal blood loss."],
+        ["Hypersegmented neutrophils on a blood film suggest:", "Iron deficiency", "Megaloblastic anaemia", "Thalassaemia", "Bacterial infection", "Lead poisoning", 1, "Six or more lobes is an early megaloblastic sign."],
+        ["Pernicious anaemia results from lack of:", "Folate", "Intrinsic factor", "Iron", "Erythropoietin", "Vitamin C", 1, "Autoimmune gastritis destroys parietal cells."],
+        ["Which deficiency causes both megaloblastic anaemia and subacute combined degeneration of the cord?", "Folate", "Vitamin B12", "Iron", "Vitamin C", "Vitamin K", 1, "B12 is needed for myelin synthesis."],
+        ["In anaemia of chronic disease, serum ferritin is usually:", "Very low", "Normal or raised", "Absent", "Always below 10 µg/L", "Unrelated to inflammation", 1, "Ferritin is an acute-phase protein and iron is sequestered."]
+      ]
+    },
+    {
+      "title": "Haemolytic Anaemias",
+      "summary": "Mechanisms and laboratory features of haemolysis, hereditary and acquired causes.",
+      "notes": [
+        { "h": "Laboratory features", "b": "Haemolysis is premature red cell destruction. Laboratory evidence: anaemia with raised reticulocyte count (polychromasia), raised unconjugated bilirubin, raised LDH, reduced haptoglobin, and urinary urobilinogen; intravascular haemolysis also causes haemoglobinaemia, haemoglobinuria and haemosiderinuria. The direct antiglobulin test (DAT, direct Coombs') detects antibody or complement on red cells — positive in autoimmune haemolytic anaemia, haemolytic transfusion reactions and haemolytic disease of the newborn.", "k": ["Haemolysis: ↑retics, ↑unconjugated bilirubin, ↑LDH, ↓haptoglobin", "Intravascular: haemoglobinuria", "DAT detects antibody-coated red cells"] },
+        { "h": "Causes", "b": "Hereditary: membrane defects (hereditary spherocytosis — spherocytes, raised MCHC, increased osmotic fragility, negative DAT; treated with splenectomy in severe cases), enzyme defects (G6PD deficiency — episodic haemolysis with oxidant drugs, infections or fava beans; Heinz bodies and 'bite cells'; G6PD assay should be repeated after the acute episode because reticulocytes have higher enzyme levels; pyruvate kinase deficiency) and haemoglobinopathies (sickle cell disease, thalassaemias). Acquired: immune (warm IgG autoimmune — e.g. SLE, lymphoma, drugs; cold IgM — Mycoplasma, EBV), malaria (a leading cause in Nigeria), microangiopathic (DIC, HUS, TTP), mechanical heart valves, snake envenoming and burns.", "k": ["HS: spherocytes, ↑osmotic fragility, DAT negative", "G6PD: Heinz bodies, bite cells; retest later", "Malaria is a major cause of haemolysis", "Warm (IgG) vs cold (IgM) AIHA"] }
+      ],
+      "q": [
+        ["Which finding suggests haemolysis?", "Low reticulocyte count", "Raised unconjugated bilirubin and LDH", "High haptoglobin", "Low LDH", "Raised conjugated bilirubin only", 1, "Red cell breakdown releases LDH and increases unconjugated bilirubin."],
+        ["Serum haptoglobin in haemolysis is typically:", "Raised", "Reduced", "Normal", "Unmeasurable in all patients", "Doubled", 1, "Haptoglobin binds free haemoglobin and is consumed."],
+        ["The direct antiglobulin (Coombs') test detects:", "Free antibodies in serum only", "Antibody or complement bound to red cells", "Malaria parasites", "Sickle haemoglobin", "Iron stores", 1, "DAT identifies immune-mediated haemolysis."],
+        ["Increased osmotic fragility of red cells is characteristic of:", "Thalassaemia", "Hereditary spherocytosis", "Iron deficiency", "Sickle cell trait", "Megaloblastic anaemia", 1, "Spherocytes have reduced surface area and lyse easily."],
+        ["Heinz bodies and bite cells are seen in:", "Iron deficiency", "G6PD deficiency during haemolysis", "Hereditary spherocytosis only", "Lead poisoning", "Myelofibrosis", 1, "Oxidised haemoglobin precipitates as Heinz bodies."],
+        ["A G6PD assay done during an acute haemolytic episode may be falsely normal because:", "G6PD is destroyed by the test", "Young red cells (reticulocytes) have higher G6PD activity", "Haemoglobin interferes", "Bilirubin inhibits it", "Iron is low", 1, "Older deficient cells have been destroyed; repeat after recovery."],
+        ["Cold autoimmune haemolytic anaemia is typically caused by:", "IgG antibodies", "IgM antibodies", "IgE antibodies", "IgA only", "T cells only", 1, "Cold agglutinins are usually IgM (e.g. after Mycoplasma)."],
+        ["A leading cause of haemolytic anaemia in Nigerian children is:", "Hereditary spherocytosis", "Malaria", "Mechanical heart valves", "Paroxysmal nocturnal haemoglobinuria", "Scurvy", 1, "Plasmodium falciparum destroys red cells."]
+      ]
+    },
+    {
+      "title": "Haemoglobinopathies and Their Laboratory Diagnosis",
+      "summary": "Sickle cell disease, HbC and thalassaemias; electrophoresis, HPLC and screening tests.",
+      "notes": [
+        { "h": "Sickle cell disease and HbC", "b": "HbS results from a Glu→Val substitution at position 6 of the β-globin chain; deoxygenated HbS polymerises, deforming cells into sickles, causing vaso-occlusion and haemolysis. HbSS disease: chronic haemolytic anaemia (Hb often 6–9 g/dL), vaso-occlusive crises, acute chest syndrome, stroke, splenic sequestration and auto-splenectomy (Howell–Jolly bodies), infections, aplastic crises (parvovirus B19). HbC (Glu→Lys at β6) forms crystals and target cells; HbSC disease is milder but has more retinopathy and avascular necrosis. The sickling (sodium metabisulphite) and solubility tests detect HbS but do not distinguish AS from SS — haemoglobin electrophoresis (cellulose acetate at alkaline pH: order from anode A > F > S > C) or HPLC is needed.", "k": ["HbS: Glu→Val β6; HbC: Glu→Lys β6", "Sickling test can't distinguish AS from SS", "Electrophoresis/HPLC for genotype", "Howell–Jolly bodies: hyposplenism"] },
+        { "h": "Thalassaemias", "b": "Thalassaemias are reduced synthesis of globin chains. β-thalassaemia trait (minor): mild microcytic anaemia with low MCV disproportionate to Hb, raised red cell count, target cells and raised HbA2 (> 3.5%) — distinguish from iron deficiency (normal ferritin; Mentzer index MCV/RBC < 13 favours thalassaemia). β-thalassaemia major presents at 6–12 months with severe anaemia, hepatosplenomegaly and skull bossing ('hair-on-end' X-ray); it requires regular transfusion and iron chelation. α-thalassaemia results from deletion of α-globin genes (four genes): silent carrier (1 deleted), trait (2), HbH disease (3), Hb Bart's hydrops fetalis (4 — incompatible with life).", "k": ["β-thal trait: ↑HbA2 > 3.5%, normal ferritin", "Mentzer index < 13 favours thalassaemia", "β-thal major: transfusions + chelation", "α-thal: 4 deletions = hydrops fetalis"] }
+      ],
+      "q": [
+        ["The sickling (metabisulphite) test cannot distinguish:", "HbA from HbS", "HbAS from HbSS", "HbS from HbC", "HbF from HbA", "Normal from abnormal", 1, "Both AS and SS contain HbS and sickle under reduced oxygen."],
+        ["The test used to determine haemoglobin genotype (e.g. AA, AS, SS, SC) is:", "Sickling test", "Haemoglobin electrophoresis or HPLC", "Blood film only", "Reticulocyte count", "Osmotic fragility", 1, "Electrophoresis separates haemoglobin variants."],
+        ["On alkaline cellulose acetate electrophoresis, the haemoglobin that moves farthest toward the anode is:", "HbC", "HbS", "HbF", "HbA", "HbA2", 3, "HbA migrates fastest; HbC slowest."],
+        ["Howell–Jolly bodies in a sickle cell patient indicate:", "Iron deficiency", "Hyposplenism (auto-splenectomy)", "Lead poisoning", "Vitamin B12 deficiency", "Malaria", 1, "The spleen normally removes these nuclear remnants."],
+        ["An aplastic crisis in sickle cell disease is commonly triggered by:", "Malaria", "Parvovirus B19", "Hookworm", "HIV", "Salmonella", 1, "Parvovirus B19 infects red cell precursors."],
+        ["β-thalassaemia trait is characterised by:", "Raised HbA2 (> 3.5%)", "Very low ferritin", "High MCV", "Absent HbA", "Positive sickling test", 0, "Raised HbA2 is diagnostic of β-thal trait."],
+        ["A Mentzer index (MCV/RBC) below 13 suggests:", "Iron deficiency", "Thalassaemia trait", "B12 deficiency", "Haemolysis", "Normal blood", 1, "Thalassaemia has many small cells with a relatively high RBC count."],
+        ["Deletion of all four α-globin genes causes:", "Silent carrier state", "α-thalassaemia trait", "HbH disease", "Hb Bart's hydrops fetalis", "Sickle cell disease", 3, "It is incompatible with life."]
+      ]
+    }
+  ]
+}

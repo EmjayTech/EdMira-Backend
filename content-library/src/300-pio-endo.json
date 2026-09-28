@@ -1,0 +1,99 @@
+{
+  "title": "Endocrine and Reproductive Physiology (PIO 301/303)",
+  "code": "PIO303",
+  "color": "#BE123C",
+  "description": "Hormone mechanisms, the hypothalamus and pituitary, thyroid, adrenal, pancreatic and calcium-regulating hormones, and male and female reproductive physiology.",
+  "for": { "300": ["MBBS", "BDS", "CM", "PHS", "ANA", "BCH", "OTH"] },
+  "topics": [
+    {
+      "title": "Hormone Action and the Hypothalamic–Pituitary Axis",
+      "summary": "Classes of hormones, receptors and second messengers, feedback, and pituitary hormones.",
+      "notes": [
+        { "h": "Hormone mechanisms", "b": "Peptide hormones (insulin, glucagon, ADH, ACTH) and catecholamines are water-soluble and act on cell-surface receptors via second messengers: cAMP (Gs/Gi — e.g. glucagon, ACTH, TSH, β-adrenergic), IP3/DAG and Ca2+ (Gq — e.g. α1, oxytocin, GnRH) or receptor tyrosine kinases (insulin, growth factors). Steroid hormones (cortisol, aldosterone, oestrogen, testosterone) and thyroid hormones are lipid-soluble and act on intracellular receptors to alter gene transcription, so their effects are slower. Most endocrine systems are regulated by negative feedback.", "k": ["Peptides: surface receptors, second messengers", "Steroids and thyroid hormones: intracellular receptors", "Insulin: receptor tyrosine kinase", "Negative feedback predominates"] },
+        { "h": "Pituitary", "b": "The hypothalamus controls the anterior pituitary (adenohypophysis) through releasing hormones in the hypophyseal portal system: TRH → TSH; CRH → ACTH; GnRH → FSH and LH; GHRH → GH (somatostatin inhibits GH); dopamine inhibits prolactin. The posterior pituitary (neurohypophysis) stores and releases ADH (vasopressin) and oxytocin made in the supraoptic and paraventricular nuclei. Excess growth hormone causes gigantism before epiphyseal fusion and acromegaly after; deficiency causes short stature. A prolactinoma causes galactorrhoea and amenorrhoea. Pituitary stalk compression raises prolactin (loss of dopamine inhibition).", "k": ["Dopamine inhibits prolactin", "Posterior pituitary: ADH and oxytocin", "GH excess: gigantism (children), acromegaly (adults)", "Prolactinoma: galactorrhoea, amenorrhoea"] }
+      ],
+      "q": [
+        ["Steroid hormones act mainly by:", "Binding cell-surface receptors and raising cAMP", "Binding intracellular receptors and altering gene transcription", "Opening ion channels directly", "Activating tyrosine kinases on the surface", "Being stored in vesicles", 1, "Lipid-soluble steroids enter cells and regulate transcription."],
+        ["The insulin receptor is a:", "G-protein-coupled receptor", "Receptor tyrosine kinase", "Nuclear receptor", "Ligand-gated ion channel", "Cytoplasmic enzyme", 1, "Insulin binding activates intrinsic tyrosine kinase activity."],
+        ["Prolactin secretion is mainly inhibited by:", "TRH", "Dopamine", "Oxytocin", "GnRH", "Cortisol", 1, "Hypothalamic dopamine tonically inhibits prolactin."],
+        ["ADH and oxytocin are released from the:", "Anterior pituitary", "Posterior pituitary", "Hypothalamic portal veins", "Adrenal cortex", "Thyroid", 1, "They are made in the hypothalamus and released from the posterior pituitary."],
+        ["Excess growth hormone after epiphyseal fusion causes:", "Gigantism", "Acromegaly", "Dwarfism", "Cretinism", "Cushing's syndrome", 1, "Bones thicken but cannot lengthen."],
+        ["ACTH secretion is stimulated by:", "TRH", "CRH", "GnRH", "GHRH", "Somatostatin", 1, "Corticotrophin-releasing hormone stimulates ACTH."],
+        ["A woman with amenorrhoea and milk discharge from the breasts most likely has:", "Hypothyroidism only", "A prolactinoma", "Addison's disease", "Diabetes insipidus", "Acromegaly", 1, "High prolactin suppresses GnRH and causes galactorrhoea."],
+        ["Most hormonal systems are regulated by:", "Positive feedback", "Negative feedback", "Nervous reflexes only", "Random secretion", "Diet only", 1, "Negative feedback maintains hormone levels."]
+      ]
+    },
+    {
+      "title": "Thyroid Hormones",
+      "summary": "Synthesis, regulation and actions of thyroid hormones, hypo- and hyperthyroidism.",
+      "notes": [
+        { "h": "Synthesis and regulation", "b": "Thyroid follicular cells trap iodide (Na+/I− symporter), which is oxidised and attached to tyrosine residues on thyroglobulin by thyroid peroxidase (inhibited by carbimazole and propylthiouracil) to form MIT and DIT, which couple to form T4 (thyroxine, most secreted) and T3 (triiodothyronine, more active). T4 is converted to T3 in tissues by deiodinases. Most circulating hormone is bound to thyroxine-binding globulin. TSH from the anterior pituitary stimulates all steps; T3/T4 feed back negatively on TSH and TRH. Parafollicular C cells secrete calcitonin.", "k": ["Thyroid peroxidase: target of carbimazole/PTU", "T4 secreted mainly; T3 more active", "TSH stimulates; T3/T4 feed back negatively"] },
+        { "h": "Actions and disorders", "b": "Thyroid hormones increase basal metabolic rate, oxygen consumption and heat production, enhance β-adrenergic sensitivity (tachycardia), and are essential for normal growth and brain development in infancy. Hypothyroidism: fatigue, cold intolerance, weight gain, constipation, bradycardia, dry skin, menorrhagia; congenital hypothyroidism (cretinism) causes intellectual disability — prevented by newborn screening and by iodised salt. Hyperthyroidism (commonest cause Graves' disease — TSH-receptor-stimulating antibodies): weight loss, heat intolerance, tremor, tachycardia/atrial fibrillation, exophthalmos. In primary hypothyroidism TSH is high; in primary hyperthyroidism TSH is suppressed.", "k": ["Thyroid hormones ↑ BMR and heat", "Hypothyroid: cold intolerance, weight gain; TSH high", "Graves': TSH-receptor antibodies, exophthalmos", "Iodised salt prevents goitre and cretinism"] }
+      ],
+      "q": [
+        ["The enzyme that iodinates tyrosine in thyroglobulin is:", "Deiodinase", "Thyroid peroxidase", "Tyrosine hydroxylase", "Carbonic anhydrase", "Aromatase", 1, "It is inhibited by carbimazole and propylthiouracil."],
+        ["The more biologically active thyroid hormone is:", "T4", "T3", "Reverse T3", "Thyroglobulin", "Calcitonin", 1, "T3 binds nuclear receptors with higher affinity."],
+        ["Graves' disease is caused by:", "Iodine deficiency", "Antibodies that stimulate the TSH receptor", "A pituitary tumour always", "Destruction of the thyroid by antibodies", "Excess calcitonin", 1, "TSH-receptor-stimulating antibodies drive hyperthyroidism."],
+        ["In primary hypothyroidism, serum TSH is:", "Low", "High", "Normal", "Undetectable", "Unrelated", 1, "Loss of negative feedback raises TSH."],
+        ["Which is a feature of hyperthyroidism?", "Cold intolerance", "Weight gain", "Heat intolerance and tremor", "Bradycardia", "Constipation", 2, "Excess thyroid hormone raises metabolic rate."],
+        ["Congenital hypothyroidism untreated causes:", "Acromegaly", "Cretinism with intellectual disability", "Cushing's syndrome", "Gigantism", "Addison's disease", 1, "Thyroid hormone is essential for brain development."],
+        ["Calcitonin is secreted by the:", "Follicular cells", "Parafollicular (C) cells", "Parathyroid chief cells", "Anterior pituitary", "Adrenal medulla", 1, "C cells of the thyroid secrete calcitonin."],
+        ["The public health measure that prevents endemic goitre is:", "Fluoridation of water", "Iodisation of salt", "Vitamin A supplementation", "Deworming", "Chlorination", 1, "Iodised salt supplies dietary iodine."]
+      ]
+    },
+    {
+      "title": "Adrenal Hormones and Stress",
+      "summary": "Cortisol, aldosterone and adrenal androgens; adrenal medulla; Cushing's and Addison's disease.",
+      "notes": [
+        { "h": "Adrenal cortex", "b": "The adrenal cortex has three zones ('GFR — salt, sugar, sex'): zona glomerulosa (aldosterone — regulated mainly by angiotensin II and potassium), zona fasciculata (cortisol — regulated by ACTH) and zona reticularis (androgens such as DHEA). Cortisol raises blood glucose (gluconeogenesis), promotes protein catabolism, suppresses immunity and inflammation, and is needed for vascular response to catecholamines; it follows a circadian rhythm, highest in the early morning. Aldosterone acts on the distal nephron to retain Na+ and water and excrete K+ and H+.", "k": ["GFR: glomerulosa-aldosterone, fasciculata-cortisol, reticularis-androgens", "Cortisol peaks in the early morning", "Aldosterone: Na+ retention, K+ excretion"] },
+        { "h": "Disorders and the medulla", "b": "Cushing's syndrome (excess cortisol — commonly from steroid therapy; Cushing's disease is ACTH-secreting pituitary adenoma): central obesity, moon face, buffalo hump, purple striae, hypertension, hyperglycaemia, osteoporosis and proximal myopathy. Addison's disease (primary adrenal insufficiency, often autoimmune or TB in Nigeria): fatigue, weight loss, hypotension, hyperpigmentation (high ACTH), hyponatraemia and hyperkalaemia; an Addisonian crisis is life-threatening. Conn's syndrome (aldosteronoma) causes hypertension with hypokalaemia. The adrenal medulla secretes adrenaline and noradrenaline; a phaeochromocytoma causes paroxysmal hypertension, headache, sweating and palpitations.", "k": ["Cushing's: moon face, striae, hypertension, hyperglycaemia", "Addison's: hyperpigmentation, low Na+, high K+", "Conn's: hypertension + hypokalaemia", "Phaeochromocytoma: episodic hypertension"] }
+      ],
+      "q": [
+        ["Cortisol is produced in the adrenal:", "Zona glomerulosa", "Zona fasciculata", "Zona reticularis", "Medulla", "Capsule", 1, "The fasciculata secretes glucocorticoids under ACTH control."],
+        ["Aldosterone secretion is stimulated mainly by:", "ACTH only", "Angiotensin II and high potassium", "TSH", "Insulin", "Glucagon", 1, "The renin–angiotensin system and plasma K+ are the main regulators."],
+        ["Plasma cortisol is normally highest:", "At midnight", "In the early morning", "In the afternoon", "After dinner", "Constant all day", 1, "Cortisol follows a circadian rhythm peaking around waking."],
+        ["Hyperpigmentation in Addison's disease results from:", "Low cortisol directly", "High ACTH (and related peptides) stimulating melanocytes", "High aldosterone", "Low potassium", "Excess insulin", 1, "ACTH shares a precursor with MSH and stimulates melanocortin receptors."],
+        ["Which electrolyte pattern is typical of Addison's disease?", "High sodium, low potassium", "Low sodium, high potassium", "Low sodium, low potassium", "High calcium, low sodium", "Normal electrolytes always", 1, "Aldosterone deficiency causes Na+ loss and K+ retention."],
+        ["Moon face, buffalo hump and purple abdominal striae suggest:", "Addison's disease", "Cushing's syndrome", "Hypothyroidism", "Acromegaly", "Diabetes insipidus", 1, "These are signs of glucocorticoid excess."],
+        ["Hypertension with low serum potassium suggests:", "Addison's disease", "Primary hyperaldosteronism (Conn's syndrome)", "Hypothyroidism", "Hypoparathyroidism", "SIADH", 1, "Excess aldosterone retains sodium and wastes potassium."],
+        ["Paroxysmal headaches, sweating and palpitations with hypertension suggest:", "Phaeochromocytoma", "Addison's disease", "Myxoedema", "Diabetes insipidus", "Hypoglycaemia always", 0, "Catecholamine-secreting tumour of the adrenal medulla."]
+      ]
+    },
+    {
+      "title": "Pancreatic Hormones and Calcium Regulation",
+      "summary": "Insulin and glucagon, diabetes mellitus, and PTH, vitamin D and calcitonin.",
+      "notes": [
+        { "h": "Insulin and glucagon", "b": "The islets of Langerhans contain α cells (glucagon), β cells (insulin), δ cells (somatostatin) and PP cells. Insulin is released when glucose enters β cells via GLUT2, raising ATP, closing K-ATP channels (the target of sulphonylureas), depolarising the cell and opening Ca2+ channels. Insulin promotes glucose uptake into muscle and fat (GLUT4), glycogen synthesis, lipogenesis and protein synthesis, and drives K+ into cells (used to treat hyperkalaemia). Glucagon raises blood glucose through glycogenolysis and gluconeogenesis. Type 1 diabetes is autoimmune β-cell destruction (absolute insulin deficiency, risk of DKA); type 2 diabetes involves insulin resistance with relative deficiency and is linked to obesity. Diagnosis: fasting plasma glucose ≥ 7.0 mmol/L (126 mg/dL), random ≥ 11.1 mmol/L with symptoms, or HbA1c ≥ 6.5% (48 mmol/mol).", "k": ["Glucose → ATP → K-ATP closes → insulin release", "Insulin: GLUT4, glycogen, fat, K+ into cells", "Fasting glucose ≥ 7.0 mmol/L = diabetes", "HbA1c ≥ 6.5%"] },
+        { "h": "Calcium homeostasis", "b": "Normal serum calcium is about 2.2–2.6 mmol/L; about 45% is ionised (the active form). Parathyroid hormone (PTH), released when calcium falls, raises calcium by increasing bone resorption, increasing renal Ca2+ reabsorption and phosphate excretion, and stimulating renal 1α-hydroxylase to form calcitriol (1,25-dihydroxyvitamin D). Calcitriol increases intestinal calcium and phosphate absorption. Calcitonin lowers calcium (minor role in humans). Hypocalcaemia causes tetany (Chvostek's and Trousseau's signs), which may follow thyroidectomy with accidental parathyroid removal; hypercalcaemia ('bones, stones, groans and moans') occurs in hyperparathyroidism and malignancy.", "k": ["PTH ↑ Ca2+, ↓ phosphate", "Calcitriol ↑ intestinal absorption", "Hypocalcaemia: tetany, Chvostek and Trousseau signs", "Hypercalcaemia: bones, stones, groans, moans"] }
+      ],
+      "q": [
+        ["Insulin is secreted by the ___ cells of the islets.", "α", "β", "δ", "PP", "Acinar", 1, "β cells secrete insulin."],
+        ["Sulphonylureas stimulate insulin release by:", "Opening K-ATP channels", "Closing K-ATP channels in β cells", "Blocking GLUT4", "Inhibiting glucagon receptors", "Increasing insulin sensitivity only", 1, "Closing K-ATP channels depolarises β cells."],
+        ["Insulin promotes glucose uptake into skeletal muscle via:", "GLUT1", "GLUT2", "GLUT4", "SGLT1", "GLUT5", 2, "Insulin translocates GLUT4 to the cell membrane."],
+        ["A fasting plasma glucose diagnostic of diabetes is:", "≥ 5.6 mmol/L", "≥ 6.1 mmol/L", "≥ 7.0 mmol/L", "≥ 11.1 mmol/L fasting", "≥ 4.0 mmol/L", 2, "Fasting ≥ 7.0 mmol/L (126 mg/dL) on two occasions."],
+        ["Insulin with glucose is used in hyperkalaemia because insulin:", "Excretes potassium in urine", "Drives potassium into cells", "Binds potassium in the gut", "Blocks potassium absorption", "Stabilises the myocardium directly", 1, "Insulin activates the Na+/K+-ATPase, shifting K+ intracellularly."],
+        ["Parathyroid hormone raises plasma calcium and:", "Raises plasma phosphate", "Lowers plasma phosphate", "Has no effect on phosphate", "Lowers vitamin D", "Inhibits bone resorption", 1, "PTH promotes renal phosphate excretion."],
+        ["Tetany after thyroid surgery suggests:", "Hypercalcaemia", "Hypocalcaemia from parathyroid injury", "Hyperkalaemia", "Hypernatraemia", "Hypoglycaemia", 1, "Accidental removal or damage of parathyroids lowers calcium."],
+        ["The active form of vitamin D is produced in the:", "Skin", "Liver", "Kidney", "Intestine", "Bone", 2, "Renal 1α-hydroxylase forms 1,25-dihydroxyvitamin D."]
+      ]
+    },
+    {
+      "title": "Reproductive Physiology",
+      "summary": "Male reproductive hormones, the menstrual cycle, pregnancy, parturition and lactation.",
+      "notes": [
+        { "h": "Male and female hormones", "b": "In males, LH stimulates Leydig cells to produce testosterone; FSH with testosterone stimulates Sertoli cells to support spermatogenesis and secrete inhibin (which feeds back on FSH). In females the menstrual cycle (average 28 days) has a follicular phase (FSH drives follicle growth; rising oestrogen), ovulation (triggered by the LH surge around day 14 — a positive feedback effect of high oestrogen), and a luteal phase (the corpus luteum secretes progesterone and oestrogen; lasts a fairly constant 14 days). The endometrium shows proliferative (oestrogen) and secretory (progesterone) phases; menstruation follows progesterone withdrawal. Progesterone raises basal body temperature by about 0.3–0.5 °C after ovulation.", "k": ["LH → Leydig → testosterone; FSH → Sertoli", "LH surge triggers ovulation (positive feedback)", "Luteal phase ≈ 14 days", "Progesterone raises basal body temperature"] },
+        { "h": "Pregnancy, labour and lactation", "b": "After implantation, hCG from the trophoblast maintains the corpus luteum until the placenta takes over progesterone production (about 8–12 weeks). The placenta also secretes oestriol, human placental lactogen (insulin resistance) and relaxin. Labour involves positive feedback: stretch of the cervix triggers oxytocin release (Ferguson reflex), increasing contractions. Prolactin (from the anterior pituitary) stimulates milk production, while oxytocin causes milk ejection (let-down) in response to suckling. High oestrogen and progesterone in pregnancy inhibit lactation until after delivery. Lactational amenorrhoea results from suppression of GnRH by prolactin.", "k": ["hCG maintains the corpus luteum", "Ferguson reflex: oxytocin positive feedback", "Prolactin: milk production; oxytocin: ejection", "hPL causes insulin resistance"] }
+      ],
+      "q": [
+        ["Testosterone is produced by the:", "Sertoli cells", "Leydig cells", "Spermatogonia", "Epididymis", "Prostate", 1, "LH stimulates Leydig (interstitial) cells."],
+        ["Ovulation is triggered by a surge of:", "FSH", "LH", "Progesterone", "Prolactin", "Oxytocin", 1, "The mid-cycle LH surge causes follicle rupture."],
+        ["The corpus luteum secretes mainly:", "FSH", "Progesterone", "LH", "Prolactin", "hCG", 1, "Progesterone (with oestrogen) prepares the endometrium."],
+        ["In early pregnancy, the corpus luteum is maintained by:", "FSH", "hCG", "Oxytocin", "Prolactin", "Relaxin", 1, "hCG from the trophoblast acts like LH."],
+        ["Milk ejection (let-down) during breastfeeding is caused by:", "Prolactin", "Oxytocin", "Oestrogen", "Progesterone", "Growth hormone", 1, "Oxytocin contracts myoepithelial cells around the alveoli."],
+        ["Inhibin, which suppresses FSH, is secreted by:", "Leydig cells", "Sertoli cells", "Anterior pituitary", "Hypothalamus", "Adrenal cortex", 1, "Sertoli cells produce inhibin."],
+        ["The secretory phase of the endometrium is driven by:", "Oestrogen", "Progesterone", "FSH", "LH", "Testosterone", 1, "Progesterone converts the endometrium to secretory."],
+        ["Positive feedback involving oxytocin during labour is called the:", "Bainbridge reflex", "Ferguson reflex", "Hering–Breuer reflex", "Cushing reflex", "Baroreceptor reflex", 1, "Cervical stretch increases oxytocin, strengthening contractions."]
+      ]
+    }
+  ]
+}

@@ -11,11 +11,13 @@
     "test:watch": "jest --watch",
     "test:e2e": "jest --config ./test/jest-e2e.json --runInBand",
     "seed": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/seed/seed.ts",
+    "content:load": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/load-content.ts",
     "start:prod": "node dist/main",
     "dev:memory": "ts-node --transpile-only -r tsconfig-paths/register test/support/dev-server.ts",
     "staff": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/staff.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
     "@aws-sdk/client-s3": "^3.1141.0",
     "@aws-sdk/s3-request-presigner": "^3.1141.0",
     "@nestjs/cache-manager": "^3.0.1",

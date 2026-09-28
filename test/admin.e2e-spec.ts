@@ -589,3 +589,139 @@ describe('campus news', () => {
     expect(summaries[0]).toBe('Archived news “Screening dates moved”');
   });
 });
+
+describe('bulk import, bulk review and AI drafting', () => {
+  beforeAll(async () => {
+    // An earlier test removes the first creator's role.
+    await server.createStaff('creator2@edmira.com', 'creator', PASSWORD, 'Chidi Creator');
+    tokens.creator = await login('creator2@edmira.com');
+  });
+
+  const course = (overrides: object = {}) => ({
+    title: 'Embryology (import)',
+    code: 'EMB',
+    audience: [{ level: '200 Level', department: 'Anatomy' }],
+    topics: [
+      {
+        title: 'Gastrulation',
+        summary: 'How the trilaminar disc forms in week 3.',
+        material: [{ heading: 'Week 3', body: 'The primitive streak appears…', keyPoints: ['Three germ layers'] }],
+        questions: [
+          { stem: 'The primitive streak first appears in which week?', options: ['1', '2', '3', '4', '5'], answerIndex: 2, explanation: 'Week 3 — gastrulation.' },
+          { stem: 'Which layer forms the neural tube?', options: ['Ectoderm', 'Mesoderm', 'Endoderm'], answerIndex: 0 },
+        ],
+      },
+      { title: 'Neurulation', questions: [{ stem: 'Neural tube closure completes by day?', options: ['14', '21', '28', '35'], answerIndex: 2 }] },
+    ],
+    ...overrides,
+  });
+
+  it('reports every problem with its position and saves nothing', async () => {
+    const bad = course({
+      title: 'Bad import',
+      topics: [{ title: 'T', questions: [{ stem: '', options: ['A'], answerIndex: 3 }, { stem: 'ok?', options: ['A', 'a'], answerIndex: 0 }] }],
+    });
+    const res = await as('creator').post('/admin/import', { courses: [bad] }).expect(201);
+    expect(res.body.imported).toBe(false);
+    expect(res.body.errors.map((e: any) => e.path)).toEqual([
+      'courses[0].topics[0].questions[0]',
+      'courses[0].topics[0].questions[1]',
+    ]);
+    const titles = (await as('admin').get('/admin/courses')).body.map((c: any) => c.title);
+    expect(titles).not.toContain('Bad import');
+  });
+
+  it('dry-runs, then imports into the review queue', async () => {
+    const dry = await as('creator').post('/admin/import', { courses: [course()], dryRun: true }).expect(201);
+    expect(dry.body).toMatchObject({
+      imported: false,
+      courses: { created: 1 },
+      topics: { created: 2, withoutNotes: 1 },
+      questions: { created: 3 },
+    });
+
+    const res = await as('creator').post('/admin/import', { courses: [course()] }).expect(201);
+    expect(res.body.imported).toBe(true);
+    const courses = (await as('admin').get('/admin/courses')).body;
+    const created = courses.find((c: any) => c.title === 'Embryology (import)');
+    expect(created.status).toBe('draft'); // creators can't publish courses
+    const topics = (await as('admin').get('/admin/topics')).body.filter((t: any) => t.courseId === created.id);
+    expect(topics.map((t: any) => [t.title, t.status, t.order])).toEqual([
+      ['Gastrulation', 'in_review', 1],
+      ['Neurulation', 'draft', 2],
+    ]);
+    const qs = (await as('admin').get('/admin/questions')).body.filter((q: any) => topics.some((t: any) => t.id === q.topicId));
+    expect(qs).toHaveLength(3);
+    expect(qs.every((q: any) => q.status === 'in_review' && q.createdByName === 'Chidi Creator')).toBe(true);
+  });
+
+  it('is safe to import twice: matches by title and skips repeated questions', async () => {
+    const again = course({
+      title: 'embryology (IMPORT)',
+      topics: [{ title: 'gastrulation', questions: [
+        { stem: 'The primitive  streak first appears in which week?', options: ['1', '2', '3'], answerIndex: 2 },
+        { stem: 'Notochord derives from?', options: ['Ectoderm', 'Mesoderm'], answerIndex: 1 },
+      ] }],
+    });
+    const res = await as('creator').post('/admin/import', { courses: [again] }).expect(201);
+    expect(res.body).toMatchObject({ courses: { matched: 1, created: 0 }, topics: { matched: 1 }, questions: { created: 1, duplicates: 1 } });
+  });
+
+  it('lets only admins import library content, which they may then approve themselves', async () => {
+    const lib = course({ title: 'Library course', topics: [course().topics[0]] });
+    await as('creator').post('/admin/import', { courses: [lib], asLibrary: true }).expect(403);
+    await as('admin').post('/admin/import', { courses: [lib], asLibrary: true }).expect(201);
+
+    const libCourse = (await as('admin').get('/admin/courses')).body.find((c: any) => c.title === 'Library course');
+    expect(libCourse.status).toBe('published'); // admins' new courses go live…
+    // …but stay hidden from students until a topic is approved.
+    expect((await as('student').get('/courses')).body.map((c: any) => c.title)).not.toContain('Library course');
+
+    const topic = (await as('admin').get('/admin/topics')).body.find((t: any) => t.courseId === libCourse.id);
+    const qs = (await as('admin').get('/admin/questions')).body.filter((q: any) => q.topicId === topic.id);
+    expect(topic.createdByName).toBe('EdMira content library');
+    expect(topic.createdById).toBe('');
+
+    const res = await as('admin')
+      .post('/admin/transitions/bulk', {
+        action: 'approve',
+        items: [{ kind: 'topic', id: topic.id }, ...qs.map((q: any) => ({ kind: 'question', id: q.id }))],
+      })
+      .expect(201);
+    expect(res.body.done).toHaveLength(1 + qs.length);
+    expect(res.body.failed).toEqual([]);
+
+    const visible = (await as('student').get('/courses')).body.find((c: any) => c.title === 'Library course');
+    expect(visible.topics.map((t: any) => t.title)).toEqual(['Gastrulation']);
+  });
+
+  it('bulk review checks each item on its own', async () => {
+    const created = (await as('admin').get('/admin/courses')).body.find((c: any) => c.title === 'Embryology (import)');
+    const topics = (await as('admin').get('/admin/topics')).body.filter((t: any) => t.courseId === created.id);
+    const q = (await as('admin').get('/admin/questions')).body.find((x: any) => x.topicId === topics[0].id);
+    const draftTopic = topics.find((t: any) => t.status === 'draft');
+
+    await as('reviewer').post('/admin/transitions/bulk', { action: 'reject', items: [{ kind: 'question', id: q.id }] }).expect(201)
+      .then(res => expect(res.body.failed[0].error).toMatch(/note/i));
+    const res = await as('reviewer')
+      .post('/admin/transitions/bulk', {
+        action: 'approve',
+        items: [{ kind: 'question', id: q.id }, { kind: 'topic', id: draftTopic.id }],
+      })
+      .expect(201);
+    expect(res.body.done).toEqual([q.id]);
+    expect(res.body.failed).toEqual([{ id: draftTopic.id, error: expect.stringMatching(/draft/) }]);
+  });
+
+  it('logs imports in the activity log', async () => {
+    const log = (await as('admin').get('/admin/audit-log')).body;
+    expect(log.some((e: any) => e.action === 'imported' && /library content/.test(e.summary))).toBe(true);
+  });
+
+  it('reports AI drafting as off without a key', async () => {
+    expect((await as('creator').get('/admin/ai/status').expect(200)).body).toEqual({ enabled: false });
+    const topic = (await as('admin').get('/admin/topics')).body[0];
+    await as('creator').post(`/admin/topics/${topic.id}/ai-questions`, { count: 5 }).expect(503);
+    await as('creator').post(`/admin/topics/${topic.id}/ai-questions`, { count: 50 }).expect(400);
+  });
+});

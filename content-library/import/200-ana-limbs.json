@@ -1,0 +1,666 @@
+{
+ "courses": [
+  {
+   "title": "Gross Anatomy I: Upper and Lower Limbs (ANA 201)",
+   "code": "ANA201",
+   "color": "#B45309",
+   "description": "Bones, muscles, joints, nerves and vessels of the upper and lower limbs, with their clinical applications.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Pectoral Region, Axilla and Brachial Plexus",
+     "order": 1,
+     "summary": "Muscles of the pectoral region, boundaries and contents of the axilla, and the brachial plexus with its injuries.",
+     "material": [
+      {
+       "heading": "Axilla",
+       "body": "The axilla is a pyramidal space between the arm and the chest wall. Its apex (cervico-axillary canal) is bounded by the clavicle, first rib and upper border of the scapula; the anterior wall is formed by pectoralis major and minor; the posterior wall by subscapularis, teres major and latissimus dorsi; the medial wall by serratus anterior over the ribs; the lateral wall by the intertubercular sulcus of the humerus. Contents: axillary artery and vein, cords and branches of the brachial plexus, axillary lymph nodes (five groups: anterior/pectoral, posterior/subscapular, lateral/humeral, central, apical) and fat.",
+       "keyPoints": [
+        "Pectoralis minor divides the axillary artery into three parts",
+        "Apical nodes receive lymph from all other groups",
+        "Breast lymph drains mainly to the anterior (pectoral) nodes"
+       ]
+      },
+      {
+       "heading": "Brachial plexus",
+       "body": "The brachial plexus is formed by the anterior rami of C5–T1 and is organised as roots, trunks (upper C5–6, middle C7, lower C8–T1), divisions and cords (lateral, posterior, medial, named relative to the axillary artery). Terminal branches: musculocutaneous (lateral cord), median (lateral + medial cords), ulnar (medial cord), axillary and radial (posterior cord). Erb–Duchenne palsy (C5–6, upper trunk, e.g. difficult delivery) produces the 'waiter's tip' position; Klumpke's palsy (C8–T1, lower trunk) causes claw hand and may be accompanied by Horner's syndrome. Injury to the long thoracic nerve (C5–7) paralyses serratus anterior, causing a winged scapula.",
+       "keyPoints": [
+        "Roots C5–T1; mnemonic: Real Teachers Drink Cold Beer",
+        "Erb's palsy (C5–6): waiter's tip",
+        "Long thoracic nerve → winged scapula"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The brachial plexus is formed by the anterior rami of:",
+       "options": [
+        "T1–T5",
+        "C1–C4",
+        "C5–T1",
+        "C4–C8",
+        "C3–C7"
+       ],
+       "answerIndex": 2,
+       "explanation": "The plexus arises from C5, C6, C7, C8 and T1."
+      },
+      {
+       "stem": "Erb's palsy results from injury to the:",
+       "options": [
+        "Posterior cord",
+        "Long thoracic nerve",
+        "Upper trunk (C5–C6)",
+        "Lower trunk (C8–T1)",
+        "Medial cord"
+       ],
+       "answerIndex": 2,
+       "explanation": "Upper trunk injury gives the 'waiter's tip' posture."
+      },
+      {
+       "stem": "A winged scapula follows injury to the nerve supplying:",
+       "options": [
+        "Trapezius",
+        "Rhomboid major",
+        "Pectoralis major",
+        "Serratus anterior",
+        "Latissimus dorsi"
+       ],
+       "answerIndex": 3,
+       "explanation": "The long thoracic nerve supplies serratus anterior."
+      },
+      {
+       "stem": "The axillary artery is divided into three parts by:",
+       "options": [
+        "Pectoralis major",
+        "Teres major",
+        "Subscapularis",
+        "Coracobrachialis",
+        "Pectoralis minor"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pectoralis minor crosses the artery, defining its three parts."
+      },
+      {
+       "stem": "The ulnar nerve arises from the:",
+       "options": [
+        "Posterior cord",
+        "Middle trunk",
+        "Upper trunk",
+        "Lateral cord",
+        "Medial cord"
+       ],
+       "answerIndex": 4,
+       "explanation": "The ulnar nerve is the terminal continuation of the medial cord."
+      },
+      {
+       "stem": "Which nerve arises from the posterior cord?",
+       "options": [
+        "Ulnar",
+        "Musculocutaneous",
+        "Medial pectoral",
+        "Radial",
+        "Median"
+       ],
+       "answerIndex": 3,
+       "explanation": "The posterior cord gives the axillary and radial nerves."
+      },
+      {
+       "stem": "Most lymph from the breast drains to the ___ axillary nodes.",
+       "options": [
+        "Apical only",
+        "Parasternal only",
+        "Anterior (pectoral)",
+        "Lateral",
+        "Posterior"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 75% of breast lymph goes to the anterior (pectoral) nodes."
+      },
+      {
+       "stem": "Klumpke's palsy may be associated with Horner's syndrome because of injury to:",
+       "options": [
+        "The axillary nerve",
+        "C7",
+        "C5",
+        "T1",
+        "C6"
+       ],
+       "answerIndex": 3,
+       "explanation": "T1 carries preganglionic sympathetic fibres to the head."
+      }
+     ]
+    },
+    {
+     "title": "Arm, Forearm and Hand",
+     "order": 2,
+     "summary": "Compartments, cubital fossa, carpal tunnel and the major nerve injuries of the upper limb.",
+     "material": [
+      {
+       "heading": "Arm, forearm and cubital fossa",
+       "body": "The anterior compartment of the arm (biceps brachii, brachialis, coracobrachialis) is supplied by the musculocutaneous nerve; the posterior compartment (triceps) by the radial nerve. The cubital fossa is bounded by a line between the humeral epicondyles above, brachioradialis laterally and pronator teres medially. From lateral to medial it contains the biceps tendon, the brachial artery and the median nerve (mnemonic 'TAN'). Forearm flexors are mainly supplied by the median nerve (except flexor carpi ulnaris and the medial half of flexor digitorum profundus — ulnar); extensors by the radial (posterior interosseous) nerve.",
+       "keyPoints": [
+        "Cubital fossa (lateral → medial): Tendon, Artery, Nerve",
+        "Musculocutaneous supplies the anterior arm",
+        "FCU and medial FDP: ulnar nerve"
+       ]
+      },
+      {
+       "heading": "Hand and nerve injuries",
+       "body": "The carpal tunnel, formed by the carpal bones and the flexor retinaculum, transmits the median nerve and nine tendons (FDS ×4, FDP ×4, FPL). Carpal tunnel syndrome compresses the median nerve, causing thenar wasting and paraesthesia of the lateral three and a half digits. The median nerve supplies the LOAF muscles of the hand (lateral two lumbricals, opponens pollicis, abductor pollicis brevis, flexor pollicis brevis); the ulnar nerve supplies the remaining intrinsic muscles. Radial nerve injury in the spiral groove (midshaft humerus fracture) causes wrist drop; ulnar nerve injury causes a claw hand; median injury at the elbow causes the 'hand of benediction'. The scaphoid is the most commonly fractured carpal bone and risks avascular necrosis.",
+       "keyPoints": [
+        "Carpal tunnel: median nerve + 9 tendons",
+        "LOAF muscles: median nerve",
+        "Midshaft humerus fracture → radial nerve → wrist drop",
+        "Scaphoid fracture → avascular necrosis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "From lateral to medial, the contents of the cubital fossa are:",
+       "options": [
+        "Median nerve, biceps tendon, brachial artery",
+        "Radial nerve, ulnar nerve, median nerve",
+        "Biceps tendon, brachial artery, median nerve",
+        "Brachial vein, artery, nerve",
+        "Nerve, artery, tendon"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mnemonic TAN: Tendon, Artery, Nerve from lateral to medial."
+      },
+      {
+       "stem": "Wrist drop follows a fracture of the humerus at the:",
+       "options": [
+        "Surgical neck",
+        "Midshaft (spiral groove)",
+        "Medial epicondyle",
+        "Greater tubercle",
+        "Anatomical neck"
+       ],
+       "answerIndex": 1,
+       "explanation": "The radial nerve runs in the spiral groove."
+      },
+      {
+       "stem": "Which nerve is compressed in carpal tunnel syndrome?",
+       "options": [
+        "Anterior interosseous",
+        "Median",
+        "Radial",
+        "Musculocutaneous",
+        "Ulnar"
+       ],
+       "answerIndex": 1,
+       "explanation": "The median nerve passes through the carpal tunnel."
+      },
+      {
+       "stem": "The most commonly fractured carpal bone is the:",
+       "options": [
+        "Pisiform",
+        "Scaphoid",
+        "Lunate",
+        "Hamate",
+        "Capitate"
+       ],
+       "answerIndex": 1,
+       "explanation": "Scaphoid fractures follow falls on the outstretched hand."
+      },
+      {
+       "stem": "Which hand muscle is supplied by the median nerve?",
+       "options": [
+        "Medial two lumbricals",
+        "Dorsal interossei",
+        "Abductor pollicis brevis",
+        "Hypothenar muscles",
+        "Adductor pollicis"
+       ],
+       "answerIndex": 2,
+       "explanation": "The median nerve supplies the LOAF muscles, including abductor pollicis brevis."
+      },
+      {
+       "stem": "The muscles of the anterior compartment of the arm are supplied by the:",
+       "options": [
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Musculocutaneous nerve",
+        "Radial nerve",
+        "Median nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "Biceps, brachialis and coracobrachialis are supplied by the musculocutaneous nerve."
+      },
+      {
+       "stem": "A claw hand deformity is classically due to injury of the:",
+       "options": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Suprascapular nerve",
+        "Musculocutaneous nerve",
+        "Ulnar nerve"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ulnar nerve palsy paralyses most intrinsic hand muscles."
+      },
+      {
+       "stem": "Flexor carpi ulnaris is supplied by the:",
+       "options": [
+        "Ulnar nerve",
+        "Musculocutaneous nerve",
+        "Radial nerve",
+        "Median nerve",
+        "Anterior interosseous nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "FCU and the medial half of FDP are the ulnar-supplied forearm flexors."
+      }
+     ]
+    },
+    {
+     "title": "Shoulder, Elbow and Wrist Joints",
+     "order": 3,
+     "summary": "Joint types, the rotator cuff, dislocations and the joints of the upper limb.",
+     "material": [
+      {
+       "heading": "Shoulder joint",
+       "body": "The glenohumeral joint is a multiaxial ball-and-socket synovial joint with a shallow glenoid cavity deepened by the glenoid labrum. It is highly mobile but relatively unstable; stability comes mainly from the rotator cuff (SITS): supraspinatus (abduction, first 15°), infraspinatus and teres minor (lateral rotation), subscapularis (medial rotation). Most dislocations are anterior (inferior), and can injure the axillary nerve, which supplies deltoid and teres minor and gives sensation over the 'regimental badge' area.",
+       "keyPoints": [
+        "Rotator cuff: SITS",
+        "Supraspinatus initiates abduction",
+        "Anterior dislocation → axillary nerve injury"
+       ]
+      },
+      {
+       "heading": "Elbow and wrist",
+       "body": "The elbow is a hinge joint (humero-ulnar and humeroradial); the proximal radio-ulnar joint is a pivot joint allowing pronation and supination, with the radial head held by the annular ligament ('pulled elbow' in toddlers is subluxation of the radial head). The wrist (radiocarpal) is a condyloid (ellipsoid) joint. A fall on the outstretched hand in the elderly causes a Colles' fracture of the distal radius with dorsal displacement ('dinner-fork deformity').",
+       "keyPoints": [
+        "Elbow: hinge; proximal radio-ulnar: pivot",
+        "Pulled elbow: radial head slips out of the annular ligament",
+        "Colles' fracture: dinner-fork deformity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which muscle initiates abduction of the shoulder?",
+       "options": [
+        "Subscapularis",
+        "Infraspinatus",
+        "Supraspinatus",
+        "Teres major",
+        "Deltoid"
+       ],
+       "answerIndex": 2,
+       "explanation": "Supraspinatus initiates the first 15° of abduction."
+      },
+      {
+       "stem": "The rotator cuff muscle that medially rotates the arm is:",
+       "options": [
+        "Supraspinatus",
+        "Teres minor",
+        "Infraspinatus",
+        "Subscapularis",
+        "Teres major"
+       ],
+       "answerIndex": 3,
+       "explanation": "Subscapularis is the only cuff muscle producing medial rotation."
+      },
+      {
+       "stem": "The nerve at risk in anterior dislocation of the shoulder is the:",
+       "options": [
+        "Radial",
+        "Median",
+        "Ulnar",
+        "Suprascapular",
+        "Axillary"
+       ],
+       "answerIndex": 4,
+       "explanation": "The axillary nerve winds round the surgical neck of the humerus."
+      },
+      {
+       "stem": "The proximal radio-ulnar joint is a:",
+       "options": [
+        "Hinge joint",
+        "Saddle joint",
+        "Plane joint",
+        "Ball-and-socket joint",
+        "Pivot joint"
+       ],
+       "answerIndex": 4,
+       "explanation": "It allows rotation for pronation and supination."
+      },
+      {
+       "stem": "The ligament that holds the radial head is the:",
+       "options": [
+        "Coracoacromial ligament",
+        "Ulnar collateral ligament",
+        "Interosseous membrane",
+        "Transverse humeral ligament",
+        "Annular ligament"
+       ],
+       "answerIndex": 4,
+       "explanation": "The annular ligament encircles the radial head."
+      },
+      {
+       "stem": "A 'dinner-fork' deformity follows a:",
+       "options": [
+        "Scaphoid fracture",
+        "Monteggia fracture",
+        "Smith's fracture",
+        "Supracondylar fracture",
+        "Colles' fracture"
+       ],
+       "answerIndex": 4,
+       "explanation": "Colles' fracture has dorsal displacement of the distal radius."
+      },
+      {
+       "stem": "The shoulder joint is classified as a:",
+       "options": [
+        "Saddle joint",
+        "Hinge joint",
+        "Ball-and-socket joint",
+        "Pivot joint",
+        "Condyloid joint"
+       ],
+       "answerIndex": 2,
+       "explanation": "The glenohumeral joint is a ball-and-socket synovial joint."
+      },
+      {
+       "stem": "The fibrocartilaginous rim that deepens the glenoid cavity is the:",
+       "options": [
+        "Glenoid labrum",
+        "Bursa",
+        "Articular disc",
+        "Acetabular labrum",
+        "Meniscus"
+       ],
+       "answerIndex": 0,
+       "explanation": "The glenoid labrum increases the depth of the socket."
+      }
+     ]
+    },
+    {
+     "title": "Gluteal Region, Thigh and Femoral Triangle",
+     "order": 4,
+     "summary": "Gluteal muscles and the sciatic nerve, the femoral triangle, and thigh compartments.",
+     "material": [
+      {
+       "heading": "Gluteal region",
+       "body": "Gluteus maximus (inferior gluteal nerve) extends and laterally rotates the hip — important in climbing stairs and rising from sitting. Gluteus medius and minimus (superior gluteal nerve) abduct the hip and stabilise the pelvis during walking; their paralysis produces a positive Trendelenburg sign (the pelvis drops on the unsupported side). The sciatic nerve (L4–S3) leaves the pelvis through the greater sciatic foramen below piriformis. Intramuscular injections are given in the upper outer quadrant of the buttock to avoid the sciatic nerve.",
+       "keyPoints": [
+        "Superior gluteal nerve → Trendelenburg sign",
+        "Sciatic nerve exits below piriformis",
+        "Inject in the upper outer quadrant"
+       ]
+      },
+      {
+       "heading": "Femoral triangle and thigh",
+       "body": "The femoral triangle is bounded by the inguinal ligament (superiorly), sartorius (laterally) and adductor longus (medially). From lateral to medial its contents are the femoral Nerve, Artery, Vein and the empty space/Lymphatics in the femoral canal (NAVEL). Femoral hernias pass through the femoral canal, below and lateral to the pubic tubercle, and are more common in women. Anterior thigh muscles (quadriceps, sartorius) are supplied by the femoral nerve; medial (adductors) by the obturator nerve; posterior (hamstrings) by the sciatic nerve.",
+       "keyPoints": [
+        "Femoral triangle: NAVEL (lateral → medial)",
+        "Femoral hernia: through the femoral canal",
+        "Anterior thigh: femoral; medial: obturator; posterior: sciatic"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A positive Trendelenburg sign indicates weakness of:",
+       "options": [
+        "Iliopsoas",
+        "Gluteus medius and minimus",
+        "Gluteus maximus",
+        "Hamstrings",
+        "Quadriceps"
+       ],
+       "answerIndex": 1,
+       "explanation": "These hip abductors stabilise the pelvis during single-leg stance."
+      },
+      {
+       "stem": "From lateral to medial, the femoral triangle contains the femoral:",
+       "options": [
+        "Nerve, vein, artery",
+        "Artery, vein, nerve",
+        "Nerve, artery, vein",
+        "Vein, artery, nerve",
+        "Artery, nerve, vein"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mnemonic NAVEL: Nerve, Artery, Vein, (Empty space), Lymphatics."
+      },
+      {
+       "stem": "The lateral boundary of the femoral triangle is:",
+       "options": [
+        "Adductor longus",
+        "Inguinal ligament",
+        "Pectineus",
+        "Iliopsoas",
+        "Sartorius"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sartorius forms the lateral border."
+      },
+      {
+       "stem": "Gluteal intramuscular injections are given in the upper outer quadrant to avoid the:",
+       "options": [
+        "Sciatic nerve",
+        "Superior gluteal artery",
+        "Femoral artery",
+        "Obturator nerve",
+        "Pudendal nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "The sciatic nerve lies in the lower medial part of the buttock."
+      },
+      {
+       "stem": "The adductor muscles of the thigh are mainly supplied by the:",
+       "options": [
+        "Tibial nerve",
+        "Femoral nerve",
+        "Superior gluteal nerve",
+        "Sciatic nerve",
+        "Obturator nerve"
+       ],
+       "answerIndex": 4,
+       "explanation": "The obturator nerve supplies the medial compartment."
+      },
+      {
+       "stem": "The hamstrings are supplied by the:",
+       "options": [
+        "Inferior gluteal nerve",
+        "Common fibular nerve only",
+        "Femoral nerve",
+        "Sciatic (tibial part) nerve",
+        "Obturator nerve"
+       ],
+       "answerIndex": 3,
+       "explanation": "The tibial division of the sciatic nerve supplies the hamstrings."
+      },
+      {
+       "stem": "Gluteus maximus is supplied by the:",
+       "options": [
+        "Inferior gluteal nerve",
+        "Femoral nerve",
+        "Superior gluteal nerve",
+        "Sciatic nerve",
+        "Pudendal nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "The inferior gluteal nerve supplies gluteus maximus."
+      },
+      {
+       "stem": "The main action of gluteus maximus is:",
+       "options": [
+        "Knee flexion",
+        "Hip extension",
+        "Hip flexion",
+        "Hip adduction",
+        "Ankle dorsiflexion"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is the powerful hip extensor used in climbing and rising."
+      }
+     ]
+    },
+    {
+     "title": "Knee, Leg, Ankle and Foot",
+     "order": 5,
+     "summary": "The knee joint, compartments of the leg, foot drop and arches of the foot.",
+     "material": [
+      {
+       "heading": "Knee joint",
+       "body": "The knee is a modified hinge synovial joint. The anterior cruciate ligament (ACL) prevents anterior displacement of the tibia on the femur (anterior drawer test); the posterior cruciate ligament prevents posterior displacement. The medial meniscus is C-shaped and attached to the tibial (medial) collateral ligament, so it is injured more often than the lateral meniscus. The 'unhappy triad' (O'Donoghue) is injury to the ACL, medial collateral ligament and medial meniscus. Popliteus 'unlocks' the extended knee.",
+       "keyPoints": [
+        "ACL: anterior drawer test",
+        "Medial meniscus is fixed to the MCL — injured more",
+        "Popliteus unlocks the knee"
+       ]
+      },
+      {
+       "heading": "Leg and foot",
+       "body": "The anterior compartment of the leg (tibialis anterior, extensors) is supplied by the deep fibular (peroneal) nerve; the lateral compartment (fibularis longus and brevis — eversion) by the superficial fibular nerve; the posterior compartment (gastrocnemius, soleus, tibialis posterior) by the tibial nerve. The common fibular nerve winds around the neck of the fibula, where it is easily injured (e.g. tight plaster cast), causing foot drop with a high-stepping gait. The foot has medial and lateral longitudinal arches and a transverse arch; the talus bears the body's weight and has no muscle attachments. The ankle jerk tests S1.",
+       "keyPoints": [
+        "Common fibular nerve at the fibular neck → foot drop",
+        "Deep fibular: dorsiflexion; superficial fibular: eversion",
+        "Ankle jerk = S1; knee jerk = L3–L4"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The anterior drawer test assesses the:",
+       "options": [
+        "Lateral meniscus",
+        "Patellar ligament",
+        "Lateral collateral ligament",
+        "Posterior cruciate ligament",
+        "Anterior cruciate ligament"
+       ],
+       "answerIndex": 4,
+       "explanation": "Excess anterior tibial translation indicates an ACL tear."
+      },
+      {
+       "stem": "Foot drop commonly follows injury to the common fibular nerve at the:",
+       "options": [
+        "Popliteal fossa",
+        "Tarsal tunnel",
+        "Medial malleolus",
+        "Greater sciatic foramen",
+        "Neck of the fibula"
+       ],
+       "answerIndex": 4,
+       "explanation": "It winds superficially around the fibular neck."
+      },
+      {
+       "stem": "Which meniscus is more commonly injured?",
+       "options": [
+        "Medial",
+        "Both equally",
+        "Only in children",
+        "Lateral",
+        "Neither"
+       ],
+       "answerIndex": 0,
+       "explanation": "The medial meniscus is attached to the MCL and is less mobile."
+      },
+      {
+       "stem": "Eversion of the foot is produced mainly by muscles supplied by the:",
+       "options": [
+        "Deep fibular nerve",
+        "Tibial nerve",
+        "Superficial fibular nerve",
+        "Sural nerve",
+        "Saphenous nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fibularis longus and brevis in the lateral compartment evert the foot."
+      },
+      {
+       "stem": "The muscle that 'unlocks' the fully extended knee is:",
+       "options": [
+        "Popliteus",
+        "Gastrocnemius",
+        "Gracilis",
+        "Quadriceps",
+        "Sartorius"
+       ],
+       "answerIndex": 0,
+       "explanation": "Popliteus laterally rotates the femur on the tibia to unlock the knee."
+      },
+      {
+       "stem": "The ankle jerk reflex tests nerve root:",
+       "options": [
+        "S1",
+        "L2",
+        "L3",
+        "L4",
+        "S3"
+       ],
+       "answerIndex": 0,
+       "explanation": "The Achilles reflex is mediated mainly by S1."
+      },
+      {
+       "stem": "Tibialis anterior is supplied by the:",
+       "options": [
+        "Deep fibular nerve",
+        "Femoral nerve",
+        "Tibial nerve",
+        "Obturator nerve",
+        "Superficial fibular nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "The deep fibular nerve supplies the anterior compartment (dorsiflexors)."
+      },
+      {
+       "stem": "The 'unhappy triad' of the knee includes injury to the ACL, MCL and:",
+       "options": [
+        "PCL",
+        "Popliteus tendon",
+        "Lateral meniscus",
+        "Medial meniscus",
+        "Patella"
+       ],
+       "answerIndex": 3,
+       "explanation": "O'Donoghue's triad: ACL, MCL and medial meniscus."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

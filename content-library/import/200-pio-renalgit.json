@@ -1,0 +1,693 @@
+{
+ "courses": [
+  {
+   "title": "Physiology III: Renal, Body Fluids and Gastrointestinal (PIO 212/216)",
+   "code": "PIO212",
+   "color": "#BE123C",
+   "description": "Glomerular filtration, tubular function, urine concentration and acid–base balance, plus gastrointestinal motility, secretion, digestion and absorption.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Glomerular Filtration and Renal Blood Flow",
+     "order": 1,
+     "summary": "The nephron, filtration forces, GFR, clearance and autoregulation.",
+     "material": [
+      {
+       "heading": "Filtration",
+       "body": "The kidneys receive about 20–25% of cardiac output (≈ 1.1–1.25 L/min). Each kidney has about one million nephrons. Glomerular filtration rate (GFR) is about 125 mL/min (180 L/day). Net filtration pressure = glomerular capillary hydrostatic pressure − (Bowman's capsule hydrostatic pressure + plasma oncotic pressure). The filtration barrier (fenestrated endothelium, basement membrane, podocyte slit diaphragms) restricts proteins by size and negative charge, so albumin is normally not filtered in significant amounts. Renal blood flow and GFR are autoregulated between MAP of about 80–180 mmHg by the myogenic response and tubuloglomerular feedback (macula densa).",
+       "keyPoints": [
+        "Renal blood flow ≈ 20–25% of CO",
+        "GFR ≈ 125 mL/min (180 L/day)",
+        "Autoregulation: myogenic + tubuloglomerular feedback"
+       ]
+      },
+      {
+       "heading": "Clearance",
+       "body": "Clearance is the volume of plasma completely cleared of a substance per minute: C = (U × V) / P. Inulin is freely filtered and neither reabsorbed nor secreted, so its clearance equals GFR (the gold standard); creatinine clearance is used clinically (slightly overestimates GFR because a little is secreted). PAH clearance measures effective renal plasma flow (~625 mL/min). Filtration fraction = GFR/RPF ≈ 20%. Glucose is fully reabsorbed until the renal threshold (plasma ~180–200 mg/dL) is exceeded, as in uncontrolled diabetes (glycosuria).",
+       "keyPoints": [
+        "C = UV/P",
+        "Inulin clearance = GFR",
+        "PAH clearance = renal plasma flow",
+        "Glucose threshold ≈ 180 mg/dL"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Normal glomerular filtration rate is about:",
+       "options": [
+        "25 mL/min",
+        "60 mL/min",
+        "125 mL/min",
+        "250 mL/min",
+        "625 mL/min"
+       ],
+       "answerIndex": 2,
+       "explanation": "GFR is about 125 mL/min (180 L/day)."
+      },
+      {
+       "stem": "The gold standard substance for measuring GFR is:",
+       "options": [
+        "Inulin",
+        "PAH",
+        "Glucose",
+        "Creatinine",
+        "Urea"
+       ],
+       "answerIndex": 0,
+       "explanation": "Inulin is freely filtered, not reabsorbed or secreted."
+      },
+      {
+       "stem": "The kidneys receive what fraction of cardiac output at rest?",
+       "options": [
+        "5%",
+        "10%",
+        "20–25%",
+        "40%",
+        "60%"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 1.1–1.25 L/min, 20–25% of CO."
+      },
+      {
+       "stem": "Which force opposes glomerular filtration?",
+       "options": [
+        "Afferent arteriolar dilatation",
+        "High renal blood flow",
+        "Glomerular capillary hydrostatic pressure",
+        "Increased MAP",
+        "Plasma oncotic pressure"
+       ],
+       "answerIndex": 4,
+       "explanation": "Plasma oncotic pressure holds fluid in the capillaries."
+      },
+      {
+       "stem": "If U = 100 mg/mL, V = 1 mL/min and P = 1 mg/mL, the clearance is:",
+       "options": [
+        "1 mL/min",
+        "10 mL/min",
+        "100 mL/min",
+        "1,000 mL/min",
+        "0.01 mL/min"
+       ],
+       "answerIndex": 2,
+       "explanation": "C = UV/P = 100 × 1 / 1 = 100 mL/min."
+      },
+      {
+       "stem": "Effective renal plasma flow is measured using clearance of:",
+       "options": [
+        "Inulin",
+        "Sodium",
+        "Para-aminohippuric acid (PAH)",
+        "Creatinine",
+        "Urea"
+       ],
+       "answerIndex": 2,
+       "explanation": "PAH is almost completely cleared in one pass."
+      },
+      {
+       "stem": "Glycosuria appears in diabetes when plasma glucose exceeds about:",
+       "options": [
+        "70 mg/dL",
+        "100 mg/dL",
+        "180–200 mg/dL",
+        "400 mg/dL",
+        "600 mg/dL"
+       ],
+       "answerIndex": 2,
+       "explanation": "Above the renal threshold, transporters are saturated."
+      },
+      {
+       "stem": "Tubuloglomerular feedback is sensed by the:",
+       "options": [
+        "Podocytes",
+        "Collecting duct",
+        "Bowman's capsule",
+        "Loop of Henle thin limb",
+        "Macula densa"
+       ],
+       "answerIndex": 4,
+       "explanation": "Macula densa cells sense NaCl delivery to the distal tubule."
+      }
+     ]
+    },
+    {
+     "title": "Tubular Function, Urine Concentration and Diuretics",
+     "order": 2,
+     "summary": "Reabsorption and secretion along the nephron, countercurrent mechanism, ADH and aldosterone.",
+     "material": [
+      {
+       "heading": "Along the nephron",
+       "body": "The proximal convoluted tubule reabsorbs about 65–70% of filtered Na+ and water, nearly all glucose and amino acids, and most bicarbonate. The thick ascending limb of the loop of Henle reabsorbs Na+, K+ and 2 Cl− via the NKCC2 co-transporter (blocked by loop diuretics like furosemide) and is impermeable to water, diluting the tubular fluid. The distal convoluted tubule reabsorbs NaCl via the Na–Cl co-transporter (blocked by thiazides). The collecting duct principal cells reabsorb Na+ and secrete K+ under aldosterone (ENaC channels, blocked by amiloride; aldosterone blocked by spironolactone).",
+       "keyPoints": [
+        "PCT: ~65% of Na+ and water, all glucose",
+        "Loop diuretics block NKCC2",
+        "Thiazides block NCC in the DCT",
+        "Spironolactone and amiloride spare K+"
+       ]
+      },
+      {
+       "heading": "Concentrating urine",
+       "body": "The countercurrent multiplier of the loop of Henle and urea recycling create a hyperosmotic medullary interstitium (up to ~1,200 mOsm/kg); the vasa recta act as countercurrent exchangers preserving it. Antidiuretic hormone (ADH, vasopressin) from the posterior pituitary, released when plasma osmolality rises or blood volume falls, inserts aquaporin-2 channels in collecting duct cells, allowing water reabsorption and concentrated urine. Lack of ADH or renal unresponsiveness causes diabetes insipidus (large volumes of dilute urine). Alcohol inhibits ADH release.",
+       "keyPoints": [
+        "Loop of Henle = countercurrent multiplier",
+        "ADH inserts aquaporin-2",
+        "Diabetes insipidus: dilute polyuria",
+        "Alcohol inhibits ADH"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most filtered sodium is reabsorbed in the:",
+       "options": [
+        "Proximal convoluted tubule",
+        "Distal convoluted tubule",
+        "Glomerulus",
+        "Descending limb of the loop",
+        "Collecting duct"
+       ],
+       "answerIndex": 0,
+       "explanation": "About two-thirds of Na+ and water are reabsorbed in the PCT."
+      },
+      {
+       "stem": "Furosemide acts on the:",
+       "options": [
+        "PCT",
+        "Distal convoluted tubule",
+        "Glomerulus",
+        "Thick ascending limb of the loop of Henle",
+        "Collecting duct"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks the Na+–K+–2Cl− co-transporter."
+      },
+      {
+       "stem": "ADH increases water reabsorption by:",
+       "options": [
+        "Increasing renal blood flow",
+        "Blocking NKCC2",
+        "Increasing GFR",
+        "Inserting aquaporin-2 channels in collecting duct cells",
+        "Opening Na+ channels"
+       ],
+       "answerIndex": 3,
+       "explanation": "Aquaporin-2 makes the collecting duct permeable to water."
+      },
+      {
+       "stem": "The segment impermeable to water that dilutes tubular fluid is the:",
+       "options": [
+        "PCT",
+        "Bowman's capsule",
+        "Collecting duct with ADH",
+        "Thin descending limb",
+        "Thick ascending limb"
+       ],
+       "answerIndex": 4,
+       "explanation": "It pumps out solute but not water."
+      },
+      {
+       "stem": "Spironolactone is a potassium-sparing diuretic because it:",
+       "options": [
+        "Inhibits carbonic anhydrase",
+        "Blocks aquaporins",
+        "Antagonises aldosterone",
+        "Blocks NKCC2",
+        "Increases GFR"
+       ],
+       "answerIndex": 2,
+       "explanation": "Blocking aldosterone reduces Na+ reabsorption and K+ secretion."
+      },
+      {
+       "stem": "Large volumes of dilute urine with high plasma osmolality suggest:",
+       "options": [
+        "SIADH",
+        "Nephrotic syndrome",
+        "Diabetes insipidus",
+        "Acute glomerulonephritis",
+        "Dehydration with normal ADH"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lack of ADH effect prevents urine concentration."
+      },
+      {
+       "stem": "The vasa recta function as:",
+       "options": [
+        "Countercurrent exchangers",
+        "Filtration sites",
+        "Sources of erythropoietin",
+        "Countercurrent multipliers",
+        "Sites of renin release"
+       ],
+       "answerIndex": 0,
+       "explanation": "They preserve the medullary osmotic gradient."
+      },
+      {
+       "stem": "Thiazide diuretics act on the:",
+       "options": [
+        "PCT",
+        "Renal pelvis",
+        "Glomerulus",
+        "Loop of Henle",
+        "Distal convoluted tubule"
+       ],
+       "answerIndex": 4,
+       "explanation": "Thiazides block the Na–Cl co-transporter in the DCT."
+      }
+     ]
+    },
+    {
+     "title": "Acid–Base Balance",
+     "order": 3,
+     "summary": "Buffers, renal and respiratory compensation, and interpreting acid–base disorders.",
+     "material": [
+      {
+       "heading": "Regulation",
+       "body": "Normal arterial pH is 7.35–7.45, PaCO2 35–45 mmHg and HCO3− 22–26 mmol/L. The Henderson–Hasselbalch equation for blood is pH = 6.1 + log([HCO3−]/(0.03 × PCO2)). Buffers act instantly; the lungs adjust CO2 within minutes; the kidneys adjust HCO3− and excrete H+ (as titratable acid and ammonium) over hours to days. The anion gap = Na+ − (Cl− + HCO3−), normally about 8–12 mmol/L; a raised anion gap metabolic acidosis occurs in diabetic ketoacidosis, lactic acidosis, renal failure and poisoning (methanol, salicylates).",
+       "keyPoints": [
+        "pH 7.35–7.45; PaCO2 35–45; HCO3− 22–26",
+        "Anion gap = Na − (Cl + HCO3) ≈ 8–12",
+        "Raised AG: DKA, lactic acidosis, renal failure"
+       ]
+      },
+      {
+       "heading": "The four primary disorders",
+       "body": "Respiratory acidosis (↑PCO2) — hypoventilation, e.g. COPD, opioid overdose; compensation: ↑HCO3−. Respiratory alkalosis (↓PCO2) — hyperventilation, e.g. anxiety, high altitude; compensation: ↓HCO3−. Metabolic acidosis (↓HCO3−) — DKA, diarrhoea (normal anion gap), renal failure; compensation: hyperventilation (Kussmaul breathing). Metabolic alkalosis (↑HCO3−) — vomiting (loss of HCl), diuretics; compensation: hypoventilation.",
+       "keyPoints": [
+        "Resp. acidosis: ↑PCO2 (hypoventilation)",
+        "Met. acidosis: ↓HCO3− → Kussmaul breathing",
+        "Vomiting → metabolic alkalosis; diarrhoea → metabolic acidosis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Normal plasma bicarbonate is about:",
+       "options": [
+        "10–14 mmol/L",
+        "22–26 mmol/L",
+        "35–45 mmol/L",
+        "50–60 mmol/L",
+        "100 mmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "HCO3− is normally 22–26 mmol/L."
+      },
+      {
+       "stem": "Persistent vomiting typically causes:",
+       "options": [
+        "No acid–base change",
+        "Respiratory alkalosis",
+        "Metabolic acidosis",
+        "Respiratory acidosis",
+        "Metabolic alkalosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Loss of gastric HCl raises plasma bicarbonate."
+      },
+      {
+       "stem": "Kussmaul breathing is a compensatory response to:",
+       "options": [
+        "Hypoxia only",
+        "Respiratory alkalosis",
+        "Respiratory acidosis",
+        "Metabolic acidosis",
+        "Metabolic alkalosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Deep rapid breathing blows off CO2 to compensate for acidosis."
+      },
+      {
+       "stem": "Severe diarrhoea usually produces:",
+       "options": [
+        "Respiratory alkalosis",
+        "Raised anion gap metabolic acidosis",
+        "Respiratory acidosis",
+        "Metabolic alkalosis",
+        "Normal anion gap metabolic acidosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bicarbonate is lost in stool, with a compensatory rise in chloride."
+      },
+      {
+       "stem": "An anxious patient hyperventilating will develop:",
+       "options": [
+        "Respiratory alkalosis",
+        "Metabolic alkalosis",
+        "Respiratory acidosis",
+        "Metabolic acidosis",
+        "No change"
+       ],
+       "answerIndex": 0,
+       "explanation": "Blowing off CO2 lowers PCO2 and raises pH."
+      },
+      {
+       "stem": "Na+ = 140, Cl− = 100, HCO3− = 10 mmol/L. The anion gap is:",
+       "options": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+       ],
+       "answerIndex": 2,
+       "explanation": "140 − (100 + 10) = 30 mmol/L — raised."
+      },
+      {
+       "stem": "Opioid overdose with slow shallow breathing causes:",
+       "options": [
+        "Respiratory alkalosis",
+        "Metabolic alkalosis",
+        "Normal gases",
+        "Respiratory acidosis",
+        "Metabolic acidosis only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hypoventilation retains CO2."
+      },
+      {
+       "stem": "The kidneys excrete excess H+ mainly as:",
+       "options": [
+        "Free H+",
+        "Bicarbonate",
+        "Creatinine",
+        "Titratable acid and ammonium",
+        "Urea"
+       ],
+       "answerIndex": 3,
+       "explanation": "Phosphate buffers (titratable acid) and NH4+ carry most H+."
+      }
+     ]
+    },
+    {
+     "title": "Gastrointestinal Motility and Secretions",
+     "order": 4,
+     "summary": "Swallowing, gastric emptying, gastric acid secretion, pancreatic juice and bile.",
+     "material": [
+      {
+       "heading": "Motility",
+       "body": "Swallowing has oral (voluntary), pharyngeal and oesophageal (reflex) phases; the lower oesophageal sphincter relaxes to let food into the stomach (failure of relaxation = achalasia). The enteric nervous system (myenteric/Auerbach's plexus controls motility; submucosal/Meissner's plexus controls secretion) is modulated by autonomic nerves: parasympathetic stimulates, sympathetic inhibits. Peristalsis propels contents; segmentation mixes them. Gastric emptying is slowed by fat and acid in the duodenum (via CCK and secretin). The migrating motor complex sweeps the gut between meals (motilin).",
+       "keyPoints": [
+        "Auerbach's plexus: motility; Meissner's: secretion",
+        "Fat in duodenum slows gastric emptying",
+        "Achalasia: LES fails to relax"
+       ]
+      },
+      {
+       "heading": "Secretions",
+       "body": "Gastric parietal cells secrete HCl (via the H+/K+-ATPase proton pump, blocked by omeprazole) and intrinsic factor (needed for vitamin B12 absorption in the terminal ileum); chief cells secrete pepsinogen; G cells in the antrum secrete gastrin. Acid secretion is stimulated by acetylcholine, gastrin and histamine (H2 receptors, blocked by ranitidine/cimetidine) in cephalic, gastric and intestinal phases. Secretin (from duodenal S cells, released by acid) stimulates bicarbonate-rich pancreatic juice; cholecystokinin (I cells, released by fat and protein) stimulates pancreatic enzymes and gallbladder contraction. Bile salts emulsify fats and are recycled via the enterohepatic circulation.",
+       "keyPoints": [
+        "Parietal cells: HCl + intrinsic factor",
+        "Omeprazole blocks the proton pump",
+        "Secretin → bicarbonate; CCK → enzymes + gallbladder contraction"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Intrinsic factor is secreted by:",
+       "options": [
+        "G cells",
+        "Goblet cells",
+        "S cells",
+        "Parietal cells",
+        "Chief cells"
+       ],
+       "answerIndex": 3,
+       "explanation": "Parietal cells secrete both HCl and intrinsic factor."
+      },
+      {
+       "stem": "Omeprazole reduces acid secretion by inhibiting:",
+       "options": [
+        "Carbonic anhydrase",
+        "Muscarinic receptors",
+        "Gastrin release",
+        "The H+/K+-ATPase",
+        "H2 receptors"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a proton pump inhibitor."
+      },
+      {
+       "stem": "The hormone that stimulates bicarbonate-rich pancreatic secretion is:",
+       "options": [
+        "CCK",
+        "Secretin",
+        "Gastrin",
+        "Motilin",
+        "Somatostatin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Acid in the duodenum releases secretin."
+      },
+      {
+       "stem": "Gallbladder contraction is stimulated mainly by:",
+       "options": [
+        "Gastrin",
+        "Insulin",
+        "Glucagon",
+        "Cholecystokinin",
+        "Secretin"
+       ],
+       "answerIndex": 3,
+       "explanation": "CCK is released by fat and protein in the duodenum."
+      },
+      {
+       "stem": "The myenteric (Auerbach's) plexus mainly controls:",
+       "options": [
+        "Secretion",
+        "Absorption",
+        "Gut motility",
+        "Immune response",
+        "Blood flow only"
+       ],
+       "answerIndex": 2,
+       "explanation": "It lies between the muscle layers and controls motility."
+      },
+      {
+       "stem": "Vitamin B12 is absorbed mainly in the:",
+       "options": [
+        "Duodenum",
+        "Colon",
+        "Terminal ileum",
+        "Jejunum",
+        "Stomach"
+       ],
+       "answerIndex": 2,
+       "explanation": "The B12–intrinsic factor complex is absorbed in the terminal ileum."
+      },
+      {
+       "stem": "Gastrin is produced by:",
+       "options": [
+        "Chief cells",
+        "S cells",
+        "I cells",
+        "Parietal cells",
+        "G cells of the antrum"
+       ],
+       "answerIndex": 4,
+       "explanation": "Antral G cells secrete gastrin."
+      },
+      {
+       "stem": "Cimetidine reduces gastric acid by blocking:",
+       "options": [
+        "The proton pump",
+        "Dopamine receptors",
+        "Muscarinic M1 receptors",
+        "Histamine H2 receptors",
+        "Gastrin receptors"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cimetidine and ranitidine are H2-receptor antagonists."
+      }
+     ]
+    },
+    {
+     "title": "Digestion and Absorption",
+     "order": 5,
+     "summary": "Digestion and absorption of carbohydrates, proteins and fats, water and electrolytes.",
+     "material": [
+      {
+       "heading": "Carbohydrates and proteins",
+       "body": "Starch digestion begins with salivary α-amylase and continues with pancreatic amylase to maltose and oligosaccharides; brush-border enzymes (maltase, sucrase, lactase) produce monosaccharides. Glucose and galactose enter enterocytes by SGLT1 (with Na+); fructose by GLUT5; all leave via GLUT2. Lactase deficiency causes lactose intolerance (bloating, diarrhoea). Protein digestion starts with pepsin in the stomach and continues with pancreatic trypsin (activated from trypsinogen by enterokinase/enteropeptidase), chymotrypsin and carboxypeptidases; amino acids, di- and tripeptides are absorbed.",
+       "keyPoints": [
+        "Glucose/galactose: SGLT1; fructose: GLUT5",
+        "Enterokinase activates trypsinogen",
+        "Lactase deficiency → lactose intolerance"
+       ]
+      },
+      {
+       "heading": "Fats, water and electrolytes",
+       "body": "Fats are emulsified by bile salts and digested by pancreatic lipase (with colipase) to monoglycerides and fatty acids, which form micelles for absorption; inside enterocytes they are re-esterified and packaged into chylomicrons, which enter lacteals (lymph). Fat-soluble vitamins A, D, E and K need this pathway, so fat malabsorption causes their deficiency. About 9 L of fluid enters the gut daily; most is absorbed in the small intestine and about 1.5 L enters the colon. Cholera toxin raises cAMP, causing massive Cl− and water secretion; oral rehydration solution exploits intact Na+–glucose co-transport.",
+       "keyPoints": [
+        "Chylomicrons → lacteals",
+        "Fat malabsorption → deficiency of A, D, E, K",
+        "Cholera toxin ↑ cAMP → secretory diarrhoea",
+        "ORS uses Na+–glucose co-transport"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Fructose is absorbed into enterocytes mainly by:",
+       "options": [
+        "Pinocytosis",
+        "GLUT4",
+        "Simple diffusion only",
+        "SGLT1",
+        "GLUT5"
+       ],
+       "answerIndex": 4,
+       "explanation": "GLUT5 carries fructose by facilitated diffusion."
+      },
+      {
+       "stem": "Trypsinogen is activated in the duodenum by:",
+       "options": [
+        "Amylase",
+        "Lipase",
+        "Pepsin",
+        "Bile salts",
+        "Enterokinase (enteropeptidase)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Enterokinase converts trypsinogen to trypsin."
+      },
+      {
+       "stem": "Absorbed long-chain fats enter the circulation as:",
+       "options": [
+        "Ketone bodies",
+        "Micelles in portal blood",
+        "Triglycerides bound to albumin in the gut lumen",
+        "Chylomicrons via lacteals",
+        "Free fatty acids in portal blood"
+       ],
+       "answerIndex": 3,
+       "explanation": "Chylomicrons pass into lymphatic lacteals."
+      },
+      {
+       "stem": "Fat malabsorption leads to deficiency of vitamins:",
+       "options": [
+        "A, D, E and K",
+        "B and C",
+        "B1 and B6",
+        "B12 only",
+        "Folate and C"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fat-soluble vitamins need micellar absorption."
+      },
+      {
+       "stem": "Cholera toxin causes diarrhoea by:",
+       "options": [
+        "Increasing gut motility only",
+        "Inhibiting lactase",
+        "Destroying the villi",
+        "Raising cAMP and causing chloride secretion",
+        "Blocking bile secretion"
+       ],
+       "answerIndex": 3,
+       "explanation": "It permanently activates Gs, increasing cAMP and CFTR-mediated secretion."
+      },
+      {
+       "stem": "Oral rehydration solution works because:",
+       "options": [
+        "Glucose is a laxative",
+        "It kills bacteria",
+        "Na+–glucose co-transport remains intact in secretory diarrhoea",
+        "It stops cholera toxin binding",
+        "It increases gastric acid"
+       ],
+       "answerIndex": 2,
+       "explanation": "Glucose-coupled sodium absorption draws water with it."
+      },
+      {
+       "stem": "Lactose intolerance is due to deficiency of:",
+       "options": [
+        "Sucrase",
+        "Maltase",
+        "Lactase",
+        "Amylase",
+        "Lipase"
+       ],
+       "answerIndex": 2,
+       "explanation": "Undigested lactose is fermented in the colon."
+      },
+      {
+       "stem": "Starch digestion begins in the:",
+       "options": [
+        "Mouth",
+        "Jejunum",
+        "Stomach",
+        "Duodenum",
+        "Colon"
+       ],
+       "answerIndex": 0,
+       "explanation": "Salivary α-amylase starts starch digestion."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

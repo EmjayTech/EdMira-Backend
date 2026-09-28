@@ -1,0 +1,651 @@
+{
+ "courses": [
+  {
+   "title": "First Aid and Basic Life Support",
+   "code": "BLS101",
+   "color": "#DC2626",
+   "description": "Principles of first aid, cardiopulmonary resuscitation, choking, bleeding, burns, fractures and common emergencies — useful at every level.",
+   "audience": [
+    {
+     "level": "100 Level"
+    },
+    {
+     "level": "200 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "200 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "Master of Science (M.Sc.)"
+    },
+    {
+     "level": "Master of Philosophy (M.Phil.)"
+    },
+    {
+     "level": "Doctor of Philosophy (Ph.D.)"
+    },
+    {
+     "level": "Higher Doctorates"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of First Aid and Scene Assessment",
+     "order": 1,
+     "summary": "Aims of first aid, scene safety, primary survey (DRSABC) and the recovery position.",
+     "material": [
+      {
+       "heading": "Aims and approach",
+       "body": "First aid is the immediate care given to an injured or ill person before professional help arrives. Its aims are the three Ps: preserve life, prevent the condition from worsening, and promote recovery. Always ensure scene safety first — for yourself, bystanders and the casualty — then assess. The primary survey follows DRSABC: Danger, Response (AVPU: Alert, responds to Voice, responds to Pain, Unresponsive), Send for help, Airway, Breathing, Circulation.",
+       "keyPoints": [
+        "Three Ps: preserve life, prevent worsening, promote recovery",
+        "DRSABC",
+        "AVPU for level of response"
+       ]
+      },
+      {
+       "heading": "Recovery position and consent",
+       "body": "An unresponsive casualty who is breathing normally, with no suspected spinal injury, should be placed in the recovery position (on the side, with the head tilted back and mouth downward) to keep the airway open and allow fluids to drain. Seek consent from conscious casualties; consent is implied for unconscious ones. Use gloves or barriers to reduce infection risk.",
+       "keyPoints": [
+        "Recovery position keeps the airway clear",
+        "Implied consent when unconscious",
+        "Use personal protective barriers"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first priority on arriving at an accident scene is:",
+       "options": [
+        "Circulation",
+        "Airway",
+        "Breathing",
+        "Transporting the casualty",
+        "Danger/scene safety"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ensure the scene is safe before approaching."
+      },
+      {
+       "stem": "In AVPU, 'P' stands for responds to:",
+       "options": [
+        "Pulse",
+        "Position",
+        "Pupils",
+        "Pain",
+        "Pressure"
+       ],
+       "answerIndex": 3,
+       "explanation": "AVPU = Alert, Voice, Pain, Unresponsive."
+      },
+      {
+       "stem": "Which is NOT one of the three aims of first aid?",
+       "options": [
+        "Preserve life",
+        "Promote recovery",
+        "Prevent worsening",
+        "Prescribe antibiotics",
+        "Keep the casualty safe from further harm"
+       ],
+       "answerIndex": 3,
+       "explanation": "First aiders do not prescribe drugs; the other options are all part of the three Ps."
+      },
+      {
+       "stem": "An unconscious casualty who is breathing normally, with no spinal injury, should be placed:",
+       "options": [
+        "Sitting upright",
+        "Face down with arms under the body",
+        "Flat on the back",
+        "In the recovery position",
+        "With legs raised and head down"
+       ],
+       "answerIndex": 3,
+       "explanation": "The recovery position protects the airway."
+      },
+      {
+       "stem": "For an unconscious casualty, consent to first aid is:",
+       "options": [
+        "Required in writing",
+        "Not relevant because first aid is illegal",
+        "Given by the police only",
+        "Obtained from any stranger",
+        "Implied"
+       ],
+       "answerIndex": 4,
+       "explanation": "Consent is implied when the casualty cannot respond."
+      },
+      {
+       "stem": "DRSABC: the 'S' stands for:",
+       "options": [
+        "Safety",
+        "Splint",
+        "Send for help",
+        "Shock",
+        "Spine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Send for help (call emergency services)."
+      },
+      {
+       "stem": "The main purpose of the recovery position is to:",
+       "options": [
+        "Warm the casualty",
+        "Immobilise fractures",
+        "Reduce fever",
+        "Stop bleeding",
+        "Keep the airway open and let fluids drain"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prevents aspiration of vomit or blood."
+      },
+      {
+       "stem": "Wearing gloves when handling bleeding casualties mainly protects against:",
+       "options": [
+        "Blood-borne infections",
+        "Fractures",
+        "Hypothermia",
+        "Electric shock",
+        "Burns"
+       ],
+       "answerIndex": 0,
+       "explanation": "Gloves reduce exposure to HIV, hepatitis B and C."
+      }
+     ]
+    },
+    {
+     "title": "Adult Cardiopulmonary Resuscitation (CPR)",
+     "order": 2,
+     "summary": "Recognising cardiac arrest, high-quality chest compressions, rescue breaths and using an AED.",
+     "material": [
+      {
+       "heading": "Recognition and compressions",
+       "body": "Cardiac arrest is recognised when a person is unresponsive and not breathing normally (gasping, agonal breaths do not count). Call for help and an automated external defibrillator (AED), then start CPR immediately. Place the heel of one hand on the centre of the chest (lower half of the sternum), the other hand on top, arms straight. Compress 5–6 cm deep at 100–120 per minute, allowing full chest recoil and minimising interruptions.",
+       "keyPoints": [
+        "Unresponsive + not breathing normally = start CPR",
+        "Depth 5–6 cm; rate 100–120/min",
+        "Allow full recoil"
+       ]
+      },
+      {
+       "heading": "Breaths and defibrillation",
+       "body": "For trained rescuers the ratio is 30 compressions to 2 rescue breaths, using head-tilt–chin-lift to open the airway; each breath should make the chest rise and last about 1 second. Untrained or unwilling rescuers should give continuous compression-only CPR. Attach an AED as soon as it arrives and follow its voice prompts; ensure nobody touches the patient during analysis and shock. Continue until help takes over, the person shows signs of life, or you are exhausted.",
+       "keyPoints": [
+        "Ratio 30:2",
+        "Compression-only CPR is acceptable for untrained rescuers",
+        "Use an AED as soon as available"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The recommended compression rate in adult CPR is:",
+       "options": [
+        "60–80/min",
+        "80–100/min",
+        "100–120/min",
+        "120–150/min",
+        "30/min"
+       ],
+       "answerIndex": 2,
+       "explanation": "Current guidelines recommend 100–120 compressions per minute."
+      },
+      {
+       "stem": "The recommended compression depth for adults is:",
+       "options": [
+        "1–2 cm",
+        "2–3 cm",
+        "5–6 cm",
+        "8–10 cm",
+        "10–12 cm"
+       ],
+       "answerIndex": 2,
+       "explanation": "Compress at least 5 cm but not more than 6 cm."
+      },
+      {
+       "stem": "The compression-to-ventilation ratio for adult CPR is:",
+       "options": [
+        "5:1",
+        "15:2",
+        "30:2",
+        "30:5",
+        "10:1"
+       ],
+       "answerIndex": 2,
+       "explanation": "Adults: 30 compressions to 2 breaths."
+      },
+      {
+       "stem": "Hand position for adult chest compressions is:",
+       "options": [
+        "Upper abdomen",
+        "Over the xiphoid process",
+        "Over the left nipple",
+        "Upper sternum",
+        "Centre of the chest (lower half of sternum)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Place the heel of the hand on the lower half of the sternum."
+      },
+      {
+       "stem": "Occasional gasping breaths in an unresponsive person should be treated as:",
+       "options": [
+        "A reason to wait",
+        "A seizure only",
+        "A sign of cardiac arrest — start CPR",
+        "Normal breathing",
+        "Hyperventilation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Agonal gasps are not normal breathing."
+      },
+      {
+       "stem": "The airway manoeuvre used in an unresponsive adult without neck injury is:",
+       "options": [
+        "Jaw thrust only",
+        "Neck flexion",
+        "Abdominal thrust",
+        "Back blows",
+        "Head-tilt–chin-lift"
+       ],
+       "answerIndex": 4,
+       "explanation": "Head-tilt–chin-lift lifts the tongue off the airway."
+      },
+      {
+       "stem": "What does an AED do?",
+       "options": [
+        "Measures blood pressure",
+        "Injects adrenaline",
+        "Gives oxygen",
+        "Analyses rhythm and delivers a shock if needed",
+        "Performs chest compressions"
+       ],
+       "answerIndex": 3,
+       "explanation": "AEDs detect shockable rhythms (VF/pulseless VT) and deliver a shock."
+      },
+      {
+       "stem": "A bystander who is untrained in rescue breaths should:",
+       "options": [
+        "Give compression-only CPR",
+        "Give only breaths",
+        "Shake the casualty",
+        "Do nothing",
+        "Wait for the ambulance"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hands-only CPR is far better than no CPR."
+      }
+     ]
+    },
+    {
+     "title": "Choking and Airway Emergencies",
+     "order": 3,
+     "summary": "Recognising and relieving foreign-body airway obstruction in adults, children and infants.",
+     "material": [
+      {
+       "heading": "Recognising choking",
+       "body": "Mild obstruction: the person can cough, speak and breathe — encourage coughing. Severe obstruction: the person cannot speak, breathe or cough effectively, may clutch the throat (universal choking sign) and become cyanosed. Act immediately.",
+       "keyPoints": [
+        "Mild: encourage coughing",
+        "Severe: cannot speak or cough — act"
+       ]
+      },
+      {
+       "heading": "Relieving obstruction",
+       "body": "For a conscious adult or child over 1 year with severe obstruction: give up to 5 back blows between the shoulder blades, then up to 5 abdominal thrusts (Heimlich manoeuvre), alternating. For infants under 1 year: 5 back blows with the infant face-down along your forearm, then 5 chest thrusts with two fingers — never abdominal thrusts. If the casualty becomes unresponsive, lower them to the ground, call for help and start CPR.",
+       "keyPoints": [
+        "Adult/child: 5 back blows then 5 abdominal thrusts",
+        "Infant: 5 back blows then 5 chest thrusts",
+        "Unresponsive: start CPR"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A choking adult who can still cough forcefully should be:",
+       "options": [
+        "Encouraged to keep coughing",
+        "Given abdominal thrusts",
+        "Laid flat",
+        "Given back blows immediately",
+        "Given water"
+       ],
+       "answerIndex": 0,
+       "explanation": "Effective coughing is the best way to clear mild obstruction."
+      },
+      {
+       "stem": "Abdominal thrusts are also known as the:",
+       "options": [
+        "Epley manoeuvre",
+        "Trendelenburg position",
+        "Heimlich manoeuvre",
+        "Sellick manoeuvre",
+        "Valsalva manoeuvre"
+       ],
+       "answerIndex": 2,
+       "explanation": "Henry Heimlich described abdominal thrusts."
+      },
+      {
+       "stem": "For a choking infant under one year, after back blows you should give:",
+       "options": [
+        "Nothing",
+        "Finger sweeps blindly",
+        "Chest thrusts",
+        "Abdominal thrusts",
+        "Water"
+       ],
+       "answerIndex": 2,
+       "explanation": "Infants receive chest thrusts; abdominal thrusts can injure them."
+      },
+      {
+       "stem": "How many back blows are given in each cycle?",
+       "options": [
+        "Up to 5",
+        "Up to 15",
+        "Up to 2",
+        "Up to 10",
+        "Up to 30"
+       ],
+       "answerIndex": 0,
+       "explanation": "Give up to 5 back blows, then up to 5 thrusts."
+      },
+      {
+       "stem": "The universal sign of choking is:",
+       "options": [
+        "Clutching the throat",
+        "Coughing loudly",
+        "Raising both hands",
+        "Pointing at the chest",
+        "Lying down"
+       ],
+       "answerIndex": 0,
+       "explanation": "Victims instinctively clutch the throat."
+      },
+      {
+       "stem": "If a choking adult becomes unresponsive, you should:",
+       "options": [
+        "Keep giving abdominal thrusts standing",
+        "Give water",
+        "Wait for them to recover",
+        "Place them in the recovery position and leave",
+        "Lower them to the ground and start CPR"
+       ],
+       "answerIndex": 4,
+       "explanation": "Begin CPR; compressions may dislodge the object."
+      },
+      {
+       "stem": "Blind finger sweeps in the mouth are:",
+       "options": [
+        "The first step",
+        "Required before back blows",
+        "Recommended routinely",
+        "Not recommended; remove only visible objects",
+        "Only for adults"
+       ],
+       "answerIndex": 3,
+       "explanation": "Blind sweeps may push the object deeper."
+      },
+      {
+       "stem": "A choking person who cannot speak or breathe has:",
+       "options": [
+        "Asthma",
+        "Anaphylaxis only",
+        "Mild obstruction",
+        "A normal airway",
+        "Severe obstruction"
+       ],
+       "answerIndex": 4,
+       "explanation": "Inability to speak or cough indicates severe obstruction."
+      }
+     ]
+    },
+    {
+     "title": "Bleeding, Shock and Wounds",
+     "order": 4,
+     "summary": "Controlling external bleeding, recognising and managing shock, and basic wound care.",
+     "material": [
+      {
+       "heading": "Bleeding control",
+       "body": "Arterial bleeding is bright red and spurting; venous bleeding is dark red and flowing; capillary bleeding oozes. Control severe external bleeding with firm direct pressure on the wound using a clean pad, and elevate the injured limb if no fracture is suspected. If direct pressure fails on a limb with life-threatening bleeding, apply a tourniquet 5–7 cm above the wound and note the time. Do not remove embedded objects; pad around them.",
+       "keyPoints": [
+        "Direct pressure first",
+        "Tourniquet for life-threatening limb bleeding — record time",
+        "Do not remove impaled objects"
+       ]
+      },
+      {
+       "heading": "Shock",
+       "body": "Shock is inadequate tissue perfusion. Causes include blood loss (hypovolaemic), severe allergy (anaphylactic), heart failure (cardiogenic) and infection (septic). Signs: pale, cold, clammy skin; rapid weak pulse; rapid shallow breathing; anxiety, confusion and eventually unconsciousness; low blood pressure is a late sign. Lay the casualty down, raise the legs if possible, keep warm, treat the cause, give nothing by mouth and get urgent help. Anaphylaxis requires intramuscular adrenaline (0.5 mg for adults, 1:1000) into the outer thigh.",
+       "keyPoints": [
+        "Shock = inadequate perfusion",
+        "Cold clammy skin, fast weak pulse",
+        "Anaphylaxis: IM adrenaline 0.5 mg (adult)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first step in controlling severe external bleeding is:",
+       "options": [
+        "Apply a tourniquet",
+        "Direct pressure on the wound",
+        "Give fluids by mouth",
+        "Clean the wound with alcohol",
+        "Remove any embedded object"
+       ],
+       "answerIndex": 1,
+       "explanation": "Firm direct pressure controls most external bleeding."
+      },
+      {
+       "stem": "Bright red, spurting blood suggests bleeding from a/an:",
+       "options": [
+        "Artery",
+        "Capillary",
+        "Nerve",
+        "Vein",
+        "Lymph vessel"
+       ],
+       "answerIndex": 0,
+       "explanation": "Arterial blood is oxygenated and under high pressure."
+      },
+      {
+       "stem": "An embedded knife in a wound should be:",
+       "options": [
+        "Left in place and padded around",
+        "Cut flush with the skin by the first aider",
+        "Twisted to check depth",
+        "Pulled out immediately",
+        "Pushed further in"
+       ],
+       "answerIndex": 0,
+       "explanation": "Removing it may worsen bleeding."
+      },
+      {
+       "stem": "Which is an early sign of hypovolaemic shock?",
+       "options": [
+        "Slow strong pulse",
+        "Pinpoint pupils",
+        "Rapid weak pulse and cold clammy skin",
+        "Warm flushed skin",
+        "High blood pressure"
+       ],
+       "answerIndex": 2,
+       "explanation": "Compensatory tachycardia and vasoconstriction occur early."
+      },
+      {
+       "stem": "The adult intramuscular dose of adrenaline in anaphylaxis is:",
+       "options": [
+        "10 mg",
+        "1 mg IV bolus",
+        "0.5 mg",
+        "0.05 mg",
+        "5 mg"
+       ],
+       "answerIndex": 2,
+       "explanation": "Give 0.5 mg (0.5 mL of 1:1000) IM into the anterolateral thigh."
+      },
+      {
+       "stem": "When applying a tourniquet you must:",
+       "options": [
+        "Apply it over a joint",
+        "Use thin wire",
+        "Record the time it was applied",
+        "Loosen it every 5 minutes",
+        "Cover it so no one sees"
+       ],
+       "answerIndex": 2,
+       "explanation": "Documenting the time guides hospital management."
+      },
+      {
+       "stem": "A casualty in shock should be given:",
+       "options": [
+        "Hot tea",
+        "Plenty of water to drink",
+        "Nothing by mouth",
+        "Alcohol to warm them",
+        "Salt tablets"
+       ],
+       "answerIndex": 2,
+       "explanation": "They may need surgery or anaesthesia and could vomit."
+      },
+      {
+       "stem": "Low blood pressure in shock is usually a:",
+       "options": [
+        "Sign of recovery",
+        "Late sign",
+        "Very early sign",
+        "Sign of dehydration only",
+        "Normal finding"
+       ],
+       "answerIndex": 1,
+       "explanation": "The body compensates until significant volume is lost."
+      }
+     ]
+    },
+    {
+     "title": "Burns, Fractures, Seizures and Poisoning",
+     "order": 5,
+     "summary": "First aid for burns, suspected fractures, seizures, snakebites and poisoning.",
+     "material": [
+      {
+       "heading": "Burns and fractures",
+       "body": "For thermal burns, cool the burn under cool running water for 20 minutes as soon as possible, remove jewellery and loose clothing (not stuck clothing), and cover loosely with cling film or a clean non-fluffy dressing. Do not apply ice, butter, toothpaste or palm oil, and do not burst blisters. For chemical burns, brush off dry chemicals and irrigate with plenty of water. For suspected fractures, support and immobilise the injured part in the position found, splint above and below the joint, and check circulation beyond the injury. Suspect spinal injury after falls or road crashes and keep the head and neck still.",
+       "keyPoints": [
+        "Cool running water for 20 minutes",
+        "No ice, butter or toothpaste",
+        "Immobilise fractures; check distal circulation"
+       ]
+      },
+      {
+       "heading": "Seizures, snakebite and poisoning",
+       "body": "During a seizure, protect the person from injury, cushion the head, time the seizure and do not restrain them or put anything in the mouth; place in the recovery position afterwards. Call for help if it lasts more than 5 minutes. For snakebite, keep the person calm and still, immobilise the limb, remove rings, and transport urgently to a facility with antivenom — do not cut, suck or apply a tight tourniquet. For poisoning, identify the substance, do not induce vomiting, and seek urgent help (bring the container).",
+       "keyPoints": [
+        "Seizure: protect, time, nothing in the mouth",
+        "Snakebite: immobilise, no cutting or sucking, antivenom",
+        "Poisoning: do not induce vomiting"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The best first aid for a thermal burn is:",
+       "options": [
+        "Cool with running water for 20 minutes",
+        "Burst the blisters",
+        "Apply butter",
+        "Apply toothpaste",
+        "Apply ice directly"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cool running water limits tissue damage and pain."
+      },
+      {
+       "stem": "During a tonic–clonic seizure you should:",
+       "options": [
+        "Give tablets by mouth",
+        "Protect from injury and time the seizure",
+        "Pour water on the face",
+        "Restrain the limbs",
+        "Put a spoon in the mouth"
+       ],
+       "answerIndex": 1,
+       "explanation": "Prevent injury, time it and never put objects in the mouth."
+      },
+      {
+       "stem": "Emergency help is needed if a seizure lasts longer than:",
+       "options": [
+        "30 seconds",
+        "1 minute",
+        "5 minutes",
+        "30 minutes",
+        "1 hour"
+       ],
+       "answerIndex": 2,
+       "explanation": "Seizures over 5 minutes risk status epilepticus."
+      },
+      {
+       "stem": "For a snakebite on the leg, you should:",
+       "options": [
+        "Cut and suck the wound",
+        "Apply ice and walk home",
+        "Apply a tight tourniquet",
+        "Give alcohol",
+        "Immobilise the limb and transport to hospital"
+       ],
+       "answerIndex": 4,
+       "explanation": "Immobilisation slows venom spread; antivenom is definitive treatment."
+      },
+      {
+       "stem": "A person who swallowed kerosene should:",
+       "options": [
+        "Be left to sleep",
+        "Be made to vomit",
+        "Not be made to vomit and be taken to hospital",
+        "Drink palm oil",
+        "Be given salt water"
+       ],
+       "answerIndex": 2,
+       "explanation": "Vomiting risks aspiration of hydrocarbons into the lungs."
+      },
+      {
+       "stem": "When splinting a fractured forearm, the splint should:",
+       "options": [
+        "Be applied over the fingers only",
+        "Be very tight to stop swelling",
+        "Straighten the limb forcefully",
+        "Cover only the fracture site",
+        "Immobilise the joints above and below"
+       ],
+       "answerIndex": 4,
+       "explanation": "Immobilise the joint above and below the fracture."
+      },
+      {
+       "stem": "Clothing stuck to a burn should be:",
+       "options": [
+        "Left in place",
+        "Burned",
+        "Pulled off quickly",
+        "Soaked in oil",
+        "Cut out with the skin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Removing adherent clothing tears the skin."
+      },
+      {
+       "stem": "After a road crash, a casualty complains of neck pain. You should:",
+       "options": [
+        "Keep the head and neck still",
+        "Give them water",
+        "Sit them up",
+        "Ask them to turn the head",
+        "Carry them by the arms and legs"
+       ],
+       "answerIndex": 0,
+       "explanation": "Suspect spinal injury and avoid neck movement."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

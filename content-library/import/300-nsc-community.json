@@ -1,0 +1,648 @@
+{
+ "courses": [
+  {
+   "title": "Community Health Nursing",
+   "code": "NSC311",
+   "color": "#DB2777",
+   "description": "Primary health care, community diagnosis, home visiting, immunisation and the cold chain, school and occupational health, and family planning in Nigeria.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "300 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "Public Health"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Primary Health Care",
+     "order": 1,
+     "summary": "Alma-Ata and Astana declarations, principles and components of PHC, and PHC in Nigeria.",
+     "material": [
+      {
+       "heading": "Concept and principles",
+       "body": "The Alma-Ata Declaration (1978, USSR — now Kazakhstan) defined primary health care (PHC) as essential health care based on practical, scientifically sound and socially acceptable methods, universally accessible to individuals and families through their full participation, at a cost the community and country can afford — the strategy for 'Health for All by the year 2000'. The Astana Declaration (2018) renewed this commitment towards universal health coverage. Principles: equity, community participation, intersectoral collaboration, appropriate technology, and focus on prevention and promotion.",
+       "keyPoints": [
+        "Alma-Ata 1978: Health for All",
+        "Astana 2018 renewed PHC",
+        "Principles: equity, participation, intersectoral collaboration, appropriate technology"
+       ]
+      },
+      {
+       "heading": "Components and Nigerian structure",
+       "body": "The eight essential elements of PHC (ELEMENTS mnemonic): Education about health problems, Locally endemic disease control, Expanded programme of immunisation, Maternal and child health including family planning, Essential drugs, Nutrition and food supply, Treatment of common diseases and injuries, Safe water and sanitation (Nigeria added mental health, dental health and others). In Nigeria, PHC is the responsibility of local government areas, coordinated by the National Primary Health Care Development Agency (NPHCDA) under the 'PHC Under One Roof' policy. The Ward Health System makes the political ward the operational unit, with Ward Development Committees. Community health extension workers (CHEWs) and community health officers deliver much care under the Standing Orders.",
+       "keyPoints": [
+        "Eight elements (ELEMENTS)",
+        "PHC run by LGAs; coordinated by NPHCDA",
+        "PHC Under One Roof",
+        "Ward Development Committees"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Alma-Ata Declaration on primary health care was adopted in:",
+       "options": [
+        "1948",
+        "1968",
+        "1978",
+        "1988",
+        "2018"
+       ],
+       "answerIndex": 2,
+       "explanation": "It was adopted in 1978."
+      },
+      {
+       "stem": "The slogan associated with Alma-Ata was:",
+       "options": [
+        "Stop TB",
+        "Zero Hunger",
+        "Leave No One Behind",
+        "Roll Back Malaria",
+        "Health for All by the year 2000"
+       ],
+       "answerIndex": 4,
+       "explanation": "PHC was the strategy to achieve Health for All by 2000."
+      },
+      {
+       "stem": "Which is NOT one of the original eight elements of PHC?",
+       "options": [
+        "Maternal and child health",
+        "Organ transplantation",
+        "Essential drugs",
+        "Safe water and sanitation",
+        "Immunisation"
+       ],
+       "answerIndex": 1,
+       "explanation": "PHC focuses on basic essential services."
+      },
+      {
+       "stem": "In Nigeria, PHC services are primarily the responsibility of the:",
+       "options": [
+        "Teaching hospitals",
+        "Federal Ministry of Health only",
+        "Local government areas",
+        "Private hospitals",
+        "Universities"
+       ],
+       "answerIndex": 2,
+       "explanation": "LGAs are responsible for PHC, supported by state and federal agencies."
+      },
+      {
+       "stem": "The agency coordinating PHC nationally in Nigeria is the:",
+       "options": [
+        "NUC",
+        "NPHCDA",
+        "NCDC",
+        "NHIA",
+        "NAFDAC"
+       ],
+       "answerIndex": 1,
+       "explanation": "The National Primary Health Care Development Agency."
+      },
+      {
+       "stem": "Involving community members in planning health services reflects the PHC principle of:",
+       "options": [
+        "Specialisation",
+        "Centralisation",
+        "Cost recovery",
+        "Appropriate technology",
+        "Community participation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Communities should participate fully."
+      },
+      {
+       "stem": "The 2018 declaration renewing global commitment to PHC was made in:",
+       "options": [
+        "Geneva",
+        "Ottawa",
+        "New York",
+        "Astana",
+        "Abuja"
+       ],
+       "answerIndex": 3,
+       "explanation": "The Astana Declaration (Kazakhstan)."
+      },
+      {
+       "stem": "Health workers who provide much PHC in Nigerian communities using Standing Orders are:",
+       "options": [
+        "CHEWs",
+        "Pharmacologists",
+        "Radiologists",
+        "Surgeons",
+        "Pathologists"
+       ],
+       "answerIndex": 0,
+       "explanation": "Community Health Extension Workers."
+      }
+     ]
+    },
+    {
+     "title": "Community Diagnosis and Home Visiting",
+     "order": 2,
+     "summary": "Steps of community diagnosis, health indicators, family health assessment and home visits.",
+     "material": [
+      {
+       "heading": "Community diagnosis",
+       "body": "Community diagnosis identifies the health status, problems, needs and resources of a community as a basis for planning. Steps: entry into the community (courtesy visits to traditional rulers, religious and opinion leaders), data collection (demographic, socio-economic, environmental, health service and morbidity/mortality data using surveys, observation, records, key informant interviews and focus groups), analysis, prioritisation of problems (magnitude, severity, feasibility, community concern), planning interventions, implementation and evaluation. Common indicators: crude birth and death rates, infant mortality rate (deaths under 1 year per 1,000 live births), under-five mortality rate, maternal mortality ratio (maternal deaths per 100,000 live births), immunisation coverage and access to safe water.",
+       "keyPoints": [
+        "Community entry through leaders",
+        "Prioritise by magnitude, severity, feasibility",
+        "IMR per 1,000 live births",
+        "MMR per 100,000 live births"
+       ]
+      },
+      {
+       "heading": "Home visiting",
+       "body": "Home visits allow nurses to assess the family in its environment, provide care and health education, and follow up mothers, newborns, the elderly and patients with chronic diseases (e.g. TB, HIV). Principles: purposeful and planned; respect the family's culture and privacy; involve the family; maintain confidentiality; use the 'bag technique' (nursing bag with infection-control procedures — clean and dirty sides, handwashing); document findings; and follow up. Family health assessment considers structure (nuclear, extended, polygamous), roles, communication, resources and the family life cycle.",
+       "keyPoints": [
+        "Home visits: planned, purposeful, respectful",
+        "Bag technique for infection control",
+        "Assess family structure and resources"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first step when a nurse begins work in a new community is:",
+       "options": [
+        "Community entry through courtesy visits to leaders",
+        "Building a hospital",
+        "Distributing drugs",
+        "Mass immunisation",
+        "Writing a report"
+       ],
+       "answerIndex": 0,
+       "explanation": "Gaining acceptance from leaders facilitates cooperation."
+      },
+      {
+       "stem": "The infant mortality rate is expressed per:",
+       "options": [
+        "100 live births",
+        "100,000 live births",
+        "1,000 live births",
+        "1,000 population",
+        "10,000 women"
+       ],
+       "answerIndex": 2,
+       "explanation": "IMR = infant deaths per 1,000 live births."
+      },
+      {
+       "stem": "The maternal mortality ratio is expressed per:",
+       "options": [
+        "100 deliveries",
+        "100,000 live births",
+        "1,000 pregnancies",
+        "1,000 live births",
+        "10,000 women"
+       ],
+       "answerIndex": 1,
+       "explanation": "MMR uses 100,000 live births."
+      },
+      {
+       "stem": "Community diagnosis is primarily done to:",
+       "options": [
+        "Punish communities",
+        "Identify health problems and resources as a basis for planning",
+        "Collect taxes",
+        "Conduct elections",
+        "Recruit staff"
+       ],
+       "answerIndex": 1,
+       "explanation": "It guides priority setting and intervention."
+      },
+      {
+       "stem": "When prioritising community health problems, which criterion is used?",
+       "options": [
+        "Cost of the nurse's transport only",
+        "Alphabetical order",
+        "Random selection",
+        "Magnitude, severity and feasibility of intervention",
+        "The nurse's preference"
+       ],
+       "answerIndex": 3,
+       "explanation": "Priorities balance burden and feasibility."
+      },
+      {
+       "stem": "The 'bag technique' in home visiting mainly aims to:",
+       "options": [
+        "Store records",
+        "Carry gifts",
+        "Prevent cross-infection",
+        "Carry food",
+        "Collect fees"
+       ],
+       "answerIndex": 2,
+       "explanation": "It keeps clean and dirty items separate."
+      },
+      {
+       "stem": "A family consisting of a man, his wives and their children is a:",
+       "options": [
+        "Blended family only",
+        "Nuclear family",
+        "Polygamous family",
+        "Single-parent family",
+        "Childless family"
+       ],
+       "answerIndex": 2,
+       "explanation": "Polygamous families are common in some Nigerian communities."
+      },
+      {
+       "stem": "Talking to a respected village head to understand local problems is an example of a:",
+       "options": [
+        "Census",
+        "Randomised trial",
+        "Clinical examination",
+        "Key informant interview",
+        "Laboratory test"
+       ],
+       "answerIndex": 3,
+       "explanation": "Key informants have special knowledge of the community."
+      }
+     ]
+    },
+    {
+     "title": "Immunisation and the Cold Chain",
+     "order": 3,
+     "summary": "Nigeria's routine immunisation schedule, vaccine storage, and adverse events following immunisation.",
+     "material": [
+      {
+       "heading": "Schedule",
+       "body": "Nigeria's routine immunisation schedule (National Programme on Immunisation, managed by NPHCDA) includes: at birth — BCG, OPV0 and hepatitis B birth dose; 6, 10 and 14 weeks — pentavalent vaccine (DPT-HepB-Hib), pneumococcal conjugate vaccine (PCV), OPV, rotavirus (6 and 10 weeks) and IPV (at 14 weeks, with fractional doses in some schedules); 9 months — measles (first dose), yellow fever and meningococcal A conjugate (MenA), plus vitamin A; 15 months — second measles dose (MCV2). HPV vaccine was introduced in 2023 for girls aged 9–14 years. Supplementary campaigns (e.g. polio, measles) complement routine immunisation.",
+       "keyPoints": [
+        "Birth: BCG, OPV0, HepB0",
+        "6/10/14 weeks: pentavalent, PCV, OPV (+ rotavirus, IPV)",
+        "9 months: measles, yellow fever, MenA",
+        "HPV vaccine for girls 9–14 (2023)"
+       ]
+      },
+      {
+       "heading": "Cold chain and AEFI",
+       "body": "The cold chain keeps vaccines at the recommended temperature from manufacture to administration. Most vaccines are stored at +2 °C to +8 °C; oral polio vaccine may be stored frozen at central levels. Freeze-sensitive vaccines (pentavalent, hepatitis B, PCV, IPV, HPV, tetanus-containing) are damaged by freezing — the shake test detects frozen adsorbed vaccines. Vaccine vial monitors (VVM) show cumulative heat exposure: discard when the inner square matches or is darker than the outer circle. Reconstituted BCG, measles and yellow fever vaccines are discarded after 6 hours or at the end of the session. Adverse events following immunisation (AEFI) — e.g. fever, local swelling, BCG ulcer, rare anaphylaxis — must be managed and reported.",
+       "keyPoints": [
+        "Store most vaccines at +2 to +8 °C",
+        "Shake test for freeze damage",
+        "VVM: discard if inner square ≥ outer circle",
+        "Reconstituted measles/BCG: discard after 6 hours"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which vaccines are given at birth in Nigeria?",
+       "options": [
+        "Pentavalent and PCV",
+        "HPV",
+        "BCG, OPV0 and hepatitis B birth dose",
+        "Measles and yellow fever",
+        "MenA"
+       ],
+       "answerIndex": 2,
+       "explanation": "BCG, OPV0 and HepB0 are birth doses."
+      },
+      {
+       "stem": "The pentavalent vaccine protects against diphtheria, pertussis, tetanus, hepatitis B and:",
+       "options": [
+        "Haemophilus influenzae type b",
+        "Rotavirus",
+        "Yellow fever",
+        "Polio",
+        "Measles"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pentavalent = DPT + HepB + Hib."
+      },
+      {
+       "stem": "The first dose of measles vaccine is given at:",
+       "options": [
+        "Birth",
+        "15 months",
+        "5 years",
+        "6 weeks",
+        "9 months"
+       ],
+       "answerIndex": 4,
+       "explanation": "Measles 1 is given at 9 months."
+      },
+      {
+       "stem": "Most vaccines should be stored at:",
+       "options": [
+        "Room temperature",
+        "−20 °C",
+        "+15 °C to +25 °C",
+        "+2 °C to +8 °C",
+        "0 °C"
+       ],
+       "answerIndex": 3,
+       "explanation": "This is the standard cold-chain range."
+      },
+      {
+       "stem": "The shake test is used to detect vaccines damaged by:",
+       "options": [
+        "Light",
+        "Contamination",
+        "Heat",
+        "Freezing",
+        "Expiry"
+       ],
+       "answerIndex": 3,
+       "explanation": "Frozen adsorbed vaccines sediment faster."
+      },
+      {
+       "stem": "A vaccine vial monitor should lead to discarding the vial when:",
+       "options": [
+        "The vial is new",
+        "The inner square is lighter than the outer circle",
+        "The inner square matches or is darker than the outer circle",
+        "The label is torn",
+        "The vial is cold"
+       ],
+       "answerIndex": 2,
+       "explanation": "This indicates excessive cumulative heat exposure."
+      },
+      {
+       "stem": "Reconstituted measles vaccine should be discarded after:",
+       "options": [
+        "7 days",
+        "30 minutes",
+        "6 hours or end of session",
+        "1 month",
+        "24 hours"
+       ],
+       "answerIndex": 2,
+       "explanation": "It loses potency and risks contamination."
+      },
+      {
+       "stem": "HPV vaccine introduced in Nigeria in 2023 targets:",
+       "options": [
+        "Boys aged 1–5",
+        "Elderly women",
+        "Girls aged 9–14",
+        "Pregnant women",
+        "Newborns"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prevents cervical cancer caused by HPV."
+      }
+     ]
+    },
+    {
+     "title": "School, Occupational and Environmental Health Nursing",
+     "order": 4,
+     "summary": "School health programme, occupational hazards, and water, sanitation and hygiene.",
+     "material": [
+      {
+       "heading": "School health",
+       "body": "The National School Health Policy covers healthful school environment (safe water, toilets, safe buildings), school health services (screening for vision, hearing, dental problems, malnutrition; first aid; immunisation; deworming), skill-based health education (hygiene, nutrition, sexual and reproductive health, drug abuse prevention), school feeding (the National Home-Grown School Feeding Programme) and school–community relationships. Common school-age problems: malaria, helminthiasis, anaemia, visual problems, dental caries, skin infections and injuries.",
+       "keyPoints": [
+        "School health: environment, services, education, feeding",
+        "Deworming and screening",
+        "Home-Grown School Feeding Programme"
+       ]
+      },
+      {
+       "heading": "Occupational and environmental health",
+       "body": "Occupational hazards: physical (noise, heat, radiation), chemical (dusts, solvents, pesticides — e.g. silicosis in miners, lead poisoning), biological (needlestick injuries, TB in health workers), ergonomic (back injuries in nurses from lifting) and psychosocial (stress, violence). Control follows the hierarchy: elimination, substitution, engineering controls, administrative controls, personal protective equipment. Environmental health covers safe water (boiling, chlorination, filtration, protected wells and boreholes), sanitation (improved latrines, ending open defecation — community-led total sanitation), solid waste management, food hygiene and vector control.",
+       "keyPoints": [
+        "Hierarchy of controls: eliminate → substitute → engineer → administrative → PPE",
+        "Nurses: back injuries, needlesticks",
+        "Chlorination and boiling make water safe",
+        "End open defecation (CLTS)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Screening schoolchildren for vision and hearing problems is part of:",
+       "options": [
+        "School feeding only",
+        "Curriculum design",
+        "Sports",
+        "Healthful school environment",
+        "School health services"
+       ],
+       "answerIndex": 4,
+       "explanation": "Health services include screening, first aid and immunisation."
+      },
+      {
+       "stem": "Mass deworming in schools targets mainly:",
+       "options": [
+        "Malaria",
+        "Measles",
+        "Tuberculosis",
+        "Soil-transmitted helminths",
+        "HIV"
+       ],
+       "answerIndex": 3,
+       "explanation": "Albendazole or mebendazole reduces worm burden."
+      },
+      {
+       "stem": "The most effective measure in the hierarchy of hazard control is:",
+       "options": [
+        "Personal protective equipment",
+        "Administrative controls",
+        "Warning signs",
+        "Training",
+        "Elimination of the hazard"
+       ],
+       "answerIndex": 4,
+       "explanation": "Removing the hazard entirely is best."
+      },
+      {
+       "stem": "A common occupational injury among nurses is:",
+       "options": [
+        "Hearing loss from mining",
+        "Lead poisoning",
+        "Back injury from manual handling",
+        "Asbestosis",
+        "Silicosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lifting and moving patients strains the back."
+      },
+      {
+       "stem": "Silicosis is an occupational disease of:",
+       "options": [
+        "Office workers",
+        "Drivers",
+        "Farmers only",
+        "Miners and quarry workers",
+        "Teachers"
+       ],
+       "answerIndex": 3,
+       "explanation": "Inhaled silica dust causes lung fibrosis."
+      },
+      {
+       "stem": "A simple household method for making water safe to drink is:",
+       "options": [
+        "Storing in the sun without cover",
+        "Boiling",
+        "Adding sugar",
+        "Mixing with milk",
+        "Adding salt"
+       ],
+       "answerIndex": 1,
+       "explanation": "Boiling kills most pathogens."
+      },
+      {
+       "stem": "Community-led total sanitation aims mainly to:",
+       "options": [
+        "Build hospitals",
+        "Increase school enrolment",
+        "End open defecation",
+        "Distribute medicines",
+        "Provide electricity"
+       ],
+       "answerIndex": 2,
+       "explanation": "CLTS mobilises communities to stop open defecation."
+      },
+      {
+       "stem": "Wearing gloves and masks in the hierarchy of controls is:",
+       "options": [
+        "Engineering control",
+        "Elimination",
+        "Substitution",
+        "Administrative control",
+        "Personal protective equipment (last line)"
+       ],
+       "answerIndex": 4,
+       "explanation": "PPE is the least effective, last-line measure."
+      }
+     ]
+    },
+    {
+     "title": "Family Planning and Reproductive Health",
+     "order": 5,
+     "summary": "Contraceptive methods, counselling, effectiveness and reproductive health services.",
+     "material": [
+      {
+       "heading": "Methods",
+       "body": "Family planning helps individuals and couples achieve desired number and spacing of children, reducing maternal and child deaths. Methods: short-acting hormonal (combined oral contraceptive pill, progestogen-only pill, injectables such as DMPA every 3 months), long-acting reversible contraception (LARC — implants such as Jadelle (5 years) and Implanon (3 years), copper IUD (up to 10–12 years), hormonal IUD), barrier methods (male and female condoms — the only methods that also protect against STIs/HIV), fertility awareness methods (Standard Days, lactational amenorrhoea method — effective for 6 months if exclusively breastfeeding and amenorrhoeic), permanent methods (tubal ligation, vasectomy) and emergency contraception (levonorgestrel within 72 hours, copper IUD within 5 days).",
+       "keyPoints": [
+        "LARC: implants, IUDs — most effective reversible methods",
+        "Condoms protect against STIs",
+        "LAM: effective 6 months with exclusive breastfeeding",
+        "Emergency pill within 72 h; IUD within 5 days"
+       ]
+      },
+      {
+       "heading": "Counselling and eligibility",
+       "body": "Counselling uses the GATHER approach (Greet, Ask, Tell, Help, Explain, Return/Refer) and respects informed, voluntary choice. WHO Medical Eligibility Criteria guide safe method selection: for example, combined oestrogen-containing methods are avoided in women with a history of thrombosis, migraine with aura, breastfeeding under 6 weeks postpartum, and smokers over 35. Effectiveness is compared by failure rates (Pearl Index — pregnancies per 100 woman-years). Post-partum family planning, including IUD insertion within 48 hours of delivery, improves birth spacing (recommended interval at least 24 months before the next pregnancy).",
+       "keyPoints": [
+        "GATHER counselling",
+        "WHO Medical Eligibility Criteria",
+        "Avoid oestrogen in thrombosis history, migraine with aura, smokers > 35",
+        "Pearl Index"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The only contraceptive method that also protects against sexually transmitted infections is:",
+       "options": [
+        "IUD",
+        "Oral pill",
+        "Implant",
+        "Condom",
+        "Injectable"
+       ],
+       "answerIndex": 3,
+       "explanation": "Barrier protection prevents STI and HIV transmission."
+      },
+      {
+       "stem": "DMPA (Depo-Provera) injection is given every:",
+       "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "1 year",
+        "5 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "DMPA is given every 12–13 weeks."
+      },
+      {
+       "stem": "The lactational amenorrhoea method is effective for up to:",
+       "options": [
+        "1 week",
+        "1 month",
+        "6 months postpartum if exclusively breastfeeding and amenorrhoeic",
+        "2 years regardless",
+        "Only if bottle-feeding"
+       ],
+       "answerIndex": 2,
+       "explanation": "All three LAM criteria must be met."
+      },
+      {
+       "stem": "The Jadelle implant provides contraception for up to:",
+       "options": [
+        "3 years",
+        "5 years",
+        "10 years",
+        "Lifetime",
+        "1 year"
+       ],
+       "answerIndex": 1,
+       "explanation": "Jadelle lasts about 5 years."
+      },
+      {
+       "stem": "Emergency contraception with levonorgestrel is most effective when taken within:",
+       "options": [
+        "2 weeks",
+        "1 month",
+        "Before the next period only",
+        "12 hours",
+        "72 hours"
+       ],
+       "answerIndex": 4,
+       "explanation": "It should be taken as soon as possible, ideally within 72 hours."
+      },
+      {
+       "stem": "Combined oral contraceptives should be avoided in a woman who:",
+       "options": [
+        "Has a history of deep vein thrombosis",
+        "Is 25 and healthy",
+        "Has irregular periods",
+        "Wants to space births",
+        "Is a non-smoker"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oestrogen increases thrombosis risk."
+      },
+      {
+       "stem": "The GATHER approach is used for:",
+       "options": [
+        "Immunisation",
+        "Blood transfusion",
+        "Wound care",
+        "Family planning counselling",
+        "Drug dispensing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Greet, Ask, Tell, Help, Explain, Return."
+      },
+      {
+       "stem": "The Pearl Index measures:",
+       "options": [
+        "Birth weight",
+        "Maternal mortality",
+        "Hormone levels",
+        "Fertility rate",
+        "Contraceptive failure rate per 100 woman-years"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lower Pearl Index = more effective method."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

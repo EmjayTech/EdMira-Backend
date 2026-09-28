@@ -54,3 +54,18 @@ export const presentAudience = (rules: AudienceRule[] | undefined) =>
     ...(department ? { department } : {}),
     ...(institution ? { institution } : {}),
   }));
+
+/** Drops "any" blanks and duplicate rules, keeping the given order. */
+export function cleanAudience(rules: { level: Level; department?: Department | ''; institution?: Institution | '' }[]) {
+  const seen = new Set<string>();
+  return rules
+    .map(({ level, department, institution }) => ({
+      level,
+      ...(department ? { department } : {}),
+      ...(institution ? { institution } : {}),
+    }))
+    .filter(rule => {
+      const key = [rule.level, rule.department ?? '', rule.institution ?? ''].join('|');
+      return !seen.has(key) && seen.add(key);
+    });
+}

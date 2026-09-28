@@ -1,0 +1,645 @@
+{
+ "courses": [
+  {
+   "title": "Foundations of Nursing (NSC 201)",
+   "code": "NSC201",
+   "color": "#DB2777",
+   "description": "History and theories of nursing, the nursing process, infection prevention, basic nursing procedures and professional ethics.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "100 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "History and Theories of Nursing",
+     "order": 1,
+     "summary": "Florence Nightingale, development of nursing in Nigeria, and major nursing theorists.",
+     "material": [
+      {
+       "heading": "History",
+       "body": "Florence Nightingale is regarded as the founder of modern nursing. During the Crimean War (1854–1856) she reduced soldiers' death rates through sanitation and hygiene, and in 1860 founded the Nightingale Training School at St Thomas' Hospital, London. Her 'Notes on Nursing' emphasised environment. International Nurses Day (12 May) is her birthday. In Nigeria, formal nurse training began in mission hospitals; the Nursing Council of Nigeria (now the Nursing and Midwifery Council of Nigeria) was established in 1947 and university nursing education began at the University of Ibadan in 1965.",
+       "keyPoints": [
+        "Florence Nightingale: founder of modern nursing",
+        "International Nurses Day: 12 May",
+        "University nursing in Nigeria began at UI (1965)"
+       ]
+      },
+      {
+       "heading": "Nursing theories",
+       "body": "Nightingale's Environmental Theory: manipulating the environment (ventilation, light, cleanliness, noise, nutrition) promotes healing. Virginia Henderson defined nursing as assisting the individual in activities contributing to health or recovery that they would perform unaided if they had the strength, will or knowledge (14 basic needs). Dorothea Orem's Self-Care Deficit Theory: nursing is needed when self-care demands exceed abilities (wholly compensatory, partly compensatory, supportive-educative systems). Other theorists include Hildegard Peplau (interpersonal relations), Callista Roy (adaptation model) and Madeleine Leininger (transcultural nursing).",
+       "keyPoints": [
+        "Nightingale: environment",
+        "Henderson: 14 basic needs",
+        "Orem: self-care deficit",
+        "Peplau: interpersonal relations; Roy: adaptation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The founder of modern nursing is:",
+       "options": [
+        "Mary Seacole",
+        "Virginia Henderson",
+        "Dorothea Orem",
+        "Florence Nightingale",
+        "Clara Barton"
+       ],
+       "answerIndex": 3,
+       "explanation": "Nightingale founded modern professional nursing."
+      },
+      {
+       "stem": "International Nurses Day is celebrated on:",
+       "options": [
+        "1 May",
+        "12 May",
+        "7 April",
+        "1 October",
+        "5 June"
+       ],
+       "answerIndex": 1,
+       "explanation": "12 May is Florence Nightingale's birthday."
+      },
+      {
+       "stem": "The Self-Care Deficit Theory was developed by:",
+       "options": [
+        "Virginia Henderson",
+        "Martha Rogers",
+        "Hildegard Peplau",
+        "Dorothea Orem",
+        "Callista Roy"
+       ],
+       "answerIndex": 3,
+       "explanation": "Orem's theory centres on patients' self-care abilities."
+      },
+      {
+       "stem": "Virginia Henderson described nursing in terms of:",
+       "options": [
+        "Adaptation modes",
+        "Interpersonal phases",
+        "Transcultural care",
+        "12 activities of living",
+        "14 basic needs"
+       ],
+       "answerIndex": 4,
+       "explanation": "Henderson listed 14 basic human needs."
+      },
+      {
+       "stem": "Nightingale's theory focuses on the patient's:",
+       "options": [
+        "Spirituality only",
+        "Environment",
+        "Culture",
+        "Adaptation",
+        "Self-care"
+       ],
+       "answerIndex": 1,
+       "explanation": "Clean air, light, warmth and hygiene aid recovery."
+      },
+      {
+       "stem": "Transcultural nursing theory was developed by:",
+       "options": [
+        "Callista Roy",
+        "Imogene King",
+        "Jean Watson",
+        "Madeleine Leininger",
+        "Faye Abdellah"
+       ],
+       "answerIndex": 3,
+       "explanation": "Leininger founded transcultural nursing."
+      },
+      {
+       "stem": "University-based nursing education in Nigeria began at the:",
+       "options": [
+        "University of Nigeria, Nsukka",
+        "University of Lagos",
+        "Obafemi Awolowo University",
+        "Ahmadu Bello University",
+        "University of Ibadan"
+       ],
+       "answerIndex": 4,
+       "explanation": "UI started the first degree nursing programme in 1965."
+      },
+      {
+       "stem": "Florence Nightingale's famous work in improving soldiers' care took place during the:",
+       "options": [
+        "Crimean War",
+        "American Civil War",
+        "Nigerian Civil War",
+        "Boer War",
+        "First World War"
+       ],
+       "answerIndex": 0,
+       "explanation": "She served at Scutari during the Crimean War."
+      }
+     ]
+    },
+    {
+     "title": "The Nursing Process",
+     "order": 2,
+     "summary": "Assessment, nursing diagnosis, planning, implementation and evaluation.",
+     "material": [
+      {
+       "heading": "Steps",
+       "body": "The nursing process is a systematic, patient-centred problem-solving method with five steps (ADPIE): Assessment (collecting subjective and objective data by interview, observation and examination), Nursing diagnosis (clinical judgement about the patient's response to health problems, e.g. using NANDA-I labels such as 'Acute pain related to surgical incision as evidenced by…'), Planning (setting priorities and SMART goals, and choosing interventions), Implementation (carrying out the plan) and Evaluation (judging whether goals were met and revising the plan).",
+       "keyPoints": [
+        "ADPIE",
+        "Subjective data: what the patient says; objective: what you observe/measure",
+        "Goals should be SMART"
+       ]
+      },
+      {
+       "heading": "Priorities and documentation",
+       "body": "Priorities are often set using Maslow's hierarchy of needs (physiological needs first, then safety, love/belonging, esteem, self-actualisation) and the ABC approach (airway, breathing, circulation). A nursing diagnosis differs from a medical diagnosis: it describes the patient's response (e.g. 'impaired physical mobility') rather than the disease (e.g. 'fractured femur'). Documentation must be accurate, timely, legible, signed and factual — 'if it wasn't documented, it wasn't done'.",
+       "keyPoints": [
+        "Maslow: physiological needs first",
+        "Nursing diagnosis = patient's response, not disease",
+        "Document accurately and promptly"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first step of the nursing process is:",
+       "options": [
+        "Planning",
+        "Implementation",
+        "Evaluation",
+        "Assessment",
+        "Diagnosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Assessment gathers data on which all later steps depend."
+      },
+      {
+       "stem": "'The patient says she has had pain for three days' is an example of:",
+       "options": [
+        "Subjective data",
+        "A nursing diagnosis",
+        "An intervention",
+        "Objective data",
+        "An outcome"
+       ],
+       "answerIndex": 0,
+       "explanation": "Subjective data are what the patient reports."
+      },
+      {
+       "stem": "Which is a nursing diagnosis rather than a medical diagnosis?",
+       "options": [
+        "Pneumonia",
+        "Impaired physical mobility",
+        "Malaria",
+        "Diabetes mellitus",
+        "Fractured femur"
+       ],
+       "answerIndex": 1,
+       "explanation": "Nursing diagnoses describe patients' responses to health problems."
+      },
+      {
+       "stem": "According to Maslow, which need is met first?",
+       "options": [
+        "Physiological needs",
+        "Self-actualisation",
+        "Self-esteem",
+        "Love and belonging",
+        "Safety"
+       ],
+       "answerIndex": 0,
+       "explanation": "Physiological needs (oxygen, food, water) take priority."
+      },
+      {
+       "stem": "Judging whether a patient's goals have been achieved is the ___ step.",
+       "options": [
+        "Assessment",
+        "Implementation",
+        "Planning",
+        "Diagnosis",
+        "Evaluation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Evaluation measures outcomes against goals."
+      },
+      {
+       "stem": "A blood pressure reading of 150/90 mmHg is an example of:",
+       "options": [
+        "Subjective data",
+        "A theory",
+        "A goal",
+        "A nursing diagnosis",
+        "Objective data"
+       ],
+       "answerIndex": 4,
+       "explanation": "Measured findings are objective."
+      },
+      {
+       "stem": "The acronym for the nursing process is:",
+       "options": [
+        "SBAR",
+        "SOAP",
+        "ADPIE",
+        "ABCDE",
+        "PQRST"
+       ],
+       "answerIndex": 2,
+       "explanation": "Assessment, Diagnosis, Planning, Implementation, Evaluation."
+      },
+      {
+       "stem": "Setting goals and selecting interventions occurs during:",
+       "options": [
+        "Implementation",
+        "Assessment",
+        "Planning",
+        "Documentation",
+        "Evaluation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Planning establishes priorities, goals and interventions."
+      }
+     ]
+    },
+    {
+     "title": "Infection Prevention and Control",
+     "order": 3,
+     "summary": "Chain of infection, hand hygiene, standard precautions, PPE and waste management.",
+     "material": [
+      {
+       "heading": "Chain of infection and hand hygiene",
+       "body": "The chain of infection has six links: infectious agent, reservoir, portal of exit, mode of transmission (contact, droplet, airborne, vector, vehicle), portal of entry and susceptible host; breaking any link prevents infection. Hand hygiene is the single most important measure to prevent health-care-associated infections. WHO's 'My 5 Moments for Hand Hygiene': before touching a patient, before a clean/aseptic procedure, after body fluid exposure risk, after touching a patient, and after touching patient surroundings. Alcohol-based hand rub (20–30 seconds) is preferred unless hands are visibly soiled or after caring for patients with C. difficile diarrhoea (use soap and water, 40–60 seconds).",
+       "keyPoints": [
+        "Six links in the chain of infection",
+        "Hand hygiene: most important measure",
+        "WHO 5 Moments",
+        "Soap and water if visibly soiled"
+       ]
+      },
+      {
+       "heading": "Standard precautions and waste",
+       "body": "Standard precautions apply to all patients: hand hygiene, personal protective equipment (gloves, gowns, masks, eye protection) based on risk, safe injection practices (never recap needles; dispose into a sharps container), respiratory hygiene, environmental cleaning and safe handling of linen and waste. Transmission-based precautions add contact, droplet or airborne measures (N95 respirators for TB, measles). Health-care waste is segregated by colour coding: in Nigeria yellow for infectious waste, black for general non-infectious waste, and puncture-proof sharps boxes for needles. Needlestick injuries should be washed, reported and assessed for post-exposure prophylaxis.",
+       "keyPoints": [
+        "Never recap needles",
+        "N95 for airborne infections (TB, measles)",
+        "Yellow bag: infectious waste; black: general",
+        "Report needlestick injuries for PEP"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The single most important measure to prevent hospital-acquired infections is:",
+       "options": [
+        "Wearing a cap",
+        "Fumigation",
+        "Antibiotic prophylaxis",
+        "Hand hygiene",
+        "Isolation of all patients"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hand hygiene breaks the commonest transmission route."
+      },
+      {
+       "stem": "Which is NOT one of the WHO 5 Moments for Hand Hygiene?",
+       "options": [
+        "Before a clean/aseptic procedure",
+        "After touching patient surroundings",
+        "Before touching a patient",
+        "After body fluid exposure risk",
+        "Before entering the hospital car park"
+       ],
+       "answerIndex": 4,
+       "explanation": "The 5 Moments relate to patient care activities."
+      },
+      {
+       "stem": "After using a needle on a patient you should:",
+       "options": [
+        "Discard it immediately into a sharps container",
+        "Put it in the black bag",
+        "Recap it with both hands",
+        "Bend it before disposal",
+        "Leave it on the tray"
+       ],
+       "answerIndex": 0,
+       "explanation": "Recapping causes needlestick injuries."
+      },
+      {
+       "stem": "Pulmonary tuberculosis requires which type of precautions?",
+       "options": [
+        "Standard only",
+        "Enteric",
+        "Droplet",
+        "Airborne (N95 respirator)",
+        "Contact"
+       ],
+       "answerIndex": 3,
+       "explanation": "TB spreads by airborne droplet nuclei."
+      },
+      {
+       "stem": "Infectious clinical waste in Nigerian health facilities is placed in:",
+       "options": [
+        "Yellow bags",
+        "Clear bags",
+        "Black bags",
+        "Blue bags",
+        "Open drums"
+       ],
+       "answerIndex": 0,
+       "explanation": "Yellow is the colour code for infectious waste."
+      },
+      {
+       "stem": "In the chain of infection, the 'susceptible host' can be protected by:",
+       "options": [
+        "Wearing jewellery",
+        "Avoiding handwashing",
+        "Recapping needles",
+        "Sharing towels",
+        "Immunisation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Vaccination strengthens host defences."
+      },
+      {
+       "stem": "Hands visibly soiled with blood should be cleaned with:",
+       "options": [
+        "Alcohol rub only",
+        "A dry towel",
+        "Gloves over the blood",
+        "Antiseptic cream",
+        "Soap and running water"
+       ],
+       "answerIndex": 4,
+       "explanation": "Alcohol rub is not effective on visibly dirty hands."
+      },
+      {
+       "stem": "After a needlestick injury from an HIV-positive patient, the nurse should:",
+       "options": [
+        "Wash the site, report immediately and be assessed for PEP",
+        "Ignore it if bleeding stops",
+        "Apply bleach to the wound",
+        "Wait a month and test",
+        "Squeeze and suck the wound"
+       ],
+       "answerIndex": 0,
+       "explanation": "Prompt PEP (within 72 hours, ideally 2 hours) reduces HIV risk."
+      }
+     ]
+    },
+    {
+     "title": "Basic Nursing Procedures and Patient Comfort",
+     "order": 4,
+     "summary": "Vital signs, positioning, pressure-ulcer prevention, hygiene and medication administration.",
+     "material": [
+      {
+       "heading": "Observations and positioning",
+       "body": "Vital signs (temperature, pulse, respiration, blood pressure, oxygen saturation, pain) are measured accurately and charted; early warning scores flag deterioration. Positions: Fowler's (semi-sitting, 45–60°) eases breathing; semi-Fowler's (30°); supine; prone; lateral; Sims' (semi-prone, for enemas and rectal examination); lithotomy (for pelvic examination and delivery); Trendelenburg (head down). Immobile patients should be turned at least every 2 hours to prevent pressure ulcers, which occur over bony prominences (sacrum, heels, hips). The Braden scale assesses pressure-ulcer risk.",
+       "keyPoints": [
+        "Fowler's position eases breathing",
+        "Sims' position for enemas",
+        "Turn every 2 hours",
+        "Braden scale: pressure-ulcer risk"
+       ]
+      },
+      {
+       "heading": "Medication administration",
+       "body": "Nurses follow the 'rights' of medication administration: right patient, right drug, right dose, right route, right time, right documentation (often extended to right reason and right response). Check allergies and identify the patient with two identifiers. Intramuscular sites include the deltoid (small volumes), ventrogluteal (preferred, safest for large volumes) and vastus lateralis (preferred in infants). Insulin and heparin are given subcutaneously. Never administer a drug prepared by someone else or an unlabelled drug.",
+       "keyPoints": [
+        "Rights: patient, drug, dose, route, time, documentation",
+        "Vastus lateralis in infants",
+        "Ventrogluteal is the safest IM site for adults"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A breathless patient is best nursed in the:",
+       "options": [
+        "Trendelenburg position",
+        "Fowler's (semi-sitting) position",
+        "Flat supine position",
+        "Lithotomy position",
+        "Prone position"
+       ],
+       "answerIndex": 1,
+       "explanation": "Sitting up allows better lung expansion."
+      },
+      {
+       "stem": "The position used for giving an enema is:",
+       "options": [
+        "Sims' (left lateral)",
+        "Trendelenburg",
+        "Fowler's",
+        "Prone",
+        "Lithotomy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Left lateral Sims' position follows the anatomy of the rectum and sigmoid."
+      },
+      {
+       "stem": "Immobile patients should be repositioned at least every:",
+       "options": [
+        "15 minutes",
+        "2 hours",
+        "6 hours",
+        "12 hours",
+        "24 hours"
+       ],
+       "answerIndex": 1,
+       "explanation": "Two-hourly turning relieves pressure over bony areas."
+      },
+      {
+       "stem": "The commonest site of pressure ulcers in bedridden patients is the:",
+       "options": [
+        "Chest",
+        "Palm",
+        "Abdomen",
+        "Sacrum",
+        "Forehead"
+       ],
+       "answerIndex": 3,
+       "explanation": "The sacrum bears weight when lying supine."
+      },
+      {
+       "stem": "The preferred intramuscular injection site in infants is the:",
+       "options": [
+        "Dorsogluteal",
+        "Ventrogluteal",
+        "Vastus lateralis",
+        "Deltoid",
+        "Rectus femoris only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Vastus lateralis is well developed and away from major nerves."
+      },
+      {
+       "stem": "Insulin is usually administered by the ___ route.",
+       "options": [
+        "Intradermal",
+        "Intravenous only",
+        "Intramuscular",
+        "Subcutaneous",
+        "Oral"
+       ],
+       "answerIndex": 3,
+       "explanation": "Subcutaneous insulin gives steady absorption."
+      },
+      {
+       "stem": "Which is NOT one of the rights of medication administration?",
+       "options": [
+        "Right time",
+        "Right dose",
+        "Right price",
+        "Right route",
+        "Right patient"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cost is not part of the safety rights."
+      },
+      {
+       "stem": "The Braden scale is used to assess risk of:",
+       "options": [
+        "Pressure ulcers",
+        "Dehydration",
+        "Malnutrition",
+        "Falls",
+        "Depression"
+       ],
+       "answerIndex": 0,
+       "explanation": "It scores sensory perception, moisture, activity, mobility, nutrition and friction."
+      }
+     ]
+    },
+    {
+     "title": "Professional Ethics, Law and Communication in Nursing",
+     "order": 5,
+     "summary": "Ethical principles, patients' rights, consent, confidentiality, and therapeutic communication.",
+     "material": [
+      {
+       "heading": "Ethics and law",
+       "body": "The four principles of bioethics are autonomy (respecting the patient's right to decide), beneficence (doing good), non-maleficence (avoiding harm) and justice (fairness in care and resources). Informed consent must be voluntary, given by a competent person, and based on adequate information about the procedure, risks, benefits and alternatives. Confidentiality protects patient information; it may be breached only with consent, by law, or to protect others from serious harm. Negligence occurs when a duty of care is breached and causes harm. Nurses in Nigeria follow the NMCN Code of Professional Conduct and the ICN Code of Ethics for Nurses.",
+       "keyPoints": [
+        "Autonomy, beneficence, non-maleficence, justice",
+        "Consent: voluntary, competent, informed",
+        "Negligence: duty, breach, harm, causation"
+       ]
+      },
+      {
+       "heading": "Therapeutic communication",
+       "body": "Therapeutic communication builds trust and supports care. Techniques include active listening, open-ended questions, silence, reflection, paraphrasing, clarification and summarising; barriers include false reassurance, giving advice prematurely, judgemental responses, medical jargon and language differences (use interpreters). Peplau described phases of the nurse–patient relationship: orientation, working (identification and exploitation) and termination/resolution. The SBAR tool (Situation, Background, Assessment, Recommendation) structures handover and communication with colleagues.",
+       "keyPoints": [
+        "Open-ended questions and active listening",
+        "Avoid false reassurance and jargon",
+        "SBAR for handover"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Respecting a patient's right to refuse treatment reflects the principle of:",
+       "options": [
+        "Fidelity",
+        "Non-maleficence",
+        "Autonomy",
+        "Beneficence",
+        "Justice"
+       ],
+       "answerIndex": 2,
+       "explanation": "Autonomy is self-determination."
+      },
+      {
+       "stem": "'First, do no harm' expresses the principle of:",
+       "options": [
+        "Non-maleficence",
+        "Justice",
+        "Autonomy",
+        "Veracity",
+        "Beneficence"
+       ],
+       "answerIndex": 0,
+       "explanation": "Non-maleficence means avoiding harm."
+      },
+      {
+       "stem": "Valid informed consent requires that the patient is:",
+       "options": [
+        "Competent and adequately informed, and consents voluntarily",
+        "Sedated",
+        "Given money",
+        "Over 60 years old",
+        "Accompanied by a lawyer"
+       ],
+       "answerIndex": 0,
+       "explanation": "Competence, information and voluntariness are essential."
+      },
+      {
+       "stem": "Which is a therapeutic communication technique?",
+       "options": [
+        "Judgemental remarks",
+        "False reassurance",
+        "Using jargon",
+        "Changing the subject",
+        "Open-ended questions"
+       ],
+       "answerIndex": 4,
+       "explanation": "Open questions encourage the patient to share."
+      },
+      {
+       "stem": "SBAR stands for:",
+       "options": [
+        "Symptoms, Behaviour, Action, Result",
+        "Safety, Brief, Act, Report",
+        "Status, Baseline, Alert, Review",
+        "Signs, Blood pressure, Airway, Response",
+        "Situation, Background, Assessment, Recommendation"
+       ],
+       "answerIndex": 4,
+       "explanation": "SBAR structures clinical handover."
+      },
+      {
+       "stem": "Telling an anxious patient 'Don't worry, everything will be fine' is an example of:",
+       "options": [
+        "Clarification",
+        "Summarising",
+        "False reassurance",
+        "Empathy",
+        "Reflection"
+       ],
+       "answerIndex": 2,
+       "explanation": "It dismisses feelings and may be untrue."
+      },
+      {
+       "stem": "Fair distribution of scarce health resources relates to the principle of:",
+       "options": [
+        "Autonomy",
+        "Beneficence",
+        "Justice",
+        "Confidentiality",
+        "Veracity"
+       ],
+       "answerIndex": 2,
+       "explanation": "Justice concerns fairness."
+      },
+      {
+       "stem": "Nurses in Nigeria are bound by the code of conduct of the:",
+       "options": [
+        "PCN",
+        "NMCN",
+        "NAFDAC",
+        "NUC",
+        "MDCN"
+       ],
+       "answerIndex": 1,
+       "explanation": "The Nursing and Midwifery Council of Nigeria sets the professional code."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

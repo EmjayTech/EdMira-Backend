@@ -1,0 +1,99 @@
+{
+  "title": "Physical Pharmacy and Dosage Form Design",
+  "code": "PCT301",
+  "color": "#0891B2",
+  "description": "Solubility and dissolution, rheology, interfacial phenomena, and the formulation of solutions, suspensions, emulsions, tablets and semi-solids.",
+  "for": { "300": ["PHM"] },
+  "topics": [
+    {
+      "title": "Solubility, Dissolution and Particle Size",
+      "summary": "Factors affecting solubility, the Noyes–Whitney equation, and particle size reduction.",
+      "notes": [
+        { "h": "Solubility", "b": "Solubility is the maximum amount of solute that dissolves in a solvent at a given temperature. It depends on the nature of solute and solvent ('like dissolves like'), temperature, pH (for ionisable drugs), crystal form (polymorphs and amorphous forms — the amorphous and metastable forms are more soluble; chloramphenicol palmitate polymorphism affected bioavailability), and additives. Solubility can be improved by salt formation, co-solvents (ethanol, propylene glycol, PEG), surfactant micelles (solubilisation), complexation (cyclodextrins) and pH adjustment.", "k": ["Like dissolves like", "Amorphous/metastable forms more soluble", "Improve with salts, co-solvents, surfactants, cyclodextrins"] },
+        { "h": "Dissolution", "b": "The Noyes–Whitney equation: dC/dt = D·A·(Cs − C)/h, where D is the diffusion coefficient, A the surface area, Cs the saturation solubility, C the concentration in bulk solution and h the diffusion layer thickness. Dissolution rate therefore increases with greater surface area (smaller particles — micronisation, e.g. griseofulvin), higher solubility, stirring (thinner h) and sink conditions. For poorly soluble drugs (BCS Class II), dissolution is rate-limiting for absorption. The Biopharmaceutics Classification System: Class I high solubility/high permeability; II low/high; III high/low; IV low/low.", "k": ["Noyes–Whitney: rate ∝ area × (Cs − C)", "Micronisation increases dissolution", "BCS II: low solubility, high permeability"] }
+      ],
+      "q": [
+        ["According to the Noyes–Whitney equation, dissolution rate increases when:", "Particle size increases", "Surface area increases", "Diffusion layer thickens", "Solubility decreases", "Stirring stops", 1, "Smaller particles provide more surface area."],
+        ["Which solid form is generally most soluble?", "Stable crystalline polymorph", "Amorphous form", "Large crystals", "Hydrate of the stable form", "Compressed tablet", 1, "Amorphous solids lack lattice energy barriers."],
+        ["Micronisation of griseofulvin improves its:", "Taste", "Dissolution and bioavailability", "Colour", "Chemical stability", "Melting point", 1, "Smaller particles dissolve faster."],
+        ["A BCS Class II drug has:", "High solubility, high permeability", "Low solubility, high permeability", "High solubility, low permeability", "Low solubility, low permeability", "No absorption", 1, "Dissolution limits absorption for Class II drugs."],
+        ["Cyclodextrins improve drug solubility by:", "Forming salts", "Inclusion complexation", "Raising temperature", "Reducing pH", "Micronisation", 1, "The hydrophobic cavity hosts drug molecules."],
+        ["Adding ethanol and propylene glycol to increase solubility is using:", "Surfactants", "Co-solvents", "Buffers", "Chelating agents", "Antioxidants", 1, "Co-solvents reduce solvent polarity."],
+        ["'Sink conditions' in dissolution testing mean:", "Saturated solution", "Bulk concentration kept far below saturation", "No stirring", "High viscosity medium", "Zero surface area", 1, "Keeping C ≪ Cs maintains the concentration gradient."],
+        ["Different crystalline forms of the same drug are called:", "Isomers", "Polymorphs", "Isotopes", "Enantiomers", "Homologues", 1, "Polymorphs can differ in solubility and stability."]
+      ]
+    },
+    {
+      "title": "Rheology and Interfacial Phenomena",
+      "summary": "Newtonian and non-Newtonian flow, thixotropy, surface tension and surfactants.",
+      "notes": [
+        { "h": "Rheology", "b": "Rheology is the study of flow and deformation. Newtonian fluids (water, simple syrups, glycerol) have constant viscosity regardless of shear rate. Non-Newtonian fluids: plastic (Bingham) systems need a yield stress before flowing (e.g. concentrated suspensions, some ointments); pseudoplastic (shear-thinning) systems become less viscous with increasing shear (polymer solutions such as methylcellulose and tragacanth); dilatant (shear-thickening) systems become more viscous (concentrated deflocculated suspensions). Thixotropy is a time-dependent decrease in viscosity under shear with recovery at rest — desirable in suspensions (thick on standing, pourable when shaken). Viscosity is measured by capillary (Ostwald), falling-sphere or rotational viscometers.", "k": ["Newtonian: constant viscosity", "Pseudoplastic: shear-thinning (polymer solutions)", "Dilatant: shear-thickening", "Thixotropy: gel–sol–gel, useful in suspensions"] },
+        { "h": "Surfaces and surfactants", "b": "Surface tension arises from unbalanced cohesive forces at a liquid surface. Surfactants (surface-active agents) have hydrophilic heads and lipophilic tails; they reduce surface and interfacial tension, form micelles above the critical micelle concentration (CMC), and act as wetting agents, emulsifiers, solubilisers and detergents. They are anionic (sodium lauryl sulphate), cationic (benzalkonium chloride — also antimicrobial), non-ionic (polysorbates/Tweens, sorbitan esters/Spans — low toxicity) or amphoteric (lecithin). The hydrophile–lipophile balance (HLB) scale guides use: 3–6 w/o emulsifiers, 7–9 wetting agents, 8–18 o/w emulsifiers, 13–15 detergents, 15–18 solubilisers.", "k": ["Micelles form above the CMC", "Spans: lipophilic; Tweens: hydrophilic", "HLB 3–6: w/o; 8–18: o/w", "Benzalkonium: cationic surfactant"] }
+      ],
+      "q": [
+        ["A fluid whose viscosity does not change with shear rate is:", "Pseudoplastic", "Newtonian", "Dilatant", "Plastic", "Thixotropic", 1, "Newtonian fluids have constant viscosity."],
+        ["Methylcellulose solutions that become thinner when stirred are:", "Dilatant", "Pseudoplastic", "Newtonian", "Rheopectic", "Bingham plastic only", 1, "Polymer chains align under shear."],
+        ["A property desirable in suspensions — thick at rest, pourable after shaking — is:", "Dilatancy", "Thixotropy", "Newtonian flow", "Rheopexy", "Elasticity", 1, "Thixotropic systems thin with shear and recover at rest."],
+        ["Surfactants form micelles when their concentration exceeds the:", "HLB value", "Critical micelle concentration", "Cloud point", "Krafft point only", "Isoelectric point", 1, "Above the CMC, molecules aggregate into micelles."],
+        ["An emulsifier with an HLB of 4 favours formation of:", "Oil-in-water emulsions", "Water-in-oil emulsions", "Solutions", "Foams", "Suspensions", 1, "Low HLB (lipophilic) agents stabilise w/o emulsions."],
+        ["Polysorbate 80 (Tween 80) is a/an ___ surfactant.", "Anionic", "Cationic", "Non-ionic", "Amphoteric", "Zwitterionic", 2, "Tweens are non-ionic polyoxyethylene sorbitan esters."],
+        ["Sodium lauryl sulphate is an example of a/an ___ surfactant.", "Anionic", "Cationic", "Non-ionic", "Amphoteric", "Polymeric", 0, "It carries a negatively charged sulphate head."],
+        ["A system that requires a yield stress before it begins to flow is:", "Newtonian", "Plastic (Bingham)", "Pseudoplastic", "Dilatant", "Ideal", 1, "Bingham bodies behave as solids below the yield value."]
+      ]
+    },
+    {
+      "title": "Suspensions and Emulsions",
+      "summary": "Formulation and stability of suspensions and emulsions, Stokes' law and instability types.",
+      "notes": [
+        { "h": "Suspensions", "b": "A suspension disperses insoluble solid particles in a liquid. Stokes' law: sedimentation velocity v = 2r²(ρs − ρl)g / 9η — so settling slows with smaller particles, closer densities and higher viscosity. Wetting agents help hydrophobic powders disperse; suspending agents (tragacanth, xanthan gum, methylcellulose, bentonite) increase viscosity. Flocculated suspensions (loose aggregates formed by controlled flocculation, e.g. with electrolytes) settle quickly but form a loose, easily redispersed sediment; deflocculated suspensions settle slowly but form a hard 'cake' that is difficult to redisperse. A good suspension settles slowly, redisperses readily and pours easily; label 'Shake well before use'.", "k": ["Stokes: v ∝ r²(ρs − ρl)/η", "Flocculated: fast settling, easy redispersion", "Deflocculated: caking", "Label: Shake well before use"] },
+        { "h": "Emulsions", "b": "An emulsion is a dispersion of one immiscible liquid in another, stabilised by an emulsifying agent. Types: oil-in-water (o/w — miscible with water, washable, used orally and in vanishing creams; dilution test with water, conducts electricity, water-soluble dye colours the continuous phase) and water-in-oil (w/o — greasy, occlusive, e.g. cold creams). Instabilities: creaming (reversible upward/downward concentration of droplets), flocculation, coalescence and cracking (irreversible separation), and phase inversion. Emulsifying agents: surfactants, hydrophilic colloids (acacia, gelatin) and finely divided solids (bentonite). The Bancroft rule: the phase in which the emulsifier is more soluble becomes the continuous phase.", "k": ["o/w: water-washable, conducts electricity", "w/o: greasy, occlusive", "Creaming reversible; cracking irreversible", "Bancroft rule"] }
+      ],
+      "q": [
+        ["According to Stokes' law, sedimentation rate is proportional to:", "Particle radius", "The square of particle radius", "Viscosity", "The cube of viscosity", "Temperature only", 1, "v ∝ r²."],
+        ["Increasing the viscosity of a suspension will:", "Increase settling rate", "Decrease settling rate", "Have no effect", "Cause caking", "Increase particle size", 1, "Viscosity appears in the denominator of Stokes' law."],
+        ["A hard, non-redispersible sediment ('cake') is typical of:", "Flocculated suspensions", "Deflocculated suspensions", "Emulsions", "Solutions", "Gels", 1, "Closely packed deflocculated particles form cakes."],
+        ["An emulsion that can be diluted with water and conducts electricity is:", "Water-in-oil", "Oil-in-water", "Multiple w/o/w only", "An ointment", "A paste", 1, "Water is the continuous phase."],
+        ["Irreversible separation of an emulsion into two layers is called:", "Creaming", "Cracking (breaking)", "Flocculation", "Sedimentation", "Thixotropy", 1, "Coalescence leads to cracking, which cannot be reversed by shaking."],
+        ["Acacia is used in emulsions as a/an:", "Preservative", "Emulsifying agent (hydrophilic colloid)", "Antioxidant", "Colourant", "Buffer", 1, "Acacia forms a protective film around oil droplets."],
+        ["Creaming of an emulsion is:", "Irreversible", "Reversible by shaking", "The same as cracking", "Caused by microbes only", "A sign of phase inversion", 1, "Droplets remain intact and can be redispersed."],
+        ["The Bancroft rule states that the continuous phase is the one in which:", "The drug is dissolved", "The emulsifier is more soluble", "Oil is present", "Water is absent", "Viscosity is lowest", 1, "Emulsifier solubility determines emulsion type."]
+      ]
+    },
+    {
+      "title": "Tablets and Capsules",
+      "summary": "Excipients, granulation, compression, coating, tablet defects and quality control tests.",
+      "notes": [
+        { "h": "Excipients and manufacture", "b": "Tablet excipients: diluents/fillers (lactose, microcrystalline cellulose, calcium phosphate), binders (starch paste, PVP, gelatin), disintegrants (starch, sodium starch glycolate, croscarmellose — 'superdisintegrants'), lubricants (magnesium stearate — reduces friction with the die; excess slows dissolution), glidants (colloidal silica — improves powder flow) and antiadherents (talc). Manufacturing routes: wet granulation (most common; mixing, wet massing with binder, screening, drying, sizing), dry granulation (slugging or roller compaction — for moisture/heat-sensitive drugs) and direct compression (simplest; needs free-flowing, compressible materials). Coatings: sugar coating, film coating, enteric coating (cellulose acetate phthalate, methacrylate copolymers — dissolve at intestinal pH).", "k": ["Magnesium stearate: lubricant", "Colloidal silica: glidant", "Superdisintegrants: sodium starch glycolate", "Wet granulation most common"] },
+        { "h": "Defects and quality control", "b": "Common tablet defects: capping and lamination (separation of the top or layers — entrapped air, excessive fines, too much pressure), picking and sticking (material adhering to punches — moisture, insufficient lubricant), mottling (uneven colour) and chipping. Pharmacopoeial quality tests: uniformity of weight/content, hardness (crushing strength), friability (≤ 1% loss in a Roche friabilator), disintegration time (e.g. uncoated tablets within 15 minutes; film-coated within 30 minutes), and dissolution (e.g. USP basket or paddle apparatus). Capsules are hard gelatin (powders, pellets) or soft gelatin (liquids, oils).", "k": ["Capping/lamination: air, fines, pressure", "Friability ≤ 1%", "Uncoated tablet disintegration ≤ 15 min", "Soft gelatin capsules hold liquids"] }
+      ],
+      "q": [
+        ["Magnesium stearate is added to tablets as a:", "Disintegrant", "Lubricant", "Binder", "Diluent", "Coating agent", 1, "It reduces friction between the tablet and die wall."],
+        ["Colloidal silicon dioxide in tablet formulations acts as a:", "Glidant", "Binder", "Disintegrant", "Sweetener", "Colourant", 0, "It improves powder flow."],
+        ["Sodium starch glycolate is a:", "Lubricant", "Superdisintegrant", "Binder", "Film former", "Glidant", 1, "It swells rapidly to break tablets apart."],
+        ["Separation of the top of a tablet from the body is called:", "Picking", "Capping", "Mottling", "Sticking", "Chipping", 1, "Capping is often due to entrapped air or excess fines."],
+        ["Friability of acceptable uncoated tablets should be no more than:", "0.1%", "1%", "5%", "10%", "20%", 1, "Weight loss in the friabilator should not exceed 1%."],
+        ["The granulation method used for moisture- and heat-sensitive drugs is:", "Wet granulation", "Dry granulation (slugging/roller compaction)", "Fluid-bed wet granulation", "Spray drying with water", "Hot-melt with steam", 1, "Dry granulation avoids liquid and heat."],
+        ["Enteric coating polymers dissolve at:", "Gastric pH (~1–2)", "Intestinal pH (~5.5–7)", "Any pH", "Only in bile", "Only in the mouth", 1, "They resist stomach acid and dissolve in the intestine."],
+        ["Oily liquids such as vitamin E are commonly filled into:", "Hard gelatin capsules as powder", "Soft gelatin capsules", "Effervescent tablets", "Sachets", "Suppositories only", 1, "Soft gelatin capsules hold liquids and oils."]
+      ]
+    },
+    {
+      "title": "Semi-solids, Suppositories and Parenterals",
+      "summary": "Ointment and cream bases, suppository bases, and formulation of injections.",
+      "notes": [
+        { "h": "Semi-solids and suppositories", "b": "Ointment bases: hydrocarbon (oleaginous) bases such as white soft paraffin — occlusive, emollient, not water-washable; absorption bases (wool fat/lanolin, which can absorb water); water-removable (emulsifying ointment) bases; and water-soluble bases (macrogols/PEG). Creams are semi-solid emulsions (o/w vanishing creams, w/o cold creams) and generally need preservatives. Pastes contain a high proportion of powder (e.g. zinc oxide paste). Gels are semi-solid systems with gelling agents (carbomer). Suppository bases: fatty bases (theobroma oil/cocoa butter — melts at body temperature; polymorphic, must not be overheated; hard fat/Witepsol) and water-soluble bases (glycerol–gelatin, macrogols — dissolve in rectal fluid, can irritate). Displacement value is used to calculate base quantities.", "k": ["Paraffin: occlusive hydrocarbon base", "Lanolin: absorption base", "Macrogols: water-soluble base", "Cocoa butter melts at body temperature; avoid overheating"] },
+        { "h": "Parenterals", "b": "Parenteral products must be sterile, pyrogen-free, free of visible particles, and ideally isotonic and at physiological pH. Vehicles: water for injections (most), fixed oils for depot IM injections (e.g. some hormones, antipsychotics). Isotonicity can be adjusted with sodium chloride or dextrose (calculated by freezing-point depression — 0.9% NaCl and 5% dextrose are iso-osmotic with plasma, freezing point −0.52 °C). Large-volume parenterals (infusions) must not contain preservatives; multidose vials must. Ampoules are single-use glass containers; vials have rubber closures. Particulate matter and incompatibilities (e.g. precipitation of calcium phosphate) must be avoided in admixtures.", "k": ["Parenterals: sterile, pyrogen-free, particle-free", "0.9% NaCl and 5% dextrose are isotonic", "Freezing point of plasma: −0.52 °C", "No preservatives in large-volume infusions"] }
+      ],
+      "q": [
+        ["White soft paraffin is an example of a/an ___ ointment base.", "Water-soluble", "Hydrocarbon (oleaginous)", "Absorption", "Emulsifying", "Gel", 1, "It is occlusive and not water-washable."],
+        ["Wool fat (lanolin) is classified as a/an:", "Hydrocarbon base", "Absorption base", "Water-soluble base", "Gel", "Paste", 1, "Lanolin can absorb water to form w/o emulsions."],
+        ["Theobroma oil (cocoa butter) is used as a suppository base because it:", "Dissolves in water", "Melts at about body temperature", "Is a macrogol", "Is a gel", "Never solidifies", 1, "It is solid at room temperature and melts in the rectum."],
+        ["Overheating theobroma oil during preparation can cause:", "Faster solidification", "Formation of unstable polymorphs that fail to set properly", "Increased viscosity", "Sterilisation", "Improved stability", 1, "Unstable polymorphs have lower melting points."],
+        ["Which solution is isotonic with plasma?", "0.45% NaCl", "0.9% NaCl", "3% NaCl", "10% dextrose", "50% dextrose", 1, "0.9% NaCl has the same osmotic pressure as plasma."],
+        ["The freezing point of plasma used for isotonicity calculations is:", "0 °C", "−0.52 °C", "−1.86 °C", "−5 °C", "+0.52 °C", 1, "Solutions freezing at −0.52 °C are isotonic."],
+        ["Large-volume intravenous infusions must NOT contain:", "Sodium chloride", "Water for injections", "Preservatives", "Dextrose", "Potassium when prescribed", 2, "Large volumes of preservative would be toxic."],
+        ["A semi-solid containing a high proportion of powder, such as zinc oxide, is a:", "Cream", "Paste", "Lotion", "Gel", "Solution", 1, "Pastes are stiff and protective."]
+      ]
+    }
+  ]
+}

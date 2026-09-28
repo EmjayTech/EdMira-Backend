@@ -1,0 +1,658 @@
+{
+ "courses": [
+  {
+   "title": "Surface, Living and Radiological Anatomy (ANA 411)",
+   "code": "ANA411",
+   "color": "#B45309",
+   "description": "Surface landmarks and projections of viscera and vessels, clinical procedures based on surface anatomy, and normal radiological anatomy on plain films, CT and ultrasound.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Radiography"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Surface Anatomy of the Thorax",
+     "order": 1,
+     "summary": "Bony landmarks, projections of the lungs, pleura and heart, and valve auscultation areas.",
+     "material": [
+      {
+       "heading": "Landmarks and lungs",
+       "body": "Key landmarks: the jugular (suprasternal) notch (T2/T3), sternal angle (2nd costal cartilage, T4/T5 — used to count ribs), xiphisternal joint (T9), the nipple in males (4th intercostal space), and the inferior angle of the scapula (7th rib/T7 with arms by the side). The lung apices rise about 2.5 cm above the medial third of the clavicle (at risk in neck injuries and subclavian cannulation). The lower lung borders lie at the 6th rib in the midclavicular line, 8th in the midaxillary line and 10th at the vertebral column; the pleura extends two ribs lower (8th, 10th, 12th), forming the costodiaphragmatic recess. The oblique fissure follows the line of the 5th/6th rib from T3 posteriorly; the horizontal fissure (right) runs along the 4th costal cartilage.",
+       "keyPoints": [
+        "Sternal angle = 2nd costal cartilage",
+        "Lung: 6th, 8th, 10th ribs",
+        "Pleura: 8th, 10th, 12th ribs",
+        "Lung apex 2.5 cm above clavicle",
+        "Horizontal fissure: 4th costal cartilage"
+       ]
+      },
+      {
+       "heading": "Heart and procedures",
+       "body": "The heart's borders project from the 3rd right costal cartilage to the 6th right costal cartilage (right border), to the apex at the left 5th intercostal space in the midclavicular line, and up to the 2nd left costal cartilage. Auscultation areas differ from anatomical valve positions: aortic (right 2nd ICS parasternal), pulmonary (left 2nd ICS), tricuspid (left lower sternal edge, 4th/5th ICS), mitral (apex). Clinical procedures: needle decompression of tension pneumothorax (2nd ICS midclavicular line or 4th/5th ICS anterior axillary line), chest drain insertion in the 'triangle of safety' (anterior border of latissimus dorsi, lateral border of pectoralis major, line of the 5th ICS, apex below the axilla), and pericardiocentesis (subxiphoid).",
+       "keyPoints": [
+        "Apex beat: left 5th ICS MCL",
+        "Auscultation areas ≠ valve positions",
+        "Triangle of safety for chest drains",
+        "Needle decompression: 2nd ICS MCL or 4th/5th ICS AAL"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The sternal angle is used to identify the:",
+       "options": [
+        "1st rib",
+        "2nd costal cartilage",
+        "4th rib",
+        "Clavicle",
+        "Xiphoid process"
+       ],
+       "answerIndex": 1,
+       "explanation": "The 2nd costal cartilage joins at the sternal angle."
+      },
+      {
+       "stem": "The lower border of the lung in the midaxillary line is at about the:",
+       "options": [
+        "6th rib",
+        "12th rib",
+        "10th rib",
+        "8th rib",
+        "4th rib"
+       ],
+       "answerIndex": 3,
+       "explanation": "Lungs: 6th MCL, 8th MAL, 10th paravertebral."
+      },
+      {
+       "stem": "The pleura extends to about the ___ rib at the back near the vertebral column.",
+       "options": [
+        "8th",
+        "10th",
+        "12th",
+        "6th",
+        "4th"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pleural reflection: 8th, 10th, 12th ribs."
+      },
+      {
+       "stem": "The apex of the lung projects about ___ above the medial third of the clavicle.",
+       "options": [
+        "10 cm",
+        "15 cm",
+        "2.5 cm",
+        "0 cm",
+        "It lies below the clavicle"
+       ],
+       "answerIndex": 2,
+       "explanation": "This is why neck wounds can cause pneumothorax."
+      },
+      {
+       "stem": "The aortic valve is best auscultated at the:",
+       "options": [
+        "Xiphisternum",
+        "Right 2nd intercostal space near the sternum",
+        "Left 2nd intercostal space",
+        "Left lower sternal edge",
+        "Apex"
+       ],
+       "answerIndex": 1,
+       "explanation": "The aortic area is right parasternal 2nd ICS."
+      },
+      {
+       "stem": "Chest drains are inserted in the:",
+       "options": [
+        "2nd ICS midclavicular line routinely",
+        "Through the sternum",
+        "Below the 10th rib posteriorly",
+        "In the suprasternal notch",
+        "Triangle of safety"
+       ],
+       "answerIndex": 4,
+       "explanation": "The triangle avoids major vessels and muscles."
+      },
+      {
+       "stem": "The horizontal fissure of the right lung runs along the:",
+       "options": [
+        "6th rib",
+        "10th rib",
+        "2nd costal cartilage",
+        "8th rib",
+        "4th costal cartilage"
+       ],
+       "answerIndex": 4,
+       "explanation": "It follows the 4th costal cartilage to meet the oblique fissure."
+      },
+      {
+       "stem": "The inferior angle of the scapula with arms by the side lies at the level of the:",
+       "options": [
+        "12th rib",
+        "10th rib",
+        "3rd rib",
+        "5th rib",
+        "7th rib"
+       ],
+       "answerIndex": 4,
+       "explanation": "It overlies the 7th rib (T7)."
+      }
+     ]
+    },
+    {
+     "title": "Surface Anatomy of the Abdomen and Pelvis",
+     "order": 2,
+     "summary": "Abdominal planes and regions, surface markings of organs, and clinical landmarks.",
+     "material": [
+      {
+       "heading": "Planes and regions",
+       "body": "The transpyloric plane (of Addison) lies halfway between the jugular notch and the pubic symphysis, at L1: it passes through the pylorus, fundus of the gallbladder (at the 9th costal cartilage), neck of the pancreas, duodenojejunal flexure, hila of the kidneys and origin of the superior mesenteric artery; the spinal cord ends near this level in adults. The subcostal plane is at L3; the umbilicus at L3/L4 (variable); the supracristal (intercristal) plane at L4 — used to locate the L4 spinous process for lumbar puncture; the transtubercular plane at L5. The abdomen is divided into nine regions by two vertical midclavicular lines and the subcostal and transtubercular planes, or into four quadrants.",
+       "keyPoints": [
+        "Transpyloric plane: L1",
+        "Supracristal plane: L4 — lumbar puncture",
+        "Nine regions or four quadrants",
+        "Gallbladder fundus at 9th costal cartilage"
+       ]
+      },
+      {
+       "heading": "Organs and procedures",
+       "body": "The liver lies mainly in the right hypochondrium, its lower border along the right costal margin; the spleen lies along the left 9th–11th ribs, its long axis along the 10th rib — a normal spleen is not palpable and enlarges towards the right iliac fossa. The kidneys lie at T12–L3, the right slightly lower than the left. McBurney's point (appendix base) is one-third of the way from the anterior superior iliac spine to the umbilicus. The mid-inguinal point (halfway between ASIS and pubic symphysis) marks the femoral artery pulse; the deep inguinal ring lies just above the midpoint of the inguinal ligament. Suprapubic catheterisation is performed in the midline just above the pubic symphysis with a full bladder.",
+       "keyPoints": [
+        "Spleen: along the 10th rib",
+        "Kidneys: T12–L3; right lower",
+        "McBurney's point",
+        "Mid-inguinal point: femoral pulse",
+        "Suprapubic catheter: full bladder"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The transpyloric plane lies at the level of:",
+       "options": [
+        "S1",
+        "T10",
+        "L1",
+        "L3",
+        "L4"
+       ],
+       "answerIndex": 2,
+       "explanation": "It passes through the pylorus and kidney hila."
+      },
+      {
+       "stem": "The supracristal plane, joining the highest points of the iliac crests, lies at about:",
+       "options": [
+        "T12",
+        "L4",
+        "S2",
+        "L1",
+        "L2"
+       ],
+       "answerIndex": 1,
+       "explanation": "It marks L4, used for lumbar puncture."
+      },
+      {
+       "stem": "The fundus of the gallbladder projects at the tip of the:",
+       "options": [
+        "Xiphoid",
+        "7th costal cartilage",
+        "9th costal cartilage",
+        "Umbilicus",
+        "11th rib"
+       ],
+       "answerIndex": 2,
+       "explanation": "Where the right linea semilunaris meets the costal margin."
+      },
+      {
+       "stem": "The long axis of the spleen lies along the:",
+       "options": [
+        "Sternum",
+        "12th rib",
+        "Iliac crest",
+        "10th rib",
+        "7th rib"
+       ],
+       "answerIndex": 3,
+       "explanation": "It lies deep to the left 9th–11th ribs."
+      },
+      {
+       "stem": "The femoral pulse is felt at the:",
+       "options": [
+        "Umbilicus",
+        "Midpoint of the inguinal ligament",
+        "Mid-inguinal point",
+        "Pubic tubercle",
+        "ASIS"
+       ],
+       "answerIndex": 2,
+       "explanation": "The mid-inguinal point is halfway between ASIS and pubic symphysis."
+      },
+      {
+       "stem": "McBurney's point lies:",
+       "options": [
+        "Halfway between umbilicus and xiphoid",
+        "At the pubic tubercle",
+        "One-third of the way from the ASIS to the umbilicus",
+        "At the costal margin",
+        "At the left iliac fossa"
+       ],
+       "answerIndex": 2,
+       "explanation": "It overlies the base of the appendix."
+      },
+      {
+       "stem": "An enlarging spleen extends towards the:",
+       "options": [
+        "Right iliac fossa",
+        "Left shoulder",
+        "Back",
+        "Left iliac fossa",
+        "Epigastrium only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It grows downwards and medially towards the RIF."
+      },
+      {
+       "stem": "Compared with the left kidney, the right kidney lies:",
+       "options": [
+        "Slightly lower",
+        "Higher",
+        "In the pelvis",
+        "Above the diaphragm",
+        "At the same level always"
+       ],
+       "answerIndex": 0,
+       "explanation": "The liver pushes the right kidney down."
+      }
+     ]
+    },
+    {
+     "title": "Surface Anatomy of the Limbs and Clinical Procedures",
+     "order": 3,
+     "summary": "Pulses, nerves at risk, veins for cannulation, and safe injection sites.",
+     "material": [
+      {
+       "heading": "Pulses and nerves",
+       "body": "Palpable pulses: radial (lateral to flexor carpi radialis tendon at the wrist), ulnar, brachial (medial to the biceps tendon in the cubital fossa — used for BP measurement and in infants for CPR pulse check), axillary, femoral (mid-inguinal point), popliteal (deep in the popliteal fossa with knee flexed), posterior tibial (behind the medial malleolus, between it and the calcaneus) and dorsalis pedis (lateral to the extensor hallucis longus tendon on the dorsum of the foot). Nerves at risk: the ulnar nerve behind the medial epicondyle ('funny bone'), the common fibular nerve at the neck of the fibula, the radial nerve in the spiral groove, and the median nerve at the wrist.",
+       "keyPoints": [
+        "Brachial: medial to biceps tendon",
+        "Posterior tibial: behind medial malleolus",
+        "Dorsalis pedis: lateral to EHL",
+        "Ulnar nerve behind medial epicondyle",
+        "Common fibular nerve at fibular neck"
+       ]
+      },
+      {
+       "heading": "Veins and injections",
+       "body": "Veins commonly used for venepuncture and cannulation: median cubital vein (cubital fossa — connects cephalic and basilic veins; median nerve and brachial artery lie deep to the bicipital aponeurosis), cephalic vein (anatomical snuffbox, lateral forearm — the 'houseman's vein'), dorsal venous network of the hand, and the great saphenous vein anterior to the medial malleolus (used for venous cutdown and in coronary bypass grafts). Intramuscular injection sites: deltoid (2–3 finger-breadths below the acromion, to avoid the axillary nerve), ventrogluteal (gluteus medius — safest in adults), vastus lateralis (middle third of the anterolateral thigh — preferred in infants), and the upper outer quadrant of the buttock (dorsogluteal — risk of sciatic nerve injury if placed wrongly).",
+       "keyPoints": [
+        "Median cubital vein for venepuncture",
+        "Great saphenous vein anterior to medial malleolus",
+        "Deltoid injection below acromion (axillary nerve)",
+        "Vastus lateralis in infants",
+        "Dorsogluteal: sciatic nerve risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The brachial pulse is palpated:",
+       "options": [
+        "Behind the medial epicondyle",
+        "At the anatomical snuffbox",
+        "Medial to the biceps tendon in the cubital fossa",
+        "Lateral to the biceps tendon",
+        "At the wrist"
+       ],
+       "answerIndex": 2,
+       "explanation": "The brachial artery lies medial to the biceps tendon."
+      },
+      {
+       "stem": "The posterior tibial pulse is felt:",
+       "options": [
+        "At the groin",
+        "Behind the knee",
+        "Behind the medial malleolus",
+        "In front of the lateral malleolus",
+        "On the dorsum of the foot"
+       ],
+       "answerIndex": 2,
+       "explanation": "Between the medial malleolus and the calcaneus."
+      },
+      {
+       "stem": "The dorsalis pedis pulse is found:",
+       "options": [
+        "Medial to the extensor hallucis longus tendon",
+        "Lateral to the extensor hallucis longus tendon",
+        "Behind the lateral malleolus",
+        "At the heel",
+        "On the sole"
+       ],
+       "answerIndex": 1,
+       "explanation": "It lies lateral to the EHL tendon."
+      },
+      {
+       "stem": "The vein most commonly used for venepuncture in the cubital fossa is the:",
+       "options": [
+        "Cephalic vein at the shoulder",
+        "Axillary vein",
+        "Brachial vein",
+        "Basilic vein",
+        "Median cubital vein"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is superficial and easily accessible."
+      },
+      {
+       "stem": "The great saphenous vein can be reliably found:",
+       "options": [
+        "Anterior to the medial malleolus",
+        "Behind the lateral malleolus",
+        "On the sole",
+        "Lateral to the fibula",
+        "In the popliteal fossa only"
+       ],
+       "answerIndex": 0,
+       "explanation": "This constant position allows emergency cutdown."
+      },
+      {
+       "stem": "Deltoid IM injections are given 2–3 finger-breadths below the acromion to avoid the:",
+       "options": [
+        "Musculocutaneous nerve",
+        "Median nerve",
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Radial nerve"
+       ],
+       "answerIndex": 3,
+       "explanation": "The axillary nerve winds around the surgical neck."
+      },
+      {
+       "stem": "The preferred IM injection site in infants is the:",
+       "options": [
+        "Dorsogluteal",
+        "Deltoid",
+        "Abdomen",
+        "Vastus lateralis",
+        "Forearm"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is well developed and away from major nerves."
+      },
+      {
+       "stem": "The 'funny bone' sensation results from pressure on the:",
+       "options": [
+        "Radial nerve",
+        "Musculocutaneous nerve",
+        "Median nerve",
+        "Axillary nerve",
+        "Ulnar nerve behind the medial epicondyle"
+       ],
+       "answerIndex": 4,
+       "explanation": "The ulnar nerve is superficial there."
+      }
+     ]
+    },
+    {
+     "title": "Radiological Anatomy: Plain Radiographs",
+     "order": 4,
+     "summary": "Normal anatomy on chest, abdominal and skeletal radiographs.",
+     "material": [
+      {
+       "heading": "Chest radiograph",
+       "body": "On a PA chest radiograph: the trachea is central; the right heart border is formed by the right atrium; the left heart border by the aortic knuckle (arch), pulmonary trunk, left auricle and left ventricle; the right hemidiaphragm is usually slightly higher than the left (liver); costophrenic angles are sharp; the hila contain the pulmonary arteries and main bronchi (the left hilum is usually slightly higher). Silhouette sign: loss of a normal border indicates adjacent pathology (e.g. loss of the right heart border — right middle lobe consolidation; loss of the left heart border — lingular disease; loss of the hemidiaphragm — lower lobe disease). Normal gastric air bubble lies under the left hemidiaphragm.",
+       "keyPoints": [
+        "Right heart border: right atrium",
+        "Left border: aortic knuckle, pulmonary trunk, left ventricle",
+        "Right hemidiaphragm higher",
+        "Silhouette sign localises disease",
+        "Left hilum slightly higher"
+       ]
+      },
+      {
+       "heading": "Abdomen and skeleton",
+       "body": "On an abdominal radiograph, small bowel lies centrally with valvulae conniventes crossing the whole width; large bowel lies peripherally with haustra that do not cross the full width; normal diameters — small bowel < 3 cm, colon < 6 cm, caecum < 9 cm ('3-6-9 rule'). Psoas shadows, kidney outlines and bones are assessed. Skeletal radiographs: in children, growth plates (physes) and secondary ossification centres must not be mistaken for fractures — the elbow ossification centres appear in order CRITOE (capitulum, radial head, internal/medial epicondyle, trochlea, olecranon, external/lateral epicondyle) at roughly 1, 3, 5, 7, 9 and 11 years. Bone age from hand radiographs assesses growth.",
+       "keyPoints": [
+        "Valvulae conniventes: small bowel",
+        "Haustra: large bowel",
+        "3-6-9 rule",
+        "CRITOE elbow ossification",
+        "Growth plates are not fractures"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "On a PA chest radiograph, the right heart border is formed by the:",
+       "options": [
+        "Right atrium",
+        "Aorta",
+        "Right ventricle",
+        "Pulmonary trunk",
+        "Left ventricle"
+       ],
+       "answerIndex": 0,
+       "explanation": "The right atrium forms the right cardiac border."
+      },
+      {
+       "stem": "Loss of the right heart border on a chest X-ray suggests disease in the:",
+       "options": [
+        "Right upper lobe",
+        "Left lower lobe",
+        "Right middle lobe",
+        "Right lower lobe only",
+        "Lingula"
+       ],
+       "answerIndex": 2,
+       "explanation": "The middle lobe abuts the right atrium (silhouette sign)."
+      },
+      {
+       "stem": "Normally, which hemidiaphragm is higher?",
+       "options": [
+        "It varies randomly",
+        "Neither is visible",
+        "Right",
+        "Left",
+        "Both at the same level always"
+       ],
+       "answerIndex": 2,
+       "explanation": "The liver elevates the right hemidiaphragm."
+      },
+      {
+       "stem": "Mucosal folds crossing the full width of a dilated bowel loop indicate:",
+       "options": [
+        "Rectum",
+        "Appendix",
+        "Small bowel (valvulae conniventes)",
+        "Stomach",
+        "Large bowel (haustra)"
+       ],
+       "answerIndex": 2,
+       "explanation": "Valvulae conniventes cross the entire lumen."
+      },
+      {
+       "stem": "According to the '3-6-9 rule', the normal maximum diameter of the colon is:",
+       "options": [
+        "3 cm",
+        "6 cm",
+        "9 cm",
+        "12 cm",
+        "1 cm"
+       ],
+       "answerIndex": 1,
+       "explanation": "Small bowel 3 cm, colon 6 cm, caecum 9 cm."
+      },
+      {
+       "stem": "In the CRITOE sequence of elbow ossification, the first centre to appear is the:",
+       "options": [
+        "Olecranon",
+        "Trochlea",
+        "Lateral epicondyle",
+        "Radial head",
+        "Capitulum"
+       ],
+       "answerIndex": 4,
+       "explanation": "The capitulum appears at about 1 year."
+      },
+      {
+       "stem": "A lucent line at the end of a long bone in a child is most likely a:",
+       "options": [
+        "Infection",
+        "Artefact only",
+        "Growth plate (physis)",
+        "Tumour",
+        "Fracture always"
+       ],
+       "answerIndex": 2,
+       "explanation": "Knowledge of normal physes prevents misdiagnosis."
+      },
+      {
+       "stem": "Loss of the left heart border on a chest radiograph suggests disease of the:",
+       "options": [
+        "Trachea",
+        "Right upper lobe",
+        "Lingula",
+        "Left lower lobe",
+        "Right middle lobe"
+       ],
+       "answerIndex": 2,
+       "explanation": "The lingula lies against the left ventricle."
+      }
+     ]
+    },
+    {
+     "title": "Cross-sectional Anatomy: CT, MRI and Ultrasound",
+     "order": 5,
+     "summary": "Orientation conventions, normal anatomy on axial CT of the head, chest and abdomen, and ultrasound basics.",
+     "material": [
+      {
+       "heading": "Orientation and CT",
+       "body": "Axial CT and MRI images are viewed as if looking up from the patient's feet: the patient's right is on the viewer's left, and anterior is at the top. CT densities (Hounsfield units): air −1,000, fat about −100, water 0, soft tissue +20 to +80, acute blood +50 to +80, bone +400 to +1,000. On non-contrast head CT: grey matter slightly denser than white matter, CSF dark in ventricles and sulci, acute haemorrhage bright (hyperdense), acute infarct becomes dark (hypodense) over hours. On abdominal CT at the level of the kidneys: liver (right), spleen (left), aorta (left of midline, anterior to the vertebra), IVC (right of the aorta), pancreas crossing anterior to the aorta, and kidneys in the retroperitoneum.",
+       "keyPoints": [
+        "Patient's right on viewer's left",
+        "HU: air −1,000; water 0; bone +1,000",
+        "Acute blood hyperdense on CT",
+        "Aorta left of midline; IVC right"
+       ]
+      },
+      {
+       "heading": "MRI and ultrasound",
+       "body": "MRI uses magnetic fields and radiofrequency pulses without ionising radiation: on T1-weighted images fat is bright and water/CSF dark (good anatomy); on T2-weighted images water/CSF and oedema are bright (good pathology). MRI excels for brain, spinal cord, soft tissues, ligaments and joints; contraindications include some pacemakers, ferromagnetic implants and metallic foreign bodies in the eye. Ultrasound uses high-frequency sound: fluid is anechoic (black), with posterior acoustic enhancement; stones and bone cause bright echoes with posterior acoustic shadowing; air blocks ultrasound. It is ideal for obstetrics, gallbladder, liver, kidneys, pelvis and vessels (Doppler), and FAST scanning in trauma. Higher-frequency probes give better resolution but less penetration.",
+       "keyPoints": [
+        "T1: fat bright; T2: water bright",
+        "MRI contraindications: pacemakers, ferromagnetic metal",
+        "Fluid anechoic; stones shadow",
+        "High frequency: better resolution, less penetration",
+        "FAST scan in trauma"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "On a standard axial CT image, the patient's right side is displayed on the viewer's:",
+       "options": [
+        "It varies randomly",
+        "Top",
+        "Left",
+        "Bottom",
+        "Right"
+       ],
+       "answerIndex": 2,
+       "explanation": "Images are viewed as if from the patient's feet."
+      },
+      {
+       "stem": "The Hounsfield unit value of water is:",
+       "options": [
+        "−100",
+        "+1,000",
+        "−1,000",
+        "0",
+        "+100"
+       ],
+       "answerIndex": 3,
+       "explanation": "Water is the reference at 0 HU."
+      },
+      {
+       "stem": "On a non-contrast head CT, acute intracranial haemorrhage appears:",
+       "options": [
+        "Black (hypodense)",
+        "Grey like fat",
+        "Same as CSF",
+        "White (hyperdense)",
+        "Invisible"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fresh clotted blood is denser than brain."
+      },
+      {
+       "stem": "On a T2-weighted MRI, cerebrospinal fluid appears:",
+       "options": [
+        "Bright",
+        "Dark",
+        "Same as bone",
+        "Grey",
+        "Invisible"
+       ],
+       "answerIndex": 0,
+       "explanation": "Water is bright on T2."
+      },
+      {
+       "stem": "A contraindication to MRI is:",
+       "options": [
+        "A metallic foreign body in the eye",
+        "Pregnancy in all trimesters absolutely",
+        "Previous X-ray",
+        "Dental fillings always",
+        "Claustrophobia only when mild"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ferromagnetic fragments can move and injure the eye."
+      },
+      {
+       "stem": "On ultrasound, a gallstone typically shows:",
+       "options": [
+        "Colour flow",
+        "Hypoechoic halo only",
+        "Bright echo with posterior acoustic shadowing",
+        "Anechoic appearance with enhancement",
+        "No echo"
+       ],
+       "answerIndex": 2,
+       "explanation": "Stones reflect sound strongly and cast shadows."
+      },
+      {
+       "stem": "Fluid-filled structures on ultrasound appear:",
+       "options": [
+        "White",
+        "Speckled",
+        "Bright",
+        "Anechoic (black)",
+        "Grey with shadowing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluid transmits sound without echoes."
+      },
+      {
+       "stem": "Compared with low-frequency probes, high-frequency ultrasound probes give:",
+       "options": [
+        "Magnetic images",
+        "Ionising radiation",
+        "No difference",
+        "More penetration, less resolution",
+        "Better resolution but less penetration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Used for superficial structures."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

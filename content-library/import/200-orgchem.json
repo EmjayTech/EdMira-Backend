@@ -1,0 +1,651 @@
+{
+ "courses": [
+  {
+   "title": "Organic Chemistry for Health Sciences",
+   "code": "CHM211",
+   "color": "#0E7490",
+   "description": "Reaction mechanisms, stereochemistry, and the chemistry of alcohols, carbonyl compounds, acids, amines and aromatic compounds relevant to drugs and biomolecules.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Reaction Mechanisms",
+     "order": 1,
+     "summary": "Bond cleavage, nucleophiles and electrophiles, and substitution, addition and elimination reactions.",
+     "material": [
+      {
+       "heading": "Reactive species",
+       "body": "Covalent bonds break by homolysis (each atom takes one electron, forming free radicals — e.g. in chlorination of alkanes under UV light) or heterolysis (one atom takes both electrons, forming ions — carbocations and carbanions). Nucleophiles are electron-rich species that donate an electron pair (OH−, CN−, NH3, H2O); electrophiles are electron-poor and accept an electron pair (H+, carbocations, NO2+). Carbocation stability increases from methyl < primary < secondary < tertiary because of inductive and hyperconjugation effects.",
+       "keyPoints": [
+        "Homolysis → radicals; heterolysis → ions",
+        "Nucleophile donates, electrophile accepts electron pairs",
+        "Tertiary carbocations are most stable"
+       ]
+      },
+      {
+       "heading": "Reaction types",
+       "body": "SN2 reactions are single-step, bimolecular, favoured at primary carbons, and cause inversion of configuration (Walden inversion). SN1 reactions are two-step via a carbocation, favoured at tertiary carbons, and give racemisation. Elimination (E1, E2) forms alkenes, favoured by strong bulky bases and heat; Zaitsev's rule predicts the more substituted alkene. Alkenes undergo electrophilic addition; Markovnikov's rule states that H adds to the carbon already bearing more hydrogens. Aromatic rings undergo electrophilic substitution (nitration, halogenation, Friedel–Crafts).",
+       "keyPoints": [
+        "SN2: one step, inversion, primary carbons",
+        "SN1: carbocation, racemisation, tertiary carbons",
+        "Markovnikov: H to the carbon with more H",
+        "Zaitsev: more substituted alkene"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Homolytic cleavage of a covalent bond produces:",
+       "options": [
+        "Carbocations",
+        "Free radicals",
+        "Carbanions",
+        "Ion pairs",
+        "Zwitterions"
+       ],
+       "answerIndex": 1,
+       "explanation": "Each fragment keeps one electron, forming radicals."
+      },
+      {
+       "stem": "Which is a nucleophile?",
+       "options": [
+        "NO2+",
+        "A carbocation",
+        "BF3",
+        "OH−",
+        "H+"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hydroxide donates an electron pair."
+      },
+      {
+       "stem": "The most stable carbocation is:",
+       "options": [
+        "Methyl",
+        "Secondary",
+        "Vinyl",
+        "Primary",
+        "Tertiary"
+       ],
+       "answerIndex": 4,
+       "explanation": "Alkyl groups stabilise the positive charge by induction and hyperconjugation."
+      },
+      {
+       "stem": "An SN2 reaction at a chiral carbon results in:",
+       "options": [
+        "Elimination only",
+        "No product",
+        "Inversion of configuration",
+        "Retention",
+        "Racemisation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Backside attack inverts the configuration."
+      },
+      {
+       "stem": "SN1 reactions proceed through a:",
+       "options": [
+        "Benzyne",
+        "Free radical",
+        "Concerted transition state only",
+        "Carbocation intermediate",
+        "Carbanion"
+       ],
+       "answerIndex": 3,
+       "explanation": "The rate-determining step forms a carbocation."
+      },
+      {
+       "stem": "When HBr adds to propene, the major product is 2-bromopropane according to:",
+       "options": [
+        "Markovnikov's rule",
+        "Zaitsev's rule",
+        "Le Chatelier's principle",
+        "Hund's rule",
+        "Hückel's rule"
+       ],
+       "answerIndex": 0,
+       "explanation": "H adds to the carbon with more H atoms."
+      },
+      {
+       "stem": "Aromatic compounds such as benzene typically undergo:",
+       "options": [
+        "Electrophilic substitution",
+        "Elimination",
+        "Nucleophilic addition",
+        "Hydrolysis only",
+        "Free-radical addition"
+       ],
+       "answerIndex": 0,
+       "explanation": "Substitution preserves aromatic stability."
+      },
+      {
+       "stem": "According to Zaitsev's rule, elimination gives mainly the:",
+       "options": [
+        "More substituted (more stable) alkene",
+        "Least substituted alkene",
+        "Alcohol",
+        "Carbocation",
+        "Alkyne"
+       ],
+       "answerIndex": 0,
+       "explanation": "More substituted alkenes are more stable."
+      }
+     ]
+    },
+    {
+     "title": "Stereochemistry and Drug Action",
+     "order": 2,
+     "summary": "Chirality, enantiomers, R/S nomenclature, geometric isomerism and their pharmaceutical importance.",
+     "material": [
+      {
+       "heading": "Chirality",
+       "body": "A chiral molecule is non-superimposable on its mirror image, usually because of a carbon bearing four different groups (a stereocentre). The two mirror-image forms are enantiomers: they have identical physical properties except the direction in which they rotate plane-polarised light (dextrorotatory + / laevorotatory −). A 50:50 mixture is a racemic mixture (optically inactive). Diastereomers are stereoisomers that are not mirror images and have different physical properties. Meso compounds have stereocentres but an internal plane of symmetry, so they are achiral. Absolute configuration is assigned R or S using Cahn–Ingold–Prelog priority rules.",
+       "keyPoints": [
+        "Chiral carbon: four different groups",
+        "Enantiomers rotate light in opposite directions",
+        "Racemate is optically inactive",
+        "R/S by CIP priority rules"
+       ]
+      },
+      {
+       "heading": "Importance in pharmacy",
+       "body": "Receptors and enzymes are chiral, so enantiomers can differ in potency or toxicity. The (R)-enantiomer of thalidomide is sedative while (S)-thalidomide is teratogenic (and they interconvert in the body). S-(−)-propranolol is the active β-blocker; escitalopram is the active S-enantiomer of citalopram; levodopa (L-DOPA) is used in Parkinson's disease rather than D-DOPA. Geometric (cis–trans / E–Z) isomers arise around double bonds or rings; e.g. cisplatin is active while transplatin is not.",
+       "keyPoints": [
+        "Thalidomide: one enantiomer teratogenic",
+        "Escitalopram and levodopa are single enantiomers",
+        "Cisplatin active; transplatin inactive"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A carbon atom attached to four different groups is called a:",
+       "options": [
+        "Quaternary ammonium",
+        "Primary carbon",
+        "Stereocentre (chiral carbon)",
+        "Aromatic carbon",
+        "Carbonyl carbon"
+       ],
+       "answerIndex": 2,
+       "explanation": "It gives rise to non-superimposable mirror images."
+      },
+      {
+       "stem": "Enantiomers differ in their:",
+       "options": [
+        "Solubility in water",
+        "Boiling point",
+        "Melting point",
+        "Molecular formula",
+        "Direction of rotation of plane-polarised light"
+       ],
+       "answerIndex": 4,
+       "explanation": "They rotate light equally but in opposite directions."
+      },
+      {
+       "stem": "An equimolar mixture of two enantiomers is called:",
+       "options": [
+        "A racemic mixture",
+        "A diastereomer",
+        "A tautomer",
+        "A conformer",
+        "A meso compound"
+       ],
+       "answerIndex": 0,
+       "explanation": "A racemate shows no net optical rotation."
+      },
+      {
+       "stem": "Stereoisomers that are not mirror images of each other are:",
+       "options": [
+        "Diastereomers",
+        "Tautomers",
+        "Enantiomers",
+        "Structural isomers",
+        "Homologues"
+       ],
+       "answerIndex": 0,
+       "explanation": "Diastereomers have different physical properties."
+      },
+      {
+       "stem": "Which drug disaster highlighted the importance of stereochemistry?",
+       "options": [
+        "Paracetamol",
+        "Chloroquine",
+        "Aspirin",
+        "Penicillin",
+        "Thalidomide"
+       ],
+       "answerIndex": 4,
+       "explanation": "One thalidomide enantiomer is teratogenic."
+      },
+      {
+       "stem": "The R/S system of naming configuration is based on:",
+       "options": [
+        "IUPAC chain length",
+        "Melting point",
+        "Optical rotation sign",
+        "Fischer projections only",
+        "Cahn–Ingold–Prelog priority rules"
+       ],
+       "answerIndex": 4,
+       "explanation": "Groups are ranked by atomic number."
+      },
+      {
+       "stem": "Levodopa used in Parkinson's disease is the ___ isomer.",
+       "options": [
+        "Racemic",
+        "L",
+        "D",
+        "Meso",
+        "Trans"
+       ],
+       "answerIndex": 1,
+       "explanation": "L-DOPA crosses into the brain and is converted to dopamine."
+      },
+      {
+       "stem": "Cisplatin, an anticancer drug, is active while its trans isomer is inactive. This is an example of:",
+       "options": [
+        "Geometric isomerism",
+        "Chain isomerism",
+        "Optical isomerism",
+        "Tautomerism",
+        "Positional isomerism"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cis–trans isomers differ in spatial arrangement around a centre."
+      }
+     ]
+    },
+    {
+     "title": "Alcohols, Phenols and Ethers",
+     "order": 3,
+     "summary": "Classification, properties and reactions of alcohols, phenols and ethers.",
+     "material": [
+      {
+       "heading": "Alcohols",
+       "body": "Alcohols (R–OH) are primary, secondary or tertiary depending on the number of carbons attached to the carbinol carbon. Hydrogen bonding gives them higher boiling points than alkanes of similar mass. Oxidation: primary alcohols → aldehydes → carboxylic acids; secondary → ketones; tertiary resist oxidation (the basis of the dichromate breathalyser and Lucas test differences). Ethanol is metabolised by alcohol dehydrogenase to acetaldehyde, then to acetic acid; methanol is metabolised to formaldehyde and formic acid, causing blindness and acidosis (treated with fomepizole or ethanol).",
+       "keyPoints": [
+        "1° alcohol → aldehyde → acid; 2° → ketone; 3° resists",
+        "Methanol → formic acid → blindness",
+        "Fomepizole inhibits alcohol dehydrogenase"
+       ]
+      },
+      {
+       "heading": "Phenols and ethers",
+       "body": "Phenols have –OH attached directly to a benzene ring; they are more acidic than alcohols because the phenoxide ion is resonance-stabilised, and they give a violet colour with neutral ferric chloride. Phenol (carbolic acid) was Lister's antiseptic; derivatives include cresols and chloroxylenol (Dettol). Ethers (R–O–R′) are relatively unreactive; diethyl ether was an early general anaesthetic, and modern volatile anaesthetics (isoflurane, sevoflurane) are halogenated ethers.",
+       "keyPoints": [
+        "Phenols are more acidic than alcohols",
+        "FeCl3 test: violet with phenols",
+        "Halogenated ethers are volatile anaesthetics"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Oxidation of a secondary alcohol gives a/an:",
+       "options": [
+        "Carboxylic acid",
+        "Ether",
+        "Aldehyde",
+        "Ketone",
+        "Ester"
+       ],
+       "answerIndex": 3,
+       "explanation": "Secondary alcohols oxidise to ketones."
+      },
+      {
+       "stem": "Which alcohol resists oxidation by acidified dichromate?",
+       "options": [
+        "Propan-1-ol",
+        "2-Methylpropan-2-ol (tertiary)",
+        "Methanol",
+        "Ethanol",
+        "Propan-2-ol"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tertiary alcohols lack an H on the carbinol carbon."
+      },
+      {
+       "stem": "Methanol poisoning causes blindness mainly due to formation of:",
+       "options": [
+        "Formic acid",
+        "Ethanol",
+        "Carbon monoxide",
+        "Acetone",
+        "Acetic acid"
+       ],
+       "answerIndex": 0,
+       "explanation": "Formate damages the optic nerve and causes acidosis."
+      },
+      {
+       "stem": "Phenols are more acidic than alcohols because:",
+       "options": [
+        "The phenoxide ion is resonance-stabilised",
+        "They contain nitrogen",
+        "They form hydrogen bonds",
+        "They are smaller molecules",
+        "They are aromatic amines"
+       ],
+       "answerIndex": 0,
+       "explanation": "Delocalisation of the negative charge stabilises the phenoxide."
+      },
+      {
+       "stem": "The test giving a violet colour with phenols is the:",
+       "options": [
+        "Biuret test",
+        "Iodoform test only",
+        "Neutral ferric chloride test",
+        "Tollens' test",
+        "Fehling's test"
+       ],
+       "answerIndex": 2,
+       "explanation": "Phenols form coloured complexes with Fe3+."
+      },
+      {
+       "stem": "Sevoflurane, an inhalational anaesthetic, is chemically a:",
+       "options": [
+        "Amide",
+        "Halogenated ether",
+        "Ketone",
+        "Ester",
+        "Alcohol"
+       ],
+       "answerIndex": 1,
+       "explanation": "Modern volatile anaesthetics are halogenated ethers."
+      },
+      {
+       "stem": "Alcohols have higher boiling points than alkanes of similar mass because of:",
+       "options": [
+        "Aromaticity",
+        "Greater molar mass",
+        "Metallic bonding",
+        "Hydrogen bonding",
+        "Ionic bonding"
+       ],
+       "answerIndex": 3,
+       "explanation": "The –OH group forms intermolecular hydrogen bonds."
+      },
+      {
+       "stem": "Ethanol is first metabolised in the liver to:",
+       "options": [
+        "Acetaldehyde",
+        "Formaldehyde",
+        "Methanol",
+        "Acetic acid",
+        "Acetone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Alcohol dehydrogenase converts ethanol to acetaldehyde."
+      }
+     ]
+    },
+    {
+     "title": "Aldehydes, Ketones, Carboxylic Acids and Esters",
+     "order": 4,
+     "summary": "Carbonyl chemistry, identification tests, acids, esters and their hydrolysis.",
+     "material": [
+      {
+       "heading": "Aldehydes and ketones",
+       "body": "The carbonyl group (C=O) is polar; its carbon is electrophilic and undergoes nucleophilic addition. Aldehydes are readily oxidised, so they reduce Tollens' reagent (silver mirror) and Fehling's/Benedict's solution (brick-red Cu2O); ketones generally do not. 2,4-dinitrophenylhydrazine (Brady's reagent) gives orange precipitates with both. Methyl ketones and ethanol give yellow iodoform with iodine and alkali. Formaldehyde solution (formalin) is a tissue fixative; acetone is a solvent and ketone body.",
+       "keyPoints": [
+        "Nucleophilic addition to C=O",
+        "Tollens'/Fehling's: aldehydes positive",
+        "2,4-DNPH: both aldehydes and ketones",
+        "Iodoform test: methyl ketones and ethanol"
+       ]
+      },
+      {
+       "heading": "Acids and esters",
+       "body": "Carboxylic acids (–COOH) are weak acids, stronger when electron-withdrawing groups are nearby (trichloroacetic acid > acetic acid). They react with alcohols in acid to form esters (esterification, reversible). Esters hydrolyse in acid or base (saponification with NaOH makes soap from fats). Many drugs are esters (aspirin — acetylsalicylic acid, benzocaine) or amides (paracetamol, lidocaine); esters are generally hydrolysed faster than amides, so ester local anaesthetics have shorter action. Aspirin tablets that smell of vinegar have hydrolysed to salicylic and acetic acid.",
+       "keyPoints": [
+        "Electron-withdrawing groups strengthen acids",
+        "Esterification: acid + alcohol → ester + water",
+        "Saponification makes soap",
+        "Aspirin hydrolysis → vinegar smell"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which gives a silver mirror with Tollens' reagent?",
+       "options": [
+        "Ethanol",
+        "Ethyl ethanoate",
+        "Ethanal",
+        "Propanone",
+        "Ethanoic acid"
+       ],
+       "answerIndex": 2,
+       "explanation": "Aldehydes reduce Ag+ to metallic silver."
+      },
+      {
+       "stem": "The reagent that gives an orange precipitate with both aldehydes and ketones is:",
+       "options": [
+        "Fehling's solution",
+        "Biuret reagent",
+        "2,4-Dinitrophenylhydrazine",
+        "Tollens' reagent",
+        "Ferric chloride"
+       ],
+       "answerIndex": 2,
+       "explanation": "Brady's reagent detects the carbonyl group."
+      },
+      {
+       "stem": "The typical reaction of the carbonyl group is:",
+       "options": [
+        "Nucleophilic addition",
+        "Elimination only",
+        "Polymerisation only",
+        "Free-radical substitution",
+        "Electrophilic substitution"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nucleophiles attack the electrophilic carbonyl carbon."
+      },
+      {
+       "stem": "Reaction of a carboxylic acid with an alcohol forms a/an:",
+       "options": [
+        "Amide",
+        "Aldehyde",
+        "Ester",
+        "Ether",
+        "Ketone"
+       ],
+       "answerIndex": 2,
+       "explanation": "Esterification produces an ester and water."
+      },
+      {
+       "stem": "Alkaline hydrolysis of fats to produce soap is called:",
+       "options": [
+        "Saponification",
+        "Oxidation",
+        "Polymerisation",
+        "Hydrogenation",
+        "Esterification"
+       ],
+       "answerIndex": 0,
+       "explanation": "NaOH hydrolyses triglycerides to glycerol and soap."
+      },
+      {
+       "stem": "An old bottle of aspirin smelling of vinegar indicates hydrolysis producing:",
+       "options": [
+        "Acetic acid",
+        "Methanol",
+        "Citric acid",
+        "Formic acid",
+        "Ethanol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Aspirin hydrolyses to salicylic acid and acetic acid."
+      },
+      {
+       "stem": "Which acid is strongest?",
+       "options": [
+        "Propanoic acid",
+        "Chloroacetic acid",
+        "Dichloroacetic acid",
+        "Trichloroacetic acid",
+        "Acetic acid"
+       ],
+       "answerIndex": 3,
+       "explanation": "More electron-withdrawing Cl atoms stabilise the anion."
+      },
+      {
+       "stem": "The iodoform test is positive for:",
+       "options": [
+        "Methanol",
+        "Ethanol",
+        "Propan-1-ol",
+        "Formaldehyde",
+        "Benzaldehyde"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ethanol is oxidised to ethanal, which gives iodoform."
+      }
+     ]
+    },
+    {
+     "title": "Amines, Amides and Heterocycles in Drugs",
+     "order": 5,
+     "summary": "Basicity of amines, amide bonds, and important heterocyclic rings in medicines and biomolecules.",
+     "material": [
+      {
+       "heading": "Amines and amides",
+       "body": "Amines are organic derivatives of ammonia: primary (RNH2), secondary (R2NH), tertiary (R3N) and quaternary ammonium salts (R4N+, permanently charged, e.g. neuromuscular blockers, which cannot cross the blood–brain barrier). Amines are basic because of the lone pair on nitrogen; aliphatic amines are more basic than aromatic amines like aniline (whose lone pair is delocalised into the ring). Most drugs that are weak bases form water-soluble salts (e.g. hydrochlorides). Amides (–CONH2) are very weakly basic because the lone pair is delocalised onto the carbonyl oxygen; the peptide bond is an amide bond.",
+       "keyPoints": [
+        "Aliphatic amines are more basic than aniline",
+        "Quaternary ammonium: permanently charged",
+        "Drugs formulated as salts (e.g. HCl)",
+        "Peptide bond = amide bond"
+       ]
+      },
+      {
+       "heading": "Heterocycles",
+       "body": "Heterocyclic rings contain atoms other than carbon (N, O, S). Important examples: pyridine (nicotinamide/NAD+), pyrimidine (cytosine, thymine, uracil; also in trimethoprim), purine (adenine, guanine, caffeine), imidazole (histidine; azole antifungals such as clotrimazole), indole (tryptophan, serotonin), quinoline (quinine, chloroquine), thiazole (thiamine) and the β-lactam ring (penicillins, cephalosporins). The β-lactam ring's strain explains both its antibacterial activity and its susceptibility to β-lactamases.",
+       "keyPoints": [
+        "Quinoline: quinine, chloroquine",
+        "Imidazole: azole antifungals, histidine",
+        "Indole: serotonin, tryptophan",
+        "β-lactam ring in penicillins"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which compound is the strongest base?",
+       "options": [
+        "Aniline",
+        "Acetamide",
+        "Phenol",
+        "Water",
+        "Methylamine"
+       ],
+       "answerIndex": 4,
+       "explanation": "Aliphatic amines are more basic than aromatic amines and amides."
+      },
+      {
+       "stem": "Quaternary ammonium drugs do not cross the blood–brain barrier because they:",
+       "options": [
+        "Are permanently positively charged",
+        "Are rapidly excreted",
+        "Bind albumin completely",
+        "Are highly lipophilic",
+        "Are too large"
+       ],
+       "answerIndex": 0,
+       "explanation": "Their permanent charge limits lipid membrane crossing."
+      },
+      {
+       "stem": "Aniline is a weaker base than methylamine because:",
+       "options": [
+        "Its nitrogen lone pair is delocalised into the ring",
+        "It is a quaternary salt",
+        "It is an acid",
+        "It has no nitrogen",
+        "It forms hydrogen bonds"
+       ],
+       "answerIndex": 0,
+       "explanation": "Resonance reduces lone-pair availability."
+      },
+      {
+       "stem": "The peptide bond in proteins is chemically a/an:",
+       "options": [
+        "Ester bond",
+        "Ether bond",
+        "Phosphodiester bond",
+        "Amide bond",
+        "Glycosidic bond"
+       ],
+       "answerIndex": 3,
+       "explanation": "It links the carboxyl of one amino acid to the amine of the next."
+      },
+      {
+       "stem": "Chloroquine contains which heterocyclic ring system?",
+       "options": [
+        "Quinoline",
+        "Indole",
+        "Purine",
+        "Imidazole",
+        "β-lactam"
+       ],
+       "answerIndex": 0,
+       "explanation": "Chloroquine is a 4-aminoquinoline."
+      },
+      {
+       "stem": "Caffeine is based on which ring system?",
+       "options": [
+        "Quinoline",
+        "Purine",
+        "Indole",
+        "Thiazole",
+        "Pyridine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Caffeine is a methylxanthine, a purine derivative."
+      },
+      {
+       "stem": "The ring responsible for the antibacterial activity of penicillin is the:",
+       "options": [
+        "Benzene ring",
+        "β-lactam ring",
+        "Imidazole ring",
+        "Pyrimidine ring",
+        "Thiazole ring only"
+       ],
+       "answerIndex": 1,
+       "explanation": "The strained β-lactam acylates penicillin-binding proteins."
+      },
+      {
+       "stem": "Many basic drugs are formulated as hydrochloride salts in order to:",
+       "options": [
+        "Reduce their potency",
+        "Make them volatile",
+        "Prevent absorption",
+        "Change their stereochemistry",
+        "Increase water solubility"
+       ],
+       "answerIndex": 4,
+       "explanation": "Salts of weak bases are more water-soluble."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

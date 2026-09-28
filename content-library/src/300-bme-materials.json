@@ -1,0 +1,99 @@
+{
+  "title": "Biomaterials and Tissue Engineering",
+  "code": "BME311",
+  "color": "#1E40AF",
+  "description": "Classes and properties of biomaterials, host responses and biocompatibility, sterilisation of implants, and principles of tissue engineering.",
+  "for": { "300": ["BME"], "400": ["BME"] },
+  "topics": [
+    {
+      "title": "Classes of Biomaterials",
+      "summary": "Metals, polymers, ceramics and composites and their medical uses.",
+      "notes": [
+        { "h": "Metals and ceramics", "b": "A biomaterial is a material designed to interact with biological systems for a medical purpose. Metals are strong and tough: 316L stainless steel (fracture plates, screws, temporary devices), cobalt–chromium alloys (joint replacements, wear-resistant), and titanium and its alloys (Ti-6Al-4V — dental implants, hip stems; excellent corrosion resistance and osseointegration, lower stiffness than steel). Nitinol (nickel–titanium) has shape memory and superelasticity (stents, orthodontic wires). Ceramics are hard, wear-resistant and brittle: alumina and zirconia (femoral heads), bioactive ceramics — hydroxyapatite and bioactive glass (bond to bone, coatings) — and resorbable tricalcium phosphate (bone graft substitutes).", "k": ["316L stainless steel: temporary fixation", "Ti-6Al-4V: osseointegration, dental implants", "Co–Cr: wear-resistant joints", "Nitinol: shape memory stents", "Hydroxyapatite bonds to bone"] },
+        { "h": "Polymers and composites", "b": "Polymers are versatile: ultra-high-molecular-weight polyethylene (UHMWPE — acetabular cup liners), polymethyl methacrylate (PMMA — bone cement, intraocular lenses), silicone (catheters, breast implants, shunts), polyurethane (catheters), PTFE/ePTFE (vascular grafts), polyester (Dacron grafts, sutures), hydrogels (contact lenses, wound dressings), and biodegradable polymers — polylactic acid (PLA), polyglycolic acid (PGA) and their copolymer PLGA — for absorbable sutures, screws and drug delivery. Composites combine materials (e.g. carbon-fibre-reinforced polymers, dental composites of resin with ceramic fillers).", "k": ["UHMWPE: joint liners", "PMMA: bone cement", "Silicone: catheters, implants", "PLA/PGA/PLGA: absorbable sutures", "Dacron and ePTFE: vascular grafts"] }
+      ],
+      "q": [
+        ["The metal most associated with osseointegration in dental implants is:", "Stainless steel", "Titanium", "Copper", "Silver", "Lead", 1, "Titanium bonds intimately with bone."],
+        ["Nitinol is used in self-expanding stents because of its:", "Radioactivity", "Shape memory and superelasticity", "Brittleness", "Low strength", "Magnetism", 1, "It recovers a set shape at body temperature."],
+        ["Bone cement used to fix joint replacements is made of:", "Hydroxyapatite", "Polymethyl methacrylate (PMMA)", "Silicone", "Titanium powder", "Collagen", 1, "PMMA polymerises in situ to grout the implant."],
+        ["The acetabular liner of many hip replacements is made of:", "Glass", "Ultra-high-molecular-weight polyethylene", "Rubber", "Copper", "Wood", 1, "UHMWPE provides a low-friction bearing surface."],
+        ["Absorbable sutures are commonly made of:", "Nylon", "Polyglycolic acid (PGA) or PLGA", "Steel wire", "Silk only", "Polypropylene", 1, "These polymers degrade by hydrolysis."],
+        ["A ceramic that chemically bonds to bone is:", "Alumina", "Hydroxyapatite", "PMMA", "Silicone", "Polyethylene", 1, "Hydroxyapatite resembles bone mineral."],
+        ["Large-diameter vascular grafts are often made of:", "Dacron (polyester) or ePTFE", "Glass", "Stainless steel tubes", "Cotton", "Latex", 0, "These woven or expanded polymers are durable conduits."],
+        ["Which class of materials is hard and wear-resistant but brittle?", "Metals", "Polymers", "Ceramics", "Hydrogels", "Elastomers", 2, "Ceramics resist wear but fracture easily."]
+      ]
+    },
+    {
+      "title": "Mechanical and Surface Properties",
+      "summary": "Stress–strain behaviour, stiffness, fatigue, wear, corrosion and stress shielding.",
+      "notes": [
+        { "h": "Mechanical properties", "b": "Stress = force ÷ area; strain = change in length ÷ original length. In the elastic region stress is proportional to strain (Hooke's law); the slope is the Young's modulus (elastic modulus, stiffness). Beyond the yield point, plastic deformation occurs; ultimate tensile strength is the maximum stress; ductility is the extent of plastic deformation before fracture; toughness is energy absorbed before failure. Implants experience cyclic loading and can fail by fatigue below their static strength. Stress shielding occurs when a much stiffer implant (e.g. metal hip stem, modulus ~110–200 GPa versus cortical bone ~15–20 GPa) carries most of the load, so surrounding bone resorbs (Wolff's law), risking loosening.", "k": ["Young's modulus = stiffness", "Fatigue failure under cyclic loads", "Stress shielding: stiff implant → bone resorption", "Wolff's law: bone adapts to load"] },
+        { "h": "Surface properties and degradation", "b": "Surface chemistry, roughness, charge and wettability control protein adsorption and cell attachment — the first events after implantation. Metals may corrode (galvanic corrosion between dissimilar metals, crevice and pitting corrosion); titanium's passive oxide layer resists corrosion. Wear of articulating surfaces releases particles (e.g. polyethylene debris) that trigger macrophage-mediated osteolysis and aseptic loosening. Polymers may degrade by hydrolysis or oxidation; degradation products must be non-toxic. Surface modification (coatings, plasma treatment, hydroxyapatite spraying, drug-eluting layers) improves integration or reduces infection and thrombosis.", "k": ["Protein adsorption occurs first", "Galvanic corrosion: avoid dissimilar metals", "Wear debris → osteolysis → aseptic loosening", "Surface coatings improve integration"] }
+      ],
+      "q": [
+        ["The slope of the linear part of a stress–strain curve is the:", "Yield strength", "Young's (elastic) modulus", "Toughness", "Hardness", "Ductility", 1, "It measures stiffness."],
+        ["Failure of an implant under repeated loads below its static strength is:", "Creep", "Fatigue failure", "Corrosion only", "Elastic deformation", "Wear-free fracture", 1, "Cyclic loading propagates cracks."],
+        ["Bone resorption around a very stiff metal implant because the implant carries most of the load is:", "Osseointegration", "Stress shielding", "Galvanic corrosion", "Creep", "Hypertrophy", 1, "Unloaded bone is resorbed (Wolff's law)."],
+        ["The principle that bone remodels according to the loads placed on it is:", "Hooke's law", "Wolff's law", "Ohm's law", "Poiseuille's law", "Starling's law", 1, "Bone adapts its structure to mechanical demands."],
+        ["The first biological event when an implant contacts blood or tissue is:", "Bone formation", "Protein adsorption on the surface", "Scar contracture", "Infection always", "Calcification", 1, "Proteins adsorb within seconds, mediating cell responses."],
+        ["Corrosion occurring when two dissimilar metals are in contact in body fluid is:", "Pitting only", "Galvanic corrosion", "Fatigue", "Creep", "Hydrolysis", 1, "A potential difference drives corrosion of the less noble metal."],
+        ["Polyethylene wear particles from hip replacements cause loosening through:", "Direct infection", "Macrophage-mediated osteolysis", "Increased bone density", "Electrical stimulation", "Blood clotting", 1, "Particle-activated macrophages release bone-resorbing cytokines."],
+        ["Titanium resists corrosion mainly because of its:", "High density", "Stable passive oxide layer", "Magnetic properties", "Low melting point", "Radioactivity", 1, "The TiO2 film protects the metal."]
+      ]
+    },
+    {
+      "title": "Host Response and Biocompatibility",
+      "summary": "Inflammation and foreign-body reaction, blood compatibility, infection, and biocompatibility testing.",
+      "notes": [
+        { "h": "Host response", "b": "Biocompatibility is the ability of a material to perform with an appropriate host response in a specific application. After implantation: injury and blood–material interaction (protein adsorption, provisional matrix), acute inflammation (neutrophils), chronic inflammation (macrophages, lymphocytes), granulation tissue, foreign-body reaction (macrophages fuse into foreign-body giant cells on the surface) and fibrous encapsulation. Blood-contacting devices (stents, heart valves, catheters) risk thrombosis via protein adsorption, platelet adhesion and coagulation activation — managed with anticoagulants/antiplatelets and surface treatments (heparin coating). Device-associated infection is promoted by biofilm formation (e.g. Staphylococcus epidermidis), which protects bacteria from antibiotics and immune cells, often requiring device removal.", "k": ["Foreign-body giant cells and fibrous capsule", "Blood contact → thrombosis risk", "Heparin coatings", "Biofilm infections often need device removal"] },
+        { "h": "Testing and regulation", "b": "Biocompatibility is evaluated under the ISO 10993 series according to the nature and duration of body contact: tests include cytotoxicity (in vitro cell culture), sensitisation, irritation, systemic toxicity, genotoxicity, implantation, haemocompatibility (for blood contact) and carcinogenicity for long-term implants. Tests start in vitro, then animal studies, then clinical investigations. Regulatory approval (e.g. NAFDAC in Nigeria, FDA, CE marking) depends on risk class; post-market surveillance monitors failures (e.g. recalls of metal-on-metal hips).", "k": ["ISO 10993 biocompatibility tests", "Cytotoxicity, sensitisation, irritation, genotoxicity", "In vitro → animal → clinical", "Post-market surveillance"] }
+      ],
+      "q": [
+        ["Macrophages fusing on an implant surface form:", "Osteoclasts only", "Foreign-body giant cells", "Red cells", "Neutrophils", "Fibroblasts", 1, "This characterises the foreign-body reaction."],
+        ["The usual end-stage response to a biostable implant in soft tissue is:", "Complete absorption", "Fibrous encapsulation", "Calcification of all tissues", "Cancer", "No response", 1, "A collagenous capsule walls off the implant."],
+        ["Device-associated infections are hard to treat mainly because bacteria form:", "Spores", "Biofilms", "Capsids", "Endotoxins only", "Plasmids", 1, "Biofilms protect bacteria from antibiotics and immune cells."],
+        ["A common organism causing catheter and prosthetic device infections is:", "Streptococcus pyogenes", "Staphylococcus epidermidis", "Vibrio cholerae", "Plasmodium", "Treponema", 1, "It forms biofilms on plastic surfaces."],
+        ["Heparin coatings on blood-contacting devices aim to reduce:", "Corrosion", "Thrombosis", "Wear", "Fatigue", "Stiffness", 1, "Heparin inhibits coagulation at the surface."],
+        ["The international standard series for biological evaluation of medical devices is:", "ISO 9001", "ISO 10993", "IEC 60601", "ISO 15189", "ISO 14001", 1, "ISO 10993 defines biocompatibility testing."],
+        ["The first-line biocompatibility test performed in cell culture is:", "Carcinogenicity", "Cytotoxicity", "Implantation for 2 years", "Clinical trial", "Genotoxicity in humans", 1, "Cytotoxicity screening is rapid and inexpensive."],
+        ["Biocompatibility means that a material:", "Is completely inert", "Performs with an appropriate host response in a specific application", "Never causes any response", "Dissolves quickly", "Is always metallic", 1, "Biocompatibility is application-specific."]
+      ]
+    },
+    {
+      "title": "Sterilisation of Implants and Devices",
+      "summary": "Sterilisation methods and their effects on materials, packaging and reprocessing.",
+      "notes": [
+        { "h": "Methods and material effects", "b": "Implants must be sterile (SAL 10⁻⁶). Steam autoclaving (121–134 °C) suits metals and heat-resistant items but can damage many polymers. Ethylene oxide gas sterilises heat-sensitive polymers and complex devices at low temperature, but requires aeration to remove toxic residues. Gamma irradiation and electron-beam sterilisation are widely used for single-use devices; they can cause polymer chain scission or cross-linking (e.g. gamma-irradiated UHMWPE in air oxidises — now irradiated in inert atmosphere and stabilised, sometimes with vitamin E). Hydrogen peroxide gas plasma is a low-temperature method for heat- and moisture-sensitive instruments. Dry heat suits glass and some metals. Material compatibility must be validated because sterilisation can alter mechanical properties, colour and degradation rate.", "k": ["Autoclave: metals, heat-stable", "Ethylene oxide: heat-sensitive, needs aeration", "Gamma: single-use devices; may oxidise polymers", "H2O2 plasma: low temperature"] },
+        { "h": "Packaging and reprocessing", "b": "Sterile barrier packaging maintains sterility until use; package integrity and expiry (event-related or time-related) are checked before use. Endotoxin (pyrogen) testing is required for implants and blood-contacting devices. Reprocessing single-use devices is discouraged because of infection, performance and legal risks. Reusable surgical instruments pass through a central sterile services department (CSSD): cleaning (the most important step — sterilisation cannot overcome inadequate cleaning), inspection, packaging, sterilisation, storage and traceability.", "k": ["Check package integrity and expiry", "Endotoxin testing for implants", "Don't reprocess single-use devices", "Cleaning is the critical first step in CSSD"] }
+      ],
+      "q": [
+        ["A heat-sensitive polymer catheter is best sterilised with:", "Steam autoclaving at 134 °C", "Ethylene oxide gas", "Dry heat at 180 °C", "Boiling", "Flaming", 1, "Ethylene oxide works at low temperature."],
+        ["A disadvantage of ethylene oxide sterilisation is that:", "It is very hot", "Toxic residues require aeration", "It cannot penetrate packaging", "It is always ineffective", "It only works on glass", 1, "EO is toxic and carcinogenic; devices must be aerated."],
+        ["Gamma irradiation of UHMWPE in air can cause:", "Increased wear resistance always", "Oxidative degradation", "Melting", "Magnetisation", "No change", 1, "Free radicals react with oxygen, weakening the polymer."],
+        ["The most important step in reprocessing reusable surgical instruments is:", "Packaging", "Cleaning", "Labelling", "Storage", "Transport", 1, "Sterilisation fails if organic material remains."],
+        ["A low-temperature sterilisation method for heat- and moisture-sensitive instruments is:", "Steam autoclave", "Hydrogen peroxide gas plasma", "Dry heat oven", "Boiling", "Incineration", 1, "It leaves water and oxygen as by-products."],
+        ["Before opening a sterile implant, staff should check the:", "Price", "Package integrity and expiry", "Colour only", "Brand logo", "Weight", 1, "Damaged or expired packages may not be sterile."],
+        ["Reprocessing single-use devices is discouraged because of:", "Excess cost savings", "Risks of infection, failure and legal liability", "Better performance", "Manufacturer encouragement", "Improved sterility", 1, "Single-use devices are not validated for reprocessing."],
+        ["Implants and blood-contacting devices must be tested for:", "Colour", "Bacterial endotoxins (pyrogens)", "Taste", "Odour", "Magnetism only", 1, "Endotoxins cause fever and inflammation."]
+      ]
+    },
+    {
+      "title": "Tissue Engineering and Regenerative Medicine",
+      "summary": "Cells, scaffolds and signals; stem cells; engineered tissues; 3-D printing and drug delivery.",
+      "notes": [
+        { "h": "Principles", "b": "Tissue engineering combines cells, scaffolds and signals (growth factors, mechanical cues) to repair or replace tissues — the 'tissue engineering triad'. Scaffolds should be biocompatible, biodegradable at a rate matching tissue growth, porous and interconnected (pores of roughly 100–400 µm for bone ingrowth) and mechanically appropriate; materials include collagen, fibrin, alginate, chitosan, PLGA, polycaprolactone and bioceramics. Bioreactors provide nutrients and mechanical stimulation. Successful products include engineered skin substitutes for burns and chronic wounds, cartilage repair with autologous chondrocytes, and bone grafts.", "k": ["Triad: cells, scaffolds, signals", "Scaffold: biodegradable, porous (~100–400 µm for bone)", "Bioreactors", "Engineered skin for burns"] },
+        { "h": "Stem cells and emerging technologies", "b": "Stem cells self-renew and differentiate. Embryonic stem cells are pluripotent (ethical concerns); adult stem cells (e.g. mesenchymal stem cells from bone marrow or fat, haematopoietic stem cells) are multipotent; induced pluripotent stem cells (iPSCs) are reprogrammed adult cells (Yamanaka factors). Haematopoietic stem cell transplantation is an established therapy (e.g. curative for sickle cell disease in selected patients). Emerging tools include 3-D bioprinting, organoids, decellularised organ scaffolds and controlled drug-delivery systems (biodegradable microspheres, drug-eluting stents, transdermal patches). Regulation and ethics govern clinical use.", "k": ["ESCs pluripotent; MSCs multipotent", "iPSCs: reprogrammed adult cells", "HSCT can cure sickle cell disease", "3-D bioprinting and organoids"] }
+      ],
+      "q": [
+        ["The tissue engineering triad consists of cells, scaffolds and:", "Antibiotics", "Signals (growth factors and mechanical cues)", "X-rays", "Sutures", "Implants only", 1, "Signals guide cell behaviour."],
+        ["An ideal tissue engineering scaffold should:", "Never degrade", "Degrade at a rate matching new tissue growth", "Be non-porous", "Be toxic to cells", "Be as stiff as possible regardless of tissue", 1, "Degradation should transfer load to new tissue."],
+        ["Pore sizes that favour bone ingrowth are roughly:", "1–5 nm", "100–400 µm", "5–10 mm", "1 cm", "No pores", 1, "Pores of about 100–400 µm allow cell migration and vessel ingrowth."],
+        ["Stem cells reprogrammed from adult cells using specific factors are called:", "Embryonic stem cells", "Induced pluripotent stem cells", "Haematopoietic stem cells", "Mesenchymal stem cells", "Germ cells", 1, "Yamanaka factors induce pluripotency."],
+        ["Mesenchymal stem cells are best described as:", "Totipotent", "Multipotent", "Unipotent only", "Non-stem cells", "Pluripotent embryonic cells", 1, "They form bone, cartilage and fat."],
+        ["An established stem-cell therapy that can cure selected patients with sickle cell disease is:", "Blood transfusion", "Haematopoietic stem cell transplantation", "Iron chelation", "Hydroxyurea", "Folic acid", 1, "Replacing the marrow provides normal haemoglobin production."],
+        ["Engineered skin substitutes are particularly useful for:", "Myocardial infarction", "Extensive burns and chronic wounds", "Cataracts", "Hearing loss", "Diabetes", 1, "They cover large skin defects."],
+        ["A drug-eluting coronary stent is an example of:", "Tissue engineering with stem cells", "A controlled drug-delivery device", "A bioreactor", "An organoid", "Gene therapy", 1, "It releases antiproliferative drugs to prevent restenosis."]
+      ]
+    }
+  ]
+}

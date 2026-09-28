@@ -1,0 +1,99 @@
+{
+  "title": "Radiation Protection and Radiobiology",
+  "code": "RAD311",
+  "color": "#4338CA",
+  "description": "Principles and regulation of radiation protection, dose limits, protection of patients, staff and the public, pregnancy, monitoring and radiation emergencies.",
+  "for": { "300": ["RAD"], "400": ["RAD", "BME"], "500": ["MBBS"] },
+  "topics": [
+    {
+      "title": "Principles and Regulation",
+      "summary": "ICRP principles, ALARA, and radiation regulation in Nigeria.",
+      "notes": [
+        { "h": "ICRP principles", "b": "The International Commission on Radiological Protection (ICRP) sets three fundamental principles: justification (an exposure must do more good than harm), optimisation (doses kept as low as reasonably achievable — ALARA — taking economic and social factors into account) and dose limitation (occupational and public exposures must not exceed dose limits; patients' medical exposures have no dose limits but are governed by justification and optimisation, supported by diagnostic reference levels — DRLs).", "k": ["Justification, optimisation (ALARA), dose limitation", "No dose limits for patients", "Diagnostic reference levels guide optimisation"] },
+        { "h": "Regulation in Nigeria", "b": "The Nigerian Nuclear Regulatory Authority (NNRA), established under the Nuclear Safety and Radiation Protection Act (1995), licenses facilities using ionising radiation, inspects them and sets regulations (e.g. Nigerian Basic Ionizing Radiation Regulations). Each facility appoints a radiation safety officer, maintains controlled and supervised areas with warning signs (the trefoil symbol), keeps dose records, performs quality control on equipment, and trains staff. Radiographers are registered by the Radiographers Registration Board of Nigeria (RRBN).", "k": ["NNRA licenses and inspects", "Radiation safety officer in each facility", "Controlled areas with trefoil signs", "RRBN registers radiographers"] }
+      ],
+      "q": [
+        ["The three ICRP principles of radiation protection are justification, optimisation and:", "Collimation", "Dose limitation", "Filtration", "Shielding only", "Screening", 1, "These form the ICRP system of protection."],
+        ["ALARA stands for:", "As Low As Reasonably Achievable", "Always Limit All Radiation Absorption", "Annual Limit of Absorbed Radiation Allowed", "As Low As Radiation Allows", "Average Level of Allowed Radiation Activity", 0, "It expresses the optimisation principle."],
+        ["Dose limits apply to:", "Patients undergoing medical imaging", "Occupational workers and members of the public", "Only nuclear power staff", "Animals", "Nobody", 1, "Medical exposures of patients are not subject to dose limits."],
+        ["The Nigerian body that licenses facilities using ionising radiation is the:", "NAFDAC", "NNRA", "NCDC", "SON", "NUC", 1, "The Nigerian Nuclear Regulatory Authority."],
+        ["Diagnostic reference levels are used to:", "Limit staff doses", "Optimise patient doses by identifying unusually high doses", "Price examinations", "Replace justification", "Calibrate thermometers", 1, "DRLs are benchmarks for typical examination doses."],
+        ["The internationally recognised radiation warning symbol is the:", "Caduceus", "Trefoil", "Red cross", "Skull and crossbones", "Biohazard sign", 1, "The three-bladed trefoil marks radiation areas."],
+        ["The principle requiring that the benefit of an X-ray outweighs its risk is:", "Optimisation", "Justification", "Dose limitation", "Time reduction", "Distance", 1, "Justification comes first."],
+        ["Each radiology department should appoint a:", "Radiation safety officer", "Pharmacist in charge", "Security guard only", "Cashier", "Dietitian", 0, "RSOs oversee compliance with radiation protection rules."]
+      ]
+    },
+    {
+      "title": "Dose Limits and Personal Monitoring",
+      "summary": "Occupational and public dose limits, dosimeters and classification of workers and areas.",
+      "notes": [
+        { "h": "Dose limits", "b": "ICRP recommended limits (adopted in most national regulations): occupational effective dose 20 mSv per year averaged over 5 years (no more than 50 mSv in any single year); equivalent dose to the lens of the eye 20 mSv/year (reduced from 150 mSv in 2011); skin and extremities (hands, feet) 500 mSv/year. Public: effective dose 1 mSv/year; lens 15 mSv/year; skin 50 mSv/year. For a pregnant worker, once pregnancy is declared, the dose to the fetus should not exceed 1 mSv for the rest of the pregnancy. Workers under 18 have lower limits. Natural background radiation averages about 2.4 mSv/year worldwide.", "k": ["Occupational: 20 mSv/year (5-year average)", "Lens: 20 mSv/year", "Public: 1 mSv/year", "Declared pregnancy: fetus ≤ 1 mSv"] },
+        { "h": "Monitoring", "b": "Personal dosimeters record staff doses: thermoluminescent dosimeters (TLDs — lithium fluoride crystals that emit light on heating in proportion to dose), optically stimulated luminescence (OSL) dosimeters, film badges (older) and electronic personal dosimeters (real-time readings). The whole-body dosimeter is worn on the trunk (under a lead apron in some protocols, with a second collar dosimeter outside for eye/thyroid estimation); ring dosimeters monitor extremity dose in fluoroscopy and nuclear medicine. Dosimeters are changed and read periodically (e.g. monthly or quarterly), and records are kept. Survey meters (Geiger–Müller counters, ionisation chambers) measure dose rates and contamination.", "k": ["TLD: lithium fluoride, read by heating", "OSL dosimeters", "Ring dosimeters for extremities", "Geiger–Müller counters detect contamination"] }
+      ],
+      "q": [
+        ["The ICRP annual occupational effective dose limit averaged over 5 years is:", "1 mSv", "6 mSv", "20 mSv", "50 mSv every year", "150 mSv", 2, "20 mSv per year averaged over 5 years (max 50 mSv in any one year)."],
+        ["The annual effective dose limit for members of the public is:", "1 mSv", "5 mSv", "20 mSv", "50 mSv", "0.1 mSv", 0, "The public limit is 1 mSv per year."],
+        ["The current ICRP occupational dose limit for the lens of the eye is:", "15 mSv/year", "20 mSv/year", "150 mSv/year", "500 mSv/year", "1 mSv/year", 1, "It was reduced from 150 to 20 mSv/year in 2011."],
+        ["After a radiation worker declares pregnancy, the fetal dose should not exceed:", "0.1 mSv", "1 mSv for the remainder of the pregnancy", "20 mSv", "50 mSv", "5 mSv per month", 1, "The fetus is treated as a member of the public."],
+        ["A thermoluminescent dosimeter contains crystals of:", "Sodium iodide", "Lithium fluoride", "Caesium iodide", "Silver bromide", "Lead oxide", 1, "LiF emits light on heating proportional to absorbed dose."],
+        ["Ring dosimeters are used to monitor dose to the:", "Whole body", "Hands (extremities)", "Eyes", "Thyroid", "Gonads", 1, "They measure extremity dose, e.g. in nuclear medicine."],
+        ["An instrument used to detect radioactive contamination is the:", "TLD badge", "Geiger–Müller counter", "Sphygmomanometer", "Spirometer", "Thermometer", 1, "GM counters detect ionising radiation quickly."],
+        ["The occupational dose limit for skin and extremities is:", "50 mSv/year", "150 mSv/year", "500 mSv/year", "20 mSv/year", "1 mSv/year", 2, "Extremities: 500 mSv per year."]
+      ]
+    },
+    {
+      "title": "Protecting Staff and the Public",
+      "summary": "Time, distance and shielding; room design; protective equipment; fluoroscopy and mobile radiography.",
+      "notes": [
+        { "h": "Time, distance, shielding", "b": "The three basic methods of external radiation protection: minimise time near the source; maximise distance (inverse square law — doubling distance reduces dose rate to a quarter; stand at least 2 metres from the patient during mobile radiography); and use shielding (lead, concrete, barium plaster). X-ray rooms have shielded walls and doors, lead-glass viewing windows, a protected control area, and warning lights ('X-ray in use'). Lead aprons (commonly 0.25–0.5 mm lead equivalent), thyroid collars and lead glasses are worn in fluoroscopy and interventional procedures; they should be stored hung or flat to avoid cracks and checked periodically by fluoroscopy.", "k": ["Time, distance, shielding", "Inverse square law", "Stand ≥ 2 m away in mobile radiography", "Lead aprons 0.25–0.5 mm Pb; check for cracks"] },
+        { "h": "Fluoroscopy and practice", "b": "In fluoroscopy, the main source of staff dose is scatter from the patient; staff should stand on the image-receptor side (for a C-arm with the tube under the table, scatter is highest on the tube side and below the table). Use pulsed fluoroscopy, last-image hold, collimation, minimal screening time, and keep the image intensifier close to the patient. Never hold patients during exposures as routine; if unavoidable, use relatives (not pregnant, not staff repeatedly) with protective clothing, and record it. Never point the primary beam at occupied areas.", "k": ["Scatter from the patient is the main staff hazard", "Stand on the receptor side", "Pulsed fluoroscopy, last-image hold", "Staff should not routinely hold patients"] }
+      ],
+      "q": [
+        ["The three main methods of external radiation protection are:", "Speed, light and heat", "Time, distance and shielding", "Gloves, masks and gowns", "Filtration, collimation and grids", "Food, water and rest", 1, "These reduce external exposure."],
+        ["Doubling your distance from a radiation source reduces the dose rate to:", "One-half", "One-quarter", "One-eighth", "Twice", "No change", 1, "Inverse square law: (½)² = ¼."],
+        ["During mobile radiography, the radiographer should stand at least:", "0.5 m from the patient", "2 m from the patient and out of the primary beam", "Next to the tube", "Behind the patient", "Directly in the beam", 1, "Distance greatly reduces scatter dose."],
+        ["The main source of radiation to staff during fluoroscopy is:", "Leakage from the control panel", "Scatter from the patient", "Natural background", "Radon gas", "Cosmic rays", 1, "Most staff dose comes from patient scatter."],
+        ["Lead aprons should be stored:", "Folded tightly", "Hung or laid flat to prevent cracks", "In sunlight", "Under heavy equipment", "Wet", 1, "Folding cracks the lead, reducing protection."],
+        ["Which technique reduces fluoroscopy dose?", "Continuous screening", "Pulsed fluoroscopy and last-image hold", "Increasing field size", "Moving the image intensifier far from the patient", "Longer screening", 1, "Pulsing and image hold cut beam-on time."],
+        ["If a patient must be held during an exposure, it should ideally be by:", "The same radiographer every time", "A non-pregnant relative wearing protective clothing", "A pregnant nurse", "A child", "Nobody ever", 1, "Staff should not routinely hold patients."],
+        ["Lead aprons used in radiology typically provide about:", "0.01 mm Pb equivalent", "0.25–0.5 mm Pb equivalent", "5 mm Pb", "10 cm Pb", "No lead", 1, "This attenuates most diagnostic scatter."]
+      ]
+    },
+    {
+      "title": "Protecting Patients, Pregnancy and Children",
+      "summary": "Patient dose reduction, gonad shielding, pregnancy checks, and paediatric imaging.",
+      "notes": [
+        { "h": "Patient dose reduction", "b": "Patient doses are reduced by justification (right test, avoid repeats — check previous imaging), correct technique to avoid retakes, tight collimation, appropriate exposure factors (higher kVp with lower mAs where image quality allows), adequate filtration, fast image receptors, avoiding unnecessary views, using immobilisation, and — in CT — automatic exposure control, low-dose protocols and limiting scan range. Alternatives without ionising radiation (ultrasound, MRI) should be considered, especially for children and pregnant women.", "k": ["Avoid repeats — check previous imaging", "Collimate tightly", "Consider ultrasound or MRI", "CT: dose modulation and low-dose protocols"] },
+        { "h": "Pregnancy and children", "b": "Women of child-bearing age (usually 12–55 years) must be asked about pregnancy before examinations in which the primary beam irradiates the pelvis or abdomen; if pregnancy cannot be excluded, the examination may be postponed or modified, unless clinically urgent. The fetus is most sensitive to malformations during organogenesis (about 3–15 weeks); risks of deterministic effects are negligible below about 100 mGy fetal dose. A pregnancy should never be terminated because of diagnostic-dose exposure alone. Children are about 2–3 times more radiosensitive than adults and have a longer lifespan in which cancers may develop; use child-sized protocols ('Image Gently'), immobilisation aids and parental reassurance.", "k": ["Ask about pregnancy (12–55 years)", "Organogenesis most sensitive (3–15 weeks)", "Negligible deterministic risk < 100 mGy", "Children more radiosensitive — Image Gently"] }
+      ],
+      "q": [
+        ["Before a pelvic X-ray in a woman of reproductive age, the radiographer should:", "Proceed without asking", "Ask about the possibility of pregnancy", "Only check her name", "Double the exposure", "Use no collimation", 1, "Pregnancy status must be established."],
+        ["The fetal period most sensitive to radiation-induced malformations is about:", "0–2 weeks", "3–15 weeks (organogenesis)", "30–40 weeks", "After birth", "Only the last week", 1, "Organ formation is vulnerable to malformation."],
+        ["Children are more sensitive to radiation than adults because:", "They have denser bones", "They have rapidly dividing cells and longer life expectancy", "They breathe faster", "They are shorter", "They drink more water", 1, "Growth and longer remaining lifespan increase risk."],
+        ["The campaign promoting child-appropriate radiation doses is:", "Image Wisely only", "Image Gently", "Roll Back Malaria", "Stop TB", "Safe Motherhood", 1, "Image Gently promotes paediatric dose optimisation."],
+        ["Which imaging modality uses no ionising radiation?", "CT", "Fluoroscopy", "Ultrasound", "Mammography", "Nuclear medicine", 2, "Ultrasound uses sound waves."],
+        ["Which measure reduces patient dose?", "Repeating images routinely", "Tight collimation", "Removing filtration", "Using the largest field size", "Ignoring previous imaging", 1, "Collimation limits the irradiated volume."],
+        ["A pregnancy should be terminated after a diagnostic X-ray:", "Always", "Never on the basis of diagnostic radiation dose alone", "If the X-ray was of the hand", "If the mother requests another X-ray", "After any CT", 1, "Diagnostic doses rarely approach harmful thresholds."],
+        ["Below about ___ fetal dose, deterministic effects such as malformations are negligible.", "1 mGy", "100 mGy", "1,000 mGy", "10 mGy is always harmful", "5,000 mGy", 1, "Thresholds for malformation are around 100 mGy or higher."]
+      ]
+    },
+    {
+      "title": "Quality Assurance, Accidents and Emergencies",
+      "summary": "Equipment QA, reject analysis, radiation incidents, and managing contamination.",
+      "notes": [
+        { "h": "Quality assurance", "b": "Quality assurance programmes ensure consistent image quality at the lowest reasonable dose. Tests include kVp accuracy, timer accuracy, output linearity and reproducibility, half-value layer (filtration), light-beam/X-ray field alignment, focal spot size, grid alignment, detector uniformity and, in CT, CT number accuracy and noise. Reject (repeat) analysis identifies causes of repeated images (positioning errors, exposure errors, motion, artefacts) so that training or equipment problems can be corrected — repeats double patient dose.", "k": ["Tests: kVp, timer, output, HVL, field alignment", "Reject analysis reduces repeats", "Repeats double patient dose"] },
+        { "h": "Incidents and emergencies", "b": "Radiation incidents include unintended or excessive exposures (wrong patient, wrong examination, equipment malfunction), lost or stolen sources and spills of radioactive material. They must be reported to the radiation safety officer and, where required, to the NNRA, investigated and corrected. For a radioactive spill in nuclear medicine: alert others, contain the spill with absorbent material, restrict access, wear gloves and protective clothing, decontaminate from the outside inwards, monitor with a survey meter, and dispose of waste as radioactive. Personnel contamination is removed by washing skin with lukewarm water and mild soap without abrading. Potassium iodide blocks thyroid uptake of radioactive iodine in nuclear emergencies.", "k": ["Report incidents to the RSO/NNRA", "Spill: contain, restrict, decontaminate outside-in, monitor", "Wash skin gently; don't abrade", "Potassium iodide protects the thyroid"] }
+      ],
+      "q": [
+        ["Reject (repeat) analysis is performed to:", "Increase the number of images", "Identify and reduce causes of repeated exposures", "Calculate salaries", "Order supplies", "Test staff eyesight", 1, "It targets training or equipment issues."],
+        ["Which is a routine QA test on X-ray equipment?", "Blood pressure", "kVp accuracy", "Patient weight", "Room colour", "Staff attendance", 1, "kVp, timer and output tests ensure consistent exposures."],
+        ["Radiographing the wrong patient is an example of a/an:", "Normal procedure", "Radiation incident that must be reported", "Justified exposure", "QA test", "Optimisation measure", 1, "Unintended exposures must be reported and investigated."],
+        ["A radioactive spill should be decontaminated:", "From the centre outwards", "From the outside inwards", "By spreading it with water", "By ignoring small spills", "Only by the patient", 1, "Working inwards avoids spreading contamination."],
+        ["Skin contaminated with radioactive material should be:", "Scrubbed hard with a brush", "Washed gently with lukewarm water and mild soap", "Left alone", "Covered with oil", "Heated", 1, "Abrading the skin increases absorption."],
+        ["Potassium iodide is given in nuclear emergencies to:", "Stop bleeding", "Block thyroid uptake of radioactive iodine", "Treat burns", "Increase urine output", "Prevent nausea", 1, "Saturating the thyroid with stable iodine reduces radioiodine uptake."],
+        ["Serious radiation incidents in Nigeria must be reported to the:", "NNRA", "NAFDAC", "INEC", "CBN", "FIRS", 0, "The regulator must be informed."],
+        ["Checking that the light-beam field matches the X-ray field ensures:", "Correct kVp", "Accurate collimation and positioning", "Correct patient name", "Correct film speed", "Correct room temperature", 1, "Misalignment causes cut-off anatomy and unnecessary dose."]
+      ]
+    }
+  ]
+}

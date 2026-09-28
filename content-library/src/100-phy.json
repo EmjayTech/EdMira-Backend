@@ -1,0 +1,99 @@
+{
+  "title": "General Physics (PHY 101/102)",
+  "code": "PHY101",
+  "color": "#1D4ED8",
+  "description": "Mechanics, energy, heat, electricity and waves — the 100 Level physics that underpins physiology, radiography and biomedical engineering.",
+  "for": { "100": ["*"] },
+  "topics": [
+    {
+      "title": "Units, Dimensions and Vectors",
+      "summary": "SI units, dimensional analysis, scalars and vectors.",
+      "notes": [
+        { "h": "SI units and dimensions", "b": "The seven SI base quantities are length (metre), mass (kilogram), time (second), electric current (ampere), temperature (kelvin), amount of substance (mole) and luminous intensity (candela). Derived units combine base units: newton = kg·m·s⁻², joule = N·m = kg·m²·s⁻², watt = J/s, pascal = N/m². Dimensional analysis uses [M], [L], [T] to check equations: velocity [LT⁻¹], acceleration [LT⁻²], force [MLT⁻²], energy [ML²T⁻²].", "k": ["7 SI base units: m, kg, s, A, K, mol, cd", "Force [MLT⁻²]; energy [ML²T⁻²]", "An equation must be dimensionally consistent"] },
+        { "h": "Scalars and vectors", "b": "Scalars have magnitude only (mass, speed, temperature, energy, time). Vectors have magnitude and direction (displacement, velocity, acceleration, force, momentum). Vectors are added by the triangle or parallelogram law; perpendicular vectors combine by Pythagoras: R = √(A² + B²). A vector F at angle θ to the horizontal has components F cos θ (horizontal) and F sin θ (vertical).", "k": ["Speed is scalar; velocity is vector", "Perpendicular resultant R = √(A² + B²)", "Components: F cos θ and F sin θ"] }
+      ],
+      "q": [
+        ["Which is an SI base unit?", "Newton", "Joule", "Ampere", "Watt", "Pascal", 2, "The ampere is a base unit; the others are derived."],
+        ["The dimensions of force are:", "[MLT⁻¹]", "[MLT⁻²]", "[ML²T⁻²]", "[ML⁻¹T⁻²]", "[LT⁻²]", 1, "Force = mass × acceleration = [M][LT⁻²]."],
+        ["Which quantity is a vector?", "Speed", "Mass", "Temperature", "Displacement", "Energy", 3, "Displacement has both magnitude and direction."],
+        ["Two perpendicular forces of 3 N and 4 N act on a body. The resultant is:", "1 N", "5 N", "7 N", "12 N", "25 N", 1, "R = √(3² + 4²) = 5 N."],
+        ["The joule is equivalent to:", "kg·m·s⁻²", "kg·m²·s⁻²", "kg·m²·s⁻³", "N·s", "kg·m⁻¹·s⁻²", 1, "1 J = 1 N·m = 1 kg·m²·s⁻²."],
+        ["The unit of pressure, the pascal, equals:", "N·m", "N/m²", "J/s", "kg·m/s", "N/m", 1, "Pressure = force per unit area, N/m²."],
+        ["The horizontal component of a 10 N force at 60° to the horizontal is:", "5 N", "8.66 N", "10 N", "0 N", "20 N", 0, "F cos 60° = 10 × 0.5 = 5 N."],
+        ["The SI unit of temperature is the:", "Degree Celsius", "Fahrenheit", "Kelvin", "Joule", "Calorie", 2, "The kelvin is the SI base unit of thermodynamic temperature."]
+      ]
+    },
+    {
+      "title": "Motion and Newton's Laws",
+      "summary": "Equations of motion, free fall, Newton's three laws, momentum and friction.",
+      "notes": [
+        { "h": "Kinematics", "b": "For uniform acceleration: v = u + at; s = ut + ½at²; v² = u² + 2as; s = ½(u + v)t. Near Earth's surface objects in free fall accelerate at g ≈ 9.8 m/s² (often taken as 10 m/s²). On a velocity–time graph, the gradient is acceleration and the area under the graph is displacement.", "k": ["v = u + at; s = ut + ½at²; v² = u² + 2as", "g ≈ 9.8 m/s²", "v–t graph: slope = acceleration, area = displacement"] },
+        { "h": "Dynamics", "b": "Newton's first law (inertia): a body stays at rest or moves uniformly unless acted on by a net external force. Second law: F = ma (force equals rate of change of momentum). Third law: every action has an equal and opposite reaction. Momentum p = mv is conserved in the absence of external forces; impulse = FΔt = change in momentum. Friction opposes motion; limiting friction F = μR, where μ is the coefficient of friction and R the normal reaction. Weight W = mg.", "k": ["F = ma", "p = mv; impulse = FΔt = Δp", "Weight = mg"] }
+      ],
+      "q": [
+        ["A car accelerates from rest at 2 m/s² for 5 s. Its final velocity is:", "2 m/s", "5 m/s", "10 m/s", "20 m/s", "25 m/s", 2, "v = u + at = 0 + 2 × 5 = 10 m/s."],
+        ["The area under a velocity–time graph gives:", "Acceleration", "Displacement", "Force", "Momentum", "Power", 1, "Area under a v–t graph equals displacement."],
+        ["Newton's first law is also called the law of:", "Acceleration", "Inertia", "Gravitation", "Action and reaction", "Conservation of energy", 1, "It describes inertia — the tendency to resist change in motion."],
+        ["A net force of 20 N acts on a 4 kg mass. Its acceleration is:", "0.2 m/s²", "5 m/s²", "16 m/s²", "24 m/s²", "80 m/s²", 1, "a = F/m = 20/4 = 5 m/s²."],
+        ["The momentum of a 2 kg ball moving at 3 m/s is:", "1.5 kg·m/s", "5 kg·m/s", "6 kg·m/s", "9 kg·m/s", "18 kg·m/s", 2, "p = mv = 2 × 3 = 6 kg·m/s."],
+        ["The weight of a 60 kg person (g = 10 m/s²) is:", "6 N", "60 N", "600 N", "6,000 N", "70 N", 2, "W = mg = 60 × 10 = 600 N."],
+        ["A gun recoils when fired. This illustrates Newton's:", "First law", "Second law", "Third law", "Law of gravitation", "Hooke's law", 2, "Action (bullet forward) and reaction (gun backward) are equal and opposite."],
+        ["Impulse is equal to the change in:", "Velocity", "Kinetic energy", "Momentum", "Acceleration", "Mass", 2, "Impulse FΔt equals the change in momentum."]
+      ]
+    },
+    {
+      "title": "Work, Energy, Power and Heat",
+      "summary": "Work–energy theorem, kinetic and potential energy, power, efficiency and heat transfer.",
+      "notes": [
+        { "h": "Work, energy and power", "b": "Work W = Fs cos θ (joules). Kinetic energy KE = ½mv²; gravitational potential energy PE = mgh. Energy is conserved: it changes form but is not created or destroyed. Power is the rate of doing work, P = W/t (watts); also P = Fv. Efficiency = (useful output ÷ input) × 100%.", "k": ["KE = ½mv²; PE = mgh", "P = W/t", "Efficiency = output/input × 100%"] },
+        { "h": "Heat", "b": "Heat energy Q = mcΔθ, where c is specific heat capacity (water: 4,200 J/kg/K, which is why water buffers body temperature). Latent heat Q = mL is absorbed or released during a change of state without a change in temperature; evaporation of sweat cools the body using latent heat of vaporisation. Heat transfers by conduction (solids), convection (fluids) and radiation (electromagnetic waves, no medium needed). Temperature scales: K = °C + 273.", "k": ["Q = mcΔθ; c(water) ≈ 4,200 J/kg/K", "Sweating cools via latent heat of vaporisation", "Conduction, convection, radiation", "K = °C + 273"] }
+      ],
+      "q": [
+        ["The kinetic energy of a 2 kg mass moving at 4 m/s is:", "8 J", "16 J", "32 J", "4 J", "64 J", 1, "KE = ½ × 2 × 4² = 16 J."],
+        ["A 5 kg object is raised 2 m (g = 10 m/s²). Its gain in potential energy is:", "10 J", "50 J", "100 J", "25 J", "7 J", 2, "PE = mgh = 5 × 10 × 2 = 100 J."],
+        ["A machine does 600 J of work in 30 s. Its power is:", "20 W", "18,000 W", "570 W", "630 W", "0.05 W", 0, "P = W/t = 600/30 = 20 W."],
+        ["Heat needed to raise 1 kg of water by 10 K (c = 4,200 J/kg/K) is:", "420 J", "4,200 J", "42,000 J", "420,000 J", "10 J", 2, "Q = mcΔθ = 1 × 4,200 × 10 = 42,000 J."],
+        ["Sweating cools the body mainly by:", "Conduction", "Radiation", "Latent heat of vaporisation", "Convection currents in blood", "Specific heat of skin", 2, "Evaporating sweat absorbs latent heat from the skin."],
+        ["Heat from the sun reaches the Earth by:", "Conduction", "Convection", "Radiation", "Evaporation", "Induction", 2, "Radiation needs no medium and crosses the vacuum of space."],
+        ["37 °C is equivalent to:", "236 K", "273 K", "300 K", "310 K", "337 K", 3, "K = 37 + 273 = 310 K."],
+        ["A motor uses 1,000 J of electrical energy and does 750 J of useful work. Its efficiency is:", "25%", "75%", "100%", "133%", "7.5%", 1, "750/1,000 × 100% = 75%."]
+      ]
+    },
+    {
+      "title": "Electricity and Magnetism",
+      "summary": "Charge, current, Ohm's law, resistors in circuits, electrical power and electromagnetism.",
+      "notes": [
+        { "h": "Current electricity", "b": "Current I is the rate of flow of charge, I = Q/t (amperes). Ohm's law: V = IR for ohmic conductors at constant temperature. Resistors in series add: R = R1 + R2 + …; in parallel: 1/R = 1/R1 + 1/R2 + …, giving a total smaller than the smallest resistor. Electrical power P = IV = I²R = V²/R; energy used = Pt (the kilowatt-hour is the commercial unit). Resistance R = ρL/A depends on resistivity, length and cross-sectional area.", "k": ["V = IR", "Series add; parallel reciprocals add", "P = IV = I²R = V²/R"] },
+        { "h": "Magnetism and electromagnetism", "b": "A current-carrying conductor produces a magnetic field (Oersted). A conductor in a magnetic field experiences a force F = BIL sin θ, the principle of the electric motor (Fleming's left-hand rule). A changing magnetic flux induces an emf (Faraday's law), with direction opposing the change (Lenz's law) — the basis of generators and transformers (Vs/Vp = Ns/Np). MRI scanners use strong superconducting magnets measured in tesla.", "k": ["Motor: Fleming's left-hand rule", "Faraday: changing flux induces emf; Lenz: opposes the change", "Transformer: Vs/Vp = Ns/Np"] }
+      ],
+      "q": [
+        ["A 12 V battery drives current through a 4 Ω resistor. The current is:", "0.33 A", "3 A", "8 A", "16 A", "48 A", 1, "I = V/R = 12/4 = 3 A."],
+        ["Two 6 Ω resistors in parallel have a total resistance of:", "3 Ω", "6 Ω", "12 Ω", "36 Ω", "1 Ω", 0, "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω."],
+        ["Two 6 Ω resistors in series have a total resistance of:", "3 Ω", "6 Ω", "12 Ω", "36 Ω", "1 Ω", 2, "Series resistances add: 6 + 6 = 12 Ω."],
+        ["A 240 V kettle draws 5 A. Its power is:", "48 W", "245 W", "1,200 W", "2,400 W", "12,000 W", 2, "P = IV = 5 × 240 = 1,200 W."],
+        ["The law stating that an induced current opposes the change producing it is:", "Ohm's law", "Faraday's law", "Lenz's law", "Coulomb's law", "Ampère's law", 2, "Lenz's law gives the direction of induced emf."],
+        ["A transformer has 100 primary and 1,000 secondary turns. With 20 V input, the output is:", "2 V", "20 V", "200 V", "2,000 V", "0.2 V", 2, "Vs = Vp × Ns/Np = 20 × 10 = 200 V."],
+        ["The force on a current-carrying conductor in a magnetic field is the principle of the:", "Generator", "Electric motor", "Transformer", "Rectifier", "Capacitor", 1, "Motors convert electrical energy to motion via F = BIL."],
+        ["If the length of a wire is doubled (same material and thickness), its resistance:", "Halves", "Doubles", "Quadruples", "Stays the same", "Falls to zero", 1, "R = ρL/A is proportional to length."]
+      ]
+    },
+    {
+      "title": "Waves, Sound and Light",
+      "summary": "Wave properties, sound and ultrasound, reflection, refraction, lenses and the electromagnetic spectrum.",
+      "notes": [
+        { "h": "Waves and sound", "b": "Waves transfer energy without transferring matter. Transverse waves (light, all electromagnetic waves) vibrate perpendicular to the direction of travel; longitudinal waves (sound) vibrate parallel to it. Wave speed v = fλ. Sound needs a medium and travels faster in solids than in air (~340 m/s in air, ~1,540 m/s in soft tissue). Humans hear 20 Hz–20 kHz; ultrasound (> 20 kHz, clinically 2–15 MHz) is used in medical imaging because it reflects at tissue interfaces.", "k": ["v = fλ", "Sound is longitudinal and needs a medium", "Ultrasound > 20 kHz; ~1,540 m/s in soft tissue"] },
+        { "h": "Light and the EM spectrum", "b": "Reflection: angle of incidence equals angle of reflection. Refraction is bending of light as it changes speed between media; refractive index n = sin i / sin r = c/v. Total internal reflection occurs beyond the critical angle and is used in optical fibres and endoscopes. Converging (convex) lenses correct hypermetropia; diverging (concave) lenses correct myopia. Lens power in dioptres = 1/f (in metres). The EM spectrum in order of increasing frequency: radio, microwave, infrared, visible, ultraviolet, X-rays, gamma rays; all travel at 3 × 10⁸ m/s in a vacuum.", "k": ["n = sin i / sin r", "Total internal reflection → endoscopes", "Myopia: concave lens; hypermetropia: convex lens", "Power (D) = 1/f (m)"] }
+      ],
+      "q": [
+        ["A wave has frequency 50 Hz and wavelength 2 m. Its speed is:", "25 m/s", "52 m/s", "100 m/s", "48 m/s", "0.04 m/s", 2, "v = fλ = 50 × 2 = 100 m/s."],
+        ["Sound waves are:", "Transverse and need no medium", "Longitudinal and need a medium", "Electromagnetic", "Transverse and need a medium", "Longitudinal and travel in a vacuum", 1, "Sound is a longitudinal mechanical wave requiring a medium."],
+        ["Endoscopes transmit images using:", "Diffraction", "Total internal reflection", "Dispersion", "Polarisation", "Interference", 1, "Optical fibres guide light by total internal reflection."],
+        ["Short-sightedness (myopia) is corrected with a:", "Converging lens", "Diverging lens", "Cylindrical lens only", "Prism", "Plane mirror", 1, "A concave (diverging) lens moves the image back onto the retina."],
+        ["A lens with focal length 0.5 m has a power of:", "0.5 D", "2 D", "5 D", "50 D", "−0.5 D", 1, "Power = 1/f = 1/0.5 = 2 dioptres."],
+        ["Which electromagnetic radiation has the highest frequency?", "Radio waves", "Infrared", "Visible light", "X-rays", "Gamma rays", 4, "Gamma rays are at the high-frequency end of the spectrum."],
+        ["Ultrasound used in diagnostic imaging has frequencies of about:", "20–200 Hz", "2–15 MHz", "20 Hz–20 kHz", "1–10 GHz", "5–10 kHz", 1, "Clinical ultrasound typically uses 2–15 MHz."],
+        ["The speed of light in a vacuum is approximately:", "340 m/s", "1,540 m/s", "3 × 10⁵ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", 3, "All EM waves travel at 3 × 10⁸ m/s in a vacuum."]
+      ]
+    }
+  ]
+}

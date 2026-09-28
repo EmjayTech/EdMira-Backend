@@ -1,0 +1,99 @@
+{
+  "title": "Nutrition and Dietetics in Health Care",
+  "code": "NUT301",
+  "color": "#CA8A04",
+  "description": "Nutrients and a balanced diet, nutritional assessment, infant and young child feeding, malnutrition, and therapeutic diets.",
+  "for": { "300": ["NUR", "PH"], "200": ["SON"], "400": ["CM"] },
+  "topics": [
+    {
+      "title": "Nutrients and the Balanced Diet",
+      "summary": "Classes of food, functions, Nigerian food sources and dietary guidelines.",
+      "notes": [
+        { "h": "Classes of nutrients", "b": "The six classes of nutrients are carbohydrates (energy — garri, rice, yam, maize, plantain), proteins (growth and repair — beans, fish, eggs, meat, milk, soya), fats and oils (concentrated energy, fat-soluble vitamins — palm oil, groundnut oil), vitamins, minerals and water. Dietary fibre (vegetables, fruits, whole grains) promotes bowel health. Red palm oil is a rich source of β-carotene (provitamin A). A balanced diet contains all nutrients in the right proportions for age, sex, activity and physiological state (pregnancy, lactation).", "k": ["Six classes: carbohydrate, protein, fat, vitamins, minerals, water", "Palm oil: β-carotene (vitamin A)", "Balanced diet suits age and activity"] },
+        { "h": "Food groups and guidelines", "b": "Food-based dietary guidelines recommend eating a variety from each group every day: staples, legumes and nuts, animal-source foods, fruits and vegetables, and small amounts of fats; limiting salt (less than 5 g/day), sugar and highly processed foods; and drinking safe water. Food fortification in Nigeria includes iodised salt, vitamin A–fortified vegetable oil, sugar and flour, and micronutrient-fortified flours. Food hygiene (washing hands, cooking thoroughly, safe storage, safe water) prevents foodborne illness.", "k": ["Salt < 5 g/day", "Fortification: iodised salt, vitamin A in oil/sugar/flour", "Variety from all food groups"] }
+      ],
+      "q": [
+        ["Which food is a major source of protein?", "Garri", "Beans", "Palm oil", "Sugar", "Cassava leaves only", 1, "Legumes such as beans are rich in protein."],
+        ["Red palm oil is a rich source of:", "Vitamin C", "β-carotene (provitamin A)", "Vitamin B12", "Iron", "Iodine", 1, "Its red colour comes from carotenoids."],
+        ["The main function of carbohydrates is to:", "Build tissues", "Provide energy", "Prevent goitre", "Clot blood", "Form bones", 1, "Carbohydrates are the main energy source."],
+        ["WHO recommends that adults consume less than ___ of salt per day.", "1 g", "5 g", "15 g", "25 g", "50 g", 1, "Less than 5 g/day (about one teaspoon)."],
+        ["Salt is fortified in Nigeria mainly with:", "Iron", "Iodine", "Vitamin A", "Zinc", "Fluoride", 1, "Universal salt iodisation prevents iodine deficiency."],
+        ["Dietary fibre is important mainly for:", "Energy", "Bowel health", "Blood clotting", "Vision", "Muscle growth", 1, "Fibre prevents constipation and supports gut health."],
+        ["A balanced diet is one that:", "Contains only protein", "Contains all nutrients in the right proportions", "Is expensive", "Avoids all fats", "Contains only vegetables", 1, "Balance and variety meet nutritional needs."],
+        ["Fats and oils are important because they provide energy and help absorb vitamins:", "B and C", "A, D, E and K", "B12 only", "C only", "Folate only", 1, "Fat-soluble vitamins need dietary fat."]
+      ]
+    },
+    {
+      "title": "Nutritional Assessment",
+      "summary": "Anthropometry, growth monitoring, MUAC, biochemical and clinical assessment.",
+      "notes": [
+        { "h": "Anthropometry", "b": "Nutritional assessment uses the ABCD approach: Anthropometry, Biochemical tests, Clinical signs and Dietary history. In children, growth is plotted on WHO growth charts: weight-for-age (underweight), height/length-for-age (stunting — chronic undernutrition), and weight-for-height (wasting — acute undernutrition), expressed as z-scores (below −2 SD = moderate; below −3 SD = severe). Mid-upper arm circumference (MUAC) in children 6–59 months: < 11.5 cm = severe acute malnutrition (SAM); 11.5–12.4 cm = moderate acute malnutrition (MAM). In adults, BMI and waist circumference are used.", "k": ["Stunting: low height-for-age (chronic)", "Wasting: low weight-for-height (acute)", "MUAC < 11.5 cm = SAM", "Z-score < −3 = severe"] },
+        { "h": "Clinical and biochemical assessment", "b": "Clinical signs: bilateral pitting oedema (kwashiorkor — always SAM), hair changes (thin, pale, easily pluckable, 'flag sign'), skin changes ('flaky paint' dermatosis), angular stomatitis (riboflavin), Bitot's spots and night blindness (vitamin A), pallor and koilonychia (iron), goitre (iodine), bowed legs (rickets). Biochemical tests: haemoglobin, serum albumin, ferritin, vitamin A, zinc. Dietary assessment: 24-hour recall, food frequency questionnaires and food diaries.", "k": ["Bilateral pitting oedema = SAM (kwashiorkor)", "Bitot's spots: vitamin A deficiency", "Koilonychia: iron deficiency", "24-hour dietary recall"] }
+      ],
+      "q": [
+        ["Low height-for-age in a child indicates:", "Wasting", "Stunting", "Obesity", "Oedema", "Normal growth", 1, "Stunting reflects chronic undernutrition."],
+        ["Low weight-for-height indicates:", "Stunting", "Wasting (acute malnutrition)", "Overweight", "Normal growth", "Chronic disease only", 1, "Wasting reflects recent weight loss."],
+        ["A MUAC of 10.8 cm in a 2-year-old indicates:", "Normal nutrition", "Moderate acute malnutrition", "Severe acute malnutrition", "Overweight", "Stunting", 2, "MUAC < 11.5 cm = SAM."],
+        ["Bilateral pitting oedema of nutritional origin in a child always indicates:", "Moderate malnutrition", "Severe acute malnutrition", "Heart failure", "Normal growth", "Obesity", 1, "Oedematous malnutrition (kwashiorkor) is classified as SAM."],
+        ["Bitot's spots on the conjunctiva are a sign of deficiency of:", "Iron", "Vitamin A", "Vitamin C", "Iodine", "Zinc", 1, "They are foamy patches in vitamin A deficiency."],
+        ["Spoon-shaped nails (koilonychia) suggest:", "Vitamin D deficiency", "Iron deficiency", "Protein excess", "Vitamin B1 deficiency", "Zinc excess", 1, "Koilonychia occurs in chronic iron deficiency."],
+        ["Asking a mother to list everything her child ate yesterday is a:", "Food frequency questionnaire", "24-hour dietary recall", "Weighed food record", "Biochemical test", "MUAC measurement", 1, "It captures intake over the previous day."],
+        ["A weight-for-height z-score below −3 SD indicates:", "Normal", "Moderate wasting", "Severe wasting", "Overweight", "Stunting", 2, "Below −3 SD is severe."]
+      ]
+    },
+    {
+      "title": "Infant and Young Child Feeding",
+      "summary": "Breastfeeding, complementary feeding and feeding during illness.",
+      "notes": [
+        { "h": "Breastfeeding", "b": "WHO and Nigeria recommend early initiation of breastfeeding within one hour of birth, exclusive breastfeeding for the first 6 months (no water, glucose water or other feeds), and continued breastfeeding to 2 years or beyond. Colostrum (the first thick yellow milk) is rich in antibodies (IgA), protein and vitamin A — 'the baby's first immunisation'. Good attachment signs: more areola visible above than below, mouth wide open, lower lip turned out, chin touching the breast. Benefits: protection against diarrhoea and pneumonia, bonding, lactational amenorrhoea, and reduced maternal breast and ovarian cancer risk. The Baby-Friendly Hospital Initiative promotes the Ten Steps to Successful Breastfeeding. HIV-positive mothers on antiretroviral therapy are advised to breastfeed exclusively for 6 months with continued ART.", "k": ["Initiate within 1 hour", "Exclusive breastfeeding for 6 months", "Colostrum rich in IgA", "Continue to 2 years", "BFHI: Ten Steps"] },
+        { "h": "Complementary feeding", "b": "From 6 months, breast milk alone no longer meets needs; complementary foods are introduced while breastfeeding continues. Foods should be timely, adequate (energy, protein, micronutrients — enrich pap/ogi/akamu with groundnut, crayfish, soya, egg or fish), safe (hygienic preparation) and responsively fed. Frequency: 2–3 meals/day at 6–8 months, 3–4 meals at 9–23 months plus snacks. During illness, continue feeding and breastfeeding, and offer extra feeds during recovery.", "k": ["Start complementary foods at 6 months", "Enrich pap with protein (groundnut, crayfish, egg)", "Continue feeding during illness"] }
+      ],
+      "q": [
+        ["Breastfeeding should be initiated within:", "One hour of birth", "24 hours", "3 days", "1 week", "After the mother leaves hospital", 0, "Early initiation improves newborn survival."],
+        ["Exclusive breastfeeding is recommended for the first:", "1 month", "3 months", "6 months", "12 months", "2 years", 2, "No other foods or fluids for 6 months."],
+        ["Colostrum is especially rich in:", "Fat only", "Antibodies (IgA) and vitamin A", "Sugar only", "Iron only", "Water", 1, "It protects the newborn against infection."],
+        ["A sign of good attachment at the breast is:", "Cheeks sucked in", "Chin touching the breast and lower lip turned out", "Only the nipple in the mouth", "Clicking sounds", "More areola visible below than above", 1, "Good attachment allows effective milk removal."],
+        ["Complementary feeding should begin at:", "6 weeks", "3 months", "6 months", "12 months", "2 years", 2, "At 6 months breast milk alone is insufficient."],
+        ["A good way to enrich ogi (pap) for a 7-month-old is to add:", "More water", "Groundnut paste, crayfish or egg", "Sugar only", "Salt only", "Tea", 1, "These add protein and energy."],
+        ["The Baby-Friendly Hospital Initiative promotes:", "Formula feeding", "The Ten Steps to Successful Breastfeeding", "Early weaning", "Bottle feeding in hospitals", "Water supplements", 1, "BFHI supports breastfeeding in maternity facilities."],
+        ["During a child's illness, feeding should:", "Stop completely", "Continue, with extra feeds during recovery", "Be replaced by water only", "Be limited to tea", "Be switched to adult food", 1, "Continued feeding prevents malnutrition."]
+      ]
+    },
+    {
+      "title": "Malnutrition and Micronutrient Deficiencies",
+      "summary": "Kwashiorkor and marasmus, CMAM, obesity and common micronutrient deficiencies.",
+      "notes": [
+        { "h": "Undernutrition", "b": "Severe acute malnutrition includes marasmus (severe wasting, 'old man' face, no oedema, alert, hungry) and kwashiorkor (bilateral oedema, skin and hair changes, fatty liver, apathy, poor appetite); marasmic kwashiorkor combines both. Community-based management of acute malnutrition (CMAM) treats uncomplicated SAM at home with ready-to-use therapeutic food (RUTF — energy-dense peanut paste) and routine antibiotics; complicated SAM (poor appetite, medical complications, severe oedema) needs inpatient stabilisation with F-75 then F-100 therapeutic milk, managing hypoglycaemia, hypothermia, dehydration (ReSoMal rather than standard ORS), infection and electrolytes, and watching for refeeding syndrome.", "k": ["Marasmus: wasting; kwashiorkor: oedema", "CMAM: RUTF at home", "Inpatient: F-75 then F-100", "ReSoMal for dehydration in SAM"] },
+        { "h": "Micronutrients and overnutrition", "b": "Iron deficiency anaemia is the commonest micronutrient deficiency — prevent with iron–folate in pregnancy, deworming and diet. Vitamin A deficiency causes night blindness and xerophthalmia and increases child mortality — prevented by vitamin A supplementation every 6 months from 6–59 months. Iodine deficiency causes goitre and cretinism. Zinc deficiency impairs growth and immunity. Overweight and obesity (BMI ≥ 25 and ≥ 30) are rising in Nigerian cities, raising risks of hypertension, type 2 diabetes and some cancers — the 'double burden of malnutrition'.", "k": ["Vitamin A supplements every 6 months (6–59 months)", "Iron–folate in pregnancy", "Double burden: undernutrition + obesity"] }
+      ],
+      "q": [
+        ["A child with severe wasting, an 'old man' face and no oedema has:", "Kwashiorkor", "Marasmus", "Obesity", "Rickets", "Scurvy", 1, "Marasmus is severe wasting without oedema."],
+        ["Uncomplicated severe acute malnutrition is treated in the community with:", "Intravenous fluids", "Ready-to-use therapeutic food (RUTF)", "Adult diet", "Tea and bread", "Formula milk only", 1, "RUTF enables home treatment under CMAM."],
+        ["The first therapeutic milk used in inpatient stabilisation of SAM is:", "F-100", "F-75", "Cow's milk", "Infant formula", "Condensed milk", 1, "F-75 is low in protein and sodium for the stabilisation phase."],
+        ["Dehydration in severe acute malnutrition is treated with:", "Standard ORS in large volumes", "ReSoMal", "Plain water", "Coca-Cola", "IV fluids always at high rates", 1, "ReSoMal has less sodium and more potassium."],
+        ["Vitamin A supplementation for children 6–59 months is given every:", "Month", "3 months", "6 months", "Year", "5 years", 2, "Twice-yearly doses reduce child mortality."],
+        ["The most common micronutrient deficiency worldwide is:", "Vitamin C deficiency", "Iron deficiency", "Vitamin K deficiency", "Selenium deficiency", "Copper deficiency", 1, "Iron deficiency anaemia affects many women and children."],
+        ["The coexistence of undernutrition and obesity in the same population is called:", "Nutrition transition only", "The double burden of malnutrition", "Refeeding syndrome", "Marasmic kwashiorkor", "Food security", 1, "Many countries now face both problems."],
+        ["A dangerous complication when severely malnourished patients are fed too quickly is:", "Refeeding syndrome", "Scurvy", "Goitre", "Rickets", "Pellagra", 0, "Rapid shifts of phosphate, potassium and magnesium can be fatal."]
+      ]
+    },
+    {
+      "title": "Therapeutic Diets and Clinical Nutrition",
+      "summary": "Diets for diabetes, hypertension, renal and liver disease, and enteral and parenteral nutrition.",
+      "notes": [
+        { "h": "Therapeutic diets", "b": "Diabetes: regular meals, portion control, high-fibre complex carbohydrates with low glycaemic index (e.g. beans, unripe plantain, whole grains), limited refined sugars and sugary drinks, weight reduction if overweight. Hypertension: DASH-style diet — rich in fruits, vegetables, low-fat dairy, whole grains; salt restriction (avoid bouillon cubes and salty snacks). Chronic kidney disease: control protein, sodium, potassium (limit high-potassium foods such as bananas, oranges, tomatoes when hyperkalaemic) and phosphate. Liver cirrhosis: adequate energy and protein (restrict only temporarily in encephalopathy), salt restriction for ascites. Peptic ulcer: small regular meals, avoid alcohol, smoking and NSAIDs. Coeliac disease: gluten-free diet.", "k": ["Diabetes: low GI, high fibre, portion control", "Hypertension: DASH, low salt", "CKD: limit K+, phosphate, sodium", "Ascites: salt restriction"] },
+        { "h": "Nutrition support", "b": "Patients unable to eat enough may need nutrition support. Enteral nutrition (via the gut) is preferred if the gut works — oral supplements, nasogastric tube, or gastrostomy (PEG) for long-term needs; check nasogastric tube position (pH of aspirate ≤ 5.5 or chest X-ray) before feeding, and keep the head raised 30–45° to reduce aspiration. Parenteral nutrition (intravenous, usually via a central line) is used when the gut cannot be used (e.g. intestinal failure, severe obstruction); risks include line sepsis, hyperglycaemia and metabolic complications. Refeeding syndrome (hypophosphataemia, hypokalaemia, hypomagnesaemia) can occur when feeding malnourished patients — start slowly and monitor electrolytes.", "k": ["If the gut works, use it (enteral first)", "Check NG tube: aspirate pH ≤ 5.5 or X-ray", "Head up 30–45° during feeds", "PN risks: sepsis, hyperglycaemia"] }
+      ],
+      "q": [
+        ["For a person with diabetes, the best carbohydrate choice is:", "Sugary soft drinks", "High-fibre, low glycaemic index foods such as beans", "White bread with jam", "Sweets", "Honey", 1, "Low-GI foods cause slower glucose rise."],
+        ["Patients with hypertension should mainly restrict:", "Water", "Salt, including bouillon cubes", "Vegetables", "Fruits", "Fibre", 1, "Sodium restriction lowers blood pressure."],
+        ["A patient with chronic kidney disease and hyperkalaemia should limit:", "Rice", "Bananas and oranges", "Bread", "Sugar", "Oil", 1, "These fruits are high in potassium."],
+        ["The preferred route of nutrition support when the gut functions is:", "Parenteral", "Enteral", "Intramuscular", "Subcutaneous", "Rectal only", 1, "'If the gut works, use it.'"],
+        ["Before feeding through a nasogastric tube, position is confirmed by aspirate pH of:", "≤ 5.5", "7.4", "≥ 9", "Any value", "Exactly 7", 0, "Acidic aspirate suggests gastric placement."],
+        ["During nasogastric feeding, the head of the bed should be raised to reduce:", "Diarrhoea", "Aspiration", "Hypoglycaemia", "Pressure ulcers only", "Fever", 1, "Elevation of 30–45° reduces reflux and aspiration."],
+        ["Low phosphate, potassium and magnesium after starting feeds in a malnourished patient suggest:", "Dumping syndrome", "Refeeding syndrome", "Lactose intolerance", "Diabetes insipidus", "Hyperthyroidism", 1, "Insulin surge drives these ions into cells."],
+        ["A gluten-free diet is the treatment for:", "Diabetes", "Coeliac disease", "Hypertension", "Gout", "Peptic ulcer", 1, "Gluten triggers the immune enteropathy in coeliac disease."]
+      ]
+    }
+  ]
+}

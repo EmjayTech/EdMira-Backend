@@ -1,0 +1,662 @@
+{
+ "courses": [
+  {
+   "title": "Amino Acid, Nucleotide and Haem Metabolism",
+   "code": "BCH302",
+   "color": "#9333EA",
+   "description": "Nitrogen metabolism and the urea cycle, amino acid disorders, purine and pyrimidine metabolism, haem synthesis and breakdown, and integration of metabolism.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "300 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "300 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "300 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "300 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Anatomy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Nitrogen Metabolism and the Urea Cycle",
+     "order": 1,
+     "summary": "Transamination, deamination, ammonia transport and the urea cycle.",
+     "material": [
+      {
+       "heading": "Removing amino groups",
+       "body": "Amino acids lose their amino groups by transamination to α-ketoglutarate, forming glutamate; aminotransferases require pyridoxal phosphate (vitamin B6). Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) are clinical markers of liver damage. Glutamate dehydrogenase then releases free ammonia (oxidative deamination). Ammonia is toxic, especially to the brain; it is transported from tissues as glutamine and from muscle as alanine (glucose–alanine cycle).",
+       "keyPoints": [
+        "Transamination needs vitamin B6",
+        "ALT/AST: liver injury markers",
+        "Ammonia carried as glutamine and alanine"
+       ]
+      },
+      {
+       "heading": "Urea cycle",
+       "body": "The urea cycle in the liver converts ammonia to urea, partly in mitochondria and partly in the cytosol. Carbamoyl phosphate synthetase I (rate-limiting, activated by N-acetylglutamate) forms carbamoyl phosphate; ornithine transcarbamylase forms citrulline; argininosuccinate synthetase and lyase follow; arginase releases urea and regenerates ornithine. The second nitrogen comes from aspartate. Defects (e.g. ornithine transcarbamylase deficiency, X-linked) cause hyperammonaemia, vomiting, lethargy and encephalopathy. In liver failure, ammonia accumulates, causing hepatic encephalopathy (treated with lactulose).",
+       "keyPoints": [
+        "Urea cycle in liver (mitochondria + cytosol)",
+        "CPS-I is rate-limiting",
+        "OTC deficiency: X-linked hyperammonaemia",
+        "Lactulose for hepatic encephalopathy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Transamination reactions require the coenzyme derived from:",
+       "options": [
+        "Biotin",
+        "Folate",
+        "Pyridoxine (B6)",
+        "Thiamine",
+        "Riboflavin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pyridoxal phosphate is the aminotransferase coenzyme."
+      },
+      {
+       "stem": "The rate-limiting enzyme of the urea cycle is:",
+       "options": [
+        "Arginase",
+        "Ornithine transcarbamylase",
+        "Argininosuccinate lyase",
+        "Carbamoyl phosphate synthetase I",
+        "Glutaminase"
+       ],
+       "answerIndex": 3,
+       "explanation": "CPS-I is activated by N-acetylglutamate."
+      },
+      {
+       "stem": "Urea is synthesised in the:",
+       "options": [
+        "Muscle",
+        "Liver",
+        "Kidney",
+        "Intestine",
+        "Brain"
+       ],
+       "answerIndex": 1,
+       "explanation": "The urea cycle enzymes are hepatic."
+      },
+      {
+       "stem": "Ammonia is transported from peripheral tissues to the liver mainly as:",
+       "options": [
+        "Uric acid",
+        "Glutamine",
+        "Ammonium chloride",
+        "Creatinine",
+        "Urea"
+       ],
+       "answerIndex": 1,
+       "explanation": "Glutamine is a non-toxic carrier of ammonia."
+      },
+      {
+       "stem": "The enzyme that releases urea from arginine is:",
+       "options": [
+        "Aspartase",
+        "Transaminase",
+        "Glutamate dehydrogenase",
+        "Urease",
+        "Arginase"
+       ],
+       "answerIndex": 4,
+       "explanation": "Arginase cleaves arginine to urea and ornithine."
+      },
+      {
+       "stem": "The most common urea cycle disorder, inherited as X-linked, is deficiency of:",
+       "options": [
+        "Arginase",
+        "CPS-I",
+        "N-acetylglutamate synthase",
+        "Argininosuccinate synthetase",
+        "Ornithine transcarbamylase"
+       ],
+       "answerIndex": 4,
+       "explanation": "OTC deficiency causes hyperammonaemia."
+      },
+      {
+       "stem": "Lactulose is used in hepatic encephalopathy to:",
+       "options": [
+        "Raise blood glucose",
+        "Stimulate the urea cycle directly",
+        "Increase ammonia absorption",
+        "Reduce ammonia absorption from the gut",
+        "Increase protein synthesis"
+       ],
+       "answerIndex": 3,
+       "explanation": "It acidifies the colon, trapping ammonia as NH4+."
+      },
+      {
+       "stem": "Which enzyme is the more liver-specific marker of hepatocyte damage?",
+       "options": [
+        "AST",
+        "Amylase",
+        "LDH",
+        "ALT",
+        "Creatine kinase"
+       ],
+       "answerIndex": 3,
+       "explanation": "ALT is found mainly in the liver."
+      }
+     ]
+    },
+    {
+     "title": "Amino Acid Derivatives and Inborn Errors",
+     "order": 2,
+     "summary": "Special products of amino acids and disorders such as phenylketonuria and albinism.",
+     "material": [
+      {
+       "heading": "Special products",
+       "body": "Amino acids are precursors of important molecules: tyrosine → dopamine, noradrenaline, adrenaline, thyroid hormones and melanin; tryptophan → serotonin, melatonin and niacin; histidine → histamine; glycine → haem (with succinyl-CoA), creatine and glutathione; arginine → nitric oxide; glutamate → GABA (via glutamate decarboxylase, B6-dependent). Amino acids are glucogenic (most), ketogenic (leucine and lysine only) or both (phenylalanine, tyrosine, tryptophan, isoleucine, threonine).",
+       "keyPoints": [
+        "Tyrosine → catecholamines, thyroxine, melanin",
+        "Tryptophan → serotonin, melatonin, niacin",
+        "Arginine → nitric oxide",
+        "Leucine and lysine are purely ketogenic"
+       ]
+      },
+      {
+       "heading": "Inborn errors",
+       "body": "Phenylketonuria (PKU) — deficiency of phenylalanine hydroxylase (autosomal recessive) — causes phenylalanine accumulation, intellectual disability, seizures, a musty odour and fair skin; it is detected by newborn screening and treated with a low-phenylalanine diet (tyrosine becomes essential). Albinism results from tyrosinase deficiency (no melanin). Alkaptonuria (homogentisate oxidase deficiency) causes dark urine on standing and ochronosis. Maple syrup urine disease is a defect of branched-chain α-keto acid dehydrogenase (leucine, isoleucine, valine). Homocystinuria causes lens dislocation and thrombosis.",
+       "keyPoints": [
+        "PKU: phenylalanine hydroxylase, low-Phe diet",
+        "Albinism: tyrosinase deficiency",
+        "Alkaptonuria: urine darkens on standing",
+        "MSUD: branched-chain amino acids"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Serotonin is synthesised from:",
+       "options": [
+        "Tyrosine",
+        "Arginine",
+        "Tryptophan",
+        "Glycine",
+        "Histidine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Tryptophan → 5-hydroxytryptophan → serotonin."
+      },
+      {
+       "stem": "Nitric oxide is produced from:",
+       "options": [
+        "Glutamate",
+        "Serine",
+        "Arginine",
+        "Alanine",
+        "Lysine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Nitric oxide synthase converts arginine to citrulline and NO."
+      },
+      {
+       "stem": "Phenylketonuria is caused by deficiency of:",
+       "options": [
+        "Branched-chain keto acid dehydrogenase",
+        "Tyrosine aminotransferase",
+        "Homogentisate oxidase",
+        "Phenylalanine hydroxylase",
+        "Tyrosinase"
+       ],
+       "answerIndex": 3,
+       "explanation": "Phenylalanine cannot be converted to tyrosine."
+      },
+      {
+       "stem": "In PKU, which amino acid becomes essential?",
+       "options": [
+        "Phenylalanine",
+        "Alanine",
+        "Tyrosine",
+        "Glycine",
+        "Tryptophan"
+       ],
+       "answerIndex": 2,
+       "explanation": "Tyrosine must be supplied because it cannot be made from phenylalanine."
+      },
+      {
+       "stem": "Albinism results from deficiency of:",
+       "options": [
+        "Dopa decarboxylase",
+        "Homogentisate oxidase",
+        "Phenylalanine hydroxylase",
+        "Histidase",
+        "Tyrosinase"
+       ],
+       "answerIndex": 4,
+       "explanation": "Tyrosinase is needed for melanin synthesis."
+      },
+      {
+       "stem": "Urine that turns black on standing suggests:",
+       "options": [
+        "Maple syrup urine disease",
+        "Porphyria cutanea tarda",
+        "Alkaptonuria",
+        "PKU",
+        "Homocystinuria"
+       ],
+       "answerIndex": 2,
+       "explanation": "Homogentisic acid oxidises to a dark pigment."
+      },
+      {
+       "stem": "Which amino acids are exclusively ketogenic?",
+       "options": [
+        "Alanine and glycine",
+        "Proline and arginine",
+        "Glutamate and aspartate",
+        "Leucine and lysine",
+        "Serine and threonine"
+       ],
+       "answerIndex": 3,
+       "explanation": "They produce only acetyl-CoA or acetoacetate."
+      },
+      {
+       "stem": "Histamine is formed by decarboxylation of:",
+       "options": [
+        "Tryptophan",
+        "Tyrosine",
+        "Arginine",
+        "Histidine",
+        "Glutamate"
+       ],
+       "answerIndex": 3,
+       "explanation": "Histidine decarboxylase forms histamine."
+      }
+     ]
+    },
+    {
+     "title": "Purine and Pyrimidine Metabolism",
+     "order": 3,
+     "summary": "Nucleotide synthesis and salvage, uric acid, gout and drugs acting on nucleotide metabolism.",
+     "material": [
+      {
+       "heading": "Synthesis",
+       "body": "Purines (adenine, guanine) are built on ribose-5-phosphate (from PRPP) using glycine, glutamine, aspartate, CO2 and folate-derived one-carbon units; the first product is IMP. Pyrimidines (cytosine, uracil, thymine) are made as a ring (from carbamoyl phosphate via CPS-II and aspartate) and then attached to PRPP. Ribonucleotide reductase makes deoxyribonucleotides (inhibited by hydroxyurea). Thymidylate synthase converts dUMP to dTMP using methylene-tetrahydrofolate (inhibited by 5-fluorouracil); dihydrofolate reductase regenerates tetrahydrofolate (inhibited by methotrexate in humans and trimethoprim in bacteria). Salvage pathways recycle bases: HGPRT salvages hypoxanthine and guanine.",
+       "keyPoints": [
+        "Purine synthesis starts from PRPP → IMP",
+        "Hydroxyurea inhibits ribonucleotide reductase",
+        "Methotrexate and trimethoprim inhibit DHFR",
+        "5-FU inhibits thymidylate synthase"
+       ]
+      },
+      {
+       "heading": "Uric acid and gout",
+       "body": "Purines are degraded to uric acid via xanthine oxidase (hypoxanthine → xanthine → uric acid). Humans lack uricase, so uric acid is the end product. Gout results from hyperuricaemia with deposition of monosodium urate crystals (needle-shaped, negatively birefringent) in joints — classically the first metatarsophalangeal joint (podagra) — and tophi. Causes include underexcretion (most), overproduction, alcohol, thiazide diuretics, and tumour lysis during chemotherapy. Allopurinol (and febuxostat) inhibits xanthine oxidase. Lesch–Nyhan syndrome (HGPRT deficiency, X-linked) causes hyperuricaemia, intellectual disability and self-mutilation.",
+       "keyPoints": [
+        "Xanthine oxidase → uric acid",
+        "Gout: urate crystals, negatively birefringent, big toe",
+        "Allopurinol inhibits xanthine oxidase",
+        "Lesch–Nyhan: HGPRT deficiency"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The end product of purine catabolism in humans is:",
+       "options": [
+        "Ammonia",
+        "Urea",
+        "Uric acid",
+        "β-alanine",
+        "Allantoin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Humans lack uricase."
+      },
+      {
+       "stem": "Allopurinol treats gout by inhibiting:",
+       "options": [
+        "Xanthine oxidase",
+        "Ribonucleotide reductase",
+        "Adenosine deaminase",
+        "HGPRT",
+        "Uricase"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces uric acid formation."
+      },
+      {
+       "stem": "Methotrexate inhibits:",
+       "options": [
+        "Ribonucleotide reductase",
+        "Xanthine oxidase",
+        "DNA polymerase",
+        "Dihydrofolate reductase",
+        "Thymidylate synthase"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks regeneration of tetrahydrofolate."
+      },
+      {
+       "stem": "Hydroxyurea inhibits:",
+       "options": [
+        "Thymidylate synthase",
+        "Topoisomerase",
+        "Dihydrofolate reductase",
+        "Xanthine oxidase",
+        "Ribonucleotide reductase"
+       ],
+       "answerIndex": 4,
+       "explanation": "It blocks deoxyribonucleotide synthesis."
+      },
+      {
+       "stem": "Monosodium urate crystals in gout are:",
+       "options": [
+        "Rhomboid and positively birefringent",
+        "Coffin-lid shaped",
+        "Envelope-shaped",
+        "Round and non-birefringent",
+        "Needle-shaped and negatively birefringent"
+       ],
+       "answerIndex": 4,
+       "explanation": "Needle-shaped negatively birefringent crystals are diagnostic."
+      },
+      {
+       "stem": "The joint classically affected first in gout is the:",
+       "options": [
+        "Knee",
+        "First metatarsophalangeal joint",
+        "Hip",
+        "Shoulder",
+        "Wrist"
+       ],
+       "answerIndex": 1,
+       "explanation": "Podagra affects the big toe."
+      },
+      {
+       "stem": "Lesch–Nyhan syndrome is due to deficiency of:",
+       "options": [
+        "Adenosine deaminase",
+        "Xanthine oxidase",
+        "Uricase",
+        "HGPRT",
+        "PRPP synthetase"
+       ],
+       "answerIndex": 3,
+       "explanation": "Loss of purine salvage raises uric acid."
+      },
+      {
+       "stem": "5-Fluorouracil acts by inhibiting:",
+       "options": [
+        "Dihydrofolate reductase",
+        "Ribonucleotide reductase",
+        "DNA ligase",
+        "Thymidylate synthase",
+        "Xanthine oxidase"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks dTMP synthesis."
+      }
+     ]
+    },
+    {
+     "title": "Haem Synthesis, Breakdown and Jaundice",
+     "order": 4,
+     "summary": "Porphyrin synthesis, porphyrias, bilirubin metabolism and types of jaundice.",
+     "material": [
+      {
+       "heading": "Haem synthesis",
+       "body": "Haem is synthesised mainly in bone marrow and liver, partly in mitochondria and partly in the cytosol. The first and rate-limiting step, in mitochondria, is condensation of glycine and succinyl-CoA by δ-aminolevulinic acid (ALA) synthase (requires vitamin B6; inhibited by haem). Lead inhibits ALA dehydratase and ferrochelatase, causing microcytic anaemia with basophilic stippling. Porphyrias are enzyme defects in the pathway: acute intermittent porphyria (porphobilinogen deaminase deficiency) causes abdominal pain, neuropsychiatric symptoms and dark urine, precipitated by drugs such as barbiturates; porphyria cutanea tarda causes photosensitive blistering skin.",
+       "keyPoints": [
+        "ALA synthase: rate-limiting, needs B6",
+        "Lead inhibits ALA dehydratase and ferrochelatase",
+        "AIP: abdominal pain, neuropsychiatric, triggered by drugs",
+        "PCT: photosensitive skin"
+       ]
+      },
+      {
+       "heading": "Bilirubin and jaundice",
+       "body": "Old red cells are broken down by macrophages: haem → biliverdin (haem oxygenase) → unconjugated bilirubin, which travels bound to albumin to the liver. Hepatocytes conjugate it with glucuronic acid (UDP-glucuronyl transferase), making water-soluble conjugated bilirubin, excreted in bile. Gut bacteria convert it to urobilinogen (some reabsorbed and excreted in urine) and stercobilin (brown stool colour). Jaundice appears when bilirubin exceeds about 35–50 µmol/L. Pre-hepatic (haemolytic) jaundice: raised unconjugated bilirubin, no bilirubin in urine, increased urobilinogen. Hepatic jaundice (hepatitis): mixed. Post-hepatic (obstructive) jaundice: raised conjugated bilirubin, dark urine, pale stools, pruritus, absent urinary urobilinogen. Neonatal jaundice is common because of immature conjugation; very high unconjugated bilirubin can cause kernicterus. Gilbert syndrome is a mild benign conjugation defect.",
+       "keyPoints": [
+        "Haem → biliverdin → unconjugated bilirubin",
+        "Conjugation by UDP-glucuronyl transferase",
+        "Obstructive: dark urine, pale stools",
+        "Kernicterus from unconjugated bilirubin in neonates"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The rate-limiting enzyme of haem synthesis is:",
+       "options": [
+        "ALA dehydratase",
+        "Porphobilinogen deaminase",
+        "ALA synthase",
+        "Haem oxygenase",
+        "Ferrochelatase"
+       ],
+       "answerIndex": 2,
+       "explanation": "ALA synthase catalyses the first committed step."
+      },
+      {
+       "stem": "Lead poisoning inhibits:",
+       "options": [
+        "ALA synthase and haem oxygenase",
+        "UDP-glucuronyl transferase",
+        "Glucose-6-phosphatase",
+        "Xanthine oxidase",
+        "ALA dehydratase and ferrochelatase"
+       ],
+       "answerIndex": 4,
+       "explanation": "This causes microcytic anaemia with basophilic stippling."
+      },
+      {
+       "stem": "Acute intermittent porphyria is due to deficiency of:",
+       "options": [
+        "Ferrochelatase",
+        "Uroporphyrinogen decarboxylase",
+        "Porphobilinogen deaminase",
+        "Haem oxygenase",
+        "ALA synthase"
+       ],
+       "answerIndex": 2,
+       "explanation": "It presents with abdominal pain and neuropsychiatric symptoms."
+      },
+      {
+       "stem": "Bilirubin is conjugated in the liver with:",
+       "options": [
+        "Sulphate",
+        "Glucuronic acid",
+        "Glycine",
+        "Albumin",
+        "Acetate"
+       ],
+       "answerIndex": 1,
+       "explanation": "UDP-glucuronyl transferase adds glucuronic acid."
+      },
+      {
+       "stem": "Pale stools and dark urine suggest:",
+       "options": [
+        "Iron deficiency",
+        "Physiological neonatal jaundice",
+        "Haemolytic jaundice",
+        "Obstructive (post-hepatic) jaundice",
+        "Gilbert syndrome"
+       ],
+       "answerIndex": 3,
+       "explanation": "Conjugated bilirubin cannot reach the gut and spills into urine."
+      },
+      {
+       "stem": "In haemolytic jaundice, urine bilirubin is:",
+       "options": [
+        "Replaced by stercobilin",
+        "Conjugated only",
+        "Markedly increased",
+        "Absent (acholuric)",
+        "Always positive"
+       ],
+       "answerIndex": 3,
+       "explanation": "Unconjugated bilirubin is albumin-bound and not filtered."
+      },
+      {
+       "stem": "The brown colour of normal stool is due to:",
+       "options": [
+        "Unconjugated bilirubin",
+        "Haemoglobin",
+        "Stercobilin",
+        "Urobilinogen",
+        "Biliverdin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Bacterial metabolism produces stercobilin."
+      },
+      {
+       "stem": "Kernicterus in newborns is caused by deposition in the brain of:",
+       "options": [
+        "Unconjugated bilirubin",
+        "Stercobilin",
+        "Biliverdin",
+        "Conjugated bilirubin",
+        "Urobilinogen"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lipid-soluble unconjugated bilirubin crosses the immature blood–brain barrier."
+      }
+     ]
+    },
+    {
+     "title": "Integration of Metabolism and Diabetes Biochemistry",
+     "order": 5,
+     "summary": "Organ-specific metabolism, hormonal control, and biochemical changes in diabetes mellitus.",
+     "material": [
+      {
+       "heading": "Organ metabolism",
+       "body": "The brain uses about 120 g of glucose daily and can use ketone bodies in prolonged starvation but not fatty acids. Red cells use only glucose (glycolysis). Skeletal muscle uses glucose, fatty acids and ketones, stores glycogen, and releases alanine and lactate. Adipose tissue stores triglyceride and releases fatty acids and glycerol. The liver is the metabolic hub: glycogen storage, gluconeogenesis, ketogenesis, lipoprotein synthesis, urea synthesis. Insulin is anabolic; glucagon, adrenaline, cortisol and growth hormone are counter-regulatory (raise glucose).",
+       "keyPoints": [
+        "Brain: glucose (ketones in starvation), not fatty acids",
+        "Red cells: glucose only",
+        "Liver: metabolic hub",
+        "Counter-regulatory: glucagon, adrenaline, cortisol, GH"
+       ]
+      },
+      {
+       "heading": "Diabetes mellitus",
+       "body": "In insulin deficiency, glucose uptake falls while hepatic glucose output (glycogenolysis and gluconeogenesis) rises, producing hyperglycaemia, glycosuria and osmotic diuresis (polyuria, polydipsia). Lipolysis increases fatty acid delivery to the liver, where low insulin/high glucagon favours ketogenesis — leading to diabetic ketoacidosis in type 1 diabetes. In type 2 diabetes, severe hyperglycaemia without significant ketosis causes the hyperosmolar hyperglycaemic state. Chronic hyperglycaemia causes non-enzymatic glycation of proteins (HbA1c reflects average glucose over ~2–3 months) and activates the polyol (sorbitol) pathway, contributing to cataracts, neuropathy, nephropathy and retinopathy.",
+       "keyPoints": [
+        "Insulin deficiency → hyperglycaemia, ketogenesis",
+        "HbA1c reflects ~3 months' glucose",
+        "Sorbitol pathway → cataract, neuropathy",
+        "HHS in type 2 diabetes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which fuel can the brain NOT use directly?",
+       "options": [
+        "Fatty acids",
+        "Lactate (to a small extent)",
+        "Ketone bodies",
+        "β-hydroxybutyrate",
+        "Glucose"
+       ],
+       "answerIndex": 0,
+       "explanation": "Long-chain fatty acids do not cross the blood–brain barrier effectively."
+      },
+      {
+       "stem": "Red blood cells depend entirely on:",
+       "options": [
+        "Ketone bodies",
+        "Amino acids",
+        "Fatty acids",
+        "Glucose",
+        "Glycerol"
+       ],
+       "answerIndex": 3,
+       "explanation": "Without mitochondria they use only glycolysis."
+      },
+      {
+       "stem": "Which hormone LOWERS blood glucose?",
+       "options": [
+        "Cortisol",
+        "Adrenaline",
+        "Glucagon",
+        "Growth hormone",
+        "Insulin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Insulin is the only major glucose-lowering hormone; the others are counter-regulatory."
+      },
+      {
+       "stem": "HbA1c reflects average blood glucose over about:",
+       "options": [
+        "1 day",
+        "1 week",
+        "2–3 months",
+        "1 year",
+        "5 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reflects glycation over the red cell lifespan."
+      },
+      {
+       "stem": "Polyuria in uncontrolled diabetes results from:",
+       "options": [
+        "Excess ADH",
+        "High aldosterone",
+        "Low GFR",
+        "Osmotic diuresis due to glycosuria",
+        "Low blood glucose"
+       ],
+       "answerIndex": 3,
+       "explanation": "Glucose in the tubule holds water."
+      },
+      {
+       "stem": "Diabetic ketoacidosis is most typical of:",
+       "options": [
+        "Pre-diabetes",
+        "Type 2 diabetes on diet control",
+        "Type 1 diabetes",
+        "Diabetes insipidus",
+        "Gestational diabetes only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Absolute insulin deficiency drives ketogenesis."
+      },
+      {
+       "stem": "Accumulation of sorbitol in the lens contributes to:",
+       "options": [
+        "Conjunctivitis",
+        "Glaucoma",
+        "Night blindness",
+        "Retinal detachment",
+        "Diabetic cataract"
+       ],
+       "answerIndex": 4,
+       "explanation": "Aldose reductase converts glucose to sorbitol, drawing in water."
+      },
+      {
+       "stem": "The organ acting as the 'metabolic hub' that performs gluconeogenesis, ketogenesis and urea synthesis is the:",
+       "options": [
+        "Heart",
+        "Brain",
+        "Liver",
+        "Muscle",
+        "Adipose tissue"
+       ],
+       "answerIndex": 2,
+       "explanation": "The liver integrates fuel metabolism."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

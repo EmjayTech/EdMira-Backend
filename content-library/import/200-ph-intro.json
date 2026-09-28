@@ -1,0 +1,651 @@
+{
+ "courses": [
+  {
+   "title": "Introduction to Public Health and Health Promotion",
+   "code": "PHS201",
+   "color": "#0D9488",
+   "description": "Concepts of health and disease, the history and functions of public health, determinants of health, levels of prevention, and health education and promotion.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "200 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "300 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "School/College of Nursing"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Concepts of Health and Disease",
+     "order": 1,
+     "summary": "Definitions of health, disease causation models and the natural history of disease.",
+     "material": [
+      {
+       "heading": "Health and disease",
+       "body": "The World Health Organization (1948) defined health as 'a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity'. Disease is a disturbance in the structure or function of the body; illness is the person's subjective experience; sickness is the social role. Models of causation: the epidemiological triad (agent, host, environment), the web of causation (many interacting factors, useful for non-communicable diseases) and the wheel model.",
+       "keyPoints": [
+        "WHO definition (1948): complete physical, mental and social well-being",
+        "Epidemiological triad: agent, host, environment",
+        "Web of causation for chronic diseases"
+       ]
+      },
+      {
+       "heading": "Natural history of disease",
+       "body": "The natural history of disease describes its course without intervention: the pre-pathogenesis phase (interaction of agent, host and environment before disease begins) and the pathogenesis phase (from infection/onset through subclinical and clinical stages to recovery, disability or death). The incubation period is the time from infection to onset of symptoms; the latent period applies to non-infectious diseases. Understanding this helps choose points for prevention.",
+       "keyPoints": [
+        "Pre-pathogenesis and pathogenesis phases",
+        "Incubation period: infection → symptoms"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The WHO definition of health was adopted in:",
+       "options": [
+        "1918",
+        "1948",
+        "1978",
+        "2000",
+        "2015"
+       ],
+       "answerIndex": 1,
+       "explanation": "It appears in the WHO Constitution of 1948."
+      },
+      {
+       "stem": "According to WHO, health includes physical, mental and ___ well-being.",
+       "options": [
+        "Financial",
+        "Political",
+        "Religious",
+        "Social",
+        "Educational"
+       ],
+       "answerIndex": 3,
+       "explanation": "Complete physical, mental and social well-being."
+      },
+      {
+       "stem": "The epidemiological triad consists of:",
+       "options": [
+        "Agent, host, environment",
+        "Incidence, prevalence, mortality",
+        "Prevention, promotion, cure",
+        "Person, place, time",
+        "Vector, reservoir, host"
+       ],
+       "answerIndex": 0,
+       "explanation": "Disease results from interaction of agent, host and environment."
+      },
+      {
+       "stem": "The web of causation is most useful for understanding:",
+       "options": [
+        "Cholera",
+        "Tetanus",
+        "Coronary heart disease",
+        "Rabies",
+        "Measles"
+       ],
+       "answerIndex": 2,
+       "explanation": "Chronic diseases have many interacting causes."
+      },
+      {
+       "stem": "The time between infection and the appearance of symptoms is the:",
+       "options": [
+        "Incubation period",
+        "Window period",
+        "Latent period",
+        "Generation time",
+        "Communicable period"
+       ],
+       "answerIndex": 0,
+       "explanation": "The incubation period applies to infectious diseases."
+      },
+      {
+       "stem": "The phase of natural history before disease begins is:",
+       "options": [
+        "Terminal stage",
+        "Clinical stage",
+        "Convalescence",
+        "Pathogenesis",
+        "Pre-pathogenesis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pre-pathogenesis is when risk factors interact before onset."
+      },
+      {
+       "stem": "A person's subjective feeling of being unwell is best termed:",
+       "options": [
+        "Sickness",
+        "Impairment",
+        "Disease",
+        "Handicap",
+        "Illness"
+       ],
+       "answerIndex": 4,
+       "explanation": "Illness is the personal experience of ill health."
+      },
+      {
+       "stem": "In the epidemiological triad, a mosquito that transmits malaria is part of the:",
+       "options": [
+        "Host",
+        "Agent",
+        "Outcome",
+        "Treatment",
+        "Environment"
+       ],
+       "answerIndex": 4,
+       "explanation": "Vectors are usually grouped with environmental factors."
+      }
+     ]
+    },
+    {
+     "title": "History and Functions of Public Health",
+     "order": 2,
+     "summary": "Milestones in public health, the essential public health functions, and Alma-Ata.",
+     "material": [
+      {
+       "heading": "Milestones",
+       "body": "Public health is 'the science and art of preventing disease, prolonging life and promoting health through the organised efforts of society' (Winslow, 1920; Acheson, 1988). Milestones: Edward Jenner's smallpox vaccination (1796); John Snow's removal of the Broad Street pump handle during the London cholera outbreak (1854), founding modern epidemiology; the germ theory (Pasteur, Koch); the eradication of smallpox (declared 1980); the Alma-Ata Declaration (1978) on primary health care; the Ottawa Charter for Health Promotion (1986); the Millennium Development Goals (2000–2015) and Sustainable Development Goals (2015–2030, SDG 3 on health).",
+       "keyPoints": [
+        "Jenner: smallpox vaccine (1796)",
+        "John Snow: cholera and Broad Street pump (1854)",
+        "Smallpox eradicated (1980)",
+        "Alma-Ata (1978); Ottawa Charter (1986); SDG 3"
+       ]
+      },
+      {
+       "heading": "Functions",
+       "body": "Essential public health functions include health surveillance and monitoring, outbreak investigation and control, health promotion, disease prevention (immunisation, screening), environmental health, health policy and planning, regulation and enforcement, and workforce development. In Nigeria, the Nigeria Centre for Disease Control and Prevention (NCDC) leads surveillance and outbreak response; the National Primary Health Care Development Agency (NPHCDA) oversees primary health care and immunisation.",
+       "keyPoints": [
+        "Surveillance, prevention, promotion, policy",
+        "NCDC: outbreaks and surveillance",
+        "NPHCDA: primary health care and immunisation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "John Snow is famous for investigating an outbreak of:",
+       "options": [
+        "Cholera",
+        "Yellow fever",
+        "Typhoid",
+        "Smallpox",
+        "Plague"
+       ],
+       "answerIndex": 0,
+       "explanation": "He linked cholera to the Broad Street water pump in 1854."
+      },
+      {
+       "stem": "Smallpox was declared eradicated in:",
+       "options": [
+        "1967",
+        "1977",
+        "1980",
+        "1990",
+        "2000"
+       ],
+       "answerIndex": 2,
+       "explanation": "WHO certified global eradication in 1980."
+      },
+      {
+       "stem": "The first vaccine was developed by:",
+       "options": [
+        "Robert Koch",
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Jonas Salk",
+        "Albert Sabin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Jenner used cowpox to protect against smallpox in 1796."
+      },
+      {
+       "stem": "The Ottawa Charter (1986) is concerned with:",
+       "options": [
+        "Tobacco control",
+        "Health promotion",
+        "Primary health care",
+        "Antimicrobial resistance",
+        "Malaria eradication"
+       ],
+       "answerIndex": 1,
+       "explanation": "It set out action areas for health promotion."
+      },
+      {
+       "stem": "The Sustainable Development Goal focused on health is:",
+       "options": [
+        "SDG 1",
+        "SDG 3",
+        "SDG 6",
+        "SDG 17",
+        "SDG 10"
+       ],
+       "answerIndex": 1,
+       "explanation": "SDG 3: ensure healthy lives and promote well-being for all."
+      },
+      {
+       "stem": "The Nigerian agency that leads disease surveillance and outbreak response is the:",
+       "options": [
+        "NHIA",
+        "NPHCDA",
+        "NUC",
+        "NCDC",
+        "NAFDAC"
+       ],
+       "answerIndex": 3,
+       "explanation": "The Nigeria Centre for Disease Control and Prevention."
+      },
+      {
+       "stem": "The agency responsible for primary health care and routine immunisation in Nigeria is the:",
+       "options": [
+        "NPHCDA",
+        "FMC",
+        "NHIS",
+        "NCDC",
+        "NIMR"
+       ],
+       "answerIndex": 0,
+       "explanation": "The National Primary Health Care Development Agency."
+      },
+      {
+       "stem": "Public health primarily focuses on:",
+       "options": [
+        "Hospital billing",
+        "Pharmaceutical sales",
+        "Organised efforts to protect and improve population health",
+        "Private practice only",
+        "Individual surgical treatment"
+       ],
+       "answerIndex": 2,
+       "explanation": "Public health works at the population level."
+      }
+     ]
+    },
+    {
+     "title": "Determinants of Health and Health Inequalities",
+     "order": 3,
+     "summary": "Social, economic, environmental and behavioural determinants of health.",
+     "material": [
+      {
+       "heading": "Determinants",
+       "body": "Health is shaped by determinants beyond health care: individual factors (age, sex, genetics), lifestyle behaviours (diet, physical activity, smoking, alcohol, sexual behaviour), social and community networks, living and working conditions (education, employment, housing, water and sanitation, food security, health services) and general socio-economic, cultural and environmental conditions — as shown in the Dahlgren–Whitehead 'rainbow' model. The social determinants of health are the conditions in which people are born, grow, live, work and age.",
+       "keyPoints": [
+        "Dahlgren–Whitehead rainbow model",
+        "Social determinants: conditions where people live and work",
+        "Education and income strongly affect health"
+       ]
+      },
+      {
+       "heading": "Inequalities and equity",
+       "body": "Health inequalities are measurable differences in health between groups; health inequities are those differences that are unfair and avoidable. In Nigeria, indicators such as maternal mortality, under-five mortality and immunisation coverage vary widely by geopolitical zone, rural/urban residence, wealth quintile and mother's education. Universal health coverage (UHC) aims for everyone to receive needed services without financial hardship; Nigeria's National Health Insurance Authority (NHIA Act 2022) supports this goal. Out-of-pocket spending remains a major barrier.",
+       "keyPoints": [
+        "Inequity = unfair, avoidable difference",
+        "UHC: services without financial hardship",
+        "NHIA Act 2022",
+        "High out-of-pocket spending in Nigeria"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The 'rainbow' model of health determinants was developed by:",
+       "options": [
+        "Leavell and Clark",
+        "Winslow",
+        "Maslow",
+        "Snow",
+        "Dahlgren and Whitehead"
+       ],
+       "answerIndex": 4,
+       "explanation": "Dahlgren and Whitehead's model shows layers of influence on health."
+      },
+      {
+       "stem": "Health differences that are unfair and avoidable are called:",
+       "options": [
+        "Health inequities",
+        "Health services",
+        "Health outcomes",
+        "Health indicators",
+        "Health inequalities"
+       ],
+       "answerIndex": 0,
+       "explanation": "Inequity implies injustice."
+      },
+      {
+       "stem": "Which is a social determinant of health?",
+       "options": [
+        "Blood group",
+        "Age",
+        "Genetic makeup",
+        "Level of education",
+        "Sex"
+       ],
+       "answerIndex": 3,
+       "explanation": "Education is a social and economic determinant."
+      },
+      {
+       "stem": "Universal health coverage means:",
+       "options": [
+        "Only civil servants are insured",
+        "Private hospitals only",
+        "Everyone can use needed health services without financial hardship",
+        "Free surgery only",
+        "Vaccines for adults only"
+       ],
+       "answerIndex": 2,
+       "explanation": "UHC combines service access and financial protection."
+      },
+      {
+       "stem": "The Nigerian law establishing the National Health Insurance Authority was passed in:",
+       "options": [
+        "1999",
+        "2005",
+        "2014",
+        "2022",
+        "1988"
+       ],
+       "answerIndex": 3,
+       "explanation": "The NHIA Act 2022 replaced the NHIS Act."
+      },
+      {
+       "stem": "Smoking and physical inactivity are examples of:",
+       "options": [
+        "Political determinants",
+        "Environmental hazards only",
+        "Health services",
+        "Lifestyle (behavioural) determinants",
+        "Genetic determinants"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are individual behaviours affecting health."
+      },
+      {
+       "stem": "A major financial barrier to health care in Nigeria is:",
+       "options": [
+        "Low drug prices",
+        "High out-of-pocket spending",
+        "Excess insurance cover",
+        "Too many doctors",
+        "Universal free care"
+       ],
+       "answerIndex": 1,
+       "explanation": "Most health spending is paid directly by households."
+      },
+      {
+       "stem": "The conditions in which people are born, grow, live, work and age are called:",
+       "options": [
+        "Morbidity",
+        "Social determinants of health",
+        "Risk factors",
+        "Vital statistics",
+        "Health outcomes"
+       ],
+       "answerIndex": 1,
+       "explanation": "This is WHO's definition of social determinants."
+      }
+     ]
+    },
+    {
+     "title": "Levels of Prevention",
+     "order": 4,
+     "summary": "Primordial, primary, secondary, tertiary and quaternary prevention with examples.",
+     "material": [
+      {
+       "heading": "Levels",
+       "body": "Leavell and Clark described levels of prevention matched to the natural history of disease. Primordial prevention prevents the emergence of risk factors in a population (e.g. policies promoting healthy diets in children, tobacco-free laws). Primary prevention prevents disease in healthy people: health promotion (health education, nutrition) and specific protection (immunisation, insecticide-treated nets, condoms, iodised salt, seat belts). Secondary prevention is early detection and prompt treatment to halt progression (screening for hypertension, cervical cancer screening with VIA or Pap smear, contact tracing). Tertiary prevention limits disability and promotes rehabilitation in established disease (physiotherapy after stroke, diabetic foot care). Quaternary prevention protects patients from overmedicalisation.",
+       "keyPoints": [
+        "Primordial: stop risk factors emerging",
+        "Primary: immunisation, ITNs",
+        "Secondary: screening, early treatment",
+        "Tertiary: rehabilitation, limit disability"
+       ]
+      },
+      {
+       "heading": "Screening",
+       "body": "Screening detects unrecognised disease in apparently healthy people. Wilson and Jungner (WHO, 1968) criteria include: the condition is an important health problem; its natural history is understood; there is a recognisable early stage; an acceptable, accurate test exists; effective treatment is available; and the cost is balanced against benefits. Examples: neonatal sickle cell screening, antenatal HIV and syphilis screening, blood pressure measurement, mammography.",
+       "keyPoints": [
+        "Wilson–Jungner criteria (1968)",
+        "Screening = secondary prevention",
+        "Test must be acceptable and accurate"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Immunisation of children against measles is an example of:",
+       "options": [
+        "Secondary prevention",
+        "Tertiary prevention",
+        "Primordial prevention",
+        "Quaternary prevention",
+        "Primary prevention"
+       ],
+       "answerIndex": 4,
+       "explanation": "Specific protection is primary prevention."
+      },
+      {
+       "stem": "Screening women for cervical cancer is:",
+       "options": [
+        "Tertiary prevention",
+        "Primordial prevention",
+        "Health promotion only",
+        "Secondary prevention",
+        "Primary prevention"
+       ],
+       "answerIndex": 3,
+       "explanation": "Early detection and treatment is secondary prevention."
+      },
+      {
+       "stem": "Physiotherapy to regain function after a stroke is:",
+       "options": [
+        "Secondary prevention",
+        "Tertiary prevention",
+        "Specific protection",
+        "Primary prevention",
+        "Primordial prevention"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tertiary prevention limits disability."
+      },
+      {
+       "stem": "Banning advertisement of tobacco to prevent young people from starting to smoke is best described as:",
+       "options": [
+        "Secondary prevention",
+        "Rehabilitation",
+        "Tertiary prevention",
+        "Primordial prevention",
+        "Screening"
+       ],
+       "answerIndex": 3,
+       "explanation": "It prevents the risk factor from emerging in the population."
+      },
+      {
+       "stem": "The levels of prevention were described by:",
+       "options": [
+        "Leavell and Clark",
+        "Hepler and Strand",
+        "Dahlgren and Whitehead",
+        "Bradford Hill",
+        "Wilson and Jungner"
+       ],
+       "answerIndex": 0,
+       "explanation": "Leavell and Clark linked prevention to natural history."
+      },
+      {
+       "stem": "Criteria for a good screening programme were published by:",
+       "options": [
+        "Wilson and Jungner",
+        "Koch",
+        "Snow",
+        "Leavell and Clark",
+        "Nightingale"
+       ],
+       "answerIndex": 0,
+       "explanation": "WHO published the Wilson–Jungner criteria in 1968."
+      },
+      {
+       "stem": "Sleeping under an insecticide-treated net is:",
+       "options": [
+        "Secondary prevention",
+        "Primary prevention",
+        "Treatment",
+        "Tertiary prevention",
+        "Quaternary prevention"
+       ],
+       "answerIndex": 1,
+       "explanation": "It protects healthy people from infection."
+      },
+      {
+       "stem": "Avoiding unnecessary tests and treatments that could harm patients is:",
+       "options": [
+        "Primary prevention",
+        "Secondary prevention",
+        "Tertiary prevention",
+        "Primordial prevention",
+        "Quaternary prevention"
+       ],
+       "answerIndex": 4,
+       "explanation": "Quaternary prevention protects against overmedicalisation."
+      }
+     ]
+    },
+    {
+     "title": "Health Education and Health Promotion",
+     "order": 5,
+     "summary": "Principles, models of behaviour change, and methods of health communication.",
+     "material": [
+      {
+       "heading": "Concepts",
+       "body": "Health education provides learning experiences that help people make informed health decisions. Health promotion (Ottawa Charter, 1986) is 'the process of enabling people to increase control over, and to improve, their health'. Its five action areas: build healthy public policy, create supportive environments, strengthen community action, develop personal skills, and reorient health services. Strategies: advocate, enable and mediate. Principles of health education include participation, starting from the known, credibility, motivation, reinforcement and using the local language and culture.",
+       "keyPoints": [
+        "Health promotion: enabling control over health",
+        "Ottawa Charter: five action areas",
+        "Advocate, enable, mediate"
+       ]
+      },
+      {
+       "heading": "Behaviour change models and methods",
+       "body": "The Health Belief Model explains behaviour through perceived susceptibility, perceived severity, perceived benefits, perceived barriers, cues to action and self-efficacy. The Transtheoretical (Stages of Change) model (Prochaska and DiClemente) has stages: precontemplation, contemplation, preparation, action and maintenance (with possible relapse). Other models include the Theory of Planned Behaviour and the PRECEDE–PROCEED planning model. Methods include individual counselling, group talks, mass media, social media, drama, community mobilisation through traditional and religious leaders, and information–education–communication (IEC) materials in local languages.",
+       "keyPoints": [
+        "Health Belief Model: susceptibility, severity, benefits, barriers",
+        "Stages of change: precontemplation → maintenance",
+        "Use local languages and community leaders"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Health promotion is defined by the Ottawa Charter as:",
+       "options": [
+        "Providing free drugs",
+        "Treating the sick",
+        "Enabling people to increase control over and improve their health",
+        "Selling health insurance",
+        "Building hospitals"
+       ],
+       "answerIndex": 2,
+       "explanation": "This is the Ottawa Charter definition."
+      },
+      {
+       "stem": "Which is NOT one of the five Ottawa Charter action areas?",
+       "options": [
+        "Build healthy public policy",
+        "Create supportive environments",
+        "Strengthen community action",
+        "Increase drug imports",
+        "Reorient health services"
+       ],
+       "answerIndex": 3,
+       "explanation": "Drug imports are not an action area."
+      },
+      {
+       "stem": "In the Health Belief Model, a person's belief that they could get malaria is 'perceived':",
+       "options": [
+        "Self-efficacy",
+        "Barriers",
+        "Susceptibility",
+        "Severity",
+        "Benefits"
+       ],
+       "answerIndex": 2,
+       "explanation": "Perceived susceptibility is belief in personal risk."
+      },
+      {
+       "stem": "A smoker who is not even thinking about quitting is in the ___ stage.",
+       "options": [
+        "Contemplation",
+        "Preparation",
+        "Maintenance",
+        "Precontemplation",
+        "Action"
+       ],
+       "answerIndex": 3,
+       "explanation": "Precontemplation: no intention to change."
+      },
+      {
+       "stem": "The Stages of Change model was developed by:",
+       "options": [
+        "Bandura",
+        "Prochaska and DiClemente",
+        "Rosenstock",
+        "Green and Kreuter",
+        "Ajzen"
+       ],
+       "answerIndex": 1,
+       "explanation": "Prochaska and DiClemente's Transtheoretical Model."
+      },
+      {
+       "stem": "A key principle of effective health education in communities is to:",
+       "options": [
+        "Give orders without discussion",
+        "Use complex medical terms",
+        "Start from what people already know and use their language",
+        "Avoid community leaders",
+        "Use only English"
+       ],
+       "answerIndex": 2,
+       "explanation": "Relevance and understanding improve uptake."
+      },
+      {
+       "stem": "Posters, leaflets and flipcharts used for health education are called:",
+       "options": [
+        "ORS",
+        "PPE",
+        "EMR",
+        "DOTS",
+        "IEC materials"
+       ],
+       "answerIndex": 4,
+       "explanation": "Information, Education and Communication materials."
+      },
+      {
+       "stem": "In the Health Belief Model, a text message reminding a mother about immunisation is a:",
+       "options": [
+        "Relapse",
+        "Perceived barrier",
+        "Modifying factor",
+        "Perceived severity",
+        "Cue to action"
+       ],
+       "answerIndex": 4,
+       "explanation": "Cues to action trigger behaviour."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

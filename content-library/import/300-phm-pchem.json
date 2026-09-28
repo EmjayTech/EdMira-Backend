@@ -1,0 +1,643 @@
+{
+ "courses": [
+  {
+   "title": "Pharmaceutical and Medicinal Chemistry",
+   "code": "PCH301",
+   "color": "#0891B2",
+   "description": "Physicochemical properties and drug action, structure–activity relationships, drug stability and prodrugs, and the medicinal chemistry of major drug classes.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Physicochemical Properties and Drug Action",
+     "order": 1,
+     "summary": "Lipophilicity, partition coefficient, pKa, solubility and Lipinski's rule of five.",
+     "material": [
+      {
+       "heading": "Key properties",
+       "body": "Drug action depends on reaching the target and binding to it. Lipophilicity is measured by the partition coefficient (log P, octanol/water); moderate lipophilicity favours oral absorption and membrane crossing, while very high log P reduces solubility and increases tissue accumulation. pKa determines the proportion ionised at a given pH (Henderson–Hasselbalch): for an acid, pH − pKa = log([ionised]/[un-ionised]). Salt formation improves water solubility (e.g. hydrochlorides of bases; sodium salts of acids). Lipinski's rule of five predicts poor oral absorption when a molecule has more than 5 H-bond donors, more than 10 H-bond acceptors, molecular weight above 500 Da, or log P above 5.",
+       "keyPoints": [
+        "log P measures lipophilicity",
+        "pKa determines ionisation",
+        "Lipinski: ≤5 donors, ≤10 acceptors, MW ≤500, log P ≤5"
+       ]
+      },
+      {
+       "heading": "Drug–receptor binding",
+       "body": "Drugs bind targets through ionic bonds, hydrogen bonds, van der Waals forces, hydrophobic interactions and (rarely) covalent bonds (e.g. aspirin acetylating COX, penicillin acylating transpeptidases, organophosphates phosphorylating acetylcholinesterase). The pharmacophore is the arrangement of features necessary for activity. Bioisosteres are groups with similar physicochemical properties used to modify drugs (e.g. replacing –COOH with tetrazole in losartan). Stereochemistry matters because receptors are chiral.",
+       "keyPoints": [
+        "Most binding is reversible (ionic, H-bond, hydrophobic)",
+        "Covalent binders: aspirin, penicillin, organophosphates",
+        "Pharmacophore; bioisosteres (tetrazole for COOH)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Lipophilicity of a drug is commonly expressed as:",
+       "options": [
+        "Km",
+        "t½",
+        "pKa",
+        "log P",
+        "Vd"
+       ],
+       "answerIndex": 3,
+       "explanation": "The octanol–water partition coefficient."
+      },
+      {
+       "stem": "According to Lipinski's rule of five, poor absorption is likely if molecular weight exceeds:",
+       "options": [
+        "100 Da",
+        "250 Da",
+        "500 Da",
+        "1,000 Da",
+        "5,000 Da"
+       ],
+       "answerIndex": 2,
+       "explanation": "MW > 500 is one of the criteria."
+      },
+      {
+       "stem": "A weak acid drug with pKa 4.5 at pH 6.5 is mostly:",
+       "options": [
+        "Precipitated",
+        "Un-ionised",
+        "Ionised",
+        "Neutral",
+        "Equally ionised and un-ionised"
+       ],
+       "answerIndex": 2,
+       "explanation": "pH − pKa = 2; the ionised:un-ionised ratio is 100:1."
+      },
+      {
+       "stem": "Converting a basic drug to its hydrochloride salt mainly increases its:",
+       "options": [
+        "Molecular weight dramatically",
+        "Toxicity",
+        "Lipid solubility",
+        "Water solubility",
+        "Half-life"
+       ],
+       "answerIndex": 3,
+       "explanation": "Salts of weak bases dissolve better in water."
+      },
+      {
+       "stem": "Aspirin irreversibly inhibits cyclo-oxygenase by:",
+       "options": [
+        "Van der Waals forces",
+        "Hydrogen bonding",
+        "Acetylating a serine residue (covalent bond)",
+        "Chelation",
+        "Ionic bonding only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Covalent acetylation makes the inhibition irreversible."
+      },
+      {
+       "stem": "The essential arrangement of structural features required for a drug's activity is its:",
+       "options": [
+        "Prodrug",
+        "Metabolite",
+        "Isomer",
+        "Excipient",
+        "Pharmacophore"
+       ],
+       "answerIndex": 4,
+       "explanation": "The pharmacophore defines key binding features."
+      },
+      {
+       "stem": "In losartan, a tetrazole ring replaces a carboxylic acid as a:",
+       "options": [
+        "Prodrug",
+        "Bioisostere",
+        "Chiral centre",
+        "Metabolite",
+        "Salt"
+       ],
+       "answerIndex": 1,
+       "explanation": "Bioisosteres mimic the properties of the original group."
+      },
+      {
+       "stem": "Which property most influences whether a drug is ionised at physiological pH?",
+       "options": [
+        "Odour",
+        "Molar volume only",
+        "pKa",
+        "Melting point",
+        "Colour"
+       ],
+       "answerIndex": 2,
+       "explanation": "pKa relative to pH determines ionisation."
+      }
+     ]
+    },
+    {
+     "title": "Structure–Activity Relationships and Prodrugs",
+     "order": 2,
+     "summary": "SAR principles, QSAR, prodrug strategies and drug stability.",
+     "material": [
+      {
+       "heading": "SAR",
+       "body": "Structure–activity relationship (SAR) studies change parts of a lead molecule to see how activity changes, identifying groups essential for activity and allowing optimisation of potency, selectivity and pharmacokinetics. Quantitative SAR (QSAR) relates activity mathematically to physicochemical parameters (e.g. Hansch analysis using log P, electronic σ and steric parameters). Examples: adding a bulky N-substituent to adrenaline increases β-selectivity (isoprenaline, salbutamol); methylation of the catechol ring (as in salbutamol's saligenin) prevents COMT metabolism, allowing oral use.",
+       "keyPoints": [
+        "SAR: modify structure, observe activity",
+        "QSAR: Hansch analysis",
+        "Bulky N-substituent → β selectivity"
+       ]
+      },
+      {
+       "heading": "Prodrugs and stability",
+       "body": "A prodrug is inactive until metabolised to the active drug. Reasons: improve absorption (enalapril → enalaprilat; valaciclovir → aciclovir), target sites (levodopa crosses the blood–brain barrier then becomes dopamine), prolong action, or reduce toxicity or bad taste. Other prodrugs: codeine → morphine (CYP2D6), clopidogrel, proguanil → cycloguanil, cyclophosphamide, azathioprine → 6-mercaptopurine, and artemisinin derivatives (artesunate and artemether → dihydroartemisinin). Drugs degrade by hydrolysis (esters and amides — aspirin, penicillins), oxidation (adrenaline, vitamin C), photolysis (nifedipine, sodium nitroprusside) and racemisation; stability is improved by suitable pH, antioxidants, light-resistant packaging, low moisture and cool storage.",
+       "keyPoints": [
+        "Prodrugs: enalapril, valaciclovir, levodopa, codeine, clopidogrel",
+        "Artesunate → dihydroartemisinin",
+        "Degradation: hydrolysis, oxidation, photolysis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Enalapril is converted in the body to the active drug:",
+       "options": [
+        "Captopril",
+        "Lisinopril",
+        "Enalaprilat",
+        "Losartan",
+        "Ramipril"
+       ],
+       "answerIndex": 2,
+       "explanation": "Enalapril is an ester prodrug hydrolysed to enalaprilat."
+      },
+      {
+       "stem": "Levodopa is given instead of dopamine because levodopa:",
+       "options": [
+        "Crosses the blood–brain barrier",
+        "Is more potent",
+        "Is cheaper",
+        "Is not metabolised",
+        "Acts on peripheral receptors"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dopamine cannot cross the BBB; levodopa is carried in and decarboxylated."
+      },
+      {
+       "stem": "Codeine exerts its analgesic effect largely after conversion to morphine by:",
+       "options": [
+        "Glucuronyl transferase",
+        "Esterases",
+        "MAO",
+        "CYP2D6",
+        "CYP3A4"
+       ],
+       "answerIndex": 3,
+       "explanation": "Poor CYP2D6 metabolisers get little analgesia."
+      },
+      {
+       "stem": "Artesunate is converted in the body to:",
+       "options": [
+        "Dihydroartemisinin",
+        "Quinine",
+        "Chloroquine",
+        "Artemether",
+        "Lumefantrine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dihydroartemisinin is the active metabolite."
+      },
+      {
+       "stem": "The main degradation pathway of aspirin is:",
+       "options": [
+        "Photolysis",
+        "Polymerisation",
+        "Hydrolysis",
+        "Oxidation",
+        "Racemisation"
+       ],
+       "answerIndex": 2,
+       "explanation": "The ester hydrolyses to salicylic and acetic acid."
+      },
+      {
+       "stem": "Adrenaline injections turn pink/brown on degradation due to:",
+       "options": [
+        "Oxidation",
+        "Hydrolysis",
+        "Microbial growth",
+        "Photolysis only",
+        "Precipitation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Catecholamines oxidise to adrenochrome."
+      },
+      {
+       "stem": "QSAR relates biological activity to:",
+       "options": [
+        "Manufacturer",
+        "Patient age",
+        "Colour and taste",
+        "Physicochemical parameters mathematically",
+        "Price"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hansch analysis uses lipophilicity, electronic and steric parameters."
+      },
+      {
+       "stem": "Light-sensitive drugs such as nifedipine should be stored in:",
+       "options": [
+        "The freezer always",
+        "Plastic bags in sunlight",
+        "Clear glass",
+        "Amber or light-resistant containers",
+        "Open trays"
+       ],
+       "answerIndex": 3,
+       "explanation": "This prevents photodegradation."
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of Antimalarials",
+     "order": 3,
+     "summary": "Quinolines, artemisinins, antifolates and ACT combinations used in Nigeria.",
+     "material": [
+      {
+       "heading": "Classes",
+       "body": "4-Aminoquinolines (chloroquine, amodiaquine) accumulate in the parasite's acidic food vacuole and inhibit haem polymerisation to haemozoin, so toxic free haem kills the parasite; widespread chloroquine resistance (PfCRT mutations) ended its first-line use for falciparum malaria in Nigeria. Quinine (a quinoline methanol from Cinchona) and mefloquine act similarly. 8-Aminoquinolines (primaquine, tafenoquine) kill liver hypnozoites of P. vivax/ovale and gametocytes but cause haemolysis in G6PD deficiency. Artemisinins contain an endoperoxide bridge activated by iron/haem to generate free radicals, killing parasites rapidly. Antifolates: pyrimethamine (DHFR inhibitor) with sulfadoxine (dihydropteroate synthase inhibitor) — SP used for intermittent preventive treatment in pregnancy.",
+       "keyPoints": [
+        "Chloroquine: inhibits haem polymerisation",
+        "Primaquine: hypnozoites; haemolysis in G6PD deficiency",
+        "Artemisinins: endoperoxide bridge",
+        "SP: antifolate for IPTp"
+       ]
+      },
+      {
+       "heading": "ACTs and policy",
+       "body": "WHO and Nigeria's national malaria treatment guidelines recommend artemisinin-based combination therapies (ACTs) for uncomplicated falciparum malaria — artemether–lumefantrine (first line, taken with fatty food to improve lumefantrine absorption), artesunate–amodiaquine, dihydroartemisinin–piperaquine and others — combining a fast-acting artemisinin with a longer-acting partner to prevent resistance. Severe malaria is treated with injectable artesunate. Artemisinin monotherapy is discouraged. Seasonal malaria chemoprevention uses sulfadoxine–pyrimethamine plus amodiaquine in the Sahel region for young children.",
+       "keyPoints": [
+        "First line: artemether–lumefantrine (take with fat)",
+        "Severe malaria: IV/IM artesunate",
+        "Avoid artemisinin monotherapy",
+        "SMC: SP + amodiaquine in the Sahel"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Chloroquine kills malaria parasites mainly by:",
+       "options": [
+        "Inhibiting cell-wall synthesis",
+        "Generating free radicals from an endoperoxide",
+        "Blocking protein synthesis",
+        "Preventing haem polymerisation into haemozoin",
+        "Inhibiting DHFR"
+       ],
+       "answerIndex": 3,
+       "explanation": "Accumulating free haem is toxic to the parasite."
+      },
+      {
+       "stem": "The chemical feature essential for artemisinin activity is the:",
+       "options": [
+        "Endoperoxide bridge",
+        "β-lactam ring",
+        "Quinoline ring",
+        "Carboxyl group",
+        "Sulphonamide group"
+       ],
+       "answerIndex": 0,
+       "explanation": "Iron-activated cleavage of the peroxide produces free radicals."
+      },
+      {
+       "stem": "The first-line treatment for uncomplicated falciparum malaria in Nigeria is:",
+       "options": [
+        "Chloroquine",
+        "Primaquine",
+        "Quinine tablets alone",
+        "Artemether–lumefantrine",
+        "Sulfadoxine–pyrimethamine alone"
+       ],
+       "answerIndex": 3,
+       "explanation": "ACTs such as artemether–lumefantrine are recommended."
+      },
+      {
+       "stem": "Lumefantrine absorption is improved by taking it with:",
+       "options": [
+        "An empty stomach",
+        "Alcohol",
+        "Antacids",
+        "Water only",
+        "Fatty food or milk"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lumefantrine is highly lipophilic."
+      },
+      {
+       "stem": "Primaquine should be avoided in patients with:",
+       "options": [
+        "Sickle cell trait",
+        "Asthma",
+        "Hypertension",
+        "Diabetes",
+        "G6PD deficiency"
+       ],
+       "answerIndex": 4,
+       "explanation": "It causes oxidative haemolysis."
+      },
+      {
+       "stem": "Sulfadoxine–pyrimethamine is recommended in Nigeria for:",
+       "options": [
+        "Treatment of vivax relapse",
+        "Travellers only",
+        "Intermittent preventive treatment in pregnancy",
+        "Treatment of severe malaria",
+        "Cerebral malaria"
+       ],
+       "answerIndex": 2,
+       "explanation": "IPTp with SP is given in antenatal care."
+      },
+      {
+       "stem": "Severe malaria is treated first-line with:",
+       "options": [
+        "Injectable artesunate",
+        "Oral chloroquine",
+        "Oral primaquine",
+        "Doxycycline alone",
+        "Oral SP"
+       ],
+       "answerIndex": 0,
+       "explanation": "Parenteral artesunate reduces mortality compared with quinine."
+      },
+      {
+       "stem": "ACTs combine an artemisinin with a partner drug mainly to:",
+       "options": [
+        "Increase side effects",
+        "Delay resistance and clear remaining parasites",
+        "Reduce cost only",
+        "Allow single-drug use",
+        "Improve taste"
+       ],
+       "answerIndex": 1,
+       "explanation": "The longer-acting partner protects the artemisinin from resistance."
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of Antibacterials",
+     "order": 4,
+     "summary": "β-lactams, sulphonamides, quinolones and others: structures, mechanisms and resistance.",
+     "material": [
+      {
+       "heading": "β-lactams",
+       "body": "Penicillins contain a β-lactam ring fused to a thiazolidine ring (6-aminopenicillanic acid nucleus); cephalosporins have a β-lactam fused to a dihydrothiazine ring (7-aminocephalosporanic acid). They acylate penicillin-binding proteins (transpeptidases), blocking peptidoglycan cross-linking. Benzylpenicillin is acid-labile (given by injection); phenoxymethylpenicillin (penicillin V) is acid-stable. Bulky side chains (flucloxacillin) resist staphylococcal β-lactamase; an amino group (ampicillin, amoxicillin) broadens the spectrum. β-lactamase inhibitors (clavulanic acid in co-amoxiclav, sulbactam, tazobactam) protect partner β-lactams. Carbapenems (meropenem) are very broad.",
+       "keyPoints": [
+        "β-lactam ring acylates PBPs",
+        "Flucloxacillin: β-lactamase-resistant",
+        "Amoxicillin: broader spectrum",
+        "Clavulanic acid inhibits β-lactamase"
+       ]
+      },
+      {
+       "heading": "Other classes",
+       "body": "Sulphonamides are structural analogues of para-aminobenzoic acid (PABA) that competitively inhibit dihydropteroate synthase; with trimethoprim (DHFR inhibitor) they give sequential blockade (co-trimoxazole). Fluoroquinolones (ciprofloxacin, levofloxacin) inhibit DNA gyrase and topoisomerase IV; they chelate metal ions (avoid antacids) and can damage developing cartilage. Aminoglycosides are polycationic, poorly absorbed orally, nephrotoxic and ototoxic. Tetracyclines chelate calcium (tooth staining in children). Macrolides have large lactone rings. Nitroimidazoles (metronidazole) are activated by reduction in anaerobes to DNA-damaging radicals.",
+       "keyPoints": [
+        "Sulphonamides mimic PABA",
+        "Co-trimoxazole: sequential blockade",
+        "Quinolones chelate metals; cartilage concerns",
+        "Metronidazole: reductive activation in anaerobes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The core nucleus of penicillins is:",
+       "options": [
+        "Para-aminobenzoic acid",
+        "Clavulanic acid",
+        "7-aminocephalosporanic acid",
+        "6-aminopenicillanic acid",
+        "Nalidixic acid"
+       ],
+       "answerIndex": 3,
+       "explanation": "6-APA is the penicillin nucleus."
+      },
+      {
+       "stem": "Flucloxacillin is effective against penicillinase-producing staphylococci because it:",
+       "options": [
+        "Is a prodrug",
+        "Inhibits DNA gyrase",
+        "Has a bulky side chain resisting β-lactamase",
+        "Contains an amino group",
+        "Is acid-stable"
+       ],
+       "answerIndex": 2,
+       "explanation": "Steric hindrance protects the β-lactam ring."
+      },
+      {
+       "stem": "Clavulanic acid in co-amoxiclav acts as a:",
+       "options": [
+        "β-lactamase inhibitor",
+        "Protein synthesis inhibitor",
+        "Cell-wall synthesis inhibitor alone",
+        "Folate antagonist",
+        "DNA gyrase inhibitor"
+       ],
+       "answerIndex": 0,
+       "explanation": "It protects amoxicillin from β-lactamases."
+      },
+      {
+       "stem": "Sulphonamides act as structural analogues of:",
+       "options": [
+        "Thymidine",
+        "Folic acid",
+        "D-alanine",
+        "Glutamate",
+        "Para-aminobenzoic acid"
+       ],
+       "answerIndex": 4,
+       "explanation": "They competitively inhibit dihydropteroate synthase."
+      },
+      {
+       "stem": "Co-trimoxazole produces sequential blockade of:",
+       "options": [
+        "Folate synthesis",
+        "Cell-wall synthesis",
+        "Membrane function",
+        "Protein synthesis",
+        "DNA gyrase"
+       ],
+       "answerIndex": 0,
+       "explanation": "Sulfamethoxazole and trimethoprim block two steps of folate synthesis."
+      },
+      {
+       "stem": "Ciprofloxacin absorption is reduced by antacids because of:",
+       "options": [
+        "Protein binding",
+        "Enzyme induction",
+        "Chelation with metal ions",
+        "Ionisation",
+        "Increased gastric emptying"
+       ],
+       "answerIndex": 2,
+       "explanation": "Quinolones chelate Mg2+, Al3+ and Ca2+."
+      },
+      {
+       "stem": "Tetracyclines should be avoided in young children because they:",
+       "options": [
+        "Cause kernicterus only",
+        "Cause grey baby syndrome",
+        "Cause hearing loss",
+        "Are ineffective",
+        "Stain developing teeth and affect bone"
+       ],
+       "answerIndex": 4,
+       "explanation": "They chelate calcium in teeth and bones."
+      },
+      {
+       "stem": "Metronidazole is active mainly against anaerobes because it:",
+       "options": [
+        "Is activated by reduction in anaerobic cells",
+        "Binds 50S ribosomes",
+        "Chelates iron",
+        "Needs oxygen to work",
+        "Inhibits cell-wall synthesis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reduced nitro radicals damage DNA in low-oxygen organisms."
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of CNS and Cardiovascular Drugs",
+     "order": 5,
+     "summary": "Benzodiazepines, opioids, local anaesthetics, β-blockers and ACE inhibitors: structure and action.",
+     "material": [
+      {
+       "heading": "CNS drugs",
+       "body": "Benzodiazepines (1,4-benzodiazepine nucleus; e.g. diazepam, lorazepam, midazolam) enhance GABA-A receptor chloride channel opening frequency; flumazenil is the antagonist. Opioids share a morphine-like pharmacophore (tertiary nitrogen, aromatic ring, quaternary carbon); converting the N-methyl group of morphine to N-allyl gives the antagonist nalorphine/naloxone. Local anaesthetics have a lipophilic aromatic group, an intermediate ester or amide chain, and a hydrophilic amine; esters (procaine, benzocaine) are hydrolysed by plasma cholinesterase and more allergenic (PABA metabolite), while amides (lidocaine, bupivacaine — two 'i's) are metabolised in the liver. Local anaesthetics work poorly in infected (acidic) tissue because more drug is ionised.",
+       "keyPoints": [
+        "Benzodiazepines ↑ GABA-A Cl− channel opening frequency",
+        "N-allyl substitution → opioid antagonist",
+        "LA: aromatic + ester/amide + amine",
+        "LAs work poorly in acidic infected tissue"
+       ]
+      },
+      {
+       "heading": "Cardiovascular drugs",
+       "body": "β-blockers are aryloxypropanolamines (propranolol, atenolol, metoprolol) with an isopropyl or tert-butyl group on the amine for β-receptor affinity; hydrophilic atenolol is renally excreted and crosses the blood–brain barrier less. ACE inhibitors were designed from snake venom peptides: captopril (thiol group — taste disturbance, rash), enalapril and lisinopril (carboxylate). Angiotensin receptor blockers (losartan) contain a biphenyl tetrazole. Dihydropyridine calcium channel blockers (nifedipine, amlodipine) are light-sensitive. Statins mimic the HMG-CoA intermediate.",
+       "keyPoints": [
+        "β-blockers: aryloxypropanolamines",
+        "Captopril: thiol group; derived from snake venom",
+        "Losartan: biphenyl tetrazole",
+        "Dihydropyridines are light-sensitive"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Benzodiazepines act by:",
+       "options": [
+        "Increasing the frequency of GABA-A chloride channel opening",
+        "Stimulating dopamine release",
+        "Blocking sodium channels",
+        "Blocking GABA receptors",
+        "Inhibiting MAO"
+       ],
+       "answerIndex": 0,
+       "explanation": "They are positive allosteric modulators of GABA-A."
+      },
+      {
+       "stem": "The benzodiazepine antagonist is:",
+       "options": [
+        "Naloxone",
+        "Atropine",
+        "Protamine",
+        "Flumazenil",
+        "Neostigmine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Flumazenil competitively blocks the benzodiazepine site."
+      },
+      {
+       "stem": "Lidocaine is classified as a/an:",
+       "options": [
+        "Ester local anaesthetic",
+        "Opioid",
+        "Benzodiazepine",
+        "Barbiturate",
+        "Amide local anaesthetic"
+       ],
+       "answerIndex": 4,
+       "explanation": "Amide LAs have two 'i's in their names."
+      },
+      {
+       "stem": "Ester local anaesthetics are more likely to cause allergy because they are metabolised to:",
+       "options": [
+        "Ethanol",
+        "Lidocaine",
+        "Salicylic acid",
+        "Morphine",
+        "Para-aminobenzoic acid"
+       ],
+       "answerIndex": 4,
+       "explanation": "PABA is a known allergen."
+      },
+      {
+       "stem": "Local anaesthetics work poorly in infected tissue because:",
+       "options": [
+        "The acidic pH increases the ionised fraction",
+        "They bind pus",
+        "Bacteria destroy them",
+        "Blood flow is reduced",
+        "Nerves are absent"
+       ],
+       "answerIndex": 0,
+       "explanation": "Only the un-ionised base crosses the nerve membrane."
+      },
+      {
+       "stem": "The first ACE inhibitor, captopril, was developed from:",
+       "options": [
+        "Snake venom peptides",
+        "Fungal metabolites",
+        "Marine sponges",
+        "Bacterial toxins",
+        "Plant alkaloids"
+       ],
+       "answerIndex": 0,
+       "explanation": "Brazilian viper venom peptides inspired its design."
+      },
+      {
+       "stem": "The characteristic group in captopril linked to taste disturbance is the:",
+       "options": [
+        "Carboxylate",
+        "Tetrazole",
+        "Thiol (sulfhydryl)",
+        "Nitrate",
+        "Amide"
+       ],
+       "answerIndex": 2,
+       "explanation": "The –SH group causes rash and taste changes."
+      },
+      {
+       "stem": "Replacing the N-methyl group of morphine with an N-allyl group produces:",
+       "options": [
+        "A stronger agonist",
+        "A local anaesthetic",
+        "A benzodiazepine",
+        "An opioid antagonist",
+        "An antibiotic"
+       ],
+       "answerIndex": 3,
+       "explanation": "N-allyl derivatives (nalorphine, naloxone) antagonise opioid receptors."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

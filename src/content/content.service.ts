@@ -40,7 +40,8 @@ export class ContentService {
   /**
    * Published courses with their published topics (without study material).
    * Every course is returned; `forYou` marks the student's own ones so the app
-   * can show those first and still let them browse the rest.
+   * can show those first and still let them browse the rest. Courses with no
+   * approved topic yet are left out, so students never open an empty course.
    */
   async listCourses(student?: StudentAcademics) {
     const courses = await this.courses.find({ status: PUBLISHED }).sort({ title: 1 }).exec();
@@ -49,12 +50,14 @@ export class ContentService {
       .select('-material')
       .sort({ order: 1 })
       .exec();
-    return courses.map(course => ({
-      ...presentCourse(course, student),
-      topics: topics
-        .filter(t => String(t.courseId) === course.id)
-        .map(t => presentTopic(t, { withMaterial: false })),
-    }));
+    return courses
+      .map(course => ({
+        ...presentCourse(course, student),
+        topics: topics
+          .filter(t => String(t.courseId) === course.id)
+          .map(t => presentTopic(t, { withMaterial: false })),
+      }))
+      .filter(course => course.topics.length > 0);
   }
 
   async getCourse(courseId: string, student?: StudentAcademics) {

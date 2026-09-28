@@ -1,0 +1,673 @@
+{
+ "courses": [
+  {
+   "title": "Systemic Pharmacology: ANS, CVS and CNS",
+   "code": "PHA401",
+   "color": "#0F766E",
+   "description": "Autonomic drugs, antihypertensives and cardiovascular drugs, drugs for diabetes and endocrine disorders, analgesics, and CNS drugs.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Autonomic Pharmacology",
+     "order": 1,
+     "summary": "Cholinergic and anticholinergic drugs, adrenergic agonists and antagonists.",
+     "material": [
+      {
+       "heading": "Cholinergic system",
+       "body": "Muscarinic agonists (pilocarpine — glaucoma, dry mouth; bethanechol — urinary retention) mimic parasympathetic effects. Anticholinesterases: reversible (neostigmine — myasthenia gravis, reversal of neuromuscular block; pyridostigmine; physostigmine crosses the BBB; donepezil — Alzheimer's) and irreversible (organophosphates). Organophosphate poisoning causes muscarinic effects (DUMBELS: diarrhoea, urination, miosis, bronchorrhoea/bradycardia, emesis, lacrimation, salivation/sweating), nicotinic effects (fasciculations, weakness) and CNS effects; treat with atropine (titrated to dry secretions) and pralidoxime (early). Antimuscarinics (atropine — bradycardia, premedication; hyoscine butylbromide — abdominal colic; ipratropium and tiotropium — COPD; tropicamide — pupil dilation) cause dry mouth, tachycardia, urinary retention, blurred vision, constipation and confusion ('dry as a bone, red as a beet, blind as a bat, mad as a hatter').",
+       "keyPoints": [
+        "Neostigmine: myasthenia gravis",
+        "Organophosphate poisoning: atropine + pralidoxime",
+        "DUMBELS muscarinic signs",
+        "Antimuscarinic side effects"
+       ]
+      },
+      {
+       "heading": "Adrenergic system",
+       "body": "Adrenaline (α and β agonist) is first-line for anaphylaxis (IM 0.5 mg of 1:1000 in adults) and cardiac arrest. Noradrenaline (mainly α1, some β1) is a vasopressor in septic shock. Dopamine and dobutamine (β1 — inotrope). Salbutamol (β2 agonist) relieves bronchospasm (side effects: tremor, tachycardia, hypokalaemia). α1 agonist phenylephrine is a decongestant and vasopressor. α-blockers: prazosin and doxazosin (hypertension, BPH), tamsulosin (BPH). β-blockers: propranolol (non-selective — avoid in asthma), atenolol, metoprolol and bisoprolol (β1-selective), carvedilol and labetalol (α + β; labetalol used in pregnancy hypertension); uses include hypertension, angina, heart failure (bisoprolol, carvedilol), arrhythmias, thyrotoxicosis symptoms and migraine prophylaxis; adverse effects include bronchospasm, bradycardia, fatigue, cold extremities and masking hypoglycaemia. Methyldopa (central α2 agonist) is used for hypertension in pregnancy.",
+       "keyPoints": [
+        "Adrenaline IM for anaphylaxis",
+        "Noradrenaline: septic shock vasopressor",
+        "Salbutamol: β2 → tremor, hypokalaemia",
+        "Non-selective β-blockers → bronchospasm",
+        "Methyldopa and labetalol in pregnancy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The drug used to treat myasthenia gravis symptoms is:",
+       "options": [
+        "Atropine",
+        "Propranolol",
+        "Salbutamol",
+        "Pyridostigmine or neostigmine",
+        "Prazosin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Anticholinesterases increase ACh at the neuromuscular junction."
+      },
+      {
+       "stem": "The antidote given to dry secretions in organophosphate poisoning is:",
+       "options": [
+        "Flumazenil",
+        "Atropine",
+        "Physostigmine",
+        "Adrenaline",
+        "Naloxone"
+       ],
+       "answerIndex": 1,
+       "explanation": "Atropine blocks muscarinic effects."
+      },
+      {
+       "stem": "Pralidoxime in organophosphate poisoning works by:",
+       "options": [
+        "Blocking nicotinic receptors",
+        "Increasing ACh release",
+        "Blocking muscarinic receptors",
+        "Reactivating phosphorylated acetylcholinesterase",
+        "Chelating the poison"
+       ],
+       "answerIndex": 3,
+       "explanation": "It regenerates the enzyme if given early."
+      },
+      {
+       "stem": "Which is a side effect of antimuscarinic drugs?",
+       "options": [
+        "Bradycardia",
+        "Excess salivation",
+        "Dry mouth and urinary retention",
+        "Diarrhoea",
+        "Miosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "They block parasympathetic secretions and bladder contraction."
+      },
+      {
+       "stem": "First-line treatment for anaphylaxis is:",
+       "options": [
+        "IV antihistamine only",
+        "Oral steroids",
+        "IM adrenaline",
+        "IV fluids alone",
+        "Salbutamol alone"
+       ],
+       "answerIndex": 2,
+       "explanation": "Adrenaline reverses bronchospasm and hypotension."
+      },
+      {
+       "stem": "A common side effect of salbutamol is:",
+       "options": [
+        "Tremor and hypokalaemia",
+        "Constipation",
+        "Hypertension crisis",
+        "Miosis",
+        "Bradycardia"
+       ],
+       "answerIndex": 0,
+       "explanation": "β2 stimulation drives K+ into cells and causes tremor."
+      },
+      {
+       "stem": "Propranolol should be avoided in patients with:",
+       "options": [
+        "Thyrotoxicosis",
+        "Hypertension",
+        "Anxiety",
+        "Migraine",
+        "Asthma"
+       ],
+       "answerIndex": 4,
+       "explanation": "Non-selective β-blockade causes bronchospasm."
+      },
+      {
+       "stem": "An antihypertensive commonly used in pregnancy is:",
+       "options": [
+        "Lisinopril",
+        "Atenolol only",
+        "Methyldopa",
+        "Spironolactone",
+        "Losartan"
+       ],
+       "answerIndex": 2,
+       "explanation": "Methyldopa has a long safety record in pregnancy."
+      }
+     ]
+    },
+    {
+     "title": "Antihypertensives and Heart Failure Drugs",
+     "order": 2,
+     "summary": "Classes of antihypertensives, their adverse effects, and drugs used in heart failure.",
+     "material": [
+      {
+       "heading": "Antihypertensives",
+       "body": "Main classes: thiazide/thiazide-like diuretics (hydrochlorothiazide, chlorthalidone, indapamide — hyponatraemia, hypokalaemia, hyperuricaemia, hyperglycaemia); calcium channel blockers (dihydropyridines — amlodipine, nifedipine: ankle oedema, flushing, headache; non-dihydropyridines — verapamil, diltiazem: bradycardia, constipation); ACE inhibitors (lisinopril, enalapril, ramipril: dry cough from bradykinin, angioedema, hyperkalaemia, first-dose hypotension; contraindicated in pregnancy and bilateral renal artery stenosis; renoprotective in diabetes); angiotensin receptor blockers (losartan, valsartan — no cough); β-blockers; others (hydralazine, methyldopa, clonidine, spironolactone for resistant hypertension). For Black African patients, a calcium channel blocker or thiazide is usually recommended first-line (often combined), as monotherapy with ACE inhibitors is less effective. Hypertensive emergencies need controlled IV reduction (labetalol, hydralazine, nicardipine).",
+       "keyPoints": [
+        "Thiazides: ↓Na, ↓K, ↑urate, ↑glucose",
+        "CCB: ankle oedema",
+        "ACEi: dry cough, angioedema, ↑K; not in pregnancy",
+        "ARB: no cough",
+        "Black African patients: CCB or thiazide first"
+       ]
+      },
+      {
+       "heading": "Heart failure",
+       "body": "Heart failure with reduced ejection fraction is treated with drugs that improve survival: ACE inhibitor/ARB or sacubitril–valsartan (ARNI), heart-failure β-blockers (bisoprolol, carvedilol, metoprolol succinate — start low, go slow), mineralocorticoid receptor antagonists (spironolactone, eplerenone — monitor potassium) and SGLT2 inhibitors (dapagliflozin, empagliflozin). Loop diuretics (furosemide) relieve congestion but do not improve survival. Digoxin (inhibits Na+/K+-ATPase, increases vagal tone) controls ventricular rate in atrial fibrillation and reduces hospitalisation; toxicity (nausea, visual disturbance — yellow vision, arrhythmias, bradycardia) is worsened by hypokalaemia and renal impairment. Nitrates (glyceryl trinitrate) relieve angina by venodilation; avoid with sildenafil (severe hypotension).",
+       "keyPoints": [
+        "Survival: ACEi/ARNI, β-blocker, MRA, SGLT2i",
+        "Furosemide: symptoms only",
+        "Digoxin toxicity ↑ with hypokalaemia",
+        "Nitrates + sildenafil → hypotension"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A persistent dry cough is a common side effect of:",
+       "options": [
+        "Losartan",
+        "Hydrochlorothiazide",
+        "Amlodipine",
+        "Atenolol",
+        "Lisinopril (ACE inhibitor)"
+       ],
+       "answerIndex": 4,
+       "explanation": "ACE inhibitors increase bradykinin."
+      },
+      {
+       "stem": "Ankle oedema is a common side effect of:",
+       "options": [
+        "Lisinopril",
+        "Spironolactone",
+        "Methyldopa",
+        "Furosemide",
+        "Amlodipine"
+       ],
+       "answerIndex": 4,
+       "explanation": "Dihydropyridines cause precapillary dilation."
+      },
+      {
+       "stem": "ACE inhibitors are contraindicated in:",
+       "options": [
+        "Post-myocardial infarction",
+        "Diabetes",
+        "Chronic kidney disease with proteinuria",
+        "Heart failure",
+        "Pregnancy"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are teratogenic, causing fetal renal damage."
+      },
+      {
+       "stem": "First-line monotherapy for hypertension in Black African patients is usually a:",
+       "options": [
+        "β-blocker",
+        "Centrally acting drug",
+        "ACE inhibitor alone",
+        "α-blocker",
+        "Calcium channel blocker or thiazide"
+       ],
+       "answerIndex": 4,
+       "explanation": "These are more effective in this population."
+      },
+      {
+       "stem": "Thiazide diuretics can cause:",
+       "options": [
+        "Bradycardia only",
+        "Hyperkalaemia",
+        "Hypoglycaemia",
+        "Hypercalciuria",
+        "Hypokalaemia and hyperuricaemia"
+       ],
+       "answerIndex": 4,
+       "explanation": "They waste potassium and reduce urate excretion."
+      },
+      {
+       "stem": "Which drug relieves congestion in heart failure but does not improve survival?",
+       "options": [
+        "Furosemide",
+        "Spironolactone",
+        "Bisoprolol",
+        "Enalapril",
+        "Dapagliflozin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Loop diuretics treat symptoms."
+      },
+      {
+       "stem": "Digoxin toxicity is increased by:",
+       "options": [
+        "Hyperkalaemia",
+        "Low calcium",
+        "High sodium",
+        "Hypoglycaemia",
+        "Hypokalaemia"
+       ],
+       "answerIndex": 4,
+       "explanation": "Low potassium enhances digoxin binding to the Na+/K+-ATPase."
+      },
+      {
+       "stem": "Nitrates must not be combined with sildenafil because of:",
+       "options": [
+        "Bradycardia",
+        "Severe hypotension",
+        "Hyperkalaemia",
+        "Hypoglycaemia",
+        "Bleeding"
+       ],
+       "answerIndex": 1,
+       "explanation": "Both increase cGMP-mediated vasodilation."
+      }
+     ]
+    },
+    {
+     "title": "Drugs for Diabetes, Thyroid and Steroids",
+     "order": 3,
+     "summary": "Insulins and oral hypoglycaemics, thyroid drugs, and corticosteroids.",
+     "material": [
+      {
+       "heading": "Diabetes drugs",
+       "body": "Insulins: rapid-acting (lispro, aspart), short-acting (soluble/regular — IV in DKA), intermediate (NPH/isophane), long-acting (glargine, detemir) and premixed (70/30); main risks are hypoglycaemia and weight gain. Metformin (biguanide) is first-line for type 2 diabetes: reduces hepatic gluconeogenesis, does not cause hypoglycaemia alone, promotes weight neutrality; side effects are GI upset, vitamin B12 deficiency and rarely lactic acidosis (avoid if eGFR < 30). Sulphonylureas (glibenclamide, gliclazide, glimepiride) stimulate insulin release — hypoglycaemia (glibenclamide especially in the elderly and renal impairment), weight gain. Other classes: DPP-4 inhibitors (sitagliptin), SGLT2 inhibitors (dapagliflozin — glycosuria, genital infections, cardio-renal benefit), GLP-1 agonists (liraglutide, semaglutide — weight loss), thiazolidinediones (pioglitazone — fluid retention), acarbose.",
+       "keyPoints": [
+        "Metformin: first-line; no hypoglycaemia alone; B12 deficiency",
+        "Sulphonylureas: hypoglycaemia, weight gain",
+        "Soluble insulin IV in DKA",
+        "SGLT2i: cardio-renal benefit; genital infections"
+       ]
+      },
+      {
+       "heading": "Thyroid and corticosteroids",
+       "body": "Hypothyroidism is treated with levothyroxine (dose titrated to TSH; taken on an empty stomach). Hyperthyroidism: carbimazole (or methimazole) and propylthiouracil (preferred in the first trimester of pregnancy and thyroid storm) inhibit thyroid peroxidase — the serious adverse effect is agranulocytosis (report sore throat or fever immediately); propranolol for symptoms; radioiodine; surgery. Corticosteroids (prednisolone, hydrocortisone, dexamethasone) are anti-inflammatory and immunosuppressive; long-term use causes Cushingoid features, hyperglycaemia, hypertension, osteoporosis, infections, peptic ulcer, cataracts, mood changes and adrenal suppression — so they must not be stopped abruptly after prolonged use (risk of Addisonian crisis); give the lowest effective dose and 'sick day' guidance. Dexamethasone is used in preterm labour to mature fetal lungs and in cerebral oedema.",
+       "keyPoints": [
+        "Levothyroxine: titrate to TSH",
+        "Carbimazole: agranulocytosis — report sore throat",
+        "PTU in first trimester",
+        "Don't stop long-term steroids abruptly",
+        "Antenatal dexamethasone for fetal lungs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first-line oral drug for type 2 diabetes is usually:",
+       "options": [
+        "Metformin",
+        "Pioglitazone",
+        "Acarbose",
+        "Insulin glargine",
+        "Glibenclamide"
+       ],
+       "answerIndex": 0,
+       "explanation": "Metformin is effective, weight-neutral and does not cause hypoglycaemia alone."
+      },
+      {
+       "stem": "Long-term metformin therapy may cause deficiency of:",
+       "options": [
+        "Vitamin B12",
+        "Vitamin A",
+        "Iron",
+        "Iodine",
+        "Vitamin C"
+       ],
+       "answerIndex": 0,
+       "explanation": "Metformin reduces B12 absorption."
+      },
+      {
+       "stem": "Which oral hypoglycaemic is most likely to cause hypoglycaemia in the elderly?",
+       "options": [
+        "Metformin",
+        "Glibenclamide",
+        "Dapagliflozin",
+        "Acarbose",
+        "Sitagliptin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Long-acting sulphonylureas cause prolonged hypoglycaemia."
+      },
+      {
+       "stem": "The insulin given intravenously in diabetic ketoacidosis is:",
+       "options": [
+        "NPH insulin",
+        "Insulin detemir",
+        "Soluble (regular) insulin",
+        "Insulin glargine",
+        "Premixed 70/30"
+       ],
+       "answerIndex": 2,
+       "explanation": "Soluble insulin can be given IV."
+      },
+      {
+       "stem": "A patient on carbimazole who develops a sore throat should:",
+       "options": [
+        "Take antibiotics only",
+        "Continue the drug",
+        "Ignore it",
+        "Double the dose",
+        "Stop the drug and have an urgent full blood count"
+       ],
+       "answerIndex": 4,
+       "explanation": "Agranulocytosis must be excluded."
+      },
+      {
+       "stem": "In the first trimester of pregnancy, hyperthyroidism is preferably treated with:",
+       "options": [
+        "Radioiodine",
+        "Propylthiouracil",
+        "Carbimazole",
+        "Iodine only",
+        "Levothyroxine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Carbimazole has been associated with embryopathy."
+      },
+      {
+       "stem": "Stopping long-term high-dose prednisolone abruptly may cause:",
+       "options": [
+        "Hyperthyroidism",
+        "Diabetes insipidus",
+        "Cushing's syndrome",
+        "Adrenal (Addisonian) crisis",
+        "Hyperkalaemia only"
+       ],
+       "answerIndex": 3,
+       "explanation": "The suppressed adrenals cannot respond."
+      },
+      {
+       "stem": "Antenatal dexamethasone is given in preterm labour to:",
+       "options": [
+        "Accelerate fetal lung maturity",
+        "Induce labour",
+        "Increase birth weight",
+        "Stop contractions",
+        "Prevent infection"
+       ],
+       "answerIndex": 0,
+       "explanation": "Corticosteroids stimulate surfactant production."
+      }
+     ]
+    },
+    {
+     "title": "Analgesics and Anti-inflammatory Drugs",
+     "order": 4,
+     "summary": "Paracetamol, NSAIDs, opioids, the WHO analgesic ladder, and gout drugs.",
+     "material": [
+      {
+       "heading": "Non-opioid analgesics",
+       "body": "Paracetamol (acetaminophen) is analgesic and antipyretic with little anti-inflammatory effect; the adult maximum is usually 4 g/day. Overdose saturates glucuronidation and sulphation, so more is converted by CYP2E1 to the toxic metabolite NAPQI, depleting glutathione and causing hepatic necrosis (risk higher in alcoholics, malnourished patients and enzyme inducers); the antidote is N-acetylcysteine (best within 8 hours, guided by the treatment nomogram). NSAIDs (ibuprofen, diclofenac, naproxen; aspirin) inhibit COX-1 and COX-2, reducing prostaglandins — analgesic, antipyretic and anti-inflammatory; adverse effects: peptic ulceration and GI bleeding, renal impairment, fluid retention, worsening hypertension and heart failure, bronchospasm in aspirin-sensitive asthma, and cardiovascular risk (especially COX-2 selective drugs such as celecoxib). Low-dose aspirin is antiplatelet. Aspirin is avoided in children (Reye's syndrome).",
+       "keyPoints": [
+        "Paracetamol max 4 g/day",
+        "Overdose → NAPQI → liver necrosis; antidote NAC",
+        "NSAIDs: GI bleeding, renal impairment",
+        "No aspirin in children (Reye's)"
+       ]
+      },
+      {
+       "heading": "Opioids and gout",
+       "body": "Opioids (morphine, pethidine, tramadol, codeine, fentanyl) act on μ receptors: analgesia, euphoria, respiratory depression, sedation, constipation, nausea and vomiting, miosis, urinary retention, tolerance and dependence. Overdose: pinpoint pupils, coma and respiratory depression — antidote naloxone. Tramadol and codeine misuse is a significant problem among Nigerian youth; NAFDAC restricts high-strength tramadol and codeine syrups. The WHO analgesic ladder: step 1 non-opioid ± adjuvant; step 2 weak opioid (codeine, tramadol); step 3 strong opioid (morphine) — 'by the mouth, by the clock, by the ladder'; always prescribe a laxative with regular opioids. Gout: acute attacks — NSAIDs, colchicine or corticosteroids; long-term urate lowering — allopurinol or febuxostat (xanthine oxidase inhibitors), started after the acute attack settles (initially with prophylaxis); avoid starting allopurinol during an acute attack.",
+       "keyPoints": [
+        "Opioids: μ receptors; naloxone reverses",
+        "Pinpoint pupils + respiratory depression",
+        "Tramadol/codeine misuse in Nigeria",
+        "WHO ladder: by mouth, clock, ladder",
+        "Gout: colchicine/NSAID acutely; allopurinol long-term"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The antidote for paracetamol overdose is:",
+       "options": [
+        "Naloxone",
+        "Vitamin K",
+        "Flumazenil",
+        "Atropine",
+        "N-acetylcysteine"
+       ],
+       "answerIndex": 4,
+       "explanation": "NAC replenishes glutathione."
+      },
+      {
+       "stem": "The toxic metabolite of paracetamol is:",
+       "options": [
+        "Morphine-6-glucuronide",
+        "Formic acid",
+        "Salicylic acid",
+        "Acetaldehyde",
+        "NAPQI"
+       ],
+       "answerIndex": 4,
+       "explanation": "N-acetyl-p-benzoquinone imine causes liver necrosis."
+      },
+      {
+       "stem": "A major adverse effect of NSAIDs is:",
+       "options": [
+        "Constipation",
+        "Peptic ulceration and GI bleeding",
+        "Miosis",
+        "Hypoglycaemia",
+        "Bradycardia"
+       ],
+       "answerIndex": 1,
+       "explanation": "COX-1 inhibition reduces protective gastric prostaglandins."
+      },
+      {
+       "stem": "Aspirin should be avoided in children because of the risk of:",
+       "options": [
+        "Kernicterus",
+        "Reye's syndrome",
+        "Cartilage damage",
+        "Tooth staining",
+        "Grey baby syndrome"
+       ],
+       "answerIndex": 1,
+       "explanation": "Reye's syndrome causes liver failure and encephalopathy."
+      },
+      {
+       "stem": "Pinpoint pupils, coma and slow breathing suggest overdose of:",
+       "options": [
+        "Amphetamine",
+        "Atropine",
+        "Paracetamol",
+        "An opioid",
+        "Aspirin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Classic opioid toxidrome."
+      },
+      {
+       "stem": "A drug that should be co-prescribed with regular opioids is a:",
+       "options": [
+        "Antacid",
+        "Vitamin",
+        "Laxative",
+        "Antihistamine",
+        "Diuretic"
+       ],
+       "answerIndex": 2,
+       "explanation": "Opioids cause constipation."
+      },
+      {
+       "stem": "Step 2 of the WHO analgesic ladder uses:",
+       "options": [
+        "A weak opioid such as codeine or tramadol",
+        "Morphine",
+        "Steroids",
+        "Paracetamol only",
+        "Fentanyl patches"
+       ],
+       "answerIndex": 0,
+       "explanation": "Weak opioids ± non-opioids."
+      },
+      {
+       "stem": "Allopurinol should generally not be started:",
+       "options": [
+        "With prophylaxis",
+        "In chronic gout",
+        "In tophaceous gout",
+        "During an acute gout attack",
+        "After the gout attack settles"
+       ],
+       "answerIndex": 3,
+       "explanation": "Starting during an attack can prolong it."
+      }
+     ]
+    },
+    {
+     "title": "CNS Drugs: Antiepileptics, Antipsychotics, Antidepressants and Anxiolytics",
+     "order": 5,
+     "summary": "Mechanisms, uses and adverse effects of major psychotropic and antiepileptic drugs.",
+     "material": [
+      {
+       "heading": "Antiepileptics",
+       "body": "Antiepileptic drugs: carbamazepine (focal seizures, trigeminal neuralgia — enzyme inducer, rash/SJS, hyponatraemia), phenytoin (zero-order kinetics, gingival hyperplasia, hirsutism, ataxia, nystagmus, teratogenic), sodium valproate (generalised epilepsy — hepatotoxicity, weight gain, tremor, highly teratogenic — neural tube defects; avoid in women of child-bearing potential unless no alternative), lamotrigine (rash), levetiracetam (mood changes), phenobarbital (widely available, sedative). Status epilepticus (seizure > 5 minutes): IV lorazepam or diazepam (or buccal midazolam/rectal diazepam), then phenytoin/fosphenytoin, levetiracetam or valproate; magnesium sulphate for eclamptic seizures.",
+       "keyPoints": [
+        "Valproate: teratogenic (NTDs), hepatotoxic",
+        "Phenytoin: gum hyperplasia, zero-order",
+        "Carbamazepine: enzyme inducer, SJS",
+        "Status: benzodiazepine first",
+        "Eclampsia: magnesium sulphate"
+       ]
+      },
+      {
+       "heading": "Psychotropics",
+       "body": "Antipsychotics block dopamine D2 receptors. Typical (haloperidol, chlorpromazine, fluphenazine depot): extrapyramidal side effects (acute dystonia — treat with an anticholinergic such as procyclidine or benzhexol; akathisia; parkinsonism; tardive dyskinesia), hyperprolactinaemia, neuroleptic malignant syndrome (fever, rigidity, autonomic instability, raised CK). Atypical (risperidone, olanzapine, quetiapine, clozapine — for resistant schizophrenia, risk of agranulocytosis): metabolic syndrome and weight gain. Antidepressants: SSRIs (fluoxetine, sertraline — first-line; GI upset, sexual dysfunction, hyponatraemia; serotonin syndrome with other serotonergic drugs), tricyclics (amitriptyline — anticholinergic effects, dangerous in overdose from cardiac toxicity). Lithium for bipolar disorder: narrow therapeutic range (≈ 0.4–1.0 mmol/L), toxicity (tremor, ataxia, confusion) worsened by dehydration, NSAIDs, ACE inhibitors and thiazides; causes hypothyroidism and nephrogenic diabetes insipidus. Benzodiazepines (diazepam, lorazepam) for anxiety, alcohol withdrawal and seizures — dependence and sedation; flumazenil is the antagonist.",
+       "keyPoints": [
+        "Typicals: EPS; treat dystonia with anticholinergic",
+        "NMS: fever, rigidity, ↑CK",
+        "Clozapine: agranulocytosis",
+        "SSRIs first-line for depression",
+        "Lithium: narrow range; toxicity with dehydration"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The antiepileptic most associated with neural tube defects is:",
+       "options": [
+        "Levetiracetam",
+        "Ethosuximide",
+        "Gabapentin",
+        "Sodium valproate",
+        "Lamotrigine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Valproate is highly teratogenic."
+      },
+      {
+       "stem": "Gingival hyperplasia is a characteristic side effect of:",
+       "options": [
+        "Valproate",
+        "Phenytoin",
+        "Carbamazepine",
+        "Levetiracetam",
+        "Diazepam"
+       ],
+       "answerIndex": 1,
+       "explanation": "Phenytoin causes gum overgrowth and hirsutism."
+      },
+      {
+       "stem": "The first-line drug for status epilepticus is a:",
+       "options": [
+        "Steroid",
+        "Beta-blocker",
+        "Benzodiazepine (e.g. IV lorazepam or diazepam)",
+        "Barbiturate infusion",
+        "Antipsychotic"
+       ],
+       "answerIndex": 2,
+       "explanation": "Benzodiazepines terminate most seizures rapidly."
+      },
+      {
+       "stem": "Seizures in eclampsia are treated with:",
+       "options": [
+        "Magnesium sulphate",
+        "Carbamazepine",
+        "Haloperidol",
+        "Diazepam alone",
+        "Phenytoin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Magnesium sulphate is superior for eclamptic seizures."
+      },
+      {
+       "stem": "Acute dystonia after haloperidol is treated with:",
+       "options": [
+        "An anticholinergic such as procyclidine or benzhexol",
+        "Fluoxetine",
+        "Lithium",
+        "More haloperidol",
+        "Carbamazepine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Anticholinergics reverse acute dystonic reactions."
+      },
+      {
+       "stem": "Fever, muscle rigidity, autonomic instability and raised CK in a patient on antipsychotics suggest:",
+       "options": [
+        "Neuroleptic malignant syndrome",
+        "Malaria only",
+        "Lithium toxicity",
+        "Serotonin syndrome",
+        "Tardive dyskinesia"
+       ],
+       "answerIndex": 0,
+       "explanation": "NMS is a medical emergency."
+      },
+      {
+       "stem": "Clozapine requires regular blood count monitoring because of the risk of:",
+       "options": [
+        "Hyperkalaemia",
+        "Thrombocytosis",
+        "Hypercalcaemia",
+        "Agranulocytosis",
+        "Polycythaemia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Neutropenia can be fatal."
+      },
+      {
+       "stem": "Lithium toxicity is precipitated by:",
+       "options": [
+        "Increased fluid intake",
+        "Vitamin C",
+        "High salt intake",
+        "Dehydration, NSAIDs and thiazide diuretics",
+        "Paracetamol"
+       ],
+       "answerIndex": 3,
+       "explanation": "These reduce renal lithium clearance."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

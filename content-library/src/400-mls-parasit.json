@@ -1,0 +1,99 @@
+{
+  "title": "Medical Parasitology and Entomology",
+  "code": "PAR401",
+  "color": "#65A30D",
+  "description": "Laboratory diagnosis of blood, intestinal and tissue parasites, parasite morphology, and medically important arthropod vectors.",
+  "for": { "400": ["MLS", "PH"] },
+  "topics": [
+    {
+      "title": "Malaria Parasites: Morphology and Laboratory Diagnosis",
+      "summary": "Thick and thin films, species identification, parasite counting and RDTs.",
+      "notes": [
+        { "h": "Blood films", "b": "Microscopy of Giemsa-stained blood films remains the gold standard for malaria diagnosis in routine practice. The thick film (lysed red cells, more blood) is about 20–40 times more sensitive for detecting parasites; the thin film (fixed with methanol) allows species identification and morphology. Giemsa is used at pH 7.2 (Schüffner's dots and parasite features show best). A film is declared negative only after examining at least 100 high-power (oil immersion) fields of the thick film. Parasite density is counted against 200 white cells on the thick film (parasites/µL = parasites counted × WBC count ÷ 200, assuming 8,000 WBC/µL if not measured) or as % parasitised red cells on the thin film; > 5% (or > 250,000/µL) indicates hyperparasitaemia (severe malaria).", "k": ["Thick film: sensitivity; thin film: species", "Giemsa at pH 7.2", "Examine ≥ 100 fields before negative", "Count against 200 WBC", "Hyperparasitaemia > 5%"] },
+        { "h": "Species features and RDTs", "b": "P. falciparum: small delicate rings, often multiple per cell and appliqué forms, crescent- or banana-shaped gametocytes, red cells not enlarged; mature trophozoites and schizonts are usually sequestered and rarely seen in peripheral blood (their presence indicates severe infection). P. vivax and P. ovale: enlarged red cells with Schüffner's dots (ovale cells oval with fimbriated edges); amoeboid trophozoites in vivax. P. malariae: band-form trophozoites, 'rosette' schizonts with 6–12 merozoites, red cells normal or small. Rapid diagnostic tests detect parasite antigens: HRP2 (P. falciparum-specific, persists for weeks after treatment, may be missed with pfhrp2/3 gene deletions) and pLDH (pan-species or species-specific, clears faster). Quality control of slides and RDTs is essential.", "k": ["Falciparum: small rings, banana gametocytes", "Vivax/ovale: enlarged cells, Schüffner's dots", "Malariae: band forms, rosette schizonts", "HRP2: falciparum, persists after cure", "pLDH clears faster"] }
+      ],
+      "q": [
+        ["The thick blood film is mainly used to:", "Identify the species", "Detect parasites (high sensitivity)", "Measure haemoglobin", "Count platelets", "Stain white cells only", 1, "It concentrates blood, increasing sensitivity."],
+        ["The thin blood film is fixed with:", "Water", "Methanol", "Formalin", "Acetone", "Xylene", 1, "Methanol fixes red cells for morphological study."],
+        ["A malaria slide should be reported negative only after examining at least ___ oil-immersion fields of the thick film.", "10", "50", "100", "500", "5", 2, "At least 100 fields are examined."],
+        ["Banana-shaped gametocytes are characteristic of:", "P. vivax", "P. falciparum", "P. malariae", "P. ovale", "P. knowlesi", 1, "Crescent gametocytes identify P. falciparum."],
+        ["Enlarged red cells with Schüffner's dots suggest:", "P. falciparum", "P. vivax or P. ovale", "P. malariae", "Babesia", "Trypanosoma", 1, "These species prefer young enlarged red cells."],
+        ["Band-form trophozoites are typical of:", "P. falciparum", "P. malariae", "P. vivax", "P. ovale", "Leishmania", 1, "P. malariae shows band forms and rosette schizonts."],
+        ["HRP2-based rapid tests may remain positive after successful treatment because:", "The parasites are resistant", "HRP2 antigen persists in blood for weeks", "The test detects antibodies", "The test is always faulty", "Gametocytes are killed quickly", 1, "Antigen clearance is slow."],
+        ["Using a thick film, 50 parasites are counted against 200 white cells in a patient with WBC 8,000/µL. Parasite density is:", "200/µL", "2,000/µL", "20,000/µL", "400/µL", "50/µL", 1, "50 × 8,000 ÷ 200 = 2,000 parasites/µL."]
+      ]
+    },
+    {
+      "title": "Other Blood and Tissue Parasites",
+      "summary": "Trypanosomes, Leishmania, microfilariae and Toxoplasma: specimens and identification.",
+      "notes": [
+        { "h": "Trypanosomes and Leishmania", "b": "African trypanosomes (T. brucei gambiense in West Africa) are extracellular flagellates with an undulating membrane and small kinetoplast, seen in blood, lymph node aspirates (early stage) and CSF (late stage — also raised CSF white cells > 5/µL); concentration methods (buffy coat, mini-anion exchange centrifugation) improve detection; the CATT serological test screens populations. Leishmania amastigotes (Leishman–Donovan bodies — small oval bodies with a nucleus and rod-shaped kinetoplast inside macrophages) are found in spleen, bone marrow or lymph node aspirates (visceral leishmaniasis) and skin scrapings or biopsies (cutaneous leishmaniasis); promastigotes grow in NNN culture medium.", "k": ["Trypanosomes: undulating membrane, kinetoplast", "Late-stage sleeping sickness: CSF examination", "CATT for screening", "Leishman–Donovan bodies in macrophages", "NNN medium for Leishmania"] },
+        { "h": "Microfilariae and Toxoplasma", "b": "Microfilariae are identified by size, sheath, nuclear arrangement in the tail and periodicity. Wuchereria bancrofti: sheathed, nuclei do not extend to the tip of the tail, nocturnal periodicity — collect blood between about 10 pm and 2 am. Loa loa: sheathed, nuclei extend to the tail tip, diurnal periodicity — collect around midday. Onchocerca volvulus microfilariae live in skin, not blood — diagnosis by skin snips incubated in saline; unsheathed. Mansonella perstans is unsheathed and common in blood. Concentration techniques: Knott's method, membrane filtration. Toxoplasma gondii infection is usually diagnosed serologically (IgM for recent infection, IgG avidity), with PCR in congenital or ocular cases.", "k": ["W. bancrofti: sheathed, nocturnal", "Loa loa: sheathed, diurnal, nuclei to tail tip", "Onchocerca: skin snips, unsheathed", "Knott's concentration", "Toxoplasma: serology (IgM, avidity)"] }
+      ],
+      "q": [
+        ["Blood for Wuchereria bancrofti microfilariae should be collected:", "At midday", "At night (about 10 pm–2 am)", "In the morning only", "Any time", "After meals", 1, "It shows nocturnal periodicity."],
+        ["Loa loa microfilariae are best found in blood collected:", "At midnight", "Around midday", "At dawn only", "Only in CSF", "In urine", 1, "Loa loa shows diurnal periodicity."],
+        ["Onchocerca volvulus microfilariae are diagnosed from:", "Night blood films", "Skin snips", "Stool", "Urine", "Sputum", 1, "They live in the skin."],
+        ["Leishman–Donovan bodies are:", "Trypomastigotes in blood", "Amastigotes inside macrophages", "Microfilariae", "Oocysts", "Cysts in stool", 1, "They are intracellular amastigotes."],
+        ["Late-stage African trypanosomiasis is confirmed by examination of:", "Stool", "Cerebrospinal fluid", "Urine", "Skin snips", "Sputum", 1, "CNS involvement is detected in CSF."],
+        ["The culture medium used for Leishmania is:", "MacConkey", "NNN medium", "LJ medium", "TCBS", "Sabouraud", 1, "Novy–MacNeal–Nicolle medium grows promastigotes."],
+        ["A sheathed microfilaria with nuclei extending to the tip of the tail is:", "W. bancrofti", "Loa loa", "Mansonella perstans", "Onchocerca volvulus", "Dracunculus", 1, "Loa loa has nuclei to the tail tip."],
+        ["Recent Toxoplasma infection in pregnancy is best indicated by:", "High-avidity IgG only", "IgM positivity with low IgG avidity", "Negative IgG", "Stool microscopy", "Blood film", 1, "Low avidity suggests recent infection."]
+      ]
+    },
+    {
+      "title": "Intestinal Protozoa and Stool Examination",
+      "summary": "Specimen collection, wet mounts, concentration techniques, and identification of intestinal protozoa.",
+      "notes": [
+        { "h": "Stool examination", "b": "Stool should be collected in a clean, dry, leak-proof container, free of urine and water, and examined fresh — liquid stools within 30 minutes (to see motile trophozoites) and formed stools within a few hours; preservatives (formalin, SAF) are used when delays are expected. Macroscopic examination notes consistency, blood, mucus and adult worms. Microscopy: direct saline wet mount (motile trophozoites, cells, eggs) and iodine wet mount (cyst nuclei and glycogen). Concentration techniques increase sensitivity: formol–ether (formalin–ethyl acetate) sedimentation (the most widely used) and flotation (zinc sulphate or saturated salt — light eggs and cysts float; not suitable for heavy or operculate eggs). Several specimens on different days increase detection. Permanent stains (trichrome) and modified Ziehl–Neelsen (Cryptosporidium, Cyclospora, Cystoisospora oocysts — acid-fast) are used as needed.", "k": ["Examine liquid stool within 30 minutes", "Saline mount: trophozoites; iodine mount: cysts", "Formol–ether sedimentation most used", "Modified ZN for Cryptosporidium", "Multiple specimens increase yield"] },
+        { "h": "Protozoa", "b": "Entamoeba histolytica: trophozoites with ingested red cells (diagnostic of invasive amoebiasis), cysts with up to 4 nuclei and cigar-shaped chromatoid bars; it is morphologically identical to non-pathogenic E. dispar, so antigen tests or PCR are needed for confirmation. Entamoeba coli (non-pathogenic): cysts with up to 8 nuclei. Giardia lamblia (intestinalis): pear-shaped trophozoites with two nuclei ('face'), falling-leaf motility; oval cysts with four nuclei; causes malabsorptive diarrhoea. Cryptosporidium: small acid-fast oocysts; chronic diarrhoea in AIDS. Balantidium coli is the only ciliate pathogen of humans (from pigs). Trichomonas vaginalis is examined in vaginal or urethral wet mounts (jerky motility).", "k": ["E. histolytica: ingested red cells; 4-nucleate cysts", "E. coli: 8-nucleate cysts (non-pathogenic)", "Giardia: falling-leaf motility, 'face'", "Cryptosporidium: acid-fast oocysts", "Balantidium: only pathogenic ciliate"] }
+      ],
+      "q": [
+        ["Liquid stool for amoebic trophozoites should be examined within:", "30 minutes", "24 hours", "3 days", "1 week", "Any time", 0, "Trophozoites degenerate quickly."],
+        ["Iodine is added to a stool wet mount mainly to:", "Show motility", "Stain cyst nuclei and glycogen", "Kill bacteria", "Preserve eggs for weeks", "Detect blood", 1, "Iodine highlights internal structures of cysts."],
+        ["The most widely used stool concentration technique is:", "Direct smear only", "Formol–ether (formalin–ethyl acetate) sedimentation", "Gram stain", "Culture", "Centrifugation of urine", 1, "It recovers most eggs, cysts and larvae."],
+        ["Trophozoites containing ingested red cells are diagnostic of:", "Entamoeba coli", "Invasive Entamoeba histolytica", "Giardia", "Balantidium", "Trichomonas", 1, "Erythrophagocytosis indicates invasive amoebiasis."],
+        ["A cyst with 8 nuclei in stool is most likely:", "Entamoeba histolytica", "Entamoeba coli", "Giardia lamblia", "Cryptosporidium", "Iodamoeba", 1, "E. coli cysts have up to 8 nuclei."],
+        ["Pear-shaped trophozoites with 'falling-leaf' motility are:", "Trichomonas", "Giardia lamblia", "Balantidium coli", "Entamoeba", "Cryptosporidium", 1, "Giardia shows characteristic falling-leaf motility."],
+        ["Cryptosporidium oocysts in stool are demonstrated with:", "Iodine", "Modified Ziehl–Neelsen stain", "Gram stain", "India ink", "Giemsa only", 1, "The oocysts are acid-fast."],
+        ["Entamoeba histolytica cannot be distinguished from E. dispar by microscopy of cysts, so confirmation uses:", "Culture on MacConkey", "Antigen detection or PCR", "Iodine staining", "Gram stain", "Blood film", 1, "They are morphologically identical."]
+      ]
+    },
+    {
+      "title": "Helminth Eggs and Larvae",
+      "summary": "Identification of eggs of intestinal nematodes, cestodes and trematodes, and egg counting.",
+      "notes": [
+        { "h": "Nematode eggs", "b": "Ascaris lumbricoides: fertile eggs are oval with a thick mammillated (bumpy) coat, often bile-stained brown; infertile eggs are longer with irregular coats. Hookworm (Necator, Ancylostoma): thin-shelled, oval, with a segmented embryo (4–8 cell stage) and clear space; in delayed samples eggs may hatch into rhabditiform larvae — confusion with Strongyloides. Trichuris trichiura: barrel- or lemon-shaped with bipolar plugs. Enterobius vermicularis (pinworm): flattened on one side (D-shaped), collected by cellophane (Scotch) tape from the perianal area in the early morning. Strongyloides stercoralis: rhabditiform larvae (not eggs) in fresh stool; Baermann technique or agar plate culture concentrate larvae. The Kato–Katz technique quantifies eggs per gram of stool to assess intensity of infection in surveys.", "k": ["Ascaris: mammillated coat", "Hookworm: thin shell, segmented embryo", "Trichuris: bipolar plugs", "Enterobius: tape test", "Strongyloides: larvae; Baermann", "Kato–Katz: eggs per gram"] },
+        { "h": "Cestode and trematode eggs", "b": "Taenia species eggs (T. saginata — beef; T. solium — pork) are round with a thick radially striated shell containing a hexacanth (six-hooked) embryo; species are distinguished by gravid proglottids (uterine branches) or molecular tests. Hymenolepis nana (dwarf tapeworm): eggs with polar filaments. Diphyllobothrium: operculate eggs. Schistosoma haematobium: large eggs with a terminal spine, found in terminal urine (collected around midday, after exercise; filtration or sedimentation) — also detect haematuria with dipsticks. S. mansoni: lateral spine, in stool. Fasciola hepatica: large operculate eggs. Hatching tests show viable schistosome eggs. Accurate reporting includes species and, for surveys, egg counts.", "k": ["Taenia: radially striated shell, hexacanth embryo", "Hymenolepis nana: polar filaments", "S. haematobium: terminal spine; midday urine", "S. mansoni: lateral spine; stool", "Fasciola: operculate eggs"] }
+      ],
+      "q": [
+        ["An egg with a thick, bumpy (mammillated) coat is characteristic of:", "Hookworm", "Ascaris lumbricoides", "Trichuris", "Enterobius", "Taenia", 1, "Ascaris eggs have a mammillated albuminous coat."],
+        ["A barrel-shaped egg with plugs at both ends is:", "Ascaris", "Trichuris trichiura", "Hookworm", "Schistosoma", "Hymenolepis", 1, "Trichuris eggs have bipolar plugs."],
+        ["Enterobius (pinworm) infection is best diagnosed by:", "Stool concentration", "Perianal cellophane tape test in the morning", "Blood film", "Urine microscopy", "Skin snip", 1, "Females lay eggs on the perianal skin at night."],
+        ["Strongyloides infection is usually diagnosed by finding ___ in stool.", "Eggs", "Rhabditiform larvae", "Cysts", "Adult worms", "Oocysts", 1, "Eggs hatch in the intestine; larvae appear in stool."],
+        ["The technique that quantifies helminth eggs per gram of stool in surveys is:", "Baermann", "Kato–Katz", "Formol–ether", "Tape test", "Knott's", 1, "It measures infection intensity."],
+        ["Urine for Schistosoma haematobium eggs is best collected:", "Early morning first void", "Around midday, terminal portion", "At midnight", "Any time", "After fasting 24 hours", 1, "Egg excretion peaks around midday."],
+        ["A round egg with a radially striated shell and six-hooked embryo is from:", "Ascaris", "Taenia species", "Trichuris", "Hookworm", "Fasciola", 1, "Taenia eggs contain an oncosphere with six hooklets."],
+        ["Eggs with a lateral spine in stool indicate:", "S. haematobium", "S. mansoni", "Fasciola hepatica", "Hymenolepis nana", "Taenia", 1, "S. mansoni eggs have a lateral spine."]
+      ]
+    },
+    {
+      "title": "Medical Entomology",
+      "summary": "Mosquitoes, flies, ticks, lice and mites of medical importance, and principles of vector control.",
+      "notes": [
+        { "h": "Mosquitoes and flies", "b": "Mosquitoes: Anopheles (malaria, lymphatic filariasis) — adults rest at an angle to the surface; palps as long as the proboscis in both sexes; eggs laid singly with floats; larvae lie parallel to the water surface (no siphon). Aedes (yellow fever, dengue, Zika, chikungunya) — black and white striped, day-biting, breed in containers. Culex (lymphatic filariasis in urban areas, West Nile) — rest parallel to the surface, larvae hang at an angle with a siphon, breed in polluted water. Flies: Simulium blackflies (onchocerciasis — breed in fast-flowing rivers), Glossina tsetse flies (trypanosomiasis), Phlebotomus/Lutzomyia sandflies (leishmaniasis), Chrysops deer flies (Loa loa), and houseflies (Musca — mechanical transmission of diarrhoeal diseases, trachoma). Only female mosquitoes take blood meals.", "k": ["Anopheles: rests at angle; larvae parallel, no siphon", "Aedes: striped, day-biting, containers", "Culex: larvae with siphon; polluted water", "Simulium: onchocerciasis", "Chrysops: Loa loa"] },
+        { "h": "Other arthropods and control", "b": "Ticks transmit relapsing fever (Ornithodoros), Crimean–Congo haemorrhagic fever and rickettsial infections; lice (Pediculus humanus) transmit epidemic typhus, trench fever and louse-borne relapsing fever; the rat flea (Xenopsylla cheopis) transmits plague and murine typhus; the scabies mite (Sarcoptes scabiei) causes itchy burrows (treated with permethrin or ivermectin); reduviid (kissing) bugs transmit Chagas disease in the Americas. Vector control: long-lasting insecticidal nets, indoor residual spraying, larviciding and environmental management (removing breeding sites), personal protection (repellents, clothing), and biological control (larvivorous fish, Bacillus thuringiensis israelensis). Insecticide resistance monitoring (WHO tube tests, CDC bottle assays) guides choices; entomological surveillance measures vector density, biting rates and infectivity (entomological inoculation rate).", "k": ["Lice: epidemic typhus", "Rat flea: plague", "Scabies: permethrin or ivermectin", "LLINs, IRS, larviciding", "Monitor insecticide resistance"] }
+      ],
+      "q": [
+        ["Mosquito larvae lying parallel to the water surface without a siphon belong to:", "Culex", "Anopheles", "Aedes", "Mansonia", "Simulium", 1, "Anopheles larvae lack a breathing siphon."],
+        ["Black-and-white striped, day-biting mosquitoes that breed in containers are:", "Anopheles", "Aedes", "Culex", "Simulium", "Phlebotomus", 1, "Aedes transmits yellow fever and dengue."],
+        ["Culex mosquitoes commonly breed in:", "Clean running rivers", "Polluted stagnant water such as drains", "Tree holes only", "Salt water", "Dry sand", 1, "They thrive in organically polluted water."],
+        ["Loa loa is transmitted by:", "Simulium blackflies", "Chrysops (deer) flies", "Tsetse flies", "Sandflies", "Houseflies", 1, "Day-biting Chrysops flies transmit loiasis."],
+        ["Epidemic typhus is transmitted by:", "Ticks", "Body lice", "Mosquitoes", "Sandflies", "Houseflies", 1, "Pediculus humanus transmits Rickettsia prowazekii."],
+        ["Plague is transmitted by the:", "Housefly", "Rat flea (Xenopsylla cheopis)", "Tsetse fly", "Mosquito", "Tick only", 1, "Infected fleas transmit Yersinia pestis."],
+        ["Scabies is treated with:", "Albendazole", "Permethrin cream or oral ivermectin", "Metronidazole", "Chloroquine", "Penicillin", 1, "These kill the Sarcoptes mite."],
+        ["Bacillus thuringiensis israelensis is used in vector control as a:", "Chemical insecticide for adults", "Biological larvicide", "Bed net material", "Repellent", "Vaccine", 1, "Its toxins kill mosquito and blackfly larvae."]
+      ]
+    }
+  ]
+}

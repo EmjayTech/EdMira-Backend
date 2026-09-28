@@ -1,0 +1,662 @@
+{
+ "courses": [
+  {
+   "title": "Chemical Pathology",
+   "code": "CPT401",
+   "color": "#9333EA",
+   "description": "Clinical interpretation of biochemical tests: water and electrolytes, acid–base, renal and liver disease, endocrine function, lipids, and tumour markers.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biochemistry"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Water, Sodium and Potassium Disorders",
+     "order": 1,
+     "summary": "Hyponatraemia and hypernatraemia, SIADH, and hypo- and hyperkalaemia with management.",
+     "material": [
+      {
+       "heading": "Sodium",
+       "body": "Hyponatraemia (Na+ < 135 mmol/L) is classified by volume status: hypovolaemic (vomiting, diarrhoea, diuretics — especially thiazides, Addison's disease, salt-losing nephropathy), euvolaemic (SIADH — causes include pneumonia, TB, meningitis, head injury, small-cell lung cancer, drugs such as carbamazepine and SSRIs; hypothyroidism; glucocorticoid deficiency) and hypervolaemic (heart failure, cirrhosis, nephrotic syndrome). SIADH: low plasma osmolality with inappropriately concentrated urine (urine osmolality > 100 mOsm/kg) and high urine sodium (> 30 mmol/L) in a euvolaemic patient; treat with fluid restriction. Severe symptomatic hyponatraemia (seizures, coma) needs hypertonic (3%) saline; correct chronic hyponatraemia slowly (no more than about 8–10 mmol/L in 24 hours) to avoid osmotic demyelination. Hypernatraemia (Na+ > 145) usually reflects water deficit — dehydration, diabetes insipidus — corrected slowly.",
+       "keyPoints": [
+        "Classify hyponatraemia by volume status",
+        "SIADH: ↓plasma osm, ↑urine osm, ↑urine Na, euvolaemic",
+        "Correct ≤ 8–10 mmol/L per 24 h",
+        "Hypernatraemia = water deficit"
+       ]
+      },
+      {
+       "heading": "Potassium",
+       "body": "Hyperkalaemia (K+ > 5.5 mmol/L): causes include renal failure, potassium-sparing diuretics, ACE inhibitors/ARBs, Addison's disease, acidosis, tissue breakdown (rhabdomyolysis, tumour lysis, haemolysis), and spurious results from haemolysed samples or delayed separation. ECG: peaked T waves, flattened P waves, widened QRS, sine-wave pattern, cardiac arrest. Emergency treatment: IV calcium gluconate (stabilises myocardium), insulin with dextrose and nebulised salbutamol (shift K+ into cells), then removal (potassium binders, dialysis). Hypokalaemia (K+ < 3.5): diuretics, vomiting, diarrhoea, insulin therapy, hyperaldosteronism; features include weakness, ileus and arrhythmias (U waves); replace orally or with slow IV infusion.",
+       "keyPoints": [
+        "Hyperkalaemia: calcium gluconate first",
+        "Insulin–dextrose and salbutamol shift K+",
+        "Exclude haemolysed samples",
+        "Hypokalaemia: U waves; replace slowly"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A euvolaemic patient with low plasma osmolality, concentrated urine and high urine sodium most likely has:",
+       "options": [
+        "Dehydration",
+        "Cirrhosis",
+        "Heart failure",
+        "SIADH",
+        "Diabetes insipidus"
+       ],
+       "answerIndex": 3,
+       "explanation": "These are the diagnostic features of SIADH."
+      },
+      {
+       "stem": "The first-line treatment of SIADH is:",
+       "options": [
+        "IV normal saline in large volumes",
+        "Potassium supplements",
+        "Diuretics alone",
+        "Insulin",
+        "Fluid restriction"
+       ],
+       "answerIndex": 4,
+       "explanation": "Restricting water intake raises sodium."
+      },
+      {
+       "stem": "Chronic hyponatraemia should be corrected slowly to avoid:",
+       "options": [
+        "Hypoglycaemia",
+        "Pulmonary embolism",
+        "Osmotic demyelination syndrome",
+        "Hyperkalaemia",
+        "Hypercalcaemia"
+       ],
+       "answerIndex": 2,
+       "explanation": "Rapid correction damages the pons."
+      },
+      {
+       "stem": "The first drug given to protect the heart in severe hyperkalaemia is:",
+       "options": [
+        "Digoxin",
+        "Insulin",
+        "Potassium chloride",
+        "Furosemide",
+        "IV calcium gluconate"
+       ],
+       "answerIndex": 4,
+       "explanation": "Calcium stabilises the cardiac membrane."
+      },
+      {
+       "stem": "Which treatment shifts potassium into cells?",
+       "options": [
+        "Insulin with dextrose",
+        "Potassium chloride",
+        "Normal saline",
+        "Calcium gluconate",
+        "Spironolactone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Insulin activates the Na+/K+-ATPase."
+      },
+      {
+       "stem": "A potassium of 7.0 mmol/L in a patient with normal renal function and no ECG changes should first prompt:",
+       "options": [
+        "Surgery",
+        "Ignoring it",
+        "Giving potassium",
+        "Immediate dialysis",
+        "Checking for a haemolysed sample and repeating"
+       ],
+       "answerIndex": 4,
+       "explanation": "Spurious hyperkalaemia is common."
+      },
+      {
+       "stem": "Thiazide diuretics commonly cause:",
+       "options": [
+        "Hyponatraemia and hypokalaemia",
+        "Hyperkalaemia only",
+        "Hypercalcaemia only",
+        "Hypernatraemia",
+        "No electrolyte changes"
+       ],
+       "answerIndex": 0,
+       "explanation": "They cause sodium and potassium loss."
+      },
+      {
+       "stem": "Hypernatraemia usually indicates:",
+       "options": [
+        "Hypothyroidism",
+        "Heart failure",
+        "A deficit of water relative to sodium",
+        "Excess sodium intake only",
+        "SIADH"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most cases reflect water loss or inadequate intake."
+      }
+     ]
+    },
+    {
+     "title": "Acid–Base Disorders and Blood Gases",
+     "order": 2,
+     "summary": "Interpreting arterial blood gases, anion gap, compensation and mixed disorders.",
+     "material": [
+      {
+       "heading": "Stepwise interpretation",
+       "body": "Normal ABG: pH 7.35–7.45, PaCO2 4.7–6.0 kPa (35–45 mmHg), HCO3− 22–26 mmol/L, PaO2 > 10.6 kPa on air, base excess −2 to +2. Steps: (1) assess oxygenation; (2) acidaemia or alkalaemia from pH; (3) respiratory component (PaCO2) or metabolic (HCO3−/base excess) as the primary cause; (4) assess compensation — respiratory compensation for metabolic disorders is rapid (Winter's formula for metabolic acidosis: expected PaCO2 = 1.5 × HCO3− + 8 ± 2 mmHg); renal compensation for respiratory disorders takes days; (5) calculate the anion gap in metabolic acidosis.",
+       "keyPoints": [
+        "pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26",
+        "Winter's formula: PaCO2 = 1.5 × HCO3 + 8 ± 2",
+        "Respiratory compensation fast; renal slow"
+       ]
+      },
+      {
+       "heading": "Causes",
+       "body": "Raised anion gap metabolic acidosis (MUDPILES: methanol, uraemia, diabetic ketoacidosis, paraldehyde/propylene glycol, isoniazid/iron, lactic acidosis — shock, sepsis, severe malaria — ethylene glycol, salicylates). Normal anion gap (hyperchloraemic) acidosis: diarrhoea, renal tubular acidosis, ureterosigmoidostomy, excessive normal saline. Metabolic alkalosis: vomiting (loss of HCl — hypochloraemic, hypokalaemic), diuretics, hyperaldosteronism. Respiratory acidosis: hypoventilation — COPD, opioids, neuromuscular disease, chest wall disorders. Respiratory alkalosis: hyperventilation — anxiety, pain, early salicylate poisoning, pulmonary embolism, high altitude, pregnancy. Salicylate poisoning classically causes a mixed respiratory alkalosis and raised-anion-gap metabolic acidosis.",
+       "keyPoints": [
+        "MUDPILES for raised anion gap",
+        "Diarrhoea → normal anion gap acidosis",
+        "Vomiting → hypochloraemic metabolic alkalosis",
+        "Salicylates: mixed respiratory alkalosis + metabolic acidosis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "pH 7.25, PaCO2 25 mmHg, HCO3− 11 mmol/L indicates:",
+       "options": [
+        "Respiratory acidosis",
+        "Respiratory alkalosis",
+        "Metabolic alkalosis",
+        "Metabolic acidosis with respiratory compensation",
+        "Normal gas"
+       ],
+       "answerIndex": 3,
+       "explanation": "Low pH and low HCO3− with compensatory low PaCO2."
+      },
+      {
+       "stem": "In metabolic acidosis with HCO3− 12 mmol/L, Winter's formula predicts PaCO2 of about:",
+       "options": [
+        "12 mmHg",
+        "26 mmHg",
+        "40 mmHg",
+        "50 mmHg",
+        "8 mmHg"
+       ],
+       "answerIndex": 1,
+       "explanation": "1.5 × 12 + 8 = 26 ± 2 mmHg."
+      },
+      {
+       "stem": "Which causes a raised anion gap metabolic acidosis?",
+       "options": [
+        "Diabetic ketoacidosis",
+        "Excess normal saline",
+        "Renal tubular acidosis",
+        "Diarrhoea",
+        "Ureterosigmoidostomy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ketoacids are unmeasured anions."
+      },
+      {
+       "stem": "Severe diarrhoea usually produces:",
+       "options": [
+        "Respiratory acidosis",
+        "Raised anion gap acidosis",
+        "Respiratory alkalosis",
+        "Metabolic alkalosis",
+        "Normal anion gap (hyperchloraemic) acidosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bicarbonate is lost with chloride retention."
+      },
+      {
+       "stem": "Prolonged vomiting typically causes:",
+       "options": [
+        "Metabolic acidosis",
+        "Hypochloraemic hypokalaemic metabolic alkalosis",
+        "Respiratory acidosis",
+        "Normal anion gap acidosis",
+        "Hyperkalaemia"
+       ],
+       "answerIndex": 1,
+       "explanation": "Loss of HCl raises bicarbonate."
+      },
+      {
+       "stem": "Aspirin (salicylate) overdose classically causes:",
+       "options": [
+        "Hyperchloraemic acidosis only",
+        "Respiratory acidosis only",
+        "No acid–base change",
+        "Pure metabolic alkalosis",
+        "Mixed respiratory alkalosis and metabolic acidosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "It stimulates respiration and causes organic acidosis."
+      },
+      {
+       "stem": "Compensation for a respiratory acidosis by the kidneys takes:",
+       "options": [
+        "Days",
+        "Minutes",
+        "It never occurs",
+        "Months",
+        "Seconds"
+       ],
+       "answerIndex": 0,
+       "explanation": "Renal bicarbonate retention develops over 2–5 days."
+      },
+      {
+       "stem": "Lactic acidosis is a common complication of:",
+       "options": [
+        "Hyperventilation from anxiety",
+        "Hypothyroidism",
+        "Mild asthma",
+        "Severe malaria and septic shock",
+        "Vomiting"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tissue hypoperfusion and hypoxia increase lactate."
+      }
+     ]
+    },
+    {
+     "title": "Kidney Disease: Biochemical Assessment",
+     "order": 3,
+     "summary": "Acute kidney injury, chronic kidney disease staging, proteinuria and renal stones.",
+     "material": [
+      {
+       "heading": "AKI and CKD",
+       "body": "Acute kidney injury (KDIGO): rise in creatinine ≥ 26.5 µmol/L within 48 hours, or ≥ 1.5 × baseline within 7 days, or urine output < 0.5 mL/kg/h for 6 hours. Causes are pre-renal (hypovolaemia — diarrhoea, haemorrhage, sepsis; urine sodium low, high urea:creatinine), intrinsic renal (acute tubular necrosis, glomerulonephritis, nephrotoxins — aminoglycosides, NSAIDs, contrast, herbal remedies; severe malaria and snakebite) and post-renal (obstruction — prostate enlargement, stones). Chronic kidney disease is abnormal kidney structure or function for > 3 months, staged by eGFR (G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15 mL/min/1.73 m² — kidney failure) and albuminuria (A1–A3). Leading causes in Nigeria: hypertension, chronic glomerulonephritis, diabetes, HIV-associated nephropathy and sickle cell nephropathy. Complications: anaemia (low EPO), renal bone disease (high phosphate, low calcium, secondary hyperparathyroidism), hyperkalaemia, metabolic acidosis and fluid overload.",
+       "keyPoints": [
+        "AKI: creatinine ↑ ≥ 26.5 µmol/L in 48 h",
+        "Pre-renal, renal, post-renal",
+        "CKD G5: eGFR < 15",
+        "CKD causes: hypertension, GN, diabetes, HIVAN",
+        "CKD complications: anaemia, bone disease, ↑K+"
+       ]
+      },
+      {
+       "heading": "Proteinuria and stones",
+       "body": "Proteinuria is quantified by urine protein:creatinine ratio (PCR) or albumin:creatinine ratio (ACR); nephrotic-range proteinuria is > 3.5 g/day (PCR > 300 mg/mmol), with hypoalbuminaemia, oedema and hyperlipidaemia. Glomerular haematuria with red cell casts indicates nephritis. Kidney stones: calcium oxalate (commonest, radio-opaque), calcium phosphate, uric acid (radiolucent; gout, tumour lysis), struvite/magnesium ammonium phosphate (urease-producing Proteus infection — staghorn calculi) and cystine (inherited cystinuria — hexagonal crystals). Investigations include serum calcium, urate, urine 24-hour calcium, oxalate, citrate and stone analysis.",
+       "keyPoints": [
+        "Nephrotic: > 3.5 g/day",
+        "Red cell casts: glomerulonephritis",
+        "Calcium oxalate stones commonest",
+        "Uric acid stones radiolucent",
+        "Struvite: Proteus, staghorn"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "By KDIGO criteria, AKI includes a rise in serum creatinine of at least ___ within 48 hours.",
+       "options": [
+        "5 µmol/L",
+        "26.5 µmol/L",
+        "100 µmol/L",
+        "200 µmol/L",
+        "500 µmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "≥ 26.5 µmol/L (0.3 mg/dL) within 48 hours."
+      },
+      {
+       "stem": "AKI due to severe diarrhoea and dehydration is classified as:",
+       "options": [
+        "Pre-renal",
+        "Post-renal",
+        "Congenital",
+        "Intrinsic renal",
+        "Chronic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reduced perfusion without structural damage."
+      },
+      {
+       "stem": "Urinary retention from an enlarged prostate causes:",
+       "options": [
+        "Intrinsic AKI",
+        "Nephrotic syndrome",
+        "Pre-renal AKI",
+        "Diabetes insipidus",
+        "Post-renal (obstructive) AKI"
+       ],
+       "answerIndex": 4,
+       "explanation": "Outflow obstruction raises back-pressure."
+      },
+      {
+       "stem": "CKD stage G5 corresponds to an eGFR of:",
+       "options": [
+        "60–89",
+        "≥ 90",
+        "< 15 mL/min/1.73 m²",
+        "30–44",
+        "15–29"
+       ],
+       "answerIndex": 2,
+       "explanation": "G5 is kidney failure."
+      },
+      {
+       "stem": "Anaemia in chronic kidney disease is mainly due to:",
+       "options": [
+        "Iron overload",
+        "Excess folate",
+        "Vitamin C deficiency",
+        "Haemolysis only",
+        "Reduced erythropoietin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Damaged kidneys produce less EPO."
+      },
+      {
+       "stem": "Which kidney stone is radiolucent on plain X-ray?",
+       "options": [
+        "Uric acid",
+        "Struvite",
+        "Calcium phosphate",
+        "Mixed calcium",
+        "Calcium oxalate"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pure uric acid stones are not visible on plain films."
+      },
+      {
+       "stem": "Staghorn calculi associated with Proteus infection are made of:",
+       "options": [
+        "Uric acid",
+        "Cystine",
+        "Xanthine",
+        "Struvite (magnesium ammonium phosphate)",
+        "Calcium oxalate"
+       ],
+       "answerIndex": 3,
+       "explanation": "Urease raises urine pH, precipitating struvite."
+      },
+      {
+       "stem": "The most common type of kidney stone is:",
+       "options": [
+        "Cystine",
+        "Uric acid",
+        "Struvite",
+        "Calcium oxalate",
+        "Xanthine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Calcium oxalate stones predominate."
+      }
+     ]
+    },
+    {
+     "title": "Endocrine Function Tests",
+     "order": 4,
+     "summary": "Thyroid function tests, adrenal testing, calcium disorders and pituitary assessment.",
+     "material": [
+      {
+       "heading": "Thyroid and adrenal",
+       "body": "TSH is the best first-line thyroid test. Primary hypothyroidism: high TSH, low free T4 (Hashimoto's thyroiditis, iodine deficiency, post-thyroidectomy/radioiodine). Subclinical hypothyroidism: high TSH, normal free T4. Primary hyperthyroidism: suppressed TSH, high free T4 and/or T3 (Graves' disease — TSH-receptor antibodies; toxic multinodular goitre). Secondary (pituitary) disease: low TSH with low free T4. Sick euthyroid syndrome occurs in severe illness. Adrenal: Cushing's syndrome is screened with the overnight 1 mg dexamethasone suppression test, 24-hour urinary free cortisol or late-night salivary cortisol; Addison's disease is confirmed by a low cortisol that fails to rise after synacthen (ACTH stimulation test), with high ACTH. Primary aldosteronism: raised aldosterone:renin ratio.",
+       "keyPoints": [
+        "TSH first; high TSH + low fT4 = primary hypothyroidism",
+        "Suppressed TSH + high fT4 = hyperthyroidism",
+        "Cushing's: dexamethasone suppression test",
+        "Addison's: short synacthen test",
+        "Aldosterone:renin ratio"
+       ]
+      },
+      {
+       "heading": "Calcium and pituitary",
+       "body": "Correct total calcium for albumin (adjusted Ca = measured Ca + 0.02 × (40 − albumin g/L)). Hypercalcaemia: primary hyperparathyroidism (high calcium with high or inappropriately normal PTH; commonest in outpatients) and malignancy (low PTH, PTHrP or bone metastases; commonest in inpatients); also vitamin D excess, sarcoidosis and thiazides. Symptoms: 'bones, stones, abdominal groans and psychic moans'; treat severe cases with IV saline then bisphosphonates. Hypocalcaemia: hypoparathyroidism (post-thyroidectomy), vitamin D deficiency, CKD, acute pancreatitis; tetany, Chvostek's and Trousseau's signs, prolonged QT; treat with IV calcium gluconate. Pituitary: prolactinoma (raised prolactin), acromegaly (raised IGF-1; GH not suppressed by oral glucose), and hypopituitarism (dynamic testing).",
+       "keyPoints": [
+        "Adjust calcium for albumin",
+        "Hyperparathyroidism: ↑Ca, ↑/normal PTH",
+        "Malignancy: ↑Ca, ↓PTH",
+        "Acromegaly: ↑IGF-1, GH not suppressed by glucose"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The best first-line test of thyroid function is:",
+       "options": [
+        "T3",
+        "TSH",
+        "Total T4",
+        "Thyroglobulin",
+        "Radioiodine uptake"
+       ],
+       "answerIndex": 1,
+       "explanation": "TSH is the most sensitive screening test."
+      },
+      {
+       "stem": "High TSH with low free T4 indicates:",
+       "options": [
+        "Sick euthyroid",
+        "Primary hyperthyroidism",
+        "Normal thyroid",
+        "Secondary hypothyroidism",
+        "Primary hypothyroidism"
+       ],
+       "answerIndex": 4,
+       "explanation": "The failing thyroid removes negative feedback."
+      },
+      {
+       "stem": "Suppressed TSH with raised free T4 indicates:",
+       "options": [
+        "Subclinical hypothyroidism",
+        "Hypothyroidism",
+        "Iodine deficiency only",
+        "Pituitary failure",
+        "Hyperthyroidism"
+       ],
+       "answerIndex": 4,
+       "explanation": "Excess thyroid hormone suppresses TSH."
+      },
+      {
+       "stem": "Addison's disease is confirmed by:",
+       "options": [
+        "Dexamethasone suppression test",
+        "TSH measurement",
+        "Water deprivation test",
+        "Short synacthen (ACTH stimulation) test",
+        "Glucose tolerance test"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cortisol fails to rise after ACTH."
+      },
+      {
+       "stem": "A screening test for Cushing's syndrome is the:",
+       "options": [
+        "Insulin tolerance test only",
+        "Short synacthen test",
+        "Water deprivation test",
+        "Thyroid uptake scan",
+        "Overnight dexamethasone suppression test"
+       ],
+       "answerIndex": 4,
+       "explanation": "Normal subjects suppress cortisol after dexamethasone."
+      },
+      {
+       "stem": "High calcium with a high PTH suggests:",
+       "options": [
+        "Malignancy",
+        "Vitamin D deficiency",
+        "Renal failure only",
+        "Hypoparathyroidism",
+        "Primary hyperparathyroidism"
+       ],
+       "answerIndex": 4,
+       "explanation": "PTH is inappropriately raised."
+      },
+      {
+       "stem": "The most common cause of hypercalcaemia in hospital inpatients is:",
+       "options": [
+        "Malignancy",
+        "Sarcoidosis",
+        "Milk-alkali syndrome",
+        "Thiazides",
+        "Primary hyperparathyroidism"
+       ],
+       "answerIndex": 0,
+       "explanation": "Malignancy-associated hypercalcaemia predominates in inpatients."
+      },
+      {
+       "stem": "Acromegaly is confirmed by raised IGF-1 and failure of GH suppression after:",
+       "options": [
+        "TRH",
+        "An oral glucose load",
+        "Dexamethasone",
+        "Synacthen",
+        "Insulin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Glucose normally suppresses GH."
+      }
+     ]
+    },
+    {
+     "title": "Lipids, Cardiac Markers and Tumour Markers",
+     "order": 5,
+     "summary": "Lipid profile and cardiovascular risk, markers of myocardial injury and heart failure, and tumour markers.",
+     "material": [
+      {
+       "heading": "Lipids",
+       "body": "A lipid profile includes total cholesterol, triglycerides, HDL cholesterol and LDL cholesterol (often calculated by the Friedewald equation: LDL = total cholesterol − HDL − TG/2.2 in mmol/L, invalid if TG > 4.5 mmol/L). Traditionally a fasting sample was used, especially for triglycerides. Raised LDL and low HDL increase cardiovascular risk; very high triglycerides (> 10 mmol/L) risk acute pancreatitis. Secondary causes of dyslipidaemia: diabetes, hypothyroidism, nephrotic syndrome, cholestasis, alcohol and drugs (thiazides, steroids, some antiretrovirals). Treatment: lifestyle and statins (first-line for LDL lowering).",
+       "keyPoints": [
+        "Friedewald: LDL = TC − HDL − TG/2.2",
+        "LDL ↑ and HDL ↓ → CVD risk",
+        "TG > 10 mmol/L → pancreatitis risk",
+        "Secondary causes: diabetes, hypothyroidism, nephrotic"
+       ]
+      },
+      {
+       "heading": "Cardiac and tumour markers",
+       "body": "Cardiac troponin (I or T) is the marker of choice for myocardial infarction: it rises within 3–6 hours, peaks at 12–24 hours and remains raised for 7–14 days; high-sensitivity assays allow rapid rule-out protocols, and a rise and/or fall is required. Troponin is also raised in myocarditis, pulmonary embolism, sepsis and renal failure. BNP/NT-proBNP helps diagnose heart failure. Tumour markers are mainly used for monitoring treatment and detecting recurrence rather than screening: AFP (hepatocellular carcinoma — common in Nigeria with hepatitis B; germ-cell tumours), β-hCG (choriocarcinoma, testicular tumours, molar pregnancy), PSA (prostate cancer — also raised in benign prostatic hyperplasia and prostatitis), CA-125 (ovarian cancer), CEA (colorectal cancer), CA 19-9 (pancreatic cancer), and paraproteins (myeloma).",
+       "keyPoints": [
+        "Troponin: rise/fall; raised 7–14 days",
+        "BNP: heart failure",
+        "Tumour markers: monitoring more than screening",
+        "AFP: HCC; β-hCG: choriocarcinoma",
+        "PSA: prostate; CA-125: ovary; CEA: colon"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Using the Friedewald equation, if TC = 6.0, HDL = 1.0 and TG = 2.2 mmol/L, LDL is:",
+       "options": [
+        "3.0 mmol/L",
+        "4.0 mmol/L",
+        "5.0 mmol/L",
+        "2.2 mmol/L",
+        "6.0 mmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "LDL = 6.0 − 1.0 − 2.2/2.2 = 4.0 mmol/L."
+      },
+      {
+       "stem": "The Friedewald equation is invalid when triglycerides exceed about:",
+       "options": [
+        "4.5 mmol/L",
+        "It is always valid",
+        "1 mmol/L",
+        "0.5 mmol/L",
+        "2 mmol/L"
+       ],
+       "answerIndex": 0,
+       "explanation": "At high TG levels the VLDL estimate is inaccurate."
+      },
+      {
+       "stem": "Very high triglycerides (> 10 mmol/L) increase the risk of:",
+       "options": [
+        "Acute pancreatitis",
+        "Osteoporosis",
+        "Kidney stones",
+        "Gout",
+        "Anaemia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Chylomicronaemia can trigger pancreatitis."
+      },
+      {
+       "stem": "Which condition is a secondary cause of hypercholesterolaemia?",
+       "options": [
+        "Hypothyroidism",
+        "Anaemia",
+        "Malaria",
+        "Asthma",
+        "Hyperthyroidism"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reduced LDL receptor activity raises cholesterol."
+      },
+      {
+       "stem": "Cardiac troponin remains raised after myocardial infarction for about:",
+       "options": [
+        "6 hours",
+        "24 hours",
+        "7–14 days",
+        "3 months",
+        "1 year"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its persistence allows late diagnosis."
+      },
+      {
+       "stem": "The marker used to support a diagnosis of heart failure is:",
+       "options": [
+        "BNP/NT-proBNP",
+        "PSA",
+        "AFP",
+        "CEA",
+        "Troponin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Natriuretic peptides are released by stretched ventricles."
+      },
+      {
+       "stem": "The main clinical use of most tumour markers is:",
+       "options": [
+        "Diagnosing infections",
+        "Blood grouping",
+        "Monitoring treatment response and recurrence",
+        "Population screening",
+        "Pregnancy dating"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most lack the sensitivity and specificity needed for screening."
+      },
+      {
+       "stem": "A very high β-hCG in a woman after a molar pregnancy suggests:",
+       "options": [
+        "Hepatocellular carcinoma",
+        "Colorectal cancer",
+        "Prostate cancer",
+        "Choriocarcinoma (gestational trophoblastic neoplasia)",
+        "Myeloma"
+       ],
+       "answerIndex": 3,
+       "explanation": "Trophoblastic tissue secretes hCG."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

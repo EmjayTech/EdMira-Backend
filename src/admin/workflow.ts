@@ -116,8 +116,13 @@ export function validateTopic(input: TopicFields) {
 }
 
 export function validateQuestion(input: QuestionFields) {
+  const errors = [...(input.topicId ? [] : ['Choose a topic.']), ...questionProblems(input)];
+  if (errors.length) throw new BadRequestException(errors.join(' '));
+}
+
+/** Everything wrong with a question's text, options and answer (empty = fine). */
+export function questionProblems(input: Omit<QuestionFields, 'topicId'>): string[] {
   const errors: string[] = [];
-  if (!input.topicId) errors.push('Choose a topic.');
   if (!input.stem?.trim()) errors.push('Write the question.');
   const options = (input.options ?? []).map(o => o.trim());
   if (options.length < 2) errors.push('Add at least two options.');
@@ -128,7 +133,7 @@ export function validateQuestion(input: QuestionFields) {
   if (!Number.isInteger(input.answerIndex) || input.answerIndex < 0 || input.answerIndex >= options.length) {
     errors.push('Mark the correct answer.');
   }
-  if (errors.length) throw new BadRequestException(errors.join(' '));
+  return errors;
 }
 
 export interface ResourceFields {

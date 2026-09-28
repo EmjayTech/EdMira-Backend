@@ -1,0 +1,668 @@
+{
+ "courses": [
+  {
+   "title": "General Pathology",
+   "code": "PAT401",
+   "color": "#7F1D1D",
+   "description": "Cell injury and death, inflammation and repair, haemodynamic disorders, immunopathology, and neoplasia — the foundation of disease mechanisms.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cell Injury, Adaptation and Cell Death",
+     "order": 1,
+     "summary": "Cellular adaptations, reversible and irreversible injury, necrosis and apoptosis.",
+     "material": [
+      {
+       "heading": "Adaptations and injury",
+       "body": "Cells adapt to stress by hypertrophy (increase in cell size — cardiac muscle in hypertension), hyperplasia (increase in cell number — endometrium, prostate), atrophy (decrease in size — disuse, denervation) and metaplasia (one adult cell type replaced by another — squamous metaplasia of bronchial epithelium in smokers; Barrett's oesophagus: squamous → columnar, a precursor of adenocarcinoma). Causes of cell injury include hypoxia (the commonest), physical and chemical agents, infections, immunological reactions, genetic defects and nutritional imbalance. Reversible injury shows cellular swelling (hydropic change) and fatty change; irreversible injury shows membrane damage, mitochondrial dysfunction and nuclear changes (pyknosis, karyorrhexis, karyolysis).",
+       "keyPoints": [
+        "Hypertrophy, hyperplasia, atrophy, metaplasia",
+        "Barrett's: squamous → columnar metaplasia",
+        "Hypoxia is the commonest cause of injury",
+        "Nuclear changes: pyknosis, karyorrhexis, karyolysis"
+       ]
+      },
+      {
+       "heading": "Necrosis and apoptosis",
+       "body": "Necrosis is uncontrolled cell death with inflammation. Types: coagulative (most solid organs after ischaemia, e.g. myocardial infarction — architecture preserved), liquefactive (brain infarcts and abscesses), caseous (tuberculosis — cheese-like, with granulomas), fat necrosis (acute pancreatitis, breast trauma — chalky saponification), fibrinoid (vessel walls in malignant hypertension and vasculitis) and gangrenous (dry, wet, gas gangrene). Apoptosis is programmed, energy-dependent cell death without inflammation: cell shrinkage, chromatin condensation, apoptotic bodies phagocytosed; mediated by caspases through intrinsic (mitochondrial, cytochrome c; regulated by BCL-2 family) and extrinsic (death receptor — Fas, TNF) pathways. It occurs physiologically (embryogenesis, hormone withdrawal) and pathologically (viral infection, DNA damage).",
+       "keyPoints": [
+        "Coagulative: MI; liquefactive: brain",
+        "Caseous: TB",
+        "Fat necrosis: pancreatitis",
+        "Apoptosis: caspases, no inflammation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Replacement of bronchial columnar epithelium by squamous epithelium in smokers is:",
+       "options": [
+        "Hyperplasia",
+        "Metaplasia",
+        "Atrophy",
+        "Hypertrophy",
+        "Dysplasia"
+       ],
+       "answerIndex": 1,
+       "explanation": "One mature cell type replaces another."
+      },
+      {
+       "stem": "Enlargement of the left ventricle in hypertension is due to:",
+       "options": [
+        "Neoplasia",
+        "Atrophy",
+        "Metaplasia",
+        "Hyperplasia",
+        "Hypertrophy"
+       ],
+       "answerIndex": 4,
+       "explanation": "Cardiac myocytes increase in size."
+      },
+      {
+       "stem": "The commonest cause of cell injury is:",
+       "options": [
+        "Trauma",
+        "Chemicals",
+        "Hypoxia",
+        "Genetic defects",
+        "Radiation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Oxygen deprivation is the most frequent cause."
+      },
+      {
+       "stem": "The type of necrosis typical of myocardial infarction is:",
+       "options": [
+        "Coagulative",
+        "Liquefactive",
+        "Fat",
+        "Fibrinoid",
+        "Caseous"
+       ],
+       "answerIndex": 0,
+       "explanation": "Tissue architecture is preserved in coagulative necrosis."
+      },
+      {
+       "stem": "Caseous necrosis is characteristic of:",
+       "options": [
+        "Tuberculosis",
+        "Myocardial infarction",
+        "Brain infarction",
+        "Malignant hypertension",
+        "Acute pancreatitis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cheese-like necrosis occurs in TB granulomas."
+      },
+      {
+       "stem": "Necrosis in the brain after infarction is typically:",
+       "options": [
+        "Coagulative",
+        "Gangrenous",
+        "Liquefactive",
+        "Fat",
+        "Caseous"
+       ],
+       "answerIndex": 2,
+       "explanation": "The brain's lipid-rich tissue liquefies."
+      },
+      {
+       "stem": "Apoptosis differs from necrosis in that apoptosis:",
+       "options": [
+        "Always follows ischaemia",
+        "Involves cell swelling",
+        "Is programmed and does not provoke inflammation",
+        "Is caused only by trauma",
+        "Causes marked inflammation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Apoptotic bodies are quietly phagocytosed."
+      },
+      {
+       "stem": "The enzymes that execute apoptosis are:",
+       "options": [
+        "Kinases only",
+        "Collagenases",
+        "Amylases",
+        "Caspases",
+        "Lipases"
+       ],
+       "answerIndex": 3,
+       "explanation": "Caspases cleave cellular proteins in apoptosis."
+      }
+     ]
+    },
+    {
+     "title": "Acute and Chronic Inflammation",
+     "order": 2,
+     "summary": "Vascular and cellular events, mediators, outcomes, chronic and granulomatous inflammation.",
+     "material": [
+      {
+       "heading": "Acute inflammation",
+       "body": "Acute inflammation is a rapid response to injury or infection with cardinal signs: rubor (redness), calor (heat), tumor (swelling), dolor (pain) and functio laesa (loss of function). Vascular events: transient vasoconstriction, vasodilatation, increased permeability (exudate rich in protein), and stasis. Cellular events: margination, rolling (selectins), adhesion (integrins), transmigration (diapedesis) and chemotaxis of neutrophils (the first cells, within 6–24 hours), followed by phagocytosis and killing (oxygen-dependent myeloperoxidase system). Mediators: histamine (immediate permeability), prostaglandins (pain, fever, vasodilatation — blocked by NSAIDs), leukotrienes (bronchoconstriction, chemotaxis — LTB4), bradykinin (pain), complement (C3a, C5a anaphylatoxins; C5a chemotaxis; C3b opsonin), cytokines (IL-1, TNF, IL-6 — fever and acute-phase response). Outcomes: resolution, abscess, healing by fibrosis, or chronic inflammation.",
+       "keyPoints": [
+        "Five cardinal signs",
+        "Neutrophils arrive first",
+        "Rolling (selectins) → adhesion (integrins) → diapedesis",
+        "C5a chemotaxis; C3b opsonin",
+        "Prostaglandins → pain and fever"
+       ]
+      },
+      {
+       "heading": "Chronic inflammation",
+       "body": "Chronic inflammation is prolonged inflammation with simultaneous tissue destruction and repair, dominated by macrophages, lymphocytes and plasma cells, with angiogenesis and fibrosis. Causes: persistent infection (TB, leprosy, syphilis), prolonged exposure to toxins (silica), and autoimmunity (rheumatoid arthritis). Granulomatous inflammation is a special type with granulomas — collections of activated macrophages (epithelioid cells), often with Langhans giant cells (horseshoe nuclei), surrounded by lymphocytes; caseating granulomas suggest TB, non-caseating suggest sarcoidosis. Other granulomatous causes: leprosy, schistosomiasis, fungal infections, foreign bodies, Crohn's disease. Systemic effects of inflammation: fever, leucocytosis, raised ESR and CRP, and the acute-phase response.",
+       "keyPoints": [
+        "Chronic: macrophages, lymphocytes, plasma cells",
+        "Granuloma: epithelioid macrophages + giant cells",
+        "Caseating: TB; non-caseating: sarcoidosis",
+        "Acute-phase: CRP, ESR, fever"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which is NOT a cardinal sign of acute inflammation?",
+       "options": [
+        "Pain",
+        "Pallor",
+        "Heat",
+        "Redness",
+        "Swelling"
+       ],
+       "answerIndex": 1,
+       "explanation": "The cardinal signs are rubor, calor, tumor, dolor and functio laesa."
+      },
+      {
+       "stem": "The first white cells to arrive at a site of acute inflammation are:",
+       "options": [
+        "Macrophages",
+        "Neutrophils",
+        "Lymphocytes",
+        "Plasma cells",
+        "Eosinophils"
+       ],
+       "answerIndex": 1,
+       "explanation": "Neutrophils predominate in the first 24 hours."
+      },
+      {
+       "stem": "Leucocyte rolling along the endothelium is mediated mainly by:",
+       "options": [
+        "Integrins",
+        "Fibrin",
+        "Selectins",
+        "Collagen",
+        "Immunoglobulins"
+       ],
+       "answerIndex": 2,
+       "explanation": "Selectins mediate loose, transient binding."
+      },
+      {
+       "stem": "NSAIDs reduce pain and fever by inhibiting production of:",
+       "options": [
+        "Leukotrienes only",
+        "Histamine",
+        "Bradykinin",
+        "Complement",
+        "Prostaglandins"
+       ],
+       "answerIndex": 4,
+       "explanation": "They inhibit cyclo-oxygenase."
+      },
+      {
+       "stem": "The complement component that acts as the main opsonin is:",
+       "options": [
+        "C3a",
+        "C1q",
+        "C5a",
+        "C9",
+        "C3b"
+       ],
+       "answerIndex": 4,
+       "explanation": "C3b coats microbes for phagocytosis."
+      },
+      {
+       "stem": "A granuloma consists mainly of:",
+       "options": [
+        "Red cells",
+        "Epithelioid macrophages, often with giant cells",
+        "Neutrophils",
+        "Mast cells",
+        "Eosinophils"
+       ],
+       "answerIndex": 1,
+       "explanation": "Activated macrophages form granulomas."
+      },
+      {
+       "stem": "Caseating granulomas are most characteristic of:",
+       "options": [
+        "Foreign body reaction",
+        "Sarcoidosis",
+        "Tuberculosis",
+        "Crohn's disease",
+        "Rheumatoid arthritis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Central caseous necrosis suggests TB."
+      },
+      {
+       "stem": "The cell type characteristic of chronic inflammation is the:",
+       "options": [
+        "Platelet",
+        "Neutrophil",
+        "Red cell",
+        "Basophil",
+        "Macrophage (with lymphocytes and plasma cells)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Mononuclear cells dominate chronic inflammation."
+      }
+     ]
+    },
+    {
+     "title": "Tissue Repair and Haemodynamic Disorders",
+     "order": 3,
+     "summary": "Regeneration and fibrosis, wound healing, oedema, thrombosis, embolism, infarction and shock.",
+     "material": [
+      {
+       "heading": "Repair",
+       "body": "Tissues are labile (continuously dividing — skin, gut epithelium, bone marrow), stable (quiescent but can divide — liver, kidney tubules) or permanent (non-dividing — neurons, cardiac muscle, which heal by scarring). Repair involves regeneration and/or fibrosis with granulation tissue (new capillaries, fibroblasts, inflammatory cells). Collagen type III is laid down first and replaced by type I. Complications: keloids (excess collagen extending beyond the wound, common in people of African descent), hypertrophic scars, contractures, and wound dehiscence. Healing is impaired by infection, poor nutrition (protein, vitamin C, zinc), diabetes, steroids and poor blood supply.",
+       "keyPoints": [
+        "Labile, stable and permanent tissues",
+        "Granulation tissue",
+        "Collagen III then I",
+        "Keloids more common in people of African descent"
+       ]
+      },
+      {
+       "heading": "Haemodynamic disorders",
+       "body": "Virchow's triad of thrombosis: endothelial injury, abnormal blood flow (stasis or turbulence) and hypercoagulability. Deep vein thrombosis commonly embolises to the lungs (pulmonary embolism). Emboli may be thrombotic (most common), fat (after long-bone fractures), air, amniotic fluid, tumour or septic. An infarct is ischaemic necrosis: pale (white) infarcts occur in solid organs with end-arterial supply (heart, kidney, spleen); red (haemorrhagic) infarcts occur in organs with dual supply or loose tissue (lung, intestine) and with venous occlusion. Oedema results from raised hydrostatic pressure, reduced oncotic pressure, lymphatic obstruction or increased permeability. Shock (hypovolaemic, cardiogenic, distributive — septic, anaphylactic, neurogenic — and obstructive) causes inadequate tissue perfusion.",
+       "keyPoints": [
+        "Virchow's triad",
+        "DVT → pulmonary embolism",
+        "Fat embolism after long-bone fracture",
+        "Pale infarcts: heart, kidney; red: lung, bowel",
+        "Types of shock"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Cardiac muscle damaged by infarction heals mainly by:",
+       "options": [
+        "Fibrosis (scar formation)",
+        "Regeneration",
+        "Metaplasia",
+        "Hyperplasia",
+        "Apoptosis alone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cardiac myocytes are permanent cells."
+      },
+      {
+       "stem": "Which is a labile tissue?",
+       "options": [
+        "Epidermis",
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Lens fibres",
+        "Neurons"
+       ],
+       "answerIndex": 0,
+       "explanation": "Skin epithelium divides continuously."
+      },
+      {
+       "stem": "A scar that grows beyond the boundaries of the original wound is a:",
+       "options": [
+        "Ulcer",
+        "Contracture",
+        "Keloid",
+        "Granuloma",
+        "Hypertrophic scar"
+       ],
+       "answerIndex": 2,
+       "explanation": "Keloids extend beyond the wound margins."
+      },
+      {
+       "stem": "Virchow's triad includes endothelial injury, abnormal blood flow and:",
+       "options": [
+        "Hypertension",
+        "Hypercoagulability",
+        "Infection only",
+        "Hypoglycaemia",
+        "Anaemia"
+       ],
+       "answerIndex": 1,
+       "explanation": "These three factors predispose to thrombosis."
+      },
+      {
+       "stem": "The most common source of pulmonary emboli is:",
+       "options": [
+        "Heart valves",
+        "Deep veins of the legs",
+        "Portal vein",
+        "Cerebral veins",
+        "Arm veins"
+       ],
+       "answerIndex": 1,
+       "explanation": "Most PEs arise from DVT in the legs and pelvis."
+      },
+      {
+       "stem": "Respiratory distress, confusion and petechiae 1–3 days after a femoral fracture suggest:",
+       "options": [
+        "Fat embolism",
+        "Tumour embolism",
+        "Septic embolism",
+        "Air embolism",
+        "Amniotic fluid embolism"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fat globules from marrow enter the circulation."
+      },
+      {
+       "stem": "Which organ typically develops a red (haemorrhagic) infarct?",
+       "options": [
+        "Heart",
+        "Kidney",
+        "Lung",
+        "Spleen",
+        "Brain always"
+       ],
+       "answerIndex": 2,
+       "explanation": "The lung's dual blood supply leads to haemorrhagic infarcts."
+      },
+      {
+       "stem": "Septic shock is an example of:",
+       "options": [
+        "Distributive shock",
+        "Obstructive shock",
+        "Hypovolaemic shock",
+        "Cardiogenic shock",
+        "Neurogenic shock only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Widespread vasodilatation maldistributes blood flow."
+      }
+     ]
+    },
+    {
+     "title": "Immunopathology",
+     "order": 4,
+     "summary": "Hypersensitivity reactions, autoimmunity, immunodeficiency and amyloidosis.",
+     "material": [
+      {
+       "heading": "Hypersensitivity",
+       "body": "Gell and Coombs classification: Type I (immediate, IgE-mediated mast cell degranulation — anaphylaxis, allergic rhinitis, asthma, urticaria); Type II (antibody-mediated cytotoxic — against cell or matrix antigens: transfusion reactions, haemolytic disease of the newborn, Goodpasture's syndrome, myasthenia gravis, Graves' disease); Type III (immune complex deposition — post-streptococcal glomerulonephritis, SLE, serum sickness, Arthus reaction); Type IV (delayed, T-cell mediated, 48–72 hours — tuberculin (Mantoux) test, contact dermatitis, TB granulomas, transplant rejection).",
+       "keyPoints": [
+        "Type I: IgE — anaphylaxis",
+        "Type II: antibody against cells — transfusion reaction",
+        "Type III: immune complexes — SLE, PSGN",
+        "Type IV: T cells — Mantoux, contact dermatitis"
+       ]
+      },
+      {
+       "heading": "Autoimmunity, immunodeficiency and amyloid",
+       "body": "Autoimmune diseases result from loss of self-tolerance: organ-specific (type 1 diabetes, Hashimoto's thyroiditis, Graves' disease, myasthenia gravis) or systemic (SLE — antinuclear and anti-dsDNA antibodies; rheumatoid arthritis — rheumatoid factor and anti-CCP). Immunodeficiencies are primary (e.g. X-linked agammaglobulinaemia, DiGeorge syndrome, severe combined immunodeficiency) or secondary — most commonly HIV infection (CD4 T-cell depletion; AIDS when CD4 < 200 cells/µL or an AIDS-defining illness), malnutrition, malignancy and immunosuppressive drugs. Amyloidosis is extracellular deposition of misfolded fibrillar protein (β-pleated sheets): AL (light chains — myeloma), AA (serum amyloid A — chronic inflammation such as TB, rheumatoid arthritis), Aβ (Alzheimer's disease); it stains with Congo red showing apple-green birefringence.",
+       "keyPoints": [
+        "SLE: ANA, anti-dsDNA",
+        "RA: rheumatoid factor, anti-CCP",
+        "HIV: CD4 depletion; AIDS < 200/µL",
+        "Amyloid: Congo red, apple-green birefringence"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Anaphylaxis is a Type ___ hypersensitivity reaction.",
+       "options": [
+        "I",
+        "IV",
+        "III",
+        "II",
+        "V"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is IgE-mediated."
+      },
+      {
+       "stem": "The Mantoux (tuberculin) skin test is an example of Type ___ hypersensitivity.",
+       "options": [
+        "I",
+        "II",
+        "None",
+        "IV",
+        "III"
+       ],
+       "answerIndex": 3,
+       "explanation": "Delayed-type hypersensitivity mediated by T cells, read at 48–72 hours."
+      },
+      {
+       "stem": "An ABO-incompatible blood transfusion reaction is Type ___ hypersensitivity.",
+       "options": [
+        "Not immune",
+        "IV",
+        "III",
+        "II",
+        "I"
+       ],
+       "answerIndex": 3,
+       "explanation": "Antibodies bind antigens on red cells."
+      },
+      {
+       "stem": "Post-streptococcal glomerulonephritis is caused by:",
+       "options": [
+        "T-cell mediated injury only",
+        "Direct bacterial invasion",
+        "Anti-GBM antibodies",
+        "IgE antibodies",
+        "Immune complex deposition (Type III)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Antigen–antibody complexes deposit in glomeruli."
+      },
+      {
+       "stem": "Anti-double-stranded DNA antibodies are characteristic of:",
+       "options": [
+        "Systemic lupus erythematosus",
+        "Graves' disease",
+        "Type 1 diabetes",
+        "Rheumatoid arthritis",
+        "Myasthenia gravis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Anti-dsDNA is highly specific for SLE."
+      },
+      {
+       "stem": "The most common cause of acquired immunodeficiency worldwide is:",
+       "options": [
+        "Chronic granulomatous disease",
+        "Bruton's agammaglobulinaemia",
+        "DiGeorge syndrome",
+        "HIV infection",
+        "SCID"
+       ],
+       "answerIndex": 3,
+       "explanation": "HIV destroys CD4 T cells."
+      },
+      {
+       "stem": "Amyloid is identified in tissue by Congo red staining showing:",
+       "options": [
+        "Blue colour",
+        "Apple-green birefringence under polarised light",
+        "No staining",
+        "Pink fluorescence",
+        "Black granules"
+       ],
+       "answerIndex": 1,
+       "explanation": "This is diagnostic of amyloid."
+      },
+      {
+       "stem": "AA amyloidosis is associated with:",
+       "options": [
+        "Chronic inflammatory diseases such as TB and rheumatoid arthritis",
+        "Multiple myeloma",
+        "Type 1 diabetes only",
+        "Hypertension",
+        "Alzheimer's disease only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Serum amyloid A rises in chronic inflammation."
+      }
+     ]
+    },
+    {
+     "title": "Neoplasia",
+     "order": 5,
+     "summary": "Benign versus malignant tumours, carcinogenesis, oncogenes, spread, grading and staging, and tumour markers.",
+     "material": [
+      {
+       "heading": "Tumour biology",
+       "body": "A neoplasm is an abnormal mass of tissue whose growth exceeds and is uncoordinated with normal tissue and persists after the stimulus stops. Benign tumours are well differentiated, slow-growing, encapsulated, non-invasive and do not metastasise (e.g. lipoma, fibroadenoma, leiomyoma/fibroid — very common in Nigerian women). Malignant tumours show anaplasia (lack of differentiation, pleomorphism, high nuclear:cytoplasmic ratio, abnormal mitoses), invasion and metastasis. Carcinomas arise from epithelium (spread via lymphatics), sarcomas from mesenchyme (spread via blood). Dysplasia is disordered growth; carcinoma in situ has not breached the basement membrane. Routes of spread: local invasion, lymphatic, haematogenous and transcoelomic (e.g. ovarian cancer in the peritoneum).",
+       "keyPoints": [
+        "Benign: encapsulated, no metastasis",
+        "Malignant: anaplasia, invasion, metastasis",
+        "Carcinoma: epithelial, lymphatic spread",
+        "Sarcoma: mesenchymal, blood spread",
+        "Carcinoma in situ: basement membrane intact"
+       ]
+      },
+      {
+       "heading": "Carcinogenesis, grading and staging",
+       "body": "Carcinogenesis is multistep accumulation of genetic changes: activation of oncogenes (e.g. RAS, MYC, HER2) and inactivation of tumour suppressor genes (TP53, RB — Knudson's two-hit hypothesis), plus defects in DNA repair and apoptosis. Carcinogens: chemical (tobacco smoke — lung, bladder; aflatoxin — liver), physical (UV — skin; ionising radiation) and biological — oncogenic viruses important in Nigeria: HPV (cervical cancer — the second commonest cancer in Nigerian women after breast), hepatitis B and C (hepatocellular carcinoma), EBV (Burkitt lymphoma — endemic in malarial belts; nasopharyngeal carcinoma), HHV-8 (Kaposi sarcoma in HIV), and Schistosoma haematobium (squamous cell carcinoma of the bladder). Grading describes differentiation (histology); staging describes extent of spread (TNM: tumour size, nodes, metastasis) and is more important for prognosis. Tumour markers: AFP (hepatocellular carcinoma, germ-cell tumours), PSA (prostate), CA-125 (ovary), CEA (colorectal), β-hCG (choriocarcinoma).",
+       "keyPoints": [
+        "Oncogenes activated; tumour suppressors inactivated",
+        "HPV → cervical cancer; HBV → HCC",
+        "EBV → Burkitt lymphoma",
+        "S. haematobium → bladder SCC",
+        "Staging (TNM) > grading for prognosis",
+        "Markers: AFP, PSA, CA-125, CEA"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A key feature distinguishing malignant from benign tumours is:",
+       "options": [
+        "Encapsulation",
+        "Small size",
+        "Slow growth",
+        "Metastasis",
+        "Good differentiation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Only malignant tumours metastasise."
+      },
+      {
+       "stem": "Carcinomas arise from:",
+       "options": [
+        "Nerve tissue only",
+        "Epithelium",
+        "Mesenchymal tissue",
+        "Bone only",
+        "Blood vessels only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Carcinomas are epithelial malignancies."
+      },
+      {
+       "stem": "Sarcomas typically spread through:",
+       "options": [
+        "Air",
+        "Blood (haematogenous)",
+        "Nerves only",
+        "Transcoelomic route only",
+        "Lymphatics"
+       ],
+       "answerIndex": 1,
+       "explanation": "Sarcomas characteristically spread via the bloodstream."
+      },
+      {
+       "stem": "Carcinoma in situ is defined by:",
+       "options": [
+        "Malignant cells not yet breaching the basement membrane",
+        "Lymph node spread",
+        "Necrosis",
+        "Distant metastasis",
+        "A benign tumour"
+       ],
+       "answerIndex": 0,
+       "explanation": "It has not invaded underlying tissue."
+      },
+      {
+       "stem": "The virus most strongly linked to cervical cancer is:",
+       "options": [
+        "Hepatitis B virus",
+        "HIV directly",
+        "EBV",
+        "Herpes simplex",
+        "Human papillomavirus"
+       ],
+       "answerIndex": 4,
+       "explanation": "High-risk HPV types 16 and 18."
+      },
+      {
+       "stem": "Burkitt lymphoma is associated with:",
+       "options": [
+        "HPV",
+        "HHV-8",
+        "HTLV-1",
+        "Epstein–Barr virus",
+        "Hepatitis C"
+       ],
+       "answerIndex": 3,
+       "explanation": "Endemic Burkitt lymphoma occurs in malarial regions of Africa."
+      },
+      {
+       "stem": "Squamous cell carcinoma of the bladder is associated with chronic infection by:",
+       "options": [
+        "Onchocerca",
+        "Plasmodium",
+        "Ascaris",
+        "Schistosoma mansoni",
+        "Schistosoma haematobium"
+       ],
+       "answerIndex": 4,
+       "explanation": "Urinary schistosomiasis causes chronic bladder inflammation."
+      },
+      {
+       "stem": "The most important determinant of cancer prognosis is usually:",
+       "options": [
+        "Stage (TNM)",
+        "Blood group",
+        "Grade",
+        "Patient's height",
+        "Tumour colour"
+       ],
+       "answerIndex": 0,
+       "explanation": "The extent of spread predicts outcome most strongly."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

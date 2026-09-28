@@ -1,0 +1,99 @@
+{
+  "title": "Medical-Surgical Nursing I",
+  "code": "NSC301",
+  "color": "#DB2777",
+  "description": "Fluid and electrolyte care, peri-operative nursing, wound care, and the nursing management of respiratory and cardiovascular conditions.",
+  "for": { "300": ["NUR"], "200": ["SON"] },
+  "topics": [
+    {
+      "title": "Fluid, Electrolyte and Acid–Base Nursing",
+      "summary": "Assessing hydration, IV fluid therapy, fluid balance charting and electrolyte imbalances.",
+      "notes": [
+        { "h": "Assessment and IV therapy", "b": "Dehydration signs: thirst, dry mucous membranes, reduced skin turgor, sunken eyes, tachycardia, hypotension, reduced urine output (< 0.5 mL/kg/h) and concentrated urine. Fluid overload signs: oedema, raised JVP, breathlessness, basal crackles, weight gain. An accurate fluid balance (intake–output) chart and daily weights guide therapy. Crystalloids: 0.9% sodium chloride (isotonic, resuscitation), Ringer's lactate/Hartmann's (balanced), 5% dextrose (effectively free water — not for resuscitation), dextrose–saline. Colloids expand plasma volume. Nurses check the prescription, fluid, rate, cannula site (phlebitis: redness, pain, swelling — remove cannula) and watch for infiltration and overload. Drip rate (drops/min) = volume (mL) × drop factor ÷ time (min).", "k": ["Dehydration: dry mucosa, poor turgor, low urine", "Overload: oedema, crackles, raised JVP", "5% dextrose is not for resuscitation", "Phlebitis → remove cannula"] },
+        { "h": "Electrolytes", "b": "Normal values: sodium 135–145 mmol/L; potassium 3.5–5.0 mmol/L; calcium 2.2–2.6 mmol/L. Hypokalaemia (diuretics, vomiting, diarrhoea) causes muscle weakness, ileus and arrhythmias (flat T waves, U waves). Hyperkalaemia (renal failure, excess supplements, haemolysed sample) causes peaked T waves and cardiac arrest risk. IV potassium must never be given as a bolus; it must be diluted and infused slowly (usually ≤ 10 mmol/h peripherally) with cardiac monitoring for high rates. Hyponatraemia can cause confusion and seizures; rapid correction risks osmotic demyelination.", "k": ["K+ 3.5–5.0; Na+ 135–145 mmol/L", "Never give IV potassium as a bolus", "Hyperkalaemia: peaked T waves", "Correct sodium slowly"] }
+      ],
+      "q": [
+        ["Which is a sign of fluid overload?", "Sunken eyes", "Dry mucous membranes", "Basal crackles and raised JVP", "Reduced skin turgor", "Low urine output with thirst", 2, "Excess fluid causes pulmonary and systemic congestion."],
+        ["The IV fluid of choice for initial resuscitation of hypovolaemia is:", "5% dextrose", "0.9% sodium chloride or Ringer's lactate", "50% dextrose", "Distilled water", "10% dextrose", 1, "Isotonic crystalloids expand the extracellular volume."],
+        ["Normal serum potassium is:", "1.5–2.5 mmol/L", "3.5–5.0 mmol/L", "5.5–7.0 mmol/L", "135–145 mmol/L", "8–10 mmol/L", 1, "Normal potassium is 3.5–5.0 mmol/L."],
+        ["Potassium chloride must never be given:", "Orally", "Diluted in an infusion", "As an undiluted IV bolus", "With food", "Slowly", 2, "A bolus can cause fatal cardiac arrest."],
+        ["A cannula site that is red, painful and swollen along the vein suggests:", "Normal healing", "Phlebitis", "Hypokalaemia", "Dehydration", "Allergy to saline", 1, "Remove the cannula and document."],
+        ["Urine output below which value in adults suggests inadequate renal perfusion?", "0.5 mL/kg/h", "2 mL/kg/h", "5 mL/kg/h", "10 mL/kg/h", "1 L/h", 0, "Output < 0.5 mL/kg/h is oliguria."],
+        ["1,000 mL of fluid is to run over 8 hours with a 20 drops/mL giving set. The rate is about:", "21 drops/min", "42 drops/min", "63 drops/min", "84 drops/min", "10 drops/min", 1, "1,000 × 20 ÷ 480 ≈ 42 drops/min."],
+        ["Flat T waves and U waves on the ECG suggest:", "Hyperkalaemia", "Hypokalaemia", "Hypernatraemia", "Hypercalcaemia", "Hyperglycaemia", 1, "Low potassium alters repolarisation."]
+      ]
+    },
+    {
+      "title": "Peri-operative Nursing",
+      "summary": "Pre-operative preparation, intra-operative safety and post-operative care and complications.",
+      "notes": [
+        { "h": "Pre- and intra-operative care", "b": "Pre-operative preparation: informed consent (obtained by the surgeon), identification band, allergy check, baseline vital signs and investigations, fasting (commonly no solids for 6 hours and clear fluids up to 2 hours before anaesthesia, per local policy), skin preparation, removal of jewellery, dentures and nail polish, bladder emptying, pre-medication as prescribed, thromboprophylaxis (stockings, early mobilisation, heparin) and psychological preparation. The WHO Surgical Safety Checklist (sign in, time out, sign out) prevents wrong-site surgery and retained instruments; swab and instrument counts are performed.", "k": ["Fasting: solids 6 h, clear fluids 2 h", "WHO checklist: sign in, time out, sign out", "Remove jewellery, dentures, nail polish", "Thromboprophylaxis"] },
+        { "h": "Post-operative care", "b": "In the recovery room, maintain the airway (the commonest early risk — tongue falling back, laryngospasm), monitor vital signs, oxygen saturation, level of consciousness, pain, wound drainage and urine output. Complications: primary haemorrhage (during surgery), reactionary haemorrhage (within 24 hours as BP rises or a ligature slips), secondary haemorrhage (7–10 days, from infection); atelectasis (early post-operative fever, first 48 hours — prevented by deep breathing and early mobilisation); wound infection (day 3–7); deep vein thrombosis and pulmonary embolism; urinary retention; paralytic ileus; post-operative nausea and vomiting. Early mobilisation, adequate analgesia and deep-breathing exercises prevent many complications.", "k": ["Airway first in recovery", "Reactionary haemorrhage < 24 h; secondary 7–10 days", "Atelectasis: early post-op fever", "Early mobilisation prevents DVT and chest infection"] }
+      ],
+      "q": [
+        ["The WHO Surgical Safety Checklist has three phases: sign in, time out and:", "Sign up", "Sign out", "Scrub in", "Break out", "Wash out", 1, "Sign out occurs before the patient leaves theatre."],
+        ["Written informed consent for surgery should be obtained by the:", "Porter", "Surgeon performing the procedure", "Receptionist", "Relative only", "Student nurse", 1, "The operating surgeon explains risks and obtains consent."],
+        ["The priority nursing concern in the immediate post-anaesthesia period is:", "Wound dressing", "Maintaining a patent airway", "Feeding", "Discharge planning", "Bathing", 1, "Airway obstruction is the most immediate threat."],
+        ["Fever within 48 hours after abdominal surgery is most commonly due to:", "Wound infection", "Atelectasis", "DVT", "Urinary tract infection", "Anastomotic leak", 1, "Collapsed alveoli are the commonest early cause."],
+        ["Bleeding 7–10 days after surgery, usually due to infection, is:", "Primary haemorrhage", "Reactionary haemorrhage", "Secondary haemorrhage", "Intra-operative haemorrhage", "Capillary ooze", 2, "Infection erodes vessels, causing secondary haemorrhage."],
+        ["The best measure to prevent post-operative deep vein thrombosis is:", "Prolonged bed rest", "Early mobilisation and prophylaxis", "Tight bandages on the thigh", "Massage of the calves", "Fluid restriction", 1, "Mobilisation and anticoagulant/mechanical prophylaxis reduce DVT."],
+        ["Before surgery, patients should remove:", "Identification bands", "Jewellery, dentures and nail polish", "Hospital gowns", "Anti-embolism stockings", "Their consent forms", 1, "These interfere with safety, monitoring or the airway."],
+        ["Deep-breathing and coughing exercises after surgery mainly prevent:", "Wound infection", "Pulmonary complications such as atelectasis and pneumonia", "Urinary retention", "Ileus", "Hypertension", 1, "They re-expand alveoli and clear secretions."]
+      ]
+    },
+    {
+      "title": "Wound Care and Infection Prevention in Surgery",
+      "summary": "Wound healing, types of wounds and dressings, surgical site infection and pressure ulcers.",
+      "notes": [
+        { "h": "Healing", "b": "Wound healing phases: haemostasis, inflammation (days 0–4), proliferation (granulation tissue, angiogenesis, epithelialisation — days 4–21) and maturation/remodelling (up to 1–2 years). Healing by primary intention: clean wound edges brought together (sutured surgical wound) — minimal scarring. Secondary intention: wound left open to granulate (infected or large tissue loss) — more scarring. Tertiary (delayed primary) intention: closure after a delay once infection is controlled. Factors delaying healing: infection, poor nutrition (protein, vitamin C, zinc), diabetes, smoking, steroids, anaemia, old age, poor blood supply and pressure.", "k": ["Phases: haemostasis, inflammation, proliferation, maturation", "Primary intention: sutured clean wound", "Delays: infection, diabetes, malnutrition, steroids"] },
+        { "h": "Wound management", "b": "Aseptic (non-touch) technique is used for dressings. Normal saline is a safe cleansing solution. Choose dressings to keep a moist wound environment, absorb exudate and protect: films (superficial), hydrocolloids, hydrogels (dry necrotic wounds), alginates and foams (heavy exudate). Surgical site infection signs: redness, warmth, swelling, pain, pus, fever and wound breakdown, usually 3–7 days after surgery; take a swab for culture. Wound dehiscence (separation of layers) and evisceration are emergencies — cover with sterile moist saline dressings and call the surgeon. Pressure ulcers are staged 1 (non-blanching erythema) to 4 (full-thickness loss exposing bone/tendon).", "k": ["Aseptic non-touch technique", "Moist healing environment", "Dehiscence: cover with sterile saline-soaked dressing", "Pressure ulcer stages 1–4"] }
+      ],
+      "q": [
+        ["A clean surgical incision closed with sutures heals by:", "Primary intention", "Secondary intention", "Tertiary intention", "Scar contracture only", "Epithelial migration only", 0, "Edges are approximated with minimal tissue loss."],
+        ["Granulation tissue forms during the ___ phase.", "Haemostasis", "Inflammatory", "Proliferative", "Maturation", "Remodelling only", 2, "New capillaries and fibroblasts form granulation tissue."],
+        ["Which factor delays wound healing?", "Adequate protein intake", "Diabetes mellitus", "Good blood supply", "Young age", "Normal haemoglobin", 1, "Hyperglycaemia impairs immunity and repair."],
+        ["The solution most commonly used for routine wound cleansing is:", "Hydrogen peroxide", "Normal saline", "Methylated spirit", "Undiluted iodine", "Bleach", 1, "Saline is non-toxic to healing tissues."],
+        ["If abdominal wound dehiscence with evisceration occurs, the nurse should first:", "Push the organs back", "Cover with sterile saline-moistened dressings and call the surgeon", "Leave it exposed", "Give oral fluids", "Apply a dry tight bandage", 1, "Moist sterile cover protects the viscera."],
+        ["Surgical site infections usually become apparent:", "Within 1 hour", "3–7 days after surgery", "After 6 months", "Before surgery", "On the day of surgery only", 1, "Signs typically appear 3–7 days post-operatively."],
+        ["A stage 1 pressure ulcer is characterised by:", "Exposed bone", "Non-blanching erythema of intact skin", "Full-thickness skin loss", "A deep crater", "Eschar only", 1, "Stage 1: intact skin with persistent redness."],
+        ["Vitamin C is important for wound healing because it is needed for:", "Blood clotting", "Collagen synthesis", "Calcium absorption", "Vision", "Insulin release", 1, "Vitamin C is needed for collagen hydroxylation."]
+      ]
+    },
+    {
+      "title": "Nursing Care of Respiratory Conditions",
+      "summary": "Oxygen therapy, asthma, pneumonia, tuberculosis and chest drain care.",
+      "notes": [
+        { "h": "Oxygen and airway care", "b": "Oxygen is a drug and must be prescribed with target saturations: usually 94–98%, or 88–92% for patients at risk of hypercapnic respiratory failure (e.g. COPD). Delivery: nasal cannula (1–4 L/min, ~24–40%), simple face mask (5–10 L/min), Venturi mask (fixed, precise concentrations — preferred in COPD), non-rebreather mask with reservoir (10–15 L/min, up to ~85–90%). Position breathless patients upright (high Fowler's). Humidify high-flow oxygen. Observe for fire risk — no smoking or naked flames. Suctioning should be brief (≤ 10–15 seconds) with pre-oxygenation.", "k": ["Target SpO2 94–98% (88–92% in COPD risk)", "Venturi mask: precise oxygen", "Non-rebreather: high concentration", "Oxygen is a fire hazard"] },
+        { "h": "Specific conditions", "b": "Asthma: teach correct inhaler technique (spacer use), recognise severe attack (inability to complete sentences, SpO2 < 92%, silent chest = life-threatening), give nebulised salbutamol and oxygen as prescribed. Pneumonia: monitor vital signs, oxygen, fluids, antibiotics, chest physiotherapy, positioning. Tuberculosis: DOTS (directly observed treatment, short-course), airborne precautions until non-infectious (usually after about 2 weeks of effective treatment), adherence counselling, nutrition, contact tracing, and HIV testing. Underwater-seal chest drain care: keep the drainage bottle below chest level, check swinging (oscillation) and bubbling, never clamp routinely, keep the tubing secure.", "k": ["Silent chest in asthma = life-threatening", "TB: DOTS, airborne precautions, contact tracing", "Chest drain bottle below chest level", "Check swinging and bubbling"] }
+      ],
+      "q": [
+        ["Target oxygen saturation for most acutely ill adults is:", "80–85%", "88–92%", "94–98%", "100% always", "70–75%", 2, "94–98% unless at risk of hypercapnia."],
+        ["The device that gives precise oxygen concentrations, preferred in COPD, is the:", "Nasal cannula", "Venturi mask", "Non-rebreather mask", "Simple face mask", "Oxygen tent", 1, "Venturi masks deliver fixed FiO2."],
+        ["A 'silent chest' during an asthma attack indicates:", "Improvement", "Life-threatening asthma", "Mild asthma", "Anxiety only", "Pneumonia", 1, "Very little air movement means severe obstruction."],
+        ["DOTS in tuberculosis control stands for:", "Daily Oral Tablet Supply", "Directly Observed Treatment, Short-course", "Drug Ordering and Tracking System", "Diagnosis Of TB Syndrome", "Dose Optimised TB Schedule", 1, "Treatment is observed to ensure adherence."],
+        ["An underwater-seal chest drain bottle should be kept:", "Above the level of the chest", "Below the level of the chest", "On the patient's bed", "Clamped at all times", "Empty of water", 1, "This prevents backflow into the pleural space."],
+        ["Oscillation (swinging) of fluid in the chest drain tube with respiration indicates:", "Blocked tube", "A patent drain connected to the pleural space", "Infection", "The lung has fully re-expanded and must be removed", "A leak in the bottle", 1, "Swinging shows the system is patent."],
+        ["Suctioning of the airway should last no more than about:", "10–15 seconds", "1 minute", "2 minutes", "5 minutes", "30 seconds continuously", 0, "Prolonged suction causes hypoxia."],
+        ["A patient receiving oxygen should be educated that:", "Smoking is safe", "Oxygen supports combustion, so no smoking or open flames", "Oxygen is not a drug", "Oxygen can be adjusted freely by relatives", "Masks should be shared", 1, "Oxygen greatly increases fire risk."]
+      ]
+    },
+    {
+      "title": "Nursing Care of Cardiovascular Conditions",
+      "summary": "Hypertension, heart failure, myocardial infarction, anticoagulant therapy and shock.",
+      "notes": [
+        { "h": "Hypertension and heart failure", "b": "Hypertension is common in Nigeria and often asymptomatic. Nursing care: accurate BP measurement (correct cuff size, seated rest for 5 minutes, arm at heart level), lifestyle education (salt reduction, weight loss, exercise, limiting alcohol, stopping smoking), and adherence to antihypertensives. Heart failure: monitor daily weight (gain of > 2 kg in 3 days suggests fluid retention), fluid balance, oedema and breathlessness; position upright; restrict salt and sometimes fluid; give diuretics as prescribed and monitor potassium; watch for digoxin toxicity (nausea, visual disturbance, bradycardia — check apical pulse and withhold if < 60/min per protocol).", "k": ["Correct BP technique", "Salt reduction", "Daily weights in heart failure", "Digoxin: check apical pulse; toxicity signs"] },
+        { "h": "Acute coronary syndrome and anticoagulation", "b": "Chest pain suggestive of myocardial infarction (central, crushing, radiating to arm/jaw, with sweating) requires immediate ECG, oxygen if saturation low, aspirin (chewed) and nitrates as prescribed, analgesia (morphine), and continuous monitoring for arrhythmias. Anticoagulants: heparin (monitor aPTT for unfractionated heparin; antidote protamine) and warfarin (monitor INR; antidote vitamin K; avoid drug interactions and alcohol, keep dietary vitamin K consistent). Observe for bleeding (gums, urine, stools). Shock: position flat with legs raised (unless contraindicated), oxygen, IV access and fluids as prescribed, monitor vital signs and urine output.", "k": ["MI: ECG, aspirin, nitrates, oxygen if hypoxic", "Heparin: aPTT, protamine", "Warfarin: INR, vitamin K", "Watch for bleeding on anticoagulants"] }
+      ],
+      "q": [
+        ["Before measuring blood pressure, the patient should rest seated for about:", "30 seconds", "5 minutes", "30 minutes", "1 hour", "No rest is needed", 1, "Rest gives a reliable resting reading."],
+        ["A weight gain of more than 2 kg in 3 days in a heart failure patient suggests:", "Improved nutrition", "Fluid retention", "Dehydration", "Muscle gain", "Normal variation", 1, "Rapid weight gain reflects fluid accumulation."],
+        ["Before giving digoxin, the nurse should check the:", "Temperature", "Apical pulse", "Blood glucose", "Respiratory rate only", "Pupil size", 1, "Withhold if the pulse is below the set threshold (often 60/min)."],
+        ["Warfarin therapy is monitored using the:", "aPTT", "INR", "Platelet count only", "ESR", "Blood glucose", 1, "The INR reflects warfarin's effect."],
+        ["The antidote for heparin overdose is:", "Vitamin K", "Protamine sulphate", "Naloxone", "Flumazenil", "Atropine", 1, "Protamine neutralises heparin."],
+        ["A patient with suspected myocardial infarction is usually given:", "Paracetamol", "Chewed aspirin", "Warfarin", "Insulin", "Antibiotics", 1, "Aspirin inhibits platelet aggregation early."],
+        ["Which lifestyle advice most directly helps lower blood pressure?", "Increase salt intake", "Reduce salt intake", "Stop all exercise", "Drink more alcohol", "Gain weight", 1, "Salt reduction lowers blood pressure."],
+        ["Signs of digoxin toxicity include:", "Tachycardia and weight gain", "Nausea, visual disturbances and bradycardia", "Fever and rash", "Hypertension and headache", "Cough and wheeze", 1, "Classic signs include GI upset, yellow-green vision and bradyarrhythmias."]
+      ]
+    }
+  ]
+}

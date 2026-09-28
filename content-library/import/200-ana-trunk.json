@@ -1,0 +1,667 @@
+{
+ "courses": [
+  {
+   "title": "Gross Anatomy II: Thorax, Abdomen, Pelvis and Perineum (ANA 204)",
+   "code": "ANA204",
+   "color": "#B45309",
+   "description": "The thoracic wall, heart and lungs, abdominal wall and viscera, and the pelvis and perineum, with clinical correlations.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Thoracic Wall, Pleura and Lungs",
+     "order": 1,
+     "summary": "Intercostal spaces, the pleura, lung lobes, bronchopulmonary segments and the mechanics of breathing.",
+     "material": [
+      {
+       "heading": "Thoracic wall and pleura",
+       "body": "Each intercostal space contains external, internal and innermost intercostal muscles. The neurovascular bundle runs in the costal groove along the lower border of each rib in the order vein, artery, nerve (VAN) from above downwards, so chest drains and needles are inserted just above the upper border of the rib below. The pleura has a parietal layer (sensitive to pain, supplied by intercostal and phrenic nerves) and a visceral layer (insensitive); the potential space between them normally holds a thin film of fluid. The costodiaphragmatic recess is where effusions collect first.",
+       "keyPoints": [
+        "Neurovascular bundle: VAN, under each rib",
+        "Insert chest drains above the rib below",
+        "Effusions collect in the costodiaphragmatic recess"
+       ]
+      },
+      {
+       "heading": "Lungs",
+       "body": "The right lung has three lobes (upper, middle, lower) separated by oblique and horizontal fissures; the left has two lobes and a lingula, with the cardiac notch. The right main bronchus is shorter, wider and more vertical than the left, so aspirated foreign bodies more often enter the right lung (commonly the right lower lobe). Each lung has about 10 bronchopulmonary segments, each supplied by a segmental bronchus and artery — the unit of surgical resection. At the hilum, the pulmonary artery lies superior on the left; the bronchus is superior on the right (eparterial bronchus).",
+       "keyPoints": [
+        "Right lung: 3 lobes; left: 2 lobes + lingula",
+        "Foreign bodies go to the right main bronchus",
+        "Bronchopulmonary segment = surgical unit"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The order of structures in the costal groove from above downwards is:",
+       "options": [
+        "Nerve, artery, vein",
+        "Vein, nerve, artery",
+        "Artery, vein, nerve",
+        "Vein, artery, nerve",
+        "Artery, nerve, vein"
+       ],
+       "answerIndex": 3,
+       "explanation": "VAN: vein, artery, nerve."
+      },
+      {
+       "stem": "A chest drain is inserted:",
+       "options": [
+        "Below the 12th rib",
+        "Through the middle of the rib",
+        "Through the sternum",
+        "Just above the upper border of the rib below",
+        "Along the lower border of a rib"
+       ],
+       "answerIndex": 3,
+       "explanation": "This avoids the neurovascular bundle under each rib."
+      },
+      {
+       "stem": "An inhaled peanut most often lodges in the:",
+       "options": [
+        "Left main bronchus",
+        "Left upper lobe",
+        "Trachea above the carina",
+        "Oesophagus",
+        "Right main bronchus"
+       ],
+       "answerIndex": 4,
+       "explanation": "The right main bronchus is wider, shorter and more vertical."
+      },
+      {
+       "stem": "The right lung has:",
+       "options": [
+        "One lobe",
+        "Two lobes and a lingula",
+        "Two lobes",
+        "Four lobes",
+        "Three lobes"
+       ],
+       "answerIndex": 4,
+       "explanation": "Upper, middle and lower lobes."
+      },
+      {
+       "stem": "The lingula is part of the:",
+       "options": [
+        "Left upper lobe",
+        "Right middle lobe",
+        "Right lower lobe",
+        "Left lower lobe",
+        "Right upper lobe"
+       ],
+       "answerIndex": 0,
+       "explanation": "The lingula is part of the left upper lobe."
+      },
+      {
+       "stem": "The pain-sensitive layer of the pleura is the:",
+       "options": [
+        "Parietal pleura",
+        "Endothoracic fascia",
+        "Lung parenchyma",
+        "Visceral pleura",
+        "Pulmonary ligament"
+       ],
+       "answerIndex": 0,
+       "explanation": "Parietal pleura has somatic innervation; visceral pleura is insensitive to pain."
+      },
+      {
+       "stem": "Small pleural effusions first collect in the:",
+       "options": [
+        "Apex of the pleura",
+        "Hilum",
+        "Oblique fissure",
+        "Costodiaphragmatic recess",
+        "Costomediastinal recess"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the most dependent part of the pleural cavity when upright."
+      },
+      {
+       "stem": "The functional surgical unit of the lung is the:",
+       "options": [
+        "Lobule",
+        "Lobe",
+        "Acinus",
+        "Alveolus",
+        "Bronchopulmonary segment"
+       ],
+       "answerIndex": 4,
+       "explanation": "Each segment has its own bronchus and artery and can be resected separately."
+      }
+     ]
+    },
+    {
+     "title": "The Heart and Mediastinum",
+     "order": 2,
+     "summary": "Divisions of the mediastinum, pericardium, chambers, valves, coronary arteries and conducting system.",
+     "material": [
+      {
+       "heading": "Mediastinum and heart surface",
+       "body": "The mediastinum is divided by the plane of the sternal angle (T4/5) into superior and inferior parts; the inferior mediastinum is subdivided into anterior, middle (heart and pericardium) and posterior (oesophagus, descending aorta, thoracic duct, azygos veins). The sternal angle marks the second costal cartilage, the tracheal bifurcation and the beginning and end of the aortic arch. The right atrium forms the right border of the heart; the right ventricle most of the anterior (sternocostal) surface; the left ventricle forms the apex (5th left intercostal space, midclavicular line).",
+       "keyPoints": [
+        "Sternal angle = 2nd costal cartilage = T4/5",
+        "Right ventricle forms most of the anterior surface",
+        "Apex beat: left 5th ICS, midclavicular line"
+       ]
+      },
+      {
+       "heading": "Coronary circulation and conduction",
+       "body": "The right coronary artery arises from the anterior aortic sinus and usually supplies the SA node (~60%) and AV node (~80%); the left coronary artery divides into the left anterior descending (supplies the anterior interventricular septum — the most commonly occluded, 'widow-maker') and the circumflex. The dominant artery is the one giving the posterior interventricular artery (right dominance in most people). The cardiac conduction pathway is SA node → atria → AV node → bundle of His → right and left bundle branches → Purkinje fibres. The coronary sinus drains most cardiac veins into the right atrium.",
+       "keyPoints": [
+        "LAD: most commonly occluded",
+        "RCA usually supplies SA and AV nodes",
+        "SA node → AV node → His → bundle branches → Purkinje"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The sternal angle lies at the level of the:",
+       "options": [
+        "First costal cartilage",
+        "Second costal cartilage",
+        "Jugular notch",
+        "Xiphisternum",
+        "Fourth costal cartilage"
+       ],
+       "answerIndex": 1,
+       "explanation": "It marks the 2nd costal cartilage and T4/5."
+      },
+      {
+       "stem": "Which chamber forms most of the anterior (sternocostal) surface of the heart?",
+       "options": [
+        "Right ventricle",
+        "Left atrium",
+        "Left auricle",
+        "Right atrium",
+        "Left ventricle"
+       ],
+       "answerIndex": 0,
+       "explanation": "The right ventricle occupies most of the sternocostal surface."
+      },
+      {
+       "stem": "The oesophagus lies in the:",
+       "options": [
+        "Pleural cavity",
+        "Posterior mediastinum",
+        "Pericardial cavity",
+        "Middle mediastinum",
+        "Anterior mediastinum"
+       ],
+       "answerIndex": 1,
+       "explanation": "The oesophagus, descending aorta and thoracic duct are posterior mediastinal structures."
+      },
+      {
+       "stem": "The SA node is most commonly supplied by the:",
+       "options": [
+        "Right coronary artery",
+        "Posterior interventricular artery",
+        "Marginal artery",
+        "Circumflex artery",
+        "Left anterior descending artery"
+       ],
+       "answerIndex": 0,
+       "explanation": "In about 60% of people the RCA supplies the SA node."
+      },
+      {
+       "stem": "The normal pacemaker of the heart is the:",
+       "options": [
+        "AV node",
+        "Bundle of His",
+        "Purkinje fibres",
+        "SA node",
+        "Left bundle branch"
+       ],
+       "answerIndex": 3,
+       "explanation": "The sinoatrial node has the fastest intrinsic rate."
+      },
+      {
+       "stem": "The coronary sinus drains into the:",
+       "options": [
+        "Superior vena cava",
+        "Right ventricle",
+        "Left atrium",
+        "Right atrium",
+        "Pulmonary trunk"
+       ],
+       "answerIndex": 3,
+       "explanation": "It opens into the right atrium."
+      },
+      {
+       "stem": "The apex beat is normally felt at the:",
+       "options": [
+        "Left 5th intercostal space, midclavicular line",
+        "Left 2nd intercostal space",
+        "Right 2nd intercostal space",
+        "Left 7th intercostal space, anterior axillary line",
+        "Xiphisternum"
+       ],
+       "answerIndex": 0,
+       "explanation": "The apex of the left ventricle lies in the 5th left ICS."
+      },
+      {
+       "stem": "The coronary artery most commonly occluded in myocardial infarction is the:",
+       "options": [
+        "Circumflex",
+        "Right marginal",
+        "Posterior interventricular",
+        "Right coronary",
+        "Left anterior descending"
+       ],
+       "answerIndex": 4,
+       "explanation": "The LAD is involved most often."
+      }
+     ]
+    },
+    {
+     "title": "Anterior Abdominal Wall and Inguinal Canal",
+     "order": 3,
+     "summary": "Layers of the abdominal wall, the rectus sheath, inguinal canal and hernias.",
+     "material": [
+      {
+       "heading": "Abdominal wall",
+       "body": "Layers from outside inwards: skin, superficial fascia (fatty Camper's and membranous Scarpa's layers), external oblique, internal oblique, transversus abdominis, transversalis fascia, extraperitoneal fat and parietal peritoneum. Rectus abdominis lies in the rectus sheath; below the arcuate line (about one-third of the way from the umbilicus to the pubis) all aponeuroses pass anterior to rectus. The linea alba is a midline raphe used for surgical incisions. The umbilicus lies at the T10 dermatome.",
+       "keyPoints": [
+        "Scarpa's fascia = membranous layer",
+        "Below the arcuate line all aponeuroses are anterior",
+        "Umbilicus = T10 dermatome"
+       ]
+      },
+      {
+       "heading": "Inguinal canal and hernias",
+       "body": "The inguinal canal (about 4 cm) runs from the deep ring (in transversalis fascia, lateral to the inferior epigastric vessels) to the superficial ring (in the external oblique aponeurosis, above the pubic tubercle). It transmits the spermatic cord in males (round ligament in females) and the ilioinguinal nerve. An indirect inguinal hernia enters the deep ring lateral to the inferior epigastric artery and follows the canal (commonest type, often congenital via a patent processus vaginalis). A direct hernia pushes through Hesselbach's triangle, medial to the inferior epigastric artery. Inguinal hernias lie above and medial to the pubic tubercle; femoral hernias below and lateral.",
+       "keyPoints": [
+        "Indirect hernia: lateral to inferior epigastric artery",
+        "Direct hernia: through Hesselbach's triangle (medial)",
+        "Inguinal: above–medial to pubic tubercle; femoral: below–lateral"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An indirect inguinal hernia enters the canal:",
+       "options": [
+        "Through the linea alba",
+        "Lateral to the inferior epigastric artery",
+        "Through the femoral ring",
+        "Through the umbilicus",
+        "Medial to the inferior epigastric artery"
+       ],
+       "answerIndex": 1,
+       "explanation": "It passes through the deep ring, lateral to the inferior epigastric vessels."
+      },
+      {
+       "stem": "Hesselbach's triangle is the site of a/an:",
+       "options": [
+        "Femoral hernia",
+        "Obturator hernia",
+        "Indirect inguinal hernia",
+        "Umbilical hernia",
+        "Direct inguinal hernia"
+       ],
+       "answerIndex": 4,
+       "explanation": "Direct hernias bulge through this weak area of the posterior wall."
+      },
+      {
+       "stem": "The deep inguinal ring is an opening in the:",
+       "options": [
+        "Scarpa's fascia",
+        "Internal oblique muscle",
+        "Rectus sheath",
+        "External oblique aponeurosis",
+        "Transversalis fascia"
+       ],
+       "answerIndex": 4,
+       "explanation": "The deep ring is in the transversalis fascia."
+      },
+      {
+       "stem": "The umbilicus lies at the level of which dermatome?",
+       "options": [
+        "T10",
+        "T12",
+        "L1",
+        "T8",
+        "T6"
+       ],
+       "answerIndex": 0,
+       "explanation": "The umbilicus corresponds to the T10 dermatome."
+      },
+      {
+       "stem": "The membranous layer of the superficial fascia of the abdomen is:",
+       "options": [
+        "Scarpa's fascia",
+        "Buck's fascia",
+        "Transversalis fascia",
+        "Camper's fascia",
+        "Colles' fascia of the thigh"
+       ],
+       "answerIndex": 0,
+       "explanation": "Scarpa's fascia is the deep membranous layer."
+      },
+      {
+       "stem": "In the female, the inguinal canal transmits the:",
+       "options": [
+        "Uterine tube",
+        "Spermatic cord",
+        "Round ligament of the uterus",
+        "Ovarian artery",
+        "Broad ligament"
+       ],
+       "answerIndex": 2,
+       "explanation": "The round ligament passes through the canal to the labium majus."
+      },
+      {
+       "stem": "A hernia palpable below and lateral to the pubic tubercle is most likely:",
+       "options": [
+        "Direct inguinal",
+        "Epigastric",
+        "Femoral",
+        "Indirect inguinal",
+        "Spigelian"
+       ],
+       "answerIndex": 2,
+       "explanation": "Femoral hernias lie below and lateral to the pubic tubercle."
+      },
+      {
+       "stem": "Below the arcuate line, the posterior wall of the rectus sheath is formed by:",
+       "options": [
+        "Linea alba",
+        "External oblique aponeurosis",
+        "All three aponeuroses",
+        "Transversalis fascia only",
+        "Internal oblique aponeurosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "All aponeuroses pass anteriorly below the arcuate line."
+      }
+     ]
+    },
+    {
+     "title": "Abdominal Viscera and Peritoneum",
+     "order": 4,
+     "summary": "The peritoneum, stomach, liver, biliary tree, pancreas, intestines and their blood supply.",
+     "material": [
+      {
+       "heading": "Peritoneum and foregut",
+       "body": "The peritoneal cavity is divided into the greater and lesser sacs, connected by the epiploic foramen (of Winslow). Retroperitoneal organs include the duodenum (2nd–4th parts), pancreas (except the tail), ascending and descending colon, kidneys, ureters, adrenals, aorta and IVC (mnemonic SAD PUCKER). The coeliac trunk (T12) supplies the foregut (to the second part of the duodenum): left gastric, splenic and common hepatic arteries. The hepatorenal pouch (Morison's pouch) is the lowest part of the peritoneal cavity when supine. Calot's triangle (cystic duct, common hepatic duct, inferior liver edge) contains the cystic artery — important in cholecystectomy.",
+       "keyPoints": [
+        "Epiploic foramen links greater and lesser sacs",
+        "Coeliac trunk: foregut",
+        "Morison's pouch: lowest point when supine",
+        "Calot's triangle contains the cystic artery"
+       ]
+      },
+      {
+       "heading": "Midgut, hindgut and portal system",
+       "body": "The superior mesenteric artery (L1) supplies the midgut, from the second part of the duodenum to two-thirds of the way along the transverse colon; the inferior mesenteric artery (L3) supplies the hindgut to the upper anal canal. The appendix usually lies at McBurney's point (one-third of the way from the anterior superior iliac spine to the umbilicus). The hepatic portal vein is formed behind the neck of the pancreas by the superior mesenteric and splenic veins. Portosystemic anastomoses (oesophageal, rectal, umbilical/caput medusae) enlarge in portal hypertension, e.g. oesophageal varices in liver cirrhosis.",
+       "keyPoints": [
+        "SMA: midgut; IMA: hindgut",
+        "McBurney's point for the appendix",
+        "Portal vein = SMV + splenic vein",
+        "Portal hypertension → varices, caput medusae"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The greater and lesser sacs communicate through the:",
+       "options": [
+        "Oesophageal hiatus",
+        "Morison's pouch",
+        "Inguinal canal",
+        "Epiploic foramen (of Winslow)",
+        "Obturator foramen"
+       ],
+       "answerIndex": 3,
+       "explanation": "The epiploic foramen is the entrance to the lesser sac."
+      },
+      {
+       "stem": "Which organ is retroperitoneal?",
+       "options": [
+        "Spleen",
+        "Jejunum",
+        "Stomach",
+        "Transverse colon",
+        "Kidney"
+       ],
+       "answerIndex": 4,
+       "explanation": "The kidneys lie behind the peritoneum."
+      },
+      {
+       "stem": "The foregut is supplied by the:",
+       "options": [
+        "Coeliac trunk",
+        "Superior mesenteric artery",
+        "Renal artery",
+        "Inferior mesenteric artery",
+        "Internal iliac artery"
+       ],
+       "answerIndex": 0,
+       "explanation": "The coeliac trunk supplies foregut derivatives."
+      },
+      {
+       "stem": "The hepatic portal vein is formed by union of the:",
+       "options": [
+        "Superior and inferior mesenteric veins",
+        "Hepatic veins",
+        "Left gastric and splenic veins",
+        "Superior mesenteric and splenic veins",
+        "Splenic and renal veins"
+       ],
+       "answerIndex": 3,
+       "explanation": "It forms behind the neck of the pancreas."
+      },
+      {
+       "stem": "McBurney's point is used to locate the:",
+       "options": [
+        "Sigmoid colon",
+        "Appendix",
+        "Gallbladder",
+        "Left kidney",
+        "Spleen"
+       ],
+       "answerIndex": 1,
+       "explanation": "It marks the usual position of the base of the appendix."
+      },
+      {
+       "stem": "In a supine patient, fluid in the peritoneal cavity collects first in the:",
+       "options": [
+        "Hepatorenal pouch (Morison's)",
+        "Lesser sac",
+        "Left paracolic gutter",
+        "Subphrenic space",
+        "Rectovesical pouch"
+       ],
+       "answerIndex": 0,
+       "explanation": "Morison's pouch is the most dependent area when supine."
+      },
+      {
+       "stem": "Oesophageal varices in cirrhosis result from:",
+       "options": [
+        "Portal hypertension opening portosystemic anastomoses",
+        "Lymphatic obstruction",
+        "Vitamin K deficiency",
+        "Systemic hypertension",
+        "Coronary artery disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "Raised portal pressure dilates the left gastric–oesophageal anastomosis."
+      },
+      {
+       "stem": "The cystic artery is found in:",
+       "options": [
+        "Femoral triangle",
+        "Suboccipital triangle",
+        "Hesselbach's triangle",
+        "Calot's triangle",
+        "Carotid triangle"
+       ],
+       "answerIndex": 3,
+       "explanation": "Calot's (cystohepatic) triangle contains the cystic artery."
+      }
+     ]
+    },
+    {
+     "title": "Pelvis and Perineum",
+     "order": 5,
+     "summary": "Bony pelvis and sex differences, pelvic floor, pelvic viscera and the perineum.",
+     "material": [
+      {
+       "heading": "Bony pelvis and pelvic floor",
+       "body": "The pelvis is formed by the two hip bones (ilium, ischium, pubis), sacrum and coccyx. The female pelvis is adapted for childbirth: a wider, rounder (gynaecoid) inlet, a subpubic angle of about 90° or more (versus about 60° in males), a wider sciatic notch and everted ischial spines. The pelvic floor (pelvic diaphragm) is formed by levator ani (pubococcygeus, puborectalis, iliococcygeus) and coccygeus, supplied mainly by S3–S4 and the nerve to levator ani; it supports the pelvic viscera and weakens with childbirth (prolapse).",
+       "keyPoints": [
+        "Female: gynaecoid inlet, subpubic angle ≥ 90°",
+        "Levator ani + coccygeus = pelvic diaphragm",
+        "Puborectalis maintains faecal continence"
+       ]
+      },
+      {
+       "heading": "Pelvic viscera and perineum",
+       "body": "In the female the uterus is usually anteverted and anteflexed; the uterine artery crosses above the ureter near the cervix ('water under the bridge') — at risk during hysterectomy. The rectouterine pouch (of Douglas) is the lowest part of the female peritoneal cavity, accessible through the posterior fornix of the vagina. The perineum is divided into urogenital and anal triangles; the perineal body is the central fibromuscular point, which may be torn in childbirth (episiotomy is a planned incision). The pudendal nerve (S2–S4) supplies the perineum; a pudendal block is given near the ischial spine.",
+       "keyPoints": [
+        "Uterine artery above the ureter: 'water under the bridge'",
+        "Pouch of Douglas: lowest point, via posterior fornix",
+        "Pudendal nerve S2–S4; block at the ischial spine"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The subpubic angle in the typical female pelvis is about:",
+       "options": [
+        "90° or more",
+        "150°",
+        "60°",
+        "40°",
+        "180°"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is wider (≈ 90°+) in females than in males (≈ 60°)."
+      },
+      {
+       "stem": "The ureter passes ___ the uterine artery near the cervix.",
+       "options": [
+        "Above",
+        "Through",
+        "Below",
+        "Lateral and far from",
+        "In front of and above"
+       ],
+       "answerIndex": 2,
+       "explanation": "'Water (ureter) under the bridge (uterine artery)'."
+      },
+      {
+       "stem": "The lowest part of the female peritoneal cavity is the:",
+       "options": [
+        "Morison's pouch",
+        "Rectouterine pouch (of Douglas)",
+        "Vesicouterine pouch",
+        "Paracolic gutter",
+        "Lesser sac"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fluid or pus collects in the pouch of Douglas."
+      },
+      {
+       "stem": "The pudendal nerve arises from:",
+       "options": [
+        "L4–S1",
+        "L1–L2",
+        "S5 only",
+        "S2–S4",
+        "T12–L1"
+       ],
+       "answerIndex": 3,
+       "explanation": "The pudendal nerve comes from S2, S3, S4."
+      },
+      {
+       "stem": "The pelvic diaphragm is formed by levator ani and:",
+       "options": [
+        "Coccygeus",
+        "Obturator internus",
+        "Gluteus maximus",
+        "Piriformis",
+        "Iliacus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Levator ani and coccygeus form the pelvic floor."
+      },
+      {
+       "stem": "The part of levator ani that maintains the anorectal angle is:",
+       "options": [
+        "Pubococcygeus",
+        "Coccygeus",
+        "External anal sphincter",
+        "Puborectalis",
+        "Iliococcygeus"
+       ],
+       "answerIndex": 3,
+       "explanation": "Puborectalis slings around the anorectal junction."
+      },
+      {
+       "stem": "A pudendal nerve block is performed near the:",
+       "options": [
+        "Pubic tubercle",
+        "Sacral promontory",
+        "Iliac crest",
+        "Ischial spine",
+        "Anterior superior iliac spine"
+       ],
+       "answerIndex": 3,
+       "explanation": "The nerve passes around the ischial spine."
+      },
+      {
+       "stem": "The normal position of the uterus is:",
+       "options": [
+        "Anteverted and anteflexed",
+        "Retroverted and retroflexed",
+        "Vertical in line with the vagina",
+        "Horizontal",
+        "Lateroverted"
+       ],
+       "answerIndex": 0,
+       "explanation": "Most uteri are anteverted and anteflexed."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

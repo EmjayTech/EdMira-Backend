@@ -1,0 +1,653 @@
+{
+ "courses": [
+  {
+   "title": "Mental Health and Psychiatric Nursing",
+   "code": "NSC411",
+   "color": "#7C3AED",
+   "description": "Concepts of mental health, the mental state examination, major psychiatric disorders, therapeutic relationships, psychotropic drug care, and mental health law and services in Nigeria.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Concepts of Mental Health and Illness",
+     "order": 1,
+     "summary": "Definitions, causes, stigma, and mental health services and law in Nigeria.",
+     "material": [
+      {
+       "heading": "Mental health",
+       "body": "WHO defines mental health as a state of well-being in which a person realises their abilities, can cope with normal stresses, work productively and contribute to the community. Mental disorders result from interacting biological (genetics, neurotransmitters, brain injury, substance use), psychological (trauma, personality, coping) and social factors (poverty, unemployment, conflict, displacement, family problems) — the biopsychosocial model. In Nigeria, mental illness is common but heavily stigmatised; many people first consult religious or traditional healers, where patients may be chained or maltreated. Services are concentrated in federal neuropsychiatric hospitals (e.g. Yaba, Aro in Abeokuta — site of pioneering community psychiatry by Thomas Adeoye Lambo) and teaching hospitals, with few psychiatrists and psychiatric nurses per population.",
+       "keyPoints": [
+        "WHO definition of mental health",
+        "Biopsychosocial model",
+        "Stigma; first contact often faith/traditional healers",
+        "Lambo and Aro village system"
+       ]
+      },
+      {
+       "heading": "Law and rights",
+       "body": "The Lunacy Act of 1958 was long criticised for stigmatising language and inadequate rights protection; the National Mental Health Act 2021 repealed it, promoting human rights, community-based care, voluntary treatment where possible, safeguards for involuntary admission, and integration of mental health into primary care. The WHO mhGAP (Mental Health Gap Action Programme) trains non-specialist health workers to manage priority conditions (depression, psychosis, epilepsy, child disorders, dementia, substance use, self-harm). Nurses advocate for patients' rights, dignity and least-restrictive care, and combat stigma through education.",
+       "keyPoints": [
+        "National Mental Health Act 2021 repealed the Lunacy Act 1958",
+        "Least-restrictive, rights-based care",
+        "mhGAP for non-specialists",
+        "Nurses fight stigma"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The model explaining mental illness as the interaction of biological, psychological and social factors is the:",
+       "options": [
+        "Moral model",
+        "Economic model",
+        "Biopsychosocial model",
+        "Medical model only",
+        "Demonological model"
+       ],
+       "answerIndex": 2,
+       "explanation": "Multiple interacting causes are recognised."
+      },
+      {
+       "stem": "The Nigerian law that repealed the Lunacy Act of 1958 is the:",
+       "options": [
+        "Disability Act 2018",
+        "National Health Act 2014",
+        "NHIA Act 2022",
+        "Child Rights Act 2003",
+        "National Mental Health Act 2021"
+       ],
+       "answerIndex": 4,
+       "explanation": "It modernised mental health care and rights."
+      },
+      {
+       "stem": "The pioneer of community psychiatry at Aro, Abeokuta, was:",
+       "options": [
+        "Herbert Macaulay",
+        "Thomas Adeoye Lambo",
+        "Wole Soyinka",
+        "Benjamin Carson",
+        "Nnamdi Azikiwe"
+       ],
+       "answerIndex": 1,
+       "explanation": "Lambo developed the Aro village system."
+      },
+      {
+       "stem": "The WHO programme that trains non-specialists to manage priority mental disorders is:",
+       "options": [
+        "mhGAP",
+        "EPI",
+        "IMCI",
+        "DOTS",
+        "PMTCT"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mental Health Gap Action Programme."
+      },
+      {
+       "stem": "A major barrier to mental health care in Nigeria is:",
+       "options": [
+        "Low prevalence",
+        "Too many community clinics",
+        "Excess psychiatrists",
+        "Stigma and limited services",
+        "Free care everywhere"
+       ],
+       "answerIndex": 3,
+       "explanation": "Stigma discourages help-seeking."
+      },
+      {
+       "stem": "Care that places the fewest necessary restrictions on a patient is called:",
+       "options": [
+        "Emergency care only",
+        "Custodial care",
+        "Least-restrictive care",
+        "Institutional care",
+        "Punitive care"
+       ],
+       "answerIndex": 2,
+       "explanation": "It respects autonomy and dignity."
+      },
+      {
+       "stem": "Which is a social risk factor for mental illness?",
+       "options": [
+        "Height",
+        "Eye colour",
+        "Blood group",
+        "Poverty and unemployment",
+        "Hair type"
+       ],
+       "answerIndex": 3,
+       "explanation": "Social adversity increases risk."
+      },
+      {
+       "stem": "According to WHO, mental health includes the ability to:",
+       "options": [
+        "Cope with normal stresses and work productively",
+        "Avoid all relationships",
+        "Earn a high income",
+        "Never feel sad",
+        "Be happy all the time"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a state of well-being, not the absence of all distress."
+      }
+     ]
+    },
+    {
+     "title": "Assessment: History and Mental State Examination",
+     "order": 2,
+     "summary": "Psychiatric history, the mental state examination, risk assessment and common signs.",
+     "material": [
+      {
+       "heading": "Mental state examination",
+       "body": "The mental state examination (MSE) describes the patient's current mental functioning: Appearance and behaviour (grooming, eye contact, psychomotor activity); Speech (rate, volume, tone, flow — pressured speech in mania, poverty of speech in depression or schizophrenia); Mood (patient's description) and affect (observed emotion — flat, blunted, labile, incongruent); Thought form (flight of ideas, loosening of associations, thought block) and content (delusions, obsessions, suicidal and homicidal thoughts); Perception (hallucinations — perceptions without a stimulus, most commonly auditory in schizophrenia; illusions — misperceptions of real stimuli); Cognition (orientation, attention, memory — e.g. Mini-Mental State Examination); and Insight and judgement.",
+       "keyPoints": [
+        "MSE: appearance, speech, mood/affect, thought, perception, cognition, insight",
+        "Delusion: fixed false belief",
+        "Hallucination: perception without stimulus",
+        "Illusion: misperception of a real stimulus"
+       ]
+      },
+      {
+       "heading": "Risk assessment",
+       "body": "Every psychiatric assessment includes risk to self (suicide and self-harm, self-neglect), risk to others (violence) and risk from others (exploitation, abuse). Suicide risk factors: previous attempts (strongest predictor), depression, psychosis, substance misuse, hopelessness, recent loss, chronic illness, social isolation, male sex, access to means (pesticides, firearms) and a clear plan. Asking directly about suicidal thoughts does not increase risk. Management of high risk: supervision (close observation), remove means, involve family, urgent specialist care. Collateral history from relatives is often essential.",
+       "keyPoints": [
+        "Assess risk to self, others and from others",
+        "Previous attempt: strongest predictor",
+        "Asking about suicide does not increase risk",
+        "Remove means (pesticides)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A fixed false belief held despite contrary evidence and not shared by the person's culture is a:",
+       "options": [
+        "Illusion",
+        "Delusion",
+        "Hallucination",
+        "Obsession",
+        "Phobia"
+       ],
+       "answerIndex": 1,
+       "explanation": "Delusions are disorders of thought content."
+      },
+      {
+       "stem": "Hearing voices when no one is speaking is an example of:",
+       "options": [
+        "An illusion",
+        "Flight of ideas",
+        "Thought block",
+        "A hallucination",
+        "A delusion"
+       ],
+       "answerIndex": 3,
+       "explanation": "A perception without an external stimulus."
+      },
+      {
+       "stem": "Mistaking a coat on a hanger for a person in dim light is:",
+       "options": [
+        "A delusion",
+        "Depersonalisation",
+        "Déjà vu",
+        "An illusion",
+        "A hallucination"
+       ],
+       "answerIndex": 3,
+       "explanation": "An illusion misinterprets a real stimulus."
+      },
+      {
+       "stem": "Rapid, pressured speech with jumping from topic to topic suggests:",
+       "options": [
+        "Mania",
+        "Depression",
+        "Catatonia",
+        "Dementia",
+        "Anxiety only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pressured speech and flight of ideas are manic features."
+      },
+      {
+       "stem": "In the MSE, 'affect' refers to:",
+       "options": [
+        "The patient's reported mood",
+        "Insight",
+        "Memory",
+        "Orientation",
+        "The observed emotional expression"
+       ],
+       "answerIndex": 4,
+       "explanation": "Mood is subjective; affect is observed."
+      },
+      {
+       "stem": "The strongest predictor of future suicide is:",
+       "options": [
+        "Young age",
+        "Female sex",
+        "Being married",
+        "A previous suicide attempt",
+        "Religious faith"
+       ],
+       "answerIndex": 3,
+       "explanation": "Previous attempts greatly increase risk."
+      },
+      {
+       "stem": "Asking a depressed patient directly about suicidal thoughts:",
+       "options": [
+        "Is unethical",
+        "Is only for doctors",
+        "Does not increase risk and is essential",
+        "Plants the idea and increases risk",
+        "Should be avoided"
+       ],
+       "answerIndex": 2,
+       "explanation": "Direct questioning helps identify risk."
+      },
+      {
+       "stem": "Awareness that one is ill and needs treatment is called:",
+       "options": [
+        "Judgement",
+        "Affect",
+        "Orientation",
+        "Attention",
+        "Insight"
+       ],
+       "answerIndex": 4,
+       "explanation": "Insight is often reduced in psychosis."
+      }
+     ]
+    },
+    {
+     "title": "Psychotic and Mood Disorders",
+     "order": 3,
+     "summary": "Schizophrenia, bipolar disorder, depression and their nursing management.",
+     "material": [
+      {
+       "heading": "Schizophrenia",
+       "body": "Schizophrenia is a chronic psychotic disorder with positive symptoms (delusions, hallucinations — often third-person auditory, thought disorder, disorganised behaviour), negative symptoms (blunted affect, alogia, avolition, social withdrawal) and cognitive impairment, usually beginning in late adolescence or early adulthood. Cannabis use increases risk. Treatment: antipsychotics (oral or long-acting depot injections to improve adherence), psychoeducation, family support, psychosocial rehabilitation and relapse prevention. Nursing care includes building trust, not arguing about delusions but not reinforcing them, ensuring safety, monitoring side effects (extrapyramidal symptoms, metabolic effects, neuroleptic malignant syndrome), promoting adherence and self-care.",
+       "keyPoints": [
+        "Positive and negative symptoms",
+        "Cannabis increases risk",
+        "Depot antipsychotics improve adherence",
+        "Don't argue about or reinforce delusions"
+       ]
+      },
+      {
+       "heading": "Mood disorders",
+       "body": "Major depressive disorder: persistent low mood and/or loss of interest (anhedonia) for at least two weeks with changes in sleep, appetite, energy, concentration, guilt, psychomotor change and suicidal thoughts; in Nigeria depression often presents with somatic complaints (e.g. headache, 'heat in the head', body pains). Treatment: psychological therapies (CBT, problem-solving), antidepressants (SSRIs such as fluoxetine), and ECT for severe or psychotic depression. Bipolar disorder involves episodes of mania (elevated or irritable mood, reduced need for sleep, grandiosity, pressured speech, risky behaviour) and depression; mood stabilisers (lithium, valproate, carbamazepine) and antipsychotics are used. Nursing care in mania: calm, low-stimulus environment, consistent limits, nutrition and hydration, sleep, safety.",
+       "keyPoints": [
+        "Depression: ≥ 2 weeks; anhedonia",
+        "Somatic presentation common in Nigeria",
+        "SSRIs, CBT; ECT for severe cases",
+        "Bipolar: mania + depression; lithium",
+        "Mania: low-stimulus environment"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Hallucinations and delusions are ___ symptoms of schizophrenia.",
+       "options": [
+        "Negative",
+        "Cognitive only",
+        "Positive",
+        "Affective",
+        "Somatic"
+       ],
+       "answerIndex": 2,
+       "explanation": "Positive symptoms are additions to normal experience."
+      },
+      {
+       "stem": "Social withdrawal, blunted affect and lack of motivation are ___ symptoms.",
+       "options": [
+        "Obsessional",
+        "Positive",
+        "Negative",
+        "Manic",
+        "Anxious"
+       ],
+       "answerIndex": 2,
+       "explanation": "Negative symptoms reflect loss of normal functions."
+      },
+      {
+       "stem": "Long-acting depot antipsychotic injections are used mainly to:",
+       "options": [
+        "Improve adherence and prevent relapse",
+        "Treat infections",
+        "Treat depression only",
+        "Cure schizophrenia instantly",
+        "Reduce weight"
+       ],
+       "answerIndex": 0,
+       "explanation": "They ensure continuous treatment."
+      },
+      {
+       "stem": "When a patient describes a delusion, the nurse should:",
+       "options": [
+        "Laugh",
+        "Argue forcefully",
+        "Ignore the patient",
+        "Agree with it",
+        "Neither argue nor reinforce it, and focus on feelings and reality"
+       ],
+       "answerIndex": 4,
+       "explanation": "This maintains trust without supporting false beliefs."
+      },
+      {
+       "stem": "The core features of depression include low mood and:",
+       "options": [
+        "Euphoria",
+        "Hallucinations always",
+        "Reduced need for sleep with high energy",
+        "Anhedonia (loss of interest or pleasure)",
+        "Grandiosity"
+       ],
+       "answerIndex": 3,
+       "explanation": "Anhedonia is a key symptom."
+      },
+      {
+       "stem": "In Nigeria, depression commonly presents with:",
+       "options": [
+        "Mania",
+        "Somatic complaints such as body pains and 'heat in the head'",
+        "Only tearfulness",
+        "Seizures",
+        "Visual hallucinations"
+       ],
+       "answerIndex": 1,
+       "explanation": "Physical symptoms are frequent presentations."
+      },
+      {
+       "stem": "A mood stabiliser commonly used in bipolar disorder is:",
+       "options": [
+        "Lithium",
+        "Diazepam",
+        "Haloperidol only",
+        "Paracetamol",
+        "Fluoxetine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lithium reduces manic and depressive relapses."
+      },
+      {
+       "stem": "Nursing care for a patient in acute mania should include:",
+       "options": [
+        "Unlimited visitors",
+        "Encouraging all risky activities",
+        "Withholding food",
+        "A calm, low-stimulus environment with consistent limits",
+        "A noisy, stimulating environment"
+       ],
+       "answerIndex": 3,
+       "explanation": "Reducing stimulation helps calm the patient."
+      }
+     ]
+    },
+    {
+     "title": "Anxiety, Substance Use and Other Disorders",
+     "order": 4,
+     "summary": "Anxiety disorders, substance use disorders, dementia and delirium, and child mental health.",
+     "material": [
+      {
+       "heading": "Anxiety and substance use",
+       "body": "Anxiety disorders include generalised anxiety disorder (excessive worry most days for months), panic disorder (recurrent sudden panic attacks with palpitations, breathlessness, fear of dying), phobias, obsessive–compulsive disorder (intrusive thoughts and repetitive rituals) and post-traumatic stress disorder (re-experiencing, avoidance, hyperarousal after trauma — common after insurgency, kidnapping and violence). Treatment: psychological therapies (CBT, exposure), SSRIs; benzodiazepines only short-term. Substance use disorders (alcohol, cannabis, tramadol, codeine syrup, methamphetamine) involve craving, loss of control, tolerance, withdrawal and continued use despite harm. Management: screening (e.g. CAGE for alcohol), brief interventions, detoxification (benzodiazepines and thiamine for alcohol withdrawal), rehabilitation, relapse prevention and harm reduction.",
+       "keyPoints": [
+        "GAD, panic, phobias, OCD, PTSD",
+        "CBT and SSRIs; benzodiazepines short-term only",
+        "PTSD common after violence and kidnapping",
+        "CAGE screening; thiamine in alcohol withdrawal"
+       ]
+      },
+      {
+       "heading": "Organic and childhood disorders",
+       "body": "Delirium is an acute, fluctuating disturbance of attention and awareness caused by a physical illness (infection, hypoxia, electrolyte disturbance, drugs, alcohol withdrawal) — a medical emergency; treat the cause, reorient the patient, ensure a calm, well-lit environment and involve family. Dementia is a chronic, progressive decline in memory and other cognitive functions (Alzheimer's disease, vascular dementia); care focuses on safety, routine, support for carers and dignity. Childhood disorders include attention-deficit hyperactivity disorder (ADHD), autism spectrum disorder, intellectual disability, conduct disorders and epilepsy-related problems; early identification, family support and education are key. Epilepsy is often managed within mental health services in Nigeria and carries significant stigma.",
+       "keyPoints": [
+        "Delirium: acute, fluctuating, physical cause",
+        "Dementia: chronic, progressive",
+        "Reorientation and calm environment",
+        "ADHD, autism, intellectual disability",
+        "Epilepsy stigma"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Re-experiencing, avoidance and hyperarousal after a traumatic event suggest:",
+       "options": [
+        "Generalised anxiety disorder",
+        "Bipolar disorder",
+        "Schizophrenia",
+        "Post-traumatic stress disorder",
+        "Dementia"
+       ],
+       "answerIndex": 3,
+       "explanation": "These are the core PTSD symptom clusters."
+      },
+      {
+       "stem": "Recurrent intrusive thoughts with repetitive hand-washing rituals suggest:",
+       "options": [
+        "Phobia",
+        "Mania",
+        "Obsessive–compulsive disorder",
+        "Delirium",
+        "Panic disorder"
+       ],
+       "answerIndex": 2,
+       "explanation": "Obsessions and compulsions characterise OCD."
+      },
+      {
+       "stem": "Benzodiazepines for anxiety should generally be used:",
+       "options": [
+        "Only short-term because of dependence",
+        "Only in children",
+        "Long-term for years",
+        "With alcohol",
+        "Never"
+       ],
+       "answerIndex": 0,
+       "explanation": "Tolerance and dependence develop."
+      },
+      {
+       "stem": "The CAGE questionnaire screens for:",
+       "options": [
+        "Depression",
+        "Psychosis",
+        "Dementia",
+        "Alcohol misuse",
+        "Anxiety"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cut down, Annoyed, Guilty, Eye-opener."
+      },
+      {
+       "stem": "An elderly patient becomes acutely confused with fluctuating attention during a urinary infection. This is most likely:",
+       "options": [
+        "Delirium",
+        "Dementia",
+        "Depression",
+        "Normal ageing",
+        "Schizophrenia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Delirium is acute and has a physical cause."
+      },
+      {
+       "stem": "The main principle in managing delirium is to:",
+       "options": [
+        "Identify and treat the underlying cause",
+        "Give sedatives first",
+        "Isolate in a dark room",
+        "Wait for it to pass",
+        "Restrain the patient"
+       ],
+       "answerIndex": 0,
+       "explanation": "Correcting the cause resolves delirium."
+      },
+      {
+       "stem": "A chronic progressive decline in memory and other cognitive functions describes:",
+       "options": [
+        "Mania",
+        "Dementia",
+        "Delirium",
+        "Panic disorder",
+        "PTSD"
+       ],
+       "answerIndex": 1,
+       "explanation": "Alzheimer's disease is the commonest cause."
+      },
+      {
+       "stem": "The first-line medication class for most anxiety disorders is:",
+       "options": [
+        "Antibiotics",
+        "Stimulants",
+        "Antipsychotics",
+        "SSRIs",
+        "Opioids"
+       ],
+       "answerIndex": 3,
+       "explanation": "SSRIs are effective and non-addictive."
+      }
+     ]
+    },
+    {
+     "title": "Therapeutic Relationship and Interventions",
+     "order": 5,
+     "summary": "Nurse–patient relationship, communication, de-escalation, psychotherapies and ECT care.",
+     "material": [
+      {
+       "heading": "Therapeutic relationship",
+       "body": "The therapeutic nurse–patient relationship (Peplau) progresses through orientation, working (identification and exploitation) and termination phases. Key skills: active listening, empathy, genuineness, unconditional positive regard (Carl Rogers), open questions, reflection, silence, and maintaining professional boundaries. De-escalation of aggression: approach calmly, maintain a safe distance and exit route, speak softly, listen, acknowledge feelings, offer choices, avoid threatening postures; physical restraint and rapid tranquillisation are last resorts, used for the shortest time with monitoring and documentation. Seclusion and restraint must follow legal and institutional policies.",
+       "keyPoints": [
+        "Peplau: orientation, working, termination",
+        "Empathy, genuineness, unconditional positive regard",
+        "De-escalation: calm, distance, listen, choices",
+        "Restraint is a last resort"
+       ]
+      },
+      {
+       "heading": "Treatments",
+       "body": "Psychological interventions include cognitive behavioural therapy (identifying and changing unhelpful thoughts and behaviours), problem-solving therapy, interpersonal therapy, family therapy, group therapy and psychoeducation; task-shifted interventions such as the Friendship Bench and WHO's Problem Management Plus are delivered by lay health workers. Occupational and recreational therapy promote rehabilitation. Electroconvulsive therapy (ECT) is effective for severe or psychotic depression, catatonia and treatment-resistant conditions; nursing care before ECT includes consent, fasting, removing dentures and jewellery, and baseline observations; after ECT, monitor vital signs, orientation and airway, and reassure about transient memory loss and headache.",
+       "keyPoints": [
+        "CBT, problem-solving, family therapy",
+        "Lay-delivered interventions (Friendship Bench)",
+        "ECT for severe depression and catatonia",
+        "ECT nursing: consent, fasting, monitoring"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The theorist who described phases of the nurse–patient relationship is:",
+       "options": [
+        "Hildegard Peplau",
+        "Florence Nightingale",
+        "Callista Roy",
+        "Dorothea Orem",
+        "Virginia Henderson"
+       ],
+       "answerIndex": 0,
+       "explanation": "Peplau's interpersonal relations theory."
+      },
+      {
+       "stem": "'Unconditional positive regard' is a concept from:",
+       "options": [
+        "Sigmund Freud",
+        "B. F. Skinner",
+        "Maslow only",
+        "Carl Rogers",
+        "Pavlov"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rogers' person-centred approach."
+      },
+      {
+       "stem": "When de-escalating an aggressive patient, the nurse should:",
+       "options": [
+        "Lock themselves in with the patient",
+        "Turn their back",
+        "Keep a safe distance, speak calmly and ensure an exit route",
+        "Threaten the patient",
+        "Stand very close and shout"
+       ],
+       "answerIndex": 2,
+       "explanation": "Safety and calm communication reduce aggression."
+      },
+      {
+       "stem": "Physical restraint of a psychiatric patient should be:",
+       "options": [
+        "A last resort for the shortest time with monitoring",
+        "Used for convenience",
+        "Applied without documentation",
+        "A routine first measure",
+        "Used as punishment"
+       ],
+       "answerIndex": 0,
+       "explanation": "Least-restrictive practice is required."
+      },
+      {
+       "stem": "Cognitive behavioural therapy focuses on:",
+       "options": [
+        "Medication only",
+        "Changing unhelpful thoughts and behaviours",
+        "Unconscious childhood conflicts only",
+        "Hypnosis",
+        "Surgery"
+       ],
+       "answerIndex": 1,
+       "explanation": "CBT is structured and evidence-based."
+      },
+      {
+       "stem": "ECT is particularly effective for:",
+       "options": [
+        "Autism",
+        "Personality disorder",
+        "Severe or psychotic depression and catatonia",
+        "Dementia",
+        "Mild anxiety"
+       ],
+       "answerIndex": 2,
+       "explanation": "It can be life-saving in severe depression."
+      },
+      {
+       "stem": "Before ECT, the patient should:",
+       "options": [
+        "Drink alcohol",
+        "Be discharged",
+        "Eat a heavy meal",
+        "Take extra sedatives at home",
+        "Be fasted, consented and have dentures and jewellery removed"
+       ],
+       "answerIndex": 4,
+       "explanation": "Anaesthesia safety requires these steps."
+      },
+      {
+       "stem": "A common temporary side effect of ECT is:",
+       "options": [
+        "Permanent paralysis",
+        "Blindness",
+        "Kidney failure",
+        "Deafness",
+        "Short-term memory loss and headache"
+       ],
+       "answerIndex": 4,
+       "explanation": "Patients should be reassured it usually improves."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

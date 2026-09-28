@@ -1,0 +1,660 @@
+{
+ "courses": [
+  {
+   "title": "General Microbiology (MCB 201)",
+   "code": "MCB201",
+   "color": "#047857",
+   "description": "Microbial structure, growth, sterilisation and disinfection, bacterial genetics and an introduction to viruses, fungi and immunity.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    }
+   ],
+   "topics": [
+    {
+     "title": "History and Bacterial Cell Structure",
+     "order": 1,
+     "summary": "Pioneers of microbiology, prokaryotic structure, Gram staining and bacterial shapes.",
+     "material": [
+      {
+       "heading": "Pioneers",
+       "body": "Antonie van Leeuwenhoek first observed microbes with simple microscopes. Louis Pasteur disproved spontaneous generation (swan-neck flask), developed pasteurisation and vaccines against rabies and anthrax. Robert Koch established Koch's postulates linking a specific microbe to a disease and identified the causes of anthrax, tuberculosis and cholera. Joseph Lister introduced antiseptic surgery with carbolic acid; Alexander Fleming discovered penicillin (1928).",
+       "keyPoints": [
+        "Leeuwenhoek: first to see microbes",
+        "Pasteur: germ theory, vaccines",
+        "Koch: postulates, TB bacillus",
+        "Fleming: penicillin (1928)"
+       ]
+      },
+      {
+       "heading": "Bacterial structure",
+       "body": "Bacteria have a cell wall of peptidoglycan. Gram-positive bacteria have a thick peptidoglycan layer with teichoic acids and stain purple (retain crystal violet–iodine); Gram-negative bacteria have a thin peptidoglycan layer and an outer membrane containing lipopolysaccharide (endotoxin) and stain pink/red (counterstained with safranin). Gram stain steps: crystal violet → iodine → alcohol/acetone decolouriser → safranin. Other structures: capsule (antiphagocytic), flagella (motility), pili/fimbriae (adhesion; sex pili for conjugation) and endospores (resistant resting forms in Bacillus and Clostridium). Shapes: cocci, bacilli, spirilla; arrangements such as chains (streptococci) and clusters (staphylococci). Mycobacteria have mycolic acids and need acid-fast (Ziehl–Neelsen) staining.",
+       "keyPoints": [
+        "Gram +: thick peptidoglycan, purple",
+        "Gram −: outer membrane with LPS, pink",
+        "Order: crystal violet, iodine, decolouriser, safranin",
+        "Spores: Bacillus, Clostridium",
+        "Mycobacteria: Ziehl–Neelsen"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Koch's postulates are used to:",
+       "options": [
+        "Classify fungi",
+        "Sterilise instruments",
+        "Link a specific microbe to a specific disease",
+        "Grow viruses",
+        "Stain bacteria"
+       ],
+       "answerIndex": 2,
+       "explanation": "They establish causation between microbe and disease."
+      },
+      {
+       "stem": "Penicillin was discovered by:",
+       "options": [
+        "Edward Jenner",
+        "Joseph Lister",
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Robert Koch"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fleming discovered penicillin in 1928."
+      },
+      {
+       "stem": "Gram-positive bacteria stain purple because they have:",
+       "options": [
+        "A capsule",
+        "An outer membrane",
+        "A thick peptidoglycan layer",
+        "No cell wall",
+        "Mycolic acids"
+       ],
+       "answerIndex": 2,
+       "explanation": "The thick wall retains the crystal violet–iodine complex."
+      },
+      {
+       "stem": "The decolourising step in Gram staining uses:",
+       "options": [
+        "Iodine",
+        "Safranin",
+        "Crystal violet",
+        "Alcohol or acetone",
+        "Methylene blue"
+       ],
+       "answerIndex": 3,
+       "explanation": "Alcohol/acetone removes the dye from Gram-negative cells."
+      },
+      {
+       "stem": "Endotoxin (lipopolysaccharide) is found in:",
+       "options": [
+        "Viral capsids",
+        "Gram-positive cell walls",
+        "The outer membrane of Gram-negative bacteria",
+        "Fungal cell walls",
+        "Bacterial spores only"
+       ],
+       "answerIndex": 2,
+       "explanation": "LPS is a component of the Gram-negative outer membrane."
+      },
+      {
+       "stem": "Which genus forms endospores?",
+       "options": [
+        "Clostridium",
+        "Neisseria",
+        "Streptococcus",
+        "Staphylococcus",
+        "Escherichia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bacillus and Clostridium form spores."
+      },
+      {
+       "stem": "Mycobacterium tuberculosis is best stained with:",
+       "options": [
+        "Gram stain",
+        "India ink",
+        "Ziehl–Neelsen stain",
+        "Giemsa only",
+        "Lactophenol cotton blue"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its waxy mycolic acid wall requires acid-fast staining."
+      },
+      {
+       "stem": "Cocci arranged in grape-like clusters are typical of:",
+       "options": [
+        "Staphylococci",
+        "Streptococci",
+        "Bacilli",
+        "Diplococci",
+        "Spirochaetes"
+       ],
+       "answerIndex": 0,
+       "explanation": "Staphylococci divide in several planes forming clusters."
+      }
+     ]
+    },
+    {
+     "title": "Microbial Growth and Culture Media",
+     "order": 2,
+     "summary": "Bacterial growth curve, oxygen and temperature requirements, and types of culture media.",
+     "material": [
+      {
+       "heading": "Growth",
+       "body": "Bacteria reproduce by binary fission. The growth curve in a closed culture has four phases: lag (adaptation, no increase in number), log/exponential (fastest division; most sensitive to antibiotics), stationary (nutrient exhaustion, growth equals death) and decline/death. Generation time of E. coli is about 20 minutes. By oxygen requirement: obligate aerobes (M. tuberculosis, Pseudomonas), obligate anaerobes (Clostridium, Bacteroides), facultative anaerobes (E. coli, Staphylococcus), microaerophiles (Campylobacter, Helicobacter). By temperature: psychrophiles, mesophiles (most human pathogens, optimum ~37 °C) and thermophiles.",
+       "keyPoints": [
+        "Lag → log → stationary → decline",
+        "Log phase: most antibiotic-sensitive",
+        "Most pathogens are mesophiles (37 °C)"
+       ]
+      },
+      {
+       "heading": "Culture media",
+       "body": "Basal media (nutrient agar) support non-fastidious organisms. Enriched media (blood agar, chocolate agar for Haemophilus and Neisseria) support fastidious organisms. Selective media inhibit unwanted organisms: MacConkey (Gram-negative enterics), Lowenstein–Jensen (mycobacteria), Thiosulphate–citrate–bile salts–sucrose (TCBS) for Vibrio cholerae, Sabouraud dextrose agar for fungi. Differential media distinguish organisms: MacConkey differentiates lactose fermenters (pink: E. coli, Klebsiella) from non-fermenters (pale: Salmonella, Shigella); blood agar shows haemolysis (α partial/green, β complete, γ none).",
+       "keyPoints": [
+        "Chocolate agar: Haemophilus, Neisseria",
+        "MacConkey: lactose fermenters pink",
+        "LJ medium: mycobacteria; TCBS: Vibrio",
+        "Sabouraud: fungi"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Bacteria are most sensitive to antibiotics during the:",
+       "options": [
+        "Lag phase",
+        "Decline phase",
+        "Spore phase",
+        "Log (exponential) phase",
+        "Stationary phase"
+       ],
+       "answerIndex": 3,
+       "explanation": "Actively dividing cells are most susceptible."
+      },
+      {
+       "stem": "The optimum temperature for most human pathogens is about:",
+       "options": [
+        "20 °C",
+        "55 °C",
+        "80 °C",
+        "37 °C",
+        "4 °C"
+       ],
+       "answerIndex": 3,
+       "explanation": "Human pathogens are mesophiles adapted to body temperature."
+      },
+      {
+       "stem": "Clostridium species are:",
+       "options": [
+        "Obligate anaerobes",
+        "Microaerophiles",
+        "Facultative anaerobes",
+        "Obligate aerobes",
+        "Psychrophiles"
+       ],
+       "answerIndex": 0,
+       "explanation": "Clostridia grow only without oxygen."
+      },
+      {
+       "stem": "The medium used to culture Mycobacterium tuberculosis is:",
+       "options": [
+        "MacConkey agar",
+        "Sabouraud agar",
+        "Blood agar",
+        "Lowenstein–Jensen medium",
+        "TCBS agar"
+       ],
+       "answerIndex": 3,
+       "explanation": "LJ medium is egg-based and selective for mycobacteria."
+      },
+      {
+       "stem": "On MacConkey agar, lactose-fermenting colonies appear:",
+       "options": [
+        "Colourless",
+        "Black",
+        "Green",
+        "Pink",
+        "Blue"
+       ],
+       "answerIndex": 3,
+       "explanation": "Acid from lactose fermentation turns the neutral red indicator pink."
+      },
+      {
+       "stem": "Complete haemolysis with a clear zone on blood agar is called:",
+       "options": [
+        "Alpha haemolysis",
+        "Gamma haemolysis",
+        "Beta haemolysis",
+        "Delta haemolysis",
+        "Non-haemolysis"
+       ],
+       "answerIndex": 2,
+       "explanation": "β-haemolysis is complete lysis of red cells."
+      },
+      {
+       "stem": "TCBS agar is selective for:",
+       "options": [
+        "Salmonella",
+        "Staphylococcus aureus",
+        "Candida",
+        "Vibrio cholerae",
+        "Neisseria"
+       ],
+       "answerIndex": 3,
+       "explanation": "TCBS supports Vibrio species."
+      },
+      {
+       "stem": "Fungi are usually cultured on:",
+       "options": [
+        "Sabouraud dextrose agar",
+        "LJ medium",
+        "Nutrient broth only",
+        "Chocolate agar",
+        "MacConkey agar"
+       ],
+       "answerIndex": 0,
+       "explanation": "Sabouraud agar's low pH favours fungi."
+      }
+     ]
+    },
+    {
+     "title": "Sterilisation and Disinfection",
+     "order": 3,
+     "summary": "Physical and chemical methods of controlling microbes and their uses in health care.",
+     "material": [
+      {
+       "heading": "Definitions and physical methods",
+       "body": "Sterilisation destroys all microorganisms including spores; disinfection destroys most pathogens but not necessarily spores (on inanimate objects); antisepsis applies chemicals to living tissue. Moist heat is the most reliable method: autoclaving at 121 °C, 15 psi for 15–20 minutes kills spores (checked with Bacillus stearothermophilus / Geobacillus indicators). Dry heat (hot-air oven, 160 °C for 2 hours) sterilises glassware and powders. Incineration destroys contaminated waste. Pasteurisation (63 °C for 30 min or 72 °C for 15 s) reduces milk-borne pathogens. Filtration (0.22 µm) sterilises heat-labile solutions; ionising radiation (gamma rays) sterilises disposable syringes.",
+       "keyPoints": [
+        "Sterilisation kills spores; disinfection may not",
+        "Autoclave: 121 °C, 15 psi, 15–20 min",
+        "Hot-air oven: 160 °C, 2 h",
+        "Gamma rays sterilise disposables"
+       ]
+      },
+      {
+       "heading": "Chemical agents",
+       "body": "Alcohols (70% ethanol or isopropanol) are effective skin antiseptics (70% works better than absolute alcohol because water aids protein denaturation). Chlorine compounds (sodium hypochlorite/bleach, 0.5% for spills) are broad-spectrum disinfectants. Iodine and povidone-iodine are antiseptics. Chlorhexidine is used for hand hygiene and surgical skin preparation. Glutaraldehyde (2%) is a high-level disinfectant ('cold sterilant') for endoscopes. Phenolics and hydrogen peroxide are also used. Prions are highly resistant to standard methods.",
+       "keyPoints": [
+        "70% alcohol is better than 100%",
+        "Hypochlorite for blood spills",
+        "Glutaraldehyde for endoscopes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Standard autoclave conditions are:",
+       "options": [
+        "72 °C for 15 s",
+        "63 °C for 30 min",
+        "100 °C for 5 min",
+        "160 °C for 2 h",
+        "121 °C at 15 psi for 15–20 min"
+       ],
+       "answerIndex": 4,
+       "explanation": "Saturated steam at 121 °C and 15 psi kills spores."
+      },
+      {
+       "stem": "A process that kills all microorganisms including spores is:",
+       "options": [
+        "Sterilisation",
+        "Sanitisation",
+        "Antisepsis",
+        "Disinfection",
+        "Pasteurisation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Sterilisation destroys all forms of microbial life."
+      },
+      {
+       "stem": "Glassware is best sterilised in a:",
+       "options": [
+        "Refrigerator",
+        "UV cabinet",
+        "Hot-air oven",
+        "Autoclave only",
+        "Water bath at 37 °C"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dry heat at 160 °C for 2 hours suits glassware."
+      },
+      {
+       "stem": "The biological indicator for autoclaves is spores of:",
+       "options": [
+        "Bacillus anthracis",
+        "Staphylococcus aureus",
+        "Geobacillus (Bacillus) stearothermophilus",
+        "E. coli",
+        "Clostridium tetani"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its heat-resistant spores confirm sterilisation."
+      },
+      {
+       "stem": "Heat-sensitive drug solutions are sterilised by:",
+       "options": [
+        "Incineration",
+        "Hot-air oven",
+        "Autoclaving",
+        "Boiling for 1 hour",
+        "Filtration through a 0.22 µm membrane"
+       ],
+       "answerIndex": 4,
+       "explanation": "Membrane filtration removes bacteria without heat."
+      },
+      {
+       "stem": "Why is 70% alcohol more effective than absolute alcohol?",
+       "options": [
+        "Water aids protein denaturation and penetration",
+        "It evaporates faster",
+        "It is cheaper",
+        "It kills spores",
+        "It is less flammable"
+       ],
+       "answerIndex": 0,
+       "explanation": "The water content improves penetration and denaturation."
+      },
+      {
+       "stem": "Disposable plastic syringes are commonly sterilised by:",
+       "options": [
+        "Gamma irradiation",
+        "Hot-air oven",
+        "Pasteurisation",
+        "Autoclaving",
+        "Boiling"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ionising radiation penetrates packaging without heat."
+      },
+      {
+       "stem": "Endoscopes are commonly disinfected with:",
+       "options": [
+        "2% glutaraldehyde",
+        "Soap and water only",
+        "Autoclave only",
+        "Hot-air oven",
+        "Bleach 5%"
+       ],
+       "answerIndex": 0,
+       "explanation": "Glutaraldehyde is a high-level disinfectant for heat-sensitive instruments."
+      }
+     ]
+    },
+    {
+     "title": "Bacterial Genetics and Antimicrobial Resistance",
+     "order": 4,
+     "summary": "Mutation, gene transfer, plasmids and mechanisms of antibiotic resistance.",
+     "material": [
+      {
+       "heading": "Gene transfer",
+       "body": "Bacteria have a single circular chromosome and often plasmids (extrachromosomal DNA carrying resistance or toxin genes). Genetic variation arises by mutation and by horizontal gene transfer: transformation (uptake of free DNA — Griffith's experiment with Streptococcus pneumoniae), transduction (transfer by bacteriophages) and conjugation (transfer through a sex pilus, often of plasmids such as R factors). Transposons ('jumping genes') move between DNA sites.",
+       "keyPoints": [
+        "Transformation: free DNA",
+        "Transduction: bacteriophage",
+        "Conjugation: sex pilus, plasmids"
+       ]
+      },
+      {
+       "heading": "Antimicrobial resistance",
+       "body": "Resistance mechanisms include enzymatic inactivation (β-lactamases, extended-spectrum β-lactamases, carbapenemases), altered targets (altered penicillin-binding protein PBP2a in MRSA), reduced permeability, and efflux pumps. Misuse of antibiotics — self-medication, incomplete courses, use in livestock and over-the-counter sales — drives resistance, a major public health threat in Nigeria. Antimicrobial stewardship promotes the right drug, dose and duration.",
+       "keyPoints": [
+        "β-lactamases destroy penicillins",
+        "MRSA: altered PBP2a (mecA gene)",
+        "Misuse drives resistance; stewardship limits it"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Transfer of DNA between bacteria through a sex pilus is:",
+       "options": [
+        "Transduction",
+        "Mutation",
+        "Transposition",
+        "Conjugation",
+        "Transformation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Conjugation requires cell-to-cell contact via a pilus."
+      },
+      {
+       "stem": "Transfer of bacterial DNA by a bacteriophage is:",
+       "options": [
+        "Conjugation",
+        "Transformation",
+        "Transduction",
+        "Translation",
+        "Replication"
+       ],
+       "answerIndex": 2,
+       "explanation": "Phages carry bacterial genes between cells."
+      },
+      {
+       "stem": "Griffith's experiment with pneumococci demonstrated:",
+       "options": [
+        "Transformation",
+        "Transduction",
+        "Spore formation",
+        "Conjugation",
+        "Plasmid curing"
+       ],
+       "answerIndex": 0,
+       "explanation": "Heat-killed virulent bacteria transformed live non-virulent ones."
+      },
+      {
+       "stem": "Extrachromosomal circular DNA in bacteria is called a:",
+       "options": [
+        "Nucleoid",
+        "Plasmid",
+        "Ribosome",
+        "Capsid",
+        "Mesosome"
+       ],
+       "answerIndex": 1,
+       "explanation": "Plasmids often carry resistance genes."
+      },
+      {
+       "stem": "MRSA is resistant to methicillin because of:",
+       "options": [
+        "β-lactamase production",
+        "Loss of the cell wall",
+        "Efflux pumps only",
+        "A thicker capsule",
+        "Altered penicillin-binding protein (PBP2a)"
+       ],
+       "answerIndex": 4,
+       "explanation": "The mecA gene encodes PBP2a with low β-lactam affinity."
+      },
+      {
+       "stem": "Enzymes that hydrolyse the β-lactam ring are:",
+       "options": [
+        "β-lactamases",
+        "Proteases",
+        "Reverse transcriptases",
+        "Transpeptidases",
+        "DNA gyrases"
+       ],
+       "answerIndex": 0,
+       "explanation": "β-lactamases inactivate penicillins and cephalosporins."
+      },
+      {
+       "stem": "Which practice promotes antimicrobial resistance?",
+       "options": [
+        "Culture before treatment",
+        "Vaccination",
+        "Buying antibiotics without prescription for self-medication",
+        "Completing prescribed courses",
+        "Hand hygiene"
+       ],
+       "answerIndex": 2,
+       "explanation": "Inappropriate use selects resistant organisms."
+      },
+      {
+       "stem": "'Jumping genes' that move within and between DNA molecules are:",
+       "options": [
+        "Operons",
+        "Transposons",
+        "Plasmids",
+        "Codons",
+        "Introns"
+       ],
+       "answerIndex": 1,
+       "explanation": "Transposons can carry resistance genes between plasmids and chromosomes."
+      }
+     ]
+    },
+    {
+     "title": "Viruses, Fungi and Protozoa: An Introduction",
+     "order": 5,
+     "summary": "Viral structure and replication, fungal forms, and medically important protozoa.",
+     "material": [
+      {
+       "heading": "Viruses",
+       "body": "Viruses are acellular obligate intracellular parasites containing either DNA or RNA (never both) within a protein capsid; some have a lipid envelope derived from the host membrane (enveloped viruses are more easily inactivated by detergents and alcohol). Replication steps: attachment, penetration, uncoating, synthesis of nucleic acid and proteins, assembly and release. Retroviruses such as HIV use reverse transcriptase to make DNA from RNA. Viruses are not affected by antibacterial antibiotics; they are grown in cell culture, embryonated eggs or animals, not on agar. Bacteriophages infect bacteria.",
+       "keyPoints": [
+        "Viruses: DNA or RNA, never both",
+        "Retroviruses use reverse transcriptase",
+        "Antibiotics don't kill viruses",
+        "Grown in cell culture, not agar"
+       ]
+      },
+      {
+       "heading": "Fungi and protozoa",
+       "body": "Fungi are eukaryotes with chitin cell walls and ergosterol in their membranes (the target of azoles and amphotericin B). Yeasts are unicellular (Candida, Cryptococcus); moulds form hyphae (Aspergillus, dermatophytes causing ringworm/tinea); dimorphic fungi (Histoplasma) are moulds at room temperature and yeasts at body temperature. Protozoa are unicellular eukaryotes: Plasmodium (malaria, transmitted by female Anopheles), Entamoeba histolytica (amoebic dysentery, liver abscess), Giardia lamblia (malabsorptive diarrhoea), Trypanosoma brucei (sleeping sickness, tsetse fly), Leishmania (sandfly) and Trichomonas vaginalis (sexually transmitted).",
+       "keyPoints": [
+        "Fungal membranes contain ergosterol",
+        "Candida: yeast; dermatophytes: moulds",
+        "Plasmodium via female Anopheles",
+        "Trypanosoma via tsetse fly"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "HIV converts its RNA genome into DNA using:",
+       "options": [
+        "DNA polymerase",
+        "Reverse transcriptase",
+        "RNA polymerase",
+        "Integrase only",
+        "Protease"
+       ],
+       "answerIndex": 1,
+       "explanation": "Reverse transcriptase makes DNA from an RNA template."
+      },
+      {
+       "stem": "Viruses are cultured in:",
+       "options": [
+        "Nutrient agar",
+        "Cell cultures or embryonated eggs",
+        "MacConkey agar",
+        "Sabouraud agar",
+        "Blood agar"
+       ],
+       "answerIndex": 1,
+       "explanation": "As obligate intracellular parasites they need living cells."
+      },
+      {
+       "stem": "Which statement about viruses is correct?",
+       "options": [
+        "They divide by binary fission",
+        "They contain both DNA and RNA",
+        "They are killed by penicillin",
+        "They are obligate intracellular parasites",
+        "They have 70S ribosomes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Viruses replicate only inside host cells."
+      },
+      {
+       "stem": "Azole antifungals act on:",
+       "options": [
+        "DNA gyrase",
+        "Ergosterol synthesis",
+        "Chitin only",
+        "Ribosomes",
+        "Peptidoglycan"
+       ],
+       "answerIndex": 1,
+       "explanation": "Azoles inhibit ergosterol synthesis in fungal membranes."
+      },
+      {
+       "stem": "Candida albicans is a:",
+       "options": [
+        "Bacterium",
+        "Virus",
+        "Mould",
+        "Yeast",
+        "Protozoan"
+       ],
+       "answerIndex": 3,
+       "explanation": "Candida is a yeast that can form pseudohyphae."
+      },
+      {
+       "stem": "Amoebic liver abscess is caused by:",
+       "options": [
+        "Giardia lamblia",
+        "Entamoeba histolytica",
+        "Trichomonas vaginalis",
+        "Leishmania donovani",
+        "Plasmodium vivax"
+       ],
+       "answerIndex": 1,
+       "explanation": "E. histolytica can invade the liver via the portal vein."
+      },
+      {
+       "stem": "African sleeping sickness is transmitted by the:",
+       "options": [
+        "Tsetse fly",
+        "Sandfly",
+        "Blackfly",
+        "Anopheles mosquito",
+        "Housefly"
+       ],
+       "answerIndex": 0,
+       "explanation": "Glossina (tsetse) transmits Trypanosoma brucei."
+      },
+      {
+       "stem": "Enveloped viruses are easily inactivated by:",
+       "options": [
+        "Alcohol and detergents",
+        "Antibiotics",
+        "Darkness",
+        "Freezing",
+        "Cold temperatures"
+       ],
+       "answerIndex": 0,
+       "explanation": "Their lipid envelope is disrupted by alcohol and detergents."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

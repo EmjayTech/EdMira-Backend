@@ -1,0 +1,99 @@
+{
+  "title": "Computed Tomography and Magnetic Resonance Imaging",
+  "code": "RAD401",
+  "color": "#4338CA",
+  "description": "Principles and technology of CT and MRI, image reconstruction and artefacts, contrast agents, protocols, and safety.",
+  "for": { "400": ["RAD"], "500": ["RAD", "BME"] },
+  "topics": [
+    {
+      "title": "CT Principles and Technology",
+      "summary": "Generations of CT, helical and multislice scanning, Hounsfield units and scan parameters.",
+      "notes": [
+        { "h": "History and hardware", "b": "Computed tomography was invented by Godfrey Hounsfield (with Allan Cormack's mathematical work; Nobel Prize 1979). A CT scanner rotates an X-ray tube and opposing detector array around the patient in the gantry, measuring attenuation from many angles; a computer reconstructs cross-sectional images. Modern scanners are third-generation designs (rotate–rotate) using slip-ring technology for continuous rotation, enabling helical (spiral) scanning in which the table moves continuously; multidetector (multislice) CT acquires many slices per rotation (64-slice and beyond), permitting thin-section volumetric imaging, CT angiography and cardiac CT. Pitch = table movement per rotation ÷ total beam collimation; pitch > 1 reduces dose and scan time but may reduce image quality.", "k": ["Hounsfield invented CT (Nobel 1979)", "Slip rings → helical scanning", "Multislice CT", "Pitch = table feed / collimation"] },
+        { "h": "CT numbers and parameters", "b": "Each pixel represents the attenuation of a voxel, expressed in Hounsfield units (HU): water 0, air −1,000, fat about −100, soft tissue +20 to +80, blood (acute clot) +50 to +80, bone +400 to +1,000 or more. Windowing adjusts display: window width (range of HU displayed — narrow for brain and soft tissue, wide for lung and bone) and window level (centre HU). Scan parameters: kVp, mA and rotation time (mAs), slice thickness, pitch, field of view, and reconstruction kernel (soft tissue vs bone/lung sharp kernels). Image quality factors: spatial resolution, contrast resolution (CT's major advantage over radiography), noise (reduced by higher mAs or thicker slices) and artefacts.", "k": ["HU: water 0, air −1,000, bone +1,000", "Narrow window: soft tissue; wide: lung/bone", "Noise ↓ with ↑mAs or thicker slices", "CT has superior contrast resolution"] }
+      ],
+      "q": [
+        ["CT scanning was invented by:", "Wilhelm Röntgen", "Godfrey Hounsfield", "Marie Curie", "Paul Lauterbur", "Ian Donald", 1, "Hounsfield shared the 1979 Nobel Prize with Cormack."],
+        ["Slip-ring technology allows CT scanners to:", "Use lower kVp", "Rotate continuously for helical scanning", "Avoid radiation", "Image without a table", "Use sound waves", 1, "Continuous rotation enables spiral acquisition."],
+        ["The CT number of water is:", "−1,000 HU", "−100 HU", "0 HU", "+100 HU", "+1,000 HU", 2, "Water is the reference at 0 HU."],
+        ["Air has a CT number of about:", "−1,000 HU", "−100 HU", "0 HU", "+50 HU", "+1,000 HU", 0, "Air is least attenuating."],
+        ["To view lung parenchyma, the radiographer should use a:", "Narrow window", "Wide window with low level", "Brain window", "No window", "Bone window only", 1, "A wide window displays air and soft tissue together."],
+        ["Increasing pitch above 1 in helical CT will:", "Increase dose", "Reduce dose and scan time", "Increase scan time", "Remove the need for reconstruction", "Improve spatial resolution always", 1, "The table moves further per rotation."],
+        ["Image noise in CT can be reduced by:", "Decreasing mAs", "Increasing mAs or slice thickness", "Using a sharper kernel", "Reducing kVp drastically", "Increasing pitch greatly", 1, "More photons per voxel reduce noise."],
+        ["CT's main advantage over plain radiography is superior:", "Spatial resolution always", "Contrast resolution", "Portability", "Low cost", "Absence of radiation", 1, "CT distinguishes soft tissues with small density differences."]
+      ]
+    },
+    {
+      "title": "CT Artefacts, Dose and Clinical Protocols",
+      "summary": "Common artefacts, dose descriptors and reduction, and protocols for head, chest and abdomen.",
+      "notes": [
+        { "h": "Artefacts and dose", "b": "CT artefacts: motion (blurring, streaks — reduce with short scan times, breath-holding, immobilisation), beam hardening (dark streaks between dense objects, e.g. posterior fossa between the petrous bones; 'cupping'), metal streak artefacts (reduced by metal artefact reduction algorithms), partial volume averaging (thin slices reduce it), ring artefacts (detector calibration faults) and photon starvation (noise in wide body parts). CT delivers relatively high doses (e.g. head ~2 mSv, abdomen–pelvis ~8–10 mSv). Dose descriptors: CTDIvol (dose per slice/volume, mGy) and dose–length product (DLP = CTDIvol × scan length, mGy·cm), from which effective dose can be estimated. Dose reduction: justification, automatic tube current modulation, lower kVp for children and CT angiography, iterative reconstruction, limiting scan range and phases, and child-specific protocols.", "k": ["Beam hardening: dark streaks", "Metal artefact reduction", "CTDIvol and DLP", "Tube current modulation, iterative reconstruction", "Paediatric protocols"] },
+        { "h": "Common protocols", "b": "Non-contrast CT head is the first-line test for acute stroke (to exclude haemorrhage before thrombolysis) and head injury. CT pulmonary angiography (CTPA) detects pulmonary embolism with contrast timed to the pulmonary arteries. Contrast-enhanced CT abdomen/pelvis (portal venous phase ~60–70 s) evaluates abdominal pain, trauma, abscesses and cancer staging; multiphase liver imaging (arterial, portal venous and delayed) characterises lesions such as hepatocellular carcinoma. CT KUB (non-contrast, low dose) detects urinary stones. High-resolution CT (thin sections, sharp kernel) assesses interstitial lung disease. Trauma CT ('pan-scan') evaluates multiply injured patients rapidly.", "k": ["Stroke: non-contrast CT head first", "CTPA for pulmonary embolism", "Portal venous phase ~60–70 s", "CT KUB for stones", "HRCT for interstitial lung disease"] }
+      ],
+      "q": [
+        ["Dark streaks between the petrous bones in the posterior fossa on head CT are due to:", "Motion", "Beam hardening", "Ring artefact", "Aliasing", "Partial volume only", 1, "Low-energy photons are preferentially absorbed by dense bone."],
+        ["Ring artefacts on CT indicate a problem with:", "Patient motion", "Detector calibration", "Contrast injection", "Table movement", "Patient size", 1, "A faulty detector element produces concentric rings."],
+        ["The CT dose descriptor that accounts for scan length is the:", "CTDIvol", "Dose–length product (DLP)", "HU", "Pitch", "Window width", 1, "DLP = CTDIvol × scan length."],
+        ["A dose-reduction technique in CT is:", "Scanning extra phases routinely", "Automatic tube current modulation", "Increasing scan length", "Using adult settings for children", "Repeating scans", 1, "mA adapts to patient size and density."],
+        ["The first imaging test for a patient with suspected acute stroke is:", "MRI spine", "Non-contrast CT head", "Chest X-ray", "Ultrasound abdomen", "Skull radiograph", 1, "It excludes haemorrhage before thrombolysis."],
+        ["Suspected pulmonary embolism is best confirmed with:", "CT KUB", "CT pulmonary angiography", "Non-contrast CT head", "Plain abdominal X-ray", "Mammography", 1, "Contrast opacifies the pulmonary arteries."],
+        ["A low-dose non-contrast CT KUB is used to detect:", "Appendicitis only", "Urinary tract stones", "Pulmonary embolism", "Brain tumours", "Fractured ribs only", 1, "Most stones are dense on non-contrast CT."],
+        ["The typical delay for portal venous phase abdominal CT after contrast injection is about:", "5 seconds", "25 seconds", "60–70 seconds", "5 minutes", "30 minutes", 2, "The liver parenchyma enhances maximally at this time."]
+      ]
+    },
+    {
+      "title": "MRI Physics",
+      "summary": "Nuclear magnetism, resonance, relaxation (T1 and T2), and image weighting.",
+      "notes": [
+        { "h": "Signal generation", "b": "MRI uses the magnetic properties of hydrogen nuclei (protons), abundant in water and fat. In a strong static magnetic field (B0, commonly 1.5 or 3 tesla, produced by superconducting magnets cooled with liquid helium), protons align and precess at the Larmor frequency (ω = γB0; about 42.58 MHz per tesla for hydrogen). A radiofrequency (RF) pulse at the Larmor frequency tips the net magnetisation (resonance); after the pulse, protons relax and emit a signal detected by receiver coils. Gradient coils vary the field spatially to encode position (slice selection, frequency and phase encoding), producing the loud knocking noise; data fill k-space, which is converted into an image by Fourier transformation.", "k": ["Hydrogen protons", "B0: 1.5 or 3 T superconducting", "Larmor: 42.58 MHz/T", "Gradients encode position (noise)", "k-space → Fourier transform"] },
+        { "h": "Relaxation and weighting", "b": "T1 (longitudinal, spin–lattice) relaxation is the recovery of longitudinal magnetisation; T2 (transverse, spin–spin) relaxation is the decay of transverse magnetisation. Fat has short T1 (bright on T1-weighted images); water/CSF has long T1 (dark on T1) and long T2 (bright on T2). T1-weighted images (short TR, short TE) show anatomy well and gadolinium enhancement; T2-weighted images (long TR, long TE) show fluid, oedema and most pathology as bright. Proton density images use long TR and short TE. FLAIR (fluid-attenuated inversion recovery) suppresses CSF signal to reveal periventricular lesions (e.g. multiple sclerosis); STIR suppresses fat. Diffusion-weighted imaging detects acute ischaemic stroke within minutes (restricted diffusion — bright on DWI, dark on ADC map).", "k": ["T1: fat bright, water dark", "T2: water bright", "T1: short TR/TE; T2: long TR/TE", "FLAIR suppresses CSF; STIR suppresses fat", "DWI: early stroke detection"] }
+      ],
+      "q": [
+        ["MRI signal in clinical imaging comes mainly from:", "Carbon nuclei", "Hydrogen nuclei (protons)", "Electrons", "Calcium ions", "X-ray photons", 1, "Protons in water and fat produce the signal."],
+        ["The Larmor frequency of hydrogen at 1.5 T is about:", "12 MHz", "64 MHz", "128 MHz", "1 GHz", "50 Hz", 1, "42.58 MHz/T × 1.5 T ≈ 64 MHz."],
+        ["The loud knocking noise during MRI is produced by the:", "Main magnet", "Gradient coils switching", "RF receiver", "Patient table", "Helium pump only", 1, "Rapidly switched gradients vibrate in the magnetic field."],
+        ["On a T1-weighted image, fat appears:", "Dark", "Bright", "Grey like CSF", "Invisible", "Black always", 1, "Fat has a short T1."],
+        ["On a T2-weighted image, cerebrospinal fluid appears:", "Dark", "Bright", "Same as bone", "Invisible", "Grey", 1, "Water has long T2."],
+        ["The sequence that suppresses CSF signal to show periventricular lesions is:", "STIR", "FLAIR", "DWI", "T1 post-contrast", "Proton density", 1, "Fluid-attenuated inversion recovery."],
+        ["Acute ischaemic stroke is detected earliest on MRI using:", "T1-weighted imaging", "Diffusion-weighted imaging", "Proton density", "Gradient echo only", "MR angiography only", 1, "Restricted diffusion appears within minutes."],
+        ["Raw MRI data are stored in:", "HU tables", "k-space", "Sinograms only", "Film", "Scintillators", 1, "Fourier transformation converts k-space to images."]
+      ]
+    },
+    {
+      "title": "MRI Safety",
+      "summary": "Static field, gradient and RF hazards, implants, screening and quench.",
+      "notes": [
+        { "h": "Hazards", "b": "MRI does not use ionising radiation but has serious hazards. The static magnetic field (always on) attracts ferromagnetic objects with great force — the projectile ('missile') effect (oxygen cylinders, scissors, trolleys) has caused deaths; only MR-safe or MR-conditional equipment enters the scanner room. Implants and devices: cardiac pacemakers and defibrillators (unless MR-conditional and programmed), cochlear implants, some aneurysm clips, neurostimulators, and metallic foreign bodies (especially intra-orbital — screen metalworkers with orbital X-ray). Radiofrequency energy deposits heat (specific absorption rate, SAR) — burns may occur from conductive loops (crossed limbs, cables touching skin) and tattoos. Rapidly switching gradients cause peripheral nerve stimulation and loud noise (hearing protection required).", "k": ["Projectile effect of ferromagnetic objects", "Pacemakers: only MR-conditional", "Screen for orbital metal fragments", "RF heating (SAR): avoid loops, burns", "Hearing protection"] },
+        { "h": "Safety systems", "b": "MRI units are organised into safety zones (I–IV), with Zone IV being the scanner room, access restricted and controlled by MR-trained staff. Every person (patients, relatives, staff) must complete a screening questionnaire before entering. Pregnant patients may be scanned when clinically indicated (preferably avoiding the first trimester and gadolinium). In a medical emergency, the patient should be removed from Zone IV before resuscitation with standard equipment. A quench is the rapid boiling-off of liquid helium to switch off the superconducting magnet — used only in emergencies (e.g. a person pinned by an object); the vent must carry helium outside, since escaped helium can cause asphyxia and cold burns. Claustrophobia may require reassurance, open or wide-bore scanners or sedation.", "k": ["Zones I–IV; Zone IV = scanner room", "Screen everyone before entry", "Remove patient from Zone IV for resuscitation", "Quench: emergency magnet shutdown", "Claustrophobia management"] }
+      ],
+      "q": [
+        ["The MRI hazard caused by ferromagnetic objects being pulled into the magnet is the:", "Quench", "Projectile (missile) effect", "Gradient noise", "RF burn", "Beam hardening", 1, "Objects accelerate violently towards the magnet."],
+        ["The MRI static magnetic field is:", "Switched on only during scans", "Always on", "Only on in emergencies", "Created by X-rays", "Harmless to metal", 1, "Superconducting magnets remain on continuously."],
+        ["A metalworker should have an orbital X-ray before MRI to exclude:", "Cataract", "Intra-orbital metallic foreign bodies", "Glaucoma", "Sinusitis", "Skull fracture", 1, "Metal fragments could move and blind the patient."],
+        ["Burns during MRI are mainly caused by:", "The static field", "RF energy heating, especially with conductive loops", "Helium", "Gradient noise", "X-rays", 1, "Specific absorption rate limits RF heating."],
+        ["Hearing protection is required during MRI because of:", "The static field", "Loud noise from gradient switching", "RF heating", "Helium boil-off", "Contrast agents", 1, "Noise can exceed 100 dB."],
+        ["If a patient has a cardiac arrest in the MRI scanner, the team should:", "Bring a metal defibrillator into the room", "Remove the patient from the scanner room before resuscitation", "Quench immediately always", "Continue scanning", "Wait for the scan to finish", 1, "Standard equipment is dangerous in Zone IV."],
+        ["A quench is the:", "Loud noise of gradients", "Rapid release of liquid helium to shut down the magnet", "Injection of contrast", "Cooling of the patient", "Routine daily procedure", 1, "It is used only in emergencies."],
+        ["The MRI scanner room itself is designated:", "Zone I", "Zone II", "Zone III", "Zone IV", "Zone 0", 3, "Zone IV has the highest restriction."]
+      ]
+    },
+    {
+      "title": "Contrast Agents in CT and MRI",
+      "summary": "Iodinated and gadolinium contrast, reactions, renal considerations and management.",
+      "notes": [
+        { "h": "Iodinated contrast", "b": "Iodinated contrast media increase X-ray attenuation (iodine's K-edge at 33 keV matches diagnostic energies). Modern agents are low-osmolar or iso-osmolar non-ionic media (e.g. iohexol, iodixanol), safer than older high-osmolar ionic agents. Adverse reactions: mild (warmth, nausea, urticaria), moderate (bronchospasm, facial oedema) and severe (anaphylactoid shock, laryngeal oedema, cardiac arrest) — rare with modern agents; risk factors include previous reaction, asthma and multiple allergies. Management: stop the injection, assess ABC, IM adrenaline 0.5 mg (1:1000) for anaphylaxis, oxygen, IV fluids, antihistamines and steroids. Post-contrast acute kidney injury risk is higher in patients with reduced eGFR (e.g. < 30), diabetes and dehydration — check renal function and hydrate. Metformin may be withheld after contrast in patients with significant renal impairment. Extravasation is managed by elevation and cold compresses.", "k": ["Low-/iso-osmolar non-ionic agents", "Anaphylaxis: IM adrenaline 0.5 mg", "Check eGFR; hydrate", "Withhold metformin if renal impairment", "Extravasation: elevate, cold compress"] },
+        { "h": "Gadolinium", "b": "Gadolinium-based contrast agents shorten T1, making enhancing tissues bright on T1-weighted images (tumours, inflammation, breakdown of the blood–brain barrier, angiography). Gadolinium is chelated because free gadolinium is toxic. Nephrogenic systemic fibrosis — a rare, serious fibrosing condition — occurs in patients with severe renal impairment given linear, less stable agents; macrocyclic agents are preferred and doses minimised. Gadolinium deposits in the brain have been observed after repeated doses (clinical significance uncertain). Gadolinium is generally avoided in pregnancy unless essential. Allergic reactions are less common than with iodinated agents.", "k": ["Gadolinium shortens T1 → enhancement", "Free Gd is toxic → chelated", "NSF in severe renal impairment", "Prefer macrocyclic agents", "Avoid in pregnancy unless essential"] }
+      ],
+      "q": [
+        ["Iodinated contrast is effective in CT because iodine:", "Is magnetic", "Strongly attenuates X-rays at diagnostic energies (K-edge 33 keV)", "Emits light", "Is radioactive", "Shortens T1", 1, "Its K-edge matches the diagnostic energy range."],
+        ["Modern iodinated contrast agents are mostly:", "High-osmolar ionic", "Low- or iso-osmolar non-ionic", "Radioactive", "Oil-based only", "Gadolinium-based", 1, "They cause fewer adverse reactions."],
+        ["Severe anaphylaxis after contrast injection is treated first with:", "Oral antihistamine only", "IM adrenaline", "Metformin", "Diuretics", "Warm compress", 1, "Adrenaline is the first-line drug for anaphylaxis."],
+        ["Before iodinated contrast, patients at risk of kidney injury should have:", "A chest X-ray", "Renal function (eGFR) checked and adequate hydration", "A blood group", "An ECG only", "No preparation", 1, "Reduced eGFR increases post-contrast AKI risk."],
+        ["Gadolinium contrast works in MRI by:", "Increasing X-ray attenuation", "Shortening T1 relaxation", "Blocking the magnetic field", "Increasing T2 only", "Adding protons", 1, "Enhancing tissues become bright on T1."],
+        ["Nephrogenic systemic fibrosis is associated with gadolinium in patients with:", "Asthma", "Severe renal impairment", "Diabetes only", "Liver disease only", "Hypertension", 1, "Impaired excretion allows Gd release."],
+        ["To reduce the risk of NSF, radiology departments prefer:", "Linear gadolinium agents", "Macrocyclic gadolinium agents", "Free gadolinium", "Double doses", "Iodinated agents in MRI", 1, "Macrocyclic chelates are more stable."],
+        ["Contrast extravasation into the arm is usually managed initially by:", "Surgery immediately", "Elevation of the limb and cold compresses", "Injecting more contrast", "Heat and massage vigorously", "Ignoring it", 1, "Most extravasations resolve with conservative care."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+ "courses": [
+  {
+   "title": "Imaging Equipment and Image Production",
+   "code": "RAD321",
+   "color": "#4338CA",
+   "description": "X-ray generators and circuits, the X-ray tube and its ratings, grids and beam-limiting devices, fluoroscopy, and digital image processing.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "X-ray Generators and Circuits",
+     "order": 1,
+     "summary": "Transformers, rectification, generator types, and the exposure timer.",
+     "material": [
+      {
+       "heading": "Circuits",
+       "body": "An X-ray generator supplies high voltage (kV) to the tube and low-voltage current to heat the filament. The autotransformer allows kVp selection; the high-tension (step-up) transformer produces tens of kilovolts; the filament (step-down) transformer heats the filament to control tube current (mA). Rectification converts AC to DC so that electrons always flow from cathode to anode: single-phase generators produce a pulsating waveform with 100% ripple; three-phase generators (6- or 12-pulse) reduce ripple (about 13% and 4%); modern high-frequency (medium/high-frequency inverter) generators produce nearly constant potential (< 1% ripple), giving more efficient, higher-energy output with shorter exposures and smaller units.",
+       "keyPoints": [
+        "Autotransformer: kVp selection",
+        "High-tension transformer: step-up",
+        "Filament transformer: controls mA",
+        "High-frequency generators: near-constant potential"
+       ]
+      },
+      {
+       "heading": "Timers and exposure control",
+       "body": "Exposure timers terminate the exposure; automatic exposure control (AEC) uses ionisation chambers between the patient and receptor to end the exposure when enough radiation has reached the receptor, giving consistent image density. Correct patient centring over the selected AEC chamber is essential; for example, centring a chamber over a dense area or a prosthesis prolongs exposure. Falling-load generators start at maximum mA and reduce it to keep within tube ratings, shortening exposure times.",
+       "keyPoints": [
+        "AEC: ionisation chambers end the exposure",
+        "Centre the correct AEC chamber",
+        "Falling load: shorter exposure times"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The transformer that steps up voltage to tens of kilovolts is the:",
+       "options": [
+        "Current transformer",
+        "Autotransformer",
+        "Isolation transformer",
+        "Filament transformer",
+        "High-tension transformer"
+       ],
+       "answerIndex": 4,
+       "explanation": "The high-tension transformer produces the tube kV."
+      },
+      {
+       "stem": "Tube current (mA) is controlled by adjusting the:",
+       "options": [
+        "Collimator",
+        "Grid ratio",
+        "Receptor speed",
+        "Anode speed",
+        "Filament heating"
+       ],
+       "answerIndex": 4,
+       "explanation": "Filament temperature determines electron emission."
+      },
+      {
+       "stem": "Which generator type gives the lowest voltage ripple?",
+       "options": [
+        "Single-phase half-wave",
+        "Self-rectified",
+        "High-frequency inverter",
+        "Single-phase full-wave",
+        "Three-phase 6-pulse"
+       ],
+       "answerIndex": 2,
+       "explanation": "High-frequency generators give nearly constant potential."
+      },
+      {
+       "stem": "The device used to select kVp on the control panel is the:",
+       "options": [
+        "Autotransformer",
+        "Filament",
+        "Grid",
+        "Rectifier",
+        "Anode"
+       ],
+       "answerIndex": 0,
+       "explanation": "The autotransformer varies the voltage supplied to the high-tension transformer."
+      },
+      {
+       "stem": "Automatic exposure control terminates exposure based on:",
+       "options": [
+        "Patient weight entered",
+        "Room temperature",
+        "A fixed time only",
+        "Radiation reaching ionisation chambers near the receptor",
+        "Tube heat"
+       ],
+       "answerIndex": 3,
+       "explanation": "AEC ensures consistent receptor exposure."
+      },
+      {
+       "stem": "Positioning a metal hip prosthesis over the active AEC chamber will:",
+       "options": [
+        "Have no effect",
+        "Stop the exposure immediately",
+        "Shorten exposure",
+        "Prolong exposure and overexpose other areas",
+        "Reduce kVp"
+       ],
+       "answerIndex": 3,
+       "explanation": "Dense material reduces radiation to the chamber."
+      },
+      {
+       "stem": "Rectification is needed in an X-ray circuit so that:",
+       "options": [
+        "kVp decreases",
+        "The filament is not heated",
+        "The grid moves",
+        "Electrons flow only from cathode to anode",
+        "The tube stays cold"
+       ],
+       "answerIndex": 3,
+       "explanation": "Reverse current would damage the tube."
+      },
+      {
+       "stem": "A falling-load generator is designed to:",
+       "options": [
+        "Increase exposure time",
+        "Lower kVp",
+        "Remove the need for filtration",
+        "Increase heat",
+        "Start at high mA and reduce it to shorten exposure within tube limits"
+       ],
+       "answerIndex": 4,
+       "explanation": "It maximises output within rating limits."
+      }
+     ]
+    },
+    {
+     "title": "The X-ray Tube and Tube Ratings",
+     "order": 2,
+     "summary": "Rotating anode design, focal spots, heat units, tube rating charts and tube care.",
+     "material": [
+      {
+       "heading": "Tube design",
+       "body": "The X-ray tube insert is an evacuated glass or metal envelope containing the cathode (tungsten filament(s) in a focusing cup — dual filaments give broad and fine focus) and the anode. Rotating anodes (tungsten–rhenium target on a molybdenum/graphite disc, rotating at about 3,000–10,000 rpm) spread heat over a large focal track. The anode angle (typically 7–17°) sets the effective focal spot via the line-focus principle — smaller angles give smaller effective focal spots but more heel effect and limited field coverage. The tube housing is lead-lined, oil-filled for cooling and insulation, and limits leakage radiation. The tube window lets the useful beam out.",
+       "keyPoints": [
+        "Dual filament: broad and fine focus",
+        "Rotating anode spreads heat",
+        "Line-focus principle; anode angle 7–17°",
+        "Housing: lead-lined, oil-filled"
+       ]
+      },
+      {
+       "heading": "Ratings and care",
+       "body": "Heat is the main limiting factor. Heat units (single-phase) = kVp × mA × seconds (multiplied by about 1.35 for three-phase, 1.4 for high-frequency). Tube rating charts show the maximum safe combinations of kVp, mA and time for single exposures; anode cooling charts and housing cooling charts guide series of exposures. Good practice: warm up the tube with low exposures after it has been idle (to avoid cracking a cold anode); avoid holding the 'prep' button unnecessarily (filament evaporation deposits tungsten on the envelope, causing arcing); use the lowest mA and broad focus when fine detail is not needed; and respect cooling times. Tube failure causes include filament burnout, anode pitting/cracking and bearing wear.",
+       "keyPoints": [
+        "Heat units = kVp × mA × s (× correction)",
+        "Tube rating and cooling charts",
+        "Warm up a cold tube",
+        "Don't hold 'prep' unnecessarily"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main purpose of a rotating anode is to:",
+       "options": [
+        "Increase kVp",
+        "Reduce filtration",
+        "Produce light",
+        "Spread heat over a larger area",
+        "Focus the electrons"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rotation distributes heat around a focal track."
+      },
+      {
+       "stem": "A smaller anode angle results in a:",
+       "options": [
+        "Smaller effective focal spot but more heel effect",
+        "Larger effective focal spot",
+        "Higher kVp",
+        "Larger field with no heel effect",
+        "Lower tube current"
+       ],
+       "answerIndex": 0,
+       "explanation": "Line-focus principle trade-off."
+      },
+      {
+       "stem": "Heat units for a single-phase unit are calculated as:",
+       "options": [
+        "kVp ÷ mA",
+        "kVp + mA + s",
+        "kVp × mA × s",
+        "mAs ÷ kVp",
+        "mA ÷ s"
+       ],
+       "answerIndex": 2,
+       "explanation": "HU = kVp × mA × time (with correction factors for other generators)."
+      },
+      {
+       "stem": "The X-ray tube housing is filled with oil mainly for:",
+       "options": [
+        "Lubrication of the patient table",
+        "Filtering light",
+        "Reducing weight",
+        "Cooling and electrical insulation",
+        "Increasing X-ray output"
+       ],
+       "answerIndex": 3,
+       "explanation": "Oil conducts heat away and insulates high voltages."
+      },
+      {
+       "stem": "Holding the 'prep' (rotor) button unnecessarily shortens tube life because it:",
+       "options": [
+        "Cools the anode",
+        "Improves image quality",
+        "Increases kVp",
+        "Reduces mA",
+        "Evaporates filament tungsten, which deposits on the envelope"
+       ],
+       "answerIndex": 4,
+       "explanation": "Tungsten deposits can cause arcing and filament failure."
+      },
+      {
+       "stem": "A cold tube should be warmed up with low-energy exposures to prevent:",
+       "options": [
+        "Filament overheating only",
+        "Grid cut-off",
+        "Leakage radiation",
+        "Rectifier failure",
+        "Cracking of the anode"
+       ],
+       "answerIndex": 4,
+       "explanation": "Thermal shock can crack a cold anode."
+      },
+      {
+       "stem": "The chart showing maximum safe exposure combinations for a single exposure is the:",
+       "options": [
+        "Anode cooling chart",
+        "Growth chart",
+        "Technique chart",
+        "Housing cooling chart",
+        "Tube rating chart"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prevents overloading the tube."
+      },
+      {
+       "stem": "Dual filaments in the cathode provide:",
+       "options": [
+        "Two anodes",
+        "Filtration",
+        "Two kVp levels",
+        "Broad and fine focal spots",
+        "Automatic exposure control"
+       ],
+       "answerIndex": 3,
+       "explanation": "The fine focus gives sharper images at lower mA."
+      }
+     ]
+    },
+    {
+     "title": "Grids, Beam Restriction and Scatter Control",
+     "order": 3,
+     "summary": "Collimators, grid ratio and frequency, grid types, grid errors and the air-gap technique.",
+     "material": [
+      {
+       "heading": "Beam restriction",
+       "body": "Beam-limiting devices (light-beam diaphragm/collimator, cones and cylinders, aperture diaphragms) restrict the field to the area of interest, reducing patient dose and scatter production (which improves contrast). Scatter increases with field size, patient thickness and kVp.",
+       "keyPoints": [
+        "Collimation reduces dose and scatter",
+        "Scatter ↑ with field size, thickness and kVp"
+       ]
+      },
+      {
+       "heading": "Grids",
+       "body": "Anti-scatter grids are strips of lead separated by radiolucent interspace material, placed between patient and receptor to absorb obliquely travelling scatter. Grid ratio = height of lead strips ÷ interspace width (e.g. 8:1, 10:1, 12:1); higher ratios remove more scatter but need more exposure (Bucky factor) and more precise alignment. Grid frequency is lines per cm. Types: parallel, focused (strips angled to converge at a focal distance), crossed, stationary and moving (Potter–Bucky — reciprocating to blur grid lines). Grid cut-off (loss of density) results from off-centre, off-level, off-focus (wrong SID) or upside-down focused grids. Grids are generally used for body parts thicker than about 10–12 cm or above about 60–70 kVp. The air-gap technique (increasing object–image distance) reduces scatter without a grid, but increases magnification.",
+       "keyPoints": [
+        "Grid ratio = h/D",
+        "Higher ratio: better clean-up, more dose",
+        "Cut-off: off-centre, off-level, off-focus, upside-down",
+        "Use grids for parts > 10–12 cm",
+        "Air gap reduces scatter"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Grid ratio is defined as:",
+       "options": [
+        "Number of lines per cm",
+        "Height of lead strips divided by interspace width",
+        "Lead thickness × kVp",
+        "Area of grid ÷ area of film",
+        "Focus distance ÷ SID"
+       ],
+       "answerIndex": 1,
+       "explanation": "Higher ratios absorb more scatter."
+      },
+      {
+       "stem": "Scatter radiation increases with:",
+       "options": [
+        "Smaller field size",
+        "Thinner patients",
+        "Larger field size and higher kVp",
+        "Tighter collimation",
+        "Lower kVp"
+       ],
+       "answerIndex": 2,
+       "explanation": "More irradiated tissue and higher energy produce more scatter."
+      },
+      {
+       "stem": "A moving grid (Potter–Bucky) is used to:",
+       "options": [
+        "Blur out grid lines on the image",
+        "Cool the tube",
+        "Increase grid lines",
+        "Increase magnification",
+        "Increase SID"
+       ],
+       "answerIndex": 0,
+       "explanation": "Motion prevents visible grid lines."
+      },
+      {
+       "stem": "Using a focused grid upside down causes:",
+       "options": [
+        "Reduced dose",
+        "No effect",
+        "Magnification",
+        "Severe grid cut-off at the periphery",
+        "Improved contrast"
+       ],
+       "answerIndex": 3,
+       "explanation": "Strips angle away from the beam at the edges."
+      },
+      {
+       "stem": "Grids are generally recommended for body parts thicker than about:",
+       "options": [
+        "2 cm",
+        "5 cm",
+        "10–12 cm",
+        "30 cm only",
+        "Any thickness"
+       ],
+       "answerIndex": 2,
+       "explanation": "Thicker parts produce significant scatter."
+      },
+      {
+       "stem": "Increasing the grid ratio will:",
+       "options": [
+        "Improve scatter removal but require more exposure",
+        "Remove the need for alignment",
+        "Reduce contrast",
+        "Reduce patient dose",
+        "Increase magnification"
+       ],
+       "answerIndex": 0,
+       "explanation": "The Bucky factor rises with grid ratio."
+      },
+      {
+       "stem": "The air-gap technique reduces scatter by:",
+       "options": [
+        "Using a thicker grid",
+        "Lowering kVp",
+        "Adding filtration",
+        "Increasing object–image distance",
+        "Using a smaller focal spot"
+       ],
+       "answerIndex": 3,
+       "explanation": "Oblique scatter misses the distant receptor."
+      },
+      {
+       "stem": "The primary benefit of collimation for image quality is:",
+       "options": [
+        "Increased magnification",
+        "Brighter room lighting",
+        "Improved contrast through reduced scatter",
+        "Increased noise",
+        "Faster processing"
+       ],
+       "answerIndex": 2,
+       "explanation": "Less scatter improves contrast."
+      }
+     ]
+    },
+    {
+     "title": "Fluoroscopy",
+     "order": 4,
+     "summary": "Image intensifiers and flat-panel detectors, automatic brightness control, and dose-saving features.",
+     "material": [
+      {
+       "heading": "Equipment",
+       "body": "Fluoroscopy provides real-time moving images for barium studies, interventional procedures, orthopaedic theatre (C-arms) and catheter placement. Traditional image intensifiers convert X-rays to light (caesium iodide input phosphor), then to electrons (photocathode), which are accelerated and focused onto a small output phosphor — brightness gain = minification gain × flux gain. Magnification modes use a smaller part of the input phosphor, improving resolution but increasing patient dose. Modern systems use flat-panel detectors, which avoid geometric distortion (pincushion) and veiling glare. Automatic brightness control (ABC) adjusts kVp and mA to maintain image brightness as patient thickness changes.",
+       "keyPoints": [
+        "Image intensifier: CsI input phosphor",
+        "Brightness gain = minification × flux gain",
+        "Magnification mode ↑ dose",
+        "Flat panels avoid pincushion distortion",
+        "ABC adjusts kV and mA"
+       ]
+      },
+      {
+       "heading": "Dose reduction",
+       "body": "Fluoroscopy can deliver high skin doses; deterministic skin injury is possible in long interventional procedures. Dose reduction: minimise screening time (a 5-minute audible alarm reminds operators), use pulsed fluoroscopy at low frame rates, last-image hold, collimation, keep the tube as far and the detector as close to the patient as practical, avoid unnecessary magnification, rotate the beam angle in long procedures to spread skin dose, and record dose–area product (DAP) and fluoroscopy time. Staff wear lead aprons, thyroid shields and lead glasses, and use ceiling-suspended screens.",
+       "keyPoints": [
+        "5-minute fluoroscopy alarm",
+        "Pulsed fluoroscopy, last-image hold",
+        "Detector close, tube far",
+        "Record DAP and screening time"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The input phosphor of an image intensifier is usually made of:",
+       "options": [
+        "Lithium fluoride",
+        "Caesium iodide",
+        "Selenium",
+        "Tungsten",
+        "Sodium iodide"
+       ],
+       "answerIndex": 1,
+       "explanation": "CsI absorbs X-rays efficiently."
+      },
+      {
+       "stem": "Brightness gain of an image intensifier equals:",
+       "options": [
+        "Minification gain × flux gain",
+        "kVp × mA",
+        "Input area only",
+        "Grid ratio",
+        "Output phosphor size"
+       ],
+       "answerIndex": 0,
+       "explanation": "Both minification and electron acceleration increase brightness."
+      },
+      {
+       "stem": "Using magnification mode in fluoroscopy:",
+       "options": [
+        "Reduces patient dose",
+        "Removes the need for collimation",
+        "Has no dose effect",
+        "Increases field size",
+        "Increases patient dose"
+       ],
+       "answerIndex": 4,
+       "explanation": "The system increases exposure to maintain brightness."
+      },
+      {
+       "stem": "Automatic brightness control maintains image brightness by adjusting:",
+       "options": [
+        "Monitor contrast only",
+        "SID only",
+        "kVp and mA",
+        "Room lighting",
+        "Grid ratio"
+       ],
+       "answerIndex": 2,
+       "explanation": "Exposure factors change with patient thickness."
+      },
+      {
+       "stem": "A dose-saving feature that displays the last image without continuous exposure is:",
+       "options": [
+        "Magnification mode",
+        "High-dose mode",
+        "Last-image hold",
+        "Cine mode",
+        "Continuous fluoroscopy"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces beam-on time."
+      },
+      {
+       "stem": "To reduce patient dose in fluoroscopy, the image detector should be:",
+       "options": [
+        "As close to the patient as practical",
+        "Removed",
+        "Angled away",
+        "As far from the patient as possible",
+        "Covered"
+       ],
+       "answerIndex": 0,
+       "explanation": "This reduces the required exposure and scatter."
+      },
+      {
+       "stem": "Flat-panel fluoroscopy detectors, unlike image intensifiers, do not suffer from:",
+       "options": [
+        "Pincushion distortion",
+        "Resolution limits",
+        "Dose",
+        "Noise",
+        "Need for calibration"
+       ],
+       "answerIndex": 0,
+       "explanation": "Geometric distortion is eliminated."
+      },
+      {
+       "stem": "The dose quantity commonly recorded for fluoroscopy procedures is:",
+       "options": [
+        "Dose–area product (DAP)",
+        "Heat units",
+        "Decibels",
+        "Becquerels",
+        "Hounsfield units"
+       ],
+       "answerIndex": 0,
+       "explanation": "DAP reflects both dose and field size."
+      }
+     ]
+    },
+    {
+     "title": "Digital Image Processing and Display",
+     "order": 5,
+     "summary": "Pixels and matrices, bit depth, windowing, exposure indices, processing and display monitors.",
+     "material": [
+      {
+       "heading": "Digital image basics",
+       "body": "A digital image is a matrix of pixels; each pixel's value represents the signal (grey level). Spatial resolution depends on pixel size and matrix (e.g. 2,048 × 2,048); contrast resolution depends on bit depth (a 12-bit image has 2¹² = 4,096 grey levels; 14-bit has 16,384). Digital detectors have a wide dynamic range and linear response, so over-exposure may not look 'too dark' — this can lead to 'dose creep'. Exposure indices (EI, with target EI and deviation index DI) indicate whether the detector received appropriate exposure.",
+       "keyPoints": [
+        "Pixel matrix and pixel size → spatial resolution",
+        "Bit depth → grey levels (12-bit = 4,096)",
+        "Wide dynamic range → dose creep risk",
+        "Exposure index and deviation index"
+       ]
+      },
+      {
+       "heading": "Processing and display",
+       "body": "Post-processing includes look-up tables (LUTs) applied according to anatomical region, windowing (window width controls contrast — a narrow window gives high contrast; window level/centre controls brightness), edge enhancement, noise reduction, and stitching. Processing errors can create artefacts (e.g. halo around metal with excessive edge enhancement, incorrect histogram analysis when collimation is not recognised). Images are viewed on calibrated diagnostic monitors (DICOM Grayscale Standard Display Function) under suitable ambient lighting, and are stored in PACS. Data protection and correct patient identification are essential.",
+       "keyPoints": [
+        "Narrow window = high contrast",
+        "Window level = brightness",
+        "LUTs per examination type",
+        "Calibrated monitors (DICOM GSDF)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A 12-bit digital image can display how many grey levels?",
+       "options": [
+        "256",
+        "1,024",
+        "4,096",
+        "16,384",
+        "65,536"
+       ],
+       "answerIndex": 2,
+       "explanation": "2¹² = 4,096."
+      },
+      {
+       "stem": "Decreasing the pixel size (with the same field of view) improves:",
+       "options": [
+        "Noise",
+        "Dose",
+        "Contrast resolution",
+        "Bit depth",
+        "Spatial resolution"
+       ],
+       "answerIndex": 4,
+       "explanation": "Smaller pixels resolve finer detail."
+      },
+      {
+       "stem": "A narrow window width produces:",
+       "options": [
+        "No change",
+        "Low contrast",
+        "High contrast",
+        "Brighter images only",
+        "Increased noise only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fewer grey values are spread across the display range."
+      },
+      {
+       "stem": "The window level (centre) mainly controls image:",
+       "options": [
+        "Resolution",
+        "Brightness",
+        "Contrast",
+        "Dose",
+        "Noise"
+       ],
+       "answerIndex": 1,
+       "explanation": "It sets the central grey value displayed."
+      },
+      {
+       "stem": "'Dose creep' in digital radiography occurs because:",
+       "options": [
+        "Digital detectors are less sensitive",
+        "kVp is always too low",
+        "Grids are removed",
+        "Film is expensive",
+        "Over-exposed images still look acceptable due to wide dynamic range"
+       ],
+       "answerIndex": 4,
+       "explanation": "Processing compensates for over-exposure, hiding it."
+      },
+      {
+       "stem": "The indicator of whether the detector received the correct exposure is the:",
+       "options": [
+        "Hounsfield unit",
+        "Grid ratio",
+        "Bit depth",
+        "Heat unit",
+        "Exposure index / deviation index"
+       ],
+       "answerIndex": 4,
+       "explanation": "EI and DI monitor detector exposure."
+      },
+      {
+       "stem": "A dark halo around a metal implant on a processed digital image is often due to:",
+       "options": [
+        "Collimator error only",
+        "Grid cut-off",
+        "Low kVp",
+        "Patient motion",
+        "Excessive edge enhancement"
+       ],
+       "answerIndex": 4,
+       "explanation": "Unsharp-mask processing produces rebound artefacts."
+      },
+      {
+       "stem": "Diagnostic display monitors should be calibrated to the:",
+       "options": [
+        "DICOM Grayscale Standard Display Function",
+        "TV broadcast standard",
+        "Printer settings",
+        "sRGB standard",
+        "Mobile phone brightness"
+       ],
+       "answerIndex": 0,
+       "explanation": "GSDF ensures consistent greyscale perception."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

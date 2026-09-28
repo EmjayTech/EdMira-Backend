@@ -1,0 +1,654 @@
+{
+ "courses": [
+  {
+   "title": "Immunology and Serology",
+   "code": "IMM401",
+   "color": "#65A30D",
+   "description": "Cells and organs of the immune system, antigen–antibody reactions, serological techniques, immunoassays, and serological diagnosis of infections and autoimmune diseases.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Haematology"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Components of the Immune System",
+     "order": 1,
+     "summary": "Innate and adaptive immunity, lymphoid organs, lymphocytes, MHC and cytokines.",
+     "material": [
+      {
+       "heading": "Cells and organs",
+       "body": "Primary lymphoid organs are the bone marrow (B-cell maturation) and thymus (T-cell maturation); secondary lymphoid organs (lymph nodes, spleen, MALT such as tonsils and Peyer's patches) are where immune responses are initiated. Innate immunity: physical barriers, phagocytes (neutrophils, macrophages), natural killer cells, complement, dendritic cells, and pattern-recognition receptors (e.g. Toll-like receptors). Adaptive immunity: B lymphocytes (CD19, CD20; produce antibodies after differentiating into plasma cells) and T lymphocytes (CD3) — helper T cells (CD4; Th1 activate macrophages, Th2 help B cells and eosinophils, Th17, regulatory T cells) and cytotoxic T cells (CD8; kill virus-infected and tumour cells). Memory cells provide faster secondary responses.",
+       "keyPoints": [
+        "Bone marrow and thymus: primary organs",
+        "B cells → plasma cells",
+        "CD4 helper; CD8 cytotoxic",
+        "Toll-like receptors in innate immunity",
+        "Memory cells"
+       ]
+      },
+      {
+       "heading": "MHC and cytokines",
+       "body": "The major histocompatibility complex (human leucocyte antigens, HLA, on chromosome 6) presents antigens to T cells: MHC class I (HLA-A, B, C — on all nucleated cells) presents endogenous (e.g. viral) peptides to CD8 T cells; MHC class II (HLA-DR, DP, DQ — on antigen-presenting cells: dendritic cells, macrophages, B cells) presents exogenous peptides to CD4 T cells. HLA matching is important in transplantation; certain HLA types are associated with diseases (e.g. HLA-B27 with ankylosing spondylitis; HLA-B*5701 with abacavir hypersensitivity). Cytokines: IL-1, TNF-α and IL-6 (inflammation, fever), IL-2 (T-cell growth), IFN-γ (macrophage activation), IL-4 and IL-5 (allergy, eosinophils), IL-10 and TGF-β (regulatory).",
+       "keyPoints": [
+        "MHC I → CD8; MHC II → CD4",
+        "HLA on chromosome 6",
+        "HLA-B27: ankylosing spondylitis",
+        "HLA-B*5701: abacavir hypersensitivity",
+        "IL-1, TNF, IL-6 → fever"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "T lymphocytes mature in the:",
+       "options": [
+        "Liver",
+        "Lymph nodes",
+        "Bone marrow",
+        "Spleen",
+        "Thymus"
+       ],
+       "answerIndex": 4,
+       "explanation": "The thymus is the site of T-cell education."
+      },
+      {
+       "stem": "Antibodies are produced by:",
+       "options": [
+        "Plasma cells",
+        "T cells",
+        "Platelets",
+        "Neutrophils",
+        "Macrophages"
+       ],
+       "answerIndex": 0,
+       "explanation": "Plasma cells are differentiated B cells."
+      },
+      {
+       "stem": "CD4 is a marker of:",
+       "options": [
+        "Helper T cells",
+        "Cytotoxic T cells",
+        "Neutrophils",
+        "B cells",
+        "NK cells"
+       ],
+       "answerIndex": 0,
+       "explanation": "HIV targets CD4 helper T cells."
+      },
+      {
+       "stem": "MHC class I molecules present antigens to:",
+       "options": [
+        "CD8 T cells",
+        "B cells",
+        "Neutrophils",
+        "CD4 T cells",
+        "Red cells"
+       ],
+       "answerIndex": 0,
+       "explanation": "Class I presents endogenous peptides to cytotoxic T cells."
+      },
+      {
+       "stem": "MHC class II molecules are found mainly on:",
+       "options": [
+        "All nucleated cells",
+        "Red blood cells",
+        "Antigen-presenting cells such as dendritic cells and macrophages",
+        "Neurons",
+        "Platelets"
+       ],
+       "answerIndex": 2,
+       "explanation": "Class II presents exogenous antigen to CD4 cells."
+      },
+      {
+       "stem": "HLA-B*5701 testing is performed before starting:",
+       "options": [
+        "Tenofovir",
+        "Dolutegravir",
+        "Lamivudine",
+        "Efavirenz",
+        "Abacavir"
+       ],
+       "answerIndex": 4,
+       "explanation": "Carriers risk severe hypersensitivity."
+      },
+      {
+       "stem": "Which cytokines mediate fever?",
+       "options": [
+        "TGF-β",
+        "IL-2 only",
+        "IL-4 and IL-5",
+        "IL-1, IL-6 and TNF-α",
+        "IL-10 only"
+       ],
+       "answerIndex": 3,
+       "explanation": "These act on the hypothalamus."
+      },
+      {
+       "stem": "Receptors of innate immunity that recognise microbial patterns include:",
+       "options": [
+        "T-cell receptors",
+        "CD4",
+        "Immunoglobulins",
+        "MHC class II",
+        "Toll-like receptors"
+       ],
+       "answerIndex": 4,
+       "explanation": "TLRs recognise conserved microbial molecules."
+      }
+     ]
+    },
+    {
+     "title": "Antigen–Antibody Reactions",
+     "order": 2,
+     "summary": "Immunoglobulin structure and classes, affinity and avidity, agglutination and precipitation.",
+     "material": [
+      {
+       "heading": "Immunoglobulins",
+       "body": "Antibodies (immunoglobulins) have two heavy and two light chains (κ or λ) forming Fab regions (antigen binding) and an Fc region (effector functions such as complement activation and binding to Fc receptors). Classes: IgG (most abundant, 4 subclasses, crosses the placenta, secondary response, opsonisation), IgM (pentamer, first in primary response, best complement activator and agglutinator), IgA (dimer in secretions — mucosal immunity, breast milk), IgE (mast cells — allergy and helminths), IgD (B-cell receptor). Affinity is the strength of a single antigen-binding site; avidity is the overall binding strength of a multivalent antibody. Antibody avidity increases with time after infection (useful for dating infections like toxoplasmosis, rubella).",
+       "keyPoints": [
+        "Fab: binds antigen; Fc: effector",
+        "IgG: crosses placenta",
+        "IgM: pentamer, primary response",
+        "IgA: secretions",
+        "Avidity increases over time"
+       ]
+      },
+      {
+       "heading": "Reactions",
+       "body": "Agglutination occurs when antibodies cross-link particulate antigens (cells, latex particles) — used in blood grouping, Widal test, rheumatoid factor latex test and ASO. Precipitation occurs with soluble antigens forming lattices (immunodiffusion — Ouchterlony double diffusion, radial immunodiffusion). The prozone phenomenon (antibody excess) can cause false-negative agglutination or flocculation tests (e.g. VDRL in secondary syphilis) — diluting the serum resolves it. Complement fixation tests, neutralisation tests and haemagglutination inhibition (influenza) are other classical methods. Titre is the highest dilution giving a positive reaction; a fourfold rise between acute and convalescent sera indicates recent infection.",
+       "keyPoints": [
+        "Agglutination: particulate antigens",
+        "Precipitation: soluble antigens",
+        "Prozone: antibody excess → false negative",
+        "Fourfold rise in titre = recent infection"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The antigen-binding part of an antibody is the:",
+       "options": [
+        "Hinge only",
+        "Complement site",
+        "Fab region",
+        "J chain",
+        "Fc region"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fab contains the variable regions."
+      },
+      {
+       "stem": "The immunoglobulin that exists as a pentamer and is the best activator of complement is:",
+       "options": [
+        "IgA",
+        "IgM",
+        "IgG",
+        "IgD",
+        "IgE"
+       ],
+       "answerIndex": 1,
+       "explanation": "Pentameric IgM efficiently activates complement."
+      },
+      {
+       "stem": "The antibody found in secretions such as saliva and breast milk is:",
+       "options": [
+        "Secretory IgA",
+        "IgE",
+        "IgG",
+        "IgM",
+        "IgD"
+       ],
+       "answerIndex": 0,
+       "explanation": "It protects mucosal surfaces."
+      },
+      {
+       "stem": "The overall binding strength of a multivalent antibody to antigen is called:",
+       "options": [
+        "Titre",
+        "Sensitivity",
+        "Avidity",
+        "Specificity",
+        "Affinity"
+       ],
+       "answerIndex": 2,
+       "explanation": "Avidity reflects multiple binding sites."
+      },
+      {
+       "stem": "Agglutination tests use antigens that are:",
+       "options": [
+        "Gaseous",
+        "Particulate (cells or latex particles)",
+        "Soluble",
+        "Always radioactive",
+        "Liquid crystals"
+       ],
+       "answerIndex": 1,
+       "explanation": "Cross-linking particles produces visible clumps."
+      },
+      {
+       "stem": "A false-negative result caused by very high antibody concentration is the:",
+       "options": [
+        "Postzone",
+        "Avidity effect",
+        "Prozone phenomenon",
+        "Hook effect only in ELISA",
+        "Cross-reaction"
+       ],
+       "answerIndex": 2,
+       "explanation": "Diluting the serum restores the reaction."
+      },
+      {
+       "stem": "A fourfold rise in antibody titre between acute and convalescent samples indicates:",
+       "options": [
+        "Recent infection",
+        "Allergy",
+        "Immunodeficiency",
+        "Laboratory error",
+        "Past immunisation only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rising titres show an active immune response."
+      },
+      {
+       "stem": "Ouchterlony double diffusion is an example of a:",
+       "options": [
+        "Western blot",
+        "PCR",
+        "Agglutination test",
+        "ELISA",
+        "Precipitation test in gel"
+       ],
+       "answerIndex": 4,
+       "explanation": "Antigen and antibody diffuse to form precipitin lines."
+      }
+     ]
+    },
+    {
+     "title": "Immunoassays and Modern Techniques",
+     "order": 3,
+     "summary": "ELISA, rapid diagnostic tests, immunofluorescence, flow cytometry and Western blot.",
+     "material": [
+      {
+       "heading": "ELISA and RDTs",
+       "body": "Enzyme-linked immunosorbent assays (ELISA) detect antigens or antibodies using enzyme-labelled reagents and a colour-producing substrate (e.g. horseradish peroxidase with TMB). Formats: indirect ELISA (detects antibody — e.g. HIV antibody), sandwich ELISA (detects antigen with capture and detection antibodies — e.g. HBsAg, p24), and competitive ELISA. Fourth-generation HIV tests detect both antibodies and p24 antigen, shortening the window period. Chemiluminescence immunoassays offer higher sensitivity and automation. Lateral-flow rapid diagnostic tests (RDTs) use immunochromatography with a test line and a control line (which must appear for a valid result) — widely used for HIV, malaria, hepatitis B, syphilis and pregnancy. The high-dose hook effect can cause false negatives in sandwich immunoassays with extremely high antigen levels.",
+       "keyPoints": [
+        "Indirect ELISA: antibody; sandwich: antigen",
+        "4th-gen HIV test: Ab + p24",
+        "RDT control line must appear",
+        "Hook effect in sandwich assays"
+       ]
+      },
+      {
+       "heading": "Other techniques",
+       "body": "Immunofluorescence uses fluorochrome-labelled antibodies (direct or indirect) viewed under a fluorescence microscope — e.g. antinuclear antibody (ANA) testing on HEp-2 cells with pattern reporting. Flow cytometry analyses cells in suspension using fluorescent antibodies and lasers — used for CD4 counts in HIV, immunophenotyping of leukaemias and lymphomas, and PNH testing. Western blot separates proteins by electrophoresis and detects specific antibodies — once used to confirm HIV. Immunoturbidimetry and nephelometry measure proteins (CRP, immunoglobulins, complement C3/C4) by light scattering. Point-of-care CD4 analysers support HIV care in rural areas. All immunoassays require internal quality control and participation in external quality assessment.",
+       "keyPoints": [
+        "IIF for ANA on HEp-2 cells",
+        "Flow cytometry: CD4 counts, immunophenotyping",
+        "Nephelometry: CRP, immunoglobulins",
+        "Quality control essential"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A sandwich ELISA is designed mainly to detect:",
+       "options": [
+        "Antigens",
+        "DNA",
+        "Cells",
+        "Electrolytes",
+        "Antibodies only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Antigen is captured between two antibodies."
+      },
+      {
+       "stem": "Fourth-generation HIV tests detect:",
+       "options": [
+        "Antibodies only",
+        "Antibodies to hepatitis",
+        "Viral RNA only",
+        "HIV antibodies and p24 antigen",
+        "CD4 cells"
+       ],
+       "answerIndex": 3,
+       "explanation": "Adding p24 shortens the window period."
+      },
+      {
+       "stem": "In a lateral-flow rapid test, the result is invalid if:",
+       "options": [
+        "Buffer is added",
+        "The test is read on time",
+        "Both lines appear",
+        "The control line does not appear",
+        "The test line appears"
+       ],
+       "answerIndex": 3,
+       "explanation": "The control line confirms the test ran correctly."
+      },
+      {
+       "stem": "The enzyme commonly used as a label in ELISA is:",
+       "options": [
+        "Amylase",
+        "Horseradish peroxidase",
+        "Lipase",
+        "Urease only",
+        "Trypsin"
+       ],
+       "answerIndex": 1,
+       "explanation": "HRP converts substrate to a coloured product."
+      },
+      {
+       "stem": "CD4 counts in HIV care are measured by:",
+       "options": [
+        "Flow cytometry",
+        "Blood film",
+        "Western blot",
+        "ELISA",
+        "Widal test"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fluorescent antibodies identify CD4 cells."
+      },
+      {
+       "stem": "Antinuclear antibodies are detected by indirect immunofluorescence on:",
+       "options": [
+        "Sperm",
+        "Platelets",
+        "Red cells",
+        "Bacteria",
+        "HEp-2 cells"
+       ],
+       "answerIndex": 4,
+       "explanation": "HEp-2 cells display nuclear patterns."
+      },
+      {
+       "stem": "Serum CRP is commonly measured by:",
+       "options": [
+        "Agglutination only",
+        "Culture",
+        "Microscopy",
+        "Immunoturbidimetry or nephelometry",
+        "PCR"
+       ],
+       "answerIndex": 3,
+       "explanation": "Light scattering quantifies immune complexes."
+      },
+      {
+       "stem": "The high-dose hook effect causes false-negative results in:",
+       "options": [
+        "PCR",
+        "Microscopy",
+        "Sandwich immunoassays with extremely high antigen levels",
+        "Culture",
+        "Agglutination with low antigen"
+       ],
+       "answerIndex": 2,
+       "explanation": "Excess antigen saturates both antibodies separately."
+      }
+     ]
+    },
+    {
+     "title": "Serological Diagnosis of Infections",
+     "order": 4,
+     "summary": "HIV testing algorithms, hepatitis B and C markers, syphilis serology, and other serological tests.",
+     "material": [
+      {
+       "heading": "HIV and hepatitis",
+       "body": "Nigeria's HIV testing uses a serial algorithm of rapid tests: a highly sensitive first test (screening); if reactive, a highly specific second test; discordant results use a third tie-breaker and retesting. The window period is the time after infection before tests become positive (shorter with fourth-generation assays); infants under 18 months need DNA/RNA PCR. HIV viral load monitors treatment. Hepatitis B markers: HBsAg (current infection; > 6 months = chronic), anti-HBs (immunity — after vaccination alone or recovery), anti-HBc (past or current infection — IgM anti-HBc indicates acute infection), HBeAg (high infectivity, replication), anti-HBe and HBV DNA. A vaccinated person is HBsAg-negative, anti-HBs-positive and anti-HBc-negative. Hepatitis C: anti-HCV screening followed by HCV RNA to confirm active infection.",
+       "keyPoints": [
+        "Serial HIV algorithm: sensitive then specific",
+        "Infants < 18 months: PCR",
+        "HBsAg: infection; anti-HBs: immunity",
+        "IgM anti-HBc: acute HBV",
+        "Vaccinated: anti-HBs only"
+       ]
+      },
+      {
+       "heading": "Syphilis and others",
+       "body": "Syphilis serology: non-treponemal tests (VDRL, RPR — detect antibodies to cardiolipin; titres reflect disease activity and fall with treatment; false positives in pregnancy, malaria, autoimmune disease, TB and old age) and treponemal tests (TPHA, TPPA, FTA-ABS, treponemal EIA, rapid treponemal tests — remain positive for life). Diagnosis usually requires both. Other serological tests: Widal test for typhoid (anti-O and anti-H agglutinins — poor specificity in endemic areas, overused in Nigeria; blood culture preferred), antistreptolysin O (ASO — recent streptococcal infection; rheumatic fever), rheumatoid factor and anti-CCP (rheumatoid arthritis), Brucella agglutination, and IgM/IgG serology for rubella, toxoplasma, CMV and dengue.",
+       "keyPoints": [
+        "Non-treponemal (VDRL/RPR): activity, falls with treatment",
+        "Treponemal (TPHA): lifelong positive",
+        "False-positive VDRL in malaria, pregnancy",
+        "Widal: poor specificity",
+        "ASO: recent streptococcal infection"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a serial HIV testing algorithm, the first test should be highly:",
+       "options": [
+        "Specific",
+        "Qualitative only",
+        "Expensive",
+        "Slow",
+        "Sensitive"
+       ],
+       "answerIndex": 4,
+       "explanation": "A sensitive screening test minimises missed infections."
+      },
+      {
+       "stem": "A person who has been vaccinated against hepatitis B (and never infected) will be:",
+       "options": [
+        "Anti-HBs positive and anti-HBc negative",
+        "HBeAg positive",
+        "Anti-HBc positive",
+        "HBV DNA positive",
+        "HBsAg positive"
+       ],
+       "answerIndex": 0,
+       "explanation": "Vaccination produces only anti-HBs."
+      },
+      {
+       "stem": "IgM anti-HBc indicates:",
+       "options": [
+        "Hepatitis C",
+        "Past resolved infection decades ago",
+        "Acute hepatitis B infection",
+        "Chronic inactive carriage only",
+        "Immunity from vaccination"
+       ],
+       "answerIndex": 2,
+       "explanation": "IgM core antibody marks recent infection."
+      },
+      {
+       "stem": "Persistence of HBsAg for more than six months indicates:",
+       "options": [
+        "Vaccination",
+        "Acute hepatitis A",
+        "Chronic hepatitis B",
+        "False positive always",
+        "Resolved infection"
+       ],
+       "answerIndex": 2,
+       "explanation": "Chronic infection is defined by HBsAg > 6 months."
+      },
+      {
+       "stem": "VDRL and RPR are examples of:",
+       "options": [
+        "Non-treponemal tests",
+        "Skin tests",
+        "Treponemal tests",
+        "Culture methods",
+        "PCR tests"
+       ],
+       "answerIndex": 0,
+       "explanation": "They detect anti-cardiolipin (reagin) antibodies."
+      },
+      {
+       "stem": "A test that remains positive for life after treated syphilis is the:",
+       "options": [
+        "VDRL",
+        "Widal",
+        "RPR",
+        "ESR",
+        "TPHA"
+       ],
+       "answerIndex": 4,
+       "explanation": "Treponemal antibodies persist."
+      },
+      {
+       "stem": "A raised antistreptolysin O titre suggests recent infection with:",
+       "options": [
+        "Group A streptococcus",
+        "Neisseria",
+        "E. coli",
+        "Staphylococcus aureus",
+        "Salmonella"
+       ],
+       "answerIndex": 0,
+       "explanation": "ASO supports diagnosis of rheumatic fever."
+      },
+      {
+       "stem": "Active hepatitis C infection is confirmed by:",
+       "options": [
+        "HCV RNA detection",
+        "ALT alone",
+        "Liver ultrasound",
+        "Anti-HCV antibody alone",
+        "HBsAg"
+       ],
+       "answerIndex": 0,
+       "explanation": "Antibodies may reflect cleared infection."
+      }
+     ]
+    },
+    {
+     "title": "Hypersensitivity, Autoimmunity and Transplant Immunology",
+     "order": 5,
+     "summary": "Laboratory investigation of allergy, autoimmune diseases, complement and HLA typing.",
+     "material": [
+      {
+       "heading": "Allergy and autoimmunity tests",
+       "body": "Allergy (type I hypersensitivity) is investigated by total and specific IgE measurements, skin prick testing (in clinics), and serum tryptase (raised after anaphylaxis — sample within about 1–3 hours). Autoimmune disease investigations: antinuclear antibodies (ANA — sensitive screen for SLE), anti-dsDNA and anti-Smith (specific for SLE), complement C3 and C4 (low in active SLE and immune-complex glomerulonephritis), rheumatoid factor and anti-CCP (rheumatoid arthritis — anti-CCP more specific), anti-TPO and TSH-receptor antibodies (autoimmune thyroid disease), anti-tissue transglutaminase IgA (coeliac disease), ANCA (vasculitis), anti-GBM (Goodpasture's syndrome), anti-acetylcholine receptor antibodies (myasthenia gravis) and islet autoantibodies (anti-GAD — type 1 diabetes).",
+       "keyPoints": [
+        "Tryptase after anaphylaxis",
+        "ANA: sensitive; anti-dsDNA: specific for SLE",
+        "Low C3/C4 in active SLE",
+        "Anti-CCP: specific for RA",
+        "Anti-GAD: type 1 diabetes"
+       ]
+      },
+      {
+       "heading": "Transplant immunology and immunodeficiency",
+       "body": "Transplantation requires ABO compatibility, HLA typing (by molecular methods) of donor and recipient, and cross-matching (detecting donor-specific anti-HLA antibodies in the recipient that could cause hyperacute rejection). Rejection: hyperacute (minutes — preformed antibodies), acute (weeks–months — T-cell mediated, treatable with immunosuppression) and chronic (months–years — vascular and fibrotic). Graft-versus-host disease occurs when donor T cells attack the recipient (e.g. after bone marrow transplantation). Investigation of immunodeficiency includes full blood count and differential, immunoglobulin levels, lymphocyte subsets (CD4, CD8, CD19), complement assays (CH50) and HIV testing.",
+       "keyPoints": [
+        "ABO + HLA + cross-match for transplants",
+        "Hyperacute rejection: preformed antibodies",
+        "Acute rejection: T cells",
+        "GVHD after bone marrow transplant",
+        "Immunodeficiency: Igs, lymphocyte subsets, CH50"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Serum tryptase is measured to confirm:",
+       "options": [
+        "Coeliac disease",
+        "Autoimmune thyroiditis",
+        "HIV infection",
+        "Rheumatoid arthritis",
+        "Anaphylaxis (mast cell activation)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Tryptase rises transiently after anaphylaxis."
+      },
+      {
+       "stem": "The most sensitive screening test for SLE is:",
+       "options": [
+        "Antinuclear antibody (ANA)",
+        "Anti-CCP",
+        "Rheumatoid factor",
+        "Anti-dsDNA",
+        "ASO"
+       ],
+       "answerIndex": 0,
+       "explanation": "ANA is positive in nearly all SLE patients."
+      },
+      {
+       "stem": "The antibody most specific for rheumatoid arthritis is:",
+       "options": [
+        "ANCA",
+        "Rheumatoid factor",
+        "Anti-dsDNA",
+        "ANA",
+        "Anti-CCP"
+       ],
+       "answerIndex": 4,
+       "explanation": "Anti-cyclic citrullinated peptide is highly specific."
+      },
+      {
+       "stem": "Low complement C3 and C4 levels suggest:",
+       "options": [
+        "Active SLE or immune-complex disease",
+        "Hypertension",
+        "Diabetes",
+        "Iron deficiency",
+        "Allergic rhinitis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Complement is consumed by immune complexes."
+      },
+      {
+       "stem": "Anti-tissue transglutaminase IgA antibodies are used to diagnose:",
+       "options": [
+        "Graves' disease",
+        "Crohn's disease",
+        "Vasculitis",
+        "Myasthenia gravis",
+        "Coeliac disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are highly sensitive and specific for coeliac disease."
+      },
+      {
+       "stem": "Rejection occurring within minutes of transplantation is due to:",
+       "options": [
+        "Graft-versus-host disease",
+        "T cells",
+        "Infection",
+        "NK cells only",
+        "Preformed antibodies (hyperacute rejection)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Preformed antibodies attack graft endothelium."
+      },
+      {
+       "stem": "Graft-versus-host disease occurs when:",
+       "options": [
+        "Antibodies are absent",
+        "The recipient rejects the graft",
+        "The organ fails mechanically",
+        "Blood groups match",
+        "Donor immune cells attack the recipient's tissues"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a risk after bone marrow transplantation."
+      },
+      {
+       "stem": "Anti-acetylcholine receptor antibodies are found in:",
+       "options": [
+        "Multiple sclerosis",
+        "SLE",
+        "Type 1 diabetes",
+        "Myasthenia gravis",
+        "Rheumatoid arthritis"
+       ],
+       "answerIndex": 3,
+       "explanation": "They block neuromuscular transmission."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

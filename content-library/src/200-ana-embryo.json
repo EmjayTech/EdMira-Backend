@@ -1,0 +1,99 @@
+{
+  "title": "General and Systemic Embryology (ANA 203)",
+  "code": "ANA203",
+  "color": "#B45309",
+  "description": "Gametogenesis, fertilisation, the first weeks of development, germ-layer derivatives, and development of key organ systems with common congenital anomalies.",
+  "for": { "200": ["MBBS", "BDS", "CM", "ANA", "PHS", "NUR", "PT"] },
+  "topics": [
+    {
+      "title": "Gametogenesis and Fertilisation",
+      "summary": "Spermatogenesis, oogenesis, the ovarian cycle and fertilisation.",
+      "notes": [
+        { "h": "Gametogenesis", "b": "Spermatogenesis occurs in the seminiferous tubules from puberty: spermatogonia → primary spermatocytes (meiosis I) → secondary spermatocytes (meiosis II) → spermatids → spermatozoa (spermiogenesis); it takes about 64–74 days, and each primary spermatocyte gives four sperm. Oogenesis begins before birth: primary oocytes are arrested in prophase I until puberty; at ovulation the secondary oocyte is arrested in metaphase II and completes meiosis only if fertilised. Each primary oocyte yields one ovum and polar bodies.", "k": ["Primary oocytes arrested in prophase I until puberty", "Secondary oocyte arrested in metaphase II until fertilisation", "Spermatogenesis ≈ 64–74 days"] },
+        { "h": "Fertilisation", "b": "Fertilisation normally occurs in the ampulla of the uterine tube within about 24 hours of ovulation. Sperm undergo capacitation in the female tract and the acrosome reaction on contact with the zona pellucida. The cortical (zona) reaction blocks polyspermy. Completion of meiosis II forms the female pronucleus; fusion of pronuclei restores the diploid number and determines chromosomal sex (by the X or Y sperm), producing the zygote.", "k": ["Site: ampulla of the uterine tube", "Capacitation → acrosome reaction", "Zona reaction prevents polyspermy", "Sperm determines sex"] }
+      ],
+      "q": [
+        ["Fertilisation usually occurs in the:", "Uterine cavity", "Ampulla of the uterine tube", "Isthmus of the tube", "Ovary", "Cervix", 1, "The ampulla is the widest and usual site of fertilisation."],
+        ["Primary oocytes remain arrested until puberty in:", "Metaphase II", "Prophase I", "Anaphase I", "Telophase II", "Interphase G2", 1, "They pause in the diplotene stage of prophase I."],
+        ["At ovulation, the secondary oocyte is arrested in:", "Prophase I", "Metaphase I", "Metaphase II", "Anaphase II", "Telophase I", 2, "It completes meiosis II only at fertilisation."],
+        ["The block to polyspermy is achieved mainly by the:", "Acrosome reaction", "Cortical (zona) reaction", "Capacitation", "Implantation", "Compaction", 1, "Cortical granules alter the zona pellucida."],
+        ["The chromosomal sex of the embryo is determined by the:", "Ovum", "Sperm", "Placenta", "Maternal hormones", "Zona pellucida", 1, "The sperm carries either an X or a Y chromosome."],
+        ["How many spermatozoa arise from one primary spermatocyte?", "1", "2", "4", "8", "16", 2, "Meiosis gives four spermatids, each maturing into a sperm."],
+        ["Sperm become able to fertilise the ovum after a process in the female tract called:", "Spermiogenesis", "Capacitation", "Cleavage", "Gastrulation", "Compaction", 1, "Capacitation removes glycoprotein coats from the sperm head."],
+        ["Spermatids are transformed into spermatozoa by:", "Meiosis I", "Meiosis II", "Spermiogenesis", "Capacitation", "Mitosis", 2, "Spermiogenesis is the morphological maturation of spermatids."]
+      ]
+    },
+    {
+      "title": "Cleavage, Implantation and the Bilaminar Disc (Weeks 1–2)",
+      "summary": "Morula, blastocyst, implantation, trophoblast differentiation and ectopic pregnancy.",
+      "notes": [
+        { "h": "Week 1", "b": "The zygote undergoes cleavage (mitotic divisions without growth) to form blastomeres; at about 16 cells it is a morula (day 3–4). Fluid enters to form the blastocyst, with an inner cell mass (embryoblast — forms the embryo) and an outer trophoblast (forms the placenta). The blastocyst hatches from the zona pellucida and begins implanting in the posterior uterine wall at about day 6–7.", "k": ["Morula ≈ 16 cells (day 3–4)", "Blastocyst: embryoblast + trophoblast", "Implantation starts day 6–7"] },
+        { "h": "Week 2 — 'week of twos'", "b": "The trophoblast forms two layers: the cytotrophoblast and the invasive syncytiotrophoblast, which secretes human chorionic gonadotrophin (hCG) — the basis of pregnancy tests — maintaining the corpus luteum. The embryoblast forms the bilaminar disc: epiblast and hypoblast. Two cavities form: the amniotic cavity and the yolk sac. Implantation outside the uterine cavity is an ectopic pregnancy, most commonly in the ampulla of the uterine tube; it may rupture and cause life-threatening bleeding. Implantation near the internal os gives placenta praevia.", "k": ["Syncytiotrophoblast secretes hCG", "Bilaminar disc: epiblast + hypoblast", "Commonest ectopic site: ampulla of the tube", "Low implantation → placenta praevia"] }
+      ],
+      "q": [
+        ["A solid ball of about 16 blastomeres is called a:", "Zygote", "Morula", "Blastocyst", "Gastrula", "Embryoblast", 1, "The morula forms around day 3–4."],
+        ["The inner cell mass of the blastocyst forms the:", "Placenta", "Embryo", "Chorion only", "Zona pellucida", "Decidua", 1, "The embryoblast gives rise to the embryo proper."],
+        ["hCG is produced by the:", "Cytotrophoblast", "Syncytiotrophoblast", "Epiblast", "Hypoblast", "Corpus luteum", 1, "The syncytiotrophoblast secretes hCG from the second week."],
+        ["Implantation normally begins at about day:", "1–2", "3–4", "6–7", "14", "21", 2, "The blastocyst starts to implant around day 6–7."],
+        ["The most common site of ectopic pregnancy is the:", "Ovary", "Ampulla of the uterine tube", "Cervix", "Abdominal cavity", "Isthmus of the uterus", 1, "Most ectopic pregnancies are tubal, usually in the ampulla."],
+        ["The bilaminar embryonic disc consists of:", "Ectoderm and endoderm", "Epiblast and hypoblast", "Cytotrophoblast and syncytiotrophoblast", "Amnion and chorion", "Mesoderm and endoderm", 1, "Week 2 forms the epiblast and hypoblast."],
+        ["Implantation of the blastocyst close to the internal os of the cervix causes:", "Ectopic pregnancy", "Placenta praevia", "Hydatidiform mole", "Abruptio placentae", "Twins", 1, "The placenta then lies over or near the internal os."],
+        ["The normal site of implantation is the:", "Anterior uterine wall near the cervix", "Posterior wall of the body of the uterus", "Uterine tube", "Cervical canal", "Ovary", 1, "Implantation normally occurs in the posterior wall of the uterine body."]
+      ]
+    },
+    {
+      "title": "Gastrulation, Neurulation and Germ Layer Derivatives (Week 3 onward)",
+      "summary": "Primitive streak, notochord, neural tube formation and what each germ layer forms.",
+      "notes": [
+        { "h": "Gastrulation and neurulation", "b": "In week 3 the primitive streak appears on the epiblast, and epiblast cells migrate through it to form the three germ layers: ectoderm, mesoderm and endoderm (gastrulation). The notochord induces the overlying ectoderm to form the neural plate, which folds into the neural tube (neurulation); the cranial neuropore closes around day 25 and the caudal neuropore around day 28. Failure of closure causes neural tube defects: anencephaly (cranial) and spina bifida (caudal). Periconceptional folic acid (0.4 mg daily; 4–5 mg if high risk) reduces this risk; raised maternal serum alpha-fetoprotein suggests an open defect.", "k": ["Primitive streak appears in week 3", "Neuropores close: cranial ~day 25, caudal ~day 28", "Folic acid prevents neural tube defects", "Raised AFP → open neural tube defect"] },
+        { "h": "Germ layer derivatives", "b": "Ectoderm: epidermis, hair, nails, lens, the nervous system (neural tube), and neural crest derivatives (dorsal root and autonomic ganglia, adrenal medulla, melanocytes, Schwann cells, much of the skull and facial skeleton, odontoblasts). Mesoderm: muscle, bone, cartilage, dermis, heart and blood vessels, blood, kidneys and gonads, adrenal cortex, spleen. Endoderm: epithelial lining of the gut and respiratory tract, liver, pancreas, thyroid and parathyroid glands, urinary bladder epithelium. Somites (paraxial mesoderm) form sclerotome (vertebrae), myotome (muscle) and dermatome (dermis).", "k": ["Neural crest: ganglia, adrenal medulla, melanocytes, facial skeleton", "Mesoderm: muscle, bone, heart, kidneys", "Endoderm: gut lining, liver, pancreas, thyroid"] }
+      ],
+      "q": [
+        ["The process that forms the three germ layers is:", "Cleavage", "Gastrulation", "Neurulation", "Implantation", "Organogenesis", 1, "Gastrulation occurs in week 3 via the primitive streak."],
+        ["The adrenal medulla is derived from:", "Mesoderm", "Endoderm", "Neural crest", "Surface ectoderm", "Intermediate mesoderm", 2, "Chromaffin cells arise from neural crest cells."],
+        ["The epithelial lining of the gut is derived from:", "Ectoderm", "Mesoderm", "Endoderm", "Neural crest", "Notochord", 2, "Endoderm forms the gut and respiratory epithelium."],
+        ["Spina bifida results from failure of closure of the:", "Cranial neuropore", "Caudal neuropore", "Notochord", "Primitive streak", "Yolk sac", 1, "Failure of caudal neuropore closure causes spina bifida."],
+        ["Which supplement reduces the risk of neural tube defects?", "Iron", "Folic acid", "Vitamin C", "Calcium", "Iodine", 1, "Periconceptional folic acid reduces NTD risk substantially."],
+        ["Skeletal muscle is derived from:", "Ectoderm", "Mesoderm", "Endoderm", "Neural crest", "Trophoblast", 1, "Myotomes of paraxial mesoderm form skeletal muscle."],
+        ["Raised maternal serum alpha-fetoprotein suggests:", "Down syndrome", "An open neural tube defect", "Normal pregnancy", "Gestational diabetes", "Rhesus disease", 1, "AFP leaks from open neural tube defects into amniotic fluid and maternal blood."],
+        ["The part of a somite that forms the vertebrae is the:", "Myotome", "Dermatome", "Sclerotome", "Notochord", "Neural crest", 2, "Sclerotome cells form vertebrae and ribs."]
+      ]
+    },
+    {
+      "title": "Fetal Membranes, Placenta and Twinning",
+      "summary": "Chorion, amnion, the placenta and umbilical cord, fetal circulation and twins.",
+      "notes": [
+        { "h": "Placenta and cord", "b": "The placenta forms from the chorion frondosum (fetal part) and the decidua basalis (maternal part). At term it weighs about 500 g and has 15–20 cotyledons. It exchanges gases and nutrients, excretes waste, produces hormones (hCG, progesterone, oestrogens, human placental lactogen) and transfers IgG antibodies. The umbilical cord normally contains two umbilical arteries (carrying deoxygenated blood from fetus) and one umbilical vein (carrying oxygenated blood to fetus) in Wharton's jelly; a single umbilical artery is associated with other anomalies. Amniotic fluid volume abnormalities: polyhydramnios (e.g. oesophageal atresia, anencephaly) and oligohydramnios (e.g. renal agenesis — Potter sequence).", "k": ["Cord: 2 arteries, 1 vein", "Placenta: chorion frondosum + decidua basalis", "Polyhydramnios: oesophageal atresia; oligohydramnios: renal agenesis"] },
+        { "h": "Fetal circulation and twins", "b": "Three shunts bypass the lungs and liver: the ductus venosus (umbilical vein → IVC), the foramen ovale (right atrium → left atrium) and the ductus arteriosus (pulmonary trunk → aorta). After birth they close to become the ligamentum venosum, fossa ovalis and ligamentum arteriosum; the umbilical vein becomes the ligamentum teres. Dizygotic (fraternal) twins come from two ova and always have two chorions and amnions; monozygotic (identical) twins arise from one zygote, and their membranes depend on when splitting occurs (monochorionic twins risk twin-to-twin transfusion).", "k": ["Ductus venosus, foramen ovale, ductus arteriosus", "Ductus arteriosus → ligamentum arteriosum", "Dizygotic twins: always dichorionic, diamniotic"] }
+      ],
+      "q": [
+        ["The normal umbilical cord contains:", "One artery and one vein", "Two arteries and one vein", "Two veins and one artery", "Two arteries and two veins", "One artery and two veins", 1, "Two umbilical arteries and one umbilical vein."],
+        ["The umbilical vein carries:", "Deoxygenated blood to the placenta", "Oxygenated blood to the fetus", "Lymph", "Maternal blood", "Amniotic fluid", 1, "The single vein brings oxygenated blood from the placenta."],
+        ["After birth, the ductus arteriosus becomes the:", "Ligamentum venosum", "Ligamentum arteriosum", "Fossa ovalis", "Ligamentum teres", "Medial umbilical ligament", 1, "It closes to form the ligamentum arteriosum."],
+        ["The maternal component of the placenta is the:", "Chorion frondosum", "Decidua basalis", "Decidua capsularis", "Amnion", "Chorion laeve", 1, "Decidua basalis forms the maternal part."],
+        ["Oligohydramnios is associated with:", "Oesophageal atresia", "Anencephaly", "Bilateral renal agenesis", "Maternal diabetes", "Duodenal atresia", 2, "Without fetal urine, amniotic fluid is scanty (Potter sequence)."],
+        ["Which antibody crosses the placenta?", "IgA", "IgM", "IgG", "IgE", "IgD", 2, "IgG is actively transported, giving passive immunity."],
+        ["Dizygotic twins always have:", "One chorion", "Two chorions and two amnions", "A shared amnion", "Identical genotypes", "Twin-to-twin transfusion", 1, "Each zygote forms its own membranes."],
+        ["The fetal shunt carrying blood from the right to the left atrium is the:", "Ductus venosus", "Foramen ovale", "Ductus arteriosus", "Coronary sinus", "Umbilical vein", 1, "The foramen ovale shunts blood across the atrial septum."]
+      ]
+    },
+    {
+      "title": "Systemic Development and Congenital Anomalies",
+      "summary": "Development of the heart, face, gut and urogenital system with common birth defects.",
+      "notes": [
+        { "h": "Heart and face", "b": "The heart begins beating at about day 22 — the first functioning organ. Septation errors cause congenital heart disease: ventricular septal defect (VSD) is the commonest; atrial septal defects involve the septum primum or secundum; tetralogy of Fallot (pulmonary stenosis, VSD, overriding aorta, right ventricular hypertrophy) results from anterior displacement of the infundibular septum. The face develops from the frontonasal prominence and paired maxillary and mandibular prominences of the first pharyngeal arch; failure of fusion of the maxillary and medial nasal prominences causes cleft lip, and failure of palatal shelf fusion causes cleft palate.", "k": ["Heart beats from day 22", "VSD: commonest congenital heart defect", "Tetralogy of Fallot: PS, VSD, overriding aorta, RVH", "Cleft lip: maxillary + medial nasal prominences fail to fuse"] },
+        { "h": "Gut and urogenital system", "b": "The midgut herniates physiologically into the umbilical cord at week 6 and returns by week 10, rotating 270° anticlockwise; failure to return gives an omphalocele (covered by membrane), whereas gastroschisis is a defect beside the umbilicus without a covering. Meckel's diverticulum is a remnant of the vitelline duct ('rule of 2s': 2% of people, 2 feet from the ileocaecal valve, 2 inches long). The kidneys develop from the metanephros (ureteric bud + metanephric blastema) and ascend; the fused lower poles of a horseshoe kidney are trapped under the inferior mesenteric artery. Hypospadias is failure of fusion of the urethral folds.", "k": ["Omphalocele: covered; gastroschisis: uncovered", "Meckel's diverticulum: rule of 2s", "Horseshoe kidney trapped by the IMA", "Hypospadias: urethral folds fail to fuse"] }
+      ],
+      "q": [
+        ["The commonest congenital heart defect is:", "Atrial septal defect", "Ventricular septal defect", "Tetralogy of Fallot", "Coarctation of the aorta", "Transposition of the great arteries", 1, "VSD is the most frequent congenital heart lesion."],
+        ["Which is NOT a feature of tetralogy of Fallot?", "Pulmonary stenosis", "Ventricular septal defect", "Overriding aorta", "Left ventricular hypertrophy", "Right ventricular hypertrophy", 3, "The fourth feature is right (not left) ventricular hypertrophy."],
+        ["Cleft lip results from failure of fusion of the:", "Palatine shelves", "Maxillary and medial nasal prominences", "Mandibular prominences", "Lateral nasal prominences with each other", "Tongue buds", 1, "Failure of maxillary and medial nasal prominence fusion causes cleft lip."],
+        ["Meckel's diverticulum is a remnant of the:", "Urachus", "Vitelline duct", "Allantois", "Ductus venosus", "Notochord", 1, "It persists from the vitelline (omphalomesenteric) duct."],
+        ["A horseshoe kidney is prevented from ascending by the:", "Coeliac trunk", "Superior mesenteric artery", "Inferior mesenteric artery", "Renal artery", "Aortic bifurcation", 2, "The fused lower poles catch under the IMA."],
+        ["An abdominal wall defect with viscera covered by a membrane is:", "Gastroschisis", "Omphalocele", "Umbilical hernia in adults", "Epispadias", "Prune belly", 1, "Omphalocele is covered by amnion and peritoneum."],
+        ["The heart starts to beat at about day:", "10", "22", "40", "60", "90", 1, "The primitive heart begins to beat around day 22."],
+        ["Hypospadias results from failure of fusion of the:", "Labioscrotal swellings", "Urethral folds", "Genital tubercle", "Müllerian ducts", "Ureteric buds", 1, "Incomplete fusion of the urethral folds leaves the urethral opening on the ventral penis."]
+      ]
+    }
+  ]
+}

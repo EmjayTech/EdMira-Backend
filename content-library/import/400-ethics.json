@@ -1,0 +1,686 @@
+{
+ "courses": [
+  {
+   "title": "Medical Ethics, Law and Professionalism",
+   "code": "ETH401",
+   "color": "#475569",
+   "description": "Principles of health-care ethics, consent and capacity, confidentiality, end-of-life issues, professional conduct and medical law in Nigeria.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Health-care Ethics",
+     "order": 1,
+     "summary": "Autonomy, beneficence, non-maleficence and justice; ethical frameworks and dilemmas.",
+     "material": [
+      {
+       "heading": "The four principles",
+       "body": "Beauchamp and Childress's four principles: respect for autonomy (self-determination, informed consent, truth-telling), beneficence (acting in the patient's best interests), non-maleficence ('first, do no harm' — balancing risks and benefits) and justice (fair distribution of resources and equal treatment). Principles may conflict — e.g. a Jehovah's Witness refusing blood (autonomy vs beneficence), or allocating a single ICU bed (justice). Other frameworks: deontology (duties and rules — Kant), consequentialism (outcomes — utilitarianism), virtue ethics (character — Aristotle), and the doctrine of double effect (e.g. giving opioids to relieve pain at the end of life with the foreseen but unintended effect of shortening life).",
+       "keyPoints": [
+        "Autonomy, beneficence, non-maleficence, justice",
+        "Principles can conflict",
+        "Doctrine of double effect",
+        "Deontology vs consequentialism vs virtue ethics"
+       ]
+      },
+      {
+       "heading": "Professional codes",
+       "body": "The Hippocratic Oath is the historic basis of medical ethics; the World Medical Association's Declaration of Geneva is a modern version. In Nigeria, doctors and dentists are bound by the Code of Medical Ethics issued by the Medical and Dental Council of Nigeria (MDCN), which covers duties to patients, colleagues and society, professional misconduct (e.g. advertising, fee-splitting, sexual relationships with patients, practising under the influence, criminal abortion, negligence) and disciplinary procedures through the Medical and Dental Practitioners Investigating Panel and Disciplinary Tribunal. Nurses, pharmacists and other professionals have equivalent codes from their councils.",
+       "keyPoints": [
+        "Hippocratic Oath; Declaration of Geneva",
+        "MDCN Code of Medical Ethics",
+        "Investigating Panel and Disciplinary Tribunal",
+        "Professional misconduct examples"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The four principles of biomedical ethics were described by:",
+       "options": [
+        "Beauchamp and Childress",
+        "Hippocrates",
+        "Hepler and Strand",
+        "Koch",
+        "Florence Nightingale"
+       ],
+       "answerIndex": 0,
+       "explanation": "Their Principles of Biomedical Ethics set out the four-principles approach."
+      },
+      {
+       "stem": "Respecting a competent patient's refusal of treatment upholds:",
+       "options": [
+        "Justice",
+        "Non-maleficence",
+        "Paternalism",
+        "Beneficence",
+        "Autonomy"
+       ],
+       "answerIndex": 4,
+       "explanation": "Autonomy is self-determination."
+      },
+      {
+       "stem": "Fair allocation of scarce ICU beds relates to the principle of:",
+       "options": [
+        "Autonomy",
+        "Fidelity",
+        "Beneficence",
+        "Justice",
+        "Veracity"
+       ],
+       "answerIndex": 3,
+       "explanation": "Justice concerns fairness in distribution."
+      },
+      {
+       "stem": "Giving morphine for pain in a dying patient, knowing it may hasten death, is justified by the:",
+       "options": [
+        "Principle of autonomy alone",
+        "Principle of utility",
+        "Rule of rescue",
+        "Doctrine of double effect",
+        "Law of torts"
+       ],
+       "answerIndex": 3,
+       "explanation": "The intended effect is pain relief, not death."
+      },
+      {
+       "stem": "The code of ethics for doctors and dentists in Nigeria is issued by the:",
+       "options": [
+        "NUC",
+        "MDCN",
+        "NMA",
+        "NMCN",
+        "PCN"
+       ],
+       "answerIndex": 1,
+       "explanation": "The Medical and Dental Council of Nigeria."
+      },
+      {
+       "stem": "A modern restatement of the Hippocratic Oath adopted by the World Medical Association is the:",
+       "options": [
+        "Nuremberg Code",
+        "Belmont Report",
+        "Ottawa Charter",
+        "Alma-Ata Declaration",
+        "Declaration of Geneva"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is the physicians' pledge."
+      },
+      {
+       "stem": "Which is an example of professional misconduct?",
+       "options": [
+        "Referring a patient appropriately",
+        "Keeping accurate records",
+        "A sexual relationship with a patient",
+        "Continuing education",
+        "Obtaining consent"
+       ],
+       "answerIndex": 2,
+       "explanation": "It breaches trust and professional boundaries."
+      },
+      {
+       "stem": "The ethical approach that judges actions by their consequences is:",
+       "options": [
+        "Virtue ethics",
+        "Divine command",
+        "Deontology",
+        "Casuistry",
+        "Consequentialism (utilitarianism)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Consequentialism focuses on outcomes."
+      }
+     ]
+    },
+    {
+     "title": "Informed Consent and Capacity",
+     "order": 2,
+     "summary": "Elements of valid consent, capacity assessment, minors, emergencies and refusal of treatment.",
+     "material": [
+      {
+       "heading": "Valid consent",
+       "body": "Valid consent must be voluntary (free from coercion), given by a person with capacity, and informed — the patient understands the nature and purpose of the procedure, material risks and benefits, alternatives (including no treatment) and consequences. Consent may be implied (holding out an arm for a blood test), verbal or written (for surgery and significant procedures); a signature is evidence, not the consent itself. The doctor performing the procedure (or a suitably trained delegate) should obtain consent. Patients can withdraw consent at any time. Treating without consent may constitute assault/battery; failing to disclose material risks may constitute negligence.",
+       "keyPoints": [
+        "Voluntary, capacity, informed",
+        "Signature is evidence, not consent itself",
+        "Patients can withdraw",
+        "No consent → battery"
+       ]
+      },
+      {
+       "heading": "Capacity, children and emergencies",
+       "body": "Capacity is decision-specific: the person must be able to understand the information, retain it, weigh it up and communicate a decision; capacity is presumed in adults unless shown otherwise, and an unwise decision does not by itself mean incapacity. For children (under 18 in Nigeria under the Child Rights Act 2003), consent is usually given by a parent or guardian; mature minors' views should be respected and involved (Gillick competence concept). In emergencies, when a patient lacks capacity and no one can consent, doctors may give necessary treatment in the patient's best interests. Adults with capacity (e.g. Jehovah's Witnesses refusing blood) may refuse treatment even if life-saving; courts may be approached in disputes concerning children.",
+       "keyPoints": [
+        "Capacity: understand, retain, weigh, communicate",
+        "Unwise ≠ incapacity",
+        "Child Rights Act 2003: under 18",
+        "Emergency: best interests",
+        "Competent adults can refuse"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which is NOT an element of valid consent?",
+       "options": [
+        "Capacity",
+        "Voluntariness",
+        "Payment of fees in advance",
+        "Adequate information",
+        "Understanding"
+       ],
+       "answerIndex": 2,
+       "explanation": "Payment has nothing to do with consent validity."
+      },
+      {
+       "stem": "A patient's signature on a consent form is:",
+       "options": [
+        "Only for research",
+        "Evidence that consent was obtained",
+        "The consent itself",
+        "Legally meaningless",
+        "Unnecessary always"
+       ],
+       "answerIndex": 1,
+       "explanation": "Consent is the process of informed agreement."
+      },
+      {
+       "stem": "To have capacity for a decision, a patient must be able to understand, retain, weigh the information and:",
+       "options": [
+        "Agree with the doctor",
+        "Be over 60",
+        "Communicate a decision",
+        "Be literate",
+        "Pay for treatment"
+       ],
+       "answerIndex": 2,
+       "explanation": "These are the functional elements of capacity."
+      },
+      {
+       "stem": "A competent adult Jehovah's Witness refuses a blood transfusion. The doctor should:",
+       "options": [
+        "Respect the refusal and offer alternatives",
+        "Call the police",
+        "Sedate the patient",
+        "Discharge immediately",
+        "Transfuse anyway"
+       ],
+       "answerIndex": 0,
+       "explanation": "Competent adults may refuse even life-saving treatment."
+      },
+      {
+       "stem": "An unconscious road-accident victim with no relatives present needs emergency surgery. The doctor should:",
+       "options": [
+        "Refuse to treat",
+        "Wait for a court order",
+        "Proceed with necessary treatment in the patient's best interests",
+        "Transfer without treatment",
+        "Wait for consent"
+       ],
+       "answerIndex": 2,
+       "explanation": "Emergency treatment is justified without consent."
+      },
+      {
+       "stem": "Under the Child Rights Act 2003, a child in Nigeria is a person under:",
+       "options": [
+        "12 years",
+        "16 years",
+        "18 years",
+        "21 years",
+        "14 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Act defines a child as under 18."
+      },
+      {
+       "stem": "Treating a competent patient without their consent may amount to:",
+       "options": [
+        "Justice",
+        "Confidentiality breach only",
+        "Assault/battery",
+        "Beneficence",
+        "Good practice"
+       ],
+       "answerIndex": 2,
+       "explanation": "Touching without consent is unlawful."
+      },
+      {
+       "stem": "A patient making a decision the doctor considers unwise:",
+       "options": [
+        "May still have capacity",
+        "Must be sedated",
+        "Loses all rights",
+        "Automatically lacks capacity",
+        "Must be referred to psychiatry always"
+       ],
+       "answerIndex": 0,
+       "explanation": "An unwise decision alone does not prove incapacity."
+      }
+     ]
+    },
+    {
+     "title": "Confidentiality, Truth-telling and Records",
+     "order": 3,
+     "summary": "Duty of confidentiality and its exceptions, breaking bad news, and data protection.",
+     "material": [
+      {
+       "heading": "Confidentiality",
+       "body": "Health professionals must keep patient information confidential; trust depends on it. Disclosure is justified with the patient's consent, when required by law (e.g. notifiable diseases, court orders), or in the public interest to prevent serious harm to others (e.g. a patient with uncontrolled epilepsy who continues to drive a commercial vehicle, or a risk of serious violence). HIV status is highly sensitive: the HIV/AIDS (Anti-Discrimination) Act 2014 protects people living with HIV from discrimination; partner notification should be encouraged and supported, with disclosure without consent considered only as a last resort under strict conditions. Discussing patients in public places or social media, or sharing images without consent, breaches confidentiality. The Nigeria Data Protection Act (2023) governs personal data, including health data.",
+       "keyPoints": [
+        "Exceptions: consent, law, public interest",
+        "Notifiable diseases must be reported",
+        "HIV Anti-Discrimination Act 2014",
+        "No patient details on social media",
+        "Nigeria Data Protection Act 2023"
+       ]
+      },
+      {
+       "heading": "Truth-telling and bad news",
+       "body": "Patients have a right to honest information about their condition, delivered sensitively. Families sometimes ask doctors to withhold a diagnosis (e.g. cancer) — the doctor should explore their concerns but generally not deceive a competent patient who wishes to know. The SPIKES protocol for breaking bad news: Setting (private, seated, time), Perception (what the patient knows), Invitation (how much they want to know), Knowledge (give information clearly in small chunks, avoid jargon, warning shot), Emotions (respond with empathy), Strategy and Summary (plan and follow-up). Clinical records must be accurate, contemporaneous and secure; patients generally have a right to access their records.",
+       "keyPoints": [
+        "SPIKES protocol",
+        "Don't deceive competent patients",
+        "Records: accurate, contemporaneous, secure",
+        "Patients may access their records"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Disclosure of confidential information without consent may be justified when:",
+       "options": [
+        "It makes an interesting social media post",
+        "A colleague is curious",
+        "It is required by law or needed to prevent serious harm to others",
+        "A journalist asks",
+        "The patient is famous"
+       ],
+       "answerIndex": 2,
+       "explanation": "Legal requirement and serious risk to others are recognised exceptions."
+      },
+      {
+       "stem": "Posting a photograph of a patient's wound on social media without consent is:",
+       "options": [
+        "Required",
+        "Acceptable for education",
+        "A breach of confidentiality",
+        "Only wrong if the face shows",
+        "Encouraged"
+       ],
+       "answerIndex": 2,
+       "explanation": "Images are personal health information."
+      },
+      {
+       "stem": "The Nigerian law protecting people living with HIV from discrimination is the:",
+       "options": [
+        "NHIA Act",
+        "Land Use Act",
+        "Factories Act",
+        "Child Rights Act only",
+        "HIV/AIDS (Anti-Discrimination) Act 2014"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prohibits discrimination based on HIV status."
+      },
+      {
+       "stem": "In the SPIKES protocol, 'P' stands for:",
+       "options": [
+        "Perception",
+        "Prognosis",
+        "Pain",
+        "Plan",
+        "Privacy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Find out what the patient already understands."
+      },
+      {
+       "stem": "A family asks the doctor not to tell a competent patient about her cancer diagnosis. The best approach is to:",
+       "options": [
+        "Tell only the family forever",
+        "Discharge the patient",
+        "Lie to the patient",
+        "Refuse to talk to the family",
+        "Explore the family's concerns but not deceive a patient who wants to know"
+       ],
+       "answerIndex": 4,
+       "explanation": "Competent patients are entitled to information about their health."
+      },
+      {
+       "stem": "Notifiable diseases such as Lassa fever must be reported because:",
+       "options": [
+        "Doctors are paid",
+        "Patients request it",
+        "It is required by law for public health protection",
+        "It improves hospital ratings",
+        "It is optional"
+       ],
+       "answerIndex": 2,
+       "explanation": "Legal reporting enables outbreak control."
+      },
+      {
+       "stem": "Clinical records should be:",
+       "options": [
+        "Kept only in the doctor's head",
+        "Written days later from memory",
+        "Shared freely",
+        "Destroyed after discharge",
+        "Accurate, contemporaneous and securely stored"
+       ],
+       "answerIndex": 4,
+       "explanation": "Good records protect patients and practitioners."
+      },
+      {
+       "stem": "The Nigerian law governing processing of personal (including health) data is the:",
+       "options": [
+        "Nigeria Data Protection Act 2023",
+        "Copyright Act",
+        "Cybercrimes Act only",
+        "Evidence Act only",
+        "Freedom of Information Act only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It sets rules for lawful processing of personal data."
+      }
+     ]
+    },
+    {
+     "title": "End-of-Life Care and Difficult Decisions",
+     "order": 4,
+     "summary": "Palliative care, withholding and withdrawing treatment, DNACPR, euthanasia, brain death and organ donation.",
+     "material": [
+      {
+       "heading": "End of life",
+       "body": "Palliative care improves quality of life for patients with life-threatening illness and their families through pain and symptom relief, psychosocial and spiritual support, from diagnosis onwards. Withholding or withdrawing futile treatment is ethically equivalent and acceptable when treatment no longer benefits the patient, after discussion with the patient (if possible) and family. Do-not-attempt-cardiopulmonary-resuscitation (DNACPR) decisions should be made in advance, documented and communicated. Euthanasia (intentionally ending a patient's life) and physician-assisted suicide are illegal in Nigeria and contrary to the MDCN code; providing adequate analgesia is not euthanasia (double effect).",
+       "keyPoints": [
+        "Palliative care from diagnosis",
+        "Withholding = withdrawing ethically",
+        "DNACPR: documented, communicated",
+        "Euthanasia illegal in Nigeria"
+       ]
+      },
+      {
+       "heading": "Brain death and transplantation",
+       "body": "Brain death (death by neurological criteria) is the irreversible loss of all brain function including the brainstem, diagnosed by strict clinical criteria (deep coma of known cause, absent brainstem reflexes, apnoea test) after excluding reversible causes (drugs, hypothermia, metabolic disturbance). Organ donation requires consent and must never involve payment or coercion; organ trafficking is illegal and condemned by the Declaration of Istanbul. The National Health Act (2014) regulates organ transplantation in Nigeria, prohibiting the sale of organs. The cadaveric and living donor programmes (e.g. kidney transplantation in several Nigerian centres) must follow ethical guidelines.",
+       "keyPoints": [
+        "Brain death: coma, absent brainstem reflexes, apnoea",
+        "Exclude reversible causes",
+        "No sale of organs (National Health Act 2014)",
+        "Declaration of Istanbul against trafficking"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Palliative care should begin:",
+       "options": [
+        "Only in the last week of life",
+        "After death",
+        "Only in hospices abroad",
+        "Only for cancer",
+        "From diagnosis of a life-threatening illness, alongside other treatment"
+       ],
+       "answerIndex": 4,
+       "explanation": "Early palliative care improves quality of life."
+      },
+      {
+       "stem": "Ethically, withholding and withdrawing a futile treatment are:",
+       "options": [
+        "Considered equivalent",
+        "Required in all cases",
+        "Both illegal",
+        "Very different",
+        "Only allowed by courts"
+       ],
+       "answerIndex": 0,
+       "explanation": "The key question is whether treatment benefits the patient."
+      },
+      {
+       "stem": "Euthanasia in Nigeria is:",
+       "options": [
+        "Illegal",
+        "Legal with consent",
+        "Required for terminal illness",
+        "Legal in teaching hospitals",
+        "Legal for the elderly"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is unlawful and contrary to the medical code."
+      },
+      {
+       "stem": "A DNACPR decision should be:",
+       "options": [
+        "Made in advance, documented and communicated to the team",
+        "Never discussed with patients",
+        "Secret",
+        "Made only by the family",
+        "Made after cardiac arrest"
+       ],
+       "answerIndex": 0,
+       "explanation": "Clear documentation prevents inappropriate resuscitation."
+      },
+      {
+       "stem": "Which is required for the diagnosis of brain death?",
+       "options": [
+        "Hypothermia",
+        "Sedative drugs in the blood",
+        "Spontaneous breathing",
+        "Presence of a gag reflex",
+        "Absent brainstem reflexes and a positive apnoea test"
+       ],
+       "answerIndex": 4,
+       "explanation": "Reversible causes must be excluded."
+      },
+      {
+       "stem": "Selling organs for transplantation in Nigeria is:",
+       "options": [
+        "Prohibited by law",
+        "Encouraged",
+        "Allowed for kidneys only",
+        "Allowed abroad only",
+        "Legal with a receipt"
+       ],
+       "answerIndex": 0,
+       "explanation": "The National Health Act prohibits organ sales."
+      },
+      {
+       "stem": "The international declaration condemning organ trafficking and transplant tourism is the:",
+       "options": [
+        "Declaration of Helsinki",
+        "Abuja Declaration",
+        "Declaration of Geneva",
+        "Declaration of Istanbul",
+        "Alma-Ata Declaration"
+       ],
+       "answerIndex": 3,
+       "explanation": "The 2008 Declaration of Istanbul."
+      },
+      {
+       "stem": "Giving adequate morphine to relieve severe pain in a dying patient is:",
+       "options": [
+        "Negligence",
+        "Euthanasia",
+        "Acceptable palliative care under the principle of double effect",
+        "Illegal",
+        "Assisted suicide"
+       ],
+       "answerIndex": 2,
+       "explanation": "The intention is to relieve suffering."
+      }
+     ]
+    },
+    {
+     "title": "Medical Law, Negligence and Professional Practice",
+     "order": 5,
+     "summary": "Negligence, medical records as evidence, certification, dual loyalty, and professional development.",
+     "material": [
+      {
+       "heading": "Negligence",
+       "body": "Medical negligence requires: (1) a duty of care owed to the patient; (2) breach of that duty — failing to meet the standard of a reasonably competent practitioner (Bolam test, modified by Bolitho — the practice must also be logically defensible); (3) damage; and (4) causation (the breach caused the harm). Common causes of claims: diagnostic errors, surgical mistakes (wrong site), medication errors, inadequate consent and poor communication. Good records, informed consent, following guidelines, and open disclosure of errors ('duty of candour') reduce harm and litigation. Criminal liability arises in gross negligence causing death.",
+       "keyPoints": [
+        "Duty, breach, damage, causation",
+        "Bolam test (+ Bolitho)",
+        "Duty of candour",
+        "Gross negligence → criminal liability"
+       ]
+      },
+      {
+       "heading": "Professional practice",
+       "body": "Doctors certify births, deaths (medical certificate of cause of death — never falsify), fitness and sickness; issuing false certificates is misconduct. Dual loyalty conflicts arise when obligations to third parties (employers, police, prisons, insurers) conflict with patients' interests — the patient's welfare remains primary, and doctors must never participate in torture. Health workers should avoid conflicts of interest (e.g. accepting inducements from pharmaceutical companies), practise within their competence, pursue continuing professional development (MDCN requires CPD for licence renewal), maintain professional boundaries, and look after their own health (burnout is common; seek help for impairment). Brain drain ('japa') of Nigerian health workers is a major workforce challenge.",
+       "keyPoints": [
+        "Never falsify certificates",
+        "Patient welfare first in dual loyalty",
+        "Avoid conflicts of interest",
+        "CPD for licence renewal",
+        "Brain drain and burnout"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which is NOT required to prove medical negligence?",
+       "options": [
+        "Breach of the standard of care",
+        "Damage to the patient",
+        "That the doctor was unkind",
+        "Duty of care",
+        "Causation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Rudeness alone does not establish negligence."
+      },
+      {
+       "stem": "The legal test for the standard of care based on what a responsible body of practitioners would do is the:",
+       "options": [
+        "Bolam test",
+        "Gillick test",
+        "Wilson–Jungner criteria",
+        "Apgar score",
+        "Bradford Hill criteria"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bolam, qualified by Bolitho's requirement of logical defensibility."
+      },
+      {
+       "stem": "Being open with patients when things go wrong is called the:",
+       "options": [
+        "Doctrine of double effect",
+        "Therapeutic privilege",
+        "Bolam principle",
+        "Duty of candour",
+        "Right to die"
+       ],
+       "answerIndex": 3,
+       "explanation": "Honest disclosure after errors."
+      },
+      {
+       "stem": "Issuing a false medical certificate is:",
+       "options": [
+        "A form of beneficence",
+        "Professional misconduct",
+        "Acceptable for friends",
+        "Legal if paid",
+        "Required by employers"
+       ],
+       "answerIndex": 1,
+       "explanation": "Certificates must be truthful."
+      },
+      {
+       "stem": "When a doctor's duty to a third party conflicts with the patient's interests, the doctor should:",
+       "options": [
+        "Resign",
+        "Refuse to treat",
+        "Ignore both",
+        "Keep the patient's welfare paramount within legal limits",
+        "Always obey the third party"
+       ],
+       "answerIndex": 3,
+       "explanation": "This addresses dual loyalty conflicts."
+      },
+      {
+       "stem": "Participation of doctors in torture is:",
+       "options": [
+        "Allowed for national security",
+        "Allowed in prisons",
+        "Allowed if ordered by police",
+        "A matter of choice",
+        "Absolutely prohibited"
+       ],
+       "answerIndex": 4,
+       "explanation": "International codes forbid it absolutely."
+      },
+      {
+       "stem": "The MDCN requires doctors to show evidence of ___ to renew their licence.",
+       "options": [
+        "Continuing professional development",
+        "Private practice",
+        "A new degree",
+        "Foreign travel",
+        "Political membership"
+       ],
+       "answerIndex": 0,
+       "explanation": "CPD maintains competence."
+      },
+      {
+       "stem": "Accepting expensive gifts from a drug company that could influence prescribing creates a:",
+       "options": [
+        "Capacity problem",
+        "Conflict of interest",
+        "Consent issue",
+        "Double effect",
+        "Duty of candour"
+       ],
+       "answerIndex": 1,
+       "explanation": "Inducements can bias clinical decisions."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

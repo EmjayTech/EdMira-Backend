@@ -1,0 +1,643 @@
+{
+ "courses": [
+  {
+   "title": "Radiographic Techniques I: Skeletal and Chest",
+   "code": "RAD301",
+   "color": "#4338CA",
+   "description": "Positioning principles and standard projections of the chest, upper and lower limbs, spine, pelvis and skull, with image evaluation criteria.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Radiography"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Positioning and Projection Terminology",
+     "order": 1,
+     "summary": "Projection terms, centring, collimation, the two-views rule and patient care.",
+     "material": [
+      {
+       "heading": "Terminology",
+       "body": "A projection describes the path of the central ray: posteroanterior (PA — beam enters posterior, exits anterior, receptor in front), anteroposterior (AP), lateral (named by the side nearest the receptor, e.g. right lateral), oblique, and axial (angled along the long axis). Positions describe the patient: erect, supine, prone, decubitus (lying with a horizontal beam). The central ray is centred on a stated anatomical point and the beam is collimated to the area of interest, which reduces dose and scatter. Anatomical side markers (R/L) must be placed within the field before exposure.",
+       "keyPoints": [
+        "PA: beam posterior → anterior",
+        "Lateral named by side nearest receptor",
+        "Decubitus: horizontal beam",
+        "Always use R/L markers and collimate"
+       ]
+      },
+      {
+       "heading": "Principles",
+       "body": "The 'rule of two' — at least two views at right angles (usually AP/PA and lateral) — is standard for skeletal trauma, as a fracture or dislocation may be invisible on a single view; include the joints above and below a long-bone fracture. Justification (every exposure must benefit the patient) and optimisation (ALARA — as low as reasonably achievable) apply. Confirm patient identity and pregnancy status in women of reproductive age (the '28-day rule' or '10-day rule' for high-dose pelvic examinations). Communicate clearly, immobilise gently, and use lead shielding where it does not obscure anatomy.",
+       "keyPoints": [
+        "Two views at right angles",
+        "Include joints above and below",
+        "Justification and ALARA",
+        "Check pregnancy status"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a PA chest projection, the X-ray beam:",
+       "options": [
+        "Is horizontal with the patient lying on the side",
+        "Passes from right to left",
+        "Enters the front and exits the back",
+        "Enters the back and exits the front",
+        "Is angled 45° caudally"
+       ],
+       "answerIndex": 3,
+       "explanation": "Posteroanterior: posterior to anterior, with the receptor in front."
+      },
+      {
+       "stem": "A radiograph taken with the patient lying on the side and a horizontal beam is a:",
+       "options": [
+        "Axial view",
+        "Erect PA",
+        "Decubitus view",
+        "Supine AP",
+        "Oblique prone"
+       ],
+       "answerIndex": 2,
+       "explanation": "Decubitus views use a horizontal beam to show fluid levels or free air."
+      },
+      {
+       "stem": "The 'rule of two' in trauma radiography means:",
+       "options": [
+        "At least two views at right angles",
+        "Two markers",
+        "Two days apart",
+        "Two radiographers must be present",
+        "Two exposures on one view"
+       ],
+       "answerIndex": 0,
+       "explanation": "Some fractures are only visible on one of two orthogonal views."
+      },
+      {
+       "stem": "For a suspected fracture of the tibial shaft, the images should include:",
+       "options": [
+        "The contralateral limb only",
+        "The hip only",
+        "The foot only",
+        "Only the fracture site",
+        "The knee and ankle joints"
+       ],
+       "answerIndex": 4,
+       "explanation": "Joints above and below reveal associated injuries."
+      },
+      {
+       "stem": "The principle that every exposure must produce a net benefit is:",
+       "options": [
+        "Optimisation",
+        "Dose limitation",
+        "Filtration",
+        "Collimation",
+        "Justification"
+       ],
+       "answerIndex": 4,
+       "explanation": "Justification is the first principle of radiation protection."
+      },
+      {
+       "stem": "Collimating the beam to the area of interest:",
+       "options": [
+        "Removes the need for markers",
+        "Increases magnification",
+        "Has no effect",
+        "Increases patient dose",
+        "Reduces patient dose and scatter"
+       ],
+       "answerIndex": 4,
+       "explanation": "A smaller field reduces irradiated volume and scatter."
+      },
+      {
+       "stem": "A lateral projection is named according to:",
+       "options": [
+        "The side nearest the image receptor",
+        "The radiographer's position",
+        "The time of day",
+        "The dominant hand",
+        "The side the beam enters"
+       ],
+       "answerIndex": 0,
+       "explanation": "A left lateral has the left side against the receptor."
+      },
+      {
+       "stem": "Anatomical side markers should be placed:",
+       "options": [
+        "After processing",
+        "Only on chest films",
+        "On the request form only",
+        "Within the collimated field before exposure",
+        "Outside the beam"
+       ],
+       "answerIndex": 3,
+       "explanation": "Markers must be exposed on the image."
+      }
+     ]
+    },
+    {
+     "title": "Chest and Abdomen Radiography",
+     "order": 2,
+     "summary": "PA and lateral chest, AP supine chest, abdomen views, and image quality criteria.",
+     "material": [
+      {
+       "heading": "Chest",
+       "body": "The standard chest radiograph is an erect PA taken on full inspiration at about 180 cm source-to-image distance (SID); the PA projection minimises magnification of the heart and allows the scapulae to be rotated out of the lung fields (hands on hips, shoulders forward). Quality criteria: correct identification; adequate inspiration (about 6 anterior or 10 posterior ribs above the diaphragm); no rotation (medial ends of clavicles equidistant from the spinous processes); adequate penetration (vertebral bodies just visible through the heart); whole lung fields including costophrenic angles. AP supine chest films (ill patients) magnify the heart, so cardiac size cannot be reliably assessed. A cardiothoracic ratio > 0.5 on a PA film suggests cardiomegaly.",
+       "keyPoints": [
+        "Erect PA at 180 cm, full inspiration",
+        "Clavicles equidistant = no rotation",
+        "~10 posterior ribs = good inspiration",
+        "CTR > 0.5 on PA → cardiomegaly",
+        "AP films magnify the heart"
+       ]
+      },
+      {
+       "heading": "Abdomen",
+       "body": "The standard abdominal radiograph is AP supine, covering from the diaphragm to the symphysis pubis (to include the kidneys, ureters and bladder — 'KUB'). Pneumoperitoneum (perforated viscus) is best shown by an erect chest radiograph (free gas under the diaphragm) — the patient should be upright for 10 minutes if possible — or a left lateral decubitus abdomen. Intestinal obstruction shows dilated loops and, on erect or decubitus films, air–fluid levels. The abdomen is exposed on arrested expiration.",
+       "keyPoints": [
+        "AP supine abdomen: diaphragm to symphysis",
+        "Free gas: erect chest X-ray",
+        "Left lateral decubitus for free air",
+        "Abdomen exposed on expiration"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The standard chest radiograph is taken as an:",
+       "options": [
+        "Lateral decubitus",
+        "AP lordotic",
+        "Oblique",
+        "Erect PA on full inspiration",
+        "AP supine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Erect PA minimises heart magnification and shows fluid levels."
+      },
+      {
+       "stem": "The standard source-to-image distance for a PA chest X-ray is about:",
+       "options": [
+        "50 cm",
+        "100 cm",
+        "180 cm",
+        "300 cm",
+        "20 cm"
+       ],
+       "answerIndex": 2,
+       "explanation": "A long SID reduces magnification."
+      },
+      {
+       "stem": "A PA chest X-ray is not rotated when:",
+       "options": [
+        "The heart is on the left",
+        "The scapulae are visible",
+        "The trachea is to the right",
+        "Both diaphragms are flat",
+        "The medial ends of the clavicles are equidistant from the spinous processes"
+       ],
+       "answerIndex": 4,
+       "explanation": "Symmetry of the clavicles confirms no rotation."
+      },
+      {
+       "stem": "A cardiothoracic ratio greater than ___ on a PA film suggests cardiomegaly.",
+       "options": [
+        "0.3",
+        "0.5",
+        "0.8",
+        "1.0",
+        "0.2"
+       ],
+       "answerIndex": 1,
+       "explanation": "Normal CTR is ≤ 0.5 on a PA radiograph."
+      },
+      {
+       "stem": "Heart size cannot be reliably assessed on an AP supine chest film because:",
+       "options": [
+        "The heart is hidden",
+        "The heart is magnified",
+        "The film is too dark",
+        "The ribs overlap",
+        "Lungs are not visible"
+       ],
+       "answerIndex": 1,
+       "explanation": "The heart lies farther from the receptor on AP projections."
+      },
+      {
+       "stem": "The best plain film to detect free intraperitoneal gas is:",
+       "options": [
+        "Lateral skull",
+        "PA hand",
+        "Erect chest radiograph",
+        "Supine abdomen",
+        "AP pelvis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Gas rises under the diaphragm when erect."
+      },
+      {
+       "stem": "A KUB radiograph must include:",
+       "options": [
+        "From the diaphragm/kidneys down to the symphysis pubis",
+        "Only the bladder",
+        "The skull",
+        "The chest only",
+        "The knees"
+       ],
+       "answerIndex": 0,
+       "explanation": "It covers kidneys, ureters and bladder."
+      },
+      {
+       "stem": "A chest X-ray with about ten posterior ribs visible above the diaphragm indicates:",
+       "options": [
+        "Underexposure",
+        "Overexposure",
+        "Adequate inspiration",
+        "Poor inspiration",
+        "Rotation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Nine to ten posterior ribs show good inspiratory effort."
+      }
+     ]
+    },
+    {
+     "title": "Upper Limb and Shoulder",
+     "order": 3,
+     "summary": "Hand, wrist, scaphoid, elbow, shoulder and clavicle projections.",
+     "material": [
+      {
+       "heading": "Hand, wrist and scaphoid",
+       "body": "Hand: dorsipalmar (PA) and dorsipalmar oblique; a lateral is added for foreign bodies or metacarpal fracture displacement. Wrist: PA and lateral with the forearm in contact with the receptor. Scaphoid series: PA with ulnar deviation (elongates the scaphoid), oblique views and a lateral; if clinical suspicion persists with normal films, the patient is immobilised and re-imaged at 10–14 days or has MRI/CT, because initial films may miss the fracture and non-union or avascular necrosis can follow. A lateral wrist shows the Colles' (dorsal) and Smith's (volar) fracture displacement.",
+       "keyPoints": [
+        "Hand: PA + PA oblique",
+        "Scaphoid: PA with ulnar deviation + obliques",
+        "Occult scaphoid fracture: repeat at 10–14 days or MRI"
+       ]
+      },
+      {
+       "heading": "Elbow and shoulder",
+       "body": "Elbow: AP with the elbow extended and lateral with 90° flexion; the lateral shows the fat pads — a visible posterior fat pad ('sail sign') indicates an effusion and possible occult fracture (e.g. radial head in adults, supracondylar in children). Shoulder: AP (or true AP/Grashey), plus an axial (supero-inferior) or 'Y' scapular lateral view to confirm anterior or posterior dislocation; posterior dislocation may give a 'light bulb' humeral head on the AP. Clavicle: PA/AP and an angled (cranial) view.",
+       "keyPoints": [
+        "Elbow: posterior fat pad = effusion",
+        "Supracondylar fracture in children",
+        "Shoulder dislocation: axial or Y view",
+        "Posterior dislocation: light-bulb sign"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The scaphoid is best demonstrated on a PA wrist with:",
+       "options": [
+        "Radial deviation",
+        "No deviation",
+        "Full flexion",
+        "Pronation only",
+        "Ulnar deviation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ulnar deviation elongates the scaphoid, reducing foreshortening."
+      },
+      {
+       "stem": "If a scaphoid fracture is clinically suspected but initial radiographs are normal, management is:",
+       "options": [
+        "Operate immediately",
+        "Apply heat",
+        "Discharge without follow-up",
+        "Ignore unless pain is severe",
+        "Immobilise and re-image at 10–14 days or perform MRI"
+       ],
+       "answerIndex": 4,
+       "explanation": "Occult fractures may appear later; non-union risks avascular necrosis."
+      },
+      {
+       "stem": "A visible posterior fat pad on a lateral elbow radiograph suggests:",
+       "options": [
+        "Soft tissue swelling of the forearm",
+        "Joint effusion, possibly an occult fracture",
+        "Normal elbow",
+        "Osteoarthritis only",
+        "Dislocation of the shoulder"
+       ],
+       "answerIndex": 1,
+       "explanation": "The posterior fat pad is normally hidden in the olecranon fossa."
+      },
+      {
+       "stem": "To confirm shoulder dislocation, the AP view is supplemented with:",
+       "options": [
+        "An axial or scapular 'Y' view",
+        "A chest PA only",
+        "A lateral knee",
+        "A skull view",
+        "A PA hand"
+       ],
+       "answerIndex": 0,
+       "explanation": "A second orthogonal view shows the direction of dislocation."
+      },
+      {
+       "stem": "The standard projections for the hand are:",
+       "options": [
+        "Dorsipalmar and dorsipalmar oblique",
+        "Lateral only",
+        "Oblique only",
+        "Axial and tangential",
+        "AP and lateral only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oblique views show the metacarpals and phalanges without overlap."
+      },
+      {
+       "stem": "A 'light-bulb' humeral head on an AP shoulder film suggests:",
+       "options": [
+        "Rotator cuff tear",
+        "Anterior dislocation",
+        "Posterior dislocation",
+        "Clavicle fracture",
+        "Normal shoulder"
+       ],
+       "answerIndex": 2,
+       "explanation": "Internal rotation of the humeral head gives this appearance."
+      },
+      {
+       "stem": "A lateral elbow projection is taken with the elbow flexed at:",
+       "options": [
+        "180°",
+        "135°",
+        "90°",
+        "45°",
+        "0°"
+       ],
+       "answerIndex": 2,
+       "explanation": "90° flexion gives a true lateral."
+      },
+      {
+       "stem": "The fracture most common in children after a fall on the outstretched hand at the elbow is:",
+       "options": [
+        "Coronoid fracture",
+        "Olecranon fracture",
+        "Supracondylar fracture of the humerus",
+        "Radial head fracture",
+        "Medial epicondyle only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Supracondylar fractures are common in children."
+      }
+     ]
+    },
+    {
+     "title": "Lower Limb and Pelvis",
+     "order": 4,
+     "summary": "Foot, ankle, knee, hip and pelvis projections with key trauma considerations.",
+     "material": [
+      {
+       "heading": "Foot, ankle and knee",
+       "body": "Foot: dorsiplantar and dorsiplantar oblique (lateral for foreign bodies or Lisfranc injuries). Ankle: AP (or 'mortise' view with about 15–20° internal rotation to show the joint space evenly) and lateral. Clinical decision rules (Ottawa ankle rules) reduce unnecessary imaging. Knee: AP and lateral; a horizontal-beam lateral shows a lipohaemarthrosis (fat–fluid level), indicating an intra-articular fracture such as a tibial plateau fracture. Skyline (tangential) view shows the patellofemoral joint. Weight-bearing AP views assess joint-space narrowing in osteoarthritis.",
+       "keyPoints": [
+        "Ankle mortise: 15–20° internal rotation",
+        "Ottawa ankle rules",
+        "Horizontal-beam lateral knee: lipohaemarthrosis",
+        "Skyline view: patella"
+       ]
+      },
+      {
+       "heading": "Hip and pelvis",
+       "body": "Pelvis: AP with the legs internally rotated about 15–20° (brings the femoral necks parallel to the receptor, showing them in full length). Hip: AP and a lateral (horizontal-beam 'cross-table' lateral in suspected neck-of-femur fracture — do not move the leg into a frog-leg position if a fracture is suspected). Signs of femoral neck fracture: disruption of Shenton's line, shortening and external rotation of the leg. Pelvic fractures may cause major haemorrhage; handle trauma patients with minimal movement.",
+       "keyPoints": [
+        "Pelvis AP: internal rotation 15–20°",
+        "Suspected NOF fracture: cross-table lateral (no frog-leg)",
+        "Shenton's line disruption",
+        "Pelvic fractures bleed"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "For an AP pelvis, the legs are internally rotated about 15–20° in order to:",
+       "options": [
+        "Increase magnification",
+        "Reduce dose",
+        "Show the femoral necks in full length",
+        "Show the knees",
+        "Avoid gonad shielding"
+       ],
+       "answerIndex": 2,
+       "explanation": "The femoral necks are anteverted, so internal rotation lays them parallel to the receptor."
+      },
+      {
+       "stem": "In suspected fracture of the neck of femur, the lateral hip should be taken as a:",
+       "options": [
+        "PA projection",
+        "Standing lateral",
+        "Oblique with leg abducted",
+        "Frog-leg lateral",
+        "Horizontal-beam (cross-table) lateral"
+       ],
+       "answerIndex": 4,
+       "explanation": "Moving the leg into frog-leg position risks displacing the fracture."
+      },
+      {
+       "stem": "A fat–fluid level on a horizontal-beam lateral knee indicates:",
+       "options": [
+        "Ligament strain only",
+        "Normal knee",
+        "Gout",
+        "Osteoarthritis",
+        "Lipohaemarthrosis from an intra-articular fracture"
+       ],
+       "answerIndex": 4,
+       "explanation": "Marrow fat escapes into the joint with blood."
+      },
+      {
+       "stem": "The ankle mortise view is obtained with about ___ internal rotation.",
+       "options": [
+        "60°",
+        "0°",
+        "15–20°",
+        "90°",
+        "45°"
+       ],
+       "answerIndex": 2,
+       "explanation": "This opens the lateral joint space evenly."
+      },
+      {
+       "stem": "Clinical rules that help decide whether ankle radiographs are needed are the:",
+       "options": [
+        "Wells criteria",
+        "Glasgow criteria",
+        "Ottawa ankle rules",
+        "Apgar score",
+        "Ranson criteria"
+       ],
+       "answerIndex": 2,
+       "explanation": "They reduce unnecessary X-rays."
+      },
+      {
+       "stem": "Disruption of Shenton's line suggests:",
+       "options": [
+        "Knee effusion",
+        "Ankle sprain",
+        "Normal pelvis",
+        "Fracture or dislocation of the hip",
+        "Shoulder dislocation"
+       ],
+       "answerIndex": 3,
+       "explanation": "The smooth arc from femoral neck to superior pubic ramus is broken."
+      },
+      {
+       "stem": "The view that best demonstrates the patellofemoral joint is the:",
+       "options": [
+        "Skyline (tangential) view",
+        "Mortise view",
+        "AP knee",
+        "Frog-leg lateral",
+        "Lateral ankle"
+       ],
+       "answerIndex": 0,
+       "explanation": "The beam passes tangentially to the patella."
+      },
+      {
+       "stem": "Joint-space narrowing in knee osteoarthritis is best assessed on:",
+       "options": [
+        "Skyline only",
+        "Lateral decubitus",
+        "Supine AP",
+        "Weight-bearing AP",
+        "Oblique only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Weight bearing shows true cartilage loss."
+      }
+     ]
+    },
+    {
+     "title": "Spine and Skull",
+     "order": 5,
+     "summary": "Cervical, thoracic and lumbar spine projections, trauma precautions and skull and sinus views.",
+     "material": [
+      {
+       "heading": "Spine",
+       "body": "Cervical spine trauma series: lateral (must show C7/T1 junction — use a 'swimmer's' view or traction on the arms if needed), AP, and open-mouth odontoid (peg) view; CT is now preferred for significant trauma. The patient's neck is immobilised (collar, blocks) until injury is excluded; do not remove the collar or move the head. Thoracic spine: AP and lateral. Lumbar spine: AP and lateral (obliques show the pars interarticularis — the 'Scotty dog' neck in spondylolysis). Lumbar spine radiographs carry a relatively high gonadal dose and are not routinely indicated for simple back pain without red flags.",
+       "keyPoints": [
+        "C-spine lateral must show C7/T1",
+        "Peg view for odontoid",
+        "Keep collar on until injury excluded",
+        "Lumbar obliques: Scotty dog (pars)"
+       ]
+      },
+      {
+       "heading": "Skull and sinuses",
+       "body": "Skull radiography has largely been replaced by CT for head injury. Standard skull projections include occipitofrontal (OF/PA with 15–20° caudal angulation — Caldwell), fronto-occipital 30° (Towne's — for the occiput), and lateral. The occipitomental (OM, Waters') view at 45° shows the maxillary sinuses and facial bones (including orbital floor 'blow-out' and zygomatic fractures); a horizontal beam shows fluid levels. The orbitomeatal baseline (outer canthus to external auditory meatus) is the reference line for skull positioning.",
+       "keyPoints": [
+        "CT has replaced skull X-ray for head injury",
+        "OM (Waters'): facial bones and maxillary sinuses",
+        "Towne's: occiput",
+        "Orbitomeatal baseline"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A lateral cervical spine radiograph in trauma is adequate only if it shows:",
+       "options": [
+        "C1 to C4",
+        "The skull base only",
+        "The thoracic spine",
+        "The mandible",
+        "Down to the C7/T1 junction"
+       ],
+       "answerIndex": 4,
+       "explanation": "Injuries at the cervicothoracic junction are easily missed."
+      },
+      {
+       "stem": "The odontoid process (peg) is demonstrated with the:",
+       "options": [
+        "Lateral skull",
+        "Open-mouth AP view",
+        "Swimmer's view",
+        "OM view",
+        "Towne's view"
+       ],
+       "answerIndex": 1,
+       "explanation": "The open mouth removes the teeth from over C1/C2."
+      },
+      {
+       "stem": "A trauma patient in a cervical collar should:",
+       "options": [
+        "Keep the collar until spinal injury is excluded",
+        "Have the collar removed for positioning",
+        "Sit up for all views",
+        "Flex the neck for the lateral",
+        "Turn the head for obliques"
+       ],
+       "answerIndex": 0,
+       "explanation": "Moving an unstable spine risks cord injury."
+      },
+      {
+       "stem": "Oblique lumbar spine views demonstrate the pars interarticularis as the:",
+       "options": [
+        "Sail sign",
+        "Scotty dog's neck",
+        "Steeple sign",
+        "Double bubble",
+        "Light bulb"
+       ],
+       "answerIndex": 1,
+       "explanation": "A 'collar' on the Scotty dog's neck indicates spondylolysis."
+      },
+      {
+       "stem": "The occipitomental (Waters') view best shows the:",
+       "options": [
+        "Cervical spine",
+        "Maxillary sinuses and facial bones",
+        "Occipital bone",
+        "Mandibular condyles only",
+        "Pituitary fossa"
+       ],
+       "answerIndex": 1,
+       "explanation": "It projects the petrous ridges below the maxillary sinuses."
+      },
+      {
+       "stem": "Towne's (fronto-occipital 30°) view mainly demonstrates the:",
+       "options": [
+        "Zygomatic arches only",
+        "Frontal sinuses",
+        "Mandible",
+        "Nasal bones",
+        "Occipital bone"
+       ],
+       "answerIndex": 4,
+       "explanation": "The caudally angled beam shows the occiput and foramen magnum."
+      },
+      {
+       "stem": "For most head injuries today, the preferred imaging is:",
+       "options": [
+        "Plain skull radiographs",
+        "Ultrasound",
+        "Nuclear medicine",
+        "CT scan",
+        "Fluoroscopy"
+       ],
+       "answerIndex": 3,
+       "explanation": "CT shows both fractures and intracranial haemorrhage."
+      },
+      {
+       "stem": "The swimmer's view is used to demonstrate the:",
+       "options": [
+        "Temporomandibular joint",
+        "Odontoid",
+        "Coccyx",
+        "Sacrum",
+        "Cervicothoracic junction"
+       ],
+       "answerIndex": 4,
+       "explanation": "Raising one arm moves the shoulders away from C7/T1."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

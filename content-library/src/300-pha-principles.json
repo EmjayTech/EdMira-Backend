@@ -1,0 +1,99 @@
+{
+  "title": "General Principles of Pharmacology (PHA 301)",
+  "code": "PHA301",
+  "color": "#0F766E",
+  "description": "Pharmacokinetics (absorption, distribution, metabolism, excretion), pharmacodynamics, dose–response, adverse drug reactions, interactions and drug development.",
+  "for": { "300": ["PHA", "PHS", "BCH", "NUR", "PHM", "MBBS", "BDS", "CM"], "200": ["SON"] },
+  "topics": [
+    {
+      "title": "Drug Absorption and Bioavailability",
+      "summary": "Routes, membrane transport of drugs, ionisation, first-pass metabolism and bioavailability.",
+      "notes": [
+        { "h": "Absorption", "b": "Most drugs cross membranes by passive diffusion of the un-ionised, lipid-soluble form. Ionisation depends on the drug's pKa and the pH of the environment (Henderson–Hasselbalch): weak acids (aspirin) are more un-ionised in acidic environments; weak bases (morphine, amphetamine) are more un-ionised in alkaline environments. 'Ion trapping' is used in poisoning — alkalinising urine enhances excretion of weak acids such as salicylates. Absorption is affected by formulation, gut motility, food, blood flow and surface area; most oral absorption occurs in the small intestine.", "k": ["Un-ionised, lipid-soluble drugs cross membranes", "Weak acids absorbed better in acid pH", "Urinary alkalinisation for aspirin overdose"] },
+        { "h": "Bioavailability and first-pass effect", "b": "Bioavailability (F) is the fraction of an administered dose reaching the systemic circulation unchanged; it is 100% for intravenous drugs. Oral drugs absorbed from the gut pass through the portal vein and liver first; extensive first-pass (presystemic) metabolism reduces bioavailability (e.g. glyceryl trinitrate, propranolol, lidocaine, morphine). Sublingual, rectal (partly), transdermal and parenteral routes avoid or reduce first-pass metabolism. Bioavailability is calculated from the area under the plasma concentration–time curve (AUC oral ÷ AUC IV). Bioequivalence studies compare generic and innovator products.", "k": ["F = AUC(oral)/AUC(IV)", "IV bioavailability = 100%", "GTN: high first-pass → given sublingually", "Bioequivalence for generics"] }
+      ],
+      "q": [
+        ["Drugs cross cell membranes most readily when they are:", "Ionised and water-soluble", "Un-ionised and lipid-soluble", "Large proteins", "Bound to albumin", "Highly charged", 1, "Lipid-soluble un-ionised molecules diffuse through membranes."],
+        ["Aspirin (a weak acid) is mainly un-ionised in:", "Alkaline urine", "Acidic gastric juice", "Blood at pH 7.4", "Bile", "Intestinal fluid at pH 8", 1, "Weak acids are un-ionised at low pH."],
+        ["Excretion of salicylates in overdose is increased by:", "Acidifying the urine", "Alkalinising the urine", "Giving more aspirin", "Fluid restriction", "Giving antacids by mouth only", 1, "Alkaline urine ionises and traps salicylate in the tubule."],
+        ["The bioavailability of an intravenous drug is:", "0%", "50%", "100%", "Variable", "Depends on food", 2, "The whole dose enters the circulation."],
+        ["Glyceryl trinitrate is given sublingually because it:", "Is inactive orally due to extensive first-pass metabolism", "Tastes bad", "Is too large", "Irritates the stomach", "Is a protein", 0, "Sublingual absorption bypasses the liver."],
+        ["Bioavailability is calculated as:", "Dose ÷ volume", "AUC oral ÷ AUC intravenous", "Cmax ÷ Tmax", "Half-life × clearance", "Km ÷ Vmax", 1, "Comparing areas under the curve gives the fraction absorbed unchanged."],
+        ["Most oral drug absorption takes place in the:", "Mouth", "Stomach", "Small intestine", "Colon", "Rectum", 2, "The small intestine has the largest surface area."],
+        ["Studies comparing a generic drug with the original brand for rate and extent of absorption are:", "Phase I trials", "Bioequivalence studies", "Toxicity studies", "Post-marketing surveillance", "Pharmacogenomic studies", 1, "Bioequivalence confirms comparable AUC and Cmax."]
+      ]
+    },
+    {
+      "title": "Distribution, Metabolism and Excretion",
+      "summary": "Volume of distribution, protein binding, phase I and II metabolism, enzyme induction and renal excretion.",
+      "notes": [
+        { "h": "Distribution", "b": "Volume of distribution (Vd) = amount of drug in the body ÷ plasma concentration; it is a theoretical volume. Drugs highly bound to plasma proteins (warfarin, phenytoin — to albumin) or confined to plasma have small Vd; lipid-soluble drugs concentrated in tissues (chloroquine, digoxin, amiodarone) have very large Vd. Only free (unbound) drug is active and can be metabolised or excreted; displacement from protein binding and low albumin increase free drug. The blood–brain barrier excludes many polar drugs; the placenta allows most lipid-soluble drugs to reach the fetus.", "k": ["Vd = amount / plasma concentration", "Only free drug is active", "Chloroquine has a huge Vd", "Low albumin ↑ free drug"] },
+        { "h": "Metabolism and excretion", "b": "The liver makes drugs more water-soluble. Phase I reactions (oxidation, reduction, hydrolysis — mainly cytochrome P450, especially CYP3A4) introduce or expose functional groups. Phase II reactions conjugate drugs with glucuronic acid, sulphate, acetyl (N-acetyltransferase — slow and fast acetylators of isoniazid), glutathione or glycine. Enzyme inducers (rifampicin, carbamazepine, phenytoin, phenobarbital, chronic alcohol, St John's wort) reduce levels of other drugs (e.g. contraceptive failure, reduced antiretroviral levels). Inhibitors (ketoconazole, erythromycin/clarithromycin, ciprofloxacin, grapefruit juice, cimetidine, ritonavir) raise levels and toxicity. Kidneys excrete drugs by glomerular filtration, active tubular secretion (penicillin, blocked by probenecid) and reduced by passive reabsorption.", "k": ["Phase I: CYP450; Phase II: conjugation", "Inducers: rifampicin, carbamazepine, phenytoin", "Inhibitors: ketoconazole, macrolides, grapefruit", "Probenecid blocks penicillin secretion"] }
+      ],
+      "q": [
+        ["A drug with a very large volume of distribution is mainly:", "Confined to plasma", "Concentrated in tissues", "Bound to albumin in plasma", "Water-soluble and ionised", "Excreted unchanged immediately", 1, "Large Vd implies extensive tissue uptake (e.g. chloroquine)."],
+        ["Only the ___ fraction of a drug is pharmacologically active.", "Protein-bound", "Free (unbound)", "Metabolised", "Excreted", "Conjugated", 1, "Bound drug cannot reach receptors."],
+        ["Most phase I drug metabolism is carried out by:", "Monoamine oxidase", "Cytochrome P450 enzymes", "Glucuronyl transferase", "Cholinesterase", "Alcohol dehydrogenase", 1, "CYP450 enzymes, especially CYP3A4."],
+        ["Glucuronidation is an example of:", "Phase I oxidation", "Phase II conjugation", "Renal excretion", "Hydrolysis", "Reduction", 1, "Conjugation with glucuronic acid is a phase II reaction."],
+        ["Rifampicin taken with the oral contraceptive pill can cause contraceptive failure because rifampicin:", "Inhibits CYP450", "Induces hepatic enzymes", "Binds the pill in the gut", "Increases absorption", "Blocks oestrogen receptors", 1, "Enzyme induction increases oestrogen metabolism."],
+        ["Which is a potent enzyme inhibitor?", "Rifampicin", "Carbamazepine", "Ketoconazole", "Phenytoin", "Phenobarbital", 2, "Azole antifungals inhibit CYP3A4."],
+        ["Probenecid increases penicillin levels by:", "Increasing absorption", "Blocking its renal tubular secretion", "Inhibiting its metabolism", "Displacing it from albumin", "Increasing its volume of distribution", 1, "It competes for the organic anion transporter."],
+        ["Slow acetylators are at increased risk of toxicity from:", "Paracetamol", "Isoniazid", "Penicillin", "Metformin", "Amoxicillin", 1, "Isoniazid is inactivated by N-acetyltransferase."]
+      ]
+    },
+    {
+      "title": "Pharmacokinetic Parameters and Dosing",
+      "summary": "Half-life, clearance, steady state, loading and maintenance doses, and zero-order kinetics.",
+      "notes": [
+        { "h": "Half-life and clearance", "b": "Clearance (CL) is the volume of plasma cleared of drug per unit time. Elimination half-life t½ = 0.693 × Vd / CL. Most drugs follow first-order kinetics: a constant fraction is eliminated per unit time, so t½ is constant. Some drugs follow zero-order (saturation) kinetics at usual or high doses: a constant amount is eliminated per unit time — ethanol, phenytoin and high-dose aspirin — so small dose increases may cause large rises in plasma levels. It takes about 4–5 half-lives to reach steady state with repeated dosing, and about 4–5 half-lives for a drug to be almost completely eliminated.", "k": ["t½ = 0.693 × Vd / CL", "First-order: constant fraction", "Zero-order: ethanol, phenytoin, high-dose aspirin", "Steady state after 4–5 half-lives"] },
+        { "h": "Dosing regimens", "b": "A loading dose rapidly achieves the target concentration: loading dose = target concentration × Vd (used for drugs with long half-lives, e.g. digoxin, amiodarone, loading doses of artemether–lumefantrine or quinine in severe malaria). The maintenance dose rate = target concentration × clearance, balancing elimination. In renal impairment, doses of renally cleared drugs (gentamicin, vancomycin, metformin, digoxin) must be reduced. Therapeutic drug monitoring is used for drugs with a narrow therapeutic index (digoxin, lithium, phenytoin, aminoglycosides, vancomycin).", "k": ["Loading dose = Cp × Vd", "Maintenance rate = Cp × CL", "Reduce renally cleared drugs in kidney disease", "TDM for narrow therapeutic index drugs"] }
+      ],
+      "q": [
+        ["Elimination half-life is calculated as:", "0.693 × CL / Vd", "0.693 × Vd / CL", "Vd × CL", "Dose / Vd", "CL / Vd", 1, "t½ = 0.693 × Vd / CL."],
+        ["With first-order kinetics:", "A constant amount is eliminated per hour", "A constant fraction is eliminated per unit time", "Half-life increases with dose", "Elimination is saturated", "Clearance is zero", 1, "Rate is proportional to concentration."],
+        ["Which drug shows zero-order elimination at usual doses?", "Paracetamol", "Ethanol", "Amoxicillin", "Gentamicin", "Metformin", 1, "Alcohol dehydrogenase is saturated at low concentrations."],
+        ["Approximately how many half-lives are needed to reach steady state?", "1", "2", "4–5", "10", "20", 2, "About 94–97% of steady state is reached in 4–5 half-lives."],
+        ["A loading dose is calculated as:", "Target concentration × clearance", "Target concentration × volume of distribution", "Half-life × dose", "Clearance ÷ Vd", "Bioavailability × clearance", 1, "It fills the Vd to the target concentration quickly."],
+        ["A drug has t½ of 12 hours. How long until it is almost completely eliminated?", "12 hours", "24 hours", "About 2–2.5 days", "1 week", "1 month", 2, "4–5 half-lives ≈ 48–60 hours."],
+        ["Therapeutic drug monitoring is most important for drugs with:", "A wide therapeutic index", "A narrow therapeutic index", "Short half-lives only", "No side effects", "Topical use only", 1, "Small changes in level may cause toxicity or failure."],
+        ["The dose of gentamicin should be reduced in:", "Liver disease only", "Renal impairment", "Obesity only", "Hypertension", "Asthma", 1, "Gentamicin is cleared by the kidneys."]
+      ]
+    },
+    {
+      "title": "Pharmacodynamics: Receptors and Dose–Response",
+      "summary": "Drug targets, agonists and antagonists, potency and efficacy, therapeutic index and tolerance.",
+      "notes": [
+        { "h": "Receptors and drug action", "b": "Drugs act on receptors, enzymes, ion channels and transporters. Receptor types: ligand-gated ion channels (nicotinic, GABA-A — milliseconds), G-protein-coupled receptors (muscarinic, adrenergic, opioid — seconds), enzyme-linked receptors (insulin — minutes) and nuclear receptors (steroids, thyroid hormone — hours). An agonist binds and activates a receptor (affinity + intrinsic activity); a full agonist gives the maximal response; a partial agonist gives a submaximal response even at full occupancy and can antagonise full agonists (e.g. buprenorphine). An inverse agonist produces the opposite effect of an agonist. Antagonists have affinity but no efficacy: competitive (reversible) antagonists shift the dose–response curve to the right without reducing maximum (e.g. naloxone, atropine); irreversible/non-competitive antagonists reduce the maximum response (e.g. phenoxybenzamine).", "k": ["Agonist: affinity + efficacy", "Partial agonist: submaximal response (buprenorphine)", "Competitive antagonist: parallel right shift", "Non-competitive: lowers maximum"] },
+        { "h": "Dose–response", "b": "Potency is the amount of drug needed to produce a given effect (EC50); efficacy is the maximum effect achievable (Emax) — clinically, efficacy usually matters more. The therapeutic index (TI) = TD50/ED50 (or LD50/ED50); a narrow TI (warfarin, digoxin, lithium, theophylline, aminoglycosides) demands careful dosing. Tolerance is reduced response with repeated use (opioids, nitrates, benzodiazepines); tachyphylaxis is rapid tolerance (ephedrine). Receptor down-regulation follows chronic agonist exposure; up-regulation follows chronic antagonist use (rebound hypertension/tachycardia on abrupt β-blocker withdrawal).", "k": ["Potency: EC50; efficacy: Emax", "TI = TD50/ED50", "Narrow TI: warfarin, digoxin, lithium", "Abrupt β-blocker withdrawal → rebound"] }
+      ],
+      "q": [
+        ["A drug that binds a receptor but produces no response and blocks the agonist is a/an:", "Full agonist", "Partial agonist", "Antagonist", "Inverse agonist", "Prodrug", 2, "Antagonists have affinity but no efficacy."],
+        ["A competitive antagonist shifts the agonist dose–response curve:", "Downward, reducing the maximum", "To the right without reducing the maximum", "To the left", "Upward", "Not at all", 1, "Higher agonist doses can overcome competitive blockade."],
+        ["Naloxone reverses opioid overdose by acting as a/an:", "Opioid agonist", "Competitive opioid antagonist", "Partial agonist", "Enzyme inducer", "Non-competitive antagonist", 1, "It competitively displaces opioids from μ receptors."],
+        ["The maximum response a drug can produce is its:", "Potency", "Efficacy", "Affinity", "Therapeutic index", "Half-life", 1, "Efficacy (Emax) is the ceiling of the response."],
+        ["The therapeutic index is calculated as:", "ED50/TD50", "TD50/ED50", "Dose × half-life", "Vd/CL", "Emax/EC50", 1, "A higher TI means a wider safety margin."],
+        ["Which drug has a narrow therapeutic index?", "Amoxicillin", "Paracetamol at normal doses", "Lithium", "Vitamin C", "Omeprazole", 2, "Lithium toxicity occurs close to therapeutic levels."],
+        ["Buprenorphine is an example of a:", "Full μ-opioid agonist", "Partial μ-opioid agonist", "Opioid antagonist", "Inverse agonist", "Enzyme inhibitor", 1, "It produces a ceiling effect and can precipitate withdrawal."],
+        ["Receptors that act fastest (milliseconds) are:", "Nuclear receptors", "Enzyme-linked receptors", "Ligand-gated ion channels", "G-protein-coupled receptors", "Intracellular steroid receptors", 2, "Ion channel opening changes membrane potential almost instantly."]
+      ]
+    },
+    {
+      "title": "Adverse Drug Reactions, Interactions and Drug Development",
+      "summary": "Types of ADRs, pharmacovigilance, drugs in pregnancy, drug interactions and clinical trial phases.",
+      "notes": [
+        { "h": "Adverse drug reactions", "b": "Type A (augmented) reactions are dose-related extensions of the drug's known pharmacology and are common and predictable (e.g. bleeding with warfarin, hypoglycaemia with insulin). Type B (bizarre) reactions are unpredictable and not dose-related, including allergy and idiosyncrasy (e.g. anaphylaxis to penicillin, Stevens–Johnson syndrome with sulphonamides or nevirapine, haemolysis with primaquine in G6PD deficiency). Other types: C (chronic — steroid-induced osteoporosis), D (delayed — teratogenesis, carcinogenesis), E (end-of-use — withdrawal), F (failure of therapy). Teratogens include thalidomide, isotretinoin, warfarin, valproate, phenytoin, ACE inhibitors, tetracyclines and methotrexate. In Nigeria, suspected ADRs are reported to NAFDAC's pharmacovigilance centre using the yellow form or the Med Safety app.", "k": ["Type A: dose-related, predictable", "Type B: bizarre, allergic, idiosyncratic", "Teratogens: thalidomide, valproate, isotretinoin, warfarin", "Report ADRs to NAFDAC"] },
+        { "h": "Interactions and drug development", "b": "Pharmacokinetic interactions alter absorption (antacids/iron chelating tetracyclines), protein binding, metabolism (inducers/inhibitors) or excretion. Pharmacodynamic interactions are additive, synergistic or antagonistic at the effect level (e.g. alcohol with benzodiazepines → respiratory depression; NSAIDs reduce the effect of antihypertensives). Drug development: preclinical studies (in vitro and animal); Phase I (small numbers of healthy volunteers — safety, pharmacokinetics); Phase II (small numbers of patients — efficacy and dosing); Phase III (large randomised controlled trials — confirm efficacy and safety before licensing); Phase IV (post-marketing surveillance — rare and long-term effects).", "k": ["PK interactions vs PD interactions", "Phase I: healthy volunteers, safety", "Phase III: large RCTs before approval", "Phase IV: post-marketing surveillance"] }
+      ],
+      "q": [
+        ["Bleeding in a patient taking too much warfarin is a Type ___ adverse reaction.", "A", "B", "C", "D", "E", 0, "It is a predictable, dose-related extension of the drug's action."],
+        ["Anaphylaxis to penicillin is an example of a Type ___ reaction.", "A", "B", "C", "D", "F", 1, "Allergic reactions are unpredictable and not dose-related."],
+        ["Which drug is a well-known teratogen?", "Paracetamol", "Isotretinoin", "Amoxicillin", "Insulin", "Folic acid", 1, "Isotretinoin causes severe birth defects."],
+        ["Suspected adverse drug reactions in Nigeria should be reported to:", "NUC", "NAFDAC's pharmacovigilance centre", "CBN", "INEC", "NCC", 1, "NAFDAC coordinates national pharmacovigilance."],
+        ["Tetracycline absorption is reduced when taken with antacids because of:", "Enzyme induction", "Chelation with metal ions", "Protein-binding displacement", "Renal competition", "Pharmacodynamic antagonism", 1, "Calcium, magnesium, aluminium and iron chelate tetracyclines."],
+        ["Alcohol taken with diazepam causes dangerous sedation through:", "A pharmacokinetic interaction only", "A pharmacodynamic (additive) interaction", "Chelation", "Enzyme induction only", "Reduced absorption", 1, "Both depress the CNS."],
+        ["Phase I clinical trials are usually conducted in:", "Large numbers of patients", "Small numbers of healthy volunteers", "Animals only", "The general population after marketing", "Children only", 1, "Phase I assesses safety and pharmacokinetics."],
+        ["Rare adverse effects are most likely detected during:", "Phase I", "Phase II", "Phase III", "Phase IV (post-marketing surveillance)", "Preclinical studies", 3, "Large numbers of real-world users reveal rare reactions."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+ "courses": [
+  {
+   "title": "Medical-Surgical Nursing II",
+   "code": "NSC421",
+   "color": "#DB2777",
+   "description": "Nursing management of neurological, renal and urinary, endocrine and metabolic, gastrointestinal and hepatic, and musculoskeletal conditions and burns.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Neurological Nursing",
+     "order": 1,
+     "summary": "Neurological observations, raised intracranial pressure, stroke care, seizures and spinal injury.",
+     "material": [
+      {
+       "heading": "Assessment and raised ICP",
+       "body": "Neurological observations include the Glasgow Coma Scale (eye opening 1–4, verbal response 1–5, motor response 1–6; total 3–15; ≤ 8 indicates coma and need for airway protection), pupil size and reaction, limb power, and vital signs. Signs of raised intracranial pressure: headache, vomiting, falling GCS, papilloedema, and the late Cushing's triad (hypertension with widening pulse pressure, bradycardia and irregular respiration); a unilateral fixed dilated pupil suggests herniation. Nursing measures: head elevation 30°, neutral neck alignment, avoid hypoxia and hypercapnia, control fever and seizures, avoid fluid overload, and give osmotherapy (mannitol) as prescribed.",
+       "keyPoints": [
+        "GCS 3–15; ≤ 8 = coma",
+        "Cushing's triad: ↑BP, ↓HR, irregular breathing",
+        "Head up 30°, neutral neck",
+        "Fixed dilated pupil → herniation"
+       ]
+      },
+      {
+       "heading": "Stroke, seizures and spinal injury",
+       "body": "Stroke: recognise with FAST (Face drooping, Arm weakness, Speech difficulty, Time to seek help); CT distinguishes ischaemic from haemorrhagic stroke. Nursing: airway, swallowing assessment before oral intake (aspiration pneumonia risk), positioning and turning, early mobilisation, pressure-area care, bladder and bowel care, BP management, prevention of DVT, and rehabilitation with physiotherapy and speech therapy. Seizures: protect from injury, time the seizure, recovery position after, never restrain or put objects in the mouth; status epilepticus (> 5 minutes) needs benzodiazepines. Spinal cord injury: immobilise and log-roll; watch for respiratory compromise (high cervical injuries), neurogenic shock (hypotension with bradycardia), autonomic dysreflexia (in lesions above T6 — severe hypertension triggered by a full bladder or constipation), pressure ulcers and urinary retention.",
+       "keyPoints": [
+        "FAST for stroke",
+        "Swallow screen before feeding",
+        "Seizure: protect, time, recovery position",
+        "Log-roll spinal patients",
+        "Autonomic dysreflexia: check bladder/bowel"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A Glasgow Coma Scale score of 8 or less indicates:",
+       "options": [
+        "Full consciousness",
+        "Coma requiring airway protection",
+        "Mild confusion",
+        "Anxiety",
+        "Normal sleep"
+       ],
+       "answerIndex": 1,
+       "explanation": "GCS ≤ 8 usually requires airway protection."
+      },
+      {
+       "stem": "The maximum GCS score is:",
+       "options": [
+        "10",
+        "12",
+        "15",
+        "20",
+        "5"
+       ],
+       "answerIndex": 2,
+       "explanation": "Eyes 4 + verbal 5 + motor 6 = 15."
+      },
+      {
+       "stem": "Cushing's triad of raised intracranial pressure includes hypertension, bradycardia and:",
+       "options": [
+        "Irregular respirations",
+        "Hypoglycaemia",
+        "Tachycardia",
+        "Diarrhoea",
+        "Fever"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a late sign of impending herniation."
+      },
+      {
+       "stem": "For a patient with raised intracranial pressure, the head of the bed should be:",
+       "options": [
+        "Flat",
+        "Turned fully to one side",
+        "Lowered below the feet",
+        "Elevated about 30°",
+        "Elevated 90°"
+       ],
+       "answerIndex": 3,
+       "explanation": "This promotes venous drainage."
+      },
+      {
+       "stem": "In FAST for stroke recognition, 'A' stands for:",
+       "options": [
+        "Alertness",
+        "Aphasia",
+        "Airway",
+        "Ataxia",
+        "Arm weakness"
+       ],
+       "answerIndex": 4,
+       "explanation": "Face, Arm, Speech, Time."
+      },
+      {
+       "stem": "Before a stroke patient is given oral food, the nurse should:",
+       "options": [
+        "Lay the patient flat",
+        "Give a large meal",
+        "Perform a swallowing assessment",
+        "Give fluids quickly",
+        "Wait a week without feeding"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dysphagia risks aspiration pneumonia."
+      },
+      {
+       "stem": "Spinal injury patients are turned using the:",
+       "options": [
+        "Fireman's lift",
+        "Recovery position immediately",
+        "Log-roll technique",
+        "Sitting method",
+        "Drag technique"
+       ],
+       "answerIndex": 2,
+       "explanation": "Log-rolling keeps the spine aligned."
+      },
+      {
+       "stem": "Sudden severe hypertension and headache in a patient with a T4 spinal cord injury suggest:",
+       "options": [
+        "Autonomic dysreflexia",
+        "Meningitis",
+        "Stroke",
+        "Neurogenic shock",
+        "Hypoglycaemia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Check for a full bladder or constipation."
+      }
+     ]
+    },
+    {
+     "title": "Renal and Urinary Nursing",
+     "order": 2,
+     "summary": "Acute kidney injury and CKD care, dialysis, urinary catheter care and urinary tract infection.",
+     "material": [
+      {
+       "heading": "Kidney disease",
+       "body": "Nursing in acute kidney injury: accurate fluid balance and daily weights, monitoring urine output (catheterise if needed), vital signs, electrolytes (especially potassium — watch for hyperkalaemia), avoiding nephrotoxic drugs (NSAIDs, aminoglycosides, contrast), and recognising fluid overload. Chronic kidney disease: control BP and diabetes, dietary advice (restrict salt, potassium, phosphate and fluid as advised), anaemia management (erythropoietin, iron), vaccination (hepatitis B), and psychological support. Haemodialysis via an arteriovenous fistula — protect the fistula arm: no BP measurements, venepuncture or tight clothing; check for thrill and bruit daily. Peritoneal dialysis requires strict aseptic technique to prevent peritonitis (cloudy effluent is a warning sign).",
+       "keyPoints": [
+        "Daily weights and fluid balance",
+        "Watch potassium",
+        "Avoid nephrotoxins",
+        "Protect AV fistula arm; check thrill",
+        "PD: cloudy effluent → peritonitis"
+       ]
+      },
+      {
+       "heading": "Catheters and UTI",
+       "body": "Urinary catheterisation should be performed only when necessary, with aseptic technique, closed drainage system, the bag kept below bladder level and off the floor, and daily review of the need for the catheter (catheter-associated UTI is one of the commonest hospital infections). Urinary tract infection: symptoms of frequency, urgency, dysuria and suprapubic pain (cystitis), or fever, loin pain and rigors (pyelonephritis); obtain a midstream urine for culture before antibiotics; encourage fluids. Benign prostatic hyperplasia causes lower urinary tract symptoms and retention in older men; post-prostatectomy care includes continuous bladder irrigation, monitoring for clots and bleeding, and catheter care.",
+       "keyPoints": [
+        "Catheterise only when necessary",
+        "Closed system; bag below bladder",
+        "Review catheter need daily",
+        "MSU before antibiotics",
+        "Continuous bladder irrigation after prostatectomy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most useful daily measurement to monitor fluid status in renal patients is:",
+       "options": [
+        "Temperature only",
+        "Height",
+        "Body weight",
+        "Hair growth",
+        "Pupil size"
+       ],
+       "answerIndex": 2,
+       "explanation": "Weight changes reflect fluid gain or loss."
+      },
+      {
+       "stem": "A patient with AKI should avoid:",
+       "options": [
+        "NSAIDs such as ibuprofen",
+        "Normal saline when prescribed",
+        "Paracetamol in normal doses",
+        "Oxygen",
+        "Blood tests"
+       ],
+       "answerIndex": 0,
+       "explanation": "NSAIDs reduce renal blood flow."
+      },
+      {
+       "stem": "On the arm with an arteriovenous fistula for haemodialysis, the nurse should NOT:",
+       "options": [
+        "Keep it clean",
+        "Listen for a bruit",
+        "Inspect the skin",
+        "Measure blood pressure",
+        "Check the thrill"
+       ],
+       "answerIndex": 3,
+       "explanation": "Compression can clot the fistula."
+      },
+      {
+       "stem": "Cloudy effluent in a patient on peritoneal dialysis suggests:",
+       "options": [
+        "Hyperglycaemia",
+        "Normal drainage",
+        "Peritonitis",
+        "Dehydration",
+        "Good dialysis"
+       ],
+       "answerIndex": 2,
+       "explanation": "It needs urgent culture and treatment."
+      },
+      {
+       "stem": "A urinary drainage bag should be kept:",
+       "options": [
+        "Empty and clamped always",
+        "On the patient's chest",
+        "Disconnected at night",
+        "Below the level of the bladder and off the floor",
+        "Above the level of the bladder"
+       ],
+       "answerIndex": 3,
+       "explanation": "This prevents backflow and contamination."
+      },
+      {
+       "stem": "A key measure to prevent catheter-associated UTI is:",
+       "options": [
+        "Changing catheters daily",
+        "Irrigating routinely",
+        "Opening the system frequently",
+        "Removing the catheter as soon as it is no longer needed",
+        "Placing the bag on the floor"
+       ],
+       "answerIndex": 3,
+       "explanation": "Duration of catheterisation is the main risk factor."
+      },
+      {
+       "stem": "Fever, loin pain and rigors in a patient with UTI suggest:",
+       "options": [
+        "Simple cystitis",
+        "Urethritis only",
+        "Normal findings",
+        "Prostatitis only",
+        "Pyelonephritis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Upper urinary tract infection."
+      },
+      {
+       "stem": "After transurethral resection of the prostate, bladder irrigation is used to:",
+       "options": [
+        "Treat hypertension",
+        "Reduce fever",
+        "Prevent clot retention",
+        "Stop urine production",
+        "Increase pain"
+       ],
+       "answerIndex": 2,
+       "explanation": "Continuous irrigation washes out clots."
+      }
+     ]
+    },
+    {
+     "title": "Endocrine and Metabolic Nursing",
+     "order": 3,
+     "summary": "Diabetes care, DKA and hypoglycaemia, diabetic foot, and thyroid disorders.",
+     "material": [
+      {
+       "heading": "Diabetes",
+       "body": "Diabetes education includes diet, exercise, medication (insulin technique and storage, oral agents), self-monitoring of blood glucose, recognising and treating hypoglycaemia and hyperglycaemia, sick-day rules and foot care. Diabetic ketoacidosis (usually type 1): hyperglycaemia, ketonaemia/ketonuria, metabolic acidosis, dehydration, Kussmaul breathing and fruity breath; nursing care involves fluid resuscitation (normal saline), IV insulin infusion, hourly glucose and regular potassium monitoring (potassium falls with insulin — replace), fluid balance and neurological observations. Hyperosmolar hyperglycaemic state occurs in type 2 diabetes with severe dehydration. Hypoglycaemia (< 4 mmol/L): fast-acting glucose if conscious; IV dextrose or IM glucagon if not.",
+       "keyPoints": [
+        "DKA: fluids, IV insulin, potassium replacement",
+        "Monitor glucose hourly in DKA",
+        "HHS in type 2 diabetes",
+        "Hypoglycaemia: glucose if conscious; IV dextrose/glucagon if not"
+       ]
+      },
+      {
+       "heading": "Diabetic foot and thyroid",
+       "body": "Diabetic foot ulcers result from neuropathy, ischaemia and infection and are a leading cause of amputation in Nigeria. Prevention: daily foot inspection (use a mirror), washing and drying between toes, moisturising (not between toes), cutting nails straight, never walking barefoot, well-fitting footwear, and prompt attention to injuries; avoid hot water bottles and home 'surgery' on corns. Thyroid: hypothyroidism — fatigue, weight gain, cold intolerance; lifelong levothyroxine. Hyperthyroidism — weight loss, heat intolerance, tremor, tachycardia; antithyroid drugs, radioiodine or surgery. After thyroidectomy, monitor for haemorrhage (neck swelling, stridor — keep suture removal equipment at the bedside), hypocalcaemia (tingling, tetany — parathyroid damage) and recurrent laryngeal nerve injury (hoarseness); thyroid storm is an emergency.",
+       "keyPoints": [
+        "Daily foot inspection; never barefoot",
+        "Foot ulcers → amputation",
+        "Post-thyroidectomy: bleeding, hypocalcaemia, hoarseness",
+        "Thyroid storm is an emergency"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In DKA, which electrolyte must be closely monitored and often replaced once insulin is started?",
+       "options": [
+        "Calcium",
+        "Potassium",
+        "Magnesium only",
+        "Chloride",
+        "Sodium"
+       ],
+       "answerIndex": 1,
+       "explanation": "Insulin drives potassium into cells, causing hypokalaemia."
+      },
+      {
+       "stem": "Kussmaul breathing in DKA is a compensation for:",
+       "options": [
+        "Alkalosis",
+        "Metabolic acidosis",
+        "Respiratory acidosis",
+        "Hypoxia only",
+        "Anxiety"
+       ],
+       "answerIndex": 1,
+       "explanation": "Deep breathing blows off CO2."
+      },
+      {
+       "stem": "The first fluid used to resuscitate a patient with DKA is usually:",
+       "options": [
+        "Water by mouth",
+        "0.9% sodium chloride",
+        "50% dextrose",
+        "Blood",
+        "5% dextrose"
+       ],
+       "answerIndex": 1,
+       "explanation": "Isotonic saline corrects dehydration."
+      },
+      {
+       "stem": "A diabetic patient should be advised to:",
+       "options": [
+        "Walk barefoot to toughen feet",
+        "Use hot water bottles on numb feet",
+        "Wear tight shoes",
+        "Cut corns with a razor",
+        "Inspect their feet daily"
+       ],
+       "answerIndex": 4,
+       "explanation": "Early detection prevents ulcers."
+      },
+      {
+       "stem": "Tingling around the mouth and muscle spasms after thyroidectomy suggest:",
+       "options": [
+        "Hyperkalaemia",
+        "Hypothyroidism",
+        "Hypernatraemia",
+        "Hypocalcaemia",
+        "Hyperglycaemia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Parathyroid glands may be damaged or removed."
+      },
+      {
+       "stem": "Hoarseness after thyroidectomy suggests injury to the:",
+       "options": [
+        "Hypoglossal nerve",
+        "Phrenic nerve",
+        "Recurrent laryngeal nerve",
+        "Vagus at the abdomen",
+        "Facial nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "It supplies the vocal cords."
+      },
+      {
+       "stem": "After thyroidectomy, which equipment should be kept at the bedside in case of airway compromise from bleeding?",
+       "options": [
+        "Suture/clip removal set",
+        "Wheelchair",
+        "Urinary catheter",
+        "Hot water bottle",
+        "Nebuliser only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Releasing a haematoma can relieve airway compression."
+      },
+      {
+       "stem": "An unconscious diabetic patient with low blood glucose should receive:",
+       "options": [
+        "Oral sugar forced into the mouth",
+        "Metformin",
+        "Insulin",
+        "IV dextrose or IM glucagon",
+        "Nothing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Never give oral fluids to an unconscious patient."
+      }
+     ]
+    },
+    {
+     "title": "Gastrointestinal and Hepatic Nursing",
+     "order": 4,
+     "summary": "GI bleeding, bowel surgery and stoma care, liver disease, and nasogastric tube care.",
+     "material": [
+      {
+       "heading": "GI conditions",
+       "body": "Upper GI bleeding (haematemesis, melaena) from peptic ulcers or oesophageal varices: assess for shock, insert large-bore cannulae, send blood for grouping and cross-match, keep nil by mouth, monitor vital signs and output, and prepare for endoscopy; give PPIs, and for variceal bleeding, vasoactive drugs (terlipressin/octreotide) and antibiotics as prescribed. Intestinal obstruction: nil by mouth, nasogastric decompression ('drip and suck'), IV fluids, monitoring. Stoma care after colostomy or ileostomy: observe stoma colour (healthy stoma is pink/red and moist; dusky or black suggests ischaemia), measure and fit appliances correctly, protect peristomal skin, monitor output (ileostomy output is liquid and high — risk of dehydration), and provide psychological support and teaching. Typhoid perforation and appendicitis are common surgical emergencies in Nigeria.",
+       "keyPoints": [
+        "Upper GI bleed: resuscitate, cross-match, NBM",
+        "Obstruction: drip and suck",
+        "Healthy stoma: pink, moist",
+        "Ileostomy: high output, dehydration risk"
+       ]
+      },
+      {
+       "heading": "Liver disease and tube care",
+       "body": "Liver cirrhosis (hepatitis B and C, alcohol) causes ascites, jaundice, bleeding tendency and hepatic encephalopathy. Nursing care: monitor weight and abdominal girth, fluid and salt restriction as prescribed, diuretics (spironolactone), care during paracentesis, lactulose to reduce ammonia (aim for 2–3 soft stools daily), avoid sedatives, observe for confusion and bleeding, and nutritional support. Hepatitis B is highly prevalent in Nigeria — staff vaccination and standard precautions are essential. Nasogastric tube care: confirm position before use (aspirate pH ≤ 5.5 or X-ray), keep the head elevated during feeds, flush tubes, and monitor for aspiration and tube displacement.",
+       "keyPoints": [
+        "Monitor weight and abdominal girth",
+        "Lactulose for encephalopathy",
+        "Avoid sedatives in liver failure",
+        "Hepatitis B vaccination for staff",
+        "NG position: pH ≤ 5.5 or X-ray"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Black, tarry stools (melaena) indicate bleeding from the:",
+       "options": [
+        "Skin",
+        "Bladder",
+        "Rectum",
+        "Anus",
+        "Upper gastrointestinal tract"
+       ],
+       "answerIndex": 4,
+       "explanation": "Digested blood from the upper GI tract turns black."
+      },
+      {
+       "stem": "The management of intestinal obstruction often summarised as 'drip and suck' means:",
+       "options": [
+        "Oral fluids and laxatives",
+        "Blood transfusion and suction of wounds",
+        "Antibiotics only",
+        "Enemas and diuretics",
+        "IV fluids and nasogastric decompression"
+       ],
+       "answerIndex": 4,
+       "explanation": "It rests the bowel while correcting fluids."
+      },
+      {
+       "stem": "A healthy stoma should look:",
+       "options": [
+        "Grey",
+        "Pink or red and moist",
+        "Black and dry",
+        "Blue and swollen",
+        "White"
+       ],
+       "answerIndex": 1,
+       "explanation": "Dusky or black stomas suggest ischaemia."
+      },
+      {
+       "stem": "Patients with a new ileostomy are at particular risk of:",
+       "options": [
+        "Hypertension",
+        "Weight gain",
+        "Constipation",
+        "Dehydration from high liquid output",
+        "Hyperglycaemia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Ileostomy output is liquid and electrolyte-rich."
+      },
+      {
+       "stem": "Lactulose is given in hepatic encephalopathy to:",
+       "options": [
+        "Increase ammonia absorption",
+        "Reduce ammonia absorption and produce soft stools",
+        "Stop bleeding",
+        "Raise blood pressure",
+        "Treat ascites"
+       ],
+       "answerIndex": 1,
+       "explanation": "It acidifies the colon and speeds transit."
+      },
+      {
+       "stem": "In cirrhosis with ascites, the nurse should monitor:",
+       "options": [
+        "Shoe size",
+        "Hair loss",
+        "Height",
+        "Daily weight and abdominal girth",
+        "Eye colour only"
+       ],
+       "answerIndex": 3,
+       "explanation": "These track fluid accumulation."
+      },
+      {
+       "stem": "Sedatives should be avoided in patients with liver failure because they can:",
+       "options": [
+        "Precipitate hepatic encephalopathy",
+        "Reduce ascites",
+        "Cure jaundice",
+        "Improve sleep safely",
+        "Stop bleeding"
+       ],
+       "answerIndex": 0,
+       "explanation": "Impaired metabolism leads to accumulation."
+      },
+      {
+       "stem": "Before using a nasogastric tube for feeding, correct placement is confirmed by:",
+       "options": [
+        "Blowing air and listening only",
+        "Measuring blood pressure",
+        "Looking at the tube colour",
+        "Aspirate pH ≤ 5.5 or chest X-ray",
+        "Asking the patient"
+       ],
+       "answerIndex": 3,
+       "explanation": "Whoosh tests are unreliable."
+      }
+     ]
+    },
+    {
+     "title": "Musculoskeletal Nursing and Burns",
+     "order": 5,
+     "summary": "Fracture care, traction and casts, compartment syndrome, and burns assessment and management.",
+     "material": [
+      {
+       "heading": "Orthopaedic nursing",
+       "body": "Fracture care: immobilisation (splints, casts, traction, internal or external fixation), pain control and neurovascular observations of the limb — the 5 Ps (pain, pallor, pulselessness, paraesthesia, paralysis) plus capillary refill and swelling. Compartment syndrome (raised pressure within a closed fascial compartment, e.g. after tibial fractures or tight casts) presents with pain out of proportion to the injury and pain on passive stretching — an emergency requiring release of dressings/casts and urgent fasciotomy. Cast care: keep dry, elevate the limb, do not insert objects under the cast, report tightness or odour. Traction: maintain alignment, weights hanging freely, pin-site care (external fixators). Complications of immobility: DVT, pressure ulcers, chest infection, constipation. Traditional bone setters are widely used in Nigeria and can cause complications such as limb gangrene from tight splints.",
+       "keyPoints": [
+        "Neurovascular checks: 5 Ps",
+        "Compartment syndrome: pain on passive stretch → fasciotomy",
+        "Keep casts dry; elevate",
+        "Traction weights hang freely",
+        "Traditional bone setter complications"
+       ]
+      },
+      {
+       "heading": "Burns",
+       "body": "Burns are assessed by depth (superficial/epidermal, partial thickness, full thickness — painless, leathery, white or charred) and extent as % total body surface area (TBSA) using the Rule of Nines in adults (head 9%, each arm 9%, front of trunk 18%, back 18%, each leg 18%, perineum 1%) or the patient's palm (≈ 1% TBSA) for small burns; children have relatively larger heads (Lund and Browder chart). First aid: stop the burning, cool with running water for 20 minutes, cover with cling film. Adults with > 15% TBSA (children > 10%) need IV fluids: the Parkland formula — 4 mL × weight (kg) × %TBSA of Ringer's lactate over 24 hours, half in the first 8 hours from the time of injury. Monitor urine output (0.5 mL/kg/h in adults; 1 mL/kg/h in children). Watch for airway burns (singed nasal hair, hoarseness, soot — early intubation), infection, and contractures (splinting, physiotherapy). Kerosene and gas explosions and cooking accidents are common causes in Nigeria.",
+       "keyPoints": [
+        "Rule of Nines; palm ≈ 1%",
+        "Parkland: 4 mL × kg × %TBSA; half in 8 h",
+        "Target urine 0.5 mL/kg/h (adults)",
+        "Airway burns: early intubation",
+        "Cool with water 20 minutes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Pain out of proportion to the injury and pain on passive stretching of the muscles after a tibial fracture suggest:",
+       "options": [
+        "Normal healing",
+        "Fat embolism",
+        "DVT only",
+        "Compartment syndrome",
+        "Infection only"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a surgical emergency requiring fasciotomy."
+      },
+      {
+       "stem": "Neurovascular observations after a fracture include checking for pain, pallor, pulses, paraesthesia and:",
+       "options": [
+        "Pyrexia",
+        "Paralysis",
+        "Pupils",
+        "Posture",
+        "Pulse oximetry only"
+       ],
+       "answerIndex": 1,
+       "explanation": "The 5 Ps assess circulation and nerves."
+      },
+      {
+       "stem": "A patient in a plaster cast should be advised to:",
+       "options": [
+        "Remove the cast at home",
+        "Walk on a wet cast",
+        "Ignore swelling",
+        "Insert a stick to scratch under the cast",
+        "Keep the cast dry and elevate the limb"
+       ],
+       "answerIndex": 4,
+       "explanation": "These prevent complications."
+      },
+      {
+       "stem": "Using the Rule of Nines, burns covering the front of the trunk equal:",
+       "options": [
+        "9%",
+        "18%",
+        "27%",
+        "36%",
+        "1%"
+       ],
+       "answerIndex": 1,
+       "explanation": "Anterior trunk = 18%."
+      },
+      {
+       "stem": "The palm of the patient's hand represents about ___ of total body surface area.",
+       "options": [
+        "0.1%",
+        "1%",
+        "5%",
+        "9%",
+        "18%"
+       ],
+       "answerIndex": 1,
+       "explanation": "Useful for estimating small or scattered burns."
+      },
+      {
+       "stem": "Using the Parkland formula, a 70 kg adult with 20% TBSA burns needs how much fluid in the first 24 hours?",
+       "options": [
+        "1,400 mL",
+        "2,800 mL",
+        "5,600 mL",
+        "8,000 mL",
+        "14,000 mL"
+       ],
+       "answerIndex": 2,
+       "explanation": "4 × 70 × 20 = 5,600 mL."
+      },
+      {
+       "stem": "Half of the Parkland fluid volume is given over the first:",
+       "options": [
+        "1 hour",
+        "48 hours",
+        "24 hours",
+        "8 hours from the time of injury",
+        "12 hours from arrival"
+       ],
+       "answerIndex": 3,
+       "explanation": "Timing starts from injury, not arrival."
+      },
+      {
+       "stem": "Singed nasal hair, hoarse voice and soot around the mouth in a burns patient suggest:",
+       "options": [
+        "Inhalation (airway) injury needing early airway protection",
+        "Allergy",
+        "Asthma",
+        "Minor burns only",
+        "Dehydration"
+       ],
+       "answerIndex": 0,
+       "explanation": "Airway oedema can rapidly obstruct breathing."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

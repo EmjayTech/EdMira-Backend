@@ -1,0 +1,99 @@
+{
+  "title": "Histopathology Techniques",
+  "code": "HPT301",
+  "color": "#7C2D12",
+  "description": "Specimen reception and fixation, tissue processing, microtomy, routine and special staining, frozen sections, immunohistochemistry and laboratory safety.",
+  "for": { "300": ["MLS"], "400": ["ANA"] },
+  "topics": [
+    {
+      "title": "Fixation",
+      "summary": "Aims of fixation, types of fixatives, factors affecting fixation and common artefacts.",
+      "notes": [
+        { "h": "Aims and fixatives", "b": "Fixation preserves tissue in a life-like state by preventing autolysis (self-digestion by enzymes) and putrefaction (bacterial decay), hardening tissue and preparing it for staining. 10% neutral buffered formalin (4% formaldehyde) is the routine fixative; it cross-links proteins (additive, non-coagulant) and penetrates about 1 mm per hour. The volume of fixative should be 10–20 times the tissue volume. Other fixatives: Bouin's solution (picric acid, formalin, acetic acid — good for testicular and GI biopsies, but lyses red cells), Zenker's and Helly's (mercuric chloride — toxic; for haemopoietic tissue), Carnoy's (alcohol-based, rapid, preserves glycogen and nucleic acids), glutaraldehyde (for electron microscopy), and alcohol (coagulant; used for cytology smears).", "k": ["Fixation prevents autolysis and putrefaction", "10% NBF: routine; cross-links proteins", "Fixative volume 10–20× tissue", "Glutaraldehyde for electron microscopy"] },
+        { "h": "Factors and artefacts", "b": "Fixation is affected by time (large specimens need 24–48 hours; slice them), temperature, pH (buffered formalin prevents acid formalin pigment), penetration and fixative volume. Unbuffered formalin produces formalin (acid haematin) pigment — dark brown granules — removed with alcoholic picric acid. Mercuric fixatives leave mercury pigment (removed with iodine then sodium thiosulphate). Delayed fixation causes autolysis (poor nuclear staining). Decalcification of bone (with acids such as nitric or formic acid, or chelating agents such as EDTA — slower but gentler, preserving antigens and DNA) follows fixation; the end-point is tested chemically or radiologically.", "k": ["Unbuffered formalin → formalin pigment", "Delayed fixation → autolysis", "Decalcify after fixation", "EDTA: slow but preserves antigens/DNA"] }
+      ],
+      "q": [
+        ["The routine fixative in histopathology is:", "Absolute alcohol", "10% neutral buffered formalin", "Bouin's fluid", "Glutaraldehyde", "Xylene", 1, "NBF is inexpensive and suits most stains."],
+        ["The main purpose of fixation is to:", "Stain the tissue", "Prevent autolysis and putrefaction", "Soften tissue", "Remove water", "Embed tissue", 1, "Fixation preserves tissue structure."],
+        ["The recommended volume of fixative relative to tissue is:", "Equal volume", "2 times", "10–20 times", "100 times", "Half the volume", 2, "Adequate volume ensures complete fixation."],
+        ["The fixative preferred for electron microscopy is:", "Formalin", "Glutaraldehyde", "Carnoy's", "Bouin's", "Alcohol", 1, "Glutaraldehyde preserves ultrastructure."],
+        ["Dark brown granular pigment in tissue fixed in unbuffered formalin is:", "Melanin", "Formalin (acid haematin) pigment", "Haemosiderin", "Lipofuscin", "Bile", 1, "Acidic formalin reacts with haemoglobin."],
+        ["Bouin's fixative is unsuitable when red cells must be preserved because it:", "Contains mercury", "Lyses red blood cells", "Is too slow", "Stains blue", "Contains xylene", 1, "Picric and acetic acids lyse erythrocytes."],
+        ["Decalcification with EDTA is preferred when:", "Speed is essential", "Antigens and DNA must be preserved", "Tissue is soft", "Fixation is incomplete", "Staining is not needed", 1, "EDTA chelation is gentle though slow."],
+        ["Poor nuclear staining due to delayed fixation is caused by:", "Over-staining", "Autolysis", "Excess wax", "Thick sections", "Cold temperatures", 1, "Enzymes degrade tissue before fixation."]
+      ]
+    },
+    {
+      "title": "Tissue Processing and Embedding",
+      "summary": "Dehydration, clearing, infiltration and embedding in paraffin wax.",
+      "notes": [
+        { "h": "Processing steps", "b": "After fixation, tissue is processed so it can be infiltrated with paraffin wax, which is immiscible with water. Dehydration removes water using graded (ascending) alcohols — 70%, 90%, 100% ethanol (or isopropanol). Clearing removes alcohol with a solvent miscible with both alcohol and wax, such as xylene (the commonest; makes tissue transparent), chloroform or toluene. Infiltration (impregnation) replaces the clearing agent with molten paraffin wax (melting point about 56–58 °C) in the oven, often under vacuum. Automated tissue processors perform these steps overnight.", "k": ["Order: fixation → dehydration → clearing → infiltration → embedding", "Graded alcohols dehydrate", "Xylene clears (makes tissue transparent)", "Paraffin wax mp ~56–58 °C"] },
+        { "h": "Embedding and errors", "b": "Embedding places infiltrated tissue in moulds of molten wax, correctly oriented (e.g. skin and tubular structures on edge to show all layers), to form blocks that are cooled and trimmed. Processing errors: incomplete dehydration leaves water, preventing clearing and wax infiltration (soft, mushy blocks); prolonged dehydration or clearing makes tissue brittle and hard; overheated wax causes shrinkage. Other embedding media: resin for thin sections of hard tissues (bone marrow trephines), celloidin, and gelatin; frozen sections avoid processing entirely.", "k": ["Orientation matters (skin on edge)", "Incomplete dehydration → soft, poorly infiltrated blocks", "Overheated wax → shrinkage and hardness", "Resin for thin sections"] }
+      ],
+      "q": [
+        ["The correct order of tissue processing is:", "Clearing → dehydration → infiltration", "Dehydration → clearing → infiltration", "Infiltration → clearing → dehydration", "Embedding → dehydration → clearing", "Clearing → infiltration → dehydration", 1, "Water is removed, then alcohol is replaced by a clearing agent, then wax infiltrates."],
+        ["Dehydration is carried out using:", "Xylene", "Graded alcohols", "Formalin", "Paraffin wax", "Water", 1, "Ascending alcohols gradually remove water."],
+        ["The most commonly used clearing agent is:", "Ethanol", "Xylene", "Formalin", "Acetone only", "Glycerol", 1, "Xylene is miscible with alcohol and wax."],
+        ["Clearing agents are so named because they:", "Remove stains", "Make tissue transparent", "Remove fat only", "Kill bacteria", "Harden wax", 1, "Tissues become translucent when cleared."],
+        ["The melting point of paraffin wax used for embedding is about:", "37 °C", "56–58 °C", "80 °C", "100 °C", "120 °C", 1, "Wax at 56–58 °C suits routine sections."],
+        ["Soft, mushy blocks that section poorly usually result from:", "Over-fixation", "Incomplete dehydration", "Too much staining", "Thin sections", "Cold embedding", 1, "Residual water prevents wax infiltration."],
+        ["Skin biopsies should be embedded:", "Flat on the surface", "On edge to show all layers", "In any orientation", "Rolled up", "Unfixed", 1, "Correct orientation shows the epidermis and dermis in section."],
+        ["Bone marrow trephines needing very thin sections may be embedded in:", "Gelatin only", "Resin", "Agar", "Ice", "Glycerol", 1, "Resin supports thin sectioning of hard tissue."]
+      ]
+    },
+    {
+      "title": "Microtomy and Frozen Sections",
+      "summary": "Types of microtome, knives, section cutting faults and rapid frozen sections.",
+      "notes": [
+        { "h": "Microtomy", "b": "Microtomes cut thin sections from wax blocks: the rotary microtome (most common for paraffin sections, 3–5 µm), sledge/sliding microtome (large blocks, celloidin), rocking microtome, and ultramicrotome (for electron microscopy, 50–100 nm, with glass or diamond knives). The cryostat is a microtome inside a refrigerated cabinet for frozen sections. Disposable steel blades are now standard. Sections are floated on a warm water bath (about 5–10 °C below the wax melting point) to remove wrinkles, picked up onto clean glass slides (adhesives or charged slides for immunohistochemistry) and dried.", "k": ["Rotary microtome: routine paraffin sections (3–5 µm)", "Ultramicrotome: EM sections", "Cryostat: frozen sections", "Water bath below wax melting point"] },
+        { "h": "Faults and frozen sections", "b": "Sectioning faults: thick and thin sections alternately (loose block or knife, or excessive clearance angle), chattering or vibration (hard tissue, blunt knife), holes in sections (poor processing, calcium), scoring/lines (nicks in the knife edge, calcium or hard particles), and compression. Frozen sections are cut on a cryostat at about −20 °C without processing, allowing rapid intraoperative diagnosis within 10–20 minutes (e.g. deciding whether margins are clear or a lump is malignant) and demonstrating lipids and enzymes (which are lost or inactivated in paraffin processing). Morphology is poorer than in paraffin sections, and ice crystal artefact can occur.", "k": ["Scoring lines: nicked knife", "Chattering: hard tissue or blunt knife", "Frozen sections: rapid intraoperative diagnosis", "Frozen sections preserve lipids and enzymes"] }
+      ],
+      "q": [
+        ["Routine paraffin sections are usually cut at a thickness of:", "0.1 µm", "3–5 µm", "20–30 µm", "100 µm", "1 mm", 1, "3–5 µm sections are standard for H&E."],
+        ["The microtome most commonly used for paraffin sections is the:", "Ultramicrotome", "Rotary microtome", "Sledge microtome", "Freezing microtome only", "Laser microtome", 1, "Rotary microtomes are standard in routine labs."],
+        ["Sections for electron microscopy are cut with a/an:", "Rotary microtome", "Ultramicrotome", "Cryostat", "Sledge microtome", "Hand razor", 1, "Ultramicrotomes cut ultrathin sections with glass or diamond knives."],
+        ["Longitudinal lines (scoring) across a section are usually caused by:", "Over-fixation", "A nick in the knife edge", "Too warm a water bath", "Thin sections", "Good processing", 1, "Nicks drag lines through the section."],
+        ["The main advantage of frozen sections is:", "Better morphology than paraffin", "Rapid diagnosis during surgery", "Long-term storage", "No need for a microtome", "Removal of lipids", 1, "Results are available within minutes."],
+        ["Lipids are best demonstrated in:", "Paraffin sections", "Frozen sections", "Resin sections", "Decalcified sections", "Smears fixed in xylene", 1, "Processing solvents dissolve lipids in paraffin sections."],
+        ["The instrument used to cut frozen sections is the:", "Rotary microtome at room temperature", "Cryostat", "Ultramicrotome", "Centrifuge", "Autoclave", 1, "A cryostat keeps the microtome frozen."],
+        ["The flotation water bath for paraffin sections should be:", "Boiling", "About 5–10 °C below the wax melting point", "Ice-cold", "At 100 °C", "At room temperature always", 1, "Warm water flattens sections without melting the wax."]
+      ]
+    },
+    {
+      "title": "Routine and Special Stains",
+      "summary": "H&E staining, and special stains for carbohydrates, connective tissue, microorganisms and pigments.",
+      "notes": [
+        { "h": "Haematoxylin and eosin", "b": "Sections are dewaxed in xylene and rehydrated through descending alcohols to water before staining. Haematoxylin (from Haematoxylum campechianum logwood) is oxidised to haematein and used with a mordant (aluminium in Harris's and Mayer's haematoxylin; iron in Weigert's) to stain nuclei blue-black. Progressive staining stains to the desired intensity; regressive staining overstains then differentiates in acid alcohol, followed by 'bluing' in alkaline water (Scott's tap water substitute). Eosin counterstains cytoplasm, collagen and muscle pink/red. Sections are then dehydrated, cleared and mounted (DPX) under a coverslip.", "k": ["Dewax → rehydrate → stain → dehydrate → clear → mount", "Haematoxylin needs a mordant (alum)", "Regressive: overstain, differentiate in acid alcohol, blue", "Eosin: cytoplasm pink"] },
+        { "h": "Special stains", "b": "Carbohydrates: periodic acid–Schiff (PAS) stains glycogen (removed by diastase digestion), mucins and basement membranes magenta; Alcian blue stains acid mucins. Connective tissue: Van Gieson (collagen red, muscle yellow), Masson's trichrome (collagen blue/green), Verhoeff's (elastic fibres black), reticulin silver stains. Amyloid: Congo red (apple-green birefringence under polarised light). Microorganisms: Ziehl–Neelsen (mycobacteria), Grocott's methenamine silver and PAS (fungi), Giemsa (Helicobacter, parasites), Gram (bacteria). Pigments and minerals: Perls' Prussian blue (haemosiderin iron), Masson–Fontana (melanin), von Kossa (calcium black), rhodanine (copper). Lipids: oil red O and Sudan black on frozen sections.", "k": ["PAS ± diastase: glycogen", "Congo red: apple-green birefringence (amyloid)", "Perls': iron; von Kossa: calcium", "Grocott: fungi; ZN: mycobacteria"] }
+      ],
+      "q": [
+        ["Before staining, paraffin sections must be:", "Dehydrated in alcohol", "Dewaxed in xylene and rehydrated", "Heated to 100 °C", "Treated with formalin", "Mounted in DPX", 1, "Aqueous stains cannot penetrate wax."],
+        ["The mordant used in Harris's and Mayer's haematoxylin is:", "Iron", "Aluminium (alum)", "Mercury", "Silver", "Copper", 1, "Alum haematoxylins use aluminium salts."],
+        ["In regressive haematoxylin staining, excess stain is removed with:", "Water", "Acid alcohol", "Xylene", "Eosin", "Ammonia only", 1, "Differentiation in acid alcohol removes excess dye."],
+        ["Amyloid is identified by Congo red showing:", "Blue colour", "Apple-green birefringence under polarised light", "Black granules", "Magenta staining", "Yellow fluorescence only", 1, "This is diagnostic of amyloid."],
+        ["Glycogen is confirmed when PAS-positive material disappears after treatment with:", "Trypsin", "Diastase", "Xylene", "Hyaluronidase only", "Collagenase", 1, "Diastase digests glycogen."],
+        ["Haemosiderin (iron) in tissue is demonstrated with:", "Masson–Fontana", "Perls' Prussian blue", "Von Kossa", "Sudan black", "Alcian blue", 1, "Perls' stain turns ferric iron blue."],
+        ["Fungi in tissue sections are best demonstrated with:", "Ziehl–Neelsen", "Grocott's methenamine silver", "Van Gieson", "Oil red O", "Eosin", 1, "Silver stains fungal walls black."],
+        ["In the Van Gieson stain, collagen appears:", "Blue", "Red", "Yellow", "Black", "Green", 1, "Collagen is red and muscle yellow."]
+      ]
+    },
+    {
+      "title": "Cytology, Immunohistochemistry and Laboratory Safety",
+      "summary": "Exfoliative cytology and Pap smears, immunohistochemistry, and hazards in the histology laboratory.",
+      "notes": [
+        { "h": "Cytology and IHC", "b": "Exfoliative cytology examines cells shed from surfaces (cervical Pap smears, sputum, urine, body fluids); fine-needle aspiration cytology (FNAC) samples lumps (thyroid, breast, lymph nodes). Smears for Papanicolaou staining must be fixed immediately in 95% ethanol (wet fixation) to avoid air-drying artefact; air-dried smears are used for Romanowsky (Giemsa/May–Grünwald) stains. Liquid-based cytology improves quality. Immunohistochemistry (IHC) uses labelled antibodies to detect specific antigens in tissue (e.g. cytokeratin — carcinomas; CD45 — lymphomas; oestrogen receptor and HER2 — breast cancer treatment decisions; Ki-67 — proliferation). Heat-induced epitope retrieval unmasks formalin-cross-linked antigens; the reaction is visualised with chromogens such as DAB (brown). Positive and negative controls are essential.", "k": ["Pap smear: wet-fix in 95% ethanol", "FNAC for lumps", "IHC: cytokeratin (carcinoma), CD45 (lymphoma)", "ER/HER2 guide breast cancer therapy", "Heat-induced epitope retrieval; DAB brown"] },
+        { "h": "Safety and records", "b": "Hazards in histopathology include formaldehyde (irritant, sensitiser, carcinogen — use fume hoods and monitor exposure), xylene (neurotoxic, flammable), picric acid (explosive when dry — keep moist), mercuric salts (toxic), microtome blades (sharps injuries — use blade guards), infectious specimens (TB, hepatitis, prions — Creutzfeldt–Jakob disease tissue needs special handling), and heat from wax dispensers. Specimens, blocks and slides must be accurately labelled and tracked; blocks and slides are archived for medico-legal and review purposes. Clinical information on request forms helps interpretation.", "k": ["Formaldehyde: carcinogen — fume hood", "Picric acid: keep moist (explosive when dry)", "Blade guards on microtomes", "Archive blocks and slides"] }
+      ],
+      "q": [
+        ["Pap smears for cervical screening should be fixed immediately in:", "Formalin", "95% ethanol", "Xylene", "Air-drying", "Glutaraldehyde", 1, "Wet fixation prevents air-drying artefact."],
+        ["Fine-needle aspiration cytology is commonly used to assess:", "Blood glucose", "Thyroid, breast and lymph node lumps", "Urine protein", "Bone density", "Hearing", 1, "FNAC samples cells from palpable lesions."],
+        ["Immunohistochemistry detects:", "Specific antigens in tissue using antibodies", "DNA sequences only", "Bacteria by culture", "Lipids only", "Calcium deposits", 0, "Labelled antibodies bind target antigens."],
+        ["A tumour positive for cytokeratin is most likely a:", "Lymphoma", "Carcinoma", "Sarcoma", "Melanoma only", "Leukaemia", 1, "Cytokeratins are epithelial markers."],
+        ["In breast cancer, IHC for oestrogen receptor and HER2 is used to:", "Diagnose infection", "Guide hormonal and targeted therapy", "Measure blood loss", "Stage the tumour by size", "Identify fungi", 1, "Receptor status predicts response to therapy."],
+        ["The chromogen commonly used in IHC that produces a brown colour is:", "Haematoxylin", "DAB", "Eosin", "Congo red", "PAS", 1, "Diaminobenzidine gives a brown precipitate."],
+        ["Picric acid is hazardous because it is:", "Radioactive", "Explosive when dry", "A strong alkali", "Odourless and harmless", "Magnetic", 1, "It must be kept moist."],
+        ["Formaldehyde exposure in the laboratory should be minimised because it is:", "Harmless", "An irritant and carcinogen", "Only flammable", "A vitamin", "Radioactive", 1, "Use fume hoods and monitor exposure."]
+      ]
+    }
+  ]
+}

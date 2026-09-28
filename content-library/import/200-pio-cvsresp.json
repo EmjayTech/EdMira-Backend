@@ -1,0 +1,690 @@
+{
+ "courses": [
+  {
+   "title": "Physiology II: Cardiovascular and Respiratory (PIO 214)",
+   "code": "PIO214",
+   "color": "#BE123C",
+   "description": "The cardiac cycle, ECG, cardiac output, blood pressure regulation, pulmonary mechanics, gas exchange and the control of breathing.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cardiac Muscle, the Cardiac Cycle and Heart Sounds",
+     "order": 1,
+     "summary": "Pacemaker potentials, phases of the cardiac cycle, pressures and heart sounds.",
+     "material": [
+      {
+       "heading": "Cardiac electrical activity",
+       "body": "SA node cells have an unstable resting potential (pacemaker potential) due to the 'funny' Na+ current (If) and T-type Ca2+ channels; their action potential upstroke is due to Ca2+ influx. The SA node fires at about 60–100/min; the AV node delays conduction (~0.1 s) so the atria empty before ventricular systole. Ventricular muscle action potentials have a plateau (phase 2) due to L-type Ca2+ influx, giving a long refractory period that prevents tetanus. Sympathetic stimulation (β1) increases rate and force; vagal (muscarinic M2) stimulation slows the heart.",
+       "keyPoints": [
+        "Pacemaker potential: funny current (If)",
+        "AV nodal delay ≈ 0.1 s",
+        "Plateau from L-type Ca2+ → long refractory period"
+       ]
+      },
+      {
+       "heading": "Cardiac cycle and sounds",
+       "body": "At a heart rate of 75/min the cycle lasts 0.8 s (systole ≈ 0.3 s, diastole ≈ 0.5 s). Phases: atrial systole; isovolumetric ventricular contraction (all valves closed); ventricular ejection; isovolumetric relaxation; rapid and slow ventricular filling. The first heart sound (S1) is closure of the AV (mitral and tricuspid) valves at the start of systole; the second (S2) is closure of the semilunar (aortic and pulmonary) valves at the start of diastole. A third sound (S3) occurs with rapid ventricular filling; a fourth (S4) with atrial contraction into a stiff ventricle. Diastole shortens most as heart rate rises, reducing coronary perfusion time.",
+       "keyPoints": [
+        "S1: AV valves close; S2: semilunar valves close",
+        "Isovolumetric phases: all valves closed",
+        "Tachycardia shortens diastole most"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first heart sound is caused by closure of the:",
+       "options": [
+        "Pulmonary valve only",
+        "Aortic and pulmonary valves",
+        "Mitral and tricuspid valves",
+        "Aortic valve only",
+        "Foramen ovale"
+       ],
+       "answerIndex": 2,
+       "explanation": "S1 marks AV valve closure at the start of ventricular systole."
+      },
+      {
+       "stem": "During isovolumetric ventricular contraction:",
+       "options": [
+        "The ventricles fill",
+        "Blood is ejected",
+        "All four valves are closed",
+        "The aortic valve is open",
+        "The mitral valve is open"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pressure rises with no change in volume because all valves are closed."
+      },
+      {
+       "stem": "The plateau phase of the ventricular action potential is due to:",
+       "options": [
+        "Na+/K+ pump activity",
+        "Cl− influx",
+        "L-type Ca2+ influx",
+        "K+ efflux",
+        "Na+ influx"
+       ],
+       "answerIndex": 2,
+       "explanation": "Slow Ca2+ entry balances K+ efflux, prolonging depolarisation."
+      },
+      {
+       "stem": "The delay of conduction at the AV node allows:",
+       "options": [
+        "Faster heart rate",
+        "Valve opening",
+        "Atria to empty before the ventricles contract",
+        "Coronary filling",
+        "Simultaneous atrial and ventricular contraction"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 0.1 s delay lets atrial systole complete ventricular filling."
+      },
+      {
+       "stem": "Vagal stimulation of the heart:",
+       "options": [
+        "Increases contractility greatly",
+        "Causes ventricular fibrillation",
+        "Increases heart rate",
+        "Has no effect",
+        "Decreases heart rate"
+       ],
+       "answerIndex": 4,
+       "explanation": "ACh at M2 receptors slows the SA node."
+      },
+      {
+       "stem": "As heart rate increases, the phase shortened most is:",
+       "options": [
+        "Atrial systole",
+        "Diastole",
+        "Systole",
+        "Ejection",
+        "Isovolumetric contraction"
+       ],
+       "answerIndex": 1,
+       "explanation": "Diastole shortens disproportionately at high heart rates."
+      },
+      {
+       "stem": "Cardiac muscle cannot be tetanised because it has:",
+       "options": [
+        "No calcium",
+        "Gap junctions",
+        "No T-tubules",
+        "A long refractory period",
+        "No sarcomeres"
+       ],
+       "answerIndex": 3,
+       "explanation": "The refractory period lasts almost as long as contraction."
+      },
+      {
+       "stem": "The second heart sound corresponds to:",
+       "options": [
+        "Rapid ventricular filling",
+        "Atrial contraction",
+        "Start of ventricular systole",
+        "Opening of the AV valves",
+        "Closure of the semilunar valves"
+       ],
+       "answerIndex": 4,
+       "explanation": "S2 marks aortic and pulmonary valve closure."
+      }
+     ]
+    },
+    {
+     "title": "Electrocardiogram and Cardiac Output",
+     "order": 2,
+     "summary": "ECG waves and intervals, cardiac output, stroke volume and the Frank–Starling law.",
+     "material": [
+      {
+       "heading": "The ECG",
+       "body": "The P wave represents atrial depolarisation; the QRS complex ventricular depolarisation (atrial repolarisation is hidden in it); the T wave ventricular repolarisation. Normal PR interval is 0.12–0.20 s (prolonged in first-degree heart block); QRS duration < 0.12 s; the QT interval varies with heart rate. On standard paper (25 mm/s), one small square is 0.04 s and one large square 0.2 s; heart rate ≈ 300 ÷ number of large squares between R waves. Peaked T waves suggest hyperkalaemia.",
+       "keyPoints": [
+        "P = atrial depolarisation; QRS = ventricular depolarisation; T = ventricular repolarisation",
+        "PR 0.12–0.20 s; QRS < 0.12 s",
+        "Rate ≈ 300 / large squares",
+        "Peaked T waves → hyperkalaemia"
+       ]
+      },
+      {
+       "heading": "Cardiac output",
+       "body": "Cardiac output = stroke volume × heart rate (≈ 70 mL × 70/min ≈ 5 L/min at rest). Cardiac index = CO / body surface area. Stroke volume depends on preload (end-diastolic volume), afterload (arterial pressure) and contractility. The Frank–Starling law states that the force of contraction increases with the initial length of cardiac fibres (greater venous return → greater stroke volume), matching the output of the two ventricles. Ejection fraction = SV/EDV, normally about 55–70%.",
+       "keyPoints": [
+        "CO = SV × HR ≈ 5 L/min",
+        "Frank–Starling: more stretch → stronger contraction",
+        "Ejection fraction normally ≈ 55–70%"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The P wave on the ECG represents:",
+       "options": [
+        "Ventricular depolarisation",
+        "Ventricular repolarisation",
+        "AV nodal delay",
+        "Atrial repolarisation",
+        "Atrial depolarisation"
+       ],
+       "answerIndex": 4,
+       "explanation": "The P wave reflects atrial depolarisation."
+      },
+      {
+       "stem": "The normal PR interval is:",
+       "options": [
+        "0.04–0.08 s",
+        "0.12–0.20 s",
+        "0.24–0.36 s",
+        "0.40–0.44 s",
+        "> 0.5 s"
+       ],
+       "answerIndex": 1,
+       "explanation": "PR is 0.12–0.20 s (3–5 small squares)."
+      },
+      {
+       "stem": "Atrial repolarisation on the ECG is:",
+       "options": [
+        "The T wave",
+        "The U wave",
+        "Hidden within the QRS complex",
+        "The ST segment",
+        "The P wave"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is masked by the larger QRS complex."
+      },
+      {
+       "stem": "If the R–R interval is 4 large squares, the heart rate is about:",
+       "options": [
+        "50/min",
+        "75/min",
+        "100/min",
+        "150/min",
+        "300/min"
+       ],
+       "answerIndex": 1,
+       "explanation": "300 ÷ 4 = 75 beats per minute."
+      },
+      {
+       "stem": "Cardiac output equals:",
+       "options": [
+        "Blood pressure × heart rate",
+        "End-diastolic volume − stroke volume",
+        "Stroke volume × heart rate",
+        "Stroke volume ÷ heart rate",
+        "Heart rate × peripheral resistance"
+       ],
+       "answerIndex": 2,
+       "explanation": "CO = SV × HR."
+      },
+      {
+       "stem": "The Frank–Starling law states that stroke volume increases with:",
+       "options": [
+        "Increased heart rate only",
+        "Decreased venous return",
+        "Decreased contractility",
+        "Increased end-diastolic volume",
+        "Increased afterload"
+       ],
+       "answerIndex": 3,
+       "explanation": "Greater stretch of cardiac fibres produces stronger contraction."
+      },
+      {
+       "stem": "Tall, peaked T waves are characteristic of:",
+       "options": [
+        "Hypernatraemia",
+        "Hypokalaemia",
+        "Hyperkalaemia",
+        "Hypocalcaemia",
+        "Hypothermia"
+       ],
+       "answerIndex": 2,
+       "explanation": "Peaked T waves are an early ECG sign of hyperkalaemia."
+      },
+      {
+       "stem": "A normal ejection fraction is about:",
+       "options": [
+        "10–20%",
+        "30–40%",
+        "55–70%",
+        "85–95%",
+        "100%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Normal left ventricular ejection fraction is about 55–70%."
+      }
+     ]
+    },
+    {
+     "title": "Blood Pressure and Circulation",
+     "order": 3,
+     "summary": "Haemodynamics, regulation of arterial blood pressure and capillary exchange.",
+     "material": [
+      {
+       "heading": "Haemodynamics and capillaries",
+       "body": "Mean arterial pressure (MAP) = cardiac output × total peripheral resistance, and approximately diastolic + ⅓ pulse pressure. By Poiseuille's law, resistance is inversely proportional to the fourth power of the radius, so arterioles (resistance vessels) control flow. Veins hold about 60–70% of blood volume (capacitance vessels). Starling forces govern capillary exchange: hydrostatic pressure pushes fluid out, plasma oncotic pressure (albumin) pulls it in; oedema results from raised hydrostatic pressure (heart failure), low albumin (nephrotic syndrome, kwashiorkor), increased permeability (inflammation) or lymphatic obstruction (filariasis).",
+       "keyPoints": [
+        "MAP = CO × TPR ≈ DBP + ⅓ pulse pressure",
+        "Resistance ∝ 1/r⁴",
+        "Low albumin → oedema (kwashiorkor, nephrotic syndrome)"
+       ]
+      },
+      {
+       "heading": "Regulation of blood pressure",
+       "body": "Short-term control is by the baroreceptor reflex: stretch receptors in the carotid sinus (glossopharyngeal nerve) and aortic arch (vagus) signal to the medullary vasomotor centre; a fall in pressure increases sympathetic and reduces vagal activity, raising heart rate, contractility and vasoconstriction. Long-term control is renal: the renin–angiotensin–aldosterone system (renin from juxtaglomerular cells → angiotensin I → angiotensin II by ACE in the lungs → vasoconstriction and aldosterone release → Na+ and water retention), antidiuretic hormone, and atrial natriuretic peptide (which promotes Na+ excretion).",
+       "keyPoints": [
+        "Baroreceptors: carotid sinus (IX) and aortic arch (X)",
+        "RAAS: renin → Ang I → (ACE) → Ang II → aldosterone",
+        "ANP lowers BP by natriuresis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "With BP 120/90 mmHg, mean arterial pressure is approximately:",
+       "options": [
+        "90 mmHg",
+        "100 mmHg",
+        "105 mmHg",
+        "110 mmHg",
+        "120 mmHg"
+       ],
+       "answerIndex": 1,
+       "explanation": "MAP ≈ 90 + ⅓(30) = 100 mmHg."
+      },
+      {
+       "stem": "The main site of peripheral resistance is the:",
+       "options": [
+        "Large veins",
+        "Venules",
+        "Aorta",
+        "Arterioles",
+        "Capillaries"
+       ],
+       "answerIndex": 3,
+       "explanation": "Arterioles are the resistance vessels."
+      },
+      {
+       "stem": "Halving the radius of a vessel increases its resistance about:",
+       "options": [
+        "4-fold",
+        "8-fold",
+        "Not at all",
+        "2-fold",
+        "16-fold"
+       ],
+       "answerIndex": 4,
+       "explanation": "Resistance ∝ 1/r⁴, so 2⁴ = 16-fold."
+      },
+      {
+       "stem": "The carotid sinus baroreceptors send impulses via the:",
+       "options": [
+        "Glossopharyngeal nerve",
+        "Hypoglossal nerve",
+        "Phrenic nerve",
+        "Vagus nerve",
+        "Facial nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "Carotid sinus afferents travel in the glossopharyngeal nerve (IX)."
+      },
+      {
+       "stem": "Angiotensin I is converted to angiotensin II mainly in the:",
+       "options": [
+        "Heart",
+        "Liver",
+        "Lungs",
+        "Adrenal cortex",
+        "Kidney"
+       ],
+       "answerIndex": 2,
+       "explanation": "ACE on pulmonary endothelium converts Ang I to Ang II."
+      },
+      {
+       "stem": "Oedema in kwashiorkor is mainly due to:",
+       "options": [
+        "Lymphatic obstruction",
+        "Increased capillary permeability only",
+        "High sodium intake",
+        "Raised capillary hydrostatic pressure",
+        "Reduced plasma oncotic pressure"
+       ],
+       "answerIndex": 4,
+       "explanation": "Low albumin reduces oncotic pressure."
+      },
+      {
+       "stem": "Most of the blood volume at rest is in the:",
+       "options": [
+        "Veins",
+        "Pulmonary arteries",
+        "Arteries",
+        "Capillaries",
+        "Heart chambers"
+       ],
+       "answerIndex": 0,
+       "explanation": "Veins are capacitance vessels holding 60–70% of blood."
+      },
+      {
+       "stem": "A sudden fall in blood pressure causes the baroreceptor reflex to:",
+       "options": [
+        "Increase sympathetic activity and heart rate",
+        "Reduce renin release",
+        "Increase vagal tone",
+        "Decrease heart rate",
+        "Cause vasodilation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reduced baroreceptor firing increases sympathetic outflow."
+      }
+     ]
+    },
+    {
+     "title": "Mechanics of Breathing and Lung Volumes",
+     "order": 4,
+     "summary": "Inspiration and expiration, compliance, surfactant, lung volumes and capacities.",
+     "material": [
+      {
+       "heading": "Mechanics",
+       "body": "Quiet inspiration is active: the diaphragm (phrenic nerve, C3–C5) contracts and external intercostals raise the ribs, lowering intrapleural pressure (normally about −5 cmH2O) and drawing air in. Quiet expiration is passive elastic recoil. Compliance is the change in volume per unit change in pressure; it falls in pulmonary fibrosis and rises in emphysema. Surfactant (dipalmitoylphosphatidylcholine), secreted by type II pneumocytes from about 24–28 weeks' gestation, lowers surface tension and prevents alveolar collapse; deficiency in premature babies causes neonatal respiratory distress syndrome (prevented by antenatal corticosteroids).",
+       "keyPoints": [
+        "Diaphragm: phrenic nerve C3–C5 ('C3, 4, 5 keeps the diaphragm alive')",
+        "Surfactant from type II pneumocytes",
+        "Prematurity → respiratory distress syndrome"
+       ]
+      },
+      {
+       "heading": "Lung volumes",
+       "body": "Typical adult values: tidal volume (TV) 500 mL; inspiratory reserve volume ≈ 3,000 mL; expiratory reserve volume ≈ 1,100 mL; residual volume (RV) ≈ 1,200 mL (cannot be measured by simple spirometry). Capacities: vital capacity = IRV + TV + ERV (≈ 4,600 mL); functional residual capacity = ERV + RV (≈ 2,300 mL); total lung capacity ≈ 5,800 mL. Anatomical dead space is about 150 mL; alveolar ventilation = (TV − dead space) × respiratory rate. FEV1/FVC is reduced (< 0.7) in obstructive disease (asthma, COPD) and normal or increased in restrictive disease.",
+       "keyPoints": [
+        "TV ≈ 500 mL; dead space ≈ 150 mL",
+        "RV cannot be measured by spirometry",
+        "FEV1/FVC < 0.7 → obstruction"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main muscle of quiet inspiration is the:",
+       "options": [
+        "Scalenes",
+        "Sternocleidomastoid",
+        "Diaphragm",
+        "Internal intercostals",
+        "Rectus abdominis"
+       ],
+       "answerIndex": 2,
+       "explanation": "The diaphragm does most of the work in quiet breathing."
+      },
+      {
+       "stem": "The diaphragm is supplied by the phrenic nerve from:",
+       "options": [
+        "C3–C5",
+        "T1–T4",
+        "C6–C8",
+        "T7–T12",
+        "C1–C2"
+       ],
+       "answerIndex": 0,
+       "explanation": "C3, 4, 5 keeps the diaphragm alive."
+      },
+      {
+       "stem": "Surfactant is produced by:",
+       "options": [
+        "Type I pneumocytes",
+        "Type II pneumocytes",
+        "Alveolar macrophages",
+        "Goblet cells",
+        "Clara cells only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Type II pneumocytes secrete surfactant."
+      },
+      {
+       "stem": "Which lung volume cannot be measured by simple spirometry?",
+       "options": [
+        "Vital capacity",
+        "Expiratory reserve volume",
+        "Tidal volume",
+        "Residual volume",
+        "Inspiratory reserve volume"
+       ],
+       "answerIndex": 3,
+       "explanation": "Residual volume remains in the lungs and needs helium dilution or plethysmography."
+      },
+      {
+       "stem": "Functional residual capacity equals:",
+       "options": [
+        "TV + RV",
+        "TV + IRV",
+        "TLC − TV",
+        "IRV + TV + ERV",
+        "ERV + RV"
+       ],
+       "answerIndex": 4,
+       "explanation": "FRC is the volume left after a normal expiration."
+      },
+      {
+       "stem": "Lung compliance is increased in:",
+       "options": [
+        "Pulmonary fibrosis",
+        "Pneumonia",
+        "Surfactant deficiency",
+        "Emphysema",
+        "Pulmonary oedema"
+       ],
+       "answerIndex": 3,
+       "explanation": "Loss of elastic tissue in emphysema makes lungs more distensible."
+      },
+      {
+       "stem": "A reduced FEV1/FVC ratio suggests:",
+       "options": [
+        "Anaemia",
+        "Restrictive lung disease",
+        "Obesity only",
+        "Normal lungs",
+        "Obstructive airway disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Obstruction slows expiration, lowering FEV1 relative to FVC."
+      },
+      {
+       "stem": "With TV 500 mL, dead space 150 mL and rate 12/min, alveolar ventilation is:",
+       "options": [
+        "1.8 L/min",
+        "4.2 L/min",
+        "6.0 L/min",
+        "7.8 L/min",
+        "3.5 L/min"
+       ],
+       "answerIndex": 1,
+       "explanation": "(500 − 150) × 12 = 4,200 mL/min."
+      }
+     ]
+    },
+    {
+     "title": "Gas Exchange, Oxygen Transport and Control of Breathing",
+     "order": 5,
+     "summary": "Partial pressures, the oxygen–haemoglobin dissociation curve, CO2 transport and respiratory control.",
+     "material": [
+      {
+       "heading": "Gas transport",
+       "body": "Normal arterial PO2 is about 100 mmHg (13.3 kPa) and PCO2 40 mmHg (5.3 kPa). About 98% of oxygen is carried bound to haemoglobin; each gram of Hb carries about 1.34 mL O2. The oxygen–haemoglobin dissociation curve is sigmoid; P50 is about 27 mmHg. The curve shifts right (reduced affinity, more unloading) with increased CO2, H+ (the Bohr effect), temperature and 2,3-BPG; HbF and carbon monoxide shift it left. CO2 is carried mainly as bicarbonate (~70%, formed by carbonic anhydrase in red cells, with the chloride shift), as carbamino compounds (~23%) and dissolved (~7%).",
+       "keyPoints": [
+        "PaO2 ≈ 100 mmHg; PaCO2 ≈ 40 mmHg",
+        "Right shift: ↑CO2, ↑H+, ↑temperature, ↑2,3-BPG",
+        "CO2 mostly carried as bicarbonate"
+       ]
+      },
+      {
+       "heading": "Control of breathing",
+       "body": "Respiratory rhythm is generated in the medulla (pre-Bötzinger complex; dorsal and ventral respiratory groups) and modified by pontine centres. Central chemoreceptors in the medulla respond to H+ in cerebrospinal fluid, reflecting arterial PCO2 — the main drive to breathe. Peripheral chemoreceptors in the carotid and aortic bodies respond mainly to low PO2 (below about 60 mmHg), and also to raised PCO2 and H+. In chronic CO2 retention (e.g. severe COPD) hypoxic drive may become more important. At high altitude, hypoxia stimulates ventilation and, over time, erythropoietin release.",
+       "keyPoints": [
+        "CO2 (via central chemoreceptors) is the main respiratory drive",
+        "Peripheral chemoreceptors respond to PO2 < 60 mmHg",
+        "Altitude → hyperventilation and polycythaemia"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most oxygen in blood is transported:",
+       "options": [
+        "As bicarbonate",
+        "Bound to albumin",
+        "Dissolved in plasma",
+        "Bound to haemoglobin",
+        "As carbamino compounds"
+       ],
+       "answerIndex": 3,
+       "explanation": "About 98% is carried by haemoglobin."
+      },
+      {
+       "stem": "Which shifts the oxygen–haemoglobin dissociation curve to the right?",
+       "options": [
+        "Increased PCO2",
+        "Carbon monoxide",
+        "Decreased temperature",
+        "Fetal haemoglobin",
+        "Increased pH"
+       ],
+       "answerIndex": 0,
+       "explanation": "Raised CO2 and H+ reduce Hb's O2 affinity (Bohr effect)."
+      },
+      {
+       "stem": "Most carbon dioxide is transported in blood as:",
+       "options": [
+        "Carbaminohaemoglobin",
+        "Carbon monoxide",
+        "Bicarbonate",
+        "Dissolved CO2",
+        "Carbonic acid"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 70% is carried as HCO3−."
+      },
+      {
+       "stem": "The enzyme that converts CO2 and water to carbonic acid in red cells is:",
+       "options": [
+        "Carbonic anhydrase",
+        "Lactate dehydrogenase",
+        "ATPase",
+        "Catalase",
+        "Transaminase"
+       ],
+       "answerIndex": 0,
+       "explanation": "Carbonic anhydrase speeds this reaction greatly."
+      },
+      {
+       "stem": "The main stimulus to breathing in a healthy person is:",
+       "options": [
+        "Raised PCO2 acting via central chemoreceptors",
+        "High temperature",
+        "Low pH from lactate",
+        "Low PO2",
+        "Low haemoglobin"
+       ],
+       "answerIndex": 0,
+       "explanation": "CO2 diffuses into CSF, raising H+ sensed by central chemoreceptors."
+      },
+      {
+       "stem": "Peripheral chemoreceptors are located in the:",
+       "options": [
+        "Alveoli",
+        "Hypothalamus",
+        "Pons",
+        "Medulla",
+        "Carotid and aortic bodies"
+       ],
+       "answerIndex": 4,
+       "explanation": "Carotid and aortic bodies sense arterial PO2, PCO2 and H+."
+      },
+      {
+       "stem": "Normal arterial PO2 at sea level is about:",
+       "options": [
+        "40 mmHg",
+        "60 mmHg",
+        "100 mmHg",
+        "150 mmHg",
+        "760 mmHg"
+       ],
+       "answerIndex": 2,
+       "explanation": "PaO2 is about 100 mmHg (13.3 kPa)."
+      },
+      {
+       "stem": "The chloride shift refers to movement of:",
+       "options": [
+        "Cl− into alveoli",
+        "Cl− into red cells as HCO3− moves out",
+        "Na+ into red cells",
+        "Cl− into the kidney",
+        "Cl− out of red cells with HCO3−"
+       ],
+       "answerIndex": 1,
+       "explanation": "Cl− enters red cells in exchange for bicarbonate to maintain electroneutrality."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,638 @@
+{
+ "courses": [
+  {
+   "title": "Introduction to Biomedical Engineering and Circuits",
+   "code": "BME201",
+   "color": "#1E40AF",
+   "description": "Scope of biomedical engineering, electrical circuit fundamentals, electrical safety in hospitals, and an introduction to medical devices and their regulation.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Scope of Biomedical Engineering",
+     "order": 1,
+     "summary": "What biomedical engineers do, subfields and the role of clinical engineering in hospitals.",
+     "material": [
+      {
+       "heading": "Subfields",
+       "body": "Biomedical engineering applies engineering principles to medicine and biology. Subfields include bioinstrumentation (designing devices that measure physiological signals, e.g. ECG machines, pulse oximeters), biomechanics (forces in the body, implants, prosthetics), biomaterials (materials compatible with body tissues), medical imaging (X-ray, CT, MRI, ultrasound), rehabilitation engineering (assistive devices), tissue engineering and regenerative medicine, biosignal processing, and clinical engineering (management and maintenance of medical equipment in hospitals).",
+       "keyPoints": [
+        "Bioinstrumentation, biomechanics, biomaterials, imaging",
+        "Clinical engineering manages hospital equipment",
+        "Rehabilitation engineering: assistive devices"
+       ]
+      },
+      {
+       "heading": "Clinical engineering in Nigeria",
+       "body": "A large share of medical equipment in low- and middle-income countries is estimated to be out of service, often because of lack of maintenance, spare parts, training or suitable power supply. Clinical engineers plan procurement, commission and inventory equipment, schedule preventive maintenance, perform safety testing and train users. Appropriate technology — robust, affordable, repairable devices that work with unstable electricity (e.g. solar-powered oxygen concentrators and vaccine refrigerators) — is especially important in Nigeria.",
+       "keyPoints": [
+        "Much equipment is out of service in LMICs",
+        "Preventive maintenance and inventory",
+        "Appropriate technology for local conditions"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The branch that designs devices to measure physiological signals is:",
+       "options": [
+        "Tissue engineering",
+        "Biomechanics",
+        "Bioinstrumentation",
+        "Pharmacology",
+        "Biomaterials"
+       ],
+       "answerIndex": 2,
+       "explanation": "Bioinstrumentation develops measurement devices."
+      },
+      {
+       "stem": "Engineers who manage and maintain medical equipment in hospitals practise:",
+       "options": [
+        "Civil engineering",
+        "Chemical engineering",
+        "Petroleum engineering",
+        "Mining engineering",
+        "Clinical engineering"
+       ],
+       "answerIndex": 4,
+       "explanation": "Clinical engineering focuses on equipment in health facilities."
+      },
+      {
+       "stem": "The study of forces acting on and within the body is:",
+       "options": [
+        "Biochemistry",
+        "Biosignal processing",
+        "Biomechanics",
+        "Biostatistics",
+        "Bioethics"
+       ],
+       "answerIndex": 2,
+       "explanation": "Biomechanics applies mechanics to living systems."
+      },
+      {
+       "stem": "Materials designed to be compatible with body tissues are:",
+       "options": [
+        "Insulators",
+        "Composites only",
+        "Ceramics only",
+        "Semiconductors",
+        "Biomaterials"
+       ],
+       "answerIndex": 4,
+       "explanation": "Biomaterials must be biocompatible."
+      },
+      {
+       "stem": "A major reason medical equipment is out of service in low-resource settings is:",
+       "options": [
+        "Excess funding",
+        "Low patient numbers",
+        "Too many engineers",
+        "Too much electricity",
+        "Lack of maintenance, spare parts and training"
+       ],
+       "answerIndex": 4,
+       "explanation": "Maintenance and support gaps leave devices unused."
+      },
+      {
+       "stem": "A solar-powered vaccine refrigerator is an example of:",
+       "options": [
+        "Appropriate technology",
+        "Cosmetic technology",
+        "Entertainment technology",
+        "Obsolete technology",
+        "Military technology"
+       ],
+       "answerIndex": 0,
+       "explanation": "It suits settings with unreliable grid power."
+      },
+      {
+       "stem": "Designing artificial limbs and wheelchairs falls under:",
+       "options": [
+        "Genetic engineering",
+        "Rehabilitation engineering",
+        "Epidemiology",
+        "Imaging",
+        "Radiopharmacy"
+       ],
+       "answerIndex": 1,
+       "explanation": "Rehabilitation engineering creates assistive devices."
+      },
+      {
+       "stem": "Regular scheduled servicing of equipment to prevent breakdown is:",
+       "options": [
+        "Calibration only",
+        "Preventive maintenance",
+        "Corrective maintenance",
+        "Procurement",
+        "Decommissioning"
+       ],
+       "answerIndex": 1,
+       "explanation": "Preventive maintenance reduces failures."
+      }
+     ]
+    },
+    {
+     "title": "DC Circuit Fundamentals",
+     "order": 2,
+     "summary": "Charge, current, voltage, resistance, Kirchhoff's laws and power.",
+     "material": [
+      {
+       "heading": "Basic quantities",
+       "body": "Electric current is the flow of charge (I = Q/t, amperes). Voltage (potential difference) is energy per unit charge (volts). Resistance opposes current (ohms); Ohm's law: V = IR. Power P = VI = I²R = V²/R (watts). Series resistors add (R = R1 + R2); parallel resistors combine as 1/R = 1/R1 + 1/R2. A voltage divider gives Vout = Vin × R2/(R1 + R2), used in sensor circuits.",
+       "keyPoints": [
+        "V = IR",
+        "P = VI",
+        "Voltage divider: Vout = Vin × R2/(R1 + R2)"
+       ]
+      },
+      {
+       "heading": "Kirchhoff's laws, capacitors and inductors",
+       "body": "Kirchhoff's current law (KCL): the sum of currents entering a node equals the sum leaving (conservation of charge). Kirchhoff's voltage law (KVL): the sum of voltages around a closed loop is zero (conservation of energy). A capacitor stores charge (Q = CV; unit farad) and blocks DC while passing AC; an RC circuit charges with time constant τ = RC (reaching ~63% in one τ). Defibrillators store energy in capacitors (E = ½CV²). An inductor opposes changes in current (unit henry).",
+       "keyPoints": [
+        "KCL: currents at a node sum to zero",
+        "KVL: voltages around a loop sum to zero",
+        "τ = RC; E = ½CV² (defibrillator)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A 10 V source across a 2 kΩ resistor gives a current of:",
+       "options": [
+        "0.2 mA",
+        "5 mA",
+        "20 mA",
+        "0.5 A",
+        "5 A"
+       ],
+       "answerIndex": 1,
+       "explanation": "I = 10/2,000 = 0.005 A = 5 mA."
+      },
+      {
+       "stem": "Kirchhoff's current law is based on conservation of:",
+       "options": [
+        "Charge",
+        "Mass only",
+        "Energy",
+        "Power",
+        "Momentum"
+       ],
+       "answerIndex": 0,
+       "explanation": "Charge entering a node must leave it."
+      },
+      {
+       "stem": "Kirchhoff's voltage law states that around a closed loop:",
+       "options": [
+        "Voltages sum to zero",
+        "Power is constant",
+        "Resistances are equal",
+        "Currents sum to zero",
+        "Charge accumulates"
+       ],
+       "answerIndex": 0,
+       "explanation": "Energy conservation requires the loop voltages to sum to zero."
+      },
+      {
+       "stem": "In a voltage divider with Vin = 12 V, R1 = 2 kΩ and R2 = 4 kΩ, Vout across R2 is:",
+       "options": [
+        "4 V",
+        "6 V",
+        "8 V",
+        "12 V",
+        "2 V"
+       ],
+       "answerIndex": 2,
+       "explanation": "12 × 4/(2 + 4) = 8 V."
+      },
+      {
+       "stem": "The time constant of an RC circuit with R = 10 kΩ and C = 100 µF is:",
+       "options": [
+        "0.1 s",
+        "1 s",
+        "10 s",
+        "0.01 s",
+        "100 s"
+       ],
+       "answerIndex": 1,
+       "explanation": "τ = RC = 10,000 × 0.0001 = 1 s."
+      },
+      {
+       "stem": "A defibrillator capacitor of 100 µF charged to 2,000 V stores:",
+       "options": [
+        "20 J",
+        "100 J",
+        "200 J",
+        "400 J",
+        "2,000 J"
+       ],
+       "answerIndex": 2,
+       "explanation": "E = ½CV² = 0.5 × 0.0001 × 4,000,000 = 200 J."
+      },
+      {
+       "stem": "A capacitor in a DC circuit, once fully charged:",
+       "options": [
+        "Passes DC freely",
+        "Becomes an inductor",
+        "Acts as a short circuit",
+        "Blocks DC current",
+        "Generates power"
+       ],
+       "answerIndex": 3,
+       "explanation": "No steady DC flows through a charged capacitor."
+      },
+      {
+       "stem": "The SI unit of capacitance is the:",
+       "options": [
+        "Farad",
+        "Ohm",
+        "Tesla",
+        "Weber",
+        "Henry"
+       ],
+       "answerIndex": 0,
+       "explanation": "Capacitance is measured in farads."
+      }
+     ]
+    },
+    {
+     "title": "AC Circuits and Power Supplies",
+     "order": 3,
+     "summary": "Alternating current, RMS values, impedance, transformers, rectifiers and power quality.",
+     "material": [
+      {
+       "heading": "Alternating current",
+       "body": "Mains electricity in Nigeria is AC at 230 V (nominal; historically 220–240 V), 50 Hz. For a sinusoid, Vrms = Vpeak/√2 (so 230 V rms ≈ 325 V peak). Capacitive reactance Xc = 1/(2πfC) falls with frequency; inductive reactance XL = 2πfL rises with frequency. Impedance (Z) combines resistance and reactance. Filters exploit reactance: low-pass filters remove high-frequency noise; high-pass filters remove baseline drift; a notch filter at 50 Hz removes mains interference from ECG signals.",
+       "keyPoints": [
+        "Nigeria mains: 230 V, 50 Hz",
+        "Vrms = Vpeak/√2",
+        "50 Hz notch filter for ECG interference"
+       ]
+      },
+      {
+       "heading": "Power supplies and power quality",
+       "body": "Transformers step voltage up or down (Vs/Vp = Ns/Np) and can provide isolation. Diodes allow current in one direction; rectifiers convert AC to DC, smoothed by capacitors and stabilised by voltage regulators. Unstable grid supply, surges and generator switching damage equipment; protective measures include automatic voltage regulators/stabilisers, surge protectors and uninterruptible power supplies (UPS) for critical devices such as ventilators, incubators and laboratory analysers. Solar photovoltaic systems with batteries and inverters are increasingly used in health facilities.",
+       "keyPoints": [
+        "Transformer: Vs/Vp = Ns/Np",
+        "Rectifier: AC → DC",
+        "UPS and stabilisers protect critical equipment"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The mains frequency in Nigeria is:",
+       "options": [
+        "50 Hz",
+        "60 Hz",
+        "100 Hz",
+        "25 Hz",
+        "400 Hz"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nigeria uses 50 Hz mains supply."
+      },
+      {
+       "stem": "The peak voltage of a 230 V rms supply is approximately:",
+       "options": [
+        "163 V",
+        "230 V",
+        "325 V",
+        "460 V",
+        "115 V"
+       ],
+       "answerIndex": 2,
+       "explanation": "Vpeak = 230 × √2 ≈ 325 V."
+      },
+      {
+       "stem": "Capacitive reactance ___ as frequency increases.",
+       "options": [
+        "Becomes infinite",
+        "Increases",
+        "Decreases",
+        "Doubles",
+        "Stays constant"
+       ],
+       "answerIndex": 2,
+       "explanation": "Xc = 1/(2πfC)."
+      },
+      {
+       "stem": "Mains interference on an ECG is removed by a:",
+       "options": [
+        "Notch filter at 50 Hz",
+        "Rectifier",
+        "Amplifier with no filter",
+        "High-pass filter at 0.5 Hz",
+        "Low-pass filter at 1 Hz"
+       ],
+       "answerIndex": 0,
+       "explanation": "A 50 Hz notch filter targets power-line noise."
+      },
+      {
+       "stem": "A device that converts AC to DC is a:",
+       "options": [
+        "Inverter",
+        "Inductor",
+        "Oscillator",
+        "Transformer",
+        "Rectifier"
+       ],
+       "answerIndex": 4,
+       "explanation": "Rectifiers use diodes to allow one-way current."
+      },
+      {
+       "stem": "Critical equipment such as ventilators should be connected through a/an:",
+       "options": [
+        "Extension cord only",
+        "Light switch",
+        "Dimmer",
+        "Uninterruptible power supply (UPS)",
+        "Bare socket without protection"
+       ],
+       "answerIndex": 3,
+       "explanation": "A UPS maintains power during outages."
+      },
+      {
+       "stem": "A step-down transformer with 1,000 primary and 50 secondary turns fed with 240 V gives:",
+       "options": [
+        "12 V",
+        "24 V",
+        "48 V",
+        "120 V",
+        "4,800 V"
+       ],
+       "answerIndex": 0,
+       "explanation": "240 × 50/1,000 = 12 V."
+      },
+      {
+       "stem": "A device that converts DC from solar batteries to AC for hospital equipment is a/an:",
+       "options": [
+        "Transformer only",
+        "Capacitor",
+        "Rectifier",
+        "Inverter",
+        "Fuse"
+       ],
+       "answerIndex": 3,
+       "explanation": "Inverters convert DC to AC."
+      }
+     ]
+    },
+    {
+     "title": "Electrical Safety in Health Care",
+     "order": 4,
+     "summary": "Physiological effects of current, macroshock and microshock, earthing and equipment classes.",
+     "material": [
+      {
+       "heading": "Effects of current",
+       "body": "The effect of electric current on the body depends on magnitude, pathway, duration and frequency. At 50/60 Hz through the trunk: about 1 mA is the threshold of perception; 10–20 mA causes 'let-go' failure (sustained muscle contraction); about 100 mA can cause ventricular fibrillation (macroshock). Microshock occurs when current is applied directly to the heart (e.g. via pacing wires or catheters): as little as 10–100 µA can cause fibrillation, so leakage currents in cardiac-connected equipment must be tiny. Low-frequency AC (50 Hz) is more dangerous than DC or high-frequency currents (which is why electrosurgery at >300 kHz does not stimulate nerves).",
+       "keyPoints": [
+        "1 mA: perception; 10–20 mA: can't let go; ~100 mA: VF",
+        "Microshock: µA directly to the heart",
+        "High-frequency electrosurgery doesn't stimulate nerves"
+       ]
+      },
+      {
+       "heading": "Protection",
+       "body": "Protective measures include protective earthing (grounding), fuses and circuit breakers, residual current devices (RCD/earth-leakage breakers that trip at about 30 mA imbalance), double insulation and isolated power supplies. IEC 60601 classifies equipment: Class I (protective earth), Class II (double insulation, no earth) and internally powered; applied parts are Type B, BF (floating) and CF (cardiac floating — lowest leakage, for direct cardiac connection). Routine electrical safety testing checks earth continuity, insulation resistance and leakage current.",
+       "keyPoints": [
+        "RCD trips at ~30 mA",
+        "IEC 60601: Class I, Class II",
+        "Type CF applied parts for direct cardiac use"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The approximate threshold of perception for 50 Hz current is:",
+       "options": [
+        "1 µA",
+        "1 mA",
+        "100 mA",
+        "1 A",
+        "10 A"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 1 mA can be felt."
+      },
+      {
+       "stem": "Ventricular fibrillation from current applied across the trunk (macroshock) occurs at about:",
+       "options": [
+        "1 mA",
+        "5 mA",
+        "100 mA",
+        "10 µA",
+        "1 µA"
+       ],
+       "answerIndex": 2,
+       "explanation": "Around 100 mA through the chest can cause VF."
+      },
+      {
+       "stem": "Microshock is dangerous because:",
+       "options": [
+        "It involves very high voltages",
+        "It only affects the skin",
+        "Tiny currents reach the heart directly via catheters or wires",
+        "It is always DC",
+        "It causes burns only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Direct cardiac pathways need only microamperes."
+      },
+      {
+       "stem": "Equipment applied directly to the heart must have applied parts of type:",
+       "options": [
+        "No classification",
+        "Class II only",
+        "CF",
+        "BF",
+        "B"
+       ],
+       "answerIndex": 2,
+       "explanation": "Type CF has the lowest permitted leakage current."
+      },
+      {
+       "stem": "A residual current device protects by:",
+       "options": [
+        "Storing energy",
+        "Tripping when current leaks to earth (~30 mA)",
+        "Stabilising voltage",
+        "Converting AC to DC",
+        "Filtering noise"
+       ],
+       "answerIndex": 1,
+       "explanation": "It detects imbalance between live and neutral currents."
+      },
+      {
+       "stem": "Class II medical equipment is protected by:",
+       "options": [
+        "Batteries only",
+        "Water cooling",
+        "Protective earth",
+        "Double or reinforced insulation",
+        "Fuses only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Class II relies on double insulation without an earth."
+      },
+      {
+       "stem": "Electrosurgical units operate at high frequency (>300 kHz) because such currents:",
+       "options": [
+        "Are cheaper",
+        "Cause fibrillation",
+        "Do not stimulate nerves and muscles",
+        "Need no return electrode",
+        "Are DC"
+       ],
+       "answerIndex": 2,
+       "explanation": "High-frequency currents heat tissue without neuromuscular stimulation."
+      },
+      {
+       "stem": "The international standard for safety of medical electrical equipment is:",
+       "options": [
+        "ISO 9001",
+        "IEEE 802.11",
+        "IEC 60601",
+        "IEC 61850",
+        "ISO 15189"
+       ],
+       "answerIndex": 2,
+       "explanation": "IEC 60601 covers basic safety and essential performance."
+      }
+     ]
+    },
+    {
+     "title": "Medical Devices: Classification and Regulation",
+     "order": 5,
+     "summary": "Risk classes, device lifecycle, and regulation of medical devices in Nigeria.",
+     "material": [
+      {
+       "heading": "Classification",
+       "body": "Medical devices are classified by risk, e.g. in the EU/Global Harmonization approach: Class I (low risk — bandages, stethoscopes, tongue depressors), Class IIa (low–moderate — hearing aids, ultrasound scanners), Class IIb (moderate–high — ventilators, infusion pumps, X-ray machines) and Class III (high risk — implantable pacemakers, heart valves, drug-eluting stents). The US FDA uses Classes I, II and III. Higher classes require more rigorous clinical evidence and conformity assessment.",
+       "keyPoints": [
+        "Class I: low risk; Class III: high risk (implants)",
+        "Ventilators and infusion pumps: Class IIb",
+        "Higher class → more evidence required"
+       ]
+      },
+      {
+       "heading": "Lifecycle and regulation",
+       "body": "The device lifecycle includes needs assessment, design, verification and validation, regulatory approval, procurement, installation and commissioning, user training, operation, maintenance, and decommissioning/disposal. Quality management for manufacturers follows ISO 13485, and risk management follows ISO 14971. In Nigeria, NAFDAC registers medical devices, and the Standards Organisation of Nigeria (SON) sets product standards. Adverse events and device failures should be reported (post-market surveillance/vigilance).",
+       "keyPoints": [
+        "ISO 13485: device quality management",
+        "ISO 14971: risk management",
+        "NAFDAC registers medical devices",
+        "Report adverse device events"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An implantable cardiac pacemaker is a Class ___ device.",
+       "options": [
+        "IIb",
+        "III",
+        "I",
+        "It is unregulated",
+        "IIa"
+       ],
+       "answerIndex": 1,
+       "explanation": "Implantable life-sustaining devices are high-risk Class III."
+      },
+      {
+       "stem": "A stethoscope is an example of a Class ___ device.",
+       "options": [
+        "I",
+        "IIb",
+        "IIa",
+        "IV",
+        "III"
+       ],
+       "answerIndex": 0,
+       "explanation": "Low-risk, non-invasive devices are Class I."
+      },
+      {
+       "stem": "The standard for quality management systems of medical device manufacturers is:",
+       "options": [
+        "ISO 13485",
+        "ISO 50001",
+        "ISO 45001",
+        "ISO 22000",
+        "ISO 15189"
+       ],
+       "answerIndex": 0,
+       "explanation": "ISO 13485 applies to device manufacturers."
+      },
+      {
+       "stem": "Risk management for medical devices follows:",
+       "options": [
+        "IEC 61508 only",
+        "ISO 27001",
+        "ISO 9001",
+        "ISO 26000",
+        "ISO 14971"
+       ],
+       "answerIndex": 4,
+       "explanation": "ISO 14971 describes device risk management."
+      },
+      {
+       "stem": "In Nigeria, medical devices are registered by:",
+       "options": [
+        "CBN",
+        "NCC",
+        "NUC",
+        "NAFDAC",
+        "INEC"
+       ],
+       "answerIndex": 3,
+       "explanation": "NAFDAC regulates medical devices."
+      },
+      {
+       "stem": "Monitoring device performance and adverse events after marketing is called:",
+       "options": [
+        "Procurement",
+        "Prototyping",
+        "Tendering",
+        "Pre-market approval",
+        "Post-market surveillance"
+       ],
+       "answerIndex": 4,
+       "explanation": "Post-market surveillance detects problems in real-world use."
+      },
+      {
+       "stem": "The step in which a newly delivered device is installed, tested and accepted is:",
+       "options": [
+        "Decommissioning",
+        "Design",
+        "Procurement",
+        "Disposal",
+        "Commissioning"
+       ],
+       "answerIndex": 4,
+       "explanation": "Commissioning confirms safe, correct operation before clinical use."
+      },
+      {
+       "stem": "Which device is typically classified as higher risk?",
+       "options": [
+        "Walking stick",
+        "Mechanical ventilator",
+        "Examination glove",
+        "Bandage",
+        "Tongue depressor"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ventilators are life-supporting, higher-risk devices."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

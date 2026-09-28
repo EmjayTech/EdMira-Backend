@@ -1,0 +1,99 @@
+{
+  "title": "Medical Terminology and the Health Professions",
+  "code": "HSC101",
+  "color": "#0F766E",
+  "description": "Word roots, prefixes and suffixes, anatomical position and directional terms, and the roles of the health-care team in Nigeria.",
+  "for": { "100": ["*"], "200": ["SON"] },
+  "topics": [
+    {
+      "title": "Building Medical Words: Roots, Prefixes and Suffixes",
+      "summary": "How medical terms are formed from Greek and Latin parts.",
+      "notes": [
+        { "h": "Word parts", "b": "Most medical terms combine a root (the core meaning), an optional prefix (at the start) and a suffix (at the end), often joined by a combining vowel 'o'. Examples of roots: cardi (heart), hepat (liver), nephr/ren (kidney), gastr (stomach), oste (bone), neur (nerve), derm (skin), haem/hem (blood), pulmon/pneum (lung), enter (intestine), cyst (bladder), hyster/metr (uterus).", "k": ["Root = core meaning", "Combining vowel usually 'o' (cardi-o-logy)", "nephr/ren = kidney; hepat = liver"] },
+        { "h": "Common prefixes and suffixes", "b": "Prefixes: hyper- (above normal), hypo- (below normal), tachy- (fast), brady- (slow), dys- (difficult/abnormal), a-/an- (without), poly- (many), peri- (around), endo- (within), hemi- (half). Suffixes: -itis (inflammation), -ectomy (surgical removal), -otomy (cutting into), -ostomy (making an opening), -algia (pain), -emia/-aemia (blood condition), -penia (deficiency), -megaly (enlargement), -plasty (surgical repair), -scopy (visual examination), -uria (urine).", "k": ["-itis inflammation; -ectomy removal; -ostomy opening", "tachy- fast; brady- slow", "-penia deficiency; -megaly enlargement"] }
+      ],
+      "q": [
+        ["The suffix '-ectomy' means:", "Inflammation", "Surgical removal", "Cutting into", "Visual examination", "Repair", 1, "e.g. appendicectomy = removal of the appendix."],
+        ["'Hepatomegaly' means:", "Inflammation of the liver", "Enlargement of the liver", "Pain in the liver", "Removal of the liver", "Tumour of the kidney", 1, "hepat = liver; -megaly = enlargement."],
+        ["A heart rate of 130 beats per minute in an adult is described as:", "Bradycardia", "Tachycardia", "Arrhythmia only", "Asystole", "Hypotension", 1, "tachy- means fast; tachycardia is > 100 bpm."],
+        ["The root 'nephr' refers to the:", "Nerve", "Kidney", "Lung", "Liver", "Bone", 1, "Nephron, nephritis — nephr = kidney."],
+        ["'Thrombocytopenia' means:", "Excess platelets", "Deficiency of platelets", "Platelet inflammation", "Platelet enlargement", "Clot removal", 1, "thrombocyte = platelet; -penia = deficiency."],
+        ["'Dysuria' means:", "Excessive urine", "Painful or difficult urination", "No urine", "Blood in urine", "Night urination", 1, "dys- = difficult; -uria = urine."],
+        ["Creating a surgical opening from the colon to the abdominal wall is a:", "Colectomy", "Colotomy", "Colostomy", "Colonoscopy", "Coloplasty", 2, "-ostomy = making an opening (stoma)."],
+        ["The prefix 'hypo-' means:", "Above normal", "Below normal", "Around", "Within", "Fast", 1, "e.g. hypoglycaemia = low blood glucose."]
+      ]
+    },
+    {
+      "title": "Anatomical Position, Planes and Directional Terms",
+      "summary": "The standard reference position, body planes, directions and body cavities.",
+      "notes": [
+        { "h": "Position and planes", "b": "In the anatomical position the body stands erect, facing forward, feet together, arms by the sides with palms facing forward. The sagittal plane divides the body into right and left parts (the midsagittal/median plane into equal halves); the coronal (frontal) plane divides it into anterior and posterior parts; the transverse (axial/horizontal) plane divides it into superior and inferior parts — CT scans display transverse slices.", "k": ["Palms face forward in anatomical position", "Sagittal: left/right; coronal: front/back; transverse: top/bottom"] },
+        { "h": "Directional terms and cavities", "b": "Anterior/ventral (front) vs posterior/dorsal (back); superior/cranial vs inferior/caudal; medial (towards the midline) vs lateral (away); proximal (closer to the trunk or origin of a limb) vs distal; superficial vs deep; ipsilateral (same side) vs contralateral (opposite side). The dorsal cavity contains the cranial and vertebral cavities; the ventral cavity contains the thoracic cavity (pleural and pericardial) and the abdominopelvic cavity, separated by the diaphragm. The abdomen is described in nine regions or four quadrants.", "k": ["Proximal = nearer the trunk; distal = farther", "Medial = towards midline", "Diaphragm separates thorax from abdomen"] }
+      ],
+      "q": [
+        ["In the anatomical position, the palms face:", "Backwards", "Forwards", "Medially", "Downwards", "Laterally", 1, "Palms face anteriorly in the anatomical position."],
+        ["A plane dividing the body into anterior and posterior parts is the:", "Sagittal plane", "Coronal plane", "Transverse plane", "Median plane", "Oblique plane", 1, "The coronal (frontal) plane separates front from back."],
+        ["The elbow is ___ to the wrist.", "Distal", "Proximal", "Medial", "Inferior", "Contralateral", 1, "The elbow is closer to the trunk than the wrist."],
+        ["The thumb is on the ___ side of the hand (anatomical position).", "Medial", "Lateral", "Posterior", "Proximal", "Deep", 1, "With palms forward, the thumb lies laterally."],
+        ["Standard CT images are displayed in which plane?", "Sagittal", "Coronal", "Transverse (axial)", "Oblique", "Parasagittal", 2, "CT slices are usually axial (transverse)."],
+        ["A stroke in the right cerebral hemisphere causes weakness on the ___ side of the body.", "Ipsilateral", "Contralateral", "Superior", "Posterior", "Proximal", 1, "Motor pathways cross, so the weakness is on the opposite (left) side."],
+        ["The structure separating the thoracic and abdominal cavities is the:", "Pleura", "Diaphragm", "Pericardium", "Peritoneum", "Mediastinum", 1, "The diaphragm is the musculotendinous partition between them."],
+        ["The term 'superficial' means:", "Towards the head", "Towards the body surface", "Towards the midline", "Away from the surface", "Towards the back", 1, "Superficial = nearer the surface; deep = farther from it."]
+      ]
+    },
+    {
+      "title": "Body Organisation and Systems",
+      "summary": "Levels of organisation, the four basic tissues and overview of organ systems.",
+      "notes": [
+        { "h": "Levels of organisation", "b": "The body is organised from chemical → cellular → tissue → organ → organ system → organism. There are four basic tissue types: epithelial (covers surfaces and lines cavities), connective (supports and binds — bone, cartilage, blood, adipose tissue), muscular (skeletal, cardiac and smooth) and nervous tissue (neurons and neuroglia).", "k": ["Cell → tissue → organ → system → organism", "Four tissues: epithelial, connective, muscle, nervous"] },
+        { "h": "Organ systems", "b": "Major systems: integumentary (skin), skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic/immune, respiratory, digestive, urinary, and reproductive. Homeostasis is the maintenance of a stable internal environment, mostly by negative feedback (e.g. temperature regulation, blood glucose control by insulin and glucagon). Positive feedback amplifies a change and is rare (e.g. oxytocin in labour, blood clotting).", "k": ["Homeostasis mainly via negative feedback", "Positive feedback: labour (oxytocin), clotting"] }
+      ],
+      "q": [
+        ["Which is NOT one of the four basic tissue types?", "Epithelial", "Connective", "Muscular", "Glandular organ tissue", "Nervous", 3, "The four basic tissues are epithelial, connective, muscular and nervous."],
+        ["Blood is classified as a type of:", "Epithelial tissue", "Connective tissue", "Muscular tissue", "Nervous tissue", "Glandular tissue", 1, "Blood is a fluid connective tissue."],
+        ["The correct order of organisation is:", "Cell → organ → tissue → system", "Cell → tissue → organ → system", "Tissue → cell → organ → system", "Organ → tissue → cell → system", "System → organ → tissue → cell", 1, "Cells form tissues, tissues form organs, organs form systems."],
+        ["Most homeostatic mechanisms work by:", "Positive feedback", "Negative feedback", "Feed-forward only", "Random variation", "Conscious control", 1, "Negative feedback reverses deviations from the set point."],
+        ["An example of positive feedback is:", "Sweating in the heat", "Oxytocin release during labour", "Insulin release after a meal", "Shivering in the cold", "Baroreceptor reflex", 1, "Uterine contractions stimulate more oxytocin, amplifying labour."],
+        ["The skin belongs to the ___ system.", "Integumentary", "Skeletal", "Endocrine", "Lymphatic", "Urinary", 0, "Skin, hair and nails form the integumentary system."],
+        ["Which muscle type is found in the walls of blood vessels and the gut?", "Skeletal", "Cardiac", "Smooth", "Voluntary striated", "Pennate", 2, "Smooth (involuntary, non-striated) muscle lines hollow organs."],
+        ["The hormone that lowers blood glucose is:", "Glucagon", "Insulin", "Adrenaline", "Cortisol", "Growth hormone", 1, "Insulin promotes glucose uptake and storage."]
+      ]
+    },
+    {
+      "title": "The Health-Care Team and Professional Regulation in Nigeria",
+      "summary": "Roles of health professionals and the councils that regulate them.",
+      "notes": [
+        { "h": "Members of the team", "b": "Care is delivered by an interprofessional team: doctors and dentists diagnose and treat; nurses and midwives provide continuous patient care; pharmacists dispense and advise on medicines; medical laboratory scientists perform diagnostic tests; radiographers produce medical images; physiotherapists restore movement and function; community health workers (CHEWs) deliver primary care; dietitians, health information managers and biomedical engineers also contribute. Effective teamwork depends on communication, mutual respect and clear roles.", "k": ["Interprofessional teamwork improves outcomes", "CHEWs deliver much primary care"] },
+        { "h": "Regulatory councils", "b": "Each profession is regulated by a statutory council that registers practitioners and accredits training: Medical and Dental Council of Nigeria (MDCN); Nursing and Midwifery Council of Nigeria (NMCN); Pharmacy Council of Nigeria (PCN); Medical Laboratory Science Council of Nigeria (MLSCN); Radiographers Registration Board of Nigeria (RRBN); Medical Rehabilitation Therapists Board (physiotherapy); Community Health Practitioners Registration Board (CHPRBN). The National Universities Commission (NUC) accredits university programmes.", "k": ["MDCN: doctors and dentists", "NMCN: nurses and midwives", "PCN: pharmacists; MLSCN: lab scientists; RRBN: radiographers"] }
+      ],
+      "q": [
+        ["Which body registers medical doctors in Nigeria?", "NMCN", "MDCN", "PCN", "NUC", "NAFDAC", 1, "The Medical and Dental Council of Nigeria registers doctors and dentists."],
+        ["Pharmacists in Nigeria are regulated by the:", "PCN", "MLSCN", "RRBN", "MDCN", "NHIA", 0, "The Pharmacy Council of Nigeria regulates pharmacy practice."],
+        ["The Medical Laboratory Science Council of Nigeria is abbreviated:", "MLSCN", "MDCN", "NMCN", "CHPRBN", "NPHCDA", 0, "MLSCN regulates medical laboratory scientists."],
+        ["Radiographers are registered by the:", "RRBN", "MDCN", "PCN", "NUC", "NMCN", 0, "The Radiographers Registration Board of Nigeria registers radiographers."],
+        ["The body that accredits university degree programmes is the:", "NUC", "JAMB", "MDCN", "NBTE", "WAEC", 0, "The National Universities Commission accredits university programmes."],
+        ["Nurses and midwives are regulated by the:", "NMCN", "MDCN", "PCN", "MLSCN", "NPHCDA", 0, "The Nursing and Midwifery Council of Nigeria regulates them."],
+        ["Restoring movement and function after injury is mainly the role of the:", "Radiographer", "Physiotherapist", "Pharmacist", "Laboratory scientist", "Dietitian", 1, "Physiotherapists specialise in movement rehabilitation."],
+        ["Which factor most improves interprofessional teamwork?", "Strict hierarchy with no discussion", "Clear communication and mutual respect", "Working in isolation", "Avoiding handovers", "Competition between professions", 1, "Communication and respect underpin safe team care."]
+      ]
+    },
+    {
+      "title": "Abbreviations, Prescriptions and Vital Signs",
+      "summary": "Common clinical abbreviations, prescription terms and normal vital signs.",
+      "notes": [
+        { "h": "Clinical abbreviations", "b": "Common prescription abbreviations (from Latin): od — once daily; bd — twice daily; tds — three times daily; qds — four times daily; nocte — at night; stat — immediately; prn — as needed; po — by mouth; IV — intravenous; IM — intramuscular; SC — subcutaneous; ac — before meals; pc — after meals. Other terms: Hx — history; Dx — diagnosis; Rx — treatment/prescription; NPO/NBM — nothing by mouth.", "k": ["bd = twice daily; tds = three times; qds = four times", "stat = immediately; prn = as needed", "NBM = nil by mouth"] },
+        { "h": "Normal adult vital signs", "b": "Temperature: 36.5–37.5 °C (fever ≥ 38 °C). Pulse: 60–100 beats per minute. Respiratory rate: 12–20 breaths per minute. Blood pressure: below 120/80 mmHg is optimal; hypertension is ≥ 140/90 mmHg on repeated readings. Oxygen saturation (SpO2): 95–100% on room air. Pain is increasingly recorded as the 'fifth vital sign'.", "k": ["Pulse 60–100/min; RR 12–20/min", "BP ≥ 140/90 = hypertension", "SpO2 95–100%"] }
+      ],
+      "q": [
+        ["'tds' on a prescription means:", "Once daily", "Twice daily", "Three times daily", "Four times daily", "At night", 2, "tds = ter die sumendum, three times a day."],
+        ["'prn' means:", "Immediately", "As needed", "Before meals", "By mouth", "At bedtime", 1, "prn = pro re nata, as required."],
+        ["A normal adult respiratory rate is:", "6–10/min", "12–20/min", "25–35/min", "40–60/min", "60–100/min", 1, "Adults normally breathe 12–20 times per minute."],
+        ["Which blood pressure reading, if sustained, indicates hypertension?", "110/70 mmHg", "118/78 mmHg", "124/82 mmHg", "150/95 mmHg", "100/60 mmHg", 3, "Hypertension is ≥ 140/90 mmHg on repeated measurement."],
+        ["'stat' means:", "At night", "Immediately", "Every hour", "Twice daily", "As needed", 1, "stat (statim) = at once."],
+        ["The route 'SC' refers to:", "Sublingual", "Subcutaneous", "Spinal canal", "Slow continuous", "Single capsule", 1, "SC = subcutaneous injection."],
+        ["A normal resting adult pulse is:", "40–50/min", "60–100/min", "100–140/min", "12–20/min", "150–180/min", 1, "Normal adult resting heart rate is 60–100 bpm."],
+        ["A patient kept 'NBM' before surgery should:", "Eat light meals only", "Take nothing by mouth", "Drink only water", "Take drugs by mouth", "Eat before midnight only", 1, "NBM/NPO = nil by mouth."]
+      ]
+    }
+  ]
+}

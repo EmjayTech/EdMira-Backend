@@ -1,0 +1,99 @@
+{
+  "title": "Clinical Biochemistry and Enzymology",
+  "code": "BCH401",
+  "color": "#9333EA",
+  "description": "Clinical enzymology, isoenzymes, biochemical markers of organ damage, inborn errors of metabolism, and free radicals and antioxidants.",
+  "for": { "400": ["BCH", "PHA"] },
+  "topics": [
+    {
+      "title": "Principles of Clinical Enzymology",
+      "summary": "Why enzymes appear in plasma, factors affecting measurement, and units of activity.",
+      "notes": [
+        { "h": "Plasma enzymes", "b": "Most enzymes measured clinically are intracellular and leak into plasma when cells are damaged or proliferate; plasma-specific enzymes (e.g. clotting factors, lipoprotein lipase, pseudocholinesterase) are secreted into plasma to act there, and a fall may indicate reduced synthesis (e.g. low cholinesterase in liver disease). The plasma level depends on the rate of release (extent of damage, intracellular concentration, cell location — cytoplasmic enzymes like ALT rise with milder damage than mitochondrial ones), and the rate of clearance (half-life). Enzyme activity is expressed in international units (U/L — µmol of substrate converted per minute) or katals (mol/s) under defined conditions of temperature, pH and substrate concentration (zero-order kinetics, [S] ≫ Km).", "k": ["Intracellular enzymes leak into plasma", "Plasma-specific enzymes: ↓ in synthetic failure", "Units: U/L or katal", "Measure under zero-order conditions ([S] ≫ Km)"] },
+        { "h": "Pre-analytical factors", "b": "Haemolysis falsely raises enzymes present in red cells (LDH, AST, acid phosphatase). Strenuous exercise, intramuscular injections and trauma raise CK. EDTA and citrate chelate metal cofactors (e.g. inhibit ALP, which needs Zn2+ and Mg2+), so serum or heparin plasma is used for most enzymes. Storage temperature and delays affect labile enzymes. Physiological variations: ALP is higher in growing children (bone) and pregnancy (placental ALP); CK is higher in muscular individuals and people of African ancestry. Reference intervals must therefore be population-appropriate.", "k": ["Haemolysis ↑ LDH, AST", "Exercise and IM injections ↑ CK", "EDTA inhibits ALP", "ALP ↑ in children and pregnancy"] }
+      ],
+      "q": [
+        ["Most enzymes measured in clinical practice appear in plasma because they:", "Are secreted to act in plasma", "Leak from damaged or proliferating cells", "Are made by red cells", "Come from the diet", "Are produced by bacteria", 1, "Cell damage releases intracellular enzymes."],
+        ["A plasma-specific enzyme whose level falls in liver disease is:", "ALT", "Pseudocholinesterase", "AST", "CK", "Amylase", 1, "Reduced hepatic synthesis lowers cholinesterase."],
+        ["The international unit of enzyme activity is defined as:", "1 mg of enzyme", "1 µmol of substrate converted per minute", "1 mol per second", "1 g of product per hour", "1 absorbance unit", 1, "U = µmol/min under defined conditions."],
+        ["Enzyme activity is measured under conditions where substrate concentration is:", "Much lower than Km", "Much higher than Km (zero-order)", "Zero", "Equal to Vmax", "Unimportant", 1, "Saturating substrate makes rate proportional to enzyme amount."],
+        ["A haemolysed sample will falsely increase:", "ALP", "LDH and AST", "Amylase", "GGT", "Lipase", 1, "Red cells contain high LDH and AST."],
+        ["EDTA plasma is unsuitable for ALP measurement because EDTA:", "Adds phosphate", "Chelates the metal cofactors Zn2+ and Mg2+", "Haemolyses cells", "Raises pH", "Contains ALP", 1, "Chelation inactivates ALP."],
+        ["Serum CK may be raised in a healthy person after:", "Sleeping", "Strenuous exercise or an IM injection", "Fasting", "Drinking water", "Reading", 1, "Muscle trauma releases CK."],
+        ["A physiologically high ALP is expected in:", "Elderly men", "Growing children and pregnant women", "Starvation", "Hypothyroidism", "Anaemia", 1, "Bone growth and placental ALP raise levels."]
+      ]
+    },
+    {
+      "title": "Isoenzymes and Organ-specific Markers",
+      "summary": "LDH, CK and ALP isoenzymes, and enzyme patterns in liver, muscle, bone and pancreatic disease.",
+      "notes": [
+        { "h": "Isoenzymes", "b": "Isoenzymes catalyse the same reaction but differ in structure, tissue distribution and properties, allowing tissue localisation. Creatine kinase: CK-MM (skeletal muscle), CK-MB (myocardium — 20–30% of cardiac CK) and CK-BB (brain). Lactate dehydrogenase is a tetramer of H and M subunits: LD1 (H4, heart and red cells) to LD5 (M4, liver and skeletal muscle); an 'LD1/LD2 flip' (LD1 > LD2) historically suggested myocardial infarction or haemolysis. Alkaline phosphatase isoenzymes: liver, bone, placental (heat-stable — survives 65 °C) and intestinal; they are separated by electrophoresis or heat inactivation (bone ALP is most heat-labile: 'bone burns').", "k": ["CK-MM muscle; CK-MB heart; CK-BB brain", "LD1: heart/red cells; LD5: liver/muscle", "Placental ALP heat-stable; bone ALP heat-labile", "Isoenzymes localise tissue damage"] },
+        { "h": "Patterns", "b": "Liver: hepatocellular damage raises ALT and AST (ALT more specific); cholestasis raises ALP and GGT (GGT confirms hepatic origin and rises with alcohol and enzyme-inducing drugs). Muscle: very high CK in rhabdomyolysis (risk of myoglobinuric AKI), muscular dystrophy (Duchenne — CK massively raised from birth), myositis and statin myopathy. Heart: troponins have replaced enzymes as preferred markers. Pancreas: amylase and lipase in acute pancreatitis (lipase more specific). Bone: ALP in Paget's disease, osteomalacia/rickets, bone metastases, healing fractures; acid phosphatase and PSA historically for prostate cancer. G6PD and pyruvate kinase are red-cell enzymes measured to diagnose haemolytic anaemias.", "k": ["ALT specific for liver", "GGT confirms hepatic ALP; ↑ with alcohol", "Very high CK: rhabdomyolysis, Duchenne", "Lipase more specific for pancreatitis", "ALP ↑ in Paget's, rickets, metastases"] }
+      ],
+      "q": [
+        ["The CK isoenzyme most specific to the myocardium is:", "CK-MM", "CK-MB", "CK-BB", "Mitochondrial CK only", "LD5", 1, "CK-MB is enriched in cardiac muscle."],
+        ["LD1 (H4) is found mainly in:", "Liver", "Heart and red cells", "Skeletal muscle", "Brain", "Kidney only", 1, "H-subunit LDH predominates in heart and erythrocytes."],
+        ["Which ALP isoenzyme is heat-stable?", "Bone", "Liver", "Placental", "Intestinal", "Renal", 2, "Placental ALP resists heating to 65 °C."],
+        ["A raised ALP with raised GGT indicates the ALP is from the:", "Bone", "Liver/biliary tract", "Placenta", "Intestine", "Kidney", 1, "GGT is not raised in bone disease."],
+        ["Massively raised CK from early childhood in a boy with progressive weakness suggests:", "Myasthenia gravis", "Duchenne muscular dystrophy", "Polio", "Guillain–Barré syndrome", "Rickets", 1, "Dystrophin deficiency causes ongoing muscle breakdown."],
+        ["Rhabdomyolysis is dangerous mainly because of:", "Liver failure", "Acute kidney injury from myoglobin", "Pancreatitis", "Stroke", "Anaemia", 1, "Myoglobin is nephrotoxic."],
+        ["A raised ALP with normal GGT in an elderly man with bone pain and deafness suggests:", "Hepatitis", "Paget's disease of bone", "Pancreatitis", "Myocardial infarction", "Gallstones", 1, "Increased bone turnover raises bone ALP."],
+        ["Isoenzymes are defined as enzymes that:", "Catalyse different reactions", "Catalyse the same reaction but differ in structure and tissue distribution", "Are always identical", "Only exist in bacteria", "Have no clinical use", 1, "This allows tissue-specific diagnosis."]
+      ]
+    },
+    {
+      "title": "Inborn Errors of Metabolism",
+      "summary": "Principles, presentation, newborn screening and examples of amino acid, carbohydrate and storage disorders.",
+      "notes": [
+        { "h": "Principles", "b": "Inborn errors of metabolism are mostly autosomal recessive single-gene defects of enzymes or transporters, causing accumulation of substrate proximal to the block, deficiency of the product, or diversion to alternative pathways (Garrod's concept). Presentation in neonates may mimic sepsis: poor feeding, vomiting, lethargy, seizures, coma, hypoglycaemia, metabolic acidosis, hyperammonaemia, jaundice, unusual odours (musty — PKU; maple syrup — MSUD; sweaty feet — isovaleric acidaemia). Investigations: blood glucose, gases, ammonia, lactate, urine organic acids, plasma amino acids, tandem mass spectrometry. Newborn screening (heel-prick blood spot) detects treatable conditions such as PKU, congenital hypothyroidism and sickle cell disease.", "k": ["Mostly autosomal recessive", "Substrate accumulates, product deficient", "Neonatal presentation mimics sepsis", "Odours: musty (PKU), maple syrup (MSUD)", "Newborn heel-prick screening"] },
+        { "h": "Examples", "b": "Amino acids: phenylketonuria (phenylalanine hydroxylase; low-phenylalanine diet), maple syrup urine disease (branched-chain α-keto acid dehydrogenase), homocystinuria (cystathionine β-synthase — lens dislocation downwards, thrombosis, marfanoid habitus), alkaptonuria, albinism. Carbohydrates: galactosaemia (galactose-1-phosphate uridyltransferase — jaundice, vomiting, cataracts, E. coli sepsis after milk feeding; remove galactose/lactose), hereditary fructose intolerance (aldolase B — hypoglycaemia after fruit/sucrose), glycogen storage diseases (von Gierke — glucose-6-phosphatase; Pompe — acid maltase, cardiomyopathy; McArdle — muscle phosphorylase, exercise cramps). Lysosomal storage disorders: Gaucher (glucocerebrosidase — hepatosplenomegaly, bone crises), Tay–Sachs (hexosaminidase A — cherry-red spot), Niemann–Pick, mucopolysaccharidoses (Hurler, Hunter — X-linked).", "k": ["Homocystinuria: lens dislocates downwards", "Galactosaemia: cataracts, E. coli sepsis", "Von Gierke: fasting hypoglycaemia", "Pompe: cardiomyopathy; McArdle: exercise cramps", "Tay–Sachs: cherry-red spot"] }
+      ],
+      "q": [
+        ["Most inborn errors of metabolism are inherited as:", "Autosomal dominant", "Autosomal recessive", "Y-linked", "Mitochondrial only", "Acquired", 1, "Enzyme deficiencies are usually recessive."],
+        ["A neonate with vomiting, lethargy and urine smelling like maple syrup most likely has:", "PKU", "Maple syrup urine disease", "Galactosaemia", "Tay–Sachs disease", "Homocystinuria", 1, "Branched-chain keto acids give the odour."],
+        ["Cataracts, jaundice and E. coli sepsis in an infant after starting milk feeds suggest:", "PKU", "Galactosaemia", "MSUD", "Gaucher disease", "Pompe disease", 1, "Galactose-1-phosphate accumulates."],
+        ["Downward lens dislocation, thrombosis and a tall thin habitus suggest:", "Marfan syndrome only", "Homocystinuria", "Alkaptonuria", "Albinism", "Hurler syndrome", 1, "Marfan lenses usually dislocate upwards."],
+        ["Hypoglycaemia after eating fruit in a young child suggests:", "Galactosaemia", "Hereditary fructose intolerance", "PKU", "Pompe disease", "Tay–Sachs disease", 1, "Aldolase B deficiency traps fructose-1-phosphate."],
+        ["A cherry-red spot on the macula in an infant with neurodegeneration suggests:", "Gaucher disease", "Tay–Sachs disease", "Von Gierke disease", "Galactosaemia", "PKU", 1, "Hexosaminidase A deficiency causes GM2 accumulation."],
+        ["Muscle cramps on exercise with no rise in lactate suggest:", "Pompe disease", "McArdle disease", "Von Gierke disease", "Hurler syndrome", "PKU", 1, "Muscle glycogen phosphorylase deficiency."],
+        ["Newborn heel-prick screening aims to detect:", "Untreatable conditions only", "Treatable disorders such as PKU and congenital hypothyroidism early", "Adult diseases", "Infections only", "Blood groups only", 1, "Early treatment prevents disability."]
+      ]
+    },
+    {
+      "title": "Free Radicals, Antioxidants and Oxidative Stress",
+      "summary": "Reactive oxygen species, antioxidant defences, oxidative damage in disease, and assessment.",
+      "notes": [
+        { "h": "Free radicals", "b": "Free radicals are molecules with unpaired electrons. Reactive oxygen species (ROS) include superoxide (O2•−), hydrogen peroxide (H2O2, not a radical but a precursor) and the highly reactive hydroxyl radical (•OH, formed via the Fenton reaction with Fe2+). Reactive nitrogen species include nitric oxide and peroxynitrite. Sources: mitochondrial electron transport leakage, NADPH oxidase in phagocytes (the respiratory burst — deficient in chronic granulomatous disease), xanthine oxidase in reperfusion injury, cytochrome P450, radiation, smoking and pollutants. ROS damage lipids (lipid peroxidation — measured as malondialdehyde, MDA), proteins and DNA (8-oxo-deoxyguanosine).", "k": ["Superoxide, H2O2, hydroxyl radical", "Fenton reaction: Fe2+ + H2O2 → •OH", "NADPH oxidase respiratory burst", "Lipid peroxidation → MDA"] },
+        { "h": "Antioxidants and disease", "b": "Enzymatic antioxidants: superoxide dismutase (O2•− → H2O2; Cu/Zn and Mn forms), catalase (H2O2 → H2O + O2) and glutathione peroxidase (selenium-dependent; uses reduced glutathione, regenerated by glutathione reductase with NADPH from the pentose phosphate pathway — hence haemolysis in G6PD deficiency). Non-enzymatic antioxidants: vitamin E (α-tocopherol, lipid-soluble, protects membranes), vitamin C (water-soluble, regenerates vitamin E), β-carotene, glutathione, uric acid, bilirubin, and dietary polyphenols (e.g. in fruits, vegetables, tea, and Nigerian plants such as bitter kola). Oxidative stress (imbalance favouring oxidants) is implicated in atherosclerosis, diabetes complications, ischaemia–reperfusion injury, neurodegeneration, cancer, ageing, sickle cell disease, malaria and paracetamol toxicity (NAPQI depletes glutathione).", "k": ["SOD, catalase, glutathione peroxidase (Se)", "Vitamin E: membranes; vitamin C: aqueous", "G6PD deficiency → low NADPH → haemolysis", "Oxidative stress in atherosclerosis, diabetes, SCD"] }
+      ],
+      "q": [
+        ["The most reactive oxygen species is the:", "Superoxide anion", "Hydroxyl radical", "Hydrogen peroxide", "Molecular oxygen", "Ozone at ground level", 1, "•OH reacts almost instantly with biomolecules."],
+        ["The Fenton reaction produces hydroxyl radicals from H2O2 and:", "Fe2+", "Na+", "Ca2+", "Zn2+", "K+", 0, "Ferrous iron catalyses •OH formation."],
+        ["The enzyme converting superoxide to hydrogen peroxide is:", "Catalase", "Superoxide dismutase", "Glutathione peroxidase", "Xanthine oxidase", "NADPH oxidase", 1, "SOD dismutates superoxide."],
+        ["Glutathione peroxidase requires the trace element:", "Iron", "Selenium", "Zinc", "Copper", "Iodine", 1, "It is a selenoprotein."],
+        ["The lipid-soluble antioxidant that protects cell membranes is:", "Vitamin C", "Vitamin E", "Vitamin B12", "Folate", "Vitamin K", 1, "α-Tocopherol prevents lipid peroxidation."],
+        ["Malondialdehyde (MDA) is a marker of:", "Protein synthesis", "Lipid peroxidation", "DNA repair", "Glycolysis", "Urea cycle activity", 1, "MDA is a product of peroxidised fatty acids."],
+        ["Chronic granulomatous disease results from defective:", "Superoxide dismutase", "Phagocyte NADPH oxidase", "Catalase", "Glutathione reductase", "Xanthine oxidase", 1, "Phagocytes cannot generate a respiratory burst."],
+        ["Red cells in G6PD deficiency are vulnerable to oxidative damage because they lack sufficient:", "ATP", "NADPH to regenerate reduced glutathione", "Haemoglobin", "Iron", "Oxygen", 1, "Without NADPH, glutathione cannot be kept reduced."]
+      ]
+    },
+    {
+      "title": "Clinical Biochemistry of Nutrition and Toxicology",
+      "summary": "Assessing nutritional status biochemically, trace elements, and common poisonings.",
+      "notes": [
+        { "h": "Nutritional biochemistry", "b": "Biochemical markers of nutritional status: albumin (half-life ~20 days; also falls in inflammation, liver and renal disease), transthyretin/prealbumin (half-life ~2 days, reflects recent intake), transferrin, total lymphocyte count, nitrogen balance, and specific micronutrients (serum ferritin for iron; serum retinol for vitamin A; 25-hydroxyvitamin D for vitamin D status; serum B12 and red cell folate; serum zinc — lowered by inflammation; urinary iodine for population iodine status). Refeeding syndrome in malnourished patients: hypophosphataemia, hypokalaemia, hypomagnesaemia and thiamine deficiency — monitor and replace. Obesity-related biochemistry includes insulin resistance, dyslipidaemia and raised liver enzymes (non-alcoholic fatty liver disease).", "k": ["Albumin t½ ~20 days; prealbumin ~2 days", "25-OH vitamin D for vitamin D status", "Urinary iodine for populations", "Refeeding: ↓PO4, ↓K, ↓Mg, thiamine"] },
+        { "h": "Toxicology", "b": "Biochemistry supports diagnosis and management of poisoning. Paracetamol: plasma level plotted against time since ingestion on a treatment nomogram (from 4 hours) guides N-acetylcysteine; check LFTs, INR and creatinine. Salicylates: mixed acid–base disturbance; urinary alkalinisation; haemodialysis for severe cases. Organophosphates (common in Nigeria from agricultural pesticides): reduced red cell and plasma cholinesterase. Lead: raised blood lead, basophilic stippling, raised zinc protoporphyrin; chelation with EDTA/succimer. Methanol and ethylene glycol: raised osmolal gap then raised anion gap acidosis; treat with fomepizole or ethanol and dialysis. Carbon monoxide: raised carboxyhaemoglobin (co-oximetry); treat with high-flow oxygen. Kerosene ingestion (common in children): aspiration pneumonitis — do not induce vomiting.", "k": ["Paracetamol nomogram from 4 h", "Organophosphates: ↓cholinesterase", "Lead: stippling, ↑ZPP", "Toxic alcohols: osmolal then anion gap", "CO: carboxyhaemoglobin; 100% oxygen"] }
+      ],
+      "q": [
+        ["The plasma protein with a short half-life (~2 days) that reflects recent nutritional intake is:", "Albumin", "Transthyretin (prealbumin)", "Fibrinogen", "Immunoglobulin G", "Haptoglobin", 1, "Its short half-life responds quickly to feeding."],
+        ["Vitamin D status is best assessed by measuring serum:", "1,25-dihydroxyvitamin D", "25-hydroxyvitamin D", "Calcium only", "Phosphate only", "ALP only", 1, "25(OH)D reflects body stores."],
+        ["Population iodine status is assessed by:", "Serum iodine", "Median urinary iodine concentration", "Thyroid ultrasound only", "Hair analysis", "Blood glucose", 1, "Most dietary iodine is excreted in urine."],
+        ["Refeeding syndrome is characterised particularly by low serum:", "Sodium", "Phosphate", "Glucose", "Albumin", "Calcium only", 1, "Insulin surge drives phosphate into cells."],
+        ["Treatment of paracetamol poisoning is guided by plotting the plasma level against time on a nomogram from:", "30 minutes", "4 hours after ingestion", "24 hours only", "1 week", "Any time before 1 hour", 1, "Earlier levels are unreliable due to ongoing absorption."],
+        ["Organophosphate pesticide poisoning is confirmed by reduced:", "Serum amylase", "Red cell or plasma cholinesterase activity", "Blood lead", "Carboxyhaemoglobin", "Serum iron", 1, "Organophosphates inhibit cholinesterases."],
+        ["Basophilic stippling of red cells with raised zinc protoporphyrin suggests poisoning with:", "Iron", "Lead", "Mercury", "Arsenic", "Carbon monoxide", 1, "Lead inhibits haem synthesis enzymes."],
+        ["Carbon monoxide poisoning is confirmed by measuring:", "Methaemoglobin", "Carboxyhaemoglobin by co-oximetry", "SpO2 by pulse oximetry", "Cyanmethaemoglobin", "Serum iron", 1, "Pulse oximetry falsely reads normal in CO poisoning."]
+      ]
+    }
+  ]
+}

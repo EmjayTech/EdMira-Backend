@@ -1,0 +1,642 @@
+{
+ "courses": [
+  {
+   "title": "Pharmacognosy and Phytotherapy",
+   "code": "PCG301",
+   "color": "#15803D",
+   "description": "Natural sources of drugs, classes of plant secondary metabolites, evaluation and standardisation of crude drugs, and Nigerian medicinal plants and herbal medicine regulation.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Scope of Pharmacognosy and Evaluation of Crude Drugs",
+     "order": 1,
+     "summary": "Definitions, collection and preparation of crude drugs, and methods of evaluation.",
+     "material": [
+      {
+       "heading": "Scope",
+       "body": "Pharmacognosy (Greek pharmakon 'drug' + gnosis 'knowledge'; term coined by Seydler, 1815) is the study of drugs of natural origin — plants, animals, microbes and minerals. Crude drugs are unprocessed natural materials (leaves, bark, roots, seeds, resins). Quality depends on correct identification, time and method of collection, drying (to prevent enzymatic and microbial degradation), storage and freedom from adulteration. Ethnobotany studies how people use plants; bioprospecting searches nature for new drugs.",
+       "keyPoints": [
+        "Pharmacognosy: knowledge of natural drugs",
+        "Crude drugs are unprocessed natural materials",
+        "Drying prevents degradation"
+       ]
+      },
+      {
+       "heading": "Evaluation",
+       "body": "Evaluation confirms identity, purity and quality: organoleptic (colour, odour, taste, texture), microscopic (e.g. stomata types, trichomes, calcium oxalate crystals, starch grains; stomatal number and palisade ratio), physical (ash values — total, acid-insoluble; moisture content; extractive values; swelling index), chemical (identity tests, assays) and biological (bioassays). Chromatographic fingerprinting (TLC, HPLC) standardises herbal products. Adulteration may be accidental or deliberate substitution with inferior or spurious material.",
+       "keyPoints": [
+        "Organoleptic, microscopic, physical, chemical, biological",
+        "Ash value detects earthy adulteration",
+        "TLC/HPLC fingerprinting"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The term 'pharmacognosy' was first used by:",
+       "options": [
+        "Seydler",
+        "Galen",
+        "Linnaeus",
+        "Paracelsus",
+        "Hippocrates"
+       ],
+       "answerIndex": 0,
+       "explanation": "C. A. Seydler coined it in 1815."
+      },
+      {
+       "stem": "Evaluation of a crude drug by its colour, odour and taste is:",
+       "options": [
+        "Chemical",
+        "Physical",
+        "Organoleptic",
+        "Microscopic",
+        "Biological"
+       ],
+       "answerIndex": 2,
+       "explanation": "Organoleptic evaluation uses the senses."
+      },
+      {
+       "stem": "A high acid-insoluble ash value in a crude drug suggests contamination with:",
+       "options": [
+        "Sand and earthy matter",
+        "Starch",
+        "Water",
+        "Oil",
+        "Alcohol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Silica from soil remains insoluble in acid."
+      },
+      {
+       "stem": "Crude drugs are dried promptly after collection mainly to:",
+       "options": [
+        "Increase weight",
+        "Add flavour",
+        "Change colour",
+        "Prevent enzymatic and microbial deterioration",
+        "Increase moisture"
+       ],
+       "answerIndex": 3,
+       "explanation": "Moisture promotes enzyme activity and microbial growth."
+      },
+      {
+       "stem": "Chromatographic fingerprinting of herbal products is used for:",
+       "options": [
+        "Standardisation and identity",
+        "Advertising",
+        "Packaging",
+        "Sterilisation",
+        "Pricing"
+       ],
+       "answerIndex": 0,
+       "explanation": "TLC and HPLC profiles confirm consistent composition."
+      },
+      {
+       "stem": "Replacing a genuine drug with an inferior plant material is called:",
+       "options": [
+        "Stabilisation",
+        "Standardisation",
+        "Fermentation",
+        "Extraction",
+        "Adulteration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Adulteration lowers quality."
+      },
+      {
+       "stem": "The study of traditional uses of plants by people is:",
+       "options": [
+        "Toxicology",
+        "Pharmacokinetics",
+        "Radiology",
+        "Epidemiology",
+        "Ethnobotany"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ethnobotany informs drug discovery."
+      },
+      {
+       "stem": "Stomatal index and calcium oxalate crystals are examined in ___ evaluation.",
+       "options": [
+        "Chemical",
+        "Organoleptic",
+        "Biological",
+        "Physical ash",
+        "Microscopic"
+       ],
+       "answerIndex": 4,
+       "explanation": "Microscopy reveals diagnostic cellular features."
+      }
+     ]
+    },
+    {
+     "title": "Alkaloids",
+     "order": 2,
+     "summary": "Properties, tests and important medicinal alkaloids.",
+     "material": [
+      {
+       "heading": "Properties",
+       "body": "Alkaloids are basic nitrogen-containing compounds, usually heterocyclic, with marked physiological activity. They are generally bitter, form water-soluble salts with acids, and are extracted by acid–base methods. General precipitating reagents include Dragendorff's (orange-red precipitate), Mayer's (cream), Wagner's (reddish-brown) and Hager's (yellow). They are classified by ring system: tropane, quinoline, isoquinoline, indole, purine, steroidal alkaloids, etc.",
+       "keyPoints": [
+        "Alkaloids: basic nitrogenous compounds",
+        "Dragendorff's: orange precipitate",
+        "Extracted by acid–base partitioning"
+       ]
+      },
+      {
+       "heading": "Examples",
+       "body": "Morphine and codeine (isoquinoline; Papaver somniferum latex — opium) — analgesics. Quinine (quinoline; Cinchona bark) — antimalarial; quinidine — antiarrhythmic. Atropine and hyoscine (tropane; Atropa belladonna, Datura) — antimuscarinic. Reserpine (indole; Rauwolfia vomitoria — found in Nigeria) — antihypertensive. Vincristine and vinblastine (indole; Catharanthus roseus, Madagascar periwinkle) — anticancer. Caffeine (purine; coffee, tea, kola nut — Cola nitida). Physostigmine (Physostigma venenosum, the Calabar bean from south-eastern Nigeria) — anticholinesterase. Emetine (ipecacuanha) and ephedrine (Ephedra) are other examples.",
+       "keyPoints": [
+        "Morphine: opium poppy",
+        "Reserpine: Rauwolfia",
+        "Vincristine: Catharanthus roseus",
+        "Physostigmine: Calabar bean",
+        "Caffeine: kola nut"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Alkaloids are characteristically:",
+       "options": [
+        "Basic nitrogen-containing compounds",
+        "Proteins",
+        "Acidic sugars",
+        "Simple sugars",
+        "Fatty acids"
+       ],
+       "answerIndex": 0,
+       "explanation": "Most alkaloids contain a basic nitrogen."
+      },
+      {
+       "stem": "Dragendorff's reagent gives which result with alkaloids?",
+       "options": [
+        "Orange-red precipitate",
+        "No change",
+        "White foam",
+        "Green fluorescence",
+        "Blue colour"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a general alkaloid precipitant."
+      },
+      {
+       "stem": "Physostigmine is obtained from the:",
+       "options": [
+        "Kola nut",
+        "Calabar bean",
+        "Opium poppy",
+        "Cinchona bark",
+        "Coffee bean"
+       ],
+       "answerIndex": 1,
+       "explanation": "Physostigma venenosum is native to south-eastern Nigeria."
+      },
+      {
+       "stem": "Vincristine, an anticancer alkaloid, comes from:",
+       "options": [
+        "Catharanthus roseus",
+        "Digitalis purpurea",
+        "Papaver somniferum",
+        "Rauwolfia vomitoria",
+        "Atropa belladonna"
+       ],
+       "answerIndex": 0,
+       "explanation": "Madagascar periwinkle yields vinca alkaloids."
+      },
+      {
+       "stem": "Atropine belongs to which class of alkaloids?",
+       "options": [
+        "Isoquinoline",
+        "Indole",
+        "Purine",
+        "Tropane",
+        "Steroidal"
+       ],
+       "answerIndex": 3,
+       "explanation": "Atropine and hyoscine are tropane alkaloids."
+      },
+      {
+       "stem": "Reserpine, an antihypertensive alkaloid, is obtained from:",
+       "options": [
+        "Rauwolfia",
+        "Ephedra",
+        "Cinchona",
+        "Datura",
+        "Coffea"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rauwolfia vomitoria grows in West Africa."
+      },
+      {
+       "stem": "The alkaloid present in kola nut is:",
+       "options": [
+        "Quinine",
+        "Atropine",
+        "Morphine",
+        "Caffeine",
+        "Reserpine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cola nitida contains caffeine and theobromine."
+      },
+      {
+       "stem": "Quinidine, used as an antiarrhythmic, comes from the same source as:",
+       "options": [
+        "Atropine",
+        "Vincristine",
+        "Morphine",
+        "Quinine",
+        "Caffeine"
+       ],
+       "answerIndex": 3,
+       "explanation": "Both come from Cinchona bark."
+      }
+     ]
+    },
+    {
+     "title": "Glycosides, Tannins and Volatile Oils",
+     "order": 3,
+     "summary": "Cardiac, anthraquinone, cyanogenic and saponin glycosides, tannins and essential oils.",
+     "material": [
+      {
+       "heading": "Glycosides",
+       "body": "Glycosides consist of a sugar (glycone) linked to a non-sugar aglycone. Cardiac glycosides (digoxin from Digitalis lanata, digitoxin from D. purpurea; also Strophanthus) have a steroid nucleus with a lactone ring and inhibit the Na+/K+-ATPase; Keller–Kiliani and Legal/Kedde tests detect them. Anthraquinone glycosides (senna, cascara, aloe) are stimulant laxatives, detected by Borntrager's test (pink/red in ammonia). Cyanogenic glycosides (e.g. linamarin in cassava) release hydrogen cyanide; improper cassava processing causes konzo and tropical ataxic neuropathy. Saponins (e.g. from Dioscorea yams — diosgenin, a steroid precursor) froth in water and haemolyse red cells. Flavonoids (e.g. rutin, quercetin) are antioxidants.",
+       "keyPoints": [
+        "Cardiac glycosides: Digitalis; Keller–Kiliani test",
+        "Anthraquinones: senna; Borntrager's test",
+        "Cyanogenic: cassava → cyanide",
+        "Saponins froth; diosgenin from Dioscorea"
+       ]
+      },
+      {
+       "heading": "Tannins and volatile oils",
+       "body": "Tannins are polyphenols that precipitate proteins; they are astringent (used in diarrhoea and wound healing) and give a blue-black or green colour with ferric chloride. Hydrolysable tannins (gallotannins) differ from condensed tannins (proanthocyanidins). Volatile (essential) oils are mixtures of terpenes and phenylpropanoids, obtained by steam distillation, with antiseptic, carminative and aromatic uses: eucalyptus oil (cineole), peppermint oil (menthol), clove oil (eugenol — dental analgesic), lemongrass (citral; Cymbopogon citratus, common in Nigeria), and Ocimum gratissimum ('scent leaf', effirin/nchanwu/daidoya).",
+       "keyPoints": [
+        "Tannins: astringent; FeCl3 blue-black",
+        "Volatile oils: steam distillation",
+        "Clove oil: eugenol (dental)",
+        "Scent leaf: Ocimum gratissimum"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Digoxin is obtained from:",
+       "options": [
+        "Digitalis lanata",
+        "Cassava",
+        "Senna",
+        "Clove",
+        "Eucalyptus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Digoxin comes from the woolly foxglove."
+      },
+      {
+       "stem": "Borntrager's test is used to detect:",
+       "options": [
+        "Saponins",
+        "Alkaloids",
+        "Anthraquinone glycosides",
+        "Cardiac glycosides",
+        "Tannins"
+       ],
+       "answerIndex": 2,
+       "explanation": "A pink colour in ammonia indicates anthraquinones."
+      },
+      {
+       "stem": "Improperly processed cassava can cause cyanide toxicity due to:",
+       "options": [
+        "Cyanogenic glycosides",
+        "Alkaloids",
+        "Saponins",
+        "Tannins",
+        "Volatile oils"
+       ],
+       "answerIndex": 0,
+       "explanation": "Linamarin releases hydrogen cyanide."
+      },
+      {
+       "stem": "Compounds that froth when shaken with water and can haemolyse red cells are:",
+       "options": [
+        "Resins",
+        "Flavonoids",
+        "Alkaloids",
+        "Tannins",
+        "Saponins"
+       ],
+       "answerIndex": 4,
+       "explanation": "Saponins are surface-active glycosides."
+      },
+      {
+       "stem": "Clove oil used in dentistry contains mainly:",
+       "options": [
+        "Camphor",
+        "Eugenol",
+        "Menthol",
+        "Citral",
+        "Cineole"
+       ],
+       "answerIndex": 1,
+       "explanation": "Eugenol is an analgesic and antiseptic."
+      },
+      {
+       "stem": "Volatile oils are usually obtained by:",
+       "options": [
+        "Fermentation",
+        "Sublimation only",
+        "Steam distillation",
+        "Acid–base extraction",
+        "Precipitation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Steam carries volatile components which condense."
+      },
+      {
+       "stem": "Tannins give a ___ colour with ferric chloride.",
+       "options": [
+        "Red",
+        "Yellow",
+        "Colourless",
+        "Orange precipitate",
+        "Blue-black or green"
+       ],
+       "answerIndex": 4,
+       "explanation": "Polyphenols form coloured iron complexes."
+      },
+      {
+       "stem": "Diosgenin, a starting material for steroid hormone synthesis, is obtained from:",
+       "options": [
+        "Senna",
+        "Kola nut",
+        "Digitalis",
+        "Dioscorea (yam) species",
+        "Cinchona"
+       ],
+       "answerIndex": 3,
+       "explanation": "Diosgenin is a steroidal saponin aglycone from yams."
+      }
+     ]
+    },
+    {
+     "title": "Nigerian Medicinal Plants",
+     "order": 4,
+     "summary": "Important indigenous plants, their constituents and evidence for use.",
+     "material": [
+      {
+       "heading": "Examples",
+       "body": "Azadirachta indica (neem, 'dogoyaro') — antimalarial folk use, insecticidal limonoids (azadirachtin). Vernonia amygdalina (bitter leaf, 'ewuro', 'onugbu', 'shiwaka') — sesquiterpene lactones; traditional antimalarial and antidiabetic use. Moringa oleifera — highly nutritious leaves (protein, vitamins A and C, iron, calcium). Garcinia kola (bitter kola, 'orogbo', 'akuilu') — biflavonoids (kolaviron) with antioxidant and hepatoprotective activity. Xylopia aethiopica (Ethiopian pepper, 'eeru', 'uda') — postpartum use. Allium sativum (garlic) — allicin, antimicrobial and lipid-lowering. Zingiber officinale (ginger) — gingerols, antiemetic. Aloe vera — wound healing and laxative. Hibiscus sabdariffa (zobo) — anthocyanins, mild antihypertensive. Cajanus cajan (pigeon pea) — studied for antisickling activity; Niprisan (NIPRD's herbal antisickling product) is a Nigerian example.",
+       "keyPoints": [
+        "Neem: azadirachtin",
+        "Bitter leaf: Vernonia amygdalina",
+        "Bitter kola: kolaviron",
+        "Moringa: nutrition",
+        "Niprisan: antisickling (NIPRD)"
+       ]
+      },
+      {
+       "heading": "Evidence and safety",
+       "body": "Traditional use suggests leads but efficacy and safety must be proven by pharmacological and clinical studies. Herbal products can be toxic (e.g. hepatotoxic pyrrolizidine alkaloids, nephrotoxic aristolochic acid), contaminated (heavy metals, microbes, adulteration with undeclared drugs such as steroids or sildenafil), variable in content, and can interact with orthodox drugs (e.g. St John's wort induces CYP3A4; garlic and ginkgo increase bleeding risk with warfarin). The Nigerian Institute for Pharmaceutical Research and Development (NIPRD, Abuja) researches phytomedicines.",
+       "keyPoints": [
+        "Tradition ≠ proof of efficacy",
+        "Risks: toxicity, contamination, interactions",
+        "St John's wort: enzyme inducer",
+        "NIPRD researches phytomedicines"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The botanical name of bitter leaf is:",
+       "options": [
+        "Ocimum gratissimum",
+        "Garcinia kola",
+        "Moringa oleifera",
+        "Vernonia amygdalina",
+        "Azadirachta indica"
+       ],
+       "answerIndex": 3,
+       "explanation": "Vernonia amygdalina is 'ewuro' or 'onugbu'."
+      },
+      {
+       "stem": "Kolaviron, a biflavonoid with antioxidant properties, is obtained from:",
+       "options": [
+        "Garcinia kola (bitter kola)",
+        "Neem",
+        "Garlic",
+        "Ginger",
+        "Kola nitida"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bitter kola seeds contain kolaviron."
+      },
+      {
+       "stem": "The insecticidal limonoid azadirachtin comes from:",
+       "options": [
+        "Moringa",
+        "Scent leaf",
+        "Aloe vera",
+        "Bitter leaf",
+        "Neem"
+       ],
+       "answerIndex": 4,
+       "explanation": "Neem (Azadirachta indica) contains azadirachtin."
+      },
+      {
+       "stem": "Niprisan, a Nigerian phytomedicine, was developed for:",
+       "options": [
+        "Malaria",
+        "Hypertension",
+        "HIV",
+        "Diabetes",
+        "Sickle cell disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "NIPRD developed Niprisan as an antisickling agent."
+      },
+      {
+       "stem": "Ginger is commonly used for its ___ effect.",
+       "options": [
+        "Antihypertensive only",
+        "Diuretic",
+        "Sedative",
+        "Anticoagulant",
+        "Antiemetic"
+       ],
+       "answerIndex": 4,
+       "explanation": "Gingerols help nausea and vomiting."
+      },
+      {
+       "stem": "Which herb can reduce the effectiveness of many drugs by inducing CYP3A4?",
+       "options": [
+        "Aloe vera",
+        "Ginger",
+        "St John's wort",
+        "Moringa",
+        "Zobo"
+       ],
+       "answerIndex": 2,
+       "explanation": "St John's wort is a potent enzyme inducer."
+      },
+      {
+       "stem": "Herbal products have been found adulterated with undeclared:",
+       "options": [
+        "Nothing ever",
+        "Vitamins only",
+        "Sugar only",
+        "Orthodox drugs such as steroids or sildenafil",
+        "Water only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Adulteration with pharmaceuticals is a known hazard."
+      },
+      {
+       "stem": "Leaves highly valued for their nutritional content (protein, vitamins, minerals) are from:",
+       "options": [
+        "Physostigma",
+        "Digitalis",
+        "Datura",
+        "Moringa oleifera",
+        "Rauwolfia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Moringa leaves are used to fight malnutrition."
+      }
+     ]
+    },
+    {
+     "title": "Herbal Medicine Regulation and Extraction Methods",
+     "order": 5,
+     "summary": "Extraction techniques, standardisation, and regulation of herbal medicines in Nigeria.",
+     "material": [
+      {
+       "heading": "Extraction",
+       "body": "Extraction separates active constituents from plant material using solvents. Methods: maceration (soaking at room temperature), percolation (solvent passes slowly through a packed drug), infusion (short soaking in hot water, e.g. teas), decoction (boiling in water — suitable for hard, heat-stable materials like roots and bark), Soxhlet (continuous hot extraction with a recycling solvent), and modern methods (ultrasound-assisted, microwave-assisted, supercritical CO2). Solvent choice depends on polarity: water and alcohols extract polar compounds (glycosides, tannins); hexane and petroleum ether extract non-polar compounds (fats, some terpenes).",
+       "keyPoints": [
+        "Decoction: boiling (roots, bark)",
+        "Infusion: hot water steep",
+        "Soxhlet: continuous extraction",
+        "Like dissolves like (polarity)"
+       ]
+      },
+      {
+       "heading": "Regulation",
+       "body": "In Nigeria, NAFDAC registers herbal medicines and related products, requiring evidence of safety, quality (good manufacturing practice, microbial and heavy metal limits) and appropriate labelling; herbal products may be 'listed' with evidence of safety before full registration with efficacy data. WHO guidelines cover good agricultural and collection practices (GACP) for medicinal plants and the integration of traditional medicine into health systems. Pharmacists should ask patients about herbal medicine use, report adverse reactions and counsel on interactions.",
+       "keyPoints": [
+        "NAFDAC registers herbal medicines",
+        "GMP and limits for microbes and heavy metals",
+        "WHO GACP guidelines",
+        "Always ask patients about herbal use"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Boiling a hard plant material such as bark in water to extract constituents is:",
+       "options": [
+        "Infusion",
+        "Maceration",
+        "Decoction",
+        "Distillation",
+        "Percolation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Decoction suits hard, heat-stable materials."
+      },
+      {
+       "stem": "A continuous hot extraction method with recycling solvent is:",
+       "options": [
+        "Enfleurage",
+        "Expression",
+        "Infusion",
+        "Soxhlet extraction",
+        "Maceration"
+       ],
+       "answerIndex": 3,
+       "explanation": "The Soxhlet apparatus siphons and recycles solvent."
+      },
+      {
+       "stem": "Soaking plant material in solvent at room temperature for days is:",
+       "options": [
+        "Decoction",
+        "Sublimation",
+        "Maceration",
+        "Steam distillation",
+        "Soxhlet extraction"
+       ],
+       "answerIndex": 2,
+       "explanation": "Maceration is simple cold extraction."
+      },
+      {
+       "stem": "Non-polar constituents such as fats are best extracted with:",
+       "options": [
+        "Water",
+        "Methanol only",
+        "Ethanol–water",
+        "Dilute acid",
+        "Hexane"
+       ],
+       "answerIndex": 4,
+       "explanation": "Like dissolves like."
+      },
+      {
+       "stem": "Herbal medicines in Nigeria are registered by:",
+       "options": [
+        "NAFDAC",
+        "PCN only",
+        "NUC",
+        "MDCN",
+        "SON"
+       ],
+       "answerIndex": 0,
+       "explanation": "NAFDAC regulates herbal products."
+      },
+      {
+       "stem": "WHO GACP guidelines relate to:",
+       "options": [
+        "Clinical trials",
+        "Drug pricing",
+        "Hospital hygiene",
+        "Vaccine storage",
+        "Good agricultural and collection practices for medicinal plants"
+       ],
+       "answerIndex": 4,
+       "explanation": "They cover cultivation and collection quality."
+      },
+      {
+       "stem": "Making tea by pouring hot water on leaves and steeping briefly is:",
+       "options": [
+        "Decoction",
+        "Infusion",
+        "Maceration for days",
+        "Soxhlet",
+        "Percolation"
+       ],
+       "answerIndex": 1,
+       "explanation": "Infusion uses short contact with hot water."
+      },
+      {
+       "stem": "A pharmacist should routinely ask patients about herbal use because herbs may:",
+       "options": [
+        "Be illegal",
+        "Always be harmless",
+        "Interact with conventional drugs and cause adverse effects",
+        "Replace all medicines",
+        "Contain no active substances"
+       ],
+       "answerIndex": 2,
+       "explanation": "Herb–drug interactions can be serious."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

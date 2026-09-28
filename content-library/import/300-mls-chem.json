@@ -1,0 +1,652 @@
+{
+ "courses": [
+  {
+   "title": "Clinical Chemistry I",
+   "code": "CCH301",
+   "color": "#9333EA",
+   "description": "Analytical principles, glucose and diabetes tests, renal function and electrolytes, liver function tests, and plasma proteins and enzymes.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biochemistry"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Analytical Principles and Automation",
+     "order": 1,
+     "summary": "Photometry, ion-selective electrodes, immunoassays, calibration and units.",
+     "material": [
+      {
+       "heading": "Methods",
+       "body": "Spectrophotometry measures light absorbance (Beer–Lambert law: A = εcl); end-point methods read after the reaction completes, kinetic (rate) methods measure the change in absorbance over time (used for enzymes). Many glucose methods use glucose oxidase–peroxidase (GOD–POD) with a coloured end product, or hexokinase (reference method). Flame photometry measured Na+ and K+ historically; ion-selective electrodes (ISE) are now standard — indirect ISE (diluted sample) can give falsely low sodium in severe hyperlipidaemia or hyperproteinaemia (pseudohyponatraemia), while direct ISE does not. Immunoassays (ELISA, chemiluminescence) measure hormones, tumour markers and drugs.",
+       "keyPoints": [
+        "Beer–Lambert law",
+        "Kinetic methods for enzymes",
+        "GOD–POD and hexokinase for glucose",
+        "Indirect ISE: pseudohyponatraemia in hyperlipidaemia"
+       ]
+      },
+      {
+       "heading": "Calibration and units",
+       "body": "Calibrators with known values establish the relationship between signal and concentration; controls check that results are accurate. SI units: glucose mmol/L (mg/dL ÷ 18 = mmol/L), urea mmol/L (urea mg/dL ÷ 6 ≈ mmol/L), creatinine µmol/L (mg/dL × 88.4), cholesterol mmol/L (mg/dL ÷ 38.7). Pre-analytical factors: haemolysis falsely raises potassium, LDH, AST and phosphate; delayed separation lowers glucose (glycolysis) and raises potassium; lipaemia and icterus interfere with photometry.",
+       "keyPoints": [
+        "Glucose mg/dL ÷ 18 = mmol/L",
+        "Creatinine mg/dL × 88.4 = µmol/L",
+        "Haemolysis ↑ K+, LDH, AST",
+        "Delayed separation ↓ glucose"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Enzyme activities are best measured by:",
+       "options": [
+        "End-point methods",
+        "Titration only",
+        "Flame photometry",
+        "Kinetic (rate) methods",
+        "Gravimetry"
+       ],
+       "answerIndex": 3,
+       "explanation": "The rate of substrate conversion reflects enzyme activity."
+      },
+      {
+       "stem": "The reference method for glucose estimation is the:",
+       "options": [
+        "Glucose oxidase method",
+        "Folin–Wu method",
+        "Dipstick method",
+        "Hexokinase method",
+        "Benedict's test"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hexokinase is highly specific."
+      },
+      {
+       "stem": "A glucose of 180 mg/dL equals approximately:",
+       "options": [
+        "5 mmol/L",
+        "10 mmol/L",
+        "18 mmol/L",
+        "3.2 mmol/L",
+        "32 mmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "180 ÷ 18 = 10 mmol/L."
+      },
+      {
+       "stem": "A haemolysed specimen will falsely increase serum:",
+       "options": [
+        "Glucose",
+        "Albumin",
+        "Urea",
+        "Potassium",
+        "Sodium"
+       ],
+       "answerIndex": 3,
+       "explanation": "Red cells contain high potassium."
+      },
+      {
+       "stem": "Leaving blood unseparated for several hours before glucose analysis in a plain tube will:",
+       "options": [
+        "Not affect glucose",
+        "Double glucose",
+        "Lower glucose",
+        "Convert glucose to urea",
+        "Raise glucose"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cells continue to consume glucose by glycolysis."
+      },
+      {
+       "stem": "Sodium and potassium in modern analysers are measured mainly by:",
+       "options": [
+        "Gravimetry",
+        "Refractometry",
+        "Flame photometry",
+        "Microscopy",
+        "Ion-selective electrodes"
+       ],
+       "answerIndex": 4,
+       "explanation": "ISEs are standard in current analysers."
+      },
+      {
+       "stem": "Pseudohyponatraemia with indirect ISE methods occurs in:",
+       "options": [
+        "Severe hyperlipidaemia",
+        "Dehydration",
+        "Hypoglycaemia",
+        "Hyperkalaemia",
+        "Iron deficiency"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lipid displaces plasma water in diluted samples."
+      },
+      {
+       "stem": "A creatinine of 1.0 mg/dL is approximately:",
+       "options": [
+        "8.8 µmol/L",
+        "88 µmol/L",
+        "880 µmol/L",
+        "18 µmol/L",
+        "1 µmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "1.0 × 88.4 ≈ 88 µmol/L."
+      }
+     ]
+    },
+    {
+     "title": "Glucose Metabolism Tests and Diabetes",
+     "order": 2,
+     "summary": "Fasting and random glucose, OGTT, HbA1c, ketones and hypoglycaemia.",
+     "material": [
+      {
+       "heading": "Diagnostic tests",
+       "body": "WHO diagnostic criteria for diabetes: fasting plasma glucose ≥ 7.0 mmol/L (126 mg/dL); 2-hour plasma glucose ≥ 11.1 mmol/L (200 mg/dL) in a 75 g oral glucose tolerance test (OGTT); random plasma glucose ≥ 11.1 mmol/L with symptoms; or HbA1c ≥ 6.5% (48 mmol/mol). Impaired fasting glucose is 6.1–6.9 mmol/L (WHO); impaired glucose tolerance is a 2-hour value of 7.8–11.0 mmol/L. The OGTT requires an overnight fast (8–14 hours), unrestricted carbohydrate diet for 3 days before, and the patient seated at rest. Gestational diabetes is screened with a 75 g OGTT at 24–28 weeks.",
+       "keyPoints": [
+        "FPG ≥ 7.0 mmol/L",
+        "2-h OGTT ≥ 11.1 mmol/L",
+        "HbA1c ≥ 6.5% (48 mmol/mol)",
+        "GDM: OGTT at 24–28 weeks"
+       ]
+      },
+      {
+       "heading": "Monitoring and complications",
+       "body": "HbA1c reflects average glycaemia over about 2–3 months; it is unreliable in haemoglobinopathies (HbSS, HbSC), recent transfusion, haemolysis and pregnancy — fructosamine (glycated albumin, 2–3 weeks) may be used. Urinary albumin–creatinine ratio (ACR) detects early diabetic nephropathy (microalbuminuria/moderately increased albuminuria, ACR 3–30 mg/mmol). Diabetic ketoacidosis: glucose usually > 11 mmol/L, ketonaemia (β-hydroxybutyrate > 3 mmol/L) or ketonuria, and metabolic acidosis (pH < 7.3, bicarbonate < 15 mmol/L). Hypoglycaemia in adults is glucose < 3.0–3.9 mmol/L with symptoms; causes include insulin or sulphonylurea excess, alcohol, severe malaria (and quinine), sepsis and insulinoma (high insulin and C-peptide; exogenous insulin gives high insulin with low C-peptide).",
+       "keyPoints": [
+        "HbA1c unreliable in HbSS/HbSC",
+        "ACR detects early nephropathy",
+        "DKA: hyperglycaemia + ketones + acidosis",
+        "Exogenous insulin: ↑insulin, ↓C-peptide"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The glucose load used in a standard adult OGTT is:",
+       "options": [
+        "25 g",
+        "50 g",
+        "75 g",
+        "100 g",
+        "150 g"
+       ],
+       "answerIndex": 2,
+       "explanation": "WHO uses 75 g anhydrous glucose."
+      },
+      {
+       "stem": "A 2-hour OGTT value diagnostic of diabetes is:",
+       "options": [
+        "≥ 15 mmol/L only",
+        "≥ 5.6 mmol/L",
+        "≥ 11.1 mmol/L",
+        "≥ 6.1 mmol/L",
+        "≥ 7.8 mmol/L"
+       ],
+       "answerIndex": 2,
+       "explanation": "2-h ≥ 11.1 mmol/L (200 mg/dL)."
+      },
+      {
+       "stem": "HbA1c may be unreliable in patients with:",
+       "options": [
+        "Hyperthyroidism only",
+        "Hypertension",
+        "Sickle cell disease",
+        "Asthma",
+        "Myopia"
+       ],
+       "answerIndex": 2,
+       "explanation": "Shortened red cell survival and variant haemoglobins interfere."
+      },
+      {
+       "stem": "Fructosamine reflects glycaemic control over about:",
+       "options": [
+        "1 day",
+        "2–3 weeks",
+        "3 months",
+        "1 year",
+        "5 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "Albumin has a half-life of about 20 days."
+      },
+      {
+       "stem": "Early diabetic kidney disease is detected by measuring:",
+       "options": [
+        "Serum sodium",
+        "Serum calcium",
+        "Urine glucose",
+        "Blood culture",
+        "Urine albumin–creatinine ratio"
+       ],
+       "answerIndex": 4,
+       "explanation": "Moderately increased albuminuria precedes falling GFR."
+      },
+      {
+       "stem": "High insulin with low C-peptide in a hypoglycaemic patient suggests:",
+       "options": [
+        "Exogenous insulin administration",
+        "Sulphonylurea overdose",
+        "Alcohol",
+        "Insulinoma",
+        "Adrenal insufficiency"
+       ],
+       "answerIndex": 0,
+       "explanation": "Injected insulin lacks C-peptide."
+      },
+      {
+       "stem": "Gestational diabetes screening with OGTT is usually done at:",
+       "options": [
+        "6–8 weeks",
+        "36–40 weeks",
+        "After delivery only",
+        "12–14 weeks",
+        "24–28 weeks"
+       ],
+       "answerIndex": 4,
+       "explanation": "Insulin resistance rises in the second trimester."
+      },
+      {
+       "stem": "Which is required for diagnosing diabetic ketoacidosis?",
+       "options": [
+        "Respiratory alkalosis",
+        "High bicarbonate",
+        "Normal ketones",
+        "Metabolic acidosis with ketonaemia",
+        "Low glucose"
+       ],
+       "answerIndex": 3,
+       "explanation": "DKA combines hyperglycaemia, ketosis and acidosis."
+      }
+     ]
+    },
+    {
+     "title": "Renal Function Tests and Electrolytes",
+     "order": 3,
+     "summary": "Urea, creatinine, eGFR, urinalysis, and sodium, potassium and chloride disorders.",
+     "material": [
+      {
+       "heading": "Renal function",
+       "body": "Serum creatinine (from muscle creatine) is the standard marker; it rises only after about half of GFR is lost and depends on muscle mass. Creatinine is measured by the Jaffe (alkaline picrate) method — subject to interference from ketones, bilirubin and some drugs — or enzymatic methods. Estimated GFR is calculated from creatinine using equations (CKD-EPI, MDRD); creatinine clearance uses a 24-hour urine collection. Urea rises with dehydration, gastrointestinal bleeding, high protein intake and catabolism, as well as renal failure; a high urea:creatinine ratio suggests pre-renal causes. Cystatin C is an alternative marker independent of muscle mass. Urinalysis (dipstick and microscopy) detects protein, blood, glucose, ketones, leucocytes and nitrites, and casts (red cell casts — glomerulonephritis).",
+       "keyPoints": [
+        "Creatinine rises after ~50% GFR loss",
+        "Jaffe method interference",
+        "eGFR: CKD-EPI/MDRD",
+        "High urea:creatinine → pre-renal",
+        "Red cell casts: glomerulonephritis"
+       ]
+      },
+      {
+       "heading": "Electrolytes",
+       "body": "Sodium (135–145 mmol/L): hyponatraemia causes include diuretics, SIADH, heart failure, cirrhosis, vomiting/diarrhoea, and adrenal insufficiency; hypernatraemia usually reflects water loss (dehydration, diabetes insipidus). Potassium (3.5–5.0 mmol/L): hyperkalaemia in renal failure, acidosis, potassium-sparing drugs, tissue breakdown, Addison's disease, and spuriously from haemolysis or delayed separation; hypokalaemia with diuretics, vomiting, diarrhoea, insulin therapy and hyperaldosteronism. Chloride and bicarbonate are used to calculate the anion gap [Na+ − (Cl− + HCO3−), normally ~8–12 mmol/L]. Plasma osmolality ≈ 2Na+ + urea + glucose (mmol/L); an osmolal gap > 10 suggests unmeasured osmoles such as methanol or ethylene glycol.",
+       "keyPoints": [
+        "Hyperkalaemia: renal failure, haemolysis (spurious)",
+        "Anion gap ≈ 8–12 mmol/L",
+        "Calculated osmolality = 2Na + urea + glucose",
+        "Osmolal gap → toxic alcohols"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Jaffe method measures:",
+       "options": [
+        "Albumin",
+        "Urea",
+        "Creatinine",
+        "Bilirubin",
+        "Uric acid"
+       ],
+       "answerIndex": 2,
+       "explanation": "Creatinine reacts with alkaline picrate."
+      },
+      {
+       "stem": "Serum creatinine may be low in people with:",
+       "options": [
+        "High muscle mass",
+        "Rhabdomyolysis",
+        "Dehydration",
+        "Low muscle mass (e.g. elderly, malnourished)",
+        "Renal failure"
+       ],
+       "answerIndex": 3,
+       "explanation": "Creatinine production depends on muscle mass."
+      },
+      {
+       "stem": "A disproportionately high urea compared with creatinine suggests:",
+       "options": [
+        "Pre-renal causes such as dehydration or GI bleeding",
+        "Low protein intake",
+        "Overhydration",
+        "Liver failure",
+        "Pregnancy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Urea reabsorption increases with low renal perfusion."
+      },
+      {
+       "stem": "Red cell casts in urine indicate:",
+       "options": [
+        "Urinary tract infection",
+        "Dehydration",
+        "Kidney stones only",
+        "Glomerulonephritis",
+        "Diabetes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Red cells from damaged glomeruli form casts in tubules."
+      },
+      {
+       "stem": "Calculated plasma osmolality is:",
+       "options": [
+        "2 × Na + urea + glucose",
+        "Na + K",
+        "Glucose × 2",
+        "Na + Cl + HCO3",
+        "Urea + creatinine"
+       ],
+       "answerIndex": 0,
+       "explanation": "This formula approximates measured osmolality."
+      },
+      {
+       "stem": "A raised osmolal gap in a patient with acidosis suggests poisoning with:",
+       "options": [
+        "Methanol or ethylene glycol",
+        "Digoxin",
+        "Paracetamol",
+        "Iron",
+        "Organophosphates"
+       ],
+       "answerIndex": 0,
+       "explanation": "Toxic alcohols are unmeasured osmoles."
+      },
+      {
+       "stem": "Which condition commonly causes hyponatraemia?",
+       "options": [
+        "SIADH",
+        "Water deprivation",
+        "Excess salt ingestion",
+        "Diabetes insipidus",
+        "Hyperaldosteronism alone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Inappropriate ADH causes water retention."
+      },
+      {
+       "stem": "An estimated GFR is calculated mainly from:",
+       "options": [
+        "Haemoglobin",
+        "Urine volume only",
+        "Blood pressure",
+        "Serum creatinine, age and sex",
+        "Serum sodium"
+       ],
+       "answerIndex": 3,
+       "explanation": "eGFR equations use creatinine with demographic factors."
+      }
+     ]
+    },
+    {
+     "title": "Liver Function Tests and Bilirubin",
+     "order": 4,
+     "summary": "Transaminases, ALP and GGT, bilirubin fractions, albumin and prothrombin time in liver disease.",
+     "material": [
+      {
+       "heading": "Enzymes and patterns",
+       "body": "'Liver function tests' mainly reflect liver injury: ALT (more liver-specific) and AST (also in heart, muscle, red cells) are raised in hepatocellular damage (viral hepatitis — often > 10× upper limit; drug-induced injury, e.g. paracetamol overdose — very high). An AST:ALT ratio > 2 suggests alcoholic liver disease. Alkaline phosphatase (ALP — also from bone, placenta, intestine) and gamma-glutamyl transferase (GGT — raised by alcohol and enzyme-inducing drugs) are raised in cholestasis (bile duct obstruction); a raised ALP with normal GGT suggests a bone source (growth, Paget's disease, fractures, bone metastases) or pregnancy (placental ALP).",
+       "keyPoints": [
+        "ALT/AST ↑: hepatocellular",
+        "AST:ALT > 2: alcohol",
+        "ALP + GGT ↑: cholestasis",
+        "ALP ↑ with normal GGT: bone or placenta"
+       ]
+      },
+      {
+       "heading": "Bilirubin and synthetic function",
+       "body": "Bilirubin is measured as total and direct (conjugated) fractions (diazo/Jendrassik–Grof method); indirect (unconjugated) = total − direct. Unconjugated hyperbilirubinaemia: haemolysis, Gilbert syndrome, neonatal jaundice. Conjugated: hepatocellular disease and obstruction (with bilirubinuria). True synthetic function is shown by albumin (half-life ~20 days — falls in chronic liver disease) and prothrombin time/INR (clotting factors — prolonged quickly in acute liver failure; corrected by vitamin K in cholestasis but not in severe hepatocellular failure). Hepatitis B surface antigen (HBsAg) positivity is common in Nigeria; alpha-fetoprotein is a marker for hepatocellular carcinoma.",
+       "keyPoints": [
+        "Indirect bilirubin = total − direct",
+        "Albumin: chronic synthetic function",
+        "PT/INR: acute synthetic function",
+        "AFP: hepatocellular carcinoma marker"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most liver-specific transaminase is:",
+       "options": [
+        "ALT",
+        "GGT",
+        "LDH",
+        "AST",
+        "ALP"
+       ],
+       "answerIndex": 0,
+       "explanation": "ALT is found mainly in the liver."
+      },
+      {
+       "stem": "An AST:ALT ratio greater than 2 suggests:",
+       "options": [
+        "Haemolysis",
+        "Viral hepatitis",
+        "Normal liver",
+        "Biliary obstruction",
+        "Alcoholic liver disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Alcohol typically raises AST more than ALT."
+      },
+      {
+       "stem": "Raised ALP with raised GGT indicates:",
+       "options": [
+        "Cholestasis (hepatobiliary source)",
+        "Pregnancy only",
+        "Muscle injury",
+        "Bone disease",
+        "Haemolysis"
+       ],
+       "answerIndex": 0,
+       "explanation": "GGT confirms that ALP is of hepatobiliary origin."
+      },
+      {
+       "stem": "Raised ALP with normal GGT in a growing adolescent is most likely from:",
+       "options": [
+        "Kidney",
+        "Heart",
+        "Pancreas",
+        "Bone",
+        "Liver"
+       ],
+       "answerIndex": 3,
+       "explanation": "Osteoblast activity in growth raises bone ALP."
+      },
+      {
+       "stem": "The best test of acute liver synthetic function is:",
+       "options": [
+        "Prothrombin time/INR",
+        "GGT",
+        "ALT",
+        "Albumin",
+        "Bilirubin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Clotting factors have short half-lives."
+      },
+      {
+       "stem": "Indirect (unconjugated) bilirubin is calculated as:",
+       "options": [
+        "Direct − total",
+        "Direct × 2",
+        "Total ÷ 2",
+        "Total − direct",
+        "Direct + total"
+       ],
+       "answerIndex": 3,
+       "explanation": "Indirect = total minus conjugated bilirubin."
+      },
+      {
+       "stem": "A marker for hepatocellular carcinoma is:",
+       "options": [
+        "CEA",
+        "PSA",
+        "HbA1c",
+        "CA-125",
+        "Alpha-fetoprotein"
+       ],
+       "answerIndex": 4,
+       "explanation": "AFP is raised in many hepatocellular carcinomas."
+      },
+      {
+       "stem": "Very high transaminases (thousands of U/L) are typical of:",
+       "options": [
+        "Acute viral hepatitis or paracetamol overdose",
+        "Gilbert syndrome",
+        "Hereditary spherocytosis",
+        "Chronic stable cirrhosis",
+        "Gallstones without obstruction"
+       ],
+       "answerIndex": 0,
+       "explanation": "Massive hepatocyte necrosis releases transaminases."
+      }
+     ]
+    },
+    {
+     "title": "Plasma Proteins and Cardiac and Pancreatic Enzymes",
+     "order": 5,
+     "summary": "Total protein, albumin, electrophoresis, and markers of myocardial and pancreatic injury.",
+     "material": [
+      {
+       "heading": "Plasma proteins",
+       "body": "Total protein (biuret method, 60–80 g/L) comprises albumin (35–50 g/L, bromocresol green method) and globulins. Low albumin occurs in malnutrition (kwashiorkor), liver disease, nephrotic syndrome (heavy proteinuria > 3.5 g/day), protein-losing enteropathy, burns and acute inflammation (negative acute-phase protein). Serum protein electrophoresis separates albumin, α1, α2, β and γ globulin bands: a monoclonal band (M-protein/paraprotein) in the γ region suggests multiple myeloma (with Bence Jones proteins — free light chains — in urine); polyclonal increase in γ-globulins occurs in chronic infections, liver cirrhosis (β–γ bridging) and autoimmune disease. C-reactive protein (CRP) is a positive acute-phase protein that rises quickly in inflammation and infection.",
+       "keyPoints": [
+        "Biuret: total protein; bromocresol green: albumin",
+        "Nephrotic: proteinuria > 3.5 g/day, low albumin",
+        "Monoclonal band: myeloma; Bence Jones proteins",
+        "CRP: acute-phase protein"
+       ]
+      },
+      {
+       "heading": "Enzymes and markers",
+       "body": "Cardiac troponins (cTnI, cTnT) are the preferred markers of myocardial injury: they rise 3–6 hours after infarction, peak at 12–24 hours and stay raised for 7–14 days; CK-MB returns to normal within 2–3 days (useful for re-infarction). Creatine kinase (CK) is very high in rhabdomyolysis and muscular dystrophy. B-type natriuretic peptide (BNP/NT-proBNP) is raised in heart failure. Amylase and lipase rise in acute pancreatitis (lipase is more specific and stays raised longer; amylase > 3× upper limit supports the diagnosis); amylase is also raised in mumps, perforated ulcer and macroamylasaemia. Lactate dehydrogenase (LDH) is a non-specific marker of tissue damage and haemolysis and a prognostic marker in lymphoma.",
+       "keyPoints": [
+        "Troponin: preferred MI marker, raised 7–14 days",
+        "CK-MB: normalises in 2–3 days",
+        "BNP: heart failure",
+        "Lipase more specific than amylase for pancreatitis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Total serum protein is commonly measured by the:",
+       "options": [
+        "Biuret method",
+        "Diazo method",
+        "Jaffe method",
+        "Bromocresol green method",
+        "Hexokinase method"
+       ],
+       "answerIndex": 0,
+       "explanation": "Biuret reacts with peptide bonds."
+      },
+      {
+       "stem": "A monoclonal band in the gamma region on protein electrophoresis suggests:",
+       "options": [
+        "Cirrhosis only",
+        "Nephrotic syndrome",
+        "Multiple myeloma",
+        "Normal serum",
+        "Iron deficiency"
+       ],
+       "answerIndex": 2,
+       "explanation": "A paraprotein is produced by a single plasma cell clone."
+      },
+      {
+       "stem": "Nephrotic syndrome is defined partly by proteinuria greater than:",
+       "options": [
+        "0.15 g/day",
+        "1 g/day",
+        "3.5 g/day",
+        "10 g/day",
+        "0.5 g/day"
+       ],
+       "answerIndex": 2,
+       "explanation": "Heavy proteinuria > 3.5 g/24 h with hypoalbuminaemia and oedema."
+      },
+      {
+       "stem": "The preferred biochemical marker of myocardial infarction is:",
+       "options": [
+        "LDH",
+        "Cardiac troponin",
+        "Amylase",
+        "AST",
+        "ALP"
+       ],
+       "answerIndex": 1,
+       "explanation": "Troponins are highly sensitive and specific."
+      },
+      {
+       "stem": "Which marker is most useful for detecting re-infarction a few days after an MI?",
+       "options": [
+        "Myoglobin only",
+        "AST",
+        "CK-MB",
+        "LDH",
+        "Troponin"
+       ],
+       "answerIndex": 2,
+       "explanation": "CK-MB returns to normal in 2–3 days, so a new rise indicates re-infarction."
+      },
+      {
+       "stem": "The more specific enzyme marker for acute pancreatitis is:",
+       "options": [
+        "ALT",
+        "ALP",
+        "Amylase",
+        "CK",
+        "Lipase"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lipase is more pancreas-specific and remains raised longer."
+      },
+      {
+       "stem": "Bence Jones proteins in urine are:",
+       "options": [
+        "Albumin",
+        "Glucose",
+        "Haemoglobin",
+        "Free immunoglobulin light chains",
+        "Myoglobin"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are found in multiple myeloma."
+      },
+      {
+       "stem": "A very high creatine kinase with dark urine after crush injury suggests:",
+       "options": [
+        "Rhabdomyolysis",
+        "Nephrotic syndrome",
+        "Myocardial infarction",
+        "Pancreatitis",
+        "Hepatitis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Muscle breakdown releases CK and myoglobin."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

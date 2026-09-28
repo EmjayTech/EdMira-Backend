@@ -1,0 +1,99 @@
+{
+  "title": "Pharmaceutical Microbiology and Sterile Products",
+  "code": "PMB301",
+  "color": "#047857",
+  "description": "Microbial contamination of medicines, preservatives, sterilisation of pharmaceuticals, aseptic processing, sterility testing and antimicrobial assays.",
+  "for": { "300": ["PHM"], "400": ["PHM"] },
+  "topics": [
+    {
+      "title": "Microbial Contamination of Pharmaceuticals",
+      "summary": "Sources of contamination, spoilage, microbial limits and consequences.",
+      "notes": [
+        { "h": "Sources and effects", "b": "Medicines can be contaminated from raw materials (especially natural products such as starch, gums, herbal materials and water), water systems, the manufacturing environment, equipment, personnel (the largest source in cleanrooms — skin scales, hair), packaging and, after opening, during use. Contamination may cause infection (e.g. Pseudomonas aeruginosa in eye drops causing corneal ulcers; contaminated infusions causing septicaemia), spoilage (gas, discolouration, odour, loss of potency, emulsion cracking) and toxic metabolites. Water is the commonest source of Gram-negative contamination and endotoxins.", "k": ["Personnel: main cleanroom source", "Pseudomonas in eye drops → corneal ulcers", "Water → Gram-negative bacteria and endotoxins"] },
+        { "h": "Standards", "b": "Pharmacopoeias set microbial limits for non-sterile products (total aerobic microbial count, total yeasts and moulds, and absence of specified organisms such as E. coli in oral products, Staphylococcus aureus and Pseudomonas aeruginosa in topical products, Salmonella in some natural products). Sterile products (injections, eye preparations, irrigation fluids) must be free of viable microorganisms and, for parenterals, free of pyrogens (bacterial endotoxins). Water for injections is produced by distillation or equivalent and tested for endotoxin.", "k": ["Non-sterile: limits + absence of specified pathogens", "Parenterals: sterile and pyrogen-free", "Water for injections tested for endotoxin"] }
+      ],
+      "q": [
+        ["The largest source of microbial contamination in a pharmaceutical cleanroom is usually:", "Air filters", "Personnel", "Glass containers", "Stainless steel surfaces", "Lighting", 1, "People shed skin particles and microbes."],
+        ["Contaminated eye drops are particularly dangerous when they contain:", "Lactobacillus", "Pseudomonas aeruginosa", "Bacillus subtilis spores only", "Saccharomyces", "Penicillium", 1, "P. aeruginosa can cause rapid corneal ulceration."],
+        ["Parenteral products must be sterile and also free of:", "Colour", "Pyrogens (endotoxins)", "Preservatives always", "Salt", "Buffers", 1, "Endotoxins cause fever and shock."],
+        ["For oral non-sterile products, the pharmacopoeia requires absence of:", "All bacteria", "Escherichia coli", "All fungi", "Lactic acid bacteria", "Spores", 1, "E. coli indicates faecal contamination."],
+        ["A common source of Gram-negative contamination and endotoxin is:", "Water systems", "Glass", "Stainless steel", "Sugar crystals only", "Sunlight", 0, "Biofilms in water systems harbour Gram-negatives."],
+        ["Signs of microbial spoilage in a syrup include:", "Improved taste", "Gas production, odour and turbidity", "Increased potency", "Reduced viscosity only by heat", "No change", 1, "Microbial growth produces gas, off-odours and cloudiness."],
+        ["Which product must be sterile?", "Oral tablets", "Eye drops", "Topical creams (general)", "Oral suspensions", "Chewable vitamins", 1, "Ophthalmic preparations must be sterile."],
+        ["Raw materials of natural origin (e.g. gums, starches) are:", "Always sterile", "A significant source of microbial contamination", "Never contaminated", "Only contaminated by viruses", "Free of spores", 1, "Natural materials often carry spores and fungi."]
+      ]
+    },
+    {
+      "title": "Preservatives and Their Evaluation",
+      "summary": "Ideal properties, common preservatives, factors affecting activity and preservative efficacy testing.",
+      "notes": [
+        { "h": "Preservatives", "b": "Preservatives are added to multi-dose and aqueous non-sterile preparations to prevent growth of contaminating microbes. Ideal properties: broad spectrum, effective at low concentration, non-toxic and non-irritant, stable, compatible and without odour or taste. Common preservatives: parabens (methyl- and propylparaben — oral and topical), benzalkonium chloride (a quaternary ammonium compound — eye drops), chlorhexidine, phenol and cresol (injections, e.g. insulin vials), benzyl alcohol, sorbic acid and benzoic acid/sodium benzoate (active in acidic pH, un-ionised form), thiomersal (vaccines) and alcohol (elixirs).", "k": ["Parabens: oral/topical", "Benzalkonium chloride: eye drops", "Benzoic and sorbic acid: need acidic pH", "Phenol/cresol in insulin"] },
+        { "h": "Factors and testing", "b": "Preservative activity is reduced by binding to macromolecules (e.g. parabens bind non-ionic surfactants like polysorbates), partitioning into the oil phase of emulsions, adsorption onto containers and rubber closures, unsuitable pH (weak acid preservatives work only in their un-ionised form at low pH), high microbial load and dilution. The preservative efficacy test (challenge test) inoculates the product with defined organisms (e.g. S. aureus, P. aeruginosa, E. coli, Candida albicans, Aspergillus brasiliensis) and measures log reduction over 28 days against pharmacopoeial criteria.", "k": ["Polysorbates inactivate parabens", "Oil phase reduces available preservative", "Challenge test: inoculate and count over 28 days"] }
+      ],
+      "q": [
+        ["The preservative commonly used in eye drops is:", "Methylparaben", "Benzalkonium chloride", "Sodium benzoate", "Ethanol", "Sorbic acid", 1, "Benzalkonium chloride is a quaternary ammonium antiseptic."],
+        ["Benzoic acid is an effective preservative mainly at:", "Alkaline pH", "Acidic pH", "Neutral pH only", "Any pH equally", "Very high temperature", 1, "Only the un-ionised acid is antimicrobial."],
+        ["The activity of parabens is reduced by:", "Low pH", "Non-ionic surfactants such as polysorbates", "Refrigeration", "Sugar", "Light", 1, "Parabens are bound in surfactant micelles."],
+        ["The preservative efficacy (challenge) test measures:", "Drug potency", "Log reduction of added test organisms over time", "Particle size", "Dissolution", "pH", 1, "It shows whether the preservative system is adequate."],
+        ["Which organism is used in preservative efficacy testing as a representative mould?", "Aspergillus brasiliensis", "Plasmodium falciparum", "HIV", "Mycobacterium tuberculosis", "Treponema pallidum", 0, "A. brasiliensis (formerly A. niger) represents moulds."],
+        ["Preservatives are required mainly in:", "Single-dose sterile ampoules", "Multi-dose aqueous preparations", "Dry powders only", "Tablets", "Gases", 1, "Repeated opening risks contamination."],
+        ["In an oil-in-water emulsion, preservative efficacy may fall because the preservative:", "Evaporates", "Partitions into the oil phase", "Becomes more active", "Binds glucose", "Is destroyed by water", 1, "Only the aqueous-phase preservative controls microbes."],
+        ["Multi-dose insulin vials are commonly preserved with:", "Benzalkonium chloride", "Phenol or m-cresol", "Sodium chloride", "Sucrose", "Citric acid", 1, "Phenolic preservatives are used in insulin."]
+      ]
+    },
+    {
+      "title": "Sterilisation of Pharmaceutical Products",
+      "summary": "Methods, D-value and Z-value, sterility assurance level and validation.",
+      "notes": [
+        { "h": "Kinetics and assurance", "b": "Microbial death under a sterilising process follows first-order kinetics. The D-value (decimal reduction time) is the time at a given temperature to reduce the microbial population by 90% (one log). The Z-value is the temperature change needed to change the D-value tenfold. The F0 value expresses the lethality of a moist-heat process as equivalent minutes at 121 °C. Sterility is defined probabilistically: a sterility assurance level (SAL) of 10⁻⁶ means no more than a one-in-a-million chance of a non-sterile unit. Terminal sterilisation in the final container is preferred to aseptic processing.", "k": ["D-value: time for 90% kill", "Z-value: °C to change D tenfold", "F0: equivalent minutes at 121 °C", "SAL 10⁻⁶; prefer terminal sterilisation"] },
+        { "h": "Methods and validation", "b": "Moist heat (autoclave, 121 °C for 15 min) for aqueous solutions in sealed containers and dressings; dry heat (160–180 °C) for glassware, oils and powders, and depyrogenation at ~250 °C; ethylene oxide gas for heat-sensitive devices (toxic, needs aeration); gamma irradiation for disposables and some raw materials; membrane filtration (0.22 µm) for heat-labile solutions (not terminal — requires aseptic filling; does not remove endotoxins or viruses reliably). Validation uses physical monitoring (temperature, pressure, time), chemical indicators and biological indicators: Geobacillus stearothermophilus spores for moist heat, Bacillus atrophaeus for dry heat and ethylene oxide, Bacillus pumilus for radiation, and Brevundimonas diminuta for filter challenge.", "k": ["Oils and powders: dry heat", "Ethylene oxide: heat-sensitive devices", "0.22 µm filtration: heat-labile solutions", "BIs: G. stearothermophilus (moist heat), B. atrophaeus (dry heat/EO)"] }
+      ],
+      "q": [
+        ["The D-value is the time required at a given temperature to:", "Kill all microbes", "Reduce the microbial population by 90%", "Raise the temperature by 10 °C", "Sterilise to SAL 10⁻⁶", "Destroy endotoxins", 1, "One D-value gives a one-log reduction."],
+        ["A sterility assurance level of 10⁻⁶ means:", "No microbes can ever survive", "At most a one-in-a-million chance a unit is non-sterile", "One microbe per millilitre", "Six microbes per unit", "The product is pyrogen-free", 1, "SAL is a probability statement."],
+        ["An oily injection is best sterilised by:", "Autoclaving", "Dry heat", "Filtration through 0.22 µm only", "Boiling", "UV light", 1, "Steam cannot penetrate oils; dry heat is used."],
+        ["The biological indicator for moist-heat sterilisation is spores of:", "Bacillus atrophaeus", "Geobacillus stearothermophilus", "Bacillus pumilus", "Clostridium tetani", "Brevundimonas diminuta", 1, "Its spores are highly resistant to moist heat."],
+        ["Heat-sensitive plastic medical devices are commonly sterilised with:", "Autoclave at 134 °C", "Ethylene oxide gas", "Dry heat at 180 °C", "Boiling water", "Pasteurisation", 1, "Ethylene oxide is a low-temperature gaseous sterilant."],
+        ["Filters used for sterilising solutions have a pore size of:", "22 µm", "2.2 µm", "0.22 µm", "0.022 mm", "2 mm", 2, "0.22 µm (or 0.2 µm) retains bacteria."],
+        ["The organism used to challenge sterilising-grade filters is:", "Brevundimonas diminuta", "E. coli", "Staphylococcus aureus", "Candida albicans", "Aspergillus", 0, "It is small enough to test filter retention."],
+        ["The Z-value is the:", "Time for a 90% kill", "Temperature change needed to change the D-value tenfold", "Equivalent minutes at 121 °C", "Initial bioburden", "Filter pore size", 1, "It describes temperature sensitivity of microbial death."]
+      ]
+    },
+    {
+      "title": "Aseptic Processing and Sterility Testing",
+      "summary": "Cleanroom grades, HEPA filtration, laminar airflow, gowning, media fills and sterility tests.",
+      "notes": [
+        { "h": "Aseptic processing", "b": "Aseptic processing assembles pre-sterilised components in a controlled environment when terminal sterilisation is not possible. Cleanrooms are classified by particle counts (EU GMP grades A–D; ISO 5–8): Grade A (ISO 5) is the critical zone for filling and open operations, usually under unidirectional (laminar) airflow through HEPA filters (retaining ≥ 99.97% of 0.3 µm particles), within a Grade B background. Positive pressure cascades, airlocks, validated gowning, restricted personnel movement and environmental monitoring (settle plates, contact plates, active air sampling) are essential. Process simulation (media fill) replaces product with sterile growth medium to validate aseptic technique; contamination rate must be extremely low.", "k": ["Grade A (ISO 5) critical zone under laminar flow", "HEPA: ≥ 99.97% of 0.3 µm particles", "Media fill validates aseptic processing", "Environmental monitoring"] },
+        { "h": "Sterility and endotoxin testing", "b": "The pharmacopoeial sterility test uses membrane filtration (preferred, especially for antimicrobial products — the membrane is rinsed to remove inhibitory substances) or direct inoculation into fluid thioglycollate medium (for anaerobes and aerobes, 30–35 °C) and soybean–casein digest medium (for aerobes and fungi, 20–25 °C), incubated for 14 days. Because it samples only a few units, it has limited statistical power and cannot prove sterility — assurance relies on validated processes. Bacterial endotoxins are detected by the Limulus amoebocyte lysate (LAL) test (gel clot, turbidimetric or chromogenic), which has largely replaced the rabbit pyrogen test.", "k": ["Sterility test: FTM and SCDM, 14 days", "Membrane filtration for antimicrobial products", "Test has limited power — rely on validation", "LAL test for endotoxins"] }
+      ],
+      "q": [
+        ["The critical zone for aseptic filling is:", "Grade D", "Grade C", "Grade B", "Grade A", "Unclassified", 3, "Grade A (ISO 5) protects exposed sterile product."],
+        ["HEPA filters remove at least ___ of 0.3 µm particles.", "50%", "90%", "99.97%", "100% of viruses", "10%", 2, "HEPA filters retain ≥ 99.97% of 0.3 µm particles."],
+        ["A process simulation that replaces product with microbial growth medium is a:", "Sterility test", "Media fill", "LAL test", "Challenge test", "Dissolution test", 1, "Media fills validate aseptic technique."],
+        ["The two media used in the pharmacopoeial sterility test are:", "Nutrient agar and MacConkey", "Fluid thioglycollate and soybean–casein digest", "Blood agar and chocolate agar", "Sabouraud and LJ", "TCBS and XLD", 1, "FTM detects anaerobes and aerobes; SCDM detects aerobes and fungi."],
+        ["Sterility test samples are incubated for:", "24 hours", "3 days", "7 days", "14 days", "28 days", 3, "Incubation lasts at least 14 days."],
+        ["The LAL test detects:", "Viruses", "Bacterial endotoxins", "Fungal spores", "Particulate matter", "Preservative levels", 1, "Limulus amoebocyte lysate clots in the presence of endotoxin."],
+        ["Why can a passed sterility test not prove a batch is sterile?", "The media are too rich", "Only a small sample is tested, so statistical power is low", "It detects viruses only", "Incubation is too long", "Filters remove microbes", 1, "Low-level contamination may be missed; process validation provides assurance."],
+        ["For an antibiotic injection, the preferred sterility test method is:", "Direct inoculation without rinsing", "Membrane filtration with rinsing", "Visual inspection", "Gram staining", "Rabbit test", 1, "Rinsing removes the antimicrobial activity that could mask growth."]
+      ]
+    },
+    {
+      "title": "Antimicrobial Assays and Disinfectant Evaluation",
+      "summary": "MIC and susceptibility testing, microbiological assay of antibiotics and evaluation of disinfectants.",
+      "notes": [
+        { "h": "Susceptibility and assays", "b": "The minimum inhibitory concentration (MIC) is the lowest concentration of an antimicrobial that prevents visible growth (broth or agar dilution); the minimum bactericidal concentration (MBC) is the lowest concentration killing ≥ 99.9% of the inoculum. The Kirby–Bauer disc diffusion method measures zones of inhibition interpreted against CLSI/EUCAST breakpoints; the E-test gives an MIC on agar. Microbiological (bio)assays measure antibiotic potency by comparing zones of inhibition (cylinder-plate/cup-plate method) or turbidity produced by the test sample and a reference standard — used when chemical assays do not reflect biological activity (e.g. neomycin, gentamicin complexes).", "k": ["MIC: lowest concentration inhibiting growth", "MBC: kills ≥ 99.9%", "Kirby–Bauer disc diffusion", "Bioassay compares sample with a standard"] },
+        { "h": "Disinfectant evaluation", "b": "Disinfectant activity depends on concentration (concentration exponent — high for phenols, so dilution greatly reduces activity), contact time, temperature, pH, organic load (blood and pus inactivate chlorine and quaternary ammonium compounds) and the type of organism (prions > bacterial spores > mycobacteria > non-enveloped viruses > fungi > vegetative bacteria > enveloped viruses in resistance). Historical tests include the Rideal–Walker and Chick–Martin phenol coefficient tests; modern tests include suspension tests (European Standards, e.g. EN 1276) and surface tests, plus in-use (Kelsey–Sykes/capacity) tests.", "k": ["Organic load inactivates chlorine and QACs", "Resistance: prions > spores > mycobacteria", "Phenol coefficient: Rideal–Walker, Chick–Martin", "Kelsey–Sykes capacity test"] }
+      ],
+      "q": [
+        ["The lowest concentration of an antibiotic that prevents visible bacterial growth is the:", "MBC", "MIC", "LD50", "ED50", "IC90 always", 1, "Minimum inhibitory concentration."],
+        ["The MBC is the lowest concentration that:", "Inhibits growth", "Kills at least 99.9% of the inoculum", "Causes resistance", "Is toxic to humans", "Dissolves the drug", 1, "Minimum bactericidal concentration."],
+        ["Disc diffusion susceptibility testing is known as the:", "E-test", "Kirby–Bauer method", "LAL test", "Challenge test", "Rideal–Walker test", 1, "Zones of inhibition around antibiotic discs are measured."],
+        ["Microbiological assays of antibiotics are used to determine:", "Particle size", "Biological potency compared with a standard", "Sterility", "pH", "Viscosity", 1, "They measure activity rather than chemical content."],
+        ["Which microbes are generally most resistant to disinfectants (excluding prions)?", "Enveloped viruses", "Vegetative bacteria", "Bacterial spores", "Yeasts", "Gram-positive cocci", 2, "Spores are highly resistant to chemical agents."],
+        ["The activity of hypochlorite is markedly reduced by:", "Clean water", "Organic matter such as blood", "Low temperatures only", "Light only", "Dilution with alcohol", 1, "Organic load consumes available chlorine."],
+        ["The phenol coefficient compares a disinfectant's activity with:", "Alcohol", "Phenol", "Chlorhexidine", "Formaldehyde", "Iodine", 1, "Rideal–Walker and Chick–Martin tests use phenol as the standard."],
+        ["A disinfectant with a high concentration exponent (like phenol) will:", "Retain activity when diluted", "Lose activity markedly when diluted", "Be unaffected by concentration", "Increase activity on dilution", "Only work on spores", 1, "Activity falls steeply as concentration decreases."]
+      ]
+    }
+  ]
+}

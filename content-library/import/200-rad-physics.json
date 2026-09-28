@@ -1,0 +1,647 @@
+{
+ "courses": [
+  {
+   "title": "Radiation Physics for Radiography",
+   "code": "RAD201",
+   "color": "#4338CA",
+   "description": "Atomic structure and radioactivity, production of X-rays, interaction of radiation with matter, and radiation quantities and units.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "300 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Atomic Structure and Radioactivity",
+     "order": 1,
+     "summary": "Nuclear structure, types of radioactive decay, half-life and radionuclides in medicine.",
+     "material": [
+      {
+       "heading": "Radioactive decay",
+       "body": "Unstable nuclei decay to more stable forms, emitting radiation. Alpha particles (2 protons + 2 neutrons, a helium nucleus) are heavy, highly ionising and stopped by paper or skin. Beta-minus particles are electrons emitted when a neutron converts to a proton; beta-plus (positrons) are emitted when a proton converts to a neutron and annihilate with electrons to give two 511 keV photons (the basis of PET). Gamma rays are high-energy photons from the nucleus, penetrating and stopped by lead or concrete. Isotopes have the same atomic number but different mass numbers.",
+       "keyPoints": [
+        "Alpha: helium nucleus, stopped by paper",
+        "Positron annihilation → two 511 keV photons (PET)",
+        "Gamma: nuclear photons, penetrating"
+       ]
+      },
+      {
+       "heading": "Half-life and activity",
+       "body": "Activity is the number of disintegrations per second, measured in becquerels (Bq; 1 Bq = 1 decay/s; old unit curie). Physical half-life is the time for activity to halve: after n half-lives, activity = initial × (½)ⁿ. Effective half-life combines physical and biological half-lives: 1/Te = 1/Tp + 1/Tb. Technetium-99m (half-life 6 hours, pure gamma emitter at 140 keV) is the most widely used diagnostic radionuclide; iodine-131 treats thyroid disease; fluorine-18 (110 min) is used in FDG-PET.",
+       "keyPoints": [
+        "Activity in becquerels",
+        "After n half-lives: (½)ⁿ",
+        "Tc-99m: 6 h, 140 keV gamma",
+        "1/Te = 1/Tp + 1/Tb"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An alpha particle consists of:",
+       "options": [
+        "A high-energy photon",
+        "Two protons and two neutrons",
+        "One neutron",
+        "One positron",
+        "One electron"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a helium-4 nucleus."
+      },
+      {
+       "stem": "Which radiation is stopped by a sheet of paper?",
+       "options": [
+        "Alpha",
+        "Gamma",
+        "Neutrons",
+        "Beta",
+        "X-rays"
+       ],
+       "answerIndex": 0,
+       "explanation": "Alpha particles have very short range."
+      },
+      {
+       "stem": "The SI unit of radioactivity is the:",
+       "options": [
+        "Sievert",
+        "Roentgen",
+        "Becquerel",
+        "Curie",
+        "Gray"
+       ],
+       "answerIndex": 2,
+       "explanation": "1 Bq = one disintegration per second."
+      },
+      {
+       "stem": "The half-life of technetium-99m is about:",
+       "options": [
+        "6 minutes",
+        "6 hours",
+        "6 days",
+        "8 days",
+        "110 minutes"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tc-99m has a 6-hour physical half-life."
+      },
+      {
+       "stem": "A source of 800 MBq decays for three half-lives. Its activity is now:",
+       "options": [
+        "400 MBq",
+        "200 MBq",
+        "100 MBq",
+        "50 MBq",
+        "266 MBq"
+       ],
+       "answerIndex": 2,
+       "explanation": "800 × (½)³ = 100 MBq."
+      },
+      {
+       "stem": "Positron emission tomography detects:",
+       "options": [
+        "Radiofrequency signals",
+        "Ultrasound echoes",
+        "Beta-minus particles",
+        "Alpha particles",
+        "Pairs of 511 keV annihilation photons"
+       ],
+       "answerIndex": 4,
+       "explanation": "Positron–electron annihilation produces two opposite 511 keV photons."
+      },
+      {
+       "stem": "If physical half-life is 6 h and biological half-life is 6 h, the effective half-life is:",
+       "options": [
+        "12 h",
+        "6 h",
+        "3 h",
+        "36 h",
+        "1 h"
+       ],
+       "answerIndex": 2,
+       "explanation": "1/Te = 1/6 + 1/6 = 1/3, so Te = 3 h."
+      },
+      {
+       "stem": "Iodine-131 is used therapeutically for:",
+       "options": [
+        "Bone pain",
+        "Thyroid disease",
+        "Brain tumours only",
+        "Kidney stones",
+        "Heart failure"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is concentrated by the thyroid and emits beta particles."
+      }
+     ]
+    },
+    {
+     "title": "Production of X-rays and the X-ray Tube",
+     "order": 2,
+     "summary": "X-ray tube components, bremsstrahlung and characteristic radiation, and exposure factors.",
+     "material": [
+      {
+       "heading": "The X-ray tube",
+       "body": "X-rays were discovered by Wilhelm Röntgen in 1895. In the X-ray tube, a heated tungsten filament in the cathode releases electrons by thermionic emission; a high voltage (kilovoltage, kVp) accelerates them across a vacuum to strike the anode target (tungsten, high atomic number 74 and melting point ~3,400 °C). Over 99% of the electron energy becomes heat and less than 1% becomes X-rays, so rotating anodes and oil cooling are used. The line-focus principle (angled anode) gives a small effective focal spot for sharp images while spreading heat over a larger actual area. The heel effect makes intensity lower on the anode side.",
+       "keyPoints": [
+        "Röntgen discovered X-rays (1895)",
+        ">99% of energy becomes heat",
+        "Tungsten target: high Z, high melting point",
+        "Heel effect: less intensity on anode side"
+       ]
+      },
+      {
+       "heading": "X-ray production and exposure factors",
+       "body": "Bremsstrahlung ('braking') radiation forms most of the beam, producing a continuous spectrum up to the peak kilovoltage. Characteristic radiation occurs when an incoming electron ejects an inner-shell (K-shell) electron and an outer electron fills the vacancy, emitting discrete energies. kVp controls beam energy (penetration and contrast); mA × exposure time (mAs) controls the quantity of X-rays and hence image density/noise. Filtration (aluminium) removes low-energy photons that would only add to skin dose ('beam hardening').",
+       "keyPoints": [
+        "Bremsstrahlung: continuous spectrum, most of beam",
+        "Characteristic: discrete lines from shell transitions",
+        "kVp = quality/penetration; mAs = quantity",
+        "Aluminium filtration reduces skin dose"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "X-rays were discovered by:",
+       "options": [
+        "Marie Curie",
+        "Henri Becquerel",
+        "Ernest Rutherford",
+        "Godfrey Hounsfield",
+        "Wilhelm Röntgen"
+       ],
+       "answerIndex": 4,
+       "explanation": "Röntgen discovered X-rays in 1895."
+      },
+      {
+       "stem": "Electrons are released from the cathode filament by:",
+       "options": [
+        "Photoelectric effect",
+        "Thermionic emission",
+        "Compton scattering",
+        "Pair production",
+        "Fluorescence"
+       ],
+       "answerIndex": 1,
+       "explanation": "Heating the filament boils off electrons."
+      },
+      {
+       "stem": "Most of the energy of electrons hitting the anode is converted into:",
+       "options": [
+        "X-rays",
+        "Sound",
+        "Light",
+        "Gamma rays",
+        "Heat"
+       ],
+       "answerIndex": 4,
+       "explanation": "Over 99% becomes heat."
+      },
+      {
+       "stem": "Tungsten is used for the anode target because it has:",
+       "options": [
+        "Low atomic number",
+        "Low density",
+        "High atomic number and high melting point",
+        "Magnetic properties",
+        "Low cost only"
+       ],
+       "answerIndex": 2,
+       "explanation": "High Z improves X-ray production; a high melting point tolerates heat."
+      },
+      {
+       "stem": "The type of radiation forming most of the X-ray beam is:",
+       "options": [
+        "Characteristic radiation",
+        "Ultraviolet",
+        "Gamma radiation",
+        "Bremsstrahlung radiation",
+        "Beta radiation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Braking radiation produces the continuous spectrum."
+      },
+      {
+       "stem": "Increasing the kVp mainly increases the X-ray beam's:",
+       "options": [
+        "Energy and penetrating power",
+        "Focal spot size",
+        "Heel effect",
+        "Quantity only",
+        "Exposure time"
+       ],
+       "answerIndex": 0,
+       "explanation": "kVp determines photon energy."
+      },
+      {
+       "stem": "The purpose of aluminium filtration in the X-ray beam is to:",
+       "options": [
+        "Increase low-energy photons",
+        "Focus the beam",
+        "Remove low-energy photons that increase skin dose",
+        "Increase contrast greatly",
+        "Cool the anode"
+       ],
+       "answerIndex": 2,
+       "explanation": "Soft photons would be absorbed by skin without contributing to the image."
+      },
+      {
+       "stem": "The heel effect causes the X-ray intensity to be lower on the:",
+       "options": [
+        "Cathode side",
+        "Anode side",
+        "Film side",
+        "Patient's skin",
+        "Centre of the beam"
+       ],
+       "answerIndex": 1,
+       "explanation": "Photons produced deeper in the angled anode are more absorbed on the anode side."
+      }
+     ]
+    },
+    {
+     "title": "Interaction of Radiation with Matter",
+     "order": 3,
+     "summary": "Photoelectric effect, Compton scattering, attenuation and image contrast.",
+     "material": [
+      {
+       "heading": "Interactions",
+       "body": "In the diagnostic energy range the main interactions are the photoelectric effect and Compton scattering. In the photoelectric effect a photon is completely absorbed by an inner-shell electron; its probability is roughly proportional to Z³/E³, so it dominates at low energies and in high-Z materials (bone, iodine and barium contrast, lead). It produces image contrast and increases patient dose. In Compton scattering a photon interacts with an outer electron, losing part of its energy and changing direction; it depends on electron density, dominates at higher energies in soft tissue, degrades image quality (fog) and is the main source of occupational scatter dose. Pair production requires energies above 1.022 MeV (radiotherapy range).",
+       "keyPoints": [
+        "Photoelectric ∝ Z³/E³ — gives contrast",
+        "Compton: scatter, fog, staff dose",
+        "Pair production > 1.022 MeV"
+       ]
+      },
+      {
+       "heading": "Attenuation and image contrast",
+       "body": "Attenuation is the reduction of beam intensity by absorption and scatter: I = I₀e^(−μx), where μ is the linear attenuation coefficient. The half-value layer (HVL) is the thickness of material that halves beam intensity. Contrast on a radiograph arises from differences in attenuation: bone (high Z and density) appears white (radio-opaque), air appears black (radiolucent), soft tissue and fat are grey. Lower kVp increases contrast (more photoelectric absorption). Anti-scatter grids and collimation reduce scatter reaching the image receptor.",
+       "keyPoints": [
+        "I = I₀e^(−μx)",
+        "HVL halves intensity",
+        "Bone white, air black",
+        "Grids and collimation reduce scatter"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The interaction mainly responsible for radiographic contrast between bone and soft tissue is the:",
+       "options": [
+        "Photodisintegration",
+        "Coherent scattering",
+        "Pair production",
+        "Photoelectric effect",
+        "Compton effect"
+       ],
+       "answerIndex": 3,
+       "explanation": "Photoelectric absorption depends strongly on atomic number."
+      },
+      {
+       "stem": "The probability of photoelectric absorption is approximately proportional to:",
+       "options": [
+        "E³/Z³",
+        "Z³/E³",
+        "Z²E",
+        "Electron density only",
+        "Z/E"
+       ],
+       "answerIndex": 1,
+       "explanation": "It rises steeply with Z and falls steeply with energy."
+      },
+      {
+       "stem": "Scattered radiation that reaches staff during fluoroscopy is mainly due to:",
+       "options": [
+        "Bremsstrahlung",
+        "Characteristic radiation",
+        "Photoelectric effect",
+        "Pair production",
+        "Compton scattering"
+       ],
+       "answerIndex": 4,
+       "explanation": "Compton scatter is the main occupational hazard."
+      },
+      {
+       "stem": "Pair production requires photon energies of at least:",
+       "options": [
+        "80 keV",
+        "140 keV",
+        "511 keV",
+        "1.022 MeV",
+        "10 MeV"
+       ],
+       "answerIndex": 3,
+       "explanation": "Creating an electron–positron pair needs 2 × 0.511 MeV."
+      },
+      {
+       "stem": "The thickness of material that reduces beam intensity by half is the:",
+       "options": [
+        "Focal spot",
+        "Grid ratio",
+        "Half-life",
+        "Mean free path",
+        "Half-value layer"
+       ],
+       "answerIndex": 4,
+       "explanation": "HVL describes beam quality and shielding."
+      },
+      {
+       "stem": "On a chest radiograph, air in the lungs appears:",
+       "options": [
+        "Black",
+        "Invisible",
+        "Grey like bone",
+        "Yellow",
+        "White"
+       ],
+       "answerIndex": 0,
+       "explanation": "Air attenuates little, so more X-rays reach the receptor (dark)."
+      },
+      {
+       "stem": "Anti-scatter grids are used to:",
+       "options": [
+        "Increase patient dose deliberately",
+        "Produce characteristic radiation",
+        "Cool the tube",
+        "Reduce scattered radiation reaching the receptor",
+        "Increase magnification"
+       ],
+       "answerIndex": 3,
+       "explanation": "Grids absorb obliquely travelling scatter."
+      },
+      {
+       "stem": "Barium and iodine are good contrast agents because they have:",
+       "options": [
+        "Low atomic numbers",
+        "No density",
+        "Magnetic properties",
+        "High atomic numbers",
+        "Radioactivity"
+       ],
+       "answerIndex": 3,
+       "explanation": "High Z increases photoelectric absorption."
+      }
+     ]
+    },
+    {
+     "title": "Radiation Quantities, Units and Biological Effects",
+     "order": 4,
+     "summary": "Absorbed, equivalent and effective dose, and deterministic and stochastic effects.",
+     "material": [
+      {
+       "heading": "Dose quantities",
+       "body": "Absorbed dose is energy deposited per unit mass, measured in gray (Gy = J/kg). Equivalent dose = absorbed dose × radiation weighting factor (1 for X-rays, gamma and beta; 20 for alpha), measured in sieverts (Sv). Effective dose sums equivalent doses to organs multiplied by tissue weighting factors and estimates overall stochastic risk (Sv). Typical effective doses: chest X-ray about 0.02 mSv; CT abdomen about 8–10 mSv; natural background about 2–3 mSv per year.",
+       "keyPoints": [
+        "Absorbed dose: Gy",
+        "Equivalent and effective dose: Sv",
+        "Alpha weighting factor 20",
+        "Chest X-ray ≈ 0.02 mSv; CT abdomen ≈ 10 mSv"
+       ]
+      },
+      {
+       "heading": "Biological effects",
+       "body": "Ionising radiation damages DNA directly or indirectly via free radicals from water (indirect action predominates for X-rays). Deterministic (tissue) effects have a threshold and their severity increases with dose — e.g. skin erythema, cataract, hair loss, sterility, acute radiation syndrome. Stochastic effects (cancer, heritable effects) have no threshold; the probability, not severity, increases with dose. The law of Bergonié and Tribondeau states that cells are more radiosensitive when they divide rapidly and are less differentiated — lymphocytes, bone marrow, gonads and the fetus are highly sensitive; nerve and muscle are resistant.",
+       "keyPoints": [
+        "Deterministic: threshold, severity ↑ with dose",
+        "Stochastic: no threshold, probability ↑",
+        "Bergonié–Tribondeau: dividing cells most sensitive"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The SI unit of absorbed dose is the:",
+       "options": [
+        "Rad",
+        "Gray",
+        "Becquerel",
+        "Roentgen",
+        "Sievert"
+       ],
+       "answerIndex": 1,
+       "explanation": "1 Gy = 1 J/kg."
+      },
+      {
+       "stem": "Effective dose is expressed in:",
+       "options": [
+        "Becquerel",
+        "Coulomb/kg",
+        "Gray",
+        "Curie",
+        "Sievert"
+       ],
+       "answerIndex": 4,
+       "explanation": "Equivalent and effective dose use the sievert."
+      },
+      {
+       "stem": "The radiation weighting factor for alpha particles is:",
+       "options": [
+        "1",
+        "5",
+        "10",
+        "20",
+        "100"
+       ],
+       "answerIndex": 3,
+       "explanation": "Alpha radiation is weighted 20 because of dense ionisation."
+      },
+      {
+       "stem": "Cataract formation after radiation is an example of a:",
+       "options": [
+        "Heritable effect",
+        "Non-radiation effect",
+        "Stochastic effect",
+        "Deterministic effect",
+        "Genetic mutation only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cataracts have a dose threshold."
+      },
+      {
+       "stem": "Radiation-induced cancer is a ___ effect.",
+       "options": [
+        "Immediate",
+        "Tissue",
+        "Stochastic",
+        "Threshold",
+        "Deterministic"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cancer risk has no threshold and increases in probability with dose."
+      },
+      {
+       "stem": "According to Bergonié and Tribondeau, the most radiosensitive cells are those that:",
+       "options": [
+        "Are nerve cells",
+        "Are muscle cells",
+        "Divide rarely and are highly specialised",
+        "Contain no DNA",
+        "Divide rapidly and are poorly differentiated"
+       ],
+       "answerIndex": 4,
+       "explanation": "Rapidly dividing, undifferentiated cells are most sensitive."
+      },
+      {
+       "stem": "Which tissue is most radiosensitive?",
+       "options": [
+        "Cortical bone",
+        "Brain neurons",
+        "Tendon",
+        "Bone marrow",
+        "Skeletal muscle"
+       ],
+       "answerIndex": 3,
+       "explanation": "Haemopoietic cells divide rapidly."
+      },
+      {
+       "stem": "Most DNA damage from diagnostic X-rays occurs by:",
+       "options": [
+        "Sound waves",
+        "Heat",
+        "Indirect action through free radicals from water",
+        "Magnetic fields",
+        "Direct action only"
+       ],
+       "answerIndex": 2,
+       "explanation": "X-rays mainly ionise water, producing damaging free radicals."
+      }
+     ]
+    },
+    {
+     "title": "Image Receptors and Digital Imaging Basics",
+     "order": 5,
+     "summary": "Film–screen, computed and digital radiography, and image quality parameters.",
+     "material": [
+      {
+       "heading": "Image receptors",
+       "body": "Traditional film–screen systems use intensifying screens containing phosphors (e.g. rare-earth gadolinium oxysulphide) that convert X-rays to light to expose film, reducing patient dose. Computed radiography (CR) uses photostimulable phosphor plates (barium fluorohalide) that store the latent image and release light when scanned by a laser. Direct digital radiography (DR) uses flat-panel detectors: indirect (scintillator such as caesium iodide + photodiodes) or direct (amorphous selenium converts X-rays directly to charge). Images are stored and shared through PACS in DICOM format.",
+       "keyPoints": [
+        "Intensifying screens reduce dose",
+        "CR: photostimulable phosphor plate read by laser",
+        "DR: flat-panel (CsI indirect; selenium direct)",
+        "PACS and DICOM"
+       ]
+      },
+      {
+       "heading": "Image quality",
+       "body": "Key image-quality factors are contrast (difference in density between structures), spatial resolution (ability to show fine detail), noise (random variation, reduced by increasing mAs) and artefacts. Geometric unsharpness is reduced by a small focal spot, a short object–image distance and a long source–image distance. Magnification = SID/SOD. The inverse square law states that intensity is inversely proportional to the square of the distance from the source (doubling distance quarters intensity) — the basis of distance as radiation protection.",
+       "keyPoints": [
+        "Noise ↓ with ↑mAs",
+        "Small focal spot + short OID + long SID = sharper",
+        "Inverse square law: double distance → ¼ intensity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Intensifying screens reduce patient dose because they:",
+       "options": [
+        "Cool the tube",
+        "Convert X-rays into light that exposes the film",
+        "Absorb scatter",
+        "Filter the beam",
+        "Increase kVp"
+       ],
+       "answerIndex": 1,
+       "explanation": "Light from phosphors amplifies the film's response."
+      },
+      {
+       "stem": "Computed radiography uses:",
+       "options": [
+        "Ultrasound transducers",
+        "Film only",
+        "Photostimulable phosphor plates read by a laser",
+        "Gamma cameras",
+        "Amorphous selenium panels only"
+       ],
+       "answerIndex": 2,
+       "explanation": "CR plates store a latent image released by laser scanning."
+      },
+      {
+       "stem": "In a direct flat-panel detector, X-rays are converted directly to charge by:",
+       "options": [
+        "Amorphous selenium",
+        "Sodium iodide",
+        "Lead",
+        "Caesium iodide",
+        "Gadolinium oxysulphide"
+       ],
+       "answerIndex": 0,
+       "explanation": "Selenium is a photoconductor."
+      },
+      {
+       "stem": "The standard file format for medical images is:",
+       "options": [
+        "PNG",
+        "JPEG",
+        "DICOM",
+        "PDF",
+        "MP4"
+       ],
+       "answerIndex": 2,
+       "explanation": "DICOM enables storage and exchange of medical images."
+      },
+      {
+       "stem": "Doubling the distance from a radiation source reduces intensity to:",
+       "options": [
+        "One-half",
+        "No change",
+        "One-quarter",
+        "Twice",
+        "One-eighth"
+       ],
+       "answerIndex": 2,
+       "explanation": "Inverse square law: (½)² = ¼."
+      },
+      {
+       "stem": "Image noise can be reduced by:",
+       "options": [
+        "Using a larger focal spot",
+        "Increasing object–image distance",
+        "Decreasing mAs",
+        "Removing collimation",
+        "Increasing mAs"
+       ],
+       "answerIndex": 4,
+       "explanation": "More photons reduce quantum noise."
+      },
+      {
+       "stem": "Geometric unsharpness is reduced by using a:",
+       "options": [
+        "Small focal spot",
+        "Long object–image distance",
+        "Lower mAs",
+        "Large focal spot",
+        "Short source–image distance"
+       ],
+       "answerIndex": 0,
+       "explanation": "A small focal spot reduces penumbra."
+      },
+      {
+       "stem": "If SID is 100 cm and SOD is 80 cm, the magnification factor is:",
+       "options": [
+        "0.8",
+        "1.0",
+        "1.25",
+        "1.8",
+        "2.0"
+       ],
+       "answerIndex": 2,
+       "explanation": "M = SID/SOD = 100/80 = 1.25."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

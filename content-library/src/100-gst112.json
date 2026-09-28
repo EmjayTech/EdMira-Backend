@@ -1,0 +1,99 @@
+{
+  "title": "Nigerian Peoples and Culture (GST 112)",
+  "code": "GST112",
+  "color": "#475569",
+  "description": "General-studies course on Nigeria's peoples, history, government and culture, taken by all 100 Level students.",
+  "for": { "100": ["*"] },
+  "topics": [
+    {
+      "title": "The Land and Peoples of Nigeria",
+      "summary": "Geography, ethnic diversity, states and geopolitical zones of Nigeria.",
+      "notes": [
+        { "h": "Geography and administration", "b": "Nigeria lies in West Africa on the Gulf of Guinea, bordered by Benin (west), Niger (north), Chad (north-east) and Cameroon (east). It has 36 states plus the Federal Capital Territory (Abuja) and 774 local government areas, grouped into six geopolitical zones: North-West, North-East, North-Central, South-West, South-East and South-South. Abuja replaced Lagos as the capital on 12 December 1991.", "k": ["36 states + FCT; 774 LGAs", "Six geopolitical zones", "Abuja became capital in 1991"] },
+        { "h": "Ethnic diversity", "b": "Nigeria has over 250 ethnic groups and more than 500 languages. The three largest groups are the Hausa-Fulani (north), Yoruba (south-west) and Igbo (south-east). Others include the Ijaw, Kanuri, Ibibio, Tiv, Edo, Nupe, Urhobo and Efik. The name 'Nigeria' was suggested by Flora Shaw (later Lady Lugard) in 1897, from the River Niger.", "k": ["Over 250 ethnic groups", "Hausa-Fulani, Yoruba and Igbo are the largest", "Flora Shaw coined the name 'Nigeria'"] }
+      ],
+      "q": [
+        ["How many states does Nigeria have (excluding the FCT)?", "30", "32", "36", "37", "19", 2, "Nigeria has 36 states plus the Federal Capital Territory."],
+        ["Who suggested the name 'Nigeria'?", "Lord Lugard", "Flora Shaw", "Herbert Macaulay", "Mungo Park", "Richard Lander", 1, "Flora Shaw, a journalist who later married Lugard, coined the name in 1897."],
+        ["Abuja officially became Nigeria's capital in:", "1976", "1987", "1991", "1999", "1960", 2, "The seat of government moved from Lagos to Abuja on 12 December 1991."],
+        ["How many local government areas are recognised by the Constitution?", "774", "744", "586", "36", "1,000", 0, "The 1999 Constitution lists 774 local government areas."],
+        ["Which country borders Nigeria to the west?", "Cameroon", "Chad", "Niger", "Benin Republic", "Ghana", 3, "Benin Republic lies on Nigeria's western border."],
+        ["Which is NOT one of Nigeria's six geopolitical zones?", "South-South", "North-Central", "Middle Belt", "South-West", "North-East", 2, "'Middle Belt' is an informal term; the official zone is North-Central."],
+        ["The Kanuri people are mainly found in which present-day state?", "Oyo", "Borno", "Rivers", "Enugu", "Kwara", 1, "The Kanuri are concentrated in Borno State, the heartland of the old Kanem-Bornu empire."],
+        ["Approximately how many ethnic groups are in Nigeria?", "About 3", "About 36", "Over 250", "Exactly 100", "About 20", 2, "Nigeria is home to more than 250 ethnic groups."]
+      ]
+    },
+    {
+      "title": "Pre-colonial States and Societies",
+      "summary": "Political organisation of the Oyo, Benin, Hausa, Kanem-Bornu and Igbo societies and the Sokoto Caliphate.",
+      "notes": [
+        { "h": "Centralised states", "b": "The Oyo Empire was ruled by the Alaafin, checked by the Oyo Mesi (council of seven kingmakers led by the Bashorun) and the Ogboni society. The Benin Kingdom was headed by the Oba, with chiefs such as the Uzama. Kanem-Bornu, one of the oldest states, was ruled by the Mai and later the Shehu. The Hausa city-states (e.g. Kano, Katsina, Zaria) were led by Sarkis (Habe kings) until the Fulani jihad of Usman dan Fodio (from 1804) created the Sokoto Caliphate, governed by Emirs under the Sultan.", "k": ["Oyo: Alaafin checked by Oyo Mesi and Ogboni", "Benin: Oba", "Kanem-Bornu: Mai / Shehu", "Sokoto Caliphate followed the 1804 jihad"] },
+        { "h": "Non-centralised (acephalous) societies", "b": "The Igbo and Tiv were largely decentralised. Igbo communities governed themselves through the council of elders, the Ofo title holders, age grades, the Umuada (married daughters) and title societies such as Ozo. Decisions were often reached by consensus in village assemblies. This structure later made British indirect rule difficult in the east, leading to the imposition of warrant chiefs and the Aba Women's Riot of 1929.", "k": ["Igbo: republican, age grades, council of elders", "Warrant chiefs led to the Aba Women's Riot (1929)"] }
+      ],
+      "q": [
+        ["The ruler of the old Oyo Empire was known as the:", "Oba", "Alaafin", "Emir", "Mai", "Obi", 1, "The Alaafin ruled Oyo, checked by the Oyo Mesi."],
+        ["The Oyo Mesi was headed by the:", "Are-Ona-Kakanfo", "Bashorun", "Ogboni", "Aremo", "Iyoba", 1, "The Bashorun led the seven-member Oyo Mesi council of kingmakers."],
+        ["The Fulani jihad that created the Sokoto Caliphate was led by:", "Usman dan Fodio", "Muhammad Bello", "Idris Alooma", "Abdullahi Fodio", "El-Kanemi", 0, "Usman dan Fodio began the jihad in 1804."],
+        ["Pre-colonial Igbo society is best described as:", "Centralised monarchy", "Theocracy", "Decentralised (acephalous)", "Military state", "Feudal empire", 2, "Most Igbo communities had no central king and governed through elders, age grades and assemblies."],
+        ["The ruler of Kanem-Bornu was originally titled the:", "Sarki", "Mai", "Oba", "Alaafin", "Etsu", 1, "Kanem-Bornu was ruled by the Mai; later the Shehu dynasty rose under al-Kanemi."],
+        ["The Aba Women's Riot of 1929 was a protest mainly against:", "Slave trade", "Warrant chiefs and feared taxation of women", "Amalgamation", "Military rule", "Missionary schools", 1, "Women protested against warrant chiefs and rumoured taxation of women."],
+        ["Which body in Oyo could check the power of the Oyo Mesi?", "The Ogboni", "The Uzama", "The Ozo", "The Umuada", "The Emirate council", 0, "The Ogboni cult acted as a check on the Oyo Mesi."],
+        ["The Oba is the traditional ruler of:", "Oyo", "Benin", "Kano", "Nupe", "Jukun", 1, "The Oba is the paramount ruler of the Benin Kingdom."]
+      ]
+    },
+    {
+      "title": "Colonial Rule and Amalgamation",
+      "summary": "British conquest, amalgamation of 1914, indirect rule and the colonial constitutions.",
+      "notes": [
+        { "h": "Amalgamation and indirect rule", "b": "Britain annexed Lagos in 1861, and after the Royal Niger Company's charter was revoked (1900) created the Protectorates of Northern and Southern Nigeria. On 1 January 1914 Sir Frederick Lugard amalgamated them into one colony and protectorate. Lugard's system of indirect rule governed through traditional rulers; it worked best in the emirate North, less well in the West, and failed in the East, where warrant chiefs were imposed.", "k": ["Lagos annexed 1861", "Amalgamation: 1 January 1914 by Lugard", "Indirect rule succeeded most in the North"] },
+        { "h": "Colonial constitutions", "b": "The Clifford Constitution (1922) introduced the elective principle, giving Lagos and Calabar elected members and stimulating party formation (Herbert Macaulay's NNDP, 1923). The Richards Constitution (1946) created regional houses of assembly; the Macpherson Constitution (1951) involved wider consultation; the Lyttelton Constitution (1954) made Nigeria a federation. Independence came on 1 October 1960, and Nigeria became a republic on 1 October 1963.", "k": ["Clifford 1922: elective principle", "Richards 1946: regionalism", "Lyttelton 1954: federalism", "Independence 1960; Republic 1963"] }
+      ],
+      "q": [
+        ["The Northern and Southern Protectorates were amalgamated in:", "1900", "1906", "1914", "1922", "1960", 2, "Lugard amalgamated them on 1 January 1914."],
+        ["The elective principle was first introduced by the:", "Richards Constitution", "Clifford Constitution", "Macpherson Constitution", "Lyttelton Constitution", "Independence Constitution", 1, "The 1922 Clifford Constitution allowed elected members from Lagos and Calabar."],
+        ["Which constitution made Nigeria a federation?", "Clifford 1922", "Richards 1946", "Macpherson 1951", "Lyttelton 1954", "Republican 1963", 3, "The Lyttelton Constitution of 1954 introduced true federalism."],
+        ["Indirect rule was most successful in:", "Eastern Nigeria", "Western Nigeria", "Northern Nigeria", "Lagos Colony", "The Niger Delta", 2, "The existing emirate system in the North suited indirect rule."],
+        ["Nigeria became a republic on:", "1 October 1960", "1 October 1963", "15 January 1966", "29 May 1999", "1 January 1914", 1, "Nigeria became a republic on 1 October 1963, with Nnamdi Azikiwe as President."],
+        ["The Nigerian National Democratic Party (1923) was founded by:", "Nnamdi Azikiwe", "Herbert Macaulay", "Obafemi Awolowo", "Ahmadu Bello", "Tafawa Balewa", 1, "Herbert Macaulay founded the NNDP after the Clifford Constitution."],
+        ["Lagos was annexed as a British colony in:", "1807", "1851", "1861", "1885", "1914", 2, "Britain formally annexed Lagos in 1861."],
+        ["Regional Houses of Assembly were first created by the:", "Richards Constitution", "Clifford Constitution", "Lyttelton Constitution", "1979 Constitution", "1999 Constitution", 0, "The 1946 Richards Constitution established regional assemblies."]
+      ]
+    },
+    {
+      "title": "Independence, the Civil War and Nation Building",
+      "summary": "Post-independence politics, military rule, the civil war, and national unity institutions.",
+      "notes": [
+        { "h": "From independence to civil war", "b": "At independence (1960) Sir Abubakar Tafawa Balewa was Prime Minister. The first military coup occurred on 15 January 1966, bringing Major-General Aguiyi-Ironsi to power; a counter-coup in July 1966 installed Lt-Col Yakubu Gowon. Gowon created 12 states in 1967. The Eastern Region declared secession as 'Biafra' under Lt-Col Odumegwu Ojukwu, and the civil war lasted from July 1967 to January 1970, ending with Gowon's policy of 'No victor, no vanquished' and the 3Rs (Reconciliation, Reconstruction, Rehabilitation).", "k": ["First coup: 15 January 1966", "Civil war: 1967–1970", "3Rs after the war"] },
+        { "h": "Unity institutions and the Fourth Republic", "b": "The National Youth Service Corps (NYSC) was established in 1973 to promote national unity. The federal character principle (1979 Constitution) ensures fair representation of states in public appointments. The Fourth Republic began on 29 May 1999 under the 1999 Constitution. National symbols include the green-white-green flag designed by Taiwo Akinkunmi, the national anthem 'Arise, O Compatriots' (adopted 1978) and the coat of arms with the motto 'Unity and Faith, Peace and Progress'.", "k": ["NYSC: 1973", "Fourth Republic: 29 May 1999", "Flag by Taiwo Akinkunmi", "Motto: Unity and Faith, Peace and Progress"] }
+      ],
+      "q": [
+        ["Nigeria's first military coup took place on:", "1 October 1960", "15 January 1966", "29 July 1966", "13 February 1976", "31 December 1983", 1, "The first coup was on 15 January 1966."],
+        ["The Nigerian Civil War ended in:", "1967", "1968", "1970", "1975", "1979", 2, "The war ended in January 1970."],
+        ["The NYSC scheme was established in:", "1960", "1970", "1973", "1979", "1999", 2, "Gowon's government created the NYSC in 1973 to foster unity."],
+        ["Who designed the Nigerian national flag?", "Taiwo Akinkunmi", "Ben Odiase", "Lillian Jean Williams", "Nnamdi Azikiwe", "Flora Shaw", 0, "Michael Taiwo Akinkunmi designed the green-white-green flag."],
+        ["The motto on Nigeria's coat of arms is:", "One Nigeria", "Unity and Faith, Peace and Progress", "Peace, Unity and Progress", "Justice and Liberty", "Faith and Hope", 1, "The motto is 'Unity and Faith, Peace and Progress'."],
+        ["The post-war policy of Gowon was summarised as:", "Operation Feed the Nation", "The 3Rs: Reconciliation, Reconstruction, Rehabilitation", "Austerity measures", "Structural Adjustment", "War Against Indiscipline", 1, "Gowon declared 'No victor, no vanquished' and the 3Rs."],
+        ["The Fourth Republic began on:", "1 October 1979", "29 May 1999", "12 June 1993", "27 August 1985", "1 October 1963", 1, "Civilian rule returned on 29 May 1999."],
+        ["The principle ensuring that public appointments reflect Nigeria's diversity is called:", "Quota system of 1914", "Federal character", "Indirect rule", "Regionalism", "Zoning by decree", 1, "Federal character was entrenched in the 1979 Constitution."]
+      ]
+    },
+    {
+      "title": "Culture, Values and Social Problems",
+      "summary": "Concept of culture, Nigerian cultural values, festivals, and challenges such as corruption and ethnicity.",
+      "notes": [
+        { "h": "What is culture?", "b": "Culture is the total way of life of a people: their beliefs, values, norms, language, customs, arts and technology, learned and transmitted from one generation to the next. Material culture includes tangible items (tools, clothing, buildings); non-material culture includes beliefs, values, language and norms. Enculturation is learning one's own culture; acculturation is adopting traits from another culture through contact. Nigerian festivals include the Argungu fishing festival (Kebbi), Osun-Osogbo festival (Osun), Eyo festival (Lagos) and New Yam festival (Igbo land).", "k": ["Culture is learned, shared and transmitted", "Material vs non-material culture", "Argungu: Kebbi; Osun-Osogbo: Osun; Eyo: Lagos"] },
+        { "h": "Social problems and national development", "b": "Challenges to national development include corruption, ethnicity and tribalism, religious intolerance, insecurity and poor leadership. Anti-corruption agencies include the Economic and Financial Crimes Commission (EFCC, 2003) and the Independent Corrupt Practices and Other Related Offences Commission (ICPC, 2000). Good citizenship involves obeying laws, paying taxes, voting and respecting others' rights.", "k": ["EFCC established 2003; ICPC 2000", "Ethnicity and corruption hinder development"] }
+      ],
+      "q": [
+        ["Culture is best defined as:", "The art of a people only", "The total way of life of a people", "Religion", "Traditional dances", "Language only", 1, "Culture covers beliefs, values, customs, language, arts and technology."],
+        ["Which is an example of material culture?", "Language", "Beliefs", "Pottery", "Norms", "Values", 2, "Material culture consists of tangible objects such as pottery and tools."],
+        ["The Argungu fishing festival is held in:", "Kebbi State", "Osun State", "Lagos State", "Cross River State", "Borno State", 0, "Argungu is in Kebbi State."],
+        ["Learning one's own culture from birth is called:", "Acculturation", "Enculturation", "Assimilation", "Diffusion", "Integration", 1, "Enculturation is learning one's own culture; acculturation is adopting another's traits."],
+        ["The EFCC was established in:", "1999", "2000", "2003", "2010", "1985", 2, "The Economic and Financial Crimes Commission was established in 2003."],
+        ["The Eyo festival is associated with:", "Kano", "Lagos", "Calabar", "Benin", "Jos", 1, "The Eyo (Adamu Orisha) play is a Lagos festival."],
+        ["Which agency was established in 2000 to fight corrupt practices?", "EFCC", "ICPC", "NDLEA", "NAFDAC", "CCB", 1, "The ICPC was established in 2000."],
+        ["Which is NOT a duty of a good citizen?", "Paying taxes", "Voting", "Obeying laws", "Evading census", "Respecting others' rights", 3, "Evading census is irresponsible; good citizens participate in national exercises."]
+      ]
+    }
+  ]
+}

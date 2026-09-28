@@ -1,0 +1,659 @@
+{
+ "courses": [
+  {
+   "title": "Blood Transfusion Science and Immunohaematology",
+   "code": "BTS401",
+   "color": "#B91C1C",
+   "description": "Blood group systems, grouping and antibody screening techniques, compatibility testing, donor selection and blood processing, and investigation of transfusion reactions and HDFN.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "500 Level",
+     "department": "Haematology"
+    }
+   ],
+   "topics": [
+    {
+     "title": "ABO and Rh Blood Group Systems",
+     "order": 1,
+     "summary": "ABO antigens and antibodies, inheritance, subgroups and the Bombay phenotype; the Rh system.",
+     "material": [
+      {
+       "heading": "ABO system",
+       "body": "The ABO system (Landsteiner, 1901) is the most important in transfusion. Antigens A and B are carbohydrate structures added to the H antigen by glycosyltransferases encoded by the ABO gene on chromosome 9; group O lacks these transferases and has the most H antigen. Naturally occurring antibodies (anti-A, anti-B — mainly IgM, reacting at room temperature, complement-fixing) are present in people lacking the corresponding antigen from about 3–6 months of age. Group O individuals also have anti-A,B (partly IgG, can cross the placenta). Subgroups (A1, A2) differ in antigen strength. The Bombay phenotype (Oh) lacks H antigen and has anti-H, so can only receive Oh blood. Approximate distribution in Nigeria: group O about half the population, followed by A and B, with AB least common.",
+       "keyPoints": [
+        "Landsteiner discovered ABO (1901)",
+        "A and B built on H antigen",
+        "Anti-A/anti-B: naturally occurring IgM",
+        "Bombay (Oh): anti-H — needs Oh blood",
+        "Group O most common in Nigeria"
+       ]
+      },
+      {
+       "heading": "Rh system",
+       "body": "The Rh system is highly complex (D, C, c, E, e antigens); D is the most immunogenic. RhD-negative people lack D antigen and do not have anti-D naturally — anti-D is immune (IgG), formed after exposure through transfusion or pregnancy; it crosses the placenta and causes haemolytic disease of the fetus and newborn (HDFN) and haemolytic transfusion reactions. Rh-negative frequency is low in Nigeria (about 2–5%) compared with about 15% in white populations. Weak D and partial D variants complicate typing. Anti-D immunoglobulin prophylaxis prevents sensitisation of RhD-negative mothers.",
+       "keyPoints": [
+        "D is the most immunogenic",
+        "Anti-D is immune IgG",
+        "Rh-negative ≈ 2–5% in Nigeria",
+        "Weak D and partial D",
+        "Anti-D prophylaxis prevents sensitisation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The ABO blood group system was discovered by:",
+       "options": [
+        "Robert Koch",
+        "Alexander Fleming",
+        "Karl Landsteiner",
+        "Edward Jenner",
+        "Louis Pasteur"
+       ],
+       "answerIndex": 2,
+       "explanation": "Landsteiner described it in 1901."
+      },
+      {
+       "stem": "Anti-A and anti-B antibodies are mainly of the class:",
+       "options": [
+        "IgA",
+        "IgG only",
+        "IgE",
+        "IgD",
+        "IgM"
+       ],
+       "answerIndex": 4,
+       "explanation": "Naturally occurring ABO antibodies are predominantly IgM."
+      },
+      {
+       "stem": "A and B antigens are formed by adding sugars to the:",
+       "options": [
+        "Lewis antigen only",
+        "Duffy antigen",
+        "D antigen",
+        "Kell antigen",
+        "H antigen"
+       ],
+       "answerIndex": 4,
+       "explanation": "Glycosyltransferases modify H substance."
+      },
+      {
+       "stem": "A person with the Bombay phenotype can safely receive blood only from:",
+       "options": [
+        "Group O donors",
+        "Group A donors",
+        "Group AB donors",
+        "Any donor",
+        "Other Bombay (Oh) donors"
+       ],
+       "answerIndex": 4,
+       "explanation": "They have anti-H, which reacts with ordinary group O cells."
+      },
+      {
+       "stem": "The most immunogenic Rh antigen is:",
+       "options": [
+        "D antigen",
+        "Big E antigen",
+        "Small c antigen",
+        "Big C antigen",
+        "Kell antigen"
+       ],
+       "answerIndex": 0,
+       "explanation": "D is the main clinically significant Rh antigen."
+      },
+      {
+       "stem": "Anti-D antibodies in an Rh-negative person arise from:",
+       "options": [
+        "Bacterial infection",
+        "Exposure to D-positive red cells by transfusion or pregnancy",
+        "Birth (naturally occurring)",
+        "Diet",
+        "Exercise"
+       ],
+       "answerIndex": 1,
+       "explanation": "Anti-D is an immune antibody."
+      },
+      {
+       "stem": "The most common ABO blood group in Nigeria is:",
+       "options": [
+        "A",
+        "O",
+        "AB",
+        "Bombay",
+        "B"
+       ],
+       "answerIndex": 1,
+       "explanation": "Group O accounts for roughly half the population."
+      },
+      {
+       "stem": "The approximate proportion of RhD-negative people in Nigeria is:",
+       "options": [
+        "0.1%",
+        "2–5%",
+        "15%",
+        "30%",
+        "50%"
+       ],
+       "answerIndex": 1,
+       "explanation": "RhD-negative is much rarer than in Europe."
+      }
+     ]
+    },
+    {
+     "title": "Grouping, Antibody Screening and Compatibility Techniques",
+     "order": 2,
+     "summary": "Forward and reverse grouping, the antiglobulin test, antibody screening and cross-matching.",
+     "material": [
+      {
+       "heading": "Grouping",
+       "body": "ABO grouping includes forward (cell) grouping — testing patient red cells with anti-A, anti-B (and anti-A,B) reagents — and reverse (serum/plasma) grouping — testing patient serum with known A1 and B cells. Both must agree; discrepancies (e.g. weak antigens, missing antibodies in neonates or the elderly, rouleaux, cold autoantibodies, recent transfusion) must be resolved before issuing blood. Reverse grouping is not done on neonates (antibodies are maternal or absent). RhD typing uses anti-D reagents (monoclonal); weak D testing may use the indirect antiglobulin technique. Methods: tile/slide (rapid, used in emergencies), tube, microplate and column agglutination (gel card) technology.",
+       "keyPoints": [
+        "Forward (cells) + reverse (serum) must agree",
+        "No reverse grouping in neonates",
+        "Column agglutination (gel cards)",
+        "Resolve discrepancies before issue"
+       ]
+      },
+      {
+       "heading": "Antiglobulin test and cross-match",
+       "body": "The antiglobulin (Coombs') test detects IgG or complement on red cells using anti-human globulin (AHG). The direct antiglobulin test (DAT) detects in vivo sensitisation (autoimmune haemolysis, HDFN, haemolytic transfusion reactions); the indirect antiglobulin test (IAT) detects antibodies in serum that coat red cells in vitro at 37 °C (antibody screening, cross-matching, weak D testing). Antibody screening tests patient serum against group O reagent cells of known antigen profile to detect clinically significant alloantibodies (anti-D, anti-K (Kell), anti-Fya (Duffy), anti-Jka (Kidd) — Kidd antibodies are notorious for delayed haemolytic reactions). The cross-match (compatibility test) tests patient serum against donor red cells by IAT (full cross-match) or electronically/immediate spin when the antibody screen is negative. False negatives in IAT arise from inadequate washing (neutralising AHG) — validated with IgG-coated control cells.",
+       "keyPoints": [
+        "DAT: in vivo; IAT: in vitro at 37 °C",
+        "Antibody screen with group O reagent cells",
+        "Clinically significant: D, Kell, Duffy, Kidd",
+        "Kidd: delayed haemolytic reactions",
+        "Check IAT with IgG-coated control cells"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Reverse (serum) grouping tests the patient's serum against:",
+       "options": [
+        "Anti-A and anti-B reagents",
+        "AHG reagent",
+        "Donor plasma",
+        "Anti-D reagent",
+        "Known A1 and B red cells"
+       ],
+       "answerIndex": 4,
+       "explanation": "It detects the patient's naturally occurring antibodies."
+      },
+      {
+       "stem": "Reverse grouping is not routinely performed on newborns because:",
+       "options": [
+        "Their cells are too small",
+        "They are always group O",
+        "Their ABO antibodies are absent or maternal",
+        "It is too expensive",
+        "They have no red cells"
+       ],
+       "answerIndex": 2,
+       "explanation": "Infants make their own ABO antibodies from about 3–6 months."
+      },
+      {
+       "stem": "The direct antiglobulin test detects:",
+       "options": [
+        "ABO group",
+        "Antibody or complement already bound to red cells in vivo",
+        "Free antibody in serum",
+        "Iron stores",
+        "Haemoglobin type"
+       ],
+       "answerIndex": 1,
+       "explanation": "DAT indicates in vivo sensitisation."
+      },
+      {
+       "stem": "The indirect antiglobulin test is used in:",
+       "options": [
+        "Coagulation testing",
+        "Reticulocyte counting",
+        "Direct detection of HDFN in the baby only",
+        "Haemoglobin electrophoresis",
+        "Antibody screening and cross-matching"
+       ],
+       "answerIndex": 4,
+       "explanation": "Serum antibodies are allowed to coat cells in vitro."
+      },
+      {
+       "stem": "Antibody screening uses reagent red cells of group:",
+       "options": [
+        "A",
+        "AB",
+        "Any group",
+        "B",
+        "O"
+       ],
+       "answerIndex": 4,
+       "explanation": "Group O cells avoid ABO interference."
+      },
+      {
+       "stem": "Antibodies of the ___ system are notorious for causing delayed haemolytic transfusion reactions.",
+       "options": [
+        "MNS only",
+        "Kidd",
+        "ABO",
+        "P",
+        "Lewis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Kidd antibodies fade and reappear anamnestically."
+      },
+      {
+       "stem": "IgG-coated control cells are added to negative IAT tests to:",
+       "options": [
+        "Increase sensitivity",
+        "Lyse cells",
+        "Confirm that the AHG reagent was active and washing was adequate",
+        "Detect IgM",
+        "Change the blood group"
+       ],
+       "answerIndex": 2,
+       "explanation": "A negative control-cell result invalidates the test."
+      },
+      {
+       "stem": "Gel card (column agglutination) technology separates agglutinated cells by:",
+       "options": [
+        "Colour change",
+        "Electrophoresis",
+        "Magnetic beads only",
+        "Trapping agglutinates in a gel matrix during centrifugation",
+        "Heat"
+       ],
+       "answerIndex": 3,
+       "explanation": "Unagglutinated cells pass to the bottom."
+      }
+     ]
+    },
+    {
+     "title": "Donor Selection, Blood Collection and Processing",
+     "order": 3,
+     "summary": "Donor eligibility, collection, anticoagulants, component preparation and storage.",
+     "material": [
+      {
+       "heading": "Donors and collection",
+       "body": "Blood donors should be healthy voluntary non-remunerated donors aged about 18–65 years (national criteria vary), weighing at least 50 kg, with adequate haemoglobin (e.g. ≥ 12.5 g/dL), normal vital signs, and no high-risk behaviour or recent illness. Deferrals include recent malaria or fever, pregnancy and lactation, recent tattoo, certain drugs, and positive infection markers. About 450 mL (± 10%) is collected into bags containing anticoagulant–preservative: CPDA-1 (citrate — anticoagulant by chelating calcium; phosphate — buffer; dextrose — red cell energy; adenine — maintains ATP; shelf life 35 days at 2–6 °C). Additive solutions (SAGM) extend red cell storage to 42 days. Mandatory screening in Nigeria: HIV, hepatitis B (HBsAg), hepatitis C and syphilis; malaria testing is recommended in endemic areas.",
+       "keyPoints": [
+        "Voluntary non-remunerated donors safest",
+        "Donor ≥ 50 kg; adequate Hb",
+        "450 mL collected",
+        "CPDA-1: 35 days; SAGM: 42 days",
+        "Screen HIV, HBV, HCV, syphilis"
+       ]
+      },
+      {
+       "heading": "Components and storage",
+       "body": "Whole blood is centrifuged to prepare: packed red cells (2–6 °C), platelet concentrate (20–24 °C with continuous agitation; 5 days — highest risk of bacterial contamination), fresh frozen plasma (frozen within hours of collection, stored ≤ −25 °C for up to about 1–3 years depending on temperature; thawed at 37 °C), and cryoprecipitate (from slowly thawed FFP; rich in fibrinogen, factor VIII, factor XIII and vWF). Storage lesions of red cells include falling 2,3-DPG and ATP, rising potassium and haemolysis. Leucodepletion reduces febrile reactions, alloimmunisation and CMV transmission; irradiation prevents transfusion-associated graft-versus-host disease in immunocompromised recipients. Blood bank refrigerators must have temperature monitoring and alarms.",
+       "keyPoints": [
+        "Red cells 2–6 °C; platelets 20–24 °C agitated; FFP ≤ −25 °C",
+        "Platelets: highest bacterial risk",
+        "Cryo: fibrinogen, VIII, XIII, vWF",
+        "Leucodepletion and irradiation",
+        "Storage lesion: ↓2,3-DPG, ↑K+"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The volume of whole blood usually collected from an adult donor is about:",
+       "options": [
+        "100 mL",
+        "250 mL",
+        "450 mL",
+        "1,000 mL",
+        "2,000 mL"
+       ],
+       "answerIndex": 2,
+       "explanation": "A standard donation is 450 mL ± 10%."
+      },
+      {
+       "stem": "In CPDA-1, citrate functions as the:",
+       "options": [
+        "Preservative of ATP",
+        "Energy source",
+        "Anticoagulant by binding calcium",
+        "Colourant",
+        "Buffer"
+       ],
+       "answerIndex": 2,
+       "explanation": "Citrate chelates calcium, preventing clotting."
+      },
+      {
+       "stem": "The adenine in CPDA-1 helps red cells by:",
+       "options": [
+        "Killing bacteria",
+        "Preventing clotting",
+        "Binding potassium",
+        "Buffering pH",
+        "Maintaining ATP levels"
+       ],
+       "answerIndex": 4,
+       "explanation": "It supports red cell viability for 35 days."
+      },
+      {
+       "stem": "Red cells stored in CPDA-1 have a shelf life of about:",
+       "options": [
+        "5 days",
+        "21 days",
+        "35 days",
+        "1 year",
+        "6 hours"
+       ],
+       "answerIndex": 2,
+       "explanation": "Additive solutions can extend this to 42 days."
+      },
+      {
+       "stem": "The blood component with the highest risk of bacterial contamination is:",
+       "options": [
+        "Red cells",
+        "Cryoprecipitate",
+        "Fresh frozen plasma",
+        "Platelets",
+        "Albumin"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are stored at room temperature."
+      },
+      {
+       "stem": "Cryoprecipitate is rich in:",
+       "options": [
+        "Antibodies only",
+        "Albumin only",
+        "Platelets",
+        "Fibrinogen and factor VIII",
+        "Red cells"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is used for hypofibrinogenaemia."
+      },
+      {
+       "stem": "Irradiation of blood components is performed to prevent:",
+       "options": [
+        "Febrile reactions",
+        "Bacterial contamination",
+        "Transfusion-associated graft-versus-host disease",
+        "Allergy",
+        "Hyperkalaemia"
+       ],
+       "answerIndex": 2,
+       "explanation": "It inactivates donor lymphocytes."
+      },
+      {
+       "stem": "Which infections are mandatorily screened in donated blood in Nigeria?",
+       "options": [
+        "HIV, hepatitis B, hepatitis C and syphilis",
+        "Influenza",
+        "Lassa fever only",
+        "Malaria only",
+        "Tuberculosis and typhoid"
+       ],
+       "answerIndex": 0,
+       "explanation": "These are the transfusion-transmissible infections screened."
+      }
+     ]
+    },
+    {
+     "title": "Transfusion Reactions and Haemovigilance",
+     "order": 4,
+     "summary": "Laboratory investigation of reactions, TRALI, TACO, and haemovigilance systems.",
+     "material": [
+      {
+       "heading": "Investigation",
+       "body": "When a transfusion reaction is suspected: stop the transfusion, keep the IV line open with saline, check the patient's identity against the unit, return the bag and giving set to the laboratory, and send post-transfusion blood and urine samples. Laboratory investigation: clerical check; repeat ABO and RhD grouping on pre- and post-transfusion patient samples and the donor unit; direct antiglobulin test (positive in immune haemolysis); visual inspection of plasma for haemolysis; bilirubin, LDH and haptoglobin; urinalysis for haemoglobinuria; repeat antibody screen and cross-match; blood cultures of the patient and unit if bacterial contamination is suspected; coagulation screen for DIC. Acute haemolytic reactions are usually due to ABO incompatibility from identification errors.",
+       "keyPoints": [
+        "Stop transfusion; keep line open",
+        "Return bag and giving set",
+        "Repeat grouping; DAT",
+        "Check haemolysis markers",
+        "Blood cultures if sepsis suspected"
+       ]
+      },
+      {
+       "heading": "Types and haemovigilance",
+       "body": "Other reactions: febrile non-haemolytic (cytokines/leucocyte antibodies — reduced by leucodepletion), allergic/urticarial (plasma proteins; anaphylaxis in IgA-deficient patients with anti-IgA), TRALI (transfusion-related acute lung injury — acute hypoxaemia and bilateral infiltrates within 6 hours, due to donor anti-HLA/HNA antibodies, typically from multiparous female donor plasma), TACO (transfusion-associated circulatory overload — hypertension, raised JVP, pulmonary oedema; treat with diuretics and slow transfusion), delayed haemolytic reaction (days later — falling Hb, jaundice, positive DAT), post-transfusion purpura, iron overload (chronic transfusion — chelation), and transfusion-transmitted infections. Haemovigilance is the systematic surveillance of adverse events across the transfusion chain to improve safety; Nigeria's National Blood Service Agency coordinates blood services and reporting.",
+       "keyPoints": [
+        "FNHTR: most common; leucodepletion",
+        "TRALI: hypoxia within 6 h; donor antibodies",
+        "TACO: overload; diuretics",
+        "Delayed haemolytic: positive DAT days later",
+        "Haemovigilance improves safety"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "When a transfusion reaction is suspected, the first action is to:",
+       "options": [
+        "Discard the blood bag",
+        "Stop the transfusion and keep the line open with saline",
+        "Speed up the transfusion",
+        "Give more blood",
+        "Remove the IV cannula immediately and leave"
+       ],
+       "answerIndex": 1,
+       "explanation": "Stopping limits harm; the bag is returned for investigation."
+      },
+      {
+       "stem": "The most useful laboratory test to confirm immune-mediated haemolysis after transfusion is the:",
+       "options": [
+        "Platelet count",
+        "Blood glucose",
+        "Reticulocyte count alone",
+        "ESR",
+        "Direct antiglobulin test"
+       ],
+       "answerIndex": 4,
+       "explanation": "A positive DAT shows antibody-coated red cells."
+      },
+      {
+       "stem": "The most common cause of acute haemolytic transfusion reactions is:",
+       "options": [
+        "Bacterial contamination",
+        "Iron overload",
+        "Hypothermia",
+        "ABO incompatibility due to identification errors",
+        "Citrate toxicity"
+       ],
+       "answerIndex": 3,
+       "explanation": "Clerical errors lead to ABO-incompatible transfusions."
+      },
+      {
+       "stem": "Acute breathlessness with bilateral lung infiltrates within 6 hours of transfusion, without fluid overload, suggests:",
+       "options": [
+        "TRALI",
+        "Febrile reaction",
+        "Allergy only",
+        "Delayed haemolysis",
+        "TACO"
+       ],
+       "answerIndex": 0,
+       "explanation": "Donor antibodies activate recipient neutrophils in the lungs."
+      },
+      {
+       "stem": "Hypertension, raised JVP and pulmonary oedema after rapid transfusion suggest:",
+       "options": [
+        "Hypocalcaemia",
+        "TRALI",
+        "TACO",
+        "Anaphylaxis",
+        "Bacterial sepsis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Circulatory overload is treated with diuretics."
+      },
+      {
+       "stem": "Severe anaphylaxis during transfusion may occur in patients with:",
+       "options": [
+        "IgA deficiency with anti-IgA antibodies",
+        "Group O blood",
+        "Sickle cell trait",
+        "Iron deficiency",
+        "Hypertension"
+       ],
+       "answerIndex": 0,
+       "explanation": "Donor plasma IgA triggers the reaction."
+      },
+      {
+       "stem": "Falling haemoglobin, jaundice and a newly positive DAT a week after transfusion suggest:",
+       "options": [
+        "Delayed haemolytic transfusion reaction",
+        "TACO",
+        "TRALI",
+        "Acute haemolytic reaction",
+        "Allergic reaction"
+       ],
+       "answerIndex": 0,
+       "explanation": "An anamnestic antibody response destroys transfused cells."
+      },
+      {
+       "stem": "Systematic surveillance of adverse events in the transfusion chain is called:",
+       "options": [
+        "Epidemiology",
+        "Audit only",
+        "Quality control of reagents",
+        "Pharmacovigilance",
+        "Haemovigilance"
+       ],
+       "answerIndex": 4,
+       "explanation": "It improves transfusion safety."
+      }
+     ]
+    },
+    {
+     "title": "Haemolytic Disease of the Fetus and Newborn",
+     "order": 5,
+     "summary": "Mechanism, ABO and Rh HDFN, antenatal testing, anti-D prophylaxis and neonatal management.",
+     "material": [
+      {
+       "heading": "Mechanism and types",
+       "body": "HDFN occurs when maternal IgG antibodies cross the placenta and destroy fetal red cells carrying the corresponding antigen. RhD HDFN: an RhD-negative mother sensitised by a previous RhD-positive pregnancy (fetomaternal haemorrhage at delivery, miscarriage, abortion, ectopic pregnancy, trauma, amniocentesis) or transfusion produces anti-D; subsequent RhD-positive fetuses may develop severe anaemia, hydrops fetalis, jaundice and kernicterus. ABO HDFN is the most common form, occurring in first pregnancies because group O mothers have IgG anti-A,B; it is usually mild (jaundice), with a weakly positive DAT and spherocytes. Other antibodies causing HDFN include anti-c and anti-Kell (which suppresses fetal erythropoiesis).",
+       "keyPoints": [
+        "Maternal IgG crosses placenta",
+        "RhD HDFN: sensitised Rh-negative mother",
+        "ABO HDFN: commonest, mild, first pregnancy",
+        "Anti-Kell suppresses erythropoiesis"
+       ]
+      },
+      {
+       "heading": "Prevention and management",
+       "body": "Antenatal testing: ABO and RhD grouping and antibody screening at booking and at 28 weeks for all pregnant women; titration or quantification of anti-D, and fetal monitoring by middle cerebral artery Doppler for anaemia; intrauterine transfusion for severe fetal anaemia. Prevention: anti-D immunoglobulin for non-sensitised RhD-negative women — routine antenatal prophylaxis (e.g. at 28–34 weeks) and within 72 hours after delivery of an RhD-positive baby or any sensitising event; the Kleihauer–Betke test (acid elution) quantifies fetomaternal haemorrhage to adjust the anti-D dose. Neonatal investigations: cord blood Hb, bilirubin, blood group and DAT. Treatment: phototherapy, exchange transfusion (with group O RhD-negative blood cross-matched against maternal plasma) and IVIG in selected cases.",
+       "keyPoints": [
+        "Group and screen at booking and 28 weeks",
+        "Anti-D within 72 hours of delivery",
+        "Kleihauer test quantifies FMH",
+        "Cord blood: Hb, bilirubin, DAT",
+        "Exchange transfusion with O RhD-negative blood"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "HDFN occurs when maternal antibodies of which class cross the placenta?",
+       "options": [
+        "IgD",
+        "IgM",
+        "IgG",
+        "IgA",
+        "IgE"
+       ],
+       "answerIndex": 2,
+       "explanation": "Only IgG crosses the placenta."
+      },
+      {
+       "stem": "The most common form of HDFN is due to:",
+       "options": [
+        "Anti-c",
+        "Anti-D",
+        "ABO incompatibility",
+        "Anti-Kell",
+        "Anti-Lewis"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is common but usually mild."
+      },
+      {
+       "stem": "ABO HDFN can occur in a first pregnancy because group O mothers:",
+       "options": [
+        "Have naturally occurring IgG anti-A,B",
+        "Have no antibodies",
+        "Lack H antigen",
+        "Have IgM only",
+        "Are always Rh-negative"
+       ],
+       "answerIndex": 0,
+       "explanation": "IgG anti-A,B crosses the placenta."
+      },
+      {
+       "stem": "Anti-D immunoglobulin should be given to a non-sensitised RhD-negative mother after delivery of an RhD-positive baby within:",
+       "options": [
+        "1 hour",
+        "72 hours",
+        "2 weeks",
+        "1 month",
+        "6 months"
+       ],
+       "answerIndex": 1,
+       "explanation": "It prevents maternal sensitisation."
+      },
+      {
+       "stem": "The test used to quantify fetomaternal haemorrhage is the:",
+       "options": [
+        "Coombs' test",
+        "Schilling test",
+        "Kleihauer–Betke test",
+        "Osmotic fragility test",
+        "Sickling test"
+       ],
+       "answerIndex": 2,
+       "explanation": "It counts fetal cells in maternal blood by acid elution."
+      },
+      {
+       "stem": "Severe fetal anaemia from HDFN is detected non-invasively using:",
+       "options": [
+        "Maternal ESR",
+        "Fetal heart rate only",
+        "Maternal blood glucose",
+        "Chest X-ray",
+        "Middle cerebral artery Doppler velocity"
+       ],
+       "answerIndex": 4,
+       "explanation": "Anaemic fetuses have increased cerebral blood flow velocity."
+      },
+      {
+       "stem": "Exchange transfusion for Rh HDFN uses blood that is:",
+       "options": [
+        "Group A only",
+        "Group AB RhD-positive",
+        "Group O RhD-negative and compatible with maternal plasma",
+        "The baby's own blood",
+        "Unscreened"
+       ],
+       "answerIndex": 2,
+       "explanation": "It lacks the antigens targeted by maternal antibodies."
+      },
+      {
+       "stem": "Anti-Kell antibodies cause fetal anaemia partly by:",
+       "options": [
+        "Damaging the placenta only",
+        "Causing hyperglycaemia",
+        "Suppressing fetal erythropoiesis",
+        "Destroying platelets",
+        "Blocking iron absorption"
+       ],
+       "answerIndex": 2,
+       "explanation": "Kell antigen is expressed on early erythroid progenitors."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

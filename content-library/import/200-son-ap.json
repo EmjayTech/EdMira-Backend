@@ -1,0 +1,643 @@
+{
+ "courses": [
+  {
+   "title": "Anatomy and Physiology for Nurses",
+   "code": "APN101",
+   "color": "#DB2777",
+   "description": "An integrated overview of the body systems for School/College of Nursing students: skeleton and muscles, heart and blood, lungs, digestion, kidneys, nerves and hormones.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "200 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "300 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Skeletal and Muscular Systems",
+     "order": 1,
+     "summary": "Bones of the skeleton, types of joints and skeletal muscles.",
+     "material": [
+      {
+       "heading": "The skeleton",
+       "body": "The adult skeleton has 206 bones, divided into the axial skeleton (skull, vertebral column, ribs and sternum — 80 bones) and the appendicular skeleton (limbs and girdles — 126 bones). The vertebral column has 7 cervical, 12 thoracic, 5 lumbar, 5 fused sacral and about 4 fused coccygeal vertebrae. The femur is the longest and strongest bone; the stapes in the middle ear is the smallest. Functions of bone: support, protection, movement, blood cell formation (red marrow) and mineral storage (calcium, phosphate).",
+       "keyPoints": [
+        "206 bones in the adult",
+        "Vertebrae: 7 C, 12 T, 5 L, 5 S, 4 Co",
+        "Femur longest; stapes smallest"
+       ]
+      },
+      {
+       "heading": "Joints and muscles",
+       "body": "Joints are fibrous (immovable, e.g. skull sutures), cartilaginous (slightly movable, e.g. intervertebral discs, pubic symphysis) or synovial (freely movable, e.g. knee, hip, shoulder). Synovial joints have a joint capsule, synovial membrane and synovial fluid. The body has three muscle types: skeletal (voluntary), cardiac and smooth (involuntary). Common injection muscles are the deltoid, gluteus medius (ventrogluteal site) and vastus lateralis.",
+       "keyPoints": [
+        "Fibrous, cartilaginous and synovial joints",
+        "Knee and hip are synovial joints",
+        "Skeletal muscle is voluntary"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "How many bones are in the adult human skeleton?",
+       "options": [
+        "106",
+        "206",
+        "212",
+        "300",
+        "186"
+       ],
+       "answerIndex": 1,
+       "explanation": "Adults have 206 bones; babies have more that later fuse."
+      },
+      {
+       "stem": "The longest bone in the body is the:",
+       "options": [
+        "Radius",
+        "Fibula",
+        "Femur",
+        "Humerus",
+        "Tibia"
+       ],
+       "answerIndex": 2,
+       "explanation": "The femur (thigh bone) is the longest and strongest."
+      },
+      {
+       "stem": "How many cervical vertebrae are there?",
+       "options": [
+        "5",
+        "7",
+        "12",
+        "4",
+        "10"
+       ],
+       "answerIndex": 1,
+       "explanation": "There are seven cervical vertebrae."
+      },
+      {
+       "stem": "The knee joint is an example of a:",
+       "options": [
+        "Synovial joint",
+        "Suture",
+        "Cartilaginous joint",
+        "Fibrous joint",
+        "Symphysis"
+       ],
+       "answerIndex": 0,
+       "explanation": "The knee is a freely movable synovial joint."
+      },
+      {
+       "stem": "Blood cells are formed in the:",
+       "options": [
+        "Yellow bone marrow",
+        "Red bone marrow",
+        "Synovial fluid",
+        "Cartilage",
+        "Periosteum"
+       ],
+       "answerIndex": 1,
+       "explanation": "Red marrow is the site of haemopoiesis."
+      },
+      {
+       "stem": "Skull sutures are examples of:",
+       "options": [
+        "Synovial joints",
+        "Ball-and-socket joints",
+        "Cartilaginous joints",
+        "Hinge joints",
+        "Fibrous joints"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sutures are immovable fibrous joints."
+      },
+      {
+       "stem": "Which muscle type is under voluntary control?",
+       "options": [
+        "Cardiac",
+        "Skeletal",
+        "All three",
+        "Smooth",
+        "None"
+       ],
+       "answerIndex": 1,
+       "explanation": "Skeletal muscle is controlled voluntarily."
+      },
+      {
+       "stem": "The smallest bone in the body is the:",
+       "options": [
+        "Incus",
+        "Malleus",
+        "Coccyx",
+        "Stapes",
+        "Pisiform"
+       ],
+       "answerIndex": 3,
+       "explanation": "The stapes in the middle ear is the smallest bone."
+      }
+     ]
+    },
+    {
+     "title": "The Heart, Blood and Circulation",
+     "order": 2,
+     "summary": "Structure of the heart, blood flow through the heart, blood vessels and blood components.",
+     "material": [
+      {
+       "heading": "The heart",
+       "body": "The heart has four chambers: right and left atria and right and left ventricles. Deoxygenated blood from the body enters the right atrium via the superior and inferior venae cavae, passes through the tricuspid valve into the right ventricle, then through the pulmonary valve into the pulmonary artery to the lungs. Oxygenated blood returns via the pulmonary veins to the left atrium, through the mitral (bicuspid) valve to the left ventricle, then through the aortic valve into the aorta. The left ventricle has the thickest wall. The heart is supplied by the coronary arteries.",
+       "keyPoints": [
+        "RA → tricuspid → RV → pulmonary artery → lungs",
+        "Pulmonary veins → LA → mitral → LV → aorta",
+        "LV has the thickest wall"
+       ]
+      },
+      {
+       "heading": "Vessels and blood",
+       "body": "Arteries carry blood away from the heart (all carry oxygenated blood except the pulmonary artery); veins return blood to the heart and have valves; capillaries are where exchange takes place. Blood consists of plasma (~55%) and cells (~45%): red cells carry oxygen with haemoglobin, white cells fight infection and platelets help clotting. An adult has about 5 litres of blood. Normal pulse is 60–100 beats per minute and normal blood pressure about 120/80 mmHg.",
+       "keyPoints": [
+        "Pulmonary artery carries deoxygenated blood",
+        "Veins have valves",
+        "Adult blood volume ≈ 5 L"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which chamber of the heart receives blood from the venae cavae?",
+       "options": [
+        "Aorta",
+        "Left ventricle",
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium"
+       ],
+       "answerIndex": 2,
+       "explanation": "The superior and inferior venae cavae empty into the right atrium."
+      },
+      {
+       "stem": "The valve between the left atrium and left ventricle is the:",
+       "options": [
+        "Tricuspid valve",
+        "Aortic valve",
+        "Mitral (bicuspid) valve",
+        "Pulmonary valve",
+        "Semilunar valve"
+       ],
+       "answerIndex": 2,
+       "explanation": "The mitral valve has two cusps."
+      },
+      {
+       "stem": "Which blood vessel carries deoxygenated blood away from the heart?",
+       "options": [
+        "Coronary artery",
+        "Aorta",
+        "Carotid artery",
+        "Pulmonary artery",
+        "Pulmonary vein"
+       ],
+       "answerIndex": 3,
+       "explanation": "The pulmonary artery takes deoxygenated blood to the lungs."
+      },
+      {
+       "stem": "The chamber with the thickest muscular wall is the:",
+       "options": [
+        "Right atrium",
+        "Right ventricle",
+        "Pericardium",
+        "Left ventricle",
+        "Left atrium"
+       ],
+       "answerIndex": 3,
+       "explanation": "The left ventricle pumps blood to the whole body."
+      },
+      {
+       "stem": "Exchange of gases and nutrients with tissues takes place in the:",
+       "options": [
+        "Capillaries",
+        "Aorta",
+        "Veins",
+        "Arteries",
+        "Heart chambers"
+       ],
+       "answerIndex": 0,
+       "explanation": "Capillary walls are one cell thick."
+      },
+      {
+       "stem": "Blood vessels that contain valves to prevent backflow are:",
+       "options": [
+        "Veins",
+        "Arterioles",
+        "Capillaries",
+        "Arteries",
+        "Aorta"
+       ],
+       "answerIndex": 0,
+       "explanation": "Venous valves help return blood against gravity."
+      },
+      {
+       "stem": "The blood cells that help in clotting are:",
+       "options": [
+        "Neutrophils",
+        "Lymphocytes",
+        "Monocytes",
+        "Platelets",
+        "Red blood cells"
+       ],
+       "answerIndex": 3,
+       "explanation": "Platelets form plugs and support coagulation."
+      },
+      {
+       "stem": "The normal adult resting pulse rate is:",
+       "options": [
+        "150–200 per minute",
+        "40–50 per minute",
+        "12–20 per minute",
+        "110–140 per minute",
+        "60–100 per minute"
+       ],
+       "answerIndex": 4,
+       "explanation": "A resting pulse of 60–100 bpm is normal."
+      }
+     ]
+    },
+    {
+     "title": "The Respiratory System",
+     "order": 3,
+     "summary": "Airways, lungs, mechanism of breathing and gas exchange.",
+     "material": [
+      {
+       "heading": "Airways and lungs",
+       "body": "Air passes through the nose (warmed, moistened, filtered), pharynx, larynx (voice box, protected by the epiglottis during swallowing), trachea, right and left bronchi, bronchioles and finally the alveoli, where gas exchange occurs. The right lung has three lobes and the left two. The lungs are covered by pleura. Cilia and mucus trap and sweep out particles.",
+       "keyPoints": [
+        "Nose → pharynx → larynx → trachea → bronchi → bronchioles → alveoli",
+        "Epiglottis prevents food entering the airway",
+        "Gas exchange in alveoli"
+       ]
+      },
+      {
+       "heading": "Breathing and gas exchange",
+       "body": "During inspiration the diaphragm contracts and flattens and the intercostal muscles lift the ribs, enlarging the chest so air flows in; expiration is usually passive. Oxygen diffuses from alveoli into blood and carbon dioxide from blood into alveoli. The normal adult respiratory rate is 12–20 breaths per minute. Carbon dioxide level in blood is the main stimulus for breathing, controlled by the respiratory centre in the medulla oblongata.",
+       "keyPoints": [
+        "Diaphragm contracts in inspiration",
+        "RR 12–20/min",
+        "Respiratory centre in the medulla"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Gas exchange in the lungs takes place in the:",
+       "options": [
+        "Trachea",
+        "Alveoli",
+        "Pharynx",
+        "Larynx",
+        "Bronchi"
+       ],
+       "answerIndex": 1,
+       "explanation": "Alveoli have thin walls surrounded by capillaries."
+      },
+      {
+       "stem": "The structure that prevents food from entering the trachea is the:",
+       "options": [
+        "Tongue",
+        "Epiglottis",
+        "Tonsils",
+        "Vocal cords",
+        "Uvula"
+       ],
+       "answerIndex": 1,
+       "explanation": "The epiglottis covers the larynx during swallowing."
+      },
+      {
+       "stem": "How many lobes does the left lung have?",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       "answerIndex": 1,
+       "explanation": "The left lung has two lobes; the right has three."
+      },
+      {
+       "stem": "During inspiration, the diaphragm:",
+       "options": [
+        "Contracts and flattens",
+        "Does not move",
+        "Pushes air out",
+        "Relaxes and domes upward",
+        "Closes the trachea"
+       ],
+       "answerIndex": 0,
+       "explanation": "Diaphragmatic contraction enlarges the chest cavity."
+      },
+      {
+       "stem": "The voice box is the:",
+       "options": [
+        "Bronchus",
+        "Pharynx",
+        "Nasal cavity",
+        "Trachea",
+        "Larynx"
+       ],
+       "answerIndex": 4,
+       "explanation": "The larynx contains the vocal cords."
+      },
+      {
+       "stem": "The breathing centre is located in the:",
+       "options": [
+        "Hypothalamus only",
+        "Spinal cord",
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla oblongata"
+       ],
+       "answerIndex": 4,
+       "explanation": "The respiratory centre is in the brainstem medulla."
+      },
+      {
+       "stem": "A normal adult respiratory rate is:",
+       "options": [
+        "25–35 per minute",
+        "60–100 per minute",
+        "6–10 per minute",
+        "40–60 per minute",
+        "12–20 per minute"
+       ],
+       "answerIndex": 4,
+       "explanation": "Adults normally breathe 12–20 times per minute."
+      },
+      {
+       "stem": "The main function of nasal hairs and mucus is to:",
+       "options": [
+        "Produce oxygen",
+        "Exchange gases",
+        "Digest food",
+        "Make sound",
+        "Filter and trap particles"
+       ],
+       "answerIndex": 4,
+       "explanation": "They filter inspired air."
+      }
+     ]
+    },
+    {
+     "title": "Digestive and Urinary Systems",
+     "order": 4,
+     "summary": "Organs of digestion, the liver and pancreas, and the kidneys and urine formation.",
+     "material": [
+      {
+       "heading": "Digestion",
+       "body": "The digestive tract runs from mouth to anus: mouth (chewing, salivary amylase), oesophagus, stomach (acid and pepsin), small intestine (duodenum, jejunum, ileum — main site of digestion and absorption, with villi), large intestine (absorbs water and forms faeces) and rectum. Accessory organs: salivary glands, liver (makes bile, stores glycogen, detoxifies drugs, makes plasma proteins and clotting factors), gallbladder (stores bile), and pancreas (digestive enzymes and the hormones insulin and glucagon).",
+       "keyPoints": [
+        "Small intestine: main absorption site",
+        "Liver makes bile; gallbladder stores it",
+        "Pancreas: enzymes + insulin/glucagon"
+       ]
+      },
+      {
+       "heading": "Urinary system",
+       "body": "The urinary system consists of two kidneys, two ureters, the bladder and the urethra. The functional unit of the kidney is the nephron (about one million per kidney), which filters blood in the glomerulus and reabsorbs useful substances in the tubules. Kidneys remove waste (urea, creatinine), balance water and electrolytes, regulate blood pressure (renin), stimulate red cell production (erythropoietin) and activate vitamin D. Normal adult urine output is at least 0.5 mL/kg/hour (about 1–2 L/day); less than 400 mL/day is oliguria.",
+       "keyPoints": [
+        "Nephron is the functional unit",
+        "Kidneys make renin and erythropoietin",
+        "Urine output ≥ 0.5 mL/kg/h"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most digestion and absorption of food occurs in the:",
+       "options": [
+        "Oesophagus",
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Mouth"
+       ],
+       "answerIndex": 2,
+       "explanation": "Villi of the small intestine provide a large absorptive area."
+      },
+      {
+       "stem": "Bile is produced by the:",
+       "options": [
+        "Gallbladder",
+        "Spleen",
+        "Stomach",
+        "Liver",
+        "Pancreas"
+       ],
+       "answerIndex": 3,
+       "explanation": "The liver makes bile; the gallbladder stores it."
+      },
+      {
+       "stem": "The main function of the large intestine is to:",
+       "options": [
+        "Absorb water",
+        "Secrete insulin",
+        "Digest proteins",
+        "Produce bile",
+        "Digest fats"
+       ],
+       "answerIndex": 0,
+       "explanation": "The colon absorbs water and forms faeces."
+      },
+      {
+       "stem": "The functional unit of the kidney is the:",
+       "options": [
+        "Nephron",
+        "Neuron",
+        "Villus",
+        "Hepatocyte",
+        "Alveolus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Each kidney has about one million nephrons."
+      },
+      {
+       "stem": "Insulin is produced by the:",
+       "options": [
+        "Liver",
+        "Pancreas",
+        "Thyroid gland",
+        "Adrenal gland",
+        "Kidney"
+       ],
+       "answerIndex": 1,
+       "explanation": "β-cells of the pancreatic islets secrete insulin."
+      },
+      {
+       "stem": "Urine is carried from the kidneys to the bladder by the:",
+       "options": [
+        "Collecting ducts only",
+        "Urethra",
+        "Ureters",
+        "Renal veins",
+        "Bile ducts"
+       ],
+       "answerIndex": 2,
+       "explanation": "Each kidney drains into a ureter."
+      },
+      {
+       "stem": "A daily urine output of less than 400 mL in an adult is called:",
+       "options": [
+        "Oliguria",
+        "Polyuria",
+        "Dysuria",
+        "Haematuria",
+        "Nocturia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oliguria indicates reduced urine output."
+      },
+      {
+       "stem": "The hormone released by the kidney that stimulates red cell production is:",
+       "options": [
+        "Renin",
+        "Erythropoietin",
+        "ADH",
+        "Aldosterone",
+        "Insulin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Erythropoietin acts on the bone marrow."
+      }
+     ]
+    },
+    {
+     "title": "Nervous and Endocrine Systems",
+     "order": 5,
+     "summary": "Brain, spinal cord, nerves, reflexes and the major endocrine glands.",
+     "material": [
+      {
+       "heading": "Nervous system",
+       "body": "The central nervous system is the brain and spinal cord; the peripheral nervous system includes 12 pairs of cranial nerves and 31 pairs of spinal nerves. The cerebrum controls thought, voluntary movement and sensation; the cerebellum coordinates balance and movement; the brainstem (midbrain, pons, medulla) controls breathing and heart rate. The autonomic nervous system has sympathetic ('fight or flight') and parasympathetic ('rest and digest') divisions. A reflex arc (receptor → sensory neuron → spinal cord → motor neuron → effector) produces rapid involuntary responses such as the knee jerk. The Glasgow Coma Scale (3–15) assesses consciousness.",
+       "keyPoints": [
+        "CNS = brain + spinal cord",
+        "12 cranial and 31 spinal nerve pairs",
+        "Cerebellum: balance and coordination",
+        "GCS ranges from 3 to 15"
+       ]
+      },
+      {
+       "heading": "Endocrine system",
+       "body": "Endocrine glands secrete hormones into the blood. The pituitary ('master gland') is controlled by the hypothalamus and secretes growth hormone, TSH, ACTH, FSH, LH, prolactin (anterior) and ADH and oxytocin (posterior). The thyroid produces thyroxine (metabolic rate; iodine deficiency causes goitre). The parathyroids regulate calcium. The adrenal cortex secretes cortisol and aldosterone; the adrenal medulla secretes adrenaline. The pancreas secretes insulin (lowers glucose) and glucagon (raises glucose). The ovaries and testes secrete sex hormones.",
+       "keyPoints": [
+        "Pituitary: master gland",
+        "Iodine deficiency → goitre",
+        "Insulin lowers, glucagon raises blood glucose",
+        "Adrenal medulla: adrenaline"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The part of the brain that coordinates balance is the:",
+       "options": [
+        "Thalamus",
+        "Medulla",
+        "Hypothalamus",
+        "Cerebrum",
+        "Cerebellum"
+       ],
+       "answerIndex": 4,
+       "explanation": "The cerebellum coordinates movement and balance."
+      },
+      {
+       "stem": "How many pairs of cranial nerves are there?",
+       "options": [
+        "10",
+        "12",
+        "31",
+        "8",
+        "24"
+       ],
+       "answerIndex": 1,
+       "explanation": "There are 12 pairs of cranial nerves."
+      },
+      {
+       "stem": "The lowest possible score on the Glasgow Coma Scale is:",
+       "options": [
+        "0",
+        "1",
+        "3",
+        "5",
+        "8"
+       ],
+       "answerIndex": 2,
+       "explanation": "GCS ranges from 3 (deep coma) to 15 (fully alert)."
+      },
+      {
+       "stem": "The 'fight or flight' response is controlled by the:",
+       "options": [
+        "Sympathetic nervous system",
+        "Spinal reflex only",
+        "Somatic nervous system",
+        "Parasympathetic nervous system",
+        "Cerebellum"
+       ],
+       "answerIndex": 0,
+       "explanation": "Sympathetic activation prepares the body for stress."
+      },
+      {
+       "stem": "Which gland is called the 'master gland'?",
+       "options": [
+        "Thyroid",
+        "Adrenal",
+        "Pineal",
+        "Pancreas",
+        "Pituitary"
+       ],
+       "answerIndex": 4,
+       "explanation": "The pituitary controls many other endocrine glands."
+      },
+      {
+       "stem": "Iodine deficiency causes enlargement of the:",
+       "options": [
+        "Thyroid gland",
+        "Pancreas",
+        "Pituitary gland",
+        "Adrenal gland",
+        "Liver"
+       ],
+       "answerIndex": 0,
+       "explanation": "Goitre results from iodine deficiency."
+      },
+      {
+       "stem": "The hormone that stimulates uterine contractions during labour is:",
+       "options": [
+        "ADH",
+        "Oxytocin",
+        "Prolactin",
+        "Thyroxine",
+        "Insulin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Oxytocin from the posterior pituitary stimulates contractions."
+      },
+      {
+       "stem": "Adrenaline is secreted by the:",
+       "options": [
+        "Adrenal cortex",
+        "Thyroid gland",
+        "Pituitary gland",
+        "Pancreas",
+        "Adrenal medulla"
+       ],
+       "answerIndex": 4,
+       "explanation": "The adrenal medulla releases adrenaline and noradrenaline."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

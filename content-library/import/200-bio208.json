@@ -1,0 +1,638 @@
+{
+ "courses": [
+  {
+   "title": "Biostatistics (BIO 208)",
+   "code": "BIO208",
+   "color": "#0369A1",
+   "description": "Data types, descriptive statistics, probability and distributions, sampling, hypothesis testing and common statistical tests for health research.",
+   "audience": [
+    {
+     "level": "200 Level"
+    },
+    {
+     "level": "300 Level",
+     "department": "Public Health"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Data, Variables and Presentation",
+     "order": 1,
+     "summary": "Types of variables, scales of measurement and tables and charts.",
+     "material": [
+      {
+       "heading": "Types of data",
+       "body": "Qualitative (categorical) variables may be nominal (no order: blood group, sex, state of origin) or ordinal (ordered: pain score mild/moderate/severe, cancer stage). Quantitative (numerical) variables may be discrete (counts: number of children) or continuous (measurements: height, blood pressure, Hb). Scales of measurement are nominal, ordinal, interval (equal intervals, no true zero: temperature in °C) and ratio (true zero: weight, age).",
+       "keyPoints": [
+        "Nominal: no order; ordinal: ordered categories",
+        "Discrete: counts; continuous: measurements",
+        "Ratio scale has a true zero"
+       ]
+      },
+      {
+       "heading": "Presenting data",
+       "body": "Frequency tables summarise how often values occur. Bar charts (separate bars) and pie charts display categorical data; histograms (touching bars, area proportional to frequency) show continuous data; line graphs show trends over time; scatter plots show the relationship between two continuous variables; box plots show median, quartiles and outliers.",
+       "keyPoints": [
+        "Histogram for continuous data",
+        "Bar/pie chart for categories",
+        "Scatter plot for two continuous variables"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Blood group (A, B, AB, O) is an example of a/an ___ variable.",
+       "options": [
+        "Nominal",
+        "Discrete",
+        "Ordinal",
+        "Ratio",
+        "Continuous"
+       ],
+       "answerIndex": 0,
+       "explanation": "Blood groups are categories with no natural order."
+      },
+      {
+       "stem": "Number of antenatal visits is a ___ variable.",
+       "options": [
+        "Nominal",
+        "Interval",
+        "Continuous",
+        "Ordinal",
+        "Discrete"
+       ],
+       "answerIndex": 4,
+       "explanation": "Visits are counted in whole numbers."
+      },
+      {
+       "stem": "Which scale has a true zero point?",
+       "options": [
+        "Ordinal",
+        "Nominal",
+        "Categorical",
+        "Interval",
+        "Ratio"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ratio scales (e.g. weight) have an absolute zero."
+      },
+      {
+       "stem": "The most suitable chart for displaying the distribution of birth weights is a:",
+       "options": [
+        "Pictogram",
+        "Pie chart",
+        "Venn diagram",
+        "Bar chart",
+        "Histogram"
+       ],
+       "answerIndex": 4,
+       "explanation": "Birth weight is continuous; histograms show its distribution."
+      },
+      {
+       "stem": "Stages of cancer (I, II, III, IV) are measured on a/an ___ scale.",
+       "options": [
+        "Ordinal",
+        "Ratio",
+        "Continuous",
+        "Interval",
+        "Nominal"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stages have a meaningful order but unequal intervals."
+      },
+      {
+       "stem": "To show the relationship between age and systolic blood pressure, use a:",
+       "options": [
+        "Pie chart",
+        "Bar chart",
+        "Frequency table only",
+        "Scatter plot",
+        "Pictogram"
+       ],
+       "answerIndex": 3,
+       "explanation": "Scatter plots display two continuous variables."
+      },
+      {
+       "stem": "Temperature in degrees Celsius is on a/an ___ scale.",
+       "options": [
+        "Ratio",
+        "Binary",
+        "Ordinal",
+        "Interval",
+        "Nominal"
+       ],
+       "answerIndex": 3,
+       "explanation": "Equal intervals but 0 °C is not an absence of temperature."
+      },
+      {
+       "stem": "In a histogram, the bars:",
+       "options": [
+        "Represent categories",
+        "Are always of equal height",
+        "Show percentages only",
+        "Are separated by gaps",
+        "Touch each other"
+       ],
+       "answerIndex": 4,
+       "explanation": "Adjacent bars reflect the continuity of the data."
+      }
+     ]
+    },
+    {
+     "title": "Measures of Central Tendency and Dispersion",
+     "order": 2,
+     "summary": "Mean, median, mode, range, variance, standard deviation and skewness.",
+     "material": [
+      {
+       "heading": "Central tendency",
+       "body": "The mean is the arithmetic average (sum ÷ number); it uses all values but is affected by extreme values (outliers). The median is the middle value of ordered data (for an even number, the average of the two middle values); it is preferred for skewed data such as income or length of hospital stay. The mode is the most frequent value and the only measure for nominal data. In a positively (right) skewed distribution, mean > median > mode; in a negatively skewed distribution, mean < median < mode; in a symmetrical normal distribution all three are equal.",
+       "keyPoints": [
+        "Median resists outliers",
+        "Positive skew: mean > median > mode",
+        "Mode for nominal data"
+       ]
+      },
+      {
+       "heading": "Dispersion",
+       "body": "Range = maximum − minimum. The interquartile range (Q3 − Q1) contains the middle 50% of data and suits skewed data. Variance is the average squared deviation from the mean; the standard deviation (SD) is its square root, in the original units. The coefficient of variation (SD ÷ mean × 100%) compares variability between different units. The standard error of the mean (SE = SD/√n) measures the precision of a sample mean.",
+       "keyPoints": [
+        "IQR = Q3 − Q1",
+        "SD = √variance",
+        "SE = SD/√n",
+        "CV = SD/mean × 100%"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The mean of 4, 6, 8, 10 and 12 is:",
+       "options": [
+        "6",
+        "8",
+        "10",
+        "40",
+        "7"
+       ],
+       "answerIndex": 1,
+       "explanation": "(4 + 6 + 8 + 10 + 12) ÷ 5 = 8."
+      },
+      {
+       "stem": "The median of 3, 9, 1, 7, 5 is:",
+       "options": [
+        "3",
+        "5",
+        "7",
+        "9",
+        "25"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ordered: 1, 3, 5, 7, 9 — the middle value is 5."
+      },
+      {
+       "stem": "The measure of central tendency least affected by outliers is the:",
+       "options": [
+        "Median",
+        "Mean",
+        "Standard deviation",
+        "Range",
+        "Variance"
+       ],
+       "answerIndex": 0,
+       "explanation": "The median depends only on the middle value(s)."
+      },
+      {
+       "stem": "In a positively skewed distribution:",
+       "options": [
+        "Mean > median > mode",
+        "Median > mean > mode",
+        "Mode > mean > median",
+        "Mean < median < mode",
+        "Mean = median = mode"
+       ],
+       "answerIndex": 0,
+       "explanation": "The long right tail pulls the mean upward."
+      },
+      {
+       "stem": "The standard deviation is the:",
+       "options": [
+        "Difference between max and min",
+        "Square root of the variance",
+        "Square of the variance",
+        "Middle 50% of data",
+        "Most frequent value"
+       ],
+       "answerIndex": 1,
+       "explanation": "SD = √variance."
+      },
+      {
+       "stem": "The only measure of central tendency suitable for nominal data is the:",
+       "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Harmonic mean",
+        "Geometric mean"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nominal categories can only be counted."
+      },
+      {
+       "stem": "If SD = 10 and n = 100, the standard error of the mean is:",
+       "options": [
+        "0.1",
+        "1",
+        "10",
+        "100",
+        "0.01"
+       ],
+       "answerIndex": 1,
+       "explanation": "SE = 10/√100 = 1."
+      },
+      {
+       "stem": "The interquartile range contains:",
+       "options": [
+        "All the data",
+        "The lowest 50%",
+        "The top 25%",
+        "Only outliers",
+        "The middle 50% of the data"
+       ],
+       "answerIndex": 4,
+       "explanation": "IQR spans Q1 to Q3."
+      }
+     ]
+    },
+    {
+     "title": "Probability and the Normal Distribution",
+     "order": 3,
+     "summary": "Probability rules, the binomial and normal distributions, and z-scores.",
+     "material": [
+      {
+       "heading": "Probability",
+       "body": "Probability ranges from 0 (impossible) to 1 (certain). For mutually exclusive events, P(A or B) = P(A) + P(B). For independent events, P(A and B) = P(A) × P(B). Complement: P(not A) = 1 − P(A). The binomial distribution describes the number of successes in n independent trials with the same probability p (e.g. number of HbSS children in a family of AS × AS parents). The Poisson distribution describes counts of rare events in a fixed interval.",
+       "keyPoints": [
+        "P(A or B) = P(A) + P(B) if mutually exclusive",
+        "P(A and B) = P(A) × P(B) if independent",
+        "Binomial: n trials, probability p"
+       ]
+      },
+      {
+       "heading": "The normal distribution",
+       "body": "The normal (Gaussian) distribution is symmetrical and bell-shaped, defined by its mean (μ) and standard deviation (σ). About 68% of values lie within ±1 SD, 95% within ±1.96 (≈ 2) SD and 99.7% within ±3 SD. A z-score = (x − μ)/σ gives how many SDs a value is from the mean. Many laboratory reference ranges are the mean ± 2 SD of healthy people, so 5% of healthy individuals fall outside the 'normal range'.",
+       "keyPoints": [
+        "68–95–99.7 rule",
+        "z = (x − μ)/σ",
+        "Reference range ≈ mean ± 2 SD"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The probability of an event that is certain to happen is:",
+       "options": [
+        "0",
+        "−1",
+        "1",
+        "0.5",
+        "100"
+       ],
+       "answerIndex": 2,
+       "explanation": "Probability ranges from 0 to 1."
+      },
+      {
+       "stem": "The probability that two AS parents have two consecutive HbSS children is:",
+       "options": [
+        "1/4",
+        "1/8",
+        "1/16",
+        "1/2",
+        "1/64"
+       ],
+       "answerIndex": 2,
+       "explanation": "Independent events: 1/4 × 1/4 = 1/16."
+      },
+      {
+       "stem": "In a normal distribution, about what percentage of values lie within ±2 SD of the mean?",
+       "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%",
+        "100%"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 95% lie within ±1.96 SD."
+      },
+      {
+       "stem": "If mean Hb = 13 g/dL and SD = 1 g/dL, the z-score for Hb 11 g/dL is:",
+       "options": [
+        "−2",
+        "0",
+        "2",
+        "−1",
+        "1"
+       ],
+       "answerIndex": 0,
+       "explanation": "z = (11 − 13)/1 = −2."
+      },
+      {
+       "stem": "The normal distribution is:",
+       "options": [
+        "U-shaped",
+        "Symmetrical and bell-shaped",
+        "Skewed to the right",
+        "Skewed to the left",
+        "Rectangular"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is symmetrical about the mean."
+      },
+      {
+       "stem": "If P(event) = 0.3, then P(not event) is:",
+       "options": [
+        "0.3",
+        "0.7",
+        "1.3",
+        "0",
+        "0.03"
+       ],
+       "answerIndex": 1,
+       "explanation": "1 − 0.3 = 0.7."
+      },
+      {
+       "stem": "A 'normal' reference range defined as mean ± 2 SD will classify what proportion of healthy people as abnormal?",
+       "options": [
+        "0%",
+        "About 5%",
+        "About 1%",
+        "About 50%",
+        "About 32%"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 5% of healthy values lie outside ±2 SD."
+      },
+      {
+       "stem": "The distribution for the number of successes in a fixed number of independent yes/no trials is the:",
+       "options": [
+        "Binomial distribution",
+        "t distribution",
+        "Normal distribution",
+        "Poisson distribution",
+        "Chi-square distribution"
+       ],
+       "answerIndex": 0,
+       "explanation": "Binomial describes counts of successes in n trials."
+      }
+     ]
+    },
+    {
+     "title": "Sampling and Estimation",
+     "order": 4,
+     "summary": "Population and sample, sampling methods, sampling error and confidence intervals.",
+     "material": [
+      {
+       "heading": "Sampling methods",
+       "body": "A population is the whole group of interest; a sample is a subset studied. Probability sampling gives every member a known chance of selection: simple random, systematic (every kth), stratified (random samples from subgroups such as LGAs or sexes), cluster (randomly selected groups such as villages or schools — used in national surveys like NDHS) and multistage sampling. Non-probability sampling includes convenience, purposive, quota and snowball sampling; it is quicker but prone to selection bias.",
+       "keyPoints": [
+        "Stratified: sample within subgroups",
+        "Cluster: sample whole groups",
+        "Convenience sampling risks bias"
+       ]
+      },
+      {
+       "heading": "Estimation",
+       "body": "A statistic (e.g. sample mean) estimates a parameter (population mean). Sampling error is the difference due to chance and falls as sample size increases. A 95% confidence interval for a mean is approximately mean ± 1.96 × SE; it gives a range which, in repeated sampling, would contain the true population value 95% of the time. Wider intervals indicate less precision; larger samples give narrower intervals.",
+       "keyPoints": [
+        "Statistic estimates a parameter",
+        "95% CI ≈ mean ± 1.96 SE",
+        "Larger sample → narrower CI"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Dividing a population into LGAs and randomly sampling from each LGA is:",
+       "options": [
+        "Convenience sampling",
+        "Snowball sampling",
+        "Quota sampling",
+        "Stratified sampling",
+        "Cluster sampling"
+       ],
+       "answerIndex": 3,
+       "explanation": "Stratified sampling samples within defined subgroups."
+      },
+      {
+       "stem": "Selecting every 10th patient from a clinic register is:",
+       "options": [
+        "Purposive sampling",
+        "Simple random sampling",
+        "Systematic sampling",
+        "Cluster sampling",
+        "Quota sampling"
+       ],
+       "answerIndex": 2,
+       "explanation": "Systematic sampling picks every kth unit."
+      },
+      {
+       "stem": "Which is a non-probability sampling method?",
+       "options": [
+        "Simple random",
+        "Cluster",
+        "Convenience",
+        "Systematic",
+        "Stratified"
+       ],
+       "answerIndex": 2,
+       "explanation": "Convenience sampling does not give known selection probabilities."
+      },
+      {
+       "stem": "Randomly selecting whole villages and studying everyone in them is:",
+       "options": [
+        "Stratified sampling",
+        "Systematic sampling",
+        "Quota sampling",
+        "Cluster sampling",
+        "Snowball sampling"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cluster sampling selects groups rather than individuals."
+      },
+      {
+       "stem": "A 95% confidence interval for a mean is approximately:",
+       "options": [
+        "Mean ± range",
+        "Mean ± 1 SD",
+        "Mean ± 1.96 SE",
+        "Mean ± 3 SE",
+        "Median ± IQR"
+       ],
+       "answerIndex": 2,
+       "explanation": "95% CI ≈ mean ± 1.96 × standard error."
+      },
+      {
+       "stem": "Increasing the sample size will:",
+       "options": [
+        "Narrow the confidence interval",
+        "Widen the confidence interval",
+        "Increase bias always",
+        "Have no effect",
+        "Increase sampling error"
+       ],
+       "answerIndex": 0,
+       "explanation": "A larger n reduces the standard error."
+      },
+      {
+       "stem": "A value calculated from a sample to estimate a population value is a:",
+       "options": [
+        "Hypothesis",
+        "Variable",
+        "Constant",
+        "Statistic",
+        "Parameter"
+       ],
+       "answerIndex": 3,
+       "explanation": "Statistics describe samples; parameters describe populations."
+      },
+      {
+       "stem": "Sampling hidden populations by asking participants to refer others is:",
+       "options": [
+        "Cluster sampling",
+        "Stratified sampling",
+        "Simple random sampling",
+        "Snowball sampling",
+        "Systematic sampling"
+       ],
+       "answerIndex": 3,
+       "explanation": "Snowball sampling grows through referrals."
+      }
+     ]
+    },
+    {
+     "title": "Hypothesis Testing and Statistical Tests",
+     "order": 5,
+     "summary": "Null hypothesis, p-values, errors, and choosing t-tests, chi-square and correlation.",
+     "material": [
+      {
+       "heading": "Hypothesis testing",
+       "body": "The null hypothesis (H0) states there is no difference or association; the alternative (H1) states there is. The p-value is the probability of obtaining results at least as extreme as those observed if H0 were true; p < 0.05 is conventionally 'statistically significant'. A Type I error (α) is rejecting a true H0 (false positive); a Type II error (β) is failing to reject a false H0 (false negative). Power = 1 − β, the ability to detect a real effect; it increases with sample size.",
+       "keyPoints": [
+        "p < 0.05 conventionally significant",
+        "Type I = false positive (α); Type II = false negative (β)",
+        "Power = 1 − β"
+       ]
+      },
+      {
+       "heading": "Choosing a test",
+       "body": "Compare two means of independent groups with the independent (Student's) t-test; the same subjects before and after with the paired t-test; three or more means with ANOVA. Compare proportions or test association between categorical variables with the chi-square (χ²) test (Fisher's exact test when expected counts are small). Measure linear association between two continuous variables with Pearson's correlation coefficient r (−1 to +1); Spearman's rank correlation for ordinal or skewed data. Non-parametric alternatives include Mann–Whitney U and Wilcoxon signed-rank tests. Correlation does not imply causation.",
+       "keyPoints": [
+        "Two independent means → t-test; paired → paired t-test",
+        "≥ 3 means → ANOVA",
+        "Categorical association → chi-square",
+        "r ranges from −1 to +1"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The null hypothesis states that:",
+       "options": [
+        "There is no difference or association",
+        "The p-value is 0",
+        "The test is significant",
+        "The sample is biased",
+        "There is a difference between groups"
+       ],
+       "answerIndex": 0,
+       "explanation": "H0 assumes no effect."
+      },
+      {
+       "stem": "A Type I error is:",
+       "options": [
+        "Using the wrong test",
+        "A calculation mistake",
+        "Accepting a false null hypothesis",
+        "Rejecting a true null hypothesis",
+        "Having too large a sample"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a false positive, probability α."
+      },
+      {
+       "stem": "To compare mean blood pressure of the same patients before and after treatment, use a:",
+       "options": [
+        "Chi-square test",
+        "Independent t-test",
+        "Pearson correlation",
+        "ANOVA",
+        "Paired t-test"
+       ],
+       "answerIndex": 4,
+       "explanation": "Paired observations on the same subjects need a paired t-test."
+      },
+      {
+       "stem": "To test the association between smoking (yes/no) and lung cancer (yes/no), use a:",
+       "options": [
+        "ANOVA",
+        "Paired t-test",
+        "t-test",
+        "Chi-square test",
+        "Pearson correlation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Chi-square tests association between categorical variables."
+      },
+      {
+       "stem": "Comparing mean Hb among three different treatment groups requires:",
+       "options": [
+        "Paired t-test",
+        "Z-test for proportions",
+        "Spearman correlation",
+        "ANOVA",
+        "Chi-square"
+       ],
+       "answerIndex": 3,
+       "explanation": "ANOVA compares three or more means."
+      },
+      {
+       "stem": "A correlation coefficient of r = −0.9 indicates:",
+       "options": [
+        "A perfect positive relationship",
+        "No relationship",
+        "A strong negative linear relationship",
+        "A weak positive relationship",
+        "Causation"
+       ],
+       "answerIndex": 2,
+       "explanation": "r close to −1 means a strong inverse linear association."
+      },
+      {
+       "stem": "The power of a study is:",
+       "options": [
+        "β",
+        "1 − β",
+        "1 − α",
+        "The p-value",
+        "α"
+       ],
+       "answerIndex": 1,
+       "explanation": "Power is the probability of detecting a true effect."
+      },
+      {
+       "stem": "A p-value of 0.03 means that:",
+       "options": [
+        "There is a 3% chance the null hypothesis is true",
+        "The effect is clinically important",
+        "The treatment works in 97% of patients",
+        "If H0 were true, results this extreme would occur 3% of the time",
+        "The study has 97% power"
+       ],
+       "answerIndex": 3,
+       "explanation": "The p-value assumes H0 is true; it is not the probability that H0 is true."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

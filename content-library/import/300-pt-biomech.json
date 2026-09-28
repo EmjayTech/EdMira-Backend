@@ -1,0 +1,646 @@
+{
+ "courses": [
+  {
+   "title": "Biomechanics and Kinesiology",
+   "code": "PTH301",
+   "color": "#EA580C",
+   "description": "Mechanical principles applied to human movement: forces and levers, joint mechanics, muscle mechanics, posture and gait analysis.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "300 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Forces, Torque and Levers in the Body",
+     "order": 1,
+     "summary": "Newton's laws in movement, torque, moment arms and lever systems.",
+     "material": [
+      {
+       "heading": "Forces and torque",
+       "body": "Biomechanics applies mechanics to living bodies. Kinematics describes motion (displacement, velocity, acceleration); kinetics studies the forces causing it. Forces acting on the body include gravity (acting through the centre of gravity), ground reaction force, muscle forces, friction and external loads. Torque (moment) = force × perpendicular distance from the axis (moment arm); it produces rotation at joints. Holding a load further from the body increases the torque on the spine — the basis of safe lifting (keep loads close, bend knees, avoid twisting).",
+       "keyPoints": [
+        "Kinematics: motion; kinetics: forces",
+        "Torque = force × moment arm",
+        "Keep loads close to the body when lifting"
+       ]
+      },
+      {
+       "heading": "Lever systems",
+       "body": "Levers have a fulcrum (axis), effort (muscle force) and load (resistance). First-class levers have the fulcrum between effort and load (e.g. head nodding at the atlanto-occipital joint; triceps extending the elbow). Second-class levers have the load between fulcrum and effort, giving mechanical advantage (> 1) — e.g. rising on tiptoe. Third-class levers have the effort between fulcrum and load (e.g. biceps flexing the elbow) — the most common in the body, with mechanical advantage < 1, favouring speed and range of motion over force. Mechanical advantage = effort arm ÷ load arm.",
+       "keyPoints": [
+        "First class: fulcrum in middle",
+        "Second class: load in middle (tiptoe)",
+        "Third class: effort in middle (biceps) — most common",
+        "MA = effort arm / load arm"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Torque is calculated as:",
+       "options": [
+        "Force × velocity",
+        "Force × perpendicular distance from the axis",
+        "Mass × acceleration",
+        "Force ÷ area",
+        "Work ÷ time"
+       ],
+       "answerIndex": 1,
+       "explanation": "Torque (moment) = F × moment arm."
+      },
+      {
+       "stem": "The study of forces that cause movement is:",
+       "options": [
+        "Kinematics",
+        "Ergonomics only",
+        "Anthropometry",
+        "Histology",
+        "Kinetics"
+       ],
+       "answerIndex": 4,
+       "explanation": "Kinetics deals with forces."
+      },
+      {
+       "stem": "The most common lever class in the human body is:",
+       "options": [
+        "None",
+        "Second class",
+        "Third class",
+        "Fourth class",
+        "First class"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most muscles act as third-class levers."
+      },
+      {
+       "stem": "Rising onto the toes is an example of a:",
+       "options": [
+        "Second-class lever",
+        "Third-class lever",
+        "Wheel and axle",
+        "First-class lever",
+        "Pulley"
+       ],
+       "answerIndex": 0,
+       "explanation": "The load lies between fulcrum (metatarsal heads) and effort (calf)."
+      },
+      {
+       "stem": "Third-class levers in the body favour:",
+       "options": [
+        "Balance only",
+        "Speed and range of motion over force",
+        "Force over speed",
+        "Nothing",
+        "Stability only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Their mechanical advantage is less than 1."
+      },
+      {
+       "stem": "Holding a box further from the body while lifting:",
+       "options": [
+        "Reduces spinal load",
+        "Improves posture",
+        "Has no effect",
+        "Increases torque on the spine",
+        "Reduces muscle work"
+       ],
+       "answerIndex": 3,
+       "explanation": "A longer moment arm increases torque."
+      },
+      {
+       "stem": "Mechanical advantage of a lever is:",
+       "options": [
+        "Load arm ÷ effort arm",
+        "Always 1",
+        "Effort arm ÷ load arm",
+        "Load − effort",
+        "Effort × load"
+       ],
+       "answerIndex": 2,
+       "explanation": "MA > 1 means less effort is needed."
+      },
+      {
+       "stem": "Nodding the head at the atlanto-occipital joint is an example of a:",
+       "options": [
+        "Third-class lever",
+        "Pulley system",
+        "Second-class lever",
+        "First-class lever",
+        "Screw"
+       ],
+       "answerIndex": 3,
+       "explanation": "The fulcrum lies between the facial weight and the neck extensors."
+      }
+     ]
+    },
+    {
+     "title": "Joint Mechanics and Arthrokinematics",
+     "order": 2,
+     "summary": "Degrees of freedom, osteokinematics versus arthrokinematics, roll–glide and joint stability.",
+     "material": [
+      {
+       "heading": "Joint motion",
+       "body": "Osteokinematics describes the movement of bones (flexion, abduction, rotation) in planes; arthrokinematics describes movements between joint surfaces: roll, glide (slide) and spin. The convex–concave rule: when a convex surface moves on a fixed concave surface, roll and glide occur in opposite directions (e.g. humeral head glides inferiorly during shoulder abduction); when a concave surface moves on a fixed convex surface, roll and glide occur in the same direction (e.g. tibia on femur during knee extension in non-weight-bearing). This guides joint mobilisation direction. Joints have degrees of freedom: hinge (1), condyloid and saddle (2), ball-and-socket (3).",
+       "keyPoints": [
+        "Osteokinematics vs arthrokinematics",
+        "Convex on concave: opposite directions",
+        "Concave on convex: same direction",
+        "Degrees of freedom: hinge 1, ball-and-socket 3"
+       ]
+      },
+      {
+       "heading": "Stability and positions",
+       "body": "Joint stability depends on bony congruency, ligaments and capsule, muscles and negative intra-articular pressure. The close-packed position is where joint surfaces are maximally congruent and ligaments are taut (e.g. knee full extension, hip extension with internal rotation and abduction) — joints are most stable but most vulnerable to fracture. The loose-packed (resting) position has maximal joint play, used for mobilisation. The capsular pattern of restriction indicates arthritis (e.g. shoulder: lateral rotation > abduction > medial rotation; hip: medial rotation, flexion and abduction most limited).",
+       "keyPoints": [
+        "Close-packed: maximal congruency, stable",
+        "Loose-packed: maximal joint play",
+        "Capsular patterns indicate arthritis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Roll, glide and spin between joint surfaces describe:",
+       "options": [
+        "Kinetics",
+        "Anthropometry",
+        "Osteokinematics",
+        "Posture",
+        "Arthrokinematics"
+       ],
+       "answerIndex": 4,
+       "explanation": "Arthrokinematics refers to surface motions within the joint."
+      },
+      {
+       "stem": "During shoulder abduction, the convex humeral head glides:",
+       "options": [
+        "Superiorly",
+        "Anteriorly only",
+        "Medially",
+        "Not at all",
+        "Inferiorly"
+       ],
+       "answerIndex": 4,
+       "explanation": "Convex-on-concave: roll up, glide down."
+      },
+      {
+       "stem": "When a concave surface moves on a fixed convex surface, roll and glide occur:",
+       "options": [
+        "Randomly",
+        "In the same direction",
+        "In opposite directions",
+        "Not at all",
+        "Only as spin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Concave-on-convex: same direction."
+      },
+      {
+       "stem": "A ball-and-socket joint has how many degrees of freedom?",
+       "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "6"
+       ],
+       "answerIndex": 3,
+       "explanation": "Movement occurs in three planes."
+      },
+      {
+       "stem": "The close-packed position of the knee is:",
+       "options": [
+        "90° flexion",
+        "30° flexion",
+        "Full extension",
+        "Hyperextension only",
+        "Full flexion"
+       ],
+       "answerIndex": 2,
+       "explanation": "Maximal congruency and taut ligaments in full extension."
+      },
+      {
+       "stem": "Joint mobilisation techniques are usually applied in the:",
+       "options": [
+        "Painful position",
+        "Close-packed position",
+        "Dislocated position",
+        "End of range only",
+        "Loose-packed (resting) position"
+       ],
+       "answerIndex": 4,
+       "explanation": "Maximum joint play is available in the resting position."
+      },
+      {
+       "stem": "The capsular pattern of the shoulder shows greatest restriction of:",
+       "options": [
+        "Adduction",
+        "Flexion",
+        "Extension",
+        "Lateral rotation",
+        "Medial rotation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Lateral rotation > abduction > medial rotation."
+      },
+      {
+       "stem": "A hinge joint such as the elbow (humero-ulnar) has how many degrees of freedom?",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "0",
+        "4"
+       ],
+       "answerIndex": 0,
+       "explanation": "It moves only in flexion–extension."
+      }
+     ]
+    },
+    {
+     "title": "Muscle Mechanics",
+     "order": 3,
+     "summary": "Length–tension and force–velocity relationships, muscle architecture and types of work.",
+     "material": [
+      {
+       "heading": "Force production",
+       "body": "The length–tension relationship: a muscle produces maximal active force at its resting (optimal) length, where actin–myosin overlap is optimal; force falls when it is too short (active insufficiency — e.g. finger flexors cannot grip strongly when the wrist is fully flexed) or too long. Passive insufficiency occurs when a two-joint muscle cannot stretch enough to allow full range at both joints (e.g. tight hamstrings limit hip flexion with the knee extended). The force–velocity relationship: in concentric contraction, force decreases as velocity increases; eccentric contractions generate greater force than concentric ones.",
+       "keyPoints": [
+        "Maximum force at optimal length",
+        "Active insufficiency: two-joint muscle too short",
+        "Passive insufficiency: antagonist too short to stretch",
+        "Eccentric > isometric > concentric force"
+       ]
+      },
+      {
+       "heading": "Architecture and fibre types",
+       "body": "Muscle architecture affects function: parallel (fusiform) muscles have long fibres favouring range and speed (e.g. biceps, sartorius); pennate muscles (unipennate, bipennate, multipennate — e.g. deltoid, rectus femoris, gastrocnemius) pack more fibres, increasing physiological cross-sectional area and force. Fibre types: type I (slow-twitch, oxidative, fatigue-resistant — postural muscles like soleus), type IIa (fast oxidative–glycolytic), type IIx/IIb (fast glycolytic, powerful, fatigable). Strength training increases cross-sectional area (hypertrophy) and neural recruitment; endurance training increases mitochondria and capillaries.",
+       "keyPoints": [
+        "Pennate muscles: more force",
+        "Fusiform: more range and speed",
+        "Type I: slow, fatigue-resistant (soleus)",
+        "Early strength gains are neural"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A muscle generates the greatest active force at its:",
+       "options": [
+        "Shortest length",
+        "Zero length",
+        "Any length equally",
+        "Longest stretched length",
+        "Optimal (resting) length"
+       ],
+       "answerIndex": 4,
+       "explanation": "Optimal actin–myosin overlap maximises cross-bridges."
+      },
+      {
+       "stem": "Weak grip when the wrist is fully flexed demonstrates:",
+       "options": [
+        "Fatigue",
+        "Reciprocal inhibition",
+        "Passive insufficiency",
+        "Muscle hypertrophy",
+        "Active insufficiency of the finger flexors"
+       ],
+       "answerIndex": 4,
+       "explanation": "The finger flexors are too shortened to produce force."
+      },
+      {
+       "stem": "Tight hamstrings limiting hip flexion when the knee is straight is an example of:",
+       "options": [
+        "Eccentric weakness",
+        "Active insufficiency",
+        "Spasticity",
+        "Concentric failure",
+        "Passive insufficiency"
+       ],
+       "answerIndex": 4,
+       "explanation": "The two-joint hamstrings cannot lengthen across both joints."
+      },
+      {
+       "stem": "Which type of contraction produces the greatest force?",
+       "options": [
+        "Isometric",
+        "Passive",
+        "Eccentric",
+        "Concentric",
+        "Isokinetic at high speed"
+       ],
+       "answerIndex": 2,
+       "explanation": "Eccentric contractions generate the most force."
+      },
+      {
+       "stem": "Pennate muscles are adapted for:",
+       "options": [
+        "Large range",
+        "Sensation",
+        "Speed",
+        "Force production",
+        "Postural endurance only"
+       ],
+       "answerIndex": 0,
+       "explanation": "More fibres per cross-section produce more force."
+      },
+      {
+       "stem": "The soleus, a postural muscle, is rich in:",
+       "options": [
+        "Cardiac muscle",
+        "Type IIx fibres",
+        "Type I slow-twitch fibres",
+        "Type IIb fibres only",
+        "Smooth muscle"
+       ],
+       "answerIndex": 2,
+       "explanation": "Type I fibres resist fatigue."
+      },
+      {
+       "stem": "In concentric contraction, as shortening velocity increases, force:",
+       "options": [
+        "Stays constant",
+        "Becomes infinite",
+        "Decreases",
+        "Becomes eccentric",
+        "Increases"
+       ],
+       "answerIndex": 2,
+       "explanation": "Force–velocity relationship."
+      },
+      {
+       "stem": "Early strength gains in the first weeks of training are mainly due to:",
+       "options": [
+        "Neural adaptation",
+        "Fat loss",
+        "Bone growth",
+        "New muscle cells",
+        "Hypertrophy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Improved recruitment and coordination come first."
+      }
+     ]
+    },
+    {
+     "title": "Posture and Balance",
+     "order": 4,
+     "summary": "Centre of gravity, base of support, line of gravity, postural deviations and balance systems.",
+     "material": [
+      {
+       "heading": "Stability and posture",
+       "body": "Stability increases with a wider base of support, a lower centre of gravity (in adults roughly anterior to the second sacral vertebra), and a line of gravity falling within the base of support. In ideal standing posture (lateral view) the line of gravity passes through the ear lobe, the shoulder (acromion), slightly posterior to the hip joint, slightly anterior to the knee joint and anterior to the lateral malleolus. Common postural deviations: excessive thoracic kyphosis, lumbar hyperlordosis, flat back, sway back, forward head posture, and scoliosis (lateral curvature with rotation — assessed with Adam's forward bend test and Cobb angle).",
+       "keyPoints": [
+        "Wider base + lower COG = more stable",
+        "COG ≈ anterior to S2",
+        "Line of gravity: ear, acromion, behind hip, in front of knee",
+        "Scoliosis: Adam's test, Cobb angle"
+       ]
+      },
+      {
+       "heading": "Balance",
+       "body": "Balance relies on sensory input from vision, the vestibular system and somatosensory/proprioceptive receptors, integrated by the CNS (cerebellum, brainstem), and motor responses. Postural strategies: ankle strategy (small perturbations on firm surfaces), hip strategy (larger or faster perturbations, narrow surfaces) and stepping strategy (when the centre of mass moves outside the base). The Romberg test (standing with eyes closed) assesses proprioception — loss of balance with eyes closed suggests proprioceptive (dorsal column) loss. Falls in older adults are prevented with balance and strength training (e.g. Otago programme), home hazard modification and medication review.",
+       "keyPoints": [
+        "Vision, vestibular, proprioception",
+        "Ankle, hip and stepping strategies",
+        "Romberg test: proprioception",
+        "Falls prevention: balance and strength training"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Stability increases when the:",
+       "options": [
+        "Base of support widens and centre of gravity is lowered",
+        "Line of gravity falls outside the base",
+        "Centre of gravity is raised",
+        "Body is on one foot",
+        "Base of support narrows"
+       ],
+       "answerIndex": 0,
+       "explanation": "Wide base and low COG improve stability."
+      },
+      {
+       "stem": "In an adult standing upright, the centre of gravity lies approximately:",
+       "options": [
+        "At the head",
+        "At the sternum",
+        "At the knees",
+        "Anterior to the second sacral vertebra",
+        "At the umbilicus"
+       ],
+       "answerIndex": 3,
+       "explanation": "It lies just anterior to S2."
+      },
+      {
+       "stem": "In ideal standing posture, the line of gravity passes:",
+       "options": [
+        "Slightly anterior to the knee joint",
+        "Through the navel only",
+        "Behind the knee",
+        "Through the heel",
+        "Behind the ear"
+       ],
+       "answerIndex": 0,
+       "explanation": "A slightly anterior line keeps the knee locked in extension."
+      },
+      {
+       "stem": "Scoliosis is assessed clinically using:",
+       "options": [
+        "Adam's forward bend test",
+        "Thomas test",
+        "Phalen's test",
+        "Romberg test",
+        "Lachman test"
+       ],
+       "answerIndex": 0,
+       "explanation": "A rib hump on forward bending suggests structural scoliosis."
+      },
+      {
+       "stem": "The severity of scoliosis on X-ray is measured by the:",
+       "options": [
+        "Sacral angle",
+        "Carrying angle",
+        "Neck–shaft angle",
+        "Q angle",
+        "Cobb angle"
+       ],
+       "answerIndex": 4,
+       "explanation": "The Cobb angle quantifies spinal curvature."
+      },
+      {
+       "stem": "A patient who sways and falls only when the eyes are closed has a positive Romberg test suggesting:",
+       "options": [
+        "Loss of proprioception",
+        "Normal balance",
+        "Cerebellar ataxia",
+        "Muscle weakness",
+        "Visual impairment only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Without vision, proprioceptive loss is revealed."
+      },
+      {
+       "stem": "For small perturbations on a firm surface, the body mainly uses the:",
+       "options": [
+        "Ankle strategy",
+        "Falling strategy",
+        "Arm strategy",
+        "Hip strategy",
+        "Stepping strategy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Small sways are corrected at the ankle."
+      },
+      {
+       "stem": "The three sensory systems for balance are vision, vestibular and:",
+       "options": [
+        "Thermoreception only",
+        "Smell",
+        "Proprioception/somatosensation",
+        "Hearing",
+        "Taste"
+       ],
+       "answerIndex": 2,
+       "explanation": "Proprioceptive input from joints and muscles is essential."
+      }
+     ]
+    },
+    {
+     "title": "Gait Analysis",
+     "order": 5,
+     "summary": "Phases of the gait cycle, normal gait parameters and common pathological gaits.",
+     "material": [
+      {
+       "heading": "The gait cycle",
+       "body": "The gait cycle runs from initial contact of one foot to the next initial contact of the same foot (one stride = two steps). Stance phase is about 60% and swing phase about 40% of the cycle at normal speed; double-limb support occurs twice (about 10% each). Rancho Los Amigos terms: stance — initial contact, loading response, mid-stance, terminal stance, pre-swing; swing — initial swing, mid-swing, terminal swing. Normal adult cadence is about 100–120 steps/min and comfortable walking speed about 1.2–1.4 m/s. Running has no double-support phase and includes a flight phase.",
+       "keyPoints": [
+        "Stance ~60%, swing ~40%",
+        "Stride = two steps",
+        "Double support disappears in running",
+        "Cadence ~100–120 steps/min"
+       ]
+      },
+      {
+       "heading": "Pathological gaits",
+       "body": "Trendelenburg gait: the pelvis drops on the swing side due to weak hip abductors (gluteus medius) on the stance side; compensated by lurching the trunk over the stance leg. Antalgic gait: shortened stance on a painful limb. High-stepping (steppage) gait: foot drop from common fibular nerve palsy or L5 radiculopathy. Hemiplegic (circumduction) gait after stroke: the affected leg swings outward with the arm flexed. Parkinsonian gait: shuffling, small steps, reduced arm swing, festination and freezing. Ataxic gait: broad-based and unsteady (cerebellar). Scissoring gait: in spastic diplegic cerebral palsy with hip adductor spasticity. Waddling gait: bilateral hip abductor weakness (e.g. muscular dystrophy, pregnancy).",
+       "keyPoints": [
+        "Trendelenburg: weak gluteus medius",
+        "Antalgic: short stance on painful side",
+        "Steppage: foot drop",
+        "Scissoring: spastic diplegia",
+        "Parkinsonian: shuffling, festination"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "At normal walking speed, the stance phase makes up about ___ of the gait cycle.",
+       "options": [
+        "20%",
+        "40%",
+        "60%",
+        "80%",
+        "100%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Stance ~60%, swing ~40%."
+      },
+      {
+       "stem": "A stride consists of:",
+       "options": [
+        "Two steps",
+        "Half a step",
+        "Three steps",
+        "One step",
+        "Four steps"
+       ],
+       "answerIndex": 0,
+       "explanation": "A stride is from initial contact of one foot to its next contact."
+      },
+      {
+       "stem": "A phase present in walking but absent in running is:",
+       "options": [
+        "Stance phase",
+        "Initial contact",
+        "Double-limb support",
+        "Swing phase",
+        "Terminal swing"
+       ],
+       "answerIndex": 2,
+       "explanation": "Running has a flight phase instead."
+      },
+      {
+       "stem": "Pelvic drop on the swing side during walking indicates weakness of the stance-side:",
+       "options": [
+        "Quadriceps",
+        "Tibialis anterior",
+        "Hamstrings",
+        "Gluteus medius",
+        "Gastrocnemius"
+       ],
+       "answerIndex": 3,
+       "explanation": "Trendelenburg gait."
+      },
+      {
+       "stem": "A high-stepping gait to clear the toes suggests:",
+       "options": [
+        "Knee effusion",
+        "Foot drop",
+        "Hip osteoarthritis",
+        "Parkinson's disease",
+        "Cerebellar disease"
+       ],
+       "answerIndex": 1,
+       "explanation": "Weak dorsiflexors cause the toes to drag."
+      },
+      {
+       "stem": "Shuffling small steps with reduced arm swing and festination are typical of:",
+       "options": [
+        "Cerebellar ataxia",
+        "Parkinson's disease",
+        "Hemiplegia",
+        "Spastic diplegia",
+        "Foot drop"
+       ],
+       "answerIndex": 1,
+       "explanation": "Bradykinesia and rigidity alter gait."
+      },
+      {
+       "stem": "A scissoring gait is characteristic of:",
+       "options": [
+        "Peripheral neuropathy",
+        "Parkinson's disease",
+        "Ankle sprain",
+        "Spastic diplegic cerebral palsy",
+        "Muscular dystrophy"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hip adductor spasticity crosses the legs."
+      },
+      {
+       "stem": "A gait with a shortened stance phase on a painful leg is:",
+       "options": [
+        "Steppage gait",
+        "Ataxic gait",
+        "Waddling gait",
+        "Trendelenburg gait",
+        "Antalgic gait"
+       ],
+       "answerIndex": 4,
+       "explanation": "Patients limit weight bearing on the painful side."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

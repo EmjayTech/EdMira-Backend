@@ -1,0 +1,99 @@
+{
+  "title": "Introduction to Physiotherapy",
+  "code": "PTH201",
+  "color": "#EA580C",
+  "description": "The physiotherapy profession, movement science basics, assessment principles, therapeutic modalities and professional practice in Nigeria.",
+  "for": { "200": ["PT"], "100": ["PT"] },
+  "topics": [
+    {
+      "title": "The Physiotherapy Profession",
+      "summary": "Definition, history, scope of practice, specialties and regulation in Nigeria.",
+      "notes": [
+        { "h": "Definition and scope", "b": "Physiotherapy (physical therapy) develops, maintains and restores maximum movement and functional ability throughout life, using physical approaches: exercise, manual therapy, electrophysical agents, education and advice. Specialties include musculoskeletal and sports, neurological, cardiopulmonary, paediatric, women's health, geriatric and community-based rehabilitation. Physiotherapists work within the World Health Organization's International Classification of Functioning, Disability and Health (ICF), which considers body functions and structures, activities and participation, and environmental and personal factors.", "k": ["Physiotherapy restores movement and function", "ICF: impairment, activity limitation, participation restriction", "Specialties: MSK, neuro, cardiopulmonary, paediatrics"] },
+        { "h": "Regulation and professional bodies", "b": "In Nigeria physiotherapists are registered by the Medical Rehabilitation Therapists (Registration) Board of Nigeria (MRTB), and the professional association is the Nigeria Society of Physiotherapy (NSP, founded 1959). The World Physiotherapy (formerly WCPT) is the global body; World Physiotherapy Day is 8 September. Nigerian university programmes (e.g. at the University of Ibadan, University of Lagos, OAU, University of Nigeria, Bayero University) award BMR(PT) or BPT/DPT degrees after five years including clinical internship.", "k": ["MRTB registers physiotherapists", "Nigeria Society of Physiotherapy (1959)", "World Physiotherapy Day: 8 September"] }
+      ],
+      "q": [
+        ["Physiotherapists in Nigeria are registered by the:", "MDCN", "Medical Rehabilitation Therapists Board (MRTB)", "PCN", "NMCN", "RRBN", 1, "The MRTB registers physiotherapists and other rehabilitation therapists."],
+        ["World Physiotherapy Day is observed on:", "12 May", "8 September", "7 April", "1 December", "10 October", 1, "8 September is World Physiotherapy Day."],
+        ["The WHO framework describing body function, activity and participation is the:", "ICD-11", "ICF", "DSM-5", "GCS", "APGAR", 1, "The International Classification of Functioning, Disability and Health."],
+        ["In ICF terms, a patient unable to walk to the market after a stroke has a/an:", "Impairment", "Activity limitation", "Participation restriction only", "Environmental factor", "Diagnosis", 1, "Walking is an activity; inability is an activity limitation."],
+        ["Which is NOT a core physiotherapy intervention?", "Therapeutic exercise", "Manual therapy", "Prescribing antibiotics", "Electrotherapy", "Patient education", 2, "Prescribing antibiotics is outside physiotherapy scope."],
+        ["The professional association of physiotherapists in Nigeria is the:", "Nigerian Medical Association", "Nigeria Society of Physiotherapy", "Pharmaceutical Society of Nigeria", "NANNM", "AMLSN", 1, "The NSP was founded in 1959."],
+        ["A physiotherapist treating chest conditions and post-operative breathing works in the ___ specialty.", "Neurological", "Cardiopulmonary", "Paediatric", "Sports", "Orthotics", 1, "Cardiopulmonary physiotherapy manages respiratory and cardiac conditions."],
+        ["The main aim of physiotherapy is to:", "Perform surgery", "Restore and maximise movement and function", "Dispense medicines", "Take radiographs", "Diagnose infections in the lab", 1, "Physiotherapy focuses on movement and function."]
+      ]
+    },
+    {
+      "title": "Basic Movement Science and Terminology",
+      "summary": "Planes and axes of movement, joint movements, and types of muscle contraction.",
+      "notes": [
+        { "h": "Planes and movements", "b": "Movements occur in planes around axes: flexion and extension occur in the sagittal plane around a frontal (coronal) axis; abduction and adduction in the frontal plane around a sagittal axis; rotation in the transverse plane around a vertical axis. Other terms: circumduction, pronation/supination (forearm), inversion/eversion (foot), dorsiflexion/plantarflexion (ankle), protraction/retraction, elevation/depression (scapula). Range of motion (ROM) is measured with a goniometer; normal knee flexion is about 0–135/140°.", "k": ["Sagittal plane: flexion/extension", "Frontal plane: abduction/adduction", "Transverse plane: rotation", "Goniometer measures ROM"] },
+        { "h": "Muscle actions", "b": "Isometric contraction produces tension without change in muscle length (e.g. static quadriceps exercise). Isotonic contraction changes length: concentric (muscle shortens — lifting a weight) and eccentric (muscle lengthens under load — lowering a weight; generates more force and more delayed-onset soreness). Isokinetic contraction occurs at a constant speed on special equipment. Muscles act as agonists (prime movers), antagonists (oppose), synergists and fixators (stabilisers). Levers: first class (neck extension), second class (standing on tiptoes), third class (most common — biceps flexing the elbow).", "k": ["Isometric: no length change", "Concentric shortens; eccentric lengthens", "Third-class lever most common (biceps)"] }
+      ],
+      "q": [
+        ["Flexion and extension occur mainly in the:", "Frontal plane", "Sagittal plane", "Transverse plane", "Oblique plane", "Horizontal plane only", 1, "Sagittal plane movements are forward–backward."],
+        ["Abduction of the shoulder occurs in the:", "Sagittal plane", "Frontal (coronal) plane", "Transverse plane", "Vertical axis", "Horizontal plane", 1, "Abduction moves the limb away from the midline in the frontal plane."],
+        ["A contraction producing tension without change in muscle length is:", "Concentric", "Eccentric", "Isometric", "Isokinetic", "Isotonic", 2, "Isometric = same length."],
+        ["Lowering a dumbbell slowly involves ___ contraction of biceps.", "Concentric", "Eccentric", "Isometric", "Isokinetic", "Passive", 1, "Biceps lengthens under load while controlling the descent."],
+        ["The instrument used to measure joint range of motion is the:", "Dynamometer", "Goniometer", "Spirometer", "Sphygmomanometer", "Tape measure only", 1, "Goniometers measure joint angles."],
+        ["Standing on tiptoes is an example of a:", "First-class lever", "Second-class lever", "Third-class lever", "Pulley", "Wheel and axle", 1, "The load (body weight) lies between fulcrum (toes) and effort (calf)."],
+        ["Turning the palm upward is:", "Pronation", "Supination", "Inversion", "Eversion", "Opposition", 1, "Supination rotates the forearm so the palm faces up/forward."],
+        ["The muscle that is the prime mover of an action is the:", "Antagonist", "Agonist", "Fixator", "Synergist", "Neutraliser", 1, "The agonist produces the movement."]
+      ]
+    },
+    {
+      "title": "Physiotherapy Assessment",
+      "summary": "Subjective and objective assessment, muscle power grading, pain measurement and outcome measures.",
+      "notes": [
+        { "h": "Subjective and objective assessment", "b": "Assessment begins with the subjective examination: presenting complaint, history, pain (site, nature, severity, aggravating/easing factors, 24-hour pattern), past medical history, social history and patient goals; 'red flags' (e.g. unexplained weight loss, night pain, bladder or bowel dysfunction with back pain suggesting cauda equina syndrome) need urgent medical referral. The objective examination includes observation, palpation, range of motion, muscle power, special tests, neurological examination, balance and functional assessment. Findings are summarised into a problem list and SMART goals.", "k": ["Red flags → urgent referral", "Cauda equina: saddle anaesthesia, bladder/bowel change", "Problem list → SMART goals"] },
+        { "h": "Grading and outcome measures", "b": "Muscle power is graded with the Oxford (MRC) scale 0–5: 0 no contraction; 1 flicker; 2 movement with gravity eliminated; 3 movement against gravity; 4 against some resistance; 5 normal power. Pain is measured on a visual analogue scale (VAS, 0–100 mm) or numerical rating scale (0–10). Spasticity is graded by the Modified Ashworth Scale. Common outcome measures: Timed Up and Go test (falls risk), Berg Balance Scale, Barthel Index (activities of daily living), 6-minute walk test (endurance).", "k": ["Oxford scale 0–5: grade 3 = against gravity", "VAS/NRS for pain", "Modified Ashworth: spasticity", "Barthel Index: ADLs"] }
+      ],
+      "q": [
+        ["On the Oxford scale, full range of movement against gravity but not resistance is grade:", "1", "2", "3", "4", "5", 2, "Grade 3 = movement against gravity only."],
+        ["Which is a red flag in a patient with low back pain?", "Pain after lifting", "New urinary retention and saddle anaesthesia", "Muscle stiffness in the morning", "Pain eased by rest", "Pain after gardening", 1, "These suggest cauda equina syndrome needing emergency referral."],
+        ["Spasticity is commonly graded with the:", "Oxford scale", "Modified Ashworth Scale", "Glasgow Coma Scale", "Borg scale", "APGAR score", 1, "The Modified Ashworth Scale grades resistance to passive movement."],
+        ["The Barthel Index measures:", "Muscle power", "Independence in activities of daily living", "Pain", "Balance only", "Lung function", 1, "It scores feeding, bathing, dressing, mobility and continence."],
+        ["A muscle showing only a flicker of contraction is Oxford grade:", "0", "1", "2", "3", "4", 1, "Grade 1 = flicker or trace of contraction."],
+        ["The Timed Up and Go test mainly assesses:", "Cardiac output", "Mobility and falls risk", "Hand grip strength", "Lung volumes", "Cognition only", 1, "It times standing, walking 3 m, turning and sitting."],
+        ["A 10 cm line on which a patient marks pain intensity is the:", "Borg scale", "Visual analogue scale", "Oxford scale", "Berg scale", "McGill questionnaire", 1, "The VAS is a 100 mm line from no pain to worst pain."],
+        ["Asking about aggravating and easing factors is part of the:", "Objective examination", "Subjective examination", "Special tests", "Treatment plan", "Discharge summary", 1, "It is history-taking (subjective)."]
+      ]
+    },
+    {
+      "title": "Therapeutic Modalities",
+      "summary": "Heat and cold, electrotherapy, ultrasound and exercise therapy basics.",
+      "notes": [
+        { "h": "Thermal agents", "b": "Superficial heat (hot packs, infrared, paraffin wax) increases blood flow, reduces pain and muscle spasm, and increases tissue extensibility before stretching; it is contraindicated in acute inflammation, impaired sensation, bleeding disorders and over malignancy. Cryotherapy (ice packs) is used in acute soft tissue injuries to reduce pain, swelling and metabolic rate — the PRICE principle (Protection, Rest, Ice, Compression, Elevation), now often POLICE (Protection, Optimal Loading, Ice, Compression, Elevation). Apply ice for about 10–20 minutes with a barrier to avoid ice burns.", "k": ["Heat before stretching; not in acute inflammation", "Ice for acute injury, 10–20 min with a barrier", "PRICE / POLICE"] },
+        { "h": "Electrotherapy and exercise", "b": "Transcutaneous electrical nerve stimulation (TENS) relieves pain via the pain gate theory (Melzack and Wall, 1965) and endogenous opioid release. Neuromuscular electrical stimulation (NMES) produces muscle contraction to strengthen weak muscles. Therapeutic ultrasound (1 MHz for deeper, 3 MHz for superficial tissues) has thermal and non-thermal effects; avoid over the eyes, gravid uterus, malignancy and pacemakers. Exercise therapy includes passive, active-assisted, active and resisted exercises, stretching, strengthening, balance and aerobic training — the cornerstone of physiotherapy.", "k": ["TENS: pain gate theory", "Ultrasound: 1 MHz deep, 3 MHz superficial", "Exercise is the cornerstone of physiotherapy"] }
+      ],
+      "q": [
+        ["Immediately after an acute ankle sprain, the most appropriate modality is:", "Hot pack", "Ice with compression and elevation", "Paraffin wax bath", "Infrared heat", "Deep massage", 1, "Cold reduces pain and swelling in the acute stage."],
+        ["TENS relieves pain mainly through the:", "Gate control theory", "Specificity theory only", "Inflammatory response", "Increased tissue temperature", "Muscle hypertrophy", 0, "Melzack and Wall's pain gate theory."],
+        ["Superficial heat is contraindicated in:", "Chronic muscle stiffness", "Acute inflammation", "Before stretching", "Chronic low back pain", "Joint stiffness", 1, "Heat increases blood flow and can worsen acute inflammation."],
+        ["For treating deeper tissues, therapeutic ultrasound is usually applied at:", "1 MHz", "3 MHz", "10 MHz", "100 Hz", "50 kHz", 0, "Lower frequency penetrates more deeply."],
+        ["Therapeutic ultrasound must NOT be applied over the:", "Quadriceps muscle", "Gravid (pregnant) uterus", "Lateral elbow", "Shoulder joint", "Achilles tendon", 1, "Ultrasound is contraindicated over a pregnant uterus."],
+        ["In the POLICE principle, 'OL' stands for:", "Oral Laxatives", "Optimal Loading", "Oxygen Level", "Oedema Lymph", "Occupational Leave", 1, "Optimal loading replaces complete rest."],
+        ["Exercises performed by the therapist with no muscle effort from the patient are:", "Active exercises", "Passive exercises", "Resisted exercises", "Isometric exercises", "Aerobic exercises", 1, "Passive movements maintain range when patients cannot move."],
+        ["Ice should be applied for about:", "1–2 minutes", "10–20 minutes", "1 hour continuously", "3 hours", "Overnight", 1, "Longer applications risk ice burns and nerve injury."]
+      ]
+    },
+    {
+      "title": "Disability, Rehabilitation and Assistive Devices",
+      "summary": "Models of disability, rehabilitation team, walking aids and community-based rehabilitation.",
+      "notes": [
+        { "h": "Disability and rehabilitation", "b": "The medical model sees disability as a problem of the individual's body to be cured; the social model sees disability as created by barriers in society (attitudes, buildings, transport). The biopsychosocial model (underlying ICF) combines both. Rehabilitation is a team effort: physiotherapists, occupational therapists, speech and language therapists, prosthetists/orthotists, doctors, nurses, psychologists and social workers. In Nigeria the Discrimination Against Persons with Disabilities (Prohibition) Act 2018 protects the rights of persons with disabilities. Community-based rehabilitation (CBR), promoted by WHO, brings services to communities using local resources.", "k": ["Medical vs social model; biopsychosocial model", "Disability Act 2018 (Nigeria)", "CBR takes rehabilitation into communities"] },
+        { "h": "Walking aids", "b": "Walking aids increase the base of support and reduce weight-bearing on an injured limb. Walking frames give the most stability; axillary crutches allow non-weight-bearing; elbow crutches are used for longer-term use; walking sticks give least support. A walking stick is held in the hand opposite the affected leg and moved together with it. Crutch gait patterns: non-weight-bearing (three-point swing-through), partial weight-bearing, and four-point gait. The correct height of a stick is at the level of the ulnar styloid/greater trochanter with the elbow flexed about 15–20°. On stairs: 'up with the good, down with the bad'.", "k": ["Frame: most stable; stick: least", "Stick in the hand opposite the affected leg", "Stairs: up with the good, down with the bad"] }
+      ],
+      "q": [
+        ["The model that sees disability as created by barriers in society is the:", "Medical model", "Social model", "Charity model", "Moral model", "Biomedical model", 1, "The social model focuses on removing societal barriers."],
+        ["A patient with a painful right knee should hold the walking stick in the:", "Right hand", "Left hand", "Both hands", "Either hand, it makes no difference", "Mouth", 1, "The stick goes in the hand opposite the affected leg."],
+        ["The walking aid that gives the greatest stability is the:", "Walking stick", "Elbow crutch", "Walking frame", "Quad cane", "Tripod stick", 2, "Frames have the widest base of support."],
+        ["When climbing stairs with crutches after a leg injury, the patient should lead with:", "The injured leg", "The good leg", "The crutches", "Both legs together", "The handrail only", 1, "'Up with the good, down with the bad.'"],
+        ["The Nigerian law protecting the rights of persons with disabilities was enacted in:", "1999", "2010", "2018", "2022", "1985", 2, "The Discrimination Against Persons with Disabilities (Prohibition) Act 2018."],
+        ["Community-based rehabilitation is promoted mainly by:", "WHO", "IMF", "OPEC", "FIFA", "WTO", 0, "WHO champions CBR, especially in low-resource settings."],
+        ["The correct height for a walking stick is roughly at the level of the:", "Shoulder", "Greater trochanter / wrist crease", "Knee", "Waist above the navel", "Chin", 1, "This allows about 15–20° elbow flexion."],
+        ["A member of the rehabilitation team who makes artificial limbs is the:", "Occupational therapist", "Prosthetist", "Speech therapist", "Radiographer", "Dietitian", 1, "Prosthetists design and fit artificial limbs."]
+      ]
+    }
+  ]
+}

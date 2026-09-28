@@ -1,0 +1,639 @@
+{
+ "courses": [
+  {
+   "title": "Introduction to Pharmacy and Pharmaceutics",
+   "code": "PCT201",
+   "color": "#0891B2",
+   "description": "The pharmacy profession in Nigeria, pharmaceutical calculations, the prescription, sources of drugs and introductory dosage-form science.",
+   "audience": [
+    {
+     "level": "100 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "The Pharmacy Profession in Nigeria",
+     "order": 1,
+     "summary": "History, roles of the pharmacist, regulation and the pharmacy workforce.",
+     "material": [
+      {
+       "heading": "Roles and regulation",
+       "body": "Pharmacists are custodians of medicines: they dispense, counsel patients, monitor therapy, manufacture and assure the quality of medicines, supply drug information and promote public health. Pharmacy practice in Nigeria is regulated by the Pharmacy Council of Nigeria (PCN), established by the Pharmacists Council of Nigeria Act (now the PCN Act 2022), which registers pharmacists and pharmacy technicians and licenses premises including patent and proprietary medicine vendors (PPMVs). The Pharmaceutical Society of Nigeria (PSN) is the professional association. The Doctor of Pharmacy (PharmD) is now the entry-level degree in Nigerian universities, replacing the BPharm.",
+       "keyPoints": [
+        "PCN regulates pharmacy practice and licenses premises",
+        "PSN is the professional body",
+        "PharmD is the entry-level degree"
+       ]
+      },
+      {
+       "heading": "Areas of practice",
+       "body": "Pharmacists work in community (retail) pharmacy, hospital pharmacy, industrial (manufacturing) pharmacy, regulatory agencies (NAFDAC, PCN), academia, the armed forces and public health programmes (e.g. HIV, TB, malaria supply chains). Pharmaceutical care, described by Hepler and Strand (1990), is the responsible provision of drug therapy to achieve definite outcomes that improve a patient's quality of life.",
+       "keyPoints": [
+        "Community, hospital, industrial, regulatory, academic",
+        "Pharmaceutical care: Hepler and Strand (1990)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Pharmacy premises in Nigeria are licensed by the:",
+       "options": [
+        "PSN",
+        "MDCN",
+        "NAFDAC",
+        "NHIA",
+        "PCN"
+       ],
+       "answerIndex": 4,
+       "explanation": "The Pharmacy Council of Nigeria registers pharmacists and licenses premises."
+      },
+      {
+       "stem": "The professional association of pharmacists in Nigeria is the:",
+       "options": [
+        "PCN",
+        "NMA",
+        "PSN",
+        "MLSCN",
+        "NANNM"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Pharmaceutical Society of Nigeria."
+      },
+      {
+       "stem": "The concept of 'pharmaceutical care' was defined by:",
+       "options": [
+        "Watson and Crick",
+        "Fleming and Florey",
+        "Koch and Pasteur",
+        "Hepler and Strand",
+        "Hippocrates"
+       ],
+       "answerIndex": 3,
+       "explanation": "Hepler and Strand defined pharmaceutical care in 1990."
+      },
+      {
+       "stem": "The current entry-level pharmacy degree in Nigerian universities is the:",
+       "options": [
+        "PharmD",
+        "MPharm",
+        "BSc Pharmacology",
+        "BPharm",
+        "HND Pharmacy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nigerian schools have transitioned to the Doctor of Pharmacy."
+      },
+      {
+       "stem": "Which agency registers drugs before they are marketed in Nigeria?",
+       "options": [
+        "CAC",
+        "SON",
+        "NUC",
+        "NAFDAC",
+        "PCN"
+       ],
+       "answerIndex": 3,
+       "explanation": "NAFDAC regulates registration of drugs, food and cosmetics."
+      },
+      {
+       "stem": "Patent and proprietary medicine vendors (PPMVs) are licensed by the:",
+       "options": [
+        "MDCN",
+        "PCN",
+        "CBN",
+        "State Ministry of Commerce only",
+        "NAFDAC"
+       ],
+       "answerIndex": 1,
+       "explanation": "PCN licenses PPMV shops."
+      },
+      {
+       "stem": "Which is NOT a core role of the pharmacist?",
+       "options": [
+        "Counselling patients on medicines",
+        "Ensuring medicine quality",
+        "Providing drug information",
+        "Dispensing medicines",
+        "Performing surgery"
+       ],
+       "answerIndex": 4,
+       "explanation": "Surgery is outside pharmacy practice."
+      },
+      {
+       "stem": "Manufacturing of medicines is the focus of:",
+       "options": [
+        "Community pharmacy",
+        "Veterinary pharmacy",
+        "Social pharmacy",
+        "Industrial pharmacy",
+        "Clinical pharmacy"
+       ],
+       "answerIndex": 3,
+       "explanation": "Industrial pharmacists work in drug manufacturing and quality assurance."
+      }
+     ]
+    },
+    {
+     "title": "Pharmaceutical Calculations",
+     "order": 2,
+     "summary": "Units, dose calculations, percentage and ratio strengths, dilutions and paediatric doses.",
+     "material": [
+      {
+       "heading": "Units and concentrations",
+       "body": "Metric units: 1 g = 1,000 mg; 1 mg = 1,000 µg (micrograms); 1 L = 1,000 mL. Percentage strength: w/v = grams per 100 mL (e.g. 5% dextrose = 5 g/100 mL); w/w = grams per 100 g; v/v = mL per 100 mL. Ratio strength expresses dilute solutions, e.g. 1:1,000 adrenaline = 1 g in 1,000 mL = 1 mg/mL; 1:10,000 = 0.1 mg/mL. Millimoles: mmol = mass (mg) ÷ molecular weight.",
+       "keyPoints": [
+        "1 mg = 1,000 µg",
+        "% w/v = g per 100 mL",
+        "1:1,000 = 1 mg/mL; 1:10,000 = 0.1 mg/mL"
+       ]
+      },
+      {
+       "heading": "Dose calculations",
+       "body": "Volume to give = (dose required ÷ stock strength) × stock volume ('what you want over what you've got times what it's in'). Dilution: C1V1 = C2V2. Dose by weight: dose = mg/kg × body weight. Body surface area (BSA) is used for anticancer drugs. Clark's rule estimates a child's dose: child dose = adult dose × (weight in lb ÷ 150); Young's rule: adult dose × age/(age + 12). Infusion rate (drops/min) = volume (mL) × drop factor ÷ time (min).",
+       "keyPoints": [
+        "Volume = (want ÷ have) × volume",
+        "C1V1 = C2V2",
+        "Young's rule: age/(age + 12)",
+        "Drops/min = mL × drop factor ÷ minutes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "How many micrograms are in 0.25 mg?",
+       "options": [
+        "2.5 µg",
+        "25 µg",
+        "250 µg",
+        "2,500 µg",
+        "0.025 µg"
+       ],
+       "answerIndex": 2,
+       "explanation": "0.25 × 1,000 = 250 µg."
+      },
+      {
+       "stem": "How many grams of dextrose are in 500 mL of 5% w/v dextrose?",
+       "options": [
+        "5 g",
+        "10 g",
+        "25 g",
+        "50 g",
+        "250 g"
+       ],
+       "answerIndex": 2,
+       "explanation": "5 g/100 mL × 5 = 25 g."
+      },
+      {
+       "stem": "Adrenaline 1:10,000 contains:",
+       "options": [
+        "10 mg/mL",
+        "1 mg/mL",
+        "0.1 mg/mL",
+        "0.01 mg/mL",
+        "100 mg/mL"
+       ],
+       "answerIndex": 2,
+       "explanation": "1 g in 10,000 mL = 0.1 mg/mL."
+      },
+      {
+       "stem": "A syrup contains 125 mg per 5 mL. What volume gives 250 mg?",
+       "options": [
+        "2.5 mL",
+        "5 mL",
+        "10 mL",
+        "12.5 mL",
+        "20 mL"
+       ],
+       "answerIndex": 2,
+       "explanation": "(250 ÷ 125) × 5 = 10 mL."
+      },
+      {
+       "stem": "A 20 kg child needs 15 mg/kg of paracetamol. The dose is:",
+       "options": [
+        "150 mg",
+        "200 mg",
+        "300 mg",
+        "350 mg",
+        "75 mg"
+       ],
+       "answerIndex": 2,
+       "explanation": "15 × 20 = 300 mg."
+      },
+      {
+       "stem": "By Young's rule, the dose for a 6-year-old when the adult dose is 300 mg is:",
+       "options": [
+        "50 mg",
+        "100 mg",
+        "150 mg",
+        "200 mg",
+        "300 mg"
+       ],
+       "answerIndex": 1,
+       "explanation": "300 × 6/(6 + 12) = 100 mg."
+      },
+      {
+       "stem": "How much 10% stock is needed to make 200 mL of a 2% solution?",
+       "options": [
+        "4 mL",
+        "20 mL",
+        "40 mL",
+        "100 mL",
+        "160 mL"
+       ],
+       "answerIndex": 2,
+       "explanation": "C1V1 = C2V2: 10 × V1 = 2 × 200, so V1 = 40 mL."
+      },
+      {
+       "stem": "1 L of fluid is to run over 8 hours with a giving set of 20 drops/mL. The rate is about:",
+       "options": [
+        "21 drops/min",
+        "42 drops/min",
+        "63 drops/min",
+        "125 drops/min",
+        "10 drops/min"
+       ],
+       "answerIndex": 1,
+       "explanation": "1,000 × 20 ÷ 480 ≈ 42 drops/min."
+      }
+     ]
+    },
+    {
+     "title": "The Prescription and Dispensing",
+     "order": 3,
+     "summary": "Parts of a prescription, prescription abbreviations, dispensing process and labelling.",
+     "material": [
+      {
+       "heading": "The prescription",
+       "body": "A prescription is a written order from a licensed prescriber to dispense a medicine for a patient. Parts: superscription (patient's details, date and the symbol Rx — 'recipe', take thou), inscription (drug name, strength and quantity), subscription (instructions to the pharmacist, e.g. dispense 20 tablets), signa or transcription (directions to the patient — 'Sig'), and the prescriber's signature and details. Controlled drugs (e.g. morphine, pethidine) require stricter prescription requirements and registers.",
+       "keyPoints": [
+        "Rx = 'take thou'",
+        "Inscription: drug, strength, quantity",
+        "Signa: directions for the patient",
+        "Controlled drugs need special records"
+       ]
+      },
+      {
+       "heading": "Dispensing",
+       "body": "Good dispensing practice: receive and validate the prescription (legality, completeness, appropriateness, interactions, allergies), interpret it, prepare and label the medicine, perform a final check, and counsel the patient. A label should include the patient's name, drug name and strength, dose and frequency, quantity, date, pharmacy name and address, and warnings (e.g. 'may cause drowsiness'). Counselling covers what the medicine is for, how and when to take it, duration, side effects, storage, and what to do if a dose is missed.",
+       "keyPoints": [
+        "Validate → interpret → prepare → label → check → counsel",
+        "Label: patient, drug, dose, date, warnings",
+        "Always counsel the patient"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The symbol 'Rx' on a prescription means:",
+       "options": [
+        "Take thou (recipe)",
+        "Repeat",
+        "Record",
+        "Refill",
+        "Restricted"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rx comes from the Latin 'recipe', meaning take thou."
+      },
+      {
+       "stem": "The part of the prescription stating the drug name, strength and quantity is the:",
+       "options": [
+        "Superscription",
+        "Signa",
+        "Endorsement",
+        "Inscription",
+        "Subscription"
+       ],
+       "answerIndex": 3,
+       "explanation": "The inscription is the body of the prescription."
+      },
+      {
+       "stem": "Directions to the patient on a prescription are the:",
+       "options": [
+        "Inscription",
+        "Signa (Sig)",
+        "Superscription",
+        "Subscription",
+        "Heading"
+       ],
+       "answerIndex": 1,
+       "explanation": "Signa means 'write' or 'label' — the patient's directions."
+      },
+      {
+       "stem": "Which drug requires controlled-drug prescription and register procedures?",
+       "options": [
+        "Morphine",
+        "Vitamin C",
+        "Amoxicillin",
+        "Oral rehydration salts",
+        "Paracetamol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Opioids such as morphine are controlled drugs."
+      },
+      {
+       "stem": "Which is NOT required on a dispensing label?",
+       "options": [
+        "Date of dispensing",
+        "Dose and frequency",
+        "Pharmacy name and address",
+        "The patient's HIV status",
+        "Patient's name"
+       ],
+       "answerIndex": 3,
+       "explanation": "Labels must not disclose unnecessary sensitive information."
+      },
+      {
+       "stem": "The final step in the dispensing process is:",
+       "options": [
+        "Ordering supplies",
+        "Counselling the patient",
+        "Labelling",
+        "Checking stock",
+        "Receiving the prescription"
+       ],
+       "answerIndex": 1,
+       "explanation": "Counselling ensures the patient uses the medicine correctly."
+      },
+      {
+       "stem": "Before dispensing, checking for drug interactions and allergies is part of:",
+       "options": [
+        "Labelling",
+        "Stock taking",
+        "Pricing",
+        "Compounding",
+        "Prescription validation/screening"
+       ],
+       "answerIndex": 4,
+       "explanation": "Clinical screening ensures appropriateness and safety."
+      },
+      {
+       "stem": "'Take one tablet three times daily after meals' would be written by a prescriber as:",
+       "options": [
+        "1 tab od ac",
+        "1 tab qds ac",
+        "1 tab bd pc",
+        "1 tab tds pc",
+        "1 tab nocte"
+       ],
+       "answerIndex": 3,
+       "explanation": "tds = three times daily; pc = after meals."
+      }
+     ]
+    },
+    {
+     "title": "Sources of Drugs and Drug Nomenclature",
+     "order": 4,
+     "summary": "Natural and synthetic sources of drugs, drug names and pharmacopoeias.",
+     "material": [
+      {
+       "heading": "Sources of drugs",
+       "body": "Drugs come from plants (morphine from Papaver somniferum, quinine from Cinchona bark, artemisinin from Artemisia annua, digoxin from Digitalis lanata), animals (insulin formerly from pigs/cattle, heparin), minerals (iron, zinc, magnesium sulphate), microorganisms (penicillin from Penicillium, streptomycin from Streptomyces), chemical synthesis (most modern drugs, e.g. paracetamol) and biotechnology/recombinant DNA (human insulin, erythropoietin, vaccines).",
+       "keyPoints": [
+        "Artemisinin: Artemisia annua",
+        "Quinine: Cinchona",
+        "Penicillin: Penicillium",
+        "Recombinant human insulin"
+       ]
+      },
+      {
+       "heading": "Names and references",
+       "body": "Each drug has a chemical name (describes structure), a generic or non-proprietary name (International Non-proprietary Name, INN, e.g. paracetamol/acetaminophen) and brand or proprietary names chosen by manufacturers (e.g. Panadol, Emzor Paracetamol). Generic prescribing is encouraged for cost and clarity. Official standards are set in pharmacopoeias — British Pharmacopoeia (BP), United States Pharmacopeia (USP), International Pharmacopoeia — while formularies (e.g. the Nigeria Essential Medicines List, BNF) guide selection and use. The WHO Essential Medicines List guides national lists.",
+       "keyPoints": [
+        "Chemical, generic (INN) and brand names",
+        "Pharmacopoeias set quality standards",
+        "Essential Medicines List guides selection"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Artemisinin, the basis of ACTs, is obtained from:",
+       "options": [
+        "Cinchona bark",
+        "Papaver somniferum",
+        "Rauwolfia serpentina",
+        "Artemisia annua",
+        "Digitalis lanata"
+       ],
+       "answerIndex": 3,
+       "explanation": "Artemisinin comes from sweet wormwood (Artemisia annua)."
+      },
+      {
+       "stem": "Quinine is obtained from:",
+       "options": [
+        "Opium poppy",
+        "Cinchona bark",
+        "Coca leaves",
+        "Foxglove",
+        "Neem"
+       ],
+       "answerIndex": 1,
+       "explanation": "Quinine is an alkaloid of Cinchona bark."
+      },
+      {
+       "stem": "Human insulin today is produced mainly by:",
+       "options": [
+        "Recombinant DNA technology",
+        "Extraction from pig pancreas",
+        "Plant extraction",
+        "Fermentation of Penicillium",
+        "Chemical synthesis from glucose"
+       ],
+       "answerIndex": 0,
+       "explanation": "Recombinant organisms produce human insulin."
+      },
+      {
+       "stem": "'Paracetamol' is an example of a:",
+       "options": [
+        "Brand name",
+        "Trade secret",
+        "Chemical name",
+        "Generic (non-proprietary) name",
+        "Code number"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the INN; brand names include Panadol."
+      },
+      {
+       "stem": "Streptomycin is derived from:",
+       "options": [
+        "Penicillium",
+        "Bacillus",
+        "Aspergillus",
+        "Streptomyces",
+        "Cinchona"
+       ],
+       "answerIndex": 3,
+       "explanation": "Streptomyces griseus produces streptomycin."
+      },
+      {
+       "stem": "An official book of drug quality standards is a:",
+       "options": [
+        "Dictionary",
+        "Pharmacopoeia",
+        "Prescription pad",
+        "Textbook",
+        "Formulary"
+       ],
+       "answerIndex": 1,
+       "explanation": "Pharmacopoeias specify standards of identity, purity and strength."
+      },
+      {
+       "stem": "Magnesium sulphate is a drug from a ___ source.",
+       "options": [
+        "Mineral",
+        "Microbial",
+        "Plant",
+        "Animal",
+        "Synthetic biotechnology"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is an inorganic mineral salt."
+      },
+      {
+       "stem": "The list that guides which medicines should be available in a health system is the:",
+       "options": [
+        "Essential Medicines List",
+        "Price list",
+        "Poisons Book",
+        "Controlled Drugs Register",
+        "Stock card"
+       ],
+       "answerIndex": 0,
+       "explanation": "WHO and national Essential Medicines Lists guide selection."
+      }
+     ]
+    },
+    {
+     "title": "Introduction to Dosage Forms and Routes",
+     "order": 5,
+     "summary": "Classification of dosage forms, routes of administration and why formulation matters.",
+     "material": [
+      {
+       "heading": "Dosage forms",
+       "body": "A dosage form is the physical form in which a drug is delivered. Solid forms: tablets (plain, film-coated, enteric-coated, sustained-release, effervescent, sublingual), capsules (hard and soft gelatin), powders and granules. Liquid forms: solutions, syrups, elixirs (hydroalcoholic), suspensions (insoluble solid dispersed — shake well), emulsions (oil and water with an emulsifier). Semi-solids: ointments, creams, gels, pastes. Others: suppositories and pessaries, injections, inhalers, eye/ear drops, transdermal patches. Enteric coating protects the drug from gastric acid or the stomach from the drug.",
+       "keyPoints": [
+        "Suspensions must be shaken",
+        "Enteric coating resists stomach acid",
+        "Emulsions need an emulsifying agent"
+       ]
+      },
+      {
+       "heading": "Routes",
+       "body": "Enteral routes: oral (convenient but subject to first-pass metabolism), sublingual/buccal (avoids first-pass, e.g. glyceryl trinitrate), rectal. Parenteral routes: intravenous (100% bioavailability, fastest), intramuscular, subcutaneous (insulin, heparin), intradermal (BCG, Mantoux), intrathecal. Topical and transdermal routes act locally or give sustained systemic delivery. Inhalation delivers drugs to the lungs quickly (salbutamol). Formulation affects stability, taste, bioavailability, onset and patient adherence.",
+       "keyPoints": [
+        "IV bioavailability = 100%",
+        "Sublingual avoids first-pass metabolism",
+        "Intradermal: BCG, Mantoux"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A dispersion of insoluble solid particles in a liquid is a/an:",
+       "options": [
+        "Solution",
+        "Emulsion",
+        "Syrup",
+        "Suspension",
+        "Elixir"
+       ],
+       "answerIndex": 3,
+       "explanation": "Suspensions settle and must be shaken before use."
+      },
+      {
+       "stem": "Enteric-coated tablets are designed to:",
+       "options": [
+        "Dissolve in the mouth",
+        "Resist dissolution in stomach acid",
+        "Release drug immediately",
+        "Dissolve in water before swallowing",
+        "Be chewed"
+       ],
+       "answerIndex": 1,
+       "explanation": "The coat dissolves in the higher pH of the intestine."
+      },
+      {
+       "stem": "Glyceryl trinitrate for angina is given sublingually to:",
+       "options": [
+        "Allow food interaction",
+        "Increase side effects",
+        "Slow absorption",
+        "Improve taste",
+        "Avoid first-pass metabolism"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sublingual absorption bypasses the liver."
+      },
+      {
+       "stem": "Which route gives 100% bioavailability?",
+       "options": [
+        "Rectal",
+        "Intravenous",
+        "Oral",
+        "Intramuscular",
+        "Transdermal"
+       ],
+       "answerIndex": 1,
+       "explanation": "IV drugs enter the circulation directly."
+      },
+      {
+       "stem": "BCG vaccine is given by the ___ route.",
+       "options": [
+        "Intravenous",
+        "Oral",
+        "Subcutaneous",
+        "Intradermal",
+        "Intramuscular"
+       ],
+       "answerIndex": 3,
+       "explanation": "BCG is injected intradermally."
+      },
+      {
+       "stem": "A hydroalcoholic sweetened liquid preparation is an:",
+       "options": [
+        "Ointment",
+        "Suspension",
+        "Elixir",
+        "Emulsion",
+        "Paste"
+       ],
+       "answerIndex": 2,
+       "explanation": "Elixirs contain alcohol and water."
+      },
+      {
+       "stem": "An emulsion requires which additive to remain stable?",
+       "options": [
+        "Emulsifying agent",
+        "Preservative only",
+        "Buffer only",
+        "Colouring",
+        "Flavouring"
+       ],
+       "answerIndex": 0,
+       "explanation": "Emulsifiers reduce interfacial tension between oil and water."
+      },
+      {
+       "stem": "A drug that is destroyed by gastric acid but needs to be taken by mouth is best formulated as a/an:",
+       "options": [
+        "Syrup",
+        "Effervescent tablet",
+        "Enteric-coated tablet",
+        "Sublingual tablet only",
+        "Chewable tablet"
+       ],
+       "answerIndex": 2,
+       "explanation": "Enteric coating protects the drug through the stomach."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

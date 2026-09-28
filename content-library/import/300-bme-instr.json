@@ -1,0 +1,648 @@
+{
+ "courses": [
+  {
+   "title": "Medical Instrumentation and Biosensors",
+   "code": "BME301",
+   "color": "#1E40AF",
+   "description": "Measurement systems, transducers and biosensors, bioelectric potentials and electrodes, amplifiers, and common patient monitoring instruments.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Measurement Systems and Performance",
+     "order": 1,
+     "summary": "Components of a measurement system and static and dynamic characteristics.",
+     "material": [
+      {
+       "heading": "Generalised measurement system",
+       "body": "A medical instrument consists of the measurand (the physiological quantity — pressure, flow, temperature, biopotential), a sensor/transducer (converts the measurand into an electrical signal), signal conditioning (amplification, filtering, analogue-to-digital conversion), output display or recording, and often data storage, transmission, alarms and control/feedback. Physiological signals are usually small (µV–mV), noisy and variable, and measurement must not harm the patient or alter the variable being measured.",
+       "keyPoints": [
+        "Measurand → transducer → conditioning → display",
+        "Biosignals are small and noisy",
+        "Measurement must be safe and non-disturbing"
+       ]
+      },
+      {
+       "heading": "Performance characteristics",
+       "body": "Static characteristics: accuracy (closeness to the true value), precision (repeatability), resolution (smallest detectable change), sensitivity (output change per input change), linearity, range, zero and sensitivity drift, and hysteresis. Dynamic characteristics describe response to changing inputs: frequency response and bandwidth, time constant, rise time and damping. For example, invasive blood pressure systems need adequate natural frequency and optimal damping (about 0.64) to reproduce the arterial waveform without overshoot (underdamping) or blunting (overdamping). Calibration against standards keeps instruments accurate.",
+       "keyPoints": [
+        "Accuracy vs precision vs resolution",
+        "Drift and hysteresis",
+        "Frequency response and damping",
+        "Regular calibration"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The device that converts a physiological quantity into an electrical signal is the:",
+       "options": [
+        "Transducer (sensor)",
+        "Printer",
+        "Power supply",
+        "Display",
+        "Amplifier"
+       ],
+       "answerIndex": 0,
+       "explanation": "Transducers convert energy from one form to another."
+      },
+      {
+       "stem": "The smallest change in input that an instrument can detect is its:",
+       "options": [
+        "Drift",
+        "Accuracy",
+        "Resolution",
+        "Hysteresis",
+        "Range"
+       ],
+       "answerIndex": 2,
+       "explanation": "Resolution defines the smallest detectable increment."
+      },
+      {
+       "stem": "An instrument that gives the same reading repeatedly, though not the true value, is:",
+       "options": [
+        "Perfectly calibrated",
+        "Neither",
+        "Both accurate and precise",
+        "Accurate but imprecise",
+        "Precise but inaccurate"
+       ],
+       "answerIndex": 4,
+       "explanation": "Precision is repeatability; accuracy is closeness to truth."
+      },
+      {
+       "stem": "A gradual change in an instrument's output over time with constant input is:",
+       "options": [
+        "Hysteresis",
+        "Bandwidth",
+        "Resolution",
+        "Linearity",
+        "Drift"
+       ],
+       "answerIndex": 4,
+       "explanation": "Drift requires recalibration."
+      },
+      {
+       "stem": "An overdamped invasive arterial pressure trace will show:",
+       "options": [
+        "Exaggerated peaks",
+        "Perfect accuracy",
+        "A blunted waveform with underestimated systolic pressure",
+        "Ringing oscillations",
+        "Negative pressures"
+       ],
+       "answerIndex": 2,
+       "explanation": "Excess damping flattens the waveform."
+      },
+      {
+       "stem": "Different outputs for the same input depending on whether input is rising or falling is:",
+       "options": [
+        "Hysteresis",
+        "Offset",
+        "Aliasing",
+        "Drift",
+        "Noise"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hysteresis reflects direction-dependent behaviour."
+      },
+      {
+       "stem": "Regular comparison of an instrument against a known standard is:",
+       "options": [
+        "Decommissioning",
+        "Filtering",
+        "Commissioning",
+        "Procurement",
+        "Calibration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Calibration maintains accuracy."
+      },
+      {
+       "stem": "Most physiological biopotentials are in the range of:",
+       "options": [
+        "Megavolts",
+        "Amperes",
+        "Tens of volts",
+        "Kilovolts",
+        "Microvolts to millivolts"
+       ],
+       "answerIndex": 4,
+       "explanation": "ECG is about 1 mV; EEG tens of µV."
+      }
+     ]
+    },
+    {
+     "title": "Transducers and Biosensors",
+     "order": 2,
+     "summary": "Resistive, capacitive, piezoelectric, thermal and optical transducers, and biosensors such as glucose sensors.",
+     "material": [
+      {
+       "heading": "Transducer types",
+       "body": "Resistive transducers: strain gauges (resistance changes with deformation — used in pressure transducers, often in a Wheatstone bridge) and thermistors (resistance changes strongly with temperature; NTC thermistors in patient temperature probes). Thermocouples generate a voltage from junctions of dissimilar metals (Seebeck effect). Capacitive transducers sense displacement/pressure. Piezoelectric crystals generate charge when deformed and vibrate when voltage is applied — used in ultrasound transducers and some pulse sensors. Optical sensors (photodiodes, LEDs) are used in pulse oximetry and photoplethysmography. Infrared thermometers detect emitted thermal radiation (tympanic and forehead thermometers).",
+       "keyPoints": [
+        "Strain gauge + Wheatstone bridge: pressure",
+        "Thermistor: temperature",
+        "Thermocouple: Seebeck effect",
+        "Piezoelectric: ultrasound",
+        "Photodiodes/LEDs: pulse oximetry"
+       ]
+      },
+      {
+       "heading": "Biosensors",
+       "body": "A biosensor combines a biological recognition element (enzyme, antibody, nucleic acid, cell) with a transducer. The classic example is the electrochemical glucose sensor: glucose oxidase catalyses glucose oxidation, and the resulting current (amperometric measurement) is proportional to glucose concentration — used in glucometers and continuous glucose monitors (CGMs, which measure interstitial fluid glucose). Other biosensors include lateral-flow immunoassays (rapid diagnostic tests for malaria, HIV and pregnancy), ion-selective electrodes, and oxygen (Clark) electrodes. Point-of-care testing brings diagnosis closer to patients.",
+       "keyPoints": [
+        "Biosensor = biological element + transducer",
+        "Glucometer: glucose oxidase, amperometric",
+        "CGM measures interstitial glucose",
+        "Lateral-flow RDTs",
+        "Clark electrode: oxygen"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Strain gauges used in pressure transducers are usually connected in a:",
+       "options": [
+        "Rectifier",
+        "Oscillator",
+        "Capacitor bank",
+        "Transformer",
+        "Wheatstone bridge"
+       ],
+       "answerIndex": 4,
+       "explanation": "The bridge converts small resistance changes into a voltage."
+      },
+      {
+       "stem": "A thermistor measures temperature through changes in:",
+       "options": [
+        "Capacitance",
+        "Resistance",
+        "Voltage generated by dissimilar metals",
+        "Magnetic field",
+        "Light emission"
+       ],
+       "answerIndex": 1,
+       "explanation": "Thermistor resistance varies strongly with temperature."
+      },
+      {
+       "stem": "A thermocouple works on the:",
+       "options": [
+        "Doppler effect",
+        "Seebeck effect",
+        "Piezoelectric effect",
+        "Photoelectric effect",
+        "Hall effect"
+       ],
+       "answerIndex": 1,
+       "explanation": "Junctions of dissimilar metals generate a temperature-dependent voltage."
+      },
+      {
+       "stem": "Ultrasound probes use ___ crystals.",
+       "options": [
+        "Photoconductive",
+        "Scintillation",
+        "Piezoelectric",
+        "Thermoelectric",
+        "Ferromagnetic"
+       ],
+       "answerIndex": 2,
+       "explanation": "They convert between electrical and mechanical energy."
+      },
+      {
+       "stem": "A biosensor consists of a biological recognition element plus a:",
+       "options": [
+        "Display only",
+        "Printer",
+        "Battery only",
+        "Transducer",
+        "Filter"
+       ],
+       "answerIndex": 3,
+       "explanation": "The transducer converts the biological event into a signal."
+      },
+      {
+       "stem": "Most blood glucose meters use the enzyme:",
+       "options": [
+        "Amylase",
+        "Lipase",
+        "Glucose oxidase (or glucose dehydrogenase)",
+        "Urease",
+        "Catalase"
+       ],
+       "answerIndex": 2,
+       "explanation": "The enzymatic reaction generates a measurable current."
+      },
+      {
+       "stem": "Continuous glucose monitors measure glucose in:",
+       "options": [
+        "Sweat only",
+        "Urine",
+        "Saliva",
+        "Arterial blood",
+        "Interstitial fluid"
+       ],
+       "answerIndex": 4,
+       "explanation": "A subcutaneous sensor samples interstitial fluid."
+      },
+      {
+       "stem": "Malaria rapid diagnostic tests are an example of:",
+       "options": [
+        "Thermocouples",
+        "Capacitive sensors",
+        "Piezoelectric sensors",
+        "Lateral-flow immunoassay biosensors",
+        "Strain gauges"
+       ],
+       "answerIndex": 3,
+       "explanation": "Antibodies capture parasite antigens on a strip."
+      }
+     ]
+    },
+    {
+     "title": "Bioelectric Signals and Electrodes",
+     "order": 3,
+     "summary": "Origins of biopotentials, ECG, EEG and EMG characteristics, and electrode types and artefacts.",
+     "material": [
+      {
+       "heading": "Biopotentials",
+       "body": "Excitable cells generate action potentials whose summed activity is recorded at the body surface. Typical signals: ECG (electrocardiogram) about 0.5–4 mV, bandwidth roughly 0.05–150 Hz for diagnostic recordings; EEG (electroencephalogram) about 10–100 µV, 0.5–40 Hz (delta, theta, alpha, beta rhythms); EMG (electromyogram) about 0.1–5 mV, 20–500 Hz or more; EOG (eye movements). The standard 12-lead ECG uses limb leads (I, II, III), augmented limb leads (aVR, aVL, aVF) and six precordial leads (V1–V6); Einthoven's triangle relates the limb leads.",
+       "keyPoints": [
+        "ECG ~1 mV; EEG ~10–100 µV; EMG up to mV",
+        "EEG rhythms: delta, theta, alpha, beta",
+        "12-lead ECG: I, II, III, aVR, aVL, aVF, V1–V6"
+       ]
+      },
+      {
+       "heading": "Electrodes and artefacts",
+       "body": "Silver/silver chloride (Ag/AgCl) electrodes with conductive gel are standard for surface biopotential recording because they are non-polarisable (low, stable half-cell potential and noise). Skin preparation (cleaning, light abrasion) reduces skin impedance. Other electrodes: needle electrodes (EMG), microelectrodes (single cells), and dry electrodes (wearables). Common artefacts: 50 Hz mains interference (reduced by good grounding, shielding and differential amplifiers with high common-mode rejection, plus notch filters), baseline wander (respiration, movement — high-pass filtering), muscle (EMG) artefact, and loose electrodes.",
+       "keyPoints": [
+        "Ag/AgCl: non-polarisable, standard",
+        "Skin preparation lowers impedance",
+        "50 Hz interference: shielding, CMRR, notch filter",
+        "Baseline wander: high-pass filter"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The amplitude of the surface ECG is approximately:",
+       "options": [
+        "1 µV",
+        "1 mV",
+        "1 V",
+        "100 V",
+        "1 kV"
+       ],
+       "answerIndex": 1,
+       "explanation": "The QRS complex is about 1 mV."
+      },
+      {
+       "stem": "Which biosignal has the smallest amplitude?",
+       "options": [
+        "EMG",
+        "Arterial pressure",
+        "EOG",
+        "ECG",
+        "EEG"
+       ],
+       "answerIndex": 4,
+       "explanation": "EEG signals are tens of microvolts."
+      },
+      {
+       "stem": "The standard surface electrode material for ECG is:",
+       "options": [
+        "Stainless steel",
+        "Gold only",
+        "Silver/silver chloride",
+        "Copper",
+        "Aluminium"
+       ],
+       "answerIndex": 2,
+       "explanation": "Ag/AgCl electrodes are non-polarisable and low-noise."
+      },
+      {
+       "stem": "The number of leads in a standard ECG is:",
+       "options": [
+        "3",
+        "6",
+        "10",
+        "12",
+        "15"
+       ],
+       "answerIndex": 3,
+       "explanation": "Six limb and six chest leads."
+      },
+      {
+       "stem": "Baseline wander in an ECG recording is reduced by a:",
+       "options": [
+        "Notch filter at 50 Hz",
+        "Band-stop at 1 kHz",
+        "Low-pass filter",
+        "High-pass filter",
+        "No filter"
+       ],
+       "answerIndex": 3,
+       "explanation": "Very low-frequency drift is removed by high-pass filtering."
+      },
+      {
+       "stem": "Mains interference in biopotential recordings is minimised by:",
+       "options": [
+        "Differential amplifiers with high common-mode rejection and proper shielding",
+        "Turning up the gain",
+        "Removing the gel",
+        "Increasing electrode impedance",
+        "Using longer unshielded cables"
+       ],
+       "answerIndex": 0,
+       "explanation": "CMRR rejects interference common to both inputs."
+      },
+      {
+       "stem": "The alpha rhythm on EEG is best seen when the subject is:",
+       "options": [
+        "Awake and relaxed with eyes closed",
+        "Having a seizure",
+        "Under anaesthesia only",
+        "Solving problems with eyes open",
+        "In deep sleep"
+       ],
+       "answerIndex": 0,
+       "explanation": "Alpha (8–13 Hz) is prominent in relaxed wakefulness with eyes closed."
+      },
+      {
+       "stem": "Cleaning and lightly abrading the skin before placing electrodes:",
+       "options": [
+        "Increases impedance",
+        "Has no effect",
+        "Causes infection only",
+        "Reduces skin impedance and noise",
+        "Stops the signal"
+       ],
+       "answerIndex": 3,
+       "explanation": "Removing the stratum corneum improves contact."
+      }
+     ]
+    },
+    {
+     "title": "Biomedical Amplifiers and Signal Conditioning",
+     "order": 4,
+     "summary": "Operational amplifiers, instrumentation amplifiers, filters, isolation and analogue-to-digital conversion.",
+     "material": [
+      {
+       "heading": "Amplifiers",
+       "body": "Operational amplifiers (op-amps) have very high gain and input impedance and are configured with feedback as inverting amplifiers (gain = −Rf/Rin), non-inverting amplifiers (gain = 1 + Rf/Rin), voltage followers (buffers), integrators and differentiators. Biopotential amplifiers must have very high input impedance (much greater than electrode–skin impedance), high common-mode rejection ratio (CMRR, often > 100 dB) to reject interference, low noise, appropriate gain (ECG ~1,000) and bandwidth, and protection against defibrillator pulses. The instrumentation amplifier (three op-amps) is the standard differential front end. Isolation amplifiers (optical, transformer or capacitive coupling) separate the patient from mains-connected circuits for safety.",
+       "keyPoints": [
+        "Inverting gain = −Rf/Rin",
+        "Non-inverting gain = 1 + Rf/Rin",
+        "High input impedance and CMRR",
+        "Instrumentation amplifier front end",
+        "Isolation for patient safety"
+       ]
+      },
+      {
+       "heading": "Filtering and digitisation",
+       "body": "Filters shape the signal: low-pass (remove high-frequency noise), high-pass (remove drift), band-pass and notch (band-stop, e.g. 50 Hz) filters; active filters use op-amps. Analogue-to-digital converters (ADCs) sample the signal; the Nyquist theorem requires a sampling rate at least twice the highest frequency present, otherwise aliasing occurs — an anti-aliasing low-pass filter precedes the ADC. Resolution depends on bit depth: an n-bit ADC has 2ⁿ levels (e.g. 12-bit = 4,096). Digital signal processing then enables storage, analysis (e.g. automated arrhythmia detection) and telemetry.",
+       "keyPoints": [
+        "Low-pass, high-pass, band-pass, notch",
+        "Nyquist: sample ≥ 2 × highest frequency",
+        "Anti-aliasing filter before the ADC",
+        "n-bit ADC = 2ⁿ levels"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An inverting amplifier with Rf = 100 kΩ and Rin = 10 kΩ has a gain of:",
+       "options": [
+        "−10",
+        "+11",
+        "−100",
+        "0.1",
+        "+10"
+       ],
+       "answerIndex": 0,
+       "explanation": "Gain = −Rf/Rin = −10."
+      },
+      {
+       "stem": "A non-inverting amplifier with Rf = 90 kΩ and Rin = 10 kΩ has a gain of:",
+       "options": [
+        "0.9",
+        "9",
+        "10",
+        "100",
+        "−9"
+       ],
+       "answerIndex": 2,
+       "explanation": "Gain = 1 + 90/10 = 10."
+      },
+      {
+       "stem": "Biopotential amplifiers need a high common-mode rejection ratio in order to:",
+       "options": [
+        "Increase noise",
+        "Reject interference present equally on both inputs",
+        "Amplify mains noise",
+        "Increase drift",
+        "Reduce input impedance"
+       ],
+       "answerIndex": 1,
+       "explanation": "Mains interference is largely common-mode."
+      },
+      {
+       "stem": "The standard differential front-end for biopotential recording is the:",
+       "options": [
+        "Instrumentation amplifier",
+        "Integrator",
+        "Comparator",
+        "Oscillator",
+        "Voltage follower"
+       ],
+       "answerIndex": 0,
+       "explanation": "It offers high input impedance and CMRR."
+      },
+      {
+       "stem": "Isolation amplifiers are used in medical equipment mainly to:",
+       "options": [
+        "Store data",
+        "Reduce cost",
+        "Increase gain",
+        "Protect the patient by separating them from mains-connected circuits",
+        "Filter 50 Hz noise only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Isolation limits leakage currents."
+      },
+      {
+       "stem": "According to the Nyquist theorem, a signal containing frequencies up to 150 Hz must be sampled at least at:",
+       "options": [
+        "75 Hz",
+        "150 Hz",
+        "300 Hz",
+        "1,500 Hz",
+        "50 Hz"
+       ],
+       "answerIndex": 2,
+       "explanation": "At least twice the highest frequency."
+      },
+      {
+       "stem": "Sampling too slowly causes:",
+       "options": [
+        "Saturation",
+        "Drift",
+        "Hysteresis",
+        "Clipping",
+        "Aliasing"
+       ],
+       "answerIndex": 4,
+       "explanation": "High frequencies appear as false low frequencies."
+      },
+      {
+       "stem": "A 10-bit ADC can represent how many discrete levels?",
+       "options": [
+        "100",
+        "512",
+        "1,024",
+        "4,096",
+        "10"
+       ],
+       "answerIndex": 2,
+       "explanation": "2¹⁰ = 1,024."
+      }
+     ]
+    },
+    {
+     "title": "Patient Monitoring Instruments",
+     "order": 5,
+     "summary": "ECG monitors, non-invasive and invasive blood pressure, pulse oximetry, capnography and alarms.",
+     "material": [
+      {
+       "heading": "Monitors",
+       "body": "Bedside monitors display ECG, heart rate, non-invasive blood pressure (NIBP — usually oscillometric: the cuff detects pressure oscillations; mean arterial pressure corresponds to maximal oscillation, and systolic/diastolic are derived), invasive blood pressure (arterial line with a fluid-filled catheter, pressure transducer zeroed to atmosphere at the level of the right atrium — phlebostatic axis), temperature, respiratory rate (impedance pneumography) and SpO2. Pulse oximetry uses red (≈ 660 nm) and infrared (≈ 940 nm) light: oxyhaemoglobin absorbs more infrared and deoxyhaemoglobin more red light; the ratio of pulsatile absorbances gives SpO2. Errors: poor perfusion, motion, nail polish, carbon monoxide poisoning (falsely normal SpO2 because carboxyhaemoglobin reads like oxyhaemoglobin), methaemoglobinaemia (tends towards 85%), and skin pigmentation (may overestimate saturation, a recognised equity concern).",
+       "keyPoints": [
+        "Oscillometric NIBP: max oscillation = MAP",
+        "Zero invasive transducers at the phlebostatic axis",
+        "Pulse oximetry: 660 nm and 940 nm",
+        "CO poisoning: falsely normal SpO2"
+       ]
+      },
+      {
+       "heading": "Capnography and alarms",
+       "body": "Capnography measures end-tidal CO2 (EtCO2, normally about 35–45 mmHg) by infrared absorption; the waveform confirms correct endotracheal tube placement (the gold standard — no CO2 trace suggests oesophageal intubation), monitors ventilation and indicates effective CPR. Alarm management: alarms should be set to clinically appropriate limits, prioritised (high/medium/low), and not silenced without checking; excessive false alarms cause 'alarm fatigue'. Central stations and telemetry allow remote monitoring. Regular preventive maintenance and calibration are essential for accuracy.",
+       "keyPoints": [
+        "EtCO2 normal ≈ 35–45 mmHg",
+        "Capnography confirms tube placement",
+        "Appropriate alarm limits",
+        "Alarm fatigue"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most automated non-invasive blood pressure monitors use the:",
+       "options": [
+        "Auscultatory method",
+        "Doppler only",
+        "Palpation",
+        "Oscillometric method",
+        "Invasive catheter"
+       ],
+       "answerIndex": 3,
+       "explanation": "They analyse cuff pressure oscillations."
+      },
+      {
+       "stem": "In oscillometric NIBP, the point of maximal oscillation corresponds to the:",
+       "options": [
+        "Venous pressure",
+        "Pulse pressure",
+        "Diastolic pressure",
+        "Systolic pressure",
+        "Mean arterial pressure"
+       ],
+       "answerIndex": 4,
+       "explanation": "Systolic and diastolic are derived algorithmically."
+      },
+      {
+       "stem": "Pulse oximeters use light of two wavelengths:",
+       "options": [
+        "Red and infrared",
+        "Blue and green",
+        "Yellow and orange",
+        "Ultraviolet and violet",
+        "X-rays and gamma"
+       ],
+       "answerIndex": 0,
+       "explanation": "About 660 nm (red) and 940 nm (infrared)."
+      },
+      {
+       "stem": "In carbon monoxide poisoning, a standard pulse oximeter will typically show:",
+       "options": [
+        "Falsely normal or high SpO2",
+        "Very low SpO2",
+        "Negative values",
+        "No reading",
+        "Exactly 85%"
+       ],
+       "answerIndex": 0,
+       "explanation": "Carboxyhaemoglobin absorbs light like oxyhaemoglobin."
+      },
+      {
+       "stem": "Invasive arterial pressure transducers should be zeroed at the level of the:",
+       "options": [
+        "Umbilicus",
+        "Floor",
+        "Top of the head",
+        "Feet",
+        "Phlebostatic axis (right atrium)"
+       ],
+       "answerIndex": 4,
+       "explanation": "This references pressure to the heart."
+      },
+      {
+       "stem": "The most reliable confirmation of correct endotracheal tube placement is:",
+       "options": [
+        "Pulse oximetry",
+        "Mist in the tube",
+        "Capnography showing a CO2 waveform",
+        "Chest rise only",
+        "Auscultation of the stomach"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sustained exhaled CO2 confirms tracheal placement."
+      },
+      {
+       "stem": "Normal end-tidal CO2 is about:",
+       "options": [
+        "5–10 mmHg",
+        "35–45 mmHg",
+        "80–100 mmHg",
+        "120 mmHg",
+        "0 mmHg"
+       ],
+       "answerIndex": 1,
+       "explanation": "EtCO2 approximates arterial PCO2."
+      },
+      {
+       "stem": "Frequent false alarms that make staff ignore real alarms cause:",
+       "options": [
+        "Isolation",
+        "Aliasing",
+        "Hysteresis",
+        "Alarm fatigue",
+        "Calibration drift"
+       ],
+       "answerIndex": 3,
+       "explanation": "Setting appropriate limits reduces alarm fatigue."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,742 @@
+{
+ "courses": [
+  {
+   "title": "Research Methods and Scientific Writing",
+   "code": "RES301",
+   "color": "#0369A1",
+   "description": "The research process, study designs, measurement and bias, research ethics, and writing proposals, reports and references — for final-year projects and beyond.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "300 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "300 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "300 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "400 Level",
+     "department": "Others"
+    },
+    {
+     "level": "400 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "500 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "The Research Process and Literature Review",
+     "order": 1,
+     "summary": "Steps in research, identifying a problem, objectives, hypotheses and reviewing literature.",
+     "material": [
+      {
+       "heading": "Steps",
+       "body": "Research is systematic inquiry to generate new knowledge. The process: identify a problem; review the literature; state the aim, specific objectives (SMART) and research questions or hypotheses; choose a design; define the population, sample and sampling method; develop data collection tools; obtain ethical approval; collect data; analyse; interpret; report and disseminate. The PICO framework (Population, Intervention, Comparison, Outcome) helps frame clinical questions. Variables: the independent variable is manipulated or presumed cause; the dependent variable is the outcome; confounders are associated with both and distort the relationship.",
+       "keyPoints": [
+        "Problem → literature → objectives → design → ethics → data → analysis → report",
+        "PICO framework",
+        "Confounders distort associations"
+       ]
+      },
+      {
+       "heading": "Literature review",
+       "body": "A literature review summarises and critically appraises existing knowledge, identifies gaps and justifies the study. Sources: primary (original research articles), secondary (reviews, textbooks) and grey literature (reports, theses). Databases include PubMed/MEDLINE, Cochrane Library, Google Scholar and African Journals Online (AJOL). Search strategies use keywords, Boolean operators (AND narrows, OR broadens, NOT excludes) and MeSH terms. Evidence hierarchy places systematic reviews and meta-analyses of randomised controlled trials at the top, followed by RCTs, cohort studies, case–control studies, case series, and expert opinion at the bottom.",
+       "keyPoints": [
+        "AND narrows; OR broadens",
+        "PubMed, Cochrane, AJOL",
+        "Top of evidence hierarchy: systematic reviews/meta-analyses"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a study of the effect of exercise on blood pressure, blood pressure is the:",
+       "options": [
+        "Dependent variable",
+        "Confounding variable",
+        "Control variable",
+        "Extraneous variable",
+        "Independent variable"
+       ],
+       "answerIndex": 0,
+       "explanation": "The outcome measured is the dependent variable."
+      },
+      {
+       "stem": "In PICO, 'C' stands for:",
+       "options": [
+        "Comparison",
+        "Consent",
+        "Cohort",
+        "Conclusion",
+        "Cost"
+       ],
+       "answerIndex": 0,
+       "explanation": "Population, Intervention, Comparison, Outcome."
+      },
+      {
+       "stem": "The Boolean operator that narrows a literature search is:",
+       "options": [
+        "OR",
+        "XOR",
+        "AND",
+        "NEAR",
+        "NOT only"
+       ],
+       "answerIndex": 2,
+       "explanation": "AND requires both terms to be present."
+      },
+      {
+       "stem": "Which sits at the top of the hierarchy of evidence?",
+       "options": [
+        "Expert opinion",
+        "Cross-sectional study",
+        "Case report",
+        "Systematic review and meta-analysis of RCTs",
+        "Case–control study"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pooled high-quality trials provide the strongest evidence."
+      },
+      {
+       "stem": "A variable associated with both exposure and outcome that distorts their relationship is a:",
+       "options": [
+        "Dependent variable",
+        "Mediator only",
+        "Outcome",
+        "Constant",
+        "Confounder"
+       ],
+       "answerIndex": 4,
+       "explanation": "Confounders must be controlled in design or analysis."
+      },
+      {
+       "stem": "An online database of African journals is:",
+       "options": [
+        "AJOL",
+        "DHIS2",
+        "EndNote",
+        "Excel",
+        "SPSS"
+       ],
+       "answerIndex": 0,
+       "explanation": "African Journals Online indexes African research."
+      },
+      {
+       "stem": "Theses and government reports are examples of:",
+       "options": [
+        "Grey literature",
+        "Meta-analyses",
+        "Editorials",
+        "Textbooks",
+        "Primary peer-reviewed articles"
+       ],
+       "answerIndex": 0,
+       "explanation": "Grey literature is not formally published in journals."
+      },
+      {
+       "stem": "The main purpose of a literature review is to:",
+       "options": [
+        "Collect primary data",
+        "Analyse data statistically",
+        "Recruit participants",
+        "Summarise existing knowledge and identify gaps",
+        "Obtain ethical approval"
+       ],
+       "answerIndex": 3,
+       "explanation": "It justifies why the study is needed."
+      }
+     ]
+    },
+    {
+     "title": "Study Designs",
+     "order": 2,
+     "summary": "Descriptive and analytical observational studies, experimental designs and their strengths.",
+     "material": [
+      {
+       "heading": "Observational designs",
+       "body": "Descriptive studies (case reports, case series, cross-sectional surveys) describe the distribution of disease by person, place and time and generate hypotheses. A cross-sectional study measures exposure and outcome at the same time and gives prevalence but cannot establish temporality. A case–control study starts with people with the disease (cases) and without (controls) and looks back at exposures; it is efficient for rare diseases, uses the odds ratio, but is prone to recall bias. A cohort study follows exposed and unexposed people forward to see who develops disease; it gives incidence and relative risk, establishes temporality, suits rare exposures, but is costly and long (prospective) and subject to loss to follow-up.",
+       "keyPoints": [
+        "Cross-sectional: prevalence, snapshot",
+        "Case–control: rare diseases, odds ratio, recall bias",
+        "Cohort: incidence, relative risk, temporality"
+       ]
+      },
+      {
+       "heading": "Experimental designs",
+       "body": "In a randomised controlled trial (RCT), participants are randomly allocated to intervention or control; randomisation balances known and unknown confounders. Blinding (single, double, triple) reduces performance and assessment bias; allocation concealment prevents selection bias. Analysis by intention-to-treat keeps participants in their assigned groups. Other designs: crossover trials, cluster randomised trials (randomising communities or schools), and quasi-experimental studies (no randomisation). Qualitative research (in-depth interviews, focus group discussions, observation) explores meanings and experiences and uses purposive sampling to data saturation.",
+       "keyPoints": [
+        "Randomisation controls confounding",
+        "Double-blind: participants and assessors unaware",
+        "Intention-to-treat analysis",
+        "Qualitative: interviews, FGDs, saturation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A study that measures the prevalence of hypertension among traders in a market on one day is:",
+       "options": [
+        "Cross-sectional",
+        "RCT",
+        "Case–control",
+        "Cohort",
+        "Crossover"
+       ],
+       "answerIndex": 0,
+       "explanation": "Exposure and outcome are measured at one point in time."
+      },
+      {
+       "stem": "The best observational design for studying a rare disease is:",
+       "options": [
+        "Cross-sectional survey",
+        "Case report",
+        "Ecological study",
+        "Cohort study",
+        "Case–control study"
+       ],
+       "answerIndex": 4,
+       "explanation": "Starting with cases makes rare diseases efficient to study."
+      },
+      {
+       "stem": "The measure of association calculated in a case–control study is the:",
+       "options": [
+        "Prevalence",
+        "Attributable risk only",
+        "Incidence rate",
+        "Relative risk",
+        "Odds ratio"
+       ],
+       "answerIndex": 4,
+       "explanation": "Case–control studies cannot compute incidence, so they use the odds ratio."
+      },
+      {
+       "stem": "A study following smokers and non-smokers for 20 years to compare lung cancer incidence is a:",
+       "options": [
+        "Cross-sectional study",
+        "Prospective cohort study",
+        "Case series",
+        "RCT",
+        "Case–control study"
+       ],
+       "answerIndex": 1,
+       "explanation": "Exposure groups are followed forward for outcomes."
+      },
+      {
+       "stem": "The main purpose of randomisation in a trial is to:",
+       "options": [
+        "Make the study cheaper",
+        "Avoid ethics approval",
+        "Blind the investigators",
+        "Increase sample size",
+        "Balance known and unknown confounders between groups"
+       ],
+       "answerIndex": 4,
+       "explanation": "Random allocation distributes confounders equally."
+      },
+      {
+       "stem": "Recall bias is most associated with:",
+       "options": [
+        "Systematic reviews",
+        "Laboratory experiments",
+        "Prospective cohort studies",
+        "RCTs",
+        "Case–control studies"
+       ],
+       "answerIndex": 4,
+       "explanation": "Cases may remember exposures differently from controls."
+      },
+      {
+       "stem": "Randomising whole villages rather than individuals is a:",
+       "options": [
+        "Cluster randomised trial",
+        "Cohort study",
+        "Quasi-experiment without randomisation",
+        "Case–control study",
+        "Crossover trial"
+       ],
+       "answerIndex": 0,
+       "explanation": "Clusters are the units of randomisation."
+      },
+      {
+       "stem": "A focus group discussion is a method used mainly in:",
+       "options": [
+        "Clinical trials only",
+        "Laboratory research",
+        "Meta-analysis",
+        "Qualitative research",
+        "Quantitative research"
+       ],
+       "answerIndex": 3,
+       "explanation": "FGDs explore views and experiences."
+      }
+     ]
+    },
+    {
+     "title": "Measurement, Validity and Bias",
+     "order": 3,
+     "summary": "Questionnaires, reliability and validity, types of bias and sample size.",
+     "material": [
+      {
+       "heading": "Measurement tools",
+       "body": "Data collection tools include questionnaires (self-administered or interviewer-administered), interviews, observation checklists, clinical measurements and laboratory tests. Questions may be closed-ended (easy to analyse) or open-ended (rich detail). Tools should be pre-tested (piloted) on a similar population. Reliability is consistency (test–retest, inter-rater reliability, internal consistency measured by Cronbach's alpha, acceptable if ≥ 0.7). Validity is whether the tool measures what it is intended to measure (face, content, construct, criterion validity). Internal validity refers to whether the study's results are true for its sample; external validity (generalisability) to whether they apply to other populations.",
+       "keyPoints": [
+        "Reliability: consistency (Cronbach's α ≥ 0.7)",
+        "Validity: measures what it should",
+        "Pre-test (pilot) tools",
+        "External validity = generalisability"
+       ]
+      },
+      {
+       "heading": "Bias and sample size",
+       "body": "Bias is systematic error. Selection bias arises from how participants are chosen (e.g. hospital-based samples, non-response, loss to follow-up). Information (measurement) bias arises from how data are collected (recall bias, interviewer bias, observer bias, social desirability bias). Confounding is addressed by randomisation, restriction, matching, stratification and multivariable analysis. Random error is reduced by larger samples. Sample size depends on the expected prevalence or effect size, desired precision, confidence level (usually 95%, z = 1.96) and power (usually 80%); for a prevalence study, Cochran's formula n = z²p(1−p)/d² is often used, then adjusted for non-response.",
+       "keyPoints": [
+        "Selection bias vs information bias",
+        "Control confounding: randomise, match, stratify, adjust",
+        "Cochran: n = z²p(1−p)/d²",
+        "Power usually 80%"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The consistency of a measurement tool is its:",
+       "options": [
+        "Reliability",
+        "Specificity",
+        "Validity",
+        "Generalisability",
+        "Sensitivity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reliability refers to reproducibility."
+      },
+      {
+       "stem": "Cronbach's alpha measures:",
+       "options": [
+        "Statistical power",
+        "Validity",
+        "Bias",
+        "Sample size",
+        "Internal consistency reliability"
+       ],
+       "answerIndex": 4,
+       "explanation": "Values ≥ 0.7 are usually acceptable."
+      },
+      {
+       "stem": "Whether study findings apply to other populations refers to:",
+       "options": [
+        "Face validity",
+        "Internal validity",
+        "External validity",
+        "Reliability",
+        "Precision"
+       ],
+       "answerIndex": 2,
+       "explanation": "External validity is generalisability."
+      },
+      {
+       "stem": "Participants over-reporting healthy behaviours to please the interviewer is:",
+       "options": [
+        "Selection bias",
+        "Loss to follow-up",
+        "Random error",
+        "Social desirability bias",
+        "Confounding"
+       ],
+       "answerIndex": 3,
+       "explanation": "They answer in socially acceptable ways."
+      },
+      {
+       "stem": "Testing a questionnaire on a small similar group before the main study is:",
+       "options": [
+        "Pre-testing (piloting)",
+        "Stratification",
+        "Randomisation",
+        "Validation of results",
+        "Blinding"
+       ],
+       "answerIndex": 0,
+       "explanation": "Piloting reveals unclear questions and logistics problems."
+      },
+      {
+       "stem": "Using Cochran's formula with p = 0.5, d = 0.05 and z = 1.96 gives a minimum sample size of about:",
+       "options": [
+        "96",
+        "196",
+        "385",
+        "1,000",
+        "50"
+       ],
+       "answerIndex": 2,
+       "explanation": "1.96² × 0.25 / 0.0025 ≈ 384.2, rounded up to 385."
+      },
+      {
+       "stem": "Which method controls confounding at the analysis stage?",
+       "options": [
+        "Blinding",
+        "Restriction",
+        "Matching",
+        "Randomisation",
+        "Multivariable regression"
+       ],
+       "answerIndex": 4,
+       "explanation": "Regression adjusts for several confounders simultaneously."
+      },
+      {
+       "stem": "Increasing the sample size mainly reduces:",
+       "options": [
+        "Recall bias",
+        "Confounding by design",
+        "Ethical risk",
+        "Random error",
+        "Systematic bias"
+       ],
+       "answerIndex": 3,
+       "explanation": "Larger samples improve precision but do not remove bias."
+      }
+     ]
+    },
+    {
+     "title": "Research Ethics",
+     "order": 4,
+     "summary": "Ethical principles, informed consent, vulnerable groups, ethics committees and research misconduct.",
+     "material": [
+      {
+       "heading": "Principles and history",
+       "body": "Ethical research is guided by the Nuremberg Code (1947, after Nazi experiments — voluntary consent is essential), the Declaration of Helsinki (World Medical Association, 1964, revised), and the Belmont Report (1979) principles: respect for persons (autonomy and protection of those with diminished autonomy), beneficence (maximise benefits, minimise harm) and justice (fair selection and distribution of burdens and benefits). The Tuskegee syphilis study (USA, 1932–1972) and the Pfizer Trovan trial in Kano (1996) are cited examples of unethical research.",
+       "keyPoints": [
+        "Nuremberg Code (1947): voluntary consent",
+        "Helsinki Declaration (1964)",
+        "Belmont: respect, beneficence, justice",
+        "Trovan trial in Kano (1996)"
+       ]
+      },
+      {
+       "heading": "Practice",
+       "body": "Informed consent must be voluntary, given by competent participants with adequate information (purpose, procedures, risks, benefits, alternatives, confidentiality, the right to withdraw without penalty) and documented; assent is sought from children with parental consent. Vulnerable groups (children, prisoners, pregnant women, people with mental illness) need extra protection. Protocols must be approved by a research ethics committee — in Nigeria, the National Health Research Ethics Committee (NHREC) and registered institutional committees under the National Code of Health Research Ethics (2007). Research misconduct includes fabrication, falsification and plagiarism (FFP). Data must be kept confidential and anonymised where possible.",
+       "keyPoints": [
+        "Consent: voluntary, informed, right to withdraw",
+        "Children: parental consent + child assent",
+        "NHREC and National Code of Health Research Ethics",
+        "Misconduct: fabrication, falsification, plagiarism"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Nuremberg Code established that in research:",
+       "options": [
+        "Animal testing is forbidden",
+        "Payment is mandatory",
+        "Voluntary consent of the human subject is essential",
+        "Placebos are unethical",
+        "Only doctors may do research"
+       ],
+       "answerIndex": 2,
+       "explanation": "It responded to Nazi experimentation."
+      },
+      {
+       "stem": "The Declaration of Helsinki was issued by the:",
+       "options": [
+        "World Medical Association",
+        "NUC",
+        "Red Cross",
+        "United Nations",
+        "WHO"
+       ],
+       "answerIndex": 0,
+       "explanation": "The WMA adopted it in 1964."
+      },
+      {
+       "stem": "The Belmont Report's three principles are respect for persons, beneficence and:",
+       "options": [
+        "Veracity",
+        "Fidelity",
+        "Confidentiality",
+        "Justice",
+        "Honesty"
+       ],
+       "answerIndex": 3,
+       "explanation": "Justice concerns fair distribution of research burdens and benefits."
+      },
+      {
+       "stem": "Before collecting data from children, researchers need:",
+       "options": [
+        "No consent",
+        "The child's assent only",
+        "Parental consent plus the child's assent where possible",
+        "Police approval",
+        "Only the headteacher's approval"
+       ],
+       "answerIndex": 2,
+       "explanation": "Children cannot give legal consent but should agree."
+      },
+      {
+       "stem": "Inventing data that were never collected is:",
+       "options": [
+        "Bias",
+        "Falsification",
+        "Fabrication",
+        "Plagiarism",
+        "Confounding"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fabrication is making up data or results."
+      },
+      {
+       "stem": "The national body overseeing health research ethics in Nigeria is the:",
+       "options": [
+        "MDCN",
+        "NAFDAC",
+        "NCDC",
+        "NUC",
+        "NHREC"
+       ],
+       "answerIndex": 4,
+       "explanation": "The National Health Research Ethics Committee."
+      },
+      {
+       "stem": "A key element of informed consent is that participants:",
+       "options": [
+        "Cannot leave once enrolled",
+        "Must be patients of the researcher",
+        "Must be paid",
+        "Can withdraw at any time without penalty",
+        "Must sign before reading information"
+       ],
+       "answerIndex": 3,
+       "explanation": "Voluntariness includes freedom to withdraw."
+      },
+      {
+       "stem": "Which Nigerian event is widely cited as an example of unethical drug research?",
+       "options": [
+        "The NHIA Act",
+        "The 2006 census",
+        "The polio eradication campaign",
+        "The NYSC scheme",
+        "The 1996 Trovan meningitis trial in Kano"
+       ],
+       "answerIndex": 4,
+       "explanation": "Consent and ethical approval were questioned in the Pfizer Trovan trial."
+      }
+     ]
+    },
+    {
+     "title": "Writing Proposals, Reports and References",
+     "order": 5,
+     "summary": "Structure of a proposal and thesis (IMRaD), abstracts, referencing styles and presenting results.",
+     "material": [
+      {
+       "heading": "Structure",
+       "body": "A research proposal typically contains title, introduction/background, problem statement, justification, aims and objectives, research questions or hypotheses, literature review, methodology (design, setting, population, sampling, sample size, data collection, analysis, ethics), work plan, budget and references. Scientific papers follow IMRaD: Introduction, Methods, Results and Discussion, preceded by an abstract (structured: background, methods, results, conclusion; usually 250–300 words). Results are reported objectively using tables and figures; the discussion interprets findings, compares them with other studies, and acknowledges limitations. Past tense is used for methods and results.",
+       "keyPoints": [
+        "IMRaD: Introduction, Methods, Results, Discussion",
+        "Abstract: background, methods, results, conclusion",
+        "Report limitations in the discussion"
+       ]
+      },
+      {
+       "heading": "Referencing",
+       "body": "References acknowledge sources and allow readers to find them. Common styles: Vancouver (numbered in order of citation — widely used in medical journals) and Harvard/APA (author–date in text, alphabetical reference list). Reference managers (Mendeley, Zotero, EndNote) automate citation. Tables should be self-explanatory with titles above; figures have captions below. Avoid plagiarism by quoting, paraphrasing and citing; similarity checks (e.g. Turnitin) are used by many universities. Findings should be disseminated to stakeholders and communities, through conferences and peer-reviewed publications.",
+       "keyPoints": [
+        "Vancouver: numbered; Harvard/APA: author–date",
+        "Reference managers: Mendeley, Zotero, EndNote",
+        "Table titles above; figure captions below"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "IMRaD stands for:",
+       "options": [
+        "Introduction, Materials, Review and Design",
+        "Investigation, Measurement, Results and Decision",
+        "Inquiry, Method, Reflection and Dissemination",
+        "Introduction, Methods, Results and Discussion",
+        "Ideas, Materials, Research and Data"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the standard structure of scientific articles."
+      },
+      {
+       "stem": "The referencing style that numbers citations in order of appearance is:",
+       "options": [
+        "APA",
+        "MLA",
+        "Harvard",
+        "Chicago author–date",
+        "Vancouver"
+       ],
+       "answerIndex": 4,
+       "explanation": "Vancouver is common in medical journals."
+      },
+      {
+       "stem": "In the Harvard style, in-text citations use:",
+       "options": [
+        "Footnotes only",
+        "Page numbers only",
+        "Author and year",
+        "Journal names",
+        "Superscript numbers"
+       ],
+       "answerIndex": 2,
+       "explanation": "e.g. (Adeyemi, 2021)."
+      },
+      {
+       "stem": "Limitations of a study are usually discussed in the:",
+       "options": [
+        "Abstract only",
+        "Title",
+        "Discussion",
+        "References",
+        "Methods"
+       ],
+       "answerIndex": 2,
+       "explanation": "The discussion interprets results and acknowledges weaknesses."
+      },
+      {
+       "stem": "Which is a reference management software?",
+       "options": [
+        "SPSS",
+        "Zotero",
+        "Photoshop",
+        "AutoCAD",
+        "DHIS2"
+       ],
+       "answerIndex": 1,
+       "explanation": "Zotero, Mendeley and EndNote manage references."
+      },
+      {
+       "stem": "In a research report, table titles are usually placed:",
+       "options": [
+        "Below the table",
+        "Above the table",
+        "In the references",
+        "Nowhere",
+        "In the abstract"
+       ],
+       "answerIndex": 1,
+       "explanation": "Titles go above tables; figure captions go below figures."
+      },
+      {
+       "stem": "The section of a proposal describing design, sampling and analysis is the:",
+       "options": [
+        "Acknowledgement",
+        "Introduction",
+        "Abstract",
+        "Discussion",
+        "Methodology"
+       ],
+       "answerIndex": 4,
+       "explanation": "Methodology explains how the study will be done."
+      },
+      {
+       "stem": "Software commonly used by universities to detect plagiarism is:",
+       "options": [
+        "PowerPoint",
+        "Stata",
+        "Turnitin",
+        "Epi Info",
+        "Excel"
+       ],
+       "answerIndex": 2,
+       "explanation": "Turnitin checks similarity with existing sources."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Communication in English (GST 111)",
+  "code": "GST111",
+  "color": "#475569",
+  "description": "The general-studies English course taken by every 100 Level student: grammar, sentence structure, reading, note-making and academic writing.",
+  "for": { "100": ["*"] },
+  "topics": [
+    {
+      "title": "Parts of Speech and Word Classes",
+      "summary": "Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections, and how to identify them in a sentence.",
+      "notes": [
+        { "h": "The eight word classes", "b": "Every English word belongs to a class according to its function in a sentence. Nouns name people, places, things or ideas; pronouns stand in for nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs, adjectives or other adverbs; prepositions show relationships (in, on, between); conjunctions join words or clauses (and, but, although); interjections express emotion (Oh! Alas!).", "k": ["Function decides the class: 'round' can be a noun, verb, adjective, adverb or preposition", "Open classes (nouns, verbs, adjectives, adverbs) accept new words; closed classes (pronouns, prepositions, conjunctions) rarely do"] },
+        { "h": "Common errors in Nigerian English", "b": "Frequent examination traps include uncountable nouns used as countable ('furnitures', 'equipments', 'advices', 'informations'), wrong pronoun case ('between you and I' instead of 'between you and me'), and redundant prepositions ('discuss about', 'reply back').", "k": ["Furniture, equipment, advice, information, luggage and evidence are uncountable", "After a preposition use the object pronoun: me, him, her, us, them"] }
+      ],
+      "q": [
+        ["In the sentence 'She sang beautifully', the word 'beautifully' is a/an:", "Adjective", "Adverb", "Noun", "Preposition", "Conjunction", 1, "It modifies the verb 'sang', telling us how she sang, so it is an adverb."],
+        ["Which of the following is an uncountable noun?", "Chair", "Book", "Equipment", "Student", "Syringe", 2, "'Equipment' is uncountable in standard English; 'equipments' is incorrect."],
+        ["Choose the correct option: 'The secret is between you and ___.'", "I", "me", "myself", "mine", "we", 1, "'Between' is a preposition, so it takes the object pronoun 'me'."],
+        ["The word 'although' in 'Although it rained, we went out' is a:", "Preposition", "Subordinating conjunction", "Coordinating conjunction", "Adverb", "Interjection", 1, "'Although' introduces a dependent (subordinate) clause, so it is a subordinating conjunction."],
+        ["Identify the pronoun in: 'The lecturer gave them the results.'", "lecturer", "gave", "them", "results", "the", 2, "'Them' replaces a noun (the students), so it is a pronoun."],
+        ["Which sentence is correct?", "He gave me many advices.", "He gave me some advice.", "He gave me an advice.", "He gave me advices.", "He gave me a lot of advices.", 1, "'Advice' is uncountable; we say 'some advice' or 'a piece of advice'."],
+        ["In 'The patient walked into the ward', 'into' is a:", "Verb", "Adverb", "Preposition", "Conjunction", "Determiner", 2, "'Into' shows the relationship between 'walked' and 'the ward', so it is a preposition."],
+        ["Which word class is 'Alas!'?", "Interjection", "Adverb", "Noun", "Conjunction", "Adjective", 0, "Interjections express sudden emotion and stand grammatically apart from the rest of the sentence."]
+      ]
+    },
+    {
+      "title": "Sentence Structure and Types",
+      "summary": "Phrases, clauses, subject–verb agreement, and simple, compound, complex and compound-complex sentences.",
+      "notes": [
+        { "h": "Phrases and clauses", "b": "A phrase is a group of words without a finite verb and subject (e.g. 'in the laboratory'). A clause has a subject and a finite verb. An independent (main) clause can stand alone; a dependent (subordinate) clause cannot and is introduced by words such as because, when, if, who or which.", "k": ["Clause = subject + finite verb", "Subordinate clauses may be noun, adjectival (relative) or adverbial clauses"] },
+        { "h": "Sentence types and agreement", "b": "A simple sentence has one independent clause; a compound sentence joins two independent clauses with a coordinating conjunction (for, and, nor, but, or, yet, so — FANBOYS); a complex sentence has one independent and at least one dependent clause; a compound-complex sentence has two or more independent clauses and at least one dependent clause. The verb must agree with its true subject: 'Each of the students has a manual'; 'Neither the doctor nor the nurses were present' (the verb agrees with the nearer subject).", "k": ["Each, every, either, neither, everyone take singular verbs", "With 'either…or'/'neither…nor', the verb agrees with the nearer subject"] }
+      ],
+      "q": [
+        ["'When the bell rang' is best described as a/an:", "Phrase", "Independent clause", "Dependent clause", "Simple sentence", "Compound sentence", 2, "It has a subject and finite verb but cannot stand alone because it begins with 'when'."],
+        ["Choose the correct verb: 'Each of the nurses ___ a stethoscope.'", "have", "has", "are having", "were having", "do have", 1, "'Each' is singular, so the verb must be singular: 'has'."],
+        ["'I studied hard, so I passed' is a ___ sentence.", "simple", "compound", "complex", "compound-complex", "fragment", 1, "Two independent clauses joined by the coordinating conjunction 'so' make a compound sentence."],
+        ["Which of these is a phrase, not a clause?", "Because she was ill", "In the anatomy laboratory", "He came", "While we waited", "That he left", 1, "'In the anatomy laboratory' has no subject or finite verb, so it is a (prepositional) phrase."],
+        ["'Neither the lecturer nor the students ___ ready.'", "was", "is", "were", "has been", "being", 2, "With 'neither…nor', the verb agrees with the nearer subject, 'students' (plural)."],
+        ["The sentence 'The man who treated me is a surgeon' contains a/an:", "Adverbial clause", "Relative (adjectival) clause", "Noun clause of apposition", "Coordinate clause", "Absolute phrase", 1, "'Who treated me' describes 'the man', so it is a relative (adjectival) clause."],
+        ["A sentence with two independent clauses and one dependent clause is:", "Simple", "Compound", "Complex", "Compound-complex", "Periodic", 3, "Two or more independent clauses plus at least one dependent clause make a compound-complex sentence."],
+        ["Which is a sentence fragment?", "She left early.", "Although the result was good.", "The drug works.", "They arrived and sat down.", "Stop!", 1, "'Although the result was good' is a dependent clause standing alone, so it is a fragment."]
+      ]
+    },
+    {
+      "title": "Tenses, Concord and Common Usage Errors",
+      "summary": "Verb tenses, sequence of tenses, question tags and frequent errors of usage examined in GST.",
+      "notes": [
+        { "h": "Tense and sequence", "b": "English marks present and past by inflection and uses auxiliaries for the future, continuous and perfect aspects. In reported speech the tense usually moves one step back ('I am tired' → She said she was tired). Adverbs of time guide tense choice: 'since/for' with the present perfect ('I have lived here since 2019'), 'yesterday/ago' with the simple past.", "k": ["'Since' + point in time; 'for' + period of time", "Do not use the present perfect with a finished past time: say 'I saw him yesterday', not 'I have seen him yesterday'"] },
+        { "h": "Question tags and idioms", "b": "A positive statement takes a negative tag and vice versa: 'You are a student, aren't you?'; 'Let's go, shall we?'; 'I am right, aren't I?'. Frequent usage errors include 'I am hearing you' (stative verbs such as hear, know, see, love rarely take the continuous form), 'off the light' (use 'switch off'), and 'I will flash you' (use 'give you a missed call').", "k": ["Let's … , shall we?", "I am … , aren't I?", "Stative verbs: know, believe, own, hear, see, love"] }
+      ],
+      "q": [
+        ["Choose the correct option: 'I ___ in Ibadan since 2020.'", "live", "lived", "have lived", "am living", "had live", 2, "'Since' with a point in time requires the present perfect: 'have lived'."],
+        ["Supply the correct question tag: 'Let's start the practical, ___?'", "won't we", "shall we", "don't we", "will you", "isn't it", 1, "'Let's …' takes the tag 'shall we?'."],
+        ["Report: He said, 'I am writing a test.'", "He said he is writing a test.", "He said he was writing a test.", "He said he has been writing a test.", "He said I was writing a test.", "He said he writes a test.", 1, "In reported speech the present continuous shifts back to the past continuous."],
+        ["Which sentence is correct?", "I have seen him yesterday.", "I saw him yesterday.", "I have saw him yesterday.", "I seen him yesterday.", "I had see him yesterday.", 1, "A finished past time ('yesterday') takes the simple past, not the present perfect."],
+        ["'I am right, ___?'", "amn't I", "aren't I", "isn't it", "am I not it", "don't I", 1, "The accepted tag for 'I am' is 'aren't I?'."],
+        ["Which verb is stative and is normally NOT used in the continuous form?", "Run", "Write", "Know", "Read", "Eat", 2, "'Know' describes a state, so 'I am knowing' is incorrect."],
+        ["Choose the correct expression:", "Please off the fan.", "Please switch off the fan.", "Please on off the fan.", "Please offed the fan.", "Please close the fan off.", 1, "'Off' is not a verb in standard English; we 'switch off' or 'turn off'."],
+        ["'By the time we arrived, the lecture ___.'", "starts", "has started", "had started", "will start", "was start", 2, "An action completed before another past action takes the past perfect: 'had started'."]
+      ]
+    },
+    {
+      "title": "Reading Comprehension and Note-Making",
+      "summary": "Reading skills (skimming, scanning, SQ3R), identifying main ideas, and making and taking notes.",
+      "notes": [
+        { "h": "Reading strategies", "b": "Skimming is fast reading to get the gist or general idea; scanning is searching quickly for specific information such as a date or name; intensive reading is slow, careful reading for full understanding. The SQ3R method — Survey, Question, Read, Recite, Review — improves retention of academic texts. The topic sentence, usually at the start of a paragraph, states its main idea; supporting sentences give details and examples.", "k": ["Skim for gist, scan for specifics", "SQ3R = Survey, Question, Read, Recite, Review", "Main idea is usually in the topic sentence"] },
+        { "h": "Note-taking and note-making", "b": "Note-taking is recording information while listening (e.g. in lectures); note-making is summarising from written sources. Good notes use headings, abbreviations, numbering and key words, not full sentences. Common formats are the outline (linear) method, the Cornell method (cue column, notes column and summary) and mind-maps (spider diagrams).", "k": ["Cornell method: cues, notes, summary", "Use key words and abbreviations, not full sentences"] }
+      ],
+      "q": [
+        ["Reading quickly through a text to get its general idea is called:", "Scanning", "Skimming", "Intensive reading", "Critical reading", "Extensive reading", 1, "Skimming is fast reading for the gist or overall idea."],
+        ["Looking through a timetable to find the time of your anatomy lecture is:", "Skimming", "Scanning", "Previewing", "Reviewing", "Reciting", 1, "Scanning is searching quickly for a specific piece of information."],
+        ["In SQ3R, the 'S' stands for:", "Summarise", "Survey", "Scan", "Skim", "Study", 1, "SQ3R = Survey, Question, Read, Recite, Review."],
+        ["The sentence that states the main idea of a paragraph is the:", "Concluding sentence", "Topic sentence", "Supporting sentence", "Transitional sentence", "Thesis statement", 1, "The topic sentence expresses the paragraph's main idea."],
+        ["Recording points while listening to a lecture is called:", "Note-making", "Note-taking", "Summary writing", "Paraphrasing", "Précis", 1, "Note-taking happens while listening; note-making is done from written sources."],
+        ["The Cornell note-taking method divides the page into:", "Two equal columns only", "Cue column, notes area and summary", "Mind map and outline", "Headings and footnotes", "Title, body and appendix", 1, "Cornell notes have a narrow cue column, a wide notes area and a summary at the bottom."],
+        ["A spider diagram used for notes is also called a:", "Flow chart", "Mind map", "Venn diagram", "Pie chart", "Outline", 1, "Mind maps branch out from a central idea, like a spider's legs."],
+        ["Which is the best practice in note-making?", "Copy every sentence word for word", "Use key words, headings and abbreviations", "Avoid headings", "Write only examples", "Use no abbreviations at all", 1, "Effective notes are concise, organised by headings and rely on key words."]
+      ]
+    },
+    {
+      "title": "Academic Writing, Paragraphs and Letters",
+      "summary": "Paragraph development, essay types, formal letters, summary writing and avoiding plagiarism.",
+      "notes": [
+        { "h": "Paragraphs and essays", "b": "A good paragraph has unity (one main idea), coherence (logical flow using linking words such as 'however', 'therefore', 'furthermore') and adequate development. Essay types include narrative (tells a story), descriptive (paints a picture), expository (explains or informs) and argumentative/persuasive (takes a position with evidence). An essay has an introduction with a thesis statement, body paragraphs and a conclusion.", "k": ["Unity, coherence, development", "Expository = explain; argumentative = persuade with evidence", "The thesis statement states the essay's central claim"] },
+        { "h": "Formal letters, summaries and plagiarism", "b": "A formal letter carries the writer's address, date, recipient's address, salutation ('Dear Sir/Madam'), a title/subject line, body and a complimentary close ('Yours faithfully' when the salutation is 'Dear Sir'; 'Yours sincerely' when you name the person). A summary restates the main points briefly in your own words. Plagiarism is presenting another person's words or ideas as your own; avoid it by quoting, paraphrasing and citing sources.", "k": ["Dear Sir/Madam → Yours faithfully", "Dear Dr Okafor → Yours sincerely", "Cite every source you quote or paraphrase"] }
+      ],
+      "q": [
+        ["An essay that explains how malaria is transmitted is mainly:", "Narrative", "Descriptive", "Expository", "Argumentative", "Poetic", 2, "Expository writing explains or informs."],
+        ["The complimentary close for a letter beginning 'Dear Sir' is:", "Yours sincerely", "Yours faithfully", "Yours lovingly", "Best regards", "Cheers", 1, "When the recipient is not named ('Dear Sir/Madam'), close with 'Yours faithfully'."],
+        ["The quality of a paragraph having only one main idea is:", "Coherence", "Unity", "Emphasis", "Variety", "Brevity", 1, "Unity means every sentence supports a single main idea."],
+        ["Which word best signals a contrast?", "Furthermore", "However", "Therefore", "Similarly", "Firstly", 1, "'However' introduces a contrasting point."],
+        ["Presenting another writer's ideas as your own without acknowledgement is:", "Paraphrasing", "Summarising", "Plagiarism", "Citation", "Referencing", 2, "Plagiarism is academic dishonesty; always cite your sources."],
+        ["The sentence stating the central claim of an essay is the:", "Topic sentence", "Thesis statement", "Hook", "Conclusion", "Caption", 1, "The thesis statement, usually in the introduction, states the essay's main argument."],
+        ["An essay that tries to convince readers that smoking should be banned in public is:", "Descriptive", "Narrative", "Argumentative", "Expository", "Biographical", 2, "Argumentative (persuasive) essays take a position and support it with evidence."],
+        ["In summary writing, you should:", "Add your own opinions", "Copy the longest sentences", "State the main points briefly in your own words", "Include all examples", "Change the meaning to be creative", 2, "A summary briefly restates the main points without adding opinion."]
+      ]
+    }
+  ]
+}

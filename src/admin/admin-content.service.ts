@@ -1,7 +1,8 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, ForbiddenException, HttpException, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { ContentStatus } from '../common/enum/content-status.enum';
+import { cleanAudience } from '../content/audience';
 import { Course, CourseDocument } from '../content/schemas/course.schema';
 import { Question, QuestionDocument } from '../content/schemas/question.schema';
 import { Resource, ResourceDocument, youTubeId } from '../content/schemas/resource.schema';
@@ -9,8 +10,10 @@ import { FileStorageService } from '../storage/file-storage.service';
 import { Topic, TopicDocument } from '../content/schemas/topic.schema';
 import { adminCourse, adminQuestion, adminResource, adminTopic } from './admin.presenter';
 import { AuditService } from './audit/audit.service';
+import { LIBRARY_AUTHOR_NAME, importContent } from './content-import';
+import { BulkTransitionDto, ImportDto } from './dto/import.dto';
+import { can } from './permissions';
 import {
-  AudienceRuleDto,
   CourseInputDto,
   QuestionInputDto,
   ResourceInputDto,
@@ -45,21 +48,6 @@ const VERB: Record<ReviewAction, string> = {
   reject: 'Rejected',
   archive: 'Archived',
   restore: 'Restored to draft:',
-};
-
-/** Drops "any" blanks and duplicate rules, keeping the admin's order. */
-const cleanAudience = (rules: AudienceRuleDto[]) => {
-  const seen = new Set<string>();
-  return rules
-    .map(({ level, department, institution }) => ({
-      level,
-      ...(department ? { department } : {}),
-      ...(institution ? { institution } : {}),
-    }))
-    .filter(rule => {
-      const key = [rule.level, rule.department ?? '', rule.institution ?? ''].join('|');
-      return !seen.has(key) && seen.add(key);
-    });
 };
 
 /** Courses, topics and questions in every status, plus the review workflow. */
@@ -285,6 +273,34 @@ export class AdminContentService {
     return this.storage.signedUrl(resource.file, baseUrl);
   }
 
+  // ── Bulk import ────────────────────────────────────────────────────────────
+
+  /** Spreadsheet / JSON import (content-import.ts). */
+  async importContent(staff: Staff, dto: ImportDto) {
+    if (dto.asLibrary && !can(staff.role, 'manageLifecycle')) {
+      throw new ForbiddenException('Only admins can import library content.');
+    }
+    const author = dto.asLibrary ? { name: LIBRARY_AUTHOR_NAME } : { id: staff.id, name: staff.name };
+    const result = await importContent(
+      { courses: this.courses, topics: this.topics, questions: this.questions },
+      dto.courses,
+      author,
+      { dryRun: dto.dryRun, publishNewCourses: can(staff.role, 'manageLifecycle') },
+    );
+    for (const c of result.perCourse) {
+      await this.audit.log(
+        staff,
+        'course',
+        c.courseId ?? '',
+        'imported',
+        `Imported ${c.topics} topic${c.topics === 1 ? '' : 's'} and ${c.questions} question${c.questions === 1 ? '' : 's'} ` +
+          `into ${c.created ? 'new course' : 'course'} “${c.title}”${dto.asLibrary ? ' (library content)' : ''}`,
+      );
+    }
+    const { perCourse, ...summary } = result;
+    return summary;
+  }
+
   // ── Review workflow ────────────────────────────────────────────────────────
 
   async transition(staff: Staff, kind: 'topic' | 'question' | 'resource', id: string, dto: TransitionDto) {
@@ -329,5 +345,23 @@ export class AdminContentService {
     );
     if (kind === 'topic') return adminTopic(item as TopicDocument);
     return kind === 'question' ? adminQuestion(item as QuestionDocument) : adminResource(item as ResourceDocument);
+  }
+
+  /**
+   * The same workflow action on many items (review queue "Approve selected").
+   * Each item is checked on its own; one failure doesn't stop the rest.
+   */
+  async bulkTransition(staff: Staff, dto: BulkTransitionDto) {
+    const done: string[] = [];
+    const failed: { id: string; error: string }[] = [];
+    for (const { kind, id } of dto.items) {
+      try {
+        await this.transition(staff, kind, id, { action: dto.action, note: dto.note });
+        done.push(id);
+      } catch (error) {
+        failed.push({ id, error: error instanceof HttpException ? error.message : 'Something went wrong.' });
+      }
+    }
+    return { done, failed };
   }
 }

@@ -1,0 +1,99 @@
+{
+  "title": "Histology of Basic Tissues (ANA 202)",
+  "code": "ANA202",
+  "color": "#B45309",
+  "description": "Microscopic structure of epithelium, connective tissue, cartilage and bone, muscle and nervous tissue, with basic histological techniques.",
+  "for": { "200": ["MBBS", "BDS", "CM", "ANA", "PHS", "MLS", "HAE", "BCH"] },
+  "topics": [
+    {
+      "title": "Epithelial Tissue and Glands",
+      "summary": "Classification of epithelia, cell junctions, surface specialisations and glands.",
+      "notes": [
+        { "h": "Types of epithelium", "b": "Epithelia are classified by number of layers (simple or stratified) and shape of surface cells (squamous, cuboidal, columnar). Simple squamous lines alveoli, blood vessels (endothelium) and serous cavities (mesothelium); simple cuboidal lines kidney tubules and thyroid follicles; simple columnar lines the stomach and intestine; pseudostratified ciliated columnar with goblet cells lines the trachea and bronchi (respiratory epithelium); stratified squamous keratinised forms the epidermis, non-keratinised lines the oesophagus, mouth and vagina; transitional epithelium (urothelium) lines the urinary bladder and ureters. Epithelium rests on a basement membrane and is avascular.", "k": ["Respiratory epithelium: pseudostratified ciliated columnar", "Bladder: transitional epithelium", "Oesophagus: non-keratinised stratified squamous", "Epithelium is avascular"] },
+        { "h": "Specialisations and glands", "b": "Microvilli (brush border) increase absorptive surface in the small intestine and proximal convoluted tubule; cilia (9+2 microtubules) move mucus; stereocilia are long microvilli in the epididymis. Junctions: tight junctions (zonula occludens) seal; desmosomes (macula adherens) anchor; gap junctions allow communication; hemidesmosomes attach to the basement membrane. Exocrine glands secrete through ducts; endocrine glands secrete into blood. Modes of secretion: merocrine (exocytosis, e.g. salivary glands), apocrine (part of the cell lost, e.g. mammary lipid) and holocrine (whole cell, e.g. sebaceous glands).", "k": ["Microvilli: absorption; cilia: movement", "Tight junctions seal; gap junctions communicate", "Sebaceous glands are holocrine"] }
+      ],
+      "q": [
+        ["The epithelium lining the trachea is:", "Simple squamous", "Stratified squamous keratinised", "Pseudostratified ciliated columnar", "Transitional", "Simple cuboidal", 2, "Respiratory epithelium is pseudostratified ciliated columnar with goblet cells."],
+        ["Transitional epithelium is found in the:", "Oesophagus", "Urinary bladder", "Skin", "Stomach", "Trachea", 1, "Urothelium can stretch as the bladder fills."],
+        ["The epithelium lining the alveoli is:", "Simple squamous", "Simple columnar", "Stratified cuboidal", "Pseudostratified", "Transitional", 0, "Thin type I pneumocytes form simple squamous epithelium for gas exchange."],
+        ["Sebaceous glands secrete by the ___ mode.", "Merocrine", "Apocrine", "Holocrine", "Endocrine", "Paracrine", 2, "Whole cells disintegrate to release sebum."],
+        ["Which junction allows ions to pass directly between adjacent cells?", "Tight junction", "Desmosome", "Gap junction", "Hemidesmosome", "Zonula adherens", 2, "Gap junctions (connexons) permit electrical and chemical coupling."],
+        ["The brush border of the small intestine consists of:", "Cilia", "Microvilli", "Stereocilia", "Flagella", "Keratin", 1, "Microvilli increase the absorptive surface."],
+        ["The oesophagus is lined by:", "Simple columnar epithelium", "Keratinised stratified squamous", "Non-keratinised stratified squamous", "Transitional epithelium", "Pseudostratified columnar", 2, "It resists abrasion without keratin."],
+        ["Epithelial tissue obtains nutrients by:", "Its own capillaries", "Diffusion from underlying connective tissue", "Lymphatics within it", "Direct arterial supply", "Nerve endings", 1, "Epithelium is avascular and relies on diffusion across the basement membrane."]
+      ]
+    },
+    {
+      "title": "Connective Tissue Proper",
+      "summary": "Cells, fibres and ground substance of connective tissue and its classification.",
+      "notes": [
+        { "h": "Components", "b": "Connective tissue consists of cells, fibres and ground substance (extracellular matrix). Fixed cells include fibroblasts (make fibres and matrix), adipocytes and macrophages (histiocytes); wandering cells include mast cells (histamine, heparin), plasma cells (antibodies; 'clock-face' chromatin) and leucocytes. Fibres: collagen (type I in skin, bone and tendons; type II in cartilage; type III — reticular fibres — in lymphoid organs and liver; type IV in basement membranes), elastic fibres (elastin and fibrillin; large arteries, lungs) and reticular fibres (argyrophilic, silver-staining). Vitamin C is required for collagen hydroxylation; deficiency causes scurvy.", "k": ["Fibroblasts make fibres and matrix", "Collagen I: bone/tendon; II: cartilage; III: reticular; IV: basement membrane", "Vitamin C deficiency → scurvy"] },
+        { "h": "Classification", "b": "Loose (areolar) connective tissue fills spaces beneath epithelia. Dense regular connective tissue (parallel collagen) forms tendons and ligaments; dense irregular forms the dermis and organ capsules. Specialised connective tissues include adipose tissue (white — energy store; brown — heat production in newborns, rich in mitochondria), reticular tissue (stroma of lymph nodes, spleen, bone marrow), cartilage, bone and blood. Marfan syndrome results from defective fibrillin.", "k": ["Tendons: dense regular", "Dermis: dense irregular", "Brown fat: thermogenesis in newborns", "Marfan: fibrillin defect"] }
+      ],
+      "q": [
+        ["The cell that produces collagen fibres is the:", "Macrophage", "Mast cell", "Fibroblast", "Plasma cell", "Adipocyte", 2, "Fibroblasts synthesise fibres and ground substance."],
+        ["Tendons are composed of:", "Loose areolar tissue", "Dense regular connective tissue", "Dense irregular connective tissue", "Elastic cartilage", "Reticular tissue", 1, "Parallel collagen bundles resist tension in one direction."],
+        ["Mast cells release:", "Antibodies", "Histamine and heparin", "Collagen", "Melanin", "Insulin", 1, "Mast cell granules contain histamine and heparin."],
+        ["Type IV collagen is found in:", "Bone", "Cartilage", "Basement membranes", "Tendons", "Skin dermis only", 2, "Type IV collagen forms a meshwork in basement membranes."],
+        ["Brown adipose tissue is specialised for:", "Energy storage only", "Heat production", "Hormone storage", "Mechanical protection", "Antibody production", 1, "Thermogenin (UCP1) in its many mitochondria generates heat."],
+        ["Scurvy results from impaired collagen synthesis due to deficiency of:", "Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K", "Vitamin B12", 1, "Vitamin C is required for prolyl and lysyl hydroxylation."],
+        ["Reticular fibres are made of collagen type:", "I", "II", "III", "IV", "V", 2, "Reticular fibres are type III collagen."],
+        ["Marfan syndrome is caused by a defect in:", "Collagen type I", "Fibrillin", "Keratin", "Elastase", "Laminin", 1, "Fibrillin-1 mutations weaken elastic tissue."]
+      ]
+    },
+    {
+      "title": "Cartilage and Bone",
+      "summary": "Types of cartilage, bone cells, compact and spongy bone, and ossification.",
+      "notes": [
+        { "h": "Cartilage", "b": "Cartilage is avascular connective tissue with chondrocytes in lacunae, surrounded (except articular and fibrocartilage) by a perichondrium. Hyaline cartilage (type II collagen) is the most common: articular surfaces, costal cartilages, trachea, and the fetal skeleton. Elastic cartilage (with elastic fibres) is in the external ear, epiglottis and auditory tube. Fibrocartilage (type I collagen, no perichondrium) is in intervertebral discs, pubic symphysis and menisci. Cartilage grows by appositional and interstitial growth and heals poorly because it lacks blood vessels.", "k": ["Hyaline: articular, costal, trachea", "Elastic: ear, epiglottis", "Fibrocartilage: intervertebral discs, symphysis, menisci"] },
+        { "h": "Bone", "b": "Bone cells: osteoprogenitor cells, osteoblasts (form osteoid), osteocytes (in lacunae, communicate via canaliculi) and osteoclasts (multinucleated, from the monocyte–macrophage lineage, resorb bone in Howship's lacunae). Compact bone is organised into osteons (Haversian systems) with central Haversian canals connected by Volkmann's canals; spongy (cancellous) bone has trabeculae and houses red marrow. Intramembranous ossification forms flat bones of the skull and the clavicle; endochondral ossification replaces a cartilage model (long bones). Growth in length occurs at the epiphyseal plate (zones: resting, proliferation, hypertrophy, calcification, ossification).", "k": ["Osteoblasts build; osteoclasts resorb", "Osteon = Haversian system", "Intramembranous: skull vault, clavicle; endochondral: long bones"] }
+      ],
+      "q": [
+        ["The epiglottis is made of:", "Hyaline cartilage", "Elastic cartilage", "Fibrocartilage", "Compact bone", "Dense regular tissue", 1, "Elastic cartilage gives flexibility to the epiglottis and external ear."],
+        ["Intervertebral discs contain:", "Hyaline cartilage", "Elastic cartilage", "Fibrocartilage", "Spongy bone", "Reticular tissue", 2, "The annulus fibrosus is fibrocartilage."],
+        ["The multinucleated cell that resorbs bone is the:", "Osteoblast", "Osteocyte", "Osteoclast", "Chondroblast", "Osteoprogenitor cell", 2, "Osteoclasts resorb bone in Howship's lacunae."],
+        ["The structural unit of compact bone is the:", "Trabecula", "Osteon (Haversian system)", "Lacuna", "Canaliculus", "Perichondrium", 1, "Osteons are concentric lamellae around a Haversian canal."],
+        ["The clavicle develops mainly by:", "Endochondral ossification", "Intramembranous ossification", "Interstitial growth only", "Metaplasia from muscle", "Appositional cartilage growth", 1, "The clavicle and skull vault ossify intramembranously."],
+        ["Growth in length of a long bone occurs at the:", "Diaphysis", "Epiphyseal (growth) plate", "Periosteum", "Medullary cavity", "Articular cartilage", 1, "Chondrocyte proliferation at the growth plate lengthens bone."],
+        ["Articular cartilage heals poorly mainly because it:", "Has too many cells", "Is avascular", "Contains elastic fibres", "Is covered by periosteum", "Is calcified", 1, "Lack of blood supply limits repair."],
+        ["Channels linking Haversian canals to each other are:", "Canaliculi", "Volkmann's canals", "Lacunae", "Sharpey's fibres", "Trabeculae", 1, "Volkmann's (perforating) canals run perpendicular to osteons."]
+      ]
+    },
+    {
+      "title": "Muscle Tissue",
+      "summary": "Skeletal, cardiac and smooth muscle: structure, the sarcomere and distinguishing features.",
+      "notes": [
+        { "h": "Skeletal muscle and the sarcomere", "b": "Skeletal muscle fibres are long, multinucleated cells with peripheral nuclei and cross-striations. Connective tissue layers: endomysium (around each fibre), perimysium (around fascicles) and epimysium (around the whole muscle). The sarcomere, from Z line to Z line, is the contractile unit: the A band (dark, length of thick myosin filaments) stays constant during contraction, while the I band (thin actin only) and H zone (myosin only) shorten. T-tubules at the A–I junction form triads with the sarcoplasmic reticulum. Satellite cells allow limited regeneration.", "k": ["Skeletal: multinucleated, peripheral nuclei", "A band constant; I band and H zone shorten", "Triads at the A–I junction"] },
+        { "h": "Cardiac and smooth muscle", "b": "Cardiac muscle cells are striated, branched, with one or two central nuclei, joined end-to-end by intercalated discs containing desmosomes and gap junctions (for synchronous contraction); T-tubules form dyads at the Z line. They cannot regenerate after infarction. Smooth muscle cells are spindle-shaped, non-striated, with a single central nucleus; actin filaments attach to dense bodies. Smooth muscle can divide (hyperplasia), e.g. the uterus in pregnancy.", "k": ["Cardiac: intercalated discs, central nuclei", "Smooth: spindle-shaped, no striations, dense bodies", "Cardiac muscle cannot regenerate"] }
+      ],
+      "q": [
+        ["During contraction, which band of the sarcomere remains the same length?", "I band", "H zone", "A band", "Z line spacing", "Sarcomere length", 2, "The A band equals the length of the thick filaments, which do not shorten."],
+        ["Intercalated discs are characteristic of:", "Skeletal muscle", "Cardiac muscle", "Smooth muscle", "Myoepithelial cells", "Nerve fibres", 1, "They join cardiac muscle cells end to end."],
+        ["Skeletal muscle fibres have nuclei that are:", "Single and central", "Multiple and peripheral", "Absent", "Single and peripheral", "Multiple and central", 1, "Skeletal fibres are syncytia with peripheral nuclei."],
+        ["The connective tissue surrounding a fascicle is the:", "Endomysium", "Perimysium", "Epimysium", "Sarcolemma", "Periosteum", 1, "Perimysium wraps bundles (fascicles) of fibres."],
+        ["Smooth muscle actin filaments anchor to:", "Z lines", "Dense bodies", "Intercalated discs", "T-tubules", "M lines", 1, "Dense bodies are analogous to Z lines."],
+        ["The sarcomere extends between two:", "M lines", "Z lines", "H zones", "A bands", "I bands", 1, "A sarcomere runs from one Z line to the next."],
+        ["Which muscle type can undergo hyperplasia, as in the pregnant uterus?", "Skeletal", "Cardiac", "Smooth", "All equally", "None", 2, "Smooth muscle cells can divide."],
+        ["Cells that allow limited regeneration of skeletal muscle are:", "Fibroblasts", "Satellite cells", "Pericytes", "Myoepithelial cells", "Schwann cells", 1, "Satellite cells are skeletal muscle stem cells."]
+      ]
+    },
+    {
+      "title": "Nervous Tissue and Histological Techniques",
+      "summary": "Neurons, neuroglia and myelination, plus tissue preparation and staining.",
+      "notes": [
+        { "h": "Neurons and glia", "b": "Neurons have a cell body (perikaryon) containing Nissl bodies (rough ER), dendrites and a single axon arising from the axon hillock (which lacks Nissl substance). Types: multipolar (motor neurons), bipolar (retina, olfactory epithelium), pseudounipolar (dorsal root ganglia). Neuroglia: astrocytes (blood–brain barrier support), oligodendrocytes (myelinate several CNS axons), microglia (CNS macrophages, mesodermal origin), ependymal cells (line ventricles), and in the PNS Schwann cells (each myelinates one internode of one axon) and satellite cells. Nodes of Ranvier allow saltatory conduction.", "k": ["Nissl bodies = rough ER", "Oligodendrocytes: CNS myelin; Schwann cells: PNS myelin", "Microglia are CNS macrophages"] },
+        { "h": "Histological techniques", "b": "Routine tissue processing: fixation (10% neutral buffered formalin, which cross-links proteins), dehydration in ascending alcohols, clearing (xylene), infiltration and embedding in paraffin wax, sectioning with a microtome (about 3–5 µm), and staining. Haematoxylin and eosin (H&E) is the routine stain: haematoxylin (basic) stains acidic structures such as nuclei blue/purple (basophilic); eosin (acidic) stains cytoplasm and collagen pink (eosinophilic). Special stains: PAS for glycogen and mucin (magenta), Masson's trichrome for collagen, silver for reticular fibres, Sudan black/oil red O for fat (on frozen sections).", "k": ["Fixative: 10% neutral buffered formalin", "Order: fix → dehydrate → clear → embed → section → stain", "H&E: nuclei blue, cytoplasm pink", "PAS: glycogen; oil red O: fat"] }
+      ],
+      "q": [
+        ["Nissl bodies are aggregates of:", "Golgi apparatus", "Rough endoplasmic reticulum", "Mitochondria", "Lysosomes", "Neurofilaments", 1, "Nissl substance is rough ER with ribosomes."],
+        ["Myelin in the central nervous system is formed by:", "Schwann cells", "Oligodendrocytes", "Astrocytes", "Microglia", "Ependymal cells", 1, "Each oligodendrocyte myelinates segments of several CNS axons."],
+        ["Neurons of the dorsal root ganglia are:", "Multipolar", "Bipolar", "Pseudounipolar", "Anaxonic", "Pyramidal", 2, "Sensory ganglion neurons are pseudounipolar."],
+        ["The routine fixative used in histology laboratories is:", "Absolute alcohol", "10% neutral buffered formalin", "Xylene", "Paraffin wax", "Normal saline", 1, "Formalin cross-links proteins to preserve tissue."],
+        ["In H&E staining, nuclei appear:", "Pink", "Blue/purple", "Green", "Black", "Unstained", 1, "Haematoxylin stains acidic nuclear chromatin blue/purple."],
+        ["The correct sequence in tissue processing is:", "Clearing → fixation → dehydration → embedding", "Fixation → dehydration → clearing → embedding", "Dehydration → fixation → embedding → clearing", "Embedding → fixation → clearing → staining", "Staining → fixation → sectioning → embedding", 1, "Fix, dehydrate, clear, then infiltrate and embed in wax."],
+        ["Glycogen is best demonstrated with:", "Oil red O", "PAS stain", "Silver stain", "Congo red", "Perls' Prussian blue", 1, "Periodic acid–Schiff stains glycogen magenta."],
+        ["The CNS resident macrophages are:", "Astrocytes", "Microglia", "Oligodendrocytes", "Ependymal cells", "Satellite cells", 1, "Microglia are phagocytic immune cells of the CNS."]
+      ]
+    }
+  ]
+}

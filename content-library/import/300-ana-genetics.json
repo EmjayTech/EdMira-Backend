@@ -1,0 +1,663 @@
+{
+ "courses": [
+  {
+   "title": "Human Genetics (ANA 341)",
+   "code": "ANA341",
+   "color": "#7C2D12",
+   "description": "Chromosomes and karyotyping, patterns of inheritance, chromosomal disorders, genetic diseases common in Nigeria, and genetic counselling.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "300 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "300 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "300 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "300 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "300 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Physiology"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Chromosomes and Karyotyping",
+     "order": 1,
+     "summary": "Human chromosome complement, chromosome structure, karyotype analysis and nomenclature.",
+     "material": [
+      {
+       "heading": "Chromosomes",
+       "body": "Human somatic cells contain 46 chromosomes: 22 pairs of autosomes and one pair of sex chromosomes (XX female, XY male). Chromosomes are classified by centromere position: metacentric (central), submetacentric, acrocentric (near one end — chromosomes 13, 14, 15, 21, 22, prone to Robertsonian translocations) and telocentric (not normally seen in humans). The short arm is 'p' and the long arm 'q'. The Y chromosome carries the SRY gene, which determines male development.",
+       "keyPoints": [
+        "46 chromosomes: 22 pairs of autosomes + XX/XY",
+        "Acrocentric: 13, 14, 15, 21, 22",
+        "p = short arm; q = long arm",
+        "SRY gene determines maleness"
+       ]
+      },
+      {
+       "heading": "Karyotyping and nomenclature",
+       "body": "A karyotype is prepared from dividing cells (usually cultured lymphocytes stimulated with phytohaemagglutinin) arrested in metaphase with colchicine, then stained (G-banding with Giemsa). Normal karyotypes are written 46,XX or 46,XY; Down syndrome 47,XX,+21; Turner syndrome 45,X; Klinefelter 47,XXY. Fluorescence in situ hybridisation (FISH) and chromosomal microarray detect smaller deletions and duplications. The Barr body is an inactivated X chromosome seen in female somatic cells (number of Barr bodies = number of X chromosomes − 1; Lyon hypothesis).",
+       "keyPoints": [
+        "Colchicine arrests cells in metaphase",
+        "G-banding with Giemsa",
+        "Down: 47,+21; Turner: 45,X; Klinefelter: 47,XXY",
+        "Barr bodies = X − 1"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A normal human somatic cell contains how many autosomes?",
+       "options": [
+        "22",
+        "23",
+        "44",
+        "46",
+        "48"
+       ],
+       "answerIndex": 2,
+       "explanation": "44 autosomes (22 pairs) plus 2 sex chromosomes."
+      },
+      {
+       "stem": "Chromosomes for karyotyping are usually arrested in metaphase using:",
+       "options": [
+        "Colchicine",
+        "EDTA",
+        "Trypsin only",
+        "Phytohaemagglutinin",
+        "Giemsa"
+       ],
+       "answerIndex": 0,
+       "explanation": "Colchicine prevents spindle formation."
+      },
+      {
+       "stem": "The gene on the Y chromosome that determines male development is:",
+       "options": [
+        "SRY",
+        "BRCA1",
+        "FMR1",
+        "XIST",
+        "CFTR"
+       ],
+       "answerIndex": 0,
+       "explanation": "SRY triggers testis formation."
+      },
+      {
+       "stem": "The karyotype of Turner syndrome is:",
+       "options": [
+        "46,XY",
+        "47,XYY",
+        "47,XX,+21",
+        "47,XXY",
+        "45,X"
+       ],
+       "answerIndex": 4,
+       "explanation": "Turner syndrome has a single X chromosome."
+      },
+      {
+       "stem": "Which chromosomes are acrocentric?",
+       "options": [
+        "1, 3, 16",
+        "X and Y only",
+        "17, 18, 19",
+        "2, 4, 6",
+        "13, 14, 15, 21, 22"
+       ],
+       "answerIndex": 4,
+       "explanation": "These acrocentric chromosomes take part in Robertsonian translocations."
+      },
+      {
+       "stem": "The number of Barr bodies in a 47,XXY male is:",
+       "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "47"
+       ],
+       "answerIndex": 1,
+       "explanation": "Barr bodies = number of X chromosomes minus one."
+      },
+      {
+       "stem": "The long arm of a chromosome is designated:",
+       "options": [
+        "q",
+        "l",
+        "s",
+        "p",
+        "c"
+       ],
+       "answerIndex": 0,
+       "explanation": "p = petit (short arm); q = long arm."
+      },
+      {
+       "stem": "The technique using fluorescent probes to detect specific DNA sequences on chromosomes is:",
+       "options": [
+        "Gram stain",
+        "ELISA",
+        "Electrophoresis",
+        "Western blot",
+        "FISH"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fluorescence in situ hybridisation."
+      }
+     ]
+    },
+    {
+     "title": "Patterns of Single-Gene Inheritance",
+     "order": 2,
+     "summary": "Autosomal dominant and recessive, X-linked and mitochondrial inheritance with pedigrees.",
+     "material": [
+      {
+       "heading": "Autosomal inheritance",
+       "body": "Autosomal dominant (AD) disorders appear in every generation, affect both sexes equally, and an affected heterozygote has a 50% chance of passing the condition to each child; examples: achondroplasia, Huntington disease, Marfan syndrome, familial hypercholesterolaemia, neurofibromatosis type 1, polycystic kidney disease (adult). Autosomal recessive (AR) disorders often skip generations, affect both sexes, and two carrier parents have a 25% risk per pregnancy of an affected child; consanguinity increases risk. Examples: sickle cell disease, albinism, cystic fibrosis, phenylketonuria, thalassaemia, Tay–Sachs disease.",
+       "keyPoints": [
+        "AD: every generation, 50% risk",
+        "AR: carriers, 25% risk, consanguinity",
+        "Sickle cell and albinism are AR"
+       ]
+      },
+      {
+       "heading": "X-linked and mitochondrial",
+       "body": "X-linked recessive disorders mainly affect males; there is no male-to-male transmission; carrier mothers pass the condition to 50% of sons, and 50% of daughters are carriers; all daughters of an affected man are carriers. Examples: haemophilia A and B, G6PD deficiency, Duchenne muscular dystrophy, red–green colour blindness. X-linked dominant disorders (e.g. vitamin D-resistant rickets) pass from an affected father to all daughters and no sons. Mitochondrial disorders are inherited only from the mother. Concepts: penetrance (proportion of genotype carriers who show the phenotype), expressivity (variation in severity), anticipation (earlier/worse in successive generations — trinucleotide repeat disorders such as Huntington disease).",
+       "keyPoints": [
+        "X-linked recessive: males affected, no male-to-male transmission",
+        "Mitochondrial: maternal inheritance only",
+        "Anticipation in trinucleotide repeat disorders"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An affected heterozygous parent of an autosomal dominant disorder has what risk of passing it to each child?",
+       "options": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Each child has a 1 in 2 chance of inheriting the mutant allele."
+      },
+      {
+       "stem": "Two carriers of an autosomal recessive disorder have what risk per pregnancy of an affected child?",
+       "options": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+       ],
+       "answerIndex": 1,
+       "explanation": "1 in 4 children will be homozygous affected."
+      },
+      {
+       "stem": "Which condition is inherited in an autosomal dominant manner?",
+       "options": [
+        "Albinism",
+        "Cystic fibrosis",
+        "Achondroplasia",
+        "Phenylketonuria",
+        "Sickle cell disease"
+       ],
+       "answerIndex": 2,
+       "explanation": "Achondroplasia is autosomal dominant (FGFR3)."
+      },
+      {
+       "stem": "A feature that excludes X-linked inheritance is:",
+       "options": [
+        "Male-to-male transmission",
+        "Skipped generations",
+        "Affected maternal uncles",
+        "More males affected",
+        "Carrier females"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fathers pass their Y, not X, to sons."
+      },
+      {
+       "stem": "An affected man with haemophilia and an unaffected non-carrier woman: their daughters will be:",
+       "options": [
+        "All carriers",
+        "All affected",
+        "None carriers",
+        "50% carriers",
+        "25% affected"
+       ],
+       "answerIndex": 0,
+       "explanation": "Every daughter receives her father's X chromosome."
+      },
+      {
+       "stem": "Mitochondrial disorders are inherited from:",
+       "options": [
+        "The father only",
+        "Both parents equally",
+        "The grandfather",
+        "The mother only",
+        "Neither parent"
+       ],
+       "answerIndex": 3,
+       "explanation": "Mitochondria are transmitted through the ovum."
+      },
+      {
+       "stem": "Increasing severity or earlier onset in successive generations is called:",
+       "options": [
+        "Penetrance",
+        "Pleiotropy",
+        "Anticipation",
+        "Imprinting",
+        "Mosaicism"
+       ],
+       "answerIndex": 2,
+       "explanation": "Anticipation occurs with expanding trinucleotide repeats."
+      },
+      {
+       "stem": "Consanguineous marriage most increases the risk of:",
+       "options": [
+        "Trisomies",
+        "Autosomal recessive disorders",
+        "Autosomal dominant disorders",
+        "Y-linked disorders",
+        "Mitochondrial disorders"
+       ],
+       "answerIndex": 1,
+       "explanation": "Relatives are more likely to carry the same recessive allele."
+      }
+     ]
+    },
+    {
+     "title": "Chromosomal Disorders",
+     "order": 3,
+     "summary": "Trisomies, sex chromosome aneuploidies, deletions and translocations.",
+     "material": [
+      {
+       "heading": "Autosomal aneuploidies",
+       "body": "Down syndrome (trisomy 21), the commonest chromosomal cause of intellectual disability, is usually due to maternal meiotic non-disjunction (risk rises with maternal age); about 4% arise from Robertsonian translocation (e.g. 14;21) and may recur in families. Features: flat face, upslanting palpebral fissures, epicanthic folds, single palmar crease, sandal gap, hypotonia, congenital heart disease (atrioventricular septal defect), duodenal atresia, hypothyroidism and early Alzheimer disease, with increased leukaemia risk. Edwards syndrome (trisomy 18): clenched hands with overlapping fingers, rocker-bottom feet, micrognathia. Patau syndrome (trisomy 13): cleft lip and palate, polydactyly, holoprosencephaly.",
+       "keyPoints": [
+        "Down: trisomy 21, maternal age, AVSD, duodenal atresia",
+        "Edwards: trisomy 18, clenched fists, rocker-bottom feet",
+        "Patau: trisomy 13, cleft lip/palate, polydactyly"
+       ]
+      },
+      {
+       "heading": "Sex chromosome and structural disorders",
+       "body": "Turner syndrome (45,X): short stature, webbed neck, widely spaced nipples, lymphoedema at birth, streak ovaries with primary amenorrhoea and infertility, coarctation of the aorta, normal intelligence. Klinefelter syndrome (47,XXY): tall stature, small testes, gynaecomastia, infertility (azoospermia), raised FSH/LH. Structural abnormalities include deletions (cri-du-chat — 5p deletion, cat-like cry), duplications, inversions and translocations; the Philadelphia chromosome t(9;22) forms the BCR-ABL fusion gene in chronic myeloid leukaemia.",
+       "keyPoints": [
+        "Turner: short, webbed neck, coarctation, streak ovaries",
+        "Klinefelter: tall, small testes, gynaecomastia",
+        "Cri-du-chat: 5p deletion",
+        "Philadelphia chromosome t(9;22) in CML"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The commonest cause of Down syndrome is:",
+       "options": [
+        "Maternal meiotic non-disjunction",
+        "Point mutation",
+        "Mosaicism in all cases",
+        "Paternal deletion",
+        "Robertsonian translocation"
+       ],
+       "answerIndex": 0,
+       "explanation": "About 95% result from non-disjunction, mostly maternal."
+      },
+      {
+       "stem": "The congenital heart defect most characteristic of Down syndrome is:",
+       "options": [
+        "Tetralogy of Fallot",
+        "Patent ductus arteriosus only",
+        "Coarctation of the aorta",
+        "Transposition of great arteries",
+        "Atrioventricular septal defect"
+       ],
+       "answerIndex": 4,
+       "explanation": "AVSD (endocardial cushion defect) is typical."
+      },
+      {
+       "stem": "Clenched hands with overlapping fingers and rocker-bottom feet suggest:",
+       "options": [
+        "Trisomy 13",
+        "Trisomy 18",
+        "Trisomy 21",
+        "Turner syndrome",
+        "Klinefelter syndrome"
+       ],
+       "answerIndex": 1,
+       "explanation": "Edwards syndrome."
+      },
+      {
+       "stem": "A girl with short stature, webbed neck and primary amenorrhoea most likely has:",
+       "options": [
+        "Marfan syndrome",
+        "Fragile X syndrome",
+        "Klinefelter syndrome",
+        "Turner syndrome",
+        "Down syndrome"
+       ],
+       "answerIndex": 3,
+       "explanation": "Turner syndrome (45,X) with streak ovaries."
+      },
+      {
+       "stem": "Coarctation of the aorta is associated with:",
+       "options": [
+        "Patau syndrome",
+        "Cri-du-chat syndrome",
+        "Klinefelter syndrome",
+        "Turner syndrome",
+        "Edwards syndrome"
+       ],
+       "answerIndex": 3,
+       "explanation": "Coarctation and bicuspid aortic valve occur in Turner syndrome."
+      },
+      {
+       "stem": "A tall male with small testes, gynaecomastia and infertility most likely has karyotype:",
+       "options": [
+        "45,X",
+        "47,XXY",
+        "47,XYY",
+        "46,XX",
+        "47,+21"
+       ],
+       "answerIndex": 1,
+       "explanation": "Klinefelter syndrome."
+      },
+      {
+       "stem": "A high-pitched cat-like cry in an infant is due to deletion of:",
+       "options": [
+        "4p",
+        "22q11",
+        "7q",
+        "5p",
+        "15q"
+       ],
+       "answerIndex": 3,
+       "explanation": "Cri-du-chat syndrome is a 5p deletion."
+      },
+      {
+       "stem": "The Philadelphia chromosome, t(9;22), is characteristic of:",
+       "options": [
+        "Chronic myeloid leukaemia",
+        "Multiple myeloma",
+        "Hodgkin lymphoma",
+        "Burkitt lymphoma",
+        "Acute lymphoblastic leukaemia only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It creates the BCR-ABL tyrosine kinase."
+      }
+     ]
+    },
+    {
+     "title": "Molecular Genetics and Mutations",
+     "order": 4,
+     "summary": "Gene structure, types of mutations, DNA repair defects and molecular diagnostic tools.",
+     "material": [
+      {
+       "heading": "Mutations",
+       "body": "Point mutations include silent (no amino acid change), missense (one amino acid changed — e.g. HbS: GAG → GTG, glutamic acid to valine at β6) and nonsense (premature stop codon, e.g. some β-thalassaemias). Insertions or deletions not in multiples of three cause frameshifts (e.g. Tay–Sachs, many Duchenne muscular dystrophy cases). Trinucleotide repeat expansions cause fragile X syndrome (CGG), Huntington disease (CAG) and myotonic dystrophy (CTG). Splice-site mutations alter mRNA processing (some β-thalassaemias). Mutagens include ionising and UV radiation, chemicals and some viruses.",
+       "keyPoints": [
+        "Missense: HbS (Glu→Val)",
+        "Nonsense: premature stop codon",
+        "Frameshift: indels not divisible by 3",
+        "Repeats: fragile X (CGG), Huntington (CAG)"
+       ]
+      },
+      {
+       "heading": "Molecular tools",
+       "body": "The polymerase chain reaction (PCR; Kary Mullis) amplifies DNA through cycles of denaturation (~94 °C), annealing of primers (~50–65 °C) and extension (~72 °C) by heat-stable Taq polymerase. Gel electrophoresis separates DNA fragments by size (smaller move faster). Sanger sequencing and next-generation sequencing read DNA sequences. Restriction enzymes cut DNA at specific sites; RFLP analysis was historically used to detect the sickle mutation (loss of an MstII site). Southern blotting detects DNA, Northern RNA, and Western proteins. Haemoglobin electrophoresis and HPLC are routine for sickle cell diagnosis.",
+       "keyPoints": [
+        "PCR: denature → anneal → extend (Taq)",
+        "Southern DNA, Northern RNA, Western protein",
+        "Smaller DNA fragments move faster in gels"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The sickle cell mutation (Glu → Val at β6) is an example of a:",
+       "options": [
+        "Frameshift mutation",
+        "Trinucleotide repeat",
+        "Missense mutation",
+        "Nonsense mutation",
+        "Silent mutation"
+       ],
+       "answerIndex": 2,
+       "explanation": "One base change alters one amino acid."
+      },
+      {
+       "stem": "A mutation that creates a premature stop codon is a:",
+       "options": [
+        "Missense mutation",
+        "Silent mutation",
+        "Nonsense mutation",
+        "Splice mutation",
+        "Inversion"
+       ],
+       "answerIndex": 2,
+       "explanation": "Nonsense mutations truncate the protein."
+      },
+      {
+       "stem": "Deletion of a single nucleotide in a coding sequence usually causes a:",
+       "options": [
+        "Frameshift mutation",
+        "Missense mutation only",
+        "Trisomy",
+        "Translocation",
+        "Silent mutation"
+       ],
+       "answerIndex": 0,
+       "explanation": "It shifts the reading frame downstream."
+      },
+      {
+       "stem": "Fragile X syndrome is caused by expansion of a ___ repeat.",
+       "options": [
+        "CAG",
+        "CGG",
+        "ATG",
+        "GAA",
+        "CTG"
+       ],
+       "answerIndex": 1,
+       "explanation": "CGG repeats in the FMR1 gene."
+      },
+      {
+       "stem": "The heat-stable enzyme used in PCR is:",
+       "options": [
+        "RNA polymerase II",
+        "DNA ligase",
+        "Taq polymerase",
+        "Restriction endonuclease",
+        "Reverse transcriptase"
+       ],
+       "answerIndex": 2,
+       "explanation": "Taq polymerase from Thermus aquaticus withstands denaturation temperatures."
+      },
+      {
+       "stem": "The technique used to detect specific proteins is:",
+       "options": [
+        "FISH",
+        "Northern blot",
+        "Western blot",
+        "PCR",
+        "Southern blot"
+       ],
+       "answerIndex": 2,
+       "explanation": "Western blotting detects proteins with antibodies."
+      },
+      {
+       "stem": "In agarose gel electrophoresis, the smallest DNA fragments:",
+       "options": [
+        "Move slowest",
+        "Do not migrate",
+        "Stay at the well",
+        "Move fastest and furthest",
+        "Move towards the negative electrode"
+       ],
+       "answerIndex": 3,
+       "explanation": "Small fragments pass through the gel matrix more easily."
+      },
+      {
+       "stem": "The first step in each PCR cycle is:",
+       "options": [
+        "Transcription",
+        "Denaturation",
+        "Extension",
+        "Ligation",
+        "Annealing"
+       ],
+       "answerIndex": 1,
+       "explanation": "Heating separates the DNA strands."
+      }
+     ]
+    },
+    {
+     "title": "Genetic Disorders in Nigeria and Genetic Counselling",
+     "order": 5,
+     "summary": "Sickle cell disease, G6PD deficiency, albinism and thalassaemia; prevention and counselling.",
+     "material": [
+      {
+       "heading": "Common conditions",
+       "body": "Nigeria has the world's largest burden of sickle cell disease: about 20–25% of adults carry HbS (AS genotype), and an estimated 150,000 babies are born with SCD each year. HbSC disease is also common. Diagnosis uses haemoglobin electrophoresis, HPLC or point-of-care tests; newborn screening enables early penicillin prophylaxis and pneumococcal vaccination. Hydroxyurea increases HbF and reduces crises. G6PD deficiency (X-linked) is common and causes haemolysis with oxidant drugs and infections. Oculocutaneous albinism (AR) is relatively frequent; affected people need sun protection because of high skin cancer risk, and eye care for low vision.",
+       "keyPoints": [
+        "~20–25% of Nigerians are AS carriers",
+        "Newborn screening → penicillin prophylaxis",
+        "Hydroxyurea raises HbF",
+        "Albinism: sun protection, skin cancer risk"
+       ]
+      },
+      {
+       "heading": "Genetic counselling and prevention",
+       "body": "Genetic counselling helps individuals and families understand the risk, inheritance, implications and options regarding genetic conditions. It should be non-directive, confidential and culturally sensitive. Prevention strategies include premarital and preconception genotype screening, carrier testing, prenatal diagnosis (chorionic villus sampling at 10–13 weeks, amniocentesis at 15–20 weeks), and preimplantation genetic diagnosis with IVF. Pedigree charts use squares for males, circles for females, shaded symbols for affected persons, half-shaded or dotted symbols for carriers, and a double line for consanguineous unions.",
+       "keyPoints": [
+        "Counselling is non-directive",
+        "Premarital genotype screening",
+        "CVS 10–13 weeks; amniocentesis 15–20 weeks",
+        "Pedigree: square = male, circle = female"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Approximately what proportion of Nigerian adults carry the sickle cell trait (AS)?",
+       "options": [
+        "1–2%",
+        "5%",
+        "20–25%",
+        "50%",
+        "75%"
+       ],
+       "answerIndex": 2,
+       "explanation": "About a quarter of Nigerians carry HbS."
+      },
+      {
+       "stem": "Hydroxyurea benefits sickle cell patients mainly by:",
+       "options": [
+        "Increasing HbS",
+        "Replacing iron",
+        "Removing the spleen",
+        "Increasing fetal haemoglobin (HbF)",
+        "Killing malaria parasites"
+       ],
+       "answerIndex": 3,
+       "explanation": "Raised HbF inhibits HbS polymerisation."
+      },
+      {
+       "stem": "Children with sickle cell disease are given penicillin prophylaxis mainly to prevent:",
+       "options": [
+        "Malaria",
+        "Typhoid",
+        "Tuberculosis",
+        "Pneumococcal infection",
+        "Hepatitis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Functional asplenia increases pneumococcal risk."
+      },
+      {
+       "stem": "People with albinism in Nigeria are at particularly high risk of:",
+       "options": [
+        "Kidney stones",
+        "Sickle cell crisis",
+        "Asthma",
+        "Diabetes",
+        "Skin cancer"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lack of melanin exposes skin to UV damage."
+      },
+      {
+       "stem": "Genetic counselling should be:",
+       "options": [
+        "Performed without consent",
+        "Only for rich families",
+        "Public",
+        "Non-directive and confidential",
+        "Directive, telling couples what to do"
+       ],
+       "answerIndex": 3,
+       "explanation": "Counsellors provide information and support decisions."
+      },
+      {
+       "stem": "Chorionic villus sampling is usually performed at:",
+       "options": [
+        "6–8 weeks",
+        "At birth",
+        "28–32 weeks",
+        "10–13 weeks",
+        "15–20 weeks"
+       ],
+       "answerIndex": 3,
+       "explanation": "CVS is done in the late first trimester."
+      },
+      {
+       "stem": "In a pedigree chart, a circle represents a:",
+       "options": [
+        "Male",
+        "Female",
+        "Affected male",
+        "Carrier only",
+        "Deceased person"
+       ],
+       "answerIndex": 1,
+       "explanation": "Circles denote females; squares denote males."
+      },
+      {
+       "stem": "G6PD deficiency is inherited as:",
+       "options": [
+        "Autosomal dominant",
+        "Y-linked",
+        "X-linked recessive",
+        "Autosomal recessive",
+        "Mitochondrial"
+       ],
+       "answerIndex": 2,
+       "explanation": "It mostly affects males."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

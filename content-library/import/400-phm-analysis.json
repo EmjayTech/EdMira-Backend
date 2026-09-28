@@ -1,0 +1,650 @@
+{
+ "courses": [
+  {
+   "title": "Pharmaceutical Analysis and Quality Control",
+   "code": "PCH401",
+   "color": "#0891B2",
+   "description": "Titrimetric, spectroscopic and chromatographic methods, method validation, pharmacopoeial tests, and detection of substandard and falsified medicines.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Titrimetric Methods",
+     "order": 1,
+     "summary": "Acid–base, non-aqueous, redox, complexometric and precipitation titrations.",
+     "material": [
+      {
+       "heading": "Aqueous titrations",
+       "body": "Titrimetric (volumetric) analysis measures the volume of a standard solution that reacts completely with the analyte. Primary standards (e.g. potassium hydrogen phthalate, sodium carbonate) are pure, stable and used to standardise titrants. Acid–base titrations use indicators whose colour change matches the equivalence point pH: phenolphthalein (pH 8.2–10; weak acid vs strong base), methyl orange (pH 3.1–4.4; strong acid vs weak base). Redox titrations: potassium permanganate (self-indicating, in acid), iodometry and iodimetry (starch indicator — e.g. assay of ascorbic acid), ceric sulphate. Complexometric titration with EDTA (disodium edetate) determines metal ions (calcium, magnesium, zinc) using metallochromic indicators such as Eriochrome Black T. Precipitation titrations (argentometry — silver nitrate for chlorides: Mohr, Volhard, Fajans methods).",
+       "keyPoints": [
+        "Primary standards: KHP, Na2CO3",
+        "Phenolphthalein vs methyl orange",
+        "Iodometry: starch indicator (ascorbic acid)",
+        "EDTA for Ca, Mg, Zn",
+        "Silver nitrate for chlorides"
+       ]
+      },
+      {
+       "heading": "Non-aqueous titrations",
+       "body": "Weakly basic or acidic drugs that give poor end points in water are titrated in non-aqueous solvents. Weak bases (many amine drugs, e.g. alkaloids, antihistamines) are titrated with perchloric acid in glacial acetic acid (a levelling solvent that enhances basicity), using crystal violet indicator or potentiometric end point; halide salts require mercuric acetate (now avoided because of toxicity) or alternative approaches. Weak acids (e.g. phenobarbital) are titrated with sodium methoxide or tetrabutylammonium hydroxide in dimethylformamide. Water must be excluded. The Karl Fischer titration determines water content in drugs and excipients.",
+       "keyPoints": [
+        "Weak bases: perchloric acid in glacial acetic acid",
+        "Crystal violet indicator",
+        "Weak acids: sodium methoxide in DMF",
+        "Karl Fischer: water content"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A substance of high purity used to standardise a titrant is a:",
+       "options": [
+        "Indicator",
+        "Buffer",
+        "Primary standard",
+        "Excipient",
+        "Secondary standard"
+       ],
+       "answerIndex": 2,
+       "explanation": "Primary standards have accurately known composition."
+      },
+      {
+       "stem": "Phenolphthalein is suitable for titrating a:",
+       "options": [
+        "Strong acid with a weak base",
+        "Weak acid with a weak base",
+        "Weak acid with a strong base",
+        "Chloride with silver nitrate",
+        "Metal ion with EDTA"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its colour change (pH 8–10) matches the alkaline equivalence point."
+      },
+      {
+       "stem": "Ascorbic acid is commonly assayed by titration with iodine using ___ as indicator.",
+       "options": [
+        "Phenolphthalein",
+        "Methyl orange",
+        "Eriochrome Black T",
+        "Starch",
+        "Crystal violet"
+       ],
+       "answerIndex": 3,
+       "explanation": "Starch forms a blue complex with excess iodine."
+      },
+      {
+       "stem": "Calcium content of a tablet is determined by titration with:",
+       "options": [
+        "Disodium EDTA",
+        "Perchloric acid",
+        "Potassium permanganate",
+        "Sodium hydroxide",
+        "Silver nitrate"
+       ],
+       "answerIndex": 0,
+       "explanation": "EDTA forms stable complexes with metal ions."
+      },
+      {
+       "stem": "Weakly basic amine drugs are commonly assayed by titration with:",
+       "options": [
+        "Silver nitrate",
+        "Iodine",
+        "Perchloric acid in glacial acetic acid",
+        "EDTA",
+        "Sodium hydroxide in water"
+       ],
+       "answerIndex": 2,
+       "explanation": "Non-aqueous acidimetry enhances weak basicity."
+      },
+      {
+       "stem": "Potassium permanganate titrations do not need an added indicator because:",
+       "options": [
+        "They are done in the dark",
+        "EDTA is added",
+        "They use starch",
+        "They are colourless",
+        "Permanganate is self-indicating (pink at the end point)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Excess permanganate gives a persistent pink colour."
+      },
+      {
+       "stem": "Water content in a drug substance is determined by:",
+       "options": [
+        "Mohr titration",
+        "Iodometry",
+        "Argentometry",
+        "Karl Fischer titration",
+        "Complexometry"
+       ],
+       "answerIndex": 3,
+       "explanation": "Karl Fischer reagent reacts specifically with water."
+      },
+      {
+       "stem": "Chloride content is determined by precipitation titration with:",
+       "options": [
+        "Iodine",
+        "Perchloric acid",
+        "EDTA",
+        "Silver nitrate",
+        "Permanganate"
+       ],
+       "answerIndex": 3,
+       "explanation": "Argentometric titrations (Mohr, Volhard, Fajans)."
+      }
+     ]
+    },
+    {
+     "title": "UV–Visible and Infrared Spectroscopy",
+     "order": 2,
+     "summary": "Beer–Lambert law, UV assays, IR identification and other spectroscopic methods.",
+     "material": [
+      {
+       "heading": "UV–visible spectroscopy",
+       "body": "UV–visible spectrophotometry measures absorption of 200–800 nm radiation by chromophores (conjugated systems, aromatic rings). The Beer–Lambert law: A = εcl (or A = A(1%, 1 cm) × c × l, the specific absorbance used in pharmacopoeias). Quantitative assay compares sample absorbance with a reference standard or uses the specific absorbance at λmax. Deviations from linearity occur at high concentrations, with stray light and chemical changes (e.g. pH-dependent ionisation). Instrument checks include wavelength accuracy (holmium oxide filter), absorbance accuracy (potassium dichromate) and stray light (potassium chloride). Colorimetric methods add a reagent to form a coloured product for drugs lacking a strong chromophore.",
+       "keyPoints": [
+        "A = εcl",
+        "Specific absorbance A(1%, 1 cm)",
+        "Measure at λmax",
+        "Holmium oxide: wavelength check",
+        "Deviations at high concentration"
+       ]
+      },
+      {
+       "heading": "IR and other methods",
+       "body": "Infrared spectroscopy (4,000–400 cm⁻¹) measures molecular vibrations; the fingerprint region (below about 1,500 cm⁻¹) is unique to each compound, making IR the main pharmacopoeial identification test (comparison with a reference spectrum). Characteristic bands: O–H stretch (broad ~3,300 cm⁻¹), N–H (~3,300–3,500), C=O (~1,700 cm⁻¹), C–H (~2,900). Samples are prepared as KBr discs or by ATR (attenuated total reflectance). Other methods: fluorimetry (more sensitive and selective than UV — e.g. quinine), atomic absorption spectroscopy (metals such as lead, iron, zinc), NMR (structure elucidation), mass spectrometry (molecular mass and structure; with LC or GC for identification and impurity profiling), and near-infrared and Raman handheld devices for rapid screening of medicines in the field.",
+       "keyPoints": [
+        "IR fingerprint region: identification",
+        "C=O ~1,700 cm⁻¹; O–H broad ~3,300",
+        "Fluorimetry: more sensitive than UV",
+        "AAS for metals",
+        "Handheld NIR/Raman for field screening"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "According to the Beer–Lambert law, absorbance is proportional to:",
+       "options": [
+        "Temperature",
+        "Concentration and path length",
+        "Wavelength only",
+        "Volume of solvent",
+        "Colour of the cuvette"
+       ],
+       "answerIndex": 1,
+       "explanation": "A = εcl."
+      },
+      {
+       "stem": "UV–visible assays are normally performed at the wavelength of:",
+       "options": [
+        "The solvent's absorbance",
+        "800 nm always",
+        "Any wavelength",
+        "Maximum absorbance (λmax)",
+        "Minimum absorbance"
+       ],
+       "answerIndex": 3,
+       "explanation": "λmax gives the highest sensitivity and least error."
+      },
+      {
+       "stem": "Wavelength accuracy of a UV spectrophotometer is checked with a:",
+       "options": [
+        "Starch solution",
+        "Sodium chloride solution",
+        "Water blank",
+        "Holmium oxide filter",
+        "Potassium dichromate solution"
+       ],
+       "answerIndex": 3,
+       "explanation": "Holmium oxide has sharp reference peaks."
+      },
+      {
+       "stem": "The main pharmacopoeial identification test for many drug substances is:",
+       "options": [
+        "Titration",
+        "Infrared spectroscopy compared with a reference spectrum",
+        "UV absorbance at one wavelength",
+        "Colour",
+        "Melting point only"
+       ],
+       "answerIndex": 1,
+       "explanation": "The IR fingerprint region is unique to each compound."
+      },
+      {
+       "stem": "A strong IR absorption near 1,700 cm⁻¹ indicates a:",
+       "options": [
+        "Carbonyl group",
+        "Alkyl C–H",
+        "Amine group",
+        "Hydroxyl group",
+        "Aromatic ring only"
+       ],
+       "answerIndex": 0,
+       "explanation": "C=O stretching occurs around 1,700 cm⁻¹."
+      },
+      {
+       "stem": "Lead contamination in a herbal product is best measured by:",
+       "options": [
+        "Titration with EDTA only",
+        "Polarimetry",
+        "Refractometry",
+        "Atomic absorption spectroscopy",
+        "IR spectroscopy"
+       ],
+       "answerIndex": 3,
+       "explanation": "AAS quantifies metals at trace levels."
+      },
+      {
+       "stem": "Fluorimetry is generally ___ than UV spectrophotometry.",
+       "options": [
+        "Only for metals",
+        "Unsuitable for drugs",
+        "Identical in sensitivity",
+        "Less sensitive",
+        "More sensitive and selective"
+       ],
+       "answerIndex": 4,
+       "explanation": "Few compounds fluoresce, and emission is measured against a dark background."
+      },
+      {
+       "stem": "Handheld devices used to screen for falsified medicines in markets often use:",
+       "options": [
+        "X-ray crystallography",
+        "Mass spectrometry only",
+        "Electron microscopy",
+        "NMR",
+        "Near-infrared or Raman spectroscopy"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are portable and rapid."
+      }
+     ]
+    },
+    {
+     "title": "Chromatographic Methods",
+     "order": 3,
+     "summary": "TLC, HPLC and GC: principles, parameters, system suitability and applications.",
+     "material": [
+      {
+       "heading": "Principles and TLC",
+       "body": "Chromatography separates components by differential distribution between a stationary phase and a mobile phase. Thin-layer chromatography (TLC) uses silica gel plates; spots are visualised under UV (254 nm) or with reagents (iodine vapour, ninhydrin for amino acids, Dragendorff's for alkaloids). The retardation factor Rf = distance travelled by the spot ÷ distance travelled by the solvent front (0–1). TLC is cheap and used for identification, limit tests for impurities and screening (e.g. GPHF Minilab kits for detecting substandard and falsified medicines in low-resource settings).",
+       "keyPoints": [
+        "Stationary vs mobile phase",
+        "Rf = spot distance / solvent front distance",
+        "UV 254 nm or iodine visualisation",
+        "Minilab kits for field screening"
+       ]
+      },
+      {
+       "heading": "HPLC and GC",
+       "body": "High-performance liquid chromatography (HPLC) is the most widely used assay technique for drugs. Reversed-phase HPLC (non-polar C18 stationary phase, polar mobile phase such as water–methanol or acetonitrile with buffer) retains non-polar compounds longer; detectors include UV/diode-array, fluorescence and mass spectrometry. Key parameters: retention time (identity), peak area (quantity), resolution (Rs ≥ 1.5 for baseline separation), theoretical plates (efficiency), tailing factor (symmetry, ideally ≤ 2) and repeatability — tested as 'system suitability' before analysis. Gas chromatography (GC) separates volatile, thermally stable compounds (residual solvents, ethanol, essential oils) using an inert carrier gas and detectors such as flame ionisation (FID) or mass spectrometry; derivatisation increases volatility.",
+       "keyPoints": [
+        "Reversed-phase: C18, polar mobile phase",
+        "Retention time = identity; peak area = quantity",
+        "Rs ≥ 1.5; tailing ≤ 2",
+        "System suitability before runs",
+        "GC for residual solvents; FID detector"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In TLC, the Rf value is calculated as:",
+       "options": [
+        "Solvent front ÷ spot distance",
+        "Plate length ÷ spot size",
+        "Spot distance × solvent distance",
+        "Peak area ÷ retention time",
+        "Spot distance ÷ solvent front distance"
+       ],
+       "answerIndex": 4,
+       "explanation": "Rf ranges from 0 to 1."
+      },
+      {
+       "stem": "The stationary phase in reversed-phase HPLC is usually:",
+       "options": [
+        "Air",
+        "Polar silica only",
+        "Paper",
+        "Water",
+        "Non-polar C18-bonded silica"
+       ],
+       "answerIndex": 4,
+       "explanation": "Non-polar analytes are retained longer."
+      },
+      {
+       "stem": "In chromatography, the retention time of a peak is used mainly for:",
+       "options": [
+        "Quantification",
+        "Identification",
+        "Measuring pH",
+        "Weighing",
+        "Checking colour"
+       ],
+       "answerIndex": 1,
+       "explanation": "Comparison with a reference standard's retention time identifies the analyte."
+      },
+      {
+       "stem": "In HPLC, the amount of analyte is determined from the:",
+       "options": [
+        "Retention time",
+        "Colour",
+        "Solvent front",
+        "Column length",
+        "Peak area"
+       ],
+       "answerIndex": 4,
+       "explanation": "Peak area is proportional to concentration."
+      },
+      {
+       "stem": "Baseline separation of two peaks requires a resolution of at least:",
+       "options": [
+        "0.5",
+        "1.0",
+        "1.5",
+        "5.0",
+        "10"
+       ],
+       "answerIndex": 2,
+       "explanation": "Rs ≥ 1.5 gives near-complete separation."
+      },
+      {
+       "stem": "Residual solvents in a drug substance are usually determined by:",
+       "options": [
+        "TLC",
+        "UV spectroscopy",
+        "Titration",
+        "Gas chromatography",
+        "Polarimetry"
+       ],
+       "answerIndex": 3,
+       "explanation": "Solvents are volatile, ideal for GC."
+      },
+      {
+       "stem": "Tests performed before HPLC analysis to confirm the system performs adequately are called:",
+       "options": [
+        "Friability tests",
+        "Stability tests",
+        "Dissolution tests",
+        "System suitability tests",
+        "Validation"
+       ],
+       "answerIndex": 3,
+       "explanation": "They check resolution, tailing, plates and repeatability."
+      },
+      {
+       "stem": "The GPHF Minilab used in Nigeria and other countries for screening medicines relies mainly on:",
+       "options": [
+        "TLC and simple disintegration tests",
+        "X-ray diffraction",
+        "NMR",
+        "HPLC-MS",
+        "Atomic absorption"
+       ],
+       "answerIndex": 0,
+       "explanation": "It provides low-cost field screening."
+      }
+     ]
+    },
+    {
+     "title": "Method Validation and Pharmacopoeial Quality Tests",
+     "order": 4,
+     "summary": "ICH validation parameters, and identity, assay, impurity, dissolution and uniformity tests.",
+     "material": [
+      {
+       "heading": "Validation",
+       "body": "Analytical methods must be validated to show they are fit for purpose (ICH Q2 guideline). Parameters: specificity/selectivity (measures the analyte without interference from excipients, impurities or degradants), linearity and range, accuracy (closeness to the true value — recovery studies), precision (repeatability, intermediate precision, reproducibility — expressed as %RSD), limit of detection (LOD) and limit of quantitation (LOQ), and robustness (unaffected by small deliberate changes in conditions). Stability-indicating methods separate the drug from its degradation products (tested by forced degradation — acid, base, oxidation, heat, light).",
+       "keyPoints": [
+        "ICH Q2 validation",
+        "Specificity, linearity, accuracy, precision, LOD/LOQ, robustness",
+        "Precision as %RSD",
+        "Stability-indicating methods: forced degradation"
+       ]
+      },
+      {
+       "heading": "Quality tests",
+       "body": "Pharmacopoeial monographs specify tests: identification; assay (content usually 95–105% of label claim for many tablets — limits vary by monograph); related substances (impurities); uniformity of dosage units (content uniformity or weight variation); disintegration; dissolution (e.g. not less than a stated percentage, Q, released in a set time using basket or paddle apparatus); friability and hardness for tablets; sterility, bacterial endotoxins and particulate matter for injections; pH and microbial limits for non-sterile liquids. Certificates of analysis accompany batches. Stability testing (ICH Q1 — long-term 30 °C/65–75% RH for climatic zone IVa/IVb, which includes Nigeria; accelerated 40 °C/75% RH) establishes shelf life.",
+       "keyPoints": [
+        "Assay often 95–105% of label claim",
+        "Content uniformity and dissolution",
+        "Injections: sterility, endotoxins, particles",
+        "Nigeria is in climatic zone IV (hot, humid)",
+        "Accelerated stability: 40 °C/75% RH"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The ability of a method to measure the analyte without interference from excipients and degradants is:",
+       "options": [
+        "Linearity",
+        "Robustness",
+        "Precision",
+        "Range",
+        "Specificity"
+       ],
+       "answerIndex": 4,
+       "explanation": "Specificity (selectivity) ensures only the analyte is measured."
+      },
+      {
+       "stem": "Accuracy of an analytical method is usually assessed by:",
+       "options": [
+        "Counting peaks",
+        "Changing the column",
+        "Measuring colour",
+        "Repeating injections",
+        "Recovery studies of known added amounts"
+       ],
+       "answerIndex": 4,
+       "explanation": "Accuracy is closeness to the true value."
+      },
+      {
+       "stem": "Precision is commonly expressed as:",
+       "options": [
+        "Percentage relative standard deviation (%RSD)",
+        "Absorbance",
+        "Rf value",
+        "Retention time",
+        "Recovery"
+       ],
+       "answerIndex": 0,
+       "explanation": "Low %RSD indicates good precision."
+      },
+      {
+       "stem": "The lowest concentration that can be quantified with acceptable precision and accuracy is the:",
+       "options": [
+        "LOQ",
+        "MIC",
+        "LOD",
+        "λmax",
+        "Rf"
+       ],
+       "answerIndex": 0,
+       "explanation": "The limit of quantitation."
+      },
+      {
+       "stem": "A stability-indicating method must be able to:",
+       "options": [
+        "Sterilise samples",
+        "Predict price",
+        "Separate the drug from its degradation products",
+        "Measure colour only",
+        "Increase shelf life"
+       ],
+       "answerIndex": 2,
+       "explanation": "Forced degradation studies demonstrate this."
+      },
+      {
+       "stem": "The international guideline for validation of analytical procedures is:",
+       "options": [
+        "WHO GMP only",
+        "ICH E6",
+        "ISO 9001",
+        "ICH Q2",
+        "ICH Q1"
+       ],
+       "answerIndex": 3,
+       "explanation": "ICH Q2 covers analytical validation."
+      },
+      {
+       "stem": "Nigeria falls in which ICH climatic zone for stability testing?",
+       "options": [
+        "Zone 0",
+        "Zone IV (hot and humid)",
+        "Zone I",
+        "Zone II",
+        "Zone III"
+       ],
+       "answerIndex": 1,
+       "explanation": "Hot, humid climates require long-term testing at 30 °C and high humidity."
+      },
+      {
+       "stem": "Accelerated stability testing is typically performed at:",
+       "options": [
+        "4 °C",
+        "−20 °C",
+        "40 °C/75% RH",
+        "25 °C/60% RH",
+        "100 °C"
+       ],
+       "answerIndex": 2,
+       "explanation": "Stressed conditions predict long-term stability."
+      }
+     ]
+    },
+    {
+     "title": "Substandard and Falsified Medicines",
+     "order": 5,
+     "summary": "Definitions, public health impact, detection, and regulatory responses in Nigeria.",
+     "material": [
+      {
+       "heading": "Definitions and impact",
+       "body": "WHO definitions: substandard medicines are authorised products that fail quality standards or specifications (e.g. poor manufacturing, degradation from poor storage in heat and humidity); falsified medicines deliberately or fraudulently misrepresent their identity, composition or source (e.g. no active ingredient, wrong ingredient, fake packaging); unregistered/unlicensed medicines have not been evaluated by the national regulator. They cause treatment failure, antimicrobial resistance (sub-therapeutic antimalarials and antibiotics), adverse effects, death and loss of trust. Antimalarials and antibiotics are among the most frequently affected in sub-Saharan Africa.",
+       "keyPoints": [
+        "Substandard: fails specifications",
+        "Falsified: deliberately misrepresented",
+        "Unregistered: not evaluated",
+        "Causes treatment failure and resistance",
+        "Antimalarials and antibiotics often affected"
+       ]
+      },
+      {
+       "heading": "Detection and regulation",
+       "body": "Nigeria's NAFDAC has deployed technologies such as Mobile Authentication Service (MAS — scratch-off codes verified by SMS), TruScan handheld Raman spectrometers at ports and markets, and the Greenbook database of registered products; it runs post-marketing surveillance and pharmacovigilance and prosecutes offenders. The late Professor Dora Akunyili, former NAFDAC Director-General, is widely credited with major gains against fake drugs. Pharmacists should buy only from licensed suppliers, check NAFDAC registration numbers, batch numbers, expiry dates and packaging, store medicines correctly, report suspected poor-quality products, and educate the public to avoid open-market drug hawkers. Good distribution practice and cold-chain management protect quality throughout the supply chain.",
+       "keyPoints": [
+        "NAFDAC MAS scratch codes; TruScan",
+        "NAFDAC Greenbook of registered products",
+        "Dora Akunyili's anti-counterfeit campaign",
+        "Buy from licensed suppliers; report suspects",
+        "Good distribution practice"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A medicine that deliberately misrepresents its identity or source is:",
+       "options": [
+        "Generic",
+        "Innovator",
+        "Substandard",
+        "Expired only",
+        "Falsified"
+       ],
+       "answerIndex": 4,
+       "explanation": "Falsification implies intent to deceive."
+      },
+      {
+       "stem": "An authorised medicine that fails quality specifications due to poor storage is:",
+       "options": [
+        "Unregistered",
+        "Counterfeit brand",
+        "Falsified",
+        "Herbal",
+        "Substandard"
+       ],
+       "answerIndex": 4,
+       "explanation": "Substandard products are genuine but defective."
+      },
+      {
+       "stem": "Poor-quality antimalarials with too little active ingredient contribute to:",
+       "options": [
+        "Lower prices only",
+        "Faster recovery",
+        "Treatment failure and drug resistance",
+        "Better cure rates",
+        "Reduced side effects"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sub-therapeutic doses select resistant parasites."
+      },
+      {
+       "stem": "NAFDAC's Mobile Authentication Service allows consumers to:",
+       "options": [
+        "Buy drugs online",
+        "Get free drugs",
+        "Book appointments",
+        "Report prices",
+        "Verify a product by texting a scratch-off code"
+       ],
+       "answerIndex": 4,
+       "explanation": "An SMS reply confirms genuineness."
+      },
+      {
+       "stem": "The former NAFDAC Director-General celebrated for fighting fake drugs is:",
+       "options": [
+        "Dora Akunyili",
+        "Chimamanda Adichie",
+        "Ngozi Okonjo-Iweala",
+        "Grace Alele-Williams",
+        "Funmilayo Ransome-Kuti"
+       ],
+       "answerIndex": 0,
+       "explanation": "Professor Dora Akunyili led a major campaign in the 2000s."
+      },
+      {
+       "stem": "Which action helps a pharmacist avoid falsified medicines?",
+       "options": [
+        "Buying the cheapest source always",
+        "Ignoring expiry dates",
+        "Buying only from licensed suppliers and checking NAFDAC registration",
+        "Removing packaging",
+        "Buying from roadside hawkers"
+       ],
+       "answerIndex": 2,
+       "explanation": "Legitimate supply chains reduce risk."
+      },
+      {
+       "stem": "The NAFDAC online database of registered products is called the:",
+       "options": [
+        "Yellow Card",
+        "White Paper",
+        "Blue List",
+        "Redbook",
+        "Greenbook"
+       ],
+       "answerIndex": 4,
+       "explanation": "It allows verification of registered medicines."
+      },
+      {
+       "stem": "Handheld Raman devices such as TruScan are used to:",
+       "options": [
+        "Rapidly identify medicines and detect fakes",
+        "Sterilise medicines",
+        "Count pills",
+        "Measure blood pressure",
+        "Weigh tablets"
+       ],
+       "answerIndex": 0,
+       "explanation": "They compare spectra with reference libraries."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

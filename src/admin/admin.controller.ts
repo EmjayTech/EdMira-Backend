@@ -20,6 +20,8 @@ import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
 import { AdminContentService } from './admin-content.service';
 import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
+import { AiDraftService } from './ai-draft.service';
+import { AiDraftDto, BulkTransitionDto, ImportDto } from './dto/import.dto';
 import { AuditService } from './audit/audit.service';
 import {
   CourseInputDto,
@@ -52,6 +54,7 @@ export class AdminController {
     private readonly newsAdmin: AdminNewsService,
     private readonly auditLog: AuditService,
     private readonly storage: FileStorageService,
+    private readonly ai: AiDraftService,
   ) {}
 
   // ── Courses ──
@@ -125,6 +128,33 @@ export class AdminController {
   @Post('questions/:id/transitions')
   transitionQuestion(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: TransitionDto) {
     return this.content.transition(staff, 'question', id, dto);
+  }
+
+  // ── Bulk tools ──
+  @Post('import')
+  @RequirePermission('editContent')
+  @ApiOperation({ summary: 'Import courses → topics → questions (spreadsheet / JSON). Lands in the review queue.' })
+  importContent(@CurrentStaff() staff: Staff, @Body() dto: ImportDto) {
+    return this.content.importContent(staff, dto);
+  }
+
+  @Post('transitions/bulk')
+  @ApiOperation({ summary: 'Apply one workflow action to many topics / questions / materials' })
+  bulkTransition(@CurrentStaff() staff: Staff, @Body() dto: BulkTransitionDto) {
+    return this.content.bulkTransition(staff, dto);
+  }
+
+  @Get('ai/status')
+  @ApiOperation({ summary: 'Whether AI question drafting is configured on this server' })
+  aiStatus() {
+    return { enabled: this.ai.enabled };
+  }
+
+  @Post('topics/:id/ai-questions')
+  @RequirePermission('editContent')
+  @ApiOperation({ summary: 'Draft practice questions for a topic with AI; they go to the review queue' })
+  draftQuestions(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: AiDraftDto) {
+    return this.ai.draftQuestions(staff, id, dto.count, dto.focus);
   }
 
   // ── Study materials ──

@@ -1,0 +1,653 @@
+{
+ "courses": [
+  {
+   "title": "Biopharmaceutics and Clinical Pharmacokinetics",
+   "code": "PCT401",
+   "color": "#0891B2",
+   "description": "Drug release and absorption, bioavailability and bioequivalence, compartmental pharmacokinetics, dosing regimens, therapeutic drug monitoring and modified-release systems.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Biopharmaceutics: From Dosage Form to Absorption",
+     "order": 1,
+     "summary": "LADME, factors affecting absorption, BCS and food effects.",
+     "material": [
+      {
+       "heading": "LADME",
+       "body": "Biopharmaceutics links a dosage form's physicochemical properties and formulation to the rate and extent of drug absorption. The LADME scheme: Liberation (release from the dosage form — disintegration and dissolution), Absorption, Distribution, Metabolism and Excretion. For poorly soluble drugs, dissolution is rate-limiting; for highly soluble drugs, gastric emptying or permeability may limit absorption. Physiological factors: gastrointestinal pH, gastric emptying (slowed by food, anticholinergics, opioids), intestinal transit, surface area, efflux transporters (P-glycoprotein), gut wall and first-pass hepatic metabolism, and disease (diarrhoea, achlorhydria).",
+       "keyPoints": [
+        "LADME",
+        "Dissolution rate-limiting for poorly soluble drugs",
+        "P-glycoprotein efflux",
+        "Gastric emptying affects onset"
+       ]
+      },
+      {
+       "heading": "BCS and food effects",
+       "body": "The Biopharmaceutics Classification System (Amidon, 1995) groups drugs by solubility and intestinal permeability: Class I (high/high — e.g. metoprolol, paracetamol), Class II (low solubility/high permeability — e.g. ibuprofen, carbamazepine; dissolution-limited, formulation matters), Class III (high solubility/low permeability — e.g. atenolol, metformin), Class IV (low/low — e.g. furosemide in some classifications). BCS-based biowaivers allow waiver of in vivo bioequivalence studies for some Class I (and III) drugs with rapid dissolution. Food effects: food increases absorption of lipophilic drugs (lumefantrine, griseofulvin, albendazole in tissue infections) but reduces absorption of others (e.g. some penicillins, rifampicin, levothyroxine best on an empty stomach); calcium, iron and antacids chelate tetracyclines and quinolones.",
+       "keyPoints": [
+        "BCS: solubility × permeability",
+        "Class II: formulation critical",
+        "Biowaivers for rapidly dissolving Class I drugs",
+        "Fat increases lumefantrine absorption",
+        "Levothyroxine and rifampicin on empty stomach"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In the LADME scheme, 'L' refers to:",
+       "options": [
+        "Liver metabolism",
+        "Loading dose",
+        "Lipid solubility",
+        "Liberation of drug from the dosage form",
+        "Lymphatic transport"
+       ],
+       "answerIndex": 3,
+       "explanation": "Release is the first step."
+      },
+      {
+       "stem": "For a poorly soluble drug, the rate-limiting step in absorption is usually:",
+       "options": [
+        "Dissolution",
+        "Protein binding",
+        "Metabolism",
+        "Distribution",
+        "Excretion"
+       ],
+       "answerIndex": 0,
+       "explanation": "The drug must dissolve before it can be absorbed."
+      },
+      {
+       "stem": "A BCS Class II drug has:",
+       "options": [
+        "High solubility, low permeability",
+        "No absorption",
+        "Low solubility, high permeability",
+        "High solubility, high permeability",
+        "Low solubility, low permeability"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its absorption is dissolution-limited."
+      },
+      {
+       "stem": "The efflux transporter that pumps some drugs back into the gut lumen is:",
+       "options": [
+        "P-glycoprotein",
+        "OATP only in bone",
+        "GLUT4",
+        "SGLT1",
+        "Na+/K+-ATPase"
+       ],
+       "answerIndex": 0,
+       "explanation": "P-gp limits absorption of its substrates."
+      },
+      {
+       "stem": "Lumefantrine absorption increases markedly when taken with:",
+       "options": [
+        "An empty stomach",
+        "Antacids",
+        "Fatty food or milk",
+        "Alcohol",
+        "Charcoal"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is highly lipophilic."
+      },
+      {
+       "stem": "Levothyroxine should ideally be taken:",
+       "options": [
+        "At any time with antacids",
+        "With coffee",
+        "On an empty stomach, separate from calcium and iron",
+        "With meals only",
+        "With breakfast and calcium supplements"
+       ],
+       "answerIndex": 2,
+       "explanation": "Food and minerals reduce its absorption."
+      },
+      {
+       "stem": "BCS-based biowaivers allow some products to avoid:",
+       "options": [
+        "Registration",
+        "Stability testing",
+        "Labelling",
+        "In vivo bioequivalence studies",
+        "GMP"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rapidly dissolving highly soluble drugs may be exempt."
+      },
+      {
+       "stem": "Gastric emptying is slowed by:",
+       "options": [
+        "Water",
+        "Exercise only",
+        "Opioids and anticholinergics",
+        "Metoclopramide",
+        "Standing"
+       ],
+       "answerIndex": 2,
+       "explanation": "They reduce gut motility, delaying absorption."
+      }
+     ]
+    },
+    {
+     "title": "Bioavailability and Bioequivalence",
+     "order": 2,
+     "summary": "Absolute and relative bioavailability, Cmax, Tmax and AUC, and bioequivalence criteria.",
+     "material": [
+      {
+       "heading": "Parameters",
+       "body": "Bioavailability describes the rate and extent to which the active ingredient reaches the systemic circulation. Plasma concentration–time curves give: Cmax (peak concentration — relates to efficacy and toxicity), Tmax (time to peak — rate of absorption) and AUC (area under the curve — extent of absorption, total exposure). Absolute bioavailability F = (AUCoral × DoseIV)/(AUCIV × Doseoral); relative bioavailability compares two non-intravenous formulations. The minimum effective concentration (MEC) and minimum toxic concentration (MTC) define the therapeutic window; onset of action is when levels exceed the MEC and duration is the time above it.",
+       "keyPoints": [
+        "Cmax, Tmax, AUC",
+        "AUC = extent; Tmax = rate",
+        "Absolute F uses IV reference",
+        "Therapeutic window: MEC to MTC"
+       ]
+      },
+      {
+       "heading": "Bioequivalence",
+       "body": "Two pharmaceutically equivalent products are bioequivalent if their rate and extent of absorption are similar enough that their efficacy and safety are expected to be the same. Standard criterion: the 90% confidence intervals for the ratios (test/reference) of AUC and Cmax must lie within 80.00–125.00% (narrower for narrow therapeutic index drugs). Studies are usually randomised crossover designs in healthy volunteers with adequate washout (at least 5 half-lives). Generic medicines must demonstrate bioequivalence to the innovator for registration (NAFDAC and WHO prequalification). Therapeutic equivalence allows interchangeable generic substitution, reducing costs.",
+       "keyPoints": [
+        "90% CI of AUC and Cmax ratios within 80–125%",
+        "Crossover design with washout",
+        "Generics must show bioequivalence",
+        "Enables generic substitution"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The parameter that reflects the extent (total amount) of drug absorbed is:",
+       "options": [
+        "Tmax",
+        "AUC",
+        "Cmax",
+        "Volume of distribution",
+        "Half-life"
+       ],
+       "answerIndex": 1,
+       "explanation": "AUC measures total systemic exposure."
+      },
+      {
+       "stem": "The time to reach peak plasma concentration is:",
+       "options": [
+        "AUC",
+        "Tmax",
+        "t½",
+        "MEC",
+        "Cmax"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tmax indicates the rate of absorption."
+      },
+      {
+       "stem": "Absolute bioavailability compares an oral formulation with:",
+       "options": [
+        "A placebo",
+        "Another oral tablet",
+        "An intravenous dose",
+        "A topical cream",
+        "A syrup"
+       ],
+       "answerIndex": 2,
+       "explanation": "IV bioavailability is 100%."
+      },
+      {
+       "stem": "The standard bioequivalence acceptance range for the 90% CI of AUC and Cmax ratios is:",
+       "options": [
+        "50–150%",
+        "95–105%",
+        "90–110% for all drugs",
+        "80–125%",
+        "70–130%"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tighter limits may apply to narrow therapeutic index drugs."
+      },
+      {
+       "stem": "Bioequivalence studies are usually conducted as:",
+       "options": [
+        "Randomised crossover studies in healthy volunteers",
+        "In vitro only",
+        "Animal studies only",
+        "Single-arm studies in patients",
+        "Surveys"
+       ],
+       "answerIndex": 0,
+       "explanation": "Each subject acts as their own control."
+      },
+      {
+       "stem": "The washout period between treatments in a crossover study should be at least:",
+       "options": [
+        "1 half-life",
+        "1 year",
+        "1 hour",
+        "No washout needed",
+        "5 half-lives"
+       ],
+       "answerIndex": 4,
+       "explanation": "This ensures complete elimination of the first product."
+      },
+      {
+       "stem": "The concentration range between the minimum effective and minimum toxic concentrations is the:",
+       "options": [
+        "Bioavailability",
+        "Loading dose",
+        "Therapeutic window",
+        "Clearance",
+        "Volume of distribution"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dosing aims to keep levels within this window."
+      },
+      {
+       "stem": "The main purpose of demonstrating bioequivalence for generics is to:",
+       "options": [
+        "Shorten shelf life",
+        "Change the active ingredient",
+        "Allow them to be substituted for the innovator with the same efficacy and safety",
+        "Avoid registration",
+        "Increase price"
+       ],
+       "answerIndex": 2,
+       "explanation": "Bioequivalence underpins generic substitution."
+      }
+     ]
+    },
+    {
+     "title": "Compartmental Pharmacokinetics",
+     "order": 3,
+     "summary": "One-compartment models, elimination rate constant, IV bolus and infusion, and oral absorption kinetics.",
+     "material": [
+      {
+       "heading": "One-compartment model",
+       "body": "In a one-compartment model with first-order elimination after an IV bolus, C = C0e^(−kt), where k (elimination rate constant) = CL/Vd and t½ = 0.693/k. Plotting ln C against time gives a straight line with slope −k. Vd = Dose/C0. Clearance CL = k × Vd = Dose/AUC. For a constant-rate IV infusion, the steady-state concentration Css = infusion rate/CL, reached after about 4–5 half-lives regardless of the rate. A two-compartment model shows an initial distribution (α) phase followed by an elimination (β) phase.",
+       "keyPoints": [
+        "C = C0e^(−kt)",
+        "k = CL/Vd; t½ = 0.693/k",
+        "CL = Dose/AUC",
+        "Css = infusion rate/CL",
+        "Two-compartment: α then β phase"
+       ]
+      },
+      {
+       "heading": "Oral absorption and multiple dosing",
+       "body": "After oral dosing, absorption usually follows first-order kinetics with absorption rate constant ka; if ka ≫ k, the terminal slope reflects elimination; if absorption is slower than elimination ('flip-flop' kinetics, e.g. some modified-release products), the terminal slope reflects absorption. With repeated doses at interval τ, drug accumulates until steady state; the accumulation factor = 1/(1 − e^(−kτ)). Average steady-state concentration Css,avg = F × Dose/(CL × τ). Loading dose = Vd × target C/F; maintenance dose rate = CL × target C/F. Fluctuation between peak and trough decreases with shorter intervals or modified-release formulations.",
+       "keyPoints": [
+        "ka ≫ k: terminal slope = elimination",
+        "Flip-flop kinetics with slow absorption",
+        "Css,avg = F × Dose/(CL × τ)",
+        "Loading = Vd × C/F; maintenance = CL × C/F"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A drug has an elimination rate constant k of 0.1 h⁻¹. Its half-life is about:",
+       "options": [
+        "0.1 h",
+        "6.93 h",
+        "10 h",
+        "69.3 h",
+        "1 h"
+       ],
+       "answerIndex": 1,
+       "explanation": "t½ = 0.693/0.1 = 6.93 h."
+      },
+      {
+       "stem": "After an IV bolus, Vd can be calculated as:",
+       "options": [
+        "Dose × C0",
+        "k ÷ CL",
+        "C0 ÷ Dose",
+        "Dose ÷ C0",
+        "AUC ÷ Dose"
+       ],
+       "answerIndex": 3,
+       "explanation": "Vd = Dose/C0."
+      },
+      {
+       "stem": "Clearance can be calculated as:",
+       "options": [
+        "AUC ÷ Dose",
+        "Vd ÷ k",
+        "Cmax × Tmax",
+        "Dose ÷ AUC (for IV)",
+        "t½ × Vd"
+       ],
+       "answerIndex": 3,
+       "explanation": "CL = Dose/AUC for an IV dose."
+      },
+      {
+       "stem": "The steady-state concentration during a constant IV infusion is:",
+       "options": [
+        "Always equal to C0",
+        "Infusion rate ÷ CL",
+        "Vd ÷ rate",
+        "Dose ÷ Vd",
+        "Infusion rate × CL"
+       ],
+       "answerIndex": 1,
+       "explanation": "Css = R0/CL."
+      },
+      {
+       "stem": "The time to reach steady state during an infusion depends mainly on the drug's:",
+       "options": [
+        "Formulation",
+        "Colour",
+        "Molecular weight",
+        "Infusion rate",
+        "Half-life"
+       ],
+       "answerIndex": 4,
+       "explanation": "About 4–5 half-lives regardless of rate."
+      },
+      {
+       "stem": "A plot of ln(concentration) versus time after an IV bolus (one-compartment) is:",
+       "options": [
+        "A straight line with slope −k",
+        "Random",
+        "Horizontal",
+        "A curve rising upwards",
+        "U-shaped"
+       ],
+       "answerIndex": 0,
+       "explanation": "First-order elimination is log-linear."
+      },
+      {
+       "stem": "'Flip-flop' kinetics occur when:",
+       "options": [
+        "There is no metabolism",
+        "Absorption is much faster than elimination",
+        "Absorption is slower than elimination",
+        "Vd is zero",
+        "The drug is given IV"
+       ],
+       "answerIndex": 2,
+       "explanation": "The terminal slope then reflects absorption."
+      },
+      {
+       "stem": "The maintenance dose rate to achieve a target concentration is:",
+       "options": [
+        "Vd × C ÷ F",
+        "t½ × C",
+        "k × Vd ÷ C",
+        "CL × C ÷ F",
+        "Dose ÷ AUC"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rate in must equal rate out at steady state."
+      }
+     ]
+    },
+    {
+     "title": "Therapeutic Drug Monitoring and Dose Individualisation",
+     "order": 4,
+     "summary": "Drugs requiring TDM, sampling times, dosing in renal and hepatic impairment, and special populations.",
+     "material": [
+      {
+       "heading": "TDM",
+       "body": "Therapeutic drug monitoring measures plasma concentrations to optimise dosing for drugs with a narrow therapeutic index, large inter-individual variability, a good concentration–response relationship and no easy clinical endpoint: aminoglycosides (gentamicin — trough to avoid toxicity, peak or AUC for efficacy), vancomycin (trough or AUC), digoxin (sample at least 6 hours after the dose; range ~0.5–2 µg/L lower targets now preferred), lithium (12 hours post-dose; 0.4–1.0 mmol/L), phenytoin (zero-order kinetics — small dose changes cause large level changes; correct for low albumin), carbamazepine, theophylline, ciclosporin and tacrolimus. Levels are interpreted with timing of the sample, dosing history, adherence, clinical state and interacting drugs.",
+       "keyPoints": [
+        "TDM for narrow therapeutic index drugs",
+        "Gentamicin: troughs for toxicity",
+        "Digoxin: sample ≥ 6 h post-dose",
+        "Lithium: 12 h post-dose",
+        "Phenytoin: correct for low albumin"
+       ]
+      },
+      {
+       "heading": "Special populations",
+       "body": "Renal impairment: estimate renal function (Cockcroft–Gault creatinine clearance = [(140 − age) × weight (kg)] ÷ [0.815 × serum creatinine (µmol/L)] × 0.85 for women); reduce dose or extend interval for renally excreted drugs (aminoglycosides, vancomycin, metformin, dabigatran, many antibiotics), and avoid nephrotoxins. Hepatic impairment: reduce doses of highly metabolised drugs; avoid drugs that precipitate encephalopathy (sedatives, opioids) or bleeding. Children: doses by weight or body surface area; neonates have immature metabolism and renal function (e.g. chloramphenicol — grey baby syndrome). Elderly: reduced renal function and altered body composition; start low, go slow; beware polypharmacy and falls (Beers criteria). Pregnancy: increased Vd and renal clearance; consider teratogenicity. Obesity: use appropriate weight (ideal, adjusted or total) depending on drug lipophilicity.",
+       "keyPoints": [
+        "Cockcroft–Gault for renal dosing",
+        "Adjust renally cleared drugs",
+        "Neonates: immature metabolism",
+        "Elderly: start low, go slow; Beers criteria",
+        "Choose appropriate weight in obesity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Therapeutic drug monitoring is most useful for drugs with:",
+       "options": [
+        "Clear clinical endpoints such as BP",
+        "Wide therapeutic indices",
+        "Topical use only",
+        "No measurable levels",
+        "Narrow therapeutic indices and variable kinetics"
+       ],
+       "answerIndex": 4,
+       "explanation": "TDM prevents toxicity and failure."
+      },
+      {
+       "stem": "Digoxin levels should be sampled at least ___ after a dose.",
+       "options": [
+        "48 hours",
+        "Immediately",
+        "30 minutes",
+        "6 hours",
+        "1 week"
+       ],
+       "answerIndex": 3,
+       "explanation": "Distribution into tissues takes about 6 hours."
+      },
+      {
+       "stem": "Lithium levels are usually measured:",
+       "options": [
+        "At random",
+        "Weekly without regard to dose timing",
+        "1 hour post-dose",
+        "12 hours post-dose",
+        "Only when toxic"
+       ],
+       "answerIndex": 3,
+       "explanation": "Standardised 12-hour levels guide dosing."
+      },
+      {
+       "stem": "Phenytoin levels must be interpreted cautiously in patients with low albumin because:",
+       "options": [
+        "Total level underestimates the free (active) fraction",
+        "It has first-order kinetics",
+        "Albumin inactivates it",
+        "It is not protein-bound",
+        "It is renally excreted"
+       ],
+       "answerIndex": 1,
+       "explanation": "More phenytoin is unbound when albumin is low."
+      },
+      {
+       "stem": "The Cockcroft–Gault equation estimates:",
+       "options": [
+        "Cardiac output",
+        "Albumin",
+        "Liver function",
+        "Body surface area",
+        "Creatinine clearance"
+       ],
+       "answerIndex": 4,
+       "explanation": "It guides dosing in renal impairment."
+      },
+      {
+       "stem": "Which drug requires dose adjustment in renal impairment?",
+       "options": [
+        "Gentamicin",
+        "Salbutamol inhaler",
+        "Paracetamol at standard doses",
+        "Omeprazole",
+        "Diazepam single dose"
+       ],
+       "answerIndex": 0,
+       "explanation": "Gentamicin is renally cleared and nephrotoxic."
+      },
+      {
+       "stem": "The principle for prescribing to elderly patients is:",
+       "options": [
+        "Start high, go fast",
+        "Always double doses",
+        "Start low, go slow",
+        "Use adult doses without adjustment",
+        "Avoid all drugs"
+       ],
+       "answerIndex": 2,
+       "explanation": "Reduced clearance and sensitivity increase risk."
+      },
+      {
+       "stem": "Grey baby syndrome occurs because neonates cannot adequately:",
+       "options": [
+        "Swallow tablets",
+        "Distribute drugs",
+        "Excrete penicillin",
+        "Glucuronidate chloramphenicol",
+        "Absorb chloramphenicol"
+       ],
+       "answerIndex": 3,
+       "explanation": "Immature hepatic conjugation leads to accumulation."
+      }
+     ]
+    },
+    {
+     "title": "Modified-release and Novel Drug Delivery Systems",
+     "order": 5,
+     "summary": "Sustained and controlled release, targeted delivery, transdermal, and nanotechnology.",
+     "material": [
+      {
+       "heading": "Modified release",
+       "body": "Modified-release (MR) formulations alter the timing or location of drug release: delayed release (enteric coating — releases in the intestine), extended/sustained release (release over an extended period to reduce dosing frequency and fluctuation — e.g. nifedipine MR, metformin XR, carbamazepine CR), and pulsatile release. Mechanisms: matrix systems (hydrophilic hydroxypropyl methylcellulose matrices that swell and gel; inert matrices), reservoir (membrane-controlled) systems, osmotic pumps (OROS — release through a laser-drilled hole at a constant, zero-order rate) and ion-exchange resins. MR tablets must not be crushed or chewed (risk of 'dose dumping' and toxicity); alcohol can cause dose dumping from some formulations. Long-acting injectables include depot antipsychotics, medroxyprogesterone acetate (every 3 months) and benzathine penicillin.",
+       "keyPoints": [
+        "Delayed vs extended release",
+        "HPMC hydrophilic matrix",
+        "OROS osmotic pump: zero-order",
+        "Never crush MR tablets (dose dumping)",
+        "Depot injections"
+       ]
+      },
+      {
+       "heading": "Novel systems",
+       "body": "Transdermal patches (nicotine, fentanyl, glyceryl trinitrate, hormonal contraceptives) deliver drugs through the skin for systemic effects, avoiding first-pass metabolism and giving steady levels; heat and broken skin increase absorption. Implants (contraceptive implants such as Jadelle and Implanon; drug-eluting stents) provide long-term release. Inhaled delivery (metered-dose and dry powder inhalers, nebulisers) targets the lungs. Nanotechnology-based systems — liposomes (liposomal amphotericin B, liposomal doxorubicin — reduced toxicity), polymeric nanoparticles, and lipid nanoparticles (mRNA vaccines) — improve solubility, stability and targeting. Antibody–drug conjugates target cancer cells. Such technologies can improve adherence (e.g. long-acting injectable cabotegravir for HIV prevention).",
+       "keyPoints": [
+        "Transdermal: avoids first-pass; heat ↑ absorption",
+        "Contraceptive implants",
+        "Liposomal amphotericin: less nephrotoxic",
+        "Lipid nanoparticles in mRNA vaccines",
+        "Long-acting injectables improve adherence"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main purpose of extended-release formulations is to:",
+       "options": [
+        "Speed up onset",
+        "Increase peak toxicity",
+        "Avoid absorption",
+        "Change the drug's mechanism",
+        "Reduce dosing frequency and fluctuation in levels"
+       ],
+       "answerIndex": 4,
+       "explanation": "Steady release improves adherence and tolerability."
+      },
+      {
+       "stem": "Patients should be told not to crush modified-release tablets because this may cause:",
+       "options": [
+        "Improved taste",
+        "Dose dumping and toxicity",
+        "Better absorption safely",
+        "Loss of colour only",
+        "No effect"
+       ],
+       "answerIndex": 1,
+       "explanation": "The whole dose may be released at once."
+      },
+      {
+       "stem": "An osmotic pump (OROS) tablet releases drug by:",
+       "options": [
+        "Enzymatic digestion",
+        "Magnetic attraction",
+        "Rapid disintegration",
+        "Melting",
+        "Osmotic pressure through a laser-drilled hole at a near-constant rate"
+       ],
+       "answerIndex": 4,
+       "explanation": "It approximates zero-order release."
+      },
+      {
+       "stem": "Hydroxypropyl methylcellulose in sustained-release tablets forms a:",
+       "options": [
+        "Effervescent base",
+        "Swelling gel matrix controlling release",
+        "Enteric coating",
+        "Sugar coat",
+        "Capsule shell"
+       ],
+       "answerIndex": 1,
+       "explanation": "Hydrophilic matrices gel on contact with water."
+      },
+      {
+       "stem": "An advantage of transdermal patches is that they:",
+       "options": [
+        "Need injection",
+        "Cannot be removed",
+        "Only act locally",
+        "Always act within seconds",
+        "Avoid first-pass metabolism and give steady levels"
+       ],
+       "answerIndex": 4,
+       "explanation": "Drug enters the systemic circulation through the skin."
+      },
+      {
+       "stem": "Liposomal amphotericin B is preferred in some patients because it is:",
+       "options": [
+        "Given orally",
+        "A different drug",
+        "Cheaper",
+        "More nephrotoxic",
+        "Less nephrotoxic"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lipid formulations reduce kidney toxicity."
+      },
+      {
+       "stem": "mRNA vaccines are delivered using:",
+       "options": [
+        "Transdermal patches",
+        "Osmotic pumps",
+        "Liposome-free saline",
+        "Lipid nanoparticles",
+        "Enteric-coated tablets"
+       ],
+       "answerIndex": 3,
+       "explanation": "Lipid nanoparticles protect and deliver mRNA."
+      },
+      {
+       "stem": "Medroxyprogesterone acetate depot injection for contraception is given every:",
+       "options": [
+        "3 months",
+        "Year",
+        "Month",
+        "Week",
+        "5 years"
+       ],
+       "answerIndex": 0,
+       "explanation": "DMPA provides about 12–13 weeks of protection."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

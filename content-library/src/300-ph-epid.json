@@ -1,0 +1,99 @@
+{
+  "title": "Principles of Epidemiology",
+  "code": "EPI301",
+  "color": "#0D9488",
+  "description": "Measures of disease frequency and association, surveillance, outbreak investigation, screening test evaluation and causation.",
+  "for": { "300": ["PH"], "400": ["MBBS", "CM", "NUR"], "PG": ["*"] },
+  "topics": [
+    {
+      "title": "Measures of Disease Frequency",
+      "summary": "Rates, ratios and proportions; incidence and prevalence; mortality and morbidity indicators.",
+      "notes": [
+        { "h": "Incidence and prevalence", "b": "Epidemiology is the study of the distribution and determinants of health-related states in populations, and the application of this study to control health problems. Incidence measures new cases: cumulative incidence (risk) = new cases during a period ÷ population at risk at the start; incidence rate (density) = new cases ÷ person-time at risk. Prevalence measures existing cases: point prevalence = all cases at a point in time ÷ total population. Prevalence ≈ incidence × average duration of disease — so a treatment that prolongs survival without cure increases prevalence. Attack rate is the cumulative incidence during an outbreak.", "k": ["Incidence: new cases; prevalence: existing cases", "Prevalence ≈ incidence × duration", "Attack rate: incidence during an outbreak"] },
+        { "h": "Mortality indicators", "b": "Crude death rate = deaths per 1,000 population per year. Case fatality rate = deaths from a disease ÷ cases of that disease (× 100%) — a measure of severity (e.g. Lassa fever CFR in Nigeria is often around 15–20% among confirmed cases). Infant mortality rate = infant deaths (< 1 year) per 1,000 live births; neonatal mortality rate (< 28 days) per 1,000 live births; under-five mortality rate per 1,000 live births; maternal mortality ratio per 100,000 live births. Age standardisation (direct or indirect) allows fair comparison between populations with different age structures; the standardised mortality ratio (SMR) = observed ÷ expected deaths.", "k": ["CFR measures severity", "IMR, NMR, U5MR per 1,000 live births", "MMR per 100,000 live births", "SMR = observed/expected"] }
+      ],
+      "q": [
+        ["The number of new cases of a disease in a population during a period is the:", "Prevalence", "Incidence", "Case fatality rate", "Mortality rate", "Attack rate only", 1, "Incidence counts new cases."],
+        ["Prevalence is approximately equal to:", "Incidence ÷ duration", "Incidence × average duration", "Mortality × duration", "Incidence − mortality", "Deaths ÷ cases", 1, "Longer-lasting diseases accumulate more prevalent cases."],
+        ["A new drug that prolongs life in HIV but does not cure it will:", "Decrease prevalence", "Increase prevalence", "Decrease incidence", "Not affect prevalence", "Cure the disease", 1, "Longer survival increases the number living with the disease."],
+        ["The proportion of people with a disease who die of it is the:", "Crude death rate", "Case fatality rate", "Incidence rate", "Prevalence", "Attack rate", 1, "CFR reflects disease severity."],
+        ["If 20 of 100 confirmed Lassa fever cases die, the case fatality rate is:", "2%", "5%", "20%", "80%", "100%", 2, "20 ÷ 100 × 100% = 20%."],
+        ["Neonatal mortality refers to deaths in the first:", "7 days", "28 days", "1 year", "5 years", "24 hours only", 1, "The neonatal period is the first 28 days."],
+        ["To compare death rates between populations with very different age structures, we use:", "Crude rates", "Age-standardised rates", "Attack rates", "Case fatality rates", "Proportions only", 1, "Standardisation removes the effect of age differences."],
+        ["An SMR of 150 means that:", "Deaths were 50% fewer than expected", "Observed deaths were 50% more than expected", "Deaths equalled expected", "150 people died", "The population was 150", 1, "SMR = observed/expected × 100."]
+      ]
+    },
+    {
+      "title": "Measures of Association and Impact",
+      "summary": "Relative risk, odds ratio, attributable risk, population attributable fraction and number needed to treat.",
+      "notes": [
+        { "h": "Association", "b": "Relative risk (RR) = incidence in exposed ÷ incidence in unexposed (from cohort studies and trials): RR = 1 no association; > 1 increased risk; < 1 protective. The odds ratio (OR) = (a × d) ÷ (b × c) from a 2×2 table; it is used in case–control studies and approximates the RR when the disease is rare. Confidence intervals that include 1 indicate no statistically significant association. Hazard ratios come from survival analysis.", "k": ["RR = Ie / Iu (cohort studies)", "OR = ad/bc (case–control studies)", "95% CI including 1 = not significant"] },
+        { "h": "Impact", "b": "Attributable risk (risk difference) = incidence in exposed − incidence in unexposed; it indicates the excess risk due to exposure. Attributable risk percent = AR ÷ incidence in exposed × 100. Population attributable risk (fraction) estimates the proportion of disease in the whole population due to the exposure — useful for public health planning. In trials: absolute risk reduction (ARR) = control event rate − experimental event rate; number needed to treat (NNT) = 1 ÷ ARR; relative risk reduction = ARR ÷ control event rate.", "k": ["AR = Ie − Iu", "PAR: burden in the population", "ARR = CER − EER", "NNT = 1/ARR"] }
+      ],
+      "q": [
+        ["Relative risk is calculated as:", "Incidence in exposed − incidence in unexposed", "Incidence in exposed ÷ incidence in unexposed", "(a × d) ÷ (b × c)", "1 ÷ ARR", "Prevalence ÷ incidence", 1, "RR compares risks in exposed and unexposed groups."],
+        ["A relative risk of 1 means:", "The exposure doubles risk", "No association between exposure and disease", "The exposure is protective", "Perfect association", "The study is invalid", 1, "Equal risk in both groups."],
+        ["The odds ratio is the measure of association used in:", "Cohort studies", "Case–control studies", "Cross-sectional studies only", "Ecological studies", "Case reports", 1, "Incidence cannot be calculated in case–control designs."],
+        ["A 95% confidence interval for an OR of 0.8–1.5 indicates:", "A significant protective effect", "A significant harmful effect", "No statistically significant association", "A perfect association", "An invalid study", 2, "The interval includes 1."],
+        ["If incidence of lung cancer is 20/1,000 in smokers and 2/1,000 in non-smokers, the attributable risk is:", "10", "18 per 1,000", "22 per 1,000", "2 per 1,000", "0.1", 1, "20 − 2 = 18 per 1,000."],
+        ["In the same example, the relative risk is:", "2", "10", "18", "0.1", "22", 1, "20 ÷ 2 = 10."],
+        ["If a treatment reduces events from 10% to 5%, the number needed to treat is:", "5", "10", "20", "50", "2", 2, "ARR = 0.05; NNT = 1/0.05 = 20."],
+        ["The measure estimating how much disease in the whole population is due to an exposure is the:", "Relative risk", "Population attributable fraction", "Odds ratio", "Case fatality rate", "Sensitivity", 1, "It guides public health priorities."]
+      ]
+    },
+    {
+      "title": "Surveillance and Outbreak Investigation",
+      "summary": "Types of surveillance, IDSR in Nigeria, notifiable diseases and steps in outbreak investigation.",
+      "notes": [
+        { "h": "Surveillance", "b": "Public health surveillance is the ongoing systematic collection, analysis, interpretation and dissemination of health data for action. Types: passive (routine reports from health facilities — cheap but incomplete), active (health workers seek cases — e.g. polio acute flaccid paralysis surveillance), sentinel (selected sites), syndromic and event-based surveillance. Nigeria uses the Integrated Disease Surveillance and Response (IDSR) strategy coordinated by the NCDC, with immediately notifiable diseases (e.g. cholera, Lassa fever, measles, meningitis, yellow fever, acute flaccid paralysis, avian influenza, Ebola, COVID-19, anthrax, mpox) and weekly/monthly reporting through SORMAS and DHIS2. Epidemic thresholds (alert and action) trigger responses.", "k": ["Passive vs active surveillance", "IDSR coordinated by NCDC", "Immediately notifiable: cholera, Lassa, measles, CSM, AFP", "SORMAS and DHIS2 reporting"] },
+        { "h": "Outbreak investigation", "b": "An outbreak (epidemic) is the occurrence of cases clearly in excess of normal expectancy. Steps: prepare for fieldwork; confirm the existence of an outbreak; verify the diagnosis (clinical and laboratory); establish a case definition (suspected, probable, confirmed — by person, place and time) and find cases (line list); describe the outbreak (epidemic curve by time, spot map by place, characteristics of persons); develop hypotheses; test hypotheses (analytical studies — cohort or case–control); implement control and prevention measures (which should start early, not wait for the end); communicate findings; and maintain surveillance. A point-source epidemic curve shows a sharp rise and fall within one incubation period; a propagated (person-to-person) curve shows successive peaks.", "k": ["Confirm outbreak and diagnosis", "Case definition: suspected, probable, confirmed", "Epidemic curve: point-source vs propagated", "Start control measures early"] }
+      ],
+      "q": [
+        ["Health workers actively searching communities for cases of acute flaccid paralysis is an example of:", "Passive surveillance", "Active surveillance", "Sentinel surveillance only", "Screening", "Case–control study", 1, "Active surveillance seeks out cases."],
+        ["Nigeria's strategy for disease surveillance is known as:", "EPI", "IDSR", "DOTS", "IMCI", "PMTCT", 1, "Integrated Disease Surveillance and Response."],
+        ["Which disease is immediately notifiable in Nigeria?", "Hypertension", "Lassa fever", "Diabetes", "Osteoarthritis", "Myopia", 1, "Lassa fever is an epidemic-prone notifiable disease."],
+        ["An epidemic curve with a sharp rise and fall within one incubation period suggests:", "Propagated transmission", "Point-source outbreak", "Endemic disease", "Seasonal variation only", "Vector-borne spread over years", 1, "All cases were exposed to a common source at one time."],
+        ["A list of cases with details of person, place and time is called a:", "Line list", "Spot map", "Case definition", "Epidemic curve", "Pedigree", 0, "The line list is the basic outbreak data set."],
+        ["An early step in outbreak investigation is to:", "Publish results", "Confirm the existence of an outbreak and verify the diagnosis", "Stop surveillance", "Close the hospital", "Start a clinical trial", 1, "Ensure the apparent increase is real."],
+        ["The occurrence of cases clearly in excess of what is normally expected is a/an:", "Endemic", "Epidemic (outbreak)", "Sporadic case", "Pandemic only", "Prevalence", 1, "This defines an epidemic."],
+        ["Control measures during an outbreak should be:", "Delayed until the investigation ends", "Started as early as possible", "Avoided", "Only for staff", "Decided by patients", 1, "Early control saves lives."]
+      ]
+    },
+    {
+      "title": "Screening and Diagnostic Test Evaluation",
+      "summary": "Sensitivity, specificity, predictive values, likelihood ratios and screening biases.",
+      "notes": [
+        { "h": "Test accuracy", "b": "From a 2×2 table comparing a test with a gold standard: sensitivity = true positives ÷ all with disease (TP/(TP+FN)) — the ability to detect disease; specificity = true negatives ÷ all without disease (TN/(TN+FP)). A highly sensitive test, when negative, rules OUT disease (SnNout); a highly specific test, when positive, rules IN disease (SpPin). Positive predictive value (PPV) = TP/(TP+FP); negative predictive value (NPV) = TN/(TN+FN). Predictive values depend on prevalence: as prevalence falls, PPV falls and NPV rises. Likelihood ratios (LR+ = sensitivity/(1 − specificity)) do not depend on prevalence.", "k": ["Sensitivity = TP/(TP+FN)", "Specificity = TN/(TN+FP)", "SnNout; SpPin", "PPV falls when prevalence falls"] },
+        { "h": "Screening programmes", "b": "Screening detects disease early in apparently healthy people; positive screening tests are followed by diagnostic tests. Serial testing (both tests must be positive) increases specificity; parallel testing (either test positive) increases sensitivity — e.g. HIV testing algorithms use serial testing with confirmatory assays. Biases in evaluating screening: lead-time bias (earlier diagnosis appears to lengthen survival without changing time of death), length-time bias (screening preferentially detects slow-growing disease) and overdiagnosis (detecting disease that would never cause harm). Screening programmes should meet the Wilson–Jungner criteria.", "k": ["Serial testing ↑ specificity; parallel ↑ sensitivity", "Lead-time bias", "Length-time bias", "Overdiagnosis"] }
+      ],
+      "q": [
+        ["Sensitivity of a test is calculated as:", "TN/(TN+FP)", "TP/(TP+FN)", "TP/(TP+FP)", "TN/(TN+FN)", "(TP+TN)/total", 1, "The proportion of diseased people who test positive."],
+        ["Specificity of a test is calculated as:", "TP/(TP+FN)", "TN/(TN+FP)", "TP/(TP+FP)", "FN/(FN+TP)", "FP/(FP+TN)", 1, "The proportion of non-diseased people who test negative."],
+        ["A highly sensitive test with a negative result helps to:", "Rule in disease", "Rule out disease", "Confirm treatment", "Estimate incidence", "Measure prevalence", 1, "SnNout: sensitive test, negative result, rules out."],
+        ["If the prevalence of a disease falls, the positive predictive value of a test will:", "Rise", "Fall", "Stay the same", "Become 100%", "Become zero always", 1, "More positives are false positives when disease is rare."],
+        ["A test detects 90 of 100 people with a disease. Its sensitivity is:", "10%", "90%", "100%", "50%", "Cannot be calculated", 1, "90/100 = 90%."],
+        ["Using two tests in series (both must be positive) increases:", "Sensitivity", "Specificity", "False positives", "Prevalence", "Incidence", 1, "Requiring both positive reduces false positives."],
+        ["Apparent longer survival due only to earlier diagnosis by screening is:", "Selection bias", "Lead-time bias", "Recall bias", "Confounding", "Length-time bias", 1, "The diagnosis is moved earlier without delaying death."],
+        ["Which measure of test performance does not depend on prevalence?", "PPV", "NPV", "Likelihood ratio", "Proportion of positives", "Post-test probability", 2, "Likelihood ratios depend only on sensitivity and specificity."]
+      ]
+    },
+    {
+      "title": "Causation and Disease Transmission",
+      "summary": "Bradford Hill criteria, chain of transmission, herd immunity and R0.",
+      "notes": [
+        { "h": "Causation", "b": "Association does not prove causation. The Bradford Hill criteria help judge whether an association is causal: strength, consistency, specificity, temporality (the cause must precede the effect — the only essential criterion), biological gradient (dose–response), plausibility, coherence, experiment (reversibility) and analogy. Alternative explanations for an association are chance, bias and confounding. Causes may be necessary (must be present — e.g. Mycobacterium tuberculosis for TB) and/or sufficient.", "k": ["Bradford Hill criteria", "Temporality is essential", "Rule out chance, bias, confounding", "Necessary vs sufficient causes"] },
+        { "h": "Transmission dynamics", "b": "Infectious disease terms: reservoir (where the agent normally lives — humans, animals such as Mastomys rats for Lassa, environment), carrier (infected without symptoms but infectious, e.g. typhoid carriers), incubation period, period of communicability, and modes of transmission (direct contact, droplet, airborne, vehicle-borne such as water and food, vector-borne, vertical). The basic reproduction number R0 is the average number of secondary cases produced by one case in a fully susceptible population (measles ≈ 12–18); an epidemic grows when the effective reproduction number R > 1. Herd immunity threshold ≈ 1 − 1/R0 (about 92–95% for measles), achieved mainly through vaccination. Zoonoses are diseases transmitted from animals (Lassa fever, rabies, anthrax, mpox); One Health links human, animal and environmental health.", "k": ["R0: secondary cases per case", "Herd immunity threshold ≈ 1 − 1/R0", "Measles R0 12–18 → ~95% coverage", "Lassa reservoir: Mastomys rats", "One Health"] }
+      ],
+      "q": [
+        ["Which Bradford Hill criterion is essential for causation?", "Strength", "Consistency", "Temporality", "Specificity", "Analogy", 2, "The cause must precede the effect."],
+        ["A dose–response relationship corresponds to the criterion of:", "Consistency", "Biological gradient", "Plausibility", "Coherence", "Specificity", 1, "More exposure giving more disease supports causality."],
+        ["The basic reproduction number (R0) is:", "The number of deaths per case", "The average number of secondary cases from one case in a fully susceptible population", "The incubation period", "The case fatality rate", "The prevalence", 1, "R0 describes transmission potential."],
+        ["If R0 = 10, the herd immunity threshold is approximately:", "10%", "50%", "90%", "99%", "1%", 2, "1 − 1/10 = 0.9, i.e. 90%."],
+        ["The reservoir of Lassa virus in Nigeria is the:", "Anopheles mosquito", "Mastomys natalensis (multimammate rat)", "Domestic dog", "Bat only", "Tsetse fly", 1, "Mastomys rats shed the virus in urine and droppings."],
+        ["A person infected with Salmonella Typhi who has no symptoms but sheds the organism is a:", "Case", "Carrier", "Reservoir animal", "Vector", "Fomite", 1, "Carriers can spread infection unknowingly."],
+        ["An epidemic grows when the effective reproduction number is:", "Less than 1", "Equal to 0", "Greater than 1", "Exactly 1 always", "Negative", 2, "Each case produces more than one new case."],
+        ["The approach linking human, animal and environmental health is:", "Primary care", "One Health", "Universal health coverage", "Health promotion", "Evidence-based medicine", 1, "Many emerging infections are zoonotic."]
+      ]
+    }
+  ]
+}

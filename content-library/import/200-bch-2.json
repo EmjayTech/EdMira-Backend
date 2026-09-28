@@ -1,0 +1,689 @@
+{
+ "courses": [
+  {
+   "title": "Biochemistry II: Carbohydrate and Lipid Metabolism (BCH 202)",
+   "code": "BCH202",
+   "color": "#9333EA",
+   "description": "Bioenergetics, glycolysis, the TCA cycle and oxidative phosphorylation, glycogen metabolism and gluconeogenesis, and fatty acid and ketone body metabolism.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Glycolysis and Its Regulation",
+     "order": 1,
+     "summary": "Steps, energy yield and control of glycolysis, and the fate of pyruvate.",
+     "material": [
+      {
+       "heading": "The pathway",
+       "body": "Glycolysis occurs in the cytoplasm of all cells, converting one glucose to two pyruvate with a net gain of 2 ATP and 2 NADH. Irreversible regulated steps are catalysed by hexokinase/glucokinase (glucose → glucose-6-phosphate), phosphofructokinase-1 (PFK-1, the rate-limiting step: fructose-6-phosphate → fructose-1,6-bisphosphate) and pyruvate kinase. PFK-1 is activated by AMP and fructose-2,6-bisphosphate, and inhibited by ATP and citrate. Glucokinase (liver, pancreatic β-cells) has a high Km and is not inhibited by its product. Red cells rely entirely on glycolysis (no mitochondria); their 2,3-BPG shunt regulates oxygen release.",
+       "keyPoints": [
+        "Net yield: 2 ATP + 2 NADH per glucose",
+        "PFK-1 is rate-limiting",
+        "Red cells depend solely on glycolysis"
+       ]
+      },
+      {
+       "heading": "Fate of pyruvate",
+       "body": "Under aerobic conditions pyruvate enters mitochondria and is converted to acetyl-CoA by the pyruvate dehydrogenase complex (needs thiamine, lipoate, CoA, FAD and NAD+). Under anaerobic conditions (exercising muscle, red cells) lactate dehydrogenase reduces pyruvate to lactate, regenerating NAD+ so glycolysis can continue; excess lactate causes lactic acidosis (e.g. shock, severe malaria). Lactate returns to the liver for gluconeogenesis (Cori cycle). Pyruvate kinase deficiency causes haemolytic anaemia.",
+       "keyPoints": [
+        "PDH needs thiamine (B1)",
+        "Anaerobic: pyruvate → lactate (regenerates NAD+)",
+        "Cori cycle: muscle lactate → liver glucose"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The rate-limiting enzyme of glycolysis is:",
+       "options": [
+        "Enolase",
+        "Phosphofructokinase-1",
+        "Hexokinase",
+        "Aldolase",
+        "Pyruvate kinase"
+       ],
+       "answerIndex": 1,
+       "explanation": "PFK-1 is the main control point."
+      },
+      {
+       "stem": "Net ATP gain from anaerobic glycolysis of one glucose molecule is:",
+       "options": [
+        "1",
+        "2",
+        "4",
+        "32",
+        "38"
+       ],
+       "answerIndex": 1,
+       "explanation": "4 ATP are made, but 2 are used, giving a net 2 ATP."
+      },
+      {
+       "stem": "Glycolysis takes place in the:",
+       "options": [
+        "Cytoplasm",
+        "Endoplasmic reticulum",
+        "Mitochondrial matrix",
+        "Lysosome",
+        "Nucleus"
+       ],
+       "answerIndex": 0,
+       "explanation": "All glycolytic enzymes are cytosolic."
+      },
+      {
+       "stem": "Under anaerobic conditions, pyruvate is converted to:",
+       "options": [
+        "Lactate",
+        "Acetyl-CoA",
+        "Citrate",
+        "Alanine only",
+        "Oxaloacetate"
+       ],
+       "answerIndex": 0,
+       "explanation": "LDH converts pyruvate to lactate, regenerating NAD+."
+      },
+      {
+       "stem": "The pyruvate dehydrogenase complex requires the coenzyme derived from:",
+       "options": [
+        "Thiamine (B1)",
+        "Vitamin D",
+        "Vitamin K",
+        "Biotin only",
+        "Vitamin C"
+       ],
+       "answerIndex": 0,
+       "explanation": "Thiamine pyrophosphate is essential for PDH."
+      },
+      {
+       "stem": "Red blood cells obtain ATP only from glycolysis because they lack:",
+       "options": [
+        "Mitochondria",
+        "Haemoglobin",
+        "Glucose transporters",
+        "Ribosomes",
+        "Nuclei"
+       ],
+       "answerIndex": 0,
+       "explanation": "Without mitochondria, they cannot oxidise pyruvate."
+      },
+      {
+       "stem": "PFK-1 is allosterically activated by:",
+       "options": [
+        "Acetyl-CoA",
+        "Fructose-2,6-bisphosphate",
+        "Glucagon directly",
+        "ATP",
+        "Citrate"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fructose-2,6-bisphosphate is the most potent activator."
+      },
+      {
+       "stem": "The Cori cycle transfers:",
+       "options": [
+        "Ketones to brain",
+        "Alanine from muscle to kidney",
+        "Lactate from muscle to liver for gluconeogenesis",
+        "Fatty acids to liver",
+        "Glucose from liver to brain"
+       ],
+       "answerIndex": 2,
+       "explanation": "Muscle lactate is recycled to glucose by the liver."
+      }
+     ]
+    },
+    {
+     "title": "TCA Cycle and Oxidative Phosphorylation",
+     "order": 2,
+     "summary": "The citric acid cycle, the electron transport chain, ATP synthase and inhibitors.",
+     "material": [
+      {
+       "heading": "The TCA cycle",
+       "body": "The tricarboxylic acid (Krebs, citric acid) cycle occurs in the mitochondrial matrix. Acetyl-CoA combines with oxaloacetate to form citrate (citrate synthase). Each turn produces 3 NADH, 1 FADH2, 1 GTP and 2 CO2. Key regulated enzymes are citrate synthase, isocitrate dehydrogenase (rate-limiting) and α-ketoglutarate dehydrogenase. The cycle is amphibolic: intermediates feed biosynthesis (e.g. succinyl-CoA → haem; oxaloacetate → glucose, aspartate).",
+       "keyPoints": [
+        "Site: mitochondrial matrix",
+        "Per turn: 3 NADH, 1 FADH2, 1 GTP, 2 CO2",
+        "Isocitrate dehydrogenase is rate-limiting"
+       ]
+      },
+      {
+       "heading": "Electron transport and ATP synthesis",
+       "body": "NADH and FADH2 donate electrons to the electron transport chain in the inner mitochondrial membrane (complexes I–IV, with coenzyme Q and cytochrome c), with oxygen as the final acceptor forming water. Proton pumping creates a gradient that drives ATP synthase (chemiosmotic theory of Mitchell). Each NADH yields about 2.5 ATP and each FADH2 about 1.5 ATP; complete oxidation of glucose yields about 30–32 ATP. Inhibitors: rotenone (complex I), antimycin A (complex III), cyanide, carbon monoxide and azide (complex IV), oligomycin (ATP synthase). Uncouplers such as 2,4-dinitrophenol and thermogenin dissipate the gradient as heat.",
+       "keyPoints": [
+        "O2 is the final electron acceptor",
+        "NADH ≈ 2.5 ATP; FADH2 ≈ 1.5 ATP; glucose ≈ 30–32 ATP",
+        "Cyanide and CO block complex IV",
+        "Uncouplers produce heat"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The TCA cycle takes place in the:",
+       "options": [
+        "Cytoplasm",
+        "Endoplasmic reticulum",
+        "Nucleus",
+        "Mitochondrial matrix",
+        "Inner mitochondrial membrane only"
+       ],
+       "answerIndex": 3,
+       "explanation": "TCA enzymes (except succinate dehydrogenase) are in the matrix."
+      },
+      {
+       "stem": "Acetyl-CoA condenses with ___ to form citrate.",
+       "options": [
+        "Malate",
+        "Fumarate",
+        "Pyruvate",
+        "Oxaloacetate",
+        "Succinate"
+       ],
+       "answerIndex": 3,
+       "explanation": "Citrate synthase joins acetyl-CoA and oxaloacetate."
+      },
+      {
+       "stem": "The final electron acceptor in the electron transport chain is:",
+       "options": [
+        "NAD+",
+        "Coenzyme Q",
+        "Cytochrome c",
+        "FAD",
+        "Oxygen"
+       ],
+       "answerIndex": 4,
+       "explanation": "O2 accepts electrons at complex IV, forming water."
+      },
+      {
+       "stem": "Cyanide poisoning inhibits:",
+       "options": [
+        "Complex II",
+        "Complex I",
+        "Complex IV (cytochrome oxidase)",
+        "Complex III",
+        "ATP synthase"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cyanide binds cytochrome a3 in complex IV."
+      },
+      {
+       "stem": "How many NADH are produced per turn of the TCA cycle?",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+       ],
+       "answerIndex": 2,
+       "explanation": "Three NADH, one FADH2 and one GTP per turn."
+      },
+      {
+       "stem": "2,4-Dinitrophenol is toxic because it:",
+       "options": [
+        "Blocks complex I",
+        "Inhibits glycolysis",
+        "Inhibits the TCA cycle",
+        "Blocks ATP synthase directly",
+        "Uncouples oxidative phosphorylation"
+       ],
+       "answerIndex": 4,
+       "explanation": "It carries protons across the membrane, releasing energy as heat."
+      },
+      {
+       "stem": "The chemiosmotic theory of ATP synthesis was proposed by:",
+       "options": [
+        "Carl Cori",
+        "Otto Warburg",
+        "Hans Krebs",
+        "Peter Mitchell",
+        "Watson and Crick"
+       ],
+       "answerIndex": 3,
+       "explanation": "Mitchell proposed that a proton gradient drives ATP synthase."
+      },
+      {
+       "stem": "Approximately how many ATP are produced by complete oxidation of one glucose?",
+       "options": [
+        "2",
+        "4",
+        "12",
+        "30–32",
+        "100"
+       ],
+       "answerIndex": 3,
+       "explanation": "Modern estimates give about 30–32 ATP per glucose."
+      }
+     ]
+    },
+    {
+     "title": "Glycogen Metabolism, Gluconeogenesis and the Pentose Phosphate Pathway",
+     "order": 3,
+     "summary": "Glycogenesis and glycogenolysis, glucose synthesis, hormonal control, and the HMP shunt.",
+     "material": [
+      {
+       "heading": "Glycogen and gluconeogenesis",
+       "body": "Glycogen synthase (activated by insulin) makes glycogen; glycogen phosphorylase (activated by glucagon in liver and adrenaline in muscle, via cAMP and phosphorylation) breaks it down. Liver glycogen maintains blood glucose (liver has glucose-6-phosphatase); muscle glycogen fuels only muscle (no glucose-6-phosphatase). Gluconeogenesis synthesises glucose from lactate, glycerol and glucogenic amino acids (e.g. alanine) in the liver (and kidney) during fasting. It bypasses the irreversible glycolytic steps using pyruvate carboxylase (biotin-dependent) and PEP carboxykinase, fructose-1,6-bisphosphatase and glucose-6-phosphatase. Acetyl-CoA (from fatty acids) cannot make net glucose. Von Gierke disease (glycogen storage disease type I) is glucose-6-phosphatase deficiency.",
+       "keyPoints": [
+        "Insulin → glycogen synthase; glucagon → phosphorylase",
+        "Muscle lacks glucose-6-phosphatase",
+        "Gluconeogenesis substrates: lactate, glycerol, alanine",
+        "Fatty acids cannot give net glucose"
+       ]
+      },
+      {
+       "heading": "Pentose phosphate pathway",
+       "body": "The pentose phosphate (hexose monophosphate) pathway in the cytoplasm produces NADPH and ribose-5-phosphate. Glucose-6-phosphate dehydrogenase (G6PD) is its rate-limiting enzyme. NADPH is needed for fatty acid and steroid synthesis and to keep glutathione reduced, protecting red cells from oxidative damage. G6PD deficiency (X-linked, common in Nigeria) causes haemolysis after oxidant stress such as primaquine, sulphonamides, dapsone, fava beans or infection.",
+       "keyPoints": [
+        "PPP makes NADPH and ribose-5-phosphate",
+        "G6PD is rate-limiting",
+        "G6PD deficiency → haemolysis with oxidant drugs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Muscle glycogen cannot directly maintain blood glucose because muscle lacks:",
+       "options": [
+        "Insulin receptors",
+        "Glucose-6-phosphatase",
+        "Hexokinase",
+        "Glycogen synthase",
+        "Glycogen phosphorylase"
+       ],
+       "answerIndex": 1,
+       "explanation": "Without glucose-6-phosphatase, muscle cannot release free glucose."
+      },
+      {
+       "stem": "Which cannot be used for net glucose synthesis?",
+       "options": [
+        "Alanine",
+        "Oxaloacetate",
+        "Glycerol",
+        "Lactate",
+        "Acetyl-CoA from fatty acids"
+       ],
+       "answerIndex": 4,
+       "explanation": "Acetyl-CoA carbons are lost as CO2 in the TCA cycle."
+      },
+      {
+       "stem": "Pyruvate carboxylase requires the vitamin:",
+       "options": [
+        "Thiamine",
+        "Biotin",
+        "Folate",
+        "Vitamin C",
+        "Niacin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Biotin is the coenzyme for carboxylation reactions."
+      },
+      {
+       "stem": "The rate-limiting enzyme of the pentose phosphate pathway is:",
+       "options": [
+        "6-phosphogluconate dehydrogenase",
+        "Aldolase",
+        "Glucose-6-phosphate dehydrogenase",
+        "Transketolase",
+        "Hexokinase"
+       ],
+       "answerIndex": 2,
+       "explanation": "G6PD controls entry into the pathway."
+      },
+      {
+       "stem": "The main product of the pentose phosphate pathway needed to protect red cells from oxidative damage is:",
+       "options": [
+        "NADPH",
+        "FADH2",
+        "Lactate",
+        "NADH",
+        "ATP"
+       ],
+       "answerIndex": 0,
+       "explanation": "NADPH keeps glutathione reduced."
+      },
+      {
+       "stem": "A G6PD-deficient patient may develop haemolysis after taking:",
+       "options": [
+        "Vitamin C in food",
+        "Paracetamol in normal doses",
+        "Primaquine",
+        "Iron tablets",
+        "Amoxicillin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Primaquine is an oxidant drug."
+      },
+      {
+       "stem": "Glycogen phosphorylase in the liver is activated by:",
+       "options": [
+        "Glucagon",
+        "ATP",
+        "Insulin",
+        "Glucose",
+        "Glucose-6-phosphate"
+       ],
+       "answerIndex": 0,
+       "explanation": "Glucagon raises cAMP, leading to phosphorylase activation."
+      },
+      {
+       "stem": "Von Gierke disease is a deficiency of:",
+       "options": [
+        "Glucose-6-phosphatase",
+        "Muscle phosphorylase",
+        "Glycogen phosphorylase",
+        "Branching enzyme",
+        "Acid maltase"
+       ],
+       "answerIndex": 0,
+       "explanation": "Type I glycogen storage disease causes fasting hypoglycaemia and hepatomegaly."
+      }
+     ]
+    },
+    {
+     "title": "Fatty Acid Oxidation and Synthesis",
+     "order": 4,
+     "summary": "β-oxidation, the carnitine shuttle, fatty acid synthesis and lipid storage.",
+     "material": [
+      {
+       "heading": "β-oxidation",
+       "body": "Fatty acids are activated to acyl-CoA in the cytoplasm, then long-chain acyl groups are carried into mitochondria by the carnitine shuttle (carnitine palmitoyltransferase I, inhibited by malonyl-CoA). β-oxidation removes two carbons at a time as acetyl-CoA, generating FADH2 and NADH each cycle. Oxidation of palmitate (C16) gives 8 acetyl-CoA and about 106 ATP. Very-long-chain fatty acids are first shortened in peroxisomes. Carnitine deficiency impairs fat oxidation, causing hypoketotic hypoglycaemia and muscle weakness.",
+       "keyPoints": [
+        "Carnitine shuttle; CPT-I inhibited by malonyl-CoA",
+        "Each cycle: 1 FADH2 + 1 NADH + acetyl-CoA",
+        "Palmitate → 8 acetyl-CoA, ≈ 106 ATP"
+       ]
+      },
+      {
+       "heading": "Fatty acid synthesis",
+       "body": "Fatty acid synthesis occurs in the cytoplasm (mainly liver, adipose tissue, lactating breast) in the fed state. Acetyl-CoA is exported from mitochondria as citrate. Acetyl-CoA carboxylase (biotin-dependent, rate-limiting; activated by insulin and citrate) forms malonyl-CoA, and fatty acid synthase builds palmitate using NADPH from the pentose phosphate pathway. Fatty acids are stored as triacylglycerol; hormone-sensitive lipase in adipose tissue (activated by adrenaline and glucagon, inhibited by insulin) releases them during fasting.",
+       "keyPoints": [
+        "Synthesis in the cytoplasm; oxidation in mitochondria",
+        "Acetyl-CoA carboxylase is rate-limiting",
+        "NADPH is the reductant",
+        "Insulin inhibits hormone-sensitive lipase"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Long-chain fatty acids enter mitochondria via the:",
+       "options": [
+        "Malate shuttle",
+        "Glycerol phosphate shuttle",
+        "Direct diffusion",
+        "Carnitine shuttle",
+        "Citrate shuttle"
+       ],
+       "answerIndex": 3,
+       "explanation": "Carnitine palmitoyltransferases move acyl groups across."
+      },
+      {
+       "stem": "β-oxidation occurs mainly in the:",
+       "options": [
+        "Mitochondrial matrix",
+        "Golgi apparatus",
+        "Cytoplasm",
+        "Nucleus",
+        "Endoplasmic reticulum"
+       ],
+       "answerIndex": 0,
+       "explanation": "β-oxidation enzymes are in the mitochondrial matrix."
+      },
+      {
+       "stem": "The rate-limiting enzyme of fatty acid synthesis is:",
+       "options": [
+        "Acetyl-CoA carboxylase",
+        "HMG-CoA reductase",
+        "Lipoprotein lipase",
+        "Fatty acid synthase",
+        "Carnitine palmitoyltransferase"
+       ],
+       "answerIndex": 0,
+       "explanation": "Acetyl-CoA carboxylase forms malonyl-CoA."
+      },
+      {
+       "stem": "Malonyl-CoA prevents simultaneous fat synthesis and oxidation by inhibiting:",
+       "options": [
+        "Carnitine palmitoyltransferase I",
+        "Thiolase",
+        "Lipase",
+        "Acetyl-CoA carboxylase",
+        "Fatty acid synthase"
+       ],
+       "answerIndex": 0,
+       "explanation": "Malonyl-CoA blocks CPT-I, preventing entry of fatty acids into mitochondria."
+      },
+      {
+       "stem": "The reducing agent for fatty acid synthesis is:",
+       "options": [
+        "ATP",
+        "NADH",
+        "GTP",
+        "NADPH",
+        "FADH2"
+       ],
+       "answerIndex": 3,
+       "explanation": "NADPH comes largely from the pentose phosphate pathway."
+      },
+      {
+       "stem": "How many acetyl-CoA molecules are produced from β-oxidation of palmitate (C16)?",
+       "options": [
+        "4",
+        "7",
+        "8",
+        "16",
+        "2"
+       ],
+       "answerIndex": 2,
+       "explanation": "16 carbons ÷ 2 = 8 acetyl-CoA (via 7 cycles)."
+      },
+      {
+       "stem": "Hormone-sensitive lipase in adipose tissue is inhibited by:",
+       "options": [
+        "Growth hormone",
+        "Insulin",
+        "Cortisol",
+        "Glucagon",
+        "Adrenaline"
+       ],
+       "answerIndex": 1,
+       "explanation": "Insulin promotes fat storage by inhibiting lipolysis."
+      },
+      {
+       "stem": "Acetyl-CoA leaves mitochondria for fatty acid synthesis in the form of:",
+       "options": [
+        "Acetyl-carnitine",
+        "Citrate",
+        "Malonyl-CoA",
+        "Acetoacetate",
+        "Pyruvate"
+       ],
+       "answerIndex": 1,
+       "explanation": "Citrate crosses the membrane and is cleaved by ATP-citrate lyase."
+      }
+     ]
+    },
+    {
+     "title": "Ketone Bodies, Cholesterol Synthesis and Metabolic Integration",
+     "order": 5,
+     "summary": "Ketogenesis and ketoacidosis, cholesterol synthesis, and fed versus fasting metabolism.",
+     "material": [
+      {
+       "heading": "Ketone bodies and cholesterol",
+       "body": "During prolonged fasting, starvation or uncontrolled type 1 diabetes, excess acetyl-CoA in liver mitochondria forms ketone bodies: acetoacetate, β-hydroxybutyrate and acetone (via HMG-CoA synthase). The liver cannot use ketones (lacks thiophorase / succinyl-CoA:acetoacetate CoA transferase); brain (after adaptation), heart and muscle use them. In diabetic ketoacidosis, insulin deficiency and glucagon excess cause hyperglycaemia, ketonaemia, metabolic acidosis and a fruity (acetone) breath. Cholesterol is synthesised from acetyl-CoA via HMG-CoA; HMG-CoA reductase is the rate-limiting enzyme (inhibited by statins and by cholesterol).",
+       "keyPoints": [
+        "Ketones: acetoacetate, β-hydroxybutyrate, acetone",
+        "Liver makes but cannot use ketones",
+        "DKA: hyperglycaemia + ketoacidosis",
+        "HMG-CoA reductase → cholesterol (statins)"
+       ]
+      },
+      {
+       "heading": "Fed and fasting states",
+       "body": "In the fed state insulin dominates: glucose uptake, glycolysis, glycogenesis, lipogenesis and protein synthesis. In early fasting glucagon promotes glycogenolysis; after about 24 hours liver glycogen is exhausted and gluconeogenesis maintains glucose. In prolonged starvation, lipolysis and ketogenesis supply most energy and the brain adapts to use ketones, sparing muscle protein. Kwashiorkor (protein deficiency with oedema and fatty liver) and marasmus (overall energy deficiency with wasting) are forms of severe acute malnutrition seen in Nigerian children.",
+       "keyPoints": [
+        "Fed: insulin → storage",
+        "Fasting: glucagon → glycogenolysis then gluconeogenesis",
+        "Starvation: brain uses ketones",
+        "Kwashiorkor: oedema; marasmus: wasting"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which is NOT a ketone body?",
+       "options": [
+        "β-Hydroxybutyrate",
+        "Acetoacetate",
+        "Pyruvate",
+        "Acetone"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pyruvate is a glycolytic product, not a ketone body."
+      },
+      {
+       "stem": "Ketone bodies are synthesised in the:",
+       "options": [
+        "Red blood cells",
+        "Brain",
+        "Liver mitochondria",
+        "Kidney cortex only",
+        "Muscle"
+       ],
+       "answerIndex": 2,
+       "explanation": "Hepatic mitochondria perform ketogenesis."
+      },
+      {
+       "stem": "The liver cannot use ketone bodies because it lacks:",
+       "options": [
+        "HMG-CoA synthase",
+        "Insulin receptors",
+        "Carnitine",
+        "Thiophorase (succinyl-CoA:acetoacetate CoA transferase)",
+        "Mitochondria"
+       ],
+       "answerIndex": 3,
+       "explanation": "Without thiophorase, acetoacetate cannot be activated in the liver."
+      },
+      {
+       "stem": "A fruity odour on the breath of a diabetic patient is due to:",
+       "options": [
+        "Lactate",
+        "Ammonia",
+        "Urea",
+        "Acetone",
+        "Glucose"
+       ],
+       "answerIndex": 3,
+       "explanation": "Acetone is volatile and exhaled."
+      },
+      {
+       "stem": "The rate-limiting enzyme of cholesterol synthesis is:",
+       "options": [
+        "HMG-CoA synthase",
+        "HMG-CoA reductase",
+        "Squalene synthase",
+        "Acetyl-CoA carboxylase",
+        "7α-hydroxylase"
+       ],
+       "answerIndex": 1,
+       "explanation": "HMG-CoA reductase is the target of statins."
+      },
+      {
+       "stem": "After about 24 hours of fasting, blood glucose is maintained mainly by:",
+       "options": [
+        "Muscle glycogen",
+        "Ketone conversion to glucose",
+        "Liver glycogenolysis",
+        "Gluconeogenesis",
+        "Dietary glucose"
+       ],
+       "answerIndex": 3,
+       "explanation": "Liver glycogen stores are largely depleted by 24 hours."
+      },
+      {
+       "stem": "The hormone dominating the fed state is:",
+       "options": [
+        "Glucagon",
+        "Cortisol",
+        "Insulin",
+        "Growth hormone",
+        "Adrenaline"
+       ],
+       "answerIndex": 2,
+       "explanation": "Insulin promotes storage of fuels."
+      },
+      {
+       "stem": "A child with generalised oedema, fatty liver and skin changes most likely has:",
+       "options": [
+        "Kwashiorkor",
+        "Rickets",
+        "Marasmus",
+        "Scurvy",
+        "Obesity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Kwashiorkor features oedema from low albumin and a fatty liver."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

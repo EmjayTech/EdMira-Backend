@@ -1,0 +1,669 @@
+{
+ "courses": [
+  {
+   "title": "Chemotherapy: Antimicrobials, Antimalarials, Antiretrovirals and Anticancer Drugs",
+   "code": "PHA411",
+   "color": "#0F766E",
+   "description": "Principles of antimicrobial therapy, major antibacterial classes, anti-TB drugs, antimalarials, antiretrovirals and antifungals, anthelmintics and cancer chemotherapy.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "400 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Antimicrobial Therapy and Stewardship",
+     "order": 1,
+     "summary": "Bactericidal vs bacteriostatic, spectrum, choice of drug, combination therapy and stewardship.",
+     "material": [
+      {
+       "heading": "Principles",
+       "body": "Selective toxicity is the basis of antimicrobial therapy. Bactericidal drugs kill bacteria (β-lactams, aminoglycosides, fluoroquinolones, metronidazole, vancomycin); bacteriostatic drugs inhibit growth (tetracyclines, macrolides, sulphonamides, chloramphenicol, clindamycin). Choice depends on the likely organism (empirical therapy guided by local antibiograms), site of infection and drug penetration (e.g. CSF — ceftriaxone), patient factors (allergy, age, pregnancy, renal and hepatic function), and cost. Time-dependent killing (β-lactams — keep concentrations above MIC) versus concentration-dependent killing (aminoglycosides, fluoroquinolones — high peaks; once-daily aminoglycosides). Combination therapy prevents resistance (TB, HIV) or broadens cover.",
+       "keyPoints": [
+        "Bactericidal vs bacteriostatic",
+        "Empirical therapy guided by antibiograms",
+        "β-lactams: time-dependent",
+        "Aminoglycosides: concentration-dependent, once daily"
+       ]
+      },
+      {
+       "heading": "Stewardship",
+       "body": "Antimicrobial resistance is a major threat, worsened in Nigeria by self-medication, over-the-counter antibiotic sales, poor-quality and falsified medicines, incomplete courses and agricultural use. Antimicrobial stewardship promotes the right drug, right dose, right route and right duration; taking cultures before starting antibiotics; de-escalating to narrower agents when results return; switching IV to oral when appropriate; and not treating viral infections (e.g. common colds) with antibiotics. WHO's AWaRe classification groups antibiotics into Access (first-choice, e.g. amoxicillin), Watch (higher resistance potential, e.g. ceftriaxone, ciprofloxacin, azithromycin) and Reserve (last resort, e.g. colistin, linezolid) categories. Nigeria has a National Action Plan on AMR (One Health approach).",
+       "keyPoints": [
+        "AWaRe: Access, Watch, Reserve",
+        "Culture before antibiotics; de-escalate",
+        "No antibiotics for viral colds",
+        "National Action Plan on AMR"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which antibiotic is bacteriostatic?",
+       "options": [
+        "Ciprofloxacin",
+        "Penicillin",
+        "Vancomycin",
+        "Tetracycline",
+        "Gentamicin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tetracyclines inhibit protein synthesis without killing."
+      },
+      {
+       "stem": "β-lactam antibiotics show killing that is mainly:",
+       "options": [
+        "Concentration-dependent",
+        "Bacteriostatic",
+        "Time-dependent",
+        "Only at peak levels",
+        "Unrelated to concentration"
+       ],
+       "answerIndex": 2,
+       "explanation": "Efficacy depends on time above MIC."
+      },
+      {
+       "stem": "Aminoglycosides are often given once daily because their killing is:",
+       "options": [
+        "Slow",
+        "Time-dependent",
+        "Concentration-dependent with a post-antibiotic effect",
+        "Bacteriostatic",
+        "Unaffected by dose"
+       ],
+       "answerIndex": 2,
+       "explanation": "High peaks maximise killing and reduce toxicity."
+      },
+      {
+       "stem": "In the WHO AWaRe classification, amoxicillin is in the:",
+       "options": [
+        "Watch group",
+        "Not classified",
+        "Banned group",
+        "Access group",
+        "Reserve group"
+       ],
+       "answerIndex": 3,
+       "explanation": "Access antibiotics are first-choice for common infections."
+      },
+      {
+       "stem": "Ceftriaxone and ciprofloxacin are classified by WHO AWaRe as:",
+       "options": [
+        "Reserve",
+        "Obsolete",
+        "Access",
+        "Antifungal",
+        "Watch"
+       ],
+       "answerIndex": 4,
+       "explanation": "They have higher resistance potential."
+      },
+      {
+       "stem": "An antimicrobial stewardship principle is to:",
+       "options": [
+        "Use the broadest drug for every infection",
+        "Avoid switching IV to oral",
+        "Treat all colds with antibiotics",
+        "Continue antibiotics indefinitely",
+        "Take cultures before antibiotics and de-escalate when results are available"
+       ],
+       "answerIndex": 4,
+       "explanation": "Targeted therapy reduces resistance."
+      },
+      {
+       "stem": "Which practice drives antimicrobial resistance in Nigeria?",
+       "options": [
+        "Over-the-counter antibiotic sales without prescription",
+        "Hand hygiene",
+        "Completing courses",
+        "Laboratory testing",
+        "Vaccination"
+       ],
+       "answerIndex": 0,
+       "explanation": "Unregulated access encourages misuse."
+      },
+      {
+       "stem": "Combination therapy is used in TB and HIV mainly to:",
+       "options": [
+        "Shorten life",
+        "Reduce cost",
+        "Prevent the emergence of resistance",
+        "Improve taste",
+        "Avoid side effects completely"
+       ],
+       "answerIndex": 2,
+       "explanation": "Multiple drugs make resistance much less likely."
+      }
+     ]
+    },
+    {
+     "title": "Major Antibacterial Classes",
+     "order": 2,
+     "summary": "Mechanisms, uses and adverse effects of penicillins, cephalosporins, macrolides, aminoglycosides, quinolones and others.",
+     "material": [
+      {
+       "heading": "Cell-wall and protein synthesis inhibitors",
+       "body": "Penicillins (benzylpenicillin, amoxicillin, co-amoxiclav, flucloxacillin, piperacillin–tazobactam) inhibit cell-wall cross-linking; main adverse effect is hypersensitivity (rash to anaphylaxis; about 10% cross-reactivity with cephalosporins historically cited, now thought lower). Cephalosporins: first generation (cefalexin — skin), third generation (ceftriaxone — meningitis, gonorrhoea, typhoid, severe pneumonia; ceftazidime — Pseudomonas). Carbapenems (meropenem) — reserved for resistant organisms. Vancomycin (glycopeptide) — MRSA and C. difficile (oral); nephrotoxic and 'red man syndrome' with rapid infusion. Aminoglycosides (gentamicin, amikacin) — Gram-negative sepsis; nephrotoxicity and ototoxicity (monitor levels). Macrolides (erythromycin, azithromycin, clarithromycin) — atypical pneumonia, chlamydia; QT prolongation, CYP3A4 inhibition (erythromycin, clarithromycin). Tetracyclines (doxycycline) — chlamydia, rickettsia, acne, malaria prophylaxis; avoid in pregnancy and under 8 years.",
+       "keyPoints": [
+        "Penicillins: hypersensitivity",
+        "Ceftriaxone: meningitis, gonorrhoea, typhoid",
+        "Vancomycin: MRSA; red man syndrome",
+        "Aminoglycosides: nephro- and ototoxic",
+        "Doxycycline: avoid in pregnancy and < 8 years"
+       ]
+      },
+      {
+       "heading": "Other antibacterials",
+       "body": "Fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin) inhibit DNA gyrase — UTIs, typhoid (where susceptible), Gram-negative infections; adverse effects: tendinopathy and tendon rupture, QT prolongation, seizures, cartilage concerns in children. Co-trimoxazole (trimethoprim–sulfamethoxazole) — UTIs, Pneumocystis pneumonia prophylaxis and treatment in HIV; rash, Stevens–Johnson syndrome, bone marrow suppression, hyperkalaemia. Metronidazole — anaerobes and protozoa (amoebiasis, giardiasis, trichomoniasis, bacterial vaginosis, C. difficile); disulfiram-like reaction with alcohol, metallic taste. Nitrofurantoin — uncomplicated lower UTI (avoid in renal impairment and at term). Chloramphenicol — broad spectrum; grey baby syndrome in neonates and aplastic anaemia. Clindamycin — anaerobes, bone infections; C. difficile colitis risk.",
+       "keyPoints": [
+        "Quinolones: tendon rupture, QT prolongation",
+        "Co-trimoxazole: PCP prophylaxis in HIV",
+        "Metronidazole + alcohol → disulfiram reaction",
+        "Chloramphenicol: grey baby, aplastic anaemia",
+        "Clindamycin: C. difficile risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most common serious adverse effect of penicillins is:",
+       "options": [
+        "Hypersensitivity (allergy)",
+        "Tendon rupture",
+        "Grey baby syndrome",
+        "Tooth staining",
+        "Ototoxicity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Allergy ranges from rash to anaphylaxis."
+      },
+      {
+       "stem": "The antibiotic of choice for empirical treatment of bacterial meningitis in Nigeria is:",
+       "options": [
+        "Doxycycline",
+        "Nitrofurantoin",
+        "Metronidazole",
+        "Amoxicillin oral",
+        "Ceftriaxone"
+       ],
+       "answerIndex": 4,
+       "explanation": "Ceftriaxone penetrates CSF and covers common pathogens."
+      },
+      {
+       "stem": "Gentamicin requires monitoring because of:",
+       "options": [
+        "Photosensitivity only",
+        "Tooth staining",
+        "Nephrotoxicity and ototoxicity",
+        "Hyperglycaemia",
+        "Hepatotoxicity only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Aminoglycosides damage kidneys and the inner ear."
+      },
+      {
+       "stem": "Tendon rupture is a recognised adverse effect of:",
+       "options": [
+        "Erythromycin",
+        "Vancomycin",
+        "Amoxicillin",
+        "Metronidazole",
+        "Ciprofloxacin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fluoroquinolones cause tendinopathy, especially the Achilles."
+      },
+      {
+       "stem": "Patients taking metronidazole should avoid alcohol because of:",
+       "options": [
+        "Hypoglycaemia",
+        "Photosensitivity",
+        "Kidney stones",
+        "A disulfiram-like reaction",
+        "Hearing loss"
+       ],
+       "answerIndex": 3,
+       "explanation": "It causes flushing, vomiting and palpitations."
+      },
+      {
+       "stem": "Grey baby syndrome in neonates is caused by:",
+       "options": [
+        "Gentamicin",
+        "Ceftriaxone",
+        "Chloramphenicol",
+        "Azithromycin",
+        "Amoxicillin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Neonates cannot glucuronidate chloramphenicol."
+      },
+      {
+       "stem": "Prophylaxis against Pneumocystis pneumonia in HIV uses:",
+       "options": [
+        "Co-trimoxazole",
+        "Metronidazole",
+        "Clindamycin",
+        "Chloroquine",
+        "Nitrofurantoin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cotrimoxazole also reduces other infections."
+      },
+      {
+       "stem": "'Red man syndrome' is associated with rapid infusion of:",
+       "options": [
+        "Vancomycin",
+        "Ciprofloxacin",
+        "Ceftriaxone",
+        "Gentamicin",
+        "Penicillin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Histamine release causes flushing; slow the infusion."
+      }
+     ]
+    },
+    {
+     "title": "Anti-TB Drugs, Antimalarials and Antiretrovirals",
+     "order": 3,
+     "summary": "First-line TB drugs and their toxicities, antimalarial drugs, and ARV classes.",
+     "material": [
+      {
+       "heading": "Anti-TB drugs",
+       "body": "First-line: rifampicin (orange-red body fluids, hepatotoxicity, potent enzyme inducer — reduces efficacy of oral contraceptives, some ARVs, warfarin), isoniazid (peripheral neuropathy — prevent with pyridoxine; hepatotoxicity), pyrazinamide (hepatotoxicity, hyperuricaemia/gout) and ethambutol (optic neuritis — reduced visual acuity and red–green colour vision; check vision). Drug-induced hepatitis is the most important shared toxicity. Streptomycin (injectable, ototoxic) is now rarely used first-line. Drug-resistant TB uses newer regimens (bedaquiline, pretomanid, linezolid, moxifloxacin — BPaLM). Isoniazid preventive therapy (or 3HP) is given to eligible people with HIV and child contacts.",
+       "keyPoints": [
+        "Rifampicin: orange urine, enzyme inducer",
+        "Isoniazid: neuropathy — give pyridoxine",
+        "Pyrazinamide: hyperuricaemia",
+        "Ethambutol: optic neuritis",
+        "BPaLM for drug-resistant TB"
+       ]
+      },
+      {
+       "heading": "Antimalarials and antiretrovirals",
+       "body": "Antimalarials: artemisinin derivatives (artesunate, artemether — rapid parasite clearance), partner drugs (lumefantrine, amodiaquine, piperaquine, mefloquine), quinine (cinchonism — tinnitus, headache; hypoglycaemia), sulfadoxine–pyrimethamine (IPTp; avoid with cotrimoxazole), primaquine (radical cure; haemolysis in G6PD deficiency), proguanil (prophylaxis in sickle cell disease). Antiretroviral classes: NRTIs (tenofovir — renal toxicity and bone loss; lamivudine; abacavir — hypersensitivity with HLA-B*5701; zidovudine — anaemia), NNRTIs (efavirenz — vivid dreams, dizziness; nevirapine — rash, hepatotoxicity), integrase inhibitors (dolutegravir — preferred first-line; weight gain; interaction with polyvalent cations — separate from antacids and iron), protease inhibitors (lopinavir/ritonavir, atazanavir/ritonavir — metabolic effects, CYP3A4 interactions). Post-exposure prophylaxis (within 72 hours, for 28 days) and pre-exposure prophylaxis (tenofovir-based) prevent HIV.",
+       "keyPoints": [
+        "Quinine: cinchonism, hypoglycaemia",
+        "Primaquine: G6PD haemolysis",
+        "Tenofovir: renal toxicity",
+        "Dolutegravir: first-line; separate from antacids/iron",
+        "PEP within 72 h for 28 days"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Orange-red discolouration of urine and tears is caused by:",
+       "options": [
+        "Rifampicin",
+        "Pyrazinamide",
+        "Streptomycin",
+        "Ethambutol",
+        "Isoniazid"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rifampicin colours body fluids harmlessly."
+      },
+      {
+       "stem": "Pyridoxine is given with isoniazid to prevent:",
+       "options": [
+        "Peripheral neuropathy",
+        "Hearing loss",
+        "Gout",
+        "Hepatitis",
+        "Optic neuritis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Isoniazid antagonises vitamin B6."
+      },
+      {
+       "stem": "Visual acuity and colour vision should be monitored in patients taking:",
+       "options": [
+        "Amoxicillin",
+        "Ethambutol",
+        "Pyrazinamide",
+        "Isoniazid",
+        "Rifampicin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ethambutol causes optic neuritis."
+      },
+      {
+       "stem": "Hyperuricaemia and gout are associated with:",
+       "options": [
+        "Ethambutol",
+        "Dolutegravir",
+        "Isoniazid",
+        "Pyrazinamide",
+        "Rifampicin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pyrazinamide reduces urate excretion."
+      },
+      {
+       "stem": "Tinnitus, headache and hypoglycaemia during malaria treatment suggest toxicity from:",
+       "options": [
+        "Quinine",
+        "SP",
+        "Artesunate",
+        "Lumefantrine",
+        "Proguanil"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cinchonism and hypoglycaemia are quinine effects."
+      },
+      {
+       "stem": "Tenofovir requires monitoring of:",
+       "options": [
+        "Skin colour",
+        "Vision",
+        "Thyroid function",
+        "Hearing",
+        "Renal function"
+       ],
+       "answerIndex": 4,
+       "explanation": "It can cause proximal tubular injury."
+      },
+      {
+       "stem": "Dolutegravir absorption is reduced if taken at the same time as:",
+       "options": [
+        "Rice",
+        "Paracetamol",
+        "Vitamin C",
+        "Antacids or iron supplements",
+        "Water"
+       ],
+       "answerIndex": 3,
+       "explanation": "Polyvalent cations chelate integrase inhibitors."
+      },
+      {
+       "stem": "HIV post-exposure prophylaxis should be started within:",
+       "options": [
+        "72 hours and continued for 28 days",
+        "30 days",
+        "1 week and continued for 3 months",
+        "1 year",
+        "24 hours and continued for 3 days"
+       ],
+       "answerIndex": 0,
+       "explanation": "Earlier is better; the course lasts 28 days."
+      }
+     ]
+    },
+    {
+     "title": "Antifungals and Anthelmintics",
+     "order": 4,
+     "summary": "Azoles, polyenes and echinocandins; anthelmintic drugs and mass drug administration.",
+     "material": [
+      {
+       "heading": "Antifungals",
+       "body": "Polyenes bind ergosterol, forming membrane pores: amphotericin B (IV — severe systemic infections such as cryptococcal meningitis; nephrotoxicity, hypokalaemia, infusion reactions; liposomal forms less toxic) and nystatin (topical/oral suspension for oral thrush — not absorbed). Azoles inhibit ergosterol synthesis (lanosterol 14α-demethylase): fluconazole (candidiasis, cryptococcal maintenance), itraconazole (histoplasmosis), voriconazole (aspergillosis), ketoconazole/clotrimazole/miconazole (topical) — azoles inhibit CYP450, causing drug interactions. Echinocandins (caspofungin) inhibit cell-wall β-glucan synthesis. Flucytosine is combined with amphotericin in cryptococcal meningitis. Griseofulvin and terbinafine treat dermatophyte infections of hair and nails (tinea capitis — griseofulvin with fatty food; terbinafine).",
+       "keyPoints": [
+        "Amphotericin B: nephrotoxic, hypokalaemia",
+        "Nystatin: topical/oral, not absorbed",
+        "Azoles inhibit ergosterol synthesis and CYP450",
+        "Tinea capitis: griseofulvin or terbinafine"
+       ]
+      },
+      {
+       "heading": "Anthelmintics",
+       "body": "Albendazole and mebendazole (benzimidazoles, inhibit microtubule formation) treat soil-transmitted helminths (Ascaris, hookworm, Trichuris) and are used in school deworming; avoid in the first trimester. Praziquantel (increases calcium permeability, paralysing worms) treats schistosomiasis and tapeworms (including neurocysticercosis with albendazole and steroids). Ivermectin (glutamate-gated chloride channels) treats onchocerciasis, strongyloidiasis and scabies; mass drug administration uses ivermectin with albendazole for lymphatic filariasis and onchocerciasis (caution where Loa loa is co-endemic — risk of encephalopathy). Diethylcarbamazine (DEC) for filariasis is avoided in onchocerciasis (Mazzotti reaction). Pyrantel pamoate is safe in pregnancy for roundworm and pinworm.",
+       "keyPoints": [
+        "Albendazole/mebendazole: STH, school deworming",
+        "Praziquantel: schistosomiasis, tapeworms",
+        "Ivermectin: onchocerciasis, strongyloides, scabies",
+        "Loa loa caution with ivermectin",
+        "DEC → Mazzotti reaction in onchocerciasis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Oral thrush in an infant is commonly treated with:",
+       "options": [
+        "Nystatin oral suspension",
+        "Praziquantel",
+        "Amphotericin B IV",
+        "Metronidazole",
+        "Griseofulvin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nystatin acts locally without systemic absorption."
+      },
+      {
+       "stem": "A major toxicity of amphotericin B is:",
+       "options": [
+        "Hearing loss only",
+        "Hepatitis",
+        "Hyperglycaemia",
+        "Tendon rupture",
+        "Nephrotoxicity with hypokalaemia"
+       ],
+       "answerIndex": 4,
+       "explanation": "It damages renal tubules."
+      },
+      {
+       "stem": "Azole antifungals act by:",
+       "options": [
+        "Binding ergosterol to form pores",
+        "Inhibiting ergosterol synthesis",
+        "Inhibiting β-glucan synthesis",
+        "Blocking microtubules",
+        "Inhibiting DNA gyrase"
+       ],
+       "answerIndex": 1,
+       "explanation": "They inhibit lanosterol 14α-demethylase."
+      },
+      {
+       "stem": "Tinea capitis in children is treated with:",
+       "options": [
+        "Oral griseofulvin or terbinafine",
+        "Fluconazole cream only",
+        "Ivermectin",
+        "Albendazole",
+        "Topical nystatin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hair infections need systemic therapy."
+      },
+      {
+       "stem": "School deworming programmes in Nigeria use:",
+       "options": [
+        "Praziquantel only",
+        "Ivermectin only",
+        "Chloroquine",
+        "Albendazole or mebendazole",
+        "Metronidazole"
+       ],
+       "answerIndex": 3,
+       "explanation": "Benzimidazoles treat soil-transmitted helminths."
+      },
+      {
+       "stem": "The drug of choice for schistosomiasis is:",
+       "options": [
+        "DEC",
+        "Pyrantel",
+        "Praziquantel",
+        "Albendazole",
+        "Ivermectin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Praziquantel is effective against all schistosome species."
+      },
+      {
+       "stem": "Ivermectin mass treatment must be used cautiously where which parasite is co-endemic?",
+       "options": [
+        "Hookworm",
+        "Trichuris",
+        "Loa loa",
+        "Ascaris",
+        "Giardia"
+       ],
+       "answerIndex": 2,
+       "explanation": "High Loa loa loads risk severe encephalopathy."
+      },
+      {
+       "stem": "Ivermectin is effective against:",
+       "options": [
+        "Schistosomiasis",
+        "Malaria",
+        "Amoebiasis",
+        "Onchocerciasis and scabies",
+        "Tapeworms"
+       ],
+       "answerIndex": 3,
+       "explanation": "It kills microfilariae and mites."
+      }
+     ]
+    },
+    {
+     "title": "Cancer Chemotherapy",
+     "order": 5,
+     "summary": "Cell cycle and drug classes, common toxicities and their management, and targeted and hormonal therapies.",
+     "material": [
+      {
+       "heading": "Drug classes",
+       "body": "Cytotoxic drugs target rapidly dividing cells. Classes: alkylating agents (cyclophosphamide — haemorrhagic cystitis prevented with mesna; chlorambucil), platinum compounds (cisplatin — nephrotoxicity, ototoxicity, severe emesis), antimetabolites (methotrexate — folate antagonist, rescued with folinic acid/leucovorin; 5-fluorouracil; capecitabine; cytarabine; 6-mercaptopurine — interacts with allopurinol), anthracyclines (doxorubicin — cumulative cardiotoxicity; red urine), vinca alkaloids (vincristine — peripheral neuropathy, fatal if given intrathecally; vinblastine — myelosuppression), taxanes (paclitaxel, docetaxel — neuropathy, hypersensitivity), bleomycin (pulmonary fibrosis), etoposide (topoisomerase II inhibitor). Combination regimens use drugs with different mechanisms and toxicities (e.g. CHOP for lymphoma; ABVD for Hodgkin).",
+       "keyPoints": [
+        "Cyclophosphamide: haemorrhagic cystitis → mesna",
+        "Methotrexate rescue: folinic acid",
+        "Doxorubicin: cardiotoxicity",
+        "Vincristine: neuropathy; never intrathecal",
+        "Bleomycin: pulmonary fibrosis"
+       ]
+      },
+      {
+       "heading": "Toxicities and targeted therapy",
+       "body": "Common toxicities: myelosuppression (neutropenic sepsis is an emergency — broad-spectrum antibiotics within 1 hour), nausea and vomiting (ondansetron, dexamethasone, aprepitant), mucositis, alopecia, infertility, tumour lysis syndrome (hyperkalaemia, hyperphosphataemia, hyperuricaemia, hypocalcaemia and AKI — prevent with hydration and allopurinol or rasburicase, e.g. in Burkitt lymphoma), and extravasation injury. Safe handling of cytotoxics protects staff. Targeted therapies: imatinib (BCR-ABL in CML), trastuzumab (HER2-positive breast cancer — cardiotoxicity), rituximab (anti-CD20 in B-cell lymphomas). Hormonal therapy: tamoxifen (oestrogen receptor modulator — risk of endometrial cancer and thromboembolism) and aromatase inhibitors (letrozole, anastrozole — postmenopausal ER-positive breast cancer) and androgen deprivation for prostate cancer.",
+       "keyPoints": [
+        "Neutropenic sepsis: antibiotics within 1 hour",
+        "Tumour lysis: hydration + allopurinol/rasburicase",
+        "Imatinib: CML; trastuzumab: HER2",
+        "Tamoxifen: endometrial cancer and VTE risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Mesna is given with cyclophosphamide to prevent:",
+       "options": [
+        "Alopecia",
+        "Neuropathy",
+        "Haemorrhagic cystitis",
+        "Pulmonary fibrosis",
+        "Cardiotoxicity"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mesna neutralises the toxic metabolite acrolein in the bladder."
+      },
+      {
+       "stem": "Folinic acid (leucovorin) is used to rescue patients from toxicity of:",
+       "options": [
+        "Methotrexate",
+        "Bleomycin",
+        "Cisplatin",
+        "Vincristine",
+        "Doxorubicin"
+       ],
+       "answerIndex": 0,
+       "explanation": "It bypasses the DHFR block."
+      },
+      {
+       "stem": "Cumulative cardiotoxicity is characteristic of:",
+       "options": [
+        "Cyclophosphamide",
+        "Doxorubicin",
+        "Cisplatin",
+        "5-Fluorouracil",
+        "Vincristine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Anthracyclines damage the myocardium in a dose-dependent way."
+      },
+      {
+       "stem": "Vincristine must never be given by which route because it is fatal?",
+       "options": [
+        "Oral",
+        "Intrathecal",
+        "Subcutaneous",
+        "Intramuscular only",
+        "Intravenous"
+       ],
+       "answerIndex": 1,
+       "explanation": "Intrathecal vincristine causes fatal neurotoxicity."
+      },
+      {
+       "stem": "Pulmonary fibrosis is a well-known toxicity of:",
+       "options": [
+        "Cyclophosphamide",
+        "Methotrexate only",
+        "Tamoxifen",
+        "Bleomycin",
+        "Imatinib"
+       ],
+       "answerIndex": 3,
+       "explanation": "Bleomycin causes dose-related lung damage."
+      },
+      {
+       "stem": "A febrile patient with neutropenia after chemotherapy should receive:",
+       "options": [
+        "Antipyretics and observation only",
+        "No treatment until cultures return",
+        "Oral antibiotics next week",
+        "Broad-spectrum IV antibiotics within one hour",
+        "Steroids"
+       ],
+       "answerIndex": 3,
+       "explanation": "Neutropenic sepsis is rapidly fatal if untreated."
+      },
+      {
+       "stem": "Tumour lysis syndrome is prevented by hydration and:",
+       "options": [
+        "Iron",
+        "Calcium supplements",
+        "Diuretic restriction",
+        "Potassium supplements",
+        "Allopurinol or rasburicase"
+       ],
+       "answerIndex": 4,
+       "explanation": "These reduce uric acid formation."
+      },
+      {
+       "stem": "Trastuzumab targets:",
+       "options": [
+        "CD20",
+        "HER2",
+        "BCR-ABL",
+        "Oestrogen receptor",
+        "EGFR in lung"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is used for HER2-positive breast cancer."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

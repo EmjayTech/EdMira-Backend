@@ -1,0 +1,665 @@
+{
+ "courses": [
+  {
+   "title": "Community Medicine I: Health Systems and Primary Health Care in Nigeria",
+   "code": "CMD401",
+   "color": "#0D9488",
+   "description": "Nigeria's health system and financing, primary health care delivery, maternal and child health programmes, immunisation, and health indicators.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "The Nigerian Health System",
+     "order": 1,
+     "summary": "WHO health system building blocks, levels of care, and health governance in Nigeria.",
+     "material": [
+      {
+       "heading": "Health system building blocks",
+       "body": "WHO describes six building blocks of a health system: service delivery; health workforce; health information systems; access to essential medicines, vaccines and technologies; health financing; and leadership and governance. The goals are improved health, responsiveness, financial protection and efficiency. Nigeria's National Health Act (2014) provides the legal framework, including the Basic Health Care Provision Fund (BHCPF — at least 1% of the Consolidated Revenue Fund) to support primary care, emergency care and health insurance for the poor.",
+       "keyPoints": [
+        "Six WHO building blocks",
+        "National Health Act 2014",
+        "BHCPF: ≥ 1% of Consolidated Revenue Fund"
+       ]
+      },
+      {
+       "heading": "Levels of care",
+       "body": "Nigeria has three tiers: primary health care — the responsibility of local governments (with state PHC boards under 'PHC Under One Roof' and the NPHCDA nationally) through health posts, PHC centres and comprehensive health centres; secondary care — state governments (general hospitals); and tertiary care — mainly the federal government (teaching hospitals, federal medical centres, specialist hospitals). Referral should flow upwards and counter-referral back down, but many patients bypass PHC, overloading tertiary hospitals. The private sector (including faith-based and informal providers such as patent medicine vendors and traditional healers) delivers a large share of care.",
+       "keyPoints": [
+        "PHC: LGAs; secondary: states; tertiary: federal",
+        "Referral and counter-referral",
+        "Bypassing PHC overloads tertiary centres",
+        "Large private and informal sector"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "How many building blocks does the WHO health system framework describe?",
+       "options": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "10"
+       ],
+       "answerIndex": 2,
+       "explanation": "Service delivery, workforce, information, medicines, financing, governance."
+      },
+      {
+       "stem": "The law providing the legal framework for Nigeria's health system is the:",
+       "options": [
+        "Electoral Act",
+        "Factories Act",
+        "Land Use Act",
+        "National Health Act 2014",
+        "NYSC Act"
+       ],
+       "answerIndex": 3,
+       "explanation": "It also established the Basic Health Care Provision Fund."
+      },
+      {
+       "stem": "In Nigeria, secondary health care (general hospitals) is mainly the responsibility of:",
+       "options": [
+        "State governments",
+        "NGOs only",
+        "Private companies only",
+        "The federal government",
+        "Local governments"
+       ],
+       "answerIndex": 0,
+       "explanation": "States run general hospitals."
+      },
+      {
+       "stem": "Teaching hospitals are mainly funded by the:",
+       "options": [
+        "Churches",
+        "Federal government",
+        "Patients only",
+        "State government only",
+        "Local government"
+       ],
+       "answerIndex": 1,
+       "explanation": "Federal teaching hospitals provide tertiary care."
+      },
+      {
+       "stem": "The Basic Health Care Provision Fund is financed by at least ___ of the Consolidated Revenue Fund.",
+       "options": [
+        "0.1%",
+        "1%",
+        "5%",
+        "10%",
+        "25%"
+       ],
+       "answerIndex": 1,
+       "explanation": "The National Health Act sets at least 1%."
+      },
+      {
+       "stem": "The process of sending a patient back to a lower-level facility after specialist care is:",
+       "options": [
+        "Transfer",
+        "Discharge against advice",
+        "Triage",
+        "Referral",
+        "Counter-referral"
+       ],
+       "answerIndex": 4,
+       "explanation": "Counter-referral maintains continuity of care."
+      },
+      {
+       "stem": "'PHC Under One Roof' aims to:",
+       "options": [
+        "Build more teaching hospitals",
+        "Integrate management of PHC services under one body",
+        "Privatise all clinics",
+        "Close PHC centres",
+        "Train only doctors"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reduces fragmentation of PHC governance."
+      },
+      {
+       "stem": "Which WHO building block covers budgets, insurance and payment?",
+       "options": [
+        "Leadership",
+        "Service delivery",
+        "Information systems",
+        "Health financing",
+        "Health workforce"
+       ],
+       "answerIndex": 3,
+       "explanation": "Health financing raises and allocates funds."
+      }
+     ]
+    },
+    {
+     "title": "Health Financing and Insurance",
+     "order": 2,
+     "summary": "Sources of health funds, out-of-pocket spending, the National Health Insurance Authority and UHC.",
+     "material": [
+      {
+       "heading": "Financing",
+       "body": "Health financing involves revenue collection (taxes, insurance contributions, out-of-pocket payments, donors), pooling of funds and purchasing of services. In Nigeria, out-of-pocket payments account for roughly 70% of current health expenditure — among the highest in the world — pushing many households into catastrophic spending and poverty. Government health spending is low relative to the Abuja Declaration target (2001) of allocating at least 15% of the annual budget to health. Donor funding supports programmes such as HIV, TB, malaria and immunisation (e.g. the Global Fund, Gavi, PEPFAR).",
+       "keyPoints": [
+        "Revenue collection, pooling, purchasing",
+        "Out-of-pocket ≈ 70% in Nigeria",
+        "Abuja Declaration: 15% of budget to health",
+        "Donors: Global Fund, Gavi, PEPFAR"
+       ]
+      },
+      {
+       "heading": "Insurance and UHC",
+       "body": "The National Health Insurance Scheme (established 1999, launched 2005) was replaced by the National Health Insurance Authority (NHIA Act 2022), which makes health insurance mandatory for all Nigerians and supports state social health insurance schemes and a Vulnerable Group Fund for the poor. Health maintenance organisations (HMOs) purchase services. Universal health coverage means all people receive needed quality services without financial hardship — measured by service coverage and financial protection (SDG target 3.8). Community-based health insurance and pooling protect informal sector workers, who make up most of the workforce.",
+       "keyPoints": [
+        "NHIA Act 2022: mandatory insurance",
+        "Vulnerable Group Fund",
+        "HMOs purchase services",
+        "UHC: SDG 3.8",
+        "Informal sector coverage is a challenge"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Approximately what share of current health expenditure in Nigeria is paid out of pocket?",
+       "options": [
+        "30%",
+        "95%",
+        "10%",
+        "0%",
+        "About 70%"
+       ],
+       "answerIndex": 4,
+       "explanation": "Households bear most health costs directly."
+      },
+      {
+       "stem": "The Abuja Declaration (2001) urged African governments to allocate at least ___ of their budgets to health.",
+       "options": [
+        "5%",
+        "10%",
+        "15%",
+        "25%",
+        "50%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Few countries, including Nigeria, have met it."
+      },
+      {
+       "stem": "The NHIA Act of 2022 made health insurance:",
+       "options": [
+        "Mandatory for all Nigerians",
+        "Only for civil servants",
+        "Only for the military",
+        "Optional for all",
+        "Abolished"
+       ],
+       "answerIndex": 0,
+       "explanation": "It replaced the NHIS Act."
+      },
+      {
+       "stem": "Catastrophic health expenditure occurs when:",
+       "options": [
+        "Out-of-pocket payments consume a large share of household income",
+        "Insurance pays everything",
+        "Donors fund all care",
+        "Drugs are free",
+        "Government spends too much"
+       ],
+       "answerIndex": 0,
+       "explanation": "It pushes families into poverty."
+      },
+      {
+       "stem": "The SDG target for universal health coverage is:",
+       "options": [
+        "SDG 1.1",
+        "SDG 6.2",
+        "SDG 3.8",
+        "SDG 17",
+        "SDG 10.1"
+       ],
+       "answerIndex": 2,
+       "explanation": "Target 3.8 covers service coverage and financial protection."
+      },
+      {
+       "stem": "Organisations that purchase health services on behalf of insured people in Nigeria are:",
+       "options": [
+        "CBOs",
+        "FBOs",
+        "PPMVs",
+        "NGOs",
+        "HMOs"
+       ],
+       "answerIndex": 4,
+       "explanation": "Health maintenance organisations manage insured care."
+      },
+      {
+       "stem": "Pooling of health funds helps by:",
+       "options": [
+        "Increasing individual risk",
+        "Spreading financial risk across many people",
+        "Eliminating all costs",
+        "Reducing coverage",
+        "Raising prices"
+       ],
+       "answerIndex": 1,
+       "explanation": "The healthy subsidise the sick."
+      },
+      {
+       "stem": "The global partner that supports vaccine financing in Nigeria is:",
+       "options": [
+        "The IMF only",
+        "OPEC",
+        "FIFA",
+        "Gavi, the Vaccine Alliance",
+        "The World Bank only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Gavi co-finances vaccines."
+      }
+     ]
+    },
+    {
+     "title": "Maternal and Child Health Programmes",
+     "order": 3,
+     "summary": "Antenatal care, skilled birth attendance, maternal mortality, and child survival strategies.",
+     "material": [
+      {
+       "heading": "Maternal health",
+       "body": "Nigeria has one of the highest maternal mortality ratios in the world (an estimated several hundred to over 1,000 deaths per 100,000 live births in recent estimates) and accounts for a large share of global maternal deaths. Major direct causes: postpartum haemorrhage (leading cause), hypertensive disorders (pre-eclampsia/eclampsia), sepsis, obstructed labour and unsafe abortion. The 'three delays' model: delay in deciding to seek care, delay in reaching care, and delay in receiving adequate care at the facility. WHO recommends at least eight antenatal contacts, with interventions such as iron–folic acid supplementation, tetanus–diphtheria vaccination, IPTp with SP, HIV testing and PMTCT, syphilis screening and birth preparedness. Skilled birth attendance and emergency obstetric care (basic and comprehensive EmONC) reduce deaths.",
+       "keyPoints": [
+        "PPH: leading cause of maternal death",
+        "Three delays model",
+        "WHO: ≥ 8 ANC contacts",
+        "Skilled birth attendance and EmONC"
+       ]
+      },
+      {
+       "heading": "Child survival",
+       "body": "Leading causes of under-five deaths in Nigeria: neonatal conditions (prematurity, birth asphyxia, neonatal sepsis), pneumonia, diarrhoea, malaria and measles, with malnutrition underlying many deaths. Child survival strategies: GOBI-FFF (Growth monitoring, Oral rehydration, Breastfeeding, Immunisation; Family planning, Female education, Food supplementation), Integrated Management of Childhood Illness (IMCI) and its community version (iCCM), essential newborn care (clean cord care — chlorhexidine gel, thermal care, early breastfeeding), kangaroo mother care for low-birth-weight babies, vitamin A supplementation, deworming, ORS and zinc for diarrhoea, amoxicillin for pneumonia, and insecticide-treated nets.",
+       "keyPoints": [
+        "Neonatal causes, pneumonia, diarrhoea, malaria",
+        "GOBI-FFF",
+        "IMCI and iCCM",
+        "Chlorhexidine cord care; kangaroo mother care",
+        "ORS + zinc for diarrhoea"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The leading direct cause of maternal death in Nigeria is:",
+       "options": [
+        "Malaria",
+        "Postpartum haemorrhage",
+        "Anaemia",
+        "Diabetes",
+        "Road accidents"
+       ],
+       "answerIndex": 1,
+       "explanation": "PPH causes the largest share of maternal deaths."
+      },
+      {
+       "stem": "The 'three delays' model refers to delays in:",
+       "options": [
+        "Deciding to seek care, reaching care and receiving adequate care",
+        "Pregnancy, labour and puerperium",
+        "Diagnosis, surgery and discharge",
+        "Paying, travelling and eating",
+        "Antenatal, intrapartum and postnatal visits"
+       ],
+       "answerIndex": 0,
+       "explanation": "Each delay contributes to maternal deaths."
+      },
+      {
+       "stem": "WHO now recommends a minimum of how many antenatal contacts?",
+       "options": [
+        "2",
+        "4",
+        "8",
+        "12",
+        "1"
+       ],
+       "answerIndex": 2,
+       "explanation": "The 2016 WHO model recommends eight contacts."
+      },
+      {
+       "stem": "In GOBI-FFF, 'O' stands for:",
+       "options": [
+        "Oxygen",
+        "Outpatient care",
+        "Obstetrics",
+        "Optimal nutrition",
+        "Oral rehydration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Growth monitoring, Oral rehydration, Breastfeeding, Immunisation."
+      },
+      {
+       "stem": "The strategy integrating the management of sick children under five is:",
+       "options": [
+        "PMTCT",
+        "IMCI",
+        "SMC",
+        "EmONC",
+        "DOTS"
+       ],
+       "answerIndex": 1,
+       "explanation": "Integrated Management of Childhood Illness."
+      },
+      {
+       "stem": "Chlorhexidine gel is applied to the umbilical cord to prevent:",
+       "options": [
+        "Bleeding disorders",
+        "Hypothermia",
+        "Malaria",
+        "Neonatal infection (omphalitis)",
+        "Jaundice"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces cord infection and neonatal deaths."
+      },
+      {
+       "stem": "Skin-to-skin care for low-birth-weight babies is called:",
+       "options": [
+        "Swaddling",
+        "Phototherapy",
+        "Kangaroo mother care",
+        "Incubator care",
+        "Rooming-in"
+       ],
+       "answerIndex": 2,
+       "explanation": "It keeps babies warm and promotes breastfeeding."
+      },
+      {
+       "stem": "Childhood diarrhoea is treated with ORS and:",
+       "options": [
+        "Iron",
+        "Antibiotics routinely",
+        "Zinc",
+        "Antimotility drugs",
+        "Steroids"
+       ],
+       "answerIndex": 2,
+       "explanation": "Zinc shortens and reduces diarrhoeal episodes."
+      }
+     ]
+    },
+    {
+     "title": "Immunisation Programmes and Disease Eradication",
+     "order": 4,
+     "summary": "EPI history, the NPI schedule, polio eradication in Nigeria, and vaccine coverage challenges.",
+     "material": [
+      {
+       "heading": "EPI in Nigeria",
+       "body": "The Expanded Programme on Immunization (EPI) was launched by WHO in 1974 and in Nigeria in 1979; it was relaunched as the National Programme on Immunization (NPI) in 1997 and is now managed by the NPHCDA. Routine vaccines protect against tuberculosis (BCG), polio (OPV and IPV), diphtheria, pertussis, tetanus, hepatitis B, Haemophilus influenzae type b (pentavalent), pneumococcal disease (PCV), rotavirus, measles (MCV1 at 9 months and MCV2 at 15 months), yellow fever, meningococcal A (MenA) and HPV (girls 9–14 years, from 2023). Coverage is measured by indicators such as the proportion of children receiving DPT3/Penta3 and MCV1; 'zero-dose' children (no pentavalent dose) are concentrated in the north and in hard-to-reach communities.",
+       "keyPoints": [
+        "EPI 1974; Nigeria 1979; NPI 1997",
+        "Penta3 and MCV1 as coverage indicators",
+        "Zero-dose children",
+        "HPV vaccine from 2023"
+       ]
+      },
+      {
+       "heading": "Polio eradication",
+       "body": "The Global Polio Eradication Initiative (1988) uses high routine coverage, supplementary immunisation activities (national immunisation days), acute flaccid paralysis surveillance (in children under 15 — two stool samples 24 hours apart within 14 days of onset) and environmental surveillance of sewage. Nigeria faced setbacks, including the 2003–2004 boycott of polio vaccination in some northern states, but engaged traditional and religious leaders; the WHO certified the African Region free of wild poliovirus in August 2020. Circulating vaccine-derived poliovirus type 2 (cVDPV2) outbreaks continue in areas of low immunity and are responded to with the novel OPV2 (nOPV2). Smallpox was declared eradicated globally in 1980.",
+       "keyPoints": [
+        "AFP surveillance: 2 stools 24 h apart within 14 days",
+        "Africa certified wild-polio-free in 2020",
+        "cVDPV2 outbreaks → nOPV2",
+        "Engage traditional and religious leaders"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Expanded Programme on Immunization was launched by WHO in:",
+       "options": [
+        "1948",
+        "1974",
+        "1988",
+        "2000",
+        "1965"
+       ],
+       "answerIndex": 1,
+       "explanation": "EPI began in 1974."
+      },
+      {
+       "stem": "A commonly used indicator of routine immunisation coverage is the proportion of children receiving:",
+       "options": [
+        "BCG only",
+        "Penta3 (DPT3)",
+        "Vitamin A",
+        "Deworming tablets",
+        "HPV"
+       ],
+       "answerIndex": 1,
+       "explanation": "Penta3 coverage reflects programme performance."
+      },
+      {
+       "stem": "Children who have not received any dose of pentavalent vaccine are called:",
+       "options": [
+        "Zero-dose children",
+        "Defaulters",
+        "Partially immunised",
+        "Fully immunised",
+        "Dropouts"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reaching zero-dose children is a global priority."
+      },
+      {
+       "stem": "AFP surveillance requires collection of:",
+       "options": [
+        "Two stool samples 24 hours apart within 14 days of paralysis onset",
+        "A CSF sample",
+        "A throat swab only",
+        "A urine sample",
+        "One blood sample"
+       ],
+       "answerIndex": 0,
+       "explanation": "Adequate stool specimens detect poliovirus."
+      },
+      {
+       "stem": "The WHO African Region was certified free of wild poliovirus in:",
+       "options": [
+        "1990",
+        "2000",
+        "2015",
+        "2020",
+        "2025"
+       ],
+       "answerIndex": 3,
+       "explanation": "Certification occurred in August 2020."
+      },
+      {
+       "stem": "Polio outbreaks that occur in areas with low immunity despite eradication of wild virus are due to:",
+       "options": [
+        "Circulating vaccine-derived poliovirus",
+        "Measles",
+        "Rotavirus",
+        "Wild poliovirus type 1",
+        "Enterovirus 71 only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Vaccine virus can mutate and circulate in under-immunised populations."
+      },
+      {
+       "stem": "Engagement of traditional and religious leaders helped Nigeria overcome:",
+       "options": [
+        "Floods",
+        "Road accidents",
+        "Oil price fall",
+        "Drug shortages only",
+        "Vaccine refusal and boycotts"
+       ],
+       "answerIndex": 4,
+       "explanation": "Community trust was essential to polio eradication."
+      },
+      {
+       "stem": "The age at which the second measles dose (MCV2) is given in Nigeria is:",
+       "options": [
+        "At birth",
+        "15 months",
+        "9 months",
+        "5 years",
+        "6 weeks"
+       ],
+       "answerIndex": 1,
+       "explanation": "MCV2 is given at 15 months."
+      }
+     ]
+    },
+    {
+     "title": "Health Indicators, Demography and Health Information",
+     "order": 5,
+     "summary": "Population measures, demographic transition, vital registration, and health information systems.",
+     "material": [
+      {
+       "heading": "Demography",
+       "body": "Demography studies population size, composition and distribution. Nigeria is Africa's most populous country, with a young population (a broad-based population pyramid — about 40% under 15 years), high fertility (total fertility rate around 5 children per woman in recent NDHS surveys) and rapid urbanisation. The demographic transition model describes movement from high birth and death rates to low birth and death rates; Nigeria is in an early–middle stage. The dependency ratio = (population aged < 15 + > 64) ÷ population aged 15–64 × 100. Sources of population data: census (last conducted in 2006), vital registration (births and deaths — incomplete in Nigeria, managed by the National Population Commission), surveys (Nigeria Demographic and Health Survey — NDHS, MICS) and health facility data.",
+       "keyPoints": [
+        "Broad-based pyramid: young population",
+        "TFR ≈ 5",
+        "Dependency ratio formula",
+        "Last census 2006",
+        "NDHS and MICS surveys"
+       ]
+      },
+      {
+       "heading": "Health information",
+       "body": "The National Health Management Information System (NHMIS) collects routine facility data using DHIS2 platforms; data quality depends on completeness, timeliness, accuracy and consistency. Key indicators: life expectancy, infant mortality rate, under-five mortality rate, maternal mortality ratio, stunting prevalence, immunisation coverage, contraceptive prevalence rate, and skilled birth attendance. Disability-adjusted life years (DALYs = years of life lost + years lived with disability) measure disease burden, combining mortality and morbidity. Data should be used for planning, monitoring and evaluation.",
+       "keyPoints": [
+        "NHMIS on DHIS2",
+        "Data quality: complete, timely, accurate",
+        "DALY = YLL + YLD",
+        "Use data for decision-making"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A broad-based population pyramid indicates:",
+       "options": [
+        "An ageing population",
+        "A young population with high fertility",
+        "Low birth rates",
+        "High life expectancy only",
+        "A stable population"
+       ],
+       "answerIndex": 1,
+       "explanation": "Many children at the base reflect high fertility."
+      },
+      {
+       "stem": "The dependency ratio compares:",
+       "options": [
+        "Births and deaths",
+        "Men and women",
+        "Doctors and patients",
+        "Urban and rural populations",
+        "Dependants (< 15 and > 64) with the working-age population"
+       ],
+       "answerIndex": 4,
+       "explanation": "It measures economic dependency."
+      },
+      {
+       "stem": "Nigeria's last national population census was conducted in:",
+       "options": [
+        "1991",
+        "2006",
+        "2016",
+        "2020",
+        "2023"
+       ],
+       "answerIndex": 1,
+       "explanation": "The 2006 census remains the most recent."
+      },
+      {
+       "stem": "The major nationally representative survey of health and population in Nigeria is the:",
+       "options": [
+        "NDHS",
+        "UN report only",
+        "Tax register",
+        "School register",
+        "WHO census"
+       ],
+       "answerIndex": 0,
+       "explanation": "The Nigeria Demographic and Health Survey."
+      },
+      {
+       "stem": "DALYs combine:",
+       "options": [
+        "Births and deaths",
+        "Cost and effectiveness",
+        "Incidence and prevalence",
+        "Years of life lost and years lived with disability",
+        "Doctors and nurses"
+       ],
+       "answerIndex": 3,
+       "explanation": "DALYs measure total disease burden."
+      },
+      {
+       "stem": "Routine health facility data in Nigeria are reported through:",
+       "options": [
+        "Census forms",
+        "Bank records",
+        "DHIS2 (NHMIS)",
+        "Facebook",
+        "School registers"
+       ],
+       "answerIndex": 2,
+       "explanation": "The national HMIS uses DHIS2."
+      },
+      {
+       "stem": "The body responsible for vital registration (births and deaths) in Nigeria is the:",
+       "options": [
+        "NAFDAC",
+        "NCDC",
+        "INEC",
+        "National Population Commission",
+        "NUC"
+       ],
+       "answerIndex": 3,
+       "explanation": "NPopC maintains civil registration."
+      },
+      {
+       "stem": "Which is a dimension of health data quality?",
+       "options": [
+        "Timeliness",
+        "Language",
+        "Font size",
+        "Colour",
+        "Paper type"
+       ],
+       "answerIndex": 0,
+       "explanation": "Timely, complete and accurate data support decisions."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Molecular Biology and Nutritional Biochemistry",
+  "code": "BCH301",
+  "color": "#9333EA",
+  "description": "DNA replication, transcription, translation and gene regulation, recombinant DNA technology, and the biochemistry of nutrition and trace elements.",
+  "for": { "300": ["MBBS", "BDS", "CM", "BCH", "MLS", "HAE", "PHS"] },
+  "topics": [
+    {
+      "title": "DNA Replication and Repair",
+      "summary": "Semi-conservative replication, enzymes of replication, telomeres and DNA repair.",
+      "notes": [
+        { "h": "Replication", "b": "DNA replication is semi-conservative (Meselson and Stahl): each new double helix contains one parental and one new strand. It begins at origins of replication; helicase unwinds the helix, single-strand binding proteins stabilise it, topoisomerases relieve supercoiling (bacterial DNA gyrase is the target of fluoroquinolones), primase lays down RNA primers, and DNA polymerase synthesises new DNA only in the 5′→3′ direction. The leading strand is made continuously; the lagging strand is made discontinuously as Okazaki fragments joined by DNA ligase. DNA polymerases proofread (3′→5′ exonuclease). Telomerase (a reverse transcriptase) maintains chromosome ends in germ cells, stem cells and most cancers.", "k": ["Semi-conservative replication", "Synthesis only 5′→3′", "Lagging strand: Okazaki fragments + ligase", "Fluoroquinolones inhibit DNA gyrase"] },
+        { "h": "DNA repair", "b": "Repair pathways include mismatch repair (defective in hereditary non-polyposis colorectal cancer, Lynch syndrome), base excision repair, nucleotide excision repair (removes UV-induced thymine dimers — defective in xeroderma pigmentosum, causing extreme sun sensitivity and skin cancers) and double-strand break repair by homologous recombination (BRCA1/BRCA2) or non-homologous end joining. The tumour suppressor p53 ('guardian of the genome') halts the cell cycle for repair or triggers apoptosis.", "k": ["Xeroderma pigmentosum: nucleotide excision repair defect", "Lynch syndrome: mismatch repair defect", "BRCA1/2: homologous recombination", "p53: guardian of the genome"] }
+      ],
+      "q": [
+        ["DNA replication is described as:", "Conservative", "Semi-conservative", "Dispersive", "Random", "Non-templated", 1, "Each daughter helix keeps one parental strand."],
+        ["DNA polymerase synthesises new DNA in the direction:", "3′ → 5′", "5′ → 3′", "Both directions equally", "Randomly", "Only at telomeres", 1, "Nucleotides are added to the free 3′-OH."],
+        ["Okazaki fragments are joined together by:", "Helicase", "Primase", "DNA ligase", "Topoisomerase", "Telomerase", 2, "Ligase seals the nicks between fragments."],
+        ["Ciprofloxacin kills bacteria by inhibiting:", "Cell-wall synthesis", "DNA gyrase (topoisomerase II)", "30S ribosomes", "Folate synthesis", "RNA polymerase", 1, "Fluoroquinolones block bacterial topoisomerases."],
+        ["Xeroderma pigmentosum is due to defective:", "Mismatch repair", "Nucleotide excision repair", "Homologous recombination", "Base excision repair", "Telomerase", 1, "Thymine dimers from UV light cannot be removed."],
+        ["The enzyme that maintains telomere length is:", "DNA ligase", "Telomerase", "Primase", "Helicase", "Exonuclease I", 1, "Telomerase is a reverse transcriptase with an RNA template."],
+        ["The protein called the 'guardian of the genome' is:", "Ras", "p53", "Myc", "BCR-ABL", "Cyclin D", 1, "p53 arrests the cell cycle or triggers apoptosis after DNA damage."],
+        ["Mutations in BRCA1 and BRCA2 impair:", "Mismatch repair", "Homologous recombination repair", "Base excision repair", "Replication initiation", "Transcription", 1, "They are needed for repair of double-strand breaks."]
+      ]
+    },
+    {
+      "title": "Transcription and RNA Processing",
+      "summary": "RNA polymerases, promoters, mRNA processing, and inhibitors of transcription.",
+      "notes": [
+        { "h": "Transcription", "b": "Transcription copies a DNA template strand into RNA (5′→3′) using RNA polymerase, which needs no primer. In eukaryotes, RNA polymerase I makes most rRNA, polymerase II makes mRNA (inhibited by α-amanitin from Amanita mushrooms), and polymerase III makes tRNA and 5S rRNA. Transcription begins at promoters (e.g. the TATA box) with the help of transcription factors, and enhancers can increase it from a distance. Bacteria have a single RNA polymerase (inhibited by rifampicin) with a sigma factor that recognises promoters.", "k": ["RNA pol II makes mRNA; α-amanitin inhibits it", "TATA box promoter", "Rifampicin inhibits bacterial RNA polymerase"] },
+        { "h": "RNA processing", "b": "Eukaryotic pre-mRNA is processed in the nucleus: a 7-methylguanosine cap is added at the 5′ end, a poly-A tail at the 3′ end, and introns are removed by the spliceosome (snRNPs), joining exons. Alternative splicing lets one gene encode several proteins. Mutations at splice sites cause some β-thalassaemias. Autoantibodies to snRNPs (anti-Smith) are specific for systemic lupus erythematosus. Mature mRNA is exported to the cytoplasm for translation.", "k": ["5′ cap, 3′ poly-A tail, splicing", "Spliceosome removes introns", "Alternative splicing: one gene → many proteins", "Anti-Smith antibodies in SLE"] }
+      ],
+      "q": [
+        ["Eukaryotic mRNA is synthesised by:", "RNA polymerase I", "RNA polymerase II", "RNA polymerase III", "DNA polymerase", "Primase", 1, "RNA pol II transcribes protein-coding genes."],
+        ["Death-cap mushroom poisoning is due to α-amanitin inhibiting:", "RNA polymerase II", "DNA polymerase", "Ribosomes", "Topoisomerase", "Reverse transcriptase", 0, "α-Amanitin blocks mRNA synthesis, especially in the liver."],
+        ["Rifampicin acts by inhibiting bacterial:", "Cell wall synthesis", "DNA-dependent RNA polymerase", "50S ribosome", "DNA gyrase", "Folate synthesis", 1, "It binds the β subunit of bacterial RNA polymerase."],
+        ["Removal of introns from pre-mRNA is called:", "Capping", "Splicing", "Polyadenylation", "Translation", "Replication", 1, "The spliceosome excises introns and joins exons."],
+        ["The 5′ end of eukaryotic mRNA carries a:", "Poly-A tail", "7-methylguanosine cap", "Shine–Dalgarno sequence", "TATA box", "Start codon only", 1, "The cap protects mRNA and aids ribosome binding."],
+        ["A common eukaryotic promoter element is the:", "Poly-A signal", "TATA box", "Okazaki fragment", "Anticodon", "Stop codon", 1, "The TATA box lies about 25–30 bases upstream of the start site."],
+        ["Alternative splicing allows:", "One gene to produce several protein variants", "DNA replication", "mRNA to be exported without processing", "Introns to be translated", "Ribosome assembly", 0, "Different exon combinations give different proteins."],
+        ["Anti-Smith antibodies, directed against snRNPs, are specific for:", "Rheumatoid arthritis", "Systemic lupus erythematosus", "Graves' disease", "Myasthenia gravis", "Type 1 diabetes", 1, "Anti-Sm antibodies are highly specific for SLE."]
+      ]
+    },
+    {
+      "title": "Translation and the Genetic Code",
+      "summary": "Codons, tRNA and ribosomes, steps of protein synthesis, antibiotics and post-translational modification.",
+      "notes": [
+        { "h": "Genetic code and translation", "b": "The genetic code is a triplet code read 5′→3′ on mRNA; it is degenerate (most amino acids have several codons), non-overlapping, unambiguous and almost universal. AUG (methionine) is the start codon; UAA, UAG and UGA are stop codons. tRNAs carry amino acids attached by aminoacyl-tRNA synthetases and recognise codons via anticodons (wobble at the third base). Translation on ribosomes (eukaryotic 80S = 60S + 40S; prokaryotic 70S = 50S + 30S) has initiation, elongation (peptide bond formation by peptidyl transferase, an rRNA ribozyme) and termination (release factors at stop codons).", "k": ["AUG start; UAA, UAG, UGA stop", "Code is degenerate and nearly universal", "Eukaryotic 80S; prokaryotic 70S", "Peptidyl transferase is a ribozyme"] },
+        { "h": "Antibiotics and modification", "b": "Many antibiotics selectively target bacterial 70S ribosomes: aminoglycosides (gentamicin) and tetracyclines bind the 30S subunit; macrolides (erythromycin, azithromycin), chloramphenicol, clindamycin and linezolid bind the 50S subunit. Diphtheria toxin inactivates eukaryotic elongation factor 2 (EF-2). After translation, proteins may be folded by chaperones, glycosylated, phosphorylated, cleaved (proinsulin → insulin + C-peptide), or targeted by signal sequences to the ER. Collagen requires vitamin C-dependent hydroxylation of proline and lysine.", "k": ["30S: aminoglycosides, tetracyclines", "50S: macrolides, chloramphenicol, clindamycin", "Diphtheria toxin inactivates EF-2", "Proinsulin → insulin + C-peptide"] }
+      ],
+      "q": [
+        ["The start codon for protein synthesis is:", "UAA", "AUG", "UGA", "UAG", "GUG only", 1, "AUG codes for methionine and initiates translation."],
+        ["Which is a stop codon?", "AUG", "UGA", "GGA", "CCC", "AAA", 1, "UAA, UAG and UGA terminate translation."],
+        ["The genetic code is 'degenerate' because:", "It changes between species", "Most amino acids are coded by more than one codon", "Codons overlap", "It is read in pairs", "It has no stop codons", 1, "61 sense codons code for 20 amino acids."],
+        ["Gentamicin inhibits protein synthesis by binding the:", "50S subunit", "30S subunit", "80S ribosome", "RNA polymerase", "DNA gyrase", 1, "Aminoglycosides bind the 30S subunit."],
+        ["Azithromycin acts on the bacterial:", "30S subunit", "50S subunit", "Cell wall", "DNA gyrase", "Folate pathway", 1, "Macrolides bind the 50S subunit."],
+        ["Diphtheria toxin kills cells by inactivating:", "EF-2", "RNA polymerase II", "DNA ligase", "Topoisomerase", "Peptidyl transferase", 0, "It ADP-ribosylates elongation factor 2."],
+        ["The enzyme that attaches an amino acid to its tRNA is:", "Peptidyl transferase", "Aminoacyl-tRNA synthetase", "RNA polymerase", "Ligase", "Reverse transcriptase", 1, "Each synthetase charges its specific tRNA."],
+        ["C-peptide is released when:", "Insulin is degraded", "Proinsulin is cleaved to insulin", "Glucagon is secreted", "Albumin is made", "Collagen is hydroxylated", 1, "C-peptide measures endogenous insulin production."]
+      ]
+    },
+    {
+      "title": "Gene Regulation and Recombinant DNA Technology",
+      "summary": "The lac operon, epigenetics, recombinant DNA, cloning and biotechnology in medicine.",
+      "notes": [
+        { "h": "Gene regulation", "b": "In bacteria, genes are organised into operons. The lac operon (Jacob and Monod) is inducible: the repressor binds the operator in the absence of lactose; allolactose inactivates the repressor, and high expression also needs low glucose (cAMP–CAP positive control). The trp operon is repressible. In eukaryotes, regulation occurs at chromatin (histone acetylation opens chromatin and increases transcription; DNA methylation at CpG islands silences genes), transcription factors, RNA processing, microRNAs and protein modification. Genomic imprinting (e.g. Prader–Willi and Angelman syndromes) is an epigenetic effect.", "k": ["Lac operon: inducible, needs lactose and low glucose", "Histone acetylation ↑ transcription", "DNA methylation silences genes", "Imprinting: Prader–Willi/Angelman"] },
+        { "h": "Recombinant DNA", "b": "Recombinant DNA technology uses restriction enzymes (cutting at palindromic sites, often leaving sticky ends), DNA ligase, and vectors (plasmids, bacteriophages, viral vectors) to insert genes into host cells. cDNA made from mRNA by reverse transcriptase lacks introns and can be expressed in bacteria. Applications: recombinant human insulin, growth hormone, erythropoietin, hepatitis B surface antigen vaccine, monoclonal antibodies, gene therapy, and CRISPR-Cas9 genome editing. Real-time (quantitative) PCR measures viral load (HIV) and GeneXpert MTB/RIF detects TB and rifampicin resistance.", "k": ["Restriction enzymes + ligase + vector", "cDNA from mRNA via reverse transcriptase", "Recombinant insulin and HBsAg vaccine", "GeneXpert detects TB and rifampicin resistance"] }
+      ],
+      "q": [
+        ["The lac operon is expressed most strongly when:", "Glucose is high and lactose absent", "Lactose is present and glucose is low", "Both glucose and lactose are high", "Tryptophan is high", "Neither sugar is present", 1, "Lactose inactivates the repressor, and low glucose raises cAMP–CAP."],
+        ["Histone acetylation generally:", "Silences genes", "Opens chromatin and increases transcription", "Causes mutations", "Methylates DNA", "Blocks replication", 1, "Acetylation reduces histone–DNA binding."],
+        ["DNA methylation at CpG islands usually:", "Activates transcription", "Silences gene expression", "Causes point mutations", "Removes introns", "Starts replication", 1, "Methylated promoters are transcriptionally silent."],
+        ["Complementary DNA (cDNA) is made from mRNA using:", "DNA polymerase", "Reverse transcriptase", "Restriction enzyme", "RNA polymerase", "Ligase", 1, "cDNA lacks introns and can be expressed in bacteria."],
+        ["Enzymes that cut DNA at specific palindromic sequences are:", "Ligases", "Restriction endonucleases", "Polymerases", "Helicases", "Kinases", 1, "They are key tools of genetic engineering."],
+        ["Human insulin for diabetes is now produced mainly by:", "Extraction from cadavers", "Recombinant DNA technology in microorganisms", "Chemical synthesis only", "Plant extraction", "Pig pancreas", 1, "Recombinant bacteria or yeast express human insulin."],
+        ["The GeneXpert MTB/RIF test detects TB and resistance to:", "Isoniazid", "Rifampicin", "Streptomycin", "Ethambutol", "Pyrazinamide", 1, "It detects rpoB mutations conferring rifampicin resistance."],
+        ["Prader–Willi and Angelman syndromes illustrate:", "Mitochondrial inheritance", "Genomic imprinting", "X-linked dominance", "Trinucleotide repeats", "Codominance", 1, "The phenotype depends on which parent's chromosome 15 region is lost."]
+      ]
+    },
+    {
+      "title": "Nutritional Biochemistry and Trace Elements",
+      "summary": "Energy requirements, macronutrients, protein quality, minerals and trace elements.",
+      "notes": [
+        { "h": "Energy and macronutrients", "b": "Energy yields: carbohydrate and protein 4 kcal/g (17 kJ/g), fat 9 kcal/g (37 kJ/g), alcohol 7 kcal/g. Total energy expenditure = basal metabolic rate (about 60–70%) + thermic effect of food (~10%) + physical activity. Body mass index = weight (kg)/height (m)²: normal 18.5–24.9, overweight 25–29.9, obese ≥ 30. Protein quality depends on essential amino acid content; cereals are low in lysine and legumes low in methionine, so combining them (e.g. rice and beans, a common Nigerian meal) gives complementary proteins. Nitrogen balance is positive in growth, pregnancy and recovery, negative in starvation, burns and severe illness.", "k": ["Carbs/protein 4 kcal/g; fat 9; alcohol 7", "BMR ≈ 60–70% of energy use", "BMI 18.5–24.9 normal; ≥ 30 obese", "Rice + beans = complementary proteins"] },
+        { "h": "Minerals and trace elements", "b": "Iron: absorbed as Fe2+ in the duodenum (enhanced by vitamin C, reduced by phytates and tannins in tea); stored as ferritin; deficiency causes microcytic anaemia — the commonest nutritional deficiency worldwide. Iodine: thyroid hormones; deficiency causes goitre and cretinism. Zinc: cofactor for many enzymes; deficiency causes growth retardation, poor wound healing, acrodermatitis and diarrhoea — zinc supplements are given with ORS for childhood diarrhoea. Calcium and vitamin D: bone health. Fluoride prevents dental caries but excess causes fluorosis. Selenium is part of glutathione peroxidase. Copper deficiency causes anaemia; Wilson disease is copper overload.", "k": ["Iron absorbed as Fe2+; vitamin C helps", "Zinc with ORS for diarrhoea", "Iodine → thyroid", "Fluoride prevents caries; excess → fluorosis"] }
+      ],
+      "q": [
+        ["Complete oxidation of 1 g of protein yields about:", "4 kcal", "7 kcal", "9 kcal", "12 kcal", "2 kcal", 0, "Protein and carbohydrate yield about 4 kcal/g."],
+        ["A person weighing 81 kg who is 1.8 m tall has a BMI of:", "20", "25", "30", "45", "15", 1, "81 ÷ (1.8)² = 81 ÷ 3.24 = 25."],
+        ["The largest component of daily energy expenditure in sedentary adults is:", "Physical activity", "Basal metabolic rate", "Thermic effect of food", "Growth", "Thinking", 1, "BMR accounts for about 60–70%."],
+        ["Eating rice and beans together improves protein quality because:", "Both are rich in lysine", "Their essential amino acids complement each other", "Beans contain fat", "Rice contains all amino acids", "It increases fibre only", 1, "Cereals lack lysine; legumes lack methionine."],
+        ["Iron absorption is enhanced by:", "Tea", "Phytates", "Vitamin C", "Calcium supplements", "Antacids", 2, "Vitamin C keeps iron in the ferrous (Fe2+) form."],
+        ["Zinc supplementation is recommended with ORS for children with:", "Malaria", "Diarrhoea", "Measles only", "Asthma", "Sickle cell crisis", 1, "Zinc reduces the duration and severity of diarrhoea."],
+        ["Negative nitrogen balance occurs in:", "Pregnancy", "Growth in childhood", "Severe burns", "Recovery from illness", "Body building with high protein intake", 2, "Catabolic states break down protein."],
+        ["Mottled teeth from excess fluoride in drinking water is called:", "Scurvy", "Fluorosis", "Rickets", "Pellagra", "Caries", 1, "Dental fluorosis results from excess fluoride during tooth development."]
+      ]
+    }
+  ]
+}

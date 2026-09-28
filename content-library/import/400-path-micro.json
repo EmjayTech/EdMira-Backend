@@ -1,0 +1,666 @@
+{
+ "courses": [
+  {
+   "title": "Medical Microbiology and Parasitology (Clinical)",
+   "code": "MCB401",
+   "color": "#047857",
+   "description": "Host–microbe interactions, major bacterial, viral, fungal and parasitic infections in Nigeria, and principles of laboratory diagnosis and infection control.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "400 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "400 Level",
+     "department": "Public Health"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Host–Parasite Relationships and Immunity to Infection",
+     "order": 1,
+     "summary": "Virulence factors, innate and adaptive immunity, vaccines and immunisation principles.",
+     "material": [
+      {
+       "heading": "Virulence",
+       "body": "Pathogenicity is the ability to cause disease; virulence is its degree. Virulence factors: adhesins and pili (colonisation), capsules (resist phagocytosis — pneumococcus, meningococcus, Haemophilus influenzae type b, Klebsiella), invasins, enzymes (hyaluronidase, coagulase, IgA protease), exotoxins (proteins secreted mainly by Gram-positives — tetanus, diphtheria, botulinum, cholera toxins; toxoids used as vaccines) and endotoxin (lipid A of Gram-negative LPS — fever, septic shock, DIC). Koch's postulates link microbes to disease. Normal flora protect by colonisation resistance; antibiotics disrupt it (e.g. C. difficile, candidiasis).",
+       "keyPoints": [
+        "Capsules resist phagocytosis",
+        "Exotoxins: proteins; toxoids as vaccines",
+        "Endotoxin: lipid A of LPS",
+        "Normal flora give colonisation resistance"
+       ]
+      },
+      {
+       "heading": "Immunity and vaccines",
+       "body": "Innate immunity (skin, mucous membranes, complement, phagocytes, NK cells, fever, interferons) is rapid and non-specific; adaptive immunity (B cells/antibodies — humoral; T cells — cell-mediated) is specific with memory. IgM is the first antibody in a primary response (indicates recent infection); IgG predominates in secondary responses and crosses the placenta; IgA protects mucosal surfaces and is in breast milk; IgE mediates allergy and anti-helminth responses. Active immunity follows infection or vaccination (live attenuated — BCG, measles, yellow fever, oral polio; inactivated — IPV; toxoids — tetanus, diphtheria; subunit/recombinant — hepatitis B, HPV; conjugate — Hib, pneumococcal, MenA). Passive immunity: maternal antibodies, immunoglobulins and antitoxins (e.g. tetanus immunoglobulin, rabies immunoglobulin).",
+       "keyPoints": [
+        "IgM: first/recent infection",
+        "IgG: crosses placenta",
+        "IgA: mucosal, breast milk",
+        "Live vaccines: BCG, measles, yellow fever, OPV",
+        "Passive: immunoglobulins, antitoxins"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Bacterial capsules contribute to virulence mainly by:",
+       "options": [
+        "Resisting phagocytosis",
+        "Aiding motility",
+        "Producing toxins",
+        "Transferring plasmids",
+        "Forming spores"
+       ],
+       "answerIndex": 0,
+       "explanation": "Capsules prevent opsonisation and phagocytosis."
+      },
+      {
+       "stem": "Endotoxin is a component of:",
+       "options": [
+        "Fungal cell walls",
+        "Viral capsids",
+        "The outer membrane of Gram-negative bacteria",
+        "Gram-positive cell walls",
+        "Protozoan cysts"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lipid A of lipopolysaccharide is endotoxin."
+      },
+      {
+       "stem": "Toxoid vaccines are made from:",
+       "options": [
+        "Viral DNA",
+        "Inactivated bacterial exotoxins",
+        "Endotoxin",
+        "Killed parasites",
+        "Live bacteria"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tetanus and diphtheria vaccines are toxoids."
+      },
+      {
+       "stem": "The first antibody produced in a primary immune response is:",
+       "options": [
+        "IgM",
+        "IgE",
+        "IgA",
+        "IgG",
+        "IgD"
+       ],
+       "answerIndex": 0,
+       "explanation": "IgM indicates recent infection."
+      },
+      {
+       "stem": "The antibody that crosses the placenta is:",
+       "options": [
+        "IgE",
+        "IgA",
+        "IgD",
+        "IgG",
+        "IgM"
+       ],
+       "answerIndex": 3,
+       "explanation": "IgG gives newborns passive immunity."
+      },
+      {
+       "stem": "Which vaccine is a live attenuated vaccine?",
+       "options": [
+        "Hepatitis B vaccine",
+        "Inactivated polio vaccine",
+        "Measles vaccine",
+        "HPV vaccine",
+        "Tetanus toxoid"
+       ],
+       "answerIndex": 2,
+       "explanation": "Measles vaccine contains live weakened virus."
+      },
+      {
+       "stem": "Giving rabies immunoglobulin after a dog bite provides:",
+       "options": [
+        "Active natural immunity",
+        "Active artificial immunity only",
+        "Herd immunity",
+        "Passive immunity",
+        "Innate immunity"
+       ],
+       "answerIndex": 3,
+       "explanation": "Preformed antibodies give immediate protection."
+      },
+      {
+       "stem": "The antibody class secreted in breast milk that protects the infant's gut is:",
+       "options": [
+        "IgM",
+        "IgG",
+        "IgD",
+        "IgE",
+        "Secretory IgA"
+       ],
+       "answerIndex": 4,
+       "explanation": "Secretory IgA protects mucosal surfaces."
+      }
+     ]
+    },
+    {
+     "title": "Important Bacterial Infections in Nigeria",
+     "order": 2,
+     "summary": "Tuberculosis, typhoid, meningitis, cholera, tetanus, diphtheria and STIs.",
+     "material": [
+      {
+       "heading": "Tuberculosis and typhoid",
+       "body": "Nigeria has one of the highest TB burdens globally. TB is spread by airborne droplet nuclei; symptoms include cough for 2 weeks or more, fever, night sweats and weight loss. Diagnosis: GeneXpert MTB/RIF, sputum smear microscopy, culture, chest X-ray; TB–HIV co-infection is common. Treatment: 2 months of rifampicin, isoniazid, pyrazinamide and ethambutol (2RHZE) followed by 4 months of rifampicin and isoniazid (4RH) under DOTS; multidrug-resistant TB needs second-line regimens. Typhoid (enteric) fever from Salmonella Typhi (faecal–oral) causes step-ladder fever, abdominal pain, relative bradycardia and, rarely, rose spots; complications include intestinal perforation (typically terminal ileum, second–third week). Diagnosis by blood culture; the Widal test is unreliable and over-used in Nigeria. Treatment depends on susceptibility (ceftriaxone, azithromycin, fluoroquinolones in susceptible strains).",
+       "keyPoints": [
+        "TB: cough ≥ 2 weeks, GeneXpert",
+        "2RHZE/4RH under DOTS",
+        "Typhoid: blood culture; Widal unreliable",
+        "Typhoid perforation: terminal ileum"
+       ]
+      },
+      {
+       "heading": "Other key infections",
+       "body": "Cerebrospinal (meningococcal) meningitis epidemics occur in the dry season in the northern 'meningitis belt' (serogroups A, C, W, X; MenAfriVac and MenFive conjugate vaccines); features include fever, headache, neck stiffness and a petechial rash; ceftriaxone is first-line. Cholera (Vibrio cholerae) causes profuse 'rice-water' diarrhoea and rapid dehydration — rehydration (ORS, IV Ringer's lactate) is the cornerstone, with antibiotics (doxycycline, azithromycin) as adjuncts. Neonatal tetanus follows unhygienic cord care; prevention by maternal tetanus–diphtheria vaccination and clean delivery. Diphtheria (Corynebacterium diphtheriae) causes a grey adherent pharyngeal pseudomembrane and 'bull neck' — recent outbreaks in Nigeria reflect low vaccination coverage; treat with diphtheria antitoxin and antibiotics. Gonorrhoea, syphilis (VDRL/RPR screening, treated with benzathine penicillin) and chlamydia are common sexually transmitted infections.",
+       "keyPoints": [
+        "Meningitis belt: dry season, ceftriaxone",
+        "Cholera: rehydration is key",
+        "Neonatal tetanus: clean cord care + maternal vaccination",
+        "Diphtheria: pseudomembrane, antitoxin",
+        "Syphilis: benzathine penicillin"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The intensive phase of first-line TB treatment consists of:",
+       "options": [
+        "Isoniazid alone",
+        "Chloroquine",
+        "Amoxicillin and metronidazole",
+        "Rifampicin, isoniazid, pyrazinamide and ethambutol",
+        "Streptomycin alone"
+       ],
+       "answerIndex": 3,
+       "explanation": "2RHZE for 2 months."
+      },
+      {
+       "stem": "The standard duration of treatment for drug-susceptible pulmonary TB is:",
+       "options": [
+        "6 months",
+        "2 years",
+        "Lifelong",
+        "2 weeks",
+        "2 months"
+       ],
+       "answerIndex": 0,
+       "explanation": "2 months intensive + 4 months continuation."
+      },
+      {
+       "stem": "Typhoid intestinal perforation most commonly affects the:",
+       "options": [
+        "Jejunum",
+        "Sigmoid colon",
+        "Duodenum",
+        "Terminal ileum",
+        "Stomach"
+       ],
+       "answerIndex": 3,
+       "explanation": "Peyer's patches in the terminal ileum ulcerate."
+      },
+      {
+       "stem": "The Widal test for typhoid is considered unreliable in Nigeria mainly because:",
+       "options": [
+        "Of cross-reactions and background antibodies in endemic populations",
+        "It requires stool",
+        "It is too sensitive",
+        "It detects viruses",
+        "It is too expensive"
+       ],
+       "answerIndex": 0,
+       "explanation": "Many false positives lead to overdiagnosis."
+      },
+      {
+       "stem": "Meningococcal meningitis epidemics in northern Nigeria typically occur during the:",
+       "options": [
+        "Dry season",
+        "Christmas only",
+        "No particular season",
+        "Harmattan only in the south",
+        "Rainy season"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dry, dusty conditions in the meningitis belt favour outbreaks."
+      },
+      {
+       "stem": "The most important treatment for cholera is:",
+       "options": [
+        "Rapid rehydration",
+        "Steroids",
+        "Antimotility drugs",
+        "Antibiotics alone",
+        "Antimalarials"
+       ],
+       "answerIndex": 0,
+       "explanation": "Replacing fluid and electrolytes saves lives."
+      },
+      {
+       "stem": "A grey adherent pseudomembrane in the throat with 'bull neck' suggests:",
+       "options": [
+        "Tonsillitis only",
+        "Streptococcal pharyngitis",
+        "Candidiasis",
+        "Infectious mononucleosis",
+        "Diphtheria"
+       ],
+       "answerIndex": 4,
+       "explanation": "C. diphtheriae forms a pseudomembrane."
+      },
+      {
+       "stem": "The drug of choice for treating syphilis is:",
+       "options": [
+        "Benzathine penicillin",
+        "Doxycycline only in pregnancy",
+        "Fluconazole",
+        "Ciprofloxacin",
+        "Metronidazole"
+       ],
+       "answerIndex": 0,
+       "explanation": "Penicillin remains first-line."
+      }
+     ]
+    },
+    {
+     "title": "Viral Infections: HIV, Hepatitis and Viral Haemorrhagic Fevers",
+     "order": 3,
+     "summary": "HIV diagnosis and ART, hepatitis B and C, Lassa fever, yellow fever and measles.",
+     "material": [
+      {
+       "heading": "HIV and hepatitis",
+       "body": "HIV (a retrovirus) infects CD4 T cells, macrophages and dendritic cells via CD4 and CCR5/CXCR4 co-receptors. Transmission: sexual, blood, and mother-to-child (pregnancy, delivery, breastfeeding). Diagnosis in Nigeria uses a serial rapid-test algorithm (screening test, confirmatory test, tie-breaker); infants under 18 months need virological (PCR/DNA) testing because of maternal antibodies. All people with HIV should start antiretroviral therapy (treat all), with first-line tenofovir + lamivudine + dolutegravir (TLD); monitor with viral load ('Undetectable = Untransmittable'). Opportunistic infections: TB (commonest cause of death), Pneumocystis pneumonia, cryptococcal meningitis, Kaposi sarcoma, oral candidiasis; cotrimoxazole prophylaxis. Hepatitis B (DNA virus) is highly endemic in Nigeria — HBsAg indicates infection, anti-HBs immunity, HBeAg high infectivity, anti-HBc (IgM) acute infection; vaccination at birth prevents mother-to-child transmission. Hepatitis C is curable with direct-acting antivirals.",
+       "keyPoints": [
+        "HIV: CD4 + CCR5/CXCR4",
+        "Infants < 18 months: PCR testing",
+        "Treat all: TLD first-line",
+        "U = U",
+        "HBsAg = infection; anti-HBs = immunity"
+       ]
+      },
+      {
+       "heading": "Haemorrhagic fevers and measles",
+       "body": "Lassa fever (arenavirus; reservoir Mastomys natalensis rats) is endemic in Nigeria, peaking in the dry season (December–April); transmission via rodent excreta and person-to-person in hospitals. It presents with fever, malaise, sore throat, vomiting, facial oedema, bleeding and hearing loss; diagnosis by RT-PCR (at designated labs); treated with ribavirin (most effective when started early), supportive care and strict infection prevention and control; case fatality among confirmed cases is often around 15–20%. Yellow fever (flavivirus, Aedes mosquitoes) causes fever, jaundice and haemorrhage; prevented by a single dose of vaccine (lifelong protection). Ebola (filovirus) had one imported outbreak in Lagos (2014), contained by contact tracing. Measles (paramyxovirus, highly contagious) causes fever, cough, coryza, conjunctivitis, Koplik spots and a maculopapular rash; complications include pneumonia, diarrhoea, encephalitis and blindness (vitamin A deficiency) — give vitamin A to all children with measles.",
+       "keyPoints": [
+        "Lassa: Mastomys, dry season, ribavirin",
+        "Lassa diagnosis: RT-PCR",
+        "Yellow fever: Aedes; single-dose vaccine",
+        "Measles: Koplik spots; give vitamin A"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "HIV infection in an infant under 18 months is diagnosed by:",
+       "options": [
+        "Virological test (HIV DNA/RNA PCR)",
+        "Widal test",
+        "Rapid antibody test",
+        "CD4 count only",
+        "Blood film"
+       ],
+       "answerIndex": 0,
+       "explanation": "Maternal antibodies make antibody tests unreliable in infants."
+      },
+      {
+       "stem": "The preferred first-line ART regimen in Nigeria is:",
+       "options": [
+        "Tenofovir + lamivudine + dolutegravir (TLD)",
+        "Zidovudine alone",
+        "Chloroquine + SP",
+        "Nevirapine alone",
+        "Stavudine + lamivudine"
+       ],
+       "answerIndex": 0,
+       "explanation": "TLD is the WHO-preferred first-line regimen."
+      },
+      {
+       "stem": "The commonest cause of death among people living with HIV in Nigeria is:",
+       "options": [
+        "Tuberculosis",
+        "Tetanus",
+        "Malaria",
+        "Hepatitis A",
+        "Cholera"
+       ],
+       "answerIndex": 0,
+       "explanation": "TB is the leading opportunistic killer."
+      },
+      {
+       "stem": "Presence of HBsAg in serum indicates:",
+       "options": [
+        "Immunity to hepatitis B",
+        "Current hepatitis B infection",
+        "Hepatitis A infection",
+        "Hepatitis C infection",
+        "Past vaccination only"
+       ],
+       "answerIndex": 1,
+       "explanation": "HBsAg marks current (acute or chronic) infection."
+      },
+      {
+       "stem": "The reservoir of Lassa virus is the:",
+       "options": [
+        "Domestic dog",
+        "Aedes mosquito",
+        "Mastomys natalensis rat",
+        "Monkey",
+        "Fruit bat only"
+       ],
+       "answerIndex": 2,
+       "explanation": "The multimammate rat sheds the virus."
+      },
+      {
+       "stem": "The antiviral used to treat Lassa fever is:",
+       "options": [
+        "Ribavirin",
+        "Zidovudine",
+        "Amantadine",
+        "Acyclovir",
+        "Oseltamivir"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ribavirin is most effective when started early."
+      },
+      {
+       "stem": "Koplik spots on the buccal mucosa are characteristic of:",
+       "options": [
+        "Measles",
+        "Lassa fever",
+        "Mumps",
+        "Rubella",
+        "Chickenpox"
+       ],
+       "answerIndex": 0,
+       "explanation": "They appear before the measles rash."
+      },
+      {
+       "stem": "All children with measles in Nigeria should receive:",
+       "options": [
+        "Iron",
+        "Vitamin A",
+        "Antimalarials only",
+        "Steroids",
+        "Antibiotics routinely"
+       ],
+       "answerIndex": 1,
+       "explanation": "Vitamin A reduces complications including blindness."
+      }
+     ]
+    },
+    {
+     "title": "Malaria and Other Protozoal Infections",
+     "order": 4,
+     "summary": "Malaria life cycle, diagnosis and treatment; trypanosomiasis, leishmaniasis, amoebiasis and toxoplasmosis.",
+     "material": [
+      {
+       "heading": "Malaria",
+       "body": "Nigeria carries the world's largest share of the global malaria burden. Plasmodium falciparum causes most cases (also P. malariae, P. ovale, P. vivax rarely). The female Anopheles mosquito injects sporozoites, which infect hepatocytes (exo-erythrocytic stage), releasing merozoites that invade red cells (erythrocytic cycle — ring forms, trophozoites, schizonts) causing fever; some form gametocytes taken up by mosquitoes (sexual cycle). P. vivax and ovale form dormant liver hypnozoites causing relapses. Diagnosis: microscopy of thick (detection) and thin (species, parasite density) Giemsa-stained films, or rapid diagnostic tests (HRP2 for falciparum). Severe malaria (impaired consciousness/cerebral malaria, convulsions, severe anaemia, respiratory distress, hypoglycaemia, jaundice, haemoglobinuria, shock, hyperparasitaemia) requires IV/IM artesunate; uncomplicated malaria is treated with ACTs (artemether–lumefantrine first line). Prevention: LLINs, IPTp with SP, seasonal malaria chemoprevention, the RTS,S and R21 vaccines.",
+       "keyPoints": [
+        "P. falciparum causes most cases",
+        "Thick film: detection; thin film: species",
+        "RDT: HRP2",
+        "Severe malaria: artesunate",
+        "Hypnozoites: vivax and ovale"
+       ]
+      },
+      {
+       "heading": "Other protozoa",
+       "body": "Human African trypanosomiasis (sleeping sickness; T. brucei gambiense in West Africa, tsetse fly) progresses from a haemolymphatic stage (Winterbottom's sign — posterior cervical lymphadenopathy) to a meningoencephalitic stage with sleep disturbance. Leishmaniasis (sandfly) causes cutaneous ulcers or visceral disease (kala-azar — fever, massive splenomegaly, pancytopenia). Amoebiasis (Entamoeba histolytica) causes dysentery with flask-shaped ulcers and amoebic liver abscess ('anchovy sauce' pus), treated with metronidazole plus a luminal agent. Giardiasis causes malabsorption. Toxoplasmosis (cat faeces, undercooked meat) is dangerous in pregnancy (congenital infection — chorioretinitis, hydrocephalus, intracranial calcification) and in AIDS (ring-enhancing brain lesions). Cryptosporidium causes chronic diarrhoea in AIDS.",
+       "keyPoints": [
+        "Sleeping sickness: tsetse; Winterbottom's sign",
+        "Kala-azar: massive splenomegaly",
+        "Amoebic liver abscess: anchovy sauce pus",
+        "Toxoplasmosis: congenital and AIDS"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Plasmodium species responsible for most malaria cases and deaths in Nigeria is:",
+       "options": [
+        "P. vivax",
+        "P. ovale",
+        "P. malariae",
+        "P. falciparum",
+        "P. knowlesi"
+       ],
+       "answerIndex": 3,
+       "explanation": "P. falciparum dominates in sub-Saharan Africa."
+      },
+      {
+       "stem": "Malaria is transmitted by the:",
+       "options": [
+        "Tsetse fly",
+        "Female Anopheles mosquito",
+        "Male Anopheles mosquito",
+        "Culex mosquito",
+        "Aedes mosquito"
+       ],
+       "answerIndex": 1,
+       "explanation": "Only females take blood meals."
+      },
+      {
+       "stem": "The thin blood film in malaria diagnosis is mainly used to:",
+       "options": [
+        "Identify the species and estimate parasite density",
+        "Detect hypnozoites",
+        "Count white cells",
+        "Measure haemoglobin",
+        "Detect low parasitaemia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Thick films are more sensitive; thin films show morphology."
+      },
+      {
+       "stem": "Malaria relapses due to dormant liver hypnozoites occur with:",
+       "options": [
+        "No species",
+        "P. vivax and P. ovale",
+        "P. malariae only",
+        "All species equally",
+        "P. falciparum"
+       ],
+       "answerIndex": 1,
+       "explanation": "Primaquine clears hypnozoites."
+      },
+      {
+       "stem": "The drug of choice for severe malaria is:",
+       "options": [
+        "Oral SP",
+        "Primaquine",
+        "Parenteral artesunate",
+        "Doxycycline alone",
+        "Oral chloroquine"
+       ],
+       "answerIndex": 2,
+       "explanation": "IV/IM artesunate reduces mortality."
+      },
+      {
+       "stem": "Posterior cervical lymphadenopathy (Winterbottom's sign) suggests:",
+       "options": [
+        "Tuberculosis only",
+        "African trypanosomiasis",
+        "Amoebiasis",
+        "Leishmaniasis",
+        "Malaria"
+       ],
+       "answerIndex": 1,
+       "explanation": "It occurs in the early stage of T. b. gambiense infection."
+      },
+      {
+       "stem": "Amoebic liver abscess pus is classically described as:",
+       "options": [
+        "'Anchovy sauce'",
+        "Green and foul",
+        "Yellow cheesy",
+        "Clear",
+        "Frothy"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is brownish, odourless necrotic material."
+      },
+      {
+       "stem": "Toxoplasmosis in pregnancy is important because it can cause:",
+       "options": [
+        "Congenital chorioretinitis and hydrocephalus",
+        "Hypertension",
+        "Cleft lip only",
+        "Sickle cell disease",
+        "Diabetes"
+       ],
+       "answerIndex": 0,
+       "explanation": "Transplacental infection damages the fetal brain and eyes."
+      }
+     ]
+    },
+    {
+     "title": "Helminths and Fungal Infections",
+     "order": 5,
+     "summary": "Soil-transmitted helminths, schistosomiasis, filariasis, onchocerciasis, and superficial and systemic mycoses.",
+     "material": [
+      {
+       "heading": "Helminths",
+       "body": "Soil-transmitted helminths: Ascaris lumbricoides (roundworm — intestinal obstruction, Loeffler's pneumonitis), hookworm (Necator americanus, Ancylostoma duodenale — skin penetration, iron deficiency anaemia), Trichuris trichiura (whipworm — rectal prolapse) and Strongyloides (autoinfection, hyperinfection in immunosuppression); treated with albendazole or mebendazole (ivermectin for Strongyloides). Schistosomiasis: S. haematobium (urinary — terminal haematuria, bladder calcification and cancer; eggs with terminal spine in urine) and S. mansoni (intestinal/hepatic — periportal fibrosis, portal hypertension; lateral spine in stool); praziquantel treatment. Lymphatic filariasis (Wuchereria bancrofti — Culex/Anopheles; elephantiasis, hydrocele; night blood films) and onchocerciasis (Onchocerca volvulus — Simulium blackflies near fast rivers; skin nodules, itching, 'leopard skin', river blindness; skin snips) are targeted by mass drug administration with ivermectin and albendazole. Taenia solium (pork tapeworm) causes cysticercosis/neurocysticercosis — a cause of epilepsy. Guinea worm is nearly eradicated in Nigeria.",
+       "keyPoints": [
+        "Hookworm → iron deficiency",
+        "Albendazole/mebendazole for STH",
+        "S. haematobium: terminal spine, haematuria",
+        "S. mansoni: lateral spine",
+        "Onchocerciasis: Simulium, ivermectin",
+        "Neurocysticercosis → epilepsy"
+       ]
+      },
+      {
+       "heading": "Fungal infections",
+       "body": "Superficial mycoses: dermatophytes (Trichophyton, Microsporum, Epidermophyton) cause tinea capitis (common in Nigerian children), tinea corporis, pedis and cruris; pityriasis versicolor (Malassezia) causes hypo- or hyperpigmented patches. Diagnosis: skin scrapings in 10–20% KOH, culture on Sabouraud agar. Subcutaneous: mycetoma (Madura foot — chronic swelling with sinuses discharging grains, common in northern Nigeria). Systemic/opportunistic: Candida (oral thrush, oesophageal candidiasis in AIDS, vaginal candidiasis in pregnancy and diabetes), Cryptococcus neoformans (meningitis in AIDS — India ink, cryptococcal antigen; treated with amphotericin B and flucytosine then fluconazole), Pneumocystis jirovecii (pneumonia in AIDS — cotrimoxazole), Histoplasma (including African histoplasmosis — H. capsulatum var. duboisii), and Aspergillus.",
+       "keyPoints": [
+        "Tinea capitis common in children",
+        "KOH preparation and Sabouraud culture",
+        "Mycetoma: Madura foot",
+        "Cryptococcal meningitis in AIDS",
+        "PCP: cotrimoxazole"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Hookworm infection most characteristically causes:",
+       "options": [
+        "Iron deficiency anaemia",
+        "Haematuria",
+        "Epilepsy",
+        "Blindness",
+        "Elephantiasis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Chronic intestinal blood loss."
+      },
+      {
+       "stem": "Schistosoma haematobium eggs, found in urine, have a:",
+       "options": [
+        "Plug at each end",
+        "Terminal spine",
+        "No spine",
+        "Operculum",
+        "Lateral spine"
+       ],
+       "answerIndex": 1,
+       "explanation": "The terminal spine identifies S. haematobium."
+      },
+      {
+       "stem": "The drug of choice for schistosomiasis is:",
+       "options": [
+        "Metronidazole",
+        "Chloroquine",
+        "Praziquantel",
+        "Ivermectin",
+        "Albendazole"
+       ],
+       "answerIndex": 2,
+       "explanation": "Praziquantel is effective against all species."
+      },
+      {
+       "stem": "River blindness is transmitted by:",
+       "options": [
+        "Tsetse flies",
+        "Sandflies",
+        "Culex mosquitoes",
+        "Simulium blackflies",
+        "Anopheles mosquitoes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Blackflies breed in fast-flowing rivers."
+      },
+      {
+       "stem": "Mass drug administration for onchocerciasis uses:",
+       "options": [
+        "Metronidazole",
+        "Chloroquine",
+        "Penicillin",
+        "Ivermectin",
+        "Praziquantel"
+       ],
+       "answerIndex": 3,
+       "explanation": "Ivermectin kills microfilariae."
+      },
+      {
+       "stem": "Epilepsy in a pork-eating community may be caused by:",
+       "options": [
+        "Neurocysticercosis (Taenia solium)",
+        "Trichuriasis",
+        "Hookworm",
+        "Giardiasis",
+        "Ascariasis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Larval cysts in the brain cause seizures."
+      },
+      {
+       "stem": "Skin scrapings for fungal infection are examined after mounting in:",
+       "options": [
+        "Alcohol",
+        "Normal saline only",
+        "Methylene blue",
+        "Iodine only",
+        "10–20% potassium hydroxide"
+       ],
+       "answerIndex": 4,
+       "explanation": "KOH dissolves keratin, revealing hyphae."
+      },
+      {
+       "stem": "Meningitis in an AIDS patient with a positive India ink preparation is caused by:",
+       "options": [
+        "Toxoplasma",
+        "Neisseria meningitidis",
+        "Cryptococcus neoformans",
+        "Candida",
+        "Mycobacterium tuberculosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "The capsule appears as a clear halo."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

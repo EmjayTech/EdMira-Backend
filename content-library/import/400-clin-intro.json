@@ -1,0 +1,652 @@
+{
+ "courses": [
+  {
+   "title": "Introduction to Clinical Medicine: History and Examination",
+   "code": "CLN401",
+   "color": "#1D4ED8",
+   "description": "Clinical history taking, general and systemic examination, clinical reasoning, and communication skills for students starting clinical postings.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Taking a Clinical History",
+     "order": 1,
+     "summary": "Structure of the history, the presenting complaint, systems review, and communication.",
+     "material": [
+      {
+       "heading": "Structure",
+       "body": "The clinical history is the most important diagnostic tool. Structure: biodata (name, age, sex, occupation, address, ethnicity, religion); presenting complaint(s) in the patient's words with duration; history of presenting complaint (onset, character, progression, associated symptoms, relieving/aggravating factors, relevant negatives); review of systems; past medical and surgical history (including previous admissions, transfusions, chronic diseases such as hypertension, diabetes, sickle cell disease, TB, HIV); drug history (prescribed, over-the-counter, herbal and traditional medicines, allergies); family history; social history (alcohol, tobacco, occupation, living conditions, finances); and in women the gynaecological and obstetric history. Pain is characterised using SOCRATES: Site, Onset, Character, Radiation, Associations, Time course, Exacerbating/relieving factors, Severity.",
+       "keyPoints": [
+        "Presenting complaint in the patient's words",
+        "SOCRATES for pain",
+        "Ask about herbal and traditional medicines",
+        "Include social history"
+       ]
+      },
+      {
+       "heading": "Communication",
+       "body": "Good consultations begin with introduction, consent and ensuring privacy; use open questions first, then closed questions for detail; listen actively; avoid jargon; use interpreters (Hausa, Yoruba, Igbo, Pidgin and other languages) rather than relying on relatives for sensitive issues; explore the patient's ideas, concerns and expectations (ICE); summarise and check understanding. Respect cultural and religious beliefs. Confidentiality and informed consent are ethical requirements. Collateral history from relatives is important for children, unconscious or confused patients.",
+       "keyPoints": [
+        "Open then closed questions",
+        "Ideas, concerns, expectations (ICE)",
+        "Use trained interpreters",
+        "Collateral history when needed"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The presenting complaint should ideally be recorded:",
+       "options": [
+        "By a relative only",
+        "In medical terminology only",
+        "In the patient's own words with its duration",
+        "As a diagnosis",
+        "After the examination"
+       ],
+       "answerIndex": 2,
+       "explanation": "This preserves the patient's perspective."
+      },
+      {
+       "stem": "In the SOCRATES mnemonic for pain, 'R' stands for:",
+       "options": [
+        "Radiation",
+        "Rate",
+        "Rhythm",
+        "Relief",
+        "Recurrence"
+       ],
+       "answerIndex": 0,
+       "explanation": "Site, Onset, Character, Radiation, Associations, Time, Exacerbating factors, Severity."
+      },
+      {
+       "stem": "Asking about herbal and traditional remedies is important because they:",
+       "options": [
+        "Are illegal",
+        "May cause toxicity or interact with medicines",
+        "Are never used",
+        "Replace all drugs",
+        "Are always harmless"
+       ],
+       "answerIndex": 1,
+       "explanation": "Herbal use is common and clinically relevant."
+      },
+      {
+       "stem": "At the start of a consultation it is best to use:",
+       "options": [
+        "Written tests",
+        "Leading questions",
+        "Medical jargon",
+        "Open questions",
+        "Only yes/no questions"
+       ],
+       "answerIndex": 3,
+       "explanation": "Open questions let patients tell their story."
+      },
+      {
+       "stem": "'ICE' in patient-centred interviewing stands for:",
+       "options": [
+        "Investigations, Care, Education",
+        "Ideas, Concerns, Expectations",
+        "Illness, Cause, Effect",
+        "Injury, Cure, Exercise",
+        "Intake, Circulation, Elimination"
+       ],
+       "answerIndex": 1,
+       "explanation": "Exploring ICE improves understanding and adherence."
+      },
+      {
+       "stem": "A history obtained from a relative of an unconscious patient is called a:",
+       "options": [
+        "Social history",
+        "Collateral history",
+        "Systems review",
+        "Drug history",
+        "Past history"
+       ],
+       "answerIndex": 1,
+       "explanation": "Collateral information supplements or replaces the patient's account."
+      },
+      {
+       "stem": "When a patient speaks only Hausa and the doctor does not, the best practice is to:",
+       "options": [
+        "Rely only on examination",
+        "Guess the history",
+        "Use a trained interpreter",
+        "Skip the history",
+        "Use a child relative for sensitive topics"
+       ],
+       "answerIndex": 2,
+       "explanation": "Trained interpreters improve accuracy and confidentiality."
+      },
+      {
+       "stem": "The review of systems is performed to:",
+       "options": [
+        "Detect symptoms the patient did not mention",
+        "Replace the presenting complaint",
+        "Obtain consent",
+        "Estimate cost",
+        "Record the drug history"
+       ],
+       "answerIndex": 0,
+       "explanation": "It screens other organ systems systematically."
+      }
+     ]
+    },
+    {
+     "title": "General Examination",
+     "order": 2,
+     "summary": "First impressions, vital signs and the head-to-toe general examination.",
+     "material": [
+      {
+       "heading": "Approach",
+       "body": "Examination starts with general inspection: does the patient look well or ill, distressed, breathless, in pain; posture, gait, nutritional status (BMI, wasting), hydration and level of consciousness (AVPU or GCS). Vital signs: temperature, pulse (rate, rhythm, volume, character), blood pressure (both arms initially), respiratory rate and oxygen saturation. The general examination (often summarised as looking for pallor, jaundice, cyanosis, clubbing, lymphadenopathy, oedema and dehydration) should use good daylight: pallor in conjunctivae, palms and nail beds (easier than skin in dark-skinned patients); jaundice in the sclerae and under the tongue; central cyanosis on the tongue and lips.",
+       "keyPoints": [
+        "General inspection first",
+        "Vital signs every time",
+        "Pallor, jaundice, cyanosis, clubbing, lymphadenopathy, oedema",
+        "Check conjunctivae and palms for pallor"
+       ]
+      },
+      {
+       "heading": "Specific signs",
+       "body": "Finger clubbing (loss of the nail-fold angle, increased curvature) occurs in chronic suppurative lung disease (bronchiectasis, lung abscess, empyema), lung cancer, cyanotic congenital heart disease, infective endocarditis, liver cirrhosis and inflammatory bowel disease — not in uncomplicated asthma or COPD. Lymph nodes are examined for size, consistency, tenderness, matting and fixation (e.g. matted nodes in TB; hard fixed nodes in malignancy). Pitting oedema is graded by extent (ankle, knee, sacrum in bedridden patients). Dehydration signs include dry mucosa, reduced skin turgor, sunken eyes and fontanelle (infants) and tachycardia.",
+       "keyPoints": [
+        "Clubbing: bronchiectasis, lung cancer, cyanotic heart disease, IE",
+        "Not a feature of uncomplicated COPD/asthma",
+        "Matted nodes: TB",
+        "Check sacral oedema in bedbound patients"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In dark-skinned patients, pallor is best assessed at the:",
+       "options": [
+        "Conjunctivae, palms and nail beds",
+        "Knees",
+        "Back",
+        "Forehead",
+        "Scalp"
+       ],
+       "answerIndex": 0,
+       "explanation": "These sites show pallor more reliably."
+      },
+      {
+       "stem": "Jaundice is best detected in the:",
+       "options": [
+        "Sclerae",
+        "Nails",
+        "Scalp",
+        "Palms",
+        "Feet"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bilirubin stains the sclerae early."
+      },
+      {
+       "stem": "Central cyanosis is best seen on the:",
+       "options": [
+        "Tongue and lips",
+        "Earlobes",
+        "Fingertips",
+        "Toes",
+        "Knees"
+       ],
+       "answerIndex": 0,
+       "explanation": "Central cyanosis reflects arterial desaturation."
+      },
+      {
+       "stem": "Finger clubbing is NOT typically caused by:",
+       "options": [
+        "Lung cancer",
+        "Bronchiectasis",
+        "Uncomplicated asthma",
+        "Infective endocarditis",
+        "Cyanotic congenital heart disease"
+       ],
+       "answerIndex": 2,
+       "explanation": "Asthma and COPD alone do not cause clubbing."
+      },
+      {
+       "stem": "Matted cervical lymph nodes in a young adult with fever and weight loss suggest:",
+       "options": [
+        "Tuberculous lymphadenitis",
+        "Normal nodes",
+        "Viral pharyngitis",
+        "Hypothyroidism",
+        "Dental abscess"
+       ],
+       "answerIndex": 0,
+       "explanation": "TB nodes often become matted and may form abscesses."
+      },
+      {
+       "stem": "In a bedridden patient, dependent oedema is best checked over the:",
+       "options": [
+        "Ankles only",
+        "Hands",
+        "Chest",
+        "Sacrum",
+        "Face"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluid collects in the most dependent part."
+      },
+      {
+       "stem": "A sunken anterior fontanelle in an infant suggests:",
+       "options": [
+        "Rickets",
+        "Dehydration",
+        "Hydrocephalus",
+        "Normal finding",
+        "Meningitis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fluid loss reduces intracranial volume."
+      },
+      {
+       "stem": "Which is part of the vital signs?",
+       "options": [
+        "Eye colour",
+        "Hair colour",
+        "Respiratory rate",
+        "Shoe size",
+        "Blood group"
+       ],
+       "answerIndex": 2,
+       "explanation": "Vital signs include temperature, pulse, BP, RR and SpO2."
+      }
+     ]
+    },
+    {
+     "title": "Cardiovascular and Respiratory Examination",
+     "order": 3,
+     "summary": "Pulse, JVP, apex beat, heart sounds and murmurs; chest inspection, percussion and auscultation.",
+     "material": [
+      {
+       "heading": "Cardiovascular",
+       "body": "Sequence: inspection, palpation, percussion (rarely) and auscultation. The radial pulse is assessed for rate and rhythm; the carotid for character (slow-rising in aortic stenosis; collapsing/water-hammer in aortic regurgitation). Jugular venous pressure (JVP) is measured with the patient at 45° as the vertical height above the sternal angle (normal ≤ 3–4 cm) — raised in right heart failure, fluid overload and pericardial disease. The apex beat is normally at the 5th left intercostal space in the midclavicular line; displaced laterally in left ventricular dilatation. Auscultate the mitral (apex), tricuspid (left lower sternal edge), pulmonary (left 2nd ICS) and aortic (right 2nd ICS) areas. Systolic murmurs: aortic stenosis (ejection systolic, radiates to the carotids), mitral regurgitation (pansystolic, radiates to the axilla); diastolic murmurs: mitral stenosis (mid-diastolic rumble at the apex — rheumatic heart disease), aortic regurgitation (early diastolic at the left sternal edge). Rheumatic heart disease remains important in Nigeria.",
+       "keyPoints": [
+        "JVP at 45°, normal ≤ 3–4 cm above sternal angle",
+        "Apex: 5th ICS, MCL",
+        "AS: ejection systolic → carotids",
+        "MR: pansystolic → axilla",
+        "MS: mid-diastolic rumble (rheumatic)"
+       ]
+      },
+      {
+       "heading": "Respiratory",
+       "body": "Inspect for respiratory rate, use of accessory muscles, chest shape (barrel chest in COPD, pectus deformities), symmetry of expansion and scars. Palpate the trachea (deviated away from tension pneumothorax and large effusion, towards collapse and fibrosis), chest expansion and tactile fremitus. Percussion: resonant (normal), dull (consolidation, collapse), stony dull (pleural effusion), hyper-resonant (pneumothorax, emphysema). Auscultation: vesicular breath sounds (normal), bronchial breathing (consolidation), reduced sounds (effusion, pneumothorax), crackles (fluid — pulmonary oedema, pneumonia, fibrosis), wheeze (airway narrowing — asthma, COPD) and pleural rub. Vocal resonance is increased in consolidation and decreased in effusion.",
+       "keyPoints": [
+        "Trachea away from effusion/tension pneumothorax",
+        "Stony dull: effusion; hyper-resonant: pneumothorax",
+        "Bronchial breathing + ↑vocal resonance: consolidation",
+        "Crackles: fluid; wheeze: airway narrowing"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The jugular venous pressure is measured with the patient reclining at:",
+       "options": [
+        "45°",
+        "90°",
+        "0°",
+        "15°",
+        "30°"
+       ],
+       "answerIndex": 0,
+       "explanation": "At 45° the JVP is measured above the sternal angle."
+      },
+      {
+       "stem": "The normal apex beat is located at the:",
+       "options": [
+        "Right 2nd intercostal space",
+        "Left 2nd intercostal space",
+        "Xiphisternum",
+        "Left 5th intercostal space in the midclavicular line",
+        "Left 7th intercostal space"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the lowest, most lateral point of the cardiac impulse."
+      },
+      {
+       "stem": "An ejection systolic murmur radiating to the carotids suggests:",
+       "options": [
+        "Mitral stenosis",
+        "Tricuspid regurgitation",
+        "Aortic stenosis",
+        "Mitral regurgitation",
+        "Aortic regurgitation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Turbulent flow across a narrowed aortic valve."
+      },
+      {
+       "stem": "A mid-diastolic rumbling murmur at the apex is characteristic of:",
+       "options": [
+        "Mitral regurgitation",
+        "Mitral stenosis",
+        "Pulmonary stenosis",
+        "VSD",
+        "Aortic stenosis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Usually rheumatic in origin."
+      },
+      {
+       "stem": "A collapsing (water-hammer) pulse is a sign of:",
+       "options": [
+        "Aortic stenosis",
+        "Mitral stenosis",
+        "Heart block",
+        "Aortic regurgitation",
+        "Hypovolaemia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Wide pulse pressure from backflow into the ventricle."
+      },
+      {
+       "stem": "A stony dull percussion note with absent breath sounds suggests:",
+       "options": [
+        "Pneumothorax",
+        "Consolidation",
+        "Asthma",
+        "Normal lung",
+        "Pleural effusion"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fluid in the pleural space is stony dull."
+      },
+      {
+       "stem": "Bronchial breathing with increased vocal resonance indicates:",
+       "options": [
+        "Lung consolidation",
+        "Pleural effusion",
+        "Emphysema",
+        "Normal lung",
+        "Pneumothorax"
+       ],
+       "answerIndex": 0,
+       "explanation": "Consolidated lung transmits sound well."
+      },
+      {
+       "stem": "In a large tension pneumothorax, the trachea is:",
+       "options": [
+        "Deviated towards the affected side",
+        "Deviated away from the affected side",
+        "Central",
+        "Always pulled down",
+        "Not assessable"
+       ],
+       "answerIndex": 1,
+       "explanation": "Air under pressure pushes the mediastinum away."
+      }
+     ]
+    },
+    {
+     "title": "Abdominal and Neurological Examination",
+     "order": 4,
+     "summary": "Inspection, palpation for organomegaly, ascites; cranial nerves, motor and sensory examination.",
+     "material": [
+      {
+       "heading": "Abdomen",
+       "body": "With the patient supine and relaxed, inspect (distension — fat, fluid, flatus, faeces, fetus; scars; visible peristalsis; distended veins; stigmata of liver disease such as spider naevi, palmar erythema, gynaecomastia). Palpate lightly then deeply in all regions, watching the patient's face for tenderness, guarding and rebound (peritonism). Palpate the liver (from the right iliac fossa upwards with respiration) and spleen (from the right iliac fossa towards the left costal margin — splenomegaly is common in Nigeria from malaria, sickle cell disease in young children, schistosomiasis, leukaemias and lymphomas); ballot the kidneys. Detect ascites by shifting dullness and fluid thrill. Auscultate bowel sounds (absent in ileus/peritonitis; high-pitched tinkling in obstruction). Examine the hernial orifices and external genitalia, and perform a digital rectal examination when indicated (with a chaperone).",
+       "keyPoints": [
+        "Palpate from the RIF for liver and spleen",
+        "Splenomegaly: malaria, SCD (children), schistosomiasis, leukaemia",
+        "Shifting dullness for ascites",
+        "Watch the face for tenderness"
+       ]
+      },
+      {
+       "heading": "Neurology",
+       "body": "Neurological examination covers higher mental function (GCS, orientation, speech), cranial nerves (I–XII), motor system (inspection for wasting and fasciculation, tone, power graded 0–5, reflexes, coordination), sensory system (light touch, pain, temperature, vibration, proprioception in dermatomal or peripheral nerve patterns) and gait. Upper motor neuron lesions: increased tone (spasticity), weakness in a pyramidal pattern, brisk reflexes, extensor plantar (Babinski) response, clonus. Lower motor neuron lesions: wasting, fasciculation, reduced tone, reduced or absent reflexes, flexor plantars. Meningism: neck stiffness, Kernig's sign and Brudzinski's sign.",
+       "keyPoints": [
+        "Power graded 0–5 (MRC)",
+        "UMN: spastic, brisk reflexes, Babinski",
+        "LMN: wasting, fasciculation, hyporeflexia",
+        "Meningism: neck stiffness, Kernig's, Brudzinski's"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The spleen is palpated by starting in the:",
+       "options": [
+        "Epigastrium only",
+        "Right iliac fossa and moving towards the left costal margin",
+        "Back",
+        "Left iliac fossa only",
+        "Left upper quadrant"
+       ],
+       "answerIndex": 1,
+       "explanation": "A massive spleen may extend to the right iliac fossa."
+      },
+      {
+       "stem": "A common cause of massive splenomegaly in Nigeria is:",
+       "options": [
+        "Appendicitis",
+        "Gastric ulcer",
+        "Chronic malaria (hyper-reactive malarial splenomegaly)",
+        "Pancreatitis",
+        "Hepatitis A"
+       ],
+       "answerIndex": 2,
+       "explanation": "Tropical splenomegaly follows recurrent malaria."
+      },
+      {
+       "stem": "Shifting dullness is used to detect:",
+       "options": [
+        "Ascites",
+        "Bowel obstruction",
+        "Hernia",
+        "Kidney enlargement",
+        "Hepatomegaly"
+       ],
+       "answerIndex": 0,
+       "explanation": "Free fluid moves with position change."
+      },
+      {
+       "stem": "High-pitched tinkling bowel sounds suggest:",
+       "options": [
+        "Intestinal obstruction",
+        "Paralytic ileus",
+        "Peritonitis",
+        "Constipation only",
+        "Normal bowel"
+       ],
+       "answerIndex": 0,
+       "explanation": "Obstruction causes increased, high-pitched sounds."
+      },
+      {
+       "stem": "Spider naevi and palmar erythema are signs of:",
+       "options": [
+        "Anaemia",
+        "Kidney failure",
+        "Hypothyroidism",
+        "Chronic liver disease",
+        "Heart failure"
+       ],
+       "answerIndex": 3,
+       "explanation": "They reflect raised oestrogen in liver disease."
+      },
+      {
+       "stem": "Brisk reflexes with an extensor plantar response indicate a/an:",
+       "options": [
+        "Upper motor neuron lesion",
+        "Muscle disease",
+        "Neuromuscular junction disease",
+        "Lower motor neuron lesion",
+        "Normal finding in adults"
+       ],
+       "answerIndex": 0,
+       "explanation": "Classic UMN signs."
+      },
+      {
+       "stem": "Muscle wasting with fasciculations and absent reflexes suggest a:",
+       "options": [
+        "Parkinson's disease",
+        "Cerebellar lesion",
+        "Lower motor neuron lesion",
+        "Spinal cord compression above the lesion",
+        "Stroke"
+       ],
+       "answerIndex": 2,
+       "explanation": "LMN lesions cause flaccid weakness with wasting."
+      },
+      {
+       "stem": "Kernig's sign is a test for:",
+       "options": [
+        "Carpal tunnel syndrome",
+        "Cerebellar disease",
+        "Hip arthritis",
+        "Peripheral neuropathy",
+        "Meningeal irritation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pain and resistance on knee extension with the hip flexed indicates meningism."
+      }
+     ]
+    },
+    {
+     "title": "Clinical Reasoning, Case Presentation and Documentation",
+     "order": 5,
+     "summary": "Building differential diagnoses, choosing investigations, presenting cases and writing notes.",
+     "material": [
+      {
+       "heading": "Clinical reasoning",
+       "body": "Clinical reasoning integrates history, examination and investigations to reach a diagnosis. Approaches include pattern recognition (fast, experience-based) and hypothetico-deductive reasoning (generating a list of hypotheses and testing them). A differential diagnosis lists possible causes ranked by likelihood and seriousness — never miss treatable or dangerous conditions ('can't-miss diagnoses'). Consider common local conditions first (in Nigeria: malaria, typhoid, TB, HIV, sickle cell disease, hypertension, diabetes), while remembering that 'common things are common' but co-infection is frequent. Cognitive biases include anchoring (fixing on an early diagnosis), premature closure and availability bias. Investigations should be chosen to answer specific questions, considering cost and availability.",
+       "keyPoints": [
+        "Pattern recognition vs hypothetico-deductive",
+        "Rank differentials by likelihood and danger",
+        "Consider common local diseases",
+        "Beware anchoring and premature closure"
+       ]
+      },
+      {
+       "heading": "Presentation and notes",
+       "body": "A case presentation is concise and structured: biodata and presenting complaint, key positive and negative findings from the history and examination, a summary (e.g. 'a 25-year-old man with 2 weeks of fever, weight loss and cough with haemoptysis'), a differential diagnosis with reasoning, and a management plan (investigations, treatment, monitoring, counselling). Clinical notes must be legible, dated, timed and signed with the author's name and designation, using approved abbreviations; the SOAP format (Subjective, Objective, Assessment, Plan) is widely used for progress notes. Records are legal documents and must be kept confidential.",
+       "keyPoints": [
+        "Summarise positives and relevant negatives",
+        "Differential with reasoning",
+        "SOAP notes",
+        "Notes dated, timed and signed"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Fixing on an early diagnosis and ignoring contrary information is:",
+       "options": [
+        "Anchoring bias",
+        "Good practice",
+        "Triage",
+        "Hypothetico-deductive reasoning",
+        "Pattern recognition"
+       ],
+       "answerIndex": 0,
+       "explanation": "Anchoring is a common cognitive error."
+      },
+      {
+       "stem": "A differential diagnosis should be ranked by:",
+       "options": [
+        "Likelihood and seriousness",
+        "Cost of drugs only",
+        "Patient's preference only",
+        "Alphabetical order",
+        "Random order"
+       ],
+       "answerIndex": 0,
+       "explanation": "Consider common and dangerous causes."
+      },
+      {
+       "stem": "In Nigeria, a febrile patient should routinely be evaluated for:",
+       "options": [
+        "Lassa fever only",
+        "Only cancer",
+        "Only rare diseases",
+        "No infections",
+        "Common conditions such as malaria, while considering typhoid, TB and HIV"
+       ],
+       "answerIndex": 4,
+       "explanation": "Common endemic infections should be considered first but co-infection is frequent."
+      },
+      {
+       "stem": "SOAP notes stand for:",
+       "options": [
+        "Subjective, Objective, Assessment, Plan",
+        "Signs, Oxygen, Airway, Pulse",
+        "Summary, Order, Analysis, Prescription",
+        "Symptoms, Observations, Actions, Plans",
+        "Surgery, Obstetrics, Anaesthesia, Paediatrics"
+       ],
+       "answerIndex": 0,
+       "explanation": "A standard structure for progress notes."
+      },
+      {
+       "stem": "Clinical notes should always be:",
+       "options": [
+        "Kept by the patient only",
+        "Anonymous",
+        "Dated, timed and signed with name and designation",
+        "Shared publicly",
+        "Written in pencil"
+       ],
+       "answerIndex": 2,
+       "explanation": "They are legal records."
+      },
+      {
+       "stem": "A 'can't-miss diagnosis' refers to a condition that is:",
+       "options": [
+        "Only seen in textbooks",
+        "Always benign",
+        "Impossible to diagnose",
+        "Always common",
+        "Dangerous or treatable and must be excluded"
+       ],
+       "answerIndex": 4,
+       "explanation": "Missing it could cause serious harm."
+      },
+      {
+       "stem": "A case summary should include:",
+       "options": [
+        "Only the drug history",
+        "Only investigations",
+        "Every detail of the history",
+        "The patient's religion only",
+        "Key positive and relevant negative findings"
+       ],
+       "answerIndex": 4,
+       "explanation": "Summaries highlight what matters for diagnosis."
+      },
+      {
+       "stem": "Reasoning that generates hypotheses and tests them with further questions and examination is:",
+       "options": [
+        "Availability bias",
+        "Hypothetico-deductive reasoning",
+        "Anchoring",
+        "Premature closure",
+        "Pattern recognition"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is systematic hypothesis testing."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

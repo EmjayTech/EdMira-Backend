@@ -1,0 +1,99 @@
+{
+  "title": "Medical Bacteriology",
+  "code": "MCB301",
+  "color": "#047857",
+  "description": "Identification of medically important bacteria — staphylococci, streptococci, enterobacteria, Gram-negative non-fermenters, mycobacteria and anaerobes — and antimicrobial susceptibility testing.",
+  "for": { "300": ["MLS", "HAE"] },
+  "topics": [
+    {
+      "title": "Gram-Positive Cocci",
+      "summary": "Staphylococci and streptococci: identification tests and diseases.",
+      "notes": [
+        { "h": "Staphylococci", "b": "Staphylococci are Gram-positive cocci in clusters, catalase-positive. Staphylococcus aureus is coagulase-positive, often β-haemolytic with golden colonies, and ferments mannitol (yellow on mannitol salt agar). It causes boils, abscesses, wound infections, osteomyelitis (commonest cause), septic arthritis, pneumonia, endocarditis in drug users, food poisoning (preformed heat-stable enterotoxin, onset 1–6 hours), toxic shock syndrome (TSST-1) and scalded skin syndrome. Coagulase-negative staphylococci (S. epidermidis — device and line infections; S. saprophyticus — urinary tract infection in young women, novobiocin-resistant).", "k": ["Catalase +: staphylococci; catalase −: streptococci", "Coagulase + = S. aureus", "S. aureus: commonest cause of osteomyelitis", "S. saprophyticus: novobiocin-resistant, UTI"] },
+        { "h": "Streptococci", "b": "Streptococci are catalase-negative Gram-positive cocci in chains or pairs, classified by haemolysis and Lancefield groups. β-haemolytic group A (S. pyogenes — bacitracin-sensitive, PYR-positive) causes pharyngitis, impetigo, cellulitis, necrotising fasciitis, and post-streptococcal rheumatic fever and glomerulonephritis. Group B (S. agalactiae — CAMP-positive, hippurate hydrolysis) causes neonatal sepsis and meningitis. α-haemolytic S. pneumoniae (lancet-shaped diplococci, optochin-sensitive, bile-soluble, capsulated) causes pneumonia, otitis media and meningitis; viridans streptococci (optochin-resistant) cause subacute endocarditis. Enterococci (group D, grow in 6.5% NaCl and bile–aesculin) cause UTI and endocarditis.", "k": ["Group A: bacitracin-sensitive; rheumatic fever", "Group B: neonatal sepsis; CAMP test", "Pneumococcus: optochin-sensitive, bile-soluble", "Enterococci: 6.5% NaCl, bile–aesculin"] }
+      ],
+      "q": [
+        ["The test distinguishing staphylococci from streptococci is the:", "Coagulase test", "Catalase test", "Oxidase test", "Optochin test", "Indole test", 1, "Staphylococci are catalase-positive; streptococci are negative."],
+        ["Staphylococcus aureus is identified by being:", "Coagulase-negative", "Coagulase-positive", "Oxidase-positive", "Optochin-sensitive", "Bile-soluble", 1, "Coagulase distinguishes S. aureus from other staphylococci."],
+        ["The commonest cause of acute osteomyelitis is:", "Streptococcus pyogenes", "Staphylococcus aureus", "E. coli", "Pseudomonas", "Salmonella in all patients", 1, "S. aureus is the commonest overall (Salmonella is notable in sickle cell disease)."],
+        ["Streptococcus pneumoniae is identified by sensitivity to:", "Bacitracin", "Optochin", "Novobiocin", "Vancomycin only", "Penicillin only", 1, "Optochin sensitivity and bile solubility identify pneumococci."],
+        ["Rheumatic fever follows infection with:", "Group B streptococci", "Group A β-haemolytic streptococci", "Staphylococcus epidermidis", "Enterococcus", "Viridans streptococci", 1, "Molecular mimicry after S. pyogenes pharyngitis."],
+        ["Neonatal sepsis and meningitis are classically caused by:", "Group A streptococci", "Group B streptococci", "S. saprophyticus", "Viridans streptococci", "Micrococcus", 1, "S. agalactiae colonises the maternal genital tract."],
+        ["Staphylococcal food poisoning has a short incubation (1–6 h) because it is caused by:", "Invasion of the gut", "Preformed heat-stable enterotoxin", "Spores germinating in the gut", "Viral co-infection", "Endotoxin", 1, "The toxin is already present in the food."],
+        ["Growth in 6.5% NaCl and hydrolysis of bile–aesculin identifies:", "Streptococcus pyogenes", "Enterococcus", "Pneumococcus", "Staphylococcus aureus", "Neisseria", 1, "Enterococci tolerate salt and bile."]
+      ]
+    },
+    {
+      "title": "Enterobacteriaceae",
+      "summary": "Lactose fermenters and non-fermenters, biochemical identification, and diseases including typhoid.",
+      "notes": [
+        { "h": "Identification", "b": "Enterobacteriaceae (Enterobacterales) are Gram-negative bacilli that are oxidase-negative, ferment glucose and reduce nitrate. On MacConkey agar, lactose fermenters (E. coli, Klebsiella, Enterobacter, Citrobacter) are pink; non-lactose fermenters (Salmonella, Shigella, Proteus) are pale. Key tests: indole (E. coli positive), methyl red, Voges–Proskauer, citrate (IMViC: E. coli ++−−; Klebsiella −−++), urease (Proteus and Klebsiella positive), H2S on TSI or KIA (Salmonella and Proteus produce black H2S; Shigella does not), motility (Klebsiella and Shigella are non-motile; Proteus swarms). Selective media for enteric pathogens: SS agar, XLD, deoxycholate citrate agar; selenite F broth enriches Salmonella.", "k": ["Oxidase-negative, glucose fermenters", "IMViC: E. coli ++−−; Klebsiella −−++", "H2S: Salmonella, Proteus (not Shigella)", "Proteus: urease +, swarming"] },
+        { "h": "Diseases", "b": "E. coli is the commonest cause of urinary tract infection and a cause of neonatal meningitis and diarrhoea (ETEC — travellers' diarrhoea; EHEC O157:H7 — haemolytic uraemic syndrome). Klebsiella pneumoniae causes pneumonia (in alcoholics), UTI and hospital infections; many strains produce extended-spectrum β-lactamases (ESBL) or carbapenemases. Salmonella Typhi causes typhoid (enteric) fever: blood culture is the best test in the first week, stool and urine cultures later; bone-marrow culture is most sensitive; the Widal test is unreliable in endemic areas. Shigella causes bacillary dysentery. Proteus mirabilis causes UTI with struvite stones (urease raises urine pH).", "k": ["E. coli: commonest UTI cause", "Typhoid: blood culture in week 1; Widal unreliable", "ESBL and carbapenemase producers", "Proteus: urease → struvite stones"] }
+      ],
+      "q": [
+        ["Members of the Enterobacteriaceae are typically:", "Oxidase-positive", "Oxidase-negative", "Gram-positive", "Acid-fast", "Strict anaerobes", 1, "They are oxidase-negative Gram-negative bacilli."],
+        ["The commonest cause of urinary tract infection is:", "Proteus mirabilis", "Escherichia coli", "Klebsiella", "Staphylococcus aureus", "Pseudomonas", 1, "E. coli causes most community UTIs."],
+        ["Which organism produces H2S on TSI agar?", "Shigella", "Salmonella", "E. coli", "Klebsiella", "Enterobacter", 1, "Salmonella (and Proteus) blacken TSI with H2S."],
+        ["Swarming growth on blood agar is characteristic of:", "Proteus", "Klebsiella", "Salmonella", "Shigella", "E. coli", 0, "Proteus is highly motile and swarms."],
+        ["The best laboratory test for typhoid fever in the first week of illness is:", "Stool culture", "Blood culture", "Widal test", "Urine culture", "Stool microscopy", 1, "Bacteraemia is highest in the first week."],
+        ["The IMViC reaction of E. coli is:", "++−−", "−−++", "+−+−", "−+−+", "++++", 0, "Indole +, methyl red +, VP −, citrate −."],
+        ["Struvite kidney stones are associated with infection by:", "E. coli", "Proteus mirabilis", "Salmonella", "Shigella", "Enterococcus", 1, "Urease splits urea to ammonia, raising urine pH."],
+        ["Klebsiella pneumoniae is:", "Motile", "Non-motile and capsulated", "Oxidase-positive", "Gram-positive", "Acid-fast", 1, "Its large capsule gives mucoid colonies."]
+      ]
+    },
+    {
+      "title": "Gram-Negative Non-fermenters, Neisseria and Vibrio",
+      "summary": "Pseudomonas, Acinetobacter, Neisseria meningitidis and gonorrhoeae, and Vibrio cholerae.",
+      "notes": [
+        { "h": "Pseudomonas and Acinetobacter", "b": "Pseudomonas aeruginosa is an oxidase-positive, non-lactose-fermenting, strictly aerobic Gram-negative bacillus producing pigments (blue-green pyocyanin, fluorescent pyoverdin) and a grape-like odour; it grows at 42 °C. It causes infections in burns, wounds, cystic fibrosis lungs, ventilator-associated pneumonia, catheter UTIs and otitis externa, and is intrinsically resistant to many antibiotics (treated with antipseudomonal agents such as ceftazidime, piperacillin–tazobactam, ciprofloxacin, aminoglycosides, meropenem). Acinetobacter baumannii is oxidase-negative, a major multidrug-resistant hospital pathogen in ICUs.", "k": ["Pseudomonas: oxidase +, pyocyanin, grows at 42 °C", "Burns, ventilators, catheters", "Acinetobacter: oxidase −, MDR in ICUs"] },
+        { "h": "Neisseria and Vibrio", "b": "Neisseria are oxidase-positive Gram-negative kidney-shaped diplococci, grown on chocolate agar or Thayer–Martin (modified New York City) medium in CO2. N. meningitidis ferments glucose and maltose; it causes epidemic meningitis in the African 'meningitis belt' (including northern Nigeria), especially in the dry season (serogroups A, C, W, X); CSF shows Gram-negative intracellular diplococci. N. gonorrhoeae ferments glucose only; it causes urethritis, cervicitis and ophthalmia neonatorum. Vibrio cholerae is a comma-shaped, oxidase-positive, highly motile ('darting') Gram-negative rod that grows on TCBS (yellow colonies) and in alkaline peptone water; its toxin causes 'rice-water' stools.", "k": ["Neisseria: oxidase +, diplococci, chocolate agar", "Meningococcus: glucose + maltose; gonococcus: glucose only", "Meningitis belt includes northern Nigeria", "Vibrio: TCBS yellow colonies, darting motility"] }
+      ],
+      "q": [
+        ["Pseudomonas aeruginosa produces the blue-green pigment:", "Prodigiosin", "Pyocyanin", "Melanin", "Staphyloxanthin", "Chlorophyll", 1, "Pyocyanin gives the characteristic colour."],
+        ["Which Gram-negative bacillus is oxidase-positive?", "E. coli", "Klebsiella", "Pseudomonas aeruginosa", "Salmonella", "Acinetobacter", 2, "Pseudomonas is oxidase-positive; Enterobacteriaceae and Acinetobacter are negative."],
+        ["Infections of burns wounds are frequently due to:", "Neisseria meningitidis", "Pseudomonas aeruginosa", "Vibrio cholerae", "Treponema", "Mycoplasma", 1, "Pseudomonas thrives in moist burn tissue."],
+        ["Neisseria meningitidis can be distinguished from N. gonorrhoeae because it ferments:", "Glucose only", "Glucose and maltose", "Lactose only", "Sucrose only", "No sugars", 1, "Meningococci ferment glucose and maltose."],
+        ["Neisseria species are best grown on:", "MacConkey agar", "Chocolate agar in CO2", "TCBS", "LJ medium", "Sabouraud agar", 1, "Neisseria are fastidious and need enriched media and CO2."],
+        ["Epidemic meningococcal meningitis in Nigeria occurs mainly in the:", "Rainy season in the south", "Dry season in the northern 'meningitis belt'", "Harmattan in the Niger Delta only", "All seasons equally everywhere", "Coastal cities only", 1, "Dry, dusty conditions in the Sahel favour outbreaks."],
+        ["On TCBS agar, Vibrio cholerae forms:", "Pink colonies", "Yellow colonies", "Black colonies", "Blue-green colonies", "No growth", 1, "It ferments sucrose, turning the medium yellow."],
+        ["Gonococcal conjunctivitis in the newborn is called:", "Trachoma", "Ophthalmia neonatorum", "Keratomalacia", "Uveitis", "Blepharitis", 1, "It is acquired during birth from an infected mother."]
+      ]
+    },
+    {
+      "title": "Mycobacteria and Spore-forming Bacilli",
+      "summary": "Mycobacterium tuberculosis and leprae, Clostridium and Bacillus species.",
+      "notes": [
+        { "h": "Mycobacteria", "b": "Mycobacteria have mycolic acid–rich cell walls and are acid-fast (Ziehl–Neelsen: red bacilli on a blue background; auramine fluorescence is more sensitive). M. tuberculosis grows slowly (generation time ~18 hours) on Lowenstein–Jensen medium (rough, buff 'cauliflower' colonies after 3–8 weeks) or faster in liquid MGIT culture; it is niacin-positive. GeneXpert MTB/RIF (a cartridge-based nucleic acid amplification test) is the recommended initial test in Nigeria, detecting TB and rifampicin resistance within 2 hours. The Mantoux (tuberculin skin) test and IGRAs detect infection, not active disease. Nigeria has one of the highest TB burdens globally. M. leprae (leprosy) cannot be cultured in vitro; it grows in armadillos and mouse footpads; diagnosis uses slit-skin smears.", "k": ["Acid-fast: Ziehl–Neelsen", "LJ culture: 3–8 weeks", "GeneXpert: TB + rifampicin resistance", "M. leprae cannot be cultured in vitro"] },
+        { "h": "Clostridium and Bacillus", "b": "Clostridia are Gram-positive, spore-forming, anaerobic bacilli. C. tetani (terminal 'drumstick' spores) produces tetanospasmin, which blocks inhibitory neurotransmitter release (GABA and glycine), causing spastic paralysis, trismus and risus sardonicus; neonatal tetanus follows unhygienic cord care. C. perfringens causes gas gangrene (α-toxin, lecithinase — Nagler reaction) and food poisoning; C. botulinum toxin blocks acetylcholine release causing flaccid paralysis; C. difficile causes antibiotic-associated pseudomembranous colitis. Bacillus anthracis (aerobic, non-motile, 'bamboo-stick' chains, 'medusa head' colonies) causes anthrax; B. cereus causes food poisoning from reheated rice.", "k": ["C. tetani: drumstick spores, spastic paralysis", "C. botulinum: flaccid paralysis", "C. perfringens: gas gangrene, Nagler reaction", "C. difficile: pseudomembranous colitis", "B. cereus: reheated rice"] }
+      ],
+      "q": [
+        ["Mycobacterium tuberculosis appears on Ziehl–Neelsen stain as:", "Blue cocci", "Red (acid-fast) bacilli on a blue background", "Purple rods", "Pink diplococci", "Green spirals", 1, "Acid-fast bacilli retain carbol fuchsin."],
+        ["The recommended initial diagnostic test for TB in Nigeria is:", "Widal test", "GeneXpert MTB/RIF", "Mantoux test", "ESR", "Chest X-ray alone", 1, "It detects TB and rifampicin resistance rapidly."],
+        ["Cultures of M. tuberculosis on LJ medium usually take:", "24 hours", "2–3 days", "3–8 weeks", "6 months", "1 hour", 2, "It grows very slowly."],
+        ["Which organism cannot be cultured on artificial media?", "M. tuberculosis", "M. leprae", "S. aureus", "E. coli", "C. tetani", 1, "M. leprae is grown only in animal models."],
+        ["Tetanus toxin causes spastic paralysis by blocking the release of:", "Acetylcholine", "GABA and glycine", "Dopamine", "Adrenaline", "Histamine", 1, "Loss of inhibition causes sustained muscle contraction."],
+        ["Flaccid paralysis from improperly canned food suggests:", "Tetanus", "Botulism", "Gas gangrene", "Cholera", "Anthrax", 1, "Botulinum toxin blocks acetylcholine release."],
+        ["Pseudomembranous colitis after antibiotic therapy is caused by:", "C. perfringens", "C. difficile", "C. tetani", "B. anthracis", "Salmonella", 1, "Antibiotics disrupt normal flora, allowing C. difficile overgrowth."],
+        ["Food poisoning linked to reheated fried rice is caused by:", "Bacillus cereus", "Clostridium botulinum", "Vibrio cholerae", "Shigella", "Listeria", 0, "B. cereus spores survive cooking and germinate."]
+      ]
+    },
+    {
+      "title": "Specimen Processing and Antimicrobial Susceptibility Testing",
+      "summary": "Processing urine, blood, CSF and wound specimens; susceptibility testing and resistance detection.",
+      "notes": [
+        { "h": "Common specimens", "b": "Urine: midstream specimen cultured quantitatively (calibrated loop); ≥ 10⁵ CFU/mL of a single organism indicates significant bacteriuria in a clean-catch sample (lower counts may be significant in catheter or symptomatic samples); media CLED (cystine–lactose–electrolyte-deficient — prevents Proteus swarming) or blood + MacConkey. Blood culture: aseptic collection of adequate volume (adults 8–10 mL per bottle, at least two sets from different sites) before antibiotics, incubated up to 5–7 days. CSF: urgent Gram stain, cell count, glucose and protein, culture on chocolate and blood agar; India ink or cryptococcal antigen for Cryptococcus in HIV. Pus and wound swabs: Gram stain and aerobic/anaerobic culture.", "k": ["Significant bacteriuria ≥ 10⁵ CFU/mL", "CLED prevents Proteus swarming", "Blood cultures: 2 sets, before antibiotics", "CSF: urgent Gram stain; India ink for Cryptococcus"] },
+        { "h": "Susceptibility testing", "b": "The Kirby–Bauer disc diffusion method uses Mueller–Hinton agar, a standardised inoculum (0.5 McFarland turbidity standard ≈ 1.5 × 10⁸ CFU/mL), antibiotic discs, incubation at 35–37 °C for 16–18 hours, and measurement of inhibition zones interpreted as susceptible, intermediate or resistant using CLSI or EUCAST breakpoints. MIC methods include broth microdilution and E-test gradient strips. Resistance detection: cefoxitin disc for MRSA; double-disc synergy test for ESBL (enhanced zone with clavulanate); modified carbapenem inactivation method (mCIM) for carbapenemases. Quality control uses reference strains (e.g. E. coli ATCC 25922, S. aureus ATCC 25923).", "k": ["Mueller–Hinton agar; 0.5 McFarland", "CLSI/EUCAST breakpoints", "Cefoxitin disc detects MRSA", "ESBL: double-disc synergy with clavulanate"] }
+      ],
+      "q": [
+        ["In a clean-catch midstream urine, significant bacteriuria is usually defined as:", "≥ 10² CFU/mL", "≥ 10³ CFU/mL", "≥ 10⁵ CFU/mL", "Any growth", "≥ 10⁸ CFU/mL always", 2, "≥ 10⁵ CFU/mL of a single organism is the classic threshold."],
+        ["CLED agar is used for urine culture partly because it:", "Grows fungi only", "Prevents swarming of Proteus", "Is selective for Gram-positives", "Contains blood", "Detects TB", 1, "Electrolyte deficiency inhibits Proteus swarming."],
+        ["The standard medium for disc diffusion susceptibility testing is:", "Blood agar", "MacConkey agar", "Mueller–Hinton agar", "Chocolate agar", "CLED", 2, "Mueller–Hinton gives reproducible diffusion."],
+        ["The inoculum for susceptibility testing is standardised to:", "0.5 McFarland", "5 McFarland", "10 McFarland", "Any turbidity", "Visible colonies only", 0, "0.5 McFarland ≈ 1.5 × 10⁸ CFU/mL."],
+        ["MRSA is detected using a disc of:", "Penicillin", "Cefoxitin", "Vancomycin", "Gentamicin", "Erythromycin", 1, "Cefoxitin is a reliable surrogate for mecA-mediated resistance."],
+        ["Blood cultures should ideally be collected:", "After starting antibiotics", "Before starting antibiotics, with at least two sets", "From an existing IV line only", "Only when afebrile", "As one small sample", 1, "Antibiotics reduce culture yield."],
+        ["India ink preparation of CSF is used to detect:", "Neisseria meningitidis", "Cryptococcus neoformans", "Mycobacterium tuberculosis", "Streptococcus pneumoniae", "Haemophilus influenzae", 1, "The capsule appears as a clear halo."],
+        ["An enhanced inhibition zone between a cephalosporin disc and a clavulanate disc suggests:", "MRSA", "ESBL production", "Carbapenemase only", "Normal susceptibility", "Contamination", 1, "Clavulanate inhibits ESBLs, restoring cephalosporin activity."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Neuroanatomy (ANA 302)",
+  "code": "ANA302",
+  "color": "#B45309",
+  "description": "Organisation of the brain and spinal cord, major tracts, blood supply and ventricles, cranial nerve nuclei and clinical localisation of lesions.",
+  "for": { "300": ["MBBS", "BDS", "CM", "ANA", "PT", "RAD", "PHS"] },
+  "topics": [
+    {
+      "title": "Cerebral Hemispheres and Functional Areas",
+      "summary": "Lobes, sulci, Brodmann areas, dominance and the effects of cortical lesions.",
+      "notes": [
+        { "h": "Lobes and areas", "b": "The central sulcus separates the frontal lobe (precentral gyrus — primary motor cortex, Brodmann area 4) from the parietal lobe (postcentral gyrus — primary somatosensory cortex, areas 3, 1, 2). The primary visual cortex (area 17) lies around the calcarine sulcus of the occipital lobe; the primary auditory cortex (areas 41, 42) is in the superior temporal gyrus. The motor and sensory homunculi show body parts mapped in order, with the leg on the medial surface (anterior cerebral artery territory) and the face and hand laterally (middle cerebral artery territory).", "k": ["Area 4: primary motor; 3,1,2: somatosensory", "Area 17: visual cortex (calcarine sulcus)", "Leg area medial (ACA); face/arm lateral (MCA)"] },
+        { "h": "Language and lesions", "b": "In most people (almost all right-handers) the left hemisphere is dominant for language. Broca's area (areas 44, 45, inferior frontal gyrus) controls speech production; a lesion causes expressive (non-fluent) aphasia with preserved comprehension. Wernicke's area (area 22, posterior superior temporal gyrus) controls comprehension; a lesion causes receptive (fluent) aphasia with meaningless speech. The arcuate fasciculus connects them (conduction aphasia: poor repetition). Prefrontal lesions alter personality and judgement (as in Phineas Gage); non-dominant parietal lesions cause neglect of the opposite side.", "k": ["Broca's: expressive aphasia", "Wernicke's: receptive aphasia", "Arcuate fasciculus lesion: conduction aphasia", "Non-dominant parietal: hemineglect"] }
+      ],
+      "q": [
+        ["The primary motor cortex is located in the:", "Postcentral gyrus", "Precentral gyrus", "Superior temporal gyrus", "Cingulate gyrus", "Calcarine sulcus", 1, "The precentral gyrus is Brodmann area 4."],
+        ["A patient understands speech but produces slow, effortful, broken speech. The lesion is in:", "Wernicke's area", "Broca's area", "Occipital lobe", "Cerebellum", "Arcuate fasciculus only", 1, "Broca's (expressive) aphasia."],
+        ["Fluent but meaningless speech with poor comprehension indicates a lesion of:", "Broca's area", "Wernicke's area", "Precentral gyrus", "Frontal eye field", "Corpus callosum", 1, "Wernicke's (receptive) aphasia."],
+        ["The primary visual cortex lies around the:", "Central sulcus", "Lateral sulcus", "Calcarine sulcus", "Parieto-occipital sulcus only", "Cingulate sulcus", 2, "Area 17 borders the calcarine sulcus."],
+        ["An anterior cerebral artery stroke mainly weakens the contralateral:", "Face", "Arm", "Leg", "Tongue", "Eye movements", 2, "The leg area of the motor cortex is on the medial surface."],
+        ["Neglect of the left side of space typically follows a lesion of the:", "Left parietal lobe", "Right (non-dominant) parietal lobe", "Left frontal lobe", "Cerebellum", "Brainstem", 1, "Non-dominant parietal lesions cause hemineglect."],
+        ["The primary somatosensory cortex is in the:", "Precentral gyrus", "Postcentral gyrus", "Occipital lobe", "Insula", "Hippocampus", 1, "The postcentral gyrus receives touch and proprioception."],
+        ["Broca's and Wernicke's areas are connected by the:", "Corpus callosum", "Arcuate fasciculus", "Internal capsule", "Fornix", "Anterior commissure", 1, "Damage causes conduction aphasia with impaired repetition."]
+      ]
+    },
+    {
+      "title": "Spinal Cord and Major Tracts",
+      "summary": "Internal structure of the cord, ascending and descending pathways, and cord syndromes.",
+      "notes": [
+        { "h": "Tracts", "b": "The spinal cord ends at L1/L2 in adults (conus medullaris), so lumbar puncture is performed at L3/L4 or L4/L5. The dorsal column–medial lemniscus pathway carries fine touch, vibration and proprioception; it ascends ipsilaterally and crosses in the medulla (internal arcuate fibres). The spinothalamic tract carries pain and temperature; it crosses within one or two segments of entry and ascends contralaterally. The lateral corticospinal tract (voluntary movement) crosses at the pyramidal decussation in the lower medulla and descends ipsilateral to the muscles it controls. Upper motor neuron (UMN) lesions give spasticity, hyperreflexia and an extensor plantar (Babinski) response; lower motor neuron (LMN) lesions give flaccidity, wasting, fasciculations and hyporeflexia.", "k": ["Cord ends at L1/L2; LP at L3/4 or L4/5", "Dorsal columns cross in the medulla; spinothalamic crosses at entry", "Corticospinal crosses at the pyramidal decussation", "UMN: spastic, brisk reflexes, Babinski; LMN: flaccid, wasting"] },
+        { "h": "Cord syndromes", "b": "Brown-Séquard syndrome (hemisection) causes ipsilateral UMN weakness and loss of proprioception/vibration below the lesion, with contralateral loss of pain and temperature. Central cord syndrome (e.g. syringomyelia) causes 'cape-like' loss of pain and temperature over the shoulders with preserved touch. Anterior cord syndrome (anterior spinal artery occlusion) causes paralysis and loss of pain/temperature with preserved dorsal column sensation. Subacute combined degeneration (vitamin B12 deficiency) affects the dorsal columns and corticospinal tracts. Tabes dorsalis (neurosyphilis) affects the dorsal columns.", "k": ["Brown-Séquard: ipsilateral motor + proprioception; contralateral pain/temp", "Syringomyelia: cape-like pain/temp loss", "Anterior cord: spares dorsal columns", "B12 deficiency: dorsal columns + corticospinal"] }
+      ],
+      "q": [
+        ["In adults, the spinal cord usually ends at the level of:", "T12", "L1/L2", "L4/L5", "S2", "C7", 1, "The conus medullaris lies at about L1/L2."],
+        ["Pain and temperature sensation travel in the:", "Dorsal columns", "Spinothalamic tract", "Corticospinal tract", "Spinocerebellar tract", "Rubrospinal tract", 1, "The lateral spinothalamic tract carries pain and temperature."],
+        ["The dorsal column pathway crosses the midline in the:", "Spinal cord at the level of entry", "Medulla", "Pons", "Midbrain", "Thalamus", 1, "Internal arcuate fibres decussate in the medulla."],
+        ["Which is a feature of a lower motor neuron lesion?", "Spasticity", "Hyperreflexia", "Extensor plantar response", "Muscle wasting and fasciculation", "Clonus", 3, "LMN lesions cause flaccid weakness with wasting and fasciculations."],
+        ["A right hemisection of the spinal cord at T10 causes loss of pain and temperature on the:", "Right below T10", "Left below T10", "Both sides", "Right above T10", "Neither side", 1, "Spinothalamic fibres have already crossed, so loss is contralateral."],
+        ["Cape-like loss of pain and temperature with preserved touch suggests:", "Brown-Séquard syndrome", "Syringomyelia", "Tabes dorsalis", "Anterior spinal artery occlusion", "Peripheral neuropathy", 1, "A central cavity damages crossing spinothalamic fibres."],
+        ["Vitamin B12 deficiency causes subacute combined degeneration of the:", "Spinothalamic tracts only", "Dorsal columns and lateral corticospinal tracts", "Anterior horn cells only", "Cerebellum", "Optic nerves only", 1, "Both sensory (dorsal) and motor (lateral) columns degenerate."],
+        ["Lumbar puncture is safely performed at:", "T12/L1", "L1/L2", "L3/L4 or L4/L5", "S1/S2", "C6/C7", 2, "Below the end of the cord, the needle meets only cauda equina roots."]
+      ]
+    },
+    {
+      "title": "Brainstem, Cerebellum and Cranial Nerve Nuclei",
+      "summary": "Midbrain, pons and medulla, brainstem syndromes, and cerebellar function and signs.",
+      "notes": [
+        { "h": "Brainstem", "b": "The brainstem (midbrain, pons, medulla) contains the nuclei of cranial nerves III–XII, ascending and descending tracts, and vital centres for respiration and circulation. Cranial nerve nuclei: III and IV in the midbrain; V, VI, VII and VIII mainly in the pons; IX, X, XI and XII in the medulla. Brainstem lesions produce 'crossed' signs: ipsilateral cranial nerve palsy with contralateral hemiplegia. Lateral medullary (Wallenberg) syndrome, usually from posterior inferior cerebellar artery (PICA) occlusion, causes ipsilateral facial pain/temperature loss, Horner's syndrome, dysphagia and ataxia, with contralateral body pain/temperature loss.", "k": ["III, IV: midbrain; V–VIII: pons; IX–XII: medulla", "Crossed signs = brainstem lesion", "Wallenberg: PICA, lateral medulla"] },
+        { "h": "Cerebellum", "b": "The cerebellum coordinates movement, balance and posture; it influences the ipsilateral side of the body. It connects to the brainstem by three peduncles (superior — mainly output; middle — input from pons; inferior — input from spinal cord and vestibular nuclei). Cerebellar signs (DANISH): Dysdiadochokinesia, Ataxia (broad-based gait), Nystagmus, Intention tremor, Slurred/scanning speech, Hypotonia; also past-pointing on finger–nose test. Midline (vermis) lesions cause truncal ataxia (e.g. alcohol); hemisphere lesions cause ipsilateral limb ataxia.", "k": ["Cerebellar lesions → ipsilateral signs", "DANISH", "Vermis: truncal ataxia (alcohol)"] }
+      ],
+      "q": [
+        ["The nucleus of the oculomotor nerve is located in the:", "Medulla", "Pons", "Midbrain", "Cerebellum", "Thalamus", 2, "CN III and IV nuclei are in the midbrain."],
+        ["The hypoglossal nucleus lies in the:", "Midbrain", "Pons", "Medulla", "Spinal cord", "Cerebral cortex", 2, "CN XII nucleus is in the medulla."],
+        ["Ipsilateral cranial nerve palsy with contralateral hemiplegia indicates a lesion in the:", "Cerebral cortex", "Brainstem", "Spinal cord", "Peripheral nerve", "Cerebellum", 1, "Crossed signs localise to the brainstem."],
+        ["Lateral medullary syndrome is usually caused by occlusion of the:", "Anterior cerebral artery", "Posterior inferior cerebellar artery", "Middle cerebral artery", "Anterior spinal artery", "Superior cerebellar artery", 1, "PICA or vertebral artery occlusion causes Wallenberg syndrome."],
+        ["A right cerebellar hemisphere lesion causes ataxia of the:", "Left limbs", "Right limbs", "Both legs only", "Face", "Eyes only", 1, "Cerebellar signs are ipsilateral."],
+        ["Intention tremor is characteristic of disease of the:", "Basal ganglia", "Cerebellum", "Spinal cord", "Motor cortex", "Thalamus", 1, "Tremor worsening on approaching a target is cerebellar."],
+        ["Truncal ataxia with a broad-based gait in chronic alcohol use reflects damage to the cerebellar:", "Hemispheres", "Vermis", "Flocculus only", "Dentate nucleus only", "Middle peduncle", 1, "Alcohol classically affects the anterior vermis."],
+        ["Inability to perform rapid alternating movements is called:", "Dysarthria", "Dysdiadochokinesia", "Dysphagia", "Dysmetria", "Dystonia", 1, "Dysdiadochokinesia is a cerebellar sign."]
+      ]
+    },
+    {
+      "title": "Blood Supply of the Brain and Stroke",
+      "summary": "Circle of Willis, arterial territories, the internal capsule and patterns of stroke.",
+      "notes": [
+        { "h": "Arterial supply", "b": "The brain is supplied by the two internal carotid arteries (anterior circulation) and two vertebral arteries, which join to form the basilar artery (posterior circulation). The circle of Willis links them: anterior cerebral arteries joined by the anterior communicating artery; internal carotids; posterior communicating arteries; posterior cerebral arteries (from the basilar). The middle cerebral artery (MCA), the direct continuation of the internal carotid, supplies the lateral hemisphere including motor and sensory areas for face and arm and (dominant side) language areas; its lenticulostriate branches supply the internal capsule and basal ganglia. The posterior cerebral artery supplies the occipital lobe (visual cortex).", "k": ["Circle of Willis: ACA, AComm, ICA, PComm, PCA", "MCA: lateral hemisphere — face, arm, speech", "Lenticulostriate arteries → internal capsule", "PCA: occipital lobe → homonymous hemianopia"] },
+        { "h": "Stroke patterns", "b": "MCA stroke: contralateral hemiparesis and sensory loss affecting face and arm more than leg, homonymous hemianopia, and aphasia (dominant hemisphere) or neglect (non-dominant). ACA stroke: contralateral leg weakness. PCA stroke: contralateral homonymous hemianopia with macular sparing. A small lacunar infarct in the posterior limb of the internal capsule (hypertension) causes pure motor hemiplegia of face, arm and leg. Hypertension is the most important modifiable risk factor for stroke in Nigeria, where haemorrhagic strokes are relatively common.", "k": ["MCA: face/arm > leg + aphasia or neglect", "ACA: leg > arm", "PCA: hemianopia with macular sparing", "Internal capsule lacune: pure motor hemiplegia"] }
+      ],
+      "q": [
+        ["The basilar artery is formed by the union of the:", "Internal carotid arteries", "Vertebral arteries", "Anterior cerebral arteries", "Posterior communicating arteries", "External carotid arteries", 1, "The two vertebral arteries join at the pontomedullary junction."],
+        ["The artery most commonly involved in ischaemic stroke is the:", "Anterior cerebral artery", "Middle cerebral artery", "Posterior cerebral artery", "Basilar artery", "Anterior communicating artery", 1, "The MCA is the direct continuation of the internal carotid."],
+        ["Weakness of the face and arm more than the leg with aphasia suggests occlusion of the:", "Right ACA", "Left MCA", "Right PCA", "Basilar artery", "Left vertebral artery", 1, "Left MCA supplies the lateral left hemisphere including language areas."],
+        ["The occipital (visual) cortex is supplied mainly by the:", "Anterior cerebral artery", "Middle cerebral artery", "Posterior cerebral artery", "Anterior choroidal artery only", "Ophthalmic artery", 2, "PCA occlusion causes homonymous hemianopia."],
+        ["The internal capsule is supplied mainly by the:", "Lenticulostriate branches of the MCA", "Basilar artery", "Vertebral arteries", "Anterior communicating artery", "External carotid artery", 0, "These small perforators are prone to hypertensive damage."],
+        ["Contralateral leg weakness more than arm weakness suggests an infarct of the:", "MCA", "ACA", "PCA", "PICA", "AICA", 1, "The ACA supplies the medial motor cortex (leg area)."],
+        ["The most important modifiable risk factor for stroke is:", "Age", "Hypertension", "Male sex", "Family history", "Ethnicity", 1, "Controlling blood pressure greatly reduces stroke risk."],
+        ["The circle of Willis connects the anterior and posterior circulations through the:", "Anterior communicating artery", "Posterior communicating arteries", "Middle cerebral arteries", "Vertebral arteries", "Superior cerebellar arteries", 1, "PComm arteries link the ICA with the PCA."]
+      ]
+    },
+    {
+      "title": "Ventricles, CSF and the Visual Pathway",
+      "summary": "Ventricular system, CSF circulation and hydrocephalus, and visual field defects.",
+      "notes": [
+        { "h": "Ventricles and CSF", "b": "Cerebrospinal fluid (about 500 mL/day produced; about 150 mL present) is made mainly by the choroid plexus in the lateral ventricles. It flows: lateral ventricles → interventricular foramina (of Monro) → third ventricle → cerebral aqueduct (of Sylvius) → fourth ventricle → subarachnoid space via the median aperture (Magendie) and lateral apertures (Luschka) → reabsorbed by arachnoid granulations into the superior sagittal sinus. Obstruction within the ventricular system causes non-communicating (obstructive) hydrocephalus (e.g. aqueduct stenosis); impaired absorption causes communicating hydrocephalus (e.g. after meningitis or subarachnoid haemorrhage). Normal CSF is clear, with < 5 white cells/µL, protein 0.15–0.45 g/L and glucose about two-thirds of blood glucose.", "k": ["CSF made by choroid plexus, absorbed by arachnoid granulations", "Monro → third ventricle → aqueduct → fourth ventricle", "Aqueduct stenosis → obstructive hydrocephalus", "CSF glucose ≈ 2/3 of blood glucose"] },
+        { "h": "Visual pathway", "b": "Retina → optic nerve → optic chiasma (nasal fibres cross) → optic tract → lateral geniculate body → optic radiation → visual cortex. Lesions: optic nerve — ipsilateral monocular blindness; chiasma (e.g. pituitary adenoma) — bitemporal hemianopia; optic tract or complete radiation — contralateral homonymous hemianopia; Meyer's loop (temporal lobe) — contralateral superior quadrantanopia ('pie in the sky'); parietal radiation — inferior quadrantanopia. The pupillary light reflex: afferent via the optic nerve, efferent via parasympathetic fibres in the oculomotor nerve.", "k": ["Pituitary tumour → bitemporal hemianopia", "Optic tract → homonymous hemianopia", "Temporal lobe (Meyer's loop) → superior quadrantanopia", "Light reflex: II afferent, III efferent"] }
+      ],
+      "q": [
+        ["CSF is produced mainly by the:", "Arachnoid granulations", "Choroid plexus", "Dura mater", "Pia mater", "Ependymal cells of the cord", 1, "Choroid plexuses in the ventricles secrete CSF."],
+        ["The third and fourth ventricles are connected by the:", "Interventricular foramen", "Cerebral aqueduct", "Foramen of Magendie", "Central canal", "Foramen of Luschka", 1, "The aqueduct of Sylvius passes through the midbrain."],
+        ["CSF is reabsorbed into the venous system through the:", "Choroid plexus", "Arachnoid granulations", "Pineal gland", "Cavernous sinus directly", "Ependyma", 1, "Arachnoid granulations drain into the dural venous sinuses."],
+        ["Aqueduct stenosis causes:", "Communicating hydrocephalus", "Non-communicating (obstructive) hydrocephalus", "Normal-pressure hydrocephalus", "Cerebral atrophy", "Meningitis", 1, "Flow is blocked within the ventricular system."],
+        ["A pituitary adenoma compressing the optic chiasma typically causes:", "Right monocular blindness", "Bitemporal hemianopia", "Left homonymous hemianopia", "Superior quadrantanopia", "Central scotoma only", 1, "Crossing nasal fibres (temporal fields) are compressed."],
+        ["A lesion of the right optic tract causes:", "Right homonymous hemianopia", "Left homonymous hemianopia", "Bitemporal hemianopia", "Right eye blindness", "Binasal hemianopia", 1, "The right tract carries information from the left visual field."],
+        ["A temporal lobe lesion affecting Meyer's loop causes:", "Inferior quadrantanopia", "Contralateral superior quadrantanopia", "Bitemporal hemianopia", "Monocular blindness", "Tunnel vision", 1, "Meyer's loop carries fibres for the upper visual field ('pie in the sky')."],
+        ["Normal CSF glucose is approximately:", "Equal to blood glucose", "Two-thirds of blood glucose", "One-tenth of blood glucose", "Zero", "Twice blood glucose", 1, "Low CSF glucose suggests bacterial or TB meningitis."]
+      ]
+    }
+  ]
+}

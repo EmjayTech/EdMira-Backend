@@ -1,0 +1,632 @@
+{
+ "courses": [
+  {
+   "title": "General Chemistry (CHM 101/102)",
+   "code": "CHM101",
+   "color": "#0E7490",
+   "description": "Atomic structure, bonding, stoichiometry, acids and bases, and an introduction to organic chemistry for 100 Level health science students.",
+   "audience": [
+    {
+     "level": "100 Level"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Atomic Structure and the Periodic Table",
+     "order": 1,
+     "summary": "Subatomic particles, isotopes, electronic configuration and periodic trends.",
+     "material": [
+      {
+       "heading": "The atom",
+       "body": "An atom has a nucleus of protons (positive) and neutrons (neutral) surrounded by electrons (negative). The atomic number (Z) is the number of protons; the mass number (A) is protons plus neutrons. Isotopes are atoms of the same element with different numbers of neutrons (e.g. carbon-12 and carbon-14; iodine-131 is used in thyroid therapy). Electrons fill orbitals in order of increasing energy (Aufbau principle): 1s, 2s, 2p, 3s, 3p, 4s, 3d …; each orbital holds at most two electrons of opposite spin (Pauli exclusion principle) and electrons occupy degenerate orbitals singly first (Hund's rule).",
+       "keyPoints": [
+        "Z = protons; A = protons + neutrons",
+        "Isotopes differ in neutron number",
+        "Aufbau, Pauli and Hund's rules"
+       ]
+      },
+      {
+       "heading": "Periodic trends",
+       "body": "Across a period (left to right) atomic radius decreases while ionisation energy and electronegativity increase, because nuclear charge increases with electrons added to the same shell. Down a group, atomic radius increases and ionisation energy decreases because of extra shells and shielding. Group 1 are alkali metals, group 17 halogens, group 18 noble gases. Fluorine is the most electronegative element.",
+       "keyPoints": [
+        "Across a period: radius ↓, ionisation energy ↑, electronegativity ↑",
+        "Down a group: radius ↑, ionisation energy ↓",
+        "Fluorine is the most electronegative"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The atomic number of an element is the number of:",
+       "options": [
+        "Electrons plus neutrons",
+        "Nucleons",
+        "Neutrons",
+        "Isotopes",
+        "Protons"
+       ],
+       "answerIndex": 4,
+       "explanation": "Atomic number (Z) equals the number of protons in the nucleus."
+      },
+      {
+       "stem": "Isotopes of an element differ in the number of:",
+       "options": [
+        "Neutrons",
+        "Orbitals",
+        "Protons",
+        "Electrons",
+        "Valence electrons"
+       ],
+       "answerIndex": 0,
+       "explanation": "Isotopes have the same Z but different numbers of neutrons."
+      },
+      {
+       "stem": "The electronic configuration of sodium (Z = 11) is:",
+       "options": [
+        "1s2 2s1 2p8",
+        "1s2 2s2 2p5 3s2",
+        "1s2 2s2 2p6 3p1",
+        "1s2 2s2 2p6 3s1",
+        "1s2 2s2 2p7"
+       ],
+       "answerIndex": 3,
+       "explanation": "Sodium has 11 electrons: 2, 8, 1."
+      },
+      {
+       "stem": "Which element is the most electronegative?",
+       "options": [
+        "Chlorine",
+        "Oxygen",
+        "Sodium",
+        "Fluorine",
+        "Nitrogen"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluorine has the highest electronegativity (4.0 on the Pauling scale)."
+      },
+      {
+       "stem": "Moving down Group 1 of the periodic table, atomic radius:",
+       "options": [
+        "Becomes zero",
+        "First increases then decreases",
+        "Decreases",
+        "Increases",
+        "Stays the same"
+       ],
+       "answerIndex": 3,
+       "explanation": "Extra electron shells make atoms larger down a group."
+      },
+      {
+       "stem": "No two electrons in an atom can have the same four quantum numbers. This is:",
+       "options": [
+        "Aufbau principle",
+        "Heisenberg principle",
+        "Hund's rule",
+        "Pauli exclusion principle",
+        "Octet rule"
+       ],
+       "answerIndex": 3,
+       "explanation": "The Pauli exclusion principle limits an orbital to two electrons of opposite spin."
+      },
+      {
+       "stem": "An atom with 17 protons and 18 neutrons has a mass number of:",
+       "options": [
+        "17",
+        "18",
+        "35",
+        "1",
+        "34"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mass number = protons + neutrons = 35 (chlorine-35)."
+      },
+      {
+       "stem": "Group 18 elements are known as:",
+       "options": [
+        "Halogens",
+        "Chalcogens",
+        "Alkali metals",
+        "Transition metals",
+        "Noble gases"
+       ],
+       "answerIndex": 4,
+       "explanation": "Group 18 elements (He, Ne, Ar…) are the noble gases."
+      }
+     ]
+    },
+    {
+     "title": "Chemical Bonding and Intermolecular Forces",
+     "order": 2,
+     "summary": "Ionic, covalent, coordinate and metallic bonds, molecular shapes and hydrogen bonding.",
+     "material": [
+      {
+       "heading": "Types of bonds",
+       "body": "Ionic bonds form by electron transfer between metals and non-metals (e.g. NaCl) and give high-melting solids that conduct when molten or dissolved. Covalent bonds form by sharing electron pairs between non-metals (e.g. H2O, CH4). A coordinate (dative) bond is a covalent bond in which both electrons come from one atom (e.g. NH4+, H3O+). Metallic bonding is the attraction between metal cations and a sea of delocalised electrons.",
+       "keyPoints": [
+        "Ionic = transfer; covalent = sharing",
+        "Dative bond: both electrons from one atom (NH4+)",
+        "Metallic: sea of delocalised electrons"
+       ]
+      },
+      {
+       "heading": "Shapes and intermolecular forces",
+       "body": "VSEPR theory predicts shape from electron pairs: CH4 is tetrahedral (109.5°), NH3 trigonal pyramidal (~107°), H2O bent (~104.5°), CO2 linear (180°). Intermolecular forces, in increasing strength, are London dispersion forces, dipole–dipole forces and hydrogen bonds. Hydrogen bonding (H bonded to N, O or F) explains water's high boiling point and holds DNA base pairs and protein secondary structures together.",
+       "keyPoints": [
+        "CH4 109.5°, NH3 ~107°, H2O ~104.5°",
+        "Hydrogen bonds: H attached to N, O or F",
+        "H-bonds explain water's high boiling point"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The bond in sodium chloride is:",
+       "options": [
+        "Metallic",
+        "Hydrogen",
+        "Coordinate",
+        "Ionic",
+        "Covalent"
+       ],
+       "answerIndex": 3,
+       "explanation": "Na transfers an electron to Cl, forming Na+ and Cl− ions."
+      },
+      {
+       "stem": "The ammonium ion (NH4+) contains a:",
+       "options": [
+        "Ionic bond only",
+        "Double bond",
+        "Metallic bond",
+        "Coordinate (dative) bond",
+        "Hydrogen bond"
+       ],
+       "answerIndex": 3,
+       "explanation": "Nitrogen's lone pair is donated to H+, forming a dative bond."
+      },
+      {
+       "stem": "The shape of the water molecule is:",
+       "options": [
+        "Trigonal planar",
+        "Linear",
+        "Tetrahedral",
+        "Bent (V-shaped)",
+        "Octahedral"
+       ],
+       "answerIndex": 3,
+       "explanation": "Two lone pairs on oxygen give water a bent shape (~104.5°)."
+      },
+      {
+       "stem": "The bond angle in methane is about:",
+       "options": [
+        "104.5°",
+        "90°",
+        "109.5°",
+        "120°",
+        "107°"
+       ],
+       "answerIndex": 2,
+       "explanation": "Methane is tetrahedral with bond angles of 109.5°."
+      },
+      {
+       "stem": "Water's unusually high boiling point is due to:",
+       "options": [
+        "Ionic bonding",
+        "Hydrogen bonding",
+        "Covalent network",
+        "London forces only",
+        "Metallic bonding"
+       ],
+       "answerIndex": 1,
+       "explanation": "Extensive hydrogen bonding between water molecules raises its boiling point."
+      },
+      {
+       "stem": "The weakest intermolecular force is the:",
+       "options": [
+        "Dipole–dipole force",
+        "Hydrogen bond",
+        "Ionic bond",
+        "London dispersion force",
+        "Covalent bond"
+       ],
+       "answerIndex": 3,
+       "explanation": "London (dispersion) forces are the weakest intermolecular attractions."
+      },
+      {
+       "stem": "Carbon dioxide is a linear molecule with a bond angle of:",
+       "options": [
+        "120°",
+        "180°",
+        "104.5°",
+        "90°",
+        "109.5°"
+       ],
+       "answerIndex": 1,
+       "explanation": "CO2 is linear, O=C=O at 180°."
+      },
+      {
+       "stem": "Base pairs in DNA are held together by:",
+       "options": [
+        "Ionic bonds",
+        "Peptide bonds",
+        "Hydrogen bonds",
+        "Glycosidic bonds",
+        "Disulphide bonds"
+       ],
+       "answerIndex": 2,
+       "explanation": "A–T pairs form two and G–C pairs three hydrogen bonds."
+      }
+     ]
+    },
+    {
+     "title": "The Mole and Stoichiometry",
+     "order": 3,
+     "summary": "Moles, molar mass, concentration, empirical formulae and balancing equations.",
+     "material": [
+      {
+       "heading": "The mole",
+       "body": "One mole contains 6.02 × 10^23 particles (Avogadro's number). Number of moles = mass ÷ molar mass. Molar mass is the relative formula mass in g/mol (e.g. NaCl = 23 + 35.5 = 58.5 g/mol). At standard temperature and pressure, one mole of an ideal gas occupies 22.4 dm³. The empirical formula shows the simplest whole-number ratio of atoms; the molecular formula is a whole-number multiple of it (e.g. glucose C6H12O6 has empirical formula CH2O).",
+       "keyPoints": [
+        "n = m / M",
+        "Avogadro's number = 6.02 × 10^23",
+        "Molar volume at STP = 22.4 dm³"
+       ]
+      },
+      {
+       "heading": "Solutions and concentration",
+       "body": "Molarity (mol/dm³) = moles of solute ÷ volume of solution in dm³. Dilution follows C1V1 = C2V2. Percentage w/v is grams per 100 mL: normal saline is 0.9% w/v NaCl (0.9 g in 100 mL, about 154 mmol/L). In balancing equations, the number of atoms of each element must be equal on both sides; coefficients give mole ratios for calculations.",
+       "keyPoints": [
+        "Molarity = n / V (dm³)",
+        "C1V1 = C2V2",
+        "Normal saline = 0.9% w/v NaCl"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "How many moles are in 11.7 g of NaCl (molar mass 58.5 g/mol)?",
+       "options": [
+        "0.1",
+        "0.2",
+        "0.5",
+        "2.0",
+        "5.0"
+       ],
+       "answerIndex": 1,
+       "explanation": "n = 11.7 ÷ 58.5 = 0.2 mol."
+      },
+      {
+       "stem": "Avogadro's number is:",
+       "options": [
+        "6.02 × 10^23",
+        "9.1 × 10^−31",
+        "1.6 × 10^−19",
+        "8.31",
+        "3.0 × 10^8"
+       ],
+       "answerIndex": 0,
+       "explanation": "One mole contains 6.02 × 10^23 particles."
+      },
+      {
+       "stem": "The empirical formula of glucose (C6H12O6) is:",
+       "options": [
+        "CHO",
+        "C6H12O6",
+        "CH2O",
+        "C3H6O3",
+        "C2H4O2"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dividing by 6 gives CH2O."
+      },
+      {
+       "stem": "What volume does 2 moles of an ideal gas occupy at STP?",
+       "options": [
+        "2 dm³",
+        "44.8 dm³",
+        "24 dm³",
+        "11.2 dm³",
+        "22.4 dm³"
+       ],
+       "answerIndex": 1,
+       "explanation": "2 × 22.4 = 44.8 dm³."
+      },
+      {
+       "stem": "How much NaCl is in 500 mL of normal saline (0.9% w/v)?",
+       "options": [
+        "0.45 g",
+        "0.9 g",
+        "4.5 g",
+        "9 g",
+        "45 g"
+       ],
+       "answerIndex": 2,
+       "explanation": "0.9 g per 100 mL × 5 = 4.5 g."
+      },
+      {
+       "stem": "What is the molarity of a solution containing 0.5 mol of solute in 250 mL?",
+       "options": [
+        "0.125 M",
+        "0.5 M",
+        "1 M",
+        "2 M",
+        "4 M"
+       ],
+       "answerIndex": 3,
+       "explanation": "0.5 mol ÷ 0.25 dm³ = 2 mol/dm³."
+      },
+      {
+       "stem": "To make 100 mL of 1 M HCl from 10 M stock, you need:",
+       "options": [
+        "1 mL",
+        "10 mL",
+        "50 mL",
+        "90 mL",
+        "100 mL"
+       ],
+       "answerIndex": 1,
+       "explanation": "C1V1 = C2V2: 10 × V1 = 1 × 100, so V1 = 10 mL."
+      },
+      {
+       "stem": "In 2H2 + O2 → 2H2O, how many moles of water form from 4 moles of H2?",
+       "options": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "1"
+       ],
+       "answerIndex": 1,
+       "explanation": "H2 : H2O is 2 : 2 (1:1), so 4 mol H2 gives 4 mol H2O."
+      }
+     ]
+    },
+    {
+     "title": "Acids, Bases, pH and Buffers",
+     "order": 4,
+     "summary": "Acid–base theories, pH calculations, neutralisation and buffer solutions in the body.",
+     "material": [
+      {
+       "heading": "Acids, bases and pH",
+       "body": "Arrhenius acids release H+ in water; Brønsted–Lowry acids are proton donors and bases are proton acceptors; Lewis acids accept electron pairs. pH = −log10[H+]. At 25 °C neutral water has pH 7; acids have pH below 7 and bases above 7. A change of one pH unit is a tenfold change in [H+]. Strong acids (HCl, H2SO4, HNO3) ionise completely; weak acids (ethanoic acid, carbonic acid) only partially.",
+       "keyPoints": [
+        "pH = −log[H+]",
+        "Brønsted acid = proton donor",
+        "1 pH unit = 10-fold change in [H+]"
+       ]
+      },
+      {
+       "heading": "Buffers",
+       "body": "A buffer resists changes in pH when small amounts of acid or base are added. It consists of a weak acid and its conjugate base (or a weak base and its salt). The Henderson–Hasselbalch equation is pH = pKa + log([A−]/[HA]). The bicarbonate buffer (H2CO3/HCO3−) is the main extracellular buffer keeping blood pH at 7.35–7.45; haemoglobin, phosphate and protein buffers also contribute.",
+       "keyPoints": [
+        "Buffer = weak acid + conjugate base",
+        "pH = pKa + log([A−]/[HA])",
+        "Normal blood pH 7.35–7.45"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A solution has [H+] = 1 × 10^−3 mol/dm³. Its pH is:",
+       "options": [
+        "3",
+        "1",
+        "11",
+        "−3",
+        "7"
+       ],
+       "answerIndex": 0,
+       "explanation": "pH = −log(10^−3) = 3."
+      },
+      {
+       "stem": "According to Brønsted–Lowry, a base is a:",
+       "options": [
+        "Proton donor",
+        "Hydroxide donor only",
+        "Electron-pair acceptor",
+        "Salt",
+        "Proton acceptor"
+       ],
+       "answerIndex": 4,
+       "explanation": "Brønsted–Lowry bases accept protons."
+      },
+      {
+       "stem": "Normal arterial blood pH is:",
+       "options": [
+        "6.8–7.0",
+        "7.00–7.20",
+        "7.35–7.45",
+        "7.60–7.80",
+        "8.0–8.5"
+       ],
+       "answerIndex": 2,
+       "explanation": "Blood pH is tightly regulated between 7.35 and 7.45."
+      },
+      {
+       "stem": "The main extracellular buffer in blood is the:",
+       "options": [
+        "Ammonia buffer",
+        "Acetate buffer",
+        "Phosphate buffer",
+        "Bicarbonate buffer",
+        "Citrate buffer"
+       ],
+       "answerIndex": 3,
+       "explanation": "The carbonic acid/bicarbonate system is the chief extracellular buffer."
+      },
+      {
+       "stem": "Which is a strong acid?",
+       "options": [
+        "Carbonic acid",
+        "Citric acid",
+        "Lactic acid",
+        "Ethanoic acid",
+        "Hydrochloric acid"
+       ],
+       "answerIndex": 4,
+       "explanation": "HCl ionises completely in water."
+      },
+      {
+       "stem": "When [A−] = [HA] in a buffer, the pH equals:",
+       "options": [
+        "pKa",
+        "14 − pKa",
+        "7",
+        "pKa + 1",
+        "pKa − 1"
+       ],
+       "answerIndex": 0,
+       "explanation": "log(1) = 0, so pH = pKa."
+      },
+      {
+       "stem": "Solution X has pH 4 and Y has pH 6. Compared with Y, X has:",
+       "options": [
+        "Equal [H+]",
+        "Half the [H+]",
+        "10 times less [H+]",
+        "Twice the [H+]",
+        "100 times the [H+]"
+       ],
+       "answerIndex": 4,
+       "explanation": "Two pH units = 10² = 100-fold difference."
+      },
+      {
+       "stem": "A buffer is best made from:",
+       "options": [
+        "A strong acid and a strong base",
+        "A strong acid and its salt",
+        "Water and sugar",
+        "A weak acid and its salt (conjugate base)",
+        "Two strong bases"
+       ],
+       "answerIndex": 3,
+       "explanation": "A weak acid with its conjugate base resists pH change."
+      }
+     ]
+    },
+    {
+     "title": "Introduction to Organic Chemistry",
+     "order": 5,
+     "summary": "Hydrocarbons, functional groups, isomerism and IUPAC naming.",
+     "material": [
+      {
+       "heading": "Hydrocarbons and naming",
+       "body": "Organic chemistry is the chemistry of carbon compounds. Alkanes (CnH2n+2) are saturated with single bonds; alkenes (CnH2n) have a C=C double bond and undergo addition reactions (e.g. decolourising bromine water); alkynes (CnH2n−2) have a triple bond. IUPAC names use the longest carbon chain (meth-1, eth-2, prop-3, but-4, pent-5, hex-6 carbons) with suffixes for the functional group. Benzene (C6H6) is aromatic with delocalised π electrons and undergoes substitution rather than addition.",
+       "keyPoints": [
+        "Alkanes CnH2n+2; alkenes CnH2n; alkynes CnH2n−2",
+        "Alkenes decolourise bromine water",
+        "Benzene prefers substitution"
+       ]
+      },
+      {
+       "heading": "Functional groups and isomerism",
+       "body": "Important functional groups are alcohols (–OH, e.g. ethanol), aldehydes (–CHO), ketones (C=O within a chain, e.g. propanone/acetone), carboxylic acids (–COOH), esters (–COO–), amines (–NH2) and amides (–CONH2). Isomers have the same molecular formula but different arrangements: structural isomers differ in bonding sequence; stereoisomers include geometric (cis/trans) isomers and optical isomers (enantiomers), which arise from a chiral carbon bonded to four different groups. Drug enantiomers may differ in activity (e.g. thalidomide).",
+       "keyPoints": [
+        "–OH alcohol; –CHO aldehyde; –COOH carboxylic acid; –NH2 amine",
+        "Chiral carbon = four different groups",
+        "Enantiomers can have different drug effects"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The general formula of the alkanes is:",
+       "options": [
+        "CnH2n−2",
+        "CnHn",
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2nO"
+       ],
+       "answerIndex": 3,
+       "explanation": "Alkanes are saturated hydrocarbons, CnH2n+2."
+      },
+      {
+       "stem": "Which compound decolourises bromine water?",
+       "options": [
+        "Ethene",
+        "Ethane",
+        "Butane",
+        "Methane",
+        "Propane"
+       ],
+       "answerIndex": 0,
+       "explanation": "Alkenes such as ethene undergo addition with bromine."
+      },
+      {
+       "stem": "The functional group of a carboxylic acid is:",
+       "options": [
+        "–OH",
+        "–COO–",
+        "–CHO",
+        "–NH2",
+        "–COOH"
+       ],
+       "answerIndex": 4,
+       "explanation": "Carboxylic acids contain –COOH."
+      },
+      {
+       "stem": "Propanone (acetone) belongs to the class of:",
+       "options": [
+        "Esters",
+        "Ethers",
+        "Ketones",
+        "Alcohols",
+        "Aldehydes"
+       ],
+       "answerIndex": 2,
+       "explanation": "Propanone has a C=O within the carbon chain, making it a ketone."
+      },
+      {
+       "stem": "A carbon atom bonded to four different groups is described as:",
+       "options": [
+        "Saturated",
+        "Chiral",
+        "Aromatic",
+        "Achiral",
+        "Planar"
+       ],
+       "answerIndex": 1,
+       "explanation": "Such a carbon is a stereocentre that gives rise to enantiomers."
+      },
+      {
+       "stem": "Compounds with the same molecular formula but different structures are:",
+       "options": [
+        "Allotropes",
+        "Homologues",
+        "Polymers",
+        "Isotopes",
+        "Isomers"
+       ],
+       "answerIndex": 4,
+       "explanation": "Isomers share a molecular formula but differ in arrangement."
+      },
+      {
+       "stem": "The IUPAC name for CH3CH2CH2CH3 is:",
+       "options": [
+        "Pentane",
+        "Ethane",
+        "Butene",
+        "Propane",
+        "Butane"
+       ],
+       "answerIndex": 4,
+       "explanation": "Four carbons with single bonds: butane."
+      },
+      {
+       "stem": "Benzene typically undergoes:",
+       "options": [
+        "Elimination reactions",
+        "Substitution reactions",
+        "Addition reactions",
+        "Hydrogen bonding with itself",
+        "Polymerisation only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aromatic stability makes substitution favoured over addition."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

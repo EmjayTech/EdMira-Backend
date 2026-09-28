@@ -1,0 +1,633 @@
+{
+ "courses": [
+  {
+   "title": "General Biology (BIO 101/102)",
+   "code": "BIO101",
+   "color": "#15803D",
+   "description": "Cell biology, cell division, heredity, diversity of living things and ecology — the 100 Level foundation for every health science programme.",
+   "audience": [
+    {
+     "level": "100 Level"
+    }
+   ],
+   "topics": [
+    {
+     "title": "The Cell: Structure and Organelles",
+     "order": 1,
+     "summary": "Prokaryotic and eukaryotic cells, the plasma membrane and the functions of organelles.",
+     "material": [
+      {
+       "heading": "Prokaryotes and eukaryotes",
+       "body": "The cell is the basic structural and functional unit of life (cell theory: Schleiden, Schwann, Virchow). Prokaryotes (bacteria) lack a nucleus and membrane-bound organelles; their DNA lies in a nucleoid region and they have 70S ribosomes. Eukaryotes (animals, plants, fungi, protists) have a nucleus bounded by a double membrane, membrane-bound organelles and 80S cytoplasmic ribosomes. Plant cells additionally have a cellulose cell wall, chloroplasts and a large central vacuole.",
+       "keyPoints": [
+        "Prokaryotes: no nucleus, 70S ribosomes",
+        "Eukaryotes: nucleus, organelles, 80S ribosomes",
+        "Plant cells: cell wall, chloroplasts, large vacuole"
+       ]
+      },
+      {
+       "heading": "Organelles and the membrane",
+       "body": "The plasma membrane is a phospholipid bilayer with proteins (fluid mosaic model of Singer and Nicolson). Mitochondria produce ATP by aerobic respiration and contain their own DNA. Rough endoplasmic reticulum (with ribosomes) synthesises proteins for export; smooth ER makes lipids and detoxifies drugs. The Golgi apparatus modifies and packages proteins; lysosomes contain hydrolytic enzymes for intracellular digestion; ribosomes are the sites of protein synthesis; the nucleolus makes ribosomal RNA.",
+       "keyPoints": [
+        "Mitochondria: ATP ('powerhouse')",
+        "Rough ER: protein synthesis; smooth ER: lipids, detoxification",
+        "Golgi: packaging; lysosomes: digestion",
+        "Nucleolus: rRNA"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which organelle is the main site of ATP production?",
+       "options": [
+        "Mitochondrion",
+        "Lysosome",
+        "Ribosome",
+        "Nucleolus",
+        "Golgi apparatus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mitochondria carry out aerobic respiration and oxidative phosphorylation."
+      },
+      {
+       "stem": "Prokaryotic cells differ from eukaryotic cells in that they lack:",
+       "options": [
+        "A true nucleus",
+        "DNA",
+        "Ribosomes",
+        "A plasma membrane",
+        "Cytoplasm"
+       ],
+       "answerIndex": 0,
+       "explanation": "Prokaryotes have no nuclear envelope; their DNA lies in a nucleoid."
+      },
+      {
+       "stem": "The fluid mosaic model of the cell membrane was proposed by:",
+       "options": [
+        "Singer and Nicolson",
+        "Robert Hooke",
+        "Watson and Crick",
+        "Schleiden and Schwann",
+        "Danielli and Davson"
+       ],
+       "answerIndex": 0,
+       "explanation": "Singer and Nicolson proposed it in 1972."
+      },
+      {
+       "stem": "Detoxification of drugs in liver cells mainly occurs in the:",
+       "options": [
+        "Nucleolus",
+        "Golgi apparatus",
+        "Centriole",
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum"
+       ],
+       "answerIndex": 4,
+       "explanation": "Smooth ER contains enzymes (e.g. cytochrome P450) that detoxify drugs."
+      },
+      {
+       "stem": "Which structure is found in plant cells but not in animal cells?",
+       "options": [
+        "Mitochondrion",
+        "Nucleus",
+        "Golgi apparatus",
+        "Cell wall",
+        "Ribosome"
+       ],
+       "answerIndex": 3,
+       "explanation": "Plant cells have a cellulose cell wall; animal cells do not."
+      },
+      {
+       "stem": "The organelle containing hydrolytic enzymes for intracellular digestion is the:",
+       "options": [
+        "Ribosome",
+        "Vacuole",
+        "Lysosome",
+        "Centrosome",
+        "Peroxisome"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lysosomes contain acid hydrolases and are sometimes called 'suicide bags'."
+      },
+      {
+       "stem": "Ribosomal RNA is synthesised in the:",
+       "options": [
+        "Nucleolus",
+        "Lysosome",
+        "Golgi body",
+        "Mitochondrion",
+        "Smooth ER"
+       ],
+       "answerIndex": 0,
+       "explanation": "The nucleolus is the site of rRNA synthesis and ribosome assembly."
+      },
+      {
+       "stem": "Ribosomes of prokaryotes are of the type:",
+       "options": [
+        "80S",
+        "70S",
+        "60S",
+        "90S",
+        "100S"
+       ],
+       "answerIndex": 1,
+       "explanation": "Prokaryotes have 70S ribosomes (50S + 30S subunits)."
+      }
+     ]
+    },
+    {
+     "title": "Cell Division: Mitosis and Meiosis",
+     "order": 2,
+     "summary": "The cell cycle, stages of mitosis and meiosis, and their significance.",
+     "material": [
+      {
+       "heading": "The cell cycle and mitosis",
+       "body": "The cell cycle consists of interphase (G1, S – DNA replication, G2) and the mitotic (M) phase. Mitosis produces two genetically identical diploid daughter cells and is used for growth and tissue repair. Its stages are prophase (chromosomes condense, spindle forms), metaphase (chromosomes align at the equator), anaphase (sister chromatids separate to opposite poles) and telophase (nuclear envelopes reform), followed by cytokinesis.",
+       "keyPoints": [
+        "DNA replicates in S phase",
+        "PMAT: prophase, metaphase, anaphase, telophase",
+        "Mitosis: 2 identical diploid cells"
+       ]
+      },
+      {
+       "heading": "Meiosis",
+       "body": "Meiosis occurs in the gonads to form gametes. It involves two divisions producing four genetically different haploid cells. In prophase I, homologous chromosomes pair (synapsis) and exchange segments by crossing over at chiasmata; in anaphase I, homologous chromosomes (not sister chromatids) separate. Meiosis II resembles mitosis. Crossing over and independent assortment generate genetic variation. Failure of chromosomes to separate (non-disjunction) causes aneuploidies such as Down syndrome (trisomy 21).",
+       "keyPoints": [
+        "Meiosis: 4 haploid, genetically different cells",
+        "Crossing over in prophase I",
+        "Non-disjunction → trisomy 21"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "DNA replication takes place during which phase of the cell cycle?",
+       "options": [
+        "G1",
+        "Metaphase",
+        "Anaphase",
+        "S",
+        "G2"
+       ],
+       "answerIndex": 3,
+       "explanation": "DNA is synthesised in the S (synthesis) phase of interphase."
+      },
+      {
+       "stem": "Chromosomes line up at the equator of the cell during:",
+       "options": [
+        "Prophase",
+        "Anaphase",
+        "Telophase",
+        "Interphase",
+        "Metaphase"
+       ],
+       "answerIndex": 4,
+       "explanation": "At metaphase, chromosomes align on the metaphase plate."
+      },
+      {
+       "stem": "Crossing over occurs during:",
+       "options": [
+        "Anaphase of mitosis",
+        "Interphase",
+        "Prophase I of meiosis",
+        "Metaphase II of meiosis",
+        "Telophase I"
+       ],
+       "answerIndex": 2,
+       "explanation": "Homologous chromosomes exchange segments at chiasmata in prophase I."
+      },
+      {
+       "stem": "Mitosis of a diploid cell produces:",
+       "options": [
+        "Two haploid cells",
+        "One tetraploid cell",
+        "Four haploid cells",
+        "Two diploid identical cells",
+        "Four diploid cells"
+       ],
+       "answerIndex": 3,
+       "explanation": "Mitosis yields two genetically identical diploid daughter cells."
+      },
+      {
+       "stem": "Down syndrome most commonly results from:",
+       "options": [
+        "Polyploidy",
+        "Point mutation",
+        "Crossing over",
+        "Non-disjunction causing trisomy 21",
+        "Deletion of chromosome 5"
+       ],
+       "answerIndex": 3,
+       "explanation": "Non-disjunction in meiosis leads to an extra chromosome 21."
+      },
+      {
+       "stem": "In anaphase I of meiosis, what separates?",
+       "options": [
+        "Sister chromatids",
+        "Centromeres",
+        "Nuclear membranes",
+        "Homologous chromosomes",
+        "Spindle fibres"
+       ],
+       "answerIndex": 3,
+       "explanation": "Homologous pairs separate in anaphase I; sister chromatids separate in anaphase II."
+      },
+      {
+       "stem": "The main purpose of mitosis in the human body is:",
+       "options": [
+        "Gamete formation",
+        "Genetic variation",
+        "Fertilisation",
+        "Halving chromosome number",
+        "Growth and tissue repair"
+       ],
+       "answerIndex": 4,
+       "explanation": "Mitosis replaces cells and supports growth."
+      },
+      {
+       "stem": "Pairing of homologous chromosomes in meiosis is called:",
+       "options": [
+        "Transcription",
+        "Replication",
+        "Karyokinesis",
+        "Cytokinesis",
+        "Synapsis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Synapsis forms bivalents (tetrads) in prophase I."
+      }
+     ]
+    },
+    {
+     "title": "Heredity and Basic Genetics",
+     "order": 3,
+     "summary": "Mendel's laws, dominance, genotypes and phenotypes, blood groups and sex-linked inheritance.",
+     "material": [
+      {
+       "heading": "Mendelian inheritance",
+       "body": "Gregor Mendel, working with garden peas, stated the law of segregation (the two alleles of a gene separate during gamete formation) and the law of independent assortment (genes for different traits assort independently). A monohybrid cross between heterozygotes (Aa × Aa) gives a 3:1 phenotypic ratio and a 1:2:1 genotypic ratio; a dihybrid cross of heterozygotes gives 9:3:3:1. A test cross with a homozygous recessive reveals an unknown genotype.",
+       "keyPoints": [
+        "Aa × Aa → 3:1 phenotype, 1:2:1 genotype",
+        "Dihybrid → 9:3:3:1",
+        "Test cross uses the homozygous recessive"
+       ]
+      },
+      {
+       "heading": "Beyond simple dominance",
+       "body": "ABO blood groups show multiple alleles and codominance: IA and IB are codominant, and both are dominant to i. Sickle cell disease is autosomal recessive (HbSS); carriers (HbAS) are relatively protected against severe falciparum malaria, which explains the high trait frequency in Nigeria. Haemophilia and G6PD deficiency are X-linked recessive and appear mostly in males, who inherit the X chromosome from their mothers.",
+       "keyPoints": [
+        "IA and IB codominant; blood group O = ii",
+        "HbAS × HbAS → 1 in 4 chance of HbSS",
+        "X-linked recessive traits mostly affect males"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A cross between two heterozygous tall plants (Tt × Tt) gives a phenotypic ratio of:",
+       "options": [
+        "1:1",
+        "3:1",
+        "1:2:1",
+        "9:3:3:1",
+        "2:1"
+       ],
+       "answerIndex": 1,
+       "explanation": "Three-quarters show the dominant (tall) phenotype."
+      },
+      {
+       "stem": "Two HbAS parents have a child. The probability that the child is HbSS is:",
+       "options": [
+        "0",
+        "1/4",
+        "1/2",
+        "3/4",
+        "1"
+       ],
+       "answerIndex": 1,
+       "explanation": "AS × AS gives AA:AS:SS in the ratio 1:2:1, so 1/4 are SS."
+      },
+      {
+       "stem": "A person with blood group AB has the genotype:",
+       "options": [
+        "IAIA",
+        "ii",
+        "IAIB",
+        "IAi",
+        "IBi"
+       ],
+       "answerIndex": 2,
+       "explanation": "IA and IB are codominant, both expressed in group AB."
+      },
+      {
+       "stem": "Mendel's law of segregation states that:",
+       "options": [
+        "Alleles of a gene separate into different gametes",
+        "Mutations are random",
+        "Traits blend in offspring",
+        "Dominant alleles mask recessive ones",
+        "Genes on different chromosomes assort independently"
+       ],
+       "answerIndex": 0,
+       "explanation": "The two alleles separate during gamete formation."
+      },
+      {
+       "stem": "Haemophilia A is inherited as:",
+       "options": [
+        "Autosomal dominant",
+        "Y-linked",
+        "X-linked recessive",
+        "Autosomal recessive",
+        "Mitochondrial"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is X-linked recessive, so it mainly affects males."
+      },
+      {
+       "stem": "The phenotypic ratio from a dihybrid cross of two double heterozygotes is:",
+       "options": [
+        "3:1",
+        "1:1:1:1",
+        "9:3:3:1",
+        "1:2:1",
+        "12:3:1"
+       ],
+       "answerIndex": 2,
+       "explanation": "AaBb × AaBb gives 9:3:3:1."
+      },
+      {
+       "stem": "A test cross is made between an organism of unknown genotype and one that is:",
+       "options": [
+        "Homozygous recessive",
+        "Hybrid",
+        "Heterozygous",
+        "Homozygous dominant",
+        "Polyploid"
+       ],
+       "answerIndex": 0,
+       "explanation": "Crossing with the homozygous recessive reveals hidden recessive alleles."
+      },
+      {
+       "stem": "The high frequency of sickle cell trait in Nigeria is explained by:",
+       "options": [
+        "Random drift only",
+        "High altitude",
+        "Iodine deficiency",
+        "Carrier protection against severe malaria",
+        "Consanguinity only"
+       ],
+       "answerIndex": 3,
+       "explanation": "HbAS carriers are relatively protected from severe falciparum malaria (balanced polymorphism)."
+      }
+     ]
+    },
+    {
+     "title": "Diversity and Classification of Living Things",
+     "order": 4,
+     "summary": "Taxonomy, binomial nomenclature, the kingdoms of life and major groups relevant to health.",
+     "material": [
+      {
+       "heading": "Taxonomy",
+       "body": "Carolus Linnaeus introduced binomial nomenclature: each species has a two-part Latin name (genus with a capital letter, species in lower case, both italicised), e.g. Homo sapiens, Plasmodium falciparum. The taxonomic hierarchy is Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species. Whittaker's five kingdoms are Monera, Protista, Fungi, Plantae and Animalia; modern systems use three domains: Bacteria, Archaea and Eukarya.",
+       "keyPoints": [
+        "Binomial: Genus species, e.g. Homo sapiens",
+        "Hierarchy: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species",
+        "Three domains: Bacteria, Archaea, Eukarya"
+       ]
+      },
+      {
+       "heading": "Groups of medical importance",
+       "body": "Viruses are acellular and can only replicate inside living cells. Protozoa such as Plasmodium (malaria), Trypanosoma (sleeping sickness) and Entamoeba histolytica (amoebic dysentery) are protists. Fungi have chitin cell walls and are heterotrophic; examples include Candida and dermatophytes. Arthropods include insect vectors: Anopheles mosquitoes (malaria), Aedes (yellow fever, dengue), the tsetse fly (Glossina, trypanosomiasis) and Simulium blackflies (onchocerciasis/river blindness).",
+       "keyPoints": [
+        "Viruses are acellular obligate parasites",
+        "Fungal cell walls contain chitin",
+        "Anopheles → malaria; Simulium → river blindness; Glossina → sleeping sickness"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Binomial nomenclature was introduced by:",
+       "options": [
+        "Carolus Linnaeus",
+        "Louis Pasteur",
+        "Charles Darwin",
+        "Robert Whittaker",
+        "Gregor Mendel"
+       ],
+       "answerIndex": 0,
+       "explanation": "Linnaeus introduced the two-name system."
+      },
+      {
+       "stem": "In the scientific name Plasmodium falciparum, 'Plasmodium' is the:",
+       "options": [
+        "Order",
+        "Kingdom",
+        "Genus",
+        "Family",
+        "Species"
+       ],
+       "answerIndex": 2,
+       "explanation": "The first (capitalised) part of a binomial name is the genus; the second is the species epithet."
+      },
+      {
+       "stem": "Which taxonomic rank is immediately above genus?",
+       "options": [
+        "Family",
+        "Species",
+        "Phylum",
+        "Order",
+        "Class"
+       ],
+       "answerIndex": 0,
+       "explanation": "The order runs … Order, Family, Genus, Species."
+      },
+      {
+       "stem": "The cell wall of fungi is made mainly of:",
+       "options": [
+        "Peptidoglycan",
+        "Cellulose",
+        "Lignin",
+        "Pectin",
+        "Chitin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fungal cell walls contain chitin."
+      },
+      {
+       "stem": "River blindness (onchocerciasis) is transmitted by:",
+       "options": [
+        "Anopheles mosquito",
+        "Sandfly",
+        "Aedes mosquito",
+        "Simulium blackfly",
+        "Tsetse fly"
+       ],
+       "answerIndex": 3,
+       "explanation": "Simulium blackflies breed in fast-flowing rivers and transmit Onchocerca volvulus."
+      },
+      {
+       "stem": "Plasmodium, the malaria parasite, belongs to the kingdom:",
+       "options": [
+        "Protista",
+        "Monera",
+        "Plantae",
+        "Animalia",
+        "Fungi"
+       ],
+       "answerIndex": 0,
+       "explanation": "Plasmodium is a protozoan, a member of the Protista."
+      },
+      {
+       "stem": "Which statement about viruses is true?",
+       "options": [
+        "They are acellular and replicate only inside host cells",
+        "They have 70S ribosomes",
+        "They contain both DNA and RNA always",
+        "They are killed by penicillin",
+        "They reproduce by binary fission"
+       ],
+       "answerIndex": 0,
+       "explanation": "Viruses lack cellular machinery and are obligate intracellular parasites."
+      },
+      {
+       "stem": "The three-domain system classifies life into:",
+       "options": [
+        "Bacteria, Archaea, Eukarya",
+        "Prokaryotes, Viruses, Eukaryotes",
+        "Monera, Protista, Fungi",
+        "Plants, Animals, Fungi",
+        "Algae, Fungi, Animals"
+       ],
+       "answerIndex": 0,
+       "explanation": "Carl Woese's three domains are Bacteria, Archaea and Eukarya."
+      }
+     ]
+    },
+    {
+     "title": "Ecology and the Environment",
+     "order": 5,
+     "summary": "Ecosystems, food chains, energy flow, nutrient cycles and population concepts.",
+     "material": [
+      {
+       "heading": "Ecosystems and energy flow",
+       "body": "An ecosystem is a community of organisms interacting with its non-living (abiotic) environment. Producers (green plants) make food by photosynthesis; primary consumers (herbivores) eat producers; secondary and tertiary consumers are carnivores; decomposers (bacteria and fungi) break down dead matter. Only about 10% of energy passes from one trophic level to the next, so food chains rarely exceed four or five links and pyramids of energy are always upright.",
+       "keyPoints": [
+        "Producers → herbivores → carnivores",
+        "About 10% energy transfer per trophic level",
+        "Decomposers recycle nutrients"
+       ]
+      },
+      {
+       "heading": "Nutrient cycles and relationships",
+       "body": "In the nitrogen cycle, nitrogen-fixing bacteria (Rhizobium in legume root nodules, free-living Azotobacter) convert atmospheric N2 to ammonia; nitrifying bacteria (Nitrosomonas then Nitrobacter) convert ammonia to nitrite and nitrate; denitrifying bacteria return nitrogen to the air. The carbon cycle links photosynthesis and respiration/combustion. Symbiotic relationships include mutualism (both benefit), commensalism (one benefits, the other unaffected) and parasitism (one benefits at the host's expense).",
+       "keyPoints": [
+        "Rhizobium fixes nitrogen in legumes",
+        "Nitrosomonas: NH3 → NO2−; Nitrobacter: NO2− → NO3−",
+        "Mutualism, commensalism, parasitism"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a food chain, green plants are:",
+       "options": [
+        "Primary consumers",
+        "Scavengers",
+        "Decomposers",
+        "Producers",
+        "Secondary consumers"
+       ],
+       "answerIndex": 3,
+       "explanation": "Green plants produce food by photosynthesis."
+      },
+      {
+       "stem": "Roughly what percentage of energy passes from one trophic level to the next?",
+       "options": [
+        "1%",
+        "10%",
+        "50%",
+        "90%",
+        "100%"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 10% is transferred; the rest is lost mainly as heat."
+      },
+      {
+       "stem": "Which bacterium fixes nitrogen in the root nodules of legumes?",
+       "options": [
+        "Clostridium tetani",
+        "Pseudomonas",
+        "Nitrobacter",
+        "Nitrosomonas",
+        "Rhizobium"
+       ],
+       "answerIndex": 4,
+       "explanation": "Rhizobium lives symbiotically in legume root nodules."
+      },
+      {
+       "stem": "Conversion of nitrite to nitrate is carried out by:",
+       "options": [
+        "Denitrifying bacteria",
+        "Nitrosomonas",
+        "Nitrobacter",
+        "Rhizobium",
+        "Azotobacter"
+       ],
+       "answerIndex": 2,
+       "explanation": "Nitrobacter oxidises nitrite to nitrate."
+      },
+      {
+       "stem": "A relationship in which both organisms benefit is:",
+       "options": [
+        "Parasitism",
+        "Mutualism",
+        "Predation",
+        "Competition",
+        "Commensalism"
+       ],
+       "answerIndex": 1,
+       "explanation": "Mutualism benefits both partners."
+      },
+      {
+       "stem": "Organisms that break down dead organic matter are called:",
+       "options": [
+        "Producers",
+        "Omnivores",
+        "Autotrophs",
+        "Decomposers",
+        "Herbivores"
+       ],
+       "answerIndex": 3,
+       "explanation": "Decomposers such as bacteria and fungi recycle nutrients."
+      },
+      {
+       "stem": "Which is an abiotic factor?",
+       "options": [
+        "Fungi",
+        "Grass",
+        "Earthworm",
+        "Temperature",
+        "Bacteria"
+       ],
+       "answerIndex": 3,
+       "explanation": "Temperature is a non-living (abiotic) factor."
+      },
+      {
+       "stem": "A tapeworm living in a human intestine is an example of:",
+       "options": [
+        "Symbiotic nitrogen fixation",
+        "Saprophytism",
+        "Commensalism",
+        "Mutualism",
+        "Parasitism"
+       ],
+       "answerIndex": 4,
+       "explanation": "The tapeworm benefits at the host's expense."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

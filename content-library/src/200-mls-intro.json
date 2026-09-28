@@ -1,0 +1,99 @@
+{
+  "title": "Introduction to Medical Laboratory Science",
+  "code": "MLS201",
+  "color": "#65A30D",
+  "description": "The medical laboratory profession, laboratory safety, specimen collection and handling, basic instruments, and quality in the laboratory.",
+  "for": { "200": ["MLS", "HAE"], "100": ["MLS", "HAE"] },
+  "topics": [
+    {
+      "title": "The Profession and Organisation of the Laboratory",
+      "summary": "Disciplines of MLS, the MLSCN, and the laboratory's role in health care.",
+      "notes": [
+        { "h": "The profession", "b": "Medical laboratory scientists perform tests on specimens to aid diagnosis, treatment, monitoring and prevention of disease; an often-quoted estimate is that about 70% of clinical decisions depend on laboratory results. Disciplines include medical microbiology (bacteriology, virology, mycology, parasitology), clinical chemistry, haematology and blood transfusion science, histopathology and cytology, and immunology. In Nigeria the profession is regulated by the Medical Laboratory Science Council of Nigeria (MLSCN), which registers scientists and technicians and accredits laboratories; the professional body is the Association of Medical Laboratory Scientists of Nigeria (AMLSN).", "k": ["~70% of clinical decisions use lab results", "Disciplines: microbiology, chemistry, haematology, histopathology, immunology", "MLSCN regulates; AMLSN is the professional body"] },
+        { "h": "Phases of testing", "b": "The total testing process has three phases: pre-analytical (test request, patient preparation, specimen collection, labelling, transport — where most laboratory errors occur), analytical (performing the test) and post-analytical (verification, reporting, interpretation and communication of results, including critical values). Turnaround time is the interval from request or specimen receipt to report.", "k": ["Pre-analytical, analytical, post-analytical", "Most errors are pre-analytical", "Report critical values promptly"] }
+      ],
+      "q": [
+        ["The body that regulates medical laboratory practice in Nigeria is the:", "MDCN", "MLSCN", "PCN", "NMCN", "NAFDAC", 1, "The Medical Laboratory Science Council of Nigeria."],
+        ["Most laboratory errors occur in which phase?", "Pre-analytical", "Analytical", "Post-analytical", "Equally in all", "Quality control", 0, "Errors in collection, labelling and transport dominate."],
+        ["Reporting a potassium of 7.2 mmol/L to the ward immediately is part of the ___ phase.", "Pre-analytical", "Analytical", "Post-analytical", "Sampling", "Calibration", 2, "Communication of critical values is post-analytical."],
+        ["The discipline that studies blood cells and clotting is:", "Histopathology", "Haematology", "Clinical chemistry", "Virology", "Cytogenetics", 1, "Haematology covers blood cells, haemostasis and transfusion."],
+        ["The professional association of medical laboratory scientists in Nigeria is the:", "AMLSN", "NMA", "PSN", "NANNM", "NUC", 0, "The Association of Medical Laboratory Scientists of Nigeria."],
+        ["The time between receiving a specimen and issuing the report is the:", "Shelf life", "Turnaround time", "Incubation period", "Half-life", "Window period", 1, "Turnaround time measures laboratory efficiency."],
+        ["Tissue biopsies are processed and examined in the ___ laboratory.", "Haematology", "Histopathology", "Chemistry", "Serology", "Bacteriology", 1, "Histopathology studies tissue sections."],
+        ["Patient preparation (e.g. fasting before a glucose test) is part of the ___ phase.", "Pre-analytical", "Analytical", "Post-analytical", "Interpretive", "Archiving", 0, "Everything before the test is performed is pre-analytical."]
+      ]
+    },
+    {
+      "title": "Laboratory Safety and Biosafety",
+      "summary": "Hazards, biosafety levels, safety cabinets, PPE and spill management.",
+      "notes": [
+        { "h": "Hazards and biosafety levels", "b": "Laboratory hazards are biological (infectious specimens), chemical (corrosives, flammables, carcinogens such as formaldehyde and xylene), physical (fire, electricity, sharps, radiation) and ergonomic. Biosafety levels (BSL-1 to BSL-4) match containment to risk: BSL-2 for most clinical work (e.g. hepatitis B, HIV specimens); BSL-3 for airborne serious pathogens such as Mycobacterium tuberculosis cultures; BSL-4 for the most dangerous agents such as Ebola and Lassa virus. Biological safety cabinets (BSC) protect the worker (Class I), the worker, product and environment (Class II — most common) or give maximum containment (Class III, glove box).", "k": ["BSL-2: most clinical work; BSL-3: TB cultures; BSL-4: Lassa, Ebola", "Class II BSC protects worker, sample and environment"] },
+        { "h": "Safe practice", "b": "Wear a laboratory coat, gloves and eye protection; never mouth-pipette, eat, drink or apply cosmetics in the laboratory; label all reagents; store flammables in approved cabinets; dispose of sharps in puncture-proof containers. For a blood spill: wear gloves, cover with absorbent material, flood with 0.5–1% sodium hypochlorite for the recommended contact time, wipe and dispose as infectious waste. Material Safety Data Sheets (MSDS/SDS) describe chemical hazards. Fire extinguishers: CO2 or dry powder for electrical fires — never water.", "k": ["Never mouth-pipette", "Blood spills: hypochlorite 0.5–1%", "Electrical fires: CO2 or dry powder", "Read the SDS for chemicals"] }
+      ],
+      "q": [
+        ["Culture of Lassa virus requires biosafety level:", "1", "2", "3", "4", "0", 3, "BSL-4 is required for Lassa and Ebola viruses."],
+        ["Mycobacterium tuberculosis cultures should be handled at biosafety level:", "1", "2", "3", "4", "Any bench", 2, "TB culture requires BSL-3 containment."],
+        ["The biological safety cabinet most commonly used in clinical labs, protecting worker, specimen and environment, is:", "Class I", "Class II", "Class III", "Fume hood", "Laminar flow for products only", 1, "Class II cabinets provide all three protections."],
+        ["Which practice is forbidden in the laboratory?", "Wearing a lab coat", "Mouth pipetting", "Labelling reagents", "Using gloves", "Hand washing", 1, "Mouth pipetting risks ingestion of infectious or toxic material."],
+        ["A blood spill on the bench should be decontaminated with:", "Plain water", "0.5–1% sodium hypochlorite", "Glucose solution", "Ether", "Normal saline", 1, "Hypochlorite is a broad-spectrum disinfectant."],
+        ["The document describing hazards and safe handling of a chemical is the:", "Request form", "Safety data sheet (MSDS/SDS)", "Standard curve", "Stock card", "Result slip", 1, "SDS sheets describe hazards, handling and first aid."],
+        ["An electrical fire in the laboratory should be put out with:", "Water", "CO2 or dry powder extinguisher", "Foam only", "Sand mixed with water", "A wet towel", 1, "Water conducts electricity and is dangerous."],
+        ["Formaldehyde and xylene are examples of ___ hazards.", "Biological", "Chemical", "Ergonomic", "Radiation", "Mechanical", 1, "They are toxic chemicals (formaldehyde is carcinogenic)."]
+      ]
+    },
+    {
+      "title": "Specimen Collection and Handling",
+      "summary": "Venepuncture, order of draw, anticoagulants, and handling of urine and other specimens.",
+      "notes": [
+        { "h": "Blood collection and anticoagulants", "b": "Venepuncture is usually from the median cubital vein. Tourniquet time should be less than 1 minute to avoid haemoconcentration. Tube additives: EDTA (lavender/purple) for full blood count and blood film — it chelates calcium; sodium citrate (light blue, 1:9 ratio) for coagulation tests; fluoride oxalate (grey) for glucose — fluoride inhibits glycolysis (enolase); lithium heparin (green) for some chemistry; plain/clot activator (red or gold/SST) for serum tests. The recommended order of draw is: blood culture, citrate, serum (plain/SST), heparin, EDTA, fluoride — to avoid additive carry-over (e.g. EDTA contamination falsely raises potassium and lowers calcium).", "k": ["EDTA: FBC; citrate: clotting; fluoride: glucose", "Citrate ratio 1 part to 9 parts blood", "Order: cultures → citrate → serum → heparin → EDTA → fluoride", "Haemolysis falsely raises K+"] },
+        { "h": "Other specimens and handling", "b": "Every specimen must be labelled with at least two patient identifiers, date and time, and match its request form. A clean-catch midstream urine specimen is used for culture and should be processed within 2 hours or refrigerated. Stool for ova and parasites should be examined fresh (trophozoites die quickly). Sputum for AFB is best collected early morning. Cerebrospinal fluid should be taken to the laboratory immediately. Haemolysed, clotted (in EDTA or citrate), unlabelled or leaking specimens are rejected. Triple packaging is used for transporting infectious specimens.", "k": ["Two identifiers on every specimen", "Midstream urine: process within 2 h or refrigerate", "Reject unlabelled, haemolysed or clotted samples", "Triple packaging for transport"] }
+      ],
+      "q": [
+        ["The anticoagulant used for a full blood count is:", "Sodium citrate", "EDTA", "Fluoride oxalate", "Heparin", "No anticoagulant", 1, "EDTA preserves cell morphology for FBC and films."],
+        ["Blood for glucose estimation is collected in fluoride oxalate because fluoride:", "Prevents clotting only", "Inhibits glycolysis", "Preserves cell shape", "Removes calcium", "Kills bacteria", 1, "Fluoride inhibits enolase, stopping glucose consumption by cells."],
+        ["Sodium citrate for coagulation tests is mixed with blood in the ratio:", "1:1", "1:4", "1:9", "1:20", "1:100", 2, "One part citrate to nine parts blood."],
+        ["Contamination of a chemistry sample with EDTA will falsely:", "Lower potassium", "Raise potassium and lower calcium", "Raise glucose", "Lower urea", "Raise calcium", 1, "K2EDTA adds potassium and chelates calcium."],
+        ["Which tube should be drawn first when multiple tubes are required?", "EDTA", "Fluoride", "Blood culture bottles", "Heparin", "Serum tube", 2, "Sterile blood culture bottles are drawn first."],
+        ["A tourniquet left on too long before sampling causes:", "Haemodilution", "Haemoconcentration", "Hypoglycaemia", "Lower protein results", "No effect", 1, "Prolonged stasis concentrates cells and large molecules."],
+        ["Stool for Entamoeba trophozoites should be:", "Refrigerated for a week", "Examined fresh (within 30 minutes)", "Frozen", "Fixed in alcohol only", "Kept at 56 °C", 1, "Trophozoites degenerate quickly."],
+        ["Which specimen should be rejected?", "A labelled EDTA sample with no clots", "An unlabelled blood sample", "A fresh CSF sample", "A clean-catch urine", "A properly filled citrate tube", 1, "Unlabelled specimens cannot be linked safely to a patient."]
+      ]
+    },
+    {
+      "title": "Basic Laboratory Instruments and Techniques",
+      "summary": "Microscope, centrifuge, colorimeter/spectrophotometer, pipettes and balances.",
+      "notes": [
+        { "h": "Microscopy", "b": "The compound light microscope magnifies by the objective lens (×10, ×40, ×100 oil immersion) multiplied by the eyepiece (usually ×10), giving up to ×1,000. Resolution is limited to about 0.2 µm; immersion oil increases numerical aperture. The condenser focuses light onto the specimen; the iris diaphragm controls contrast. Dark-field microscopy shows spirochaetes (Treponema); fluorescence microscopy uses fluorochromes (auramine for AFB); phase-contrast shows unstained living cells; electron microscopy resolves viruses.", "k": ["Total magnification = objective × eyepiece", "Oil immersion: ×100 objective", "Dark-field: Treponema pallidum", "Resolution of light microscope ≈ 0.2 µm"] },
+        { "h": "Other instruments", "b": "Centrifuges separate components by density using relative centrifugal force (RCF, in × g), which depends on speed (rpm) and rotor radius; tubes must be balanced. Colorimeters and spectrophotometers measure absorbance of light; the Beer–Lambert law states that absorbance is proportional to concentration and path length (A = εcl), so unknown concentrations are read from a standard curve. Automatic pipettes must be calibrated; volumetric glassware is read at the bottom of the meniscus. Analytical balances weigh accurately to 0.1 mg; pH meters are calibrated with buffer standards.", "k": ["Balance the centrifuge", "Beer–Lambert: A = εcl", "Read the bottom of the meniscus"] }
+      ],
+      "q": [
+        ["Using a ×40 objective and ×10 eyepiece, the total magnification is:", "×50", "×100", "×400", "×1,000", "×4,000", 2, "Total magnification = 40 × 10 = 400."],
+        ["The oil immersion objective has a magnification of:", "×4", "×10", "×40", "×100", "×1,000", 3, "The ×100 objective requires immersion oil."],
+        ["Treponema pallidum is best seen by:", "Bright-field microscopy", "Dark-field microscopy", "Phase contrast only", "Polarising microscopy", "Stereomicroscopy", 1, "Thin spirochaetes appear bright on a dark background."],
+        ["The Beer–Lambert law states that absorbance is proportional to:", "Temperature and pressure", "Concentration and path length", "Wavelength only", "Volume of cuvette", "Time", 1, "A = εcl."],
+        ["Before running a centrifuge you must:", "Open the lid while spinning", "Balance the tubes opposite each other", "Fill only one side", "Remove the rotor", "Add water to the chamber", 1, "Imbalance damages the centrifuge and is dangerous."],
+        ["The part of the microscope that focuses light onto the specimen is the:", "Eyepiece", "Condenser", "Objective", "Stage clip", "Coarse adjustment", 1, "The condenser concentrates light on the slide."],
+        ["Which microscope is needed to see most viruses?", "Light microscope", "Electron microscope", "Dark-field microscope", "Hand lens", "Phase contrast", 1, "Viruses are below the resolution of light microscopes."],
+        ["The volume in a pipette or cylinder containing aqueous solution is read at:", "The top of the meniscus", "The bottom of the meniscus", "Any point", "The side wall", "Above eye level", 1, "Read the lowest point of the concave meniscus at eye level."]
+      ]
+    },
+    {
+      "title": "Quality Assurance in the Laboratory",
+      "summary": "Accuracy and precision, quality control, Levey–Jennings charts and accreditation.",
+      "notes": [
+        { "h": "Accuracy and precision", "b": "Accuracy is closeness of a result to the true value; precision is reproducibility of repeated measurements. A method can be precise but inaccurate (systematic error/bias). Sensitivity of a test is its ability to detect those with disease (true positive rate); specificity is its ability to correctly identify those without disease (true negative rate). Reference ranges are usually the central 95% of values from healthy people.", "k": ["Accuracy: close to true value", "Precision: reproducibility", "Sensitivity: true positive rate; specificity: true negative rate"] },
+        { "h": "Quality management", "b": "Quality assurance covers all activities ensuring reliable results. Internal quality control (IQC) runs control materials with patient samples daily, plotted on Levey–Jennings charts using mean ± 2 SD and ± 3 SD limits and Westgard rules (e.g. 1-3s: one control beyond 3 SD — reject the run; 2-2s: two consecutive controls beyond 2 SD on the same side — systematic error). External quality assessment (EQA)/proficiency testing compares results with other laboratories. Laboratories are accredited against ISO 15189; WHO-AFRO's SLIPTA programme uses a star rating for African laboratories.", "k": ["IQC: Levey–Jennings chart", "Westgard 1-3s: reject", "EQA = proficiency testing", "ISO 15189 accreditation"] }
+      ],
+      "q": [
+        ["Reproducibility of repeated measurements is called:", "Accuracy", "Precision", "Sensitivity", "Specificity", "Validity", 1, "Precision refers to agreement between replicate results."],
+        ["The chart used to plot daily internal quality control results is the:", "Pie chart", "Levey–Jennings chart", "Histogram", "Gantt chart", "Scatter plot", 1, "Control values are plotted against mean and SD limits."],
+        ["Under Westgard rules, one control result beyond ±3 SD (1-3s) means:", "Accept the run", "Reject the run", "Only a warning", "Increase the mean", "Ignore it", 1, "A 1-3s violation indicates random error; the run is rejected."],
+        ["The ability of a test to correctly identify people who have the disease is its:", "Specificity", "Sensitivity", "Precision", "Accuracy", "Positive predictive value", 1, "Sensitivity is the true positive rate."],
+        ["Comparing a laboratory's results with other laboratories using unknown samples is:", "Internal quality control", "External quality assessment", "Calibration", "Validation", "Stock control", 1, "EQA/proficiency testing assesses performance externally."],
+        ["The international standard for accreditation of medical laboratories is:", "ISO 9001 only", "ISO 15189", "ISO 14001", "ISO 27001", "ISO 22000", 1, "ISO 15189 specifies quality and competence for medical laboratories."],
+        ["A method that consistently gives results 10% higher than the true value has:", "Poor precision only", "A systematic error (bias)", "Random error only", "Perfect accuracy", "High specificity", 1, "Consistent deviation in one direction is bias."],
+        ["WHO-AFRO's stepwise laboratory improvement programme is:", "SLIPTA", "GLASS", "IHR", "EPI", "PEPFAR", 0, "SLIPTA uses a star rating for African laboratories."]
+      ]
+    }
+  ]
+}

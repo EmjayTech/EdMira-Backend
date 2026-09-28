@@ -1,0 +1,664 @@
+{
+ "courses": [
+  {
+   "title": "Neurophysiology (PIO 305/307)",
+   "code": "PIO305",
+   "color": "#BE123C",
+   "description": "Sensory receptors and pain, spinal reflexes, motor control by the cortex, basal ganglia and cerebellum, the autonomic nervous system, and special senses.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "300 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "300 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "300 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "300 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "300 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "300 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sensory Receptors and Pain",
+     "order": 1,
+     "summary": "Receptor types, adaptation, sensory coding, and physiology of pain and its modulation.",
+     "material": [
+      {
+       "heading": "Receptors",
+       "body": "Sensory receptors transduce stimuli into receptor (generator) potentials. Types: mechanoreceptors (Meissner's corpuscles — light touch; Pacinian corpuscles — vibration, rapidly adapting; Merkel discs — sustained pressure; Ruffini endings — stretch; muscle spindles and Golgi tendon organs — proprioception), thermoreceptors, nociceptors (free nerve endings), chemoreceptors and photoreceptors. Müller's law of specific nerve energies: each sensory pathway gives one modality regardless of how it is stimulated. Intensity is coded by frequency of action potentials and recruitment of receptors. Phasic (rapidly adapting) receptors signal change; tonic (slowly adapting) receptors signal sustained stimuli.",
+       "keyPoints": [
+        "Pacinian: vibration, rapidly adapting",
+        "Merkel: sustained pressure, slowly adapting",
+        "Intensity coded by firing frequency"
+       ]
+      },
+      {
+       "heading": "Pain",
+       "body": "Nociceptors are free nerve endings. Fast, sharp, well-localised pain travels in myelinated Aδ fibres (neospinothalamic tract); slow, dull, burning, poorly localised pain travels in unmyelinated C fibres (paleospinothalamic tract). The gate control theory (Melzack and Wall, 1965) proposes that activity in large Aβ touch fibres inhibits pain transmission in the dorsal horn substantia gelatinosa — why rubbing an injury helps and TENS works. Descending inhibition from the periaqueductal grey and raphe nuclei uses endogenous opioids (endorphins, enkephalins) and serotonin. Referred pain is felt at a site distant from its origin because visceral and somatic afferents converge on the same spinal segment (e.g. cardiac pain to the left arm; diaphragmatic irritation to the shoulder tip, C3–C5).",
+       "keyPoints": [
+        "Aδ: fast sharp pain; C: slow dull pain",
+        "Gate control theory: Aβ fibres close the gate",
+        "PAG and endogenous opioids",
+        "Referred pain: convergence (heart → left arm)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Vibration is best detected by:",
+       "options": [
+        "Free nerve endings",
+        "Ruffini endings",
+        "Pacinian corpuscles",
+        "Merkel discs",
+        "Golgi tendon organs"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pacinian corpuscles are rapidly adapting vibration receptors."
+      },
+      {
+       "stem": "Sharp, well-localised 'first pain' is carried by:",
+       "options": [
+        "C fibres",
+        "Aβ fibres",
+        "Aα fibres",
+        "Aδ fibres",
+        "B fibres"
+       ],
+       "answerIndex": 3,
+       "explanation": "Thinly myelinated Aδ fibres carry fast pain."
+      },
+      {
+       "stem": "The gate control theory of pain was proposed by:",
+       "options": [
+        "Melzack and Wall",
+        "Sherrington",
+        "Pavlov",
+        "Cannon",
+        "Hodgkin and Huxley"
+       ],
+       "answerIndex": 0,
+       "explanation": "They proposed dorsal horn gating in 1965."
+      },
+      {
+       "stem": "Pain from myocardial ischaemia felt in the left arm is an example of:",
+       "options": [
+        "Referred pain",
+        "Phantom pain",
+        "Allodynia",
+        "Neuropathic pain",
+        "Psychogenic pain"
+       ],
+       "answerIndex": 0,
+       "explanation": "Visceral and somatic afferents converge on the same spinal segments."
+      },
+      {
+       "stem": "The intensity of a stimulus is coded mainly by:",
+       "options": [
+        "The size of each action potential",
+        "The type of neurotransmitter",
+        "The frequency of action potentials",
+        "The speed of conduction",
+        "The receptor shape"
+       ],
+       "answerIndex": 2,
+       "explanation": "Action potentials are all-or-none, so frequency codes intensity."
+      },
+      {
+       "stem": "Shoulder-tip pain from irritation of the diaphragm is referred via:",
+       "options": [
+        "S2–S4",
+        "L1",
+        "T10",
+        "T1",
+        "C3–C5"
+       ],
+       "answerIndex": 4,
+       "explanation": "The phrenic nerve (C3–5) shares segments with the shoulder skin."
+      },
+      {
+       "stem": "An important midbrain centre for descending pain inhibition is the:",
+       "options": [
+        "Periaqueductal grey",
+        "Hippocampus",
+        "Substantia nigra",
+        "Red nucleus",
+        "Superior colliculus"
+       ],
+       "answerIndex": 0,
+       "explanation": "PAG activation releases endogenous opioids."
+      },
+      {
+       "stem": "Receptors that respond strongly at the start of a stimulus then quickly stop firing are:",
+       "options": [
+        "Phasic (rapidly adapting) receptors",
+        "Chemoreceptors only",
+        "Slowly adapting receptors",
+        "Tonic receptors",
+        "Nociceptors only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Phasic receptors signal change."
+      }
+     ]
+    },
+    {
+     "title": "Spinal Reflexes and Muscle Tone",
+     "order": 2,
+     "summary": "The reflex arc, stretch reflex, muscle spindles, Golgi tendon organs and withdrawal reflexes.",
+     "material": [
+      {
+       "heading": "Stretch reflex",
+       "body": "The stretch (myotatic) reflex is monosynaptic: stretching a muscle stretches muscle spindles (intrafusal fibres), whose Ia afferents synapse directly on α motor neurons supplying the same muscle, causing contraction (e.g. knee jerk, L3–L4). Reciprocal inhibition relaxes the antagonist via an inhibitory interneuron. γ motor neurons adjust spindle sensitivity (fusimotor control), which sets muscle tone. Golgi tendon organs, in series with the muscle, sense tension and via Ib afferents inhibit the contracting muscle (inverse stretch reflex/autogenic inhibition), protecting against excessive force.",
+       "keyPoints": [
+        "Stretch reflex: monosynaptic, Ia afferents",
+        "γ motor neurons set spindle sensitivity",
+        "Golgi tendon organ: tension, Ib, autogenic inhibition"
+       ]
+      },
+      {
+       "heading": "Reflex values and other reflexes",
+       "body": "Deep tendon reflex root values: biceps C5–C6, brachioradialis C6, triceps C7, knee L3–L4, ankle S1. The withdrawal (flexor) reflex is polysynaptic: a painful stimulus causes flexion of the limb, with the crossed extensor reflex extending the opposite limb to support body weight. After spinal cord transection there is initial spinal shock (areflexia, flaccidity), followed by hyperreflexia and spasticity below the lesion. The Babinski sign (extensor plantar) indicates an upper motor neuron lesion (normal in infants under about 1 year).",
+       "keyPoints": [
+        "Biceps C5–6; triceps C7; knee L3–4; ankle S1",
+        "Withdrawal reflex: polysynaptic + crossed extensor",
+        "Spinal shock then spasticity",
+        "Babinski normal in infants"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The knee jerk reflex is:",
+       "options": [
+        "Absent in health",
+        "Monosynaptic",
+        "Autonomic",
+        "Cortical",
+        "Polysynaptic"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ia afferents synapse directly on α motor neurons."
+      },
+      {
+       "stem": "Muscle spindles detect changes in muscle:",
+       "options": [
+        "pH",
+        "Blood flow",
+        "Tension",
+        "Temperature",
+        "Length"
+       ],
+       "answerIndex": 4,
+       "explanation": "Spindles are stretch (length) receptors."
+      },
+      {
+       "stem": "Golgi tendon organs detect muscle:",
+       "options": [
+        "Velocity only",
+        "Tension",
+        "Oxygen",
+        "Temperature",
+        "Length"
+       ],
+       "answerIndex": 1,
+       "explanation": "They lie in series with the muscle and sense tension."
+      },
+      {
+       "stem": "The knee jerk tests nerve roots:",
+       "options": [
+        "C5–C6",
+        "L3–L4",
+        "S1",
+        "C7",
+        "T10"
+       ],
+       "answerIndex": 1,
+       "explanation": "The patellar reflex is L3–L4."
+      },
+      {
+       "stem": "The biceps reflex tests:",
+       "options": [
+        "T1",
+        "L2–L3",
+        "S1–S2",
+        "C7–C8",
+        "C5–C6"
+       ],
+       "answerIndex": 4,
+       "explanation": "Biceps jerk = C5–C6."
+      },
+      {
+       "stem": "When a person steps on a nail, the opposite leg extends to bear weight. This is the:",
+       "options": [
+        "Golgi tendon reflex",
+        "Babinski sign",
+        "Stretch reflex",
+        "Corneal reflex",
+        "Crossed extensor reflex"
+       ],
+       "answerIndex": 4,
+       "explanation": "The crossed extensor reflex accompanies the withdrawal reflex."
+      },
+      {
+       "stem": "γ motor neurons innervate:",
+       "options": [
+        "Extrafusal muscle fibres",
+        "Sweat glands",
+        "Intrafusal fibres of the muscle spindle",
+        "Smooth muscle",
+        "Golgi tendon organs"
+       ],
+       "answerIndex": 2,
+       "explanation": "They adjust spindle sensitivity."
+      },
+      {
+       "stem": "Immediately after complete spinal cord transection, reflexes below the lesion are:",
+       "options": [
+        "Normal",
+        "Exaggerated with clonus",
+        "Brisk",
+        "Absent (spinal shock)",
+        "Only autonomic"
+       ],
+       "answerIndex": 3,
+       "explanation": "Spinal shock causes temporary areflexia."
+      }
+     ]
+    },
+    {
+     "title": "Motor Control: Cortex, Basal Ganglia and Cerebellum",
+     "order": 3,
+     "summary": "Motor pathways, the basal ganglia circuits, Parkinson's disease and cerebellar function.",
+     "material": [
+      {
+       "heading": "Cortex and basal ganglia",
+       "body": "Voluntary movement is initiated by the primary motor cortex, premotor and supplementary motor areas, with the corticospinal (pyramidal) tract carrying commands. The basal ganglia (caudate, putamen, globus pallidus, subthalamic nucleus, substantia nigra) modulate movement through the direct pathway (facilitates movement) and indirect pathway (inhibits unwanted movement). Dopamine from the substantia nigra pars compacta excites the direct pathway (D1) and inhibits the indirect pathway (D2). Parkinson's disease results from loss of nigrostriatal dopaminergic neurons, causing bradykinesia, resting ('pill-rolling') tremor, cogwheel rigidity and postural instability; treated with levodopa plus carbidopa. Huntington disease (loss of striatal GABA neurons) causes chorea; lesions of the subthalamic nucleus cause hemiballismus.",
+       "keyPoints": [
+        "Parkinson's: loss of substantia nigra dopamine neurons",
+        "Tremor at rest, rigidity, bradykinesia",
+        "Huntington: chorea (striatum)",
+        "Subthalamic lesion: hemiballismus"
+       ]
+      },
+      {
+       "heading": "Cerebellum",
+       "body": "The cerebellum compares intended movement with actual movement (from proprioceptive input) and corrects errors, ensuring smooth, coordinated, accurate movements, balance and motor learning. Its only output is from Purkinje cells, which are inhibitory (GABA), to the deep cerebellar nuclei. The vestibulocerebellum controls balance and eye movements; the spinocerebellum controls posture and limb movement; the cerebrocerebellum plans skilled movements. Lesions produce intention tremor, dysmetria, ataxia, dysdiadochokinesia and nystagmus on the same side.",
+       "keyPoints": [
+        "Cerebellum corrects movement errors",
+        "Purkinje cells are inhibitory (GABA)",
+        "Lesions cause ipsilateral intention tremor and ataxia"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Parkinson's disease results from degeneration of dopaminergic neurons in the:",
+       "options": [
+        "Thalamus",
+        "Cerebellum",
+        "Motor cortex",
+        "Caudate nucleus",
+        "Substantia nigra pars compacta"
+       ],
+       "answerIndex": 4,
+       "explanation": "The nigrostriatal pathway is lost."
+      },
+      {
+       "stem": "A resting 'pill-rolling' tremor is characteristic of:",
+       "options": [
+        "Parkinson's disease",
+        "Huntington disease",
+        "Multiple sclerosis",
+        "Essential tremor only",
+        "Cerebellar disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "Parkinsonian tremor occurs at rest."
+      },
+      {
+       "stem": "Levodopa is combined with carbidopa to:",
+       "options": [
+        "Increase acetylcholine",
+        "Cross the blood–brain barrier itself",
+        "Reduce peripheral conversion of levodopa to dopamine",
+        "Block dopamine receptors",
+        "Increase peripheral conversion of levodopa"
+       ],
+       "answerIndex": 2,
+       "explanation": "Carbidopa inhibits peripheral dopa decarboxylase."
+      },
+      {
+       "stem": "Involuntary flinging movements of one side of the body follow a lesion of the:",
+       "options": [
+        "Pons",
+        "Substantia nigra",
+        "Hippocampus",
+        "Cerebellum",
+        "Subthalamic nucleus"
+       ],
+       "answerIndex": 4,
+       "explanation": "Subthalamic lesions cause hemiballismus."
+      },
+      {
+       "stem": "Chorea in Huntington disease is due to degeneration of the:",
+       "options": [
+        "Spinal cord",
+        "Motor cortex",
+        "Striatum (caudate)",
+        "Cerebellum",
+        "Brainstem"
+       ],
+       "answerIndex": 2,
+       "explanation": "Loss of striatal GABAergic neurons."
+      },
+      {
+       "stem": "The only output neurons of the cerebellar cortex are:",
+       "options": [
+        "Granule cells",
+        "Purkinje cells",
+        "Basket cells",
+        "Golgi cells",
+        "Stellate cells"
+       ],
+       "answerIndex": 1,
+       "explanation": "Purkinje cells project to the deep nuclei."
+      },
+      {
+       "stem": "Purkinje cells use the neurotransmitter:",
+       "options": [
+        "Dopamine",
+        "Acetylcholine",
+        "GABA",
+        "Glutamate",
+        "Serotonin"
+       ],
+       "answerIndex": 2,
+       "explanation": "They are inhibitory GABAergic neurons."
+      },
+      {
+       "stem": "Dopamine acting on D1 receptors in the striatum:",
+       "options": [
+        "Excites the direct pathway, facilitating movement",
+        "Causes chorea only",
+        "Blocks all movement",
+        "Inhibits the direct pathway",
+        "Has no effect"
+       ],
+       "answerIndex": 0,
+       "explanation": "D1 activation promotes movement via the direct pathway."
+      }
+     ]
+    },
+    {
+     "title": "The Autonomic Nervous System",
+     "order": 4,
+     "summary": "Sympathetic and parasympathetic divisions, neurotransmitters, receptors and effects.",
+     "material": [
+      {
+       "heading": "Organisation",
+       "body": "The autonomic nervous system controls involuntary functions via a two-neuron chain (preganglionic and postganglionic). Sympathetic outflow is thoracolumbar (T1–L2) with short preganglionic fibres to the paravertebral chain; parasympathetic outflow is craniosacral (cranial nerves III, VII, IX, X and S2–S4) with long preganglionic fibres to ganglia near or in target organs. All preganglionic neurons release acetylcholine (ACh) acting on nicotinic receptors. Parasympathetic postganglionic neurons release ACh on muscarinic receptors; most sympathetic postganglionic neurons release noradrenaline on adrenergic receptors — except sweat glands (sympathetic cholinergic). The adrenal medulla acts as a modified sympathetic ganglion releasing mainly adrenaline.",
+       "keyPoints": [
+        "Sympathetic: thoracolumbar (T1–L2)",
+        "Parasympathetic: craniosacral (III, VII, IX, X, S2–4)",
+        "Preganglionic: ACh on nicotinic receptors",
+        "Sweat glands: sympathetic cholinergic"
+       ]
+      },
+      {
+       "heading": "Receptors and effects",
+       "body": "α1 receptors: vasoconstriction, pupil dilation (radial muscle), bladder sphincter contraction. α2: presynaptic inhibition of noradrenaline release. β1: increased heart rate and contractility, renin release. β2: bronchodilation, vasodilation in skeletal muscle, uterine relaxation, glycogenolysis. Muscarinic M2: slows the heart; M3: bronchoconstriction, glandular secretion, bladder detrusor contraction, pupil constriction. Sympathetic ('fight or flight') effects: tachycardia, bronchodilation, mydriasis, reduced gut motility, glycogenolysis. Parasympathetic ('rest and digest'): bradycardia, miosis, increased secretions and gut motility, micturition.",
+       "keyPoints": [
+        "β1: heart; β2: bronchi",
+        "α1: vasoconstriction, mydriasis",
+        "M3: bronchoconstriction, secretions, detrusor",
+        "Parasympathetic: rest and digest"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Sympathetic preganglionic neurons arise from spinal segments:",
+       "options": [
+        "C1–C8",
+        "Cranial nerves only",
+        "T1–L2",
+        "S2–S4",
+        "L3–S1"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sympathetic outflow is thoracolumbar."
+      },
+      {
+       "stem": "The neurotransmitter released by all autonomic preganglionic neurons is:",
+       "options": [
+        "Serotonin",
+        "Dopamine",
+        "Noradrenaline",
+        "Adrenaline",
+        "Acetylcholine"
+       ],
+       "answerIndex": 4,
+       "explanation": "ACh acts on nicotinic receptors in ganglia."
+      },
+      {
+       "stem": "Sweat glands are innervated by sympathetic fibres that release:",
+       "options": [
+        "Adrenaline",
+        "Dopamine",
+        "Histamine",
+        "Acetylcholine",
+        "Noradrenaline"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are sympathetic cholinergic (muscarinic)."
+      },
+      {
+       "stem": "Bronchodilation is mediated by:",
+       "options": [
+        "β1 receptors",
+        "Nicotinic receptors",
+        "M3 receptors",
+        "α1 receptors",
+        "β2 receptors"
+       ],
+       "answerIndex": 4,
+       "explanation": "β2 agonists like salbutamol relax bronchial smooth muscle."
+      },
+      {
+       "stem": "Increased heart rate and contractility are mediated by:",
+       "options": [
+        "β2 receptors",
+        "M2 receptors",
+        "α1 receptors",
+        "α2 receptors",
+        "β1 receptors"
+       ],
+       "answerIndex": 4,
+       "explanation": "β1 receptors dominate in the heart."
+      },
+      {
+       "stem": "Parasympathetic stimulation causes:",
+       "options": [
+        "Pupil dilation",
+        "Bronchodilation",
+        "Increased gut motility",
+        "Glycogenolysis",
+        "Tachycardia"
+       ],
+       "answerIndex": 2,
+       "explanation": "'Rest and digest' increases digestion."
+      },
+      {
+       "stem": "Which cranial nerve carries most of the parasympathetic outflow?",
+       "options": [
+        "Glossopharyngeal (IX)",
+        "Vagus (X)",
+        "Facial (VII)",
+        "Trigeminal (V)",
+        "Oculomotor (III)"
+       ],
+       "answerIndex": 1,
+       "explanation": "The vagus supplies thoracic and most abdominal viscera."
+      },
+      {
+       "stem": "Contraction of the bladder detrusor for micturition is mediated by:",
+       "options": [
+        "β1 receptors",
+        "M3 muscarinic receptors",
+        "Nicotinic receptors",
+        "α1 receptors",
+        "β2 receptors"
+       ],
+       "answerIndex": 1,
+       "explanation": "Parasympathetic M3 stimulation contracts the detrusor."
+      }
+     ]
+    },
+    {
+     "title": "Special Senses: Vision and Hearing",
+     "order": 5,
+     "summary": "Optics and refraction errors, photoreceptors, the pupillary reflex, and the physiology of hearing and balance.",
+     "material": [
+      {
+       "heading": "Vision",
+       "body": "Light is refracted mainly by the cornea (about two-thirds of the eye's refractive power) and fine-tuned by the lens. Accommodation for near vision involves ciliary muscle contraction (parasympathetic via CN III), making the lens rounder, with pupil constriction and convergence. Presbyopia is age-related loss of accommodation. Myopia (long eyeball) is corrected with concave lenses; hypermetropia with convex lenses; astigmatism with cylindrical lenses. Rods (rhodopsin, vitamin A) mediate dim-light, black-and-white vision and are absent from the fovea; cones mediate colour and acuity and are concentrated in the fovea. Phototransduction: light converts 11-cis-retinal to all-trans-retinal, closing Na+ channels and hyperpolarising photoreceptors.",
+       "keyPoints": [
+        "Cornea provides most refraction",
+        "Accommodation: ciliary muscle contracts (CN III)",
+        "Rods: dim light, vitamin A; cones: colour, fovea",
+        "Photoreceptors hyperpolarise in light"
+       ]
+      },
+      {
+       "heading": "Hearing and balance",
+       "body": "Sound waves vibrate the tympanic membrane; the ossicles amplify pressure (about 20-fold) into the oval window. In the cochlea, travelling waves along the basilar membrane stimulate hair cells in the organ of Corti: high frequencies are detected at the base, low frequencies at the apex. Endolymph (high K+) bathes hair cells. Conductive hearing loss (outer/middle ear: wax, otitis media, otosclerosis) versus sensorineural loss (cochlea or nerve: noise, presbycusis, ototoxic drugs like gentamicin) is distinguished with the Rinne and Weber tuning fork tests (512 Hz). Semicircular canals detect angular acceleration; the utricle and saccule (otoliths) detect linear acceleration and head position.",
+       "keyPoints": [
+        "Base of cochlea: high frequency; apex: low",
+        "Endolymph is high in K+",
+        "Rinne and Weber tests distinguish conductive vs sensorineural",
+        "Gentamicin is ototoxic"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most of the refraction of light in the eye occurs at the:",
+       "options": [
+        "Iris",
+        "Retina",
+        "Cornea",
+        "Lens",
+        "Vitreous"
+       ],
+       "answerIndex": 2,
+       "explanation": "The air–cornea interface provides about two-thirds of refractive power."
+      },
+      {
+       "stem": "During accommodation for near vision, the ciliary muscle:",
+       "options": [
+        "Dilates the pupil",
+        "Relaxes",
+        "Pulls the lens flat",
+        "Is paralysed",
+        "Contracts"
+       ],
+       "answerIndex": 4,
+       "explanation": "Contraction slackens the zonules, allowing the lens to round up."
+      },
+      {
+       "stem": "Night vision depends mainly on:",
+       "options": [
+        "The lens",
+        "Ganglion cells",
+        "Bipolar cells only",
+        "Rods",
+        "Cones"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rods are highly sensitive in dim light."
+      },
+      {
+       "stem": "Vitamin A deficiency first causes:",
+       "options": [
+        "Myopia",
+        "Glaucoma",
+        "Cataract",
+        "Night blindness",
+        "Colour blindness"
+       ],
+       "answerIndex": 3,
+       "explanation": "Rhodopsin regeneration needs vitamin A."
+      },
+      {
+       "stem": "High-frequency sounds are detected at the ___ of the cochlea.",
+       "options": [
+        "Base",
+        "Helicotrema",
+        "Round window",
+        "Middle turn only",
+        "Apex"
+       ],
+       "answerIndex": 0,
+       "explanation": "The stiff narrow base responds to high frequencies."
+      },
+      {
+       "stem": "Hearing loss due to wax impaction is:",
+       "options": [
+        "Sensorineural",
+        "Psychogenic",
+        "Central",
+        "Conductive",
+        "Mixed always"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks sound conduction through the external canal."
+      },
+      {
+       "stem": "Which drug is well known to cause sensorineural hearing loss?",
+       "options": [
+        "Paracetamol",
+        "Gentamicin",
+        "Vitamin C",
+        "Metformin",
+        "Amoxicillin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aminoglycosides damage cochlear hair cells."
+      },
+      {
+       "stem": "Angular (rotational) acceleration of the head is detected by the:",
+       "options": [
+        "Cochlea",
+        "Semicircular canals",
+        "Ossicles",
+        "Tympanic membrane",
+        "Utricle only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Endolymph movement in the semicircular canals bends the cupula."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

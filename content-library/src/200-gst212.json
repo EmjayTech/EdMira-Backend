@@ -1,0 +1,99 @@
+{
+  "title": "Philosophy, Logic and Human Existence (GST 212)",
+  "code": "GST212",
+  "color": "#475569",
+  "description": "General-studies course on the nature of philosophy, logic and reasoning, critical thinking, ethics and the meaning of human existence.",
+  "for": { "200": ["*"] },
+  "topics": [
+    {
+      "title": "What Is Philosophy?",
+      "summary": "Meaning, branches and method of philosophy, and African philosophy.",
+      "notes": [
+        { "h": "Meaning and branches", "b": "Philosophy (Greek philo 'love' + sophia 'wisdom') is the rational, critical inquiry into fundamental questions about reality, knowledge, value and reasoning. Its main branches are metaphysics (the nature of reality and being), epistemology (the nature, sources and limits of knowledge), ethics or moral philosophy (right and wrong conduct), logic (the principles of correct reasoning), aesthetics (beauty and art) and political philosophy. Socrates' method of questioning (the Socratic method, or elenchus) exposes contradictions to reach clearer understanding; he held that 'the unexamined life is not worth living'.", "k": ["Philosophy = love of wisdom", "Metaphysics: reality; epistemology: knowledge; ethics: conduct", "Socratic method: questioning"] },
+        { "h": "African philosophy", "b": "African philosophy examines questions from African experiences and worldviews. Currents identified by Henry Odera Oruka include ethnophilosophy (collective worldviews, e.g. Placide Tempels' Bantu Philosophy), philosophic sagacity (reflective thought of wise individuals), nationalist-ideological philosophy (e.g. Nyerere's Ujamaa, Nkrumah's consciencism) and professional philosophy. The Ubuntu idea — 'I am because we are' — emphasises communal personhood.", "k": ["Oruka's four trends of African philosophy", "Ubuntu: 'I am because we are'", "Tempels wrote Bantu Philosophy"] }
+      ],
+      "q": [
+        ["The word 'philosophy' literally means:", "Study of God", "Love of wisdom", "Science of the mind", "Study of nature", "Art of argument", 1, "From Greek philo (love) and sophia (wisdom)."],
+        ["The branch of philosophy that studies the nature of knowledge is:", "Metaphysics", "Epistemology", "Ethics", "Aesthetics", "Logic", 1, "Epistemology asks what we can know and how."],
+        ["The branch concerned with the nature of reality and being is:", "Epistemology", "Metaphysics", "Aesthetics", "Logic", "Political philosophy", 1, "Metaphysics studies existence and reality."],
+        ["'The unexamined life is not worth living' is attributed to:", "Plato", "Aristotle", "Socrates", "Descartes", "Kant", 2, "Socrates said this at his trial."],
+        ["The study of beauty and art is:", "Ethics", "Aesthetics", "Logic", "Metaphysics", "Ontology", 1, "Aesthetics deals with beauty and taste."],
+        ["The Ubuntu philosophy is summed up as:", "I think, therefore I am", "I am because we are", "Knowledge is power", "Man is the measure of all things", "God is dead", 1, "Ubuntu stresses communal personhood."],
+        ["The author of 'Bantu Philosophy' was:", "Kwame Nkrumah", "Placide Tempels", "Julius Nyerere", "Odera Oruka", "Kwasi Wiredu", 1, "Tempels, a missionary, wrote Bantu Philosophy (1945)."],
+        ["Philosophic sagacity as a trend of African philosophy was identified by:", "Henry Odera Oruka", "Chinua Achebe", "Wole Soyinka", "Nnamdi Azikiwe", "Léopold Senghor", 0, "Oruka studied the reflective thought of African sages."]
+      ]
+    },
+    {
+      "title": "Logic: Arguments, Deduction and Induction",
+      "summary": "Propositions, arguments, validity and soundness, deductive and inductive reasoning.",
+      "notes": [
+        { "h": "Arguments", "b": "Logic studies the principles of correct reasoning. A proposition is a statement that is either true or false. An argument is a set of propositions in which some (premises) are offered as support for another (the conclusion). Words like 'therefore', 'hence' and 'thus' indicate conclusions; 'because', 'since' and 'for' indicate premises. Aristotle is regarded as the father of (formal) logic.", "k": ["Proposition: true or false statement", "Premises support a conclusion", "Aristotle: father of logic"] },
+        { "h": "Deduction and induction", "b": "In a deductive argument, if the premises are true the conclusion must be true; a deductive argument is valid if its form guarantees this, and sound if it is valid and its premises are actually true. The classic categorical syllogism: 'All men are mortal; Socrates is a man; therefore Socrates is mortal.' Inductive arguments move from particular observations to general conclusions that are probable, not certain (e.g. 'Every malaria patient we treated with ACT recovered; therefore ACT cures malaria'). Science relies heavily on induction.", "k": ["Valid: true premises guarantee a true conclusion", "Sound = valid + true premises", "Induction gives probable conclusions"] }
+      ],
+      "q": [
+        ["A statement that is either true or false is called a:", "Question", "Proposition", "Command", "Exclamation", "Fallacy", 1, "Propositions have truth values."],
+        ["The father of formal logic is:", "Plato", "Aristotle", "Socrates", "Hegel", "Russell", 1, "Aristotle systematised syllogistic logic."],
+        ["A deductive argument that is valid and has true premises is:", "Invalid", "Sound", "Inductive", "Fallacious", "Weak", 1, "Soundness requires validity plus true premises."],
+        ["Reasoning from specific observations to a general conclusion is:", "Deduction", "Induction", "Syllogism", "Tautology", "Contradiction", 1, "Induction generalises from particular cases."],
+        ["In 'Since it rained, the ground is wet', the word 'since' introduces a:", "Conclusion", "Premise", "Fallacy", "Question", "Definition", 1, "'Since' signals a premise."],
+        ["'All doctors are graduates; Ada is a doctor; therefore Ada is a graduate' is an example of a:", "Inductive generalisation", "Categorical syllogism", "Fallacy of composition", "Analogy", "Hypothesis", 1, "It has two premises and a conclusion linking categories."],
+        ["The conclusion of a good inductive argument is:", "Certain", "Probable", "Always false", "Irrelevant", "Self-contradictory", 1, "Induction yields probability, not certainty."],
+        ["An argument can be valid even if its premises are false because validity concerns:", "The truth of the premises", "The logical form of the argument", "The length of the argument", "The speaker's authority", "Popular opinion", 1, "Validity depends on form, not on actual truth."]
+      ]
+    },
+    {
+      "title": "Informal Fallacies and Critical Thinking",
+      "summary": "Common fallacies of reasoning and habits of a critical thinker.",
+      "notes": [
+        { "h": "Common fallacies", "b": "A fallacy is an error in reasoning. Ad hominem attacks the person instead of the argument. Appeal to authority (argumentum ad verecundiam) relies on an authority outside their field. Appeal to the people (ad populum) argues something is true because many believe it. Straw man misrepresents an opponent's view. Hasty generalisation draws a broad conclusion from too few cases. Post hoc ergo propter hoc assumes that because B followed A, A caused B. Begging the question (circular reasoning) assumes what it tries to prove. False dilemma presents only two options when more exist. Slippery slope claims one step will inevitably lead to extreme consequences.", "k": ["Ad hominem: attack the person", "Post hoc: 'after, therefore because of'", "Straw man: misrepresent the argument", "False dilemma: only two choices offered"] },
+        { "h": "Critical thinking", "b": "Critical thinking is the disciplined evaluation of claims and arguments. It involves identifying assumptions, checking evidence and sources, considering alternative explanations, recognising bias and suspending judgement until the evidence is adequate. In health care it guards against misinformation and supports evidence-based practice — for example, questioning claims that a herbal product 'cures all diseases'.", "k": ["Check evidence and sources", "Identify assumptions and bias", "Critical thinking supports evidence-based practice"] }
+      ],
+      "q": [
+        ["'You can't trust his argument on vaccines because he is poor' is an example of:", "Straw man", "Ad hominem", "Post hoc", "False dilemma", "Slippery slope", 1, "It attacks the person rather than the argument."],
+        ["'I took the herb and my fever went away, so the herb cured my malaria' commits the fallacy of:", "Ad populum", "Post hoc ergo propter hoc", "Begging the question", "Straw man", "Appeal to pity", 1, "It assumes that sequence proves causation."],
+        ["'Either you support this policy or you hate Nigeria' is a:", "False dilemma", "Hasty generalisation", "Red herring", "Circular argument", "Appeal to authority", 0, "It presents only two options when others exist."],
+        ["Concluding that all nurses are rude after meeting two rude nurses is:", "Deduction", "Hasty generalisation", "Ad hominem", "Slippery slope", "Tautology", 1, "The sample is too small to support the generalisation."],
+        ["'Everyone in my street believes it, so it must be true' is an appeal to:", "Authority", "The people (ad populum)", "Pity", "Force", "Ignorance", 1, "Popularity does not establish truth."],
+        ["Misrepresenting an opponent's argument to make it easier to attack is:", "Red herring", "Straw man", "Ad hominem", "Equivocation", "Begging the question", 1, "The straw man is a distorted version of the real argument."],
+        ["'The Bible is true because it says so' is an example of:", "Begging the question (circular reasoning)", "Post hoc", "Ad hominem", "Hasty generalisation", "Appeal to pity", 0, "The conclusion is assumed in the premise."],
+        ["A key habit of a critical thinker is to:", "Accept claims from famous people", "Examine the evidence and sources behind claims", "Avoid questioning traditions", "Decide quickly without data", "Ignore alternative explanations", 1, "Critical thinkers evaluate evidence before accepting claims."]
+      ]
+    },
+    {
+      "title": "Epistemology: Sources and Limits of Knowledge",
+      "summary": "Rationalism, empiricism, scepticism and the definition of knowledge.",
+      "notes": [
+        { "h": "Theories of knowledge", "b": "Knowledge is traditionally defined as justified true belief (Plato). Rationalists (Descartes, Spinoza, Leibniz) hold that reason is the primary source of knowledge; Descartes' methodical doubt led to 'Cogito, ergo sum' ('I think, therefore I am'). Empiricists (Locke, Berkeley, Hume) hold that knowledge comes from sense experience; Locke described the mind at birth as a tabula rasa (blank slate). Kant attempted to synthesise both: concepts without percepts are empty, percepts without concepts are blind.", "k": ["Knowledge = justified true belief", "Rationalism: reason (Descartes)", "Empiricism: experience (Locke — tabula rasa)", "Kant synthesised both"] },
+        { "h": "Scepticism and other sources", "b": "Scepticism questions whether certain knowledge is possible; Hume doubted our knowledge of causation, saying we only observe constant conjunction. Other claimed sources of knowledge include testimony (authority), intuition, memory and revelation. The scientific method combines observation, hypothesis, experiment and revision, and Karl Popper argued that scientific theories must be falsifiable.", "k": ["Hume: causation as constant conjunction", "Popper: falsifiability", "Testimony and memory are sources of belief"] }
+      ],
+      "q": [
+        ["'Cogito, ergo sum' was stated by:", "John Locke", "René Descartes", "David Hume", "Immanuel Kant", "Plato", 1, "Descartes: 'I think, therefore I am.'"],
+        ["The view that knowledge comes mainly from sense experience is:", "Rationalism", "Empiricism", "Idealism", "Scepticism", "Existentialism", 1, "Empiricists base knowledge on experience."],
+        ["Who described the mind at birth as a 'tabula rasa'?", "Descartes", "Locke", "Leibniz", "Kant", "Hegel", 1, "Locke said the mind begins as a blank slate."],
+        ["The traditional definition of knowledge is:", "Opinion held strongly", "Justified true belief", "Any belief", "Religious faith", "Perception only", 1, "Plato's account: justified, true belief."],
+        ["The philosopher who argued that scientific theories must be falsifiable is:", "Karl Popper", "Thomas Aquinas", "Jean-Paul Sartre", "Aristotle", "Confucius", 0, "Popper's criterion of falsifiability demarcates science."],
+        ["Rationalism holds that the primary source of knowledge is:", "The senses", "Reason", "Tradition", "Revelation", "Emotion", 1, "Rationalists privilege reason over experience."],
+        ["Hume argued that we never observe causation itself but only:", "Divine will", "Constant conjunction of events", "Pure reason", "Innate ideas", "Mathematical proof", 1, "We see events regularly following each other, not a necessary connection."],
+        ["The attempt to reconcile rationalism and empiricism is associated with:", "Kant", "Locke", "Berkeley", "Socrates", "Nietzsche", 0, "Kant combined a priori concepts with sensory experience."]
+      ]
+    },
+    {
+      "title": "Ethics and Human Existence",
+      "summary": "Ethical theories, the meaning of human existence, freedom and responsibility.",
+      "notes": [
+        { "h": "Ethical theories", "b": "Consequentialism judges actions by their outcomes; utilitarianism (Bentham, Mill) seeks the greatest happiness for the greatest number. Deontology (Kant) judges actions by duty and rules; Kant's categorical imperative says act only on maxims you could will as universal laws and treat persons always as ends, never merely as means. Virtue ethics (Aristotle) focuses on developing good character (courage, temperance, justice) aiming at eudaimonia (flourishing). Ethical relativism holds that morality varies between cultures.", "k": ["Utilitarianism: greatest happiness for the greatest number", "Kant: duty, categorical imperative", "Aristotle: virtue ethics, eudaimonia"] },
+        { "h": "Human existence", "b": "Existentialism (Kierkegaard, Sartre, Camus) emphasises individual freedom, choice and responsibility; Sartre declared that 'existence precedes essence' — humans create their own meaning. The mind–body problem asks how mind relates to body: Descartes' dualism treats them as distinct substances; materialism holds that only matter exists. Questions of free will versus determinism bear on moral responsibility.", "k": ["Sartre: existence precedes essence", "Dualism vs materialism", "Free will vs determinism"] }
+      ],
+      "q": [
+        ["'The greatest happiness for the greatest number' is the principle of:", "Deontology", "Utilitarianism", "Virtue ethics", "Egoism", "Existentialism", 1, "Bentham and Mill's utilitarianism."],
+        ["The categorical imperative is associated with:", "John Stuart Mill", "Immanuel Kant", "Aristotle", "Jean-Paul Sartre", "Thomas Hobbes", 1, "Kant's deontological ethics."],
+        ["Virtue ethics focuses mainly on:", "Consequences", "Duties and rules", "Moral character", "Divine commands", "Legal codes", 2, "Aristotle emphasised cultivating virtues."],
+        ["'Existence precedes essence' was stated by:", "Descartes", "Sartre", "Plato", "Aquinas", "Hume", 1, "Sartre held that humans define themselves through choices."],
+        ["The view that mind and body are two distinct substances is:", "Materialism", "Dualism", "Idealism", "Monism", "Behaviourism", 1, "Cartesian dualism separates mind and matter."],
+        ["The goal of life in Aristotle's ethics is:", "Pleasure", "Eudaimonia (flourishing)", "Wealth", "Power", "Duty", 1, "Eudaimonia is achieved through virtuous activity."],
+        ["The theory that moral standards differ between cultures and none is universally correct is:", "Utilitarianism", "Ethical relativism", "Deontology", "Natural law", "Virtue ethics", 1, "Relativism denies universal moral truths."],
+        ["Kant held that persons should always be treated as:", "Means to an end", "Ends in themselves", "Property", "Instruments of the state", "Equal to animals", 1, "The humanity formula forbids using persons merely as means."]
+      ]
+    }
+  ]
+}

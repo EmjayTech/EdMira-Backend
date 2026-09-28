@@ -1,0 +1,656 @@
+{
+ "courses": [
+  {
+   "title": "Diagnostic Ultrasonography",
+   "code": "RAD411",
+   "color": "#4338CA",
+   "description": "Ultrasound physics and instrumentation, Doppler, artefacts, and obstetric, abdominal, pelvic and point-of-care applications.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "500 Level",
+     "department": "Radiography"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Ultrasound Physics and Transducers",
+     "order": 1,
+     "summary": "Sound propagation, acoustic impedance, reflection, attenuation and transducer types.",
+     "material": [
+      {
+       "heading": "Physics",
+       "body": "Diagnostic ultrasound uses sound above 20 kHz (typically 2–15 MHz), generated and received by piezoelectric crystals in the transducer (pulse–echo principle). The average speed of sound in soft tissue is 1,540 m/s, which scanners assume to calculate depth (depth = speed × time ÷ 2). Acoustic impedance (Z = density × speed) differences at tissue interfaces determine reflection: large differences (soft tissue–air, soft tissue–bone) reflect almost all sound, which is why coupling gel is needed and why gas-filled bowel and bone limit imaging. Attenuation (absorption, scattering, reflection) increases with frequency and depth — high frequencies give better axial resolution but less penetration.",
+       "keyPoints": [
+        "2–15 MHz; piezoelectric crystals",
+        "Speed in soft tissue 1,540 m/s",
+        "Z = density × speed",
+        "Gel removes air",
+        "Higher frequency: better resolution, less penetration"
+       ]
+      },
+      {
+       "heading": "Transducers and resolution",
+       "body": "Transducer types: linear array (high frequency, rectangular image — superficial structures, vessels, musculoskeletal, thyroid, breast), curvilinear/convex (lower frequency, wide field — abdomen and obstetrics), phased array (small footprint, sector image — cardiac, intercostal) and endocavitary (transvaginal, transrectal — high frequency close to organs). Axial resolution depends on spatial pulse length (improved by higher frequency); lateral resolution depends on beam width (best at the focal zone). Controls: overall gain, time-gain compensation (TGC — compensates for attenuation with depth), depth, focus position and frequency. The ALARA principle applies: minimise exposure time and output (thermal and mechanical indices).",
+       "keyPoints": [
+        "Linear: superficial; curvilinear: abdomen; phased: cardiac",
+        "Transvaginal for early pregnancy",
+        "Axial resolution ↑ with frequency",
+        "TGC compensates for depth attenuation",
+        "ALARA: thermal and mechanical indices"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The average speed of sound in soft tissue assumed by ultrasound machines is:",
+       "options": [
+        "330 m/s",
+        "1,540 m/s",
+        "3,000 m/s",
+        "300,000 km/s",
+        "15 m/s"
+       ],
+       "answerIndex": 1,
+       "explanation": "Depth calculations assume 1,540 m/s."
+      },
+      {
+       "stem": "Coupling gel is used in ultrasound to:",
+       "options": [
+        "Sterilise the probe",
+        "Increase frequency",
+        "Eliminate air between the probe and skin",
+        "Cool the skin",
+        "Improve Doppler only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Air reflects nearly all ultrasound."
+      },
+      {
+       "stem": "Higher-frequency transducers provide:",
+       "options": [
+        "Better resolution but less penetration",
+        "Ionising radiation",
+        "Colour images automatically",
+        "No change",
+        "Greater penetration and poorer resolution"
+       ],
+       "answerIndex": 0,
+       "explanation": "Attenuation increases with frequency."
+      },
+      {
+       "stem": "The transducer best suited for imaging the thyroid is a:",
+       "options": [
+        "Low-frequency curvilinear",
+        "Transrectal probe",
+        "Phased array",
+        "Endocavitary probe",
+        "High-frequency linear array"
+       ],
+       "answerIndex": 4,
+       "explanation": "Superficial structures need high-frequency linear probes."
+      },
+      {
+       "stem": "The control that compensates for attenuation with depth is:",
+       "options": [
+        "Zoom",
+        "Overall gain",
+        "Time-gain compensation (TGC)",
+        "Frequency",
+        "Freeze"
+       ],
+       "answerIndex": 2,
+       "explanation": "TGC amplifies deeper echoes more."
+      },
+      {
+       "stem": "Acoustic impedance equals:",
+       "options": [
+        "Speed ÷ density",
+        "Power × time",
+        "Depth × gain",
+        "Density × speed of sound",
+        "Frequency × wavelength"
+       ],
+       "answerIndex": 3,
+       "explanation": "Z = ρc."
+      },
+      {
+       "stem": "Ultrasound imaging of the lungs and bowel is limited because:",
+       "options": [
+        "They are too dense",
+        "Gas reflects almost all ultrasound",
+        "They move too slowly",
+        "They are too small",
+        "They absorb gel"
+       ],
+       "answerIndex": 1,
+       "explanation": "Large impedance mismatch at gas interfaces."
+      },
+      {
+       "stem": "Cardiac ultrasound through the intercostal spaces uses a:",
+       "options": [
+        "Linear array",
+        "Mechanical 3D probe only",
+        "Transvaginal probe",
+        "Hockey-stick probe",
+        "Phased array (sector) probe"
+       ],
+       "answerIndex": 4,
+       "explanation": "Its small footprint fits between ribs."
+      }
+     ]
+    },
+    {
+     "title": "Doppler and Artefacts",
+     "order": 2,
+     "summary": "Doppler principle, colour and spectral Doppler, aliasing, and common imaging artefacts.",
+     "material": [
+      {
+       "heading": "Doppler",
+       "body": "The Doppler effect is the change in frequency of sound reflected from moving targets (red blood cells): Δf = 2f0v cos θ / c. The insonation angle should be less than 60° for accurate velocity measurement (cos 90° = 0, so no Doppler signal at 90°). Modes: colour Doppler (direction and mean velocity mapped as colour — by convention red towards and blue away from the transducer: 'BART'), power Doppler (sensitive to slow flow, no direction), and spectral (pulsed-wave) Doppler (velocity waveform at a sample volume — measures peak systolic velocity, resistance and pulsatility indices; used in umbilical artery, carotid, renal and transcranial studies). Continuous-wave Doppler measures high velocities without aliasing but cannot localise depth.",
+       "keyPoints": [
+        "Δf = 2f0v cos θ / c",
+        "Angle < 60°; no signal at 90°",
+        "BART: blue away, red towards",
+        "Power Doppler: slow flow",
+        "Spectral Doppler: indices"
+       ]
+      },
+      {
+       "heading": "Artefacts",
+       "body": "Aliasing occurs in pulsed Doppler when the Doppler shift exceeds the Nyquist limit (half the pulse repetition frequency), causing wrap-around of the waveform or colour — correct by increasing PRF/scale, lowering transducer frequency, moving the baseline or increasing the angle. Grey-scale artefacts: acoustic shadowing (behind gallstones, kidney stones, bone — diagnostically useful), posterior acoustic enhancement (behind fluid-filled cysts — confirms fluid), reverberation (multiple equally spaced lines between two strong reflectors; comet-tail artefacts), mirror image (e.g. liver appearing above the diaphragm), refraction (edge shadows) and side-lobe artefacts. Recognising artefacts prevents misdiagnosis and some (shadowing, enhancement) aid diagnosis.",
+       "keyPoints": [
+        "Aliasing: exceed Nyquist limit — raise PRF",
+        "Shadowing: stones, bone",
+        "Enhancement: behind cysts",
+        "Reverberation and comet-tail",
+        "Mirror image across diaphragm"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "For accurate Doppler velocity measurement, the angle of insonation should be less than:",
+       "options": [
+        "120°",
+        "30°",
+        "180°",
+        "90°",
+        "60°"
+       ],
+       "answerIndex": 4,
+       "explanation": "Errors increase greatly above 60°."
+      },
+      {
+       "stem": "At an insonation angle of 90°, the Doppler shift is:",
+       "options": [
+        "Doubled",
+        "Unchanged",
+        "Maximal",
+        "Zero",
+        "Negative only"
+       ],
+       "answerIndex": 3,
+       "explanation": "cos 90° = 0."
+      },
+      {
+       "stem": "In colour Doppler convention 'BART', blue indicates flow:",
+       "options": [
+        "Away from the transducer",
+        "Arterial flow only",
+        "No flow",
+        "Towards the transducer",
+        "Turbulent flow only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Blue Away, Red Towards."
+      },
+      {
+       "stem": "Aliasing in pulsed-wave Doppler can be corrected by:",
+       "options": [
+        "Increasing the PRF/scale or moving the baseline",
+        "Decreasing the angle to zero always",
+        "Turning off the machine",
+        "Increasing transducer frequency",
+        "Decreasing the pulse repetition frequency"
+       ],
+       "answerIndex": 0,
+       "explanation": "This raises the Nyquist limit."
+      },
+      {
+       "stem": "A bright echo with posterior acoustic shadowing in the gallbladder suggests:",
+       "options": [
+        "Normal bile",
+        "Air in the liver",
+        "A gallstone",
+        "Fat",
+        "A simple cyst"
+       ],
+       "answerIndex": 2,
+       "explanation": "Stones reflect sound strongly."
+      },
+      {
+       "stem": "Posterior acoustic enhancement is typically seen behind:",
+       "options": [
+        "Bone",
+        "A calcified stone",
+        "Metal",
+        "A fluid-filled cyst",
+        "Gas"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluid attenuates less than surrounding tissue."
+      },
+      {
+       "stem": "Multiple equally spaced parallel echoes caused by sound bouncing between two strong reflectors are called:",
+       "options": [
+        "Enhancement",
+        "Reverberation artefact",
+        "Refraction",
+        "Aliasing",
+        "Shadowing"
+       ],
+       "answerIndex": 1,
+       "explanation": "Comet-tail artefact is a type of reverberation."
+      },
+      {
+       "stem": "Power Doppler is especially useful for detecting:",
+       "options": [
+        "Flow direction",
+        "Slow or low-volume flow",
+        "Bone density",
+        "Fat content",
+        "Air"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is more sensitive but lacks direction information."
+      }
+     ]
+    },
+    {
+     "title": "Obstetric Ultrasound",
+     "order": 3,
+     "summary": "Early pregnancy, dating and biometry, anomaly scanning, placenta and liquor, and fetal well-being.",
+     "material": [
+      {
+       "heading": "Early pregnancy and dating",
+       "body": "Transvaginal ultrasound detects an intrauterine gestational sac at about 4.5–5 weeks; the yolk sac appears at about 5–5.5 weeks and the embryo with cardiac activity at about 6 weeks. An empty uterus with a positive pregnancy test raises concern for ectopic pregnancy (look for adnexal mass and free fluid). Crown–rump length (CRL) between 7 and 14 weeks is the most accurate method of dating. After 14 weeks, biometry uses biparietal diameter (BPD), head circumference (HC), abdominal circumference (AC) and femur length (FL) to estimate gestational age and fetal weight; AC is most sensitive to growth restriction. First-trimester nuchal translucency (11–14 weeks) screens for chromosomal abnormalities.",
+       "keyPoints": [
+        "Gestational sac ~5 weeks; heartbeat ~6 weeks (TVS)",
+        "Empty uterus + positive test → exclude ectopic",
+        "CRL: most accurate dating (7–14 weeks)",
+        "Biometry: BPD, HC, AC, FL",
+        "Nuchal translucency 11–14 weeks"
+       ]
+      },
+      {
+       "heading": "Later pregnancy",
+       "body": "The mid-trimester anomaly scan (18–22 weeks) examines fetal anatomy (neural tube, heart, abdominal wall, kidneys, limbs, face). Placental localisation: a low-lying placenta or placenta praevia (covering the internal os) found at the anomaly scan is rechecked at about 32 weeks; placenta accreta spectrum is suspected after previous caesarean sections. Amniotic fluid: assessed by the deepest vertical pocket or amniotic fluid index (AFI — normal about 5–25 cm); oligohydramnios (renal agenesis, growth restriction, rupture of membranes) and polyhydramnios (diabetes, fetal GI atresia, anencephaly). Growth assessment and umbilical artery Doppler (absent or reversed end-diastolic flow indicates severe placental insufficiency) monitor high-risk pregnancies; the biophysical profile assesses fetal well-being. Multiple pregnancy chorionicity is best determined in the first trimester (lambda vs T sign).",
+       "keyPoints": [
+        "Anomaly scan 18–22 weeks",
+        "Low placenta: recheck ~32 weeks",
+        "AFI normal ~5–25 cm",
+        "Absent/reversed EDF: severe insufficiency",
+        "Chorionicity: lambda vs T sign"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Fetal cardiac activity is usually first seen on transvaginal ultrasound at about:",
+       "options": [
+        "3 weeks",
+        "6 weeks",
+        "12 weeks",
+        "20 weeks",
+        "28 weeks"
+       ],
+       "answerIndex": 1,
+       "explanation": "The embryonic heartbeat appears around 6 weeks."
+      },
+      {
+       "stem": "The most accurate ultrasound measurement for dating pregnancy is:",
+       "options": [
+        "Femur length at 30 weeks",
+        "Amniotic fluid index",
+        "Placental thickness",
+        "Crown–rump length between 7 and 14 weeks",
+        "Abdominal circumference at term"
+       ],
+       "answerIndex": 3,
+       "explanation": "CRL dating has the smallest error."
+      },
+      {
+       "stem": "A positive pregnancy test with an empty uterus and adnexal mass with free fluid suggests:",
+       "options": [
+        "Twin pregnancy",
+        "Ectopic pregnancy",
+        "Normal early pregnancy",
+        "Molar pregnancy",
+        "Polyhydramnios"
+       ],
+       "answerIndex": 1,
+       "explanation": "This is an emergency until proven otherwise."
+      },
+      {
+       "stem": "Nuchal translucency screening is performed at:",
+       "options": [
+        "At birth",
+        "6–8 weeks",
+        "32–36 weeks",
+        "20–24 weeks",
+        "11–14 weeks"
+       ],
+       "answerIndex": 4,
+       "explanation": "It screens for chromosomal anomalies such as Down syndrome."
+      },
+      {
+       "stem": "The detailed fetal anomaly scan is usually performed at:",
+       "options": [
+        "8 weeks",
+        "12 weeks",
+        "18–22 weeks",
+        "36 weeks",
+        "40 weeks"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most structural anomalies are visible by then."
+      },
+      {
+       "stem": "The fetal measurement most sensitive to growth restriction is the:",
+       "options": [
+        "Abdominal circumference",
+        "Head circumference",
+        "Biparietal diameter",
+        "Nuchal translucency",
+        "Femur length"
+       ],
+       "answerIndex": 0,
+       "explanation": "Liver glycogen depletion reduces AC first."
+      },
+      {
+       "stem": "Polyhydramnios may be associated with:",
+       "options": [
+        "Renal agenesis",
+        "Maternal diabetes and fetal GI atresia",
+        "Post-term pregnancy",
+        "Growth restriction",
+        "Prolonged rupture of membranes"
+       ],
+       "answerIndex": 1,
+       "explanation": "Impaired fetal swallowing or polyuria increases fluid."
+      },
+      {
+       "stem": "Absent or reversed end-diastolic flow in the umbilical artery indicates:",
+       "options": [
+        "Maternal hypotension only",
+        "Fetal anaemia only",
+        "Severe placental insufficiency",
+        "Normal pregnancy",
+        "Twin pregnancy"
+       ],
+       "answerIndex": 2,
+       "explanation": "It signals a compromised fetus needing urgent assessment."
+      }
+     ]
+    },
+    {
+     "title": "Abdominal and Pelvic Ultrasound",
+     "order": 4,
+     "summary": "Liver, gallbladder, kidneys, spleen, pelvis and common pathology.",
+     "material": [
+      {
+       "heading": "Abdomen",
+       "body": "The patient fasts for about 6 hours before upper abdominal ultrasound to distend the gallbladder and reduce bowel gas. Liver: size, echotexture (fatty liver — bright/echogenic; cirrhosis — coarse, nodular surface, ascites, splenomegaly), focal lesions (hepatocellular carcinoma — common with hepatitis B; amoebic abscess — hypoechoic lesion; hydatid cyst). Gallbladder: gallstones (echogenic, shadowing, mobile), cholecystitis (wall thickening > 3 mm, pericholecystic fluid, sonographic Murphy's sign); common bile duct dilatation (> 6 mm) suggests obstruction. Kidneys: normal adult length about 10–12 cm; hydronephrosis (dilated pelvicalyceal system), stones, cysts (polycystic kidney disease), small echogenic kidneys in chronic kidney disease. Spleen: splenomegaly (> 12–13 cm) in malaria, sickle cell (early), portal hypertension and haematological disease. Schistosomiasis causes periportal fibrosis visible as echogenic bands.",
+       "keyPoints": [
+        "Fast 6 hours before upper abdominal scan",
+        "Fatty liver: bright",
+        "Cholecystitis: wall > 3 mm, Murphy's sign",
+        "CBD > 6 mm: obstruction",
+        "Kidney 10–12 cm; small echogenic in CKD"
+       ]
+      },
+      {
+       "heading": "Pelvis and point-of-care",
+       "body": "Transabdominal pelvic scanning requires a full bladder as an acoustic window; transvaginal scanning (empty bladder) gives better detail of the uterus and ovaries. Uterine fibroids (leiomyomas — very common in Nigerian women) appear as well-defined hypoechoic masses; ovarian cysts (simple anechoic vs complex); pelvic inflammatory disease and tubo-ovarian abscess; endometrial thickness in postmenopausal bleeding (> 4 mm warrants evaluation). Prostate volume in men with urinary symptoms and post-void residual volume. Point-of-care ultrasound (POCUS): FAST/eFAST in trauma (free fluid in Morison's pouch, splenorenal recess, pelvis and pericardium; pneumothorax), guidance for procedures (IV access, effusion drainage), and assessment of pregnancy, heart and lungs — increasingly used in Nigerian emergency and primary care settings.",
+       "keyPoints": [
+        "Full bladder for transabdominal pelvic scan",
+        "Fibroids: hypoechoic uterine masses",
+        "Postmenopausal endometrium > 4 mm → evaluate",
+        "FAST: Morison's pouch, splenorenal, pelvis, pericardium",
+        "POCUS guides procedures"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Before an upper abdominal ultrasound, patients should usually:",
+       "options": [
+        "Drink 1 litre of water",
+        "Eat a fatty meal",
+        "Take laxatives",
+        "Exercise",
+        "Fast for about 6 hours"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fasting distends the gallbladder and reduces gas."
+      },
+      {
+       "stem": "A diffusely bright (echogenic) liver on ultrasound suggests:",
+       "options": [
+        "Fatty liver",
+        "Simple cyst",
+        "Amoebic abscess",
+        "Normal liver",
+        "Hepatitis A only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fat increases echogenicity."
+      },
+      {
+       "stem": "Gallbladder wall thickening above 3 mm with focal tenderness under the probe suggests:",
+       "options": [
+        "Normal gallbladder",
+        "Hepatitis",
+        "Acute cholecystitis",
+        "Pancreatitis only",
+        "Cirrhosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "The sonographic Murphy's sign supports cholecystitis."
+      },
+      {
+       "stem": "Dilatation of the renal pelvis and calyces is called:",
+       "options": [
+        "Nephrocalcinosis",
+        "Pyelonephritis only",
+        "Polycystic disease",
+        "Hydronephrosis",
+        "Renal atrophy"
+       ],
+       "answerIndex": 3,
+       "explanation": "It indicates obstruction to urine outflow."
+      },
+      {
+       "stem": "Small echogenic kidneys on ultrasound suggest:",
+       "options": [
+        "Normal kidneys",
+        "Polycystic kidney disease",
+        "Chronic kidney disease",
+        "Acute kidney injury",
+        "Pregnancy"
+       ],
+       "answerIndex": 2,
+       "explanation": "Chronic scarring shrinks kidneys and increases echogenicity."
+      },
+      {
+       "stem": "Transabdominal pelvic ultrasound requires:",
+       "options": [
+        "A full bladder",
+        "Bowel preparation",
+        "An empty bladder",
+        "Contrast injection",
+        "Fasting only"
+       ],
+       "answerIndex": 0,
+       "explanation": "A full bladder provides an acoustic window."
+      },
+      {
+       "stem": "Well-defined hypoechoic masses in the uterus of a Nigerian woman with heavy periods are most likely:",
+       "options": [
+        "Hydatid cysts",
+        "Uterine fibroids (leiomyomas)",
+        "Ovarian cysts",
+        "Polyps only",
+        "Gallstones"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fibroids are very common."
+      },
+      {
+       "stem": "The FAST scan in trauma looks for:",
+       "options": [
+        "Fractures",
+        "Kidney stones",
+        "Brain haemorrhage",
+        "Free fluid in the abdomen and pericardium",
+        "Liver fat"
+       ],
+       "answerIndex": 3,
+       "explanation": "Free fluid suggests internal bleeding."
+      }
+     ]
+    },
+    {
+     "title": "Vascular, Small Parts and Musculoskeletal Ultrasound",
+     "order": 5,
+     "summary": "Carotid and venous Doppler, thyroid, breast, scrotal and musculoskeletal applications.",
+     "material": [
+      {
+       "heading": "Vascular",
+       "body": "Deep vein thrombosis is diagnosed with compression ultrasound: a normal vein collapses completely with probe pressure; a thrombosed vein is non-compressible and may contain echogenic thrombus, with absent flow. Carotid Doppler grades internal carotid stenosis using peak systolic velocity and plaque appearance (important in stroke prevention). Renal artery Doppler and arterial studies of the limbs (peripheral arterial disease) are other applications; arteriovenous fistula assessment supports haemodialysis. Echocardiography evaluates cardiac function, valves (rheumatic heart disease screening in schools), pericardial effusion and congenital heart disease.",
+       "keyPoints": [
+        "DVT: non-compressible vein",
+        "Carotid stenosis graded by PSV",
+        "Echocardiography: rheumatic heart disease screening",
+        "AV fistula assessment"
+       ]
+      },
+      {
+       "heading": "Small parts and MSK",
+       "body": "Thyroid ultrasound characterises nodules (features suggesting malignancy: hypoechogenicity, microcalcifications, irregular margins, taller-than-wide shape) and guides fine-needle aspiration (TIRADS scoring). Breast ultrasound is the first-line imaging in young women (dense breasts) and characterises lumps seen on mammography (simple cyst vs solid mass; BI-RADS). Scrotal ultrasound evaluates testicular torsion (absent flow — surgical emergency), epididymo-orchitis (increased flow), hydrocoele and testicular tumours. Musculoskeletal ultrasound assesses tendons (tears, tendinopathy), joint effusions, soft-tissue masses and abscesses, and guides injections. In infants, ultrasound assesses developmental dysplasia of the hip (Graf method) and pyloric stenosis (muscle thickness > 3 mm, length > 15 mm).",
+       "keyPoints": [
+        "Thyroid nodules: TIRADS, guide FNA",
+        "Breast: first-line in young women",
+        "Testicular torsion: absent flow — emergency",
+        "DDH: Graf method",
+        "Pyloric stenosis: muscle > 3 mm"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The key sign of deep vein thrombosis on compression ultrasound is:",
+       "options": [
+        "A vein that collapses completely",
+        "A small artery",
+        "Calcification",
+        "A non-compressible vein",
+        "Increased venous flow"
+       ],
+       "answerIndex": 3,
+       "explanation": "Thrombus prevents compression."
+      },
+      {
+       "stem": "Ultrasound features suggesting a malignant thyroid nodule include:",
+       "options": [
+        "Spongiform appearance",
+        "Large simple cyst",
+        "Purely cystic with smooth margins",
+        "Hypoechoic with microcalcifications and irregular margins",
+        "Uniform isoechoic texture only"
+       ],
+       "answerIndex": 3,
+       "explanation": "These features raise suspicion and guide FNA."
+      },
+      {
+       "stem": "The first-line imaging for a breast lump in a 25-year-old woman is:",
+       "options": [
+        "Mammography",
+        "CT",
+        "PET",
+        "MRI always",
+        "Ultrasound"
+       ],
+       "answerIndex": 4,
+       "explanation": "Young breasts are dense on mammography."
+      },
+      {
+       "stem": "Absent blood flow in a painful swollen testis suggests:",
+       "options": [
+        "Testicular torsion",
+        "Hydrocoele",
+        "Varicocele",
+        "Epididymitis",
+        "Normal testis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Torsion needs emergency surgery."
+      },
+      {
+       "stem": "Increased blood flow in a painful epididymis and testis suggests:",
+       "options": [
+        "Tumour always",
+        "Epididymo-orchitis",
+        "Torsion",
+        "Normal",
+        "Hydrocoele"
+       ],
+       "answerIndex": 1,
+       "explanation": "Inflammation increases vascularity."
+      },
+      {
+       "stem": "Developmental dysplasia of the hip in infants is assessed by ultrasound using the:",
+       "options": [
+        "Wells score",
+        "Cobb angle",
+        "Apgar score",
+        "Mentzer index",
+        "Graf method"
+       ],
+       "answerIndex": 4,
+       "explanation": "Graf angles assess acetabular development."
+      },
+      {
+       "stem": "A pyloric muscle thickness greater than 3 mm in a vomiting infant suggests:",
+       "options": [
+        "Normal pylorus",
+        "Hypertrophic pyloric stenosis",
+        "Malrotation",
+        "Gastroenteritis",
+        "Intussusception"
+       ],
+       "answerIndex": 1,
+       "explanation": "Thickened pyloric muscle obstructs gastric outflow."
+      },
+      {
+       "stem": "School echocardiography screening programmes in Africa aim mainly to detect:",
+       "options": [
+        "Arrhythmias only",
+        "Ischaemic heart disease",
+        "Heart failure in adults",
+        "Hypertension",
+        "Rheumatic heart disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Early detection allows penicillin prophylaxis."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

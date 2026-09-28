@@ -1,0 +1,632 @@
+{
+ "courses": [
+  {
+   "title": "Elementary Mathematics (MTH 101)",
+   "code": "MTH101",
+   "color": "#7C3AED",
+   "description": "Sets, indices and logarithms, equations, sequences and basic calculus for 100 Level science and health students.",
+   "audience": [
+    {
+     "level": "100 Level"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sets and Number Systems",
+     "order": 1,
+     "summary": "Set notation, operations, Venn diagrams and the real number system.",
+     "material": [
+      {
+       "heading": "Sets",
+       "body": "A set is a well-defined collection of objects. A ∪ B (union) contains elements in A or B; A ∩ B (intersection) contains elements in both; A′ (complement) contains elements of the universal set not in A. A set with n elements has 2ⁿ subsets. For two sets, n(A ∪ B) = n(A) + n(B) − n(A ∩ B). Venn diagrams represent these relationships and solve survey problems.",
+       "keyPoints": [
+        "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+        "A set with n elements has 2ⁿ subsets",
+        "∅ is the empty set"
+       ]
+      },
+      {
+       "heading": "Number systems",
+       "body": "Natural numbers (1, 2, 3 …) ⊂ integers (…, −1, 0, 1 …) ⊂ rational numbers (p/q, q ≠ 0) ⊂ real numbers, which also include irrational numbers such as √2 and π whose decimals neither terminate nor repeat. Recurring decimals are rational (0.333… = 1/3). Surds are simplified by removing square factors, e.g. √50 = 5√2, and rationalised by multiplying by a conjugate.",
+       "keyPoints": [
+        "√2 and π are irrational",
+        "Recurring decimals are rational",
+        "√50 = 5√2"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "If A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B is:",
+       "options": [
+        "{2, 3}",
+        "{1, 4}",
+        "{1}",
+        "{1, 2, 3, 4}",
+        "∅"
+       ],
+       "answerIndex": 0,
+       "explanation": "The intersection contains elements common to both sets."
+      },
+      {
+       "stem": "How many subsets does a set with 3 elements have?",
+       "options": [
+        "3",
+        "6",
+        "8",
+        "9",
+        "4"
+       ],
+       "answerIndex": 2,
+       "explanation": "2³ = 8 subsets, including ∅ and the set itself."
+      },
+      {
+       "stem": "In a class, 30 study Biology, 25 Chemistry and 10 both. How many study at least one?",
+       "options": [
+        "35",
+        "45",
+        "55",
+        "65",
+        "40"
+       ],
+       "answerIndex": 1,
+       "explanation": "n(B ∪ C) = 30 + 25 − 10 = 45."
+      },
+      {
+       "stem": "Which number is irrational?",
+       "options": [
+        "√16",
+        "√3",
+        "0.25",
+        "3/7",
+        "0.333…"
+       ],
+       "answerIndex": 1,
+       "explanation": "√3 has a non-terminating, non-recurring decimal."
+      },
+      {
+       "stem": "√72 simplified is:",
+       "options": [
+        "2√6",
+        "6√2",
+        "8√3",
+        "3√8",
+        "36√2"
+       ],
+       "answerIndex": 1,
+       "explanation": "√72 = √(36 × 2) = 6√2."
+      },
+      {
+       "stem": "The complement of A, written A′, contains:",
+       "options": [
+        "Elements in A only",
+        "Elements of the universal set not in A",
+        "Elements common to A and B",
+        "No elements",
+        "All elements of A and B"
+       ],
+       "answerIndex": 1,
+       "explanation": "A′ = universal set minus A."
+      },
+      {
+       "stem": "0.777… expressed as a fraction is:",
+       "options": [
+        "7/10",
+        "7/9",
+        "77/100",
+        "7/99",
+        "1/7"
+       ],
+       "answerIndex": 1,
+       "explanation": "Let x = 0.777…; 10x − x = 7, so x = 7/9."
+      },
+      {
+       "stem": "Rationalising 1/√2 gives:",
+       "options": [
+        "2√2",
+        "√2/2",
+        "√2",
+        "1/2",
+        "2/√2"
+       ],
+       "answerIndex": 1,
+       "explanation": "Multiply numerator and denominator by √2: √2/2."
+      }
+     ]
+    },
+    {
+     "title": "Indices and Logarithms",
+     "order": 2,
+     "summary": "Laws of indices, logarithms and exponential equations.",
+     "material": [
+      {
+       "heading": "Laws of indices",
+       "body": "aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ; a^(1/n) = ⁿ√a; a^(m/n) = (ⁿ√a)ᵐ. These rules also underlie scientific notation, e.g. 3.2 × 10⁻⁵.",
+       "keyPoints": [
+        "a⁰ = 1",
+        "a⁻ⁿ = 1/aⁿ",
+        "a^(m/n) = (ⁿ√a)ᵐ"
+       ]
+      },
+      {
+       "heading": "Logarithms",
+       "body": "If aˣ = N then logₐN = x. Laws: log(MN) = log M + log N; log(M/N) = log M − log N; log Mⁿ = n log M; logₐa = 1; logₐ1 = 0. Change of base: logₐN = log N / log a. Logarithms appear in pH (−log[H+]), the decibel scale and first-order drug elimination (ln 2 / k = half-life).",
+       "keyPoints": [
+        "log(MN) = log M + log N",
+        "log Mⁿ = n log M",
+        "log₁₀100 = 2"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Simplify 2³ × 2⁴:",
+       "options": [
+        "2¹²",
+        "2¹",
+        "8⁷",
+        "4⁷",
+        "2⁷"
+       ],
+       "answerIndex": 4,
+       "explanation": "Add indices: 2³⁺⁴ = 2⁷."
+      },
+      {
+       "stem": "Evaluate 27^(2/3):",
+       "options": [
+        "6",
+        "9",
+        "18",
+        "3",
+        "81"
+       ],
+       "answerIndex": 1,
+       "explanation": "Cube root of 27 is 3; 3² = 9."
+      },
+      {
+       "stem": "What is 5⁻²?",
+       "options": [
+        "25",
+        "1/10",
+        "−25",
+        "1/25",
+        "−10"
+       ],
+       "answerIndex": 3,
+       "explanation": "a⁻ⁿ = 1/aⁿ, so 5⁻² = 1/25."
+      },
+      {
+       "stem": "log₁₀1000 equals:",
+       "options": [
+        "2",
+        "3",
+        "10",
+        "100",
+        "30"
+       ],
+       "answerIndex": 1,
+       "explanation": "10³ = 1000, so log₁₀1000 = 3."
+      },
+      {
+       "stem": "log 2 + log 5 (base 10) equals:",
+       "options": [
+        "10",
+        "0",
+        "log 7",
+        "1",
+        "log 3"
+       ],
+       "answerIndex": 3,
+       "explanation": "log 2 + log 5 = log 10 = 1."
+      },
+      {
+       "stem": "Solve 2ˣ = 32:",
+       "options": [
+        "4",
+        "5",
+        "6",
+        "16",
+        "8"
+       ],
+       "answerIndex": 1,
+       "explanation": "32 = 2⁵, so x = 5."
+      },
+      {
+       "stem": "Any non-zero number raised to the power 0 equals:",
+       "options": [
+        "1",
+        "Infinity",
+        "−1",
+        "0",
+        "The number itself"
+       ],
+       "answerIndex": 0,
+       "explanation": "a⁰ = 1 for all a ≠ 0."
+      },
+      {
+       "stem": "log₃81 equals:",
+       "options": [
+        "3",
+        "4",
+        "9",
+        "27",
+        "12"
+       ],
+       "answerIndex": 1,
+       "explanation": "3⁴ = 81."
+      }
+     ]
+    },
+    {
+     "title": "Equations and Inequalities",
+     "order": 3,
+     "summary": "Linear and simultaneous equations, quadratics and inequalities.",
+     "material": [
+      {
+       "heading": "Linear and simultaneous equations",
+       "body": "A linear equation has the unknown to the first power. Simultaneous linear equations in two unknowns are solved by substitution, elimination or graphically (the intersection of two lines). A straight line has equation y = mx + c, where m is the gradient (m = (y₂ − y₁)/(x₂ − x₁)) and c the y-intercept.",
+       "keyPoints": [
+        "y = mx + c",
+        "Gradient = rise / run",
+        "Elimination or substitution"
+       ]
+      },
+      {
+       "heading": "Quadratics and inequalities",
+       "body": "A quadratic ax² + bx + c = 0 is solved by factorisation, completing the square or the formula x = [−b ± √(b² − 4ac)] / 2a. The discriminant b² − 4ac tells us: > 0 two real roots; = 0 one repeated root; < 0 no real roots. Sum of roots = −b/a; product = c/a. When multiplying or dividing an inequality by a negative number, reverse the inequality sign.",
+       "keyPoints": [
+        "x = [−b ± √(b² − 4ac)] / 2a",
+        "Discriminant decides the nature of roots",
+        "Reverse the sign when multiplying by a negative"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Solve 3x − 7 = 11:",
+       "options": [
+        "3",
+        "18",
+        "−6",
+        "4",
+        "6"
+       ],
+       "answerIndex": 4,
+       "explanation": "3x = 18, x = 6."
+      },
+      {
+       "stem": "The gradient of the line joining (1, 2) and (3, 8) is:",
+       "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "1/3"
+       ],
+       "answerIndex": 1,
+       "explanation": "m = (8 − 2)/(3 − 1) = 3."
+      },
+      {
+       "stem": "The roots of x² − 5x + 6 = 0 are:",
+       "options": [
+        "2 and 3",
+        "−2 and −3",
+        "1 and 6",
+        "5 and 6",
+        "−1 and 6"
+       ],
+       "answerIndex": 0,
+       "explanation": "(x − 2)(x − 3) = 0."
+      },
+      {
+       "stem": "For x² + 4x + 4 = 0, the discriminant is:",
+       "options": [
+        "0",
+        "16",
+        "−16",
+        "32",
+        "8"
+       ],
+       "answerIndex": 0,
+       "explanation": "b² − 4ac = 16 − 16 = 0, so there is one repeated root."
+      },
+      {
+       "stem": "Solve simultaneously: x + y = 10, x − y = 2.",
+       "options": [
+        "x = 8, y = 2",
+        "x = 6, y = 4",
+        "x = 4, y = 6",
+        "x = 7, y = 3",
+        "x = 5, y = 5"
+       ],
+       "answerIndex": 1,
+       "explanation": "Adding: 2x = 12, x = 6; y = 4."
+      },
+      {
+       "stem": "Solve −2x > 8:",
+       "options": [
+        "x < −4",
+        "x > −4",
+        "x < 4",
+        "x = −4",
+        "x > 4"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dividing by −2 reverses the sign: x < −4."
+      },
+      {
+       "stem": "The sum of the roots of 2x² − 6x + 1 = 0 is:",
+       "options": [
+        "3",
+        "6",
+        "1/2",
+        "−6",
+        "−3"
+       ],
+       "answerIndex": 0,
+       "explanation": "Sum = −b/a = 6/2 = 3."
+      },
+      {
+       "stem": "The y-intercept of y = 4x − 9 is:",
+       "options": [
+        "−9",
+        "−4",
+        "4",
+        "0",
+        "9"
+       ],
+       "answerIndex": 0,
+       "explanation": "In y = mx + c, c = −9."
+      }
+     ]
+    },
+    {
+     "title": "Sequences, Series and Percentages",
+     "order": 4,
+     "summary": "Arithmetic and geometric progressions, ratios, percentages and simple growth/decay.",
+     "material": [
+      {
+       "heading": "Progressions",
+       "body": "An arithmetic progression (AP) has a common difference d: nth term Tₙ = a + (n − 1)d; sum Sₙ = n/2 [2a + (n − 1)d]. A geometric progression (GP) has a common ratio r: Tₙ = arⁿ⁻¹; Sₙ = a(rⁿ − 1)/(r − 1) for r ≠ 1; the sum to infinity S∞ = a/(1 − r) when |r| < 1.",
+       "keyPoints": [
+        "AP: Tₙ = a + (n − 1)d",
+        "GP: Tₙ = arⁿ⁻¹",
+        "S∞ = a/(1 − r), |r| < 1"
+       ]
+      },
+      {
+       "heading": "Percentages and ratios in health",
+       "body": "Percentage change = (change ÷ original) × 100%. Ratios compare quantities (e.g. drug dilution 1:1000 means 1 g in 1,000 mL). Exponential decay describes drug elimination: after each half-life the amount halves, so after n half-lives the fraction remaining is (½)ⁿ. Bacterial growth by binary fission is geometric: N = N₀ × 2ⁿ after n generations.",
+       "keyPoints": [
+        "% change = change/original × 100",
+        "After n half-lives: (½)ⁿ remains",
+        "Bacterial growth: N₀ × 2ⁿ"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The 10th term of the AP 3, 7, 11, … is:",
+       "options": [
+        "39",
+        "40",
+        "43",
+        "36",
+        "30"
+       ],
+       "answerIndex": 0,
+       "explanation": "T₁₀ = 3 + 9 × 4 = 39."
+      },
+      {
+       "stem": "The sum of the first 10 terms of 2, 4, 6, … is:",
+       "options": [
+        "20",
+        "100",
+        "110",
+        "120",
+        "55"
+       ],
+       "answerIndex": 2,
+       "explanation": "S₁₀ = 10/2 × [4 + 18] = 110."
+      },
+      {
+       "stem": "The common ratio of the GP 5, 15, 45, … is:",
+       "options": [
+        "3",
+        "5",
+        "10",
+        "1/3",
+        "15"
+       ],
+       "answerIndex": 0,
+       "explanation": "15/5 = 3."
+      },
+      {
+       "stem": "The sum to infinity of 8, 4, 2, 1, … is:",
+       "options": [
+        "16",
+        "12",
+        "∞",
+        "15",
+        "8"
+       ],
+       "answerIndex": 0,
+       "explanation": "S∞ = 8/(1 − ½) = 16."
+      },
+      {
+       "stem": "A drug has a half-life of 4 hours. What fraction remains after 12 hours?",
+       "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/8",
+        "1/16"
+       ],
+       "answerIndex": 3,
+       "explanation": "12 hours = 3 half-lives, (½)³ = 1/8."
+      },
+      {
+       "stem": "A price rises from ₦2,000 to ₦2,500. The percentage increase is:",
+       "options": [
+        "20%",
+        "25%",
+        "50%",
+        "80%",
+        "125%"
+       ],
+       "answerIndex": 1,
+       "explanation": "500/2,000 × 100 = 25%."
+      },
+      {
+       "stem": "A bacterium divides every 20 minutes. Starting from 1 cell, how many are there after 2 hours?",
+       "options": [
+        "6",
+        "12",
+        "32",
+        "64",
+        "128"
+       ],
+       "answerIndex": 3,
+       "explanation": "2 hours = 6 generations; 2⁶ = 64."
+      },
+      {
+       "stem": "Adrenaline 1:1000 contains how many mg per mL?",
+       "options": [
+        "0.1 mg",
+        "1 mg",
+        "10 mg",
+        "100 mg",
+        "1,000 mg"
+       ],
+       "answerIndex": 1,
+       "explanation": "1 g in 1,000 mL = 1,000 mg/1,000 mL = 1 mg/mL."
+      }
+     ]
+    },
+    {
+     "title": "Introduction to Differentiation and Integration",
+     "order": 5,
+     "summary": "Limits, derivatives of polynomials, rates of change, and basic integration.",
+     "material": [
+      {
+       "heading": "Differentiation",
+       "body": "The derivative dy/dx measures the rate of change of y with respect to x — the gradient of the tangent to a curve. Power rule: d/dx(xⁿ) = nxⁿ⁻¹; the derivative of a constant is 0. Also d/dx(eˣ) = eˣ, d/dx(ln x) = 1/x, d/dx(sin x) = cos x. Stationary points occur where dy/dx = 0; if d²y/dx² > 0 the point is a minimum, if < 0 a maximum.",
+       "keyPoints": [
+        "d/dx(xⁿ) = nxⁿ⁻¹",
+        "dy/dx = 0 at stationary points",
+        "d²y/dx² > 0 → minimum"
+       ]
+      },
+      {
+       "heading": "Integration",
+       "body": "Integration is the reverse of differentiation. ∫xⁿ dx = xⁿ⁺¹/(n + 1) + C (n ≠ −1); ∫(1/x) dx = ln|x| + C. A definite integral ∫ₐᵇ f(x) dx gives the area under the curve between x = a and x = b. In pharmacokinetics, the area under the plasma concentration–time curve (AUC) measures total drug exposure.",
+       "keyPoints": [
+        "∫xⁿ dx = xⁿ⁺¹/(n + 1) + C",
+        "Definite integral = area under the curve",
+        "AUC measures drug exposure"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "If y = 5x³, then dy/dx is:",
+       "options": [
+        "15x³",
+        "5x²",
+        "15x²",
+        "5x⁴/4",
+        "3x²"
+       ],
+       "answerIndex": 2,
+       "explanation": "Power rule: 5 × 3x² = 15x²."
+      },
+      {
+       "stem": "The derivative of a constant is:",
+       "options": [
+        "1",
+        "Undefined",
+        "The constant",
+        "x",
+        "0"
+       ],
+       "answerIndex": 4,
+       "explanation": "Constants do not change, so their derivative is 0."
+      },
+      {
+       "stem": "For y = x² − 4x, dy/dx = 0 when x equals:",
+       "options": [
+        "1",
+        "0",
+        "2",
+        "4",
+        "−2"
+       ],
+       "answerIndex": 2,
+       "explanation": "dy/dx = 2x − 4 = 0 gives x = 2."
+      },
+      {
+       "stem": "∫ 6x² dx equals:",
+       "options": [
+        "12x + C",
+        "3x² + C",
+        "6x³ + C",
+        "x⁶ + C",
+        "2x³ + C"
+       ],
+       "answerIndex": 4,
+       "explanation": "6 × x³/3 = 2x³ + C."
+      },
+      {
+       "stem": "A stationary point with d²y/dx² < 0 is a:",
+       "options": [
+        "Minimum",
+        "Root",
+        "Point of inflexion always",
+        "Maximum",
+        "Asymptote"
+       ],
+       "answerIndex": 3,
+       "explanation": "A negative second derivative indicates a maximum."
+      },
+      {
+       "stem": "d/dx (ln x) equals:",
+       "options": [
+        "x ln x",
+        "x",
+        "ln x",
+        "eˣ",
+        "1/x"
+       ],
+       "answerIndex": 4,
+       "explanation": "The derivative of ln x is 1/x."
+      },
+      {
+       "stem": "∫₀² 3x² dx equals:",
+       "options": [
+        "4",
+        "6",
+        "8",
+        "12",
+        "2"
+       ],
+       "answerIndex": 2,
+       "explanation": "[x³]₀² = 8 − 0 = 8."
+      },
+      {
+       "stem": "In pharmacokinetics, the area under the concentration–time curve is found by:",
+       "options": [
+        "Set theory",
+        "Integration",
+        "Differentiation",
+        "Matrix algebra",
+        "Logarithms only"
+       ],
+       "answerIndex": 1,
+       "explanation": "AUC is the integral of concentration with respect to time."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

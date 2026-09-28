@@ -1,0 +1,99 @@
+{
+  "title": "Environmental and Occupational Health",
+  "code": "ENV301",
+  "color": "#0D9488",
+  "description": "Water supply and sanitation, waste management, air pollution, housing and vector control, food safety, and occupational health and safety in Nigeria.",
+  "for": { "300": ["PH"], "500": ["MBBS", "CM"], "400": ["NUR"] },
+  "topics": [
+    {
+      "title": "Water Supply and Water-related Diseases",
+      "summary": "Sources, quality standards, treatment of water and classification of water-related diseases.",
+      "notes": [
+        { "h": "Water and disease", "b": "Safe water is essential for health. Sources: surface water (rivers, streams, ponds — often contaminated), groundwater (wells, boreholes — generally safer if protected) and rainwater. The WHO standard for drinking water is zero E. coli (or thermotolerant coliforms) per 100 mL — faecal indicator bacteria. Bradley's classification of water-related diseases: water-borne (ingested — cholera, typhoid, hepatitis A and E, dysentery), water-washed (due to lack of water for hygiene — scabies, trachoma, diarrhoea), water-based (a part of the life cycle in an aquatic host — schistosomiasis, guinea worm/dracunculiasis, now nearly eradicated) and water-related insect vector diseases (malaria, onchocerciasis, trypanosomiasis).", "k": ["Drinking water: 0 E. coli per 100 mL", "Water-borne: cholera, typhoid", "Water-washed: scabies, trachoma", "Water-based: schistosomiasis, guinea worm", "Insect vector: malaria, onchocerciasis"] },
+        { "h": "Water treatment", "b": "Large-scale treatment: storage and sedimentation, coagulation/flocculation (alum), rapid or slow sand filtration (slow sand filters have a biological 'schmutzdecke' layer), and disinfection by chlorination — the most widely used method; the target residual free chlorine at the tap is about 0.2–0.5 mg/L. Household water treatment: boiling (rolling boil for 1 minute), chlorination (e.g. sodium hypochlorite drops such as WaterGuard), solar disinfection (SODIS — clear plastic bottles in sunlight for 6 hours), ceramic or biosand filters, and safe storage in covered containers with a tap. Chlorine demand must be satisfied before a free residual exists (breakpoint chlorination).", "k": ["Treatment: sedimentation → coagulation → filtration → chlorination", "Residual chlorine 0.2–0.5 mg/L", "Household: boil, chlorinate, SODIS, filter", "Safe storage"] }
+      ],
+      "q": [
+        ["The indicator organism used to assess faecal contamination of drinking water is:", "Staphylococcus aureus", "Escherichia coli", "Bacillus subtilis", "Candida", "Pseudomonas", 1, "E. coli indicates faecal pollution."],
+        ["The WHO guideline for E. coli in drinking water is:", "0 per 100 mL", "10 per 100 mL", "100 per 100 mL", "1,000 per mL", "No limit", 0, "Drinking water should contain no E. coli."],
+        ["Schistosomiasis is classified as a:", "Water-borne disease", "Water-washed disease", "Water-based disease", "Water-related insect vector disease", "Airborne disease", 2, "Part of the life cycle occurs in freshwater snails."],
+        ["Scabies and trachoma, linked to lack of water for washing, are:", "Water-borne", "Water-washed", "Water-based", "Vector-borne", "Food-borne", 1, "Poor hygiene due to water scarcity spreads them."],
+        ["The most widely used method of disinfecting public water supplies is:", "Boiling", "Chlorination", "Ozonation only", "UV only", "Freezing", 1, "Chlorine is cheap and leaves a protective residual."],
+        ["Solar disinfection (SODIS) involves exposing water in clear plastic bottles to sunlight for about:", "10 minutes", "6 hours", "1 week", "30 seconds", "1 month", 1, "UV and heat inactivate pathogens over about 6 hours."],
+        ["Alum is used in water treatment for:", "Disinfection", "Coagulation and flocculation", "Fluoridation", "Softening", "Aeration", 1, "Alum clumps suspended particles for removal."],
+        ["The biological layer on top of a slow sand filter is called the:", "Floc", "Schmutzdecke", "Sludge", "Biofilm of chlorine", "Residual", 1, "It traps and degrades microorganisms."]
+      ]
+    },
+    {
+      "title": "Sanitation and Waste Management",
+      "summary": "Excreta disposal, latrines, solid waste and health-care waste management.",
+      "notes": [
+        { "h": "Excreta disposal", "b": "Safe disposal of human excreta breaks faecal–oral transmission ('F-diagram': fluids, fields, flies, fingers and food). Improved sanitation facilities include flush/pour-flush toilets to sewers or septic tanks, ventilated improved pit (VIP) latrines (a vent pipe with fly screen reduces odour and flies), pit latrines with slabs and composting toilets. Latrines should be at least 30 metres from a water source and above the water table. Nigeria has one of the largest populations practising open defecation; the 'Clean Nigeria: Use the Toilet' campaign and community-led total sanitation (CLTS) aim to end it.", "k": ["F-diagram: fluids, fields, flies, fingers, food", "VIP latrine: vent pipe with fly screen", "Latrine ≥ 30 m from water source", "Clean Nigeria: Use the Toilet"] },
+        { "h": "Solid and health-care waste", "b": "Solid waste management involves storage, collection, transport, treatment and disposal: sanitary landfill (compacted and covered daily — preferred), composting, incineration and recycling (reduce, reuse, recycle). Open dumping and burning cause vector breeding, flooding (blocked drains) and air pollution. Health-care waste: about 75–90% is general non-hazardous waste; the rest is hazardous (infectious, sharps, pathological, pharmaceutical, chemical, radioactive). Segregate at the point of generation using colour-coded bins (commonly yellow for infectious, black for general, red or labelled boxes for anatomical waste, puncture-proof safety boxes for sharps), store safely and treat by autoclaving, incineration or other approved methods.", "k": ["Sanitary landfill preferred", "75–90% of health-care waste is non-hazardous", "Segregate at source with colour codes", "Sharps in puncture-proof boxes"] }
+      ],
+      "q": [
+        ["The 'F-diagram' shows routes of transmission of:", "Airborne diseases", "Faecal–oral diseases", "Sexually transmitted diseases", "Vector-borne diseases", "Genetic diseases", 1, "Fluids, fields, flies, fingers and food carry faecal pathogens."],
+        ["The vent pipe of a VIP latrine is fitted with a fly screen to:", "Increase odour", "Trap flies and reduce odour", "Collect water", "Allow rain in", "Make it look nice", 1, "Flies attracted to light are trapped; airflow removes odour."],
+        ["A pit latrine should be sited at least ___ from a well.", "3 m", "10 m", "30 m", "300 m", "1 km", 2, "About 30 m reduces groundwater contamination."],
+        ["The Nigerian campaign to end open defecation is:", "Roll Back Malaria", "Clean Nigeria: Use the Toilet", "Stop TB", "Operation Feed the Nation", "War Against Indiscipline", 1, "Launched in 2019."],
+        ["The preferred method of final disposal of municipal solid waste is:", "Open dumping", "Sanitary landfill", "Burning in streets", "Dumping in drains", "Throwing into rivers", 1, "Compaction and daily cover limit vectors and pollution."],
+        ["What proportion of health-care waste is typically non-hazardous general waste?", "5–10%", "25%", "75–90%", "100%", "50%", 2, "Most hospital waste is general waste; correct segregation reduces cost and risk."],
+        ["Used needles should be disposed of in:", "Black bags", "Puncture-proof safety boxes", "Open buckets", "General bins", "Toilets", 1, "Sharps boxes prevent needlestick injuries."],
+        ["Waste should be segregated:", "At the dump site", "At the point of generation", "Never", "Only by cleaners at night", "At the incinerator", 1, "Segregation at source prevents mixing of hazardous and general waste."]
+      ]
+    },
+    {
+      "title": "Air Pollution, Housing and Vector Control",
+      "summary": "Indoor and outdoor air pollution, healthy housing, and control of mosquitoes, flies and rodents.",
+      "notes": [
+        { "h": "Air pollution and housing", "b": "Household air pollution from cooking with firewood, charcoal and kerosene in poorly ventilated kitchens is a major cause of pneumonia in children, COPD in women, low birth weight and cataracts; cleaner fuels (LPG, electricity), improved cookstoves and ventilation reduce exposure. Outdoor pollutants: particulate matter (PM2.5 and PM10 — penetrate deep into the lungs), nitrogen and sulphur oxides, ozone and carbon monoxide from vehicles, generators, industry, gas flaring (Niger Delta) and the dry-season Harmattan dust. Carbon monoxide poisoning from generators used indoors is a recurrent cause of deaths in Nigeria. Healthy housing requires adequate space (avoid overcrowding — spreads TB and meningitis), ventilation, lighting, safe water, sanitation, drainage and protection from vectors.", "k": ["Household solid fuel → pneumonia, COPD", "PM2.5 penetrates deeply", "Generator fumes indoors → CO poisoning", "Overcrowding spreads TB and meningitis"] },
+        { "h": "Vector control", "b": "Malaria vector (Anopheles) control: long-lasting insecticidal nets (LLINs), indoor residual spraying (IRS), larval source management (draining stagnant water, larviciding), and window screens. Aedes mosquitoes (yellow fever, dengue) breed in containers such as tyres, pots and cans — remove them. Integrated vector management combines methods and monitors insecticide resistance. Houseflies transmit diarrhoeal diseases and trachoma — control through sanitation and waste management. Rodent control (proofing, food storage, traps, environmental cleanliness) prevents Lassa fever and leptospirosis; store food in rodent-proof containers and do not dry food on open ground.", "k": ["LLINs and IRS for malaria", "Aedes breed in containers", "Flies: sanitation", "Rodent control prevents Lassa fever"] }
+      ],
+      "q": [
+        ["Cooking with firewood in poorly ventilated kitchens is strongly linked to:", "Myopia", "Childhood pneumonia and COPD", "Diabetes", "Dental caries", "Hearing loss", 1, "Smoke exposure damages the airways."],
+        ["Running a petrol generator inside a closed room can cause death from:", "Ozone poisoning", "Carbon monoxide poisoning", "Oxygen excess", "Radiation", "Noise", 1, "CO binds haemoglobin, causing hypoxia."],
+        ["The air pollutant that penetrates deepest into the lungs is:", "PM10", "PM2.5", "Large dust particles", "Pollen", "Sand", 1, "Fine particles reach the alveoli."],
+        ["Overcrowded housing increases transmission of:", "Tuberculosis and meningitis", "Diabetes", "Hypertension", "Osteoarthritis", "Glaucoma", 0, "Close contact spreads airborne infections."],
+        ["Long-lasting insecticidal nets mainly protect against:", "Houseflies", "Anopheles mosquitoes and malaria", "Rats", "Ticks only", "Tsetse flies only", 1, "LLINs kill and repel night-biting Anopheles."],
+        ["Aedes mosquitoes, vectors of yellow fever, breed mainly in:", "Large rivers", "Water-holding containers such as tyres and pots", "Salt water", "Dry sand", "Deep wells only", 1, "Removing containers controls Aedes."],
+        ["Storing food in rodent-proof containers helps prevent:", "Malaria", "Lassa fever", "Onchocerciasis", "Schistosomiasis", "Sickle cell disease", 1, "Mastomys rats contaminate food with Lassa virus."],
+        ["Gas flaring is a notable source of air pollution in:", "The Sahel", "The Niger Delta", "Jos Plateau", "Abuja only", "Lake Chad", 1, "Oil production flares gas in the Niger Delta."]
+      ]
+    },
+    {
+      "title": "Food Hygiene and Safety",
+      "summary": "Food-borne diseases, food handlers, WHO five keys to safer food, and food regulation.",
+      "notes": [
+        { "h": "Food-borne disease", "b": "Food-borne diseases result from biological (Salmonella, E. coli, Campylobacter, Vibrio cholerae, Staphylococcus aureus toxin, Bacillus cereus, Clostridium perfringens, hepatitis A, parasites), chemical (pesticide residues, aflatoxins from mouldy grains and groundnuts — liver cancer; calcium carbide ripening of fruits; formalin on fish; bromate in bread) and physical hazards. WHO 'Five Keys to Safer Food': keep clean; separate raw and cooked food; cook thoroughly (core temperature ≥ 70 °C); keep food at safe temperatures (the danger zone is 5–60 °C; refrigerate below 5 °C; do not leave cooked food at room temperature for more than 2 hours); use safe water and raw materials.", "k": ["Aflatoxins in mouldy grains → liver cancer", "WHO Five Keys to Safer Food", "Danger zone 5–60 °C", "Cook to ≥ 70 °C"] },
+        { "h": "Food handlers and regulation", "b": "Food handlers need medical screening (e.g. for typhoid carriage, TB, skin infections), training in personal hygiene, handwashing, protective clothing and exclusion when ill with diarrhoea, vomiting or infected wounds. Hazard Analysis and Critical Control Points (HACCP) is a systematic preventive approach used in food industries. In Nigeria, NAFDAC regulates processed foods, the Standards Organisation of Nigeria sets standards, and environmental health officers inspect food premises, markets and abattoirs (meat inspection prevents zoonoses such as tuberculosis and taeniasis).", "k": ["Screen and train food handlers", "Exclude ill handlers", "HACCP", "NAFDAC regulates processed food", "Meat inspection at abattoirs"] }
+      ],
+      "q": [
+        ["Aflatoxins, found in mouldy groundnuts and grains, are associated with:", "Lung cancer", "Liver cancer", "Skin cancer", "Bone cancer", "Leukaemia", 1, "Aflatoxin B1 is a potent hepatocarcinogen."],
+        ["Which is one of WHO's Five Keys to Safer Food?", "Keep raw and cooked food together", "Cook thoroughly", "Leave cooked food out overnight", "Use river water for washing food", "Thaw food on the floor", 1, "Thorough cooking kills most pathogens."],
+        ["The temperature 'danger zone' in which bacteria multiply rapidly is about:", "−18 to 0 °C", "5 to 60 °C", "70 to 100 °C", "100 to 120 °C", "Below 0 °C", 1, "Keep food hot (> 60 °C) or cold (< 5 °C)."],
+        ["A food handler with diarrhoea should:", "Continue working with gloves", "Be excluded from handling food until well", "Work faster", "Only handle cooked food", "Drink more water and continue", 1, "Ill handlers can contaminate food."],
+        ["The systematic preventive approach to food safety in industry is:", "HACCP", "GATHER", "SBAR", "DOTS", "IMCI", 0, "Hazard Analysis and Critical Control Points."],
+        ["Processed foods in Nigeria are registered by:", "NAFDAC", "NCDC", "NUC", "INEC", "NHIA", 0, "NAFDAC regulates food and drugs."],
+        ["Meat inspection at abattoirs helps prevent transmission of:", "Malaria", "Taeniasis and bovine tuberculosis", "Sickle cell disease", "Hypertension", "Asthma", 1, "Infected carcasses are detected and condemned."],
+        ["Cooked food should not be left at room temperature for more than about:", "10 minutes", "2 hours", "12 hours", "24 hours", "3 days", 1, "Bacteria multiply rapidly in the danger zone."]
+      ]
+    },
+    {
+      "title": "Occupational Health and Safety",
+      "summary": "Occupational hazards, occupational diseases, pre-employment and periodic examinations, and legislation.",
+      "notes": [
+        { "h": "Hazards and diseases", "b": "Occupational hazards are physical (noise — noise-induced hearing loss above ~85 dB(A); heat; vibration; radiation), chemical (dusts — silicosis, asbestosis, coal workers' pneumoconiosis, byssinosis in cotton workers; solvents; lead — anaemia, neuropathy; pesticides — organophosphate poisoning), biological (TB, hepatitis B, anthrax in hide handlers, leptospirosis), ergonomic (musculoskeletal disorders, back pain) and psychosocial (stress, shift work, violence). Artisanal gold mining with lead-contaminated ore caused a major lead poisoning outbreak in Zamfara State (2010) that killed hundreds of children.", "k": ["Noise > 85 dB(A) → hearing loss", "Silicosis, asbestosis, byssinosis", "Lead: anaemia, neuropathy", "Zamfara lead poisoning (2010)"] },
+        { "h": "Prevention and law", "b": "Occupational health services provide pre-placement (pre-employment) medical examination, periodic examinations and biological monitoring (e.g. blood lead, cholinesterase for pesticide workers), health education, workplace surveillance, first aid and emergency care, immunisation (hepatitis B for health workers), and rehabilitation. Controls follow the hierarchy: elimination, substitution, engineering controls (ventilation, guarding machines), administrative controls (job rotation, training, reduced exposure time) and personal protective equipment (last resort). Nigerian legislation includes the Factories Act (1990) and the Employee's Compensation Act (2010), administered with the Nigeria Social Insurance Trust Fund (NSITF), which compensates workers for occupational injuries and diseases.", "k": ["Pre-placement and periodic examinations", "Biological monitoring (blood lead, cholinesterase)", "Hierarchy of controls", "Factories Act; Employee's Compensation Act 2010"] }
+      ],
+      "q": [
+        ["Noise-induced hearing loss becomes a risk with prolonged exposure above about:", "30 dB(A)", "55 dB(A)", "85 dB(A)", "150 dB(A) only", "10 dB(A)", 2, "85 dB(A) over an 8-hour day is the usual action level."],
+        ["Byssinosis is an occupational lung disease of workers exposed to:", "Coal dust", "Cotton dust", "Asbestos", "Silica", "Lead", 1, "It is also called 'brown lung' disease."],
+        ["Silicosis occurs in:", "Office workers", "Miners, quarry workers and stone cutters", "Teachers", "Cooks", "Bank staff", 1, "Inhaled crystalline silica causes fibrosis."],
+        ["The 2010 Zamfara State outbreak was due to:", "Cholera", "Lead poisoning from artisanal gold mining", "Meningitis", "Lassa fever", "Yellow fever", 1, "Children were exposed to lead-contaminated dust."],
+        ["Measuring blood cholinesterase is used to monitor workers exposed to:", "Noise", "Organophosphate pesticides", "Radiation", "Heat", "Asbestos", 1, "Organophosphates inhibit cholinesterase."],
+        ["Installing machine guards is an example of:", "PPE", "Engineering control", "Administrative control", "Elimination", "Substitution", 1, "Engineering controls isolate people from hazards."],
+        ["Health workers should be immunised against:", "Yellow fever only", "Hepatitis B", "Rabies only", "Cholera only", "Smallpox", 1, "Hepatitis B is a major occupational risk from blood exposure."],
+        ["The Nigerian law providing compensation for work-related injuries and diseases is the:", "Land Use Act", "Employee's Compensation Act 2010", "Electoral Act", "NYSC Act", "Child Rights Act", 1, "Administered with the NSITF."]
+      ]
+    }
+  ]
+}

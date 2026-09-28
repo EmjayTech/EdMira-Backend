@@ -1,0 +1,697 @@
+{
+ "courses": [
+  {
+   "title": "Physiology I: Blood, Nerve and Muscle (PIO 201/203)",
+   "code": "PIO201",
+   "color": "#BE123C",
+   "description": "Body fluids and homeostasis, blood and haemostasis, and the physiology of excitable tissues: nerve, synapse and muscle.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Body Fluids and the Cell Membrane",
+     "order": 1,
+     "summary": "Fluid compartments, composition of ICF and ECF, osmosis and membrane transport.",
+     "material": [
+      {
+       "heading": "Fluid compartments",
+       "body": "Total body water is about 60% of body weight in an adult male (≈ 42 L in a 70 kg man): two-thirds intracellular fluid (ICF, ≈ 28 L) and one-third extracellular fluid (ECF, ≈ 14 L), which is divided into interstitial fluid (≈ 3/4) and plasma (≈ 1/4, ≈ 3 L). Na+ and Cl− are the main ECF ions; K+, phosphate and proteins are the main ICF ions. Normal plasma osmolality is 280–295 mOsm/kg. Compartments are measured by indicator dilution: D2O (total body water), inulin/mannitol (ECF), Evans blue or radio-iodinated albumin (plasma).",
+       "keyPoints": [
+        "TBW ≈ 60% body weight; ICF 2/3, ECF 1/3",
+        "Na+ main ECF cation; K+ main ICF cation",
+        "Evans blue measures plasma volume"
+       ]
+      },
+      {
+       "heading": "Membrane transport",
+       "body": "Simple diffusion moves lipid-soluble substances (O2, CO2) down their gradient; facilitated diffusion uses carriers (GLUT transporters for glucose) and shows saturation. Primary active transport uses ATP directly — the Na+/K+-ATPase pumps 3 Na+ out and 2 K+ in, maintaining gradients and cell volume (inhibited by digoxin). Secondary active transport uses the Na+ gradient (SGLT1 co-transports Na+ and glucose in the gut; the basis of oral rehydration solution). Osmosis is the movement of water across a semipermeable membrane toward higher solute concentration; red cells swell and lyse in hypotonic solutions and crenate in hypertonic ones.",
+       "keyPoints": [
+        "Na+/K+-ATPase: 3 Na+ out, 2 K+ in",
+        "SGLT1 → basis of oral rehydration solution",
+        "Hypotonic solution → haemolysis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a 70 kg adult male, total body water is approximately:",
+       "options": [
+        "14 L",
+        "28 L",
+        "42 L",
+        "56 L",
+        "70 L"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 60% of 70 kg = 42 L."
+      },
+      {
+       "stem": "The main cation of intracellular fluid is:",
+       "options": [
+        "Calcium",
+        "Magnesium",
+        "Hydrogen",
+        "Sodium",
+        "Potassium"
+       ],
+       "answerIndex": 4,
+       "explanation": "K+ is the dominant intracellular cation."
+      },
+      {
+       "stem": "The Na+/K+-ATPase moves:",
+       "options": [
+        "3 Na+ in and 2 K+ out",
+        "Only Na+ out",
+        "3 Na+ out and 2 K+ in",
+        "2 Na+ out and 3 K+ in",
+        "1 Na+ out and 1 K+ in"
+       ],
+       "answerIndex": 2,
+       "explanation": "It pumps 3 Na+ out and 2 K+ in per ATP."
+      },
+      {
+       "stem": "Plasma volume can be measured using:",
+       "options": [
+        "Mannitol",
+        "Inulin",
+        "Deuterium oxide",
+        "Antipyrine",
+        "Evans blue dye"
+       ],
+       "answerIndex": 4,
+       "explanation": "Evans blue binds albumin and stays in plasma."
+      },
+      {
+       "stem": "Glucose absorption from the gut via SGLT1 is an example of:",
+       "options": [
+        "Primary active transport",
+        "Secondary active transport",
+        "Pinocytosis",
+        "Simple diffusion",
+        "Osmosis"
+       ],
+       "answerIndex": 1,
+       "explanation": "It uses the Na+ gradient generated by the Na+/K+ pump."
+      },
+      {
+       "stem": "Red blood cells placed in distilled water will:",
+       "options": [
+        "Swell and lyse",
+        "Clump",
+        "Remain unchanged",
+        "Crenate",
+        "Shrink"
+       ],
+       "answerIndex": 0,
+       "explanation": "Water enters the hypotonic cells until they burst."
+      },
+      {
+       "stem": "Normal plasma osmolality is about:",
+       "options": [
+        "150–180 mOsm/kg",
+        "280–295 mOsm/kg",
+        "350–400 mOsm/kg",
+        "500–600 mOsm/kg",
+        "1,000 mOsm/kg"
+       ],
+       "answerIndex": 1,
+       "explanation": "Plasma osmolality is kept at about 280–295 mOsm/kg."
+      },
+      {
+       "stem": "Which drug inhibits the Na+/K+-ATPase?",
+       "options": [
+        "Atropine",
+        "Insulin",
+        "Digoxin",
+        "Furosemide",
+        "Amiloride"
+       ],
+       "answerIndex": 2,
+       "explanation": "Digoxin inhibits the pump in cardiac cells."
+      }
+     ]
+    },
+    {
+     "title": "Blood: Plasma, Red Cells and Haemoglobin",
+     "order": 2,
+     "summary": "Composition of blood, erythropoiesis, haemoglobin, anaemia and blood groups.",
+     "material": [
+      {
+       "heading": "Plasma and red cells",
+       "body": "Blood volume is about 5 L (70–80 mL/kg). Plasma is ~55% of blood and contains albumin (main contributor to oncotic pressure), globulins, fibrinogen, electrolytes, nutrients and hormones; serum is plasma without clotting factors. Red cells are biconcave, anucleate discs living about 120 days; normal counts are ~5.0 × 10¹²/L (men) and ~4.5 × 10¹²/L (women). Erythropoiesis occurs in red bone marrow, stimulated by erythropoietin from the kidney in response to hypoxia, and requires iron, vitamin B12 and folate. Old red cells are removed by macrophages in the spleen; haem → biliverdin → bilirubin.",
+       "keyPoints": [
+        "Red cell lifespan ≈ 120 days",
+        "Erythropoietin from the kidney",
+        "Iron, B12 and folate needed",
+        "Albumin → oncotic pressure"
+       ]
+      },
+      {
+       "heading": "Haemoglobin and blood groups",
+       "body": "Adult haemoglobin (HbA) is α2β2; fetal haemoglobin (HbF, α2γ2) has higher oxygen affinity. Normal Hb is about 13–17 g/dL in men and 12–15 g/dL in women. Sickle cell haemoglobin (HbS) results from substitution of valine for glutamic acid at position 6 of the β chain. In the ABO system, group O is the 'universal donor' of red cells and AB the 'universal recipient'. Rhesus (D) incompatibility can cause haemolytic disease of the newborn when an Rh-negative mother carries an Rh-positive fetus; anti-D immunoglobulin prevents sensitisation.",
+       "keyPoints": [
+        "HbA α2β2; HbF α2γ2",
+        "HbS: Glu → Val at β6",
+        "O = universal donor; AB = universal recipient",
+        "Anti-D prevents Rh sensitisation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The normal lifespan of a red blood cell is about:",
+       "options": [
+        "7 days",
+        "30 days",
+        "120 days",
+        "1 year",
+        "10 days"
+       ],
+       "answerIndex": 2,
+       "explanation": "Red cells circulate for about 120 days."
+      },
+      {
+       "stem": "Erythropoietin is produced mainly by the:",
+       "options": [
+        "Spleen",
+        "Bone marrow",
+        "Pancreas",
+        "Liver",
+        "Kidney"
+       ],
+       "answerIndex": 4,
+       "explanation": "Peritubular interstitial cells of the kidney secrete erythropoietin in response to hypoxia."
+      },
+      {
+       "stem": "The main plasma protein responsible for oncotic pressure is:",
+       "options": [
+        "Globulin",
+        "Albumin",
+        "Fibrinogen",
+        "Haemoglobin",
+        "Prothrombin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Albumin is the most abundant plasma protein."
+      },
+      {
+       "stem": "In HbS, glutamic acid at position 6 of the β chain is replaced by:",
+       "options": [
+        "Valine",
+        "Alanine",
+        "Lysine",
+        "Glycine",
+        "Leucine"
+       ],
+       "answerIndex": 0,
+       "explanation": "The Glu6Val substitution causes polymerisation when deoxygenated."
+      },
+      {
+       "stem": "Fetal haemoglobin consists of:",
+       "options": [
+        "α2β2",
+        "β4",
+        "α2δ2",
+        "α2γ2",
+        "γ4"
+       ],
+       "answerIndex": 3,
+       "explanation": "HbF (α2γ2) binds oxygen more avidly than HbA."
+      },
+      {
+       "stem": "A patient with blood group AB can receive red cells from:",
+       "options": [
+        "A and B only",
+        "A, B, AB and O",
+        "AB only",
+        "O only",
+        "None"
+       ],
+       "answerIndex": 1,
+       "explanation": "AB plasma has no anti-A or anti-B, so AB is the universal recipient of red cells."
+      },
+      {
+       "stem": "Haemolytic disease of the newborn due to Rh is prevented by giving the Rh-negative mother:",
+       "options": [
+        "Folic acid",
+        "Rh-positive blood",
+        "Iron",
+        "Vitamin K",
+        "Anti-D immunoglobulin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Anti-D removes fetal Rh+ cells before she becomes sensitised."
+      },
+      {
+       "stem": "Serum differs from plasma in that serum lacks:",
+       "options": [
+        "Electrolytes",
+        "Albumin",
+        "Glucose",
+        "Antibodies",
+        "Clotting factors such as fibrinogen"
+       ],
+       "answerIndex": 4,
+       "explanation": "Serum is the fluid left after blood clots."
+      }
+     ]
+    },
+    {
+     "title": "White Blood Cells, Immunity and Haemostasis",
+     "order": 3,
+     "summary": "Leucocytes and their functions, and the mechanisms of haemostasis and coagulation.",
+     "material": [
+      {
+       "heading": "Leucocytes",
+       "body": "Normal white cell count is 4–11 × 10⁹/L. Neutrophils (40–75%) are the first phagocytes at sites of acute bacterial infection. Lymphocytes (20–45%): B cells make antibodies; T cells mediate cellular immunity (CD4 helper cells are depleted in HIV). Monocytes (2–10%) become tissue macrophages. Eosinophils (1–6%) rise in allergy and helminth infections. Basophils (< 1%) release histamine. Platelets (150–400 × 10⁹/L) are fragments of megakaryocytes and live 7–10 days.",
+       "keyPoints": [
+        "WBC 4–11 × 10⁹/L; platelets 150–400 × 10⁹/L",
+        "Neutrophils: acute bacterial infection",
+        "Eosinophils: allergy and worms",
+        "CD4 T cells fall in HIV"
+       ]
+      },
+      {
+       "heading": "Haemostasis",
+       "body": "Haemostasis proceeds by vascular spasm, platelet plug formation (adhesion via von Willebrand factor, activation, aggregation promoted by thromboxane A2 and ADP) and coagulation. In the classical cascade, the intrinsic pathway (factors XII, XI, IX, VIII) is tested by the aPTT, and the extrinsic pathway (tissue factor and factor VII) by the prothrombin time (PT/INR); both converge on factor X → prothrombin → thrombin → fibrin. Calcium (factor IV) is required; factors II, VII, IX and X need vitamin K. Fibrinolysis by plasmin removes clots. Haemophilia A is factor VIII deficiency; aspirin blocks platelet thromboxane A2 production.",
+       "keyPoints": [
+        "PT tests extrinsic (factor VII); aPTT tests intrinsic",
+        "Vitamin K factors: II, VII, IX, X",
+        "Haemophilia A = factor VIII deficiency",
+        "Aspirin inhibits thromboxane A2"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first white cells to arrive at a site of acute bacterial infection are:",
+       "options": [
+        "Monocytes",
+        "Lymphocytes",
+        "Basophils",
+        "Eosinophils",
+        "Neutrophils"
+       ],
+       "answerIndex": 4,
+       "explanation": "Neutrophils are the rapid-response phagocytes."
+      },
+      {
+       "stem": "Eosinophilia is typical of:",
+       "options": [
+        "Helminth infection",
+        "Viral hepatitis",
+        "Leukaemia only",
+        "Burns",
+        "Bacterial pneumonia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Eosinophils increase in parasitic worm infections and allergy."
+      },
+      {
+       "stem": "The normal platelet count is:",
+       "options": [
+        "4–11 × 10⁹/L",
+        "50–100 × 10⁹/L",
+        "15–40 × 10⁹/L",
+        "1,000–2,000 × 10⁹/L",
+        "150–400 × 10⁹/L"
+       ],
+       "answerIndex": 4,
+       "explanation": "Platelets number 150–400 × 10⁹/L."
+      },
+      {
+       "stem": "Which clotting factors depend on vitamin K?",
+       "options": [
+        "I, V, VIII, XIII",
+        "III, IV, XI, XII",
+        "V, VIII only",
+        "II, VII, IX, X",
+        "VIII and IX only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Factors II, VII, IX and X need vitamin K for γ-carboxylation."
+      },
+      {
+       "stem": "The prothrombin time mainly tests the:",
+       "options": [
+        "Platelet function",
+        "Fibrinolysis",
+        "Intrinsic pathway",
+        "Vascular spasm",
+        "Extrinsic pathway"
+       ],
+       "answerIndex": 4,
+       "explanation": "PT reflects factor VII and the common pathway."
+      },
+      {
+       "stem": "Haemophilia A is a deficiency of factor:",
+       "options": [
+        "VII",
+        "IX",
+        "XIII",
+        "X",
+        "VIII"
+       ],
+       "answerIndex": 4,
+       "explanation": "Haemophilia A = factor VIII; haemophilia B = factor IX."
+      },
+      {
+       "stem": "Platelet adhesion to exposed collagen is mediated by:",
+       "options": [
+        "Fibrinogen",
+        "Heparin",
+        "Thrombin",
+        "Plasmin",
+        "von Willebrand factor"
+       ],
+       "answerIndex": 4,
+       "explanation": "vWF bridges collagen and platelet GPIb."
+      },
+      {
+       "stem": "Aspirin prevents platelet aggregation by inhibiting production of:",
+       "options": [
+        "Prostacyclin only",
+        "ADP",
+        "Factor VIII",
+        "Thromboxane A2",
+        "Fibrin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Aspirin irreversibly inhibits COX-1 in platelets, blocking TXA2."
+      }
+     ]
+    },
+    {
+     "title": "Nerve: Resting Membrane and Action Potentials",
+     "order": 4,
+     "summary": "Resting membrane potential, the action potential, refractory periods and conduction velocity.",
+     "material": [
+      {
+       "heading": "Resting membrane potential",
+       "body": "The resting membrane potential of a nerve is about −70 mV (−90 mV in skeletal muscle), inside negative. It arises mainly from K+ diffusing out through leak channels (the membrane is most permeable to K+ at rest), with a small contribution from the Na+/K+ pump. The equilibrium potential for an ion is given by the Nernst equation (EK ≈ −90 mV; ENa ≈ +60 mV). Hyperkalaemia depolarises the resting membrane.",
+       "keyPoints": [
+        "Nerve RMP ≈ −70 mV",
+        "Mainly due to K+ efflux through leak channels",
+        "EK ≈ −90 mV; ENa ≈ +60 mV"
+       ]
+      },
+      {
+       "heading": "Action potential and conduction",
+       "body": "When depolarisation reaches threshold (about −55 mV), voltage-gated Na+ channels open, Na+ rushes in (depolarisation, overshoot to about +30 mV), then Na+ channels inactivate and voltage-gated K+ channels open (repolarisation), followed by after-hyperpolarisation. The action potential is all-or-none. During the absolute refractory period no stimulus can trigger another spike; during the relative refractory period a stronger stimulus can. Conduction velocity increases with axon diameter and myelination; myelinated fibres conduct by saltatory conduction between nodes of Ranvier (Aα fibres up to 120 m/s; unmyelinated C fibres ~0.5–2 m/s). Local anaesthetics block voltage-gated Na+ channels.",
+       "keyPoints": [
+        "Threshold ≈ −55 mV",
+        "Na+ influx → depolarisation; K+ efflux → repolarisation",
+        "All-or-none",
+        "Myelin + large diameter = fast conduction",
+        "Local anaesthetics block Na+ channels"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The resting membrane potential of a typical neuron is about:",
+       "options": [
+        "+30 mV",
+        "−70 mV",
+        "+60 mV",
+        "−120 mV",
+        "0 mV"
+       ],
+       "answerIndex": 1,
+       "explanation": "Neurons rest at about −70 mV."
+      },
+      {
+       "stem": "The resting membrane potential is mainly due to:",
+       "options": [
+        "Cl− efflux",
+        "Na+ influx",
+        "Active pumping only",
+        "Ca2+ influx",
+        "K+ efflux through leak channels"
+       ],
+       "answerIndex": 4,
+       "explanation": "The membrane is most permeable to K+ at rest."
+      },
+      {
+       "stem": "The depolarisation phase of the action potential is due to:",
+       "options": [
+        "Na+ influx",
+        "Cl− influx",
+        "Ca2+ efflux",
+        "K+ efflux",
+        "Closure of all channels"
+       ],
+       "answerIndex": 0,
+       "explanation": "Voltage-gated Na+ channels open and Na+ enters."
+      },
+      {
+       "stem": "During the absolute refractory period:",
+       "options": [
+        "K+ channels are all closed",
+        "A stronger stimulus can fire the nerve",
+        "No stimulus can generate another action potential",
+        "The membrane is hyperpolarised only",
+        "Conduction is fastest"
+       ],
+       "answerIndex": 2,
+       "explanation": "Na+ channels are inactivated, so no new spike is possible."
+      },
+      {
+       "stem": "Saltatory conduction occurs in:",
+       "options": [
+        "Myelinated fibres",
+        "Unmyelinated C fibres",
+        "All axons equally",
+        "Smooth muscle",
+        "Cardiac muscle"
+       ],
+       "answerIndex": 0,
+       "explanation": "Impulses jump between nodes of Ranvier in myelinated axons."
+      },
+      {
+       "stem": "Lidocaine produces local anaesthesia by blocking:",
+       "options": [
+        "K+ channels",
+        "Na+/K+-ATPase",
+        "Ca2+ channels",
+        "Voltage-gated Na+ channels",
+        "Acetylcholine receptors"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks Na+ channels, preventing action potentials."
+      },
+      {
+       "stem": "The action potential is described as all-or-none because:",
+       "options": [
+        "Its size depends on stimulus strength",
+        "It only occurs in muscle",
+        "It needs no threshold",
+        "It cannot be propagated",
+        "Once threshold is reached, a full spike occurs regardless of stimulus size"
+       ],
+       "answerIndex": 4,
+       "explanation": "Suprathreshold stimuli all produce the same spike amplitude."
+      },
+      {
+       "stem": "Which fibres conduct most slowly?",
+       "options": [
+        "Aα",
+        "Aδ",
+        "C",
+        "B",
+        "Aβ"
+       ],
+       "answerIndex": 2,
+       "explanation": "Unmyelinated C fibres are the slowest (≈ 0.5–2 m/s)."
+      }
+     ]
+    },
+    {
+     "title": "Synapse, Neuromuscular Junction and Muscle Contraction",
+     "order": 5,
+     "summary": "Synaptic transmission, the neuromuscular junction, excitation–contraction coupling and muscle mechanics.",
+     "material": [
+      {
+       "heading": "Neuromuscular junction",
+       "body": "At the neuromuscular junction, an action potential opens voltage-gated Ca2+ channels in the motor nerve terminal; Ca2+ entry triggers exocytosis of acetylcholine (ACh), which binds nicotinic receptors on the motor end-plate, producing an end-plate potential that triggers a muscle action potential. Acetylcholinesterase rapidly breaks down ACh. Myasthenia gravis is caused by autoantibodies against nicotinic ACh receptors and is treated with anticholinesterases (neostigmine, pyridostigmine). Organophosphate insecticides irreversibly inhibit acetylcholinesterase. Curare (tubocurarine) competitively blocks nicotinic receptors; botulinum toxin blocks ACh release.",
+       "keyPoints": [
+        "Ca2+ entry triggers ACh release",
+        "Myasthenia gravis: antibodies to nicotinic receptors",
+        "Organophosphates inhibit acetylcholinesterase",
+        "Botulinum toxin blocks ACh release"
+       ]
+      },
+      {
+       "heading": "Excitation–contraction coupling",
+       "body": "The muscle action potential travels down T-tubules; dihydropyridine receptors trigger ryanodine receptors to release Ca2+ from the sarcoplasmic reticulum. Ca2+ binds troponin C, moving tropomyosin to expose myosin-binding sites on actin; cross-bridge cycling (sliding filament mechanism) shortens the sarcomere, with ATP needed to detach myosin from actin (its absence after death causes rigor mortis). Relaxation requires Ca2+ pumping back into the SR (SERCA). A motor unit is one motor neuron plus the fibres it supplies; force is graded by recruiting motor units and by summation up to tetanus.",
+       "keyPoints": [
+        "Ca2+ binds troponin C",
+        "ATP detaches myosin; no ATP → rigor mortis",
+        "Motor unit = one neuron + its fibres",
+        "Summation → tetanus"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Release of acetylcholine at the nerve terminal is triggered by influx of:",
+       "options": [
+        "K+",
+        "Cl−",
+        "Ca2+",
+        "Na+",
+        "Mg2+"
+       ],
+       "answerIndex": 2,
+       "explanation": "Ca2+ entry causes vesicle fusion and exocytosis."
+      },
+      {
+       "stem": "The receptors on the motor end-plate are:",
+       "options": [
+        "GABA-A",
+        "Muscarinic",
+        "Nicotinic",
+        "Dopaminergic",
+        "Adrenergic α1"
+       ],
+       "answerIndex": 2,
+       "explanation": "Skeletal muscle has nicotinic (Nm) ACh receptors."
+      },
+      {
+       "stem": "Myasthenia gravis is caused by:",
+       "options": [
+        "Antibodies against nicotinic ACh receptors",
+        "Excess acetylcholinesterase",
+        "Low calcium",
+        "Loss of motor neurons",
+        "Muscle fibre necrosis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Autoantibodies reduce functional ACh receptors."
+      },
+      {
+       "stem": "Organophosphate poisoning causes toxicity by:",
+       "options": [
+        "Blocking nicotinic receptors",
+        "Stimulating dopamine release",
+        "Blocking ACh release",
+        "Blocking Na+ channels",
+        "Inhibiting acetylcholinesterase"
+       ],
+       "answerIndex": 4,
+       "explanation": "ACh accumulates at synapses, causing cholinergic crisis."
+      },
+      {
+       "stem": "In skeletal muscle, Ca2+ initiates contraction by binding to:",
+       "options": [
+        "Actin",
+        "Tropomyosin",
+        "Myosin",
+        "Troponin C",
+        "Calmodulin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Troponin C binding moves tropomyosin off actin binding sites."
+      },
+      {
+       "stem": "Rigor mortis occurs because:",
+       "options": [
+        "Calcium is absent",
+        "Nerves keep firing",
+        "Actin is destroyed",
+        "ATP is not available to detach myosin from actin",
+        "Acetylcholine is released continuously"
+       ],
+       "answerIndex": 3,
+       "explanation": "Without ATP, cross-bridges stay locked."
+      },
+      {
+       "stem": "A motor unit consists of:",
+       "options": [
+        "All the neurons to one muscle",
+        "One sarcomere",
+        "One motor neuron and all the muscle fibres it supplies",
+        "A group of muscles",
+        "One muscle fibre and many neurons"
+       ],
+       "answerIndex": 2,
+       "explanation": "This is the basic functional unit of motor control."
+      },
+      {
+       "stem": "Botulinum toxin causes paralysis by:",
+       "options": [
+        "Blocking Na+ channels in muscle",
+        "Depleting ATP",
+        "Blocking acetylcholinesterase",
+        "Stimulating nicotinic receptors",
+        "Preventing acetylcholine release"
+       ],
+       "answerIndex": 4,
+       "explanation": "It cleaves SNARE proteins needed for ACh exocytosis."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

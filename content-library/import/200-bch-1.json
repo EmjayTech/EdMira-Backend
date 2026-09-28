@@ -1,0 +1,689 @@
+{
+ "courses": [
+  {
+   "title": "Biochemistry I: Biomolecules and Enzymes (BCH 201)",
+   "code": "BCH201",
+   "color": "#9333EA",
+   "description": "Structure and function of carbohydrates, lipids, amino acids and proteins, nucleic acids, vitamins, and enzymes with their kinetics.",
+   "audience": [
+    {
+     "level": "200 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "200 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "200 Level",
+     "department": "Anatomy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Biochemistry"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "200 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "200 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "200 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "200 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Carbohydrates",
+     "order": 1,
+     "summary": "Monosaccharides, disaccharides, polysaccharides, isomerism and glycosidic bonds.",
+     "material": [
+      {
+       "heading": "Monosaccharides and disaccharides",
+       "body": "Carbohydrates are polyhydroxy aldehydes or ketones. Glucose and galactose are aldohexoses; fructose is a ketohexose; ribose and deoxyribose are pentoses in nucleic acids. Glucose and galactose are epimers (differ at C-4). In solution, glucose forms α and β ring anomers. Reducing sugars (all monosaccharides, maltose, lactose) reduce Benedict's reagent; sucrose is non-reducing because the anomeric carbons of glucose and fructose are joined. Disaccharides: maltose (glucose–glucose, α1→4), lactose (galactose–glucose, β1→4), sucrose (glucose–fructose, α1→β2).",
+       "keyPoints": [
+        "Glucose: aldohexose; fructose: ketohexose",
+        "Glucose and galactose are C-4 epimers",
+        "Sucrose is non-reducing",
+        "Lactose = galactose + glucose"
+       ]
+      },
+      {
+       "heading": "Polysaccharides",
+       "body": "Starch (plant storage) contains amylose (unbranched α1→4) and amylopectin (α1→4 with α1→6 branches). Glycogen (animal storage in liver and muscle) is like amylopectin but more highly branched. Cellulose is β1→4 linked glucose, which humans cannot digest (dietary fibre). Glycosaminoglycans (e.g. hyaluronic acid, heparin, chondroitin sulphate) are repeating disaccharide units found in connective tissue; heparin is an anticoagulant.",
+       "keyPoints": [
+        "Glycogen: α1→4 with α1→6 branches, highly branched",
+        "Cellulose: β1→4, indigestible fibre",
+        "Heparin is a glycosaminoglycan anticoagulant"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which sugar is a ketohexose?",
+       "options": [
+        "Glucose",
+        "Ribose",
+        "Fructose",
+        "Galactose",
+        "Mannose"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fructose has a ketone group and six carbons."
+      },
+      {
+       "stem": "Which disaccharide is non-reducing?",
+       "options": [
+        "Lactose",
+        "Sucrose",
+        "Cellobiose",
+        "Isomaltose",
+        "Maltose"
+       ],
+       "answerIndex": 1,
+       "explanation": "Both anomeric carbons are involved in the glycosidic bond."
+      },
+      {
+       "stem": "Lactose is composed of:",
+       "options": [
+        "Glucose + glucose",
+        "Glucose + mannose",
+        "Galactose + glucose",
+        "Glucose + fructose",
+        "Galactose + fructose"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lactose is galactose β1→4 glucose."
+      },
+      {
+       "stem": "Glucose and galactose differ in configuration at carbon:",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are C-4 epimers."
+      },
+      {
+       "stem": "Branch points in glycogen are formed by:",
+       "options": [
+        "α1→4 bonds",
+        "α1→6 bonds",
+        "β1→4 bonds",
+        "Peptide bonds",
+        "β1→6 bonds"
+       ],
+       "answerIndex": 1,
+       "explanation": "α1→6 glycosidic bonds create branches."
+      },
+      {
+       "stem": "Humans cannot digest cellulose because it contains:",
+       "options": [
+        "Peptide bonds",
+        "α1→4 bonds",
+        "β1→4 bonds",
+        "Fructose units",
+        "Ester bonds"
+       ],
+       "answerIndex": 2,
+       "explanation": "Humans lack enzymes to hydrolyse β1→4 glucose links."
+      },
+      {
+       "stem": "Benedict's test detects:",
+       "options": [
+        "Nucleic acids",
+        "Reducing sugars",
+        "Lipids",
+        "Starch",
+        "Proteins"
+       ],
+       "answerIndex": 1,
+       "explanation": "Reducing sugars reduce Cu2+ to red Cu2O."
+      },
+      {
+       "stem": "Which is a glycosaminoglycan used as an anticoagulant?",
+       "options": [
+        "Amylose",
+        "Chitin",
+        "Glycogen",
+        "Heparin",
+        "Cellulose"
+       ],
+       "answerIndex": 3,
+       "explanation": "Heparin activates antithrombin III."
+      }
+     ]
+    },
+    {
+     "title": "Lipids and Membranes",
+     "order": 2,
+     "summary": "Fatty acids, triacylglycerols, phospholipids, cholesterol and lipoproteins.",
+     "material": [
+      {
+       "heading": "Fatty acids and lipids",
+       "body": "Fatty acids are long hydrocarbon chains with a carboxyl group; saturated ones (palmitic C16:0, stearic C18:0) have no double bonds; unsaturated ones (oleic C18:1) have one or more. Linoleic (ω-6) and α-linolenic (ω-3) acids are essential fatty acids that must come from the diet. Triacylglycerols (glycerol + three fatty acids) are the main energy store (9 kcal/g). Phospholipids (e.g. phosphatidylcholine/lecithin) are amphipathic and form membrane bilayers. Sphingolipids include sphingomyelin (myelin) and gangliosides.",
+       "keyPoints": [
+        "Essential: linoleic (ω-6), α-linolenic (ω-3)",
+        "Fat yields 9 kcal/g",
+        "Phospholipids are amphipathic"
+       ]
+      },
+      {
+       "heading": "Cholesterol and lipoproteins",
+       "body": "Cholesterol is a steroid that stabilises membranes and is the precursor of bile acids, steroid hormones and vitamin D. Lipoproteins transport lipids: chylomicrons (dietary triglyceride from gut, largest, least dense), VLDL (endogenous triglyceride from liver), LDL ('bad' cholesterol, delivers cholesterol to tissues via the LDL receptor; high levels promote atherosclerosis), and HDL ('good' cholesterol, reverse cholesterol transport to the liver). Familial hypercholesterolaemia results from defective LDL receptors.",
+       "keyPoints": [
+        "Cholesterol → bile acids, steroids, vitamin D",
+        "LDL delivers cholesterol; HDL removes it",
+        "Chylomicrons are largest and least dense"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which fatty acid is essential in the human diet?",
+       "options": [
+        "Linoleic acid",
+        "Butyric acid",
+        "Palmitic acid",
+        "Oleic acid",
+        "Stearic acid"
+       ],
+       "answerIndex": 0,
+       "explanation": "Humans cannot synthesise linoleic (ω-6) acid."
+      },
+      {
+       "stem": "Oxidation of 1 g of fat yields about:",
+       "options": [
+        "4 kcal",
+        "7 kcal",
+        "9 kcal",
+        "12 kcal",
+        "2 kcal"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fats yield about 9 kcal/g versus 4 kcal/g for carbohydrate and protein."
+      },
+      {
+       "stem": "Cholesterol is the precursor of all EXCEPT:",
+       "options": [
+        "Insulin",
+        "Bile acids",
+        "Cortisol",
+        "Vitamin D",
+        "Testosterone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Insulin is a peptide hormone."
+      },
+      {
+       "stem": "The lipoprotein that carries dietary triglyceride from the gut is:",
+       "options": [
+        "IDL",
+        "LDL",
+        "VLDL",
+        "Chylomicron",
+        "HDL"
+       ],
+       "answerIndex": 3,
+       "explanation": "Chylomicrons are formed in enterocytes."
+      },
+      {
+       "stem": "'Good cholesterol' that removes cholesterol from tissues is carried in:",
+       "options": [
+        "LDL",
+        "HDL",
+        "Lipoprotein(a)",
+        "Chylomicrons",
+        "VLDL"
+       ],
+       "answerIndex": 1,
+       "explanation": "HDL mediates reverse cholesterol transport."
+      },
+      {
+       "stem": "Familial hypercholesterolaemia is due to a defect in the:",
+       "options": [
+        "LDL receptor",
+        "Chylomicron synthesis",
+        "HDL receptor",
+        "Lipoprotein lipase",
+        "Bile acid transport"
+       ],
+       "answerIndex": 0,
+       "explanation": "Defective LDL receptors raise plasma LDL."
+      },
+      {
+       "stem": "A molecule with both hydrophilic and hydrophobic parts is described as:",
+       "options": [
+        "Aromatic",
+        "Saturated",
+        "Amphipathic",
+        "Chiral",
+        "Hydrophobic"
+       ],
+       "answerIndex": 2,
+       "explanation": "Phospholipids are amphipathic, forming bilayers."
+      },
+      {
+       "stem": "Oleic acid (C18:1) contains:",
+       "options": [
+        "Two double bonds",
+        "Three double bonds",
+        "A ring structure",
+        "One double bond",
+        "No double bonds"
+       ],
+       "answerIndex": 3,
+       "explanation": "The ':1' indicates one double bond."
+      }
+     ]
+    },
+    {
+     "title": "Amino Acids and Proteins",
+     "order": 3,
+     "summary": "Amino acid classification, peptide bonds, protein structure and denaturation.",
+     "material": [
+      {
+       "heading": "Amino acids",
+       "body": "Twenty standard amino acids share an α-carbon bearing an amino group, a carboxyl group, hydrogen and a variable side chain (R). All except glycine are chiral; proteins contain L-amino acids. At physiological pH they are zwitterions. Classification by R group: non-polar (alanine, valine, leucine), polar uncharged (serine, threonine), acidic (aspartate, glutamate), basic (lysine, arginine, histidine), aromatic (phenylalanine, tyrosine, tryptophan). The nine essential amino acids (PVT TIM HLL: phenylalanine, valine, threonine, tryptophan, isoleucine, methionine, histidine, leucine, lysine) must come from the diet.",
+       "keyPoints": [
+        "Glycine is not chiral",
+        "Proteins use L-amino acids",
+        "Nine essential amino acids"
+       ]
+      },
+      {
+       "heading": "Protein structure",
+       "body": "Primary structure is the amino acid sequence joined by peptide bonds (rigid, planar). Secondary structure is local folding stabilised by hydrogen bonds: α-helix and β-pleated sheet (collagen forms a special triple helix rich in glycine and proline). Tertiary structure is the 3-D folding of one chain, stabilised by hydrophobic interactions, ionic bonds, hydrogen bonds and disulphide bridges (between cysteines). Quaternary structure is the association of subunits (e.g. haemoglobin's four chains). Denaturation (heat, extremes of pH, heavy metals) disrupts higher structure but not peptide bonds.",
+       "keyPoints": [
+        "Primary: sequence (peptide bonds)",
+        "Secondary: α-helix, β-sheet (H-bonds)",
+        "Disulphide bonds between cysteines",
+        "Denaturation spares peptide bonds"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The only standard amino acid that is not optically active is:",
+       "options": [
+        "Alanine",
+        "Cysteine",
+        "Glycine",
+        "Proline",
+        "Serine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Glycine's R group is H, so its α-carbon is not chiral."
+      },
+      {
+       "stem": "Which amino acid is basic?",
+       "options": [
+        "Valine",
+        "Serine",
+        "Lysine",
+        "Aspartate",
+        "Glutamate"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lysine has a positively charged side chain at physiological pH."
+      },
+      {
+       "stem": "Disulphide bridges form between residues of:",
+       "options": [
+        "Methionine",
+        "Histidine",
+        "Cysteine",
+        "Tyrosine",
+        "Serine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cysteine thiol groups oxidise to form disulphide bonds."
+      },
+      {
+       "stem": "The α-helix is stabilised mainly by:",
+       "options": [
+        "Disulphide bonds",
+        "Ionic bonds",
+        "Hydrophobic interactions only",
+        "Peptide bonds",
+        "Hydrogen bonds"
+       ],
+       "answerIndex": 4,
+       "explanation": "Backbone hydrogen bonds stabilise α-helices and β-sheets."
+      },
+      {
+       "stem": "Haemoglobin's four-subunit arrangement is its:",
+       "options": [
+        "Primary structure",
+        "Quaternary structure",
+        "Tertiary structure",
+        "Denatured form",
+        "Secondary structure"
+       ],
+       "answerIndex": 1,
+       "explanation": "Association of multiple polypeptides is quaternary structure."
+      },
+      {
+       "stem": "Denaturation of a protein does NOT break:",
+       "options": [
+        "Hydrogen bonds",
+        "Hydrophobic interactions",
+        "Ionic bonds",
+        "Peptide bonds",
+        "Tertiary folding"
+       ],
+       "answerIndex": 3,
+       "explanation": "Denaturation disrupts higher-order structure but leaves the primary sequence."
+      },
+      {
+       "stem": "Which is an essential amino acid?",
+       "options": [
+        "Leucine",
+        "Glutamate",
+        "Alanine",
+        "Serine",
+        "Glycine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Leucine must be obtained from the diet."
+      },
+      {
+       "stem": "At physiological pH, a free amino acid exists mainly as a:",
+       "options": [
+        "Radical",
+        "Neutral uncharged molecule",
+        "Anion only",
+        "Cation only",
+        "Zwitterion"
+       ],
+       "answerIndex": 4,
+       "explanation": "It carries both NH3+ and COO− groups."
+      }
+     ]
+    },
+    {
+     "title": "Nucleotides, Nucleic Acids and Vitamins",
+     "order": 4,
+     "summary": "Nucleotide structure, DNA and RNA, and water- and fat-soluble vitamins with deficiency states.",
+     "material": [
+      {
+       "heading": "Nucleic acids",
+       "body": "A nucleotide consists of a nitrogenous base, a pentose sugar and phosphate. Purines are adenine and guanine; pyrimidines are cytosine, thymine (DNA) and uracil (RNA). DNA is a double helix (Watson and Crick, 1953) with antiparallel strands, A pairing with T (two hydrogen bonds) and G with C (three hydrogen bonds); Chargaff's rule: A = T and G = C. RNA is single-stranded, contains ribose and uracil; types include mRNA, tRNA and rRNA. ATP is the energy currency of the cell.",
+       "keyPoints": [
+        "Purines: A, G; pyrimidines: C, T, U",
+        "A–T (2 H-bonds); G–C (3 H-bonds)",
+        "RNA: ribose + uracil"
+       ]
+      },
+      {
+       "heading": "Vitamins",
+       "body": "Fat-soluble vitamins: A (night blindness, xerophthalmia), D (rickets in children, osteomalacia in adults), E (haemolysis, neuropathy), K (bleeding). Water-soluble vitamins: B1 thiamine (beriberi, Wernicke's encephalopathy in alcoholics), B2 riboflavin (angular stomatitis), B3 niacin (pellagra: dermatitis, diarrhoea, dementia), B6 pyridoxine (neuropathy, with isoniazid), B9 folate and B12 cobalamin (megaloblastic anaemia; B12 also causes subacute combined degeneration of the cord), C ascorbic acid (scurvy: bleeding gums, poor wound healing). Many B vitamins are coenzyme precursors: B1 → TPP, B2 → FAD, B3 → NAD+.",
+       "keyPoints": [
+        "Vit A → night blindness; D → rickets; K → bleeding",
+        "B1 → beriberi; B3 → pellagra; C → scurvy",
+        "Folate/B12 → megaloblastic anaemia",
+        "Isoniazid → B6 deficiency"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which base is found in RNA but not in DNA?",
+       "options": [
+        "Cytosine",
+        "Thymine",
+        "Guanine",
+        "Uracil",
+        "Adenine"
+       ],
+       "answerIndex": 3,
+       "explanation": "RNA uses uracil instead of thymine."
+      },
+      {
+       "stem": "How many hydrogen bonds join guanine and cytosine?",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       "answerIndex": 2,
+       "explanation": "G–C pairs form three hydrogen bonds; A–T pairs form two."
+      },
+      {
+       "stem": "Which of these is a purine?",
+       "options": [
+        "Uracil",
+        "Adenine",
+        "Orotic acid",
+        "Thymine",
+        "Cytosine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Purines are adenine and guanine."
+      },
+      {
+       "stem": "Pellagra (dermatitis, diarrhoea, dementia) results from deficiency of:",
+       "options": [
+        "Folate",
+        "Thiamine",
+        "Pyridoxine",
+        "Niacin",
+        "Riboflavin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Niacin (B3) deficiency causes pellagra."
+      },
+      {
+       "stem": "Night blindness is an early sign of deficiency of vitamin:",
+       "options": [
+        "A",
+        "E",
+        "D",
+        "K",
+        "C"
+       ],
+       "answerIndex": 0,
+       "explanation": "Vitamin A is needed for rhodopsin."
+      },
+      {
+       "stem": "Beriberi and Wernicke's encephalopathy are due to deficiency of:",
+       "options": [
+        "Vitamin B2",
+        "Vitamin B6",
+        "Vitamin C",
+        "Vitamin B1 (thiamine)",
+        "Vitamin B12"
+       ],
+       "answerIndex": 3,
+       "explanation": "Thiamine is a coenzyme (TPP) for pyruvate dehydrogenase."
+      },
+      {
+       "stem": "Patients on isoniazid should receive supplements of:",
+       "options": [
+        "Vitamin B6 (pyridoxine)",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin D"
+       ],
+       "answerIndex": 0,
+       "explanation": "Isoniazid antagonises pyridoxine, causing neuropathy."
+      },
+      {
+       "stem": "Rickets in children is caused by deficiency of vitamin:",
+       "options": [
+        "C",
+        "D",
+        "K",
+        "A",
+        "B12"
+       ],
+       "answerIndex": 1,
+       "explanation": "Vitamin D deficiency impairs bone mineralisation."
+      }
+     ]
+    },
+    {
+     "title": "Enzymes and Enzyme Kinetics",
+     "order": 5,
+     "summary": "Enzyme classification, coenzymes, Michaelis–Menten kinetics, inhibition and regulation.",
+     "material": [
+      {
+       "heading": "Enzymes and kinetics",
+       "body": "Enzymes are biological catalysts (mostly proteins) that lower activation energy without altering equilibrium. The six IUBMB classes are oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases. Many require cofactors (metal ions) or coenzymes (organic, often vitamin-derived). The Michaelis–Menten equation: v = Vmax[S]/(Km + [S]). Km is the substrate concentration at half Vmax — a low Km means high affinity. The Lineweaver–Burk (double reciprocal) plot gives 1/Vmax as the y-intercept and −1/Km as the x-intercept. Activity varies with temperature and pH (pepsin optimum pH ~2; trypsin ~8).",
+       "keyPoints": [
+        "Enzymes lower activation energy",
+        "Km = [S] at ½Vmax; low Km = high affinity",
+        "Six classes: oxidoreductases → ligases"
+       ]
+      },
+      {
+       "heading": "Inhibition and regulation",
+       "body": "Competitive inhibitors resemble the substrate and bind the active site: Km increases, Vmax unchanged (overcome by more substrate), e.g. statins on HMG-CoA reductase, methotrexate on dihydrofolate reductase. Non-competitive inhibitors bind elsewhere: Vmax decreases, Km unchanged. Irreversible inhibitors include organophosphates (acetylcholinesterase) and aspirin (cyclo-oxygenase). Enzymes are regulated by allosteric effectors, covalent modification (phosphorylation), zymogen activation (trypsinogen → trypsin) and induction or repression of synthesis. Isoenzymes (e.g. LDH, CK-MB) help diagnose tissue damage.",
+       "keyPoints": [
+        "Competitive: ↑Km, Vmax unchanged",
+        "Non-competitive: ↓Vmax, Km unchanged",
+        "Statins competitively inhibit HMG-CoA reductase",
+        "CK-MB and troponin for myocardial injury"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Km is defined as the substrate concentration at which the reaction velocity is:",
+       "options": [
+        "Equal to Vmax",
+        "Minimal",
+        "Half of Vmax",
+        "Zero",
+        "Twice Vmax"
+       ],
+       "answerIndex": 2,
+       "explanation": "Km is [S] giving ½Vmax."
+      },
+      {
+       "stem": "A competitive inhibitor:",
+       "options": [
+        "Decreases both Km and Vmax",
+        "Increases Km, Vmax unchanged",
+        "Decreases Vmax, Km unchanged",
+        "Increases Vmax",
+        "Binds irreversibly always"
+       ],
+       "answerIndex": 1,
+       "explanation": "More substrate can overcome competitive inhibition, so Vmax is unchanged."
+      },
+      {
+       "stem": "Statins lower cholesterol by competitively inhibiting:",
+       "options": [
+        "HMG-CoA reductase",
+        "LCAT",
+        "Fatty acid synthase",
+        "Acetyl-CoA carboxylase",
+        "Lipoprotein lipase"
+       ],
+       "answerIndex": 0,
+       "explanation": "HMG-CoA reductase is the rate-limiting enzyme of cholesterol synthesis."
+      },
+      {
+       "stem": "Enzymes speed up reactions by:",
+       "options": [
+        "Changing the equilibrium constant",
+        "Increasing substrate concentration",
+        "Raising the temperature",
+        "Lowering the activation energy",
+        "Being consumed in the reaction"
+       ],
+       "answerIndex": 3,
+       "explanation": "Catalysts lower activation energy without altering equilibrium."
+      },
+      {
+       "stem": "On a Lineweaver–Burk plot, the y-intercept equals:",
+       "options": [
+        "1/Vmax",
+        "−1/Km",
+        "Km",
+        "Vmax",
+        "Km/Vmax"
+       ],
+       "answerIndex": 0,
+       "explanation": "The double-reciprocal plot intercepts the y-axis at 1/Vmax."
+      },
+      {
+       "stem": "Enzymes that hydrolyse bonds using water belong to the class:",
+       "options": [
+        "Transferases",
+        "Ligases",
+        "Isomerases",
+        "Oxidoreductases",
+        "Hydrolases"
+       ],
+       "answerIndex": 4,
+       "explanation": "Hydrolases include proteases, lipases and amylases."
+      },
+      {
+       "stem": "Organophosphates inhibit acetylcholinesterase:",
+       "options": [
+        "Allosterically only",
+        "Only at high pH",
+        "By increasing Km only",
+        "Competitively and reversibly",
+        "Irreversibly"
+       ],
+       "answerIndex": 4,
+       "explanation": "They phosphorylate the active-site serine."
+      },
+      {
+       "stem": "The optimum pH of pepsin is about:",
+       "options": [
+        "2",
+        "5",
+        "7",
+        "8",
+        "10"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pepsin works best in the acidic stomach."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
