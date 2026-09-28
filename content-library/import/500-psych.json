@@ -1,0 +1,671 @@
+{
+ "courses": [
+  {
+   "title": "Psychiatry",
+   "code": "PSY501",
+   "color": "#9333EA",
+   "description": "Psychiatric assessment, psychotic and mood disorders, anxiety disorders, substance use, child and adolescent psychiatry, and mental health law and services in Nigeria.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Psychiatric Assessment and Mental Health in Nigeria",
+     "order": 1,
+     "summary": "History, mental state examination, risk assessment, and the context of mental health care.",
+     "material": [
+      {
+       "heading": "Assessment",
+       "body": "Psychiatric assessment includes the presenting complaint, history of present illness, past psychiatric and medical history, drug and substance history, family history, personal history (birth, development, education, occupation, relationships, forensic history) and premorbid personality. The mental state examination (MSE) records: appearance and behaviour; speech (rate, volume, flow — pressure of speech in mania); mood (subjective) and affect (objective — blunted, incongruent); thought form (flight of ideas, loosening of associations, thought block) and content (delusions — fixed false beliefs not in keeping with cultural background; overvalued ideas; obsessions; suicidal ideation); perception (hallucinations — perception without a stimulus; illusions); cognition (orientation, attention, memory — MMSE); and insight. Risk assessment covers suicide, self-harm, harm to others and self-neglect. Cultural context matters: beliefs about spiritual causes are common, so distinguishing culturally shared beliefs from delusions is essential.",
+       "keyPoints": [
+        "MSE components",
+        "Mood (subjective) vs affect (objective)",
+        "Delusion: fixed false belief not culturally shared",
+        "Hallucination: no stimulus",
+        "Always assess risk",
+        "Insight"
+       ]
+      },
+      {
+       "heading": "Context in Nigeria",
+       "body": "Mental disorders are common (depression, anxiety, psychosis, substance use), yet there are very few psychiatrists (about 300 for over 200 million people) and most care is delivered in federal neuropsychiatric hospitals (e.g. Yaba, Aro Abeokuta) and by traditional and faith healers, where chaining and other human rights abuses can occur. Stigma is widespread. The treatment gap exceeds 80%. The WHO mhGAP Intervention Guide supports non-specialist health workers to manage priority conditions in primary care (task-sharing). The National Mental Health Act 2021 (replacing the colonial Lunacy Act of 1958) promotes rights-based care, community services, voluntary admission and safeguards for involuntary admission. Attempted suicide was historically criminalised under the Criminal Code; advocacy seeks decriminalisation. Common psychosocial stressors include poverty, insecurity (insurgency, kidnapping), displacement and substance use.",
+       "keyPoints": [
+        "~300 psychiatrists",
+        "Treatment gap > 80%",
+        "mhGAP task-sharing",
+        "National Mental Health Act 2021 (replaced Lunacy Act 1958)",
+        "Human rights abuses in some healing homes",
+        "Stigma"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A fixed false belief not in keeping with a person's cultural and educational background is a:",
+       "options": [
+        "Phobia",
+        "Hallucination",
+        "Obsession",
+        "Illusion",
+        "Delusion"
+       ],
+       "answerIndex": 4,
+       "explanation": "Cultural context must be considered."
+      },
+      {
+       "stem": "Perception without an external stimulus is a:",
+       "options": [
+        "Illusion",
+        "Flight of ideas",
+        "Thought block",
+        "Hallucination",
+        "Delusion"
+       ],
+       "answerIndex": 3,
+       "explanation": "E.g. hearing voices when no one is speaking."
+      },
+      {
+       "stem": "In the mental state examination, the clinician's objective observation of emotional expression is the:",
+       "options": [
+        "Affect",
+        "Cognition",
+        "Thought content",
+        "Insight",
+        "Mood"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mood is the patient's subjective report."
+      },
+      {
+       "stem": "Rapid speech that is difficult to interrupt, typical of mania, is called:",
+       "options": [
+        "Pressure of speech",
+        "Echolalia",
+        "Poverty of speech",
+        "Mutism",
+        "Perseveration"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reflects racing thoughts."
+      },
+      {
+       "stem": "The law that replaced Nigeria's colonial Lunacy Act is the:",
+       "options": [
+        "Child Rights Act",
+        "Criminal Code",
+        "Public Health Act",
+        "National Health Act 2014",
+        "National Mental Health Act 2021"
+       ],
+       "answerIndex": 4,
+       "explanation": "It promotes rights-based mental health care."
+      },
+      {
+       "stem": "The WHO programme that trains non-specialists to manage mental disorders in primary care is:",
+       "options": [
+        "DOTS",
+        "EPI",
+        "HEARTS",
+        "IMCI",
+        "mhGAP"
+       ],
+       "answerIndex": 4,
+       "explanation": "Mental Health Gap Action Programme."
+      },
+      {
+       "stem": "The mental health treatment gap in Nigeria is estimated at over:",
+       "options": [
+        "10%",
+        "30%",
+        "50%",
+        "80%",
+        "5%"
+       ],
+       "answerIndex": 3,
+       "explanation": "Most people receive no formal care."
+      },
+      {
+       "stem": "Every psychiatric assessment should include an evaluation of:",
+       "options": [
+        "Risk to self and others",
+        "Religion only",
+        "Income only",
+        "Blood group",
+        "Height"
+       ],
+       "answerIndex": 0,
+       "explanation": "Suicide and violence risk guide management."
+      }
+     ]
+    },
+    {
+     "title": "Schizophrenia and Psychotic Disorders",
+     "order": 2,
+     "summary": "Features, diagnosis, antipsychotic treatment and substance-induced psychosis.",
+     "material": [
+      {
+       "heading": "Schizophrenia",
+       "body": "Schizophrenia (lifetime prevalence ~1%) usually begins in late adolescence or early adulthood. Positive symptoms: delusions (persecutory, reference, control), hallucinations (third-person auditory hallucinations — running commentary, voices discussing the patient), thought disorder and Schneider's first-rank symptoms (thought insertion, withdrawal, broadcasting, passivity experiences). Negative symptoms: blunted affect, alogia, avolition, social withdrawal and anhedonia. Cognitive deficits affect functioning. Diagnosis requires symptoms for at least 1 month (ICD-11) with exclusion of organic causes (drugs, delirium, epilepsy, HIV, neurosyphilis, thyroid disease). Differentials: brief psychotic disorder (acute and transient, common in Africa with good prognosis), schizoaffective and bipolar disorder, and substance-induced psychosis (cannabis — 'Indian hemp' — tramadol, methamphetamine 'mkpuru mmiri' in south-eastern Nigeria). Good prognostic factors: acute onset, clear precipitant, older onset, female sex, mood symptoms, good premorbid functioning and family support.",
+       "keyPoints": [
+        "Lifetime prevalence ~1%",
+        "Positive vs negative symptoms",
+        "First-rank symptoms",
+        "Exclude organic causes",
+        "Cannabis and methamphetamine psychosis",
+        "Prognostic factors"
+       ]
+      },
+      {
+       "heading": "Treatment",
+       "body": "Antipsychotics are the mainstay: first-generation (haloperidol, chlorpromazine, fluphenazine decanoate depot — widely used in Nigeria; extrapyramidal side effects — acute dystonia, akathisia, parkinsonism, tardive dyskinesia; hyperprolactinaemia) and second-generation (risperidone, olanzapine — weight gain, diabetes, dyslipidaemia; clozapine for treatment-resistant schizophrenia after two failed trials — agranulocytosis monitoring). Long-acting injectable depots help adherence. Neuroleptic malignant syndrome (fever, rigidity, autonomic instability, confusion, raised CK) is an emergency — stop antipsychotic, supportive care, dantrolene/bromocriptine. Psychosocial interventions: psychoeducation for patient and family, family therapy (reducing high expressed emotion), cognitive behavioural therapy for psychosis, social skills training, supported employment and community rehabilitation. Acute agitation: calm de-escalation, then oral or IM haloperidol plus promethazine or a benzodiazepine.",
+       "keyPoints": [
+        "FGA: EPSEs",
+        "SGA: metabolic effects",
+        "Clozapine for treatment resistance",
+        "Depot for adherence",
+        "NMS: fever, rigidity, high CK",
+        "Family psychoeducation; expressed emotion"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Hearing voices discussing the patient in the third person is a:",
+       "options": [
+        "Sign of depression",
+        "Normal experience",
+        "Cognitive symptom",
+        "First-rank symptom of schizophrenia",
+        "Negative symptom"
+       ],
+       "answerIndex": 3,
+       "explanation": "Schneider's first-rank symptoms."
+      },
+      {
+       "stem": "Which is a negative symptom of schizophrenia?",
+       "options": [
+        "Hallucinations",
+        "Agitation",
+        "Avolition (lack of motivation)",
+        "Delusions",
+        "Thought insertion"
+       ],
+       "answerIndex": 2,
+       "explanation": "Negative symptoms are deficits."
+      },
+      {
+       "stem": "A substance strongly associated with psychosis in young Nigerians is:",
+       "options": [
+        "Iron",
+        "Vitamin C",
+        "Paracetamol",
+        "Caffeine",
+        "Cannabis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Methamphetamine is also increasingly implicated."
+      },
+      {
+       "stem": "Clozapine is indicated for schizophrenia that has not responded to:",
+       "options": [
+        "Antidepressants",
+        "One week of treatment",
+        "At least two different antipsychotics at adequate doses",
+        "Benzodiazepines",
+        "Psychotherapy"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is the only drug proven for treatment resistance."
+      },
+      {
+       "stem": "Fever, severe rigidity, confusion and raised CK after starting haloperidol suggest:",
+       "options": [
+        "Malaria",
+        "Akathisia",
+        "Neuroleptic malignant syndrome",
+        "Serotonin syndrome",
+        "Tardive dyskinesia"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is a medical emergency."
+      },
+      {
+       "stem": "Tardive dyskinesia is:",
+       "options": [
+        "Weight gain",
+        "An acute reaction in hours",
+        "Muscle spasm of the neck",
+        "Restlessness",
+        "Late-onset involuntary movements after long-term antipsychotic use"
+       ],
+       "answerIndex": 4,
+       "explanation": "It may be irreversible."
+      },
+      {
+       "stem": "Family interventions in schizophrenia aim to reduce:",
+       "options": [
+        "Medication adherence",
+        "Hospital visits",
+        "Family contact",
+        "Employment",
+        "High expressed emotion that predicts relapse"
+       ],
+       "answerIndex": 4,
+       "explanation": "Criticism and hostility increase relapse."
+      },
+      {
+       "stem": "A long-acting antipsychotic injection widely used in Nigeria to improve adherence is:",
+       "options": [
+        "Haloperidol tablets",
+        "Diazepam",
+        "Lithium",
+        "Amitriptyline",
+        "Fluphenazine decanoate depot"
+       ],
+       "answerIndex": 4,
+       "explanation": "Given every 2–4 weeks."
+      }
+     ]
+    },
+    {
+     "title": "Mood and Anxiety Disorders",
+     "order": 3,
+     "summary": "Depression, bipolar disorder, suicide, anxiety and trauma-related disorders.",
+     "material": [
+      {
+       "heading": "Mood disorders",
+       "body": "Depression: persistent low mood, loss of interest or pleasure (anhedonia), fatigue, sleep and appetite change, poor concentration, guilt, psychomotor change and suicidal thoughts for at least 2 weeks. In Nigeria, depression often presents with somatic complaints ('heat in the head', crawling sensations, body pains). Screen with PHQ-9. Treatment: psychoeducation, psychological therapies (CBT, problem-solving therapy, interpersonal therapy — deliverable by trained lay workers, e.g. the Friendship Bench model), and antidepressants (SSRIs — fluoxetine, sertraline; amitriptyline widely available but toxic in overdose); ECT for severe or psychotic depression. Bipolar disorder: episodes of mania (elevated or irritable mood, reduced need for sleep, grandiosity, pressured speech, flight of ideas, risky behaviour, lasting ≥ 1 week) and depression; treat mania with antipsychotics and mood stabilisers (lithium — narrow therapeutic range, monitor levels, renal and thyroid function; valproate — avoid in women of childbearing potential; carbamazepine). Suicide risk factors: previous attempt, depression, substance use, hopelessness, chronic illness, male sex, social isolation; pesticide ingestion is a common method in Nigeria.",
+       "keyPoints": [
+        "Depression ≥ 2 weeks",
+        "Somatic presentations",
+        "PHQ-9",
+        "Lay-delivered therapy",
+        "Mania ≥ 1 week",
+        "Lithium monitoring",
+        "Pesticide suicides"
+       ]
+      },
+      {
+       "heading": "Anxiety and trauma",
+       "body": "Generalised anxiety disorder (excessive worry ≥ 6 months with muscle tension, restlessness, poor sleep), panic disorder (recurrent unexpected panic attacks with fear of further attacks), phobias (social, specific, agoraphobia) and obsessive–compulsive disorder (obsessions and compulsions — SSRIs and exposure and response prevention). Post-traumatic stress disorder follows traumatic events (insurgency in the north-east, kidnapping, banditry, sexual violence, road crashes): re-experiencing (flashbacks, nightmares), avoidance, negative mood and hyperarousal for more than a month; treated with trauma-focused CBT or EMDR, and SSRIs. Acute stress reactions and adjustment disorders are common after disasters; psychological first aid supports affected communities. Treatment of anxiety disorders: CBT, SSRIs; avoid long-term benzodiazepines (dependence).",
+       "keyPoints": [
+        "GAD ≥ 6 months",
+        "Panic disorder",
+        "OCD: ERP + SSRI",
+        "PTSD: flashbacks, avoidance, hyperarousal > 1 month",
+        "Trauma-focused CBT, EMDR",
+        "Avoid long-term benzodiazepines"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Major depression requires symptoms lasting at least:",
+       "options": [
+        "2 days",
+        "2 weeks",
+        "6 months",
+        "1 year",
+        "1 day"
+       ],
+       "answerIndex": 1,
+       "explanation": "With low mood or anhedonia."
+      },
+      {
+       "stem": "Loss of interest or pleasure in previously enjoyed activities is called:",
+       "options": [
+        "Apathy only",
+        "Alogia",
+        "Anhedonia",
+        "Akathisia",
+        "Avolition"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is a core symptom of depression."
+      },
+      {
+       "stem": "The first-line antidepressant class is:",
+       "options": [
+        "Benzodiazepines",
+        "Tricyclic antidepressants",
+        "SSRIs",
+        "Antipsychotics",
+        "MAOIs"
+       ],
+       "answerIndex": 2,
+       "explanation": "They are safer in overdose."
+      },
+      {
+       "stem": "Reduced need for sleep, grandiosity and pressured speech for a week suggest:",
+       "options": [
+        "Schizophrenia only",
+        "Anxiety",
+        "Mania (bipolar disorder)",
+        "Depression",
+        "Dementia"
+       ],
+       "answerIndex": 2,
+       "explanation": "Mania lasts at least a week or needs admission."
+      },
+      {
+       "stem": "Patients on lithium require regular monitoring of:",
+       "options": [
+        "Vision",
+        "Blood glucose only",
+        "Hearing",
+        "Liver enzymes only",
+        "Serum lithium levels, renal and thyroid function"
+       ],
+       "answerIndex": 4,
+       "explanation": "It has a narrow therapeutic window."
+      },
+      {
+       "stem": "A common method of suicide in rural Nigeria is:",
+       "options": [
+        "Firearms",
+        "Carbon monoxide",
+        "Jumping from bridges",
+        "Ingestion of pesticides",
+        "Drowning only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Restricting access to pesticides saves lives."
+      },
+      {
+       "stem": "Flashbacks, avoidance and hyperarousal more than a month after a kidnapping suggest:",
+       "options": [
+        "OCD",
+        "Generalised anxiety disorder",
+        "Mania",
+        "Schizophrenia",
+        "Post-traumatic stress disorder"
+       ],
+       "answerIndex": 4,
+       "explanation": "Trauma-focused therapy is effective."
+      },
+      {
+       "stem": "Long-term benzodiazepine use for anxiety is discouraged because of:",
+       "options": [
+        "Diabetes",
+        "Liver failure",
+        "Dependence and tolerance",
+        "Hypertension",
+        "Weight gain"
+       ],
+       "answerIndex": 2,
+       "explanation": "SSRIs and CBT are preferred."
+      }
+     ]
+    },
+    {
+     "title": "Substance Use Disorders",
+     "order": 4,
+     "summary": "Alcohol, cannabis, opioids (tramadol, codeine), stimulants, withdrawal and management.",
+     "material": [
+      {
+       "heading": "Patterns and assessment",
+       "body": "Nigeria's National Drug Use Survey (2018) found about 14% of adults (14.3 million) used drugs other than alcohol and tobacco in the past year — mainly cannabis, followed by non-medical use of prescription opioids (tramadol, codeine cough syrup), cough syrups and sedatives, with rising methamphetamine and inhalant use; alcohol (including local brews such as ogogoro and burukutu) is widely used. Dependence (ICD-11) involves impaired control, increasing priority over other activities, and physiological features (tolerance, withdrawal). Screening tools: AUDIT for alcohol, ASSIST for other substances, CAGE. Complications: psychosis, depression, suicide, accidents, violence, liver disease (alcohol), HIV and hepatitis (injecting), seizures (tramadol toxicity), and social harms. Brief interventions using motivational interviewing are effective in primary care.",
+       "keyPoints": [
+        "~14% adults used drugs (2018 survey)",
+        "Cannabis commonest",
+        "Tramadol and codeine misuse",
+        "Dependence: impaired control, tolerance, withdrawal",
+        "AUDIT, ASSIST",
+        "Brief intervention"
+       ]
+      },
+      {
+       "heading": "Withdrawal and treatment",
+       "body": "Alcohol withdrawal begins 6–24 hours after the last drink: tremor, sweating, anxiety, tachycardia; seizures (12–48 hours); delirium tremens (48–72 hours — confusion, hallucinations, autonomic instability; potentially fatal). Treat with benzodiazepines (chlordiazepoxide or diazepam — reducing regimen) and thiamine (IV Pabrinex before glucose to prevent Wernicke's encephalopathy — confusion, ataxia, ophthalmoplegia; untreated can lead to Korsakoff's syndrome with amnesia and confabulation). Relapse prevention: acamprosate, naltrexone, disulfiram, psychosocial support, Alcoholics Anonymous. Opioid withdrawal (yawning, rhinorrhoea, dilated pupils, piloerection, diarrhoea, cramps) is unpleasant but rarely dangerous; opioid agonist treatment (methadone — introduced in Nigeria in 2021 in a pilot programme — or buprenorphine) and naloxone for overdose. Treatment settings include drug rehabilitation units in neuropsychiatric hospitals, NDLEA centres and NGOs; harm reduction (needle and syringe programmes) reduces HIV transmission among people who inject drugs.",
+       "keyPoints": [
+        "Alcohol withdrawal 6–24 h; DTs 48–72 h",
+        "Benzodiazepine reducing regimen",
+        "Thiamine before glucose",
+        "Wernicke's triad",
+        "Methadone pilot 2021",
+        "Harm reduction"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most commonly used illicit drug in Nigeria is:",
+       "options": [
+        "Methamphetamine",
+        "Cocaine",
+        "LSD",
+        "Heroin",
+        "Cannabis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Followed by prescription opioid misuse."
+      },
+      {
+       "stem": "A prescription opioid widely misused among young Nigerians is:",
+       "options": [
+        "Amoxicillin",
+        "Metformin",
+        "Tramadol",
+        "Morphine only",
+        "Paracetamol"
+       ],
+       "answerIndex": 2,
+       "explanation": "High-dose tramadol was banned."
+      },
+      {
+       "stem": "Delirium tremens typically begins how long after the last drink?",
+       "options": [
+        "1–2 hours",
+        "48–72 hours",
+        "2 weeks",
+        "1 month",
+        "6 months"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a medical emergency."
+      },
+      {
+       "stem": "The first-line drug class for alcohol withdrawal is:",
+       "options": [
+        "Opioids",
+        "Antidepressants",
+        "Beta-blockers alone",
+        "Benzodiazepines",
+        "Antipsychotics"
+       ],
+       "answerIndex": 3,
+       "explanation": "They prevent seizures and DTs."
+      },
+      {
+       "stem": "To prevent Wernicke's encephalopathy in alcohol-dependent patients, give:",
+       "options": [
+        "Vitamin C",
+        "Thiamine before glucose",
+        "Glucose first",
+        "Folic acid only",
+        "Iron"
+       ],
+       "answerIndex": 1,
+       "explanation": "Glucose can precipitate Wernicke's in thiamine deficiency."
+      },
+      {
+       "stem": "Confusion, ataxia and ophthalmoplegia in an alcohol-dependent patient suggest:",
+       "options": [
+        "Delirium tremens",
+        "Stroke",
+        "Hepatic encephalopathy only",
+        "Wernicke's encephalopathy",
+        "Korsakoff's syndrome only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Give IV thiamine urgently."
+      },
+      {
+       "stem": "Opioid overdose is reversed with:",
+       "options": [
+        "Diazepam",
+        "Atropine",
+        "Thiamine",
+        "Flumazenil",
+        "Naloxone"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a competitive opioid antagonist."
+      },
+      {
+       "stem": "The screening tool specific for hazardous alcohol use is:",
+       "options": [
+        "PHQ-9",
+        "MMSE",
+        "Apgar",
+        "AUDIT",
+        "GAD-7"
+       ],
+       "answerIndex": 3,
+       "explanation": "Alcohol Use Disorders Identification Test."
+      }
+     ]
+    },
+    {
+     "title": "Child, Adolescent and Organic Psychiatry",
+     "order": 5,
+     "summary": "ADHD, autism, intellectual disability, delirium and dementia, and epilepsy-related psychiatric problems.",
+     "material": [
+      {
+       "heading": "Child and adolescent",
+       "body": "Neurodevelopmental disorders: intellectual disability (IQ < 70 with deficits in adaptive functioning; causes include birth asphyxia, kernicterus, infections, malnutrition, iodine deficiency, Down syndrome and fragile X), autism spectrum disorder (persistent deficits in social communication and restricted, repetitive behaviours from early childhood; early intervention — behavioural and communication therapies; awareness is growing in Nigeria), and ADHD (inattention, hyperactivity and impulsivity in more than one setting before age 12; parent training, school support and stimulants like methylphenidate). Adolescents face depression, anxiety, substance use, self-harm, conduct problems and eating disorders; confidentiality and involvement of family and school are balanced. Child abuse, 'almajiri' deprivation, bullying and exam stress affect mental health. School mental health programmes promote early detection.",
+       "keyPoints": [
+        "ID: IQ < 70 + adaptive deficits",
+        "Autism: social communication + repetitive behaviours",
+        "ADHD: before 12, multiple settings",
+        "Methylphenidate",
+        "Adolescent self-harm and substance use"
+       ]
+      },
+      {
+       "heading": "Organic psychiatry",
+       "body": "Delirium is an acute, fluctuating disturbance of attention and awareness with disorganised thinking, caused by a medical condition (infection — malaria, sepsis, pneumonia, UTI; drugs; alcohol or sedative withdrawal; hypoxia; metabolic — hypoglycaemia, electrolyte and renal/hepatic failure; post-operative). It is common in the elderly and in hospital; hypoactive delirium is easily missed. Management: identify and treat the cause, reorientation, family presence, good lighting, avoid restraints and unnecessary sedation (low-dose haloperidol for severe agitation). Dementia is chronic progressive cognitive decline impairing daily function — Alzheimer's disease (commonest), vascular dementia (stroke, hypertension), HIV-associated neurocognitive disorder, and others; screen with MMSE or culturally adapted tools (e.g. the Community Screening Interview for Dementia used in Ibadan studies); exclude reversible causes (B12, thyroid, syphilis, depression — 'pseudodementia'); support carers. Epilepsy is associated with depression, psychosis and stigma.",
+       "keyPoints": [
+        "Delirium: acute, fluctuating attention",
+        "Treat the cause",
+        "Hypoactive delirium missed",
+        "Dementia: chronic, progressive",
+        "Exclude reversible causes",
+        "Support carers"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Intellectual disability is characterised by IQ below about 70 and:",
+       "options": [
+        "Mania",
+        "Onset after age 30",
+        "Hallucinations",
+        "Normal adaptive functioning",
+        "Deficits in adaptive functioning"
+       ],
+       "answerIndex": 4,
+       "explanation": "Onset is in the developmental period."
+      },
+      {
+       "stem": "Persistent deficits in social communication with repetitive behaviours from early childhood suggest:",
+       "options": [
+        "Schizophrenia",
+        "Depression",
+        "Intellectual disability only",
+        "Autism spectrum disorder",
+        "ADHD"
+       ],
+       "answerIndex": 3,
+       "explanation": "Early intervention improves outcomes."
+      },
+      {
+       "stem": "ADHD symptoms must be present in more than one setting and begin before age:",
+       "options": [
+        "3",
+        "12",
+        "18",
+        "25",
+        "6 only"
+       ],
+       "answerIndex": 1,
+       "explanation": "E.g. both at home and school."
+      },
+      {
+       "stem": "The stimulant medication commonly used for ADHD is:",
+       "options": [
+        "Haloperidol",
+        "Lithium",
+        "Diazepam",
+        "Methylphenidate",
+        "Fluoxetine"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves attention."
+      },
+      {
+       "stem": "An acute, fluctuating disturbance of attention in a hospitalised elderly patient with pneumonia is:",
+       "options": [
+        "Delirium",
+        "Depression",
+        "Mania",
+        "Dementia",
+        "Schizophrenia"
+       ],
+       "answerIndex": 0,
+       "explanation": "Treat the underlying cause."
+      },
+      {
+       "stem": "The most important step in managing delirium is:",
+       "options": [
+        "Long-term antipsychotics",
+        "Physical restraint",
+        "Identifying and treating the underlying cause",
+        "ECT",
+        "Heavy sedation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Delirium is a medical emergency."
+      },
+      {
+       "stem": "The most common cause of dementia is:",
+       "options": [
+        "Vascular dementia",
+        "HIV",
+        "Syphilis",
+        "Head injury",
+        "Alzheimer's disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Vascular dementia is second."
+      },
+      {
+       "stem": "A potentially reversible cause of cognitive decline that must be excluded is:",
+       "options": [
+        "Alzheimer's disease",
+        "Down syndrome",
+        "Old age",
+        "Vitamin B12 deficiency or hypothyroidism",
+        "Huntington's disease"
+       ],
+       "answerIndex": 3,
+       "explanation": "Treating these can restore cognition."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

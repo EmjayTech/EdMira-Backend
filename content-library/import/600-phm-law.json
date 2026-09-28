@@ -1,0 +1,659 @@
+{
+ "courses": [
+  {
+   "title": "Pharmacy Law, Ethics and Practice",
+   "code": "PHM601",
+   "color": "#7C3AED",
+   "description": "Legal framework of pharmacy practice in Nigeria, regulatory agencies, drug classification and control, professional ethics, and community pharmacy practice.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "600 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Pharmacy Legislation in Nigeria",
+     "order": 1,
+     "summary": "The PCN Act 2022, registration and licensing, premises and regulatory offences.",
+     "material": [
+      {
+       "heading": "Pharmacy Council of Nigeria",
+       "body": "The Pharmacy Council of Nigeria (PCN) regulates the education, training and practice of pharmacy. The Pharmacy Council of Nigeria (Establishment) Act 2022 replaced the Pharmacists Council of Nigeria Act (Cap P17 LFN 2004). PCN functions include: registering and licensing pharmacists (annual licence renewal with mandatory continuing professional development — MCPD), registering pharmacy technicians and patent and proprietary medicine vendors (PPMVs), accrediting pharmacy schools and internship sites, registering and inspecting pharmaceutical premises (community pharmacies, hospital pharmacies, wholesale, manufacturing), and discipline through the Pharmacists Investigating Panel and the Pharmacists Disciplinary Tribunal. Every registered pharmacy must be under the supervision of a superintendent pharmacist. A one-year internship is required before full registration.",
+       "keyPoints": [
+        "PCN Act 2022",
+        "Annual licence + MCPD",
+        "Registers PPMVs and technicians",
+        "Premises registration and inspection",
+        "Disciplinary Tribunal",
+        "One-year internship"
+       ]
+      },
+      {
+       "heading": "Related laws",
+       "body": "Other key laws: the NAFDAC Act (Cap N1 LFN 2004) — registration and control of drugs, food, cosmetics, medical devices and chemicals; the Food, Drugs and Related Products (Registration, etc.) Act; the Counterfeit and Fake Drugs and Unwholesome Processed Foods (Miscellaneous Provisions) Act — offences for manufacturing, selling or distributing fake drugs and selling drugs in unregistered premises (e.g. open markets); the Poisons and Pharmacy Act (Cap P6) — historical classification of poisons; the Dangerous Drugs Act (Cap D1) and NDLEA Act — narcotic control; and the National Health Act 2014. The National Drug Distribution Guidelines (NDDG) restrict sale of medicines to coordinated wholesale centres, aiming to close open drug markets such as Idumota (Lagos), Onitsha Bridgehead and Kano Sabon Gari.",
+       "keyPoints": [
+        "NAFDAC Act",
+        "Counterfeit and Fake Drugs Act",
+        "Dangerous Drugs Act; NDLEA",
+        "NDDG: coordinated wholesale centres",
+        "Open drug markets"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The body that regulates pharmacy education and practice in Nigeria is the:",
+       "options": [
+        "NAFDAC",
+        "PSN",
+        "MDCN",
+        "Pharmacy Council of Nigeria",
+        "NDLEA"
+       ],
+       "answerIndex": 3,
+       "explanation": "PCN registers pharmacists and premises."
+      },
+      {
+       "stem": "The current law establishing the Pharmacy Council of Nigeria was enacted in:",
+       "options": [
+        "1992",
+        "2004",
+        "2014",
+        "2022",
+        "2010"
+       ],
+       "answerIndex": 3,
+       "explanation": "The PCN (Establishment) Act 2022."
+      },
+      {
+       "stem": "Patent and proprietary medicine vendors are registered by:",
+       "options": [
+        "Local governments only",
+        "PCN",
+        "NHIA",
+        "NDLEA",
+        "NAFDAC"
+       ],
+       "answerIndex": 1,
+       "explanation": "PCN licenses PPMVs."
+      },
+      {
+       "stem": "Every registered pharmacy premises must be under the supervision of a:",
+       "options": [
+        "Nurse",
+        "Medical doctor",
+        "PPMV",
+        "Superintendent pharmacist",
+        "Pharmacy technician"
+       ],
+       "answerIndex": 3,
+       "explanation": "Personal supervision is a legal requirement."
+      },
+      {
+       "stem": "The law that punishes the sale of fake drugs and sale of drugs in unregistered premises is the:",
+       "options": [
+        "Pharmacy Council Act only",
+        "National Health Act",
+        "Counterfeit and Fake Drugs and Unwholesome Processed Foods Act",
+        "Labour Act",
+        "Child Rights Act"
+       ],
+       "answerIndex": 2,
+       "explanation": "It targets fake drug distribution."
+      },
+      {
+       "stem": "The National Drug Distribution Guidelines aim to replace open drug markets with:",
+       "options": [
+        "Supermarkets",
+        "Street hawking",
+        "Hospital pharmacies only",
+        "Online-only sales",
+        "Coordinated wholesale centres"
+       ],
+       "answerIndex": 4,
+       "explanation": "This improves drug supply chain integrity."
+      },
+      {
+       "stem": "Pharmacists must renew their licences annually and complete:",
+       "options": [
+        "A thesis",
+        "A residency",
+        "A drug test",
+        "A new degree",
+        "Mandatory continuing professional development"
+       ],
+       "answerIndex": 4,
+       "explanation": "MCPD keeps knowledge current."
+      },
+      {
+       "stem": "Professional misconduct by pharmacists is tried by the:",
+       "options": [
+        "Supreme Court only",
+        "NAFDAC",
+        "Pharmacists Disciplinary Tribunal",
+        "PSN",
+        "Police"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Investigating Panel refers cases to it."
+      }
+     ]
+    },
+    {
+     "title": "Drug Regulation and Controlled Substances",
+     "order": 2,
+     "summary": "NAFDAC registration, drug classification (POM, P, OTC), controlled drugs and records.",
+     "material": [
+      {
+       "heading": "NAFDAC and classification",
+       "body": "NAFDAC (National Agency for Food and Drug Administration and Control, established 1993) registers regulated products (each gets a NAFDAC registration number), inspects manufacturing (GMP), controls imports and exports, tests quality, and conducts pharmacovigilance and post-marketing surveillance. Anti-counterfeiting tools include the Mobile Authentication Service (MAS — scratch-and-text codes), TruScan handheld spectrometers and Black Eye. Medicines are classified by access: Prescription-Only Medicines (POM — dispensed only on a valid prescription, e.g. antibiotics, antihypertensives), Pharmacy medicines (P — sold only in pharmacies under pharmacist supervision) and Over-the-Counter / General Sales List medicines (OTC — e.g. paracetamol in small packs; PPMVs may sell only OTC medicines on their approved list). Dispensing antibiotics without prescription contributes to antimicrobial resistance.",
+       "keyPoints": [
+        "NAFDAC est. 1993",
+        "NAFDAC registration number",
+        "MAS scratch codes",
+        "POM, P, OTC",
+        "PPMVs: OTC list only"
+       ]
+      },
+      {
+       "heading": "Controlled drugs",
+       "body": "Narcotic and psychotropic substances are controlled under the Dangerous Drugs Act, NDLEA Act and international conventions (Single Convention on Narcotic Drugs 1961, Convention on Psychotropic Substances 1971, 1988 Convention against Illicit Traffic). The Federal Ministry of Health (through its Narcotics Control) and NAFDAC issue import permits and estimates to the International Narcotics Control Board (INCB). Pharmacies must keep a controlled drugs register recording each receipt and supply (date, name and address, prescriber, quantity, balance), store controlled drugs in a locked cabinet, and dispose of expired stock under supervision. Nigeria has low access to opioids for pain relief yet high misuse of tramadol and codeine; codeine-containing cough syrup importation was banned in 2018, and tramadol above 100 mg was banned.",
+       "keyPoints": [
+        "1961, 1971, 1988 conventions",
+        "INCB estimates",
+        "Controlled drugs register",
+        "Locked cabinet",
+        "Codeine syrup ban 2018",
+        "Tramadol > 100 mg banned"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "NAFDAC was established in:",
+       "options": [
+        "1960",
+        "1993",
+        "2004",
+        "2014",
+        "1985"
+       ],
+       "answerIndex": 1,
+       "explanation": "Decree No. 15 of 1993."
+      },
+      {
+       "stem": "The Mobile Authentication Service allows consumers to:",
+       "options": [
+        "Order drugs online",
+        "Verify genuine medicines by texting a scratch code",
+        "Check prescriptions",
+        "Find pharmacies",
+        "Report doctors"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is an anti-counterfeiting tool."
+      },
+      {
+       "stem": "A medicine that can only be dispensed on a valid prescription is classified as:",
+       "options": [
+        "POM",
+        "Herbal",
+        "OTC",
+        "GSL",
+        "P only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Prescription-Only Medicine."
+      },
+      {
+       "stem": "Patent medicine vendors may legally sell:",
+       "options": [
+        "Controlled drugs",
+        "Injectable antibiotics",
+        "Any antibiotic",
+        "Only over-the-counter medicines on their approved list",
+        "Cancer drugs"
+       ],
+       "answerIndex": 3,
+       "explanation": "Their scope is restricted."
+      },
+      {
+       "stem": "The international body that monitors narcotic drug estimates is the:",
+       "options": [
+        "WHO",
+        "UNICEF",
+        "International Narcotics Control Board (INCB)",
+        "World Bank",
+        "Interpol"
+       ],
+       "answerIndex": 2,
+       "explanation": "Countries submit annual estimates."
+      },
+      {
+       "stem": "Controlled drugs in a pharmacy must be:",
+       "options": [
+        "Displayed on open shelves",
+        "Given to any customer",
+        "Sold without records",
+        "Kept at home",
+        "Stored in a locked cabinet with a register kept"
+       ],
+       "answerIndex": 4,
+       "explanation": "Security and records prevent diversion."
+      },
+      {
+       "stem": "Importation of codeine-containing cough syrups was banned in Nigeria in:",
+       "options": [
+        "2008",
+        "2018",
+        "2023",
+        "1999",
+        "2012"
+       ],
+       "answerIndex": 1,
+       "explanation": "After widespread misuse among youths."
+      },
+      {
+       "stem": "Dispensing antibiotics without a prescription contributes mainly to:",
+       "options": [
+        "Antimicrobial resistance",
+        "Improved adherence",
+        "Vaccine uptake",
+        "Better patient care",
+        "Lower drug prices"
+       ],
+       "answerIndex": 0,
+       "explanation": "Inappropriate use drives resistance."
+      }
+     ]
+    },
+    {
+     "title": "Professional Ethics",
+     "order": 3,
+     "summary": "Code of ethics, principles of biomedical ethics, confidentiality and professional conduct.",
+     "material": [
+      {
+       "heading": "Ethical principles",
+       "body": "The four principles of biomedical ethics (Beauchamp and Childress): autonomy (respect patients' informed choices), beneficence (act for the patient's good), non-maleficence (do no harm) and justice (fair distribution of resources and equal treatment). Additional duties: veracity (truth-telling), fidelity and confidentiality. The PCN Code of Ethics for Pharmacists in Nigeria requires pharmacists to make the patient's well-being their first concern, maintain competence, respect confidentiality, avoid conflicts of interest, refrain from advertising in misleading ways, refuse to supply medicines where misuse is suspected, collaborate with other health professionals, and uphold the dignity of the profession. Consent must be informed and voluntary.",
+       "keyPoints": [
+        "Autonomy, beneficence, non-maleficence, justice",
+        "Patient welfare first",
+        "Confidentiality",
+        "Avoid conflicts of interest",
+        "Refuse supply if misuse suspected"
+       ]
+      },
+      {
+       "heading": "Dilemmas and conduct",
+       "body": "Common ethical dilemmas: requests for medicines without prescription (e.g. antibiotics, abortifacients), suspected prescription errors (the pharmacist must contact the prescriber rather than dispense or silently alter), confidentiality with HIV-positive patients versus partner protection, conscientious objection (e.g. to emergency contraception — must refer the patient elsewhere without delay), inducements from pharmaceutical companies, and dispensing in emergencies. Professional misconduct includes dispensing without a licence, allowing unqualified staff to dispense unsupervised, selling fake or expired drugs, falsifying records and bringing the profession into disrepute. The pharmacist's oath and the Pharmaceutical Society of Nigeria (PSN — the professional association, distinct from the regulator PCN) promote standards.",
+       "keyPoints": [
+        "Contact prescriber about errors",
+        "Conscientious objection: refer",
+        "Avoid inducements",
+        "Misconduct examples",
+        "PSN: association; PCN: regulator"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Respecting a patient's right to make informed decisions about their treatment reflects the principle of:",
+       "options": [
+        "Justice",
+        "Non-maleficence",
+        "Autonomy",
+        "Beneficence",
+        "Fidelity"
+       ],
+       "answerIndex": 2,
+       "explanation": "Autonomy is self-determination."
+      },
+      {
+       "stem": "'Do no harm' is the principle of:",
+       "options": [
+        "Autonomy",
+        "Non-maleficence",
+        "Justice",
+        "Veracity",
+        "Beneficence"
+       ],
+       "answerIndex": 1,
+       "explanation": "It prohibits causing harm."
+      },
+      {
+       "stem": "When a pharmacist notices a likely dosing error on a prescription, they should:",
+       "options": [
+        "Dispense as written",
+        "Silently change the dose",
+        "Contact the prescriber to clarify",
+        "Ask the patient to decide",
+        "Refuse and send the patient away"
+       ],
+       "answerIndex": 2,
+       "explanation": "Clarification protects the patient."
+      },
+      {
+       "stem": "A pharmacist who conscientiously objects to supplying emergency contraception should:",
+       "options": [
+        "Refuse without explanation",
+        "Give a placebo",
+        "Refer the patient promptly to another provider",
+        "Lecture the patient",
+        "Report the patient"
+       ],
+       "answerIndex": 2,
+       "explanation": "The patient's access must not be obstructed."
+      },
+      {
+       "stem": "The professional association of pharmacists in Nigeria (distinct from the regulator) is the:",
+       "options": [
+        "Pharmaceutical Society of Nigeria (PSN)",
+        "NMA",
+        "NAFDAC",
+        "PCN",
+        "NHIA"
+       ],
+       "answerIndex": 0,
+       "explanation": "PSN is the association."
+      },
+      {
+       "stem": "Fair distribution of scarce medicines among patients reflects the principle of:",
+       "options": [
+        "Beneficence",
+        "Confidentiality",
+        "Veracity",
+        "Autonomy",
+        "Justice"
+       ],
+       "answerIndex": 4,
+       "explanation": "Justice concerns fairness."
+      },
+      {
+       "stem": "Which is an example of professional misconduct by a pharmacist?",
+       "options": [
+        "Checking prescriptions",
+        "Reporting ADRs",
+        "Selling expired or fake drugs",
+        "Attending CPD",
+        "Counselling patients"
+       ],
+       "answerIndex": 2,
+       "explanation": "It endangers patients."
+      },
+      {
+       "stem": "Accepting expensive gifts from a drug company in exchange for promoting its products is a:",
+       "options": [
+        "Required activity",
+        "CPD credit",
+        "Conflict of interest",
+        "Legal obligation",
+        "Normal practice"
+       ],
+       "answerIndex": 2,
+       "explanation": "It compromises professional judgement."
+      }
+     ]
+    },
+    {
+     "title": "Community Pharmacy Practice",
+     "order": 4,
+     "summary": "Dispensing process, prescription requirements, counselling, and public health roles.",
+     "material": [
+      {
+       "heading": "Dispensing",
+       "body": "A valid prescription includes: patient's name, age (and weight for children), address; date; drug name (preferably generic), strength, dosage form, dose, frequency, duration and quantity; prescriber's name, signature and registration details. The dispensing process: receive and validate the prescription (legality, clinical appropriateness, interactions, allergies), prepare and select the product, label (patient name, drug, strength, directions in clear language, date, pharmacy name, warnings), perform a final check, and counsel the patient. Good dispensing practice includes clean premises, correct storage (temperature, light), first-expiry-first-out (FEFO) stock rotation, and record keeping (prescription records, controlled drugs register). Pictograms and local languages help patients with low literacy.",
+       "keyPoints": [
+        "Prescription contents",
+        "Validate → prepare → label → check → counsel",
+        "Clear labels",
+        "FEFO stock rotation",
+        "Pictograms for low literacy"
+       ]
+      },
+      {
+       "heading": "Public health roles",
+       "body": "Community pharmacists are often the first point of contact for health care in Nigeria. Roles: responding to symptoms (with referral when red flags are present — WWHAM questions: Who, What symptoms, How long, Action taken, Medication), screening (blood pressure, blood glucose, BMI), health promotion (smoking cessation, weight management), family planning services, malaria testing with RDTs before ACT treatment, HIV testing and PrEP support, immunisation (in some settings), medicines use review, antimicrobial stewardship and pharmacovigilance reporting. Business management covers procurement from licensed wholesalers, pricing, inventory control (ABC/VEN analysis), staff management and compliance with PCN inspections.",
+       "keyPoints": [
+        "WWHAM questions",
+        "Screening: BP, glucose",
+        "Test malaria before ACT",
+        "Antimicrobial stewardship",
+        "ABC/VEN analysis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which element is essential on a valid prescription?",
+       "options": [
+        "The patient's religion",
+        "The drug price",
+        "The pharmacy's logo",
+        "The prescriber's signature",
+        "The patient's income"
+       ],
+       "answerIndex": 3,
+       "explanation": "The prescription must be authorised by the prescriber."
+      },
+      {
+       "stem": "For a child, a prescription should also include the child's:",
+       "options": [
+        "School",
+        "Height only",
+        "Age and weight",
+        "Parents' occupation",
+        "Blood group"
+       ],
+       "answerIndex": 2,
+       "explanation": "Doses are weight-based."
+      },
+      {
+       "stem": "First-expiry-first-out (FEFO) is a principle of:",
+       "options": [
+        "Pricing",
+        "Counselling",
+        "Labelling",
+        "Prescribing",
+        "Stock rotation"
+       ],
+       "answerIndex": 4,
+       "explanation": "Products expiring soonest are dispensed first."
+      },
+      {
+       "stem": "The WWHAM mnemonic is used for:",
+       "options": [
+        "Pharmacovigilance",
+        "Pricing",
+        "Responding to symptoms in the pharmacy",
+        "Compounding",
+        "Stock control"
+       ],
+       "answerIndex": 2,
+       "explanation": "Who, What, How long, Action, Medication."
+      },
+      {
+       "stem": "Before selling an ACT for suspected malaria, pharmacists should ideally:",
+       "options": [
+        "Give injections",
+        "Confirm malaria with a rapid diagnostic test",
+        "Sell chloroquine",
+        "Refer everyone to hospital",
+        "Give antibiotics too"
+       ],
+       "answerIndex": 1,
+       "explanation": "Test before treat."
+      },
+      {
+       "stem": "Using pictograms on medicine labels mainly helps:",
+       "options": [
+        "Patients with low literacy",
+        "Regulators",
+        "Pharmacists",
+        "Manufacturers",
+        "Wholesalers"
+       ],
+       "answerIndex": 0,
+       "explanation": "Images convey directions clearly."
+      },
+      {
+       "stem": "VEN analysis classifies medicines as:",
+       "options": [
+        "Valid, expired, new",
+        "Vital, essential and non-essential",
+        "Very expensive, expensive, normal",
+        "Virtual, electronic, native",
+        "Variable, equal, net"
+       ],
+       "answerIndex": 1,
+       "explanation": "It helps prioritise procurement."
+      },
+      {
+       "stem": "The final step of dispensing before handing over medicines is:",
+       "options": [
+        "Writing a prescription",
+        "Pricing",
+        "Counselling the patient",
+        "Ordering stock",
+        "Compounding"
+       ],
+       "answerIndex": 2,
+       "explanation": "Counselling ensures correct use."
+      }
+     ]
+    },
+    {
+     "title": "Hospital and Institutional Pharmacy",
+     "order": 5,
+     "summary": "Drug and therapeutics committees, formulary management, drug distribution systems and aseptic services.",
+     "material": [
+      {
+       "heading": "Organisation",
+       "body": "Hospital pharmacy departments manage procurement, storage, distribution and rational use of medicines. The Drug and Therapeutics Committee (DTC), including doctors, pharmacists and nurses, develops and maintains the hospital formulary (list of approved medicines, based on the national Essential Medicines List), treatment guidelines and antimicrobial policies, and monitors adverse drug reactions and medication errors. Drug distribution systems: floor stock (ward stock — convenient but error-prone and prone to wastage), individual patient prescription, and unit-dose dispensing (each dose packaged and labelled — fewer errors, less waste). The Drug Revolving Fund (DRF) in Nigerian public hospitals uses sales income to replenish stock, improving availability.",
+       "keyPoints": [
+        "DTC maintains formulary",
+        "Essential Medicines List",
+        "Floor stock vs unit-dose",
+        "Unit-dose reduces errors",
+        "Drug Revolving Fund"
+       ]
+      },
+      {
+       "heading": "Specialised services",
+       "body": "Aseptic services prepare sterile products — parenteral nutrition, cytotoxic chemotherapy and IV admixtures — in controlled environments (laminar airflow cabinets, isolators, cleanrooms) with trained staff and validated procedures; cytotoxic handling requires biological safety cabinets, PPE and spill kits. Clinical pharmacy services on wards include medication reconciliation, therapeutic drug monitoring, and ward rounds. Medication error prevention: tall-man lettering (e.g. hydrOXYzine vs hydrALAZINE), separating look-alike sound-alike drugs, independent double checks for high-alert medicines (insulin, potassium chloride concentrate, anticoagulants, opioids, chemotherapy), and a non-punitive reporting culture. Emergency preparedness includes crash-cart stocking and antidote availability.",
+       "keyPoints": [
+        "Laminar airflow and isolators",
+        "Cytotoxic safety cabinets",
+        "Medication reconciliation",
+        "Tall-man lettering",
+        "High-alert medicines double check"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The hospital committee that manages the formulary is the:",
+       "options": [
+        "Board of governors",
+        "Works committee",
+        "Ethics committee",
+        "Drug and Therapeutics Committee",
+        "Infection control committee only"
+       ],
+       "answerIndex": 3,
+       "explanation": "It promotes rational medicine use."
+      },
+      {
+       "stem": "A hospital formulary should be based on the:",
+       "options": [
+        "Essential Medicines List and evidence",
+        "Drug company promotions",
+        "Import licences",
+        "Most expensive drugs",
+        "Doctors' preferences only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Selection balances efficacy, safety and cost."
+      },
+      {
+       "stem": "The drug distribution system with the fewest errors and least waste is:",
+       "options": [
+        "Bulk ward supply",
+        "Unit-dose dispensing",
+        "Floor stock",
+        "Patient self-purchase",
+        "Emergency stock"
+       ],
+       "answerIndex": 1,
+       "explanation": "Each dose is individually prepared."
+      },
+      {
+       "stem": "The Drug Revolving Fund in Nigerian hospitals works by:",
+       "options": [
+        "Giving drugs free permanently",
+        "Borrowing from banks",
+        "Donor funding only",
+        "Using income from drug sales to restock",
+        "Charging no fees"
+       ],
+       "answerIndex": 3,
+       "explanation": "It sustains drug availability."
+      },
+      {
+       "stem": "Cytotoxic drugs should be prepared in a:",
+       "options": [
+        "Open ward",
+        "Office desk",
+        "Kitchen",
+        "Biological safety cabinet or isolator",
+        "Refrigerator"
+       ],
+       "answerIndex": 3,
+       "explanation": "This protects staff and product."
+      },
+      {
+       "stem": "Tall-man lettering (e.g. hydrOXYzine / hydrALAZINE) helps prevent:",
+       "options": [
+        "Price errors",
+        "Expiry",
+        "Contamination",
+        "Look-alike sound-alike medication errors",
+        "Theft"
+       ],
+       "answerIndex": 3,
+       "explanation": "It highlights differing letters."
+      },
+      {
+       "stem": "Concentrated potassium chloride is an example of a:",
+       "options": [
+        "Vitamin",
+        "High-alert medicine",
+        "Low-risk medicine",
+        "Herbal medicine",
+        "OTC product"
+       ],
+       "answerIndex": 1,
+       "explanation": "Errors cause serious harm."
+      },
+      {
+       "stem": "Comparing a patient's medicines at admission with their pre-admission list is:",
+       "options": [
+        "Formulary review",
+        "Stocktaking",
+        "Pharmacovigilance",
+        "Compounding",
+        "Medication reconciliation"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prevents omissions and duplications."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

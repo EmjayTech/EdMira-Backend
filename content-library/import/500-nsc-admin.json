@@ -1,0 +1,668 @@
+{
+ "courses": [
+  {
+   "title": "Nursing Management, Education and Research",
+   "code": "NSC503",
+   "color": "#E11D48",
+   "description": "Leadership and management in nursing, ward and unit administration, nursing law and ethics in Nigeria, clinical teaching and education, and research and evidence-based practice.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "School/College of Nursing"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Leadership and Management in Nursing",
+     "order": 1,
+     "summary": "Management functions, leadership styles, motivation, delegation and conflict management.",
+     "material": [
+      {
+       "heading": "Management and leadership",
+       "body": "Management functions (Fayol; Gulick's POSDCORB): planning, organising, staffing, directing (leading, coordinating), and controlling (evaluating, budgeting, reporting). Leadership styles: autocratic (quick decisions, useful in emergencies, may lower morale), democratic/participative (involves staff, increases commitment), laissez-faire (minimal direction — suits highly skilled teams, risky otherwise), transformational (inspires a shared vision and change), transactional (rewards and corrective action) and situational (adapts to staff readiness — Hersey and Blanchard). Nurse managers in Nigeria (chief nursing officers, matrons, ward managers) face staff shortages, high workload, emigration of nurses ('japa'), limited resources and industrial actions. Motivation theories: Maslow's hierarchy of needs, Herzberg's two-factor theory (hygiene factors — salary, conditions; motivators — recognition, achievement, responsibility), and McGregor's Theory X and Y. Change management: Lewin's model — unfreeze, change (move), refreeze.",
+       "keyPoints": [
+        "POSDCORB",
+        "Leadership styles",
+        "Transformational leadership",
+        "Herzberg: hygiene vs motivators",
+        "Lewin: unfreeze, change, refreeze",
+        "Nurse emigration challenge"
+       ]
+      },
+      {
+       "heading": "Delegation and conflict",
+       "body": "Delegation transfers authority to perform a task while the delegating nurse retains accountability; the five rights of delegation: right task, right circumstance, right person, right direction/communication and right supervision/evaluation. Tasks requiring nursing judgement (assessment, care planning, evaluation, health education of unstable patients) should not be delegated to unqualified staff. Conflict in teams arises from role ambiguity, scarce resources, communication problems and personality differences; resolution strategies (Thomas–Kilmann): avoiding, accommodating, competing, compromising and collaborating (win–win — usually best). Effective communication (SBAR handovers), time management, decision-making and teamwork underpin safe care. Staffing: patient classification systems estimate workload; rostering must balance skill mix, fairness and rest. Performance appraisal provides feedback and identifies training needs.",
+       "keyPoints": [
+        "Delegation: retain accountability",
+        "Five rights of delegation",
+        "Don't delegate assessment",
+        "Collaborating: win–win",
+        "SBAR handover",
+        "Skill mix and rostering"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In POSDCORB, the 'S' stands for:",
+       "options": [
+        "Staffing",
+        "Serving",
+        "Scheduling",
+        "Selecting",
+        "Supervising"
+       ],
+       "answerIndex": 0,
+       "explanation": "Planning, Organising, Staffing, Directing, Coordinating, Reporting, Budgeting."
+      },
+      {
+       "stem": "A leadership style that inspires followers with a shared vision is:",
+       "options": [
+        "Bureaucratic",
+        "Laissez-faire",
+        "Transformational",
+        "Transactional",
+        "Autocratic"
+       ],
+       "answerIndex": 2,
+       "explanation": "It promotes commitment and change."
+      },
+      {
+       "stem": "During a cardiac arrest, the most appropriate leadership style is usually:",
+       "options": [
+        "Democratic voting",
+        "Autocratic (directive)",
+        "Laissez-faire",
+        "Delegating everything",
+        "Absent"
+       ],
+       "answerIndex": 1,
+       "explanation": "Clear, rapid direction is needed."
+      },
+      {
+       "stem": "According to Herzberg, recognition and achievement are:",
+       "options": [
+        "Motivators",
+        "Irrelevant",
+        "Demotivators",
+        "Hygiene factors",
+        "Salary components"
+       ],
+       "answerIndex": 0,
+       "explanation": "They increase satisfaction."
+      },
+      {
+       "stem": "In Lewin's change model, the first stage is:",
+       "options": [
+        "Refreezing",
+        "Moving",
+        "Unfreezing",
+        "Evaluating",
+        "Planning"
+       ],
+       "answerIndex": 2,
+       "explanation": "Preparing people for change."
+      },
+      {
+       "stem": "When a nurse delegates a task, accountability:",
+       "options": [
+        "Moves to the hospital",
+        "Disappears",
+        "Transfers completely",
+        "Is shared equally with the patient",
+        "Remains with the delegating nurse"
+       ],
+       "answerIndex": 4,
+       "explanation": "The delegate is responsible for their performance."
+      },
+      {
+       "stem": "Which task should NOT be delegated to an untrained health assistant?",
+       "options": [
+        "Serving meals",
+        "Bed making",
+        "Initial nursing assessment of a new patient",
+        "Portering",
+        "Bathing a stable patient"
+       ],
+       "answerIndex": 2,
+       "explanation": "Assessment requires nursing judgement."
+      },
+      {
+       "stem": "The conflict resolution approach aiming for a win–win outcome is:",
+       "options": [
+        "Collaborating",
+        "Accommodating",
+        "Competing",
+        "Withdrawing",
+        "Avoiding"
+       ],
+       "answerIndex": 0,
+       "explanation": "It addresses all parties' concerns."
+      }
+     ]
+    },
+    {
+     "title": "Ward Administration and Quality of Care",
+     "order": 2,
+     "summary": "Records and reports, resource management, quality improvement and patient safety.",
+     "material": [
+      {
+       "heading": "Ward administration",
+       "body": "Ward management includes planning and organising care (nursing care models — functional/task nursing, team nursing, primary nursing, patient allocation), staff rostering, admission, transfer and discharge processes, handover, ward rounds, management of supplies and equipment (inventory, stock control, maintenance, prevention of theft and waste), infection prevention, and maintaining a safe environment. Nursing records (admission records, nursing process documentation, observation charts, fluid balance, drug administration records, incident reports, ward reports) must be accurate, contemporaneous, legible, signed and dated — they are legal documents ('not documented, not done'). Confidentiality of records is required. Electronic health records are gradually being adopted in Nigerian hospitals.",
+       "keyPoints": [
+        "Care models: task, team, primary, allocation",
+        "Admission, transfer, discharge",
+        "Stock control",
+        "Records: accurate, contemporaneous, signed",
+        "Not documented = not done",
+        "Confidentiality"
+       ]
+      },
+      {
+       "heading": "Quality and safety",
+       "body": "Quality of care has dimensions of safety, effectiveness, patient-centredness, timeliness, efficiency and equity (Institute of Medicine). Donabedian's model evaluates structure (resources, staff, equipment), process (activities of care) and outcome (results — mortality, infection rates, satisfaction). Quality improvement tools: clinical audit (set standards, measure practice, compare, implement change, re-audit — the audit cycle), PDSA cycles, root cause analysis of adverse events, and fishbone diagrams. Patient safety culture encourages incident reporting without blame (just culture), learning from near misses, and implementing safety practices: correct patient identification (two identifiers), safe medication administration (rights of medication administration), falls prevention, pressure ulcer prevention, hand hygiene and safe surgery checklists. Accreditation programmes (e.g. SafeCare standards) assess facility quality in Nigeria.",
+       "keyPoints": [
+        "IOM six dimensions",
+        "Donabedian: structure, process, outcome",
+        "Audit cycle",
+        "PDSA",
+        "Just culture",
+        "Two patient identifiers",
+        "SafeCare accreditation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The care delivery model in which one nurse is responsible for a patient's total care throughout their stay is:",
+       "options": [
+        "Functional nursing",
+        "Primary nursing",
+        "Case mix",
+        "Task allocation",
+        "Team nursing"
+       ],
+       "answerIndex": 1,
+       "explanation": "It promotes continuity and accountability."
+      },
+      {
+       "stem": "Assigning tasks such as 'all injections' to one nurse and 'all dressings' to another is:",
+       "options": [
+        "Functional (task) nursing",
+        "Primary nursing",
+        "Patient allocation",
+        "Team nursing",
+        "Case management"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is efficient but fragments care."
+      },
+      {
+       "stem": "Nursing records should be:",
+       "options": [
+        "Written days later from memory",
+        "Kept only when complications occur",
+        "Written in pencil",
+        "Accurate, contemporaneous, legible, signed and dated",
+        "Shared publicly"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are legal documents."
+      },
+      {
+       "stem": "In Donabedian's model, infection rates are an example of:",
+       "options": [
+        "Input only",
+        "Structure",
+        "Policy",
+        "Outcome",
+        "Process"
+       ],
+       "answerIndex": 3,
+       "explanation": "Structure is resources; process is activities."
+      },
+      {
+       "stem": "The stages of clinical audit include setting standards, measuring practice, implementing change and:",
+       "options": [
+        "Re-auditing",
+        "Publishing names",
+        "Stopping care",
+        "Closing the ward",
+        "Punishing staff"
+       ],
+       "answerIndex": 0,
+       "explanation": "The audit cycle ensures improvement."
+      },
+      {
+       "stem": "A non-punitive approach to error reporting is called:",
+       "options": [
+        "Just culture",
+        "Disciplinary culture",
+        "Blame culture",
+        "Legal culture",
+        "Silent culture"
+       ],
+       "answerIndex": 0,
+       "explanation": "It encourages learning."
+      },
+      {
+       "stem": "Correct patient identification before procedures requires at least:",
+       "options": [
+        "Asking the relatives only",
+        "The ward name",
+        "One identifier (bed number)",
+        "Looking at the diagnosis",
+        "Two identifiers (e.g. name and date of birth/hospital number)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bed numbers are not reliable."
+      },
+      {
+       "stem": "Which dimension of quality concerns avoiding harm to patients?",
+       "options": [
+        "Safety",
+        "Timeliness",
+        "Patient-centredness",
+        "Equity",
+        "Efficiency"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is the first IOM dimension."
+      }
+     ]
+    },
+    {
+     "title": "Nursing Law, Ethics and Professional Regulation in Nigeria",
+     "order": 3,
+     "summary": "NMCN, scope of practice, ethical principles, legal issues and professional misconduct.",
+     "material": [
+      {
+       "heading": "Regulation",
+       "body": "The Nursing and Midwifery Council of Nigeria (NMCN), established under the Nursing and Midwifery (Registration, etc.) Act (Cap N143 LFN 2004), regulates nursing and midwifery education and practice: accrediting schools, conducting licensing examinations, registering and licensing nurses and midwives (licence renewal every three years with mandatory continuing professional development), setting standards and a Code of Professional Conduct, and disciplining practitioners through the Nursing and Midwifery Tribunal. Professional bodies include the National Association of Nigerian Nurses and Midwives (NANNM). Nursing education has progressed from hospital-based schools to university degrees (BNSc) and postgraduate programmes. Nurses must work within their scope of practice; task-shifting policies (e.g. community health officers) define expanded roles in specific settings.",
+       "keyPoints": [
+        "NMCN regulates",
+        "Licence renewal every 3 years + CPD",
+        "Code of Professional Conduct",
+        "Nursing and Midwifery Tribunal",
+        "NANNM association",
+        "Scope of practice"
+       ]
+      },
+      {
+       "heading": "Ethics and law",
+       "body": "Ethical principles: autonomy (informed consent, respecting refusal by competent adults), beneficence, non-maleficence, justice, veracity (truthfulness), fidelity (keeping promises), and confidentiality. Legal concepts: negligence (duty of care, breach, causation, damage), malpractice, assault and battery (touching without consent), false imprisonment (unlawful restraint), defamation (libel — written; slander — spoken), and vicarious liability (employers liable for employees' acts in the course of employment). Consent: informed, voluntary, by a competent person; parents or guardians consent for minors; emergencies permit treatment without consent under necessity. Documentation protects nurses legally. Ethical dilemmas common in Nigeria: requests to conceal diagnoses (e.g. HIV, cancer) from patients, resource allocation, detaining patients for unpaid bills (unlawful), religious objections to treatment, and care at the end of life. Professional misconduct includes abandonment of patients, falsification of records, drug theft, sexual misconduct and practising without a licence.",
+       "keyPoints": [
+        "Autonomy, beneficence, non-maleficence, justice",
+        "Negligence elements",
+        "Battery: touching without consent",
+        "Vicarious liability",
+        "Detaining patients for bills is unlawful",
+        "Misconduct examples"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The body that registers and licenses nurses and midwives in Nigeria is the:",
+       "options": [
+        "NMCN",
+        "PCN",
+        "NANNM",
+        "MDCN",
+        "NHIA"
+       ],
+       "answerIndex": 0,
+       "explanation": "The Nursing and Midwifery Council of Nigeria."
+      },
+      {
+       "stem": "Nursing licences in Nigeria are renewed every:",
+       "options": [
+        "Six months",
+        "Ten years",
+        "Never",
+        "Year",
+        "Three years"
+       ],
+       "answerIndex": 4,
+       "explanation": "With continuing professional development."
+      },
+      {
+       "stem": "Touching or treating a patient without consent can constitute:",
+       "options": [
+        "Libel",
+        "Slander",
+        "Battery",
+        "Veracity",
+        "Fidelity"
+       ],
+       "answerIndex": 2,
+       "explanation": "Consent is required for any intervention."
+      },
+      {
+       "stem": "An employer being liable for the negligence of its employees at work is:",
+       "options": [
+        "Vicarious liability",
+        "Malpractice insurance",
+        "Defamation",
+        "Direct liability",
+        "Contributory negligence"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nurses remain personally accountable too."
+      },
+      {
+       "stem": "Detaining a recovered patient in hospital because of unpaid bills is:",
+       "options": [
+        "Acceptable if brief",
+        "Legal and encouraged",
+        "Unlawful (false imprisonment)",
+        "Required by NMCN",
+        "A form of consent"
+       ],
+       "answerIndex": 2,
+       "explanation": "It violates the patient's rights."
+      },
+      {
+       "stem": "The ethical principle of telling the truth is:",
+       "options": [
+        "Justice",
+        "Autonomy",
+        "Beneficence",
+        "Fidelity",
+        "Veracity"
+       ],
+       "answerIndex": 4,
+       "explanation": "It supports trust."
+      },
+      {
+       "stem": "Spoken false statements damaging someone's reputation are:",
+       "options": [
+        "Negligence",
+        "Battery",
+        "Assault",
+        "Slander",
+        "Libel"
+       ],
+       "answerIndex": 3,
+       "explanation": "Written defamation is libel."
+      },
+      {
+       "stem": "Which is an example of professional misconduct?",
+       "options": [
+        "Attending CPD",
+        "Reporting an incident",
+        "Falsifying patient records",
+        "Obtaining consent",
+        "Maintaining confidentiality"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is dishonest and dangerous."
+      }
+     ]
+    },
+    {
+     "title": "Nursing Education and Clinical Teaching",
+     "order": 4,
+     "summary": "Learning theories, curriculum, clinical teaching methods, assessment and preceptorship.",
+     "material": [
+      {
+       "heading": "Learning and teaching",
+       "body": "Learning theories: behaviourism (learning through reinforcement — skills drills, feedback), cognitivism (mental processing and understanding — concept maps), constructivism (learners build knowledge from experience — problem-based learning), social learning (Bandura — observation and role modelling; clinical role models matter), humanism (learner-centred, self-directed — Rogers, Maslow), and adult learning (andragogy — Knowles: adults are self-directed, draw on experience, and want relevant, problem-centred learning). Learning domains (Bloom's taxonomy): cognitive (knowledge to evaluation/creation), affective (attitudes and values) and psychomotor (skills). Learning objectives should be specific and measurable (SMART) using action verbs. Teaching methods: lectures, discussions, demonstrations and return demonstrations, simulation (skills labs, manikins), case studies, problem-based learning, and e-learning (increasingly used in Nigeria since COVID-19).",
+       "keyPoints": [
+        "Behaviourism, cognitivism, constructivism",
+        "Bandura: role modelling",
+        "Andragogy (Knowles)",
+        "Bloom: cognitive, affective, psychomotor",
+        "SMART objectives",
+        "Simulation"
+       ]
+      },
+      {
+       "heading": "Clinical teaching and assessment",
+       "body": "Clinical learning is central to nursing education; effective clinical teaching includes orientation, clear objectives, supervised practice, demonstration and return demonstration, reflective practice (Gibbs' reflective cycle — description, feelings, evaluation, analysis, conclusion, action plan), case presentations, nursing rounds and feedback (timely, specific and constructive). Preceptorship pairs a new nurse or student with an experienced nurse; mentorship supports longer-term professional development. Assessment: formative (during learning, for feedback) and summative (at the end, for grading/certification); methods include written tests, OSCE (Objective Structured Clinical Examination), practical examinations, logbooks and portfolios, and continuous clinical assessment. Validity (measures what it should) and reliability (consistency) are key qualities of assessment. Patient education applies the same principles: assess learning needs and readiness, plan, implement and evaluate (e.g. teach-back).",
+       "keyPoints": [
+        "Gibbs' reflective cycle",
+        "Preceptorship vs mentorship",
+        "Formative vs summative",
+        "OSCE",
+        "Validity and reliability",
+        "Patient education: teach-back"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Learning through observation of role models is emphasised in:",
+       "options": [
+        "Behaviourism",
+        "Andragogy only",
+        "Cognitivism",
+        "Social learning theory (Bandura)",
+        "Humanism"
+       ],
+       "answerIndex": 3,
+       "explanation": "Clinical role models shape student behaviour."
+      },
+      {
+       "stem": "Knowles' theory of adult learning is called:",
+       "options": [
+        "Positivism",
+        "Constructivism",
+        "Behaviourism",
+        "Pedagogy",
+        "Andragogy"
+       ],
+       "answerIndex": 4,
+       "explanation": "Adults are self-directed and problem-centred."
+      },
+      {
+       "stem": "Bloom's taxonomy's psychomotor domain concerns:",
+       "options": [
+        "Attitudes",
+        "Memory only",
+        "Knowledge",
+        "Skills",
+        "Values"
+       ],
+       "answerIndex": 3,
+       "explanation": "E.g. performing an injection."
+      },
+      {
+       "stem": "A student performing a procedure after watching the tutor demonstrate it is doing a:",
+       "options": [
+        "Lecture",
+        "Case study",
+        "Return demonstration",
+        "Seminar",
+        "Literature review"
+       ],
+       "answerIndex": 2,
+       "explanation": "It confirms skill acquisition."
+      },
+      {
+       "stem": "Assessment carried out during learning to give feedback is:",
+       "options": [
+        "Summative",
+        "Final",
+        "Norm-referenced only",
+        "Formative",
+        "Licensing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Summative assessment grades at the end."
+      },
+      {
+       "stem": "The OSCE is used mainly to assess:",
+       "options": [
+        "Attendance",
+        "Handwriting",
+        "Clinical skills in a structured, standardised way",
+        "Research",
+        "Theoretical essays"
+       ],
+       "answerIndex": 2,
+       "explanation": "Objective Structured Clinical Examination."
+      },
+      {
+       "stem": "Gibbs' reflective cycle begins with:",
+       "options": [
+        "Description",
+        "Conclusion",
+        "Feelings",
+        "Action plan",
+        "Analysis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Then feelings, evaluation, analysis, conclusion and action plan."
+      },
+      {
+       "stem": "An assessment that consistently gives the same results is:",
+       "options": [
+        "Valid",
+        "Biased",
+        "Subjective",
+        "Formative",
+        "Reliable"
+       ],
+       "answerIndex": 4,
+       "explanation": "Validity means it measures what it intends."
+      }
+     ]
+    },
+    {
+     "title": "Nursing Research and Evidence-Based Practice",
+     "order": 5,
+     "summary": "Research process, designs, sampling, data collection, ethics, and applying evidence.",
+     "material": [
+      {
+       "heading": "Research process",
+       "body": "The research process: identify a problem, review literature, state objectives/hypotheses, choose a design, define population and sample, develop instruments, obtain ethical approval, collect data, analyse, interpret and disseminate. Quantitative designs: descriptive (cross-sectional surveys — common in Nigerian nursing research), correlational, quasi-experimental and experimental (RCTs). Qualitative designs: phenomenology (lived experience), grounded theory (generating theory), ethnography (culture) and case studies; data from in-depth interviews and focus group discussions analysed thematically. Mixed methods combine both. Sampling: probability (simple random, systematic, stratified, cluster — generalisable) and non-probability (convenience, purposive, snowball, quota). Instruments must be valid and reliable (pilot testing; Cronbach's alpha for internal consistency ≥ 0.7). Statistics: descriptive (frequencies, means, SD) and inferential (chi-square, t-test, ANOVA, correlation; p < 0.05).",
+       "keyPoints": [
+        "Research process steps",
+        "Cross-sectional surveys common",
+        "Qualitative: phenomenology, grounded theory",
+        "Probability vs non-probability sampling",
+        "Cronbach's alpha ≥ 0.7",
+        "Chi-square, t-test; p < 0.05"
+       ]
+      },
+      {
+       "heading": "Ethics and EBP",
+       "body": "Research ethics: respect for persons (informed consent, voluntary participation, right to withdraw), beneficence and non-maleficence (minimise risk), justice (fair selection), confidentiality and anonymity; approval from a health research ethics committee (NHREC-registered in Nigeria; the National Code of Health Research Ethics); special protection for vulnerable groups. Evidence-based practice (EBP) integrates the best research evidence, clinical expertise and patient values and preferences. Steps: ask a focused clinical question (PICO — Population, Intervention, Comparison, Outcome), acquire evidence (databases — PubMed, CINAHL, Cochrane), appraise it critically, apply it, and assess the outcome. The hierarchy of evidence places systematic reviews and RCTs highest. Barriers to EBP in Nigeria include limited access to journals and internet, workload, lack of skills and organisational culture; strategies include journal clubs, EBP training and nurse-led research.",
+       "keyPoints": [
+        "Informed consent, right to withdraw",
+        "Ethics committee approval",
+        "EBP: evidence + expertise + patient values",
+        "PICO question",
+        "Ask, acquire, appraise, apply, assess",
+        "Journal clubs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A study exploring the lived experiences of mothers caring for children with sickle cell disease would use:",
+       "options": [
+        "Cross-sectional survey",
+        "Phenomenology (qualitative)",
+        "RCT",
+        "Case–control study",
+        "Meta-analysis"
+       ],
+       "answerIndex": 1,
+       "explanation": "It explores meaning and experience."
+      },
+      {
+       "stem": "Selecting every 10th patient from a register is:",
+       "options": [
+        "Systematic sampling",
+        "Snowball sampling",
+        "Purposive sampling",
+        "Convenience sampling",
+        "Quota sampling"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a probability method if started randomly."
+      },
+      {
+       "stem": "Cronbach's alpha measures:",
+       "options": [
+        "Significance",
+        "Validity",
+        "Effect size",
+        "Sample size",
+        "Internal consistency reliability"
+       ],
+       "answerIndex": 4,
+       "explanation": "Values ≥ 0.7 are acceptable."
+      },
+      {
+       "stem": "A statistical test comparing proportions between groups is the:",
+       "options": [
+        "t-test",
+        "Pearson correlation",
+        "Chi-square test",
+        "ANOVA",
+        "Regression only"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is used for categorical data."
+      },
+      {
+       "stem": "Participants' right to withdraw from a study at any time reflects:",
+       "options": [
+        "Beneficence",
+        "Veracity",
+        "Justice",
+        "Fidelity",
+        "Respect for persons (autonomy)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Participation must be voluntary."
+      },
+      {
+       "stem": "Evidence-based practice integrates research evidence, clinical expertise and:",
+       "options": [
+        "Doctors' orders only",
+        "Hospital rules only",
+        "Tradition",
+        "Cost only",
+        "Patient values and preferences"
+       ],
+       "answerIndex": 4,
+       "explanation": "All three components matter."
+      },
+      {
+       "stem": "In a PICO question, 'C' stands for:",
+       "options": [
+        "Culture",
+        "Comparison",
+        "Cost",
+        "Care",
+        "Condition"
+       ],
+       "answerIndex": 1,
+       "explanation": "Population, Intervention, Comparison, Outcome."
+      },
+      {
+       "stem": "The highest level of evidence is:",
+       "options": [
+        "Case reports",
+        "Cross-sectional surveys",
+        "Systematic reviews and meta-analyses of RCTs",
+        "Expert opinion",
+        "Textbooks"
+       ],
+       "answerIndex": 2,
+       "explanation": "They synthesise the best studies."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

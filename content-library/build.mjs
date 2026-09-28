@@ -15,7 +15,7 @@
  *   "code": "ANA201",            // ≤ 6 characters on the course card
  *   "color": "#B45309",
  *   "description": "…",
- *   "for": { "200": ["MBBS", "BDS", …], "PG": ["*"] },   // level → departments ("*" = any)
+ *   "for": { "200": ["MBBS", "BDS", …], "300": ["*"] },   // level → departments ("*" = any)
  *   "topics": [
  *     {
  *       "title": "…", "summary": "…",
@@ -178,10 +178,11 @@ for (const file of files) {
   );
 }
 
-// ── Coverage: every department at every level of its programme, plus postgraduate ──
+// ── Coverage: every department at every level of its programme (postgraduate is
+// out of scope for now — the app shows PG students a "coming soon" note) ──
 const gaps = [];
 for (const [d, years] of Object.entries(DURATION)) {
-  for (const lv of [...UG.slice(0, years), 'PG']) {
+  for (const lv of UG.slice(0, years)) {
     const n = coverage.get(`${d}|${lv}`) ?? 0;
     if (n < 2) gaps.push(`${d} ${lv}: ${n}`);
   }

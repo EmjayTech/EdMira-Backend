@@ -1,0 +1,667 @@
+{
+ "courses": [
+  {
+   "title": "Oral and Maxillofacial Surgery",
+   "code": "DEN505",
+   "color": "#0891B2",
+   "description": "Local anaesthesia, exodontia and minor oral surgery, maxillofacial trauma, infections, cleft lip and palate, TMJ disorders and medical emergencies in the dental chair.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Local Anaesthesia in Dentistry",
+     "order": 1,
+     "summary": "Agents, techniques (inferior alveolar nerve block, infiltration), doses and complications.",
+     "material": [
+      {
+       "heading": "Agents and techniques",
+       "body": "Common dental local anaesthetics: lidocaine 2% with 1:80,000 or 1:100,000 adrenaline (maximum about 4.4–7 mg/kg with adrenaline; one 2.2 mL cartridge contains 44 mg), articaine 4% with adrenaline (good infiltration penetration — effective buccal infiltration even for lower molars), mepivacaine and prilocaine with felypressin (useful where adrenaline is to be avoided). Techniques: infiltration (maxillary teeth — thin porous bone; mandibular anterior teeth), inferior alveolar nerve block (IANB — for mandibular molars and premolars; needle inserted at the pterygomandibular space medial to the coronoid notch at the level of the occlusal plane, anaesthetising the inferior alveolar and lingual nerves; long buccal nerve block for buccal soft tissues), mental and incisive blocks, and intraligamentary injections. Always aspirate to avoid intravascular injection. Paediatric doses must be calculated by weight.",
+       "keyPoints": [
+        "Lidocaine 2% + adrenaline; 44 mg/cartridge",
+        "Articaine: good infiltration",
+        "Felypressin when avoiding adrenaline",
+        "Infiltration for maxilla",
+        "IANB for lower molars",
+        "Aspirate before injecting"
+       ]
+      },
+      {
+       "heading": "Complications",
+       "body": "Local complications: failure of anaesthesia (anatomical variation, infection — low pH reduces effectiveness), haematoma, trismus (medial pterygoid injury), transient facial nerve palsy (injection into the parotid capsule during IANB — protect the eye), prolonged paraesthesia (lingual/inferior alveolar nerves — more with 4% solutions in blocks), self-inflicted soft-tissue biting in children (warn parents), needle breakage and infection. Systemic complications: fainting (vasovagal syncope — the most common medical emergency in dentistry; lie the patient flat with legs raised), toxicity (overdose or intravascular injection — CNS then cardiovascular effects), allergy (rare with amides; often to preservatives or latex), adrenaline effects (palpitations, anxiety), and methaemoglobinaemia (prilocaine, articaine at high doses). Patients with cardiac disease can generally receive adrenaline-containing LA in limited doses.",
+       "keyPoints": [
+        "Infection reduces efficacy",
+        "Transient facial palsy: parotid",
+        "Warn about lip biting",
+        "Syncope: commonest emergency",
+        "Toxicity from overdose/intravascular",
+        "Methaemoglobinaemia: prilocaine"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A standard 2.2 mL cartridge of 2% lidocaine contains:",
+       "options": [
+        "4.4 mg",
+        "22 mg",
+        "44 mg",
+        "88 mg",
+        "220 mg"
+       ],
+       "answerIndex": 2,
+       "explanation": "2% = 20 mg/mL × 2.2 mL."
+      },
+      {
+       "stem": "Mandibular molars are usually anaesthetised with a(n):",
+       "options": [
+        "Greater palatine block",
+        "Posterior superior alveolar block",
+        "Buccal infiltration only with lidocaine",
+        "Infraorbital block",
+        "Inferior alveolar nerve block"
+       ],
+       "answerIndex": 4,
+       "explanation": "Thick mandibular cortical bone limits infiltration."
+      },
+      {
+       "stem": "Maxillary teeth can usually be anaesthetised by infiltration because:",
+       "options": [
+        "Anaesthetic is stronger in the maxilla",
+        "Blood flow is low",
+        "Maxillary bone is thin and porous",
+        "They have no nerves",
+        "The palate absorbs it"
+       ],
+       "answerIndex": 2,
+       "explanation": "Solution diffuses to the apices."
+      },
+      {
+       "stem": "Transient facial nerve palsy after an inferior alveolar nerve block results from injection into the:",
+       "options": [
+        "Masseter",
+        "Tongue",
+        "Parotid gland capsule",
+        "Submandibular gland",
+        "Maxillary sinus"
+       ],
+       "answerIndex": 2,
+       "explanation": "The needle was placed too far posteriorly."
+      },
+      {
+       "stem": "Local anaesthesia often fails in acutely infected tissue because:",
+       "options": [
+        "The low pH reduces the uncharged base form of the anaesthetic",
+        "Blood flow is reduced",
+        "The needle breaks",
+        "Adrenaline is inactivated always",
+        "Nerves are absent"
+       ],
+       "answerIndex": 0,
+       "explanation": "Less drug crosses nerve membranes."
+      },
+      {
+       "stem": "The most common medical emergency in the dental chair is:",
+       "options": [
+        "Anaphylaxis",
+        "Cardiac arrest",
+        "Vasovagal syncope",
+        "Asthma attack",
+        "Stroke"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lay the patient flat and raise the legs."
+      },
+      {
+       "stem": "Aspiration before injecting local anaesthetic helps avoid:",
+       "options": [
+        "Intravascular injection",
+        "Lip biting",
+        "Nerve damage",
+        "Allergy",
+        "Trismus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Intravascular injection causes toxicity."
+      },
+      {
+       "stem": "The local anaesthetic associated with methaemoglobinaemia at high doses is:",
+       "options": [
+        "Lidocaine",
+        "Bupivacaine",
+        "Prilocaine",
+        "Mepivacaine",
+        "Procaine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its metabolite o-toluidine oxidises haemoglobin."
+      }
+     ]
+    },
+    {
+     "title": "Exodontia and Minor Oral Surgery",
+     "order": 2,
+     "summary": "Extraction principles, complications, surgical removal of third molars and post-extraction care.",
+     "material": [
+      {
+       "heading": "Extractions",
+       "body": "Assess medical history (anticoagulants — check INR within 24–72 hours, extract if INR < 4 with local haemostasis; antiplatelets usually continued; bisphosphonates; radiotherapy; bleeding disorders; diabetes; cardiac conditions; pregnancy). Forceps extraction uses controlled luxation and expansion of the socket; elevators (Coupland's, Warwick James, Cryer's) luxate and remove roots. Post-extraction instructions: bite on gauze for 20–30 minutes, avoid rinsing and hot drinks for 24 hours, then warm salt-water rinses, avoid smoking. Complications: haemorrhage (primary, reactionary within 24 hours, secondary after 7–10 days from infection — pressure, local haemostatic agents (oxidised cellulose, sutures, tranexamic acid mouthwash)), dry socket (alveolar osteitis — severe pain on day 2–4 with an empty socket and halitosis, more common in smokers, lower molars and women on oral contraceptives; irrigate and dress with Alvogyl; analgesics — antibiotics not needed), fracture of tooth or tuberosity, oroantral communication (upper molars/premolars — if small, heals; larger — buccal advancement flap; advise no nose blowing), displacement of roots into the antrum or tissue spaces, and damage to adjacent teeth.",
+       "keyPoints": [
+        "INR < 4 for extractions",
+        "Bite on gauze; no rinsing 24 h",
+        "Secondary haemorrhage: infection",
+        "Dry socket: day 2–4, Alvogyl",
+        "Oroantral communication",
+        "Tranexamic acid mouthwash"
+       ]
+      },
+      {
+       "heading": "Third molars and minor surgery",
+       "body": "Impacted lower third molars are classified by angulation (mesioangular — commonest and easiest; vertical; horizontal; distoangular — most difficult) and depth relative to the occlusal plane and ramus (Pell and Gregory). Indications for removal: recurrent pericoronitis, unrestorable caries, periodontal disease affecting the second molar, cysts or tumours, and resorption of adjacent teeth; prophylactic removal of asymptomatic teeth is not routinely recommended. Radiographic signs of close relationship to the inferior alveolar canal (darkening of the root, interruption of the white lines, diversion of the canal) warrant CBCT or coronectomy. Surgical removal: flap design, bone removal, tooth sectioning, debridement and suturing; complications — pain, swelling, trismus, dry socket, and nerve injury (inferior alveolar — lower lip numbness; lingual — tongue numbness). Pericoronitis (inflammation of the operculum over a partially erupted tooth): irrigation, warm saline rinses, analgesics, and metronidazole if systemic signs. Other minor oral surgery: biopsies, apicectomy, frenectomy, and exposure of impacted canines for orthodontics.",
+       "keyPoints": [
+        "Mesioangular commonest; distoangular hardest",
+        "Removal for recurrent pericoronitis",
+        "Coronectomy near IAN",
+        "IAN injury: lip numbness",
+        "Lingual nerve: tongue numbness",
+        "Pericoronitis: irrigate, metronidazole"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "For a patient on warfarin, dental extraction can usually proceed if INR is below:",
+       "options": [
+        "1.0",
+        "2.0",
+        "4.0",
+        "8.0",
+        "10.0"
+       ],
+       "answerIndex": 2,
+       "explanation": "With local haemostatic measures."
+      },
+      {
+       "stem": "Severe pain 2–4 days after extraction with an empty socket and bad taste suggests:",
+       "options": [
+        "Fracture",
+        "Dry socket (alveolar osteitis)",
+        "Osteomyelitis",
+        "Normal healing",
+        "Nerve injury"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is treated by irrigation and dressing."
+      },
+      {
+       "stem": "Dry socket is more common in:",
+       "options": [
+        "Smokers and lower molar extractions",
+        "Children",
+        "Edentulous patients",
+        "Upper incisor extractions",
+        "Patients on antibiotics"
+       ],
+       "answerIndex": 0,
+       "explanation": "Also women taking oral contraceptives."
+      },
+      {
+       "stem": "Bleeding occurring 7–10 days after an extraction (secondary haemorrhage) is usually due to:",
+       "options": [
+        "Anticoagulants only",
+        "Infection",
+        "Adrenaline wearing off",
+        "Poor suturing only",
+        "Hypertension"
+       ],
+       "answerIndex": 1,
+       "explanation": "Infection breaks down the clot."
+      },
+      {
+       "stem": "After extraction of an upper molar, air bubbles through the socket when the patient blows with the nose pinched suggest:",
+       "options": [
+        "Nerve damage",
+        "Fractured mandible",
+        "Dry socket",
+        "Oroantral communication",
+        "Normal healing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Advise no nose blowing."
+      },
+      {
+       "stem": "The easiest impacted lower third molar orientation to remove is usually:",
+       "options": [
+        "Horizontal",
+        "Transverse",
+        "Inverted",
+        "Distoangular",
+        "Mesioangular"
+       ],
+       "answerIndex": 4,
+       "explanation": "Distoangular is the most difficult."
+      },
+      {
+       "stem": "Numbness of the lower lip after third molar surgery indicates injury to the:",
+       "options": [
+        "Long buccal nerve",
+        "Lingual nerve",
+        "Inferior alveolar nerve",
+        "Hypoglossal nerve",
+        "Facial nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lingual nerve injury numbs the tongue."
+      },
+      {
+       "stem": "Inflammation of the gum flap over a partially erupted lower third molar is:",
+       "options": [
+        "Periodontitis",
+        "Dry socket",
+        "Cellulitis always",
+        "Pericoronitis",
+        "Gingival hyperplasia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Irrigation and oral hygiene are first-line."
+      }
+     ]
+    },
+    {
+     "title": "Maxillofacial Trauma",
+     "order": 3,
+     "summary": "Assessment, mandibular and midface fractures, dental trauma and management principles.",
+     "material": [
+      {
+       "heading": "Assessment and mandible",
+       "body": "Maxillofacial injuries in Nigeria mostly result from road traffic crashes (motorcycles — okada), assaults, falls and gunshots. Primary survey (airway — tongue falling back in bilateral mandibular fractures, blood, teeth, dentures; cervical spine protection; bleeding) takes priority, then assess for head injury. Mandibular fractures are the commonest facial fractures; sites: condyle (most common in many series), angle, body, parasymphysis. Signs: pain, swelling, deranged occlusion, step deformity, sublingual haematoma (pathognomonic of mandibular fracture), paraesthesia of the lower lip (inferior alveolar nerve), and trismus. Imaging: OPG and PA mandible or CT. Management: closed reduction with intermaxillary fixation (arch bars, eyelet wires — for 4–6 weeks; wire cutters must be kept with the patient) or open reduction and internal fixation with miniplates (Champy's lines) allowing early function. Antibiotics for fractures through tooth-bearing areas (compound into the mouth).",
+       "keyPoints": [
+        "Airway first",
+        "Mandible commonest facial fracture",
+        "Sublingual haematoma: pathognomonic",
+        "Step deformity, deranged occlusion",
+        "IMF 4–6 weeks; keep wire cutters",
+        "ORIF with miniplates"
+       ]
+      },
+      {
+       "heading": "Midface and dental trauma",
+       "body": "Le Fort fractures of the maxilla: Le Fort I (horizontal, above the teeth — mobile tooth-bearing segment), Le Fort II (pyramidal — through the nasal bones, infraorbital margins), Le Fort III (craniofacial dysjunction — through the zygomatic arches and orbits; 'dish face', CSF rhinorrhoea, periorbital oedema). Zygomatic complex fractures: flattening of the cheek, periorbital ecchymosis, subconjunctival haemorrhage with no posterior limit, infraorbital nerve paraesthesia, trismus (coronoid impingement) and diplopia; orbital floor ('blow-out') fractures cause enophthalmos and restricted upward gaze (inferior rectus entrapment). Retrobulbar haemorrhage (pain, proptosis, falling vision) is an emergency (lateral canthotomy). Dental trauma: fractures of enamel, dentine or pulp; luxation injuries; avulsion — replant an avulsed permanent tooth immediately (hold by the crown, rinse briefly, reinsert, or store in milk/saliva; splint for about 2 weeks); do not replant primary teeth. Tetanus prophylaxis and antibiotics as indicated.",
+       "keyPoints": [
+        "Le Fort I, II, III",
+        "Le Fort III: dish face, CSF leak",
+        "Zygoma: flat cheek, subconjunctival haemorrhage",
+        "Blow-out: upward gaze limited",
+        "Retrobulbar haemorrhage: canthotomy",
+        "Replant avulsed permanent tooth; store in milk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first priority in a patient with severe facial injuries is:",
+       "options": [
+        "Tooth replantation",
+        "Cosmetic repair",
+        "Dental X-rays",
+        "Occlusion",
+        "Airway with cervical spine protection"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bleeding and displaced structures can obstruct the airway."
+      },
+      {
+       "stem": "A sublingual haematoma after trauma is almost pathognomonic of:",
+       "options": [
+        "Nasal fracture",
+        "Zygomatic fracture",
+        "Skull base fracture",
+        "Maxillary fracture",
+        "Mandibular fracture"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bleeding tracks into the floor of the mouth."
+      },
+      {
+       "stem": "Numbness of the lower lip after a mandibular body fracture indicates injury to the:",
+       "options": [
+        "Hypoglossal nerve",
+        "Infraorbital nerve",
+        "Inferior alveolar nerve",
+        "Lingual nerve",
+        "Facial nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "It runs within the mandible."
+      },
+      {
+       "stem": "Patients with intermaxillary fixation should always have:",
+       "options": [
+        "Wire cutters readily available",
+        "A mouthwash",
+        "Antibiotics for life",
+        "A tracheostomy",
+        "A nasogastric tube"
+       ],
+       "answerIndex": 0,
+       "explanation": "For airway emergencies such as vomiting."
+      },
+      {
+       "stem": "A fracture separating the tooth-bearing maxilla horizontally above the teeth is:",
+       "options": [
+        "Le Fort III",
+        "Zygomatic",
+        "Le Fort I",
+        "Le Fort II",
+        "Blow-out"
+       ],
+       "answerIndex": 2,
+       "explanation": "It produces a mobile palate and alveolus."
+      },
+      {
+       "stem": "Restricted upward gaze and double vision after a blow to the eye suggest:",
+       "options": [
+        "Orbital floor (blow-out) fracture",
+        "Dental avulsion",
+        "Le Fort I fracture",
+        "Mandibular fracture",
+        "Nasal fracture"
+       ],
+       "answerIndex": 0,
+       "explanation": "The inferior rectus is entrapped."
+      },
+      {
+       "stem": "Painful proptosis with decreasing vision after facial trauma requires urgent:",
+       "options": [
+        "Eye patch",
+        "Observation",
+        "Antibiotics",
+        "Dental splint",
+        "Lateral canthotomy for retrobulbar haemorrhage"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prevents permanent blindness."
+      },
+      {
+       "stem": "An avulsed permanent incisor should ideally be:",
+       "options": [
+        "Discarded",
+        "Left in the socket of a primary tooth",
+        "Replanted immediately or stored in milk until replanted",
+        "Stored dry in tissue",
+        "Scrubbed with soap"
+       ],
+       "answerIndex": 2,
+       "explanation": "Time outside the socket determines prognosis."
+      }
+     ]
+    },
+    {
+     "title": "Cleft Lip and Palate and TMJ Disorders",
+     "order": 4,
+     "summary": "Cleft classification and multidisciplinary care, and temporomandibular joint disorders.",
+     "material": [
+      {
+       "heading": "Cleft lip and palate",
+       "body": "Orofacial clefts are among the commonest congenital anomalies (about 1 in 1,000 births in Nigeria; cleft lip with or without palate more common in boys; isolated cleft palate more in girls). Causes: multifactorial — genetics, maternal smoking, alcohol, anticonvulsants, folic acid deficiency; some syndromic (Pierre Robin sequence — micrognathia, glossoptosis, airway obstruction). Problems: feeding (special bottles, squeezable, positioning upright), speech (hypernasality, velopharyngeal insufficiency), hearing (otitis media with effusion), dental anomalies, appearance and psychosocial stigma. Multidisciplinary team management: lip repair at about 3 months (rule of 10s — 10 weeks, 10 lb, Hb 10 g/dL), palate repair at 6–12 months (before speech develops), alveolar bone grafting at 8–11 years (before canine eruption), orthodontics, speech therapy, ENT and possible orthognathic surgery. Smile Train and other programmes have supported free cleft surgery across Nigeria.",
+       "keyPoints": [
+        "~1 in 1,000 births",
+        "Pierre Robin: airway",
+        "Feeding difficulties",
+        "Rule of 10s for lip repair",
+        "Palate repair 6–12 months",
+        "Alveolar bone graft 8–11 years"
+       ]
+      },
+      {
+       "heading": "Temporomandibular disorders",
+       "body": "Temporomandibular disorders (TMD) are common: myofascial pain (masticatory muscle pain, often related to stress and parafunction — bruxism, clenching), disc displacement (with reduction — clicking; without reduction — closed lock, limited opening), and degenerative joint disease (crepitus). Management is mainly conservative: reassurance, soft diet, jaw rest, heat, analgesics (NSAIDs), physiotherapy and jaw exercises, occlusal splints, stress management and low-dose amitriptyline for chronic pain; arthrocentesis or surgery rarely. TMJ ankylosis (bony or fibrous fusion — commonly after trauma (condylar fractures) or infection in childhood, including after noma; limited mouth opening, facial asymmetry, micrognathia, airway problems) requires surgical release (gap arthroplasty, interpositional grafts, costochondral grafts) with aggressive postoperative physiotherapy. TMJ dislocation (anterior — mouth locked open after yawning; reduced by downward and backward pressure on the molars).",
+       "keyPoints": [
+        "Myofascial pain, disc displacement",
+        "Clicking: disc with reduction",
+        "Conservative management first",
+        "Occlusal splints",
+        "Ankylosis after trauma/infection",
+        "Dislocation: press down and back"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Cleft lip repair is commonly performed at about:",
+       "options": [
+        "Birth",
+        "18 years",
+        "12 years",
+        "3 months",
+        "5 years"
+       ],
+       "answerIndex": 3,
+       "explanation": "The 'rule of 10s' guides timing."
+      },
+      {
+       "stem": "Cleft palate repair is ideally performed before:",
+       "options": [
+        "Speech development (6–12 months)",
+        "Birth",
+        "Adulthood",
+        "School leaving",
+        "Puberty"
+       ],
+       "answerIndex": 0,
+       "explanation": "Early repair improves speech outcomes."
+      },
+      {
+       "stem": "Alveolar bone grafting in cleft patients is performed before eruption of the:",
+       "options": [
+        "Primary molar",
+        "Central incisor",
+        "Third molar",
+        "Permanent canine",
+        "First molar"
+       ],
+       "answerIndex": 3,
+       "explanation": "Usually at 8–11 years."
+      },
+      {
+       "stem": "Micrognathia, glossoptosis and airway obstruction in a newborn with cleft palate suggest:",
+       "options": [
+        "Crouzon syndrome",
+        "Down syndrome",
+        "Van der Woude syndrome",
+        "Treacher Collins syndrome",
+        "Pierre Robin sequence"
+       ],
+       "answerIndex": 4,
+       "explanation": "Prone positioning may help the airway."
+      },
+      {
+       "stem": "A common additional problem in children with cleft palate is:",
+       "options": [
+        "Kidney stones",
+        "Diabetes",
+        "Otitis media with effusion (hearing loss)",
+        "Hyperthyroidism",
+        "Asthma"
+       ],
+       "answerIndex": 2,
+       "explanation": "Eustachian tube dysfunction is common."
+      },
+      {
+       "stem": "Clicking of the jaw on opening with normal range suggests:",
+       "options": [
+        "Ankylosis",
+        "Disc displacement with reduction",
+        "Fracture",
+        "Dislocation",
+        "Tumour"
+       ],
+       "answerIndex": 1,
+       "explanation": "The disc reduces during opening."
+      },
+      {
+       "stem": "The first-line management of most temporomandibular disorders is:",
+       "options": [
+        "Conservative measures (soft diet, analgesics, splints, exercises)",
+        "Radiotherapy",
+        "Joint replacement",
+        "Extraction of all molars",
+        "Arthroscopy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Most improve without surgery."
+      },
+      {
+       "stem": "A mouth locked open after a wide yawn indicates:",
+       "options": [
+        "Trismus",
+        "TMJ ankylosis",
+        "Anterior TMJ dislocation",
+        "Mandibular fracture",
+        "Tetanus"
+       ],
+       "answerIndex": 2,
+       "explanation": "Reduce with downward and backward pressure."
+      }
+     ]
+    },
+    {
+     "title": "Medical Emergencies and Special Care in Oral Surgery",
+     "order": 5,
+     "summary": "Emergency drugs and management in the dental setting, and care of medically compromised patients.",
+     "material": [
+      {
+       "heading": "Medical emergencies",
+       "body": "Every dental clinic needs trained staff, oxygen, a bag–valve–mask, suction, an AED, and emergency drugs: adrenaline 1:1000 (IM 0.5 mg for adult anaphylaxis), aspirin 300 mg (chest pain), glyceryl trinitrate spray (angina), salbutamol inhaler (asthma), glucose gel/oral glucose and glucagon (hypoglycaemia), and midazolam (buccal — prolonged seizures). Emergencies: vasovagal syncope (lie flat, raise legs), hypoglycaemia (oral glucose if conscious; glucagon IM if not), asthma (salbutamol via spacer; oxygen; call for help if severe), anaphylaxis (IM adrenaline, oxygen, call emergency services, repeat after 5 minutes), angina/myocardial infarction (GTN, aspirin, oxygen if hypoxic), epileptic seizure (protect from injury, midazolam if > 5 minutes), choking/inhalation of instruments (back blows and abdominal thrusts; rubber dam prevents), adrenal crisis, and cardiac arrest (CPR 30:2, AED). The ABCDE approach structures assessment.",
+       "keyPoints": [
+        "AED, oxygen, emergency drugs",
+        "Anaphylaxis: IM adrenaline 0.5 mg",
+        "Aspirin 300 mg; GTN",
+        "Glucagon for hypoglycaemia",
+        "Buccal midazolam for seizures",
+        "ABCDE approach"
+       ]
+      },
+      {
+       "heading": "Medically compromised patients",
+       "body": "Bleeding risk: anticoagulants (warfarin — INR; DOACs — often timing extractions before the next dose), antiplatelets (usually continued), haemophilia (factor replacement with haematologist; tranexamic acid) and liver disease. Infective endocarditis: antibiotic prophylaxis is reserved for high-risk patients (previous endocarditis, prosthetic valves, certain congenital heart disease) per current guidelines; good oral health is more important. Diabetes: schedule morning appointments, ensure the patient has eaten and taken medication, and manage infections aggressively. Hypertension: defer elective treatment if BP ≥ 180/110. Pregnancy: second trimester is best for elective treatment; avoid unnecessary radiographs; lidocaine is safe. HIV: standard precautions; manage oral lesions; no special restrictions for routine care. Bisphosphonates/antiresorptives: risk of medication-related osteonecrosis of the jaw (MRONJ) — dental assessment before starting, atraumatic extractions. Radiotherapy: osteoradionecrosis risk — pre-radiotherapy extractions. Sickle cell disease: avoid prolonged procedures, dehydration and infection; consider prophylaxis.",
+       "keyPoints": [
+        "DOACs: timing",
+        "Endocarditis prophylaxis: high-risk only",
+        "Diabetes: morning, eaten",
+        "Defer if BP ≥ 180/110",
+        "Pregnancy: second trimester",
+        "MRONJ and ORN risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The dose of adrenaline for adult anaphylaxis in a dental clinic is:",
+       "options": [
+        "10 mg IV",
+        "1 mg orally",
+        "5 mg IM",
+        "0.05 mg IV",
+        "0.5 mg IM (1:1000)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Repeat after 5 minutes if needed."
+      },
+      {
+       "stem": "A conscious diabetic patient who becomes sweaty and confused in the dental chair should receive:",
+       "options": [
+        "Oral glucose",
+        "Aspirin",
+        "Insulin",
+        "Adrenaline",
+        "Salbutamol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hypoglycaemia is likely."
+      },
+      {
+       "stem": "For suspected myocardial infarction in the dental chair, give:",
+       "options": [
+        "Glucagon",
+        "Midazolam",
+        "Aspirin 300 mg (chewed) and call emergency services",
+        "Paracetamol",
+        "Adrenaline IM"
+       ],
+       "answerIndex": 2,
+       "explanation": "Plus GTN and oxygen if hypoxic."
+      },
+      {
+       "stem": "A prolonged epileptic seizure in the dental clinic is treated with:",
+       "options": [
+        "Oral glucose",
+        "GTN spray",
+        "Aspirin",
+        "Buccal midazolam",
+        "Salbutamol"
+       ],
+       "answerIndex": 3,
+       "explanation": "If the seizure lasts more than 5 minutes."
+      },
+      {
+       "stem": "Antibiotic prophylaxis against infective endocarditis before dental procedures is reserved for:",
+       "options": [
+        "All diabetics",
+        "All pregnant women",
+        "All patients with any murmur",
+        "Nobody",
+        "High-risk patients such as those with prosthetic valves or previous endocarditis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Guidelines have narrowed indications."
+      },
+      {
+       "stem": "Elective dental treatment should be deferred if blood pressure is at or above:",
+       "options": [
+        "130/80",
+        "140/90",
+        "160/100",
+        "180/110",
+        "120/70"
+       ],
+       "answerIndex": 3,
+       "explanation": "Refer for medical management."
+      },
+      {
+       "stem": "The safest trimester for elective dental treatment in pregnancy is:",
+       "options": [
+        "First",
+        "Third",
+        "Any",
+        "Second",
+        "None"
+       ],
+       "answerIndex": 3,
+       "explanation": "Organogenesis is complete and the patient is comfortable."
+      },
+      {
+       "stem": "Patients about to start intravenous bisphosphonates should have a dental assessment to reduce the risk of:",
+       "options": [
+        "Gingivitis",
+        "Medication-related osteonecrosis of the jaw",
+        "Caries",
+        "Tooth whitening",
+        "Dry mouth"
+       ],
+       "answerIndex": 1,
+       "explanation": "Extractions should be completed beforehand."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "courses": [
+  {
+   "title": "Neurological Physiotherapy",
+   "code": "PTH403",
+   "color": "#0F766E",
+   "description": "Neurological assessment and rehabilitation of stroke, spinal cord injury, traumatic brain injury, Parkinson's disease, peripheral neuropathies and cerebral palsy.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Neurological Assessment and Recovery",
+     "order": 1,
+     "summary": "Tone, motor control, balance assessment, neuroplasticity and treatment approaches.",
+     "material": [
+      {
+       "heading": "Assessment",
+       "body": "Neurological assessment covers consciousness (Glasgow Coma Scale), cognition and communication, tone (spasticity graded by the Modified Ashworth Scale 0–4; spasticity is velocity-dependent resistance from upper motor neuron lesions, while rigidity is velocity-independent — lead-pipe or cogwheel in Parkinson's), power, sensation (light touch, proprioception), coordination (finger–nose, heel–shin; ataxia in cerebellar lesions), reflexes (brisk with Babinski sign in UMN lesions; reduced in LMN lesions), balance (Berg Balance Scale — score < 45 indicates fall risk), gait and functional mobility (Timed Up and Go, 10-metre walk test), and activities of daily living (Barthel Index, Functional Independence Measure).",
+       "keyPoints": [
+        "Modified Ashworth: spasticity",
+        "Spasticity velocity-dependent; rigidity not",
+        "UMN: brisk reflexes, Babinski",
+        "Berg < 45: fall risk",
+        "Barthel Index for ADLs"
+       ]
+      },
+      {
+       "heading": "Neuroplasticity and approaches",
+       "body": "Recovery after brain injury relies on neuroplasticity — the nervous system's ability to reorganise through synaptic strengthening and recruitment of other areas. Principles of experience-dependent plasticity: use it or lose it, specificity, repetition (high doses of practice), intensity, salience (meaningful tasks) and timing (early rehabilitation). Treatment approaches: task-oriented training (practising real functional tasks), motor relearning programme (Carr and Shepherd), constraint-induced movement therapy (restrain the unaffected arm to force use of the affected arm — for patients with some wrist and finger extension), Bobath/neurodevelopmental treatment (normalising movement patterns), proprioceptive neuromuscular facilitation (PNF — diagonal patterns), mirror therapy, and functional electrical stimulation. Evidence favours high-intensity, repetitive, task-specific practice.",
+       "keyPoints": [
+        "Neuroplasticity: use it or lose it",
+        "Repetition and intensity matter",
+        "Task-oriented training",
+        "CIMT: restrain unaffected arm",
+        "PNF: diagonal patterns"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Spasticity is best graded clinically using the:",
+       "options": [
+        "Berg Balance Scale",
+        "Oxford scale",
+        "Modified Ashworth Scale",
+        "Barthel Index",
+        "Glasgow Coma Scale"
+       ],
+       "answerIndex": 2,
+       "explanation": "It grades resistance to passive movement from 0 to 4."
+      },
+      {
+       "stem": "Resistance to passive movement that increases with speed of movement is:",
+       "options": [
+        "Spasticity",
+        "Ataxia",
+        "Clonus only",
+        "Rigidity",
+        "Flaccidity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Spasticity is velocity-dependent."
+      },
+      {
+       "stem": "Cogwheel rigidity is characteristic of:",
+       "options": [
+        "Parkinson's disease",
+        "Stroke",
+        "Cerebellar ataxia",
+        "Guillain–Barré syndrome",
+        "Spinal cord injury"
+       ],
+       "answerIndex": 0,
+       "explanation": "Tremor superimposed on rigidity gives a ratchet feel."
+      },
+      {
+       "stem": "A Berg Balance Scale score below 45 suggests:",
+       "options": [
+        "Spasticity",
+        "Normal gait",
+        "Increased risk of falls",
+        "Cognitive impairment",
+        "Excellent balance"
+       ],
+       "answerIndex": 2,
+       "explanation": "The maximum score is 56."
+      },
+      {
+       "stem": "The Barthel Index measures:",
+       "options": [
+        "Muscle power",
+        "Independence in activities of daily living",
+        "Balance only",
+        "Cognition",
+        "Tone"
+       ],
+       "answerIndex": 1,
+       "explanation": "It scores feeding, bathing, mobility and continence."
+      },
+      {
+       "stem": "Constraint-induced movement therapy involves:",
+       "options": [
+        "Bed rest",
+        "Restraining the unaffected arm to force use of the affected arm",
+        "Electrical stimulation only",
+        "Passive stretching",
+        "Restraining the affected arm"
+       ],
+       "answerIndex": 1,
+       "explanation": "It overcomes learned non-use."
+      },
+      {
+       "stem": "The principle that recovery depends on many repetitions of practice reflects:",
+       "options": [
+        "Spontaneous recovery only",
+        "Muscle hypertrophy",
+        "Compensation only",
+        "Reflex integration",
+        "Experience-dependent neuroplasticity"
+       ],
+       "answerIndex": 4,
+       "explanation": "Repetition drives cortical reorganisation."
+      },
+      {
+       "stem": "Proprioceptive neuromuscular facilitation uses:",
+       "options": [
+        "Spiral and diagonal movement patterns",
+        "Traction",
+        "Only passive movements",
+        "Isolated single-plane movements",
+        "Heat therapy"
+       ],
+       "answerIndex": 0,
+       "explanation": "PNF patterns mimic functional movement."
+      }
+     ]
+    },
+    {
+     "title": "Stroke Rehabilitation",
+     "order": 2,
+     "summary": "Stroke presentation, early positioning, motor recovery, shoulder care and gait retraining.",
+     "material": [
+      {
+       "heading": "Early management",
+       "body": "Stroke is a leading cause of adult disability in Nigeria, driven largely by uncontrolled hypertension; haemorrhagic strokes are relatively common. Patients present with hemiplegia, sensory loss, aphasia (dominant hemisphere), neglect (non-dominant, usually right hemisphere), dysphagia and visual field loss. Early rehabilitation in a stroke unit improves outcomes; physiotherapy starts once the patient is medically stable (usually within 24–48 hours, avoiding very early high-dose mobilisation). Positioning prevents contractures, pressure sores and shoulder injury: alternate side-lying, supported sitting, and avoiding pulling on the affected arm. Dysphagia screening precedes oral intake to prevent aspiration pneumonia. Brunnstrom described stages of motor recovery from flaccidity through synergy patterns to isolated movement.",
+       "keyPoints": [
+        "Hypertension: main Nigerian risk factor",
+        "Right hemisphere lesion: neglect",
+        "Stroke units improve outcome",
+        "Positioning prevents complications",
+        "Brunnstrom recovery stages"
+       ]
+      },
+      {
+       "heading": "Recovery and complications",
+       "body": "Most motor recovery occurs within the first 3–6 months, though improvement can continue for years. Hemiplegic shoulder pain is common — caused by subluxation (in the flaccid stage), spasticity, adhesive capsulitis or complex regional pain syndrome; prevented by proper positioning, arm supports and avoiding traction on the arm (never pull the patient up by the affected arm); electrical stimulation can reduce subluxation. Gait retraining addresses weight shift, stance control, foot clearance (ankle–foot orthosis for foot drop) and walking speed, often with treadmill training. Upper limb rehabilitation uses repetitive task practice, CIMT and mirror therapy. Complications also include falls, depression, spasticity (stretching, positioning, botulinum toxin) and deconditioning; aerobic training and secondary prevention education (blood pressure control, medication adherence) are essential.",
+       "keyPoints": [
+        "Most recovery in first 3–6 months",
+        "Never pull on the affected arm",
+        "AFO for foot drop",
+        "Botulinum toxin for focal spasticity",
+        "Secondary prevention: blood pressure"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The major modifiable risk factor for stroke in Nigeria is:",
+       "options": [
+        "Uncontrolled hypertension",
+        "Malaria",
+        "Anaemia",
+        "Asthma",
+        "Hepatitis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hypertension drives most strokes."
+      },
+      {
+       "stem": "Unilateral neglect is most commonly associated with a lesion of the:",
+       "options": [
+        "Right (non-dominant) hemisphere",
+        "Spinal cord",
+        "Cerebellum",
+        "Brainstem only",
+        "Left hemisphere"
+       ],
+       "answerIndex": 0,
+       "explanation": "The right parietal lobe controls spatial attention."
+      },
+      {
+       "stem": "Before a stroke patient eats or drinks, they should have:",
+       "options": [
+        "A swallow (dysphagia) screen",
+        "An ECG",
+        "Physiotherapy",
+        "An X-ray",
+        "A blood test"
+       ],
+       "answerIndex": 0,
+       "explanation": "This prevents aspiration pneumonia."
+      },
+      {
+       "stem": "Most motor recovery after stroke occurs within:",
+       "options": [
+        "The first 3–6 months",
+        "5 years",
+        "Only after one year",
+        "The first week",
+        "It never occurs"
+       ],
+       "answerIndex": 0,
+       "explanation": "The steepest recovery is early."
+      },
+      {
+       "stem": "To prevent hemiplegic shoulder pain, carers should:",
+       "options": [
+        "Avoid traction on the affected arm and support it",
+        "Leave the arm hanging",
+        "Immobilise it completely",
+        "Pull the patient up by the affected arm",
+        "Perform vigorous overhead pulleys"
+       ],
+       "answerIndex": 0,
+       "explanation": "Traction causes subluxation and injury."
+      },
+      {
+       "stem": "An ankle–foot orthosis is used after stroke to manage:",
+       "options": [
+        "Aphasia",
+        "Knee hyperextension only",
+        "Neglect",
+        "Shoulder subluxation",
+        "Foot drop"
+       ],
+       "answerIndex": 4,
+       "explanation": "It aids foot clearance during swing."
+      },
+      {
+       "stem": "Focal spasticity limiting function after stroke may be treated with:",
+       "options": [
+        "Antibiotics",
+        "Traction",
+        "Botulinum toxin injection plus stretching",
+        "Heat only",
+        "Bed rest"
+       ],
+       "answerIndex": 2,
+       "explanation": "Toxin relaxes targeted muscles."
+      },
+      {
+       "stem": "Brunnstrom's stages describe:",
+       "options": [
+        "Balance scores",
+        "Stages of motor recovery after stroke",
+        "Swallowing recovery",
+        "Speech recovery",
+        "Cognitive recovery"
+       ],
+       "answerIndex": 1,
+       "explanation": "From flaccidity through synergies to normal movement."
+      }
+     ]
+    },
+    {
+     "title": "Spinal Cord Injury",
+     "order": 3,
+     "summary": "Classification, complications, functional outcomes and rehabilitation.",
+     "material": [
+      {
+       "heading": "Classification and acute care",
+       "body": "Spinal cord injury (SCI) in Nigeria is commonly caused by road traffic accidents, falls (including from palm trees) and violence. The ASIA Impairment Scale classifies injuries: A (complete — no motor or sensory function in S4–S5), B (sensory incomplete), C and D (motor incomplete, with D having at least half of key muscles below the level ≥ grade 3) and E (normal). Tetraplegia results from cervical injuries; paraplegia from thoracic, lumbar or sacral injuries. Incomplete syndromes include central cord (arms weaker than legs, older people with hyperextension), Brown-Séquard (ipsilateral motor and proprioceptive loss, contralateral pain and temperature loss) and anterior cord syndrome. Acute care includes spinal precautions, respiratory care (cervical lesions above C5 impair the diaphragm — C3, 4, 5 keep the diaphragm alive), positioning and passive movements.",
+       "keyPoints": [
+        "ASIA A = complete",
+        "Tetraplegia: cervical",
+        "Central cord: arms > legs",
+        "Brown-Séquard: contralateral pain/temp loss",
+        "C3–5 innervate diaphragm"
+       ]
+      },
+      {
+       "heading": "Complications and rehabilitation",
+       "body": "Complications: autonomic dysreflexia (lesions at or above T6 — a noxious stimulus below the lesion such as a full bladder triggers dangerous hypertension, headache and bradycardia; sit the patient up and remove the cause), pressure ulcers (turn every 2 hours, pressure-relieving cushions), orthostatic hypotension, DVT, urinary tract infections, spasticity, contractures, heterotopic ossification and osteoporosis. Rehabilitation aims for maximal independence according to level: C6 (tenodesis grip, manual wheelchair with adaptations), T1 and below (full upper limb function, independent wheelchair use), low thoracic–lumbar (possible walking with orthoses). Training includes transfers, wheelchair skills, pressure relief, respiratory care, strengthening and community reintegration. Vocational rehabilitation and accessible environments are major challenges in Nigeria.",
+       "keyPoints": [
+        "Autonomic dysreflexia ≥ T6: sit up, remove cause",
+        "Turn every 2 hours",
+        "C6: tenodesis grip",
+        "T1+: independent wheelchair",
+        "Community reintegration"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "ASIA Impairment Scale grade A indicates:",
+       "options": [
+        "Motor incomplete injury",
+        "Complete injury with no function in S4–S5",
+        "Central cord syndrome",
+        "Sensory incomplete injury",
+        "Normal function"
+       ],
+       "answerIndex": 1,
+       "explanation": "Sacral sparing is absent."
+      },
+      {
+       "stem": "Injury to the cervical spinal cord results in:",
+       "options": [
+        "Diplegia",
+        "Hemiplegia",
+        "Monoplegia",
+        "Tetraplegia",
+        "Paraplegia"
+       ],
+       "answerIndex": 3,
+       "explanation": "All four limbs are affected."
+      },
+      {
+       "stem": "The diaphragm is supplied mainly by nerve roots:",
+       "options": [
+        "L1–L2",
+        "T1–T4",
+        "C1–C2",
+        "C3–C5",
+        "C6–C8"
+       ],
+       "answerIndex": 3,
+       "explanation": "'C3, 4, 5 keep the diaphragm alive.'"
+      },
+      {
+       "stem": "Weakness greater in the arms than legs after a hyperextension injury in an older person suggests:",
+       "options": [
+        "Central cord syndrome",
+        "Cauda equina syndrome",
+        "Complete injury",
+        "Brown-Séquard syndrome",
+        "Anterior cord syndrome"
+       ],
+       "answerIndex": 0,
+       "explanation": "Central cervical fibres serving the arms are affected."
+      },
+      {
+       "stem": "Autonomic dysreflexia occurs in lesions at or above:",
+       "options": [
+        "T12",
+        "S2",
+        "L2",
+        "T6",
+        "C8 only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Sympathetic outflow is uncontrolled below the lesion."
+      },
+      {
+       "stem": "The first action for a patient with autonomic dysreflexia is to:",
+       "options": [
+        "Lie them flat",
+        "Apply cold packs",
+        "Sit them up and remove the noxious stimulus (e.g. empty the bladder)",
+        "Start exercise",
+        "Give fluids rapidly"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sitting up lowers blood pressure."
+      },
+      {
+       "stem": "To prevent pressure ulcers, bed-bound patients should be repositioned about every:",
+       "options": [
+        "2 hours",
+        "Weekly",
+        "10 minutes",
+        "8 hours",
+        "24 hours"
+       ],
+       "answerIndex": 0,
+       "explanation": "Regular turning relieves pressure."
+      },
+      {
+       "stem": "Tenodesis grip, used by people with C6 tetraplegia, involves:",
+       "options": [
+        "Thumb opposition",
+        "Wrist extension causing passive finger flexion",
+        "Active finger flexion",
+        "Shoulder elevation",
+        "Elbow flexion only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tension in finger flexor tendons closes the hand."
+      }
+     ]
+    },
+    {
+     "title": "Progressive and Peripheral Neurological Conditions",
+     "order": 4,
+     "summary": "Parkinson's disease, multiple sclerosis, Guillain–Barré syndrome, peripheral neuropathy and Bell's palsy.",
+     "material": [
+      {
+       "heading": "Parkinson's disease and MS",
+       "body": "Parkinson's disease (dopamine loss in the substantia nigra) causes bradykinesia, rigidity, resting tremor and postural instability, with a shuffling festinating gait, freezing and falls. Physiotherapy uses external cues (visual lines on the floor, auditory metronome rhythms), large amplitude movement training (LSVT BIG), balance and strength training, and fall prevention; timing sessions when medication is 'on' helps. Multiple sclerosis (demyelination; relapsing–remitting commonly; less common in Africa) causes fatigue, weakness, spasticity, ataxia and sensory symptoms; rehabilitation includes energy conservation, aerobic and strengthening exercise (avoiding overheating — Uhthoff's phenomenon), balance training and aids.",
+       "keyPoints": [
+        "PD: bradykinesia, rigidity, tremor",
+        "Cueing for freezing",
+        "LSVT BIG: large amplitude",
+        "MS: fatigue management",
+        "Uhthoff's: heat worsens symptoms"
+       ]
+      },
+      {
+       "heading": "Peripheral conditions",
+       "body": "Guillain–Barré syndrome is an acute inflammatory polyneuropathy (often after infection) causing ascending symmetrical flaccid weakness and areflexia; it may involve respiratory muscles (monitor vital capacity; ventilation if needed). Physiotherapy: respiratory care, positioning, passive movements in the acute phase, then gradual strengthening avoiding over-fatigue; most recover. Peripheral neuropathy (diabetes, HIV, leprosy, alcohol) causes glove-and-stocking sensory loss, weakness and balance problems — foot care and balance training are key. Bell's palsy is idiopathic facial (VII) nerve palsy with lower motor neuron facial weakness (including the forehead); eye protection, steroids and facial exercises help, and most recover within months. Nerve injuries (e.g. radial nerve palsy — wrist drop; common peroneal — foot drop) need splinting and re-education.",
+       "keyPoints": [
+        "GBS: ascending flaccid weakness",
+        "Monitor vital capacity in GBS",
+        "Glove-and-stocking neuropathy",
+        "Bell's palsy: forehead involved (LMN)",
+        "Radial: wrist drop; peroneal: foot drop"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A cardinal feature of Parkinson's disease is:",
+       "options": [
+        "Hyperreflexia",
+        "Sensory ataxia only",
+        "Spastic weakness",
+        "Ascending paralysis",
+        "Bradykinesia"
+       ],
+       "answerIndex": 4,
+       "explanation": "Slowness of movement is essential for diagnosis."
+      },
+      {
+       "stem": "Freezing of gait in Parkinson's disease can be improved using:",
+       "options": [
+        "Ice packs",
+        "Traction",
+        "External visual or auditory cues",
+        "Complete bed rest",
+        "Heavy weights"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cues bypass impaired internal timing."
+      },
+      {
+       "stem": "Worsening of MS symptoms with increased body temperature is called:",
+       "options": [
+        "Lhermitte's sign",
+        "Tinel's sign",
+        "Uhthoff's phenomenon",
+        "Babinski sign",
+        "Romberg's sign"
+       ],
+       "answerIndex": 2,
+       "explanation": "Heat slows conduction in demyelinated nerves."
+      },
+      {
+       "stem": "Guillain–Barré syndrome typically presents with:",
+       "options": [
+        "Muscle hypertrophy",
+        "Unilateral weakness",
+        "Ascending symmetrical flaccid weakness with areflexia",
+        "Rigidity and tremor",
+        "Descending spastic paralysis"
+       ],
+       "answerIndex": 2,
+       "explanation": "It often follows an infection."
+      },
+      {
+       "stem": "In Guillain–Barré syndrome, respiratory function is monitored by measuring:",
+       "options": [
+        "Oxygen saturation only",
+        "Heart rate",
+        "Vital capacity",
+        "Blood glucose",
+        "Peak expiratory flow only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Falling vital capacity signals need for ventilation."
+      },
+      {
+       "stem": "Glove-and-stocking sensory loss is typical of:",
+       "options": [
+        "Peripheral polyneuropathy (e.g. diabetic)",
+        "Spinal cord injury",
+        "Bell's palsy",
+        "Parkinson's disease",
+        "Stroke"
+       ],
+       "answerIndex": 0,
+       "explanation": "Longest nerves are affected first."
+      },
+      {
+       "stem": "In Bell's palsy, forehead muscles are:",
+       "options": [
+        "Affected, because it is a lower motor neuron lesion",
+        "Unrelated",
+        "Spared",
+        "Only affected in stroke",
+        "Hyperactive"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stroke (UMN) spares the forehead."
+      },
+      {
+       "stem": "Wrist drop after a humeral shaft fracture indicates injury to the:",
+       "options": [
+        "Median nerve",
+        "Radial nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve",
+        "Axillary nerve"
+       ],
+       "answerIndex": 1,
+       "explanation": "The radial nerve winds around the humerus."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Neurology and Brain Injury",
+     "order": 5,
+     "summary": "Cerebral palsy, spina bifida, traumatic brain injury and developmental assessment.",
+     "material": [
+      {
+       "heading": "Cerebral palsy and spina bifida",
+       "body": "Cerebral palsy (CP) is a group of permanent, non-progressive disorders of movement and posture due to disturbances in the developing brain; common Nigerian causes include birth asphyxia, neonatal jaundice (kernicterus) and infections such as meningitis. Types: spastic (most common — hemiplegic, diplegic, quadriplegic), dyskinetic (athetoid, often after kernicterus) and ataxic. The Gross Motor Function Classification System (GMFCS levels I–V) grades mobility. Management: family-centred therapy, positioning, stretching, strengthening, orthoses, mobility aids, goal-directed functional training and caregiver education; botulinum toxin and orthopaedic surgery for contractures. Spina bifida (neural tube defect, preventable with folic acid) — myelomeningocele causes lower limb paralysis, sensory loss, hydrocephalus and bladder problems; rehabilitation focuses on mobility, skin care and orthoses.",
+       "keyPoints": [
+        "CP: non-progressive",
+        "Nigerian causes: asphyxia, kernicterus, meningitis",
+        "Spastic CP most common",
+        "GMFCS I–V",
+        "Folic acid prevents neural tube defects"
+       ]
+      },
+      {
+       "heading": "Traumatic brain injury",
+       "body": "Traumatic brain injury (TBI) is common after road traffic crashes, especially involving motorcycles (okada) without helmets. Severity by Glasgow Coma Scale: mild 13–15, moderate 9–12, severe ≤ 8. Acute physiotherapy in intensive care addresses respiratory care (with attention to intracranial pressure — avoid head-down positions and excessive coughing stimulation), positioning, and preventing contractures. Rehabilitation manages motor deficits, balance, cognitive and behavioural problems (agitation, memory, impulsivity) using structured, consistent routines and multidisciplinary input. The Rancho Los Amigos scale describes cognitive recovery stages. Prevention (helmets, seat belts, road safety) is the most effective strategy.",
+       "keyPoints": [
+        "Severe TBI: GCS ≤ 8",
+        "Avoid raising ICP in acute care",
+        "Rancho Los Amigos scale",
+        "Helmets prevent TBI"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Cerebral palsy is best described as:",
+       "options": [
+        "A progressive neurological disease",
+        "A spinal cord disorder",
+        "A muscle disease",
+        "An infection",
+        "A non-progressive disorder of movement and posture from early brain injury"
+       ],
+       "answerIndex": 4,
+       "explanation": "The brain lesion does not worsen, though problems evolve."
+      },
+      {
+       "stem": "The most common type of cerebral palsy is:",
+       "options": [
+        "Spastic",
+        "Mixed",
+        "Hypotonic",
+        "Dyskinetic",
+        "Ataxic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Spastic CP accounts for most cases."
+      },
+      {
+       "stem": "Dyskinetic (athetoid) cerebral palsy is classically associated with:",
+       "options": [
+        "Kernicterus from severe neonatal jaundice",
+        "Maternal diabetes",
+        "Down syndrome",
+        "Premature rupture of membranes",
+        "Folic acid deficiency"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bilirubin damages the basal ganglia."
+      },
+      {
+       "stem": "The GMFCS classifies children with cerebral palsy by their:",
+       "options": [
+        "Intelligence",
+        "Age",
+        "Speech",
+        "Vision",
+        "Gross motor function"
+       ],
+       "answerIndex": 4,
+       "explanation": "Levels I–V guide prognosis and planning."
+      },
+      {
+       "stem": "Neural tube defects such as spina bifida can be reduced by maternal intake of:",
+       "options": [
+        "Vitamin K",
+        "Calcium",
+        "Iron",
+        "Vitamin C",
+        "Folic acid"
+       ],
+       "answerIndex": 4,
+       "explanation": "Periconceptional folic acid prevents many cases."
+      },
+      {
+       "stem": "A Glasgow Coma Scale score of 7 after head injury indicates:",
+       "options": [
+        "Severe TBI",
+        "Brain death",
+        "Mild TBI",
+        "No injury",
+        "Moderate TBI"
+       ],
+       "answerIndex": 0,
+       "explanation": "GCS ≤ 8 is severe."
+      },
+      {
+       "stem": "In acute severe TBI with raised intracranial pressure, physiotherapists should avoid:",
+       "options": [
+        "Positioning",
+        "Monitoring",
+        "Communication with nurses",
+        "Head-down tilt positions",
+        "Passive movements"
+       ],
+       "answerIndex": 3,
+       "explanation": "Head-down raises intracranial pressure."
+      },
+      {
+       "stem": "The most effective way to reduce traumatic brain injury from motorcycle crashes is:",
+       "options": [
+        "More hospitals",
+        "Helmet use and road safety measures",
+        "Faster ambulances only",
+        "Painkillers",
+        "Physiotherapy"
+       ],
+       "answerIndex": 1,
+       "explanation": "Prevention is the most effective strategy."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

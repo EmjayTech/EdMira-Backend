@@ -1,0 +1,678 @@
+{
+ "courses": [
+  {
+   "title": "Obstetrics",
+   "code": "OBG501",
+   "color": "#DB2777",
+   "description": "Antenatal care, normal and abnormal labour, obstetric haemorrhage, hypertensive disorders, medical disorders in pregnancy and the puerperium.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Antenatal Care and Normal Pregnancy",
+     "order": 1,
+     "summary": "Physiological changes, booking, routine investigations, and prevention strategies.",
+     "material": [
+      {
+       "heading": "Physiology and booking",
+       "body": "Pregnancy increases plasma volume (~40–50%) more than red cell mass, causing physiological haemodilution (Hb < 11 g/dL is anaemia in pregnancy); cardiac output rises by ~40%; hypercoagulability increases thromboembolism risk; insulin resistance develops in later pregnancy; GFR rises (lower creatinine). Gestational age: Naegele's rule (EDD = LMP + 9 months + 7 days), confirmed by early ultrasound. Booking visit (ideally before 12 weeks): history (previous pregnancies, medical conditions), examination, BP, weight/BMI, urinalysis, and investigations — FBC, blood group and antibodies, haemoglobin genotype, HIV, hepatitis B, syphilis (VDRL/RPR), urine culture, and blood glucose where indicated. WHO recommends at least 8 contacts. Routine interventions in Nigeria: iron and folic acid, IPTp with SP (from 13 weeks, monthly), insecticide-treated nets, tetanus–diphtheria vaccine, deworming after the first trimester, calcium supplementation where intake is low, and birth preparedness and complication readiness.",
+       "keyPoints": [
+        "Plasma volume ↑ > red cells → Hb < 11 anaemia",
+        "Naegele's rule",
+        "Book before 12 weeks",
+        "Screen HIV, HBV, syphilis, genotype",
+        "8 contacts",
+        "IPTp-SP from 13 weeks"
+       ]
+      },
+      {
+       "heading": "Fetal assessment and danger signs",
+       "body": "Symphysis–fundal height (cm) approximates gestational weeks from about 24 weeks. Fetal well-being is assessed by fetal movements (reduced movements need prompt assessment), auscultation of the fetal heart (normal baseline 110–160 bpm), ultrasound (growth, liquor, placenta), cardiotocography and umbilical artery Doppler. Lie, presentation and engagement are assessed in late pregnancy (Leopold manoeuvres). Danger signs for which women should seek care immediately: vaginal bleeding, severe headache or blurred vision, convulsions, severe abdominal pain, fever, reduced fetal movements, leaking liquor, and swelling of face and hands. Prevention of mother-to-child transmission of HIV (PMTCT): maternal ART (TLD), infant prophylaxis and early infant diagnosis; hepatitis B birth-dose vaccine and immunoglobulin (and tenofovir for mothers with high viral load).",
+       "keyPoints": [
+        "SFH ≈ weeks after 24",
+        "FHR 110–160",
+        "Reduced fetal movements: assess",
+        "Danger signs",
+        "PMTCT",
+        "HBV: birth dose + tenofovir if high VL"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Anaemia in pregnancy is defined as haemoglobin below:",
+       "options": [
+        "9 g/dL",
+        "10 g/dL",
+        "11 g/dL",
+        "12 g/dL",
+        "13 g/dL"
+       ],
+       "answerIndex": 2,
+       "explanation": "Physiological haemodilution lowers Hb."
+      },
+      {
+       "stem": "By Naegele's rule, if the LMP was 1 January, the EDD is about:",
+       "options": [
+        "1 September",
+        "8 October",
+        "15 November",
+        "1 December",
+        "25 August"
+       ],
+       "answerIndex": 1,
+       "explanation": "Add 9 months and 7 days."
+      },
+      {
+       "stem": "Intermittent preventive treatment of malaria in pregnancy uses:",
+       "options": [
+        "Sulfadoxine–pyrimethamine",
+        "Primaquine",
+        "Chloroquine",
+        "Artemether–lumefantrine weekly",
+        "Quinine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Given monthly from 13 weeks."
+      },
+      {
+       "stem": "The normal fetal heart rate baseline is:",
+       "options": [
+        "60–100 bpm",
+        "110–160 bpm",
+        "170–200 bpm",
+        "80–120 bpm",
+        "200–240 bpm"
+       ],
+       "answerIndex": 1,
+       "explanation": "Outside this range needs evaluation."
+      },
+      {
+       "stem": "From about 24 weeks, the symphysis–fundal height in centimetres approximates:",
+       "options": [
+        "Amniotic fluid index",
+        "Maternal weight",
+        "Gestational age in weeks",
+        "Parity",
+        "Fetal weight in grams"
+       ],
+       "answerIndex": 2,
+       "explanation": "Discrepancies suggest growth problems."
+      },
+      {
+       "stem": "Which is a pregnancy danger sign requiring urgent care?",
+       "options": [
+        "Mild heartburn",
+        "Frequency of urination in the first trimester",
+        "Severe headache with blurred vision",
+        "Morning sickness",
+        "Mild ankle swelling in the evening"
+       ],
+       "answerIndex": 2,
+       "explanation": "It may indicate pre-eclampsia."
+      },
+      {
+       "stem": "The haemoglobin genotype is part of Nigerian booking tests because of:",
+       "options": [
+        "High prevalence of sickle cell disease and trait",
+        "Blood transfusion needs only",
+        "Diabetes",
+        "Rhesus disease",
+        "HIV risk"
+       ],
+       "answerIndex": 0,
+       "explanation": "It guides counselling and care."
+      },
+      {
+       "stem": "WHO recommends a minimum of how many antenatal contacts?",
+       "options": [
+        "2",
+        "4",
+        "8",
+        "12",
+        "16"
+       ],
+       "answerIndex": 2,
+       "explanation": "More contacts reduce perinatal deaths."
+      }
+     ]
+    },
+    {
+     "title": "Labour and Delivery",
+     "order": 2,
+     "summary": "Stages of labour, partograph, fetal monitoring, malpresentation and operative delivery.",
+     "material": [
+      {
+       "heading": "Normal labour",
+       "body": "Labour is regular painful contractions causing progressive cervical dilatation and effacement. First stage: latent (to 5 cm by WHO 2018 guidance) and active (5 cm to full dilatation; progress about ≥ 1 cm/hour traditionally, though WHO's Labour Care Guide allows more individualised limits); second stage: full dilatation to delivery of the baby (prolonged if > 2 hours in primigravidae without epidural); third stage: delivery of the placenta — active management (AMTSL: oxytocin 10 IU IM after birth, controlled cord traction, uterine massage) prevents PPH. The partograph (and the newer WHO Labour Care Guide) records progress, fetal heart and maternal condition, with alert and action lines. Mechanism of labour (occipitoanterior): engagement, descent, flexion, internal rotation, extension, restitution, external rotation and expulsion. Supportive care: companion of choice, mobility, oral fluids, and pain relief.",
+       "keyPoints": [
+        "Active phase from 5 cm (WHO)",
+        "Second stage prolonged > 2 h (primip)",
+        "AMTSL: oxytocin 10 IU IM",
+        "Partograph / Labour Care Guide",
+        "Mechanism of labour steps"
+       ]
+      },
+      {
+       "heading": "Abnormal labour and operative delivery",
+       "body": "Causes of prolonged or obstructed labour: the 3 Ps — powers (inefficient contractions — augment with oxytocin if no obstruction), passenger (malposition — occipitoposterior; malpresentation — breech, brow, face, shoulder/transverse lie; macrosomia) and passage (cephalopelvic disproportion, contracted pelvis in young adolescents). Obstructed labour causes uterine rupture, obstetric fistula (vesicovaginal — common in northern Nigeria), sepsis and fetal death; signs include moulding, caput, Bandl's ring and haematuria. Fetal distress: abnormal fetal heart rate (late decelerations, persistent bradycardia), meconium-stained liquor. Operative delivery: vacuum or forceps (full dilatation, head engaged, known position) and caesarean section (lower segment preferred; indications include obstructed labour, previous CS with contraindication to VBAC, placenta praevia, fetal distress, malpresentation). Shoulder dystocia is managed with McRoberts manoeuvre and suprapubic pressure (HELPERR). Breech delivery by skilled attendants or caesarean section.",
+       "keyPoints": [
+        "3 Ps: powers, passenger, passage",
+        "Obstructed labour → fistula, rupture",
+        "Late decelerations: fetal distress",
+        "Vacuum/forceps: full dilatation",
+        "Lower segment CS",
+        "Shoulder dystocia: McRoberts"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "According to WHO 2018 guidance, the active first stage of labour begins at about:",
+       "options": [
+        "3 cm always",
+        "10 cm",
+        "2 cm",
+        "8 cm",
+        "5 cm"
+       ],
+       "answerIndex": 4,
+       "explanation": "Earlier progress is often slower."
+      },
+      {
+       "stem": "The third stage of labour ends with:",
+       "options": [
+        "Full dilatation",
+        "Delivery of the baby",
+        "Delivery of the placenta and membranes",
+        "Onset of contractions",
+        "Discharge from hospital"
+       ],
+       "answerIndex": 2,
+       "explanation": "Active management reduces PPH."
+      },
+      {
+       "stem": "The drug of choice for active management of the third stage of labour is:",
+       "options": [
+        "Misoprostol always",
+        "Carboprost",
+        "Magnesium sulfate",
+        "Oxytocin 10 IU IM",
+        "Ergometrine for all"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the WHO-recommended uterotonic."
+      },
+      {
+       "stem": "A major long-term complication of prolonged obstructed labour in northern Nigeria is:",
+       "options": [
+        "Hyperemesis",
+        "Placenta praevia",
+        "Twin pregnancy",
+        "Vesicovaginal fistula",
+        "Gestational diabetes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pressure necrosis of the bladder and vagina."
+      },
+      {
+       "stem": "Oxytocin augmentation should NOT be used when:",
+       "options": [
+        "The membranes have ruptured",
+        "The woman is a primigravida",
+        "Contractions are weak",
+        "Labour is prolonged due to poor contractions",
+        "There is evidence of obstructed labour"
+       ],
+       "answerIndex": 4,
+       "explanation": "It risks uterine rupture."
+      },
+      {
+       "stem": "A prerequisite for vacuum or forceps delivery is:",
+       "options": [
+        "Cervix 5 cm dilated",
+        "Transverse lie",
+        "Placenta praevia",
+        "Full cervical dilatation with the head engaged",
+        "Breech presentation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Unsafe otherwise."
+      },
+      {
+       "stem": "The first manoeuvre for shoulder dystocia is:",
+       "options": [
+        "Fundal pressure",
+        "Caesarean section immediately",
+        "McRoberts manoeuvre with suprapubic pressure",
+        "Episiotomy only",
+        "Pulling hard on the head"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fundal pressure worsens impaction."
+      },
+      {
+       "stem": "Late decelerations on the fetal heart tracing suggest:",
+       "options": [
+        "Fetal sleep",
+        "Cord compression only",
+        "Normal labour",
+        "Uteroplacental insufficiency (fetal hypoxia)",
+        "Head compression"
+       ],
+       "answerIndex": 3,
+       "explanation": "They require prompt action."
+      }
+     ]
+    },
+    {
+     "title": "Obstetric Haemorrhage",
+     "order": 3,
+     "summary": "Early pregnancy bleeding, antepartum haemorrhage and postpartum haemorrhage.",
+     "material": [
+      {
+       "heading": "Early pregnancy and antepartum haemorrhage",
+       "body": "Bleeding in early pregnancy: miscarriage (threatened — closed os; inevitable/incomplete — open os; complete; missed), ectopic pregnancy (amenorrhoea, abdominal pain, bleeding; ruptured ectopic causes shock — urgent laparotomy; unruptured may be treated with methotrexate or laparoscopy), molar pregnancy (very high hCG, 'snowstorm' ultrasound; evacuation and hCG follow-up), and unsafe abortion complications (sepsis, haemorrhage, uterine perforation — a major cause of maternal death in Nigeria; post-abortion care with MVA or misoprostol). Antepartum haemorrhage (bleeding after 28 weeks): placenta praevia (painless bright red bleeding, soft non-tender uterus, malpresentation; confirm with ultrasound; NEVER do digital vaginal examination; caesarean delivery) and placental abruption (painful bleeding, tense tender 'woody' uterus, fetal distress, shock disproportionate to visible blood loss, DIC; associated with hypertension). Vasa praevia and local causes are rarer.",
+       "keyPoints": [
+        "Threatened: closed os",
+        "Ruptured ectopic: laparotomy",
+        "Molar: snowstorm, high hCG",
+        "Unsafe abortion: MVA, misoprostol",
+        "Praevia: painless, no VE",
+        "Abruption: painful, woody uterus, DIC"
+       ]
+      },
+      {
+       "heading": "Postpartum haemorrhage",
+       "body": "Postpartum haemorrhage (PPH): blood loss ≥ 500 mL after vaginal birth (≥ 1,000 mL after caesarean) within 24 hours (primary) or after 24 hours to 12 weeks (secondary — retained products, infection). It is the leading cause of maternal death in Nigeria. Causes — the 4 Ts: Tone (uterine atony — the commonest; risk factors include prolonged labour, overdistension — twins, polyhydramnios, macrosomia — grand multiparity, and infection), Trauma (tears, uterine rupture, inversion), Tissue (retained placenta or fragments) and Thrombin (coagulopathy). Management (WHO E-MOTIVE bundle — early detection with calibrated drapes, then Massage, Oxytocics, Tranexamic acid within 3 hours, IV fluids, Examination and Escalation): call for help, uterine massage, oxytocin infusion, ergometrine (avoid in hypertension), misoprostol, carboprost, tranexamic acid 1 g IV, bimanual compression, examine for trauma, remove retained products, transfuse, and escalate to balloon tamponade (condom catheter), B-Lynch suture, uterine artery ligation or hysterectomy. Non-pneumatic anti-shock garments help during transfer.",
+       "keyPoints": [
+        "PPH ≥ 500 mL (vaginal)",
+        "Leading cause of maternal death",
+        "4 Ts: tone commonest",
+        "E-MOTIVE bundle",
+        "TXA within 3 h",
+        "Condom balloon tamponade",
+        "Avoid ergometrine in hypertension"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Vaginal bleeding in early pregnancy with a closed cervical os and viable fetus is a:",
+       "options": [
+        "Complete miscarriage",
+        "Missed miscarriage",
+        "Incomplete miscarriage",
+        "Inevitable miscarriage",
+        "Threatened miscarriage"
+       ],
+       "answerIndex": 4,
+       "explanation": "The pregnancy may continue."
+      },
+      {
+       "stem": "A woman with amenorrhoea, abdominal pain, shock and a positive pregnancy test most likely has:",
+       "options": [
+        "Molar pregnancy",
+        "Urinary tract infection",
+        "Threatened miscarriage",
+        "Ruptured ectopic pregnancy",
+        "Appendicitis only"
+       ],
+       "answerIndex": 3,
+       "explanation": "It needs urgent laparotomy."
+      },
+      {
+       "stem": "A 'snowstorm' appearance on ultrasound with very high hCG suggests:",
+       "options": [
+        "Twin pregnancy",
+        "Ectopic pregnancy",
+        "Fibroids",
+        "Normal pregnancy",
+        "Molar pregnancy"
+       ],
+       "answerIndex": 4,
+       "explanation": "Complete hydatidiform mole."
+      },
+      {
+       "stem": "Painless bright red vaginal bleeding at 34 weeks with a soft, non-tender uterus suggests:",
+       "options": [
+        "Vasa praevia always",
+        "Labour",
+        "Placenta praevia",
+        "Placental abruption",
+        "Uterine rupture"
+       ],
+       "answerIndex": 2,
+       "explanation": "Digital examination is contraindicated."
+      },
+      {
+       "stem": "Painful bleeding with a tense, tender uterus and fetal distress suggests:",
+       "options": [
+        "Placenta praevia",
+        "Placental abruption",
+        "Cervical polyp",
+        "Show of labour",
+        "Vasa praevia"
+       ],
+       "answerIndex": 1,
+       "explanation": "Shock may be out of proportion to visible loss."
+      },
+      {
+       "stem": "The commonest cause of postpartum haemorrhage is:",
+       "options": [
+        "Retained placenta",
+        "Uterine inversion",
+        "Genital tract trauma",
+        "Coagulopathy",
+        "Uterine atony"
+       ],
+       "answerIndex": 4,
+       "explanation": "'Tone' is the commonest of the 4 Ts."
+      },
+      {
+       "stem": "Tranexamic acid for PPH should be given within:",
+       "options": [
+        "3 hours of birth",
+        "1 week",
+        "Any time",
+        "Only after surgery",
+        "24 hours"
+       ],
+       "answerIndex": 0,
+       "explanation": "Efficacy falls with delay."
+      },
+      {
+       "stem": "Ergometrine should be avoided in women with:",
+       "options": [
+        "Anaemia",
+        "Diabetes",
+        "Previous caesarean section",
+        "HIV",
+        "Hypertension or pre-eclampsia"
+       ],
+       "answerIndex": 4,
+       "explanation": "It causes vasoconstriction and severe hypertension."
+      }
+     ]
+    },
+    {
+     "title": "Hypertensive and Medical Disorders in Pregnancy",
+     "order": 4,
+     "summary": "Pre-eclampsia and eclampsia, gestational diabetes, anaemia, sickle cell disease and infections in pregnancy.",
+     "material": [
+      {
+       "heading": "Hypertensive disorders",
+       "body": "Hypertensive disorders include chronic hypertension, gestational hypertension (new BP ≥ 140/90 after 20 weeks without proteinuria), pre-eclampsia (new hypertension after 20 weeks with proteinuria or other organ dysfunction — renal, liver, neurological, haematological, or fetal growth restriction) and eclampsia (seizures). Severe features: BP ≥ 160/110, headache, visual disturbance, epigastric pain, HELLP syndrome (haemolysis, elevated liver enzymes, low platelets), pulmonary oedema, oliguria. Management: antihypertensives (oral nifedipine, labetalol, methyldopa; IV hydralazine or labetalol for severe hypertension), magnesium sulfate for prevention and treatment of seizures (Pritchard IM or Zuspan IV regimens; monitor reflexes, respiratory rate and urine output; antidote calcium gluconate), and delivery — the definitive treatment (timing by gestation and severity; steroids for fetal lung maturity < 34 weeks). Low-dose aspirin from 12 weeks prevents pre-eclampsia in high-risk women; calcium supplementation where dietary intake is low.",
+       "keyPoints": [
+        "Pre-eclampsia: after 20 weeks + organ dysfunction",
+        "Severe: ≥ 160/110, HELLP",
+        "MgSO4: seizures; antidote calcium gluconate",
+        "Delivery is definitive",
+        "Aspirin from 12 weeks prevents"
+       ]
+      },
+      {
+       "heading": "Medical disorders",
+       "body": "Gestational diabetes (GDM): screen with OGTT at 24–28 weeks in at-risk women; diet and exercise, then metformin or insulin; risks include macrosomia, shoulder dystocia, neonatal hypoglycaemia and later type 2 diabetes. Anaemia (iron deficiency, malaria, hookworm, HIV) — iron supplements, IV iron or transfusion if severe. Sickle cell disease in pregnancy is high risk (crises, acute chest syndrome, pre-eclampsia, growth restriction, maternal death) — multidisciplinary care, folic acid, malaria prophylaxis, hydration, and prophylactic LMWH. Malaria in pregnancy causes anaemia, low birth weight and stillbirth — IPTp, ITNs and prompt ACT treatment. HIV: lifelong ART and viral suppression before delivery. Urinary tract infections (asymptomatic bacteriuria should be treated — risk of pyelonephritis and preterm labour). Heart disease (rheumatic mitral stenosis; peripartum cardiomyopathy). Thromboprophylaxis for high-risk women.",
+       "keyPoints": [
+        "GDM: OGTT 24–28 weeks",
+        "Metformin or insulin",
+        "SCD pregnancy: high risk",
+        "Malaria: IPTp, ITN, ACT",
+        "Treat asymptomatic bacteriuria",
+        "Rheumatic mitral stenosis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Pre-eclampsia is new-onset hypertension after how many weeks with proteinuria or organ dysfunction?",
+       "options": [
+        "12",
+        "20",
+        "28",
+        "36",
+        "40"
+       ],
+       "answerIndex": 1,
+       "explanation": "Before 20 weeks suggests chronic hypertension."
+      },
+      {
+       "stem": "HELLP syndrome consists of haemolysis, elevated liver enzymes and:",
+       "options": [
+        "Hyperglycaemia",
+        "Hyperkalaemia",
+        "Low platelets",
+        "Leucocytosis",
+        "High platelets"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is a severe form of pre-eclampsia."
+      },
+      {
+       "stem": "The drug of choice to prevent and treat eclamptic seizures is:",
+       "options": [
+        "Phenobarbital",
+        "Carbamazepine",
+        "Magnesium sulfate",
+        "Phenytoin",
+        "Diazepam"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is superior to other anticonvulsants."
+      },
+      {
+       "stem": "Loss of patellar reflexes in a woman receiving magnesium sulfate indicates:",
+       "options": [
+        "Magnesium toxicity",
+        "Seizure recurrence",
+        "Normal response",
+        "Hypocalcaemia",
+        "Therapeutic effect"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stop the infusion; give calcium gluconate if needed."
+      },
+      {
+       "stem": "The definitive treatment of pre-eclampsia is:",
+       "options": [
+        "Bed rest",
+        "Diuretics",
+        "Delivery of the baby and placenta",
+        "Antibiotics",
+        "Magnesium sulfate alone"
+       ],
+       "answerIndex": 2,
+       "explanation": "The placenta drives the disease."
+      },
+      {
+       "stem": "Low-dose aspirin to prevent pre-eclampsia in high-risk women should start:",
+       "options": [
+        "Before conception only",
+        "Before 16 weeks (from about 12 weeks)",
+        "At 36 weeks",
+        "At 28 weeks only",
+        "After delivery"
+       ],
+       "answerIndex": 1,
+       "explanation": "Early initiation is more effective."
+      },
+      {
+       "stem": "Screening for gestational diabetes with an OGTT is done at:",
+       "options": [
+        "At delivery",
+        "8–10 weeks",
+        "24–28 weeks",
+        "36–38 weeks",
+        "Postnatally"
+       ],
+       "answerIndex": 2,
+       "explanation": "Insulin resistance increases later in pregnancy."
+      },
+      {
+       "stem": "Asymptomatic bacteriuria in pregnancy should be:",
+       "options": [
+        "Ignored",
+        "Treated after delivery",
+        "Treated only if symptoms develop",
+        "Managed with fluids only",
+        "Treated with antibiotics"
+       ],
+       "answerIndex": 4,
+       "explanation": "It prevents pyelonephritis and preterm labour."
+      }
+     ]
+    },
+    {
+     "title": "Preterm Labour, Puerperium and Maternal Mortality",
+     "order": 5,
+     "summary": "Preterm birth, PROM, puerperal sepsis, postnatal care and preventing maternal death.",
+     "material": [
+      {
+       "heading": "Preterm labour and PROM",
+       "body": "Preterm birth (< 37 weeks) is the leading cause of neonatal death. Risk factors: previous preterm birth, infections (UTI, malaria, chorioamnionitis), multiple pregnancy, cervical insufficiency, antepartum haemorrhage, pre-eclampsia and young maternal age. Management of threatened preterm labour (24–34 weeks): antenatal corticosteroids (dexamethasone 6 mg IM 12-hourly × 4 doses or betamethasone 12 mg × 2 doses) to reduce respiratory distress syndrome, intraventricular haemorrhage and death; tocolysis (nifedipine) to allow steroids to act; magnesium sulfate for fetal neuroprotection before 32 weeks; antibiotics for GBS where indicated; and delivery where neonatal care is available. Premature rupture of membranes (PROM): confirm by speculum (pooling of liquor); preterm PROM — erythromycin, steroids, monitor for chorioamnionitis (fever, tachycardia, uterine tenderness, offensive liquor), avoid digital examinations; term PROM — induction of labour.",
+       "keyPoints": [
+        "Preterm < 37 weeks",
+        "Steroids 24–34 weeks",
+        "Nifedipine tocolysis",
+        "MgSO4 neuroprotection < 32 weeks",
+        "PPROM: erythromycin",
+        "Avoid digital VE in PROM"
+       ]
+      },
+      {
+       "heading": "Puerperium and maternal mortality",
+       "body": "The puerperium is the 6 weeks after delivery. Postnatal care checks (within 24 hours, day 3, 1–2 weeks and 6 weeks): bleeding (lochia), uterine involution, BP, infection, breastfeeding, mental health (baby blues vs postnatal depression vs puerperal psychosis — emergency), family planning (postpartum IUD, implants) and newborn care. Puerperal sepsis (fever, offensive lochia, tender uterus — after prolonged labour, unhygienic delivery, retained products, CS) is a leading cause of maternal death: broad-spectrum antibiotics (ampicillin, gentamicin, metronidazole), evacuate retained products, drain collections. Other complications: breast engorgement, mastitis and abscess, VTE, secondary PPH. Nigeria has one of the world's highest maternal mortality ratios; reducing it requires family planning, skilled birth attendance, emergency obstetric care, blood availability, addressing the three delays, and maternal death reviews (MPDSR).",
+       "keyPoints": [
+        "Puerperium: 6 weeks",
+        "Postnatal checks",
+        "Puerperal psychosis: emergency",
+        "Puerperal sepsis: ampicillin + gentamicin + metronidazole",
+        "MPDSR",
+        "Skilled attendance + EmONC"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Antenatal corticosteroids are given in threatened preterm labour mainly to:",
+       "options": [
+        "Reduce neonatal respiratory distress syndrome",
+        "Stop contractions",
+        "Treat hypertension",
+        "Prevent infection",
+        "Increase fetal weight"
+       ],
+       "answerIndex": 0,
+       "explanation": "They accelerate lung maturation."
+      },
+      {
+       "stem": "Magnesium sulfate before 32 weeks in preterm labour is given for:",
+       "options": [
+        "Tocolysis",
+        "Treating infection",
+        "Maternal sedation",
+        "Lung maturity",
+        "Fetal neuroprotection (reducing cerebral palsy)"
+       ],
+       "answerIndex": 4,
+       "explanation": "It reduces cerebral palsy risk."
+      },
+      {
+       "stem": "In preterm prelabour rupture of membranes, the recommended antibiotic is:",
+       "options": [
+        "Co-amoxiclav routinely",
+        "No antibiotics",
+        "Erythromycin",
+        "Metronidazole alone",
+        "Gentamicin alone"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prolongs latency and reduces infection."
+      },
+      {
+       "stem": "Digital vaginal examinations should be avoided in PROM without labour because they:",
+       "options": [
+        "Stop labour",
+        "Cause bleeding",
+        "Are unnecessary always",
+        "Increase the risk of infection",
+        "Cause pain only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Speculum examination is used instead."
+      },
+      {
+       "stem": "The puerperium lasts approximately:",
+       "options": [
+        "1 week",
+        "6 weeks",
+        "3 months",
+        "1 year",
+        "24 hours"
+       ],
+       "answerIndex": 1,
+       "explanation": "The reproductive organs return to their non-pregnant state."
+      },
+      {
+       "stem": "Fever, offensive lochia and a tender uterus on day 3 after a prolonged labour suggest:",
+       "options": [
+        "Urinary tract infection only",
+        "Normal puerperium",
+        "Malaria only",
+        "Mastitis",
+        "Puerperal sepsis"
+       ],
+       "answerIndex": 4,
+       "explanation": "It requires broad-spectrum antibiotics."
+      },
+      {
+       "stem": "Postpartum hallucinations and severe confusion a few days after delivery indicate:",
+       "options": [
+        "Puerperal psychosis — a psychiatric emergency",
+        "Malaria",
+        "Baby blues",
+        "Normal tiredness",
+        "Postnatal depression only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Risk to mother and baby."
+      },
+      {
+       "stem": "A systematic review of every maternal death to prevent future deaths is called:",
+       "options": [
+        "IPTp",
+        "IMCI",
+        "EmONC",
+        "PMTCT",
+        "MPDSR"
+       ],
+       "answerIndex": 4,
+       "explanation": "Maternal and perinatal death surveillance and response."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

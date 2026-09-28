@@ -1,0 +1,656 @@
+{
+ "courses": [
+  {
+   "title": "Pharmacotherapy II",
+   "code": "PHM605",
+   "color": "#7C3AED",
+   "description": "Evidence-based pharmacotherapy of infectious diseases, HIV, oncology, psychiatric and neurological disorders, and pain management, with pharmaceutical care plans.",
+   "audience": [
+    {
+     "level": "600 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Antimicrobial Therapy and Stewardship",
+     "order": 1,
+     "summary": "Principles of antimicrobial selection, common infections, and stewardship.",
+     "material": [
+      {
+       "heading": "Principles",
+       "body": "Antimicrobial selection considers the likely organism (empirical therapy based on site and local antibiogram), culture and sensitivity results (definitive therapy — de-escalate to narrow spectrum), patient factors (allergy, age, pregnancy, renal/hepatic function, site penetration — e.g. CNS), drug factors (spectrum, pharmacokinetics/pharmacodynamics — time-dependent killing for beta-lactams, concentration-dependent for aminoglycosides and fluoroquinolones), cost and resistance. Take cultures before starting antibiotics where possible. Switch IV to oral when the patient is improving and can absorb (IV-to-oral switch). Define duration (shorter courses are often as effective). The WHO AWaRe classification groups antibiotics into Access (first-line, e.g. amoxicillin), Watch (higher resistance potential, e.g. ceftriaxone, ciprofloxacin) and Reserve (last resort, e.g. colistin, linezolid).",
+       "keyPoints": [
+        "Empirical → definitive (de-escalate)",
+        "Culture before antibiotics",
+        "Time- vs concentration-dependent killing",
+        "IV-to-oral switch",
+        "AWaRe: Access, Watch, Reserve"
+       ]
+      },
+      {
+       "heading": "Common infections and stewardship",
+       "body": "Examples (adult, Nigerian guidelines vary): community-acquired pneumonia — amoxicillin (mild) or ceftriaxone plus a macrolide (severe); uncomplicated UTI — nitrofurantoin; typhoid — ciprofloxacin (resistance rising), ceftriaxone or azithromycin; gonorrhoea — ceftriaxone plus azithromycin; bacterial meningitis — high-dose ceftriaxone. Antimicrobial resistance (AMR) is driven by overuse, self-medication, over-the-counter sales, poor infection control and substandard drugs; Nigeria's National Action Plan on AMR follows a One Health approach. Antimicrobial stewardship programmes (ASP) — led by infectious disease physicians, clinical pharmacists and microbiologists — use prospective audit and feedback, formulary restriction, guidelines, education and monitoring of consumption (defined daily doses) to optimise use.",
+       "keyPoints": [
+        "CAP: amoxicillin or ceftriaxone + macrolide",
+        "UTI: nitrofurantoin",
+        "Typhoid: rising ciprofloxacin resistance",
+        "AMR National Action Plan: One Health",
+        "ASP: audit and feedback"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Switching from broad-spectrum to narrow-spectrum antibiotics once culture results are available is called:",
+       "options": [
+        "Escalation",
+        "Empirical therapy",
+        "Prophylaxis",
+        "Combination therapy",
+        "De-escalation"
+       ],
+       "answerIndex": 4,
+       "explanation": "It reduces resistance pressure."
+      },
+      {
+       "stem": "Aminoglycosides kill bacteria in a manner that is:",
+       "options": [
+        "Concentration-dependent",
+        "Independent of dose",
+        "Only effective orally",
+        "Time-dependent",
+        "Bacteriostatic only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Once-daily high doses maximise peak levels."
+      },
+      {
+       "stem": "In the WHO AWaRe classification, amoxicillin belongs to the:",
+       "options": [
+        "Banned group",
+        "Unclassified group",
+        "Watch group",
+        "Access group",
+        "Reserve group"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is first-line with lower resistance potential."
+      },
+      {
+       "stem": "Colistin is classified in the AWaRe system as:",
+       "options": [
+        "Watch",
+        "Over the counter",
+        "Prophylactic",
+        "Access",
+        "Reserve"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a last-resort antibiotic."
+      },
+      {
+       "stem": "A suitable first-line antibiotic for uncomplicated lower UTI in a non-pregnant woman is:",
+       "options": [
+        "Colistin",
+        "Vancomycin",
+        "Meropenem",
+        "Nitrofurantoin",
+        "Ceftriaxone IV"
+       ],
+       "answerIndex": 3,
+       "explanation": "It concentrates in urine."
+      },
+      {
+       "stem": "Cultures should ideally be taken:",
+       "options": [
+        "Only in children",
+        "Only after treatment failure",
+        "Never",
+        "Before starting antibiotics",
+        "After a week of antibiotics"
+       ],
+       "answerIndex": 3,
+       "explanation": "Antibiotics reduce culture yield."
+      },
+      {
+       "stem": "An antimicrobial stewardship intervention is:",
+       "options": [
+        "Removing all guidelines",
+        "Longer courses for all",
+        "Unlimited prescribing",
+        "Prospective audit and feedback to prescribers",
+        "Over-the-counter antibiotic sales"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves antibiotic use."
+      },
+      {
+       "stem": "Nigeria's National Action Plan on antimicrobial resistance uses a:",
+       "options": [
+        "Donor-only approach",
+        "Hospital-only approach",
+        "One Health approach linking human, animal and environmental health",
+        "Pharmacy-only approach",
+        "Private-sector approach"
+       ],
+       "answerIndex": 2,
+       "explanation": "Antibiotic use in animals also drives AMR."
+      }
+     ]
+    },
+    {
+     "title": "HIV, Tuberculosis and Malaria Pharmacotherapy",
+     "order": 2,
+     "summary": "Antiretroviral regimens, TB treatment, antimalarials and key interactions and toxicities.",
+     "material": [
+      {
+       "heading": "HIV",
+       "body": "Nigerian guidelines recommend a preferred first-line regimen of TLD — tenofovir disoproxil fumarate + lamivudine + dolutegravir — for adults and adolescents, started as soon as possible after diagnosis (rapid ART, including same day). Children use weight-appropriate dolutegravir-based regimens (paediatric DTG 10 mg dispersible). Monitoring: viral load at 6 and 12 months then annually (target < 1,000 copies/mL; ideally undetectable), with enhanced adherence counselling for high viral load. Toxicities: tenofovir — renal impairment and bone loss (check creatinine); dolutegravir — insomnia, weight gain, raised creatinine (inhibits tubular secretion without real GFR change); efavirenz — CNS effects; zidovudine — anaemia; abacavir — hypersensitivity (HLA-B*5701). Rifampicin induces dolutegravir metabolism, so DTG is given twice daily with rifampicin. Cotrimoxazole prophylaxis and TB preventive therapy (isoniazid or 3HP) are part of care.",
+       "keyPoints": [
+        "TLD first-line",
+        "Rapid ART",
+        "Viral load target",
+        "Tenofovir: renal toxicity",
+        "DTG twice daily with rifampicin"
+       ]
+      },
+      {
+       "heading": "TB and malaria",
+       "body": "Drug-susceptible TB: 2 months of isoniazid, rifampicin, pyrazinamide and ethambutol (2HRZE) then 4 months of isoniazid and rifampicin (4HR), as fixed-dose combinations with directly observed or supported therapy; pyridoxine prevents isoniazid neuropathy. Toxicities: hepatotoxicity (H, R, Z), orange body fluids (R), optic neuritis (E), hyperuricaemia/gout (Z). Drug-resistant TB uses all-oral regimens such as BPaLM (bedaquiline, pretomanid, linezolid, moxifloxacin) for 6 months. Malaria: uncomplicated — artemether–lumefantrine (take with fatty food) or artesunate–amodiaquine; severe — IV or IM artesunate (at least 24 hours, then a full ACT course); pre-referral rectal artesunate for children; pregnancy — ACTs are now recommended in all trimesters (including the first); IPTp with SP from the second trimester. Primaquine (G6PD testing) for P. vivax radical cure is rarely needed in Nigeria (mostly P. falciparum).",
+       "keyPoints": [
+        "2HRZE/4HR",
+        "Pyridoxine with isoniazid",
+        "Ethambutol: optic neuritis",
+        "BPaLM for DR-TB",
+        "Severe malaria: IV artesunate",
+        "AL with fatty food"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The preferred first-line ART regimen for adults in Nigeria is:",
+       "options": [
+        "TDF/3TC/DTG (TLD)",
+        "ABC/3TC/LPV/r",
+        "TDF/FTC/EFV only",
+        "d4T/3TC/NVP",
+        "AZT/3TC/NVP"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dolutegravir-based TLD is preferred."
+      },
+      {
+       "stem": "When dolutegravir is co-administered with rifampicin, the DTG dose should be:",
+       "options": [
+        "Unchanged",
+        "Given weekly",
+        "Stopped",
+        "Halved",
+        "Given twice daily"
+       ],
+       "answerIndex": 4,
+       "explanation": "Rifampicin induces DTG metabolism."
+      },
+      {
+       "stem": "Tenofovir disoproxil fumarate requires monitoring of:",
+       "options": [
+        "Blood glucose only",
+        "Hearing",
+        "Thyroid function",
+        "Visual acuity",
+        "Renal function"
+       ],
+       "answerIndex": 4,
+       "explanation": "It can cause renal tubular damage."
+      },
+      {
+       "stem": "Pyridoxine is given with isoniazid to prevent:",
+       "options": [
+        "Peripheral neuropathy",
+        "Rash",
+        "Gout",
+        "Hepatitis",
+        "Optic neuritis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Isoniazid depletes vitamin B6."
+      },
+      {
+       "stem": "The TB drug that causes optic neuritis is:",
+       "options": [
+        "Isoniazid",
+        "Ethambutol",
+        "Pyrazinamide",
+        "Streptomycin",
+        "Rifampicin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Check visual acuity and colour vision."
+      },
+      {
+       "stem": "The drug of choice for severe malaria is:",
+       "options": [
+        "Oral SP",
+        "Quinine tablets only",
+        "Parenteral artesunate",
+        "Primaquine",
+        "Oral chloroquine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Artesunate reduces mortality compared with quinine."
+      },
+      {
+       "stem": "Artemether–lumefantrine absorption is improved when taken with:",
+       "options": [
+        "Antacids",
+        "Fatty food or milk",
+        "An empty stomach",
+        "Alcohol",
+        "Iron tablets"
+       ],
+       "answerIndex": 1,
+       "explanation": "Lumefantrine is lipophilic."
+      },
+      {
+       "stem": "Orange discolouration of urine and tears during TB treatment is caused by:",
+       "options": [
+        "Isoniazid",
+        "Pyrazinamide",
+        "Ethambutol",
+        "Pyridoxine",
+        "Rifampicin"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is harmless but patients should be warned."
+      }
+     ]
+    },
+    {
+     "title": "Oncology Pharmacotherapy",
+     "order": 3,
+     "summary": "Principles of chemotherapy, common regimens in Nigeria, toxicities and supportive care.",
+     "material": [
+      {
+       "heading": "Principles",
+       "body": "Cancer chemotherapy targets rapidly dividing cells; drugs may be cell cycle-specific (antimetabolites — methotrexate, 5-fluorouracil, capecitabine; vinca alkaloids — vincristine; taxanes — paclitaxel, docetaxel) or cell cycle-non-specific (alkylating agents — cyclophosphamide; platinum compounds — cisplatin, carboplatin; anthracyclines — doxorubicin). Combination chemotherapy uses drugs with different mechanisms and non-overlapping toxicities. Treatment intent may be curative, adjuvant (after surgery), neoadjuvant (before surgery), or palliative. Doses are calculated by body surface area (carboplatin by AUC using the Calvert formula). Targeted therapies (trastuzumab for HER2-positive breast cancer, imatinib for CML — supported by patient access programmes in Nigeria) and hormonal therapies (tamoxifen, aromatase inhibitors for hormone-receptor-positive breast cancer; androgen deprivation for prostate cancer) are important. Breast, cervical and prostate cancers are the most common in Nigeria.",
+       "keyPoints": [
+        "Cell cycle-specific vs non-specific",
+        "Combination: different toxicities",
+        "Adjuvant vs neoadjuvant",
+        "BSA dosing; Calvert for carboplatin",
+        "Trastuzumab, imatinib, tamoxifen"
+       ]
+      },
+      {
+       "heading": "Toxicities and supportive care",
+       "body": "Common toxicities: myelosuppression (neutropenia — nadir 7–14 days; febrile neutropenia is an emergency requiring immediate broad-spectrum antibiotics), nausea and vomiting (prevent with 5-HT3 antagonists such as ondansetron, dexamethasone, and NK1 antagonists like aprepitant for highly emetogenic regimens e.g. cisplatin), mucositis, alopecia, and drug-specific toxicities: doxorubicin — cardiotoxicity (cumulative dose limit), cisplatin — nephrotoxicity (hydration), ototoxicity; vincristine — neuropathy (never intrathecal — fatal); cyclophosphamide — haemorrhagic cystitis (mesna); methotrexate — mucositis and myelosuppression (leucovorin rescue); bleomycin — pulmonary fibrosis; tumour lysis syndrome (hydration, allopurinol or rasburicase). Safe handling of cytotoxics, extravasation management, pain control and nutrition are pharmacist responsibilities.",
+       "keyPoints": [
+        "Neutropenic nadir 7–14 days",
+        "Febrile neutropenia: emergency",
+        "Ondansetron + dexamethasone ± aprepitant",
+        "Doxorubicin: cardiotoxicity",
+        "Cyclophosphamide: mesna",
+        "Vincristine never intrathecal"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Doxorubicin's dose-limiting cumulative toxicity is:",
+       "options": [
+        "Cardiotoxicity",
+        "Nephrotoxicity",
+        "Neuropathy",
+        "Pulmonary fibrosis",
+        "Ototoxicity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Cumulative dose limits reduce cardiomyopathy risk."
+      },
+      {
+       "stem": "Mesna is given with cyclophosphamide or ifosfamide to prevent:",
+       "options": [
+        "Mucositis",
+        "Alopecia",
+        "Neuropathy",
+        "Haemorrhagic cystitis",
+        "Cardiotoxicity"
+       ],
+       "answerIndex": 3,
+       "explanation": "It neutralises acrolein in the bladder."
+      },
+      {
+       "stem": "Leucovorin (folinic acid) rescue is used with high-dose:",
+       "options": [
+        "Cisplatin",
+        "Vincristine",
+        "Paclitaxel",
+        "Methotrexate",
+        "Doxorubicin"
+       ],
+       "answerIndex": 3,
+       "explanation": "It bypasses dihydrofolate reductase inhibition."
+      },
+      {
+       "stem": "Vincristine must never be given by which route because it is fatal?",
+       "options": [
+        "Oral",
+        "Intrathecal",
+        "Intramuscular",
+        "Subcutaneous",
+        "Intravenous"
+       ],
+       "answerIndex": 1,
+       "explanation": "It causes ascending paralysis and death."
+      },
+      {
+       "stem": "Febrile neutropenia in a chemotherapy patient requires:",
+       "options": [
+        "Immediate empirical broad-spectrum IV antibiotics",
+        "Discharge home",
+        "Waiting for culture results before antibiotics",
+        "Paracetamol only",
+        "Stopping all fluids"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a medical emergency."
+      },
+      {
+       "stem": "The antiemetic class that blocks serotonin receptors, e.g. ondansetron, is:",
+       "options": [
+        "Dopamine agonists",
+        "5-HT3 antagonists",
+        "NK1 antagonists",
+        "Antihistamines only",
+        "Cannabinoids"
+       ],
+       "answerIndex": 1,
+       "explanation": "They prevent chemotherapy-induced vomiting."
+      },
+      {
+       "stem": "Tamoxifen is used in breast cancer that is:",
+       "options": [
+        "Hormone (oestrogen) receptor-positive",
+        "Metastatic to bone only",
+        "HER2-positive only",
+        "Triple negative",
+        "Inflammatory only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a selective oestrogen receptor modulator."
+      },
+      {
+       "stem": "Carboplatin doses are calculated using the:",
+       "options": [
+        "Body weight only",
+        "BMI",
+        "Cockcroft–Gault only",
+        "Calvert formula (target AUC)",
+        "Age"
+       ],
+       "answerIndex": 3,
+       "explanation": "Dose = AUC × (GFR + 25)."
+      }
+     ]
+    },
+    {
+     "title": "Psychiatric and Neurological Pharmacotherapy",
+     "order": 4,
+     "summary": "Depression, psychosis, bipolar disorder, epilepsy and Parkinson's disease treatment.",
+     "material": [
+      {
+       "heading": "Psychiatric disorders",
+       "body": "Depression: SSRIs (fluoxetine, sertraline, escitalopram) are first-line; effects take 2–4 weeks; continue for at least 6–12 months after remission; watch for early activation and suicidality in young people; amitriptyline (TCA — dangerous in overdose, anticholinergic effects) is cheap and common in Nigeria. Psychosis/schizophrenia: first-generation antipsychotics (haloperidol, chlorpromazine; long-acting fluphenazine decanoate depot — widely used in Nigeria) cause extrapyramidal side effects (acute dystonia — treat with anticholinergics like benzhexol/procyclidine; akathisia; parkinsonism; tardive dyskinesia) and hyperprolactinaemia; second-generation (risperidone, olanzapine) have fewer EPSEs but metabolic effects (weight gain, diabetes); clozapine for treatment-resistant schizophrenia (agranulocytosis — FBC monitoring). Neuroleptic malignant syndrome is an emergency. Bipolar disorder: lithium (narrow therapeutic range 0.4–1.0 mmol/L; toxicity — tremor, confusion; interactions with NSAIDs, diuretics, ACE inhibitors), valproate (avoid in women of childbearing potential), carbamazepine.",
+       "keyPoints": [
+        "SSRIs first-line; 2–4 weeks to work",
+        "Haloperidol: EPSEs",
+        "Olanzapine: metabolic effects",
+        "Clozapine: agranulocytosis",
+        "Lithium 0.4–1.0 mmol/L"
+       ]
+      },
+      {
+       "heading": "Neurological disorders",
+       "body": "Epilepsy: choose by seizure type — generalised seizures: sodium valproate (avoid in women of childbearing potential), lamotrigine, levetiracetam; focal seizures: carbamazepine, lamotrigine, levetiracetam; phenobarbital remains widely used in Nigeria for affordability. Enzyme-inducing AEDs (carbamazepine, phenytoin, phenobarbital) reduce contraceptive efficacy. Phenytoin has non-linear (saturable) kinetics and a narrow therapeutic range. Status epilepticus: benzodiazepine first (IV lorazepam/diazepam or buccal midazolam), then a second-line agent (phenytoin/fosphenytoin, valproate, levetiracetam, or phenobarbital). Parkinson's disease: levodopa with a peripheral decarboxylase inhibitor (carbidopa/benserazide) is most effective; long-term 'wearing-off' and dyskinesias; dopamine agonists, MAO-B inhibitors; avoid dopamine antagonists like metoclopramide and haloperidol.",
+       "keyPoints": [
+        "Valproate: avoid in women of childbearing potential",
+        "Enzyme-inducing AEDs vs contraception",
+        "Phenytoin: non-linear kinetics",
+        "Status: benzodiazepine first",
+        "Levodopa + carbidopa"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first-line drug class for moderate depression is:",
+       "options": [
+        "Benzodiazepines",
+        "Antipsychotics",
+        "SSRIs",
+        "Stimulants",
+        "Barbiturates"
+       ],
+       "answerIndex": 2,
+       "explanation": "They are effective and safer in overdose than TCAs."
+      },
+      {
+       "stem": "Acute dystonia caused by haloperidol is treated with:",
+       "options": [
+        "An anticholinergic such as benzhexol or procyclidine",
+        "Levodopa",
+        "Lithium",
+        "More haloperidol",
+        "SSRIs"
+       ],
+       "answerIndex": 0,
+       "explanation": "Anticholinergics restore balance in the basal ganglia."
+      },
+      {
+       "stem": "Clozapine requires regular full blood count monitoring because of:",
+       "options": [
+        "Nephrotoxicity",
+        "Agranulocytosis",
+        "Hepatotoxicity",
+        "Ototoxicity",
+        "Hypoglycaemia"
+       ],
+       "answerIndex": 1,
+       "explanation": "Neutropenia can be fatal."
+      },
+      {
+       "stem": "The usual therapeutic serum range for lithium is about:",
+       "options": [
+        "0.1–0.2 mmol/L",
+        "0.4–1.0 mmol/L",
+        "2.0–3.0 mmol/L",
+        "5–10 mmol/L",
+        "10–20 mmol/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "Toxicity occurs above 1.5 mmol/L."
+      },
+      {
+       "stem": "Sodium valproate should be avoided in women of childbearing potential because it is:",
+       "options": [
+        "Ineffective",
+        "Addictive",
+        "Expensive",
+        "Highly teratogenic (neural tube defects and developmental delay)",
+        "Short-acting"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pregnancy prevention is required if used."
+      },
+      {
+       "stem": "Phenytoin dosing is difficult because it has:",
+       "options": [
+        "No protein binding",
+        "Very wide therapeutic range",
+        "Renal excretion only",
+        "Linear kinetics",
+        "Non-linear (saturable) kinetics"
+       ],
+       "answerIndex": 4,
+       "explanation": "Small dose increases can cause large level rises."
+      },
+      {
+       "stem": "The first-line treatment for status epilepticus is:",
+       "options": [
+        "Carbamazepine",
+        "Haloperidol",
+        "Phenytoin",
+        "A benzodiazepine (e.g. lorazepam, diazepam, midazolam)",
+        "Valproate orally"
+       ],
+       "answerIndex": 3,
+       "explanation": "Benzodiazepines act fastest."
+      },
+      {
+       "stem": "Levodopa is combined with carbidopa to:",
+       "options": [
+        "Treat depression",
+        "Improve absorption only",
+        "Block peripheral conversion so more reaches the brain and nausea is reduced",
+        "Prevent dyskinesias",
+        "Increase peripheral dopamine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Carbidopa is a decarboxylase inhibitor."
+      }
+     ]
+    },
+    {
+     "title": "Pain Management and Palliative Care",
+     "order": 5,
+     "summary": "WHO analgesic ladder, opioids, neuropathic pain and palliative symptom control.",
+     "material": [
+      {
+       "heading": "Analgesia",
+       "body": "Pain assessment uses scales (numeric, visual analogue, faces for children). The WHO analgesic approach (originally a three-step ladder for cancer pain): step 1 non-opioids (paracetamol, NSAIDs) ± adjuvants; step 2 weak opioids (codeine, tramadol) or low-dose strong opioids; step 3 strong opioids (morphine — gold standard; oxycodone, fentanyl patches) — 'by the mouth, by the clock, by the ladder, for the individual, with attention to detail'. Adjuvants for neuropathic pain: amitriptyline, gabapentin/pregabalin, carbamazepine (trigeminal neuralgia). NSAIDs: gastrointestinal bleeding (use PPI cover), renal impairment, cardiovascular risk; avoid in late pregnancy. Opioid adverse effects: constipation (always co-prescribe a laxative), nausea, sedation, respiratory depression (naloxone reverses); tolerance and dependence differ from addiction. Paracetamol overdose causes hepatotoxicity — N-acetylcysteine is the antidote.",
+       "keyPoints": [
+        "WHO ladder",
+        "Morphine: gold standard",
+        "Always prescribe laxative with opioids",
+        "Naloxone reverses opioids",
+        "Neuropathic: amitriptyline, gabapentin",
+        "NAC for paracetamol overdose"
+       ]
+      },
+      {
+       "heading": "Palliative care",
+       "body": "Palliative care improves quality of life for patients and families facing life-threatening illness through prevention and relief of suffering — pain and other physical, psychosocial and spiritual problems. Nigeria has limited palliative services and poor access to oral morphine (among the lowest per-capita opioid consumption globally), partly due to regulatory barriers and opiophobia; oral morphine solution compounded from powder in hospitals (e.g. Hospice and Palliative Care centres) improves access. Symptom control: breathlessness (low-dose opioids, fan, positioning), nausea (metoclopramide, haloperidol, cyclizine by cause), constipation, anorexia, anxiety, and terminal secretions (hyoscine butylbromide). Breakthrough pain doses are about one-sixth of the 24-hour regular dose. Converting routes: oral morphine to subcutaneous is approximately 2:1. Communication, advance care planning and bereavement support are essential.",
+       "keyPoints": [
+        "Palliative: quality of life",
+        "Low opioid access in Nigeria",
+        "Oral morphine compounding",
+        "Breakthrough dose ≈ 1/6 of daily dose",
+        "Oral:SC morphine ≈ 2:1"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The gold-standard strong opioid for cancer pain is:",
+       "options": [
+        "Morphine",
+        "Aspirin",
+        "Pethidine",
+        "Codeine",
+        "Tramadol"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is on the WHO Essential Medicines List."
+      },
+      {
+       "stem": "Patients starting regular opioids should always be prescribed:",
+       "options": [
+        "A laxative",
+        "A diuretic",
+        "Vitamin C",
+        "An antibiotic",
+        "An antihistamine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Opioid constipation does not develop tolerance."
+      },
+      {
+       "stem": "Opioid-induced respiratory depression is reversed by:",
+       "options": [
+        "Flumazenil",
+        "Naloxone",
+        "Atropine",
+        "Vitamin K",
+        "N-acetylcysteine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Naloxone is an opioid antagonist."
+      },
+      {
+       "stem": "A drug used for neuropathic pain is:",
+       "options": [
+        "Amitriptyline or gabapentin",
+        "Ibuprofen only",
+        "Codeine only",
+        "Omeprazole",
+        "Paracetamol alone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Adjuvants target neuropathic mechanisms."
+      },
+      {
+       "stem": "The antidote for paracetamol overdose is:",
+       "options": [
+        "Naloxone",
+        "Protamine",
+        "Atropine",
+        "Flumazenil",
+        "N-acetylcysteine"
+       ],
+       "answerIndex": 4,
+       "explanation": "It replenishes glutathione."
+      },
+      {
+       "stem": "A patient taking 60 mg oral morphine per day needs a breakthrough dose of about:",
+       "options": [
+        "1 mg",
+        "10 mg",
+        "30 mg",
+        "60 mg",
+        "120 mg"
+       ],
+       "answerIndex": 1,
+       "explanation": "About one-sixth of the 24-hour dose."
+      },
+      {
+       "stem": "Converting oral morphine to subcutaneous morphine, the dose is approximately:",
+       "options": [
+        "Divided by ten",
+        "Tripled",
+        "Doubled",
+        "Halved",
+        "Unchanged"
+       ],
+       "answerIndex": 3,
+       "explanation": "Oral:SC ratio is about 2:1."
+      },
+      {
+       "stem": "A key barrier to pain relief in Nigerian palliative care is:",
+       "options": [
+        "Poor access to oral morphine and opiophobia",
+        "Cheap fentanyl patches",
+        "Overprescription",
+        "Too many hospices",
+        "Excess morphine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nigeria has very low opioid consumption for pain."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

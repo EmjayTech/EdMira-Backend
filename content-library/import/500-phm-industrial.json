@@ -1,0 +1,664 @@
+{
+ "courses": [
+  {
+   "title": "Industrial Pharmacy and Good Manufacturing Practice",
+   "code": "PHM503",
+   "color": "#7C3AED",
+   "description": "Pharmaceutical manufacturing unit operations, solid dosage form production, sterile manufacturing, GMP and quality systems, validation, stability and the Nigerian pharmaceutical industry.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Pharmacy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Unit Operations in Pharmaceutical Manufacturing",
+     "order": 1,
+     "summary": "Size reduction, mixing, granulation, drying, and particle properties.",
+     "material": [
+      {
+       "heading": "Size reduction and mixing",
+       "body": "Unit operations are the fundamental steps of manufacturing. Size reduction (milling) increases surface area, improving dissolution and content uniformity: mills include hammer mills (impact — for brittle materials), ball mills (impact and attrition), fluid energy (jet) mills (micronisation to < 5 µm, no heat — for heat-sensitive drugs and inhalation products), and cutter mills. Particle size is measured by sieving, microscopy, laser diffraction and sedimentation. Mixing (blending) aims for content uniformity; segregation occurs with differences in particle size, density and shape. Mixers: tumbling (V-blender, double-cone), convective (ribbon blender) and high-shear mixers. Powder flow is assessed by angle of repose (< 30° excellent), Carr's compressibility index and Hausner ratio (< 1.25 good flow); glidants (colloidal silica) improve flow.",
+       "keyPoints": [
+        "Milling increases surface area",
+        "Jet mill: micronisation, no heat",
+        "Hammer mill: impact",
+        "Segregation from size/density differences",
+        "Angle of repose; Carr's index; Hausner ratio",
+        "Glidants improve flow"
+       ]
+      },
+      {
+       "heading": "Granulation and drying",
+       "body": "Granulation enlarges particles to improve flow, compressibility and uniformity and reduce dust. Wet granulation: mix powders, add binder solution (PVP, starch paste, HPMC), wet mass, screen, dry and size — robust but unsuitable for moisture- or heat-sensitive drugs. Dry granulation (slugging or roller compaction) suits moisture-sensitive drugs. Direct compression (blend and compress) is simplest and cheapest but requires good flow and compressibility (directly compressible excipients such as microcrystalline cellulose, spray-dried lactose). Drying removes solvent: tray dryers, fluidised bed dryers (efficient, uniform; also used for granulation and coating), spray dryers (liquid feeds to powder — heat-sensitive products because of short exposure) and freeze dryers (lyophilisation — sublimation of ice under vacuum for thermolabile biologicals and injections). Loss on drying measures residual moisture.",
+       "keyPoints": [
+        "Wet granulation: binder",
+        "Dry granulation: moisture-sensitive",
+        "Direct compression: simplest",
+        "Fluid bed dryer",
+        "Spray drying",
+        "Freeze drying: sublimation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The mill that micronises drugs without generating heat is the:",
+       "options": [
+        "Ball mill",
+        "Roller mill",
+        "Hammer mill",
+        "Cutter mill",
+        "Fluid energy (jet) mill"
+       ],
+       "answerIndex": 4,
+       "explanation": "Particles collide in high-velocity air."
+      },
+      {
+       "stem": "A Hausner ratio below about 1.25 indicates:",
+       "options": [
+        "Poor compressibility always",
+        "Segregation",
+        "Poor flow",
+        "Good flow",
+        "High moisture"
+       ],
+       "answerIndex": 3,
+       "explanation": "Higher values indicate cohesive powders."
+      },
+      {
+       "stem": "Segregation of a powder blend is mainly caused by differences in:",
+       "options": [
+        "Particle size and density",
+        "Odour",
+        "Taste",
+        "Colour",
+        "Packaging"
+       ],
+       "answerIndex": 0,
+       "explanation": "It compromises content uniformity."
+      },
+      {
+       "stem": "Wet granulation is unsuitable for drugs that are:",
+       "options": [
+        "Very stable",
+        "Coloured",
+        "Moisture- or heat-sensitive",
+        "Very soluble",
+        "Low dose"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dry granulation or direct compression is preferred."
+      },
+      {
+       "stem": "The simplest and cheapest tablet manufacturing method is:",
+       "options": [
+        "Direct compression",
+        "Wet granulation",
+        "Spray drying",
+        "Dry granulation",
+        "Freeze drying"
+       ],
+       "answerIndex": 0,
+       "explanation": "It requires good flow and compressibility."
+      },
+      {
+       "stem": "A glidant such as colloidal silica is added to:",
+       "options": [
+        "Improve taste",
+        "Act as binder",
+        "Increase hardness",
+        "Improve powder flow",
+        "Add colour"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces interparticle friction."
+      },
+      {
+       "stem": "Freeze drying removes water by:",
+       "options": [
+        "Sublimation of ice under vacuum",
+        "Centrifugation",
+        "Filtration",
+        "Evaporation at 100 °C",
+        "Boiling"
+       ],
+       "answerIndex": 0,
+       "explanation": "It protects thermolabile products."
+      },
+      {
+       "stem": "Spray drying is suitable for heat-sensitive materials because:",
+       "options": [
+        "Exposure to heat is very brief",
+        "It is slow",
+        "It uses ethanol only",
+        "It uses no heat",
+        "It is done under freezing conditions"
+       ],
+       "answerIndex": 0,
+       "explanation": "Droplets dry in seconds."
+      }
+     ]
+    },
+    {
+     "title": "Solid Dosage Form Production and Testing",
+     "order": 2,
+     "summary": "Tablet compression, excipients, coating, capsules, defects and quality control tests.",
+     "material": [
+      {
+       "heading": "Tablets and capsules",
+       "body": "Tablet excipients: diluents/fillers (lactose, microcrystalline cellulose, dibasic calcium phosphate, starch), binders (PVP, starch, HPMC), disintegrants (starch, croscarmellose, sodium starch glycolate, crospovidone — 'superdisintegrants'), lubricants (magnesium stearate — excess slows dissolution), glidants, and anti-adherents. Compression uses single-punch or rotary presses (upper and lower punches, die). Tablet defects: capping and lamination (air entrapment, excessive fines, too fast compression), picking and sticking (moisture, insufficient lubricant), mottling, weight variation (poor flow), and chipping. Coating: sugar coating (traditional, lengthy), film coating (HPMC-based — thin, efficient), and enteric coating (cellulose acetate phthalate, methacrylate polymers — dissolves in the intestine; protects acid-labile drugs or the stomach). Modified-release forms (matrix, reservoir, osmotic pumps) prolong action. Hard gelatin capsules are filled with powder or pellets; soft gelatin capsules hold liquids.",
+       "keyPoints": [
+        "Diluents, binders, disintegrants, lubricants",
+        "Magnesium stearate excess slows dissolution",
+        "Capping: air entrapment",
+        "Sticking: moisture, low lubricant",
+        "Film vs enteric coating",
+        "Hard vs soft gelatin capsules"
+       ]
+      },
+      {
+       "heading": "Quality control tests",
+       "body": "Pharmacopoeial tests for tablets: weight uniformity, content uniformity (for low-dose drugs), assay, hardness (crushing strength), friability (Roche friabilator — weight loss usually < 1%), disintegration (uncoated tablets typically within 15 minutes; film-coated 30 minutes; enteric-coated — no disintegration in acid for 2 hours then disintegration in buffer), and dissolution (USP apparatus 1 — basket; 2 — paddle; results compared with specifications and used to compare generics). Bioequivalence studies (AUC and Cmax 90% confidence intervals within 80–125%) demonstrate generic interchangeability. Substandard and falsified medicines are a major problem in Nigeria — quality control laboratories (NAFDAC, manufacturers), GMP compliance and pharmacovigilance protect patients. Packaging (blister packs with aluminium protect against moisture — important in Nigeria's humid climate) and labelling are also controlled.",
+       "keyPoints": [
+        "Friability < 1%",
+        "Disintegration 15 min uncoated",
+        "Enteric: 2 h in acid",
+        "Dissolution: basket, paddle",
+        "Bioequivalence 80–125%",
+        "Blister packs protect from humidity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A superdisintegrant commonly used in tablets is:",
+       "options": [
+        "Lactose",
+        "PVP",
+        "Talc",
+        "Magnesium stearate",
+        "Croscarmellose sodium"
+       ],
+       "answerIndex": 4,
+       "explanation": "It swells rapidly in water."
+      },
+      {
+       "stem": "Excess magnesium stearate in a tablet formulation can:",
+       "options": [
+        "Speed dissolution",
+        "Increase hardness always",
+        "Improve taste",
+        "Act as a binder",
+        "Slow disintegration and dissolution"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is hydrophobic."
+      },
+      {
+       "stem": "Separation of the top of a tablet during ejection (capping) is often due to:",
+       "options": [
+        "Air entrapment and excessive fines",
+        "Too much colour",
+        "Too much lubricant",
+        "Low humidity",
+        "Enteric coating"
+       ],
+       "answerIndex": 0,
+       "explanation": "Precompression can reduce it."
+      },
+      {
+       "stem": "Enteric coatings are designed to:",
+       "options": [
+        "Improve colour only",
+        "Mask odour only",
+        "Dissolve in the stomach",
+        "Resist gastric acid and dissolve in the intestine",
+        "Increase tablet weight"
+       ],
+       "answerIndex": 3,
+       "explanation": "They protect acid-labile drugs or the stomach."
+      },
+      {
+       "stem": "The acceptable friability loss for tablets is usually less than:",
+       "options": [
+        "1%",
+        "10%",
+        "25%",
+        "50%",
+        "0.01%"
+       ],
+       "answerIndex": 0,
+       "explanation": "Measured in a Roche friabilator."
+      },
+      {
+       "stem": "Uncoated tablets should usually disintegrate within:",
+       "options": [
+        "15 minutes",
+        "2 hours",
+        "24 hours",
+        "1 minute",
+        "60 minutes"
+       ],
+       "answerIndex": 0,
+       "explanation": "Film-coated tablets are allowed 30 minutes."
+      },
+      {
+       "stem": "Generic products are considered bioequivalent when the 90% CI of AUC and Cmax ratios fall within:",
+       "options": [
+        "50–150%",
+        "80–125%",
+        "90–110% only",
+        "70–130%",
+        "95–105%"
+       ],
+       "answerIndex": 1,
+       "explanation": "This is the standard regulatory range."
+      },
+      {
+       "stem": "Aluminium blister packaging is particularly useful in Nigeria because it protects against:",
+       "options": [
+        "Counterfeiting completely",
+        "Light only",
+        "Moisture in the humid climate",
+        "Heat only",
+        "Theft"
+       ],
+       "answerIndex": 2,
+       "explanation": "Moisture degrades many drugs."
+      }
+     ]
+    },
+    {
+     "title": "Sterile Products Manufacturing",
+     "order": 3,
+     "summary": "Cleanrooms, sterilisation methods, aseptic processing, pyrogens and parenteral QC.",
+     "material": [
+      {
+       "heading": "Cleanrooms and sterilisation",
+       "body": "Sterile products (injections, eye drops, infusions) must be free from viable microorganisms, particulates and pyrogens. Cleanrooms are classified by airborne particle counts (EU GMP grades A–D; ISO classes — grade A ≈ ISO 5 for aseptic filling zones under unidirectional (laminar) airflow; grade B background), with HEPA filtration, positive pressure cascades, gowning, and environmental monitoring (settle plates, contact plates, air sampling). Terminal sterilisation in the final container is preferred when the product tolerates it: moist heat (autoclave — 121 °C for 15 minutes; overkill cycles; biological indicator Geobacillus stearothermophilus), dry heat (160–180 °C — glassware; depyrogenation at 250 °C), ionising radiation (gamma — disposable devices), and ethylene oxide gas (heat-sensitive devices; toxic residues). Filtration through 0.22 µm membranes sterilises heat-labile solutions, followed by aseptic filling. Sterility assurance level (SAL) of 10⁻⁶ is the target for terminal sterilisation.",
+       "keyPoints": [
+        "Grade A ≈ ISO 5 laminar flow",
+        "HEPA, pressure cascades",
+        "Autoclave 121 °C 15 min",
+        "Geobacillus stearothermophilus BI",
+        "Dry heat depyrogenation 250 °C",
+        "0.22 µm filtration",
+        "SAL 10⁻⁶"
+       ]
+      },
+      {
+       "heading": "Pyrogens and QC",
+       "body": "Pyrogens (mainly bacterial endotoxins — lipopolysaccharides from Gram-negative bacteria) cause fever when injected; they survive autoclaving and are removed by dry heat depyrogenation or controlled by using Water for Injection (WFI — produced by distillation or equivalent, stored hot at > 70 °C or circulated). Tests: bacterial endotoxin test (Limulus amoebocyte lysate — LAL; recombinant factor C alternatives) and the rabbit pyrogen test (historical). Parenteral QC: sterility test (membrane filtration or direct inoculation — 14 days), particulate matter (visible and sub-visible), container–closure integrity, pH and osmolarity (isotonicity — 0.9% NaCl), fill volume, and endotoxins. Media fill (process simulation) validates aseptic processing. Large-volume parenterals (infusions) are produced in Nigeria by several manufacturers; quality failures can cause serious harm (e.g. contaminated infusions causing sepsis).",
+       "keyPoints": [
+        "Endotoxins: Gram-negative LPS",
+        "Survive autoclaving",
+        "WFI stored hot > 70 °C",
+        "LAL test",
+        "Sterility test 14 days",
+        "Media fill validates aseptic process"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The cleanroom grade for aseptic filling operations is:",
+       "options": [
+        "Unclassified",
+        "Grade A",
+        "Grade C",
+        "Grade D",
+        "Grade B"
+       ],
+       "answerIndex": 1,
+       "explanation": "Under unidirectional airflow."
+      },
+      {
+       "stem": "The biological indicator used to validate steam sterilisation is:",
+       "options": [
+        "Geobacillus stearothermophilus",
+        "Staphylococcus aureus",
+        "Bacillus atrophaeus",
+        "Candida albicans",
+        "E. coli"
+       ],
+       "answerIndex": 0,
+       "explanation": "Its spores are highly heat-resistant."
+      },
+      {
+       "stem": "Heat-labile solutions are sterilised by:",
+       "options": [
+        "Filtration through 0.22 µm membranes",
+        "Boiling",
+        "Freezing",
+        "Autoclaving",
+        "Dry heat"
+       ],
+       "answerIndex": 0,
+       "explanation": "Followed by aseptic filling."
+      },
+      {
+       "stem": "Bacterial endotoxins are:",
+       "options": [
+        "Destroyed by autoclaving",
+        "Fungal spores",
+        "Proteins from viruses",
+        "Harmless",
+        "Lipopolysaccharides from Gram-negative bacteria that survive autoclaving"
+       ],
+       "answerIndex": 4,
+       "explanation": "Depyrogenation by dry heat removes them."
+      },
+      {
+       "stem": "The standard test for bacterial endotoxins uses:",
+       "options": [
+        "Yeast",
+        "Agar plates",
+        "Guinea pigs",
+        "Rabbit blood",
+        "Limulus amoebocyte lysate (LAL)"
+       ],
+       "answerIndex": 4,
+       "explanation": "From horseshoe crab blood cells."
+      },
+      {
+       "stem": "The target sterility assurance level for terminally sterilised products is:",
+       "options": [
+        "10⁻¹",
+        "10⁻¹²",
+        "1",
+        "10⁻³",
+        "10⁻⁶"
+       ],
+       "answerIndex": 4,
+       "explanation": "One in a million chance of a non-sterile unit."
+      },
+      {
+       "stem": "A process simulation using growth medium instead of product to validate aseptic filling is a:",
+       "options": [
+        "Bioequivalence study",
+        "Friability test",
+        "Stability test",
+        "Dissolution test",
+        "Media fill"
+       ],
+       "answerIndex": 4,
+       "explanation": "It detects contamination risks."
+      },
+      {
+       "stem": "Water for Injection is commonly stored:",
+       "options": [
+        "At room temperature for months",
+        "In open tanks",
+        "Frozen",
+        "Hot (above 70 °C) or continuously circulated",
+        "In plastic bottles"
+       ],
+       "answerIndex": 3,
+       "explanation": "This prevents microbial growth."
+      }
+     ]
+    },
+    {
+     "title": "Good Manufacturing Practice and Quality Systems",
+     "order": 4,
+     "summary": "GMP principles, documentation, validation, quality assurance vs control, and regulatory inspection.",
+     "material": [
+      {
+       "heading": "GMP principles",
+       "body": "Good Manufacturing Practice (GMP) ensures products are consistently produced and controlled to quality standards appropriate to their intended use. WHO GMP (adopted by NAFDAC) covers: quality management (pharmaceutical quality system, quality risk management — ICH Q9), personnel (qualified, trained, hygiene), premises and equipment (design to prevent contamination and mix-ups; cleaning validation), documentation ('if it isn't written down, it didn't happen' — specifications, master formulae, batch manufacturing records, SOPs; ALCOA+ data integrity principles: attributable, legible, contemporaneous, original, accurate), production (line clearance, segregation), quality control, complaints and recalls, self-inspection and contract manufacture. The 'authorised person' or qualified person releases batches. Quality assurance (QA — the whole system ensuring quality, preventing errors) is broader than quality control (QC — testing samples and materials). Deviations and out-of-specification results are investigated with CAPA (corrective and preventive actions).",
+       "keyPoints": [
+        "WHO GMP adopted by NAFDAC",
+        "Documentation: ALCOA+",
+        "Batch manufacturing records",
+        "QA broader than QC",
+        "Line clearance",
+        "Deviations → CAPA"
+       ]
+      },
+      {
+       "heading": "Validation and regulation",
+       "body": "Validation provides documented evidence that a process, method, equipment or system consistently produces results meeting predetermined specifications. Qualification of equipment: design (DQ), installation (IQ), operational (OQ) and performance (PQ). Process validation (prospective — three consecutive batches traditionally; lifecycle approach), cleaning validation (acceptance limits for residues), analytical method validation (ICH Q2: accuracy, precision, specificity, linearity, range, detection and quantitation limits, robustness) and computer system validation. Change control manages modifications. Regulators: NAFDAC inspects and licenses manufacturers; WHO prequalification enables supply to global programmes (a few Nigerian manufacturers have achieved WHO prequalification, e.g. for zinc/ORS and antimalarials). The ICH guidelines (Q1 stability, Q7 APIs, Q8–Q10 development and quality systems) harmonise standards. Pharmaceutical inspection conventions (PIC/S) set inspection standards.",
+       "keyPoints": [
+        "DQ, IQ, OQ, PQ",
+        "Process and cleaning validation",
+        "ICH Q2 method validation",
+        "Change control",
+        "NAFDAC inspections",
+        "WHO prequalification"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The principle 'if it isn't written down, it didn't happen' relates to GMP:",
+       "options": [
+        "Personnel hygiene only",
+        "Packaging",
+        "Documentation",
+        "Marketing",
+        "Premises"
+       ],
+       "answerIndex": 2,
+       "explanation": "Records provide traceability."
+      },
+      {
+       "stem": "ALCOA+ principles concern:",
+       "options": [
+        "Tablet hardness",
+        "Stability",
+        "Pricing",
+        "Data integrity",
+        "Sterilisation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Attributable, Legible, Contemporaneous, Original, Accurate."
+      },
+      {
+       "stem": "Quality assurance differs from quality control in that QA:",
+       "options": [
+        "Encompasses the entire system that ensures quality",
+        "Is less important",
+        "Is done only after release",
+        "Is performed by marketers",
+        "Only tests samples"
+       ],
+       "answerIndex": 0,
+       "explanation": "QC is a part of QA."
+      },
+      {
+       "stem": "Checking that the production line is free of previous materials before a new batch is:",
+       "options": [
+        "Recall",
+        "Validation",
+        "Line clearance",
+        "Stability testing",
+        "Calibration"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prevents mix-ups."
+      },
+      {
+       "stem": "Equipment qualification that confirms correct installation is:",
+       "options": [
+        "PQ",
+        "CQ",
+        "IQ",
+        "OQ",
+        "DQ"
+       ],
+       "answerIndex": 2,
+       "explanation": "Installation Qualification."
+      },
+      {
+       "stem": "Investigation of deviations leads to:",
+       "options": [
+        "Corrective and preventive actions (CAPA)",
+        "Ignoring them",
+        "Faster release",
+        "Higher prices",
+        "Destroying records"
+       ],
+       "answerIndex": 0,
+       "explanation": "CAPA prevents recurrence."
+      },
+      {
+       "stem": "The ICH guideline covering analytical method validation is:",
+       "options": [
+        "ICH M4",
+        "ICH Q2",
+        "ICH Q7",
+        "ICH E6",
+        "ICH Q1"
+       ],
+       "answerIndex": 1,
+       "explanation": "It defines validation characteristics."
+      },
+      {
+       "stem": "WHO prequalification allows manufacturers to:",
+       "options": [
+        "Sell without registration",
+        "Double prices",
+        "Supply medicines to global procurement programmes",
+        "Skip GMP",
+        "Avoid NAFDAC"
+       ],
+       "answerIndex": 2,
+       "explanation": "It certifies quality for UN agencies and donors."
+      }
+     ]
+    },
+    {
+     "title": "Stability, Packaging and the Nigerian Pharmaceutical Industry",
+     "order": 5,
+     "summary": "Drug stability and ICH conditions, packaging, and local manufacturing context.",
+     "material": [
+      {
+       "heading": "Stability",
+       "body": "Drug degradation pathways: hydrolysis (esters — aspirin; amides; β-lactams), oxidation (catecholamines — adrenaline; vitamin C; prevented with antioxidants and nitrogen flushing), photolysis (light-sensitive drugs — nifedipine, riboflavin — amber containers), and physical instability (polymorphic changes, caking of suspensions, cracking of emulsions, moisture uptake). Reaction kinetics: zero-order (suspensions) and first-order (most solutions); shelf life (t90 — time to 90% potency). Accelerated stability testing (40 °C/75% RH for 6 months) predicts shelf life using the Arrhenius equation. ICH climatic zones: Nigeria is in Zone IVb (hot and very humid — long-term testing at 30 °C/75% RH), so products must be tested under these conditions. In-use stability, storage instructions ('store below 30 °C, protect from light and moisture') and cold chain for biologicals and vaccines are important.",
+       "keyPoints": [
+        "Hydrolysis, oxidation, photolysis",
+        "t90 shelf life",
+        "Accelerated 40 °C/75% RH",
+        "Arrhenius equation",
+        "Nigeria: Zone IVb, 30 °C/75% RH",
+        "Cold chain for biologicals"
+       ]
+      },
+      {
+       "heading": "Local industry",
+       "body": "Nigeria has over 100 pharmaceutical manufacturers (e.g. Emzor, Fidson, May & Baker, Swiss Pharma, Neimeth), concentrated in Lagos and the South-West, producing mainly generic solid and liquid dosage forms, infusions and some antimalarials; yet the country imports most active pharmaceutical ingredients (APIs, largely from India and China) and many finished products. Challenges: dependence on imported APIs and excipients, foreign exchange scarcity, unreliable power (high cost of diesel generators), infrastructure, counterfeit competition and limited research capacity. Initiatives: local API production projects (e.g. Emzor's API plant), backward integration policy, Pharmaceutical Manufacturers Group of MAN (PMG-MAN), the African Continental Free Trade Area (AfCFTA) opportunities, and vaccine manufacturing ambitions (e.g. Biovaccines Nigeria). The COVID-19 pandemic highlighted supply chain vulnerabilities and the need for local manufacturing and regulatory strengthening (NAFDAC achieved WHO Maturity Level 3 in 2022).",
+       "keyPoints": [
+        "100+ manufacturers, mostly generics",
+        "APIs mostly imported",
+        "Power and forex challenges",
+        "Local API production",
+        "AfCFTA opportunities",
+        "NAFDAC WHO ML3 (2022)"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Aspirin in the presence of moisture degrades mainly by:",
+       "options": [
+        "Oxidation",
+        "Photolysis",
+        "Hydrolysis",
+        "Polymerisation",
+        "Racemisation"
+       ],
+       "answerIndex": 2,
+       "explanation": "It forms salicylic acid and acetic acid (vinegar smell)."
+      },
+      {
+       "stem": "Adrenaline solutions are protected from degradation with:",
+       "options": [
+        "Acid only",
+        "Water",
+        "Antioxidants and protection from light",
+        "Air bubbling",
+        "Heat"
+       ],
+       "answerIndex": 2,
+       "explanation": "Catecholamines oxidise readily."
+      },
+      {
+       "stem": "The shelf life (t90) is the time taken for a product to:",
+       "options": [
+        "Double in potency",
+        "Become sterile",
+        "Lose all potency",
+        "Fall to 90% of its labelled potency",
+        "Change colour"
+       ],
+       "answerIndex": 3,
+       "explanation": "It defines expiry."
+      },
+      {
+       "stem": "Standard accelerated stability testing conditions are:",
+       "options": [
+        "40 °C/75% RH",
+        "5 °C",
+        "−20 °C",
+        "25 °C/60% RH",
+        "60 °C/10% RH"
+       ],
+       "answerIndex": 0,
+       "explanation": "Used to predict long-term stability."
+      },
+      {
+       "stem": "Nigeria falls into ICH climatic zone:",
+       "options": [
+        "II",
+        "IVa only",
+        "I",
+        "III",
+        "IVb"
+       ],
+       "answerIndex": 4,
+       "explanation": "Hot and very humid — 30 °C/75% RH."
+      },
+      {
+       "stem": "The equation relating reaction rate to temperature used to predict shelf life is the:",
+       "options": [
+        "Fick's law",
+        "Stokes' law",
+        "Noyes–Whitney equation",
+        "Henderson–Hasselbalch equation",
+        "Arrhenius equation"
+       ],
+       "answerIndex": 4,
+       "explanation": "It supports accelerated testing."
+      },
+      {
+       "stem": "A major challenge for Nigerian pharmaceutical manufacturers is:",
+       "options": [
+        "Low population",
+        "No demand for medicines",
+        "Too many regulators",
+        "Dependence on imported APIs and unreliable power",
+        "Excess local API supply"
+       ],
+       "answerIndex": 3,
+       "explanation": "Backward integration aims to address this."
+      },
+      {
+       "stem": "NAFDAC attained WHO Maturity Level 3 as a regulatory authority in:",
+       "options": [
+        "2002",
+        "2012",
+        "2022",
+        "1995",
+        "2025"
+       ],
+       "answerIndex": 2,
+       "explanation": "It indicates a stable, well-functioning regulatory system."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

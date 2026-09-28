@@ -1,5 +1,6 @@
 import request from 'supertest';
 import { seedSampleContent } from '../src/seed/seed-sample-content';
+import { AiNewsService } from '../src/admin/ai-news.service';
 import { startInMemoryApp } from './support/in-memory-app';
 
 /**
@@ -723,5 +724,185 @@ describe('bulk import, bulk review and AI drafting', () => {
     const topic = (await as('admin').get('/admin/topics')).body[0];
     await as('creator').post(`/admin/topics/${topic.id}/ai-questions`, { count: 5 }).expect(503);
     await as('creator').post(`/admin/topics/${topic.id}/ai-questions`, { count: 50 }).expect(400);
+  });
+});
+
+describe('AI news from trusted sources', () => {
+  const DAY = 864e5;
+  const iso = (daysAgo: number) => new Date(Date.now() - daysAgo * DAY).toUTCString();
+  const article = (title: string, text: string) =>
+    `<html><head><meta property="og:title" content="${title}"><meta property="og:image" content="https://unilag.edu.ng/img/1.jpg"></head>` +
+    `<body><nav>Menu</nav><article><h1>${title}</h1><p>${text}</p><p>${'More details for students. '.repeat(12)}</p></article></body></html>`;
+
+  const pages: Record<string, { type: string; body: string }> = {
+    'https://unilag.edu.ng/news': {
+      type: 'text/html',
+      body: `<a href="/about">About the University of Lagos and its history</a>
+        <a href="/news/post-utme-screening-2026">UNILAG announces 2026/2027 post-UTME screening dates</a>
+        <a href="/news/sports-day">Vice-Chancellor opens inter-faculty sports festival today</a>`,
+    },
+    'https://unilag.edu.ng/news/post-utme-screening-2026': {
+      type: 'text/html',
+      body: article('Post-UTME screening dates', 'Screening for the 2026/2027 session starts on 3 November.'),
+    },
+    'https://unilag.edu.ng/news/sports-day': { type: 'text/html', body: article('Sports festival', 'The sports festival opened today.') },
+    'https://ncdc.gov.ng/feed': {
+      type: 'application/rss+xml',
+      body: `<rss><channel>
+        <item><title>Lassa fever situation report, week 39</title><link>https://ncdc.gov.ng/news/lassa-39</link><pubDate>${iso(1)}</pubDate></item>
+        <item><title>Old cholera advisory from months ago</title><link>https://ncdc.gov.ng/news/old</link><pubDate>${iso(60)}</pubDate></item>
+      </channel></rss>`,
+    },
+    'https://ncdc.gov.ng/news/lassa-39': { type: 'text/html', body: article('Lassa fever update', 'Screening of contacts continues as Lassa fever cases rise in Edo and Ondo.') },
+  };
+  const fakeFetch = (async (url: string) => {
+    const page = pages[url];
+    return page
+      ? new Response(page.body, { status: 200, headers: { 'content-type': page.type } })
+      : new Response('Not found', { status: 404, statusText: 'Not Found' });
+  }) as typeof fetch;
+
+  const picked: string[] = [];
+  const fakeWriter = {
+    async pick(_source: any, candidates: { title: string; url: string }[], max: number) {
+      picked.push(...candidates.map(c => c.url));
+      return candidates.map((c, i) => (/screening|lassa|sports/i.test(c.title) ? i : -1)).filter(i => i >= 0).slice(0, max);
+    },
+    async write(source: any, a: { url: string; text: string }) {
+      const relevant = /screening/i.test(a.text);
+      return {
+        relevant,
+        title: /lassa/i.test(a.text) ? 'Lassa fever cases rise in Edo and Ondo' : 'UNILAG post-UTME screening starts 3 November',
+        summary: 'Short summary for the carousel.',
+        body: [`${source.name} says: ${a.text.slice(0, 80)}`],
+        category: (/lassa/i.test(a.text) ? 'clinical' : 'admissions') as 'clinical' | 'admissions',
+        institution: /unilag/.test(a.url) ? 'University of Lagos' : '',
+        publishedDate: '',
+      };
+    },
+  };
+
+  const del = (path: string) => http().delete(api(path)).set(bearer(tokens.admin));
+  const service = () => server.app.get(AiNewsService);
+
+  it('is admin-only and reports itself off without an API key', async () => {
+    await as('reviewer').get('/admin/news/ai').expect(403);
+    await as('reviewer').post('/admin/news/fetch').expect(403);
+    const res = await as('admin').get('/admin/news/ai').expect(200);
+    expect(res.body).toMatchObject({ enabled: false, running: false, sources: [] });
+    await as('admin').post('/admin/news/fetch').expect(503);
+  });
+
+  it('manages sources with readable validation', async () => {
+    const bad = await as('admin').post('/admin/news/sources', { name: 'Internal', url: 'http://localhost:4000/x' }).expect(400);
+    expect(JSON.stringify(bad.body.message)).toContain('web address');
+    const internal = await as('admin').post('/admin/news/sources', { name: 'Internal', url: 'http://192.168.1.10/news' }).expect(400);
+    expect(JSON.stringify(internal.body.message)).toContain('web address');
+    await as('admin').post('/admin/news/sources', { name: 'X', url: 'not a url' }).expect(400);
+
+    const unilag = await as('admin')
+      .post('/admin/news/sources', { name: 'UNILAG', url: 'https://unilag.edu.ng/news', institution: 'University of Lagos' })
+      .expect(201);
+    expect(unilag.body).toMatchObject({ enabled: true, autoPublish: false, lastCheckedAt: null });
+    await as('admin').post('/admin/news/sources', { name: 'Again', url: 'https://unilag.edu.ng/news' }).expect(409);
+
+    const ncdc = await as('admin').post('/admin/news/sources', { name: 'NCDC', url: 'https://ncdc.gov.ng/feed' }).expect(201);
+    const updated = await as('admin').patch(`/admin/news/sources/${ncdc.body.id}`, { name: 'NCDC', url: 'https://ncdc.gov.ng/feed', autoPublish: true }).expect(200);
+    expect(updated.body.autoPublish).toBe(true);
+
+    const gone = await as('admin').post('/admin/news/sources', { name: 'Gone', url: 'https://gone.example.org/' }).expect(201);
+    await del(`/admin/news/sources/${gone.body.id}`).expect(200);
+    await del(`/admin/news/sources/${gone.body.id}`).expect(404);
+  });
+
+  it('turns new, relevant stories into drafts — or publishes them for auto-publish sources', async () => {
+    service().useForTesting(fakeWriter, fakeFetch);
+    const run = await as('admin').post('/admin/news/fetch').expect(201);
+    expect(run.body).toMatchObject({ sourcesChecked: 2, added: 2, published: 1, errors: [] });
+    // The sports story was read but judged irrelevant; the 60-day-old advisory was never offered.
+    expect(run.body.skipped).toBe(1);
+    expect(picked).not.toContain('https://ncdc.gov.ng/news/old');
+    expect(picked).not.toContain('https://unilag.edu.ng/about');
+
+    const all = (await as('admin').get('/admin/news').expect(200)).body;
+    const draft = all.find((n: any) => n.title === 'UNILAG post-UTME screening starts 3 November');
+    expect(draft).toMatchObject({
+      status: 'draft',
+      origin: 'ai',
+      category: 'admissions',
+      source: 'UNILAG',
+      institution: 'University of Lagos',
+      sourceUrl: 'https://unilag.edu.ng/news/post-utme-screening-2026',
+      imageUrl: 'https://unilag.edu.ng/img/1.jpg',
+      createdByName: 'AI · UNILAG',
+    });
+    const titles = (await http().get(api('/news?limit=20')).set(bearer(tokens.student)).expect(200)).body.map((n: any) => n.title);
+    expect(titles[0]).toBe('Lassa fever cases rise in Edo and Ondo');
+    expect(titles).not.toContain(draft.title);
+
+    const sources = (await as('admin').get('/admin/news/ai').expect(200)).body.sources;
+    expect(sources.find((s: any) => s.name === 'UNILAG')).toMatchObject({ lastAdded: 1, lastError: '' });
+  });
+
+  it('only asks the AI about links it has not seen before', async () => {
+    picked.length = 0;
+    const run = await as('admin').post('/admin/news/fetch').expect(201);
+    expect(run.body).toMatchObject({ added: 0, errors: [] });
+    expect(picked).toEqual([]);
+  });
+
+  it('records unreachable sources instead of failing the run', async () => {
+    const broken = await as('admin').post('/admin/news/sources', { name: 'Broken', url: 'https://broken.example.org/' }).expect(201);
+    const run = await as('admin').post('/admin/news/fetch').expect(201);
+    expect(run.body.errors).toEqual([{ source: 'Broken', message: '404 Not Found from https://broken.example.org/' }]);
+    await as('admin').patch(`/admin/news/sources/${broken.body.id}`, { name: 'Broken', url: 'https://broken.example.org/', enabled: false }).expect(200);
+  });
+
+  it('never finds more stories than the limit allows in the window', async () => {
+    const extra = ['post-utme-screening-venues', 'post-utme-screening-results'];
+    pages['https://unilag.edu.ng/news'].body += extra
+      .map(slug => `<a href="/news/${slug}">UNILAG update on ${slug.replace(/-/g, ' ')} for new students</a>`)
+      .join('');
+    for (const slug of extra) {
+      pages[`https://unilag.edu.ng/news/${slug}`] = { type: 'text/html', body: article(slug, `Screening news: ${slug} for the 2026 session.`) };
+    }
+    const writeTitle = fakeWriter.write;
+    fakeWriter.write = async (source, a) => ({ ...(await writeTitle(source, a)), title: `UNILAG ${a.url.split('/').pop()}` });
+    try {
+      // 2 found so far; a limit of 3 leaves room for exactly one more, though two are new.
+      process.env.NEWS_LIMIT = '3';
+      const run = await as('admin').post('/admin/news/fetch').expect(201);
+      expect(run.body).toMatchObject({ limitReached: false, added: 1, limit: { max: 3, windowHours: 48, used: 3 } });
+
+      picked.length = 0;
+      const full = await as('admin').post('/admin/news/fetch').expect(201);
+      expect(full.body).toMatchObject({ limitReached: true, sourcesChecked: 0, added: 0 });
+      expect(picked).toEqual([]); // no site read, no AI call
+      expect(new Date(full.body.limit.nextSlotAt).getTime()).toBeGreaterThan(Date.now() + 47 * 3600_000);
+      const status = (await as('admin').get('/admin/news/ai').expect(200)).body;
+      expect(status.limit).toMatchObject({ max: 3, used: 3 });
+      expect(status.limit.nextSlotAt).toBe(full.body.limit.nextSlotAt);
+    } finally {
+      delete process.env.NEWS_LIMIT;
+      fakeWriter.write = writeTitle;
+    }
+  });
+
+  it('publishes or discards AI suggestions in bulk', async () => {
+    const drafts = (await as('admin').get('/admin/news').expect(200)).body.filter((n: any) => n.origin === 'ai' && n.status === 'draft');
+    const res = await as('admin').post('/admin/news/bulk-status', { ids: [...drafts.map((d: any) => d.id), '64b000000000000000000000'], status: 'published' }).expect(201);
+    expect(res.body.done).toEqual(drafts.map((d: any) => d.id));
+    expect(res.body.failed).toEqual([{ id: '64b000000000000000000000', error: 'That story no longer exists.' }]);
+    await as('admin').post('/admin/news/bulk-status', { ids: [], status: 'published' }).expect(400);
+    await as('reviewer').post('/admin/news/bulk-status', { ids: [drafts[0].id], status: 'archived' }).expect(403);
+  });
+
+  it('adds the suggested official sources once', async () => {
+    const first = await as('admin').post('/admin/news/sources/defaults').expect(201);
+    const count = first.body.sources.length;
+    expect(first.body.sources.map((s: any) => s.name)).toEqual(expect.arrayContaining(['NCDC', 'JAMB', 'MDCN', 'NUC']));
+    const again = await as('admin').post('/admin/news/sources/defaults').expect(201);
+    expect(again.body.sources).toHaveLength(count);
+    service().useForTesting(undefined);
   });
 });

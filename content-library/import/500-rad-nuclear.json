@@ -1,0 +1,667 @@
+{
+ "courses": [
+  {
+   "title": "Nuclear Medicine and Radiotherapy",
+   "code": "RAD503",
+   "color": "#4338CA",
+   "description": "Radionuclides and radiopharmaceuticals, gamma camera and PET imaging procedures, radionuclide therapy, principles and practice of radiotherapy, and radiation safety in these departments.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Radiography"
+    },
+    {
+     "level": "500 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Radionuclides and Radiopharmaceuticals",
+     "order": 1,
+     "summary": "Radioactive decay, half-life, generator systems, radiopharmaceutical properties and quality control.",
+     "material": [
+      {
+       "heading": "Decay and half-life",
+       "body": "Radioactive decay modes: alpha (helium nuclei — high LET, short range; used in targeted therapy such as radium-223), beta-minus (electrons — therapy with iodine-131, lutetium-177, yttrium-90), beta-plus (positrons — PET imaging with fluorine-18, gallium-68), gamma emission (photons — imaging) and isomeric transition (technetium-99m). Activity is measured in becquerels (1 Bq = 1 disintegration per second; older unit curie, 1 mCi = 37 MBq). A = A0 e^(−λt); physical half-life (T½) — time for activity to halve; biological half-life — time for the body to eliminate half; effective half-life: 1/Teff = 1/Tphys + 1/Tbiol. The ideal diagnostic radionuclide has a short half-life (hours), emits gamma rays of 100–200 keV without particulate radiation, is cheap and readily available — technetium-99m (T½ 6 hours, 140 keV) meets these criteria and is used in about 80% of procedures.",
+       "keyPoints": [
+        "Alpha, beta, positron, gamma",
+        "1 mCi = 37 MBq",
+        "1/Teff = 1/Tp + 1/Tb",
+        "Ideal: short T½, 100–200 keV gamma",
+        "Tc-99m: 6 h, 140 keV, ~80% of scans"
+       ]
+      },
+      {
+       "heading": "Generators and radiopharmaceuticals",
+       "body": "The molybdenum-99/technetium-99m generator: Mo-99 (T½ 66 hours) adsorbed on an alumina column decays to Tc-99m, which is eluted ('milked') with saline as sodium pertechnetate; transient equilibrium allows daily elution for about a week. Radiopharmaceutical kits label Tc-99m to carriers: MDP (bone), MAG3 and DTPA (renal function), DMSA (renal cortex/scarring), MAA (lung perfusion), sestamibi/tetrofosmin (myocardial perfusion, parathyroid), HMPAO (brain perfusion, labelled leucocytes), sulfur colloid (liver/spleen, lymphoscintigraphy), and pertechnetate alone (thyroid, Meckel's diverticulum). Quality control: molybdenum breakthrough (limit about 0.15 µCi Mo-99 per mCi Tc-99m), aluminium breakthrough, radiochemical purity (chromatography — free pertechnetate and hydrolysed reduced technetium), sterility and apyrogenicity. Radiopharmacy must follow GMP and radiation protection (shielded hot lab, dose calibrator checks).",
+       "keyPoints": [
+        "Mo-99 T½ 66 h",
+        "Elute pertechnetate",
+        "MDP bone; MAG3 renal; DMSA cortex",
+        "MAA lung perfusion",
+        "Sestamibi: myocardium, parathyroid",
+        "Mo breakthrough QC"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "One becquerel equals:",
+       "options": [
+        "1 curie",
+        "1 disintegration per minute",
+        "1 disintegration per second",
+        "1 gray",
+        "37 MBq"
+       ],
+       "answerIndex": 2,
+       "explanation": "1 mCi = 37 MBq."
+      },
+      {
+       "stem": "The effective half-life is related to physical and biological half-lives by:",
+       "options": [
+        "1/Teff = 1/Tp + 1/Tb",
+        "Teff = Tb only",
+        "Teff = Tp − Tb",
+        "Teff = Tp × Tb",
+        "Teff = Tp + Tb"
+       ],
+       "answerIndex": 0,
+       "explanation": "Effective half-life is always shorter than either."
+      },
+      {
+       "stem": "Technetium-99m has a half-life of about:",
+       "options": [
+        "6 minutes",
+        "6 hours",
+        "66 hours",
+        "8 days",
+        "110 minutes"
+       ],
+       "answerIndex": 1,
+       "explanation": "Ideal for diagnostic imaging."
+      },
+      {
+       "stem": "Tc-99m is obtained in hospitals from a:",
+       "options": [
+        "Cyclotron",
+        "Linear accelerator",
+        "Nuclear reactor on site",
+        "X-ray tube",
+        "Molybdenum-99 generator"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is eluted as pertechnetate."
+      },
+      {
+       "stem": "Bone scintigraphy uses Tc-99m labelled:",
+       "options": [
+        "DMSA",
+        "Sulfur colloid",
+        "MDP",
+        "MAA",
+        "Sestamibi"
+       ],
+       "answerIndex": 2,
+       "explanation": "Methylene diphosphonate binds to bone mineral."
+      },
+      {
+       "stem": "Renal cortical scarring in children is assessed with Tc-99m:",
+       "options": [
+        "MAG3",
+        "MDP",
+        "HMPAO",
+        "DMSA",
+        "MAA"
+       ],
+       "answerIndex": 3,
+       "explanation": "DMSA binds to the renal cortex."
+      },
+      {
+       "stem": "Lung perfusion scans use Tc-99m labelled:",
+       "options": [
+        "DTPA",
+        "Sestamibi",
+        "Pertechnetate only",
+        "Macroaggregated albumin (MAA)",
+        "MDP"
+       ],
+       "answerIndex": 3,
+       "explanation": "Particles lodge in pulmonary capillaries."
+      },
+      {
+       "stem": "Molybdenum breakthrough testing checks for:",
+       "options": [
+        "Radiochemical purity",
+        "Pyrogens",
+        "Sterility",
+        "Mo-99 contamination in the Tc-99m eluate",
+        "Aluminium"
+       ],
+       "answerIndex": 3,
+       "explanation": "Excess Mo-99 increases patient dose."
+      }
+     ]
+    },
+    {
+     "title": "Nuclear Medicine Imaging Procedures",
+     "order": 2,
+     "summary": "Bone, renal, thyroid, cardiac, lung and PET studies: indications, preparation and interpretation.",
+     "material": [
+      {
+       "heading": "Common studies",
+       "body": "Bone scan (Tc-99m MDP, images at 2–4 hours; hydration and voiding): detects metastases (breast, prostate — very common indication in Nigeria), osteomyelitis (three-phase scan), stress fractures and Paget's disease; a 'superscan' shows diffuse uptake with absent renal activity (widespread metastases). Renography: MAG3/DTPA with furosemide diuresis assesses obstruction (e.g. pelviureteric junction obstruction) and split renal function; DMSA for scarring. Thyroid scan (pertechnetate or I-123): hot (hyperfunctioning) versus cold nodules (cold nodules need FNAC), Graves' disease (diffuse increased uptake) versus thyroiditis (reduced uptake); patients stop thyroid medication and avoid iodine contrast beforehand. Myocardial perfusion imaging (sestamibi at stress and rest): reversible defects indicate ischaemia; fixed defects indicate infarction. Lung V/Q scanning for pulmonary embolism (mismatched perfusion defects), especially when CT contrast is contraindicated or in pregnancy. Gastrointestinal bleeding (labelled red cells) and Meckel's diverticulum (pertechnetate) studies.",
+       "keyPoints": [
+        "Bone scan: metastases; superscan",
+        "Three-phase for osteomyelitis",
+        "Diuretic renography: obstruction",
+        "Cold thyroid nodule → FNAC",
+        "Reversible defect: ischaemia",
+        "V/Q mismatch: PE"
+       ]
+      },
+      {
+       "heading": "PET and patient care",
+       "body": "PET/CT with F-18 FDG images glucose metabolism: staging and restaging of cancers (lymphoma, lung, colorectal, head and neck, melanoma), assessing treatment response, finding occult primaries and infection/inflammation. Patient preparation: fast 4–6 hours, blood glucose ideally < 11 mmol/L (hyperglycaemia reduces tumour uptake), avoid strenuous exercise for 24 hours, rest quietly after injection (uptake period about 60 minutes) to avoid muscle uptake, keep warm to reduce brown fat uptake. Physiological FDG uptake: brain, heart (variable), kidneys and bladder, bowel, and brown fat. Other PET tracers: Ga-68 PSMA (prostate cancer), Ga-68 DOTATATE (neuroendocrine tumours). Radiation protection for patients: pregnancy screening, breastfeeding advice (interrupt for some agents), minimise dose (justification, optimisation), and advice to minimise close contact with children after some procedures. Nigeria has a small number of nuclear medicine centres (e.g. UCH Ibadan, LUTH, NHA Abuja) and limited PET/CT capacity.",
+       "keyPoints": [
+        "FDG: glucose metabolism",
+        "Fast 4–6 h; glucose < 11",
+        "Rest quietly; keep warm",
+        "Physiological uptake sites",
+        "Ga-68 PSMA and DOTATATE",
+        "Pregnancy and breastfeeding advice"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A bone scan showing intense diffuse skeletal uptake with absent kidneys ('superscan') suggests:",
+       "options": [
+        "Normal study",
+        "Widespread bone metastases or metabolic bone disease",
+        "Renal failure only",
+        "Osteoporosis",
+        "Fracture of one bone"
+       ],
+       "answerIndex": 1,
+       "explanation": "Bone takes up nearly all tracer."
+      },
+      {
+       "stem": "A three-phase bone scan is particularly useful for diagnosing:",
+       "options": [
+        "Pulmonary embolism",
+        "Osteomyelitis",
+        "Myocardial infarction",
+        "Renal obstruction",
+        "Hyperthyroidism"
+       ],
+       "answerIndex": 1,
+       "explanation": "It shows flow, blood pool and delayed uptake."
+      },
+      {
+       "stem": "Diuretic renography with furosemide is used to assess:",
+       "options": [
+        "Thyroid nodules",
+        "Renal scarring",
+        "Urinary tract obstruction",
+        "Lung perfusion",
+        "Bone metastases"
+       ],
+       "answerIndex": 2,
+       "explanation": "Retained tracer after diuretic suggests obstruction."
+      },
+      {
+       "stem": "A 'cold' thyroid nodule on scintigraphy should be:",
+       "options": [
+        "Evaluated with FNAC because it carries a higher malignancy risk",
+        "Considered hyperfunctioning",
+        "Ignored",
+        "Treated with iodine",
+        "Removed without investigation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Most hot nodules are benign."
+      },
+      {
+       "stem": "In myocardial perfusion imaging, a defect present at stress but not at rest indicates:",
+       "options": [
+        "Infarction",
+        "Normal heart",
+        "Reversible ischaemia",
+        "Pericarditis",
+        "Artefact always"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fixed defects indicate scar."
+      },
+      {
+       "stem": "Before an FDG PET scan, patients should:",
+       "options": [
+        "Take sugary drinks",
+        "Fast for 4–6 hours and avoid strenuous exercise",
+        "Eat a large meal",
+        "Exercise vigorously",
+        "Drink alcohol"
+       ],
+       "answerIndex": 1,
+       "explanation": "This optimises tumour-to-background uptake."
+      },
+      {
+       "stem": "High blood glucose before FDG PET:",
+       "options": [
+        "Causes contrast reaction",
+        "Improves tumour uptake",
+        "Reduces tumour FDG uptake",
+        "Has no effect",
+        "Increases brain uptake only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Glucose competes with FDG."
+      },
+      {
+       "stem": "The PET tracer used for imaging prostate cancer is:",
+       "options": [
+        "I-131",
+        "F-18 FDG only",
+        "Ga-68 PSMA",
+        "Tc-99m MDP",
+        "Tl-201"
+       ],
+       "answerIndex": 2,
+       "explanation": "It targets prostate-specific membrane antigen."
+      }
+     ]
+    },
+    {
+     "title": "Radionuclide Therapy",
+     "order": 3,
+     "summary": "Radioiodine therapy, other therapeutic radionuclides, patient preparation and radiation protection.",
+     "material": [
+      {
+       "heading": "Radioiodine",
+       "body": "Iodine-131 (T½ about 8 days; beta emitter for therapy with gamma emissions for imaging) is concentrated by the thyroid via the sodium–iodide symporter. Uses: hyperthyroidism (Graves' disease, toxic nodular goitre — about 200–600 MBq; may cause hypothyroidism requiring levothyroxine; may worsen Graves' ophthalmopathy — steroid cover) and differentiated thyroid cancer (ablation of thyroid remnant and treatment of metastases after total thyroidectomy — 1.1–5.5 GBq or more, with TSH stimulation by withdrawal of thyroxine or recombinant TSH, and a low-iodine diet). Contraindications: pregnancy and breastfeeding (must stop breastfeeding completely for the current child); women should avoid pregnancy for 6 months and men should avoid fathering children for about 4 months afterwards. Radiation protection after treatment: isolation in shielded rooms for high-dose therapy until activity falls below release limits, separate toilets, flushing twice, avoiding close contact with children and pregnant women for specified periods, and handling of contaminated waste and linen.",
+       "keyPoints": [
+        "I-131: T½ 8 days, beta + gamma",
+        "Hyperthyroidism: hypothyroidism risk",
+        "Thyroid cancer ablation with TSH stimulation",
+        "Low-iodine diet",
+        "No pregnancy or breastfeeding",
+        "Isolation and contact restrictions"
+       ]
+      },
+      {
+       "heading": "Other therapies",
+       "body": "Other radionuclide therapies (theranostics — using a diagnostic analogue to select patients for therapy): lutetium-177 PSMA (metastatic castration-resistant prostate cancer), lutetium-177 DOTATATE (neuroendocrine tumours), radium-223 (alpha emitter for bone metastases from prostate cancer — improves survival), strontium-89 and samarium-153 (bone pain palliation), iodine-131 MIBG (neuroblastoma, phaeochromocytoma), yttrium-90 microspheres (selective internal radiation therapy for liver tumours), and radiosynovectomy for chronic synovitis. Side effects: myelosuppression, xerostomia (salivary uptake), nausea, and renal toxicity (with some agents). Staff protection: time, distance and shielding; personal dosimetry; handling in shielded syringes; spill procedures; and waste storage for decay. Therapies require licensing by the Nigerian Nuclear Regulatory Authority (NNRA).",
+       "keyPoints": [
+        "Theranostics",
+        "Lu-177 PSMA and DOTATATE",
+        "Ra-223: alpha, prostate bone mets",
+        "Sr-89/Sm-153: bone pain",
+        "Y-90 SIRT for liver",
+        "Time, distance, shielding"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Iodine-131 has a physical half-life of about:",
+       "options": [
+        "6 hours",
+        "8 days",
+        "66 hours",
+        "30 years",
+        "2 minutes"
+       ],
+       "answerIndex": 1,
+       "explanation": "It emits beta and gamma radiation."
+      },
+      {
+       "stem": "A common long-term consequence of radioiodine therapy for Graves' disease is:",
+       "options": [
+        "Hypothyroidism",
+        "Hyperparathyroidism",
+        "Diabetes",
+        "Hypertension",
+        "Thyroid cancer"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lifelong levothyroxine may be needed."
+      },
+      {
+       "stem": "Radioiodine therapy is absolutely contraindicated in:",
+       "options": [
+        "Pregnancy and breastfeeding",
+        "Elderly patients",
+        "Patients with goitre",
+        "Diabetics",
+        "Men"
+       ],
+       "answerIndex": 0,
+       "explanation": "It destroys the fetal thyroid."
+      },
+      {
+       "stem": "Before radioiodine ablation for thyroid cancer, patients follow a:",
+       "options": [
+        "High-iodine diet",
+        "Low-iodine diet",
+        "High-salt diet",
+        "High-protein diet",
+        "Fasting for a week"
+       ],
+       "answerIndex": 1,
+       "explanation": "It increases uptake of I-131."
+      },
+      {
+       "stem": "Radium-223 used for prostate cancer bone metastases is an emitter of:",
+       "options": [
+        "Positrons",
+        "Alpha particles",
+        "X-rays",
+        "Neutrons",
+        "Gamma rays only"
+       ],
+       "answerIndex": 1,
+       "explanation": "High LET, short range."
+      },
+      {
+       "stem": "Using a diagnostic radiotracer to select patients for therapy with a related therapeutic agent is called:",
+       "options": [
+        "Theranostics",
+        "Fluoroscopy",
+        "Radiography",
+        "Teletherapy",
+        "Brachytherapy"
+       ],
+       "answerIndex": 0,
+       "explanation": "E.g. Ga-68 PSMA then Lu-177 PSMA."
+      },
+      {
+       "stem": "Yttrium-90 microspheres are used to treat:",
+       "options": [
+        "Thyroid cancer",
+        "Bone pain only",
+        "Brain tumours",
+        "Liver tumours (SIRT)",
+        "Lung cancer directly"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are delivered through the hepatic artery."
+      },
+      {
+       "stem": "The three principles of external radiation protection are:",
+       "options": [
+        "Lead, water and air",
+        "Mass, volume and density",
+        "Time, distance and shielding",
+        "Speed, accuracy and dose",
+        "Fast, cold and dry"
+       ],
+       "answerIndex": 2,
+       "explanation": "Minimise time, maximise distance, use shielding."
+      }
+     ]
+    },
+    {
+     "title": "Principles of Radiotherapy",
+     "order": 4,
+     "summary": "Radiobiology, fractionation, external beam equipment, brachytherapy and treatment planning.",
+     "material": [
+      {
+       "heading": "Radiobiology",
+       "body": "Radiotherapy uses ionising radiation to kill cancer cells mainly by DNA damage (double-strand breaks) — directly or indirectly via free radicals from water (oxygen fixes the damage; hypoxic tumour cells are radioresistant — oxygen enhancement ratio). Dose is measured in gray (Gy = 1 J/kg). The 4 Rs of radiobiology explain fractionation (dividing the total dose into small daily fractions, e.g. 2 Gy per fraction, 5 days a week): Repair (normal tissues repair sublethal damage between fractions better than tumours), Repopulation (tumour regrowth during prolonged treatment — avoid unnecessary gaps), Redistribution (cells move into radiosensitive phases — G2/M), and Reoxygenation (hypoxic cells become oxygenated). A fifth R — radiosensitivity. The linear–quadratic model (α/β ratio: early-responding tissues and most tumours ~10 Gy; late-responding tissues ~3 Gy) guides fractionation; hypofractionation (fewer, larger fractions) is increasingly used (e.g. breast, prostate). Concurrent chemotherapy (cisplatin) sensitises tumours (e.g. cervical and head and neck cancers).",
+       "keyPoints": [
+        "DNA double-strand breaks",
+        "Hypoxia: radioresistance",
+        "Gray = 1 J/kg",
+        "4 Rs: repair, repopulation, redistribution, reoxygenation",
+        "α/β: tumours ~10, late tissues ~3",
+        "Chemoradiation"
+       ]
+      },
+      {
+       "heading": "Equipment and planning",
+       "body": "External beam radiotherapy (teletherapy): cobalt-60 units (gamma rays 1.17 and 1.33 MeV; T½ 5.3 years — simpler, still used in some Nigerian centres) and linear accelerators (LINACs — megavoltage X-rays 6–18 MV and electrons; skin-sparing effect due to dose build-up below the surface). Advanced techniques: 3D conformal radiotherapy, intensity-modulated radiotherapy (IMRT), volumetric modulated arc therapy (VMAT), image-guided radiotherapy (IGRT) and stereotactic radiosurgery. Treatment planning: immobilisation (thermoplastic masks, vacuum bags), CT simulation, target volumes (GTV — gross tumour; CTV — clinical target including microscopic spread; PTV — planning margin for set-up uncertainty), organs at risk with dose constraints, dose calculation and plan verification. Brachytherapy places sealed sources inside or near the tumour (high dose-rate iridium-192 for cervical cancer — intracavitary; prostate seeds). Nigeria has very few radiotherapy centres relative to need, with frequent machine downtime.",
+       "keyPoints": [
+        "Cobalt-60: 1.25 MeV average",
+        "LINAC: MV X-rays, skin sparing",
+        "IMRT, VMAT, IGRT",
+        "GTV → CTV → PTV",
+        "Immobilisation masks",
+        "Brachytherapy: Ir-192 HDR for cervix",
+        "Few centres in Nigeria"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main biological target of radiation-induced cell killing is:",
+       "options": [
+        "DNA",
+        "Cytoplasm",
+        "Cell membrane",
+        "Ribosomes",
+        "Mitochondria only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Double-strand breaks are lethal."
+      },
+      {
+       "stem": "Hypoxic tumour cells are:",
+       "options": [
+        "Radioresistant",
+        "Unaffected by oxygen",
+        "Always dead",
+        "Only in normal tissue",
+        "More radiosensitive"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oxygen fixes radiation damage."
+      },
+      {
+       "stem": "The unit of absorbed dose is the:",
+       "options": [
+        "Curie",
+        "Gray",
+        "Becquerel",
+        "Roentgen",
+        "Sievert"
+       ],
+       "answerIndex": 1,
+       "explanation": "1 Gy = 1 J/kg."
+      },
+      {
+       "stem": "Which is NOT one of the 4 Rs of radiobiology?",
+       "options": [
+        "Repopulation",
+        "Radiation hardening",
+        "Repair",
+        "Reoxygenation",
+        "Redistribution"
+       ],
+       "answerIndex": 1,
+       "explanation": "The fourth R is reoxygenation."
+      },
+      {
+       "stem": "Fractionation spares normal tissues mainly because they:",
+       "options": [
+        "Have no DNA",
+        "Are shielded completely",
+        "Have more oxygen always",
+        "Repair sublethal damage better between fractions",
+        "Do not absorb radiation"
+       ],
+       "answerIndex": 3,
+       "explanation": "This improves the therapeutic ratio."
+      },
+      {
+       "stem": "The planning target volume (PTV) includes the CTV plus a margin for:",
+       "options": [
+        "Set-up and motion uncertainties",
+        "Beam energy",
+        "Patient comfort",
+        "Normal organ size",
+        "Tumour growth"
+       ],
+       "answerIndex": 0,
+       "explanation": "It ensures the CTV receives the dose."
+      },
+      {
+       "stem": "Megavoltage X-ray beams from linear accelerators produce:",
+       "options": [
+        "No dose in tissue",
+        "Skin sparing because maximum dose occurs below the surface",
+        "Only gamma rays",
+        "Only electrons",
+        "Maximum dose at the skin surface"
+       ],
+       "answerIndex": 1,
+       "explanation": "Dose build-up occurs in the first cm or so."
+      },
+      {
+       "stem": "High dose-rate intracavitary brachytherapy for cervical cancer commonly uses:",
+       "options": [
+        "Fluorine-18",
+        "Cobalt-60 teletherapy",
+        "Iodine-131",
+        "Technetium-99m",
+        "Iridium-192 sources"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sources are placed near the tumour."
+      }
+     ]
+    },
+    {
+     "title": "Radiotherapy Practice and Side Effects",
+     "order": 5,
+     "summary": "Treatment delivery, verification, acute and late toxicities, patient care and safety.",
+     "material": [
+      {
+       "heading": "Delivery and verification",
+       "body": "Therapy radiographers deliver radiotherapy accurately and safely: patient identification, consent and pregnancy checks, reproducible positioning using immobilisation devices, skin marks or tattoos and lasers, image guidance (portal imaging, cone-beam CT) to verify position before treatment, delivery of the prescribed fractions, and monitoring the patient's condition and side effects. Errors (wrong patient, wrong site, wrong dose — e.g. historical overdose incidents worldwide) are prevented through independent checks, record-and-verify systems, in vivo dosimetry, machine quality assurance (daily output checks, mechanical and safety interlocks) and incident reporting. The radiotherapy bunker has thick concrete walls (primary and secondary barriers), a maze, door interlocks and warning lights; no one other than the patient is in the room during treatment. Patient communication and psychological support are essential — radiotherapy is often misunderstood (fear of burns or becoming radioactive — external beam patients are not radioactive).",
+       "keyPoints": [
+        "ID, consent, pregnancy checks",
+        "Immobilisation, tattoos, lasers",
+        "Image guidance: CBCT",
+        "Record-and-verify systems",
+        "Bunker interlocks",
+        "External beam patients not radioactive"
+       ]
+      },
+      {
+       "heading": "Side effects",
+       "body": "Side effects depend on site, dose and fractionation. Acute effects (during and a few weeks after treatment, rapidly dividing tissues): fatigue, skin reactions (erythema, dry and moist desquamation — keep the area clean and dry, gentle washing, avoid perfumed products, tight clothing, sun exposure and adhesive tapes; moisturisers as advised), mucositis (head and neck — oral care, analgesia, nutrition), diarrhoea (pelvic and abdominal RT), cystitis, nausea, and myelosuppression. Late effects (months to years, slowly dividing tissues; often irreversible): fibrosis, lymphoedema, xerostomia and dental caries (head and neck — dental assessment before RT; fluoride), osteoradionecrosis, radiation proctitis and cystitis, vaginal stenosis (dilators), infertility, cataract, pneumonitis/fibrosis, cardiac toxicity, hypothyroidism and second malignancies. Palliative radiotherapy (e.g. 8 Gy single fraction for painful bone metastases, whole-brain RT, haemostatic RT for bleeding tumours, spinal cord compression) relieves symptoms effectively. Nutrition and weight monitoring, smoking cessation and follow-up improve outcomes.",
+       "keyPoints": [
+        "Acute vs late effects",
+        "Skin care: gentle, dry, no perfumes",
+        "Mucositis and xerostomia",
+        "Dental assessment pre-RT",
+        "Late: fibrosis, ORN, second cancers",
+        "Palliative 8 Gy single fraction"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Before each radiotherapy session, patient position is commonly verified using:",
+       "options": [
+        "Asking the patient only",
+        "Image guidance such as portal imaging or cone-beam CT",
+        "Blood tests",
+        "Ultrasound of the heart",
+        "Weighing the patient"
+       ],
+       "answerIndex": 1,
+       "explanation": "It ensures accurate targeting."
+      },
+      {
+       "stem": "Patients receiving external beam radiotherapy:",
+       "options": [
+        "Need lead aprons at home",
+        "Must be isolated for weeks",
+        "Are not radioactive and are safe for family contact",
+        "Emit gamma rays for a month",
+        "Become radioactive"
+       ],
+       "answerIndex": 2,
+       "explanation": "This misconception causes needless fear."
+      },
+      {
+       "stem": "Skin care advice during radiotherapy includes:",
+       "options": [
+        "Scrubbing the treated area",
+        "Gentle washing, keeping the area dry and avoiding adhesive tapes",
+        "Applying perfumed lotions",
+        "Sunbathing",
+        "Hot water bottles"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reduces skin reactions."
+      },
+      {
+       "stem": "An acute side effect of head and neck radiotherapy is:",
+       "options": [
+        "Cataract",
+        "Oral mucositis",
+        "Osteoradionecrosis",
+        "Fibrosis",
+        "Second cancer"
+       ],
+       "answerIndex": 1,
+       "explanation": "Late effects develop months to years later."
+      },
+      {
+       "stem": "A late effect of head and neck radiotherapy is:",
+       "options": [
+        "Erythema",
+        "Nausea",
+        "Fatigue only",
+        "Mucositis",
+        "Xerostomia and radiation caries"
+       ],
+       "answerIndex": 4,
+       "explanation": "Dental care is essential before and after RT."
+      },
+      {
+       "stem": "Painful bone metastases are commonly palliated with:",
+       "options": [
+        "Surgery only",
+        "60 Gy in 30 fractions",
+        "A single fraction of 8 Gy",
+        "No radiotherapy",
+        "Chemotherapy only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Single fractions are effective and convenient."
+      },
+      {
+       "stem": "Vaginal stenosis after pelvic radiotherapy is reduced by:",
+       "options": [
+        "Bed rest",
+        "Use of vaginal dilators",
+        "Avoiding follow-up",
+        "Increasing dose",
+        "Antibiotics"
+       ],
+       "answerIndex": 1,
+       "explanation": "They maintain vaginal patency."
+      },
+      {
+       "stem": "Record-and-verify systems in radiotherapy help to:",
+       "options": [
+        "Increase dose",
+        "Replace radiographers",
+        "Prevent treatment delivery errors",
+        "Improve imaging contrast",
+        "Store patient bills"
+       ],
+       "answerIndex": 2,
+       "explanation": "They check parameters before each beam."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

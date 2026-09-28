@@ -1,0 +1,670 @@
+{
+ "courses": [
+  {
+   "title": "Internal Medicine IV: Neurology, Haematology and Rheumatology",
+   "code": "MED603",
+   "color": "#DC2626",
+   "description": "Stroke, epilepsy, headache and neuropathies; anaemia, sickle cell disease and haematological malignancies; and arthritis and connective tissue diseases.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Haematology"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Stroke",
+     "order": 1,
+     "summary": "Types, risk factors, acute assessment and management, and secondary prevention.",
+     "material": [
+      {
+       "heading": "Presentation and assessment",
+       "body": "Stroke is a sudden focal (sometimes global) neurological deficit of vascular origin lasting > 24 hours or causing death; a transient ischaemic attack (TIA) resolves within 24 hours (usually within an hour) with no infarction — a warning sign. In Nigeria, stroke patients are relatively young and haemorrhagic stroke is more common (about 30–40%) than in high-income countries; hypertension is the dominant risk factor, followed by diabetes, dyslipidaemia, smoking, atrial fibrillation, sickle cell disease (in children) and HIV. Recognition: FAST (Face, Arm, Speech, Time). Non-contrast CT brain is urgent to distinguish haemorrhage from infarction (infarcts may not be visible early). Assessment includes glucose (exclude hypoglycaemia), ECG, BP, swallow screen and NIHSS score. Clinical localisation: middle cerebral artery (contralateral face/arm weakness, aphasia if dominant, neglect if non-dominant), anterior cerebral (leg), posterior circulation (vertigo, ataxia, diplopia, crossed signs), lacunar (pure motor or sensory).",
+       "keyPoints": [
+        "TIA < 24 h",
+        "Nigeria: younger, more haemorrhagic",
+        "Hypertension dominant",
+        "FAST",
+        "CT first to exclude haemorrhage",
+        "MCA: face/arm, aphasia"
+       ]
+      },
+      {
+       "heading": "Management",
+       "body": "Ischaemic stroke: thrombolysis with IV alteplase or tenecteplase within 4.5 hours of onset in eligible patients (after excluding haemorrhage; limited availability in Nigeria), mechanical thrombectomy for large-vessel occlusion (few centres), aspirin 300 mg within 24–48 hours if not thrombolysed (after CT), stroke unit care, swallow assessment, DVT prevention, early mobilisation and rehabilitation. Blood pressure: avoid aggressive lowering in ischaemic stroke unless > 220/120 (or > 185/110 before thrombolysis). Intracerebral haemorrhage: lower systolic BP to about 140 mmHg, reverse anticoagulation, neurosurgical referral for cerebellar haemorrhage or hydrocephalus. Subarachnoid haemorrhage: sudden 'thunderclap' headache; CT then lumbar puncture (xanthochromia) if negative; nimodipine; aneurysm coiling or clipping. Secondary prevention: antiplatelets (aspirin, clopidogrel), statins, BP control, anticoagulation for AF, carotid endarterectomy for significant symptomatic stenosis, and lifestyle change.",
+       "keyPoints": [
+        "Thrombolysis within 4.5 h",
+        "Aspirin 300 mg after CT",
+        "Don't lower BP aggressively in ischaemic stroke",
+        "ICH: SBP ~140",
+        "SAH: thunderclap; nimodipine",
+        "Secondary prevention"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A transient ischaemic attack is defined by symptoms that resolve within:",
+       "options": [
+        "24 hours without infarction",
+        "Never",
+        "1 month",
+        "1 minute",
+        "7 days"
+       ],
+       "answerIndex": 0,
+       "explanation": "Most resolve within an hour."
+      },
+      {
+       "stem": "The first imaging test for acute stroke is:",
+       "options": [
+        "Chest X-ray",
+        "Echocardiography",
+        "MRI spine",
+        "Non-contrast CT brain",
+        "Carotid Doppler"
+       ],
+       "answerIndex": 3,
+       "explanation": "It excludes haemorrhage."
+      },
+      {
+       "stem": "Compared with high-income countries, stroke in Nigeria is:",
+       "options": [
+        "Always embolic",
+        "Mostly in the very elderly",
+        "Often in younger people with more haemorrhagic strokes",
+        "Uncommon",
+        "Rarely due to hypertension"
+       ],
+       "answerIndex": 2,
+       "explanation": "Uncontrolled hypertension drives this pattern."
+      },
+      {
+       "stem": "IV thrombolysis for ischaemic stroke is given within:",
+       "options": [
+        "24 hours",
+        "1 week",
+        "Any time",
+        "72 hours",
+        "4.5 hours of onset"
+       ],
+       "answerIndex": 4,
+       "explanation": "Time is brain."
+      },
+      {
+       "stem": "Right arm and face weakness with expressive aphasia suggests occlusion of the:",
+       "options": [
+        "Posterior cerebral artery",
+        "Basilar artery",
+        "Left middle cerebral artery",
+        "Right anterior cerebral artery",
+        "Right MCA"
+       ],
+       "answerIndex": 2,
+       "explanation": "The left hemisphere is usually dominant for language."
+      },
+      {
+       "stem": "A sudden severe 'thunderclap' headache suggests:",
+       "options": [
+        "Cluster headache",
+        "Subarachnoid haemorrhage",
+        "Migraine",
+        "Sinusitis",
+        "Tension headache"
+       ],
+       "answerIndex": 1,
+       "explanation": "It needs urgent CT."
+      },
+      {
+       "stem": "The drug used to prevent vasospasm after subarachnoid haemorrhage is:",
+       "options": [
+        "Amlodipine",
+        "Mannitol",
+        "Aspirin",
+        "Nimodipine",
+        "Heparin"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves outcome."
+      },
+      {
+       "stem": "In a patient with stroke and atrial fibrillation, secondary prevention includes:",
+       "options": [
+        "Anticoagulation",
+        "Aspirin only",
+        "Antibiotics",
+        "No treatment",
+        "Beta-blocker only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Anticoagulation prevents cardioembolic strokes."
+      }
+     ]
+    },
+    {
+     "title": "Epilepsy, Headache and Neuromuscular Disease",
+     "order": 2,
+     "summary": "Seizure classification and management, headache syndromes, Parkinson's disease, neuropathy and myasthenia.",
+     "material": [
+      {
+       "heading": "Seizures and headache",
+       "body": "Epilepsy affects about 1% of Nigerians and carries stigma (myths of contagion or spiritual causes). Seizures are focal (with or without impaired awareness, may evolve to bilateral tonic–clonic) or generalised (tonic–clonic, absence, myoclonic, atonic). Causes in Nigeria include birth injury, febrile seizure complications, CNS infections (cerebral malaria, meningitis, neurocysticercosis), head trauma, stroke and tumours. Investigate with EEG and neuroimaging. Treatment: carbamazepine or lamotrigine for focal; valproate (not in women of childbearing potential), lamotrigine or levetiracetam for generalised; phenobarbital (affordable, WHO-recommended in resource-limited settings). Status epilepticus (seizure > 5 minutes or repeated without recovery): ABC, glucose, benzodiazepine (IV lorazepam or diazepam, buccal midazolam, rectal diazepam), repeat once, then phenytoin/levetiracetam/valproate/phenobarbital, then anaesthesia. Headache: tension-type (bilateral, band-like), migraine (unilateral, pulsating, with nausea, photophobia, aura; triptans; prophylaxis with propranolol, amitriptyline), cluster; red flags — thunderclap onset, fever and neck stiffness, papilloedema, new headache after 50, focal signs, immunosuppression.",
+       "keyPoints": [
+        "Epilepsy ~1%; stigma",
+        "Focal vs generalised",
+        "Status > 5 min: benzodiazepine first",
+        "Phenobarbital affordable",
+        "Migraine: triptans; propranolol prophylaxis",
+        "Headache red flags"
+       ]
+      },
+      {
+       "heading": "Movement and neuromuscular disorders",
+       "body": "Parkinson's disease: bradykinesia with rigidity, rest tremor or postural instability; levodopa–carbidopa is most effective. Peripheral neuropathy: diabetic (commonest), HIV and antiretroviral-related, alcohol, B12 deficiency, leprosy, isoniazid, and konzo (spastic paraparesis from cyanide exposure in poorly processed cassava) and tropical ataxic neuropathy. Guillain–Barré syndrome: ascending flaccid paralysis and areflexia after infection; monitor vital capacity; IV immunoglobulin or plasma exchange. Myasthenia gravis: fatigable weakness (ptosis, diplopia, bulbar and limb weakness) from acetylcholine-receptor antibodies; pyridostigmine, immunosuppression and thymectomy; myasthenic crisis needs ventilatory support. Spinal cord compression (metastases, TB — Pott's disease, trauma): back pain, leg weakness, sensory level and sphincter disturbance — urgent MRI and treatment. Motor neurone disease: mixed UMN and LMN signs without sensory loss.",
+       "keyPoints": [
+        "PD: levodopa",
+        "Diabetic neuropathy commonest",
+        "Konzo: cassava cyanide",
+        "GBS: IVIG or plasma exchange",
+        "Myasthenia: fatigable weakness; pyridostigmine",
+        "Cord compression: urgent MRI"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Status epilepticus is defined as a seizure lasting more than:",
+       "options": [
+        "30 seconds",
+        "5 minutes",
+        "1 hour",
+        "24 hours",
+        "1 minute"
+       ],
+       "answerIndex": 1,
+       "explanation": "Treatment should start by 5 minutes."
+      },
+      {
+       "stem": "The first-line drug for status epilepticus is a:",
+       "options": [
+        "Antibiotic",
+        "Beta-blocker",
+        "Benzodiazepine",
+        "Phenytoin infusion",
+        "Barbiturate anaesthetic"
+       ],
+       "answerIndex": 2,
+       "explanation": "E.g. lorazepam, diazepam or midazolam."
+      },
+      {
+       "stem": "An affordable anti-seizure medicine recommended by WHO for resource-limited settings is:",
+       "options": [
+        "Lacosamide",
+        "Brivaracetam",
+        "Cenobamate",
+        "Phenobarbital",
+        "Levetiracetam"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is effective and cheap."
+      },
+      {
+       "stem": "A unilateral pulsating headache with nausea and photophobia suggests:",
+       "options": [
+        "Brain tumour",
+        "Cluster headache",
+        "Sinusitis",
+        "Migraine",
+        "Tension-type headache"
+       ],
+       "answerIndex": 3,
+       "explanation": "Aura may precede it."
+      },
+      {
+       "stem": "A headache red flag requiring urgent investigation is:",
+       "options": [
+        "Mild stress headache",
+        "Headache after reading",
+        "Fever with neck stiffness",
+        "Headache relieved by paracetamol",
+        "Bilateral band-like pain"
+       ],
+       "answerIndex": 2,
+       "explanation": "It suggests meningitis."
+      },
+      {
+       "stem": "Fatigable ptosis and diplopia that worsen through the day suggest:",
+       "options": [
+        "Guillain–Barré syndrome",
+        "Parkinson's disease",
+        "Myasthenia gravis",
+        "Stroke",
+        "Bell's palsy"
+       ],
+       "answerIndex": 2,
+       "explanation": "Acetylcholine receptor antibodies are typical."
+      },
+      {
+       "stem": "Spastic paraparesis in communities eating poorly processed bitter cassava is called:",
+       "options": [
+        "Pellagra",
+        "Lathyrism",
+        "Konzo",
+        "Beriberi",
+        "Kuru"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is caused by cyanogenic compounds."
+      },
+      {
+       "stem": "Back pain with leg weakness, a sensory level and urinary retention requires:",
+       "options": [
+        "Urgent MRI for spinal cord compression",
+        "Antibiotics only",
+        "Observation for a month",
+        "Analgesics and discharge",
+        "Physiotherapy only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Delay leads to permanent paralysis."
+      }
+     ]
+    },
+    {
+     "title": "Anaemia and Sickle Cell Disease",
+     "order": 3,
+     "summary": "Classification of anaemia, common causes in Nigeria, and adult sickle cell disease care.",
+     "material": [
+      {
+       "heading": "Anaemia",
+       "body": "Anaemia (Hb < 13 g/dL men, < 12 non-pregnant women, < 11 pregnancy) is classified by MCV. Microcytic: iron deficiency (commonest — dietary, hookworm, menstrual and GI blood loss; low ferritin), thalassaemia trait, anaemia of chronic disease (sometimes). Normocytic: acute blood loss, chronic disease (HIV, TB, CKD, rheumatoid arthritis — ferritin normal/high), haemolysis, marrow failure. Macrocytic: vitamin B12 deficiency (pernicious anaemia, neurological signs — subacute combined degeneration), folate deficiency (pregnancy, haemolysis, poor diet), alcohol, liver disease, hypothyroidism, drugs (methotrexate, zidovudine). Haemolysis: raised reticulocytes, unconjugated bilirubin and LDH, low haptoglobin; causes include malaria, G6PD deficiency (oxidant drugs, fava beans), sickle cell disease, autoimmune haemolysis and transfusion reactions. Blood film is key. Treat the cause; oral iron (ferrous sulfate) for deficiency; transfuse only when necessary.",
+       "keyPoints": [
+        "Classify by MCV",
+        "Microcytic: iron deficiency (low ferritin)",
+        "Macrocytic: B12, folate",
+        "B12: neurological signs",
+        "Haemolysis: reticulocytes, LDH, low haptoglobin",
+        "G6PD: oxidant drugs"
+       ]
+      },
+      {
+       "heading": "Sickle cell disease in adults",
+       "body": "Nigeria has the largest number of people with sickle cell disease (HbSS, HbSC, HbS-β-thalassaemia). Survival into adulthood is increasing. Acute complications: vaso-occlusive painful crises (triggers — infection, dehydration, cold, stress; treat with prompt analgesia including opioids, fluids, oxygen if hypoxic), acute chest syndrome (new pulmonary infiltrate with chest pain, fever, hypoxia — leading cause of death; antibiotics, oxygen, incentive spirometry, transfusion), stroke, splenic or hepatic sequestration, aplastic crisis (parvovirus B19 — low reticulocytes), priapism, and infections (encapsulated organisms, Salmonella osteomyelitis). Chronic: avascular necrosis of the femoral head, leg ulcers, retinopathy (especially HbSC), nephropathy, pulmonary hypertension, gallstones and pregnancy complications. Hydroxyurea (hydroxycarbamide) increases HbF and reduces crises, acute chest syndrome and mortality — recommended widely; plus folic acid, malaria prophylaxis, vaccinations, penicillin prophylaxis in children, and genetic counselling. Haematopoietic stem cell transplantation (available in a few Nigerian centres) is curative.",
+       "keyPoints": [
+        "Painful crisis: analgesia, fluids",
+        "Acute chest syndrome: leading cause of death",
+        "Aplastic crisis: parvovirus B19",
+        "Avascular necrosis",
+        "Hydroxyurea ↑HbF",
+        "Stem cell transplant curative"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The commonest cause of microcytic anaemia is:",
+       "options": [
+        "Vitamin B12 deficiency",
+        "Haemolysis",
+        "Aplastic anaemia",
+        "Iron deficiency",
+        "Hypothyroidism"
+       ],
+       "answerIndex": 3,
+       "explanation": "Confirmed by low ferritin."
+      },
+      {
+       "stem": "Anaemia with neurological signs such as loss of vibration sense and ataxia suggests deficiency of:",
+       "options": [
+        "Vitamin C",
+        "Copper only",
+        "Vitamin B12",
+        "Folate only",
+        "Iron"
+       ],
+       "answerIndex": 2,
+       "explanation": "Subacute combined degeneration of the cord."
+      },
+      {
+       "stem": "Raised reticulocytes, unconjugated bilirubin and LDH with low haptoglobin indicate:",
+       "options": [
+        "Haemolysis",
+        "B12 deficiency",
+        "Iron deficiency",
+        "Chronic disease",
+        "Marrow failure"
+       ],
+       "answerIndex": 0,
+       "explanation": "Red cells are being destroyed."
+      },
+      {
+       "stem": "Haemolysis after taking primaquine or eating fava beans suggests:",
+       "options": [
+        "Sickle cell disease",
+        "Iron deficiency",
+        "Thalassaemia",
+        "G6PD deficiency",
+        "Hereditary spherocytosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Oxidant stress damages G6PD-deficient cells."
+      },
+      {
+       "stem": "The leading cause of death in adults with sickle cell disease is:",
+       "options": [
+        "Painful crisis",
+        "Leg ulcers",
+        "Gallstones",
+        "Acute chest syndrome",
+        "Priapism"
+       ],
+       "answerIndex": 3,
+       "explanation": "It needs urgent treatment."
+      },
+      {
+       "stem": "A sudden fall in haemoglobin with very low reticulocytes in a sickle cell patient suggests:",
+       "options": [
+        "Aplastic crisis due to parvovirus B19",
+        "Painful crisis",
+        "Sequestration crisis",
+        "Iron overload",
+        "Haemolytic crisis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Parvovirus suppresses erythropoiesis."
+      },
+      {
+       "stem": "Hydroxyurea benefits sickle cell patients mainly by:",
+       "options": [
+        "Removing the spleen",
+        "Replacing iron",
+        "Lowering blood pressure",
+        "Increasing fetal haemoglobin",
+        "Killing bacteria"
+       ],
+       "answerIndex": 3,
+       "explanation": "HbF inhibits sickling."
+      },
+      {
+       "stem": "The only widely available curative treatment for sickle cell disease is:",
+       "options": [
+        "Haematopoietic stem cell transplantation",
+        "Blood transfusion",
+        "Hydroxyurea",
+        "Folic acid",
+        "Penicillin"
+       ],
+       "answerIndex": 0,
+       "explanation": "Gene therapies are emerging."
+      }
+     ]
+    },
+    {
+     "title": "Haematological Malignancies and Bleeding Disorders",
+     "order": 4,
+     "summary": "Leukaemias, lymphomas, myeloma, and approach to bleeding and thrombosis.",
+     "material": [
+      {
+       "heading": "Haematological malignancies",
+       "body": "Acute leukaemias (AML, ALL) present with bone marrow failure — anaemia, infections, bleeding — plus blasts on the blood film and > 20% blasts in marrow; ALL is commonest in children and AML in adults; acute promyelocytic leukaemia (APL) causes DIC and is treated urgently with ATRA. Chronic myeloid leukaemia (BCR-ABL1 — Philadelphia chromosome): massive splenomegaly and high white cell count with left shift; imatinib (available in Nigeria through access programmes) transforms survival. Chronic lymphocytic leukaemia: elderly, lymphocytosis, smear cells. Lymphomas: Hodgkin (Reed–Sternberg cells, painless lymphadenopathy, B symptoms — fever, night sweats, weight loss) and non-Hodgkin (Burkitt lymphoma — jaw tumours in African children, EBV and malaria-associated, rapidly growing but highly chemosensitive; HIV-related lymphomas). Multiple myeloma (older adults, often black patients): bone pain and lytic lesions, anaemia, hypercalcaemia, renal impairment (CRAB), paraprotein on serum electrophoresis, Bence Jones proteinuria.",
+       "keyPoints": [
+        "Acute leukaemia: marrow failure, > 20% blasts",
+        "APL: DIC, ATRA",
+        "CML: imatinib",
+        "Hodgkin: Reed–Sternberg",
+        "Burkitt: jaw tumours, EBV",
+        "Myeloma: CRAB"
+       ]
+      },
+      {
+       "heading": "Bleeding and thrombosis",
+       "body": "Approach to bleeding: platelet-type bleeding (petechiae, mucosal bleeding — thrombocytopenia, ITP, platelet dysfunction, von Willebrand disease) versus coagulation-factor bleeding (deep haematomas, haemarthroses — haemophilia A (factor VIII) and B (factor IX), X-linked, prolonged APTT). Tests: platelet count, PT/INR (extrinsic — warfarin, liver disease, vitamin K deficiency), APTT (intrinsic — haemophilia, heparin), fibrinogen and D-dimer. Disseminated intravascular coagulation (sepsis, obstetric complications — abruption, amniotic fluid embolism; snakebite; APL): low platelets and fibrinogen, prolonged PT/APTT, high D-dimer; treat the cause and replace products. Venous thromboembolism (DVT and PE): risk factors include immobility, surgery, pregnancy and postpartum, cancer, oral contraceptives, and dehydration; Wells score and D-dimer guide testing (compression ultrasound, CTPA); treat with low-molecular-weight heparin then warfarin or a DOAC for at least 3 months. Warfarin overdose: vitamin K ± prothrombin complex concentrate or fresh frozen plasma; heparin: protamine.",
+       "keyPoints": [
+        "Platelet vs factor bleeding",
+        "Haemophilia: prolonged APTT",
+        "PT: warfarin, liver; APTT: heparin",
+        "DIC: low platelets and fibrinogen, high D-dimer",
+        "VTE: Wells + D-dimer",
+        "Warfarin reversal: vitamin K"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Acute leukaemia is diagnosed when bone marrow blasts exceed:",
+       "options": [
+        "5%",
+        "10%",
+        "20%",
+        "50%",
+        "80%"
+       ],
+       "answerIndex": 2,
+       "explanation": "WHO threshold for acute leukaemia."
+      },
+      {
+       "stem": "Acute promyelocytic leukaemia is a medical emergency mainly because of:",
+       "options": [
+        "Disseminated intravascular coagulation",
+        "Splenic rupture",
+        "Heart failure",
+        "Hypercalcaemia",
+        "Renal stones"
+       ],
+       "answerIndex": 0,
+       "explanation": "ATRA should be started immediately."
+      },
+      {
+       "stem": "Chronic myeloid leukaemia is treated with the tyrosine kinase inhibitor:",
+       "options": [
+        "Hydroxyurea only",
+        "Rituximab",
+        "Imatinib",
+        "ATRA",
+        "Cyclophosphamide"
+       ],
+       "answerIndex": 2,
+       "explanation": "It targets BCR-ABL1."
+      },
+      {
+       "stem": "Reed–Sternberg cells are characteristic of:",
+       "options": [
+        "Burkitt lymphoma",
+        "CLL",
+        "Myeloma",
+        "Hodgkin lymphoma",
+        "AML"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are large binucleate 'owl-eye' cells."
+      },
+      {
+       "stem": "Hypercalcaemia, renal impairment, anaemia and lytic bone lesions (CRAB) suggest:",
+       "options": [
+        "Hodgkin lymphoma",
+        "Haemophilia",
+        "CML",
+        "ITP",
+        "Multiple myeloma"
+       ],
+       "answerIndex": 4,
+       "explanation": "Paraprotein confirms the diagnosis."
+      },
+      {
+       "stem": "A boy with recurrent haemarthroses and prolonged APTT but normal platelets and PT most likely has:",
+       "options": [
+        "Haemophilia",
+        "Von Willebrand disease always",
+        "ITP",
+        "Vitamin K deficiency",
+        "DIC"
+       ],
+       "answerIndex": 0,
+       "explanation": "Factor VIII or IX deficiency."
+      },
+      {
+       "stem": "Low platelets and fibrinogen, prolonged PT/APTT and very high D-dimer after placental abruption indicate:",
+       "options": [
+        "ITP",
+        "Warfarin toxicity",
+        "Haemophilia",
+        "Iron deficiency",
+        "DIC"
+       ],
+       "answerIndex": 4,
+       "explanation": "Consumptive coagulopathy."
+      },
+      {
+       "stem": "The reversal agent for heparin is:",
+       "options": [
+        "Vitamin K",
+        "Tranexamic acid",
+        "Desmopressin",
+        "Protamine sulfate",
+        "Naloxone"
+       ],
+       "answerIndex": 3,
+       "explanation": "It neutralises heparin."
+      }
+     ]
+    },
+    {
+     "title": "Rheumatology",
+     "order": 5,
+     "summary": "Inflammatory arthritis, gout, SLE, and approach to joint pain.",
+     "material": [
+      {
+       "heading": "Arthritis",
+       "body": "Approach to joint pain: number of joints (mono-, oligo-, polyarthritis), inflammatory (morning stiffness > 30 minutes, swelling, improves with activity) versus mechanical, and systemic features. Acute monoarthritis: septic arthritis must be excluded by joint aspiration (Staphylococcus aureus commonest; gonococcal in young sexually active adults; Salmonella in sickle cell) — urgent antibiotics and washout; gout (monosodium urate crystals — negatively birefringent needles; first MTP joint, precipitated by alcohol, diuretics, purine-rich foods; treat acute attacks with NSAIDs, colchicine or steroids; long-term urate-lowering with allopurinol, not started during the attack traditionally, with colchicine cover); pseudogout (calcium pyrophosphate — positively birefringent rhomboids, knee in elderly). Rheumatoid arthritis: symmetrical small-joint polyarthritis, rheumatoid factor and anti-CCP, erosions; start disease-modifying drugs early (methotrexate with folic acid — monitor FBC and LFTs; hydroxychloroquine, sulfasalazine, leflunomide; biologics). Osteoarthritis is the commonest arthritis (knees in obese older women).",
+       "keyPoints": [
+        "Inflammatory vs mechanical",
+        "Aspirate hot swollen joint",
+        "Gout: negatively birefringent needles",
+        "Allopurinol for long-term gout",
+        "RA: early methotrexate",
+        "OA commonest"
+       ]
+      },
+      {
+       "heading": "Connective tissue disease",
+       "body": "Systemic lupus erythematosus (SLE — mostly young women, more severe in people of African descent): malar rash, photosensitivity, oral ulcers, arthritis, serositis, nephritis, cytopenias, neuropsychiatric features; ANA (sensitive), anti-dsDNA and anti-Smith (specific), low complement in active disease. Treatment: hydroxychloroquine for all, steroids, and immunosuppressants (mycophenolate, cyclophosphamide for lupus nephritis). Systemic sclerosis: skin thickening, Raynaud's phenomenon, interstitial lung disease, renal crisis. Vasculitides and polymyositis are less common. HIV is associated with reactive arthritis, psoriatic-type arthritis and other rheumatological problems. Reactive arthritis follows GI or genitourinary infection (arthritis, urethritis, conjunctivitis). Spondyloarthropathies (ankylosing spondylitis) are HLA-B27-associated and relatively rare in West Africans.",
+       "keyPoints": [
+        "SLE: ANA, anti-dsDNA, low complement",
+        "Hydroxychloroquine for all SLE",
+        "Lupus nephritis: mycophenolate/cyclophosphamide",
+        "Systemic sclerosis: Raynaud's",
+        "Reactive arthritis triad"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A hot, swollen single joint must first be evaluated to exclude:",
+       "options": [
+        "Osteoarthritis",
+        "Septic arthritis",
+        "Hypothyroidism",
+        "Fibromyalgia",
+        "Rheumatoid arthritis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aspirate the joint before antibiotics."
+      },
+      {
+       "stem": "Negatively birefringent needle-shaped crystals in synovial fluid indicate:",
+       "options": [
+        "Septic arthritis",
+        "Rheumatoid arthritis",
+        "Pseudogout",
+        "Osteoarthritis",
+        "Gout"
+       ],
+       "answerIndex": 4,
+       "explanation": "Monosodium urate crystals."
+      },
+      {
+       "stem": "The joint most commonly affected in acute gout is the:",
+       "options": [
+        "First metatarsophalangeal joint",
+        "Hip",
+        "Knee",
+        "Shoulder",
+        "Wrist"
+       ],
+       "answerIndex": 0,
+       "explanation": "Podagra."
+      },
+      {
+       "stem": "Long-term urate-lowering therapy for recurrent gout uses:",
+       "options": [
+        "Prednisolone long term",
+        "Aspirin",
+        "Allopurinol",
+        "Furosemide",
+        "Paracetamol"
+       ],
+       "answerIndex": 2,
+       "explanation": "It inhibits xanthine oxidase."
+      },
+      {
+       "stem": "The anchor disease-modifying drug for rheumatoid arthritis is:",
+       "options": [
+        "Ibuprofen",
+        "Methotrexate",
+        "Prednisolone alone",
+        "Allopurinol",
+        "Paracetamol"
+       ],
+       "answerIndex": 1,
+       "explanation": "Given with folic acid."
+      },
+      {
+       "stem": "The most specific antibody for SLE is:",
+       "options": [
+        "ASO",
+        "ANA",
+        "Anti-dsDNA (or anti-Smith)",
+        "ANCA",
+        "Rheumatoid factor"
+       ],
+       "answerIndex": 2,
+       "explanation": "ANA is sensitive but not specific."
+      },
+      {
+       "stem": "All patients with SLE should generally receive:",
+       "options": [
+        "Antibiotics",
+        "Hydroxychloroquine",
+        "Methotrexate",
+        "Warfarin",
+        "Allopurinol"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reduces flares and improves survival."
+      },
+      {
+       "stem": "Arthritis, urethritis and conjunctivitis after an infection suggest:",
+       "options": [
+        "Gout",
+        "Septic arthritis",
+        "SLE",
+        "Reactive arthritis",
+        "Osteoarthritis"
+       ],
+       "answerIndex": 3,
+       "explanation": "It follows GI or genitourinary infection."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

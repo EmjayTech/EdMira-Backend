@@ -1,0 +1,665 @@
+{
+ "courses": [
+  {
+   "title": "Rehabilitation Engineering and Prosthetics",
+   "code": "BME501",
+   "color": "#475569",
+   "description": "Biomechanics of human movement, design of prostheses and orthoses, wheelchairs and mobility devices, assistive technology for sensory and communication impairments, and medical device regulation.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Biomechanics of Human Movement",
+     "order": 1,
+     "summary": "Kinematics and kinetics, gait analysis, joint forces and tissue mechanics.",
+     "material": [
+      {
+       "heading": "Gait and motion",
+       "body": "Biomechanics applies mechanics to living systems. Kinematics describes motion (displacement, velocity, acceleration, joint angles) without considering forces; kinetics studies forces (ground reaction forces, joint moments, power). The gait cycle (heel strike to the next heel strike of the same foot) has a stance phase (~60% — initial contact, loading response, midstance, terminal stance, preswing) and swing phase (~40% — initial, mid and terminal swing), with double support periods; running removes double support and adds a flight phase. Gait analysis uses 3D motion capture (reflective markers and infrared cameras), force plates, electromyography and pressure mats; low-cost alternatives include video analysis and inertial measurement units (IMUs — accelerometers and gyroscopes) — practical in Nigeria. Temporal–spatial parameters: walking speed (a 'vital sign' of function), cadence, step and stride length. Energy cost of walking increases with amputation level (transfemoral > transtibial), guiding prosthetic design.",
+       "keyPoints": [
+        "Kinematics vs kinetics",
+        "Stance ~60%, swing ~40%",
+        "Double support; running flight phase",
+        "Motion capture, force plates, IMUs",
+        "Walking speed",
+        "Higher energy cost with higher amputation"
+       ]
+      },
+      {
+       "heading": "Joint forces and tissue mechanics",
+       "body": "Static equilibrium (ΣF = 0, ΣM = 0) and free-body diagrams calculate muscle and joint reaction forces; because muscles act with short moment arms, joint forces greatly exceed body weight (hip joint force about 2.5–3 times body weight in walking; more on stairs). A walking stick in the opposite hand reduces hip abductor force and joint load. Tissue mechanics: stress–strain behaviour of bone (anisotropic, stronger in compression than tension; Wolff's law — bone remodels according to loads; stress shielding by stiff implants causes bone loss), ligaments and tendons (viscoelastic — creep, stress relaxation, hysteresis; toe region of the stress–strain curve), cartilage (biphasic — load bearing by fluid pressurisation), and skin (pressure and shear cause pressure ulcers — interface pressure must be kept low in sockets and seating). Material choice for devices balances strength, stiffness, weight, fatigue resistance, biocompatibility and cost.",
+       "keyPoints": [
+        "ΣF = 0, ΣM = 0",
+        "Hip force 2.5–3× BW walking",
+        "Stick in opposite hand reduces hip load",
+        "Wolff's law; stress shielding",
+        "Viscoelasticity: creep, relaxation",
+        "Pressure and shear → ulcers"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The study of motion without reference to forces is:",
+       "options": [
+        "Dynamics of forces",
+        "Kinetics",
+        "Kinematics",
+        "Statics",
+        "Rheology"
+       ],
+       "answerIndex": 2,
+       "explanation": "Kinetics includes forces."
+      },
+      {
+       "stem": "In normal walking, the stance phase occupies about what percentage of the gait cycle?",
+       "options": [
+        "20%",
+        "40%",
+        "60%",
+        "80%",
+        "100%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Swing is about 40%."
+      },
+      {
+       "stem": "Running differs from walking in that it has:",
+       "options": [
+        "A double support phase",
+        "A flight phase with no foot on the ground",
+        "No swing phase",
+        "Longer stance",
+        "Slower cadence"
+       ],
+       "answerIndex": 1,
+       "explanation": "Double support disappears."
+      },
+      {
+       "stem": "Low-cost wearable sensors for gait analysis are called:",
+       "options": [
+        "MRI scanners",
+        "EMG needles",
+        "X-rays",
+        "Force plates",
+        "Inertial measurement units (accelerometers and gyroscopes)"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are practical in resource-limited settings."
+      },
+      {
+       "stem": "During walking, the hip joint reaction force is approximately:",
+       "options": [
+        "Zero",
+        "Equal to body weight",
+        "Ten times body weight always",
+        "Half body weight",
+        "2.5–3 times body weight"
+       ],
+       "answerIndex": 4,
+       "explanation": "Muscle forces add to body weight."
+      },
+      {
+       "stem": "Wolff's law states that bone:",
+       "options": [
+        "Remodels in response to the loads placed on it",
+        "Never changes",
+        "Is isotropic",
+        "Is stronger in tension",
+        "Is not living tissue"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stiff implants can cause stress shielding."
+      },
+      {
+       "stem": "Gradual deformation of a tendon under constant load is called:",
+       "options": [
+        "Creep",
+        "Yield",
+        "Fatigue",
+        "Hysteresis",
+        "Stress relaxation"
+       ],
+       "answerIndex": 0,
+       "explanation": "A viscoelastic property."
+      },
+      {
+       "stem": "Energy cost of walking with a prosthesis is highest after:",
+       "options": [
+        "Transtibial amputation",
+        "Transfemoral (above-knee) amputation",
+        "Syme amputation",
+        "Toe amputation",
+        "Partial foot amputation"
+       ],
+       "answerIndex": 1,
+       "explanation": "Loss of the knee joint increases energy demand."
+      }
+     ]
+    },
+    {
+     "title": "Lower Limb Prosthetics",
+     "order": 2,
+     "summary": "Socket design, suspension, knees and feet, alignment and low-cost prosthetic technology.",
+     "material": [
+      {
+       "heading": "Components",
+       "body": "A lower limb prosthesis includes the socket (interface with the residual limb — the most critical component for comfort), suspension, pylon (endoskeletal tube) or exoskeletal shell, knee unit (for transfemoral), and foot. Transtibial sockets: patellar tendon bearing (PTB — loads pressure-tolerant areas: patellar tendon, medial tibial flare, anterior compartment; relieves pressure-sensitive areas: tibial crest, fibular head, distal end) and total surface bearing (TSB — distributes load over the whole limb, often with silicone liners). Transfemoral sockets: quadrilateral (ischial seat) and ischial containment designs. Suspension: supracondylar cuff straps, silicone liners with pins (shuttle locks), suction and vacuum systems. Knees: single-axis (simple, cheap), polycentric (stability, shorter limb in swing), weight-activated stance-control ('safety knee'), pneumatic/hydraulic swing control, and microprocessor knees (expensive). Feet: SACH (solid ankle cushion heel — cheap, durable, widely used in Africa), single-axis, multiaxial and dynamic response (energy-storing carbon fibre) feet.",
+       "keyPoints": [
+        "Socket: most critical",
+        "PTB: load patellar tendon, relieve fibular head",
+        "TSB with silicone liners",
+        "Ischial containment",
+        "Suspension: pin lock, suction",
+        "SACH foot: cheap, durable"
+       ]
+      },
+      {
+       "heading": "Alignment and appropriate technology",
+       "body": "Bench, static and dynamic alignment position the socket relative to the knee and foot to achieve stability and efficient gait; misalignment causes gait deviations (e.g. excessive knee flexion, lateral trunk lean, circumduction, vaulting) and skin problems. Prosthetic fitting follows healing and residual limb shaping; volume changes over the first months require socket adjustments or replacements. Appropriate technology for low-resource settings: ICRC polypropylene technology (thermoformed sockets and components — durable, affordable, locally manufactured), the Jaipur foot (natural-looking, allows squatting and barefoot walking — culturally appropriate in many African and Asian settings), 3D-scanned and 3D-printed sockets, and local production of components to reduce costs. Challenges in Nigeria: few prosthetists and orthotists (training at institutions such as the Federal College of Orthopaedic Technology, Igbobi), imported component costs, and follow-up for repairs. Upper limb prostheses: body-powered (cable and harness — durable, affordable, give proprioceptive feedback) and myoelectric (EMG-controlled — better cosmesis and grip, costly, need charging).",
+       "keyPoints": [
+        "Bench, static, dynamic alignment",
+        "Gait deviations from misalignment",
+        "Residual limb volume changes",
+        "ICRC polypropylene technology",
+        "Jaipur foot",
+        "Body-powered vs myoelectric"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most critical component for comfort in a lower limb prosthesis is the:",
+       "options": [
+        "Pylon",
+        "Cosmetic cover",
+        "Knee",
+        "Foot",
+        "Socket"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is the interface with the residual limb."
+      },
+      {
+       "stem": "In a patellar tendon bearing socket, pressure should be relieved over the:",
+       "options": [
+        "Popliteal area only",
+        "Medial tibial flare",
+        "Fibular head and tibial crest",
+        "Anterior compartment muscles",
+        "Patellar tendon"
+       ],
+       "answerIndex": 2,
+       "explanation": "They are pressure-sensitive areas."
+      },
+      {
+       "stem": "A 'safety knee' provides stability by:",
+       "options": [
+        "Using a microprocessor always",
+        "Having no joint",
+        "Locking permanently",
+        "Hydraulic swing control",
+        "Resisting flexion when weight is applied in stance"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a weight-activated stance-control knee."
+      },
+      {
+       "stem": "The SACH foot is widely used in Africa because it is:",
+       "options": [
+        "Energy-storing carbon fibre",
+        "Microprocessor-controlled",
+        "Adjustable electronically",
+        "Made of titanium only",
+        "Simple, cheap and durable"
+       ],
+       "answerIndex": 4,
+       "explanation": "Solid Ankle Cushion Heel."
+      },
+      {
+       "stem": "The Jaipur foot is notable for allowing:",
+       "options": [
+        "Myoelectric control",
+        "Swimming",
+        "Computer control",
+        "Running at high speed",
+        "Squatting and barefoot walking"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is culturally appropriate in many settings."
+      },
+      {
+       "stem": "ICRC polypropylene technology is valued because it is:",
+       "options": [
+        "Only for upper limbs",
+        "Imported ready-made",
+        "Durable, affordable and locally manufacturable",
+        "Disposable",
+        "Very expensive"
+       ],
+       "answerIndex": 2,
+       "explanation": "It suits low-resource settings."
+      },
+      {
+       "stem": "Myoelectric upper limb prostheses are controlled by:",
+       "options": [
+        "EMG signals from residual muscles",
+        "Foot pedals",
+        "Eye movements",
+        "Voice commands",
+        "Shoulder harness cables"
+       ],
+       "answerIndex": 0,
+       "explanation": "They require batteries and are costly."
+      },
+      {
+       "stem": "An advantage of body-powered upper limb prostheses is:",
+       "options": [
+        "No harness needed",
+        "Automatic grip",
+        "No training needed",
+        "Durability, affordability and proprioceptive feedback",
+        "Best cosmesis"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are robust in rural settings."
+      }
+     ]
+    },
+    {
+     "title": "Orthoses and Seating",
+     "order": 3,
+     "summary": "Orthotic principles, common orthoses, wheelchair design, seating and pressure management.",
+     "material": [
+      {
+       "heading": "Orthoses",
+       "body": "Orthoses are externally applied devices that modify the structural and functional characteristics of the neuromuscular and skeletal systems — to support, align, prevent or correct deformity, protect, or improve function. They are named by the joints they cross: FO (foot orthosis), AFO (ankle–foot — foot drop, spasticity; rigid, hinged or posterior leaf spring), KAFO (knee–ankle–foot — quadriceps weakness, e.g. post-polio), HKAFO, TLSO (thoracolumbosacral — scoliosis, spinal fractures), CTO/cervical collars, WHO (wrist–hand — carpal tunnel, radial nerve palsy dynamic splints), and hand splints for burns. Biomechanical principle: the three-point pressure system (one force opposed by two counter-forces) controls joint motion; larger contact areas reduce pressure. Materials: thermoplastics (polypropylene — durable; low-temperature thermoplastics for quick splinting), metals, carbon composites and leather. Clubfoot braces (foot abduction orthosis) maintain Ponseti correction. Proper fitting avoids pressure sores, especially over insensate skin.",
+       "keyPoints": [
+        "Named by joints crossed",
+        "AFO: foot drop",
+        "KAFO: post-polio",
+        "TLSO: scoliosis",
+        "Three-point pressure system",
+        "Larger area → lower pressure"
+       ]
+      },
+      {
+       "heading": "Wheelchairs and seating",
+       "body": "Wheelchair components: frame (folding or rigid), seat and backrest, cushions, wheels (large rear wheels with hand rims for self-propulsion; castors), brakes and footrests. Measurements: seat width (hip width plus about 2–5 cm), seat depth (buttock to back of knee minus 2–5 cm), seat height and footrest height, backrest height depending on trunk control. Posture and seating: a stable pelvis (neutral, level) is the foundation of good posture; lateral supports, headrests and tilt-in-space support people with poor trunk control (e.g. severe cerebral palsy). Pressure management: users with spinal cord injury need pressure-relieving cushions (foam, air cells, gel) and regular pressure relief (push-ups or leaning every 15–30 minutes). WHO's eight-step wheelchair service (referral, assessment, prescription, funding, product preparation, fitting, user training, follow-up and maintenance). Rough terrain three-wheeled designs and locally manufactured wheelchairs suit rural Nigeria. Powered wheelchairs and scooters help those unable to self-propel.",
+       "keyPoints": [
+        "Seat width: hip + 2–5 cm",
+        "Seat depth: minus 2–5 cm",
+        "Stable pelvis foundation",
+        "Tilt-in-space for poor trunk control",
+        "Pressure relief every 15–30 min",
+        "WHO 8-step service"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An orthosis crossing the ankle and foot used for foot drop is an:",
+       "options": [
+        "AFO",
+        "KAFO",
+        "FO",
+        "TLSO",
+        "WHO"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ankle–foot orthosis."
+      },
+      {
+       "stem": "A knee–ankle–foot orthosis (KAFO) is commonly prescribed for:",
+       "options": [
+        "Tennis elbow",
+        "Quadriceps weakness such as in post-polio paralysis",
+        "Carpal tunnel syndrome",
+        "Flat foot only",
+        "Neck pain"
+       ],
+       "answerIndex": 1,
+       "explanation": "It stabilises the knee."
+      },
+      {
+       "stem": "Orthoses control joint motion mainly using:",
+       "options": [
+        "Heat",
+        "Electrical stimulation",
+        "Suction",
+        "A three-point pressure system",
+        "Magnets"
+       ],
+       "answerIndex": 3,
+       "explanation": "One force opposed by two counter-forces."
+      },
+      {
+       "stem": "To reduce skin pressure under an orthosis, designers should:",
+       "options": [
+        "Reduce contact area",
+        "Use sharp edges",
+        "Tighten straps excessively",
+        "Remove padding",
+        "Increase contact area"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pressure = force / area."
+      },
+      {
+       "stem": "A thoracolumbosacral orthosis (TLSO) is used for:",
+       "options": [
+        "Foot drop",
+        "Scoliosis and spinal fractures",
+        "Wrist drop",
+        "Knee instability",
+        "Clubfoot"
+       ],
+       "answerIndex": 1,
+       "explanation": "It supports the trunk."
+      },
+      {
+       "stem": "Wheelchair seat width should be approximately:",
+       "options": [
+        "Knee width",
+        "Shoulder width",
+        "Twice hip width",
+        "Hip width plus 2–5 cm",
+        "Exactly hip width"
+       ],
+       "answerIndex": 3,
+       "explanation": "Allows clearance without being too wide."
+      },
+      {
+       "stem": "Wheelchair users with spinal cord injury should perform pressure relief about every:",
+       "options": [
+        "15–30 minutes",
+        "Never",
+        "6 hours",
+        "Weekly",
+        "Once daily"
+       ],
+       "answerIndex": 0,
+       "explanation": "To prevent pressure ulcers."
+      },
+      {
+       "stem": "The foundation of good seated posture is:",
+       "options": [
+        "A high backrest",
+        "Soft cushion only",
+        "Large wheels",
+        "A stable, level pelvis",
+        "Tight straps on the chest"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pelvic position determines spine alignment."
+      }
+     ]
+    },
+    {
+     "title": "Assistive Technology for Sensory and Communication Impairments",
+     "order": 4,
+     "summary": "Hearing aids and cochlear implants, visual aids, AAC devices, and environmental control.",
+     "material": [
+      {
+       "heading": "Hearing and vision",
+       "body": "Hearing aids amplify sound: components — microphone, amplifier (digital signal processing — frequency shaping, compression, noise reduction, feedback cancellation), receiver and battery; types — behind-the-ear (robust, suitable for children and hot humid climates), in-the-ear and completely-in-canal. Fitting uses audiograms and prescriptive formulas. Cochlear implants bypass damaged hair cells by electrically stimulating the auditory nerve via an electrode array in the cochlea, with an external processor and transmitter coil — for severe to profound sensorineural loss (e.g. after meningitis); a small number of Nigerian centres perform implantation; cost and follow-up are barriers. Bone-anchored hearing aids suit conductive loss and chronic ear discharge. WHO promotes affordable, solar-rechargeable hearing aids. Visual assistive technologies: spectacles and low-vision aids (magnifiers, telescopes), screen readers and text-to-speech software, Braille displays, white canes, and smartphone apps (object recognition, navigation).",
+       "keyPoints": [
+        "Hearing aid: mic, amplifier, receiver",
+        "BTE robust for children",
+        "Cochlear implant: auditory nerve stimulation",
+        "Solar-rechargeable hearing aids",
+        "Screen readers, Braille",
+        "Low-vision magnifiers"
+       ]
+      },
+      {
+       "heading": "Communication and environmental control",
+       "body": "Augmentative and alternative communication (AAC) supports people who cannot rely on speech (cerebral palsy, autism, motor neurone disease, stroke with aphasia, laryngectomy): low-tech (picture boards, communication books), and high-tech speech-generating devices and tablet apps accessed by touch, switches (scanning), head pointers or eye-gaze tracking. Brain–computer interfaces translate EEG signals into commands for severely paralysed people (research stage). Environmental control systems allow users to operate lights, doors, fans, televisions and phones through switches, voice commands or apps — smart home technology increasingly lowers costs. Design principles: user-centred design (involving users and carers throughout), universal design (products usable by as many people as possible without adaptation), affordability, local repairability and cultural acceptability. Many devices are abandoned when they do not match users' needs, environments or priorities — careful assessment, training and follow-up reduce abandonment.",
+       "keyPoints": [
+        "AAC: low-tech and high-tech",
+        "Switch scanning, eye-gaze",
+        "Brain–computer interfaces",
+        "Environmental control systems",
+        "User-centred and universal design",
+        "Device abandonment"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A cochlear implant works by:",
+       "options": [
+        "Amplifying sound in the ear canal",
+        "Blocking noise",
+        "Electrically stimulating the auditory nerve via electrodes in the cochlea",
+        "Replacing the eardrum",
+        "Vibrating the skull"
+       ],
+       "answerIndex": 2,
+       "explanation": "It bypasses damaged hair cells."
+      },
+      {
+       "stem": "Cochlear implants are indicated mainly for:",
+       "options": [
+        "Severe to profound sensorineural hearing loss",
+        "Otitis externa",
+        "Earwax",
+        "Normal hearing",
+        "Mild conductive hearing loss"
+       ],
+       "answerIndex": 0,
+       "explanation": "When hearing aids give insufficient benefit."
+      },
+      {
+       "stem": "The hearing aid style usually preferred for young children is:",
+       "options": [
+        "Completely-in-canal",
+        "In-the-ear",
+        "Behind-the-ear",
+        "Implantable only",
+        "Invisible-in-canal"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is robust and adapts as ears grow."
+      },
+      {
+       "stem": "A bone-anchored hearing aid is particularly useful for:",
+       "options": [
+        "Tinnitus only",
+        "Normal hearing",
+        "Balance disorders",
+        "Profound sensorineural loss",
+        "Conductive loss with chronic ear discharge"
+       ],
+       "answerIndex": 4,
+       "explanation": "It bypasses the middle ear."
+      },
+      {
+       "stem": "Picture boards and communication books are examples of:",
+       "options": [
+        "Hearing aids",
+        "Environmental control",
+        "High-tech AAC",
+        "Low-tech AAC",
+        "Prostheses"
+       ],
+       "answerIndex": 3,
+       "explanation": "They are affordable and robust."
+      },
+      {
+       "stem": "A person with severe paralysis may access a speech-generating device using:",
+       "options": [
+        "Eye-gaze tracking or switch scanning",
+        "Speech recognition only",
+        "Handwriting",
+        "Keyboard only",
+        "Walking"
+       ],
+       "answerIndex": 0,
+       "explanation": "Access methods match remaining abilities."
+      },
+      {
+       "stem": "Designing products usable by as many people as possible without adaptation is:",
+       "options": [
+        "Universal design",
+        "Minimal design",
+        "Luxury design",
+        "Custom design",
+        "Military design"
+       ],
+       "answerIndex": 0,
+       "explanation": "It benefits everyone."
+      },
+      {
+       "stem": "A common reason for abandonment of assistive devices is:",
+       "options": [
+        "Poor fit with users' needs, environments or priorities",
+        "They match needs perfectly",
+        "Too much training",
+        "They are free",
+        "Excess follow-up"
+       ],
+       "answerIndex": 0,
+       "explanation": "User-centred assessment reduces abandonment."
+      }
+     ]
+    },
+    {
+     "title": "Medical Device Design, Safety and Regulation",
+     "order": 5,
+     "summary": "Design process, risk management, electrical safety, standards and regulatory pathways in Nigeria.",
+     "material": [
+      {
+       "heading": "Design and risk",
+       "body": "Medical device design follows design controls: user needs, design inputs (requirements), design outputs, verification (did we build it right — meets specifications), validation (did we build the right thing — meets user needs, often through clinical evaluation and usability testing), design transfer to manufacturing, and design history file. Risk management (ISO 14971): identify hazards, estimate and evaluate risks (severity × probability), implement controls (inherent safety by design first, then protective measures, then information for safety), and assess residual risk. Usability engineering (IEC 62366) prevents use errors. Quality management systems for manufacturers follow ISO 13485. Devices are classified by risk (e.g. Class I low — walking sticks, bandages; Class II moderate — infusion pumps, hearing aids; Class III high — implantable devices such as pacemakers and cochlear implants; or classes A–D in some systems), which determines regulatory requirements.",
+       "keyPoints": [
+        "Design controls",
+        "Verification vs validation",
+        "ISO 14971 risk management",
+        "Inherent safety by design first",
+        "IEC 62366 usability",
+        "ISO 13485 QMS",
+        "Risk classes"
+       ]
+      },
+      {
+       "heading": "Electrical safety and regulation",
+       "body": "Electrical safety (IEC 60601 series): protect against macroshock (current through the body — about 10 mA causes 'let-go' threshold problems, 100 mA can cause ventricular fibrillation) and microshock (small currents, as low as 10–100 µA, applied directly to the heart via catheters or pacing wires can cause VF). Protection: insulation (Class I devices with protective earth; Class II double insulation), isolated patient-applied parts (types B, BF, CF — CF for direct cardiac contact, the most stringent leakage limits), leakage current testing, and routine electrical safety inspections. Unstable power supply in Nigeria makes surge protection, voltage stabilisers, UPS and robust design important. Regulation: NAFDAC regulates registration, importation, manufacturing and post-market surveillance of medical devices in Nigeria; the Standards Organisation of Nigeria (SON) sets standards; the NNRA regulates radiation-emitting devices. International frameworks include the IMDRF, the EU MDR (CE marking) and US FDA pathways (510(k), PMA). Post-market surveillance and vigilance report adverse incidents and recalls. Donated equipment needs compatibility, spare parts and training to avoid becoming unused 'equipment graveyards'.",
+       "keyPoints": [
+        "Macroshock vs microshock",
+        "~100 mA: VF risk",
+        "Microshock: 10–100 µA to heart",
+        "Type CF: cardiac applied parts",
+        "Surge protection in Nigeria",
+        "NAFDAC regulates devices",
+        "Donated equipment problems"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Verification in medical device design answers the question:",
+       "options": [
+        "Did we build the device right (to specifications)?",
+        "Did we build the right device?",
+        "Is it patented?",
+        "Is the device profitable?",
+        "Is it attractive?"
+       ],
+       "answerIndex": 0,
+       "explanation": "Validation checks the right device for user needs."
+      },
+      {
+       "stem": "The international standard for medical device risk management is:",
+       "options": [
+        "ISO 9001",
+        "ISO 14971",
+        "ISO 15189",
+        "ISO 27001",
+        "IEC 60601"
+       ],
+       "answerIndex": 1,
+       "explanation": "It covers hazard identification to residual risk."
+      },
+      {
+       "stem": "The preferred first approach to reducing a device risk is:",
+       "options": [
+        "Training users only",
+        "Ignoring rare risks",
+        "Insurance",
+        "Inherent safety by design",
+        "Adding a warning label"
+       ],
+       "answerIndex": 3,
+       "explanation": "Labels are the least effective control."
+      },
+      {
+       "stem": "An implantable cochlear device is typically classified as:",
+       "options": [
+        "High risk (Class III)",
+        "Class 0",
+        "Low risk (Class I)",
+        "Not a device",
+        "Cosmetic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Implantables carry the highest risk."
+      },
+      {
+       "stem": "Microshock is dangerous because:",
+       "options": [
+        "It requires very large currents",
+        "It only causes skin burns",
+        "Very small currents applied directly to the heart can cause fibrillation",
+        "It is harmless",
+        "It affects only the brain"
+       ],
+       "answerIndex": 2,
+       "explanation": "Catheters and pacing wires bypass skin resistance."
+      },
+      {
+       "stem": "Applied parts intended for direct cardiac contact must be of type:",
+       "options": [
+        "D",
+        "CF",
+        "BF",
+        "A",
+        "B"
+       ],
+       "answerIndex": 1,
+       "explanation": "They have the strictest leakage current limits."
+      },
+      {
+       "stem": "The Nigerian agency that regulates registration and importation of medical devices is:",
+       "options": [
+        "MDCN",
+        "NCDC",
+        "NAFDAC",
+        "NPHCDA",
+        "NHIA"
+       ],
+       "answerIndex": 2,
+       "explanation": "Radiation devices are also licensed by NNRA."
+      },
+      {
+       "stem": "A common problem with donated medical equipment in low-resource settings is:",
+       "options": [
+        "Low demand",
+        "Excess training",
+        "It always works perfectly",
+        "Lack of compatibility, spare parts and training, leaving it unused",
+        "Too many spare parts"
+       ],
+       "answerIndex": 3,
+       "explanation": "Needs assessment should precede donation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

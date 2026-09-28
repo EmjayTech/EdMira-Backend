@@ -1,0 +1,658 @@
+{
+ "courses": [
+  {
+   "title": "Medical Imaging Systems",
+   "code": "BME401",
+   "color": "#475569",
+   "description": "Engineering principles of X-ray, CT, ultrasound, MRI and nuclear imaging systems, image quality, digital imaging and PACS, and equipment maintenance.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "500 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "X-ray Systems Engineering",
+     "order": 1,
+     "summary": "X-ray tube design, high-voltage generators, detectors and digital radiography.",
+     "material": [
+      {
+       "heading": "Tube and generator",
+       "body": "An X-ray tube is an evacuated glass or metal envelope containing a heated tungsten filament cathode (thermionic emission — tube current mA set by filament heating) and a tungsten (or tungsten–rhenium; molybdenum for mammography) anode target. Electrons accelerated by the kilovoltage (kVp) strike the anode, producing bremsstrahlung and characteristic X-rays with only about 1% efficiency; 99% becomes heat. Rotating anodes spread heat over a larger area; the line-focus principle (anode angle) gives a small effective focal spot with a larger actual focal area. Heat units and tube rating charts limit exposures. High-frequency generators convert mains power to high-frequency AC before transformation and rectification, giving nearly constant potential (low ripple), smaller transformers and more consistent output than single- or three-phase generators. The automatic exposure control (AEC) terminates exposure when the detector reaches the preset dose.",
+       "keyPoints": [
+        "Thermionic emission from filament",
+        "~1% X-ray, 99% heat",
+        "Rotating anode; line-focus principle",
+        "High-frequency generators: low ripple",
+        "AEC terminates exposure"
+       ]
+      },
+      {
+       "heading": "Detectors and digital radiography",
+       "body": "Film-screen systems have been largely replaced by digital systems. Computed radiography (CR) uses photostimulable phosphor plates (barium fluorohalide) read by a laser scanner. Direct digital radiography (DR) uses flat-panel detectors: indirect conversion (scintillator such as caesium iodide converts X-rays to light, detected by amorphous silicon photodiodes/TFT array) or direct conversion (amorphous selenium converts X-rays directly to charge — higher spatial resolution, used in mammography). Performance metrics: detective quantum efficiency (DQE — how efficiently a detector uses incoming X-ray quanta), modulation transfer function (MTF — spatial resolution), dynamic range and noise. Anti-scatter grids improve contrast by absorbing scattered radiation. Fluoroscopy systems use image intensifiers or flat-panel detectors for real-time imaging.",
+       "keyPoints": [
+        "CR: photostimulable phosphor",
+        "Indirect DR: CsI + a-Si",
+        "Direct DR: amorphous selenium",
+        "DQE and MTF metrics",
+        "Anti-scatter grids"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Electrons in an X-ray tube are produced at the filament by:",
+       "options": [
+        "Piezoelectric effect",
+        "Pair production",
+        "Thermionic emission",
+        "Photoelectric effect",
+        "Compton scattering"
+       ],
+       "answerIndex": 2,
+       "explanation": "The heated filament emits electrons."
+      },
+      {
+       "stem": "Approximately what proportion of electron energy in an X-ray tube becomes heat?",
+       "options": [
+        "1%",
+        "25%",
+        "50%",
+        "99%",
+        "10%"
+       ],
+       "answerIndex": 3,
+       "explanation": "X-ray production is very inefficient."
+      },
+      {
+       "stem": "The line-focus principle allows:",
+       "options": [
+        "Larger effective focal spot",
+        "No need for cooling",
+        "Lower kVp",
+        "Small effective focal spot with larger actual heat-bearing area",
+        "Higher ripple"
+       ],
+       "answerIndex": 3,
+       "explanation": "Angling the anode shrinks the projected spot."
+      },
+      {
+       "stem": "An advantage of high-frequency X-ray generators is:",
+       "options": [
+        "Nearly constant potential with low ripple",
+        "Larger transformers",
+        "No rectification",
+        "More ripple",
+        "Less consistent output"
+       ],
+       "answerIndex": 0,
+       "explanation": "They produce more efficient, consistent beams."
+      },
+      {
+       "stem": "Computed radiography uses:",
+       "options": [
+        "Image intensifiers",
+        "Amorphous selenium panels",
+        "Photostimulable phosphor plates read by a laser",
+        "Ultrasound crystals",
+        "Film only"
+       ],
+       "answerIndex": 2,
+       "explanation": "The laser releases stored energy as light."
+      },
+      {
+       "stem": "Direct-conversion flat-panel detectors use:",
+       "options": [
+        "Sodium iodide",
+        "Amorphous selenium",
+        "Lead",
+        "Silver bromide",
+        "Caesium iodide"
+       ],
+       "answerIndex": 1,
+       "explanation": "Selenium converts X-rays directly to charge."
+      },
+      {
+       "stem": "Detective quantum efficiency describes:",
+       "options": [
+        "How efficiently a detector uses incoming X-ray photons",
+        "Anode angle",
+        "Spatial resolution only",
+        "Voltage ripple",
+        "Tube heat capacity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Higher DQE allows lower dose."
+      },
+      {
+       "stem": "Anti-scatter grids improve image quality by:",
+       "options": [
+        "Absorbing scattered radiation before it reaches the detector",
+        "Heating the anode",
+        "Reducing kVp",
+        "Increasing dose only",
+        "Focusing the beam"
+       ],
+       "answerIndex": 0,
+       "explanation": "Scatter degrades contrast."
+      }
+     ]
+    },
+    {
+     "title": "Computed Tomography Systems",
+     "order": 2,
+     "summary": "Gantry components, detectors, reconstruction algorithms and CT performance testing.",
+     "material": [
+      {
+       "heading": "Hardware",
+       "body": "A CT gantry contains the X-ray tube (high heat capacity), high-voltage generator, collimators, bow-tie filter (shapes beam intensity across the patient), a curved array of detectors (solid-state ceramic scintillators with photodiodes), a data acquisition system (DAS) that digitises signals, and slip rings transmitting power and data during continuous rotation (rotation times < 0.3 s in modern scanners). Multidetector rows provide wide z-axis coverage; dual-energy CT uses two energy spectra (dual-source, rapid kV switching or layered detectors) for material decomposition. Photon-counting detectors (cadmium telluride) directly count individual photons and their energies, improving resolution and dose efficiency.",
+       "keyPoints": [
+        "Bow-tie filter",
+        "Scintillator + photodiode detectors",
+        "DAS digitises",
+        "Slip rings",
+        "Dual-energy and photon-counting CT"
+       ]
+      },
+      {
+       "heading": "Reconstruction and QA",
+       "body": "Image reconstruction converts projection data (sinogram) into images. Filtered back projection (FBP) is fast but noisy at low dose; iterative reconstruction models noise and system physics to reduce noise and dose; deep-learning reconstruction is increasingly used. The Radon transform underlies the mathematics. CT quality assurance uses phantoms to test CT number accuracy (water 0 ± 5 HU) and uniformity, noise, low-contrast detectability, spatial resolution (line pairs, MTF), slice thickness and dose (CTDI measured with a pencil ionisation chamber in PMMA head/body phantoms). Daily air calibration and water phantom checks detect detector problems (ring artefacts).",
+       "keyPoints": [
+        "Sinogram",
+        "FBP vs iterative reconstruction",
+        "Radon transform",
+        "Water 0 ± 5 HU",
+        "CTDI with pencil chamber in PMMA phantom"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The bow-tie filter in CT is used to:",
+       "options": [
+        "Increase dose at the edges",
+        "Shape beam intensity to match patient thickness and reduce dose",
+        "Collimate the slice",
+        "Detect photons",
+        "Rotate the gantry"
+       ],
+       "answerIndex": 1,
+       "explanation": "Less attenuation is needed at the patient's periphery."
+      },
+      {
+       "stem": "Continuous rotation of the CT gantry is made possible by:",
+       "options": [
+        "Cables that wind and unwind",
+        "Slip rings",
+        "Hydraulic pumps",
+        "Magnetic levitation",
+        "Batteries on the table"
+       ],
+       "answerIndex": 1,
+       "explanation": "They transfer power and data without cables."
+      },
+      {
+       "stem": "Raw CT projection data displayed as angle versus detector position form a:",
+       "options": [
+        "Histogram",
+        "k-space",
+        "Radiograph",
+        "Sinogram",
+        "Spectrogram"
+       ],
+       "answerIndex": 3,
+       "explanation": "Each point traces a sine curve."
+      },
+      {
+       "stem": "An advantage of iterative reconstruction over filtered back projection is:",
+       "options": [
+        "Reduced noise allowing lower dose",
+        "Removes all artefacts",
+        "Higher kVp",
+        "Faster computation always",
+        "No need for detectors"
+       ],
+       "answerIndex": 0,
+       "explanation": "It models noise statistics."
+      },
+      {
+       "stem": "In a CT water phantom QA test, the mean CT number should be about:",
+       "options": [
+        "−100 HU",
+        "0 HU",
+        "−1,000 HU",
+        "+1,000 HU",
+        "+100 HU"
+       ],
+       "answerIndex": 1,
+       "explanation": "Tolerance is typically ± 5 HU."
+      },
+      {
+       "stem": "CTDI is measured using:",
+       "options": [
+        "A photodiode",
+        "A Geiger counter",
+        "A pencil ionisation chamber in a PMMA phantom",
+        "A thermometer",
+        "A film badge"
+       ],
+       "answerIndex": 2,
+       "explanation": "The 100 mm chamber integrates dose along z."
+      },
+      {
+       "stem": "Photon-counting CT detectors are usually made of:",
+       "options": [
+        "Selenium",
+        "Film",
+        "Cadmium telluride",
+        "Caesium iodide",
+        "Amorphous silicon"
+       ],
+       "answerIndex": 2,
+       "explanation": "They count individual photons with energy information."
+      },
+      {
+       "stem": "Dual-energy CT enables:",
+       "options": [
+        "MRI imaging",
+        "Material decomposition using two energy spectra",
+        "No radiation",
+        "Ultrasound",
+        "Only faster scanning"
+       ],
+       "answerIndex": 1,
+       "explanation": "It separates iodine, calcium and other materials."
+      }
+     ]
+    },
+    {
+     "title": "Ultrasound and MRI Instrumentation",
+     "order": 3,
+     "summary": "Transducer construction, beamforming, MRI magnets, gradients, RF systems and siting.",
+     "material": [
+      {
+       "heading": "Ultrasound systems",
+       "body": "Ultrasound transducers use piezoelectric elements (lead zirconate titanate, PZT, or single crystals) with a backing (damping) layer to shorten pulses and improve axial resolution, and a matching layer (thickness a quarter wavelength) to reduce impedance mismatch with skin. Array transducers (linear, curvilinear, phased) steer and focus beams electronically by timing (delays) applied to elements — beamforming, increasingly digital and software-based. The system transmits pulses, receives echoes, applies time-gain compensation, demodulates, performs log compression and scan conversion for display. Doppler processing uses quadrature detection and autocorrelation (colour) or FFT (spectral). Maintenance: check cables and lenses for cracks, test with tissue-mimicking phantoms for resolution, depth and dead elements.",
+       "keyPoints": [
+        "PZT piezoelectric elements",
+        "Backing layer: short pulses",
+        "Matching layer: λ/4",
+        "Electronic beamforming with delays",
+        "Phantom QA"
+       ]
+      },
+      {
+       "heading": "MRI systems",
+       "body": "MRI hardware: the main magnet (superconducting niobium–titanium coils in liquid helium at about 4 K; permanent or resistive magnets in low-field open systems), shim coils (improve field homogeneity), gradient coils (x, y, z — rapidly switched by powerful amplifiers, producing noise and eddy currents), radiofrequency transmit and receive coils (including phased-array surface coils), and the RF shielded room (Faraday cage — copper lining to exclude external RF interference). Cryogen management uses cold heads and compressors (zero-boil-off systems); helium supply and power stability are major challenges in Nigeria, where frequent power failures can cause quenches. Siting considerations include the fringe field (5-gauss line — limit for pacemakers), floor loading, vibration, and quench pipes venting outside.",
+       "keyPoints": [
+        "NbTi superconductor at ~4 K",
+        "Shim coils: homogeneity",
+        "Gradient amplifiers",
+        "Faraday cage",
+        "5-gauss line",
+        "Power stability critical"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The backing layer in an ultrasound transducer:",
+       "options": [
+        "Generates electricity",
+        "Matches impedance to skin",
+        "Focuses the beam",
+        "Increases pulse length",
+        "Dampens vibration to shorten pulses and improve axial resolution"
+       ],
+       "answerIndex": 4,
+       "explanation": "Shorter pulses give better axial resolution."
+      },
+      {
+       "stem": "The ideal thickness of an ultrasound matching layer is:",
+       "options": [
+        "Twice the wavelength",
+        "One wavelength",
+        "A quarter wavelength",
+        "Half a millimetre always",
+        "Unimportant"
+       ],
+       "answerIndex": 2,
+       "explanation": "λ/4 maximises transmission."
+      },
+      {
+       "stem": "Electronic steering and focusing in array transducers is achieved by:",
+       "options": [
+        "Changing gel",
+        "Using magnets",
+        "Moving the crystal mechanically",
+        "Applying timing delays to element excitation",
+        "Increasing gain"
+       ],
+       "answerIndex": 3,
+       "explanation": "This is beamforming."
+      },
+      {
+       "stem": "The superconducting coils of MRI magnets are typically made of:",
+       "options": [
+        "Niobium–titanium alloy",
+        "Copper",
+        "Aluminium",
+        "Iron",
+        "Gold"
+       ],
+       "answerIndex": 0,
+       "explanation": "NbTi becomes superconducting at liquid helium temperatures."
+      },
+      {
+       "stem": "Shim coils in MRI are used to:",
+       "options": [
+        "Generate RF",
+        "Encode position",
+        "Improve magnetic field homogeneity",
+        "Cool the magnet",
+        "Shield from noise"
+       ],
+       "answerIndex": 2,
+       "explanation": "Homogeneity is essential for image quality."
+      },
+      {
+       "stem": "The copper-lined MRI room acts as a:",
+       "options": [
+        "Magnet",
+        "Radiation shield for X-rays",
+        "Heat sink",
+        "Faraday cage shielding RF interference",
+        "Sound booth only"
+       ],
+       "answerIndex": 3,
+       "explanation": "External RF would corrupt the signal."
+      },
+      {
+       "stem": "The 5-gauss line around an MRI scanner marks:",
+       "options": [
+        "The scanner bore",
+        "The helium tank",
+        "The limit beyond which pacemaker patients may safely be",
+        "The RF coil",
+        "The quench pipe"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fields above 5 G may affect implants."
+      },
+      {
+       "stem": "A major operational challenge for MRI in Nigeria is:",
+       "options": [
+        "Too many engineers",
+        "Cold weather",
+        "Excess helium",
+        "Low patient demand",
+        "Unstable power supply risking quench and downtime"
+       ],
+       "answerIndex": 4,
+       "explanation": "Power stability and helium supply are critical."
+      }
+     ]
+    },
+    {
+     "title": "Nuclear Medicine Instrumentation",
+     "order": 4,
+     "summary": "Gamma cameras, SPECT, PET and radiopharmaceutical production equipment.",
+     "material": [
+      {
+       "heading": "Gamma camera and SPECT",
+       "body": "The gamma (Anger) camera detects gamma rays emitted from radiopharmaceuticals in the patient. Components: collimator (lead with holes — parallel-hole, pinhole, converging/diverging — determines resolution and sensitivity; only photons travelling in specific directions pass), a large sodium iodide crystal doped with thallium (NaI(Tl)) that scintillates, an array of photomultiplier tubes converting light to electrical signals, positioning logic (Anger logic) and pulse height analyser (energy window, e.g. 140 keV ± 10% for technetium-99m — rejects scatter). SPECT (single-photon emission computed tomography) rotates camera heads around the patient to reconstruct 3D images; SPECT/CT adds attenuation correction and anatomical localisation. Technetium-99m (half-life 6 hours, 140 keV gamma) from molybdenum-99 generators is the workhorse isotope.",
+       "keyPoints": [
+        "Collimator determines resolution/sensitivity",
+        "NaI(Tl) crystal + PMTs",
+        "Energy window rejects scatter",
+        "Tc-99m: 6 h, 140 keV",
+        "Mo-99/Tc-99m generator"
+       ]
+      },
+      {
+       "heading": "PET",
+       "body": "Positron emission tomography detects pairs of 511 keV annihilation photons emitted in opposite directions when a positron meets an electron; coincidence detection by a ring of detectors (e.g. LSO/LYSO or BGO crystals) defines a line of response without needing a collimator, giving higher sensitivity. Time-of-flight PET improves localisation. The main tracer is fluorine-18 fluorodeoxyglucose (FDG, half-life 110 minutes), produced in a cyclotron and synthesised in automated modules within shielded hot cells; it maps glucose metabolism in cancers, brain and heart. PET/CT and PET/MRI combine function and anatomy. Quality control: daily uniformity (flood) checks, energy peaking, centre of rotation for SPECT, dose calibrator constancy and accuracy checks. Nigeria has few nuclear medicine centres (e.g. Ibadan, Lagos, Abuja).",
+       "keyPoints": [
+        "511 keV annihilation photons",
+        "Coincidence detection — no collimator",
+        "F-18 FDG: 110 min",
+        "Cyclotron production",
+        "Daily flood uniformity QC"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The scintillation crystal in a conventional gamma camera is:",
+       "options": [
+        "Amorphous selenium",
+        "Caesium iodide film",
+        "BGO",
+        "Germanium",
+        "Thallium-doped sodium iodide"
+       ],
+       "answerIndex": 4,
+       "explanation": "NaI(Tl) efficiently detects 140 keV photons."
+      },
+      {
+       "stem": "The collimator in a gamma camera:",
+       "options": [
+        "Measures energy",
+        "Converts photons to electrons",
+        "Produces isotopes",
+        "Amplifies light",
+        "Allows only photons travelling in certain directions to reach the crystal"
+       ],
+       "answerIndex": 4,
+       "explanation": "It defines spatial information."
+      },
+      {
+       "stem": "The pulse height analyser energy window is used to:",
+       "options": [
+        "Increase dose",
+        "Produce isotopes",
+        "Reject scattered photons",
+        "Store images",
+        "Rotate the camera"
+       ],
+       "answerIndex": 2,
+       "explanation": "Scattered photons have lower energy."
+      },
+      {
+       "stem": "Technetium-99m has a half-life of about:",
+       "options": [
+        "6 minutes",
+        "6 hours",
+        "6 days",
+        "110 minutes",
+        "8 days"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is ideal for diagnostic imaging."
+      },
+      {
+       "stem": "PET detects:",
+       "options": [
+        "X-rays",
+        "Single 140 keV photons",
+        "Pairs of 511 keV annihilation photons in coincidence",
+        "Beta particles directly",
+        "Radio waves"
+       ],
+       "answerIndex": 2,
+       "explanation": "Coincidence defines a line of response."
+      },
+      {
+       "stem": "F-18 FDG is produced using a:",
+       "options": [
+        "Generator",
+        "X-ray tube",
+        "Nuclear reactor only",
+        "Linear accelerator",
+        "Cyclotron"
+       ],
+       "answerIndex": 4,
+       "explanation": "F-18 is a cyclotron product."
+      },
+      {
+       "stem": "Why does PET not need a physical collimator?",
+       "options": [
+        "It uses magnets",
+        "Photons do not scatter",
+        "It uses X-rays",
+        "Coincidence detection defines the direction electronically",
+        "It has no detectors"
+       ],
+       "answerIndex": 3,
+       "explanation": "Electronic collimation increases sensitivity."
+      },
+      {
+       "stem": "A daily quality control test for gamma cameras is:",
+       "options": [
+        "CTDI measurement",
+        "Film processing",
+        "Gradient calibration",
+        "Flood field uniformity",
+        "Helium check"
+       ],
+       "answerIndex": 3,
+       "explanation": "It detects non-uniform detector response."
+      }
+     ]
+    },
+    {
+     "title": "Digital Imaging, PACS and Equipment Management",
+     "order": 5,
+     "summary": "DICOM, PACS/RIS, image processing, AI tools, and maintenance of imaging equipment.",
+     "material": [
+      {
+       "heading": "Digital image management",
+       "body": "Digital images consist of pixels (2D) or voxels (3D) with bit depth determining the number of grey levels (e.g. 12 bits = 4,096 levels). DICOM (Digital Imaging and Communications in Medicine) is the standard for storing and transmitting medical images and metadata between modalities and systems. PACS (Picture Archiving and Communication System) stores and distributes images; RIS (Radiology Information System) manages scheduling, reports and billing; HL7 messaging links RIS with the hospital information system. Teleradiology sends images for remote reporting — valuable in Nigeria given the shortage of radiologists. Image processing includes windowing, filtering (smoothing, edge enhancement), segmentation and 3D rendering (MPR, MIP, volume rendering). AI tools assist with detection (e.g. TB on chest X-ray — CAD4TB used in Nigerian TB programmes) and triage.",
+       "keyPoints": [
+        "DICOM standard",
+        "PACS stores; RIS manages workflow",
+        "HL7 messaging",
+        "Teleradiology",
+        "CAD4TB for chest X-ray"
+       ]
+      },
+      {
+       "heading": "Equipment management",
+       "body": "Healthcare technology management covers needs assessment, procurement (specifications, compatibility, service contracts, training, spare parts), installation and acceptance testing, user training, preventive maintenance (scheduled checks), corrective maintenance (repairs), performance testing and calibration, and decommissioning. Much imaging equipment in Nigerian hospitals is non-functional due to poor maintenance, lack of spare parts, unstable power (use of voltage stabilisers, UPS and dedicated generators), and inadequate technical staff. Radiation equipment must comply with regulations of the Nigerian Nuclear Regulatory Authority (NNRA), including licensing, shielding assessment and periodic QA. A computerised maintenance management system (CMMS) tracks inventory, work orders and maintenance schedules.",
+       "keyPoints": [
+        "Technology life cycle",
+        "Acceptance testing",
+        "Preventive vs corrective maintenance",
+        "NNRA regulates radiation equipment",
+        "CMMS"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The international standard for medical image storage and transmission is:",
+       "options": [
+        "DICOM",
+        "PDF",
+        "MP4",
+        "HL7 only",
+        "JPEG"
+       ],
+       "answerIndex": 0,
+       "explanation": "DICOM includes images and metadata."
+      },
+      {
+       "stem": "A 12-bit image can display how many grey levels?",
+       "options": [
+        "256",
+        "1,024",
+        "4,096",
+        "65,536",
+        "12"
+       ],
+       "answerIndex": 2,
+       "explanation": "2^12 = 4,096."
+      },
+      {
+       "stem": "PACS is used to:",
+       "options": [
+        "Store and distribute medical images",
+        "Generate X-rays",
+        "Measure dose",
+        "Schedule staff salaries",
+        "Cool MRI magnets"
+       ],
+       "answerIndex": 0,
+       "explanation": "Picture Archiving and Communication System."
+      },
+      {
+       "stem": "Teleradiology is particularly valuable in Nigeria because of:",
+       "options": [
+        "Shortage of radiologists in many areas",
+        "Cheap internet everywhere",
+        "Lack of X-ray machines entirely",
+        "Too many radiologists",
+        "Legal requirement"
+       ],
+       "answerIndex": 0,
+       "explanation": "Images can be reported remotely."
+      },
+      {
+       "stem": "CAD4TB is an AI tool that analyses:",
+       "options": [
+        "MRI brain scans",
+        "Chest X-rays for tuberculosis",
+        "Ultrasound",
+        "ECGs",
+        "Blood films"
+       ],
+       "answerIndex": 1,
+       "explanation": "It supports TB screening programmes."
+      },
+      {
+       "stem": "Testing performed on new equipment before accepting it from the supplier is:",
+       "options": [
+        "Calibration drift",
+        "Acceptance testing",
+        "Preventive maintenance",
+        "Corrective maintenance",
+        "Decommissioning"
+       ],
+       "answerIndex": 1,
+       "explanation": "It confirms the equipment meets specifications."
+      },
+      {
+       "stem": "The Nigerian body that licenses radiation-emitting equipment is the:",
+       "options": [
+        "SON only",
+        "MDCN",
+        "Nigerian Nuclear Regulatory Authority (NNRA)",
+        "NCDC",
+        "NAFDAC"
+       ],
+       "answerIndex": 2,
+       "explanation": "NNRA oversees radiation safety."
+      },
+      {
+       "stem": "A major reason imaging equipment is non-functional in Nigerian hospitals is:",
+       "options": [
+        "Too many service contracts",
+        "Excess funding",
+        "Excess engineers",
+        "Low patient demand",
+        "Poor maintenance, lack of spare parts and unstable power"
+       ],
+       "answerIndex": 4,
+       "explanation": "Maintenance planning is essential."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

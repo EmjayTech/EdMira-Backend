@@ -1,0 +1,678 @@
+{
+ "courses": [
+  {
+   "title": "Paediatrics I: Neonatology, Growth and Nutrition",
+   "code": "PAE501",
+   "color": "#0EA5E9",
+   "description": "Newborn assessment and resuscitation, common neonatal problems, growth and development, infant feeding, malnutrition and immunisation.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Newborn Assessment and Resuscitation",
+     "order": 1,
+     "summary": "Apgar score, neonatal resuscitation, examination of the newborn, and thermal care.",
+     "material": [
+      {
+       "heading": "At birth",
+       "body": "Most newborns need only drying, warmth and stimulation. The Apgar score (at 1 and 5 minutes) assesses heart rate, respiratory effort, muscle tone, reflex irritability and colour (each 0–2; total 7–10 normal, 4–6 moderately depressed, 0–3 severely depressed); it describes condition but should not delay resuscitation. Neonatal resuscitation (Helping Babies Breathe / NLS): dry and stimulate; if not breathing, clear the airway if needed and start bag–mask ventilation with room air within the Golden Minute (40–60 breaths per minute); assess heart rate (< 100 bpm — continue ventilation, check chest rise; < 60 bpm despite effective ventilation — chest compressions 3:1 with ventilation, then adrenaline). Birth asphyxia (perinatal asphyxia) is a leading cause of neonatal death and of hypoxic–ischaemic encephalopathy (Sarnat staging) in Nigeria. Routine care: delayed cord clamping, skin-to-skin, early breastfeeding, vitamin K, eye prophylaxis, chlorhexidine cord care, BCG, OPV0 and hepatitis B vaccines, and a full newborn examination (congenital anomalies, hips, spine, palate, red reflex, femoral pulses).",
+       "keyPoints": [
+        "Apgar at 1 and 5 min",
+        "Golden Minute: ventilate",
+        "HR < 100: ventilate; < 60: compressions 3:1",
+        "Birth asphyxia → HIE",
+        "Vitamin K, chlorhexidine, BCG, HepB"
+       ]
+      },
+      {
+       "heading": "Thermal care and classification",
+       "body": "Newborns lose heat rapidly (evaporation, conduction, convection, radiation); hypothermia (< 36.5 °C) increases mortality — use the warm chain: warm delivery room, immediate drying, skin-to-skin, delayed bathing (at least 24 hours), caps and clothing, kangaroo mother care, and incubators or radiant warmers. Classification by gestation: preterm (< 37 weeks), term (37–41+6), post-term (≥ 42); by weight: low birth weight (< 2,500 g), very low (< 1,500 g), extremely low (< 1,000 g); by weight for gestation: small (SGA, < 10th centile — growth restriction), appropriate and large (LGA — maternal diabetes). The Ballard score estimates gestational age. Preterm infants face respiratory distress syndrome (surfactant deficiency — CPAP, surfactant), apnoea (caffeine), hypothermia, hypoglycaemia, infection, jaundice, necrotising enterocolitis, intraventricular haemorrhage and retinopathy of prematurity (screen those at risk; oxygen should be targeted).",
+       "keyPoints": [
+        "Warm chain; delay bath 24 h",
+        "LBW < 2,500 g",
+        "SGA < 10th centile",
+        "Ballard score",
+        "RDS: CPAP, surfactant",
+        "Caffeine for apnoea",
+        "ROP: target oxygen"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Apgar score assesses heart rate, respiratory effort, tone, reflex irritability and:",
+       "options": [
+        "Colour",
+        "Temperature",
+        "Head circumference",
+        "Blood glucose",
+        "Weight"
+       ],
+       "answerIndex": 0,
+       "explanation": "Each item scores 0–2."
+      },
+      {
+       "stem": "A newborn not breathing after drying and stimulation should first receive:",
+       "options": [
+        "Oxygen by nasal prongs only",
+        "Adrenaline",
+        "Bag–mask ventilation",
+        "IV fluids",
+        "Chest compressions"
+       ],
+       "answerIndex": 2,
+       "explanation": "Ventilation is the key step in the Golden Minute."
+      },
+      {
+       "stem": "Chest compressions in newborn resuscitation start when the heart rate is below:",
+       "options": [
+        "100 bpm",
+        "120 bpm",
+        "160 bpm",
+        "60 bpm despite effective ventilation",
+        "80 bpm always"
+       ],
+       "answerIndex": 3,
+       "explanation": "Ratio 3 compressions to 1 breath."
+      },
+      {
+       "stem": "Low birth weight is defined as birth weight less than:",
+       "options": [
+        "1,000 g",
+        "1,500 g",
+        "2,500 g",
+        "3,000 g",
+        "3,500 g"
+       ],
+       "answerIndex": 2,
+       "explanation": "Regardless of gestational age."
+      },
+      {
+       "stem": "Bathing of newborns should be delayed for at least:",
+       "options": [
+        "No delay needed",
+        "28 days",
+        "7 days",
+        "1 hour",
+        "24 hours"
+       ],
+       "answerIndex": 4,
+       "explanation": "This prevents hypothermia."
+      },
+      {
+       "stem": "Respiratory distress syndrome in preterm babies is caused by:",
+       "options": [
+        "Meconium aspiration",
+        "Anaemia",
+        "Infection",
+        "Heart disease",
+        "Surfactant deficiency"
+       ],
+       "answerIndex": 4,
+       "explanation": "Treat with CPAP and surfactant."
+      },
+      {
+       "stem": "Apnoea of prematurity is treated with:",
+       "options": [
+        "Antibiotics",
+        "Steroids",
+        "Phenobarbital",
+        "Vitamin K",
+        "Caffeine citrate"
+       ],
+       "answerIndex": 4,
+       "explanation": "It stimulates the respiratory centre."
+      },
+      {
+       "stem": "A baby whose birth weight is below the 10th centile for gestational age is:",
+       "options": [
+        "Large for gestational age",
+        "Small for gestational age",
+        "Post-term",
+        "Appropriate for gestational age",
+        "Macrosomic"
+       ],
+       "answerIndex": 1,
+       "explanation": "It suggests intrauterine growth restriction."
+      }
+     ]
+    },
+    {
+     "title": "Common Neonatal Problems",
+     "order": 2,
+     "summary": "Neonatal jaundice, sepsis, hypoglycaemia, tetanus and feeding problems.",
+     "material": [
+      {
+       "heading": "Neonatal jaundice",
+       "body": "Neonatal jaundice is very common and a major cause of preventable brain damage in Nigeria (kernicterus — bilirubin encephalopathy, causing dyskinetic cerebral palsy, deafness and death). Physiological jaundice appears after 24 hours, peaks on days 3–5 and resolves by 2 weeks (term). Pathological jaundice: appears within 24 hours (always pathological — haemolysis: ABO or Rh incompatibility, G6PD deficiency — very common in Nigeria and worsened by exposure to naphthalene/mothballs, herbal remedies and menthol), rises rapidly, exceeds treatment thresholds, is prolonged (> 14 days term; > 21 days preterm — consider biliary atresia if stools are pale and urine dark, breast milk jaundice, hypothyroidism, infection), or conjugated. Assess serum bilirubin (or transcutaneous) against gestation- and age-specific charts; phototherapy (blue light converts bilirubin to water-soluble isomers; filtered sunlight phototherapy is being studied in Nigeria); exchange transfusion for very high levels or signs of encephalopathy. Biliary atresia requires Kasai portoenterostomy before 60 days.",
+       "keyPoints": [
+        "Kernicterus: preventable brain damage",
+        "Jaundice < 24 h: pathological",
+        "G6PD deficiency common; avoid naphthalene",
+        "Phototherapy",
+        "Exchange transfusion",
+        "Pale stools: biliary atresia — Kasai before 60 days"
+       ]
+      },
+      {
+       "heading": "Sepsis, hypoglycaemia and tetanus",
+       "body": "Neonatal sepsis: early-onset (< 72 hours — maternal organisms: Group B streptococcus, E. coli, Klebsiella; risk factors: prolonged rupture of membranes, maternal fever, preterm birth) and late-onset (hospital or community — Staphylococcus aureus, Klebsiella, Gram-negatives; often multidrug-resistant in Nigerian NICUs). Signs are non-specific: poor feeding, lethargy, temperature instability, respiratory distress, apnoea, jaundice, convulsions, bulging fontanelle. Investigate (blood culture, FBC, CRP, lumbar puncture) and start antibiotics promptly (ampicillin plus gentamicin first-line; adjust to local resistance). Neonatal hypoglycaemia (glucose < 2.6 mmol/L; at-risk: preterm, SGA, infants of diabetic mothers, sick babies): feed or give IV 10% dextrose 2 mL/kg. Neonatal tetanus (unclean cord care, unimmunised mother; onset at 3–10 days with inability to suck, spasms, trismus) — prevented by maternal tetanus immunisation and clean delivery practices.",
+       "keyPoints": [
+        "Early-onset < 72 h: GBS, E. coli",
+        "Signs non-specific",
+        "Ampicillin + gentamicin",
+        "Hypoglycaemia < 2.6 mmol/L; 10% dextrose 2 mL/kg",
+        "Neonatal tetanus: unclean cord, unimmunised mother"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Jaundice appearing within the first 24 hours of life is:",
+       "options": [
+        "Physiological",
+        "Breast milk jaundice",
+        "Normal in preterms",
+        "Always pathological",
+        "Due to feeding"
+       ],
+       "answerIndex": 3,
+       "explanation": "It usually indicates haemolysis."
+      },
+      {
+       "stem": "A common Nigerian trigger of severe haemolytic neonatal jaundice in G6PD-deficient babies is exposure to:",
+       "options": [
+        "Breast milk",
+        "Sunlight",
+        "Vitamin K",
+        "Naphthalene (mothballs) and some herbal remedies",
+        "Paracetamol in normal doses"
+       ],
+       "answerIndex": 3,
+       "explanation": "These are oxidant substances."
+      },
+      {
+       "stem": "The brain damage caused by very high unconjugated bilirubin is called:",
+       "options": [
+        "Hydrocephalus",
+        "Kernicterus",
+        "Encephalitis",
+        "Periventricular leukomalacia",
+        "Microcephaly"
+       ],
+       "answerIndex": 1,
+       "explanation": "It causes dyskinetic cerebral palsy and deafness."
+      },
+      {
+       "stem": "Phototherapy treats neonatal jaundice by:",
+       "options": [
+        "Killing bacteria",
+        "Warming the baby",
+        "Converting bilirubin into water-soluble isomers that can be excreted",
+        "Blocking bilirubin production",
+        "Increasing haemolysis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Blue light is most effective."
+      },
+      {
+       "stem": "Prolonged jaundice with pale stools and dark urine in a 3-week-old suggests:",
+       "options": [
+        "Physiological jaundice",
+        "ABO incompatibility",
+        "G6PD deficiency",
+        "Biliary atresia",
+        "Breast milk jaundice"
+       ],
+       "answerIndex": 3,
+       "explanation": "Kasai surgery must be done early."
+      },
+      {
+       "stem": "First-line empirical antibiotics for neonatal sepsis are:",
+       "options": [
+        "Oral amoxicillin alone",
+        "Ceftriaxone plus metronidazole",
+        "Chloramphenicol",
+        "Azithromycin",
+        "Ampicillin plus gentamicin"
+       ],
+       "answerIndex": 4,
+       "explanation": "Adjust according to local resistance patterns."
+      },
+      {
+       "stem": "Neonatal hypoglycaemia is treated with an IV bolus of:",
+       "options": [
+        "Glucagon only",
+        "50% dextrose 10 mL/kg",
+        "10% dextrose 2 mL/kg",
+        "Normal saline 20 mL/kg",
+        "Insulin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Concentrated dextrose damages veins."
+      },
+      {
+       "stem": "Neonatal tetanus is best prevented by:",
+       "options": [
+        "Antibiotics at birth",
+        "Phototherapy",
+        "Vitamin K",
+        "Immunising pregnant women and clean cord care",
+        "Early bathing"
+       ],
+       "answerIndex": 3,
+       "explanation": "Maternal antibodies protect the newborn."
+      }
+     ]
+    },
+    {
+     "title": "Growth and Development",
+     "order": 3,
+     "summary": "Growth monitoring, growth charts, developmental milestones and developmental delay.",
+     "material": [
+      {
+       "heading": "Growth",
+       "body": "Growth is monitored with WHO growth standards: weight-for-age, length/height-for-age, weight-for-length/height, head circumference and BMI-for-age, plotted over time (z-scores or centiles). Birth weight roughly doubles by 5 months and triples by 1 year; length increases by 50% in the first year; head circumference is about 35 cm at birth (rapid growth in infancy — microcephaly or macrocephaly/hydrocephalus warrant evaluation). Faltering growth (crossing centiles downwards) prompts assessment of feeding, illness (HIV, TB, malaria, chronic diarrhoea, heart and kidney disease) and psychosocial factors. Short stature: familial, constitutional delay, malnutrition, chronic disease, hypothyroidism, growth hormone deficiency and syndromes (Turner). Puberty: girls start with breast development (thelarche, 8–13 years), boys with testicular enlargement (9–14 years); precocious or delayed puberty need evaluation.",
+       "keyPoints": [
+        "WHO growth standards",
+        "Birth weight ×2 by 5 months, ×3 by 1 year",
+        "Head circumference ~35 cm at birth",
+        "Faltering growth: crossing centiles",
+        "Puberty: thelarche; testicular enlargement"
+       ]
+      },
+      {
+       "heading": "Development",
+       "body": "Development is assessed across domains: gross motor, fine motor/vision, speech/language/hearing, and social/emotional. Key milestones: social smile 6 weeks; head control 3–4 months; reaching and grasping 4–5 months; sitting without support 6–8 months; pincer grasp 9–10 months; stranger anxiety 8–9 months; standing and first words ~12 months; walking independently 12–15 months (red flag: not walking by 18 months); two-word phrases 2 years (red flag: no words by 18 months); drawing a circle 3 years. Limit ages (not the average age) trigger referral. Developmental delay may be global (cerebral palsy, intellectual disability, hypothyroidism, severe malnutrition, neonatal jaundice sequelae) or domain-specific (hearing loss causing speech delay; autism spectrum disorder — impaired social communication and restricted, repetitive behaviours). Regression (loss of skills) is always a red flag. Early stimulation, responsive caregiving and early intervention improve outcomes.",
+       "keyPoints": [
+        "Domains: gross, fine, language, social",
+        "Smile 6 weeks; sit 6–8 months",
+        "Walk 12–15 months; red flag 18 months",
+        "No words by 18 months: red flag",
+        "Loss of skills: red flag",
+        "Autism: social communication"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A healthy infant's birth weight usually triples by about:",
+       "options": [
+        "3 months",
+        "6 months",
+        "1 year",
+        "2 years",
+        "5 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "It doubles by about 5 months."
+      },
+      {
+       "stem": "Downward crossing of weight centile lines on a growth chart indicates:",
+       "options": [
+        "Puberty",
+        "Measurement error always",
+        "Normal growth",
+        "Obesity",
+        "Faltering growth needing assessment"
+       ],
+       "answerIndex": 4,
+       "explanation": "Look for feeding problems and illness."
+      },
+      {
+       "stem": "A social smile typically appears at about:",
+       "options": [
+        "1 week",
+        "6 weeks",
+        "6 months",
+        "1 year",
+        "3 days"
+       ],
+       "answerIndex": 1,
+       "explanation": "Absence by 8 weeks warrants review."
+      },
+      {
+       "stem": "Most children sit without support by:",
+       "options": [
+        "2 months",
+        "6–8 months",
+        "12 months",
+        "18 months",
+        "3 months"
+       ],
+       "answerIndex": 1,
+       "explanation": "Failure by 9 months is a concern."
+      },
+      {
+       "stem": "A child not walking independently by what age requires assessment?",
+       "options": [
+        "9 months",
+        "12 months",
+        "18 months",
+        "3 years",
+        "4 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "18 months is the limit age."
+      },
+      {
+       "stem": "Speech delay in an otherwise normal child should prompt first:",
+       "options": [
+        "Hearing assessment",
+        "Genetic testing",
+        "EEG",
+        "Thyroid ultrasound",
+        "Brain MRI"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hearing loss is a common cause."
+      },
+      {
+       "stem": "Loss of previously acquired developmental skills is:",
+       "options": [
+        "Normal variation",
+        "Common after vaccines",
+        "Expected in boys",
+        "A red flag requiring urgent assessment",
+        "Due to teething"
+       ],
+       "answerIndex": 3,
+       "explanation": "It suggests neurodegenerative or other serious disease."
+      },
+      {
+       "stem": "The first sign of puberty in girls is usually:",
+       "options": [
+        "Growth spurt end",
+        "Menarche",
+        "Axillary hair",
+        "Pubic hair only",
+        "Breast development (thelarche)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Menarche occurs about 2 years later."
+      }
+     ]
+    },
+    {
+     "title": "Infant Feeding and Malnutrition",
+     "order": 4,
+     "summary": "Breastfeeding, complementary feeding, acute and chronic malnutrition, and micronutrient deficiencies.",
+     "material": [
+      {
+       "heading": "Feeding",
+       "body": "WHO recommends early initiation of breastfeeding within 1 hour, exclusive breastfeeding for 6 months (no water, glucose water or herbal drinks — still commonly given in Nigeria), and continued breastfeeding to 2 years or beyond, with safe, adequate complementary foods from 6 months (thick pap/ogi enriched with protein such as fish, egg, legumes (e.g. beans, groundnut), fruit and vegetables; frequency increasing with age). Breast milk provides ideal nutrition, antibodies (secretory IgA), lactoferrin and protection against diarrhoea, pneumonia and obesity; benefits mothers (lactational amenorrhoea, reduced breast and ovarian cancer). Good attachment: mouth wide open, lower lip turned out, chin touching breast, more areola visible above than below. Mothers living with HIV on effective ART should breastfeed exclusively for 6 months and continue. Breastfeeding problems include sore nipples (poor attachment), engorgement, mastitis and perceived insufficient milk.",
+       "keyPoints": [
+        "Initiate within 1 hour",
+        "Exclusive 6 months — no water",
+        "Continue to 2 years",
+        "Complementary from 6 months",
+        "Attachment signs",
+        "HIV on ART: breastfeed"
+       ]
+      },
+      {
+       "heading": "Malnutrition",
+       "body": "Nigeria has one of the highest burdens of child malnutrition (stunting about 35–40%, wasting about 7%; worst in the north-west and north-east). Severe acute malnutrition (SAM): weight-for-height < −3 SD, MUAC < 11.5 cm (6–59 months), or bilateral pitting oedema. Marasmus (severe wasting — 'old man' face, loose skin folds) and kwashiorkor (oedema, skin changes — flaky paint dermatosis, hair changes — sparse, pale; hepatomegaly, apathy; associated with inadequate protein and oxidative stress). Complicated SAM (poor appetite, medical complications) needs inpatient care following the WHO 10 steps: treat/prevent hypoglycaemia, hypothermia and dehydration (ReSoMal — cautious; avoid IV fluids unless shock), correct electrolytes (potassium, magnesium) and micronutrients (no iron initially), treat infection (antibiotics for all), start cautious feeding (F-75), catch-up growth (F-100 or RUTF), sensory stimulation and follow-up. Uncomplicated SAM with good appetite is treated as outpatients with RUTF (CMAM). Micronutrient deficiencies: vitamin A (xerophthalmia, night blindness — supplementation), iron (anaemia), iodine (goitre, cretinism), zinc (diarrhoea — zinc supplements), and rickets (vitamin D/calcium deficiency — bowed legs, rachitic rosary).",
+       "keyPoints": [
+        "Stunting ~35–40% in Nigeria",
+        "SAM: MUAC < 11.5, WHZ < −3, oedema",
+        "Kwashiorkor: oedema, flaky paint skin",
+        "WHO 10 steps",
+        "F-75 then F-100/RUTF",
+        "No iron initially",
+        "Vitamin A: xerophthalmia"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "WHO recommends exclusive breastfeeding for:",
+       "options": [
+        "6 weeks",
+        "3 months",
+        "6 months",
+        "12 months",
+        "2 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "No other food or drink, not even water."
+      },
+      {
+       "stem": "A sign of good attachment during breastfeeding is:",
+       "options": [
+        "Chin touching the breast with the mouth wide open",
+        "Clicking sounds",
+        "Only the nipple in the mouth",
+        "Cheeks sucked in",
+        "Lower lip turned in"
+       ],
+       "answerIndex": 0,
+       "explanation": "More areola is visible above than below."
+      },
+      {
+       "stem": "Mothers living with HIV who are on effective ART should:",
+       "options": [
+        "Never breastfeed",
+        "Mix feed from birth",
+        "Breastfeed exclusively for 6 months and continue",
+        "Use only formula",
+        "Stop ART while breastfeeding"
+       ],
+       "answerIndex": 2,
+       "explanation": "The benefits outweigh the small risk."
+      },
+      {
+       "stem": "Bilateral pitting oedema in a malnourished child indicates:",
+       "options": [
+        "Normal nutrition",
+        "Marasmus",
+        "Kwashiorkor (severe acute malnutrition)",
+        "Obesity",
+        "Stunting only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Oedema alone qualifies as SAM."
+      },
+      {
+       "stem": "In the initial stabilisation of complicated SAM, the recommended feed is:",
+       "options": [
+        "Cow's milk",
+        "RUTF only",
+        "F-75",
+        "Adult diet",
+        "F-100"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is low in protein and sodium."
+      },
+      {
+       "stem": "Iron supplementation in severe acute malnutrition should be:",
+       "options": [
+        "Given with antibiotics on day 1",
+        "Given IV",
+        "Withheld during the initial stabilisation phase",
+        "Given immediately at high doses",
+        "Never given"
+       ],
+       "answerIndex": 2,
+       "explanation": "Iron may worsen infections early."
+      },
+      {
+       "stem": "Dehydrated children with SAM are rehydrated preferably with:",
+       "options": [
+        "Rapid IV normal saline",
+        "Plain water",
+        "Standard ORS in large volumes",
+        "Glucose water",
+        "ReSoMal given slowly orally"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are at risk of heart failure."
+      },
+      {
+       "stem": "Night blindness and Bitot's spots are signs of deficiency of:",
+       "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Iodine",
+        "Vitamin D",
+        "Iron"
+       ],
+       "answerIndex": 0,
+       "explanation": "Vitamin A supplementation prevents blindness and deaths."
+      }
+     ]
+    },
+    {
+     "title": "Immunisation and Child Health Promotion",
+     "order": 5,
+     "summary": "Vaccines and schedule, contraindications, cold chain, and well-child care.",
+     "material": [
+      {
+       "heading": "Vaccines",
+       "body": "Nigeria's routine schedule: birth — BCG, OPV0, HepB0; 6, 10, 14 weeks — pentavalent (DTP-HepB-Hib), PCV, OPV, rotavirus (6 and 10 weeks), IPV (14 weeks); 6 months — vitamin A; 9 months — measles, yellow fever, meningococcal A conjugate (in the belt), IPV2 (fractional or full); 15 months — measles 2; HPV vaccine for girls 9–14 years; malaria vaccine (R21) in selected states from 5 months. Vaccine types: live attenuated (BCG, OPV, measles, yellow fever, rotavirus — avoid in severe immunosuppression, though most HIV-positive children should still receive measles and rotavirus), inactivated/subunit/conjugate (pentavalent, PCV, IPV, HepB, HPV), and toxoids (tetanus, diphtheria). True contraindications are few: anaphylaxis to a previous dose or component, and live vaccines in severe immunodeficiency and pregnancy. Minor illness, malnutrition, prematurity and antibiotic use are NOT contraindications (missed opportunities). BCG causes a scar at 2–6 weeks; a missing scar is not a reason to revaccinate routinely.",
+       "keyPoints": [
+        "Birth: BCG, OPV0, HepB0",
+        "6/10/14 weeks: penta, PCV, OPV",
+        "9 months: measles, YF",
+        "Live vaccines: caution in severe immunosuppression",
+        "Minor illness is not a contraindication",
+        "R21 malaria vaccine"
+       ]
+      },
+      {
+       "heading": "Child health promotion",
+       "body": "Well-child visits combine growth monitoring, developmental surveillance, immunisation, vitamin A and deworming (albendazole from 12 months, every 6 months), counselling on feeding, hygiene, sleeping under insecticide-treated nets, home safety (burns from kerosene, poisoning, drowning, road safety) and early stimulation. The Road to Health card/child health booklet records growth and vaccines. Oral health (fluoride, limiting sugary drinks), vision and hearing screening, and newborn screening for sickle cell disease are increasingly emphasised. Adverse events following immunisation (AEFI) — mostly mild (fever, local pain); serious events (anaphylaxis, BCG lymphadenitis, vaccine-derived polio rarely) must be reported. Vaccine hesitancy (misinformation, religious and cultural beliefs, distrust — e.g. the 2003 Kano polio vaccine boycott) is addressed by engaging traditional and religious leaders, community mobilisers and clear communication.",
+       "keyPoints": [
+        "Deworm every 6 months from 12 months",
+        "ITNs, home safety",
+        "Road to Health card",
+        "Newborn SCD screening",
+        "Report serious AEFIs",
+        "2003 Kano polio boycott"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "BCG vaccine is given at:",
+       "options": [
+        "Birth",
+        "6 weeks",
+        "5 years",
+        "9 months",
+        "15 months"
+       ],
+       "answerIndex": 0,
+       "explanation": "It protects against severe childhood TB."
+      },
+      {
+       "stem": "The pentavalent vaccine is given at:",
+       "options": [
+        "At school entry",
+        "6, 10 and 14 weeks",
+        "9 and 15 months",
+        "Only at 1 year",
+        "Birth only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Three doses in infancy."
+      },
+      {
+       "stem": "Which vaccine is live attenuated?",
+       "options": [
+        "Hepatitis B",
+        "Tetanus toxoid",
+        "Pentavalent",
+        "Measles",
+        "PCV"
+       ],
+       "answerIndex": 3,
+       "explanation": "Also BCG, OPV, yellow fever and rotavirus."
+      },
+      {
+       "stem": "A child with a mild cold and low-grade fever due for vaccines should:",
+       "options": [
+        "Be referred to hospital",
+        "Receive only oral vaccines",
+        "Be given antibiotics first",
+        "Postpone all vaccines for a month",
+        "Be vaccinated as scheduled"
+       ],
+       "answerIndex": 4,
+       "explanation": "Minor illness is not a contraindication."
+      },
+      {
+       "stem": "A true contraindication to a vaccine is:",
+       "options": [
+        "Anaphylaxis to a previous dose",
+        "Mild diarrhoea",
+        "Family history of convulsions",
+        "Prematurity",
+        "Malnutrition"
+       ],
+       "answerIndex": 0,
+       "explanation": "This is one of few genuine contraindications."
+      },
+      {
+       "stem": "Routine deworming with albendazole for children is given every:",
+       "options": [
+        "5 years",
+        "At birth",
+        "6 months from 12 months of age",
+        "Never",
+        "Month"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces anaemia and malnutrition."
+      },
+      {
+       "stem": "The malaria vaccine R21 is given to children starting from about:",
+       "options": [
+        "5 years",
+        "5 months",
+        "Adulthood",
+        "12 years",
+        "Birth"
+       ],
+       "answerIndex": 1,
+       "explanation": "In a multi-dose schedule."
+      },
+      {
+       "stem": "The most effective way to address vaccine hesitancy in northern Nigerian communities has been:",
+       "options": [
+        "Stopping campaigns",
+        "Paying parents only",
+        "Engaging traditional and religious leaders",
+        "Forcing vaccination",
+        "Using only TV adverts"
+       ],
+       "answerIndex": 2,
+       "explanation": "Trusted leaders changed attitudes after the 2003 boycott."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "courses": [
+  {
+   "title": "Molecular Diagnostics and Laboratory Quality Management",
+   "code": "MLS503",
+   "color": "#65A30D",
+   "description": "Nucleic acid extraction, PCR and its variants, sequencing, molecular diagnosis of infections and genetic disorders, biosafety, and laboratory quality management systems.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medical Laboratory Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Haematology"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Nucleic Acid Extraction and PCR",
+     "order": 1,
+     "summary": "Extraction methods, PCR principles, components, cycling and contamination control.",
+     "material": [
+      {
+       "heading": "Extraction",
+       "body": "Molecular testing starts with good-quality nucleic acid. Extraction steps: cell lysis (detergents, proteinase K, chaotropic salts such as guanidinium), separation of nucleic acid from proteins and debris (organic phenol–chloroform extraction, silica spin columns — nucleic acid binds silica in high salt and elutes in low-salt buffer, or magnetic beads for automation), washing and elution. RNA is labile (RNases are ubiquitous) — use RNase-free materials and stabilisers, and process or freeze quickly. Quality and quantity are checked by spectrophotometry (A260/A280 ratio about 1.8 for pure DNA and 2.0 for RNA; A260/A230 detects salt/organic contamination) or fluorometry. Specimen types include EDTA blood (not heparin — inhibits PCR), swabs in viral transport medium, sputum, tissue and dried blood spots (used for infant HIV testing in Nigeria).",
+       "keyPoints": [
+        "Lysis → separation → wash → elute",
+        "Silica binds DNA in high salt",
+        "RNA is labile — RNases",
+        "A260/A280 ~1.8 DNA",
+        "Heparin inhibits PCR",
+        "Dried blood spots for infant HIV"
+       ]
+      },
+      {
+       "heading": "PCR",
+       "body": "The polymerase chain reaction (Kary Mullis, 1983) amplifies a target DNA sequence exponentially. Components: template, two primers flanking the target, thermostable DNA polymerase (Taq from Thermus aquaticus), dNTPs, Mg²⁺ (cofactor) and buffer. Each cycle: denaturation (~94–95 °C), annealing (~50–65 °C, depending on primer melting temperature), extension (~72 °C); 30–40 cycles theoretically give 2^n copies. Products are detected by agarose gel electrophoresis with DNA stain against a molecular weight ladder. Contamination (especially amplicon carry-over) causes false positives — prevented by physically separate pre- and post-PCR areas with unidirectional workflow, dedicated equipment and filter tips, UNG/dUTP systems, and no-template (negative) controls in every run. Inhibitors (heme, heparin, humic acids) cause false negatives — detected with internal (amplification) controls.",
+       "keyPoints": [
+        "Denature 95, anneal 50–65, extend 72 °C",
+        "Taq polymerase",
+        "Mg²⁺ cofactor",
+        "2^n copies",
+        "Separate pre- and post-PCR areas",
+        "NTC and internal controls"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Silica-based nucleic acid extraction relies on DNA binding to silica in the presence of:",
+       "options": [
+        "Antibodies",
+        "Low salt",
+        "Heparin",
+        "Pure water",
+        "High concentrations of chaotropic salt"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is eluted in low-salt buffer."
+      },
+      {
+       "stem": "An A260/A280 ratio of about 1.8 indicates:",
+       "options": [
+        "Degraded RNA",
+        "Pure DNA",
+        "Pure RNA",
+        "Salt contamination",
+        "Protein-contaminated DNA"
+       ],
+       "answerIndex": 1,
+       "explanation": "RNA gives about 2.0."
+      },
+      {
+       "stem": "The anticoagulant that should be avoided for PCR samples is:",
+       "options": [
+        "Citrate",
+        "None of them",
+        "Heparin",
+        "EDTA",
+        "Fluoride"
+       ],
+       "answerIndex": 2,
+       "explanation": "Heparin inhibits Taq polymerase."
+      },
+      {
+       "stem": "During PCR, the step at about 72 °C is:",
+       "options": [
+        "Extension",
+        "Lysis",
+        "Annealing",
+        "Denaturation",
+        "Detection"
+       ],
+       "answerIndex": 0,
+       "explanation": "Taq synthesises new strands at 72 °C."
+      },
+      {
+       "stem": "Taq polymerase is valuable because it is:",
+       "options": [
+        "Cheap only",
+        "Proofreading",
+        "Produced by humans",
+        "Thermostable",
+        "RNA-dependent"
+       ],
+       "answerIndex": 3,
+       "explanation": "It survives repeated denaturation."
+      },
+      {
+       "stem": "The most important measure to prevent amplicon contamination is:",
+       "options": [
+        "Using more cycles",
+        "Skipping controls",
+        "Sharing pipettes",
+        "Physically separated pre- and post-PCR areas with one-way workflow",
+        "Using heparin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Amplicons are the main contamination source."
+      },
+      {
+       "stem": "A no-template control that shows amplification indicates:",
+       "options": [
+        "Low sensitivity",
+        "Successful test",
+        "Contamination",
+        "Correct primer design",
+        "Inhibition"
+       ],
+       "answerIndex": 2,
+       "explanation": "NTCs should always be negative."
+      },
+      {
+       "stem": "Internal amplification controls in PCR detect:",
+       "options": [
+        "Contamination",
+        "Inhibition causing false negatives",
+        "Sample labelling errors",
+        "Excess template",
+        "Primer dimers only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Failure of the internal control shows inhibition."
+      }
+     ]
+    },
+    {
+     "title": "Real-time PCR and Advanced Molecular Methods",
+     "order": 2,
+     "summary": "qPCR and RT-PCR, viral load, isothermal amplification, sequencing and point-of-care molecular tests.",
+     "material": [
+      {
+       "heading": "Real-time PCR",
+       "body": "Real-time (quantitative) PCR monitors amplification each cycle using fluorescence — non-specific DNA-binding dyes (SYBR Green; melt curve analysis checks specificity) or sequence-specific probes (TaqMan hydrolysis probes with reporter and quencher dyes). The cycle threshold (Ct) is the cycle at which fluorescence crosses the threshold; lower Ct means more starting target. Quantification uses standard curves of known concentrations; efficiency of 90–110% is acceptable. Reverse-transcription PCR (RT-PCR) first converts RNA to cDNA (reverse transcriptase) — used for HIV viral load, hepatitis C RNA, SARS-CoV-2 and Lassa virus detection (NCDC network laboratories). Multiplex PCR detects several targets in one reaction. Advantages: closed-tube (less contamination), fast and quantitative.",
+       "keyPoints": [
+        "Ct: lower = more target",
+        "SYBR Green vs TaqMan probes",
+        "Efficiency 90–110%",
+        "RT converts RNA to cDNA",
+        "HIV viral load, Lassa, SARS-CoV-2",
+        "Closed tube"
+       ]
+      },
+      {
+       "heading": "Other technologies",
+       "body": "Cartridge-based automated platforms (GeneXpert — Xpert MTB/RIF Ultra detects Mycobacterium tuberculosis and rifampicin resistance in about 2 hours; also HIV viral load and early infant diagnosis) have transformed diagnosis in Nigeria, where over a thousand machines support the TB programme. Isothermal methods (LAMP — loop-mediated isothermal amplification) amplify at a single temperature without a thermocycler. Line probe assays (e.g. for TB drug resistance) hybridise amplicons to probes on strips. Sequencing: Sanger (chain termination, dideoxynucleotides — accurate for single genes) and next-generation sequencing (massively parallel — whole genomes, genomic surveillance of outbreaks; e.g. Lassa, mpox and SARS-CoV-2 sequencing at the African Centre of Excellence for Genomics of Infectious Diseases (ACEGID), Ede, and NCDC). Nanopore sequencers are portable for field use.",
+       "keyPoints": [
+        "GeneXpert: MTB/RIF in ~2 h",
+        "LAMP: isothermal",
+        "Line probe assays",
+        "Sanger vs NGS",
+        "ACEGID genomic surveillance",
+        "Nanopore: portable"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In real-time PCR, a lower Ct value indicates:",
+       "options": [
+        "Less target in the sample",
+        "No amplification",
+        "Contamination always",
+        "Test failure",
+        "More target in the sample"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fewer cycles are needed to reach the threshold."
+      },
+      {
+       "stem": "TaqMan probes generate signal when:",
+       "options": [
+        "They bind any double-stranded DNA",
+        "Light is removed",
+        "Taq's exonuclease activity separates reporter from quencher",
+        "Temperature falls",
+        "RNA is present"
+       ],
+       "answerIndex": 2,
+       "explanation": "Hydrolysis releases the reporter."
+      },
+      {
+       "stem": "Melt curve analysis is used with SYBR Green to:",
+       "options": [
+        "Increase yield",
+        "Extract DNA",
+        "Check specificity of the amplified product",
+        "Convert RNA",
+        "Measure protein"
+       ],
+       "answerIndex": 2,
+       "explanation": "Non-specific products melt at different temperatures."
+      },
+      {
+       "stem": "HIV viral load testing requires:",
+       "options": [
+        "Western blot",
+        "Microscopy",
+        "Reverse transcription before PCR",
+        "Culture",
+        "Antibody detection"
+       ],
+       "answerIndex": 2,
+       "explanation": "HIV is an RNA virus."
+      },
+      {
+       "stem": "The GeneXpert MTB/RIF test detects TB and resistance to:",
+       "options": [
+        "Rifampicin",
+        "Pyrazinamide",
+        "Streptomycin",
+        "Isoniazid",
+        "Ethambutol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rifampicin resistance is a proxy for MDR-TB."
+      },
+      {
+       "stem": "LAMP differs from PCR in that it:",
+       "options": [
+        "Amplifies at a constant temperature",
+        "Cannot detect pathogens",
+        "Uses RNA only",
+        "Uses antibodies",
+        "Requires three temperatures"
+       ],
+       "answerIndex": 0,
+       "explanation": "No thermocycler is needed."
+      },
+      {
+       "stem": "Sequencing that analyses millions of fragments in parallel is:",
+       "options": [
+        "Sanger sequencing",
+        "Next-generation sequencing",
+        "Western blotting",
+        "Gel electrophoresis",
+        "ELISA"
+       ],
+       "answerIndex": 1,
+       "explanation": "NGS enables whole-genome analysis."
+      },
+      {
+       "stem": "The Nigerian centre known for genomic surveillance of Lassa fever and other outbreaks is:",
+       "options": [
+        "NHIA",
+        "ACEGID, Redeemer's University, Ede",
+        "NAFDAC",
+        "MDCN",
+        "NPHCDA"
+       ],
+       "answerIndex": 1,
+       "explanation": "It sequenced Nigeria's first SARS-CoV-2 genome."
+      }
+     ]
+    },
+    {
+     "title": "Molecular Diagnosis of Genetic and Haematological Disorders",
+     "order": 3,
+     "summary": "Sickle cell genotyping, prenatal and newborn diagnosis, cancer molecular testing and pharmacogenomics.",
+     "material": [
+      {
+       "heading": "Genetic disorders",
+       "body": "Nigeria has the world's largest burden of sickle cell disease (over 150,000 affected births yearly). Diagnosis by haemoglobin electrophoresis (cellulose acetate at alkaline pH), isoelectric focusing and HPLC (quantifies HbF, HbA2, HbS) is complemented by DNA methods (PCR–restriction enzyme analysis — the sickle mutation GAG→GTG in codon 6 of the β-globin gene abolishes a DdeI/MstII site; allele-specific PCR). Newborn screening uses dried blood spots with IEF or HPLC, and point-of-care lateral-flow tests (e.g. HemoTypeSC, Sickle SCAN). Prenatal diagnosis via chorionic villus sampling (10–13 weeks) or amniocentesis, with DNA analysis, is available in a few Nigerian centres; preimplantation genetic testing is offered by some IVF clinics. Other applications: G6PD genotyping, thalassaemia mutations, cystic fibrosis panels and karyotyping/FISH/microarrays for chromosomal disorders (Down syndrome — trisomy 21).",
+       "keyPoints": [
+        "Nigeria: largest SCD burden",
+        "HbS: GAG→GTG codon 6",
+        "PCR–RFLP loses DdeI site",
+        "HPLC and IEF",
+        "Point-of-care SCD tests",
+        "CVS 10–13 weeks"
+       ]
+      },
+      {
+       "heading": "Cancer and pharmacogenomics",
+       "body": "Molecular oncology detects translocations and mutations guiding diagnosis and targeted therapy: BCR-ABL1 (Philadelphia chromosome t(9;22) in chronic myeloid leukaemia — monitored by quantitative RT-PCR during imatinib therapy), JAK2 V617F (myeloproliferative neoplasms), PML-RARA (acute promyelocytic leukaemia — treated with ATRA), MYC translocation (Burkitt lymphoma), EGFR mutations (lung adenocarcinoma — EGFR inhibitors), KRAS (colorectal cancer — predicts lack of benefit from anti-EGFR antibodies), BRCA1/2 (hereditary breast and ovarian cancer — PARP inhibitors) and HER2 amplification. Liquid biopsy detects circulating tumour DNA in plasma. Pharmacogenomics tailors drugs to genotype: CYP2B6 variants (common in Africans — high efavirenz levels and CNS side effects), CYP2C19 (clopidogrel), HLA-B*5701 (abacavir), TPMT (thiopurines) and G6PD (primaquine, dapsone).",
+       "keyPoints": [
+        "BCR-ABL1 in CML",
+        "JAK2 V617F",
+        "PML-RARA: APL",
+        "EGFR, KRAS, BRCA",
+        "Liquid biopsy",
+        "CYP2B6 and efavirenz in Africans"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The sickle cell mutation replaces glutamic acid with valine at codon:",
+       "options": [
+        "3",
+        "6",
+        "12",
+        "26",
+        "146"
+       ],
+       "answerIndex": 1,
+       "explanation": "GAG → GTG in the β-globin gene."
+      },
+      {
+       "stem": "PCR–RFLP detection of HbS relies on the mutation abolishing a restriction site for:",
+       "options": [
+        "DdeI (or MstII)",
+        "HindIII",
+        "EcoRI",
+        "BamHI",
+        "NotI"
+       ],
+       "answerIndex": 0,
+       "explanation": "The normal allele is cut; HbS is not."
+      },
+      {
+       "stem": "The method that quantifies HbA2, HbF and HbS precisely is:",
+       "options": [
+        "HPLC",
+        "Blood film",
+        "Sickling test",
+        "ESR",
+        "Solubility test"
+       ],
+       "answerIndex": 0,
+       "explanation": "High-performance liquid chromatography."
+      },
+      {
+       "stem": "Prenatal diagnosis by chorionic villus sampling is performed at about:",
+       "options": [
+        "6 weeks",
+        "10–13 weeks",
+        "20 weeks",
+        "30 weeks",
+        "38 weeks"
+       ],
+       "answerIndex": 1,
+       "explanation": "It allows first-trimester diagnosis."
+      },
+      {
+       "stem": "The BCR-ABL1 fusion gene is characteristic of:",
+       "options": [
+        "Acute promyelocytic leukaemia",
+        "Burkitt lymphoma",
+        "Hodgkin lymphoma",
+        "Chronic myeloid leukaemia",
+        "Multiple myeloma"
+       ],
+       "answerIndex": 3,
+       "explanation": "It results from t(9;22)."
+      },
+      {
+       "stem": "JAK2 V617F mutation is found in most cases of:",
+       "options": [
+        "CML",
+        "Polycythaemia vera",
+        "Thalassaemia",
+        "ALL",
+        "Sickle cell disease"
+       ],
+       "answerIndex": 1,
+       "explanation": "It drives myeloproliferative neoplasms."
+      },
+      {
+       "stem": "Detection of tumour DNA in a blood sample is called:",
+       "options": [
+        "Tissue biopsy",
+        "Bone marrow aspirate",
+        "Liquid biopsy",
+        "Cytology",
+        "Frozen section"
+       ],
+       "answerIndex": 2,
+       "explanation": "It detects circulating tumour DNA."
+      },
+      {
+       "stem": "CYP2B6 slow-metaboliser variants, common in Africans, increase side effects of:",
+       "options": [
+        "Dolutegravir",
+        "Efavirenz",
+        "Zidovudine",
+        "Lamivudine",
+        "Tenofovir"
+       ],
+       "answerIndex": 1,
+       "explanation": "Higher efavirenz levels cause CNS effects."
+      }
+     ]
+    },
+    {
+     "title": "Biosafety and Biosecurity",
+     "order": 4,
+     "summary": "Risk groups, biosafety levels, biological safety cabinets, and handling high-consequence pathogens.",
+     "material": [
+      {
+       "heading": "Risk groups and containment",
+       "body": "Microorganisms are classified into risk groups 1–4 by pathogenicity, transmissibility and availability of treatment/prevention: RG1 (unlikely to cause disease), RG2 (moderate individual risk — most clinical bacteria, HBV, HIV in routine diagnostic work), RG3 (high individual risk, low community risk — M. tuberculosis culture, Brucella, yellow fever virus), RG4 (high individual and community risk, no treatment — Ebola, Marburg, Lassa virus under some classifications). Biosafety levels (BSL-1 to BSL-4) specify practices, safety equipment and facility design; WHO's 2020 Laboratory Biosafety Manual promotes a risk-based approach (core requirements, heightened control measures, maximum containment). Nigeria has BSL-3 laboratories (e.g. NCDC National Reference Laboratory Abuja, Irrua Specialist Teaching Hospital — Lassa fever) and TB culture laboratories.",
+       "keyPoints": [
+        "Risk groups 1–4",
+        "BSL-1 to BSL-4",
+        "TB culture: BSL-3",
+        "Ebola, Marburg: RG4",
+        "WHO 2020 risk-based approach",
+        "NCDC NRL and Irrua BSL-3"
+       ]
+      },
+      {
+       "heading": "Safety equipment and practice",
+       "body": "Biological safety cabinets (BSCs): Class I (protects operator and environment, not product), Class II (the most common — HEPA-filtered downflow and inflow protect operator, product and environment; used for TB, viral cultures and molecular work) and Class III (glove box, totally enclosed — RG4 agents). A BSC is not a chemical fume hood. BSCs need annual certification and correct use (work in the centre, avoid rapid arm movement, don't block grilles, UV lamps are not a substitute for disinfection). Good microbiological technique: no mouth pipetting, no eating in the lab, lab coats and gloves, hand hygiene, safe sharps handling, decontamination (autoclaving at 121 °C for 15 minutes, 0.5% hypochlorite for spills), spill kits, triple packaging for specimen transport (UN3373 Category B; Category A UN2814 for high-consequence pathogens), and incident reporting. Biosecurity protects dangerous pathogens from theft or misuse. Staff should be vaccinated (hepatitis B) and have PEP access.",
+       "keyPoints": [
+        "Class II BSC: operator, product, environment",
+        "Class III: glove box",
+        "BSC is not a fume hood",
+        "Autoclave 121 °C 15 min",
+        "Triple packaging; UN3373",
+        "Hepatitis B vaccination"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Mycobacterium tuberculosis culture should be performed at biosafety level:",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0"
+       ],
+       "answerIndex": 2,
+       "explanation": "TB is a risk group 3 organism."
+      },
+      {
+       "stem": "Ebola virus belongs to risk group:",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0"
+       ],
+       "answerIndex": 3,
+       "explanation": "High individual and community risk with limited treatment."
+      },
+      {
+       "stem": "The biological safety cabinet that protects the operator, product and environment is:",
+       "options": [
+        "Class II",
+        "Class I",
+        "Open bench",
+        "A chemical fume hood",
+        "Laminar flow clean bench"
+       ],
+       "answerIndex": 0,
+       "explanation": "Class II is the most commonly used BSC."
+      },
+      {
+       "stem": "A Class III biological safety cabinet is:",
+       "options": [
+        "A centrifuge",
+        "A fume hood",
+        "A refrigerator",
+        "An open-fronted cabinet",
+        "A sealed glove box"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is used for the most dangerous agents."
+      },
+      {
+       "stem": "Standard autoclaving conditions for decontamination are:",
+       "options": [
+        "100 °C for 5 minutes",
+        "180 °C for 2 hours",
+        "37 °C overnight",
+        "121 °C for 15 minutes",
+        "60 °C for 1 hour"
+       ],
+       "answerIndex": 3,
+       "explanation": "Saturated steam under pressure."
+      },
+      {
+       "stem": "Diagnostic specimens transported by courier are packaged as UN3373 using:",
+       "options": [
+        "Triple packaging",
+        "Newspaper",
+        "Ice only",
+        "An open box",
+        "A single bag"
+       ],
+       "answerIndex": 0,
+       "explanation": "Primary, secondary and outer packaging."
+      },
+      {
+       "stem": "UV lamps in a biological safety cabinet:",
+       "options": [
+        "Are not a substitute for surface disinfection",
+        "Replace chemical disinfection",
+        "Remove the need for certification",
+        "Sterilise the operator",
+        "Should stay on during work"
+       ],
+       "answerIndex": 0,
+       "explanation": "UV has limited penetration."
+      },
+      {
+       "stem": "Laboratory workers handling blood should be vaccinated against:",
+       "options": [
+        "Rabies",
+        "Typhoid",
+        "Cholera",
+        "Yellow fever only",
+        "Hepatitis B"
+       ],
+       "answerIndex": 4,
+       "explanation": "HBV is a major occupational risk."
+      }
+     ]
+    },
+    {
+     "title": "Laboratory Quality Management Systems",
+     "order": 5,
+     "summary": "Quality essentials, QC statistics, EQA, accreditation (SLIPTA, ISO 15189) and LIS.",
+     "material": [
+      {
+       "heading": "Quality systems",
+       "body": "A quality management system covers the 12 quality system essentials (WHO/CLSI): organisation, personnel, equipment, purchasing and inventory, process control, information management, documents and records, occurrence management, assessment, process improvement, customer service, and facilities and safety. Errors occur most often in the pre-analytical phase (patient identification, labelling, collection, transport — about 60–70%), then post-analytical (reporting, transcription) and analytical phases. Document control ensures current SOPs. The Stepwise Laboratory Quality Improvement Process Towards Accreditation (SLIPTA — WHO AFRO) grades laboratories from 0 to 5 stars, and the SLMTA training programme supports improvement; many Nigerian laboratories have progressed through it to ISO 15189 accreditation (e.g. via SANAS or other bodies). The Medical Laboratory Science Council of Nigeria (MLSCN) regulates laboratories and practitioners.",
+       "keyPoints": [
+        "12 quality system essentials",
+        "Pre-analytical errors most common",
+        "Document control",
+        "SLIPTA 0–5 stars; SLMTA",
+        "ISO 15189",
+        "MLSCN regulates"
+       ]
+      },
+      {
+       "heading": "Quality control",
+       "body": "Internal quality control (IQC) runs control materials of known values with patient samples; results are plotted on Levey–Jennings charts (mean ± 1, 2, 3 SD) and interpreted with Westgard rules: 1-2s (warning), 1-3s (reject — random error), 2-2s (two consecutive beyond 2 SD same side — systematic error), R-4s (range between two controls > 4 SD — random error), 4-1s and 10x (systematic shifts/trends). Accuracy (closeness to the true value) differs from precision (reproducibility, measured by coefficient of variation — CV = SD/mean × 100). External quality assessment (EQA/proficiency testing) sends unknown samples from an external provider and compares results with peers. Qualitative tests (e.g. HIV rapid tests) use positive and negative controls. Laboratory information systems (LIS) reduce transcription errors, track turnaround time and support audits. Method validation/verification checks precision, accuracy, linearity, reference ranges and limits of detection.",
+       "keyPoints": [
+        "Levey–Jennings charts",
+        "Westgard: 1-3s reject; 2-2s systematic",
+        "Accuracy vs precision",
+        "CV = SD/mean × 100",
+        "EQA/proficiency testing",
+        "LIS reduces errors"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most laboratory errors occur in the:",
+       "options": [
+        "Equipment manufacture",
+        "Accounting phase",
+        "Analytical phase",
+        "Post-analytical phase",
+        "Pre-analytical phase"
+       ],
+       "answerIndex": 4,
+       "explanation": "Identification, labelling and collection errors dominate."
+      },
+      {
+       "stem": "The WHO AFRO programme that grades laboratories from zero to five stars is:",
+       "options": [
+        "SLIPTA",
+        "ISO 9001",
+        "DHIS2",
+        "CAP",
+        "PEPFAR"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a stepwise path to accreditation."
+      },
+      {
+       "stem": "Internal quality control results are plotted on a:",
+       "options": [
+        "Levey–Jennings chart",
+        "Pie chart",
+        "Histogram only",
+        "Epidemic curve",
+        "Gantt chart"
+       ],
+       "answerIndex": 0,
+       "explanation": "It shows the mean and SD limits."
+      },
+      {
+       "stem": "A single control value outside ±3 SD (1-3s) indicates:",
+       "options": [
+        "Nothing",
+        "Warning only",
+        "Systematic shift only",
+        "Random error — reject the run",
+        "Acceptable run"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a rejection rule."
+      },
+      {
+       "stem": "Two consecutive control values exceeding +2 SD (2-2s) indicate:",
+       "options": [
+        "Systematic error",
+        "Excellent precision",
+        "Accuracy",
+        "Random error",
+        "Normal variation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Both on the same side suggests bias."
+      },
+      {
+       "stem": "The coefficient of variation measures:",
+       "options": [
+        "Precision (relative variability)",
+        "Turnaround time",
+        "Sensitivity",
+        "Accuracy",
+        "Specificity"
+       ],
+       "answerIndex": 0,
+       "explanation": "CV = SD/mean × 100."
+      },
+      {
+       "stem": "Testing unknown samples sent by an external provider and comparing with peer laboratories is:",
+       "options": [
+        "External quality assessment (proficiency testing)",
+        "Internal QC",
+        "Validation",
+        "Maintenance",
+        "Calibration"
+       ],
+       "answerIndex": 0,
+       "explanation": "It assesses accuracy against others."
+      },
+      {
+       "stem": "The body that regulates medical laboratory practice in Nigeria is:",
+       "options": [
+        "PCN",
+        "NAFDAC",
+        "NCDC",
+        "MDCN",
+        "MLSCN"
+       ],
+       "answerIndex": 4,
+       "explanation": "Medical Laboratory Science Council of Nigeria."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

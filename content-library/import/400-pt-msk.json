@@ -1,0 +1,655 @@
+{
+ "courses": [
+  {
+   "title": "Musculoskeletal Physiotherapy",
+   "code": "PTH401",
+   "color": "#0F766E",
+   "description": "Assessment and management of common musculoskeletal conditions: spine, peripheral joints, fractures, sports and soft-tissue injuries, and arthritis.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Musculoskeletal Assessment",
+     "order": 1,
+     "summary": "Subjective and objective examination, special tests, red flags and outcome measures.",
+     "material": [
+      {
+       "heading": "Subjective examination",
+       "body": "The subjective assessment records the presenting complaint, body chart (area, nature and depth of symptoms), behaviour of symptoms over 24 hours (aggravating and easing factors, morning stiffness), history of present condition, past medical history, drug history, social and occupational history, and patient goals. Irritability (how easily symptoms are provoked and how long they take to settle) and severity guide how vigorously to examine. Red flags suggest serious pathology needing urgent referral: unexplained weight loss, history of cancer, fever, night pain unrelieved by rest, trauma in osteoporosis, saddle anaesthesia and bladder or bowel dysfunction (cauda equina syndrome), and progressive neurological deficit. Yellow flags are psychosocial factors (fear-avoidance, catastrophising, low mood) that predict chronicity.",
+       "keyPoints": [
+        "Body chart and 24-hour pattern",
+        "Irritability and severity guide examination",
+        "Red flags: cancer, weight loss, cauda equina",
+        "Yellow flags: psychosocial risk"
+       ]
+      },
+      {
+       "heading": "Objective examination",
+       "body": "The objective examination includes observation (posture, swelling, deformity, gait), active and passive range of movement (noting end-feel — e.g. hard bony, firm capsular, empty in acute pathology), resisted isometric tests (contractile tissue), muscle strength (Oxford scale 0–5), neurological examination (dermatomes, myotomes, reflexes, neural tension tests such as straight leg raise and slump), palpation, accessory joint movements (Maitland grades I–V), and special tests (e.g. Lachman for ACL, McMurray for meniscus, Neer and Hawkins–Kennedy for shoulder impingement). Outcome measures such as the visual analogue or numeric pain rating scale, Oswestry Disability Index, and goniometry quantify progress.",
+       "keyPoints": [
+        "End-feel: hard, firm, soft, empty",
+        "Oxford scale 0–5",
+        "Maitland grades I–V",
+        "Lachman: ACL",
+        "Oswestry Disability Index"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Saddle anaesthesia with urinary retention in a patient with back pain suggests:",
+       "options": [
+        "Simple mechanical back pain",
+        "Sacroiliac dysfunction",
+        "Muscle spasm",
+        "Cauda equina syndrome",
+        "Facet joint sprain"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a surgical emergency and a red flag."
+      },
+      {
+       "stem": "Yellow flags in musculoskeletal assessment refer to:",
+       "options": [
+        "Signs of cancer",
+        "Neurological deficits",
+        "Psychosocial factors predicting chronic disability",
+        "Infection signs",
+        "Fracture risk"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fear-avoidance and catastrophising are examples."
+      },
+      {
+       "stem": "A muscle contraction that moves the joint through full range against gravity but not resistance scores on the Oxford scale:",
+       "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+       ],
+       "answerIndex": 2,
+       "explanation": "Grade 3 = full range against gravity."
+      },
+      {
+       "stem": "The Lachman test assesses the integrity of the:",
+       "options": [
+        "Anterior cruciate ligament",
+        "Patellar tendon",
+        "Lateral collateral ligament",
+        "Posterior cruciate ligament",
+        "Medial meniscus"
+       ],
+       "answerIndex": 0,
+       "explanation": "It tests anterior tibial translation at 20–30° flexion."
+      },
+      {
+       "stem": "An 'empty' end-feel usually indicates:",
+       "options": [
+        "Capsular tightness",
+        "Normal joint",
+        "Muscle length",
+        "Bony block",
+        "Acute pain or serious pathology limiting movement before tissue resistance"
+       ],
+       "answerIndex": 4,
+       "explanation": "The patient stops movement due to pain."
+      },
+      {
+       "stem": "The straight leg raise test primarily assesses:",
+       "options": [
+        "Hip osteoarthritis",
+        "Knee ligaments",
+        "Shoulder impingement",
+        "Lumbosacral nerve root (sciatic) tension",
+        "Ankle stability"
+       ],
+       "answerIndex": 3,
+       "explanation": "Reproduction of leg pain suggests nerve root irritation."
+      },
+      {
+       "stem": "Maitland grade I and II mobilisations are mainly used for:",
+       "options": [
+        "Stretching muscles",
+        "Strengthening",
+        "Increasing range in stiff joints",
+        "Pain relief",
+        "Manipulation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Small or large amplitude movements before resistance relieve pain."
+      },
+      {
+       "stem": "The Oswestry Disability Index measures disability in:",
+       "options": [
+        "Stroke",
+        "Neck pain",
+        "Shoulder pain",
+        "Knee osteoarthritis",
+        "Low back pain"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a widely used back pain outcome measure."
+      }
+     ]
+    },
+    {
+     "title": "Spinal Conditions",
+     "order": 2,
+     "summary": "Low back pain, disc prolapse, neck pain, spondylosis and management principles.",
+     "material": [
+      {
+       "heading": "Low back pain",
+       "body": "Low back pain is among the leading causes of disability worldwide and in Nigeria, common among farmers, traders, drivers and health workers. Most (about 90%) is non-specific mechanical back pain. Specific causes include lumbar disc herniation with radiculopathy (commonly L4/5 and L5/S1 — dermatomal leg pain, positive SLR, altered reflexes), spinal stenosis (neurogenic claudication relieved by flexion), spondylolisthesis, and serious pathology (spinal TB — Pott's disease, metastases, fractures, cauda equina). Management of non-specific pain: reassurance and education, advice to stay active, exercise therapy (motor control, strengthening, general exercise), manual therapy as an adjunct, and cognitive functional approaches; bed rest is discouraged. The McKenzie approach classifies patients by directional preference and centralisation of symptoms.",
+       "keyPoints": [
+        "~90% non-specific",
+        "L4/5 and L5/S1 disc herniation",
+        "Stenosis: relieved by flexion",
+        "Stay active; avoid bed rest",
+        "McKenzie: centralisation"
+       ]
+      },
+      {
+       "heading": "Neck and spondylosis",
+       "body": "Neck pain is often associated with posture, prolonged phone and computer use, and whiplash injuries. Cervical spondylosis (degenerative change) may cause radiculopathy (commonly C6 and C7) or myelopathy (spinal cord compression — clumsy hands, gait disturbance, upper motor neuron signs; needs surgical referral). Management includes education, postural correction, deep neck flexor and scapular strengthening, mobilisation and manipulation (with screening for vertebrobasilar insufficiency and upper cervical instability), and ergonomic advice. Ankylosing spondylitis (inflammatory back pain in young men, morning stiffness > 30 minutes improving with exercise; HLA-B27) requires exercise to maintain posture and chest expansion alongside medical treatment.",
+       "keyPoints": [
+        "C6/C7 radiculopathy",
+        "Myelopathy: UMN signs — refer",
+        "Deep neck flexor training",
+        "Screen before cervical manipulation",
+        "Ankylosing spondylitis: improves with exercise"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most common type of low back pain is:",
+       "options": [
+        "Non-specific mechanical back pain",
+        "Cauda equina syndrome",
+        "Spinal TB",
+        "Fracture",
+        "Metastatic disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "About 90% of cases have no specific cause."
+      },
+      {
+       "stem": "The most common levels of lumbar disc herniation are:",
+       "options": [
+        "T12/L1",
+        "L4/5 and L5/S1",
+        "S1/S2",
+        "C5/6",
+        "L1/2 and L2/3"
+       ],
+       "answerIndex": 1,
+       "explanation": "These levels bear the greatest load."
+      },
+      {
+       "stem": "Neurogenic claudication from lumbar spinal stenosis is typically relieved by:",
+       "options": [
+        "Flexion (e.g. sitting or bending forward)",
+        "Extension",
+        "Lying prone",
+        "Standing still upright",
+        "Walking faster"
+       ],
+       "answerIndex": 0,
+       "explanation": "Flexion widens the spinal canal."
+      },
+      {
+       "stem": "The recommended advice for acute non-specific low back pain is:",
+       "options": [
+        "Wear a brace permanently",
+        "Stay active and return to normal activities gradually",
+        "Strict bed rest for two weeks",
+        "Avoid all movement",
+        "Immediate surgery"
+       ],
+       "answerIndex": 1,
+       "explanation": "Activity speeds recovery."
+      },
+      {
+       "stem": "Centralisation of symptoms during repeated movements is a key concept of the:",
+       "options": [
+        "Bobath approach",
+        "Maitland approach only",
+        "McKenzie approach",
+        "Brunnstrom approach",
+        "PNF"
+       ],
+       "answerIndex": 2,
+       "explanation": "Centralisation predicts a good prognosis."
+      },
+      {
+       "stem": "Clumsy hands, gait disturbance and hyperreflexia in a patient with neck pain suggest:",
+       "options": [
+        "Whiplash",
+        "Muscle strain",
+        "Cervical myelopathy",
+        "Torticollis",
+        "Cervical radiculopathy"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cord compression needs surgical referral."
+      },
+      {
+       "stem": "Spinal tuberculosis is also called:",
+       "options": [
+        "Pott's disease",
+        "Osgood–Schlatter disease",
+        "Scheuermann's disease",
+        "Paget's disease",
+        "Perthes' disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "It remains common in Nigeria."
+      },
+      {
+       "stem": "Inflammatory back pain in a young man with prolonged morning stiffness that improves with exercise suggests:",
+       "options": [
+        "Disc prolapse",
+        "Mechanical back pain",
+        "Osteoporosis",
+        "Ankylosing spondylitis",
+        "Spinal stenosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is associated with HLA-B27."
+      }
+     ]
+    },
+    {
+     "title": "Upper Limb Conditions",
+     "order": 3,
+     "summary": "Shoulder pain, frozen shoulder, tennis elbow, carpal tunnel and hand rehabilitation.",
+     "material": [
+      {
+       "heading": "Shoulder",
+       "body": "Subacromial pain (impingement or rotator cuff tendinopathy) causes a painful arc (60–120° abduction) and pain on resisted movements; management centres on progressive rotator cuff and scapular strengthening. Rotator cuff tears (supraspinatus most often) cause weakness; large tears in younger patients may need repair. Adhesive capsulitis (frozen shoulder — common in diabetics) passes through painful freezing, frozen (stiff) and thawing phases over 1–3 years, with the capsular pattern: loss of external rotation > abduction > internal rotation; treatment includes pain relief, gentle mobilisation, stretching and sometimes steroid injection or hydrodilatation. Anterior shoulder dislocation is the commonest dislocation; rehabilitation restores stability through strengthening.",
+       "keyPoints": [
+        "Painful arc 60–120°",
+        "Supraspinatus most commonly torn",
+        "Frozen shoulder: external rotation lost most",
+        "Diabetes risk factor",
+        "Anterior dislocation commonest"
+       ]
+      },
+      {
+       "heading": "Elbow, wrist and hand",
+       "body": "Lateral epicondylalgia (tennis elbow) involves the common extensor origin (extensor carpi radialis brevis) — pain with gripping and resisted wrist extension; managed with load management, progressive (eccentric/isometric) loading, and counterforce braces. Medial epicondylalgia (golfer's elbow) affects the flexor origin. Carpal tunnel syndrome is median nerve compression at the wrist — numbness of the thumb, index and middle fingers, worse at night; positive Phalen's and Tinel's tests; managed with night splints in neutral, nerve gliding, steroid injection or surgical release. De Quervain's tenosynovitis affects abductor pollicis longus and extensor pollicis brevis (positive Finkelstein test). Hand therapy after tendon repairs and fractures uses protocols of protected early mobilisation and splinting.",
+       "keyPoints": [
+        "Tennis elbow: ECRB, resisted wrist extension",
+        "Carpal tunnel: median nerve, Phalen's and Tinel's",
+        "Night splints in neutral",
+        "De Quervain's: Finkelstein test"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A painful arc between 60° and 120° of shoulder abduction suggests:",
+       "options": [
+        "Subacromial pain (impingement)",
+        "Dislocation",
+        "Frozen shoulder",
+        "Acromioclavicular arthritis only",
+        "Cervical radiculopathy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Structures are compressed under the acromion in this range."
+      },
+      {
+       "stem": "The rotator cuff muscle most commonly torn is:",
+       "options": [
+        "Supraspinatus",
+        "Subscapularis",
+        "Deltoid",
+        "Infraspinatus",
+        "Teres minor"
+       ],
+       "answerIndex": 0,
+       "explanation": "It passes beneath the acromion."
+      },
+      {
+       "stem": "In adhesive capsulitis, the movement most restricted is:",
+       "options": [
+        "Extension",
+        "Horizontal adduction",
+        "External rotation",
+        "Flexion",
+        "Internal rotation"
+       ],
+       "answerIndex": 2,
+       "explanation": "The capsular pattern loses external rotation most."
+      },
+      {
+       "stem": "Frozen shoulder is more common in people with:",
+       "options": [
+        "Hypertension only",
+        "Diabetes mellitus",
+        "Migraine",
+        "Anaemia",
+        "Asthma"
+       ],
+       "answerIndex": 1,
+       "explanation": "Diabetes is a major risk factor."
+      },
+      {
+       "stem": "Tennis elbow is pain at the origin of the:",
+       "options": [
+        "Pronator teres",
+        "Biceps",
+        "Wrist extensors (ECRB)",
+        "Triceps",
+        "Wrist flexors"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lateral epicondylalgia involves extensor carpi radialis brevis."
+      },
+      {
+       "stem": "Numbness of the thumb, index and middle fingers worse at night suggests:",
+       "options": [
+        "Radial nerve palsy",
+        "C8 radiculopathy",
+        "De Quervain's tenosynovitis",
+        "Ulnar nerve entrapment",
+        "Carpal tunnel syndrome"
+       ],
+       "answerIndex": 4,
+       "explanation": "The median nerve supplies these digits."
+      },
+      {
+       "stem": "The Finkelstein test is positive in:",
+       "options": [
+        "Dupuytren's contracture",
+        "Carpal tunnel syndrome",
+        "De Quervain's tenosynovitis",
+        "Tennis elbow",
+        "Trigger finger"
+       ],
+       "answerIndex": 2,
+       "explanation": "Ulnar deviation with thumb flexed provokes pain."
+      },
+      {
+       "stem": "Night splints for carpal tunnel syndrome hold the wrist in:",
+       "options": [
+        "Full flexion",
+        "Full extension",
+        "Neutral",
+        "Ulnar deviation",
+        "Radial deviation"
+       ],
+       "answerIndex": 2,
+       "explanation": "Neutral minimises carpal tunnel pressure."
+      }
+     ]
+    },
+    {
+     "title": "Lower Limb and Sports Injuries",
+     "order": 4,
+     "summary": "Ankle sprains, knee ligament and meniscal injuries, patellofemoral pain and tendinopathy.",
+     "material": [
+      {
+       "heading": "Acute soft-tissue injury",
+       "body": "Acute soft-tissue injury management has evolved from RICE to PEACE & LOVE: Protect, Elevate, Avoid anti-inflammatories (in the first days), Compress, Educate; then Load, Optimism, Vascularisation (pain-free aerobic exercise) and Exercise. Lateral ankle sprains (usually the anterior talofibular ligament, inversion injury) are the commonest sports injury; the Ottawa ankle rules identify who needs X-ray. Rehabilitation progresses range, strength, proprioception (balance board) and sport-specific drills to reduce recurrence. Hamstring strains are common in sprinters and footballers; eccentric strengthening (Nordic curls) reduces risk.",
+       "keyPoints": [
+        "PEACE & LOVE",
+        "ATFL: commonest ankle sprain",
+        "Ottawa ankle rules",
+        "Proprioceptive training prevents recurrence",
+        "Nordic curls for hamstrings"
+       ]
+      },
+      {
+       "heading": "Knee and tendons",
+       "body": "Anterior cruciate ligament injuries occur with non-contact pivoting (pop, rapid swelling — haemarthrosis); management is surgical reconstruction or structured rehabilitation, with return to sport after about 9–12 months and criteria-based testing. Meniscal tears cause joint-line pain, locking and positive McMurray test. Patellofemoral pain (common in young athletes) is managed with hip and quadriceps strengthening and load modification. Tendinopathies (Achilles, patellar) are degenerative, load-related conditions best treated with progressive tendon loading (isometric, eccentric, heavy slow resistance), not rest alone. Injury prevention programmes (e.g. FIFA 11+) reduce injuries in football, Nigeria's most popular sport.",
+       "keyPoints": [
+        "ACL: pivoting, haemarthrosis",
+        "Return to sport ~9–12 months",
+        "Meniscus: locking, McMurray",
+        "Tendinopathy: progressive loading",
+        "FIFA 11+ injury prevention"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The ligament most commonly injured in an inversion ankle sprain is the:",
+       "options": [
+        "Deltoid ligament",
+        "Posterior talofibular ligament",
+        "Spring ligament",
+        "Calcaneofibular ligament only",
+        "Anterior talofibular ligament"
+       ],
+       "answerIndex": 4,
+       "explanation": "ATFL is the weakest lateral ligament."
+      },
+      {
+       "stem": "The Ottawa ankle rules help determine:",
+       "options": [
+        "The grade of sprain",
+        "Need for crutches",
+        "Which patients need an X-ray",
+        "When to return to sport",
+        "When to operate"
+       ],
+       "answerIndex": 2,
+       "explanation": "They reduce unnecessary radiographs."
+      },
+      {
+       "stem": "In the PEACE & LOVE approach, 'A' advises:",
+       "options": [
+        "Always rest",
+        "Apply heat",
+        "Amputate",
+        "Avoid anti-inflammatories in the early phase",
+        "Aggressive stretching"
+       ],
+       "answerIndex": 3,
+       "explanation": "Inflammation is part of tissue repair."
+      },
+      {
+       "stem": "A non-contact twisting knee injury with a 'pop' and rapid swelling suggests:",
+       "options": [
+        "Anterior cruciate ligament rupture",
+        "Patellar tendinopathy",
+        "Osgood–Schlatter disease",
+        "Patellofemoral pain",
+        "Iliotibial band syndrome"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rapid haemarthrosis is typical."
+      },
+      {
+       "stem": "Locking of the knee and joint-line tenderness suggest a:",
+       "options": [
+        "Bursitis",
+        "Meniscal tear",
+        "Ligament sprain",
+        "Fracture of the fibula",
+        "Quadriceps strain"
+       ],
+       "answerIndex": 1,
+       "explanation": "Torn fragments can block movement."
+      },
+      {
+       "stem": "The best treatment for chronic Achilles tendinopathy is:",
+       "options": [
+        "Repeated steroid injections",
+        "Immobilisation in plaster",
+        "Complete rest",
+        "Massage only",
+        "Progressive tendon loading exercise"
+       ],
+       "answerIndex": 4,
+       "explanation": "Tendons adapt to graded load."
+      },
+      {
+       "stem": "The FIFA 11+ programme is designed to:",
+       "options": [
+        "Improve shooting accuracy",
+        "Measure fitness",
+        "Assess concussion",
+        "Prevent injuries in football",
+        "Treat fractures"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a structured warm-up."
+      },
+      {
+       "stem": "Balance board training after ankle sprain improves:",
+       "options": [
+        "Proprioception and reduces recurrence",
+        "Flexibility only",
+        "Swelling",
+        "Aerobic capacity",
+        "Bone density"
+       ],
+       "answerIndex": 0,
+       "explanation": "Proprioceptive deficits cause re-injury."
+      }
+     ]
+    },
+    {
+     "title": "Fractures, Joint Replacement and Arthritis",
+     "order": 5,
+     "summary": "Fracture healing and rehabilitation, total joint replacement, osteoarthritis and rheumatoid arthritis.",
+     "material": [
+      {
+       "heading": "Fractures and arthroplasty",
+       "body": "Bone healing proceeds through haematoma, inflammation, soft callus, hard callus and remodelling (adult long bones unite in about 6–12 weeks, lower limb longer). Physiotherapy during immobilisation maintains the movement and strength of free joints, prevents complications (chest infection, DVT, pressure sores, stiffness) and teaches mobility with walking aids according to weight-bearing status (non, partial, full). Complications include malunion, non-union, compartment syndrome and complex regional pain syndrome. In Nigeria, traditional bone setters treat many fractures, sometimes causing malunion, gangrene or amputation. After total hip replacement (posterior approach), avoid hip flexion > 90°, adduction past midline and internal rotation; after total knee replacement, early range (goal ≥ 90–110° flexion) and quadriceps strengthening are vital.",
+       "keyPoints": [
+        "Healing: haematoma → callus → remodelling",
+        "Weight-bearing status",
+        "Traditional bone setters: complications",
+        "THR posterior: avoid flexion > 90°, adduction, IR",
+        "TKR: early flexion and quads"
+       ]
+      },
+      {
+       "heading": "Arthritis",
+       "body": "Osteoarthritis (OA), the commonest arthritis, especially of the knee in older and overweight Nigerians, causes pain on activity, brief morning stiffness (< 30 minutes), crepitus and bony enlargement. Core management: education, exercise (strengthening and aerobic) and weight loss, with walking aids and bracing as adjuncts; joint replacement for end-stage disease. Rheumatoid arthritis (RA) is an autoimmune inflammatory polyarthritis of small joints (symmetrical), with prolonged morning stiffness and deformities (ulnar deviation, swan-neck and boutonnière). During flares: rest, splinting and gentle range; in remission: strengthening, aerobic exercise, joint protection and energy conservation advice alongside disease-modifying drugs. Gout (monosodium urate crystals, often first MTP joint) is managed medically.",
+       "keyPoints": [
+        "OA: exercise + weight loss core",
+        "OA stiffness < 30 minutes",
+        "RA: symmetrical small joints",
+        "Swan-neck and boutonnière deformities",
+        "Joint protection and energy conservation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The correct order of fracture healing is:",
+       "options": [
+        "Remodelling → callus → haematoma",
+        "Callus → haematoma → remodelling",
+        "Inflammation → remodelling → callus",
+        "Haematoma → inflammation → soft callus → hard callus → remodelling",
+        "Hard callus → soft callus → haematoma"
+       ],
+       "answerIndex": 3,
+       "explanation": "Healing progresses from haematoma to remodelling."
+      },
+      {
+       "stem": "A complication of fractures presenting with severe pain on passive stretching and a tense limb is:",
+       "options": [
+        "Non-union",
+        "Compartment syndrome",
+        "Malunion",
+        "Osteoarthritis",
+        "Myositis ossificans"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a surgical emergency."
+      },
+      {
+       "stem": "After a posterior-approach total hip replacement, patients should avoid:",
+       "options": [
+        "Ankle pumps",
+        "Knee extension",
+        "Walking",
+        "Hip flexion beyond 90°, adduction past midline and internal rotation",
+        "Hip abduction"
+       ],
+       "answerIndex": 3,
+       "explanation": "These movements risk dislocation."
+      },
+      {
+       "stem": "The core treatment for knee osteoarthritis is:",
+       "options": [
+        "Bed rest",
+        "Repeated steroid injections",
+        "Immediate replacement",
+        "Education, exercise and weight loss",
+        "Immobilisation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Exercise reduces pain and improves function."
+      },
+      {
+       "stem": "Morning stiffness lasting less than 30 minutes is typical of:",
+       "options": [
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis",
+        "Osteoarthritis",
+        "Septic arthritis",
+        "Polymyalgia rheumatica"
+       ],
+       "answerIndex": 2,
+       "explanation": "Inflammatory arthritis causes longer stiffness."
+      },
+      {
+       "stem": "Rheumatoid arthritis typically affects:",
+       "options": [
+        "Small joints of hands and feet symmetrically",
+        "Only the spine",
+        "Only the knee",
+        "One large joint asymmetrically",
+        "Only the first MTP joint"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a symmetrical polyarthritis."
+      },
+      {
+       "stem": "During an acute flare of rheumatoid arthritis, physiotherapy emphasises:",
+       "options": [
+        "Heavy resistance training",
+        "High-impact exercise",
+        "Deep friction massage",
+        "Manipulation",
+        "Rest, splinting and gentle range of movement"
+       ],
+       "answerIndex": 4,
+       "explanation": "Inflamed joints need protection."
+      },
+      {
+       "stem": "A risk of fracture treatment by traditional bone setters in Nigeria is:",
+       "options": [
+        "Malunion, gangrene and amputation from tight splintage",
+        "No complications",
+        "Infection-free healing",
+        "Perfect alignment",
+        "Faster healing always"
+       ],
+       "answerIndex": 0,
+       "explanation": "Tight splints can compromise circulation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

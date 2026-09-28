@@ -1,0 +1,99 @@
+{
+  "title": "Health Policy, Planning and Management",
+  "code": "PUH401",
+  "color": "#B45309",
+  "description": "Health systems and financing in Nigeria, policy development, health planning, management functions, and monitoring and evaluation.",
+  "for": { "400": ["PH"], "500": ["CM", "NUR"] },
+  "topics": [
+    {
+      "title": "Health Systems and the Nigerian Health Sector",
+      "summary": "WHO building blocks, levels of care, governance and key health institutions in Nigeria.",
+      "notes": [
+        { "h": "Health system framework", "b": "A health system comprises all organisations, people and actions whose primary intent is to promote, restore or maintain health. The WHO framework has six building blocks: service delivery; health workforce; health information systems; access to essential medicines, vaccines and technologies; health financing; and leadership and governance. The goals are improved health (level and equity), responsiveness, social and financial risk protection, and improved efficiency. Universal health coverage (UHC — SDG target 3.8) means all people receive quality health services they need without suffering financial hardship; its dimensions are population coverage, service coverage and financial protection (the UHC cube).", "k": ["Six WHO building blocks", "UHC: SDG 3.8", "UHC cube: who, what services, what cost", "Goals: health, responsiveness, protection"] },
+        { "h": "Nigeria's health sector", "b": "Nigeria's health system is organised in three tiers aligned with government levels: primary health care (PHC) under local governments (with state PHC boards under the 'PHC Under One Roof' policy), secondary care (general hospitals) under states, and tertiary care (teaching hospitals, federal medical centres) under the Federal Government. Key institutions: the Federal Ministry of Health and Social Welfare, the National Primary Health Care Development Agency (NPHCDA), the Nigeria Centre for Disease Control and Prevention (NCDC), NAFDAC (regulating food and drugs), the National Health Insurance Authority (NHIA), and professional regulatory councils (MDCN, NMCN, PCN, MLSCN, RRBN, MRTB). The National Health Act 2014 provides the legal framework and created the Basic Health Care Provision Fund (BHCPF). Challenges: underfunding, brain drain of health workers ('japa'), weak referral systems, inequitable distribution and high out-of-pocket spending.", "k": ["Three tiers: LGA, state, federal", "NPHCDA, NCDC, NAFDAC, NHIA", "National Health Act 2014", "BHCPF", "Brain drain"] }
+      ],
+      "q": [
+        ["How many building blocks are in the WHO health system framework?", "Four", "Five", "Six", "Eight", "Ten", 2, "Service delivery, workforce, information, medicines, financing and governance."],
+        ["Universal health coverage is a target under:", "SDG 1", "SDG 3", "SDG 6", "SDG 13", "SDG 17", 1, "Target 3.8."],
+        ["In Nigeria, primary health care is mainly the responsibility of:", "Federal Government", "Local governments (with state PHC boards)", "Private hospitals only", "NGOs only", "Teaching hospitals", 1, "PHC Under One Roof integrates management at state level."],
+        ["The agency responsible for disease surveillance and outbreak response in Nigeria is:", "NAFDAC", "NCDC", "NHIA", "NPHCDA", "NMCN", 1, "The Nigeria Centre for Disease Control and Prevention."],
+        ["The National Health Act was enacted in:", "1999", "2004", "2014", "2020", "2022", 2, "It created the Basic Health Care Provision Fund."],
+        ["NAFDAC regulates:", "Doctors' licences", "Food, drugs, cosmetics and chemicals", "Health insurance", "Immunisation", "Nursing education", 1, "It is the national regulatory authority."],
+        ["Tertiary health care in Nigeria is provided mainly by:", "Health posts", "Teaching hospitals and federal medical centres", "Primary health centres", "Chemist shops", "Traditional healers", 1, "They are under the Federal Government."],
+        ["The migration of Nigerian health workers abroad is commonly called:", "Task shifting", "Brain drain ('japa')", "Decentralisation", "Integration", "Accreditation", 1, "It worsens workforce shortages."]
+      ]
+    },
+    {
+      "title": "Health Financing",
+      "summary": "Sources of funding, out-of-pocket payments, health insurance and financing reforms.",
+      "notes": [
+        { "h": "Financing functions", "b": "Health financing involves revenue collection (taxes, insurance contributions, out-of-pocket payments, donor funds), pooling (spreading financial risk across a population) and purchasing (paying providers — capitation, fee-for-service, diagnosis-related groups, results-based financing). Out-of-pocket (OOP) payments account for over 70% of Nigeria's health spending, among the highest in the world, causing catastrophic health expenditure (spending > 10% or 40% of capacity to pay, depending on definition) and impoverishment. The Abuja Declaration (2001) committed African governments to allocate at least 15% of their budgets to health; Nigeria allocates far less (around 5%).", "k": ["Collection, pooling, purchasing", "OOP > 70% in Nigeria", "Catastrophic health expenditure", "Abuja Declaration: 15% of budget", "Capitation vs fee-for-service"] },
+        { "h": "Insurance and reforms", "b": "The National Health Insurance Scheme (1999, operational 2005) was replaced by the National Health Insurance Authority Act 2022, which makes health insurance mandatory for all Nigerians and establishes a Vulnerable Group Fund to cover the poor. State Supported Health Insurance Schemes (e.g. Lagos LSHS, Kwara, Ekiti) extend coverage. Community-based health insurance pools resources locally. Providers under the formal sector programme are often paid by capitation (fixed amount per enrollee per period) for primary care and fee-for-service for secondary care. The Basic Health Care Provision Fund (at least 1% of the Consolidated Revenue Fund) finances a minimum package through PHCs and insurance. Results-based financing pays providers for verified outputs (e.g. deliveries, immunisations). Insurance coverage remains low (under 10% of the population).", "k": ["NHIA Act 2022: mandatory insurance", "Vulnerable Group Fund", "State schemes", "Capitation: per enrollee", "BHCPF ≥ 1% of CRF", "Coverage < 10%"] }
+      ],
+      "q": [
+        ["The main source of health spending in Nigeria is:", "Government taxes", "Out-of-pocket payments", "Health insurance", "Donors", "Employers", 1, "OOP accounts for over 70%."],
+        ["The Abuja Declaration committed African governments to spend at least what percentage of their budgets on health?", "5%", "10%", "15%", "25%", "50%", 2, "Most countries, including Nigeria, have not met it."],
+        ["Pooling in health financing means:", "Collecting user fees", "Spreading financial risk across a population", "Paying doctors", "Buying drugs", "Building hospitals", 1, "The healthy subsidise the sick."],
+        ["Payment of a fixed amount per enrolled person per period regardless of services used is:", "Fee-for-service", "Capitation", "Salary", "DRG", "Out-of-pocket", 1, "It encourages cost control."],
+        ["The law that made health insurance mandatory for all Nigerians is the:", "NHIS Act 1999", "NHIA Act 2022", "National Health Act 2014", "Public Health Law 1917", "Pharmacy Act", 1, "It replaced the NHIS."],
+        ["The Basic Health Care Provision Fund is financed by at least:", "1% of the Consolidated Revenue Fund", "15% of the budget", "Donor funds only", "User fees", "Oil company taxes only", 0, "It funds a basic minimum package."],
+        ["Health spending that pushes households into poverty or exceeds a large share of their capacity to pay is called:", "Capitation", "Catastrophic health expenditure", "Pooling", "Co-payment", "Premium", 1, "It is common where OOP dominates."],
+        ["Paying providers for verified outputs such as immunisations and deliveries is:", "Line-item budgeting", "Results-based financing", "Capitation", "Salary payment", "User fees", 1, "Performance-based financing incentivises results."]
+      ]
+    },
+    {
+      "title": "Health Policy Development",
+      "summary": "The policy process, stakeholders, the policy triangle and major Nigerian health policies.",
+      "notes": [
+        { "h": "The policy process", "b": "Health policy consists of courses of action (and inaction) by governments and organisations that affect health. The policy cycle includes agenda setting, policy formulation, adoption, implementation and evaluation. Kingdon's multiple streams model explains agenda setting: problem, policy (solutions) and politics streams converge in a 'policy window'. Walt and Gilson's policy triangle analyses context, content, process and actors (who hold power). Stakeholder analysis maps actors by interest and influence. Evidence-informed policymaking uses research syntheses and policy briefs, though politics, values and interests heavily influence outcomes.", "k": ["Policy cycle: agenda → evaluation", "Kingdon: three streams, policy window", "Policy triangle: context, content, process, actors", "Stakeholder analysis: interest and influence"] },
+        { "h": "Key Nigerian policies", "b": "Nigeria's National Health Policy (first 1988, revised 2016) is based on primary health care. Others include the National Strategic Health Development Plan (NSHDP II 2018–2022 and successors), National Drug Policy, National Policy on Food and Nutrition, National Tuberculosis and HIV/AIDS policies, the National Immunisation Policy, the Task-Shifting and Task-Sharing Policy (allowing CHEWs and nurses to deliver specified services), the National Policy on Health Workforce Migration (2023), and the Health Sector Renewal Investment Initiative (2023), which emphasises a sector-wide approach (SWAp) aligning partners behind one plan, budget and monitoring framework. Implementation gaps are common due to funding, weak coordination and political change.", "k": ["National Health Policy 2016", "NSHDP", "Task-shifting policy", "Sector-wide approach (SWAp)", "Implementation gaps"] }
+      ],
+      "q": [
+        ["In Kingdon's multiple streams model, the three streams are:", "Input, process, output", "Problem, policy and politics", "Context, content and actors", "Plan, do and check", "Federal, state and local", 1, "A policy window opens when they converge."],
+        ["Walt and Gilson's policy triangle places at its centre:", "Money", "Actors", "Evidence", "Hospitals", "Donors", 1, "Actors connect context, content and process."],
+        ["A stakeholder analysis maps actors by their:", "Age and gender", "Interest and influence (power)", "Salary", "Education", "Location only", 1, "This guides engagement strategies."],
+        ["Nigeria's first National Health Policy was adopted in:", "1960", "1988", "2005", "2014", "2022", 1, "It was based on primary health care."],
+        ["The task-shifting policy in Nigeria allows:", "Doctors to leave the country", "Lower cadres like CHEWs and nurses to perform specified tasks", "Pharmacists to perform surgery", "Patients to treat themselves", "Private hospitals to close", 1, "It addresses workforce shortages."],
+        ["A sector-wide approach (SWAp) means:", "Each donor funds separate projects", "Government and partners support one plan, budget and monitoring framework", "Privatising health care", "Closing federal hospitals", "Only NGOs deliver care", 1, "It improves coordination."],
+        ["The stage of the policy cycle where a problem gains government attention is:", "Implementation", "Agenda setting", "Evaluation", "Termination", "Adoption", 1, "Only some problems reach the agenda."],
+        ["A common reason health policies fail in implementation is:", "Too much funding", "Inadequate funding and weak coordination", "Excessive monitoring", "Too many health workers", "Clear roles", 1, "The implementation gap is a recurring challenge."]
+      ]
+    },
+    {
+      "title": "Health Planning and Management",
+      "summary": "Planning cycle, management functions, leadership, human resources and supply chains.",
+      "notes": [
+        { "h": "Planning", "b": "Health planning is the systematic process of deciding goals and the means to achieve them. Steps: situation analysis (health needs, resources — using tools like SWOT: strengths, weaknesses, opportunities, threats), priority setting (burden, feasibility, cost-effectiveness), setting SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound), identifying strategies and activities, resource allocation and budgeting, implementation, and monitoring and evaluation. Tools include the logical framework (logframe — inputs, activities, outputs, outcomes, impact with indicators and assumptions), Gantt charts for scheduling, and operational (annual) plans derived from strategic (multi-year) plans.", "k": ["SWOT analysis", "SMART objectives", "Logframe", "Gantt chart", "Strategic vs operational plans"] },
+        { "h": "Management", "b": "Management functions (Fayol): planning, organising, staffing, directing (leading) and controlling (POSDCORB extends these). Leadership styles: autocratic, democratic (participative), laissez-faire, transformational (inspiring a shared vision) and situational. Human resource management covers recruitment, deployment, supervision (supportive supervision), motivation (Maslow's hierarchy, Herzberg's hygiene and motivator factors), performance appraisal and retention (rural incentives). Supply chain management ensures medicines and commodities are available: forecasting, procurement, storage, distribution and logistics management information systems; stock-outs are common in Nigerian PHCs. Quality improvement uses PDSA (Plan–Do–Study–Act) cycles.", "k": ["Fayol's management functions", "Transformational leadership", "Herzberg: hygiene vs motivators", "Supportive supervision", "PDSA cycles"] }
+      ],
+      "q": [
+        ["SWOT analysis examines:", "Salaries, wages, overtime and taxes", "Strengths, weaknesses, opportunities and threats", "Supply, waste, output and time", "Staff, workload, operations and training", "Systems, workers, outcomes and tools", 1, "It is used in situation analysis."],
+        ["A SMART objective must be:", "Simple, modern, active, rapid, targeted", "Specific, measurable, achievable, relevant and time-bound", "Strategic, massive, ambitious, real, total", "Short, meaningful, accurate, realistic, tested", "Structured, managed, audited, reviewed, timed", 1, "SMART objectives can be monitored."],
+        ["A logical framework links inputs and activities to:", "Salaries", "Outputs, outcomes and impact", "Buildings only", "Donor names", "Staff lists", 1, "The logframe clarifies the results chain."],
+        ["A Gantt chart is used for:", "Measuring blood pressure", "Scheduling activities over time", "Counting staff", "Budget auditing only", "Disease surveillance", 1, "It displays activities against a timeline."],
+        ["According to Herzberg, salary and working conditions are:", "Motivators", "Hygiene factors", "Irrelevant", "Leadership styles", "Planning tools", 1, "They prevent dissatisfaction but do not motivate."],
+        ["A leader who inspires staff with a shared vision is practising:", "Laissez-faire leadership", "Transformational leadership", "Autocratic leadership", "Transactional leadership only", "Passive leadership", 1, "It motivates beyond self-interest."],
+        ["The PDSA cycle is a tool for:", "Budgeting", "Quality improvement", "Recruitment", "Procurement", "Research ethics", 1, "Plan–Do–Study–Act tests changes."],
+        ["A frequent supply chain problem in Nigerian PHCs is:", "Excess stock always", "Stock-outs of essential medicines", "Too many pharmacists", "Perfect forecasting", "No demand", 1, "Weak forecasting and funding cause stock-outs."]
+      ]
+    },
+    {
+      "title": "Monitoring, Evaluation and Health Information",
+      "summary": "M&E frameworks, indicators, DHIS2, and evaluation designs.",
+      "notes": [
+        { "h": "Monitoring and evaluation", "b": "Monitoring is the routine, continuous tracking of programme inputs, activities and outputs; evaluation is the periodic assessment of outcomes and impact, relevance, efficiency, effectiveness and sustainability (OECD-DAC criteria). Indicators should be valid, reliable, specific, sensitive and feasible. Types: input (e.g. number of health workers), process (e.g. training sessions held), output (e.g. number vaccinated), outcome (e.g. immunisation coverage) and impact (e.g. reduction in child mortality). Evaluation types: formative (improving a programme during implementation), process, outcome and impact evaluation. Designs range from before–after comparisons to randomised trials; baseline data are essential.", "k": ["Monitoring: routine; evaluation: periodic", "OECD-DAC criteria", "Input → process → output → outcome → impact", "Formative vs summative", "Need baseline data"] },
+        { "h": "Health information systems", "b": "Nigeria's National Health Management Information System (NHMIS) collects routine facility data using standard registers and monthly summary forms, entered into DHIS2 (District Health Information Software 2). Other sources: population census, civil registration and vital statistics (weak — many births and deaths unregistered), surveys (Nigeria Demographic and Health Survey — NDHS, Multiple Indicator Cluster Survey — MICS), disease surveillance (IDSR — Integrated Disease Surveillance and Response) and research. Data quality dimensions: completeness, timeliness, accuracy and consistency. Data should be used for decision-making at all levels, not just reported upwards.", "k": ["NHMIS and DHIS2", "NDHS and MICS surveys", "IDSR for surveillance", "Weak CRVS", "Data quality: complete, timely, accurate"] }
+      ],
+      "q": [
+        ["The routine continuous tracking of programme activities is called:", "Evaluation", "Monitoring", "Research", "Audit", "Accreditation", 1, "Evaluation is periodic."],
+        ["Immunisation coverage in a district is an example of an:", "Input indicator", "Outcome indicator", "Process indicator", "Impact indicator", "Activity", 1, "It reflects results of service delivery."],
+        ["Reduction in under-five mortality is an:", "Input indicator", "Output indicator", "Impact indicator", "Process indicator", "Activity indicator", 2, "It is a long-term health effect."],
+        ["An evaluation conducted during implementation to improve a programme is:", "Summative", "Formative", "Impact", "Terminal", "External only", 1, "It guides modifications."],
+        ["The software used for Nigeria's routine health facility data is:", "Excel only", "DHIS2", "SPSS", "Epi Info", "Google Forms", 1, "District Health Information Software 2."],
+        ["The Nigeria Demographic and Health Survey is a:", "Routine facility report", "Nationally representative household survey", "Census", "Clinical trial", "Hospital audit", 1, "It provides data on fertility, mortality and health."],
+        ["IDSR stands for:", "International Data Statistics Report", "Integrated Disease Surveillance and Response", "Immunisation Data Summary Register", "Infectious Disease Screening Routine", "Internal Data Security Review", 1, "It is the surveillance strategy used in Africa."],
+        ["Which is NOT a dimension of data quality?", "Completeness", "Timeliness", "Accuracy", "Popularity", "Consistency", 3, "Popularity is irrelevant to data quality."]
+      ]
+    }
+  ]
+}

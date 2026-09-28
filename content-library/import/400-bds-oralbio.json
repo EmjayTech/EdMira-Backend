@@ -1,0 +1,660 @@
+{
+ "courses": [
+  {
+   "title": "Oral Biology and Dental Anatomy",
+   "code": "DEN401",
+   "color": "#0891B2",
+   "description": "Tooth morphology and notation, development of teeth, dental hard tissues, periodontium, oral mucosa, saliva and occlusion.",
+   "audience": [
+    {
+     "level": "300 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Dental Anatomy and Tooth Notation",
+     "order": 1,
+     "summary": "Primary and permanent dentitions, tooth morphology and notation systems.",
+     "material": [
+      {
+       "heading": "Dentitions",
+       "body": "Humans are diphyodont (two sets of teeth) and heterodont (different tooth types). The primary (deciduous) dentition has 20 teeth — in each quadrant two incisors, one canine and two molars — erupting from about 6 months (lower central incisors first) to about 2½–3 years. The permanent dentition has 32 teeth — in each quadrant two incisors, one canine, two premolars and three molars. The first permanent molar erupts at about 6 years (behind the primary second molar, often mistaken for a primary tooth), lower central incisors at 6–7, and third molars from 17–21 years or not at all. The mixed dentition period is about 6–12 years. Tooth surfaces: mesial (towards the midline), distal, buccal/labial, lingual/palatal, and occlusal (posterior) or incisal (anterior).",
+       "keyPoints": [
+        "Primary: 20 teeth",
+        "Permanent: 32 teeth",
+        "First primary tooth ~6 months",
+        "First permanent molar ~6 years",
+        "Mixed dentition 6–12 years"
+       ]
+      },
+      {
+       "heading": "Notation and morphology",
+       "body": "The FDI two-digit system (used internationally and in Nigeria): the first digit is the quadrant (permanent 1–4: upper right, upper left, lower left, lower right; primary 5–8), and the second is the tooth (1 central incisor to 8 third molar) — e.g. 36 is the lower left first permanent molar, 11 the upper right central incisor, 55 the upper right primary second molar. Other systems: Palmer (Zsigmondy) quadrant grid and the Universal system (1–32, used in the USA). Morphology: maxillary first molar has three roots (two buccal, one palatal) and often a Carabelli cusp; mandibular first molar has two roots (mesial and distal) and five cusps; maxillary first premolar usually has two roots; mandibular canine is the longest-rooted lower tooth; the maxillary canine has the longest root overall.",
+       "keyPoints": [
+        "FDI: quadrant + tooth",
+        "36 = lower left first molar",
+        "Primary quadrants 5–8",
+        "Upper first molar: 3 roots, Carabelli cusp",
+        "Lower first molar: 2 roots, 5 cusps"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The primary dentition consists of how many teeth?",
+       "options": [
+        "16",
+        "20",
+        "24",
+        "28",
+        "32"
+       ],
+       "answerIndex": 1,
+       "explanation": "Two incisors, one canine and two molars per quadrant."
+      },
+      {
+       "stem": "The first permanent molar usually erupts at about:",
+       "options": [
+        "2 years",
+        "6 years",
+        "12 years",
+        "18 years",
+        "9 months"
+       ],
+       "answerIndex": 1,
+       "explanation": "It erupts behind the primary second molar."
+      },
+      {
+       "stem": "In the FDI system, tooth 36 is the:",
+       "options": [
+        "Upper right canine",
+        "Lower left first permanent molar",
+        "Primary molar",
+        "Lower right premolar",
+        "Upper left third molar"
+       ],
+       "answerIndex": 1,
+       "explanation": "Quadrant 3 is lower left; 6 is the first molar."
+      },
+      {
+       "stem": "In the FDI system, primary teeth are numbered in quadrants:",
+       "options": [
+        "0–3",
+        "A–D",
+        "1–4",
+        "5–8",
+        "9–12"
+       ],
+       "answerIndex": 3,
+       "explanation": "Primary quadrants are 5 to 8."
+      },
+      {
+       "stem": "The tooth surface facing towards the midline of the dental arch is:",
+       "options": [
+        "Mesial",
+        "Occlusal",
+        "Buccal",
+        "Distal",
+        "Lingual"
+       ],
+       "answerIndex": 0,
+       "explanation": "Distal faces away from the midline."
+      },
+      {
+       "stem": "The maxillary first permanent molar typically has:",
+       "options": [
+        "Three roots (two buccal, one palatal)",
+        "No roots",
+        "One root",
+        "Four roots",
+        "Two roots"
+       ],
+       "answerIndex": 0,
+       "explanation": "It often has a cusp of Carabelli."
+      },
+      {
+       "stem": "The tooth with the longest root in the mouth is the:",
+       "options": [
+        "Mandibular first molar",
+        "Maxillary lateral incisor",
+        "Mandibular incisor",
+        "Third molar",
+        "Maxillary canine"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is the 'cornerstone' of the arch."
+      },
+      {
+       "stem": "The first primary teeth to erupt are usually the:",
+       "options": [
+        "Upper molars",
+        "Lower central incisors",
+        "Upper lateral incisors",
+        "Lower second molars",
+        "Upper canines"
+       ],
+       "answerIndex": 1,
+       "explanation": "They appear around 6 months."
+      }
+     ]
+    },
+    {
+     "title": "Tooth Development",
+     "order": 2,
+     "summary": "Stages of odontogenesis, amelogenesis, dentinogenesis, root formation and developmental anomalies.",
+     "material": [
+      {
+       "heading": "Stages",
+       "body": "Tooth development (odontogenesis) begins around the sixth week of intrauterine life with the dental lamina (a band of oral epithelium). Stages: bud, cap (enamel organ forms over the condensing dental papilla, surrounded by the dental follicle), bell (histodifferentiation and morphodifferentiation — inner enamel epithelium, stellate reticulum, stratum intermedium, outer enamel epithelium), and apposition/maturation. Tissue origins: enamel from ectoderm (ameloblasts from the enamel organ); dentine and pulp from ectomesenchyme (dental papilla — neural crest origin) via odontoblasts; cementum, periodontal ligament and alveolar bone from the dental follicle. Reciprocal epithelial–mesenchymal interactions control development. Hertwig's epithelial root sheath (fusion of inner and outer enamel epithelia) shapes the root; remnants persist as epithelial rests of Malassez (source of radicular cysts).",
+       "keyPoints": [
+        "Begins ~6th week IU",
+        "Bud → cap → bell",
+        "Enamel: ectoderm",
+        "Dentine/pulp: ectomesenchyme (neural crest)",
+        "Hertwig's root sheath; rests of Malassez"
+       ]
+      },
+      {
+       "heading": "Anomalies",
+       "body": "Developmental anomalies: number — hypodontia (commonly third molars, upper lateral incisors, lower second premolars), hyperdontia/supernumerary teeth (mesiodens between upper central incisors); size — microdontia (peg lateral incisors), macrodontia; shape — gemination, fusion, dens invaginatus, taurodontism, dilaceration; structure — amelogenesis imperfecta (enamel), dentinogenesis imperfecta (dentine; associated with osteogenesis imperfecta), fluorosis (excess fluoride during enamel formation — mottled enamel; endemic in parts of Nigeria with high-fluoride groundwater), tetracycline staining (drug given during tooth formation), and enamel hypoplasia (e.g. from febrile illness or malnutrition, congenital syphilis — Hutchinson's incisors and mulberry molars).",
+       "keyPoints": [
+        "Hypodontia: third molars, upper laterals",
+        "Mesiodens",
+        "Amelogenesis vs dentinogenesis imperfecta",
+        "Fluorosis: mottled enamel",
+        "Congenital syphilis: Hutchinson's incisors"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The correct sequence of early tooth development is:",
+       "options": [
+        "Bud → cap → bell",
+        "Bud → bell → cap",
+        "Bell → bud → cap",
+        "Cap → bell → bud",
+        "Cap → bud → bell"
+       ],
+       "answerIndex": 0,
+       "explanation": "Named after the enamel organ's shape."
+      },
+      {
+       "stem": "Enamel is derived from:",
+       "options": [
+        "Ectoderm",
+        "Mesoderm",
+        "Neural crest only",
+        "Dental follicle",
+        "Endoderm"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ameloblasts arise from oral epithelium."
+      },
+      {
+       "stem": "Dentine and pulp develop from the:",
+       "options": [
+        "Stellate reticulum",
+        "Oral epithelium",
+        "Dental papilla (ectomesenchyme)",
+        "Dental follicle",
+        "Enamel organ"
+       ],
+       "answerIndex": 2,
+       "explanation": "Odontoblasts form from papilla cells."
+      },
+      {
+       "stem": "The periodontal ligament and cementum are derived from the:",
+       "options": [
+        "Dental papilla",
+        "Dental follicle",
+        "Tongue",
+        "Dental lamina",
+        "Enamel organ"
+       ],
+       "answerIndex": 1,
+       "explanation": "The follicle forms the supporting tissues."
+      },
+      {
+       "stem": "Remnants of Hertwig's epithelial root sheath in the periodontal ligament are the:",
+       "options": [
+        "Rests of Serres",
+        "Reduced enamel epithelium",
+        "Stellate reticulum",
+        "Epithelial rests of Malassez",
+        "Tomes' processes"
+       ],
+       "answerIndex": 3,
+       "explanation": "They can give rise to radicular cysts."
+      },
+      {
+       "stem": "A supernumerary tooth between the upper central incisors is called a:",
+       "options": [
+        "Mesiodens",
+        "Distomolar",
+        "Natal tooth",
+        "Peg lateral",
+        "Paramolar"
+       ],
+       "answerIndex": 0,
+       "explanation": "It may prevent eruption of incisors."
+      },
+      {
+       "stem": "Mottled brown-stained enamel in children from high-fluoride water areas is:",
+       "options": [
+        "Tetracycline staining",
+        "Amelogenesis imperfecta",
+        "Dental fluorosis",
+        "Extrinsic stain from tea",
+        "Caries"
+       ],
+       "answerIndex": 2,
+       "explanation": "Excess fluoride disturbs enamel maturation."
+      },
+      {
+       "stem": "Notched, screwdriver-shaped incisors are a sign of:",
+       "options": [
+        "Fluorosis",
+        "Tetracycline use",
+        "Down syndrome",
+        "Congenital syphilis (Hutchinson's incisors)",
+        "Rickets"
+       ],
+       "answerIndex": 3,
+       "explanation": "Mulberry molars are another sign."
+      }
+     ]
+    },
+    {
+     "title": "Dental Hard Tissues and Pulp",
+     "order": 3,
+     "summary": "Enamel, dentine, cementum and pulp structure and composition.",
+     "material": [
+      {
+       "heading": "Enamel and dentine",
+       "body": "Enamel is the hardest tissue in the body — about 96% mineral (hydroxyapatite crystals) by weight, acellular and unable to regenerate. It consists of enamel rods (prisms) with incremental lines (striae of Retzius; the neonatal line marks birth). Acid below the critical pH (about 5.5) dissolves it; fluoride forms more resistant fluorapatite. Dentine (about 70% mineral) forms the bulk of the tooth; it is tubular — dentinal tubules contain odontoblast processes and fluid (the hydrodynamic theory explains dentine sensitivity: fluid movement stimulates nerves). Types: primary dentine (formed before root completion), secondary dentine (slowly throughout life, narrowing the pulp) and tertiary (reactionary or reparative) dentine formed in response to caries or trauma. Mantle, circumpulpal, peritubular (highly mineralised) and intertubular dentine differ in structure.",
+       "keyPoints": [
+        "Enamel ~96% mineral, cannot regenerate",
+        "Critical pH ~5.5",
+        "Fluorapatite more resistant",
+        "Dentine ~70% mineral, tubular",
+        "Hydrodynamic theory of sensitivity",
+        "Tertiary dentine: response to injury"
+       ]
+      },
+      {
+       "heading": "Cementum and pulp",
+       "body": "Cementum (about 45–50% mineral) covers the root, anchoring periodontal ligament fibres (Sharpey's fibres). Acellular (primary) cementum covers the cervical root; cellular (secondary) cementum, containing cementocytes, is found apically and increases with age and function. At the cementoenamel junction, cementum overlaps enamel in about 60% of teeth, meets it edge-to-edge in 30%, and leaves a gap in 10% (exposed dentine — sensitivity). The dental pulp is loose connective tissue with odontoblasts at its periphery, fibroblasts, blood vessels, nerves (A-delta fibres — sharp pain; C fibres — dull, poorly localised pain) and immune cells, enclosed in rigid walls — so inflammation raises pressure and can cause necrosis. Pulp stones and narrowing occur with age.",
+       "keyPoints": [
+        "Cementum: Sharpey's fibres",
+        "Acellular cervical; cellular apical",
+        "CEJ: overlap 60%, meet 30%, gap 10%",
+        "A-delta: sharp; C fibres: dull pain",
+        "Rigid pulp walls → necrosis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The hardest tissue in the human body is:",
+       "options": [
+        "Dentine",
+        "Cementum",
+        "Bone",
+        "Cartilage",
+        "Enamel"
+       ],
+       "answerIndex": 4,
+       "explanation": "About 96% mineral."
+      },
+      {
+       "stem": "Enamel begins to demineralise below a critical pH of about:",
+       "options": [
+        "7.4",
+        "6.8",
+        "5.5",
+        "3.0",
+        "8.0"
+       ],
+       "answerIndex": 2,
+       "explanation": "Acid from plaque bacteria dissolves it."
+      },
+      {
+       "stem": "Fluoride makes enamel more resistant to acid by forming:",
+       "options": [
+        "Calcium carbonate",
+        "Fluorapatite",
+        "Collagen",
+        "Dentine",
+        "Keratin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fluorapatite is less soluble."
+      },
+      {
+       "stem": "Dentine sensitivity is best explained by the:",
+       "options": [
+        "Neural theory",
+        "Chemical theory",
+        "Odontoblast death",
+        "Enamel conduction",
+        "Hydrodynamic theory (fluid movement in tubules)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Fluid shifts stimulate nerve endings."
+      },
+      {
+       "stem": "Dentine formed in response to caries or trauma is:",
+       "options": [
+        "Enamel",
+        "Mantle dentine",
+        "Secondary dentine",
+        "Primary dentine",
+        "Tertiary (reparative) dentine"
+       ],
+       "answerIndex": 4,
+       "explanation": "It protects the pulp."
+      },
+      {
+       "stem": "Periodontal ligament fibres embedded in cementum and bone are called:",
+       "options": [
+        "Tomes' fibres",
+        "Oxytalan fibres",
+        "Korff's fibres",
+        "Purkinje fibres",
+        "Sharpey's fibres"
+       ],
+       "answerIndex": 4,
+       "explanation": "They anchor the tooth."
+      },
+      {
+       "stem": "Sharp, well-localised dental pain is carried by:",
+       "options": [
+        "C fibres",
+        "Autonomic fibres",
+        "Motor fibres",
+        "A-beta fibres only",
+        "A-delta fibres"
+       ],
+       "answerIndex": 4,
+       "explanation": "C fibres transmit dull aching pain."
+      },
+      {
+       "stem": "Pulp inflammation can lead to necrosis mainly because:",
+       "options": [
+        "Enamel regenerates",
+        "Pulp lacks nerves",
+        "It is enclosed in rigid walls, so swelling raises pressure",
+        "Saliva enters it",
+        "The pulp has no blood supply"
+       ],
+       "answerIndex": 2,
+       "explanation": "Rising pressure compresses vessels."
+      }
+     ]
+    },
+    {
+     "title": "Periodontium and Oral Mucosa",
+     "order": 4,
+     "summary": "Gingiva, periodontal ligament, alveolar bone, types of oral mucosa and tooth eruption.",
+     "material": [
+      {
+       "heading": "Periodontium",
+       "body": "The periodontium supports the teeth: gingiva, periodontal ligament (PDL), cementum and alveolar bone. Gingiva: free (marginal) gingiva forming the gingival sulcus (healthy depth 0.5–3 mm), attached gingiva (firmly bound, stippled, keratinised), and interdental papillae; the junctional epithelium attaches to the tooth at the base of the sulcus. The PDL (about 0.2 mm wide) contains collagen fibre groups (alveolar crest, horizontal, oblique — the most numerous, resisting vertical forces, apical and interradicular), fibroblasts, cementoblasts, osteoblasts, epithelial rests, vessels and proprioceptive nerves; it transmits and cushions masticatory forces. Alveolar bone (lamina dura seen radiographically) remodels in response to forces — the basis of orthodontic tooth movement — and resorbs after tooth loss.",
+       "keyPoints": [
+        "Sulcus 0.5–3 mm",
+        "Junctional epithelium",
+        "PDL ~0.2 mm",
+        "Oblique fibres most numerous",
+        "Lamina dura",
+        "Bone remodelling enables orthodontics"
+       ]
+      },
+      {
+       "heading": "Oral mucosa and eruption",
+       "body": "Oral mucosa types: masticatory (keratinised, bound down — gingiva and hard palate), lining (non-keratinised, mobile — cheeks, lips, floor of mouth, soft palate, ventral tongue; sites of rapid absorption such as sublingual drugs) and specialised (dorsum of tongue with papillae — filiform (most numerous, no taste buds), fungiform, circumvallate (8–12, with taste buds, in front of the sulcus terminalis) and foliate). Tooth eruption involves movement of the tooth from its crypt into function: pre-eruptive, eruptive (intraosseous and mucosal penetration phases) and post-eruptive stages; the dental follicle drives bone resorption above and formation below. Teething may cause mild irritability and drooling but not high fever or diarrhoea — these need investigation for other causes.",
+       "keyPoints": [
+        "Masticatory: keratinised",
+        "Lining: non-keratinised",
+        "Filiform papillae: no taste buds",
+        "Circumvallate: 8–12",
+        "Follicle drives eruption",
+        "Teething does not cause high fever"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The healthy gingival sulcus depth is about:",
+       "options": [
+        "0.5–3 mm",
+        "5–7 mm",
+        "8–10 mm",
+        "10–15 mm",
+        "0 mm"
+       ],
+       "answerIndex": 0,
+       "explanation": "Deeper pockets indicate periodontal disease."
+      },
+      {
+       "stem": "The most numerous periodontal ligament fibre group, resisting vertical forces, is the:",
+       "options": [
+        "Alveolar crest group",
+        "Horizontal group",
+        "Apical group",
+        "Interradicular group",
+        "Oblique group"
+       ],
+       "answerIndex": 4,
+       "explanation": "They suspend the tooth in its socket."
+      },
+      {
+       "stem": "The radiopaque line of bone lining the tooth socket on radiographs is the:",
+       "options": [
+        "Periosteum",
+        "Enamel",
+        "Cementum",
+        "Lamina dura",
+        "Lamina propria"
+       ],
+       "answerIndex": 3,
+       "explanation": "Its loss can indicate pathology."
+      },
+      {
+       "stem": "The epithelium that attaches the gingiva to the tooth surface is the:",
+       "options": [
+        "Reduced enamel epithelium only",
+        "Sulcular epithelium",
+        "Junctional epithelium",
+        "Oral epithelium",
+        "Stratified keratinised"
+       ],
+       "answerIndex": 2,
+       "explanation": "It forms the base of the sulcus."
+      },
+      {
+       "stem": "Masticatory mucosa is found on the:",
+       "options": [
+        "Cheek",
+        "Soft palate",
+        "Floor of mouth",
+        "Hard palate and gingiva",
+        "Ventral tongue"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is keratinised and bound down."
+      },
+      {
+       "stem": "The most numerous tongue papillae, which lack taste buds, are:",
+       "options": [
+        "Circumvallate",
+        "Foliate",
+        "Filiform",
+        "Fungiform",
+        "Lingual tonsils"
+       ],
+       "answerIndex": 2,
+       "explanation": "They give the tongue its rough texture."
+      },
+      {
+       "stem": "Orthodontic tooth movement is possible because:",
+       "options": [
+        "PDL is absent",
+        "Cementum dissolves completely",
+        "Enamel remodels",
+        "Teeth grow continuously",
+        "Alveolar bone remodels in response to force"
+       ],
+       "answerIndex": 4,
+       "explanation": "Resorption and deposition occur on pressure and tension sides."
+      },
+      {
+       "stem": "A teething infant with high fever and diarrhoea should:",
+       "options": [
+        "Be reassured that teething is the cause",
+        "Receive teething powders only",
+        "Be given antibiotics routinely",
+        "Be assessed for another illness such as malaria or infection",
+        "Have teeth extracted"
+       ],
+       "answerIndex": 3,
+       "explanation": "Teething does not cause high fever."
+      }
+     ]
+    },
+    {
+     "title": "Saliva and Occlusion",
+     "order": 5,
+     "summary": "Salivary glands, composition and functions of saliva, and basic occlusion and TMJ.",
+     "material": [
+      {
+       "heading": "Saliva",
+       "body": "Major salivary glands: parotid (serous, duct opens opposite the upper second molar — Stensen's duct), submandibular (mixed, mainly serous; produces most unstimulated saliva; Wharton's duct opens at the sublingual papilla; most common site of salivary stones) and sublingual (mainly mucous). Minor glands are distributed throughout the mucosa. About 0.5–1.5 litres are produced daily; normal unstimulated flow is about 0.3–0.4 mL/min. Saliva is 99% water with electrolytes, bicarbonate (buffer), mucins, amylase (starch digestion), lipase, antimicrobial proteins (lysozyme, lactoferrin, histatins, secretory IgA), statherin (calcium binding) and growth factors. Functions: lubrication, digestion, taste, buffering acid, remineralisation, antimicrobial defence and clearance. Xerostomia (dry mouth) from drugs, radiotherapy or Sjögren's syndrome greatly increases caries risk. Parasympathetic stimulation increases watery saliva.",
+       "keyPoints": [
+        "Parotid: Stensen's duct opposite upper 7",
+        "Submandibular: most unstimulated saliva, stones",
+        "0.5–1.5 L/day",
+        "Bicarbonate buffers",
+        "Xerostomia ↑ caries"
+       ]
+      },
+      {
+       "heading": "Occlusion and TMJ",
+       "body": "Occlusion is the contact relationship of upper and lower teeth. Angle's classification uses the first molars: Class I (mesiobuccal cusp of the upper first molar occludes in the buccal groove of the lower first molar — normal), Class II (lower molar distal — retrognathic; Division 1 proclined upper incisors, Division 2 retroclined), Class III (lower molar mesial — prognathic). Normal overjet (horizontal overlap) and overbite (vertical overlap) are about 2–4 mm. Intercuspal position is maximum intercuspation; centric relation is a reproducible condylar position. The temporomandibular joint (TMJ) is a synovial joint with an articular disc; opening involves rotation then translation; temporomandibular disorders cause pain, clicking and limited opening. Muscles of mastication: masseter, temporalis, medial and lateral pterygoids (lateral pterygoid opens and protrudes).",
+       "keyPoints": [
+        "Angle Class I, II, III",
+        "Overjet/overbite ~2–4 mm",
+        "TMJ: rotation then translation",
+        "Lateral pterygoid opens jaw",
+        "TMD: pain, clicking"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The parotid duct opens opposite the:",
+       "options": [
+        "Upper canine",
+        "Floor of the mouth",
+        "Upper second molar",
+        "Lower incisors",
+        "Tongue tip"
+       ],
+       "answerIndex": 2,
+       "explanation": "Stensen's duct opens on the cheek."
+      },
+      {
+       "stem": "Most unstimulated (resting) saliva is produced by the:",
+       "options": [
+        "Lacrimal gland",
+        "Minor glands",
+        "Sublingual gland",
+        "Parotid gland",
+        "Submandibular gland"
+       ],
+       "answerIndex": 4,
+       "explanation": "It contributes about two-thirds at rest."
+      },
+      {
+       "stem": "The most common site of salivary stones is the:",
+       "options": [
+        "Minor glands",
+        "Parotid gland",
+        "Submandibular gland",
+        "Sublingual gland",
+        "Tonsil"
+       ],
+       "answerIndex": 2,
+       "explanation": "Its long upward duct and mucous saliva favour stones."
+      },
+      {
+       "stem": "The main buffer in saliva is:",
+       "options": [
+        "Bicarbonate",
+        "Urea",
+        "Phosphate",
+        "Amylase",
+        "Mucin"
+       ],
+       "answerIndex": 0,
+       "explanation": "It neutralises plaque acids."
+      },
+      {
+       "stem": "Patients with xerostomia are at increased risk of:",
+       "options": [
+        "Fluorosis",
+        "Dental caries",
+        "Tooth eruption",
+        "Hyperdontia",
+        "Gingival overgrowth"
+       ],
+       "answerIndex": 1,
+       "explanation": "Reduced saliva loses buffering and clearance."
+      },
+      {
+       "stem": "In Angle's Class I occlusion, the mesiobuccal cusp of the upper first molar occludes:",
+       "options": [
+        "With no contact",
+        "In the buccal groove of the lower first molar",
+        "Mesial to the lower molar",
+        "On the lower premolar",
+        "Distal to the lower molar"
+       ],
+       "answerIndex": 1,
+       "explanation": "This is the normal molar relationship."
+      },
+      {
+       "stem": "A prognathic mandible with lower molars positioned mesially is Angle's:",
+       "options": [
+        "Class II Division 2",
+        "Class III",
+        "Class I",
+        "Class II Division 1",
+        "Class IV"
+       ],
+       "answerIndex": 1,
+       "explanation": "The lower jaw is forward."
+      },
+      {
+       "stem": "The muscle of mastication that opens and protrudes the jaw is the:",
+       "options": [
+        "Medial pterygoid",
+        "Temporalis",
+        "Buccinator",
+        "Lateral pterygoid",
+        "Masseter"
+       ],
+       "answerIndex": 3,
+       "explanation": "The others mainly close the jaw."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

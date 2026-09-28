@@ -1,0 +1,662 @@
+{
+ "courses": [
+  {
+   "title": "Community-Based Rehabilitation and Professional Practice",
+   "code": "PTH503",
+   "color": "#0F766E",
+   "description": "Disability and rehabilitation in Nigeria, community-based rehabilitation, assistive technology, occupational and women's health physiotherapy, and physiotherapy ethics, law and practice management.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Disability and Rehabilitation in Nigeria",
+     "order": 1,
+     "summary": "Models of disability, prevalence, the Disability Act 2018 and rights-based approaches.",
+     "material": [
+      {
+       "heading": "Models and burden",
+       "body": "Disability results from the interaction between people with impairments and attitudinal and environmental barriers (UN Convention on the Rights of Persons with Disabilities — CRPD, 2006). Models: medical model (disability as an individual problem to be cured), social model (disability created by society's barriers — inaccessible buildings, transport, attitudes), and the biopsychosocial ICF model integrating both. WHO estimates about 15–16% of the world's population has a disability; in Nigeria, estimates suggest over 25 million people with disabilities, arising from stroke, trauma (road crashes, conflict), cerebral palsy, polio sequelae, leprosy, blindness, amputation (diabetes, trauma, bone-setter gangrene), and ageing. People with disabilities face poverty, exclusion from education and employment, stigma (including beliefs about curses) and poor access to health and rehabilitation services, which are concentrated in cities.",
+       "keyPoints": [
+        "CRPD 2006",
+        "Medical vs social model",
+        "ICF biopsychosocial",
+        "~15% globally",
+        "> 25 million in Nigeria",
+        "Stigma and exclusion"
+       ]
+      },
+      {
+       "heading": "Law and policy",
+       "body": "The Discrimination Against Persons with Disabilities (Prohibition) Act 2018 prohibits discrimination, requires accessibility of public buildings and transport (with a five-year transition period), provides for education, health care, employment (at least 5% of public sector jobs reserved for persons with disabilities) and established the National Commission for Persons with Disabilities (NCPWD). Nigeria ratified the CRPD in 2007. Rehabilitation (WHO: a set of interventions designed to optimise functioning and reduce disability in individuals with health conditions in interaction with their environment) is a core health service within universal health coverage — WHO's 'Rehabilitation 2030' call for action. Barriers in Nigeria: few rehabilitation professionals (physiotherapists, occupational therapists, speech therapists, prosthetists and orthotists), out-of-pocket costs, poor referral and limited community services.",
+       "keyPoints": [
+        "Disability Act 2018",
+        "5% public jobs",
+        "NCPWD",
+        "CRPD ratified 2007",
+        "Rehabilitation 2030",
+        "Workforce shortage"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The social model of disability views disability as caused mainly by:",
+       "options": [
+        "Individual impairment only",
+        "Lack of medication",
+        "Genetics only",
+        "Spiritual forces",
+        "Barriers in society and the environment"
+       ],
+       "answerIndex": 4,
+       "explanation": "Removing barriers enables participation."
+      },
+      {
+       "stem": "The international treaty protecting the rights of persons with disabilities is the:",
+       "options": [
+        "UN Convention on the Rights of Persons with Disabilities (CRPD)",
+        "Paris Agreement",
+        "Geneva Convention",
+        "Ottawa Charter",
+        "Alma-Ata Declaration"
+       ],
+       "answerIndex": 0,
+       "explanation": "Adopted in 2006."
+      },
+      {
+       "stem": "About what proportion of the world's population has a disability (WHO)?",
+       "options": [
+        "1%",
+        "5%",
+        "15–16%",
+        "40%",
+        "60%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Over a billion people."
+      },
+      {
+       "stem": "Nigeria's disability anti-discrimination law was enacted in:",
+       "options": [
+        "1999",
+        "2007",
+        "2018",
+        "2022",
+        "2014"
+       ],
+       "answerIndex": 2,
+       "explanation": "The Discrimination Against Persons with Disabilities (Prohibition) Act."
+      },
+      {
+       "stem": "Under the 2018 Act, the proportion of public sector jobs reserved for persons with disabilities is at least:",
+       "options": [
+        "1%",
+        "5%",
+        "10%",
+        "25%",
+        "50%"
+       ],
+       "answerIndex": 1,
+       "explanation": "It promotes employment inclusion."
+      },
+      {
+       "stem": "The body established by the 2018 Act to oversee disability matters is the:",
+       "options": [
+        "National Commission for Persons with Disabilities",
+        "NAFDAC",
+        "NPHCDA",
+        "NCDC",
+        "NHIA"
+       ],
+       "answerIndex": 0,
+       "explanation": "NCPWD."
+      },
+      {
+       "stem": "The WHO initiative calling for scaling up rehabilitation within health systems is:",
+       "options": [
+        "Vision 2020",
+        "Rehabilitation 2030",
+        "HEARTS",
+        "Stop TB",
+        "Roll Back Malaria"
+       ],
+       "answerIndex": 1,
+       "explanation": "It launched in 2017."
+      },
+      {
+       "stem": "A major barrier to rehabilitation in Nigeria is:",
+       "options": [
+        "Few rehabilitation professionals and out-of-pocket costs",
+        "Low disability prevalence",
+        "Excess funding",
+        "Too many physiotherapists",
+        "Free universal rehabilitation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Services are concentrated in cities."
+      }
+     ]
+    },
+    {
+     "title": "Community-Based Rehabilitation",
+     "order": 2,
+     "summary": "CBR principles, the CBR matrix, community workers and inclusive development.",
+     "material": [
+      {
+       "heading": "CBR principles",
+       "body": "Community-based rehabilitation (CBR — now community-based inclusive development, CBID) is a strategy within general community development for rehabilitation, equalisation of opportunities, poverty reduction and social inclusion of people with disabilities, implemented through the combined efforts of people with disabilities, their families, communities, and health, education, vocational and social services (WHO, ILO, UNESCO). The CBR matrix has five components: health (promotion, prevention, medical care, rehabilitation, assistive devices), education (early childhood, primary, secondary, non-formal, lifelong learning), livelihood (skills development, self-employment, wage employment, financial services, social protection), social (personal assistance, relationships, culture and arts, recreation and sports, justice) and empowerment (advocacy, community mobilisation, political participation, self-help groups, disabled people's organisations — DPOs). Principles: participation, inclusion, empowerment, self-advocacy, accessibility, sustainability and equal opportunity.",
+       "keyPoints": [
+        "CBR → CBID",
+        "WHO, ILO, UNESCO",
+        "Five components: health, education, livelihood, social, empowerment",
+        "DPOs and self-help groups",
+        "Participation and inclusion"
+       ]
+      },
+      {
+       "heading": "Implementation",
+       "body": "CBR in Nigeria and Africa relies on community rehabilitation workers or volunteers trained to identify people with disabilities, provide basic therapy and home programmes, teach families, make simple assistive devices from local materials (e.g. walking frames, standing frames, adapted seats), refer to specialist services, and link people to schools and livelihood programmes. Physiotherapists act as trainers, supervisors, consultants and advocates. Home visits allow assessment of the environment and practical adaptations (ramps, grab rails, accessible toilets). Examples: rehabilitation of people after stroke at home, children with cerebral palsy (parent groups), leprosy self-care groups, and post-polio support. Challenges: sustainability and funding, volunteer retention, integration with government services, and measuring outcomes. Telerehabilitation (phone and video follow-up) extends reach, especially since COVID-19.",
+       "keyPoints": [
+        "Community rehabilitation workers",
+        "Local assistive devices",
+        "Physiotherapist as trainer and advocate",
+        "Home adaptations",
+        "Parent groups; self-care groups",
+        "Telerehabilitation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which is NOT one of the five components of the CBR matrix?",
+       "options": [
+        "Education",
+        "Military",
+        "Health",
+        "Livelihood",
+        "Empowerment"
+       ],
+       "answerIndex": 1,
+       "explanation": "The fifth is social."
+      },
+      {
+       "stem": "The international agencies that jointly developed CBR guidelines include WHO, UNESCO and:",
+       "options": [
+        "FIFA",
+        "ILO",
+        "World Bank only",
+        "NATO",
+        "OPEC"
+       ],
+       "answerIndex": 1,
+       "explanation": "The International Labour Organization covers livelihoods."
+      },
+      {
+       "stem": "Disabled people's organisations and self-help groups fall under the CBR component of:",
+       "options": [
+        "Education",
+        "Empowerment",
+        "Medical care",
+        "Livelihood",
+        "Health"
+       ],
+       "answerIndex": 1,
+       "explanation": "They support advocacy and participation."
+      },
+      {
+       "stem": "A key role of physiotherapists in CBR is:",
+       "options": [
+        "Performing surgery",
+        "Building roads",
+        "Running banks",
+        "Training and supervising community workers and families",
+        "Prescribing all medications"
+       ],
+       "answerIndex": 3,
+       "explanation": "They multiply their reach."
+      },
+      {
+       "stem": "Making standing frames from bamboo or wood in a village is an example of:",
+       "options": [
+        "Appropriate local assistive technology",
+        "Medication",
+        "Surgical care",
+        "Harmful practice",
+        "Expensive technology"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is affordable and repairable."
+      },
+      {
+       "stem": "Home visits in CBR allow physiotherapists to:",
+       "options": [
+        "Avoid contact with families",
+        "Sell equipment",
+        "Assess and adapt the home environment",
+        "Prescribe antibiotics",
+        "Replace hospital care completely"
+       ],
+       "answerIndex": 2,
+       "explanation": "E.g. ramps and grab rails."
+      },
+      {
+       "stem": "CBR is now often called:",
+       "options": [
+        "Community-based inclusive development",
+        "Medical rehabilitation only",
+        "Institutional care",
+        "Private rehabilitation",
+        "Hospital-based rehabilitation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Emphasising inclusion across sectors."
+      },
+      {
+       "stem": "A major challenge of CBR programmes is:",
+       "options": [
+        "Excess professionals",
+        "Sustainability and volunteer retention",
+        "Too much funding",
+        "Lack of disability",
+        "Too much government support"
+       ],
+       "answerIndex": 1,
+       "explanation": "Integration with government services helps."
+      }
+     ]
+    },
+    {
+     "title": "Assistive Technology, Prosthetics and Orthotics",
+     "order": 3,
+     "summary": "Mobility aids, wheelchairs, prostheses and orthoses, and amputee rehabilitation.",
+     "material": [
+      {
+       "heading": "Mobility aids and wheelchairs",
+       "body": "Assistive technology maintains or improves functioning and independence; WHO estimates only about 1 in 10 people who need assistive products have access in low-income settings. Walking aids: walking sticks (held in the hand opposite the affected leg; handle at the level of the wrist crease/greater trochanter), crutches (axillary — top 2–3 finger-breadths below the axilla, weight through the hands; elbow crutches), and frames (for maximum stability). Gait patterns with crutches: non-weight-bearing (three-point), partial weight-bearing, four-point and two-point, swing-to and swing-through. Stairs: 'up with the good, down with the bad' (the crutches move with the affected leg going down). Wheelchairs must be appropriately sized and prescribed (WHO Wheelchair Service Training Package — assessment, prescription, fitting, user training, follow-up), with pressure-relieving cushions for users with spinal cord injury. Rough terrain wheelchairs suit rural Nigerian environments. Other assistive products: hearing aids, spectacles, communication aids and adapted utensils.",
+       "keyPoints": [
+        "1 in 10 access (WHO)",
+        "Stick in opposite hand",
+        "Crutch top 2–3 fingers below axilla",
+        "Up with the good, down with the bad",
+        "WHO wheelchair service steps",
+        "Pressure-relieving cushions"
+       ]
+      },
+      {
+       "heading": "Prosthetics, orthotics and amputees",
+       "body": "Amputations in Nigeria commonly result from diabetic foot disease, trauma (road crashes, gunshot, explosions), gangrene after traditional bone setting, peripheral arterial disease and tumours. Amputee rehabilitation: pre-operative counselling, postoperative care — stump (residual limb) shaping with elastic bandaging (figure-of-eight, tighter distally) or shrinker socks, prevention of contractures (below-knee — avoid knee flexion; above-knee — avoid hip flexion and abduction; lie prone), strengthening, mobility training, phantom limb sensation and pain management (mirror therapy, desensitisation, medication), and early walking aids (pneumatic post-amputation mobility aids). Prosthetic fitting: socket (patellar tendon bearing for transtibial), pylon, foot (e.g. SACH foot); prosthetic gait training. Orthoses: ankle–foot orthoses (foot drop, spasticity), knee–ankle–foot orthoses (polio sequelae), spinal braces, splints for burns and hand injuries. Cost and limited prosthetic services (few prosthetists and orthotists — e.g. National Orthopaedic Hospitals) are major barriers; low-cost technologies (e.g. polypropylene, ICRC technology) help.",
+       "keyPoints": [
+        "Causes: diabetes, trauma, bone setter gangrene",
+        "Stump bandaging: tighter distally",
+        "Prevent contractures: lie prone",
+        "Phantom limb pain: mirror therapy",
+        "PTB socket, SACH foot",
+        "KAFO for polio"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A walking stick for a patient with right knee pain should be held in the:",
+       "options": [
+        "Both hands",
+        "Either hand",
+        "Left hand",
+        "Neither hand",
+        "Right hand"
+       ],
+       "answerIndex": 2,
+       "explanation": "It widens the base of support on the opposite side."
+      },
+      {
+       "stem": "The top of an axillary crutch should be about:",
+       "options": [
+        "At the shoulder",
+        "At the elbow",
+        "At the waist",
+        "2–3 finger-breadths below the axilla",
+        "Pressed into the axilla"
+       ],
+       "answerIndex": 3,
+       "explanation": "Weight is borne through the hands to protect axillary nerves."
+      },
+      {
+       "stem": "When climbing stairs with crutches, the patient leads with:",
+       "options": [
+        "Both legs together",
+        "The affected leg",
+        "Any leg",
+        "The crutches",
+        "The good leg"
+       ],
+       "answerIndex": 4,
+       "explanation": "'Up with the good, down with the bad'."
+      },
+      {
+       "stem": "According to WHO, in low-income settings about how many people who need assistive products have access?",
+       "options": [
+        "None",
+        "5 in 10",
+        "1 in 10",
+        "All",
+        "9 in 10"
+       ],
+       "answerIndex": 2,
+       "explanation": "Access is very limited."
+      },
+      {
+       "stem": "Stump bandaging after amputation should be:",
+       "options": [
+        "Circular and tight at the top",
+        "Tighter distally in a figure-of-eight pattern",
+        "Tighter proximally",
+        "Loose everywhere",
+        "Avoided"
+       ],
+       "answerIndex": 1,
+       "explanation": "This shapes the residual limb and avoids a tourniquet effect."
+      },
+      {
+       "stem": "To prevent hip flexion contracture after above-knee amputation, the patient should:",
+       "options": [
+        "Keep the hip abducted",
+        "Sit all day",
+        "Avoid exercise",
+        "Place a pillow under the stump",
+        "Lie prone for periods daily"
+       ],
+       "answerIndex": 4,
+       "explanation": "Prone lying stretches the hip flexors."
+      },
+      {
+       "stem": "Mirror therapy is used to manage:",
+       "options": [
+        "Diabetes",
+        "Wound dehiscence",
+        "Phantom limb pain",
+        "Hypertension",
+        "Stump infection"
+       ],
+       "answerIndex": 2,
+       "explanation": "Visual feedback reduces pain."
+      },
+      {
+       "stem": "Knee–ankle–foot orthoses are commonly used by people with:",
+       "options": [
+        "Tennis elbow",
+        "Lower limb weakness from polio sequelae",
+        "Carpal tunnel syndrome",
+        "Asthma",
+        "Neck pain"
+       ],
+       "answerIndex": 1,
+       "explanation": "They stabilise the knee and ankle."
+      }
+     ]
+    },
+    {
+     "title": "Occupational and Women's Health Physiotherapy",
+     "order": 4,
+     "summary": "Ergonomics and work-related disorders, antenatal and postnatal care, pelvic floor and continence.",
+     "material": [
+      {
+       "heading": "Occupational health",
+       "body": "Work-related musculoskeletal disorders (WMSDs) are common among Nigerian workers: farmers (low back pain from bending and carrying), traders and head-load carriers (neck pain), artisans, drivers, office workers (neck and shoulder pain from computer use), and health workers (nurses and physiotherapists — back injuries from patient handling). Ergonomics fits the task to the worker: workstation adjustment (screen at eye level, feet flat, elbows at 90°, lumbar support), manual handling principles (assess the load, keep it close to the body, bend knees not the back, avoid twisting, use aids and team lifting), job rotation, rest breaks and exercise programmes. Physiotherapists perform workplace assessments, pre-employment screening, injury prevention education, rehabilitation and return-to-work programmes (graded work). Workers' compensation in Nigeria is covered by the Employee's Compensation Act 2010.",
+       "keyPoints": [
+        "WMSDs common",
+        "Workstation: screen at eye level",
+        "Manual handling: keep load close",
+        "Job rotation and breaks",
+        "Return-to-work programmes",
+        "Employee's Compensation Act 2010"
+       ]
+      },
+      {
+       "heading": "Women's health",
+       "body": "Pregnancy: common complaints include pelvic girdle pain, low back pain, carpal tunnel syndrome and diastasis recti; safe antenatal exercise (at least 150 minutes of moderate activity per week for uncomplicated pregnancies — walking, swimming; avoid supine exercise after about 16 weeks, contact sports and overheating), pelvic floor muscle training, and antenatal classes (breathing and relaxation, positions for labour). Contraindications include ruptured membranes, pre-eclampsia, placenta praevia after 26 weeks, and cervical insufficiency. Postnatal: pelvic floor training, diastasis recti assessment and exercises, posture and lifting advice, return to exercise, and management of perineal pain. Urinary incontinence (stress — pelvic floor muscle training is first-line, supervised for at least 3 months; urge — bladder training), pelvic organ prolapse (pelvic floor training, lifestyle advice), and rehabilitation after obstetric fistula repair (pelvic floor exercises) and after breast cancer surgery (shoulder range, lymphoedema management — manual lymphatic drainage, compression, exercise, skin care).",
+       "keyPoints": [
+        "Antenatal exercise 150 min/week",
+        "Avoid supine after ~16 weeks",
+        "Pelvic floor muscle training",
+        "Stress incontinence: PFMT 3 months",
+        "Post-fistula rehabilitation",
+        "Lymphoedema after breast cancer"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A correct manual handling principle is to:",
+       "options": [
+        "Keep the load close to the body and bend the knees",
+        "Lift heavy loads quickly alone",
+        "Twist while lifting",
+        "Bend the back with straight legs",
+        "Hold the load at arm's length"
+       ],
+       "answerIndex": 0,
+       "explanation": "This reduces spinal loading."
+      },
+      {
+       "stem": "For computer workstation ergonomics, the top of the screen should be at about:",
+       "options": [
+        "Eye level",
+        "Waist level",
+        "On the floor",
+        "Knee level",
+        "Above the head"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces neck flexion."
+      },
+      {
+       "stem": "The Nigerian law providing compensation for work-related injuries is the:",
+       "options": [
+        "Disability Act 2018",
+        "National Health Act 2014",
+        "Factories Act only",
+        "Employee's Compensation Act 2010",
+        "Labour Act 1974 only"
+       ],
+       "answerIndex": 3,
+       "explanation": "It covers occupational injuries and diseases."
+      },
+      {
+       "stem": "Healthy pregnant women are recommended to exercise at moderate intensity for about:",
+       "options": [
+        "10 hours per day",
+        "No exercise",
+        "150 minutes per week",
+        "10 minutes per week",
+        "Only in the first trimester"
+       ],
+       "answerIndex": 2,
+       "explanation": "Unless contraindicated."
+      },
+      {
+       "stem": "After about 16 weeks of pregnancy, women should avoid prolonged exercise in which position?",
+       "options": [
+        "Walking",
+        "Side-lying",
+        "Standing",
+        "Sitting",
+        "Supine (lying on the back)"
+       ],
+       "answerIndex": 4,
+       "explanation": "It can compress the inferior vena cava."
+      },
+      {
+       "stem": "First-line treatment for stress urinary incontinence in women is:",
+       "options": [
+        "Bed rest",
+        "Catheterisation",
+        "Fluid restriction only",
+        "Supervised pelvic floor muscle training for at least 3 months",
+        "Surgery"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is highly effective."
+      },
+      {
+       "stem": "Separation of the rectus abdominis muscles during or after pregnancy is:",
+       "options": [
+        "Diastasis recti",
+        "Prolapse",
+        "Pelvic girdle pain",
+        "Hernia",
+        "Fistula"
+       ],
+       "answerIndex": 0,
+       "explanation": "Specific exercises help recovery."
+      },
+      {
+       "stem": "Lymphoedema after breast cancer surgery is managed with:",
+       "options": [
+        "Complete arm rest",
+        "Hot compresses",
+        "Blood pressure cuffs on that arm",
+        "Tight jewellery",
+        "Manual lymphatic drainage, compression, exercise and skin care"
+       ],
+       "answerIndex": 4,
+       "explanation": "Decongestive therapy reduces swelling."
+      }
+     ]
+    },
+    {
+     "title": "Professional Practice, Ethics and Management in Physiotherapy",
+     "order": 5,
+     "summary": "MRTB regulation, ethics and consent, documentation, evidence-based practice and private practice.",
+     "material": [
+      {
+       "heading": "Regulation and ethics",
+       "body": "The Medical Rehabilitation Therapists (Registration) Board of Nigeria (MRTB), established by Decree 38 of 1988, registers and regulates physiotherapists, occupational therapists, speech therapists, audiologists and prosthetists/orthotists; it approves training programmes, conducts professional examinations, issues annual practising licences and disciplines misconduct. The Nigeria Society of Physiotherapy (NSP) is the professional association (member of World Physiotherapy). Physiotherapy education in Nigeria has moved to the Doctor of Physiotherapy (DPT) degree in many universities. Nigerian physiotherapists practise as first-contact (autonomous) practitioners in many settings. Ethical principles: autonomy (informed consent for assessment and treatment, including manual therapy and intimate examinations — chaperones), beneficence, non-maleficence, justice, confidentiality, and professional boundaries. Misconduct includes practising without a licence, sexual misconduct, false claims, and treating beyond competence. Continuing professional development is required for licence renewal.",
+       "keyPoints": [
+        "MRTB (1988)",
+        "Annual licence; CPD",
+        "NSP professional association",
+        "DPT degree",
+        "First-contact practitioners",
+        "Consent; chaperones"
+       ]
+      },
+      {
+       "heading": "Documentation, EBP and management",
+       "body": "Documentation follows SOAP (Subjective, Objective, Assessment, Plan) or problem-oriented medical records, with outcome measures recorded to show progress; notes must be accurate, timely, legible and signed — they are legal documents. Evidence-based practice combines research evidence (databases such as PEDro — Physiotherapy Evidence Database with PEDro scale ratings of RCT quality), clinical expertise and patient values; clinical practice guidelines guide care (e.g. low back pain — education and exercise over passive modalities). Electrophysical agents (ultrasound, TENS, interferential, shortwave diathermy) should be used selectively with evidence, observing contraindications (e.g. over malignancy, pregnant uterus, pacemakers for some agents, impaired sensation). Service management: planning, budgeting, staffing, quality improvement (audit), outcome measurement, marketing and patient satisfaction. Private practice requires business planning, registration of premises, record-keeping, pricing and insurance; health insurance coverage of physiotherapy is limited in Nigeria. Interprofessional collaboration and referral pathways improve patient outcomes.",
+       "keyPoints": [
+        "SOAP notes",
+        "Record outcome measures",
+        "PEDro database",
+        "Guidelines favour active treatment",
+        "EPA contraindications",
+        "Private practice management"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The body that registers and licenses physiotherapists in Nigeria is the:",
+       "options": [
+        "PCN",
+        "MDCN",
+        "Medical Rehabilitation Therapists (Registration) Board",
+        "NMCN",
+        "MLSCN"
+       ],
+       "answerIndex": 2,
+       "explanation": "MRTB was established in 1988."
+      },
+      {
+       "stem": "The professional association of physiotherapists in Nigeria is the:",
+       "options": [
+        "NMA",
+        "PSN",
+        "NANNM",
+        "Nigeria Society of Physiotherapy",
+        "MRTB"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a member of World Physiotherapy."
+      },
+      {
+       "stem": "The entry-level physiotherapy degree now offered in many Nigerian universities is the:",
+       "options": [
+        "PhD only",
+        "Doctor of Physiotherapy (DPT)",
+        "Diploma only",
+        "Certificate",
+        "Master of Surgery"
+       ],
+       "answerIndex": 1,
+       "explanation": "It emphasises clinical competence."
+      },
+      {
+       "stem": "Before performing an intimate examination, a physiotherapist should:",
+       "options": [
+        "Examine quickly",
+        "Avoid documentation",
+        "Ask only the family",
+        "Proceed without explanation",
+        "Obtain informed consent and offer a chaperone"
+       ],
+       "answerIndex": 4,
+       "explanation": "This protects patient dignity and the therapist."
+      },
+      {
+       "stem": "In SOAP notes, 'O' refers to:",
+       "options": [
+        "Opinion",
+        "Outcome",
+        "Observation by family",
+        "Objective findings",
+        "Orders"
+       ],
+       "answerIndex": 3,
+       "explanation": "Measurements and examination results."
+      },
+      {
+       "stem": "The database dedicated to physiotherapy research with quality ratings of trials is:",
+       "options": [
+        "PEDro",
+        "Google",
+        "PubMed only",
+        "DHIS2",
+        "Cochrane only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Physiotherapy Evidence Database."
+      },
+      {
+       "stem": "Current guidelines for non-specific low back pain favour:",
+       "options": [
+        "Prolonged bed rest",
+        "Opioids for all",
+        "Education and exercise",
+        "Passive modalities alone",
+        "Routine imaging"
+       ],
+       "answerIndex": 2,
+       "explanation": "Active approaches improve outcomes."
+      },
+      {
+       "stem": "Therapeutic ultrasound should generally not be applied over:",
+       "options": [
+        "Healthy muscle",
+        "A healed scar",
+        "Tendons",
+        "A malignant tumour or the pregnant uterus",
+        "The thigh of a healthy adult"
+       ],
+       "answerIndex": 3,
+       "explanation": "These are contraindications."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

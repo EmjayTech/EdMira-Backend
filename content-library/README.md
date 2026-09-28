@@ -16,11 +16,11 @@ department and level a student can pick at sign-up (see
   400 Level; clinical postings at 500–600 Level, with the professional courses of
   each programme (pharmacy, nursing, MLS, radiography, physiotherapy, public
   health, dentistry, biomedical engineering) at their own levels.
+- Postgraduate programmes are not covered yet — the app shows postgraduate
+  students a “coming soon” note and lets them browse every course.
 - One course serves every programme that studies it: e.g. *Gross Anatomy I* is
   “for” 200 Level MBBS, BDS, Nursing, Physiotherapy, Radiography, Anatomy …
   (audience rules, no school filter because the national curriculum is shared).
-- Postgraduate students (M.Sc., M.Phil., Ph.D.) get research-methods courses in
-  every department.
 
 ## Files
 

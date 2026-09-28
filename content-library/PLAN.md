@@ -66,90 +66,87 @@ BASIC200 = MBBS BDS CM ANA PHS BCH PHA NUR PT RAD MLS HAE PHM BME OTH
 - [x] 300-rad-equip Imaging Equipment & Image Production — RAD 300, BME 400
 - [x] 300-pt-biomech Biomechanics & Kinesiology — PT 300, BME 300
 - [x] 300-pt-exercise Therapeutic Exercise & Electrotherapy — PT 300
-- [x] 300-ph-epid Epidemiology — PH 300, MBBS CM 400, NUR 400, PG *
+- [x] 300-ph-epid Epidemiology — PH 300, MBBS CM 400, NUR 400
 - [x] 300-ph-env Environmental & Occupational Health — PH 300, MBBS CM 500
 - [x] 300-bme-instr Medical Instrumentation & Biosensors — BME 300, 400
 - [x] 300-bme-materials Biomaterials — BME 300, 400
 
 ## 400 Level
-- [ ] 400-path-general General Pathology — MBBS BDS CM MLS HAE OTH 400
-- [ ] 400-path-haem Clinical Haematology & Blood Transfusion — MBBS BDS CM HAE MLS 400
-- [ ] 400-path-micro Medical Microbiology & Parasitology — MBBS BDS CM MLS PH 400
-- [ ] 400-path-chem Chemical Pathology — MBBS BDS CM MLS BCH 400
-- [ ] 400-pha-systemic Systemic Pharmacology — MBBS BDS CM PHA PHM NUR OTH 400
-- [ ] 400-pha-chemo Chemotherapy — MBBS BDS CM PHA PHM NUR 400
-- [ ] 400-clin-intro Introduction to Clinical Medicine — MBBS BDS CM 400
-- [ ] 400-cm-phc Community Medicine I: Health Systems & PHC — MBBS CM BDS PH NUR OTH 400
-- [ ] 400-ethics Medical Ethics, Law & Professionalism — MBBS CM BDS 400-600; PHM NUR 500
-- [ ] 400-pio-cardioex Cardiopulmonary & Exercise Physiology — PHS PT 400
-- [ ] 400-ana-surface Surface & Radiological Anatomy — ANA PT RAD 400
-- [ ] 400-bch-clinical Clinical Biochemistry & Enzymology — BCH 400, PHA 400
-- [ ] 400-pha-tox Toxicology — PHA BCH PH 400, PHM 500
-- [ ] 400-phm-therapeutics Pharmacotherapy I — PHM 400, 500
-- [ ] 400-phm-analysis Pharmaceutical Analysis & QC — PHM 400
-- [ ] 400-phm-tech Biopharmaceutics & Pharmacokinetics — PHM 400, 500
-- [ ] 400-nsc-maternal Maternal & Child Health Nursing — NUR 400, SON 300
-- [ ] 400-nsc-mental Mental Health & Psychiatric Nursing — NUR 400, SON 300
-- [ ] 400-nsc-medsurg2 Medical-Surgical Nursing II — NUR 400, SON 300
-- [ ] 400-mls-bts Blood Transfusion Science — MLS 400, HAE 400, 500
-- [ ] 400-mls-parasit Medical Parasitology & Entomology — MLS 400, PH 400
-- [ ] 400-mls-immuno Immunology & Serology — MLS 400, HAE 400
-- [ ] 400-rad-ctmri CT & MRI — RAD 400, 500, BME 500
-- [ ] 400-rad-us Ultrasonography — RAD 400, 500
-- [ ] 400-pt-msk Musculoskeletal Physiotherapy — PT 400
-- [ ] 400-pt-neuro Neurological Physiotherapy — PT 400, 500
-- [ ] 400-pt-cardio Cardiopulmonary Physiotherapy — PT 400
-- [ ] 400-ph-policy Health Policy, Planning & Management — PH 400, CM 500, NUR 500
-- [ ] 400-ph-diseasecontrol Disease Control — PH 400, CM MBBS 500
-- [ ] 400-ph-rmch Reproductive, Maternal & Child Health — PH 400
-- [ ] 400-bme-imaging Medical Imaging Systems — BME 400, 500
-- [ ] 400-bme-signal Biosignal Processing — BME 400, 500
-- [ ] 400-bds-oralbio Oral Biology & Dental Anatomy — BDS 300, 400
-- [ ] 400-bds-materials Dental Materials — BDS 400
+- [x] 400-path-general General Pathology — MBBS BDS CM MLS HAE OTH 400
+- [x] 400-path-haem Clinical Haematology & Blood Transfusion — MBBS BDS CM HAE MLS 400
+- [x] 400-path-micro Medical Microbiology & Parasitology — MBBS BDS CM MLS PH 400
+- [x] 400-path-chem Chemical Pathology — MBBS BDS CM MLS BCH 400
+- [x] 400-pha-systemic Systemic Pharmacology — MBBS BDS CM PHA PHM NUR OTH 400
+- [x] 400-pha-chemo Chemotherapy — MBBS BDS CM PHA PHM NUR 400
+- [x] 400-clin-intro Introduction to Clinical Medicine — MBBS BDS CM 400
+- [x] 400-cm-phc Community Medicine I: Health Systems & PHC — MBBS CM BDS PH NUR OTH 400
+- [x] 400-ethics Medical Ethics, Law & Professionalism — MBBS CM BDS 400-600; PHM NUR 500
+- [x] 400-pio-cardioex Cardiopulmonary & Exercise Physiology — PHS PT 400
+- [x] 400-ana-surface Surface & Radiological Anatomy — ANA PT RAD 400
+- [x] 400-bch-clinical Clinical Biochemistry & Enzymology — BCH 400, PHA 400
+- [x] 400-pha-tox Toxicology — PHA BCH PH 400, PHM 500
+- [x] 400-phm-therapeutics Pharmacotherapy I — PHM 400, 500
+- [x] 400-phm-analysis Pharmaceutical Analysis & QC — PHM 400
+- [x] 400-phm-tech Biopharmaceutics & Pharmacokinetics — PHM 400, 500
+- [x] 400-nsc-maternal Maternal & Child Health Nursing — NUR 400, SON 300
+- [x] 400-nsc-mental Mental Health & Psychiatric Nursing — NUR 400, SON 300
+- [x] 400-nsc-medsurg2 Medical-Surgical Nursing II — NUR 400, SON 300
+- [x] 400-mls-bts Blood Transfusion Science — MLS 400, HAE 400, 500
+- [x] 400-mls-parasit Medical Parasitology & Entomology — MLS 400, PH 400
+- [x] 400-mls-immuno Immunology & Serology — MLS 400, HAE 400
+- [x] 400-rad-ctmri CT & MRI — RAD 400, 500, BME 500
+- [x] 400-rad-us Ultrasonography — RAD 400, 500
+- [x] 400-pt-msk Musculoskeletal Physiotherapy — PT 400
+- [x] 400-pt-neuro Neurological Physiotherapy — PT 400, 500
+- [x] 400-pt-cardio Cardiopulmonary Physiotherapy — PT 400
+- [x] 400-ph-policy Health Policy, Planning & Management — PH 400, CM 500, NUR 500
+- [x] 400-ph-diseasecontrol Disease Control — PH 400, CM MBBS 500
+- [x] 400-ph-rmch Reproductive, Maternal & Child Health — PH 400
+- [x] 400-bme-imaging Medical Imaging Systems — BME 400, 500
+- [x] 400-bme-signal Biosignal Processing — BME 400, 500
+- [x] 400-bds-oralbio Oral Biology & Dental Anatomy — BDS 300, 400
+- [x] 400-bds-materials Dental Materials — BDS 400
 
 ## 500–600 Level
-- [ ] 500-med-cardioresp Internal Medicine I: Cardiology & Respiratory — MBBS CM 500 600, BDS 500
-- [ ] 500-med-endorenal Internal Medicine II: Endocrine, Renal & GI — MBBS CM 500 600
-- [ ] 500-med-id Internal Medicine III: Infectious Diseases — MBBS CM 500 600, NUR PHM OTH 500
-- [ ] 600-med-neurohaem Internal Medicine IV: Neurology, Haematology & Rheumatology — MBBS CM 600, HAE 500
-- [ ] 500-surg-general General Surgery & Trauma — MBBS CM 500 600, BDS 500
-- [ ] 600-surg-special Surgical Specialties: Urology, Orthopaedics, Neurosurgery & Burns — MBBS CM 600, PT 500
-- [ ] 500-og-obs Obstetrics — MBBS CM 500 600, NUR 500
-- [ ] 500-og-gyn Gynaecology & Family Planning — MBBS CM 500 600, NUR 500
-- [ ] 500-paed-neo Paediatrics I: Neonatology, Growth & Nutrition — MBBS CM 500 600, NUR 500
-- [ ] 500-paed-inf Paediatrics II: Childhood Illness & IMCI — MBBS CM 500 600
-- [ ] 500-psych Psychiatry — MBBS CM 500
-- [ ] 500-ophth-ent Ophthalmology & ENT — MBBS CM 500, BDS 500
-- [ ] 500-anaes Anaesthesia, Emergency & Critical Care — MBBS CM 500 600, BDS 600, OTH 500 600
-- [ ] 500-radiology Clinical Radiology — MBBS 500, RAD 500
-- [ ] 500-derm Dermatology & Venereology — MBBS CM 500
-- [ ] 500-forensic Forensic Medicine & Toxicology — MBBS CM 600, OTH 600
-- [ ] 500-bds-oralpath Oral Pathology & Oral Medicine — BDS 500
-- [ ] 500-bds-restorative Restorative & Conservative Dentistry — BDS 500 600
-- [ ] 500-bds-omfs Oral & Maxillofacial Surgery — BDS 500 600
-- [ ] 600-bds-ortho Orthodontics & Paediatric Dentistry — BDS 600
-- [ ] 600-bds-perio Periodontology & Community Dentistry — BDS 500 600
-- [ ] 600-bds-prosth Prosthetic Dentistry — BDS 600
-- [ ] 500-phm-clinical Clinical Pharmacy & Pharmaceutical Care — PHM 500 600
-- [ ] 600-phm-law Pharmacy Law, Ethics & Practice — PHM 500 600
-- [ ] 600-phm-therapeutics2 Pharmacotherapy II — PHM 600
-- [ ] 500-phm-industrial Industrial Pharmacy & GMP — PHM 500
-- [ ] 600-phm-pv Drug Information & Pharmacovigilance — PHM 600, PHA PG
-- [ ] 500-nsc-critical Critical Care & Perioperative Nursing — NUR 500
-- [ ] 500-nsc-admin Nursing Management, Education & Research — NUR 500, SON 300
-- [ ] 500-nsc-geriatric Geriatric & Palliative Nursing — NUR 500
-- [ ] 500-mls-histocyto Histopathology & Cytology — MLS 500
-- [ ] 500-mls-molecular Molecular Diagnostics & Lab Quality — MLS 500, HAE 500
-- [ ] 500-mls-viro Virology & Mycology — MLS 500
-- [ ] 500-hae-haemostasis Haemostasis & Haematological Malignancies — HAE 500, MLS 500, MBBS 600
-- [ ] 500-rad-nuclear Nuclear Medicine & Radiotherapy — RAD 500, BME 500
-- [ ] 500-rad-special Contrast Media & Special Procedures — RAD 500
-- [ ] 500-pt-paedsports Paediatric & Sports Physiotherapy — PT 500
-- [ ] 500-pt-cbr Community-Based Rehabilitation & Practice — PT 500
-- [ ] 500-bme-rehab Rehabilitation Engineering & Prosthetics — BME 500
+- [x] 500-med-cardioresp Internal Medicine I: Cardiology & Respiratory — MBBS CM 500 600, BDS 500
+- [x] 500-med-endorenal Internal Medicine II: Endocrine, Renal & GI — MBBS CM 500 600
+- [x] 500-med-id Internal Medicine III: Infectious Diseases — MBBS CM 500 600, NUR PHM OTH 500
+- [x] 600-med-neurohaem Internal Medicine IV: Neurology, Haematology & Rheumatology — MBBS CM 600, HAE 500
+- [x] 500-surg-general General Surgery & Trauma — MBBS CM 500 600, BDS 500
+- [x] 600-surg-special Surgical Specialties: Urology, Orthopaedics, Neurosurgery & Burns — MBBS CM 600, PT 500
+- [x] 500-og-obs Obstetrics — MBBS CM 500 600, NUR 500
+- [x] 500-og-gyn Gynaecology & Family Planning — MBBS CM 500 600, NUR 500
+- [x] 500-paed-neo Paediatrics I: Neonatology, Growth & Nutrition — MBBS CM 500 600, NUR 500
+- [x] 500-paed-inf Paediatrics II: Childhood Illness & IMCI — MBBS CM 500 600
+- [x] 500-psych Psychiatry — MBBS CM 500
+- [x] 500-ophth-ent Ophthalmology & ENT — MBBS CM 500, BDS 500
+- [x] 500-anaes Anaesthesia, Emergency & Critical Care — MBBS CM 500 600, BDS 600, OTH 500 600
+- [x] 500-radiology Clinical Radiology — MBBS 500, RAD 500
+- [x] 500-derm Dermatology & Venereology — MBBS CM 500
+- [x] 500-forensic Forensic Medicine & Toxicology — MBBS CM 600, OTH 600
+- [x] 500-bds-oralpath Oral Pathology & Oral Medicine — BDS 500
+- [x] 500-bds-restorative Restorative & Conservative Dentistry — BDS 500 600
+- [x] 500-bds-omfs Oral & Maxillofacial Surgery — BDS 500 600
+- [x] 600-bds-ortho Orthodontics & Paediatric Dentistry — BDS 600
+- [x] 600-bds-perio Periodontology & Community Dentistry — BDS 500 600
+- [x] 600-bds-prosth Prosthetic Dentistry — BDS 600
+- [x] 500-phm-clinical Clinical Pharmacy & Pharmaceutical Care — PHM 500 600
+- [x] 600-phm-law Pharmacy Law, Ethics & Practice — PHM 500 600
+- [x] 600-phm-therapeutics2 Pharmacotherapy II — PHM 600
+- [x] 500-phm-industrial Industrial Pharmacy & GMP — PHM 500
+- [x] 600-phm-pv Drug Information & Pharmacovigilance — PHM 600
+- [x] 500-nsc-critical Critical Care & Perioperative Nursing — NUR 500
+- [x] 500-nsc-admin Nursing Management, Education & Research — NUR 500, SON 300
+- [x] 500-nsc-geriatric Geriatric & Palliative Nursing — NUR 500
+- [x] 500-mls-histocyto Histopathology & Cytology — MLS 500
+- [x] 500-mls-molecular Molecular Diagnostics & Lab Quality — MLS 500, HAE 500
+- [x] 500-mls-viro Virology & Mycology — MLS 500
+- [x] 500-hae-haemostasis Haemostasis & Haematological Malignancies — HAE 500, MLS 500, MBBS 600
+- [x] 500-rad-nuclear Nuclear Medicine & Radiotherapy — RAD 500, BME 500
+- [x] 500-rad-special Contrast Media & Special Procedures — RAD 500
+- [x] 500-pt-paedsports Paediatric & Sports Physiotherapy — PT 500
+- [x] 500-pt-cbr Community-Based Rehabilitation & Practice — PT 500
+- [x] 500-bme-rehab Rehabilitation Engineering & Prosthetics — BME 500
 
-## Postgraduate (PG: *)
-- [ ] pg-research Advanced Research Methods
-- [ ] pg-biostat Advanced Biostatistics
-- [ ] pg-ethics Research Ethics & Scientific Writing
-- [ ] pg-ebp Evidence-Based Practice & Systematic Reviews
+## Postgraduate
+Not in the library for now — the app shows postgraduate students a "coming soon" note.

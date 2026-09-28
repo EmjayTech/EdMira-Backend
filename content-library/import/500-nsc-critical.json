@@ -1,0 +1,665 @@
+{
+ "courses": [
+  {
+   "title": "Critical Care and Perioperative Nursing",
+   "code": "NSC501",
+   "color": "#E11D48",
+   "description": "Nursing care in intensive care and emergency settings, monitoring and life support, perioperative nursing across the surgical journey, and infection prevention in critical areas.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Critical Care Nursing",
+     "order": 1,
+     "summary": "Assessment of the critically ill, early warning scores, monitoring and family-centred care.",
+     "material": [
+      {
+       "heading": "Assessment and monitoring",
+       "body": "Critical care nurses provide continuous assessment and intervention for patients with life-threatening conditions. The ABCDE approach structures assessment: Airway (patency, sounds), Breathing (rate, effort, SpO2, chest movement), Circulation (heart rate, blood pressure, capillary refill, urine output ≥ 0.5 mL/kg/h), Disability (GCS or AVPU, pupils, glucose) and Exposure (temperature, skin, wounds, drains). Early warning scores (e.g. NEWS2 — respiratory rate, SpO2, supplemental oxygen, temperature, systolic BP, heart rate, consciousness) trigger escalation; respiratory rate is the most sensitive early sign of deterioration. Monitoring: continuous ECG, invasive arterial pressure and central venous pressure (level the transducer at the phlebostatic axis — 4th intercostal space, mid-axillary line), pulse oximetry, capnography, fluid balance charts and blood gases. Nurse-to-patient ratio in ICU is ideally 1:1 for ventilated patients — often not achieved in Nigerian hospitals.",
+       "keyPoints": [
+        "ABCDE assessment",
+        "Urine output ≥ 0.5 mL/kg/h",
+        "NEWS2 escalation",
+        "Respiratory rate: earliest sign",
+        "Phlebostatic axis",
+        "ICU 1:1 ratio ideal"
+       ]
+      },
+      {
+       "heading": "Holistic and family care",
+       "body": "Critically ill patients need pressure area care (turning every 2 hours, pressure-relieving mattresses, Braden scale risk assessment), eye care in sedated patients (lubricants, lid closure — prevent corneal exposure keratopathy), mouth care (chlorhexidine and toothbrushing reduce ventilator-associated pneumonia), nutrition (early enteral feeding), glycaemic control, bowel care, VTE prophylaxis, early mobilisation and sleep promotion. Delirium is common (screen with CAM-ICU) — reduce with minimal sedation, reorientation, sleep hygiene and family presence. Pain assessment in non-verbal patients uses behavioural scales (e.g. Behavioural Pain Scale, CPOT). Family-centred care: clear communication, involvement in decisions, flexible visiting, and psychological support; in Nigeria, the family often supports care and financing. End-of-life care in ICU requires compassionate communication, respect for cultural and religious practices, and comfort-focused care.",
+       "keyPoints": [
+        "Turn 2-hourly; Braden scale",
+        "Eye care in sedated patients",
+        "Oral chlorhexidine reduces VAP",
+        "CAM-ICU for delirium",
+        "CPOT for pain",
+        "Family-centred care"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most sensitive early vital sign of clinical deterioration is:",
+       "options": [
+        "Blood pressure",
+        "Weight",
+        "Pupil size",
+        "Temperature",
+        "Respiratory rate"
+       ],
+       "answerIndex": 4,
+       "explanation": "It rises early in sepsis, hypoxia and acidosis."
+      },
+      {
+       "stem": "Minimum acceptable urine output in adults is about:",
+       "options": [
+        "0.1 mL/kg/h",
+        "0.5 mL/kg/h",
+        "5 mL/kg/h",
+        "10 mL/kg/h",
+        "2 L/h"
+       ],
+       "answerIndex": 1,
+       "explanation": "Lower output suggests poor perfusion."
+      },
+      {
+       "stem": "Pressure transducers for arterial and CVP monitoring should be levelled at the:",
+       "options": [
+        "Phlebostatic axis (4th intercostal space, mid-axillary line)",
+        "Sternal notch always",
+        "Knee",
+        "Top of the head",
+        "Umbilicus"
+       ],
+       "answerIndex": 0,
+       "explanation": "It approximates the right atrium."
+      },
+      {
+       "stem": "Oral care with chlorhexidine in ventilated patients reduces:",
+       "options": [
+        "Ventilator-associated pneumonia",
+        "Delirium",
+        "Hypoglycaemia",
+        "Pressure ulcers",
+        "DVT"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces oropharyngeal colonisation."
+      },
+      {
+       "stem": "Delirium in ICU patients is screened using:",
+       "options": [
+        "Glasgow Coma Scale",
+        "Wells score",
+        "Braden scale",
+        "Apgar score",
+        "CAM-ICU"
+       ],
+       "answerIndex": 4,
+       "explanation": "Confusion Assessment Method for the ICU."
+      },
+      {
+       "stem": "Eye care is essential in sedated ICU patients to prevent:",
+       "options": [
+        "Exposure keratopathy (corneal damage)",
+        "Retinal detachment",
+        "Cataract",
+        "Glaucoma",
+        "Conjunctival haemorrhage"
+       ],
+       "answerIndex": 0,
+       "explanation": "They cannot blink or close eyes."
+      },
+      {
+       "stem": "Pain in ventilated, non-verbal patients is assessed with:",
+       "options": [
+        "Blood tests",
+        "Asking relatives only",
+        "Numeric rating scale",
+        "Behavioural scales such as CPOT",
+        "Visual analogue scale"
+       ],
+       "answerIndex": 3,
+       "explanation": "Facial expression, movement and ventilator compliance."
+      },
+      {
+       "stem": "The Braden scale assesses risk of:",
+       "options": [
+        "Pressure ulcers",
+        "Bleeding",
+        "Sepsis",
+        "Delirium",
+        "Falls"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lower scores mean higher risk."
+      }
+     ]
+    },
+    {
+     "title": "Airway, Ventilation and Oxygen Therapy",
+     "order": 2,
+     "summary": "Oxygen delivery devices, care of artificial airways, mechanical ventilation and suctioning.",
+     "material": [
+      {
+       "heading": "Oxygen therapy",
+       "body": "Oxygen is a drug prescribed to target saturations: 94–98% for most patients; 88–92% for those at risk of hypercapnic respiratory failure (COPD, obesity hypoventilation, neuromuscular disease). Delivery devices: nasal cannula (1–4 L/min — FiO2 about 24–40%), simple face mask (5–10 L/min — 40–60%; do not use below 5 L/min to avoid CO2 rebreathing), Venturi mask (fixed, accurate FiO2 24–60% — ideal in COPD), non-rebreather mask with reservoir bag (10–15 L/min — up to 85–90%; for emergencies), and high-flow nasal oxygen. Oxygen concentrators and cylinders are essential in Nigerian hospitals; oxygen shortages (highlighted during COVID-19) cost lives — pulse oximetry guides appropriate use. Humidify high-flow oxygen. Oxygen supports combustion — no smoking or naked flames.",
+       "keyPoints": [
+        "Target 94–98% (88–92% if CO2 retention)",
+        "Nasal cannula 1–4 L/min",
+        "Simple mask ≥ 5 L/min",
+        "Venturi: fixed FiO2",
+        "Non-rebreather: 10–15 L/min",
+        "Fire safety"
+       ]
+      },
+      {
+       "heading": "Artificial airways and ventilation",
+       "body": "Endotracheal tubes and tracheostomies require: securing the tube (record tube position at the lips), cuff pressure 20–30 cmH2O (prevents aspiration and tracheal ischaemia), humidification, and suctioning when indicated (not routinely) — pre-oxygenate, use sterile technique, suction catheter no more than half the tube's internal diameter, apply suction on withdrawal only, limit to 10–15 seconds, and monitor SpO2 and heart rate (bradycardia from vagal stimulation). Ventilator care bundle to prevent VAP: head of bed 30–45°, daily sedation holds and spontaneous breathing trials, oral care, subglottic suction where available, and DVT and stress ulcer prophylaxis. Nurses monitor ventilator settings (mode, FiO2, PEEP, tidal volume, respiratory rate), alarms (high pressure — secretions, biting, bronchospasm; low pressure — disconnection or cuff leak), and patient–ventilator synchrony. Tracheostomy emergencies: blocked or displaced tube — keep spare tubes and obturator at the bedside.",
+       "keyPoints": [
+        "Cuff pressure 20–30 cmH2O",
+        "Suction ≤ 15 s; on withdrawal",
+        "Catheter ≤ half internal diameter",
+        "VAP bundle: head up 30–45°",
+        "Daily sedation hold",
+        "Spare trach tube at bedside"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The target oxygen saturation for a patient with COPD at risk of CO2 retention is:",
+       "options": [
+        "100%",
+        "94–98%",
+        "88–92%",
+        "80–85%",
+        "70–75%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Excess oxygen can worsen hypercapnia."
+      },
+      {
+       "stem": "A simple face mask should not be used at flow rates below:",
+       "options": [
+        "1 L/min",
+        "5 L/min",
+        "10 L/min",
+        "15 L/min",
+        "2 L/min"
+       ],
+       "answerIndex": 1,
+       "explanation": "Low flows cause CO2 rebreathing."
+      },
+      {
+       "stem": "The device that delivers a fixed, accurate oxygen concentration is the:",
+       "options": [
+        "Venturi mask",
+        "Non-rebreather mask",
+        "Simple mask",
+        "Face tent",
+        "Nasal cannula"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ideal for COPD."
+      },
+      {
+       "stem": "A non-rebreather mask with reservoir bag is used at flows of:",
+       "options": [
+        "4 L/min",
+        "10–15 L/min",
+        "1–2 L/min",
+        "30 L/min always",
+        "0.5 L/min"
+       ],
+       "answerIndex": 1,
+       "explanation": "It delivers high FiO2 in emergencies."
+      },
+      {
+       "stem": "Endotracheal tube cuff pressure should be maintained at about:",
+       "options": [
+        "20–30 cmH2O",
+        "100 cmH2O",
+        "0 cmH2O",
+        "5 cmH2O",
+        "50–60 cmH2O"
+       ],
+       "answerIndex": 0,
+       "explanation": "Too high causes tracheal ischaemia."
+      },
+      {
+       "stem": "During endotracheal suctioning, negative pressure should be applied:",
+       "options": [
+        "Only during withdrawal",
+        "Before pre-oxygenation",
+        "Never",
+        "Continuously for 1 minute",
+        "During insertion"
+       ],
+       "answerIndex": 0,
+       "explanation": "Limit each pass to 10–15 seconds."
+      },
+      {
+       "stem": "A high-pressure ventilator alarm may be caused by:",
+       "options": [
+        "Cuff leak",
+        "Secretions or the patient biting the tube",
+        "Circuit disconnection",
+        "Low tidal volume setting",
+        "Power failure"
+       ],
+       "answerIndex": 1,
+       "explanation": "Low-pressure alarms suggest disconnection."
+      },
+      {
+       "stem": "Which items should be kept at the bedside of a patient with a tracheostomy?",
+       "options": [
+        "Only oxygen",
+        "Nasogastric tube",
+        "Blood pressure cuff only",
+        "Spare tracheostomy tubes (same and smaller size) and obturator",
+        "Urinary catheter"
+       ],
+       "answerIndex": 3,
+       "explanation": "For emergency tube replacement."
+      }
+     ]
+    },
+    {
+     "title": "Emergency Nursing and Shock",
+     "order": 3,
+     "summary": "Triage, resuscitation, shock recognition, fluid management and blood transfusion.",
+     "material": [
+      {
+       "heading": "Triage and resuscitation",
+       "body": "Emergency department triage prioritises patients by acuity (e.g. South African Triage Scale — used in some Nigerian hospitals: red — emergency, orange — very urgent, yellow — urgent, green — routine, blue — dead). Nurses initiate resuscitation: basic life support (CPR 30:2 at 100–120 compressions/min, 5–6 cm depth, minimal interruptions, early defibrillation), assist with advanced life support, manage the airway, establish IV access (two large-bore cannulas), collect bloods, and document. Mass casualty incidents (road crashes, building collapses, explosions, insurgency) require triage using simple systems (START — walking wounded, respirations, perfusion, mental status) and hospital major incident plans. Trauma nursing follows <C>ABCDE with spinal precautions, haemorrhage control (direct pressure, tourniquets), and prevention of hypothermia.",
+       "keyPoints": [
+        "SATS colours",
+        "CPR 30:2, 100–120/min",
+        "Two large-bore cannulas",
+        "START mass casualty triage",
+        "Major incident plans",
+        "Prevent hypothermia"
+       ]
+      },
+      {
+       "heading": "Shock and transfusion",
+       "body": "Shock (inadequate tissue perfusion) presents with tachycardia, hypotension (late sign), cool clammy skin (warm in early septic shock), prolonged capillary refill, reduced urine output, confusion and raised lactate. Types: hypovolaemic (haemorrhage, dehydration, burns), cardiogenic, obstructive and distributive (septic, anaphylactic, neurogenic). Nursing care: position (supine, legs elevated if appropriate), oxygen, IV fluids as prescribed (crystalloids — Ringer's lactate, 0.9% saline), monitor response (heart rate, BP, urine output via catheter, mental state), and prepare vasopressors. Blood transfusion safety: confirm identity at the bedside (patient ID band, prescription and blood unit label — two checkers), baseline observations, observe closely especially in the first 15 minutes (acute haemolytic reactions — fever, rigors, back pain, hypotension, haemoglobinuria: stop the transfusion immediately, keep the line open with saline, notify the doctor and blood bank, return the unit), complete within 4 hours of removal from storage, and document. Other reactions: febrile non-haemolytic, allergic, TACO (circulatory overload) and TRALI.",
+       "keyPoints": [
+        "Hypotension is a late sign",
+        "Types of shock",
+        "Monitor urine output",
+        "Bedside ID check by two",
+        "Observe first 15 minutes",
+        "Stop transfusion for reaction",
+        "Complete within 4 h"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In the South African Triage Scale, a red category patient needs:",
+       "options": [
+        "Discharge",
+        "Routine care",
+        "Referral to clinic",
+        "Care within 4 hours",
+        "Immediate (emergency) care"
+       ],
+       "answerIndex": 4,
+       "explanation": "Red is the highest priority."
+      },
+      {
+       "stem": "During adult CPR, chest compressions should be delivered at a rate of:",
+       "options": [
+        "150 per minute",
+        "80 per minute",
+        "200 per minute",
+        "60 per minute",
+        "100–120 per minute"
+       ],
+       "answerIndex": 4,
+       "explanation": "With depth of 5–6 cm."
+      },
+      {
+       "stem": "In shock, hypotension is:",
+       "options": [
+        "A late sign",
+        "Only in septic shock",
+        "Never present",
+        "A sign of recovery",
+        "The earliest sign"
+       ],
+       "answerIndex": 0,
+       "explanation": "Tachycardia and poor perfusion appear earlier."
+      },
+      {
+       "stem": "The START triage system is used for:",
+       "options": [
+        "Paediatric immunisation",
+        "Obstetric emergencies only",
+        "Mental health",
+        "Outpatient booking",
+        "Mass casualty incidents"
+       ],
+       "answerIndex": 4,
+       "explanation": "Simple Triage And Rapid Treatment."
+      },
+      {
+       "stem": "The most critical step to prevent ABO-incompatible transfusion is:",
+       "options": [
+        "Warming the blood",
+        "Using a large cannula",
+        "Bedside identity check of patient and blood unit",
+        "Premedicating with antihistamines",
+        "Giving it slowly"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most errors are identification errors."
+      },
+      {
+       "stem": "Patients receiving blood should be observed most closely during the first:",
+       "options": [
+        "15 minutes",
+        "24 hours",
+        "1 week",
+        "2 minutes only",
+        "4 hours"
+       ],
+       "answerIndex": 0,
+       "explanation": "Severe reactions usually occur early."
+      },
+      {
+       "stem": "If a patient develops fever, rigors, back pain and hypotension during transfusion, the nurse should first:",
+       "options": [
+        "Wait for the doctor before acting",
+        "Give paracetamol and continue",
+        "Remove the cannula",
+        "Slow the transfusion",
+        "Stop the transfusion immediately and keep the line open with saline"
+       ],
+       "answerIndex": 4,
+       "explanation": "Suspect an acute haemolytic reaction."
+      },
+      {
+       "stem": "A unit of blood should be completed within how long of removal from storage?",
+       "options": [
+        "30 minutes",
+        "4 hours",
+        "12 hours",
+        "24 hours",
+        "2 days"
+       ],
+       "answerIndex": 1,
+       "explanation": "To limit bacterial growth."
+      }
+     ]
+    },
+    {
+     "title": "Perioperative Nursing",
+     "order": 4,
+     "summary": "Preoperative preparation, intraoperative roles, safe surgery checklist and immediate postoperative care.",
+     "material": [
+      {
+       "heading": "Preoperative and intraoperative",
+       "body": "Preoperative nursing: confirm identity, informed consent (obtained by the surgeon; nurse checks it is signed and understood), fasting (6 hours solids, 2 hours clear fluids), site marking, removal of jewellery, prostheses, make-up and nail polish (pulse oximetry), pre-medication, baseline observations, investigations (FBC, genotype, grouping and cross-matching, electrolytes), skin preparation (shower; clip, don't shave), antithrombotic stockings, and patient education (deep breathing, coughing, early mobilisation). Intraoperative roles: scrub nurse (sterile field, instruments, counts of swabs, sharps and instruments — at the start, before closing cavities, and at skin closure), circulating nurse (non-sterile, supplies, documentation), and anaesthetic nurse. The WHO Surgical Safety Checklist: Sign In (before induction — identity, site, procedure, consent, allergies, airway risk, blood loss risk), Time Out (before incision — team introductions, antibiotic prophylaxis within 60 minutes, anticipated critical events), Sign Out (before leaving theatre — counts correct, specimen labelling, equipment problems, recovery concerns). Positioning prevents pressure injuries and nerve damage; diathermy safety requires correct plate placement.",
+       "keyPoints": [
+        "Clip, don't shave",
+        "Remove nail polish for oximetry",
+        "Swab and instrument counts",
+        "Sign In, Time Out, Sign Out",
+        "Antibiotic within 60 min",
+        "Diathermy plate placement"
+       ]
+      },
+      {
+       "heading": "Postoperative care",
+       "body": "Post-anaesthesia care unit (recovery room): maintain airway (jaw thrust, oropharyngeal airway, recovery position), oxygen, monitor observations every 5–15 minutes, assess pain (and give prescribed analgesia), nausea and vomiting, wound and drains, fluid balance and temperature (prevent hypothermia); discharge from recovery using criteria (e.g. Aldrete score). Ward care: regular observations, pain management (multimodal), early mobilisation and deep breathing (prevent atelectasis, pneumonia and DVT), fluid balance and urinary output (retention is common), wound care (aseptic dressing; watch for infection on days 3–7), drain care, nutrition, and early warning of complications — haemorrhage (primary, reactionary within 24 hours, secondary after days — infection), shock, respiratory complications, DVT/PE, wound dehiscence (serosanguinous discharge — cover with sterile moist dressing, keep patient supine with knees flexed, call surgeon), anastomotic leak, and paralytic ileus. Discharge education on wound care, activity and warning signs.",
+       "keyPoints": [
+        "Recovery: airway first",
+        "Observations every 5–15 min",
+        "Aldrete score",
+        "Early mobilisation",
+        "Reactionary haemorrhage < 24 h",
+        "Dehiscence: moist sterile dressing, knees flexed"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Before surgery, hair at the operative site should be:",
+       "options": [
+        "Shaved with a razor the night before",
+        "Burnt",
+        "Waxed",
+        "Clipped only if necessary",
+        "Left always"
+       ],
+       "answerIndex": 3,
+       "explanation": "Shaving increases surgical site infection."
+      },
+      {
+       "stem": "Nail polish is removed before surgery mainly to allow accurate:",
+       "options": [
+        "ECG",
+        "Blood pressure measurement",
+        "Weight",
+        "Temperature measurement",
+        "Pulse oximetry and assessment of peripheral perfusion"
+       ],
+       "answerIndex": 4,
+       "explanation": "Polish interferes with SpO2 readings."
+      },
+      {
+       "stem": "The 'Time Out' of the WHO Surgical Safety Checklist occurs:",
+       "options": [
+        "Before skin incision",
+        "Before induction of anaesthesia",
+        "At discharge",
+        "After the patient leaves theatre",
+        "In the ward"
+       ],
+       "answerIndex": 0,
+       "explanation": "Team confirms patient, site and procedure."
+      },
+      {
+       "stem": "Swab, sharps and instrument counts are performed:",
+       "options": [
+        "Never",
+        "Only if something is missing",
+        "At the start, before closing a cavity and at skin closure",
+        "By the surgeon alone",
+        "Only at the end"
+       ],
+       "answerIndex": 2,
+       "explanation": "They prevent retained items."
+      },
+      {
+       "stem": "The first priority in the recovery room is:",
+       "options": [
+        "Airway maintenance",
+        "Wound dressing",
+        "Documentation",
+        "Pain score",
+        "Feeding"
+       ],
+       "answerIndex": 0,
+       "explanation": "Residual anaesthesia can obstruct the airway."
+      },
+      {
+       "stem": "Bleeding within 24 hours of surgery, often as blood pressure rises, is called:",
+       "options": [
+        "Secondary haemorrhage",
+        "Chronic haemorrhage",
+        "Primary haemorrhage",
+        "Occult bleeding",
+        "Reactionary haemorrhage"
+       ],
+       "answerIndex": 4,
+       "explanation": "Secondary haemorrhage occurs later from infection."
+      },
+      {
+       "stem": "If abdominal wound dehiscence occurs, the nurse should:",
+       "options": [
+        "Push the bowel back in",
+        "Cover with sterile moist dressings, position supine with knees flexed and call the surgeon",
+        "Apply dry cotton wool",
+        "Give oral fluids",
+        "Leave it exposed"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a surgical emergency."
+      },
+      {
+       "stem": "Early postoperative mobilisation helps prevent:",
+       "options": [
+        "Wound healing",
+        "Appetite",
+        "Sleep",
+        "DVT and chest complications",
+        "Pain relief"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves circulation and lung expansion."
+      }
+     ]
+    },
+    {
+     "title": "Special Critical Care Situations",
+     "order": 5,
+     "summary": "Care of patients with head injury, burns, poisoning, renal failure and neonates in intensive care.",
+     "material": [
+      {
+       "heading": "Neurological, burns and poisoning",
+       "body": "Head injury nursing: neurological observations (GCS, pupils, limb power, vital signs) every 15–60 minutes with escalation of a drop in GCS ≥ 2 or new pupil changes; head elevation 30° with neck in neutral, avoid tight tube ties around the neck, maintain oxygenation and normocapnia, control fever and glucose, seizure precautions, and prevent complications of immobility. Burns nursing: fluid resuscitation per Parkland with hourly urine output monitoring (0.5 mL/kg/h adults; 1 mL/kg/h children), airway observation (inhalation injury), pain relief, infection prevention (aseptic dressings, isolation), nutrition (high protein and calorie), positioning and splinting to prevent contractures, and psychological support. Poisoning: ABC, identify substance, decontamination as prescribed, antidotes (atropine for organophosphates, naloxone for opioids, N-acetylcysteine for paracetamol), monitor, and assess suicide risk with mental health referral.",
+       "keyPoints": [
+        "Neuro obs; escalate GCS drop ≥ 2",
+        "Head up 30°, neck neutral",
+        "Burns: hourly urine output",
+        "Prevent contractures",
+        "Antidotes",
+        "Suicide risk assessment"
+       ]
+      },
+      {
+       "heading": "Renal and neonatal intensive care",
+       "body": "Acute kidney injury nursing: strict fluid balance, daily weights, monitoring potassium (ECG changes — peaked T waves), restricting fluids/potassium as prescribed, care of dialysis access (AV fistula — no BP or cannulation in that arm; check thrill and bruit; central venous catheters — aseptic handling), and monitoring during haemodialysis (hypotension, cramps, disequilibrium). Neonatal intensive care nursing: thermoregulation (incubators, radiant warmers, kangaroo mother care), infection prevention (hand hygiene — the most important measure), respiratory support (bubble CPAP — a low-cost, effective intervention widely introduced in Nigerian newborn units), phototherapy care (eye shields, hydration, turning, monitoring bilirubin), feeding (expressed breast milk, nasogastric or cup feeding), glucose monitoring, and family involvement. Accurate drug calculation and double-checking are vital because of tiny doses.",
+       "keyPoints": [
+        "AKI: fluid balance, daily weights",
+        "Peaked T waves: hyperkalaemia",
+        "Protect AV fistula arm",
+        "Neonatal: thermoregulation",
+        "Bubble CPAP",
+        "Phototherapy: eye shields",
+        "Double-check neonatal doses"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "After head injury, a fall in GCS of 2 or more points should be:",
+       "options": [
+        "Treated with sedatives",
+        "Rechecked in 24 hours",
+        "Escalated urgently to the medical team",
+        "Recorded only",
+        "Ignored if the patient sleeps"
+       ],
+       "answerIndex": 2,
+       "explanation": "It suggests deterioration."
+      },
+      {
+       "stem": "To reduce intracranial pressure, patients with head injury are positioned:",
+       "options": [
+        "Head elevated about 30° with neck neutral",
+        "Sitting fully upright always",
+        "Prone",
+        "Head-down",
+        "Flat with neck flexed"
+       ],
+       "answerIndex": 0,
+       "explanation": "It improves venous drainage."
+      },
+      {
+       "stem": "Adequate fluid resuscitation in adult burns is indicated by urine output of about:",
+       "options": [
+        "5 mL/kg/h",
+        "10 mL/kg/h",
+        "0.1 mL/kg/h",
+        "No urine is expected",
+        "0.5 mL/kg/h"
+       ],
+       "answerIndex": 4,
+       "explanation": "Children: 1 mL/kg/h."
+      },
+      {
+       "stem": "Splinting and positioning in burns nursing aim to prevent:",
+       "options": [
+        "Pain",
+        "Hypothermia",
+        "Shock",
+        "Infection",
+        "Contractures"
+       ],
+       "answerIndex": 4,
+       "explanation": "Scar contraction limits function."
+      },
+      {
+       "stem": "In a patient with an arteriovenous fistula for dialysis, the nurse should NOT:",
+       "options": [
+        "Take blood pressure or insert cannulas in that arm",
+        "Educate the patient",
+        "Listen for a bruit",
+        "Check for a thrill",
+        "Keep the arm clean"
+       ],
+       "answerIndex": 0,
+       "explanation": "This protects the fistula."
+      },
+      {
+       "stem": "Peaked T waves on the ECG of a patient with AKI suggest:",
+       "options": [
+        "Hyperkalaemia",
+        "Hypocalcaemia",
+        "Hyponatraemia",
+        "Hypoglycaemia",
+        "Hypokalaemia"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a medical emergency."
+      },
+      {
+       "stem": "A low-cost respiratory support widely introduced in Nigerian neonatal units is:",
+       "options": [
+        "Surfactant only",
+        "Nitric oxide",
+        "ECMO",
+        "Bubble CPAP",
+        "High-frequency oscillation"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces neonatal respiratory deaths."
+      },
+      {
+       "stem": "During phototherapy, the nurse should:",
+       "options": [
+        "Protect the baby's eyes with shields and maintain hydration",
+        "Avoid turning the baby",
+        "Keep the baby dressed",
+        "Cover the whole body",
+        "Stop breastfeeding"
+       ],
+       "answerIndex": 0,
+       "explanation": "Maximise skin exposure while protecting the eyes."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

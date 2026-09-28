@@ -1,0 +1,666 @@
+{
+ "courses": [
+  {
+   "title": "Orthodontics and Paediatric Dentistry",
+   "code": "DEN601",
+   "color": "#0891B2",
+   "description": "Growth of the face, malocclusion classification and diagnosis, orthodontic appliances, and dental care of children including behaviour management, caries prevention, pulp therapy and trauma.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Craniofacial Growth and Development of Occlusion",
+     "order": 1,
+     "summary": "Growth mechanisms, development of the dentition, and space in the arches.",
+     "material": [
+      {
+       "heading": "Growth",
+       "body": "Craniofacial growth follows a cephalocaudal gradient: the cranium (neural pattern) grows early and is nearly complete by about 7 years; the face (general/somatic pattern) grows later with a pubertal growth spurt (girls about 11–13 years, boys about 13–15 years). Growth mechanisms: sutural growth (maxilla — displaced downwards and forwards), surface remodelling (deposition and resorption), endochondral ossification at the cranial base synchondroses and mandibular condyle, and displacement. The mandible grows mainly by condylar growth and ramus remodelling, and continues growing later than the maxilla (mandibular prognathism can worsen after puberty). Timing of treatment uses growth indicators (cervical vertebral maturation, hand–wrist radiographs). Functional appliances are most effective during the pubertal growth spurt.",
+       "keyPoints": [
+        "Neural pattern early; somatic later",
+        "Pubertal spurt: girls earlier",
+        "Sutural, surface, endochondral growth",
+        "Mandible grows later than maxilla",
+        "CVM and hand–wrist indicators",
+        "Functional appliances at growth spurt"
+       ]
+      },
+      {
+       "heading": "Development of the dentition",
+       "body": "The primary dentition ideally shows spacing (primate spaces — mesial to upper canines and distal to lower canines) to accommodate larger permanent incisors; a flush terminal plane, mesial step or distal step relationship of primary second molars predicts the permanent molar relationship. The mixed dentition: first permanent molars erupt at 6 years, incisors 6–8, canines and premolars 10–12, second molars 12. The 'ugly duckling' stage (distally flared upper incisors with a midline diastema at 8–10 years) is normal and resolves as canines erupt. Leeway space (the difference in size between primary canines/molars and their successors — about 1.5 mm per side in the maxilla and 2.5 mm per side in the mandible) allows molar adjustment. Premature loss of primary molars causes space loss and crowding — space maintainers may be needed. Maxillary canines should be palpable buccally by 10–11 years; if not, suspect palatal impaction.",
+       "keyPoints": [
+        "Primate spaces",
+        "Terminal plane predicts molar relation",
+        "Ugly duckling stage: normal",
+        "Leeway space",
+        "Space maintainers after early loss",
+        "Palpate canines by 10–11"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The pubertal growth spurt usually occurs:",
+       "options": [
+        "Only in boys",
+        "Earlier in boys than girls",
+        "Earlier in girls than boys",
+        "At the same age in both",
+        "Before age 5"
+       ],
+       "answerIndex": 2,
+       "explanation": "About 2 years earlier in girls."
+      },
+      {
+       "stem": "Which part of the face continues growing latest?",
+       "options": [
+        "Cranial vault",
+        "Maxilla",
+        "Orbit",
+        "Mandible",
+        "Nasal bones"
+       ],
+       "answerIndex": 3,
+       "explanation": "Class III can worsen after puberty."
+      },
+      {
+       "stem": "Functional orthodontic appliances are most effective when used:",
+       "options": [
+        "During the pubertal growth spurt",
+        "In the primary dentition only",
+        "At birth",
+        "In adults",
+        "After growth ceases"
+       ],
+       "answerIndex": 0,
+       "explanation": "They harness active growth."
+      },
+      {
+       "stem": "Spaces mesial to the upper primary canines and distal to the lower primary canines are called:",
+       "options": [
+        "Embrasures",
+        "Freeway spaces",
+        "Diastemas",
+        "Primate spaces",
+        "Leeway spaces"
+       ],
+       "answerIndex": 3,
+       "explanation": "They aid alignment of permanent teeth."
+      },
+      {
+       "stem": "Distally flared upper incisors with a midline gap at age 9 represent:",
+       "options": [
+        "Supernumerary teeth always",
+        "The normal 'ugly duckling' stage",
+        "A severe malocclusion",
+        "Class III",
+        "Missing canines"
+       ],
+       "answerIndex": 1,
+       "explanation": "It usually resolves as canines erupt."
+      },
+      {
+       "stem": "The leeway space is:",
+       "options": [
+        "Space between incisors",
+        "The palatal vault",
+        "The size difference between primary canines/molars and their successors",
+        "Space behind the last molar",
+        "The freeway space"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is larger in the mandible."
+      },
+      {
+       "stem": "Premature loss of a primary molar may require:",
+       "options": [
+        "Root canal treatment",
+        "No action",
+        "A space maintainer",
+        "Immediate implant",
+        "Extraction of the permanent tooth"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prevents drifting and space loss."
+      },
+      {
+       "stem": "If upper canines cannot be palpated buccally by 10–11 years, the clinician should suspect:",
+       "options": [
+        "Normal delay always",
+        "Class II malocclusion",
+        "Palatal impaction",
+        "Ankylosis of molars",
+        "Supernumerary incisors"
+       ],
+       "answerIndex": 2,
+       "explanation": "Radiographs confirm the position."
+      }
+     ]
+    },
+    {
+     "title": "Malocclusion: Classification and Diagnosis",
+     "order": 2,
+     "summary": "Angle's and incisor classification, aetiology, IOTN and orthodontic assessment.",
+     "material": [
+      {
+       "heading": "Classification",
+       "body": "Angle's classification (molars): Class I (mesiobuccal cusp of the upper first molar occludes in the buccal groove of the lower first molar), Class II (lower molar distal) and Class III (lower molar mesial). The British Standards incisor classification: Class I (lower incisor edges occlude on or below the cingulum plateau of the upper incisors), Class II division 1 (increased overjet with proclined upper incisors), Class II division 2 (retroclined upper central incisors, deep overbite), Class III (lower incisor edges anterior to the cingulum plateau — reduced or reversed overjet). Other features: overjet (normal 2–4 mm), overbite (normal about one-third coverage), open bite (digit sucking, tongue thrust), crossbite (anterior or posterior — with mandibular displacement), crowding and spacing, and centreline discrepancies. Bimaxillary proclination is relatively common in Nigerian and other African populations and may be an ethnic norm.",
+       "keyPoints": [
+        "Angle Class I, II, III",
+        "II/1: increased overjet",
+        "II/2: retroclined, deep bite",
+        "Class III: reversed overjet",
+        "Overjet normal 2–4 mm",
+        "Bimaxillary proclination: ethnic variation"
+       ]
+      },
+      {
+       "heading": "Aetiology and assessment",
+       "body": "Aetiology: skeletal pattern (anteroposterior, vertical and transverse), soft tissues (lips, tongue), dental factors (tooth–arch size discrepancy, hypodontia, supernumeraries, early loss of primary teeth), and habits (digit sucking causing anterior open bite, increased overjet and posterior crossbite). Assessment: history (motivation, medical and dental history), extraoral examination (profile, facial proportions, lips, TMJ), intraoral examination, study models, radiographs (OPG, lateral cephalogram — ANB angle: normal 2–4°; > 4° Class II skeletal, < 2° Class III skeletal). Need for treatment is assessed with the Index of Orthodontic Treatment Need (IOTN — dental health component grades 1–5, with the MOCDO hierarchy: Missing teeth, Overjet, Crossbites, Displacements, Overbite; and an aesthetic component). Treatment aims include function, aesthetics, stability and dental health; risks include decalcification, root resorption, relapse and poor cooperation.",
+       "keyPoints": [
+        "Skeletal, soft tissue, dental, habits",
+        "Digit sucking: open bite",
+        "Lateral ceph: ANB 2–4°",
+        "IOTN; MOCDO",
+        "Risks: decalcification, root resorption, relapse"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In Angle's Class II malocclusion, the lower first molar is positioned:",
+       "options": [
+        "Mesially",
+        "Exactly in Class I relationship",
+        "Buccally only",
+        "It is missing",
+        "Distally relative to the upper molar"
+       ],
+       "answerIndex": 4,
+       "explanation": "The mandible is relatively retruded."
+      },
+      {
+       "stem": "Increased overjet with proclined upper incisors is incisor Class:",
+       "options": [
+        "I",
+        "II division 2",
+        "III",
+        "IV",
+        "II division 1"
+       ],
+       "answerIndex": 4,
+       "explanation": "Often with lip incompetence."
+      },
+      {
+       "stem": "Retroclined upper central incisors with a deep overbite is Class:",
+       "options": [
+        "II division 2",
+        "III",
+        "Open bite",
+        "I",
+        "II division 1"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lateral incisors may be proclined."
+      },
+      {
+       "stem": "The normal overjet is about:",
+       "options": [
+        "0 mm",
+        "−3 mm",
+        "8–10 mm",
+        "2–4 mm",
+        "15 mm"
+       ],
+       "answerIndex": 3,
+       "explanation": "Measured from the labial surface of the lower incisor."
+      },
+      {
+       "stem": "A prolonged thumb-sucking habit commonly causes:",
+       "options": [
+        "Deep bite",
+        "Crowding only",
+        "Class III",
+        "Anterior open bite and increased overjet",
+        "Hypodontia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Often with posterior crossbite."
+      },
+      {
+       "stem": "An ANB angle greater than 4° indicates a skeletal:",
+       "options": [
+        "Class III",
+        "Class II",
+        "Normal",
+        "Open bite",
+        "Class I"
+       ],
+       "answerIndex": 1,
+       "explanation": "The mandible is retrusive relative to the maxilla."
+      },
+      {
+       "stem": "The IOTN dental health component uses the hierarchy:",
+       "options": [
+        "FAST",
+        "MOCDO",
+        "SAFE",
+        "RICE",
+        "ABCDE"
+       ],
+       "answerIndex": 1,
+       "explanation": "Missing, Overjet, Crossbite, Displacement, Overbite."
+      },
+      {
+       "stem": "A major risk of fixed orthodontic treatment with poor oral hygiene is:",
+       "options": [
+        "Tooth whitening",
+        "Faster treatment",
+        "Increased enamel thickness",
+        "Gingival recession prevention",
+        "Enamel decalcification (white spot lesions)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Plaque accumulates around brackets."
+      }
+     ]
+    },
+    {
+     "title": "Orthodontic Appliances and Treatment",
+     "order": 3,
+     "summary": "Removable, functional and fixed appliances, extractions, anchorage and retention.",
+     "material": [
+      {
+       "heading": "Appliances",
+       "body": "Removable appliances (acrylic baseplate with Adams clasps for retention, springs for tipping movements, bite planes) are limited to simple tipping movements and require compliance. Functional appliances (twin block, Fränkel, activator) posture the mandible forwards to correct Class II malocclusions in growing children. Fixed appliances (brackets bonded to teeth, archwires — nickel–titanium for initial alignment, stainless steel for later stages, elastics) achieve precise three-dimensional movements (bodily movement, torque, rotation). Clear aligners are increasingly used for mild to moderate cases. Biology of tooth movement: pressure on one side of the periodontal ligament causes osteoclastic bone resorption; tension on the other stimulates deposition; light continuous forces are ideal (heavy forces cause hyalinisation and root resorption). Headgear and temporary anchorage devices (mini-screws) reinforce anchorage.",
+       "keyPoints": [
+        "Removable: tipping only",
+        "Functional: Class II in growing children",
+        "Fixed: 3D control",
+        "NiTi for alignment",
+        "Pressure: resorption; tension: deposition",
+        "Light continuous forces"
+       ]
+      },
+      {
+       "heading": "Treatment planning and retention",
+       "body": "Space for correction may come from extractions (commonly premolars), interproximal enamel reduction, arch expansion (rapid maxillary expansion splits the midpalatal suture in growing patients for posterior crossbites), distalisation of molars, or proclination of incisors. Anchorage is resistance to unwanted tooth movement. Interceptive orthodontics includes correcting anterior crossbites early, extracting retained primary teeth, space maintenance, habit breaking (e.g. habit-breaking appliances for thumb sucking), and extracting primary canines to encourage eruption of palatally displaced permanent canines. Severe skeletal discrepancies in adults require combined orthodontics and orthognathic surgery (e.g. bilateral sagittal split osteotomy, Le Fort I osteotomy). Retention after treatment is essential because teeth tend to relapse (gingival fibres, soft tissue pressures, growth): removable retainers (Hawley, vacuum-formed) and bonded fixed retainers; long-term retention is now recommended.",
+       "keyPoints": [
+        "Space: extraction, IPR, expansion",
+        "Anchorage",
+        "Rapid maxillary expansion",
+        "Interceptive orthodontics",
+        "Orthognathic surgery for adults",
+        "Retention to prevent relapse"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Removable orthodontic appliances can mainly produce:",
+       "options": [
+        "Bodily movement",
+        "Complex rotations",
+        "Intrusion of molars",
+        "Simple tipping movements",
+        "Torque"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fixed appliances give full control."
+      },
+      {
+       "stem": "A twin block appliance is used to treat:",
+       "options": [
+        "Missing teeth",
+        "Open bite in adults",
+        "Class III in adults",
+        "Crowding in adults",
+        "Class II malocclusion in growing children"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a functional appliance."
+      },
+      {
+       "stem": "On the pressure side of a moving tooth, alveolar bone undergoes:",
+       "options": [
+        "Necrosis always",
+        "Calcification",
+        "No change",
+        "Osteoclastic resorption",
+        "Deposition"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tension side undergoes deposition."
+      },
+      {
+       "stem": "Heavy orthodontic forces can cause:",
+       "options": [
+        "Hyalinisation and root resorption",
+        "Improved retention",
+        "No side effects",
+        "Increased bone",
+        "Faster movement always"
+       ],
+       "answerIndex": 0,
+       "explanation": "Light continuous forces are ideal."
+      },
+      {
+       "stem": "Rapid maxillary expansion is used to correct:",
+       "options": [
+        "Class II division 2",
+        "Spacing",
+        "Anterior open bite",
+        "Posterior crossbite due to a narrow maxilla",
+        "Deep bite"
+       ],
+       "answerIndex": 3,
+       "explanation": "It opens the midpalatal suture."
+      },
+      {
+       "stem": "Extraction of the primary canine may be used to encourage eruption of a:",
+       "options": [
+        "Third molar",
+        "Premolar",
+        "Lower incisor",
+        "Palatally displaced permanent canine",
+        "First molar"
+       ],
+       "answerIndex": 3,
+       "explanation": "An interceptive measure."
+      },
+      {
+       "stem": "Adults with severe skeletal Class III discrepancy are usually treated with:",
+       "options": [
+        "No treatment possible",
+        "Orthodontics combined with orthognathic surgery",
+        "Removable appliances alone",
+        "Extraction of all premolars only",
+        "Functional appliances"
+       ],
+       "answerIndex": 1,
+       "explanation": "Growth modification is no longer possible."
+      },
+      {
+       "stem": "Retainers are needed after orthodontic treatment to prevent:",
+       "options": [
+        "Gingivitis",
+        "Tooth wear",
+        "Pain",
+        "Relapse",
+        "Caries"
+       ],
+       "answerIndex": 3,
+       "explanation": "Teeth tend to return to their original positions."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Dentistry: Behaviour and Prevention",
+     "order": 4,
+     "summary": "Child behaviour management, caries risk and prevention, fluoride and sealants.",
+     "material": [
+      {
+       "heading": "Behaviour management",
+       "body": "Children's cooperation depends on age, previous experiences, parental anxiety and the dental team's approach. Non-pharmacological techniques: tell–show–do, positive reinforcement (praise), voice control, distraction, modelling, and parental presence/absence as appropriate; build rapport and use child-friendly language. Pharmacological options: inhalation sedation with nitrous oxide/oxygen (relative analgesia — safe, rapid onset and recovery), oral or intravenous sedation (specialist settings), and general anaesthesia for extensive treatment in very young or uncooperative children or those with special needs. The Frankl scale rates behaviour from definitely negative to definitely positive. Children with special health care needs (cerebral palsy, autism, Down syndrome, sickle cell disease, heart disease, bleeding disorders) need tailored care and prevention. Safeguarding: dentists must recognise signs of child abuse and neglect (dental neglect, facial injuries) and act.",
+       "keyPoints": [
+        "Tell–show–do",
+        "Positive reinforcement",
+        "Nitrous oxide sedation",
+        "GA for extensive treatment",
+        "Frankl scale",
+        "Safeguarding"
+       ]
+      },
+      {
+       "heading": "Prevention",
+       "body": "Early childhood caries (any caries in a child under 6; severe forms affect upper incisors and molars; associated with frequent sugary drinks, night-time bottle feeding with sweetened liquids, and poor oral hygiene) is common in urban Nigerian children. Prevention: parental supervision of twice-daily brushing with fluoride toothpaste (a smear/rice-grain size for under-3s with 1,000 ppm; pea-sized for 3–6 years with 1,000–1,450 ppm; spit, don't rinse), reducing frequency of sugar intake, avoiding sweetened drinks in bottles at night, professional fluoride varnish (22,600 ppm; 2–4 times per year for high-risk children), and fissure sealants on permanent molars soon after eruption. Water fluoridation is not established in Nigeria; excessive fluoride (in some borehole water) causes fluorosis. Anticipatory guidance at the first dental visit (by age 1) and school oral health programmes are recommended.",
+       "keyPoints": [
+        "ECC under 6",
+        "Smear under 3; pea-sized 3–6",
+        "Spit, don't rinse",
+        "Fluoride varnish 22,600 ppm",
+        "Fissure sealants on first molars",
+        "First visit by age 1"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The behaviour management technique of explaining, demonstrating and then performing a procedure is:",
+       "options": [
+        "Restraint",
+        "General anaesthesia",
+        "Tell–show–do",
+        "Hand-over-mouth",
+        "Voice control"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces fear of the unknown."
+      },
+      {
+       "stem": "The inhalation sedation agent commonly used in paediatric dentistry is:",
+       "options": [
+        "Propofol",
+        "Ketamine",
+        "Midazolam gas",
+        "Nitrous oxide with oxygen",
+        "Halothane"
+       ],
+       "answerIndex": 3,
+       "explanation": "It has rapid onset and recovery."
+      },
+      {
+       "stem": "The amount of fluoride toothpaste recommended for children under 3 is:",
+       "options": [
+        "A smear or rice-grain size",
+        "Half a tube",
+        "No toothpaste",
+        "A full brush length",
+        "Pea-sized with 5,000 ppm"
+       ],
+       "answerIndex": 0,
+       "explanation": "It minimises fluorosis risk."
+      },
+      {
+       "stem": "Children should be advised after brushing to:",
+       "options": [
+        "Rinse thoroughly with water",
+        "Spit but not rinse",
+        "Swallow the toothpaste",
+        "Eat immediately",
+        "Use mouthwash immediately"
+       ],
+       "answerIndex": 1,
+       "explanation": "It maintains fluoride on the teeth."
+      },
+      {
+       "stem": "Professional fluoride varnish contains about:",
+       "options": [
+        "100 ppm",
+        "1,450 ppm",
+        "22,600 ppm",
+        "500 ppm",
+        "5 ppm"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is applied 2–4 times a year to high-risk children."
+      },
+      {
+       "stem": "Fissure sealants are most beneficial when applied to:",
+       "options": [
+        "Permanent first molars soon after eruption",
+        "Third molars in adults",
+        "Primary incisors",
+        "Crowns",
+        "Adult canines"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pits and fissures are caries-prone."
+      },
+      {
+       "stem": "A major risk factor for early childhood caries is:",
+       "options": [
+        "Fluoride toothpaste",
+        "Drinking water",
+        "Eating vegetables",
+        "Breastfeeding during the day",
+        "Night-time bottle feeding with sweetened drinks"
+       ],
+       "answerIndex": 4,
+       "explanation": "Saliva flow is reduced during sleep."
+      },
+      {
+       "stem": "The first dental visit is recommended by:",
+       "options": [
+        "Age 12",
+        "Age 5",
+        "Age 1",
+        "When pain occurs",
+        "School leaving"
+       ],
+       "answerIndex": 2,
+       "explanation": "It allows early prevention and guidance."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Pulp Therapy and Dental Trauma",
+     "order": 5,
+     "summary": "Pulpotomy and pulpectomy in primary teeth, stainless steel crowns, and managing dental injuries in children.",
+     "material": [
+      {
+       "heading": "Pulp therapy in primary teeth",
+       "body": "Primary teeth have large pulps, thin enamel and dentine, and caries spreads quickly. Treatment options: indirect pulp capping, pulpotomy (removal of inflamed coronal pulp in vital primary molars with carious exposure; medicaments — MTA, Biodentine, ferric sulfate; formocresol historically), pulpectomy (removal of all pulp in non-vital or irreversibly inflamed primary teeth with resorbable fill — zinc oxide eugenol or iodoform pastes such as Vitapex), and extraction (with space maintenance when needed). Preformed metal (stainless steel) crowns are the most durable restoration for primary molars after pulp therapy or with multi-surface caries; the Hall technique seals caries without local anaesthesia or preparation. In young permanent teeth with open apices, preserve pulp vitality (apexogenesis via partial pulpotomy — Cvek) to allow continued root development; necrotic immature teeth need apexification (MTA barrier) or regenerative endodontics.",
+       "keyPoints": [
+        "Pulpotomy for vital exposed primary molars",
+        "Pulpectomy: resorbable paste",
+        "Stainless steel crowns durable",
+        "Hall technique",
+        "Cvek partial pulpotomy",
+        "Apexification for immature necrotic teeth"
+       ]
+      },
+      {
+       "heading": "Dental trauma",
+       "body": "Dental injuries are common in children (falls, play, sports, road crashes, abuse — check consistency of history). Upper central incisors are most affected; increased overjet with lip incompetence increases risk. Classification (Andreasen): enamel and enamel–dentine fractures (restore, preserve fragment reattachment), complicated crown fractures with pulp exposure (pulp capping or partial pulpotomy), root fractures, and luxation injuries (concussion, subluxation, extrusion, lateral luxation, intrusion) and avulsion. Avulsed permanent teeth: replant immediately if possible (hold by the crown, rinse with milk or saline, reinsert) or store in milk, saliva or saline; flexible splint for 2 weeks; antibiotics and tetanus status; root canal treatment within 7–10 days for teeth with closed apices. Never replant avulsed primary teeth (risk to the permanent successor). Primary tooth intrusion may damage developing permanent teeth (enamel hypoplasia — Turner's tooth). Mouthguards prevent sports injuries. Follow the International Association of Dental Traumatology (IADT) guidelines.",
+       "keyPoints": [
+        "Upper central incisors commonest",
+        "Overjet increases risk",
+        "Store avulsed tooth in milk",
+        "Splint 2 weeks",
+        "Never replant primary teeth",
+        "IADT guidelines"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A vital primary molar with a carious pulp exposure is typically treated by:",
+       "options": [
+        "Extraction always",
+        "Observation",
+        "Composite only",
+        "Pulpotomy",
+        "Root canal filling with gutta-percha"
+       ],
+       "answerIndex": 3,
+       "explanation": "The inflamed coronal pulp is removed."
+      },
+      {
+       "stem": "Pulpectomy in primary teeth uses root fillings that are:",
+       "options": [
+        "Gutta-percha",
+        "Silver points",
+        "Amalgam",
+        "Composite",
+        "Resorbable (ZOE or iodoform paste)"
+       ],
+       "answerIndex": 4,
+       "explanation": "They resorb with the roots."
+      },
+      {
+       "stem": "The most durable restoration for a primary molar after pulpotomy is a:",
+       "options": [
+        "Glass ionomer only",
+        "Amalgam",
+        "Temporary filling",
+        "Preformed stainless steel crown",
+        "Composite filling"
+       ],
+       "answerIndex": 3,
+       "explanation": "It covers and protects the tooth."
+      },
+      {
+       "stem": "For a young permanent incisor with an open apex and a small traumatic pulp exposure, the preferred treatment is:",
+       "options": [
+        "No treatment",
+        "Extraction",
+        "Partial pulpotomy (Cvek) to preserve vitality",
+        "Crown only",
+        "Full root canal treatment immediately"
+       ],
+       "answerIndex": 2,
+       "explanation": "Root development can continue."
+      },
+      {
+       "stem": "An avulsed permanent tooth that cannot be replanted immediately should be stored in:",
+       "options": [
+        "Milk",
+        "Bleach",
+        "Alcohol",
+        "Dry tissue",
+        "Tap water"
+       ],
+       "answerIndex": 0,
+       "explanation": "Milk preserves periodontal ligament cells."
+      },
+      {
+       "stem": "An avulsed primary incisor should:",
+       "options": [
+        "Not be replanted",
+        "Be splinted for 6 months",
+        "Be replanted immediately",
+        "Be root filled first",
+        "Be stored in milk and replanted later"
+       ],
+       "answerIndex": 0,
+       "explanation": "Replantation may damage the permanent successor."
+      },
+      {
+       "stem": "Children with increased overjet and incompetent lips have a higher risk of:",
+       "options": [
+        "Dental trauma to upper incisors",
+        "Fluorosis",
+        "Caries",
+        "Periodontitis",
+        "Tooth wear"
+       ],
+       "answerIndex": 0,
+       "explanation": "Protruding incisors are vulnerable."
+      },
+      {
+       "stem": "Enamel hypoplasia of a permanent tooth caused by trauma or infection of its primary predecessor is called:",
+       "options": [
+        "Turner's tooth",
+        "Mulberry molar",
+        "Dens invaginatus",
+        "Hutchinson's tooth",
+        "Peg lateral"
+       ],
+       "answerIndex": 0,
+       "explanation": "It affects the developing crown."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -2,7 +2,9 @@ import { ApiProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import {
   ArrayMaxSize,
+  ArrayMinSize,
   IsArray,
+  IsBoolean,
   IsIn,
   IsISO8601,
   IsInt,
@@ -163,4 +165,23 @@ export const NEWS_STATUSES = [ContentStatus.DRAFT, ContentStatus.PUBLISHED, Cont
 
 export class NewsStatusDto {
   @ApiProperty({ enum: NEWS_STATUSES }) @IsIn(NEWS_STATUSES) status: (typeof NEWS_STATUSES)[number];
+}
+
+export class NewsBulkStatusDto {
+  @ApiProperty({ type: [String] })
+  @IsArray() @ArrayMinSize(1) @ArrayMaxSize(200) @IsMongoId({ each: true })
+  ids: string[];
+  @ApiProperty({ enum: NEWS_STATUSES }) @IsIn(NEWS_STATUSES) status: (typeof NEWS_STATUSES)[number];
+}
+
+export class NewsSourceInputDto {
+  @ApiProperty({ example: 'NCDC' }) @IsString() @MaxLength(80) name: string;
+  @ApiProperty({ example: 'https://ncdc.gov.ng/', description: 'Homepage, news page or RSS/Atom feed' })
+  @IsUrl({ protocols: ['http', 'https'], require_protocol: true }, { message: 'Source address must be a full web address (https://…).' })
+  @MaxLength(500)
+  url: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) institution?: string;
+  @ApiProperty({ required: false, default: true }) @IsOptional() @IsBoolean() enabled?: boolean;
+  @ApiProperty({ required: false, default: false, description: 'Publish found stories without waiting as drafts' })
+  @IsOptional() @IsBoolean() autoPublish?: boolean;
 }

@@ -1,0 +1,660 @@
+{
+ "courses": [
+  {
+   "title": "Communicable and Non-Communicable Disease Control",
+   "code": "PUH403",
+   "color": "#B45309",
+   "description": "Principles of disease control, surveillance and outbreak response, control of priority communicable diseases, immunisation, and prevention of non-communicable diseases.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principles of Disease Control",
+     "order": 1,
+     "summary": "Control, elimination and eradication, the chain of infection, and levels of prevention.",
+     "material": [
+      {
+       "heading": "Definitions",
+       "body": "Control reduces disease incidence, prevalence, morbidity or mortality to a locally acceptable level with continued intervention. Elimination reduces incidence to zero in a defined geographical area (e.g. elimination of neonatal tetanus as a public health problem, measles elimination targets). Eradication is the permanent reduction of worldwide incidence to zero so interventions are no longer needed — achieved only for smallpox (1980) and rinderpest; polio and dracunculiasis (Guinea worm — Nigeria certified free in 2013) are close. Wild poliovirus was declared eradicated from Nigeria and Africa in 2020, though circulating vaccine-derived poliovirus type 2 persists. Eradicable diseases usually have no animal reservoir, an effective intervention and easy diagnosis.",
+       "keyPoints": [
+        "Control → elimination → eradication",
+        "Smallpox eradicated 1980",
+        "Nigeria Guinea worm-free 2013",
+        "Africa wild polio-free 2020",
+        "cVDPV2 persists"
+       ]
+      },
+      {
+       "heading": "Chain of infection and prevention",
+       "body": "The chain of infection links the agent, reservoir (human, animal, environment), portal of exit, mode of transmission (direct contact, droplet, airborne, vehicle-borne, vector-borne), portal of entry and susceptible host; breaking any link controls disease. Control measures target the reservoir (case finding, treatment, isolation, quarantine of contacts, animal control), transmission (sanitation, safe water, vector control, hand hygiene, PPE), and the host (immunisation, chemoprophylaxis, nutrition, health education). Levels of prevention: primordial (preventing risk factors emerging), primary (preventing disease onset — vaccination), secondary (early detection and treatment — screening), tertiary (limiting disability — rehabilitation) and quaternary (avoiding overmedicalisation). Herd immunity protects unvaccinated people when enough of the population is immune.",
+       "keyPoints": [
+        "Chain of infection: six links",
+        "Isolation (cases) vs quarantine (contacts)",
+        "Primary: vaccination; secondary: screening",
+        "Tertiary: rehabilitation",
+        "Herd immunity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The only human disease eradicated globally is:",
+       "options": [
+        "Malaria",
+        "Smallpox",
+        "Polio",
+        "Guinea worm",
+        "Measles"
+       ],
+       "answerIndex": 1,
+       "explanation": "Smallpox was declared eradicated in 1980."
+      },
+      {
+       "stem": "Reduction of disease incidence to zero in a defined area is called:",
+       "options": [
+        "Eradication",
+        "Elimination",
+        "Surveillance",
+        "Extinction",
+        "Control"
+       ],
+       "answerIndex": 1,
+       "explanation": "Eradication is worldwide."
+      },
+      {
+       "stem": "Nigeria was certified free of Guinea worm disease in:",
+       "options": [
+        "1990",
+        "2000",
+        "2013",
+        "2020",
+        "2023"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dracunculiasis transmission was interrupted."
+      },
+      {
+       "stem": "Separation of healthy contacts of an infectious case during the incubation period is:",
+       "options": [
+        "Notification",
+        "Isolation",
+        "Quarantine",
+        "Surveillance",
+        "Disinfection"
+       ],
+       "answerIndex": 2,
+       "explanation": "Isolation applies to sick persons."
+      },
+      {
+       "stem": "Screening for cervical cancer is an example of:",
+       "options": [
+        "Secondary prevention",
+        "Tertiary prevention",
+        "Primordial prevention",
+        "Primary prevention",
+        "Quaternary prevention"
+       ],
+       "answerIndex": 0,
+       "explanation": "It detects disease early."
+      },
+      {
+       "stem": "Vaccination is an example of:",
+       "options": [
+        "Palliation",
+        "Tertiary prevention",
+        "Rehabilitation",
+        "Primary prevention",
+        "Secondary prevention"
+       ],
+       "answerIndex": 3,
+       "explanation": "It prevents disease onset."
+      },
+      {
+       "stem": "Herd immunity refers to:",
+       "options": [
+        "Indirect protection of susceptible people when most of the population is immune",
+        "Passive immunity",
+        "Immunity in animals",
+        "Natural immunity only",
+        "Immunity after infection only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It interrupts transmission chains."
+      },
+      {
+       "stem": "Diseases most suitable for eradication typically have:",
+       "options": [
+        "A large animal reservoir",
+        "No vaccine",
+        "No non-human reservoir and an effective intervention",
+        "Long carrier states",
+        "Difficult diagnosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Smallpox had these features."
+      }
+     ]
+    },
+    {
+     "title": "Surveillance and Outbreak Investigation",
+     "order": 2,
+     "summary": "Types of surveillance, IDSR, notifiable diseases and steps in outbreak investigation.",
+     "material": [
+      {
+       "heading": "Surveillance",
+       "body": "Public health surveillance is the ongoing systematic collection, analysis, interpretation and dissemination of health data for action. Types: passive (routine reports from facilities — cheap but under-reports), active (health workers seek cases — e.g. AFP surveillance for polio), sentinel (selected sites report detailed data — e.g. HIV sentinel surveys in antenatal clinics), syndromic (based on symptom patterns) and event-based surveillance (media, rumours, community reports). Nigeria uses Integrated Disease Surveillance and Response (IDSR) with immediately notifiable diseases (e.g. cholera, Lassa fever, measles, meningitis, yellow fever, AFP/polio, avian influenza, mpox, diphtheria) and weekly/monthly reportable diseases. Surveillance data are reported through SORMAS and DHIS2, and NCDC publishes situation reports.",
+       "keyPoints": [
+        "Passive vs active surveillance",
+        "Sentinel sites",
+        "Event-based surveillance",
+        "Immediately notifiable: Lassa, cholera, measles, AFP",
+        "SORMAS"
+       ]
+      },
+      {
+       "heading": "Outbreak investigation",
+       "body": "An outbreak (epidemic) is the occurrence of cases in excess of normal expectancy. Steps: (1) prepare for fieldwork; (2) establish the existence of an outbreak (compare with baseline); (3) verify the diagnosis (clinical and laboratory); (4) construct a case definition (suspected, probable, confirmed — by person, place and time) and find cases systematically; (5) perform descriptive epidemiology (epidemic curve, spot maps, attack rates by person characteristics); (6) develop hypotheses; (7) evaluate hypotheses analytically (case–control or cohort study); (8) refine hypotheses and additional studies; (9) implement control and prevention measures (as early as possible — control measures should not wait for all steps); (10) communicate findings. The epidemic curve's shape indicates the type of outbreak: point-source (single sharp peak), continuous common-source, or propagated (person-to-person, successive peaks). An Emergency Operations Centre coordinates the response.",
+       "keyPoints": [
+        "Outbreak = excess over expected",
+        "Case definition: person, place, time",
+        "Epidemic curve",
+        "Point-source: single peak; propagated: successive peaks",
+        "Control measures early"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Surveillance in which health workers actively seek out cases is:",
+       "options": [
+        "Event-based surveillance",
+        "Sentinel surveillance",
+        "Syndromic surveillance",
+        "Active surveillance",
+        "Passive surveillance"
+       ],
+       "answerIndex": 3,
+       "explanation": "AFP case searching for polio is an example."
+      },
+      {
+       "stem": "Which disease is immediately notifiable in Nigeria?",
+       "options": [
+        "Lassa fever",
+        "Diabetes",
+        "Asthma",
+        "Hypertension",
+        "Osteoarthritis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Viral haemorrhagic fevers need immediate reporting."
+      },
+      {
+       "stem": "An outbreak is defined as:",
+       "options": [
+        "Occurrence of cases in excess of normal expectancy",
+        "A disease in animals only",
+        "Any case of disease",
+        "A disease with high mortality",
+        "A chronic disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "Even one case of some diseases is an outbreak."
+      },
+      {
+       "stem": "The first steps in an outbreak investigation include:",
+       "options": [
+        "Closing schools",
+        "Writing a policy",
+        "Establishing the existence of an outbreak and verifying the diagnosis",
+        "Publishing a report",
+        "Mass vaccination immediately always"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pseudo-outbreaks must be excluded."
+      },
+      {
+       "stem": "A case definition includes clinical criteria and restrictions by:",
+       "options": [
+        "Hospital and doctor",
+        "Person, place and time",
+        "Income and religion",
+        "Age only",
+        "Laboratory and cost"
+       ],
+       "answerIndex": 1,
+       "explanation": "It standardises case finding."
+      },
+      {
+       "stem": "An epidemic curve with a single sharp peak suggests:",
+       "options": [
+        "Point-source outbreak",
+        "Zoonotic spillover repeatedly",
+        "Continuous source over months",
+        "Propagated outbreak",
+        "Endemic disease"
+       ],
+       "answerIndex": 0,
+       "explanation": "All cases were exposed at about the same time."
+      },
+      {
+       "stem": "An epidemic curve with successive, progressively larger peaks suggests:",
+       "options": [
+        "Seasonal allergy",
+        "Point-source",
+        "Propagated (person-to-person) transmission",
+        "Contaminated meal",
+        "Laboratory error"
+       ],
+       "answerIndex": 2,
+       "explanation": "Each peak is a generation of cases."
+      },
+      {
+       "stem": "Control measures during an outbreak should be implemented:",
+       "options": [
+        "As soon as possible, even while investigation continues",
+        "Only by WHO",
+        "Never",
+        "Only after analytical studies",
+        "Only after the final report"
+       ],
+       "answerIndex": 0,
+       "explanation": "Protecting the public takes priority."
+      }
+     ]
+    },
+    {
+     "title": "Control of Priority Communicable Diseases",
+     "order": 3,
+     "summary": "Malaria, tuberculosis, HIV, cholera, Lassa fever and neglected tropical diseases.",
+     "material": [
+      {
+       "heading": "Malaria, TB and HIV",
+       "body": "Nigeria bears the highest malaria burden in the world (about a quarter of global cases and deaths). Control: insecticide-treated nets (long-lasting ITNs), indoor residual spraying, seasonal malaria chemoprevention for children in the Sahel (SP + amodiaquine, July–October), intermittent preventive treatment in pregnancy (IPTp-SP), prompt testing with RDTs and treatment with ACTs, and the new malaria vaccines (RTS,S and R21, introduced in Nigeria in 2024). Tuberculosis: Nigeria is among the top TB burden countries with many missed cases; the DOTS strategy and End TB Strategy use active case finding, GeneXpert testing, treatment (2HRZE/4HR), TB preventive therapy and HIV integration. HIV: 95-95-95 targets (diagnosed, on ART, virally suppressed), test-and-treat, PMTCT, PrEP and condom promotion.",
+       "keyPoints": [
+        "Nigeria: highest malaria burden",
+        "LLINs, IRS, SMC, IPTp, ACTs",
+        "Malaria vaccines R21 and RTS,S",
+        "TB: GeneXpert, 2HRZE/4HR",
+        "HIV 95-95-95"
+       ]
+      },
+      {
+       "heading": "Outbreak-prone and neglected diseases",
+       "body": "Cholera (Vibrio cholerae; outbreaks in rainy seasons and in IDP camps) is controlled by safe water, sanitation and hygiene (WASH), case management with ORS and IV fluids, oral cholera vaccine and surveillance. Lassa fever (arenavirus; reservoir the multimammate rat Mastomys natalensis; peaks December–April; endemic in Edo, Ondo, Bauchi, Ebonyi) is controlled by rodent control, food storage, early diagnosis and ribavirin, and infection prevention and control in hospitals. Cerebrospinal meningitis (meningitis belt; MenAfriVac against serogroup A; recent serogroup C outbreaks; pentavalent Men5CV introduced). Neglected tropical diseases (onchocerciasis, lymphatic filariasis, schistosomiasis, soil-transmitted helminths, trachoma) are controlled by mass drug administration (ivermectin, albendazole, praziquantel, azithromycin) and WASH.",
+       "keyPoints": [
+        "Cholera: WASH, ORS, OCV",
+        "Lassa: Mastomys, Dec–April, ribavirin",
+        "Meningitis belt: Men5CV",
+        "NTDs: mass drug administration"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The country with the highest malaria burden in the world is:",
+       "options": [
+        "Nigeria",
+        "Kenya",
+        "Brazil",
+        "Ghana",
+        "India"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nigeria accounts for about a quarter of cases."
+      },
+      {
+       "stem": "Seasonal malaria chemoprevention in Nigeria's Sahel uses:",
+       "options": [
+        "Chloroquine",
+        "Quinine",
+        "Sulfadoxine–pyrimethamine plus amodiaquine",
+        "Artesunate injection",
+        "Primaquine"
+       ],
+       "answerIndex": 2,
+       "explanation": "Monthly doses are given during the rainy season."
+      },
+      {
+       "stem": "The malaria vaccine introduced in Nigeria in 2024 was:",
+       "options": [
+        "MenAfriVac",
+        "R21/Matrix-M",
+        "HPV",
+        "Rotavirus",
+        "BCG"
+       ],
+       "answerIndex": 1,
+       "explanation": "R21 was introduced in Kebbi and Bayelsa."
+      },
+      {
+       "stem": "The 95-95-95 targets relate to:",
+       "options": [
+        "Cholera",
+        "Polio",
+        "Tuberculosis",
+        "Malaria",
+        "HIV"
+       ],
+       "answerIndex": 4,
+       "explanation": "Diagnosed, on treatment, virally suppressed."
+      },
+      {
+       "stem": "The reservoir of Lassa fever is the:",
+       "options": [
+        "Aedes mosquito",
+        "Dog",
+        "Tsetse fly",
+        "Multimammate rat (Mastomys natalensis)",
+        "Fruit bat"
+       ],
+       "answerIndex": 3,
+       "explanation": "Contamination of food by rat urine spreads it."
+      },
+      {
+       "stem": "The key measure for controlling cholera is:",
+       "options": [
+        "Insecticide-treated nets",
+        "Rodent control",
+        "Safe water, sanitation and hygiene",
+        "Condoms",
+        "BCG vaccination"
+       ],
+       "answerIndex": 2,
+       "explanation": "Cholera is waterborne."
+      },
+      {
+       "stem": "Onchocerciasis is controlled by mass drug administration of:",
+       "options": [
+        "Ivermectin",
+        "Chloroquine",
+        "Metronidazole",
+        "Rifampicin",
+        "Praziquantel"
+       ],
+       "answerIndex": 0,
+       "explanation": "Ivermectin kills microfilariae."
+      },
+      {
+       "stem": "The GeneXpert test is used to diagnose:",
+       "options": [
+        "Tuberculosis and rifampicin resistance",
+        "HIV",
+        "Lassa fever",
+        "Cholera",
+        "Malaria"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a rapid molecular test."
+      }
+     ]
+    },
+    {
+     "title": "Immunisation Programmes",
+     "order": 4,
+     "summary": "Nigeria's routine schedule, cold chain, AEFI and strategies to improve coverage.",
+     "material": [
+      {
+       "heading": "Routine schedule",
+       "body": "Nigeria's routine immunisation schedule (National Programme on Immunisation): at birth — BCG, OPV0 and hepatitis B birth dose; 6, 10 and 14 weeks — pentavalent (DTP–HepB–Hib), PCV, OPV, rotavirus (6 and 10 weeks); 14 weeks — IPV; 6 months — vitamin A; 9 months — measles and yellow fever, plus meningococcal conjugate (in the meningitis belt) and IPV second dose; 15 months — measles second dose. HPV vaccine was introduced in 2023 for girls aged 9–14 years (single dose). Tetanus–diphtheria (Td) is given to women of childbearing age and in pregnancy. Supplementary immunisation activities (campaigns) complement routine immunisation. Coverage remains low in many northern states, with many 'zero-dose' children.",
+       "keyPoints": [
+        "Birth: BCG, OPV0, HepB0",
+        "6/10/14 weeks: pentavalent, PCV, OPV",
+        "9 months: measles, yellow fever",
+        "HPV for girls 9–14 (2023)",
+        "Zero-dose children"
+       ]
+      },
+      {
+       "heading": "Cold chain and safety",
+       "body": "The cold chain keeps vaccines at +2 °C to +8 °C from manufacturer to recipient (OPV may be stored frozen at central levels). Heat-sensitive vaccines include OPV and measles; freeze-sensitive vaccines (pentavalent, HepB, PCV, IPV, Td) are damaged by freezing — the shake test detects freeze damage. Vaccine vial monitors (VVMs) change colour with cumulative heat exposure; discard vials when the inner square matches or is darker than the outer circle. Multi-dose vial policy: opened vials of some vaccines may be used for up to 28 days under proper conditions; reconstituted vaccines (BCG, measles, yellow fever) must be discarded after 6 hours or at the end of the session. Adverse events following immunisation (AEFI) must be reported and investigated. Strategies to improve coverage: reaching every ward, community engagement with traditional and religious leaders, reminder systems, tracking defaulters and integrating services.",
+       "keyPoints": [
+        "Cold chain +2 to +8 °C",
+        "Shake test: freeze damage",
+        "VVM: discard if inner square ≥ outer",
+        "Reconstituted: discard after 6 hours",
+        "Report AEFIs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Which vaccines are given at birth in Nigeria?",
+       "options": [
+        "Pentavalent and PCV",
+        "HPV",
+        "BCG, OPV0 and hepatitis B",
+        "Measles and yellow fever",
+        "Rotavirus"
+       ],
+       "answerIndex": 2,
+       "explanation": "These form the birth doses."
+      },
+      {
+       "stem": "The pentavalent vaccine protects against:",
+       "options": [
+        "HPV and hepatitis A",
+        "Rotavirus and pneumococcus",
+        "Measles, mumps, rubella, polio, TB",
+        "Yellow fever and meningitis",
+        "Diphtheria, pertussis, tetanus, hepatitis B and Hib"
+       ],
+       "answerIndex": 4,
+       "explanation": "Five antigens in one vaccine."
+      },
+      {
+       "stem": "The first dose of measles vaccine in Nigeria is given at:",
+       "options": [
+        "12 years",
+        "6 weeks",
+        "9 months",
+        "5 years",
+        "Birth"
+       ],
+       "answerIndex": 2,
+       "explanation": "Given with yellow fever vaccine."
+      },
+      {
+       "stem": "The HPV vaccine introduced in Nigeria in 2023 targets:",
+       "options": [
+        "All adults",
+        "Newborns",
+        "Girls aged 9–14 years",
+        "Pregnant women",
+        "Elderly men"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prevents cervical cancer."
+      },
+      {
+       "stem": "Vaccines should be stored in the cold chain between:",
+       "options": [
+        "−20 and −10 °C",
+        "0 and +2 °C only",
+        "+25 and +30 °C",
+        "+2 and +8 °C",
+        "+15 and +25 °C"
+       ],
+       "answerIndex": 3,
+       "explanation": "This is the standard range."
+      },
+      {
+       "stem": "The shake test is used to detect:",
+       "options": [
+        "Expiry date",
+        "Contamination",
+        "Potency of BCG",
+        "Freeze damage to adsorbed vaccines",
+        "Heat damage"
+       ],
+       "answerIndex": 3,
+       "explanation": "Frozen vaccines sediment faster."
+      },
+      {
+       "stem": "A reconstituted measles vaccine vial should be discarded after:",
+       "options": [
+        "28 days",
+        "Never",
+        "1 hour",
+        "1 week",
+        "6 hours or end of session"
+       ],
+       "answerIndex": 4,
+       "explanation": "Risk of contamination and potency loss."
+      },
+      {
+       "stem": "Children who have never received any routine vaccine are called:",
+       "options": [
+        "Fully immunised",
+        "Drop-outs",
+        "Defaulters",
+        "Zero-dose children",
+        "Partially immunised"
+       ],
+       "answerIndex": 3,
+       "explanation": "Reaching them is a global priority."
+      }
+     ]
+    },
+    {
+     "title": "Prevention of Non-Communicable Diseases",
+     "order": 5,
+     "summary": "NCD burden, shared risk factors, WHO best buys and screening programmes.",
+     "material": [
+      {
+       "heading": "Burden and risk factors",
+       "body": "Non-communicable diseases (cardiovascular disease, cancers, chronic respiratory disease, diabetes, and increasingly mental disorders) cause about 29% of deaths in Nigeria and rising — the double burden of disease alongside infections. Shared modifiable behavioural risk factors: tobacco use, harmful alcohol use, unhealthy diet (high salt, sugar, trans fats; low fruit and vegetables), and physical inactivity; metabolic risk factors: raised blood pressure (hypertension affects about 30% of Nigerian adults, often undiagnosed), overweight/obesity, raised blood glucose and raised lipids; plus air pollution. Urbanisation and changing lifestyles drive rising NCDs. The WHO STEPwise approach (STEPS) surveys risk factors.",
+       "keyPoints": [
+        "NCDs ~29% of deaths in Nigeria",
+        "Four behavioural risk factors",
+        "Hypertension ~30% of adults",
+        "Double burden of disease",
+        "WHO STEPS surveys"
+       ]
+      },
+      {
+       "heading": "Interventions",
+       "body": "WHO 'best buys' are cost-effective NCD interventions: tobacco taxation, smoke-free public places, graphic health warnings and advertising bans (Nigeria's National Tobacco Control Act 2015); alcohol taxes and availability restrictions; salt reduction; eliminating trans fats; sugar-sweetened beverage taxes (Nigeria introduced a ₦10/litre levy in 2022); public awareness on physical activity; drug therapy and counselling for people at high cardiovascular risk; and HPV vaccination and cervical cancer screening (VIA, HPV testing). The WHO HEARTS package and PEN (Package of Essential NCD interventions) strengthen primary care management of hypertension and diabetes, including task-sharing with nurses and CHEWs. Screening programmes: blood pressure, blood glucose, breast awareness and clinical breast examination, cervical screening.",
+       "keyPoints": [
+        "WHO best buys",
+        "Tobacco Control Act 2015",
+        "SSB tax ₦10/litre (2022)",
+        "HEARTS and PEN packages",
+        "Cervical screening: VIA/HPV"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The four main behavioural risk factors for NCDs are tobacco, harmful alcohol use, unhealthy diet and:",
+       "options": [
+        "Mosquito bites",
+        "Poor ventilation",
+        "Contaminated water",
+        "Physical inactivity",
+        "Crowding"
+       ],
+       "answerIndex": 3,
+       "explanation": "These are shared by most NCDs."
+      },
+      {
+       "stem": "About what proportion of Nigerian adults have hypertension?",
+       "options": [
+        "3%",
+        "10%",
+        "30%",
+        "70%",
+        "90%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Many cases are undiagnosed."
+      },
+      {
+       "stem": "The coexistence of infectious diseases and rising NCDs is called:",
+       "options": [
+        "Epidemiological transition complete",
+        "Syndemic only",
+        "Herd immunity",
+        "Double burden of disease",
+        "Demographic dividend"
+       ],
+       "answerIndex": 3,
+       "explanation": "Nigeria faces both."
+      },
+      {
+       "stem": "A WHO 'best buy' for tobacco control is:",
+       "options": [
+        "Free cigarettes",
+        "Reducing warnings",
+        "Smoking areas in hospitals",
+        "Increasing tobacco taxes",
+        "Allowing advertising"
+       ],
+       "answerIndex": 3,
+       "explanation": "Price increases reduce consumption."
+      },
+      {
+       "stem": "Nigeria's tax on sugar-sweetened beverages introduced in 2022 was:",
+       "options": [
+        "No tax exists",
+        "10% of income tax",
+        "₦10 per litre",
+        "₦1 per bottle",
+        "₦100 per litre"
+       ],
+       "answerIndex": 2,
+       "explanation": "It aims to reduce sugar consumption."
+      },
+      {
+       "stem": "The WHO HEARTS package focuses on:",
+       "options": [
+        "Cardiovascular disease management in primary care",
+        "Malaria control",
+        "Maternal nutrition",
+        "Immunisation",
+        "Mental health only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It standardises hypertension treatment."
+      },
+      {
+       "stem": "Visual inspection with acetic acid (VIA) screens for:",
+       "options": [
+        "Cervical precancer",
+        "Prostate cancer",
+        "Diabetes",
+        "Hypertension",
+        "Breast cancer"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a low-cost screening method."
+      },
+      {
+       "stem": "The WHO survey tool for NCD risk factors is called:",
+       "options": [
+        "STEPS",
+        "SORMAS",
+        "GIS",
+        "DHIS2",
+        "MICS"
+       ],
+       "answerIndex": 0,
+       "explanation": "The STEPwise approach to surveillance."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

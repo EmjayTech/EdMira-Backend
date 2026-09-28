@@ -1,0 +1,661 @@
+{
+ "courses": [
+  {
+   "title": "Prosthetic Dentistry",
+   "code": "DEN605",
+   "color": "#0891B2",
+   "description": "Complete dentures, removable partial dentures, immediate and overdentures, implant dentistry, maxillofacial prosthetics and denture-related problems.",
+   "audience": [
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Complete Dentures: Principles and Clinical Stages",
+     "order": 1,
+     "summary": "Edentulous anatomy, retention and stability, impressions, jaw relations and try-in.",
+     "material": [
+      {
+       "heading": "Principles",
+       "body": "Tooth loss in Nigerian adults results mainly from periodontal disease and caries, and complete dentures (acrylic) remain the most common prosthetic treatment. After extraction, the alveolar ridge resorbs — faster in the mandible (about four times more than the maxilla), making lower dentures less stable. Denture-bearing areas: maxilla — the hard palate and residual ridge (primary support), with the posterior palatal seal at the vibrating line (junction of hard and soft palate); mandible — the buccal shelf (primary stress-bearing area) and retromolar pads. Retention (resistance to displacement away from tissues) depends on adhesion, cohesion, surface tension of saliva, peripheral seal, atmospheric pressure and muscular control; stability (resistance to horizontal forces) depends on ridge form and occlusion; support (resistance to vertical forces) depends on the area covered. The neutral zone is where forces from the tongue and cheeks are balanced — teeth should be placed there.",
+       "keyPoints": [
+        "Mandible resorbs faster",
+        "Posterior palatal seal at vibrating line",
+        "Buccal shelf: mandibular support",
+        "Retention, stability, support",
+        "Neutral zone"
+       ]
+      },
+      {
+       "heading": "Clinical stages",
+       "body": "Stages: (1) assessment and primary impressions (alginate or impression compound in stock trays) → special (custom) trays; (2) secondary (master) impressions with border moulding (green stick compound) to record functional sulcus depth, using zinc oxide–eugenol paste or silicone; (3) jaw registration on wax occlusion rims — occlusal vertical dimension (OVD = rest vertical dimension minus freeway space of 2–4 mm), occlusal plane orientation (parallel to the interpupillary line and ala–tragus line), incisal level (about 1–2 mm of upper incisor visible at rest), centre line, and centric jaw relation; selection of tooth shade, shape and mould; (4) try-in of teeth set in wax (check aesthetics, phonetics — 'S' sounds and 'F/V' sounds, OVD, occlusion, patient approval); (5) processing, fitting and review with instructions (cleaning, removal at night, soaking, adaptation); (6) review appointments for adjustments. Errors: excessive OVD (clicking teeth, sore ridges, strained appearance), reduced OVD (angular cheilitis, collapsed face, reduced efficiency).",
+       "keyPoints": [
+        "Special trays and border moulding",
+        "Freeway space 2–4 mm",
+        "Occlusal plane parallel to ala–tragus",
+        "Try-in: aesthetics, phonetics, OVD",
+        "Remove dentures at night",
+        "Excess vs reduced OVD"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "After tooth loss, alveolar ridge resorption is:",
+       "options": [
+        "Faster in the mandible",
+        "Equal in both jaws",
+        "Absent",
+        "Faster in the maxilla",
+        "Only in children"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mandibular resorption is about four times greater."
+      },
+      {
+       "stem": "The primary stress-bearing area for a mandibular complete denture is the:",
+       "options": [
+        "Buccal shelf",
+        "Crest of the ridge only",
+        "Mylohyoid ridge",
+        "Lingual frenum",
+        "Genial tubercles"
+       ],
+       "answerIndex": 0,
+       "explanation": "It resists vertical forces well."
+      },
+      {
+       "stem": "The posterior palatal seal of an upper complete denture is placed at the:",
+       "options": [
+        "Vibrating line (junction of hard and soft palate)",
+        "Tuberosity only",
+        "Incisive papilla",
+        "Rugae",
+        "Canine eminence"
+       ],
+       "answerIndex": 0,
+       "explanation": "It improves retention."
+      },
+      {
+       "stem": "The freeway space is normally about:",
+       "options": [
+        "0 mm",
+        "2–4 mm",
+        "8–10 mm",
+        "15 mm",
+        "20 mm"
+       ],
+       "answerIndex": 1,
+       "explanation": "OVD = rest vertical dimension minus freeway space."
+      },
+      {
+       "stem": "Border moulding during secondary impressions records:",
+       "options": [
+        "Tooth shade",
+        "Speech",
+        "Occlusal plane",
+        "Functional depth and width of the sulci",
+        "Jaw relations"
+       ],
+       "answerIndex": 3,
+       "explanation": "It produces a peripheral seal."
+      },
+      {
+       "stem": "An excessive occlusal vertical dimension may cause:",
+       "options": [
+        "Collapsed facial appearance",
+        "Clicking of teeth and sore ridges",
+        "Better retention",
+        "Improved chewing",
+        "Angular cheilitis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Reduced OVD causes angular cheilitis."
+      },
+      {
+       "stem": "The area where tongue and cheek forces are balanced, where denture teeth should be placed, is the:",
+       "options": [
+        "Retromolar pad",
+        "Vibrating line",
+        "Neutral zone",
+        "Occlusal plane",
+        "Freeway space"
+       ],
+       "answerIndex": 2,
+       "explanation": "It improves stability."
+      },
+      {
+       "stem": "Patients should generally be advised to:",
+       "options": [
+        "Clean dentures only weekly",
+        "Never remove dentures",
+        "Wear dentures continuously day and night",
+        "Remove dentures at night and clean them daily",
+        "Use hot boiling water"
+       ],
+       "answerIndex": 3,
+       "explanation": "This rests the tissues and reduces stomatitis."
+      }
+     ]
+    },
+    {
+     "title": "Removable Partial Dentures",
+     "order": 2,
+     "summary": "Kennedy classification, components, design principles and materials.",
+     "material": [
+      {
+       "heading": "Classification and components",
+       "body": "Kennedy classification of partially edentulous arches: Class I (bilateral free-end saddles), Class II (unilateral free-end saddle), Class III (unilateral bounded saddle), Class IV (single bounded anterior saddle crossing the midline); additional spaces are modifications (Applegate's rules — Class IV has no modifications; classification follows extractions/preparations). Components of a cobalt–chromium or acrylic RPD: saddles (bases) carrying artificial teeth, rests (occlusal, cingulum, incisal — provide support and transmit forces along the long axis), clasps (retainers engaging undercuts — occlusally approaching or gingivally approaching, e.g. I-bar; reciprocation opposite), connectors (major — palatal plate, strap, lingual bar, lingual plate; minor), and indirect retainers (resist rotation of free-end saddles). Surveying determines the path of insertion, undercuts and guide planes.",
+       "keyPoints": [
+        "Kennedy I–IV",
+        "Class IV: no modifications",
+        "Rests: support",
+        "Clasps: retention in undercuts",
+        "Major connectors: lingual bar, plate",
+        "Surveying: path of insertion"
+       ]
+      },
+      {
+       "heading": "Design and materials",
+       "body": "Design follows a sequence: outline saddles, plan support (tooth-borne, mucosa-borne or combined), retention, bracing/reciprocation, connection and indirect retention. Tooth-supported designs are preferred where possible; free-end saddles are tooth–mucosa-borne and require extended bases, rests, and consideration of stress-breaking (RPI system — mesial rest, proximal plate, I-bar). Cobalt–chromium frameworks are thinner, stronger, more hygienic and better tolerated; acrylic partial dentures ('spoon dentures' for upper anterior teeth) are cheaper and common in Nigeria but gum-stripping designs damage the periodontium if not designed carefully. Flexible nylon dentures are aesthetic but difficult to adjust. Principles of periodontal health: keep gingival margins clear (at least 3–4 mm for lower lingual bars; 6 mm for upper connectors), plaque control and regular recall. Consider alternatives: shortened dental arch concept (a functional dentition with premolars may not need replacement of missing molars).",
+       "keyPoints": [
+        "Design sequence",
+        "RPI for free-end saddles",
+        "Co–Cr: thinner, hygienic",
+        "Acrylic: cheaper, can harm gingivae",
+        "Clear gingival margins",
+        "Shortened dental arch concept"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A partially edentulous arch with bilateral free-end saddles is Kennedy Class:",
+       "options": [
+        "V",
+        "IV",
+        "II",
+        "I",
+        "III"
+       ],
+       "answerIndex": 3,
+       "explanation": "Class II is unilateral free-end."
+      },
+      {
+       "stem": "A single edentulous space anterior to remaining teeth that crosses the midline is Kennedy Class:",
+       "options": [
+        "I",
+        "III",
+        "IV",
+        "Modification 1",
+        "II"
+       ],
+       "answerIndex": 2,
+       "explanation": "Class IV has no modifications."
+      },
+      {
+       "stem": "The component of an RPD that directs occlusal forces along the long axis of abutment teeth is the:",
+       "options": [
+        "Saddle",
+        "Rest",
+        "Clasp",
+        "Major connector",
+        "Denture tooth"
+       ],
+       "answerIndex": 1,
+       "explanation": "Rests provide support."
+      },
+      {
+       "stem": "Clasps provide retention by engaging:",
+       "options": [
+        "Soft tissue",
+        "The palate",
+        "The gingiva",
+        "Undercuts on abutment teeth",
+        "The occlusal surface"
+       ],
+       "answerIndex": 3,
+       "explanation": "Flexible clasp tips sit in undercuts."
+      },
+      {
+       "stem": "A surveyor is used to determine:",
+       "options": [
+        "Path of insertion and undercuts",
+        "Tooth shade",
+        "Impression accuracy only",
+        "Occlusal vertical dimension",
+        "Bite force"
+       ],
+       "answerIndex": 0,
+       "explanation": "It guides RPD design."
+      },
+      {
+       "stem": "The RPI system for free-end saddles consists of a mesial rest, proximal plate and:",
+       "options": [
+        "Circumferential clasp",
+        "Lingual plate",
+        "Ring clasp",
+        "I-bar clasp",
+        "Palatal strap"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces torque on abutments."
+      },
+      {
+       "stem": "An advantage of cobalt–chromium frameworks over acrylic partial dentures is:",
+       "options": [
+        "Lower cost",
+        "Thinner, stronger and more hygienic design",
+        "No need for surveying",
+        "Better colour",
+        "Easier to adjust at chairside"
+       ],
+       "answerIndex": 1,
+       "explanation": "They cover less gingival tissue."
+      },
+      {
+       "stem": "The shortened dental arch concept suggests that:",
+       "options": [
+        "Implants are always needed",
+        "Extraction of premolars is required",
+        "A dentition with intact anterior and premolar teeth may provide adequate function",
+        "Dentures are harmful",
+        "All missing teeth must be replaced"
+       ],
+       "answerIndex": 2,
+       "explanation": "Missing molars need not always be replaced."
+      }
+     ]
+    },
+    {
+     "title": "Immediate Dentures, Overdentures and Denture Problems",
+     "order": 3,
+     "summary": "Immediate and transitional dentures, overdentures, relines, denture stomatitis and complaints.",
+     "material": [
+      {
+       "heading": "Immediate dentures and overdentures",
+       "body": "Immediate dentures are fitted immediately after extractions — maintaining appearance, function and speech, acting as a bandage and preserving face height; but they require relining as the ridge resorbs (soft reline early, hard reline or new denture after about 6 months) and cannot be tried in fully beforehand. Overdentures are complete dentures supported partly by retained roots (decoronated, root-filled and domed, or with attachments) or implants — retained roots preserve alveolar bone, proprioception and improve stability; caries and periodontal disease of the roots must be prevented (fluoride, cleaning). The two-implant-retained mandibular overdenture is considered a standard of care for edentulous mandibles (McGill consensus) where affordable. Copy (replica) dentures help elderly patients adapt to new dentures by preserving familiar features.",
+       "keyPoints": [
+        "Immediate dentures: reline as ridge resorbs",
+        "Overdentures preserve bone",
+        "Retained roots need caries prevention",
+        "Two-implant mandibular overdenture",
+        "Copy dentures for elderly"
+       ]
+      },
+      {
+       "heading": "Denture problems",
+       "body": "Denture stomatitis (chronic atrophic candidiasis) — erythema of the palatal mucosa under an upper denture — associated with continuous wear, poor denture hygiene, Candida albicans, and ill-fitting dentures; treat by removing dentures at night, cleaning and soaking (dilute hypochlorite for acrylic without metal, or chlorhexidine), antifungals (miconazole gel applied to the fitting surface, nystatin), and replacing poor dentures. Angular cheilitis (Candida and Staphylococcus; reduced OVD, haematinic deficiency). Denture hyperplasia (epulis fissuratum — overextended flanges) requires trimming and possibly excision. Common complaints: looseness (poor extension, resorption — reline or remake), pain (overextension, pressure spots — adjust with pressure-indicating paste), gagging, speech problems, food under dentures, and difficulty eating (adaptation takes time, especially lower dentures). Any non-healing ulcer under a denture after adjustment must be biopsied. Denture-related oral cancer risk is linked to chronic irritation combined with other risk factors.",
+       "keyPoints": [
+        "Denture stomatitis: Candida, night wear",
+        "Soak and antifungals",
+        "Angular cheilitis: reduced OVD",
+        "Epulis fissuratum: overextension",
+        "Pressure-indicating paste",
+        "Biopsy non-healing ulcers"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An advantage of immediate dentures is that they:",
+       "options": [
+        "Maintain appearance and function immediately after extractions",
+        "Can be fully tried in beforehand",
+        "Never need relining",
+        "Prevent all resorption",
+        "Are cheaper than any other option"
+       ],
+       "answerIndex": 0,
+       "explanation": "Relining is needed as the ridge heals."
+      },
+      {
+       "stem": "Retaining roots under an overdenture helps preserve:",
+       "options": [
+        "Tooth colour",
+        "Fluoride",
+        "Saliva",
+        "Alveolar bone and proprioception",
+        "Taste"
+       ],
+       "answerIndex": 3,
+       "explanation": "Bone resorbs less around retained roots."
+      },
+      {
+       "stem": "The standard of care for edentulous mandibles according to the McGill consensus is:",
+       "options": [
+        "Six implants and a fixed bridge",
+        "No prosthesis",
+        "A two-implant-retained overdenture",
+        "A conventional denture only",
+        "An immediate denture"
+       ],
+       "answerIndex": 2,
+       "explanation": "It greatly improves stability."
+      },
+      {
+       "stem": "Red palatal mucosa under an upper denture worn continuously suggests:",
+       "options": [
+        "Pemphigus",
+        "Allergy always",
+        "Denture stomatitis (Candida)",
+        "Lichen planus",
+        "Squamous cell carcinoma"
+       ],
+       "answerIndex": 2,
+       "explanation": "Remove dentures at night and treat Candida."
+      },
+      {
+       "stem": "Denture stomatitis is managed by denture hygiene and:",
+       "options": [
+        "Antifungal therapy such as miconazole or nystatin",
+        "Steroids",
+        "Surgery",
+        "Antibiotics",
+        "Radiotherapy"
+       ],
+       "answerIndex": 0,
+       "explanation": "Candida albicans is the main organism."
+      },
+      {
+       "stem": "Folds of fibrous tissue around an overextended denture flange are:",
+       "options": [
+        "Denture hyperplasia (epulis fissuratum)",
+        "Fibroma",
+        "Carcinoma always",
+        "Torus",
+        "Pyogenic granuloma"
+       ],
+       "answerIndex": 0,
+       "explanation": "Trim the flange; excise if necessary."
+      },
+      {
+       "stem": "Pressure spots on the fitting surface of a denture are located with:",
+       "options": [
+        "Pressure-indicating paste",
+        "Fluoride varnish",
+        "Articulating paper",
+        "Alginate",
+        "Wax"
+       ],
+       "answerIndex": 0,
+       "explanation": "It shows where to adjust."
+      },
+      {
+       "stem": "An ulcer under a denture that persists after adjustment should be:",
+       "options": [
+        "Biopsied",
+        "Left for 6 months",
+        "Covered with more acrylic",
+        "Treated with antibiotics only",
+        "Ignored"
+       ],
+       "answerIndex": 0,
+       "explanation": "It may be malignant."
+      }
+     ]
+    },
+    {
+     "title": "Dental Implants",
+     "order": 4,
+     "summary": "Osseointegration, assessment, surgical and prosthetic phases, and complications.",
+     "material": [
+      {
+       "heading": "Principles and assessment",
+       "body": "Dental implants (usually commercially pure titanium or titanium alloy; zirconia alternatives) replace missing teeth via osseointegration — direct structural and functional connection between bone and implant surface (Brånemark). Assessment: medical history (uncontrolled diabetes, smoking, bisphosphonates/antiresorptives, head and neck radiotherapy, bleeding disorders, poor oral hygiene and untreated periodontitis are risk factors), patient expectations and cost (a major barrier in Nigeria), bone quantity and quality (Lekholm and Zarb classification), soft tissues, occlusion and aesthetics. Imaging: periapical/OPG, and cone-beam CT (CBCT) for 3D planning (proximity to the inferior alveolar canal — keep a 2 mm safety margin; maxillary sinus; mental foramen). Bone augmentation (guided bone regeneration, sinus lift) may be needed where bone is deficient. Minimum spacing: about 1.5 mm from adjacent teeth and 3 mm between implants.",
+       "keyPoints": [
+        "Titanium osseointegration (Brånemark)",
+        "Risk: smoking, diabetes, bisphosphonates, radiotherapy",
+        "CBCT planning",
+        "2 mm from IAN canal",
+        "Sinus lift; GBR",
+        "1.5 mm to teeth, 3 mm between implants"
+       ]
+      },
+      {
+       "heading": "Treatment and complications",
+       "body": "Surgical protocols: two-stage (implant buried, uncovered after healing) or one-stage, with healing of about 3–6 months before loading (immediate loading in selected cases with high primary stability). Prosthetic options: single crowns (screw- or cement-retained), implant bridges, implant-retained overdentures (locator, ball or bar attachments), and full-arch fixed prostheses (e.g. 'All-on-4'). Success criteria include absence of mobility, pain, infection, radiolucency, and bone loss < 1.5 mm in the first year and < 0.2 mm annually thereafter (Albrektsson). Complications: surgical (nerve injury, haemorrhage — floor of mouth bleeding can threaten the airway, sinus perforation), early failure (lack of osseointegration — overheating bone, infection, micromovement), late failure (peri-implantitis — inflammation with bone loss; overload), and prosthetic (screw loosening, fracture of components, porcelain chipping). Maintenance: meticulous oral hygiene, regular reviews and radiographs.",
+       "keyPoints": [
+        "Healing 3–6 months",
+        "Screw- vs cement-retained",
+        "Overdentures with locators",
+        "Albrektsson success criteria",
+        "Floor of mouth bleeding: airway",
+        "Peri-implantitis; maintenance"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Osseointegration refers to:",
+       "options": [
+        "Direct structural and functional connection between bone and implant surface",
+        "Soft tissue attachment to implants",
+        "Fibrous encapsulation",
+        "Cementation of crowns",
+        "Gingival healing"
+       ],
+       "answerIndex": 0,
+       "explanation": "Described by Brånemark."
+      },
+      {
+       "stem": "The most commonly used material for dental implants is:",
+       "options": [
+        "Amalgam",
+        "Stainless steel",
+        "Titanium",
+        "Gold",
+        "Acrylic"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is biocompatible and forms an oxide layer."
+      },
+      {
+       "stem": "The imaging modality preferred for 3D implant planning is:",
+       "options": [
+        "Occlusal film",
+        "MRI",
+        "Bitewing",
+        "Ultrasound",
+        "Cone-beam CT"
+       ],
+       "answerIndex": 4,
+       "explanation": "It shows bone volume and vital structures."
+      },
+      {
+       "stem": "A safety margin of about how much should be kept between an implant and the inferior alveolar canal?",
+       "options": [
+        "0 mm",
+        "2 mm",
+        "10 mm",
+        "20 mm",
+        "0.2 mm"
+       ],
+       "answerIndex": 1,
+       "explanation": "It prevents nerve injury."
+      },
+      {
+       "stem": "A major risk factor for implant failure is:",
+       "options": [
+        "Good oral hygiene",
+        "Fluoride use",
+        "Young adult age",
+        "Regular maintenance",
+        "Smoking"
+       ],
+       "answerIndex": 4,
+       "explanation": "It impairs healing and increases peri-implantitis."
+      },
+      {
+       "stem": "Conventional implants are typically left to heal before loading for about:",
+       "options": [
+        "1 day",
+        "3–6 months",
+        "2 years",
+        "5 years",
+        "1 week"
+       ],
+       "answerIndex": 1,
+       "explanation": "Immediate loading is possible in selected cases."
+      },
+      {
+       "stem": "Severe bleeding after implant placement in the anterior mandible can be dangerous because:",
+       "options": [
+        "It stains teeth",
+        "It causes caries",
+        "Floor of mouth haematoma can obstruct the airway",
+        "It damages the maxillary sinus",
+        "It causes fluorosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Perforation of the lingual cortex can injure vessels."
+      },
+      {
+       "stem": "Inflammation around a functioning implant with progressive bone loss is:",
+       "options": [
+        "Osseointegration",
+        "Pericoronitis",
+        "Peri-implant mucositis",
+        "Gingivitis",
+        "Peri-implantitis"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a major cause of late failure."
+      }
+     ]
+    },
+    {
+     "title": "Maxillofacial Prosthetics and Special Prosthodontics",
+     "order": 5,
+     "summary": "Obturators, facial prostheses, prosthodontics for the elderly, and denture materials care.",
+     "material": [
+      {
+       "heading": "Maxillofacial prosthetics",
+       "body": "Maxillofacial prosthetics rehabilitate patients with defects from surgery (e.g. maxillectomy for tumours — ameloblastoma and malignancies common in Nigeria), trauma (gunshot and road crash injuries), noma sequelae, and congenital defects (cleft palate). Obturators close palatal defects: surgical obturator (placed at the time of surgery), interim obturator (during healing) and definitive obturator (hollow bulb to reduce weight) — restoring speech, swallowing (preventing nasal regurgitation) and aesthetics. Speech aids (palatal lift, speech bulb) help velopharyngeal insufficiency. Mandibular guidance prostheses help after mandibulectomy. Facial prostheses (ear, nose, orbit) made of silicone are retained by adhesives, spectacles or osseointegrated implants. Radiation stents and fluoride carriers protect patients undergoing radiotherapy. Multidisciplinary planning with surgeons improves outcomes.",
+       "keyPoints": [
+        "Obturator: surgical, interim, definitive",
+        "Hollow bulb reduces weight",
+        "Restores speech and swallowing",
+        "Silicone facial prostheses",
+        "Radiation stents and fluoride carriers",
+        "Multidisciplinary planning"
+       ]
+      },
+      {
+       "heading": "Geriatric prosthodontics and materials care",
+       "body": "Nigeria's older population is growing; elderly edentulous patients may have reduced adaptability, xerostomia (medications), systemic diseases, cognitive impairment and limited manual dexterity. Strategies: copy dentures, simple designs, denture marking for identification in care settings, treating xerostomia (saliva substitutes), and involving carers in hygiene. Denture base materials: heat-cured PMMA (most common), cold-cured acrylic (repairs, relines), soft linings (silicone or acrylic-based — for thin mucosa or sharp ridges; deteriorate and harbour Candida). Denture cleaning: brush with soap or non-abrasive cleanser (not toothpaste — abrasive), soak in dilute hypochlorite (acrylic only — corrodes metal) or alkaline peroxide, and store moist. Denture fracture causes include fatigue (midline fracture of upper dentures), impact (dropping) and poor fit; repairs use cold-cured acrylic. Nutritional counselling helps denture wearers maintain a balanced diet.",
+       "keyPoints": [
+        "Elderly: reduced adaptability",
+        "Copy dentures; denture marking",
+        "Soft linings harbour Candida",
+        "Don't clean with toothpaste",
+        "Hypochlorite: acrylic only",
+        "Midline fracture from fatigue"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A prosthesis that closes a palatal defect after maxillectomy is called a(n):",
+       "options": [
+        "Obturator",
+        "Overdenture",
+        "Retainer",
+        "Splint",
+        "Mouthguard"
+       ],
+       "answerIndex": 0,
+       "explanation": "It restores speech and swallowing."
+      },
+      {
+       "stem": "Definitive obturators are often made with a hollow bulb to:",
+       "options": [
+        "Improve colour",
+        "Improve taste",
+        "Reduce weight",
+        "Prevent caries",
+        "Increase retention by suction only"
+       ],
+       "answerIndex": 2,
+       "explanation": "A lighter prosthesis is better retained."
+      },
+      {
+       "stem": "Nasal regurgitation of fluids after maxillectomy is corrected by:",
+       "options": [
+        "Extraction",
+        "A crown",
+        "Antibiotics",
+        "A mouthwash",
+        "An obturator"
+       ],
+       "answerIndex": 4,
+       "explanation": "It separates oral and nasal cavities."
+      },
+      {
+       "stem": "Silicone facial prostheses (ear, nose, eye) can be retained by:",
+       "options": [
+        "Magnets on teeth only",
+        "Clasps",
+        "Screws into skin",
+        "Cement",
+        "Adhesives, spectacles or osseointegrated implants"
+       ],
+       "answerIndex": 4,
+       "explanation": "Implants give the most secure retention."
+      },
+      {
+       "stem": "Fluoride carriers are provided for patients undergoing:",
+       "options": [
+        "Head and neck radiotherapy",
+        "Whitening",
+        "Orthodontics",
+        "Cleft lip repair",
+        "Extraction only"
+       ],
+       "answerIndex": 0,
+       "explanation": "They prevent radiation caries."
+      },
+      {
+       "stem": "Dentures should not be cleaned with ordinary toothpaste because it is:",
+       "options": [
+        "Abrasive and scratches acrylic",
+        "Causes allergy always",
+        "Ineffective against plaque",
+        "Too expensive",
+        "Toxic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Use soap or non-abrasive cleansers."
+      },
+      {
+       "stem": "Soaking dentures in dilute hypochlorite is unsuitable for:",
+       "options": [
+        "Dentures with metal (cobalt–chromium) components",
+        "All-acrylic dentures",
+        "Immediate dentures",
+        "Complete dentures",
+        "Soft liners only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hypochlorite corrodes metal."
+      },
+      {
+       "stem": "A common cause of midline fracture of an upper complete denture is:",
+       "options": [
+        "Impact only",
+        "Caries",
+        "Fatigue from repeated flexing",
+        "Excess retention",
+        "Fluorosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Often due to poor fit or a prominent midline suture."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

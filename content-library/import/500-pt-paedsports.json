@@ -1,0 +1,664 @@
+{
+ "courses": [
+  {
+   "title": "Paediatric and Sports Physiotherapy",
+   "code": "PTH501",
+   "color": "#0F766E",
+   "description": "Child development and paediatric physiotherapy assessment, management of cerebral palsy and other childhood conditions, and sports injury prevention, assessment and rehabilitation.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Paediatric Assessment and Development",
+     "order": 1,
+     "summary": "Motor development, primitive reflexes, paediatric assessment tools and family-centred care.",
+     "material": [
+      {
+       "heading": "Development",
+       "body": "Typical motor milestones: head control (3–4 months), rolling (4–6 months), sitting unsupported (6–8 months), crawling (8–10 months), pulling to stand (9–10 months), walking independently (12–15 months), running (18 months), jumping with both feet (2 years), hopping on one foot (4 years). Development proceeds cephalocaudally and proximodistally. Primitive reflexes (Moro, asymmetrical tonic neck reflex (ATNR), palmar grasp, rooting, stepping) are present at birth and integrate by about 4–6 months; persistence suggests neurological impairment (e.g. cerebral palsy). Postural reactions (righting, equilibrium, protective/parachute reactions) emerge and support motor control. Red flags: persistent primitive reflexes, asymmetry, abnormal tone, hand preference before 12–18 months (suggests hemiplegia), not sitting by 9 months, not walking by 18 months, and loss of skills.",
+       "keyPoints": [
+        "Sit 6–8 months; walk 12–15",
+        "Cephalocaudal, proximodistal",
+        "Primitive reflexes integrate by 4–6 months",
+        "Parachute reaction",
+        "Early hand preference: red flag",
+        "Loss of skills: red flag"
+       ]
+      },
+      {
+       "heading": "Assessment and family-centred care",
+       "body": "Paediatric physiotherapy assessment includes birth history (prematurity, birth asphyxia, neonatal jaundice — common causes of neurodisability in Nigeria), developmental history, observation during play, tone (Modified Ashworth, Tardieu scale), range of movement (contractures), strength, posture, balance, gait, and function. Standardised tools: Gross Motor Function Measure (GMFM-66/88) and Gross Motor Function Classification System (GMFCS) for cerebral palsy, Alberta Infant Motor Scale (AIMS), Peabody Developmental Motor Scales, and the Hammersmith Infant Neurological Examination (HINE) for early detection. The ICF framework (body structure/function, activity, participation, environmental and personal factors) guides goal setting. Family-centred care recognises parents as experts and partners: set goals with the family, teach home programmes, and address beliefs (some families attribute disability to spiritual causes, delaying care) and practical barriers (cost, transport, stigma, school access).",
+       "keyPoints": [
+        "Birth asphyxia, jaundice in history",
+        "GMFM and GMFCS",
+        "AIMS, HINE",
+        "ICF framework",
+        "Parents as partners",
+        "Home programmes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Most children walk independently between:",
+       "options": [
+        "4 and 6 months",
+        "3 and 4 years",
+        "2 and 3 years",
+        "12 and 15 months",
+        "6 and 8 months"
+       ],
+       "answerIndex": 3,
+       "explanation": "Not walking by 18 months is a red flag."
+      },
+      {
+       "stem": "Primitive reflexes such as the Moro reflex normally integrate by about:",
+       "options": [
+        "2 years",
+        "They never integrate",
+        "4–6 months",
+        "1 month",
+        "5 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "Persistence suggests neurological impairment."
+      },
+      {
+       "stem": "A clear hand preference before 12 months may indicate:",
+       "options": [
+        "Hemiplegia (weakness of the other hand)",
+        "Intellectual giftedness",
+        "Normal right-handedness",
+        "Advanced development",
+        "Visual impairment only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hand preference normally develops later."
+      },
+      {
+       "stem": "Motor development proceeds in which directions?",
+       "options": [
+        "Caudocephalic and distoproximal",
+        "Lateral to medial",
+        "Random",
+        "Cephalocaudal and proximodistal",
+        "Feet first"
+       ],
+       "answerIndex": 3,
+       "explanation": "Head control precedes walking."
+      },
+      {
+       "stem": "The Gross Motor Function Classification System (GMFCS) is used for children with:",
+       "options": [
+        "Cerebral palsy",
+        "Scoliosis",
+        "Asthma",
+        "Down syndrome only",
+        "Clubfoot"
+       ],
+       "answerIndex": 0,
+       "explanation": "Levels I–V classify mobility."
+      },
+      {
+       "stem": "The ICF framework considers body function, activity, participation and:",
+       "options": [
+        "Medication",
+        "Environmental and personal factors",
+        "Only diagnosis",
+        "Surgery",
+        "Cost only"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a biopsychosocial model."
+      },
+      {
+       "stem": "In family-centred paediatric physiotherapy, parents are:",
+       "options": [
+        "Partners and experts on their child",
+        "Told what to do without discussion",
+        "Not involved in goal setting",
+        "Excluded from sessions",
+        "Only observers"
+       ],
+       "answerIndex": 0,
+       "explanation": "Shared goals improve outcomes."
+      },
+      {
+       "stem": "A common perinatal cause of childhood neurodisability in Nigeria is:",
+       "options": [
+        "Birth asphyxia and severe neonatal jaundice",
+        "Excessive vaccination",
+        "Clubfoot",
+        "Breastfeeding",
+        "Vitamin D excess"
+       ],
+       "answerIndex": 0,
+       "explanation": "Both are largely preventable."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Neurological Conditions",
+     "order": 2,
+     "summary": "Cerebral palsy management, spina bifida, Down syndrome, Erb's palsy and developmental delay.",
+     "material": [
+      {
+       "heading": "Cerebral palsy",
+       "body": "Cerebral palsy (CP) management is goal-directed, functional and family-centred: task-specific training and motor learning, strengthening (children with CP can safely strengthen), stretching and positioning to prevent contractures (standing frames, sleeping systems), orthoses (ankle–foot orthoses for equinus), mobility aids (walkers, wheelchairs), constraint-induced movement therapy and bimanual training for hemiplegia, hippotherapy and hydrotherapy where available, and management of spasticity (botulinum toxin injections followed by stretching and casting; baclofen; selective dorsal rhizotomy in specialised centres). Hip surveillance (regular hip X-rays in GMFCS III–V) prevents hip dislocation. Associated problems — epilepsy, feeding and nutrition, communication, vision and hearing, and learning difficulties — require multidisciplinary care. In Nigeria, community-based programmes and parent training (e.g. using locally made equipment — bamboo standing frames, adapted chairs) extend services.",
+       "keyPoints": [
+        "Goal-directed, family-centred",
+        "Strengthening is safe",
+        "AFOs for equinus",
+        "CIMT and bimanual training",
+        "Botulinum toxin + stretching",
+        "Hip surveillance GMFCS III–V",
+        "Locally made equipment"
+       ]
+      },
+      {
+       "heading": "Other conditions",
+       "body": "Spina bifida (myelomeningocele): lower limb weakness and sensory loss by lesion level, hydrocephalus, bladder and bowel dysfunction, and orthopaedic deformities (clubfoot, hip dislocation, scoliosis); physiotherapy addresses mobility (orthoses, walking aids, wheelchairs), skin protection (insensate areas — pressure ulcers and burns), strengthening and family education; folic acid prevents neural tube defects. Down syndrome: hypotonia, ligamentous laxity, delayed motor milestones — encourage motor development through play, strengthening and balance; screen for atlantoaxial instability before contact sports. Obstetric brachial plexus palsy (Erb's palsy — C5–C6; 'waiter's tip' posture; common after difficult deliveries with shoulder dystocia): gentle range of movement, positioning, avoid traction on the arm, and splinting; most recover spontaneously within months, but those without biceps recovery by 3–6 months need surgical referral. Duchenne muscular dystrophy: progressive proximal weakness in boys (Gowers' sign) — maintain function and range, avoid over-fatigue, respiratory care and night splints.",
+       "keyPoints": [
+        "Spina bifida: skin protection",
+        "Down syndrome: hypotonia, atlantoaxial instability",
+        "Erb's palsy C5–C6: waiter's tip",
+        "No biceps by 3–6 months: refer",
+        "DMD: Gowers' sign",
+        "Avoid over-fatigue in DMD"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Strength training in children with cerebral palsy is:",
+       "options": [
+        "Contraindicated because it increases spasticity",
+        "Useless",
+        "Harmful to bones",
+        "Safe and beneficial",
+        "Only for adults"
+       ],
+       "answerIndex": 3,
+       "explanation": "Evidence shows improved strength without increased spasticity."
+      },
+      {
+       "stem": "Ankle–foot orthoses are commonly used in cerebral palsy to manage:",
+       "options": [
+        "Scoliosis only",
+        "Equinus (toe walking)",
+        "Hand function",
+        "Hip dislocation only",
+        "Drooling"
+       ],
+       "answerIndex": 1,
+       "explanation": "They improve gait and prevent contractures."
+      },
+      {
+       "stem": "Regular hip X-rays are recommended for children with CP at GMFCS levels:",
+       "options": [
+        "II only",
+        "I only",
+        "III–V",
+        "Only after age 18",
+        "None"
+       ],
+       "answerIndex": 2,
+       "explanation": "Non-ambulant children are at high risk of hip dislocation."
+      },
+      {
+       "stem": "After botulinum toxin injection for spasticity, physiotherapy should include:",
+       "options": [
+        "Complete rest",
+        "No therapy",
+        "Stretching, casting and strengthening",
+        "Immobilisation in flexion",
+        "Only massage"
+       ],
+       "answerIndex": 2,
+       "explanation": "It maximises the window of reduced tone."
+      },
+      {
+       "stem": "Children with spina bifida need education about skin protection because of:",
+       "options": [
+        "Sensory loss in the lower limbs",
+        "Bleeding disorders",
+        "Allergy",
+        "Hyperactivity",
+        "Excess sensation"
+       ],
+       "answerIndex": 0,
+       "explanation": "They are prone to pressure sores and burns."
+      },
+      {
+       "stem": "Before contact sports, children with Down syndrome should be screened for:",
+       "options": [
+        "Asthma",
+        "Diabetes",
+        "Hearing loss only",
+        "Scoliosis only",
+        "Atlantoaxial instability"
+       ],
+       "answerIndex": 4,
+       "explanation": "Neck injury could cause cord damage."
+      },
+      {
+       "stem": "An infant with an adducted, internally rotated arm and extended elbow after shoulder dystocia most likely has:",
+       "options": [
+        "Erb's palsy (C5–C6)",
+        "Cerebral palsy",
+        "Radial nerve palsy",
+        "Klumpke's palsy",
+        "Fractured femur"
+       ],
+       "answerIndex": 0,
+       "explanation": "The 'waiter's tip' posture."
+      },
+      {
+       "stem": "A boy who uses his hands to 'climb up' his legs when rising from the floor shows:",
+       "options": [
+        "Trendelenburg sign",
+        "Gowers' sign (proximal weakness)",
+        "Babinski sign",
+        "Kernig sign",
+        "Romberg sign"
+       ],
+       "answerIndex": 1,
+       "explanation": "Typical of Duchenne muscular dystrophy."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Musculoskeletal and Respiratory Conditions",
+     "order": 3,
+     "summary": "Clubfoot (Ponseti), torticollis, DDH, scoliosis, juvenile arthritis and paediatric respiratory care.",
+     "material": [
+      {
+       "heading": "Musculoskeletal",
+       "body": "Congenital talipes equinovarus (clubfoot — cavus, adductus, varus and equinus) is common in Nigeria; the Ponseti method (serial manipulation and long-leg casting weekly, percutaneous Achilles tenotomy in most cases, then foot abduction brace — 23 hours/day for 3 months, then night-time until about 4 years) has excellent outcomes and is delivered by trained physiotherapists and orthopaedic teams; adherence to bracing prevents relapse. Congenital muscular torticollis (sternocleidomastoid tightness — head tilted to the same side, rotated to the opposite side; plagiocephaly): stretching, positioning and handling advice. Developmental dysplasia of the hip (DDH): screening (Ortolani, Barlow), ultrasound, Pavlik harness in infants; avoid tight swaddling with hips extended. Idiopathic scoliosis (adolescent girls): Adam's forward bend test, Cobb angle; bracing (20–40°), Schroth-based exercises, and surgery for severe curves. Juvenile idiopathic arthritis: maintain range and strength, joint protection and splints. Blount's disease and rickets cause bowed legs in some Nigerian children.",
+       "keyPoints": [
+        "Ponseti: casts, tenotomy, brace",
+        "Brace to ~4 years",
+        "Torticollis: same-side tilt",
+        "DDH: Pavlik harness",
+        "Scoliosis: Adam's test, Cobb angle",
+        "JIA: joint protection"
+       ]
+      },
+      {
+       "heading": "Respiratory",
+       "body": "Paediatric respiratory physiotherapy: bronchiolitis and uncomplicated pneumonia do not routinely need chest physiotherapy (no benefit shown); physiotherapy may help children with lobar collapse, excessive secretions, bronchiectasis, cystic fibrosis (rare in Africa), neuromuscular weakness, and ventilated children in ICU. Techniques adapted for children: positioning, modified postural drainage (avoid head-down in infants with reflux or raised ICP), percussion and vibrations (gentle, over clothing), assisted coughing, play-based breathing exercises (bubbles, blowing games), incentive spirometry and airway suctioning with care. Asthma education (inhaler with spacer and mask for young children, recognising triggers — dust, smoke, harmattan), exercise participation and breathing control. Children with sickle cell disease benefit from incentive spirometry during painful crises to prevent acute chest syndrome.",
+       "keyPoints": [
+        "No routine chest physio in bronchiolitis",
+        "Avoid head-down with reflux/raised ICP",
+        "Play-based breathing exercises",
+        "Spacer with mask for young children",
+        "Incentive spirometry in SCD crises"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Ponseti method for clubfoot involves serial casting, often an Achilles tenotomy, and:",
+       "options": [
+        "Immediate surgery for all",
+        "No follow-up",
+        "Amputation",
+        "Prolonged use of a foot abduction brace",
+        "Physiotherapy alone"
+       ],
+       "answerIndex": 3,
+       "explanation": "Bracing prevents relapse."
+      },
+      {
+       "stem": "After Ponseti correction, the foot abduction brace is usually worn at night until about age:",
+       "options": [
+        "6 months",
+        "4 years",
+        "12 years",
+        "18 years",
+        "1 month"
+       ],
+       "answerIndex": 1,
+       "explanation": "Full-time for the first 3 months."
+      },
+      {
+       "stem": "In congenital muscular torticollis, the head is tilted:",
+       "options": [
+        "Not at all",
+        "Straight forward",
+        "Backwards",
+        "Towards the affected side and rotated to the opposite side",
+        "Towards the unaffected side"
+       ],
+       "answerIndex": 3,
+       "explanation": "Due to sternocleidomastoid tightness."
+      },
+      {
+       "stem": "Developmental dysplasia of the hip in young infants is commonly treated with a:",
+       "options": [
+        "Pavlik harness",
+        "AFO",
+        "Cervical collar",
+        "Plaster jacket",
+        "Knee brace"
+       ],
+       "answerIndex": 0,
+       "explanation": "It holds hips flexed and abducted."
+      },
+      {
+       "stem": "The screening test for scoliosis is:",
+       "options": [
+        "Ortolani test",
+        "Lachman test",
+        "Trendelenburg test",
+        "Adam's forward bend test",
+        "Thomas test"
+       ],
+       "answerIndex": 3,
+       "explanation": "A rib hump indicates rotation."
+      },
+      {
+       "stem": "Routine chest physiotherapy in infants with bronchiolitis is:",
+       "options": [
+        "Not recommended (no benefit)",
+        "Required every hour",
+        "Only percussion",
+        "The main treatment",
+        "Essential"
+       ],
+       "answerIndex": 0,
+       "explanation": "Supportive care is the mainstay."
+      },
+      {
+       "stem": "A play-based way to encourage deep breathing in young children is:",
+       "options": [
+        "Complete bed rest",
+        "Holding the breath for a minute",
+        "Head-down tilt",
+        "Blowing bubbles or blowing games",
+        "Sedation"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves cooperation."
+      },
+      {
+       "stem": "Incentive spirometry in children with sickle cell disease during painful crises helps prevent:",
+       "options": [
+        "Leg ulcers",
+        "Priapism",
+        "Acute chest syndrome",
+        "Gallstones",
+        "Stroke"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pain limits deep breathing, causing atelectasis."
+      }
+     ]
+    },
+    {
+     "title": "Sports Injury Prevention and Assessment",
+     "order": 4,
+     "summary": "Pre-participation screening, injury mechanisms, on-field management, and concussion.",
+     "material": [
+      {
+       "heading": "Prevention",
+       "body": "Sports physiotherapists work with athletes in football (the most popular sport in Nigeria), athletics, basketball, boxing, wrestling and para-sports. Injury prevention: pre-participation examination (medical history, cardiovascular screening — family history of sudden death, syncope, murmurs; ECG in some settings to detect hypertrophic cardiomyopathy; sickle cell trait awareness — exertional collapse with extreme exertion, heat and dehydration), musculoskeletal screening (flexibility, strength imbalances, previous injury — the strongest predictor of future injury), structured warm-up programmes (FIFA 11+ reduces injuries by about 30–50% in football), load management (avoid sudden spikes in training load — acute:chronic workload ratio), adequate recovery and sleep, appropriate equipment (footwear, shin guards, mouthguards) and playing surfaces, heat illness prevention (hydration, acclimatisation, scheduling in cooler times), and nutrition.",
+       "keyPoints": [
+        "Cardiac screening",
+        "Sickle cell trait exertional collapse",
+        "Previous injury: strongest predictor",
+        "FIFA 11+",
+        "Load management",
+        "Heat illness prevention"
+       ]
+      },
+      {
+       "heading": "On-field management and concussion",
+       "body": "Pitch-side care: a systematic approach (DRSABCD — Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation); sudden cardiac arrest in athletes requires immediate CPR and AED use. Suspected spinal injury: in-line immobilisation and log roll, spinal board. Acute soft-tissue injuries: PEACE & LOVE principles. Sport-related concussion: a traumatic brain injury caused by a blow to the head or body transmitting force to the head — signs include loss of consciousness (not required), confusion, balance problems, headache, dizziness, memory loss and visual disturbance. 'If in doubt, sit them out': remove from play, do not return the same day, assess with tools such as SCAT6 (Sport Concussion Assessment Tool), refer if red flags (neck pain, deteriorating consciousness, repeated vomiting, seizures, weakness). Graduated return-to-learn and return-to-sport protocols (symptom-limited activity, light aerobic exercise, sport-specific exercise, non-contact drills, full-contact practice, return to play — each stage about 24 hours minimum). Second impact syndrome can be fatal in young athletes.",
+       "keyPoints": [
+        "DRSABCD",
+        "AED for cardiac arrest",
+        "Log roll for spinal injury",
+        "If in doubt, sit them out",
+        "SCAT6",
+        "Graduated return to sport",
+        "Second impact syndrome"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The strongest predictor of a future sports injury is:",
+       "options": [
+        "A previous injury",
+        "Shoe brand",
+        "Hydration status",
+        "Eye colour",
+        "Height"
+       ],
+       "answerIndex": 0,
+       "explanation": "Rehabilitation must be complete before return."
+      },
+      {
+       "stem": "The FIFA 11+ warm-up programme can reduce football injuries by about:",
+       "options": [
+        "0%",
+        "30–50%",
+        "90%",
+        "100%",
+        "5%"
+       ],
+       "answerIndex": 1,
+       "explanation": "When performed regularly."
+      },
+      {
+       "stem": "Athletes with sickle cell trait are at risk of exertional collapse particularly with:",
+       "options": [
+        "Low-intensity walking",
+        "Swimming in cool water",
+        "Stretching",
+        "Resting",
+        "Extreme exertion, heat and dehydration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Hydration, acclimatisation and gradual conditioning help."
+      },
+      {
+       "stem": "A footballer who collapses suddenly and is unresponsive and not breathing needs:",
+       "options": [
+        "Sugar drink",
+        "Immediate CPR and AED use",
+        "Stretching",
+        "Removal from the pitch before any care",
+        "Ice spray"
+       ],
+       "answerIndex": 1,
+       "explanation": "Sudden cardiac arrest requires rapid defibrillation."
+      },
+      {
+       "stem": "Loss of consciousness is required to diagnose concussion:",
+       "options": [
+        "Only in children",
+        "Only in boxing",
+        "False",
+        "Only if vomiting occurs",
+        "True"
+       ],
+       "answerIndex": 2,
+       "explanation": "Most concussions occur without loss of consciousness."
+      },
+      {
+       "stem": "An athlete with suspected concussion during a match should:",
+       "options": [
+        "Continue if they feel fine",
+        "Return after 10 minutes",
+        "Take painkillers and continue",
+        "Play the next half",
+        "Be removed from play and not return the same day"
+       ],
+       "answerIndex": 4,
+       "explanation": "'If in doubt, sit them out.'"
+      },
+      {
+       "stem": "The standardised tool for assessing sport-related concussion is the:",
+       "options": [
+        "Berg Balance Scale",
+        "Apgar score",
+        "SCAT (Sport Concussion Assessment Tool)",
+        "Oswestry index",
+        "Glasgow Outcome Scale"
+       ],
+       "answerIndex": 2,
+       "explanation": "SCAT6 is the current version."
+      },
+      {
+       "stem": "A dangerous consequence of returning to play too early after concussion is:",
+       "options": [
+        "Second impact syndrome",
+        "Better balance",
+        "No consequences",
+        "Muscle hypertrophy",
+        "Improved performance"
+       ],
+       "answerIndex": 0,
+       "explanation": "It can cause catastrophic brain swelling."
+      }
+     ]
+    },
+    {
+     "title": "Sports Rehabilitation and Performance",
+     "order": 5,
+     "summary": "Phases of rehabilitation, return-to-sport testing, tendinopathy, hamstring and ACL rehabilitation, and athlete support.",
+     "material": [
+      {
+       "heading": "Rehabilitation phases",
+       "body": "Sports rehabilitation progresses through: acute/protection (control pain and swelling, protect healing tissue, maintain fitness of uninjured areas), restoration of range and early strength (isometric then isotonic), advanced strengthening and neuromuscular control (eccentric, plyometric, proprioceptive and agility training), sport-specific training, and return to sport (RTS) — ideally criteria-based rather than time-based. RTS criteria include full pain-free range, strength symmetry (limb symmetry index ≥ 90%), functional tests (hop tests — single hop, triple hop, crossover hop), psychological readiness (e.g. ACL-RSI scale), and sport-specific performance. Specific examples: hamstring strain (common in sprinters and footballers — progressive loading, eccentric Nordic exercises, high-speed running reintroduced gradually; recurrence is common), ACL reconstruction (about 9–12 months before return; neuromuscular training reduces re-injury), ankle sprain (balance and proprioception), and tendinopathy (patellar — 'jumper's knee', Achilles — progressive loading programmes: isometric, heavy slow resistance, energy storage).",
+       "keyPoints": [
+        "Phases: protect → restore → strengthen → sport-specific → RTS",
+        "Criteria-based RTS",
+        "LSI ≥ 90%; hop tests",
+        "Psychological readiness",
+        "Nordic hamstring exercise",
+        "Tendinopathy: progressive loading"
+       ]
+      },
+      {
+       "heading": "Athlete support",
+       "body": "Sports physiotherapists support performance and wellbeing: strength and conditioning collaboration, recovery strategies (sleep, nutrition, hydration, active recovery, massage, compression), taping and bracing, and education. Special populations: female athletes (relative energy deficiency in sport — RED-S, formerly the female athlete triad: low energy availability, menstrual dysfunction, low bone density; higher ACL injury risk), young athletes (growth-related conditions — Osgood–Schlatter disease, Sever's disease; avoid early single-sport specialisation and overtraining), para-athletes (wheelchair shoulder problems, pressure care, autonomic dysreflexia in spinal cord injury — 'boosting' is banned), and masters athletes. Anti-doping: physiotherapists must know that athletes are responsible for any substance in their system (strict liability); check medications against the World Anti-Doping Agency (WADA) Prohibited List; the Nigeria Anti-Doping Agency oversees compliance. Ethical issues include confidentiality, pressure to return injured players early, and conflicts between athlete welfare and team interests.",
+       "keyPoints": [
+        "Recovery strategies",
+        "RED-S",
+        "Osgood–Schlatter, Sever's",
+        "Avoid early specialisation",
+        "Para-athletes: autonomic dysreflexia",
+        "WADA strict liability"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Return to sport after injury should ideally be based on:",
+       "options": [
+        "Time alone",
+        "The athlete's desire only",
+        "Cost",
+        "Objective criteria such as strength symmetry, hop tests and psychological readiness",
+        "The coach's wishes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Criteria-based RTS reduces re-injury."
+      },
+      {
+       "stem": "A limb symmetry index commonly required before returning to sport after ACL reconstruction is at least:",
+       "options": [
+        "50%",
+        "70%",
+        "90%",
+        "30%",
+        "100% always"
+       ],
+       "answerIndex": 2,
+       "explanation": "Measured in strength and hop tests."
+      },
+      {
+       "stem": "The Nordic hamstring exercise emphasises:",
+       "options": [
+        "Eccentric strengthening of the hamstrings",
+        "Plyometrics",
+        "Concentric contraction",
+        "Stretching only",
+        "Isometric quadriceps"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces hamstring injury rates."
+      },
+      {
+       "stem": "Pain and swelling at the tibial tuberosity in an active 12-year-old suggest:",
+       "options": [
+        "Osteosarcoma always",
+        "Osgood–Schlatter disease",
+        "Sever's disease",
+        "Patellar dislocation",
+        "ACL tear"
+       ],
+       "answerIndex": 1,
+       "explanation": "A traction apophysitis during growth."
+      },
+      {
+       "stem": "Relative energy deficiency in sport (RED-S) involves:",
+       "options": [
+        "High bone density",
+        "Only male athletes",
+        "Excess energy intake",
+        "Low energy availability affecting health and performance",
+        "Improved menstrual function"
+       ],
+       "answerIndex": 3,
+       "explanation": "Formerly the female athlete triad."
+      },
+      {
+       "stem": "Deliberately inducing autonomic dysreflexia to improve performance ('boosting') in para-athletes is:",
+       "options": [
+        "Legal in all sports",
+        "A warm-up technique",
+        "Banned and dangerous",
+        "Encouraged",
+        "Harmless"
+       ],
+       "answerIndex": 2,
+       "explanation": "It can cause dangerous hypertension."
+      },
+      {
+       "stem": "Under anti-doping rules, athletes are responsible for any prohibited substance in their body. This principle is:",
+       "options": [
+        "Coach liability only",
+        "Shared liability",
+        "Team liability",
+        "No liability",
+        "Strict liability"
+       ],
+       "answerIndex": 4,
+       "explanation": "Check all medications against the WADA list."
+      },
+      {
+       "stem": "The organisation that publishes the Prohibited List in sport is the:",
+       "options": [
+        "WHO",
+        "IOC only",
+        "FIFA",
+        "NAFDAC",
+        "World Anti-Doping Agency (WADA)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Updated annually."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

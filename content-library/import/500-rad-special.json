@@ -1,0 +1,664 @@
+{
+ "courses": [
+  {
+   "title": "Contrast Media and Special Radiographic Procedures",
+   "code": "RAD505",
+   "color": "#4338CA",
+   "description": "Contrast agents and their safety, fluoroscopy, gastrointestinal and urological contrast studies, hysterosalpingography, mammography, dental and theatre radiography, and paediatric imaging.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Radiography"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Contrast Media and Reactions",
+     "order": 1,
+     "summary": "Positive and negative contrast agents, barium, iodinated agents, adverse reactions and their management.",
+     "material": [
+      {
+       "heading": "Types of contrast",
+       "body": "Contrast media alter attenuation to show structures. Negative contrast (low attenuation): air, carbon dioxide (double-contrast studies). Positive contrast: barium sulfate (insoluble suspension — gastrointestinal tract; contraindicated when perforation is suspected because barium in the peritoneum causes severe peritonitis — use water-soluble iodinated contrast instead; risk of aspiration and barium impaction/constipation — advise fluids) and iodinated agents (water-soluble — intravascular, urological, HSG, fistulograms). Iodinated agents are classified by osmolality and ionicity: high-osmolar ionic (older, more reactions), low-osmolar non-ionic (iohexol, iopamidol — standard) and iso-osmolar non-ionic dimers (iodixanol). Oily iodinated contrast (Lipiodol) is used in lymphangiography and some HSG. Gastrografin (water-soluble oral contrast) is hyperosmolar — can cause pulmonary oedema if aspirated; avoid in patients at risk of aspiration. MRI uses gadolinium; ultrasound uses microbubbles.",
+       "keyPoints": [
+        "Negative: air, CO2",
+        "Barium: GI, not if perforation",
+        "Water-soluble iodinated if perforation suspected",
+        "Low-osmolar non-ionic standard",
+        "Gastrografin: aspiration risk",
+        "Lipiodol oily"
+       ]
+      },
+      {
+       "heading": "Adverse reactions",
+       "body": "Risk factors for iodinated contrast reactions: previous reaction, asthma, multiple allergies, cardiac disease and anxiety. Reactions: mild (nausea, warmth, limited urticaria — observe, reassure), moderate (diffuse urticaria, bronchospasm, facial oedema — antihistamines, salbutamol, oxygen), severe (anaphylactoid shock, laryngeal oedema, cardiac arrest — call for help, IM adrenaline 0.5 mg (1:1000) in adults, oxygen, IV fluids, CPR if needed). Delayed reactions (skin rashes hours to days later) also occur. Contrast-associated acute kidney injury: risk with eGFR < 30, diabetes, dehydration, heart failure, nephrotoxic drugs; prevention — hydration, lowest effective dose, avoiding repeat studies within 48–72 hours; metformin may be held when eGFR < 30 or with AKI. Extravasation of contrast (swelling, pain): stop injection, elevate limb, cold compresses, document and monitor for compartment syndrome. Thyroid: iodinated contrast may precipitate thyrotoxicosis and interferes with radioiodine studies for weeks. Every department needs an emergency trolley, trained staff and protocols.",
+       "keyPoints": [
+        "Risk: previous reaction, asthma",
+        "Severe: IM adrenaline 0.5 mg",
+        "CA-AKI: eGFR < 30",
+        "Hydration; avoid repeats",
+        "Extravasation: elevate, cold",
+        "Iodine delays radioiodine studies"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Barium sulfate should NOT be used when:",
+       "options": [
+        "Examining the oesophagus",
+        "Bowel perforation is suspected",
+        "The study is for reflux",
+        "Double contrast is needed",
+        "The patient is fasting"
+       ],
+       "answerIndex": 1,
+       "explanation": "Barium in the peritoneum causes severe peritonitis."
+      },
+      {
+       "stem": "The standard iodinated contrast agents used today are:",
+       "options": [
+        "Low-osmolar non-ionic",
+        "Gadolinium-based",
+        "Oily only",
+        "High-osmolar ionic",
+        "Barium-based"
+       ],
+       "answerIndex": 0,
+       "explanation": "They cause fewer reactions."
+      },
+      {
+       "stem": "Gastrografin should be avoided in patients at risk of aspiration because it can cause:",
+       "options": [
+        "Hypoglycaemia",
+        "Rash only",
+        "Pulmonary oedema",
+        "Constipation",
+        "Hypertension"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is hyperosmolar."
+      },
+      {
+       "stem": "The first-line drug for a severe anaphylactoid reaction to contrast is:",
+       "options": [
+        "Metformin",
+        "Furosemide",
+        "Intramuscular adrenaline",
+        "Oral antihistamine",
+        "Paracetamol"
+       ],
+       "answerIndex": 2,
+       "explanation": "0.5 mg of 1:1000 in adults."
+      },
+      {
+       "stem": "A major risk factor for contrast-associated acute kidney injury is:",
+       "options": [
+        "eGFR below 30",
+        "Young age",
+        "Good hydration",
+        "eGFR above 90",
+        "Male sex"
+       ],
+       "answerIndex": 0,
+       "explanation": "Renal function should be checked beforehand."
+      },
+      {
+       "stem": "Contrast extravasation is managed initially by:",
+       "options": [
+        "Surgery immediately",
+        "Stopping the injection, elevating the limb and applying cold compresses",
+        "Continuing the injection",
+        "Applying heat always",
+        "Massaging vigorously"
+       ],
+       "answerIndex": 1,
+       "explanation": "Most cases resolve with conservative care."
+      },
+      {
+       "stem": "Iodinated contrast given before a radioiodine scan will:",
+       "options": [
+        "Improve the scan",
+        "Have no effect",
+        "Speed up the scan",
+        "Reduce thyroid uptake of radioiodine for weeks",
+        "Cause hyperthyroidism always"
+       ],
+       "answerIndex": 3,
+       "explanation": "Excess stable iodine saturates the thyroid."
+      },
+      {
+       "stem": "A negative contrast agent used in double-contrast barium studies is:",
+       "options": [
+        "Iodine",
+        "Air or carbon dioxide",
+        "Barium",
+        "Lipiodol",
+        "Gadolinium"
+       ],
+       "answerIndex": 1,
+       "explanation": "It distends the lumen and outlines mucosa."
+      }
+     ]
+    },
+    {
+     "title": "Fluoroscopy and Gastrointestinal Studies",
+     "order": 2,
+     "summary": "Fluoroscopy equipment and dose, barium swallow, meal, follow-through and enema.",
+     "material": [
+      {
+       "heading": "Fluoroscopy",
+       "body": "Fluoroscopy provides real-time X-ray imaging using image intensifiers or flat-panel detectors, with automatic brightness control. It delivers higher doses than plain radiography; dose reduction: pulsed fluoroscopy at low frame rates, last-image hold, collimation, minimising screening time, keeping the patient close to the detector and the tube far from the patient, avoiding magnification, and using grids appropriately (remove for small children). Staff protection: lead aprons (0.25–0.5 mm Pb equivalent), thyroid collars, lead glasses, ceiling-suspended screens, standing on the detector side (lower scatter — scatter is highest on the tube side), and personal dosimetry. The operator is responsible for justification and optimisation. Mobile C-arms are used in theatre (orthopaedics, urology).",
+       "keyPoints": [
+        "Higher dose than radiography",
+        "Pulsed fluoroscopy, last-image hold",
+        "Patient close to detector",
+        "Lead aprons, thyroid collars",
+        "Stand on detector side",
+        "C-arms in theatre"
+       ]
+      },
+      {
+       "heading": "GI contrast studies",
+       "body": "Barium (or water-soluble) swallow: dysphagia, strictures (e.g. caustic ingestion — common in Nigerian children drinking lye stored in bottles), achalasia ('bird's beak'), oesophageal cancer ('apple core'/shouldering), pharyngeal pouch, reflux and tracheo-oesophageal fistula (in neonates with water-soluble or careful contrast). Barium meal (stomach and duodenum — largely replaced by endoscopy; fasting 6 hours). Barium follow-through/small bowel enema: Crohn's disease (skip lesions, string sign), tuberculosis (ileocaecal — common in Nigeria), obstruction. Barium enema (largely replaced by colonoscopy/CT colonography): bowel preparation, contraindicated with toxic megacolon or recent deep biopsy; shows colorectal cancer ('apple core' lesion), diverticula, polyps and volvulus. Water-soluble contrast enema: suspected anastomotic leak, and therapeutic reduction of meconium ileus; air or hydrostatic enema for intussusception reduction in children. Defecating proctography and sialography are other specialist studies.",
+       "keyPoints": [
+        "Swallow: achalasia bird's beak",
+        "Caustic strictures in children",
+        "Follow-through: Crohn's, ileocaecal TB",
+        "Barium enema: apple core",
+        "Intussusception reduction by enema",
+        "Largely replaced by endoscopy/CT"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Compared with plain radiography, fluoroscopy generally delivers:",
+       "options": [
+        "Only ultrasound",
+        "The same dose",
+        "Lower dose",
+        "No dose",
+        "Higher dose"
+       ],
+       "answerIndex": 4,
+       "explanation": "Screening time must be minimised."
+      },
+      {
+       "stem": "To reduce patient dose in fluoroscopy, the image detector should be:",
+       "options": [
+        "As close to the patient as possible",
+        "Behind the tube",
+        "Removed",
+        "As far from the patient as possible",
+        "Tilted away"
+       ],
+       "answerIndex": 0,
+       "explanation": "This reduces magnification and dose."
+      },
+      {
+       "stem": "Staff scatter exposure during fluoroscopy is highest on the:",
+       "options": [
+        "X-ray tube side",
+        "Behind a lead screen",
+        "At the patient's feet only",
+        "Detector side",
+        "Outside the room"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stand on the detector side when possible."
+      },
+      {
+       "stem": "A 'bird's beak' narrowing of the lower oesophagus on barium swallow suggests:",
+       "options": [
+        "Oesophageal cancer",
+        "Achalasia",
+        "Candidiasis",
+        "Pharyngeal pouch",
+        "Hiatus hernia"
+       ],
+       "answerIndex": 1,
+       "explanation": "Failure of lower oesophageal sphincter relaxation."
+      },
+      {
+       "stem": "An irregular 'apple core' stricture on barium enema suggests:",
+       "options": [
+        "Haemorrhoids",
+        "Ulcerative colitis",
+        "Colorectal carcinoma",
+        "Volvulus",
+        "Diverticulosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is an annular malignant stricture."
+      },
+      {
+       "stem": "Oesophageal strictures in Nigerian children commonly follow ingestion of:",
+       "options": [
+        "Caustic soda (lye)",
+        "Milk",
+        "Vitamins",
+        "Fruit juice",
+        "Water"
+       ],
+       "answerIndex": 0,
+       "explanation": "Often stored in drink bottles at home."
+      },
+      {
+       "stem": "Ileocaecal narrowing and a contracted caecum on small bowel studies in Nigeria may suggest:",
+       "options": [
+        "Abdominal tuberculosis",
+        "Hirschsprung disease",
+        "Gastric cancer",
+        "Achalasia",
+        "Appendicitis only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Crohn's disease is a differential."
+      },
+      {
+       "stem": "In children, intussusception can be treated radiologically by:",
+       "options": [
+        "Barium swallow",
+        "Mammography",
+        "Air or hydrostatic enema reduction",
+        "HSG",
+        "IVU"
+       ],
+       "answerIndex": 2,
+       "explanation": "Under fluoroscopic or ultrasound guidance."
+      }
+     ]
+    },
+    {
+     "title": "Urological, Gynaecological and Vascular Procedures",
+     "order": 3,
+     "summary": "IVU, urethrography, MCU, hysterosalpingography, and principles of angiography.",
+     "material": [
+      {
+       "heading": "Urological studies",
+       "body": "Intravenous urography (IVU) images the kidneys, ureters and bladder after IV iodinated contrast (control film, nephrogram, pyelogram phases, post-micturition film); largely replaced by CT urography but still used where CT is unavailable. Retrograde urethrography (RUG — contrast injected via the meatus) demonstrates anterior urethral strictures (common after gonococcal urethritis and trauma in Nigerian men) and urethral injuries; combined with micturating cystourethrography for posterior urethra. Micturating cystourethrography (MCU) — catheter-filled bladder, images during voiding — shows vesicoureteric reflux (graded I–V) and posterior urethral valves in boys; requires antibiotic cover and aseptic catheterisation. Cystography assesses bladder rupture after trauma. Nephrostograms and antegrade pyelography study obstructed kidneys through nephrostomy tubes.",
+       "keyPoints": [
+        "IVU phases",
+        "CT urography replacing IVU",
+        "RUG: anterior urethral stricture",
+        "MCU: reflux, PUV",
+        "Aseptic catheterisation",
+        "Cystography: bladder rupture"
+       ]
+      },
+      {
+       "heading": "HSG and angiography",
+       "body": "Hysterosalpingography (HSG) evaluates the uterine cavity and tubal patency in infertility (a very common examination in Nigeria given the burden of tubal infertility). Timing: days 7–10 of the cycle (after menstruation stops, before ovulation — to avoid irradiating an early pregnancy; the '10-day rule'). Contraindications: pregnancy, active pelvic infection, recent heavy bleeding, iodine allergy (relative). Procedure: speculum, cannula or balloon catheter in the cervix, water-soluble contrast under fluoroscopy; findings — tubal blockage (proximal or distal), hydrosalpinx, peritubal adhesions (loculated spill), intrauterine adhesions (Asherman's syndrome), fibroids (filling defects), congenital anomalies (bicornuate/septate uterus) and 'beaded' tubes in genital TB. Complications: pain, vasovagal reaction, infection (prophylactic antibiotics in some cases), contrast intravasation. Angiography: arterial access (Seldinger technique — usually femoral or radial), catheter angiography with digital subtraction (DSA), now often replaced by CT or MR angiography for diagnosis; interventional procedures include angioplasty, stenting, embolisation and thrombolysis. Post-procedure care: pressure at puncture site, bed rest, monitor distal pulses and for haematoma.",
+       "keyPoints": [
+        "HSG days 7–10",
+        "HSG: tubal patency",
+        "Contraindications: pregnancy, infection",
+        "Hydrosalpinx; Asherman's",
+        "Seldinger technique",
+        "DSA; monitor puncture site"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Anterior urethral strictures are best demonstrated with:",
+       "options": [
+        "Retrograde urethrography",
+        "HSG",
+        "IVU",
+        "Ultrasound of kidneys",
+        "Barium enema"
+       ],
+       "answerIndex": 0,
+       "explanation": "Contrast is injected via the meatus."
+      },
+      {
+       "stem": "Vesicoureteric reflux in children is demonstrated with:",
+       "options": [
+        "Retrograde urethrography",
+        "Micturating cystourethrography (MCU)",
+        "Barium swallow",
+        "Mammography",
+        "HSG"
+       ],
+       "answerIndex": 1,
+       "explanation": "Images are taken during voiding."
+      },
+      {
+       "stem": "Posterior urethral valves in boys are best shown on:",
+       "options": [
+        "HSG",
+        "IVU",
+        "MCU during voiding",
+        "Plain KUB",
+        "CT head"
+       ],
+       "answerIndex": 2,
+       "explanation": "The dilated posterior urethra is seen during micturition."
+      },
+      {
+       "stem": "Hysterosalpingography is best performed on days:",
+       "options": [
+        "1–3 of the cycle",
+        "Any day",
+        "14–16",
+        "7–10 of the cycle",
+        "21–28"
+       ],
+       "answerIndex": 3,
+       "explanation": "After menses and before ovulation."
+      },
+      {
+       "stem": "HSG is contraindicated in:",
+       "options": [
+        "Pregnancy and active pelvic infection",
+        "Previous caesarean section",
+        "Age over 30",
+        "Infertility",
+        "Obesity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Risk to pregnancy and of spreading infection."
+      },
+      {
+       "stem": "A dilated distal fallopian tube filled with contrast that does not spill suggests:",
+       "options": [
+        "Septate uterus",
+        "Fibroid",
+        "Asherman's syndrome",
+        "Normal tube",
+        "Hydrosalpinx"
+       ],
+       "answerIndex": 4,
+       "explanation": "Distal tubal occlusion."
+      },
+      {
+       "stem": "Irregular filling defects and adhesions within the uterine cavity on HSG suggest:",
+       "options": [
+        "Hydrosalpinx",
+        "Asherman's syndrome (intrauterine adhesions)",
+        "Normal uterus",
+        "Ectopic pregnancy",
+        "Ovarian cyst"
+       ],
+       "answerIndex": 1,
+       "explanation": "Often after curettage or infection."
+      },
+      {
+       "stem": "The standard technique for percutaneous arterial catheter access is the:",
+       "options": [
+        "Lichtenstein technique",
+        "Seldinger technique",
+        "Bassini technique",
+        "Kasai technique",
+        "Ramstedt technique"
+       ],
+       "answerIndex": 1,
+       "explanation": "Needle, guidewire, then catheter."
+      }
+     ]
+    },
+    {
+     "title": "Mammography and Dental Radiography",
+     "order": 4,
+     "summary": "Mammography technique, screening and BI-RADS, and intraoral and panoramic dental imaging.",
+     "material": [
+      {
+       "heading": "Mammography",
+       "body": "Mammography uses low kVp (about 25–32 kVp) with molybdenum or rhodium targets/filters (or tungsten in digital systems), small focal spots, and firm compression (reduces thickness, dose, motion and scatter; separates overlapping tissue; improves contrast). Standard views: craniocaudal (CC) and mediolateral oblique (MLO — includes pectoral muscle and axillary tail); additional views (spot compression, magnification). Digital breast tomosynthesis improves detection in dense breasts. Findings: masses (spiculated — suspicious), microcalcifications (fine pleomorphic, linear branching — suspicious for DCIS), architectural distortion and asymmetry. BI-RADS categories: 0 incomplete, 1 negative, 2 benign, 3 probably benign (short-interval follow-up), 4 suspicious (biopsy), 5 highly suggestive of malignancy, 6 known cancer. Screening programmes (typically women 40/50–69/74) are limited in Nigeria; many women present with palpable lumps; ultrasound is first-line under about 35 years. Clear communication and privacy (female radiographers where preferred) improve acceptance.",
+       "keyPoints": [
+        "Low kVp 25–32",
+        "Compression benefits",
+        "CC and MLO views",
+        "Suspicious microcalcifications",
+        "BI-RADS 0–6",
+        "Ultrasound first under 35"
+       ]
+      },
+      {
+       "heading": "Dental radiography",
+       "body": "Intraoral radiographs: periapical (whole tooth and periapical tissues — paralleling technique preferred over bisecting angle for accuracy), bitewing (interproximal caries and alveolar bone levels), and occlusal (larger areas — salivary stones, impacted canines, jaw lesions). Extraoral: dental panoramic tomography (OPG — overview of both jaws, third molars, fractures, cysts and tumours; positioning errors — Frankfort plane tilt causes 'smile' or 'frown'; patient too far forward narrows anterior teeth) and lateral cephalometric radiographs (orthodontics). Cone-beam CT (CBCT) gives 3D imaging for implants, impacted teeth and pathology at lower dose than conventional CT. Dental radiation protection: justification, rectangular collimation (reduces dose substantially), fast digital receptors, thyroid collars where the thyroid is in the primary beam, and quality assurance. Handheld dental X-ray units require special precautions.",
+       "keyPoints": [
+        "Periapical: paralleling technique",
+        "Bitewing: caries, bone level",
+        "Occlusal: salivary stones",
+        "OPG positioning errors",
+        "CBCT for implants",
+        "Rectangular collimation"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Mammography uses a low tube voltage of about:",
+       "options": [
+        "25–32 kVp",
+        "70–80 kVp",
+        "100–120 kVp",
+        "6 MV",
+        "140 kVp"
+       ],
+       "answerIndex": 0,
+       "explanation": "Low energy maximises soft tissue contrast."
+      },
+      {
+       "stem": "Firm compression during mammography:",
+       "options": [
+        "Reduces thickness, dose, motion and scatter",
+        "Increases dose",
+        "Reduces contrast",
+        "Has no benefit",
+        "Is only for comfort"
+       ],
+       "answerIndex": 0,
+       "explanation": "It improves image quality."
+      },
+      {
+       "stem": "The mammographic view that includes the pectoral muscle and axillary tail is the:",
+       "options": [
+        "Spot view",
+        "Craniocaudal",
+        "Cleavage view",
+        "Lateromedial only",
+        "Mediolateral oblique"
+       ],
+       "answerIndex": 4,
+       "explanation": "It shows the most breast tissue."
+      },
+      {
+       "stem": "BI-RADS category 4 means:",
+       "options": [
+        "Suspicious — biopsy recommended",
+        "Known cancer",
+        "Negative",
+        "Incomplete",
+        "Benign"
+       ],
+       "answerIndex": 0,
+       "explanation": "Category 5 is highly suggestive of malignancy."
+      },
+      {
+       "stem": "Fine linear branching microcalcifications on mammography suggest:",
+       "options": [
+        "Benign cyst",
+        "Normal breast",
+        "Fibroadenoma always",
+        "Lipoma",
+        "Ductal carcinoma in situ"
+       ],
+       "answerIndex": 4,
+       "explanation": "They require biopsy."
+      },
+      {
+       "stem": "The intraoral radiograph best for detecting interproximal caries is the:",
+       "options": [
+        "Periapical",
+        "OPG",
+        "Occlusal",
+        "Bitewing",
+        "Lateral ceph"
+       ],
+       "answerIndex": 3,
+       "explanation": "It shows crowns of upper and lower teeth."
+      },
+      {
+       "stem": "The preferred technique for accurate periapical radiographs is the:",
+       "options": [
+        "Bisecting angle technique",
+        "Oblique technique",
+        "Paralleling technique",
+        "Panoramic technique",
+        "Occlusal technique"
+       ],
+       "answerIndex": 2,
+       "explanation": "It minimises distortion."
+      },
+      {
+       "stem": "A dose-reduction measure in intraoral dental radiography is:",
+       "options": [
+        "Rectangular collimation",
+        "Higher mAs",
+        "Slower film",
+        "Round collimation",
+        "Repeat exposures"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces the irradiated area."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric, Theatre and Mobile Radiography",
+     "order": 5,
+     "summary": "Imaging children safely, mobile ward radiography, theatre imaging and trauma radiography.",
+     "material": [
+      {
+       "heading": "Paediatric imaging",
+       "body": "Children are more radiosensitive and have longer life expectancy for effects to manifest; apply ALARA rigorously. Justify every examination (use ultrasound or MRI where possible), use child-specific exposure factors, tight collimation, gonad shielding where it doesn't obscure anatomy, immobilisation aids (foam pads, sandbags, Velcro straps) rather than holding, and involve carers (a carer who holds a child must wear a lead apron and must not be pregnant). Communication: age-appropriate explanations, distraction, and a child-friendly environment. Common paediatric examinations: chest (pneumonia, foreign body — inspiratory/expiratory films), abdomen (obstruction, necrotising enterocolitis in neonates — pneumatosis), skeletal survey for suspected non-accidental injury (standardised views, follow-up films), bone age (left hand and wrist), and hips (ultrasound in infants for DDH). Neonatal imaging in incubators uses mobile units with careful infection control and thermal protection.",
+       "keyPoints": [
+        "Children more radiosensitive",
+        "Immobilisation aids",
+        "Carer holding: apron, not pregnant",
+        "Foreign body: inspiratory/expiratory",
+        "NEC: pneumatosis",
+        "Skeletal survey for NAI",
+        "Bone age: left hand"
+       ]
+      },
+      {
+       "heading": "Mobile and theatre radiography",
+       "body": "Mobile (ward) radiography is for patients too ill to travel (ICU, neonatal units, orthopaedic traction); challenges include limited exposure capacity, positioning difficulty (AP supine chest films — heart magnified, effusions appear as haziness, pneumothorax anterior), lines and tubes checks (endotracheal tube tip about 5–7 cm above the carina; central venous catheter tip at the cavoatrial junction; nasogastric tube below the diaphragm in the stomach — the tube must bisect the carina and cross the diaphragm before feeding), and radiation protection for staff and other patients (at least 2 metres distance, lead aprons, warn others). Theatre radiography uses C-arm fluoroscopy (orthopaedic fixations, urology, cholangiography); the radiographer maintains sterility (sterile drapes on the C-arm), minimises screening time, and protects the theatre team. Trauma radiography: minimal patient movement, horizontal beam laterals (e.g. cross-table lateral C-spine, lateral knee for lipohaemarthrosis), two views at right angles, and inclusion of joints above and below.",
+       "keyPoints": [
+        "Mobile: AP supine limitations",
+        "ETT tip 5–7 cm above carina",
+        "NG tube below diaphragm before feeding",
+        "2 m distance for others",
+        "C-arm sterility",
+        "Horizontal beam laterals in trauma"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Children require special care in radiography because they are:",
+       "options": [
+        "More radiosensitive with longer life expectancy",
+        "Less radiosensitive",
+        "Always sedated",
+        "Unaffected by radiation",
+        "Imaged only with CT"
+       ],
+       "answerIndex": 0,
+       "explanation": "ALARA is applied rigorously."
+      },
+      {
+       "stem": "A carer who holds a child during an X-ray must:",
+       "options": [
+        "Wear a lead apron and must not be pregnant",
+        "Leave the room during exposure always",
+        "Hold the child inside the primary beam",
+        "Stand without protection",
+        "Be a staff member always"
+       ],
+       "answerIndex": 0,
+       "explanation": "Immobilisation devices are preferred."
+      },
+      {
+       "stem": "Suspected inhaled foreign body in a child may be assessed with:",
+       "options": [
+        "Only a lateral skull film",
+        "HSG",
+        "Dental OPG",
+        "Inspiratory and expiratory chest films",
+        "Mammography"
+       ],
+       "answerIndex": 3,
+       "explanation": "Air trapping appears on expiration."
+      },
+      {
+       "stem": "Bubbles of gas within the bowel wall (pneumatosis) in a premature neonate suggest:",
+       "options": [
+        "Pyloric stenosis",
+        "Malrotation",
+        "Normal bowel",
+        "Necrotising enterocolitis",
+        "Hirschsprung disease"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a neonatal emergency."
+      },
+      {
+       "stem": "Bone age is commonly assessed using a radiograph of the:",
+       "options": [
+        "Right foot",
+        "Pelvis",
+        "Skull",
+        "Left hand and wrist",
+        "Chest"
+       ],
+       "answerIndex": 3,
+       "explanation": "Compared with standard atlases."
+      },
+      {
+       "stem": "On a chest X-ray, the tip of an endotracheal tube in an adult should be about:",
+       "options": [
+        "5–7 cm above the carina",
+        "In the right main bronchus",
+        "In the oesophagus",
+        "Below the carina",
+        "At the vocal cords"
+       ],
+       "answerIndex": 0,
+       "explanation": "Too low risks endobronchial intubation."
+      },
+      {
+       "stem": "Before feeding through a nasogastric tube, the X-ray should confirm the tip is:",
+       "options": [
+        "In the pharynx",
+        "Below the diaphragm in the stomach",
+        "In the oesophagus",
+        "In the right main bronchus",
+        "In the trachea"
+       ],
+       "answerIndex": 1,
+       "explanation": "Misplacement in the lung can be fatal."
+      },
+      {
+       "stem": "During mobile radiography on a ward, staff and other patients should be at least:",
+       "options": [
+        "At the foot of the bed",
+        "2 m from the tube and patient",
+        "10 cm away",
+        "Directly beside the patient",
+        "0.5 m away"
+       ],
+       "answerIndex": 1,
+       "explanation": "Distance reduces scatter exposure."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
   "code": "BLS101",
   "color": "#DC2626",
   "description": "Principles of first aid, cardiopulmonary resuscitation, choking, bleeding, burns, fractures and common emergencies — useful at every level.",
-  "for": { "100": ["*"], "200": ["SON", "PH"], "PG": ["*"] },
+  "for": { "100": ["*"], "200": ["SON", "PH"] },
   "topics": [
     {
       "title": "Principles of First Aid and Scene Assessment",

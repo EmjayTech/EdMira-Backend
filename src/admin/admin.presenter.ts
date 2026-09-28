@@ -141,6 +141,7 @@ export const adminNews = (n: NewsArticleDocument) => ({
   publishedAt: iso(n.publishedAt),
   status: n.status,
   isSample: n.isSample,
+  origin: n.origin ?? 'manual',
   createdByName: n.createdByName ?? 'EdMira',
   updatedAt: iso(n.updatedAt),
 });

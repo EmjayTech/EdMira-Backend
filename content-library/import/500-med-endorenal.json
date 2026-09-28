@@ -1,0 +1,675 @@
+{
+ "courses": [
+  {
+   "title": "Internal Medicine II: Endocrinology, Nephrology and Gastroenterology",
+   "code": "MED503",
+   "color": "#DC2626",
+   "description": "Diabetes mellitus and its complications, thyroid and adrenal disease, kidney disease, liver disease and gastrointestinal disorders.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Diabetes Mellitus",
+     "order": 1,
+     "summary": "Diagnosis, types, management, and chronic complications.",
+     "material": [
+      {
+       "heading": "Diagnosis and treatment",
+       "body": "Diabetes mellitus affects about 3–6% of Nigerian adults, with many undiagnosed. Diagnostic criteria: fasting plasma glucose ≥ 7.0 mmol/L (126 mg/dL), 2-hour glucose ≥ 11.1 mmol/L on OGTT, HbA1c ≥ 6.5% (48 mmol/mol), or random glucose ≥ 11.1 mmol/L with symptoms (polyuria, polydipsia, weight loss). Type 1 (autoimmune β-cell destruction, insulin-dependent, ketosis-prone) and type 2 (insulin resistance with relative deficiency — about 90%); ketosis-prone type 2 diabetes ('Flatbush') is recognised in Africans. Management of type 2: education, diet and exercise, metformin first-line (avoid if eGFR < 30; GI effects, lactic acidosis rarely), then sulfonylureas (hypoglycaemia risk — glibenclamide common in Nigeria), DPP-4 inhibitors, SGLT2 inhibitors and GLP-1 agonists (cardiorenal benefits), and insulin. Targets: HbA1c about 7% (individualised), BP < 130/80, statins for most adults over 40. Hypoglycaemia (glucose < 4 mmol/L): conscious — oral glucose; unconscious — IV 50% (or 10%) dextrose or IM glucagon.",
+       "keyPoints": [
+        "FPG ≥ 7.0; HbA1c ≥ 6.5%",
+        "Type 2 ~90%",
+        "Metformin first-line",
+        "SGLT2i/GLP-1RA: cardiorenal benefit",
+        "HbA1c target ~7%",
+        "Hypoglycaemia < 4 mmol/L"
+       ]
+      },
+      {
+       "heading": "Complications",
+       "body": "Acute: diabetic ketoacidosis (DKA — glucose > 11 mmol/L, ketones, acidosis pH < 7.3 or bicarbonate < 15; precipitated by infection or missed insulin; treat with IV fluids (0.9% saline), fixed-rate IV insulin 0.1 unit/kg/h, potassium replacement and treat the cause) and hyperosmolar hyperglycaemic state (HHS — older type 2 patients, very high glucose > 30 mmol/L, osmolality > 320 mOsm/kg, marked dehydration, little ketosis; cautious fluid replacement). Chronic microvascular: retinopathy (annual fundoscopy), nephropathy (albuminuria — ACEi/ARB, SGLT2i), neuropathy (peripheral sensory loss — foot ulcers). Macrovascular: coronary disease, stroke and peripheral arterial disease. Diabetic foot disease is a major cause of amputation in Nigeria — daily foot inspection, proper footwear, avoid walking barefoot and traditional remedies, and early treatment of ulcers and infection. Screening for complications should be regular.",
+       "keyPoints": [
+        "DKA: fluids, insulin 0.1 U/kg/h, potassium",
+        "HHS: osmolality > 320",
+        "Annual retinal screening",
+        "Albuminuria: ACEi/ARB",
+        "Diabetic foot: amputation risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A fasting plasma glucose diagnostic of diabetes is at least:",
+       "options": [
+        "5.6 mmol/L",
+        "6.1 mmol/L",
+        "7.0 mmol/L",
+        "11.1 mmol/L",
+        "4.0 mmol/L"
+       ],
+       "answerIndex": 2,
+       "explanation": "7.0 mmol/L = 126 mg/dL."
+      },
+      {
+       "stem": "The first-line oral drug for most patients with type 2 diabetes is:",
+       "options": [
+        "Metformin",
+        "Acarbose",
+        "Insulin",
+        "Glibenclamide",
+        "Pioglitazone"
+       ],
+       "answerIndex": 0,
+       "explanation": "It does not cause hypoglycaemia or weight gain."
+      },
+      {
+       "stem": "Metformin should be avoided when eGFR falls below:",
+       "options": [
+        "90",
+        "120",
+        "30",
+        "45 only in children",
+        "60"
+       ],
+       "answerIndex": 2,
+       "explanation": "Risk of lactic acidosis increases."
+      },
+      {
+       "stem": "An unconscious diabetic patient with glucose 2.1 mmol/L should receive:",
+       "options": [
+        "Metformin",
+        "Saline only",
+        "IV dextrose or IM glucagon",
+        "Insulin",
+        "Oral sugar"
+       ],
+       "answerIndex": 2,
+       "explanation": "Oral intake is unsafe when unconscious."
+      },
+      {
+       "stem": "The initial fluid in diabetic ketoacidosis is:",
+       "options": [
+        "Blood",
+        "5% dextrose",
+        "0.9% sodium chloride",
+        "Albumin",
+        "Hypertonic saline"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dextrose is added when glucose falls."
+      },
+      {
+       "stem": "In DKA treatment, potassium must be monitored because insulin:",
+       "options": [
+        "Drives potassium into cells causing hypokalaemia",
+        "Causes hypercalcaemia",
+        "Has no effect",
+        "Raises potassium",
+        "Causes hyponatraemia only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Total body potassium is depleted."
+      },
+      {
+       "stem": "The antidiabetic drug classes with proven cardiovascular and renal benefits include:",
+       "options": [
+        "Insulin only",
+        "Alpha-glucosidase inhibitors",
+        "Sulfonylureas",
+        "SGLT2 inhibitors and GLP-1 receptor agonists",
+        "Meglitinides"
+       ],
+       "answerIndex": 3,
+       "explanation": "They reduce heart failure and kidney progression."
+      },
+      {
+       "stem": "A major cause of lower-limb amputation among Nigerian diabetics is:",
+       "options": [
+        "Hypoglycaemia",
+        "Obesity alone",
+        "Diabetic foot ulcers and infection",
+        "Thyroid disease",
+        "Retinopathy"
+       ],
+       "answerIndex": 2,
+       "explanation": "Neuropathy and vascular disease lead to ulcers."
+      }
+     ]
+    },
+    {
+     "title": "Thyroid, Adrenal and Pituitary Disorders",
+     "order": 2,
+     "summary": "Thyrotoxicosis, hypothyroidism, goitre, Addison's disease, Cushing's syndrome and pituitary disease.",
+     "material": [
+      {
+       "heading": "Thyroid",
+       "body": "Goitre is common in iodine-deficient areas (historically endemic in parts of Nigeria; universal salt iodisation has reduced it). Thyrotoxicosis: weight loss with good appetite, heat intolerance, tremor, palpitations (sinus tachycardia, atrial fibrillation), anxiety, diarrhoea, and eye signs; causes — Graves' disease (commonest; diffuse goitre, ophthalmopathy, pretibial myxoedema; TSH-receptor antibodies), toxic multinodular goitre and toxic adenoma, thyroiditis. Tests: suppressed TSH with raised free T4/T3. Treatment: beta-blockers for symptoms, carbimazole or propylthiouracil (agranulocytosis — warn to report sore throat; PTU preferred in first trimester), radioactive iodine, or thyroidectomy (complications: recurrent laryngeal nerve palsy, hypocalcaemia). Thyroid storm is an emergency. Hypothyroidism: fatigue, weight gain, cold intolerance, constipation, dry skin, bradycardia, slow-relaxing reflexes; raised TSH with low free T4 (primary — Hashimoto's, post-treatment); treat with levothyroxine.",
+       "keyPoints": [
+        "Graves': TSH-receptor antibodies",
+        "Low TSH, high FT4",
+        "Carbimazole: agranulocytosis",
+        "PTU in first trimester",
+        "Hypothyroid: high TSH, levothyroxine",
+        "Post-thyroidectomy hypocalcaemia"
+       ]
+      },
+      {
+       "heading": "Adrenal and pituitary",
+       "body": "Addison's disease (primary adrenal insufficiency — autoimmune, TB (important in Nigeria), HIV-related, adrenal haemorrhage): fatigue, weight loss, hypotension, hyperpigmentation (skin creases, buccal mucosa), hyponatraemia and hyperkalaemia; confirmed by short Synacthen test; treat with hydrocortisone and fludrocortisone, with sick-day rules. Adrenal crisis: IV hydrocortisone 100 mg and saline. Cushing's syndrome (glucocorticoid excess — commonly iatrogenic, including skin-lightening creams with potent steroids used in Nigeria; pituitary adenoma (Cushing's disease), adrenal tumours, ectopic ACTH): central obesity, moon face, purple striae, proximal myopathy, hypertension, diabetes, osteoporosis; screen with overnight dexamethasone suppression test or 24-hour urinary cortisol. Pituitary tumours cause mass effects (bitemporal hemianopia) and hormone excess — prolactinoma (galactorrhoea, amenorrhoea — dopamine agonists such as cabergoline or bromocriptine), acromegaly (GH — IGF-1, OGTT suppression test) — or hypopituitarism (e.g. Sheehan's syndrome after postpartum haemorrhage).",
+       "keyPoints": [
+        "Addison's: hyperpigmentation, low Na, high K",
+        "TB cause of Addison's",
+        "Adrenal crisis: IV hydrocortisone",
+        "Cushing's: skin-lightening steroid creams",
+        "Bitemporal hemianopia",
+        "Prolactinoma: cabergoline",
+        "Sheehan's syndrome"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The commonest cause of thyrotoxicosis is:",
+       "options": [
+        "Graves' disease",
+        "Toxic adenoma",
+        "Iodine deficiency",
+        "Thyroid cancer",
+        "Pituitary tumour"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is autoimmune."
+      },
+      {
+       "stem": "In primary hyperthyroidism, thyroid function tests show:",
+       "options": [
+        "Low TSH, low T4",
+        "Normal TSH, low T4",
+        "Low (suppressed) TSH, high free T4",
+        "High TSH, high T4",
+        "High TSH, low T4"
+       ],
+       "answerIndex": 2,
+       "explanation": "Negative feedback suppresses TSH."
+      },
+      {
+       "stem": "Patients on carbimazole should report a sore throat immediately because of the risk of:",
+       "options": [
+        "Alopecia",
+        "Hepatitis",
+        "Agranulocytosis",
+        "Hypothyroidism",
+        "Renal failure"
+       ],
+       "answerIndex": 2,
+       "explanation": "A full blood count is checked."
+      },
+      {
+       "stem": "Hoarseness after thyroidectomy suggests injury to the:",
+       "options": [
+        "Vagus trunk in the thorax",
+        "Hypoglossal nerve",
+        "Recurrent laryngeal nerve",
+        "Facial nerve",
+        "Phrenic nerve"
+       ],
+       "answerIndex": 2,
+       "explanation": "It supplies most laryngeal muscles."
+      },
+      {
+       "stem": "Hyperpigmentation, hypotension, hyponatraemia and hyperkalaemia suggest:",
+       "options": [
+        "Addison's disease",
+        "Cushing's syndrome",
+        "Hyperthyroidism",
+        "Conn's syndrome",
+        "Phaeochromocytoma"
+       ],
+       "answerIndex": 0,
+       "explanation": "Primary adrenal insufficiency with high ACTH."
+      },
+      {
+       "stem": "A common iatrogenic cause of Cushing's syndrome in Nigeria is:",
+       "options": [
+        "Paracetamol",
+        "Metformin",
+        "Antimalarials",
+        "Iodised salt",
+        "Potent steroid-containing skin-lightening creams"
+       ],
+       "answerIndex": 4,
+       "explanation": "Topical steroids can be absorbed systemically."
+      },
+      {
+       "stem": "A pituitary tumour compressing the optic chiasm causes:",
+       "options": [
+        "Tunnel vision always",
+        "Homonymous hemianopia",
+        "Total blindness in one eye",
+        "Central scotoma",
+        "Bitemporal hemianopia"
+       ],
+       "answerIndex": 4,
+       "explanation": "Crossing nasal fibres are compressed."
+      },
+      {
+       "stem": "Failure of lactation and amenorrhoea after massive postpartum haemorrhage suggest:",
+       "options": [
+        "Addison's disease",
+        "Graves' disease",
+        "Prolactinoma",
+        "PCOS",
+        "Sheehan's syndrome"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pituitary infarction causes hypopituitarism."
+      }
+     ]
+    },
+    {
+     "title": "Kidney Disease",
+     "order": 3,
+     "summary": "Acute kidney injury, chronic kidney disease, glomerular disease and renal replacement therapy.",
+     "material": [
+      {
+       "heading": "AKI and glomerular disease",
+       "body": "Acute kidney injury (KDIGO: creatinine rise ≥ 26.5 µmol/L in 48 h, ≥ 1.5 times baseline within 7 days, or urine output < 0.5 mL/kg/h for 6 h) is classified as pre-renal (hypovolaemia — diarrhoea, haemorrhage; sepsis), intrinsic (acute tubular necrosis, nephrotoxins — aminoglycosides, NSAIDs, contrast, herbal remedies; glomerulonephritis; malaria — blackwater fever) and post-renal (obstruction — BPH, stones, cervical cancer). Management: fluids for hypovolaemia, stop nephrotoxins, treat cause, and manage complications — hyperkalaemia (calcium gluconate to protect the heart, insulin–dextrose, salbutamol, then remove potassium), fluid overload, acidosis and uraemia; indications for dialysis: refractory hyperkalaemia, acidosis or fluid overload, uraemic complications (pericarditis, encephalopathy), and certain poisonings. Nephrotic syndrome: proteinuria > 3.5 g/day, hypoalbuminaemia, oedema, hyperlipidaemia (causes include minimal change disease, FSGS — HIV-associated nephropathy, membranous — hepatitis B, malaria P. malariae). Nephritic syndrome: haematuria, hypertension, oliguria and oedema (post-streptococcal glomerulonephritis).",
+       "keyPoints": [
+        "KDIGO AKI criteria",
+        "Pre-renal, intrinsic, post-renal",
+        "Hyperkalaemia: calcium gluconate first",
+        "Dialysis indications",
+        "Nephrotic: > 3.5 g/day protein",
+        "HIVAN: FSGS"
+       ]
+      },
+      {
+       "heading": "Chronic kidney disease",
+       "body": "CKD is kidney damage or eGFR < 60 mL/min/1.73 m² for > 3 months, staged G1–G5 and by albuminuria (A1–A3). In Nigeria, leading causes are hypertension, chronic glomerulonephritis, diabetes, HIV and obstructive uropathy; patients often present late with end-stage disease. People of West African ancestry with APOL1 risk variants have higher risk of kidney disease. Management: control BP (ACEi/ARB, target < 130/80), glucose, SGLT2 inhibitors to slow progression, avoid nephrotoxins (NSAIDs, herbal remedies), adjust drug doses, and treat complications — anaemia (erythropoietin, iron), CKD–mineral bone disorder (phosphate binders, vitamin D), acidosis, and fluid overload. Renal replacement therapy: haemodialysis (costly out-of-pocket in Nigeria — many patients cannot sustain it), peritoneal dialysis and kidney transplantation (living donor transplants performed in several Nigerian centres).",
+       "keyPoints": [
+        "CKD: eGFR < 60 for > 3 months",
+        "Causes: hypertension, GN, diabetes, HIV",
+        "APOL1 variants in West Africans",
+        "SGLT2i slow progression",
+        "Anaemia: erythropoietin",
+        "Dialysis cost is a barrier"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Acute kidney injury caused by severe diarrhoea and dehydration is:",
+       "options": [
+        "Intrinsic glomerular",
+        "Chronic",
+        "Post-renal",
+        "Obstructive",
+        "Pre-renal"
+       ],
+       "answerIndex": 4,
+       "explanation": "Reduced renal perfusion."
+      },
+      {
+       "stem": "The first treatment for hyperkalaemia with ECG changes is:",
+       "options": [
+        "IV calcium gluconate",
+        "Normal saline alone",
+        "Oral potassium",
+        "Furosemide",
+        "Spironolactone"
+       ],
+       "answerIndex": 0,
+       "explanation": "It stabilises the myocardium."
+      },
+      {
+       "stem": "Which is an indication for urgent dialysis?",
+       "options": [
+        "Hypertension controlled with drugs",
+        "Creatinine of 150 µmol/L",
+        "Refractory hyperkalaemia or uraemic pericarditis",
+        "Mild anaemia",
+        "Proteinuria of 1 g/day"
+       ],
+       "answerIndex": 2,
+       "explanation": "Life-threatening complications need dialysis."
+      },
+      {
+       "stem": "Nephrotic syndrome is characterised by proteinuria above:",
+       "options": [
+        "1 g/day",
+        "0.1 g/day",
+        "3.5 g/day",
+        "0.3 g/day",
+        "10 g/day only"
+       ],
+       "answerIndex": 2,
+       "explanation": "With hypoalbuminaemia and oedema."
+      },
+      {
+       "stem": "HIV-associated nephropathy typically shows:",
+       "options": [
+        "Collapsing focal segmental glomerulosclerosis",
+        "Membranous nephropathy",
+        "Amyloidosis",
+        "Minimal change disease",
+        "IgA nephropathy"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is common in people of African ancestry."
+      },
+      {
+       "stem": "Chronic kidney disease is defined by eGFR below 60 for more than:",
+       "options": [
+        "1 week",
+        "1 month",
+        "3 months",
+        "1 year",
+        "5 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "Or markers of kidney damage."
+      },
+      {
+       "stem": "Anaemia of chronic kidney disease is mainly due to:",
+       "options": [
+        "Haemolysis",
+        "Vitamin C deficiency",
+        "Bleeding only",
+        "Reduced erythropoietin production",
+        "Iron overload"
+       ],
+       "answerIndex": 3,
+       "explanation": "The kidneys produce erythropoietin."
+      },
+      {
+       "stem": "A leading cause of CKD in Nigeria is:",
+       "options": [
+        "Amyloidosis",
+        "Lupus only",
+        "Kidney stones only",
+        "Polycystic kidney disease only",
+        "Hypertension and chronic glomerulonephritis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Diabetes and HIV are increasing causes."
+      }
+     ]
+    },
+    {
+     "title": "Liver Disease",
+     "order": 4,
+     "summary": "Hepatitis, cirrhosis and complications, hepatocellular carcinoma and liver function tests.",
+     "material": [
+      {
+       "heading": "Liver tests and hepatitis",
+       "body": "Liver function tests: ALT and AST (hepatocellular injury — very high in viral or drug hepatitis; AST:ALT > 2 suggests alcoholic liver disease), ALP and GGT (cholestasis), bilirubin, and synthetic function — albumin and prothrombin time/INR (best acute marker of liver function). Jaundice is pre-hepatic (haemolysis — unconjugated), hepatic, or post-hepatic/obstructive (pale stools, dark urine, pruritus). Chronic hepatitis B (HBsAg > 6 months) is the leading cause of chronic liver disease in Nigeria; treat with tenofovir or entecavir if active disease, cirrhosis or high viral load. Drug-induced liver injury (anti-TB drugs, paracetamol overdose, herbal remedies) and alcohol are other causes. Acute liver failure: jaundice, coagulopathy (INR > 1.5) and encephalopathy within weeks of onset in a previously normal liver.",
+       "keyPoints": [
+        "ALT/AST: hepatocellular",
+        "ALP/GGT: cholestasis",
+        "INR best synthetic marker",
+        "Obstructive jaundice: pale stools, dark urine",
+        "Chronic HBV leading cause",
+        "Herbal remedies cause liver injury"
+       ]
+      },
+      {
+       "heading": "Cirrhosis and HCC",
+       "body": "Cirrhosis (fibrosis with regenerative nodules) results from chronic hepatitis B and C, alcohol, NAFLD/MASLD and others. Complications of portal hypertension and liver failure: ascites (diuretics — spironolactone ± furosemide, salt restriction, paracentesis with albumin; spontaneous bacterial peritonitis — ascitic neutrophils > 250/mm³, treat with cefotaxime), variceal bleeding (resuscitate, terlipressin or octreotide, antibiotics, endoscopic band ligation; prevent with non-selective beta-blockers), hepatic encephalopathy (lactulose, rifaximin; precipitants — bleeding, infection, constipation, sedatives, electrolyte disturbance), hepatorenal syndrome and coagulopathy. Severity by Child–Pugh score (bilirubin, albumin, INR, ascites, encephalopathy) and MELD. Hepatocellular carcinoma (HCC) is among the commonest cancers in Nigerian men, linked to hepatitis B, aflatoxin exposure (mouldy stored grains and groundnuts) and cirrhosis; presents with RUQ mass, weight loss and raised alpha-fetoprotein, often at an advanced stage. Surveillance with ultrasound ± AFP every 6 months in high-risk patients; HBV vaccination is the key prevention.",
+       "keyPoints": [
+        "Ascites: spironolactone",
+        "SBP: neutrophils > 250",
+        "Varices: terlipressin, banding, beta-blockers",
+        "Encephalopathy: lactulose",
+        "Child–Pugh",
+        "HCC: HBV + aflatoxin; AFP"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The best laboratory marker of the liver's synthetic function in acute illness is:",
+       "options": [
+        "ALP",
+        "GGT",
+        "Bilirubin only",
+        "Prothrombin time/INR",
+        "ALT"
+       ],
+       "answerIndex": 3,
+       "explanation": "Clotting factors have short half-lives."
+      },
+      {
+       "stem": "Pale stools, dark urine and pruritus suggest:",
+       "options": [
+        "Gilbert's syndrome",
+        "Obstructive (cholestatic) jaundice",
+        "Haemolytic jaundice",
+        "Anaemia",
+        "Neonatal physiological jaundice"
+       ],
+       "answerIndex": 1,
+       "explanation": "Bile flow to the gut is blocked."
+      },
+      {
+       "stem": "The leading cause of chronic liver disease and HCC in Nigeria is:",
+       "options": [
+        "Alcohol",
+        "Autoimmune hepatitis",
+        "Wilson's disease",
+        "Haemochromatosis",
+        "Chronic hepatitis B"
+       ],
+       "answerIndex": 4,
+       "explanation": "Nigeria is highly endemic for HBV."
+      },
+      {
+       "stem": "Spontaneous bacterial peritonitis is diagnosed when ascitic fluid neutrophils exceed:",
+       "options": [
+        "250/mm³",
+        "25,000/mm³",
+        "25/mm³",
+        "2,500/mm³",
+        "5/mm³"
+       ],
+       "answerIndex": 0,
+       "explanation": "Treat with a third-generation cephalosporin."
+      },
+      {
+       "stem": "The first-line diuretic for cirrhotic ascites is:",
+       "options": [
+        "Spironolactone",
+        "Hydrochlorothiazide",
+        "Mannitol",
+        "Furosemide alone",
+        "Acetazolamide"
+       ],
+       "answerIndex": 0,
+       "explanation": "Secondary hyperaldosteronism drives fluid retention."
+      },
+      {
+       "stem": "Hepatic encephalopathy is treated with:",
+       "options": [
+        "Steroids",
+        "Lactulose (± rifaximin)",
+        "Sedatives",
+        "Paracetamol",
+        "High-protein diet only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Lactulose reduces ammonia absorption."
+      },
+      {
+       "stem": "The fungal toxin contaminating stored grains and groundnuts that contributes to liver cancer is:",
+       "options": [
+        "Ergotamine",
+        "Patulin",
+        "Aflatoxin",
+        "Ochratoxin",
+        "Botulinum"
+       ],
+       "answerIndex": 2,
+       "explanation": "Aspergillus flavus produces aflatoxin."
+      },
+      {
+       "stem": "A tumour marker raised in hepatocellular carcinoma is:",
+       "options": [
+        "CA-125",
+        "Alpha-fetoprotein",
+        "PSA",
+        "CEA only",
+        "CA 15-3"
+       ],
+       "answerIndex": 1,
+       "explanation": "AFP is used with ultrasound for surveillance."
+      }
+     ]
+    },
+    {
+     "title": "Gastrointestinal Disorders",
+     "order": 5,
+     "summary": "Dyspepsia and peptic ulcer disease, GI bleeding, diarrhoeal diseases, typhoid and GI cancers.",
+     "material": [
+      {
+       "heading": "Upper GI",
+       "body": "Dyspepsia is common; Helicobacter pylori infection is highly prevalent in Nigeria and causes gastritis, peptic ulcers and gastric cancer. Test with urea breath test or stool antigen (stop PPIs 2 weeks before). Eradication: triple therapy for 14 days (PPI + amoxicillin + clarithromycin or metronidazole). NSAIDs (including over-the-counter use) are the other major cause of ulcers. Alarm features needing endoscopy: age > 55 with new symptoms, weight loss, dysphagia, persistent vomiting, GI bleeding and anaemia. Upper GI bleeding (haematemesis, melaena): causes — peptic ulcer (commonest), varices, gastritis, Mallory–Weiss tear, cancer. Management: ABC, large-bore IV access, blood transfusion (restrictive threshold Hb < 7–8 g/dL except in varices/cardiac disease), risk scoring (Glasgow–Blatchford), IV PPI after endoscopy for ulcers, and urgent endoscopy within 24 hours.",
+       "keyPoints": [
+        "H. pylori: ulcers and gastric cancer",
+        "Stool antigen or breath test",
+        "Triple therapy 14 days",
+        "NSAIDs cause ulcers",
+        "Alarm features → endoscopy",
+        "Glasgow–Blatchford score"
+       ]
+      },
+      {
+       "heading": "Lower GI and infections",
+       "body": "Acute diarrhoea is mostly infectious (viral, bacterial — E. coli, Shigella (bloody dysentery), Campylobacter, cholera — profuse rice-water stools, parasitic — amoebiasis, Giardia); the key is rehydration (ORS; IV Ringer's lactate for severe dehydration). Antibiotics for dysentery (ciprofloxacin/azithromycin), cholera (doxycycline or azithromycin — reduce duration) and amoebiasis (metronidazole). Typhoid (enteric) fever (Salmonella Typhi): step-ladder fever, relative bradycardia, abdominal pain, rose spots, hepatosplenomegaly; diagnosis by blood culture (the Widal test is unreliable and over-used); complications include intestinal perforation (terminal ileum) and GI bleeding; treat with ceftriaxone or azithromycin given rising fluoroquinolone resistance. Chronic diarrhoea in HIV (Cryptosporidium, Isospora — acid-fast stains). Inflammatory bowel disease is increasingly recognised. Colorectal cancer incidence is rising in Nigeria, often presenting young and late — rectal bleeding, change in bowel habit, iron-deficiency anaemia need colonoscopy.",
+       "keyPoints": [
+        "Rehydration is key",
+        "Shigella: bloody dysentery",
+        "Cholera: rice-water stools",
+        "Typhoid: blood culture, not Widal",
+        "Typhoid perforation: terminal ileum",
+        "Colorectal cancer rising"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most common cause of peptic ulcer disease is:",
+       "options": [
+        "Spicy food",
+        "Alcohol",
+        "Helicobacter pylori infection",
+        "Stress",
+        "Coffee"
+       ],
+       "answerIndex": 2,
+       "explanation": "NSAIDs are the second major cause."
+      },
+      {
+       "stem": "Standard H. pylori eradication triple therapy includes a PPI plus:",
+       "options": [
+        "Ranitidine alone",
+        "Antacid only",
+        "Steroids",
+        "Two antifungals",
+        "Amoxicillin and clarithromycin (or metronidazole)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Given for 14 days."
+      },
+      {
+       "stem": "The commonest cause of upper GI bleeding is:",
+       "options": [
+        "Angiodysplasia",
+        "Gastric cancer",
+        "Oesophageal varices",
+        "Peptic ulcer",
+        "Mallory–Weiss tear"
+       ],
+       "answerIndex": 3,
+       "explanation": "Varices are common in cirrhosis."
+      },
+      {
+       "stem": "Black tarry stools are called:",
+       "options": [
+        "Haematochezia",
+        "Steatorrhoea",
+        "Melaena",
+        "Haematemesis",
+        "Tenesmus"
+       ],
+       "answerIndex": 2,
+       "explanation": "They indicate upper GI bleeding."
+      },
+      {
+       "stem": "Profuse painless 'rice-water' diarrhoea suggests:",
+       "options": [
+        "Amoebiasis",
+        "Giardiasis",
+        "Shigellosis",
+        "Cholera",
+        "Crohn's disease"
+       ],
+       "answerIndex": 3,
+       "explanation": "Vibrio cholerae toxin causes massive secretion."
+      },
+      {
+       "stem": "The most reliable test to diagnose typhoid fever is:",
+       "options": [
+        "Widal test",
+        "Stool microscopy",
+        "Malaria RDT",
+        "Urine dipstick",
+        "Blood culture"
+       ],
+       "answerIndex": 4,
+       "explanation": "The Widal test has poor specificity."
+      },
+      {
+       "stem": "The most serious complication of typhoid fever, often requiring surgery, is:",
+       "options": [
+        "Constipation",
+        "Relative bradycardia",
+        "Intestinal perforation of the terminal ileum",
+        "Rose spots",
+        "Splenomegaly"
+       ],
+       "answerIndex": 2,
+       "explanation": "Typhoid perforation carries high mortality."
+      },
+      {
+       "stem": "The mainstay of treatment for acute watery diarrhoea is:",
+       "options": [
+        "Antibiotics",
+        "Antimotility drugs",
+        "Steroids",
+        "Rehydration",
+        "Fasting"
+       ],
+       "answerIndex": 3,
+       "explanation": "Dehydration kills."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

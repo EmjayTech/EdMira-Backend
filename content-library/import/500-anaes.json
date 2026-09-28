@@ -1,0 +1,684 @@
+{
+ "courses": [
+  {
+   "title": "Anaesthesia, Emergency Medicine and Critical Care",
+   "code": "AEM501",
+   "color": "#DC2626",
+   "description": "Preoperative assessment, general and regional anaesthesia, airway management, resuscitation, trauma and shock, and intensive care.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Others"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Others"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Preoperative Assessment and General Anaesthesia",
+     "order": 1,
+     "summary": "ASA classification, fasting, airway assessment, anaesthetic agents and monitoring.",
+     "material": [
+      {
+       "heading": "Preoperative assessment",
+       "body": "Preoperative assessment identifies risks and optimises patients: history (previous anaesthetics and complications, family history of malignant hyperthermia or suxamethonium apnoea, comorbidities, drugs, allergies), examination, and investigations as indicated (e.g. FBC, electrolytes, sickle cell screening — genotype — is important in Nigeria, ECG in older patients). The ASA physical status classification: I (healthy), II (mild systemic disease), III (severe systemic disease), IV (severe disease that is a constant threat to life), V (moribund, not expected to survive without surgery), VI (brain-dead organ donor); 'E' denotes emergency. Fasting: 6 hours for solid food, 4 hours for breast milk, 2 hours for clear fluids. Airway assessment: Mallampati class (I–IV), mouth opening, thyromental distance, neck movement. Anticoagulants, antiplatelets and some antidiabetics may need adjustment.",
+       "keyPoints": [
+        "ASA I–VI; 'E' emergency",
+        "Fasting: 6 h solids, 2 h clear fluids",
+        "Mallampati I–IV",
+        "Sickle cell screening",
+        "Malignant hyperthermia history"
+       ]
+      },
+      {
+       "heading": "General anaesthesia",
+       "body": "General anaesthesia comprises hypnosis, analgesia and (when needed) muscle relaxation — the triad. Induction: IV agents — propofol (smooth, antiemetic, causes hypotension), thiopentone, ketamine (dissociative; maintains blood pressure and airway reflexes; bronchodilator; widely used in Nigeria and for field anaesthesia; emergence reactions), etomidate (cardiovascular stability). Inhalational agents: sevoflurane (pleasant — used for gas induction in children), isoflurane, halothane (still used in resource-limited settings; hepatitis, arrhythmias), nitrous oxide. MAC (minimum alveolar concentration) measures potency. Muscle relaxants: suxamethonium (depolarising — rapid onset for rapid sequence induction; causes hyperkalaemia, malignant hyperthermia trigger) and non-depolarising (rocuronium, atracurium, vecuronium — reversed by neostigmine with glycopyrrolate or by sugammadex for rocuronium). Standard monitoring: ECG, non-invasive BP, pulse oximetry, capnography (ETCO2 — confirms tracheal intubation), temperature and anaesthetic agent concentration. Malignant hyperthermia is treated with dantrolene.",
+       "keyPoints": [
+        "Triad: hypnosis, analgesia, relaxation",
+        "Ketamine: preserves BP and airway reflexes",
+        "Sevoflurane: gas induction",
+        "Suxamethonium: RSI; hyperkalaemia",
+        "Capnography confirms intubation",
+        "Dantrolene for MH"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A patient with well-controlled hypertension is classified as ASA:",
+       "options": [
+        "II",
+        "IV",
+        "V",
+        "I",
+        "III"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mild systemic disease without functional limitation."
+      },
+      {
+       "stem": "Before elective surgery, adults should fast from solid food for at least:",
+       "options": [
+        "2 hours",
+        "4 hours",
+        "6 hours",
+        "12 hours",
+        "24 hours"
+       ],
+       "answerIndex": 2,
+       "explanation": "Clear fluids are allowed up to 2 hours."
+      },
+      {
+       "stem": "The IV induction agent that maintains blood pressure and airway reflexes and is widely used in low-resource settings is:",
+       "options": [
+        "Midazolam",
+        "Propofol",
+        "Etomidate only",
+        "Thiopentone",
+        "Ketamine"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a dissociative anaesthetic."
+      },
+      {
+       "stem": "The inhalational agent preferred for gas induction in children is:",
+       "options": [
+        "Nitrous oxide alone",
+        "Sevoflurane",
+        "Desflurane",
+        "Halothane only",
+        "Isoflurane"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is non-irritant and pleasant-smelling."
+      },
+      {
+       "stem": "Suxamethonium is used in rapid sequence induction because of its:",
+       "options": [
+        "Long duration",
+        "Rapid onset",
+        "Low cost only",
+        "Hypotensive effect",
+        "Reversal by neostigmine"
+       ],
+       "answerIndex": 1,
+       "explanation": "It gives intubating conditions in under a minute."
+      },
+      {
+       "stem": "The most reliable immediate confirmation of correct tracheal tube placement is:",
+       "options": [
+        "Auscultation of the stomach",
+        "Capnography showing sustained end-tidal CO2",
+        "Pulse oximetry",
+        "Chest X-ray",
+        "Chest rise only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Oesophageal intubation produces no sustained CO2 trace."
+      },
+      {
+       "stem": "Malignant hyperthermia is treated with:",
+       "options": [
+        "Paracetamol",
+        "Neostigmine",
+        "Halothane",
+        "Dantrolene",
+        "Suxamethonium"
+       ],
+       "answerIndex": 3,
+       "explanation": "It blocks calcium release in muscle."
+      },
+      {
+       "stem": "Sugammadex rapidly reverses:",
+       "options": [
+        "Opioids",
+        "Rocuronium",
+        "Suxamethonium",
+        "Benzodiazepines",
+        "Propofol"
+       ],
+       "answerIndex": 1,
+       "explanation": "It encapsulates rocuronium molecules."
+      }
+     ]
+    },
+    {
+     "title": "Regional and Local Anaesthesia",
+     "order": 2,
+     "summary": "Local anaesthetic pharmacology, spinal and epidural anaesthesia, nerve blocks and toxicity.",
+     "material": [
+      {
+       "heading": "Local anaesthetics",
+       "body": "Local anaesthetics block voltage-gated sodium channels, stopping nerve conduction. Amides (lidocaine/lignocaine, bupivacaine, ropivacaine — metabolised in the liver) and esters (procaine, tetracaine — metabolised by plasma esterases, more allergenic). Maximum doses: lidocaine 3 mg/kg (7 mg/kg with adrenaline), bupivacaine 2 mg/kg. Adrenaline (vasoconstrictor) prolongs action and reduces toxicity but traditionally avoided in end-arteries (digits, penis) — modern evidence suggests dilute adrenaline in digits is safe. Local anaesthetic systemic toxicity (LAST): circumoral numbness, tinnitus, metallic taste, agitation, seizures, then cardiovascular collapse (bupivacaine is especially cardiotoxic). Treatment: stop injection, airway, treat seizures with benzodiazepines, CPR if needed, and intravenous lipid emulsion (20% Intralipid).",
+       "keyPoints": [
+        "Block Na channels",
+        "Amides: liver; esters: plasma esterases",
+        "Lidocaine 3 (7) mg/kg",
+        "Bupivacaine 2 mg/kg — cardiotoxic",
+        "LAST: lipid emulsion"
+       ]
+      },
+      {
+       "heading": "Neuraxial anaesthesia",
+       "body": "Spinal (subarachnoid) anaesthesia injects local anaesthetic (usually hyperbaric bupivacaine) into the CSF below L1/L2 (usually L3/4 or L4/5 — Tuffier's line joining the iliac crests is at L4) — rapid, dense block; the commonest anaesthetic for caesarean section in Nigeria. Epidural anaesthesia uses a catheter in the epidural space — slower, titratable, used for labour analgesia and postoperative pain. Complications: hypotension (sympathetic block — treat with fluids and vasopressors such as ephedrine or phenylephrine; left uterine displacement in pregnancy), high/total spinal, post-dural puncture headache (postural, worse on sitting; treat with fluids, analgesia, caffeine, epidural blood patch), urinary retention, and rarely epidural haematoma or abscess. Contraindications: patient refusal, coagulopathy or anticoagulation, infection at site, raised ICP, severe hypovolaemia. Peripheral nerve blocks (ultrasound-guided) — brachial plexus, femoral, TAP blocks — provide targeted analgesia.",
+       "keyPoints": [
+        "Spinal: CSF, below L1/L2",
+        "Tuffier's line = L4",
+        "Commonest for caesarean section",
+        "Hypotension: fluids + vasopressors",
+        "Post-dural puncture headache: blood patch",
+        "Contraindication: coagulopathy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Local anaesthetics act by blocking:",
+       "options": [
+        "Voltage-gated sodium channels",
+        "Opioid receptors",
+        "GABA receptors",
+        "Potassium channels",
+        "Calcium channels"
+       ],
+       "answerIndex": 0,
+       "explanation": "This prevents action potential propagation."
+      },
+      {
+       "stem": "The maximum dose of plain lidocaine is about:",
+       "options": [
+        "1 mg/kg",
+        "3 mg/kg",
+        "10 mg/kg",
+        "20 mg/kg",
+        "0.5 mg/kg"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 7 mg/kg with adrenaline."
+      },
+      {
+       "stem": "The local anaesthetic most associated with cardiotoxicity is:",
+       "options": [
+        "Bupivacaine",
+        "Prilocaine",
+        "Tetracaine",
+        "Lidocaine",
+        "Procaine"
+       ],
+       "answerIndex": 0,
+       "explanation": "It binds cardiac sodium channels strongly."
+      },
+      {
+       "stem": "The specific treatment for local anaesthetic systemic toxicity is:",
+       "options": [
+        "Naloxone",
+        "Atropine",
+        "Dantrolene",
+        "Flumazenil",
+        "Intravenous lipid emulsion"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lipid acts as a sink for the drug."
+      },
+      {
+       "stem": "Tuffier's line joining the iliac crests crosses the spine at about:",
+       "options": [
+        "T12",
+        "L4",
+        "L1",
+        "S2",
+        "L2"
+       ],
+       "answerIndex": 1,
+       "explanation": "It guides spinal needle placement."
+      },
+      {
+       "stem": "The commonest complication immediately after spinal anaesthesia is:",
+       "options": [
+        "Hyperthermia",
+        "Bradypnoea",
+        "Hypotension",
+        "Hypertension",
+        "Seizure"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sympathetic block causes vasodilatation."
+      },
+      {
+       "stem": "A headache worse on sitting up and relieved by lying flat after spinal anaesthesia is:",
+       "options": [
+        "Post-dural puncture headache",
+        "Tension headache",
+        "Meningitis",
+        "Migraine",
+        "Subarachnoid haemorrhage"
+       ],
+       "answerIndex": 0,
+       "explanation": "CSF leak lowers pressure."
+      },
+      {
+       "stem": "An absolute contraindication to spinal anaesthesia is:",
+       "options": [
+        "Coagulopathy or patient refusal",
+        "Age over 60",
+        "Asthma",
+        "Previous caesarean section",
+        "Obesity"
+       ],
+       "answerIndex": 0,
+       "explanation": "Risk of epidural haematoma and lack of consent."
+      }
+     ]
+    },
+    {
+     "title": "Airway Management and Resuscitation",
+     "order": 3,
+     "summary": "Airway manoeuvres, intubation, BLS and ALS algorithms and post-resuscitation care.",
+     "material": [
+      {
+       "heading": "Airway",
+       "body": "Basic airway manoeuvres: head tilt–chin lift, jaw thrust (in suspected cervical spine injury), suction, oropharyngeal (Guedel — sized from the incisors to the angle of the jaw) and nasopharyngeal airways (avoid in basal skull fracture), and bag–valve–mask ventilation. Supraglottic airway devices (laryngeal mask airway, i-gel) are rescue and routine devices. Tracheal intubation with direct or video laryngoscopy secures the airway; Cormack–Lehane grades describe the laryngoscopic view. Difficult airway guidelines (e.g. DAS) emphasise oxygenation: if 'can't intubate, can't oxygenate' (CICO), perform front-of-neck access (scalpel cricothyroidotomy). Rapid sequence induction with cricoid pressure (debated) is used for patients at risk of aspiration (full stomach, pregnancy, bowel obstruction).",
+       "keyPoints": [
+        "Jaw thrust if C-spine injury",
+        "Guedel sizing",
+        "Avoid NPA in basal skull fracture",
+        "Supraglottic airways",
+        "CICO: front-of-neck access",
+        "RSI for full stomach"
+       ]
+      },
+      {
+       "heading": "Resuscitation",
+       "body": "Adult basic life support: check safety, response and breathing (no normal breathing — call for help and an AED), start CPR at 30:2 with chest compressions at 100–120 per minute and depth 5–6 cm, allowing full recoil and minimising interruptions. Advanced life support: shockable rhythms (ventricular fibrillation, pulseless ventricular tachycardia) — defibrillate, resume CPR immediately for 2 minutes; adrenaline 1 mg IV every 3–5 minutes after the third shock; amiodarone 300 mg after the third shock. Non-shockable rhythms (asystole, pulseless electrical activity) — adrenaline 1 mg as soon as possible, CPR. Treat reversible causes — the 4 Hs (hypoxia, hypovolaemia, hypo/hyperkalaemia and metabolic, hypothermia) and 4 Ts (thrombosis — coronary or pulmonary, tension pneumothorax, tamponade, toxins). Post-resuscitation care: oxygenation (SpO2 94–98%), blood pressure, glucose, temperature control and treating the cause. Paediatric BLS starts with 5 rescue breaths, then 15:2.",
+       "keyPoints": [
+        "CPR 30:2, 100–120/min, 5–6 cm",
+        "Shockable: VF/pVT",
+        "Adrenaline 1 mg every 3–5 min",
+        "Amiodarone 300 mg after 3rd shock",
+        "4 Hs and 4 Ts",
+        "Paediatric: 5 breaths then 15:2"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In a patient with suspected cervical spine injury, the airway should be opened using:",
+       "options": [
+        "Recovery position",
+        "Neck flexion",
+        "Jaw thrust",
+        "Head tilt–chin lift",
+        "Neck extension"
+       ],
+       "answerIndex": 2,
+       "explanation": "It minimises neck movement."
+      },
+      {
+       "stem": "A nasopharyngeal airway should be avoided in suspected:",
+       "options": [
+        "Basal skull fracture",
+        "Seizure",
+        "Obesity",
+        "Asthma",
+        "Hypoglycaemia"
+       ],
+       "answerIndex": 0,
+       "explanation": "It could enter the cranial cavity."
+      },
+      {
+       "stem": "In a 'can't intubate, can't oxygenate' situation, the definitive rescue is:",
+       "options": [
+        "Front-of-neck access (cricothyroidotomy)",
+        "Give more muscle relaxant",
+        "Wait for the patient to wake",
+        "Insert a nasogastric tube",
+        "Keep attempting intubation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oxygenation must be restored urgently."
+      },
+      {
+       "stem": "The compression-to-ventilation ratio in adult CPR is:",
+       "options": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "3:1",
+        "50:2"
+       ],
+       "answerIndex": 1,
+       "explanation": "Two breaths after every 30 compressions."
+      },
+      {
+       "stem": "The recommended rate of chest compressions is:",
+       "options": [
+        "150–180 per minute",
+        "40 per minute",
+        "100–120 per minute",
+        "200 per minute",
+        "60–80 per minute"
+       ],
+       "answerIndex": 2,
+       "explanation": "And a depth of 5–6 cm."
+      },
+      {
+       "stem": "Which rhythm is shockable?",
+       "options": [
+        "Asystole",
+        "Ventricular fibrillation",
+        "Complete heart block",
+        "Sinus bradycardia with pulse",
+        "Pulseless electrical activity"
+       ],
+       "answerIndex": 1,
+       "explanation": "VF and pulseless VT are shockable."
+      },
+      {
+       "stem": "In adult ALS, amiodarone 300 mg IV is given:",
+       "options": [
+        "After the third shock",
+        "Only after ROSC",
+        "Before the first shock",
+        "Every minute",
+        "In asystole"
+       ],
+       "answerIndex": 0,
+       "explanation": "For refractory VF/pVT."
+      },
+      {
+       "stem": "Tension pneumothorax and cardiac tamponade are among the reversible causes called the:",
+       "options": [
+        "4 Ts",
+        "SAMPLE",
+        "Beck's triad",
+        "4 Hs",
+        "ABCs"
+       ],
+       "answerIndex": 0,
+       "explanation": "Thrombosis, tension, tamponade, toxins."
+      }
+     ]
+    },
+    {
+     "title": "Trauma and Shock",
+     "order": 4,
+     "summary": "Primary survey (ATLS), haemorrhage control, types of shock and fluid resuscitation.",
+     "material": [
+      {
+       "heading": "Primary survey",
+       "body": "Trauma is a major cause of death among young Nigerians (road traffic crashes — especially motorcycles and tricycles, falls, gunshots and violence). The ATLS primary survey follows <C>ABCDE: catastrophic haemorrhage control (direct pressure, tourniquet), Airway with cervical spine protection, Breathing (look for tension pneumothorax — treat with needle decompression then chest drain; open pneumothorax — three-sided dressing; massive haemothorax; flail chest), Circulation with haemorrhage control (two large-bore cannulas, bloods including cross-match; identify bleeding in chest, abdomen, pelvis, long bones and externally — 'blood on the floor and four more'; pelvic binder), Disability (GCS, pupils, glucose), and Exposure/Environment (prevent hypothermia). Adjuncts: FAST ultrasound, chest and pelvic X-rays. The secondary survey is a head-to-toe examination with an AMPLE history (Allergies, Medications, Past history, Last meal, Events).",
+       "keyPoints": [
+        "<C>ABCDE",
+        "Tension pneumothorax: needle decompression",
+        "Blood on the floor and four more",
+        "Pelvic binder",
+        "AMPLE history"
+       ]
+      },
+      {
+       "heading": "Shock",
+       "body": "Shock is inadequate tissue perfusion. Types: hypovolaemic (haemorrhage, dehydration — the most common in trauma), cardiogenic (pump failure), obstructive (tension pneumothorax, tamponade, massive PE), and distributive (septic, anaphylactic, neurogenic — spinal cord injury causes hypotension with bradycardia). Haemorrhagic shock classes (ATLS): class I (< 15% blood loss — minimal changes), class II (15–30% — tachycardia, narrowed pulse pressure), class III (30–40% — hypotension, confusion), class IV (> 40% — life-threatening). Management: control bleeding, permissive hypotension (target systolic about 80–90 mmHg until bleeding controlled, except head injury), balanced resuscitation with blood products (massive transfusion protocols 1:1:1), limited crystalloid, tranexamic acid within 3 hours of injury, and early surgery ('damage control'). Septic shock: early antibiotics, fluids and vasopressors (noradrenaline). Anaphylaxis: IM adrenaline 0.5 mg.",
+       "keyPoints": [
+        "Hypovolaemic, cardiogenic, obstructive, distributive",
+        "Neurogenic: hypotension + bradycardia",
+        "Class III: hypotension (30–40%)",
+        "Permissive hypotension",
+        "TXA within 3 hours",
+        "Septic: noradrenaline"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In the trauma primary survey, catastrophic external haemorrhage is addressed:",
+       "options": [
+        "After the secondary survey",
+        "Only in theatre",
+        "Last",
+        "After imaging",
+        "First, before airway"
+       ],
+       "answerIndex": 4,
+       "explanation": "<C>ABCDE prioritises massive bleeding."
+      },
+      {
+       "stem": "A trauma patient with tracheal deviation, absent breath sounds and hypotension needs immediate:",
+       "options": [
+        "Observation",
+        "CT scan",
+        "Needle decompression for tension pneumothorax",
+        "Chest X-ray first",
+        "Intubation only"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is a clinical diagnosis requiring immediate treatment."
+      },
+      {
+       "stem": "Sites of major hidden blood loss include the chest, abdomen, pelvis and:",
+       "options": [
+        "Long bones (femur)",
+        "Scalp only",
+        "Ears",
+        "Hands",
+        "Mouth"
+       ],
+       "answerIndex": 0,
+       "explanation": "'Blood on the floor and four more.'"
+      },
+      {
+       "stem": "Hypotension with bradycardia after spinal cord injury suggests:",
+       "options": [
+        "Cardiogenic shock",
+        "Anaphylaxis",
+        "Neurogenic shock",
+        "Septic shock",
+        "Hypovolaemic shock"
+       ],
+       "answerIndex": 2,
+       "explanation": "Loss of sympathetic tone."
+      },
+      {
+       "stem": "In haemorrhagic shock, hypotension usually first appears at a blood loss of about:",
+       "options": [
+        "5%",
+        "< 15%",
+        "15–30%",
+        "30–40%",
+        "Never"
+       ],
+       "answerIndex": 3,
+       "explanation": "Class III shock."
+      },
+      {
+       "stem": "Tranexamic acid in trauma should be given within:",
+       "options": [
+        "3 hours of injury",
+        "24 hours",
+        "1 week",
+        "Any time",
+        "Only after surgery"
+       ],
+       "answerIndex": 0,
+       "explanation": "Later administration may cause harm."
+      },
+      {
+       "stem": "The first-line vasopressor in septic shock is:",
+       "options": [
+        "Adrenaline",
+        "Vasopressin alone",
+        "Dopamine",
+        "Dobutamine",
+        "Noradrenaline"
+       ],
+       "answerIndex": 4,
+       "explanation": "Given after adequate fluid resuscitation."
+      },
+      {
+       "stem": "The AMPLE history includes allergies, medications, past history, last meal and:",
+       "options": [
+        "Events leading to the injury",
+        "Anaemia",
+        "Alcohol only",
+        "Age",
+        "Address"
+       ],
+       "answerIndex": 0,
+       "explanation": "Events describe the mechanism."
+      }
+     ]
+    },
+    {
+     "title": "Intensive Care and Perioperative Medicine",
+     "order": 5,
+     "summary": "ICU admission, ventilation basics, sepsis management, fluids, pain and postoperative complications.",
+     "material": [
+      {
+       "heading": "Critical care",
+       "body": "Intensive care supports failing organs: mechanical ventilation (invasive or non-invasive — CPAP, BiPAP), vasopressors and inotropes, renal replacement therapy, and sedation. Nigeria has few ICU beds, concentrated in tertiary hospitals; triage and early recognition of deterioration (early warning scores such as NEWS2) improve outcomes on wards. Sepsis is life-threatening organ dysfunction caused by a dysregulated response to infection (Sepsis-3); qSOFA (respiratory rate ≥ 22, altered mentation, systolic BP ≤ 100) flags risk. The sepsis bundle: measure lactate, take blood cultures before antibiotics, give broad-spectrum antibiotics within 1 hour, give 30 mL/kg crystalloid for hypotension or lactate ≥ 4, and vasopressors to maintain MAP ≥ 65 mmHg. ARDS (acute respiratory distress syndrome) is managed with lung-protective ventilation (tidal volume 6 mL/kg ideal body weight, plateau pressure < 30 cmH2O) and prone positioning.",
+       "keyPoints": [
+        "NEWS2 early warning",
+        "Sepsis-3 definition; qSOFA",
+        "Antibiotics within 1 hour",
+        "30 mL/kg crystalloid",
+        "MAP ≥ 65",
+        "ARDS: 6 mL/kg, prone"
+       ]
+      },
+      {
+       "heading": "Perioperative care",
+       "body": "Maintenance fluid requirements: about 25–30 mL/kg/day water with sodium, potassium and glucose (Holliday–Segar 4-2-1 rule in children: 4 mL/kg/h for the first 10 kg, 2 for the next 10, 1 thereafter). Postoperative complications: primary haemorrhage, pain, nausea and vomiting (PONV — risk factors: female, non-smoker, history of PONV, opioids), atelectasis (day 1–2 fever), pneumonia, urinary retention, wound infection (day 5–7), anastomotic leak, DVT/PE (prophylaxis with early mobilisation, compression and low-molecular-weight heparin), and paralytic ileus. Enhanced recovery after surgery (ERAS) protocols (limited fasting, carbohydrate loading, multimodal analgesia, early feeding and mobilisation) shorten hospital stays. Multimodal analgesia combines paracetamol, NSAIDs, regional techniques and opioids as needed.",
+       "keyPoints": [
+        "Maintenance 25–30 mL/kg/day",
+        "4-2-1 rule",
+        "Atelectasis: early fever",
+        "Wound infection day 5–7",
+        "VTE prophylaxis",
+        "ERAS"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A qSOFA criterion is:",
+       "options": [
+        "Temperature > 38 °C",
+        "Respiratory rate ≥ 22 per minute",
+        "Heart rate > 90",
+        "Oxygen saturation 96%",
+        "White cell count > 12"
+       ],
+       "answerIndex": 1,
+       "explanation": "Plus altered mentation and systolic BP ≤ 100."
+      },
+      {
+       "stem": "In suspected sepsis, antibiotics should be given within:",
+       "options": [
+        "6 hours",
+        "After culture results",
+        "1 hour",
+        "12 hours",
+        "24 hours"
+       ],
+       "answerIndex": 2,
+       "explanation": "Delay increases mortality."
+      },
+      {
+       "stem": "The target mean arterial pressure in septic shock is at least:",
+       "options": [
+        "45 mmHg",
+        "65 mmHg",
+        "90 mmHg",
+        "110 mmHg",
+        "130 mmHg"
+       ],
+       "answerIndex": 1,
+       "explanation": "Vasopressors are titrated to this target."
+      },
+      {
+       "stem": "Lung-protective ventilation in ARDS uses tidal volumes of about:",
+       "options": [
+        "20 mL/kg",
+        "15 mL/kg",
+        "2 mL/kg",
+        "12 mL/kg",
+        "6 mL/kg ideal body weight"
+       ],
+       "answerIndex": 4,
+       "explanation": "Low volumes reduce ventilator-induced lung injury."
+      },
+      {
+       "stem": "Using the 4-2-1 rule, the maintenance fluid rate for a 20 kg child is:",
+       "options": [
+        "40 mL/h",
+        "60 mL/h",
+        "80 mL/h",
+        "100 mL/h",
+        "20 mL/h"
+       ],
+       "answerIndex": 1,
+       "explanation": "4×10 + 2×10 = 60 mL/h."
+      },
+      {
+       "stem": "Fever on the first postoperative day is most commonly due to:",
+       "options": [
+        "DVT",
+        "Anastomotic leak",
+        "Urinary tract infection always",
+        "Wound infection",
+        "Atelectasis or the inflammatory response"
+       ],
+       "answerIndex": 4,
+       "explanation": "Wound infection usually appears on days 5–7."
+      },
+      {
+       "stem": "A risk factor for postoperative nausea and vomiting is:",
+       "options": [
+        "Smoking",
+        "Regional anaesthesia",
+        "Male sex",
+        "Female sex and non-smoking status",
+        "Old age only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Apfel score factors include these."
+      },
+      {
+       "stem": "Enhanced recovery after surgery (ERAS) protocols include:",
+       "options": [
+        "Early feeding and mobilisation with multimodal analgesia",
+        "Opioid-only analgesia",
+        "Prolonged fasting",
+        "Routine nasogastric tubes for all",
+        "Bed rest for a week"
+       ],
+       "answerIndex": 0,
+       "explanation": "They shorten hospital stays."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

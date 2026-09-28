@@ -53,6 +53,14 @@ export class NewsArticle {
   @Prop()
   createdByName?: string;
 
+  /** 'ai' = found and summarised by the news fetcher from a trusted source. */
+  @Prop({ type: String, enum: ['manual', 'ai'], default: 'manual', index: true })
+  origin: 'manual' | 'ai';
+
+  /** News source the fetcher found it on. */
+  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'NewsSource' })
+  sourceId?: mongoose.Types.ObjectId;
+
   /** Placeholder stories from the seed script; the app labels them "Sample". */
   @Prop({ default: false })
   isSample: boolean;
@@ -60,3 +68,4 @@ export class NewsArticle {
 
 export type NewsArticleDocument = HydratedDocument<NewsArticle> & { createdAt?: Date; updatedAt?: Date };
 export const NewsArticleSchema = SchemaFactory.createForClass(NewsArticle);
+NewsArticleSchema.index({ sourceUrl: 1 });

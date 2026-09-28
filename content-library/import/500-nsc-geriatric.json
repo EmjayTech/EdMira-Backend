@@ -1,0 +1,665 @@
+{
+ "courses": [
+  {
+   "title": "Gerontological and Palliative Care Nursing",
+   "code": "NSC505",
+   "color": "#E11D48",
+   "description": "Ageing and care of older adults, common geriatric syndromes, chronic disease and home-based care, palliative care, pain and symptom management, and end-of-life care in Nigeria.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Ageing and Care of Older Adults",
+     "order": 1,
+     "summary": "Demography, physiological changes of ageing, comprehensive assessment and care settings.",
+     "material": [
+      {
+       "heading": "Ageing",
+       "body": "Older persons (commonly ≥ 60 years in Africa) are a growing population in Nigeria; traditionally cared for by extended families, but urbanisation, migration and economic pressures are weakening family support, and formal geriatric services are limited (few geriatric centres, e.g. Chief Tony Anenih Geriatric Centre, UCH Ibadan). The National Senior Citizens Centre Act (2017) created a centre to address older people's needs. Physiological changes: reduced cardiac reserve, stiffer arteries (systolic hypertension), reduced lung elasticity, decreased renal function (lower GFR — affects drug clearance), reduced muscle mass (sarcopenia) and bone density, slower gastrointestinal motility, sensory decline (presbyopia, cataract, presbycusis), thinner skin, altered thermoregulation, reduced immunity, and changes in sleep. Normal ageing must be distinguished from disease (e.g. dementia and depression are not normal ageing). Ageism — negative stereotypes — affects care.",
+       "keyPoints": [
+        "≥ 60 years in Africa",
+        "Weakening family support",
+        "National Senior Citizens Centre Act 2017",
+        "Reduced GFR affects drugs",
+        "Sarcopenia",
+        "Dementia is not normal ageing"
+       ]
+      },
+      {
+       "heading": "Comprehensive geriatric assessment",
+       "body": "Comprehensive geriatric assessment (CGA) is a multidimensional, interdisciplinary evaluation of medical, functional (activities of daily living — Katz ADL: bathing, dressing, toileting, transferring, continence, feeding; instrumental ADLs — Lawton: shopping, cooking, managing money and medicines), cognitive (MMSE, Mini-Cog), psychological (Geriatric Depression Scale), nutritional (Mini Nutritional Assessment), social and environmental domains, leading to a coordinated care plan. It improves outcomes and helps older people remain at home. Principles of gerontological nursing: promote independence and dignity, person-centred care, involve family and carers, prevent complications (falls, pressure ulcers, malnutrition, dehydration), review medications, and advocate against elder abuse (physical, psychological, financial, neglect).",
+       "keyPoints": [
+        "CGA: multidimensional",
+        "Katz ADL; Lawton IADL",
+        "MMSE, Mini-Cog",
+        "Geriatric Depression Scale",
+        "Mini Nutritional Assessment",
+        "Elder abuse"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In Africa, older persons are commonly defined as those aged:",
+       "options": [
+        "80 and above",
+        "50 and above",
+        "40 and above",
+        "60 and above",
+        "70 and above"
+       ],
+       "answerIndex": 3,
+       "explanation": "The UN uses 60+ for many regions."
+      },
+      {
+       "stem": "An age-related change affecting drug clearance in older adults is:",
+       "options": [
+        "Increased total body water",
+        "Increased muscle mass",
+        "Faster liver metabolism",
+        "Increased GFR",
+        "Reduced renal function (GFR)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Doses of renally excreted drugs may need reduction."
+      },
+      {
+       "stem": "Age-related loss of muscle mass and strength is called:",
+       "options": [
+        "Sarcopenia",
+        "Osteoporosis",
+        "Atrophy of bone",
+        "Cachexia always",
+        "Dystrophy"
+       ],
+       "answerIndex": 0,
+       "explanation": "It increases falls and frailty."
+      },
+      {
+       "stem": "Which statement is correct?",
+       "options": [
+        "Depression is not a normal part of ageing and should be treated",
+        "All older people are frail",
+        "Dementia is a normal part of ageing",
+        "Incontinence is inevitable",
+        "Older people cannot learn"
+       ],
+       "answerIndex": 0,
+       "explanation": "Treatable conditions should not be dismissed."
+      },
+      {
+       "stem": "The Katz index assesses:",
+       "options": [
+        "Basic activities of daily living",
+        "Nutrition",
+        "Pain",
+        "Cognition",
+        "Depression"
+       ],
+       "answerIndex": 0,
+       "explanation": "Bathing, dressing, toileting, transferring, continence, feeding."
+      },
+      {
+       "stem": "Managing money and medicines are examples of:",
+       "options": [
+        "Basic ADLs",
+        "Cognitive tests",
+        "Mobility tests",
+        "Sensory functions",
+        "Instrumental activities of daily living"
+       ],
+       "answerIndex": 4,
+       "explanation": "Assessed by the Lawton scale."
+      },
+      {
+       "stem": "Comprehensive geriatric assessment is best described as:",
+       "options": [
+        "A mental health test only",
+        "A social survey",
+        "A multidimensional interdisciplinary evaluation",
+        "A fall risk tool only",
+        "A single blood test"
+       ],
+       "answerIndex": 2,
+       "explanation": "It covers medical, functional, psychological and social domains."
+      },
+      {
+       "stem": "Taking an older person's pension without permission is an example of:",
+       "options": [
+        "Financial abuse",
+        "Neglect",
+        "Psychological abuse",
+        "Physical abuse",
+        "Self-neglect"
+       ],
+       "answerIndex": 0,
+       "explanation": "Elder abuse takes many forms."
+      }
+     ]
+    },
+    {
+     "title": "Geriatric Syndromes",
+     "order": 2,
+     "summary": "Falls, frailty, delirium, dementia care, incontinence, polypharmacy and pressure ulcers.",
+     "material": [
+      {
+       "heading": "Falls, frailty and delirium",
+       "body": "Geriatric syndromes are common, multifactorial conditions. Falls: risk factors — muscle weakness, gait and balance problems, poor vision, postural hypotension, cognitive impairment, incontinence, medications (sedatives, antihypertensives), footwear and environmental hazards (poor lighting, slippery floors, uneven surfaces, pit latrines); consequences — fractures (hip), fear of falling, loss of independence. Prevention: multifactorial risk assessment, strength and balance exercise, medication review, vision correction, home modifications (lighting, grab rails, clearing clutter), appropriate footwear and hip protectors. Frailty: a state of reduced physiological reserve (weight loss, exhaustion, weakness, slow walking, low activity — Fried phenotype) increasing vulnerability to stressors. Delirium: acute confusion with fluctuating attention — often the only sign of infection, dehydration, urinary retention, constipation or drug toxicity in older people; hypoactive delirium is easily missed; manage the cause, reorient, involve family, avoid restraints.",
+       "keyPoints": [
+        "Falls: multifactorial",
+        "Postural hypotension, sedatives",
+        "Strength and balance exercise",
+        "Frailty: Fried phenotype",
+        "Delirium may be the only sign of illness",
+        "Hypoactive delirium missed"
+       ]
+      },
+      {
+       "heading": "Dementia, continence and polypharmacy",
+       "body": "Dementia care: person-centred approaches, maintain routine, clear simple communication, safe environment (wandering), manage behavioural and psychological symptoms (identify triggers — pain, hunger, infection — before medicating; antipsychotics increase stroke and mortality risk), support carers (burden and stress), advance care planning while capacity remains; stigma and beliefs about witchcraft can lead to abuse of people with dementia in some communities. Urinary incontinence (stress, urge, overflow, functional): assess causes (UTI, constipation, drugs — diuretics, prostate enlargement), bladder training, pelvic floor exercises, scheduled toileting, skin care; catheters as a last resort (infection risk). Polypharmacy (≥ 5 medicines) increases adverse drug reactions, interactions, falls and non-adherence — regular medication review and deprescribing (Beers criteria, STOPP/START). Pressure ulcers: risk assessment (Braden/Waterlow), repositioning, support surfaces, nutrition and continence care; staging (1 — non-blanching erythema, which may appear darker/purplish in dark skin — to 4 — full thickness with bone, muscle or tendon exposed).",
+       "keyPoints": [
+        "Dementia: person-centred, routine",
+        "Look for triggers before antipsychotics",
+        "Support carers",
+        "Incontinence types; catheter last resort",
+        "Polypharmacy ≥ 5 drugs; deprescribe",
+        "Pressure ulcer stages; dark skin signs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A drug class that increases the risk of falls in older adults is:",
+       "options": [
+        "Antibiotics always",
+        "Topical creams",
+        "Antacids",
+        "Sedatives and hypnotics",
+        "Vitamins"
+       ],
+       "answerIndex": 3,
+       "explanation": "They impair balance and alertness."
+      },
+      {
+       "stem": "The intervention with strong evidence for preventing falls is:",
+       "options": [
+        "Strength and balance exercise",
+        "Restraints",
+        "Avoiding walking",
+        "Bed rest",
+        "Sedation"
+       ],
+       "answerIndex": 0,
+       "explanation": "It improves stability and confidence."
+      },
+      {
+       "stem": "Sudden confusion in an older person may be the only sign of:",
+       "options": [
+        "Infection such as UTI or pneumonia",
+        "Presbycusis",
+        "Improved memory",
+        "Normal ageing",
+        "Good health"
+       ],
+       "answerIndex": 0,
+       "explanation": "Delirium needs a search for the cause."
+      },
+      {
+       "stem": "Before giving medication for agitation in dementia, the nurse should first:",
+       "options": [
+        "Call the police",
+        "Give antipsychotics immediately",
+        "Identify and address triggers such as pain, hunger or infection",
+        "Leave the patient alone",
+        "Apply restraints"
+       ],
+       "answerIndex": 2,
+       "explanation": "Non-drug approaches come first."
+      },
+      {
+       "stem": "Antipsychotics in older people with dementia increase the risk of:",
+       "options": [
+        "Weight loss only",
+        "Nothing",
+        "Stroke and death",
+        "Improved cognition",
+        "Better sleep only"
+       ],
+       "answerIndex": 2,
+       "explanation": "They should be used cautiously."
+      },
+      {
+       "stem": "Polypharmacy is commonly defined as regular use of at least:",
+       "options": [
+        "2 medicines",
+        "5 medicines",
+        "10 medicines",
+        "20 medicines",
+        "1 medicine"
+       ],
+       "answerIndex": 1,
+       "explanation": "It increases adverse events."
+      },
+      {
+       "stem": "A stage 1 pressure ulcer in dark skin may appear as:",
+       "options": [
+        "Bright red blanching skin",
+        "Exposed bone",
+        "Open wound",
+        "Persistent darker, purplish or bluish discolouration and warmth",
+        "Blister only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Erythema is harder to see in dark skin."
+      },
+      {
+       "stem": "Indwelling urinary catheters for incontinence should be:",
+       "options": [
+        "First-line",
+        "Never used",
+        "Changed daily",
+        "A last resort because of infection risk",
+        "Used in all older adults"
+       ],
+       "answerIndex": 3,
+       "explanation": "Other strategies should be tried first."
+      }
+     ]
+    },
+    {
+     "title": "Chronic Disease and Home-Based Care",
+     "order": 3,
+     "summary": "Managing chronic conditions in older adults, home-based and community care, and carer support.",
+     "material": [
+      {
+       "heading": "Chronic conditions",
+       "body": "Older Nigerians commonly live with multiple chronic conditions (multimorbidity): hypertension, diabetes, osteoarthritis, stroke sequelae, heart failure, chronic kidney disease, cataract and glaucoma, prostate disease, cancers, dementia and depression. Nursing roles: self-management education (medications, diet, exercise, recognising deterioration), monitoring (BP, glucose, weight), adherence support (pill boxes, simplified regimens, involving family), nutrition (risk of malnutrition and dehydration — reduced thirst sensation), exercise and mobility, vaccination (influenza, pneumococcal where available), sensory aids (spectacles, hearing aids), foot care in diabetes, and coordination with other services. Financial barriers are major since most care is paid out-of-pocket; the NHIA and state schemes are beginning to cover older adults, and some states (e.g. Ekiti, Osun, Lagos) have social welfare or health programmes for older people.",
+       "keyPoints": [
+        "Multimorbidity",
+        "Self-management education",
+        "Reduced thirst: dehydration risk",
+        "Sensory aids",
+        "Out-of-pocket barriers",
+        "State programmes for elderly"
+       ]
+      },
+      {
+       "heading": "Home-based care and carers",
+       "body": "Home-based care (HBC) provides care in the patient's home by nurses, community health workers and families — valuable for chronically ill, bedridden and dying patients, and widely used in HIV/AIDS programmes and palliative care. Components: assessment of home environment and needs, nursing procedures (wound care, catheter care, medication administration), teaching carers (positioning, lifting, feeding, hygiene, infection prevention), provision of supplies, referral, psychosocial and spiritual support, and bereavement support. Family carers often experience burden (physical, emotional, financial, social) and need information, training, respite and support groups. Community resources include faith-based organisations, NGOs, and community health extension workers. Nurses should assess carer strain and involve families in care planning while respecting the patient's autonomy and cultural values.",
+       "keyPoints": [
+        "HBC: nurses + CHWs + family",
+        "Teach carers",
+        "Carer burden",
+        "Respite and support groups",
+        "Faith-based organisations and NGOs",
+        "Respect autonomy and culture"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The presence of two or more chronic conditions in one person is called:",
+       "options": [
+        "Frailty",
+        "Polypharmacy",
+        "Comorbidity only in children",
+        "Disability",
+        "Multimorbidity"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is common in older adults."
+      },
+      {
+       "stem": "Older adults are at increased risk of dehydration partly because of:",
+       "options": [
+        "Increased thirst",
+        "Increased kidney concentrating ability",
+        "Reduced thirst sensation",
+        "Low salt intake",
+        "High water intake"
+       ],
+       "answerIndex": 2,
+       "explanation": "Encourage regular fluids."
+      },
+      {
+       "stem": "A practical adherence aid for older adults on multiple medicines is:",
+       "options": [
+        "A pill organiser (dosette box) and family involvement",
+        "Doubling doses",
+        "Hiding medicines",
+        "Changing drugs weekly",
+        "Stopping all drugs"
+       ],
+       "answerIndex": 0,
+       "explanation": "It simplifies daily dosing."
+      },
+      {
+       "stem": "Home-based care is particularly useful for:",
+       "options": [
+        "Chronically ill, bedridden and dying patients",
+        "Intensive care",
+        "Only acute emergencies",
+        "Surgical operations",
+        "Laboratory testing"
+       ],
+       "answerIndex": 0,
+       "explanation": "Care is provided where patients live."
+      },
+      {
+       "stem": "A key nursing role in home-based care is:",
+       "options": [
+        "Teaching family carers practical skills",
+        "Replacing all hospital care",
+        "Selling medicines",
+        "Performing surgery",
+        "Imaging"
+       ],
+       "answerIndex": 0,
+       "explanation": "Carers provide most daily care."
+      },
+      {
+       "stem": "Physical, emotional and financial strain experienced by family carers is called:",
+       "options": [
+        "Burnout of patients",
+        "Respite",
+        "Frailty",
+        "Delirium",
+        "Carer burden"
+       ],
+       "answerIndex": 4,
+       "explanation": "Support reduces burden."
+      },
+      {
+       "stem": "Temporary relief for family carers through short-term care of the patient is:",
+       "options": [
+        "Respite care",
+        "Discharge",
+        "Hospice admission only",
+        "Rehabilitation",
+        "Abandonment"
+       ],
+       "answerIndex": 0,
+       "explanation": "It helps prevent carer breakdown."
+      },
+      {
+       "stem": "A major barrier to health care for older Nigerians is:",
+       "options": [
+        "Too many geriatricians",
+        "No chronic disease",
+        "Excess health insurance",
+        "Out-of-pocket costs and limited geriatric services",
+        "Free universal care"
+       ],
+       "answerIndex": 3,
+       "explanation": "Financial protection is limited."
+      }
+     ]
+    },
+    {
+     "title": "Palliative Care Principles and Pain Management",
+     "order": 4,
+     "summary": "Definition, models of palliative care, pain assessment, WHO analgesic ladder and opioids.",
+     "material": [
+      {
+       "heading": "Palliative care",
+       "body": "WHO defines palliative care as an approach that improves the quality of life of patients (adults and children) and their families facing problems associated with life-threatening illness, through prevention and relief of suffering by early identification, impeccable assessment and treatment of pain and other problems — physical, psychosocial and spiritual ('total pain', Cicely Saunders). It affirms life, regards dying as a normal process, neither hastens nor postpones death, and offers a support system for families including bereavement. It is applicable early in illness alongside curative treatment. Common conditions: cancer (breast, cervical, prostate, liver), HIV/AIDS, end-stage organ failure, stroke, dementia and sickle cell disease. Nigeria has limited palliative services (hospital-based teams in teaching hospitals, few hospices — e.g. Hospice and Palliative Care Association of Nigeria), with most patients dying at home; integrating palliative care into primary care and nursing roles is a priority. The interdisciplinary team includes nurses, doctors, social workers, chaplains/imams, pharmacists and volunteers.",
+       "keyPoints": [
+        "WHO definition",
+        "Total pain: physical, psychological, social, spiritual",
+        "Neither hastens nor postpones death",
+        "Early alongside treatment",
+        "Limited services in Nigeria",
+        "Interdisciplinary team"
+       ]
+      },
+      {
+       "heading": "Pain management",
+       "body": "Pain is whatever the patient says it is. Assess using PQRST (provoking factors, quality, region/radiation, severity — numeric rating or faces scales, timing), plus effect on function and mood; reassess regularly. The WHO analgesic approach: 'by mouth, by the clock, by the ladder, for the individual, with attention to detail' — non-opioids (paracetamol, NSAIDs) ± adjuvants, weak opioids (codeine, tramadol) or low-dose strong opioids, then strong opioids (oral morphine — the gold standard). Regular (around-the-clock) dosing with breakthrough doses (about one-sixth of the total daily dose). Always prescribe a laxative with opioids; manage nausea; monitor for sedation and respiratory depression (rare with careful titration). Adjuvants: amitriptyline or gabapentin (neuropathic pain), steroids (bone pain, raised ICP, nerve compression), NSAIDs (bone pain), and radiotherapy. Barriers in Nigeria: limited availability of oral morphine (NAFDAC and hospitals now produce oral morphine solution), fears of addiction among patients and health workers (opiophobia), and restrictive regulations. Non-drug measures: positioning, massage, heat/cold, relaxation, music and spiritual support.",
+       "keyPoints": [
+        "Pain is what the patient says",
+        "PQRST assessment",
+        "WHO ladder principles",
+        "Oral morphine gold standard",
+        "Breakthrough = 1/6 daily dose",
+        "Laxative with opioids",
+        "Opiophobia"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Palliative care aims primarily to:",
+       "options": [
+        "Hasten death",
+        "Postpone death at all costs",
+        "Cure all diseases",
+        "Improve quality of life by relieving suffering",
+        "Replace all treatment"
+       ],
+       "answerIndex": 3,
+       "explanation": "It neither hastens nor postpones death."
+      },
+      {
+       "stem": "The concept of 'total pain' was introduced by:",
+       "options": [
+        "Hildegard Peplau",
+        "Dorothea Orem",
+        "Florence Nightingale",
+        "Virginia Henderson",
+        "Cicely Saunders"
+       ],
+       "answerIndex": 4,
+       "explanation": "She founded the modern hospice movement."
+      },
+      {
+       "stem": "Palliative care should begin:",
+       "options": [
+        "Only in the last week of life",
+        "After all treatment fails",
+        "Only for cancer",
+        "Only in hospices",
+        "Early in the course of serious illness alongside other treatments"
+       ],
+       "answerIndex": 4,
+       "explanation": "Early integration improves outcomes."
+      },
+      {
+       "stem": "The gold-standard strong opioid for cancer pain is:",
+       "options": [
+        "Oral morphine",
+        "Aspirin",
+        "Codeine",
+        "Pethidine",
+        "Tramadol"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is affordable and effective."
+      },
+      {
+       "stem": "Opioids for chronic pain should be given:",
+       "options": [
+        "Regularly by the clock with breakthrough doses",
+        "By injection only",
+        "Only when pain is severe (as needed)",
+        "Once weekly",
+        "Only at night"
+       ],
+       "answerIndex": 0,
+       "explanation": "This prevents pain recurrence."
+      },
+      {
+       "stem": "A patient on regular morphine should also routinely receive:",
+       "options": [
+        "A laxative",
+        "An antibiotic",
+        "An antihistamine",
+        "Insulin",
+        "A diuretic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Opioid-induced constipation is almost universal."
+      },
+      {
+       "stem": "Neuropathic pain in palliative care may respond to adjuvants such as:",
+       "options": [
+        "Vitamin C",
+        "Antibiotics",
+        "Amitriptyline or gabapentin",
+        "Antacids",
+        "Diuretics"
+       ],
+       "answerIndex": 2,
+       "explanation": "Opioids alone are often insufficient."
+      },
+      {
+       "stem": "A major barrier to adequate pain relief in Nigeria is:",
+       "options": [
+        "Limited morphine availability and fear of addiction (opiophobia)",
+        "Excess palliative nurses",
+        "Low cancer rates",
+        "Too many hospices",
+        "Excess morphine supply"
+       ],
+       "answerIndex": 0,
+       "explanation": "Education and policy change are needed."
+      }
+     ]
+    },
+    {
+     "title": "Symptom Control and End-of-Life Care",
+     "order": 5,
+     "summary": "Managing breathlessness, nausea and other symptoms, care in the last days, and bereavement.",
+     "material": [
+      {
+       "heading": "Symptom control",
+       "body": "Common symptoms and nursing management: breathlessness (sit upright, fan to the face, calm environment, oxygen if hypoxic, low-dose oral morphine, treat causes — effusion, anaemia, infection), nausea and vomiting (identify cause — drugs, constipation, bowel obstruction, raised ICP, hypercalcaemia; antiemetics — metoclopramide, haloperidol, cyclizine, ondansetron; small frequent meals), constipation (prevention with laxatives, fluids, mobility), anorexia and cachexia (small appetising meals, relieve mouth problems, avoid force-feeding), mouth care (thrush — antifungals; dry mouth — frequent sips, lip balm), fatigue, fungating wounds (odour control with metronidazole, charcoal dressings; bleeding control), lymphoedema, anxiety and depression, and spiritual distress. Nurses coordinate care, involve patients in decisions and respect their preferred place of care and death.",
+       "keyPoints": [
+        "Breathlessness: fan, upright, morphine",
+        "Nausea: treat cause, antiemetics",
+        "Prevent constipation",
+        "Don't force-feed",
+        "Fungating wounds: metronidazole for odour",
+        "Preferred place of death"
+       ]
+      },
+      {
+       "heading": "End of life and bereavement",
+       "body": "Recognising dying: increasing weakness and sleepiness, reduced intake, difficulty swallowing, changes in breathing (Cheyne–Stokes, noisy 'death rattle' secretions), cool mottled peripheries and reduced urine output. Care in the last days: review and stop non-essential medicines and observations, ensure anticipatory medicines are available (for pain, breathlessness, agitation, nausea and secretions — e.g. morphine, midazolam, haloperidol, hyoscine butylbromide), mouth care, positioning, pressure area care, continence care, and emotional and spiritual support for the patient and family; honour religious and cultural rites (e.g. prayers, presence of religious leaders, Muslim burial within 24 hours, Christian last rites). Communicate honestly and compassionately (the SPIKES protocol for breaking bad news: Setting, Perception, Invitation, Knowledge, Emotions/Empathy, Strategy/Summary). After death: last offices with dignity according to cultural and religious practice, certification, and support for the family. Grief (Kübler-Ross stages — denial, anger, bargaining, depression, acceptance — not strictly linear) and bereavement support; complicated grief may need referral. Nurses also need support to prevent burnout and compassion fatigue.",
+       "keyPoints": [
+        "Signs of dying",
+        "Anticipatory medicines",
+        "Death rattle: hyoscine butylbromide",
+        "Respect religious rites",
+        "SPIKES for bad news",
+        "Kübler-Ross stages",
+        "Staff support"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A simple non-drug measure that relieves breathlessness is:",
+       "options": [
+        "Talking continuously",
+        "Tight clothing",
+        "Closing all windows",
+        "Lying flat",
+        "A fan directed at the face and sitting upright"
+       ],
+       "answerIndex": 4,
+       "explanation": "Airflow on the face reduces the sensation of breathlessness."
+      },
+      {
+       "stem": "Low-dose oral morphine in palliative care can relieve:",
+       "options": [
+        "Itching",
+        "Constipation",
+        "Breathlessness",
+        "Diarrhoea",
+        "Hypoglycaemia"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces the sensation of breathlessness."
+      },
+      {
+       "stem": "Malodorous fungating wounds can be managed with:",
+       "options": [
+        "Steroid cream",
+        "Hot water only",
+        "Topical metronidazole and charcoal dressings",
+        "Tight bandaging",
+        "Antifungals"
+       ],
+       "answerIndex": 2,
+       "explanation": "Metronidazole targets anaerobes causing odour."
+      },
+      {
+       "stem": "Noisy breathing due to secretions in a dying patient ('death rattle') may be treated with:",
+       "options": [
+        "Furosemide",
+        "Hyoscine butylbromide and repositioning",
+        "Antibiotics",
+        "Oxygen only",
+        "Morphine alone"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reduces secretions."
+      },
+      {
+       "stem": "The SPIKES protocol is used for:",
+       "options": [
+        "Wound care",
+        "Medication calculation",
+        "Pain assessment",
+        "Breaking bad news",
+        "Infection control"
+       ],
+       "answerIndex": 3,
+       "explanation": "Setting, Perception, Invitation, Knowledge, Emotions, Strategy."
+      },
+      {
+       "stem": "The Kübler-Ross stages of grief include denial, anger, bargaining, depression and:",
+       "options": [
+        "Acceptance",
+        "Revenge",
+        "Relief",
+        "Recovery",
+        "Forgetting"
+       ],
+       "answerIndex": 0,
+       "explanation": "Stages are not strictly linear."
+      },
+      {
+       "stem": "Anticipatory medicines at the end of life are prescribed to manage:",
+       "options": [
+        "Pain, breathlessness, agitation, nausea and secretions",
+        "Only pain",
+        "Hypertension",
+        "Infections only",
+        "Diabetes"
+       ],
+       "answerIndex": 0,
+       "explanation": "They ensure symptoms can be treated promptly."
+      },
+      {
+       "stem": "After a patient's death, nurses should perform last offices:",
+       "options": [
+        "With dignity, respecting cultural and religious practices",
+        "Without informing family",
+        "Quickly without regard to customs",
+        "Only in hospital mortuaries",
+        "Only if relatives pay"
+       ],
+       "answerIndex": 0,
+       "explanation": "E.g. Muslim burial customs within 24 hours."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

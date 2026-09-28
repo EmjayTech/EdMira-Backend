@@ -8,6 +8,7 @@ import { AdminContentService } from './admin-content.service';
 import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
 import { AiDraftService } from './ai-draft.service';
+import { AiNewsService } from './ai-news.service';
 import { AdminController } from './admin.controller';
 import { AuditEntry, AuditEntrySchema } from './audit/audit.schema';
 import { AuditService } from './audit/audit.service';
@@ -22,6 +23,6 @@ import { StaffGuard } from './staff.guard';
     MongooseModule.forFeature([{ name: AuditEntry.name, schema: AuditEntrySchema }]),
   ],
   controllers: [AdminController],
-  providers: [AdminContentService, AiDraftService, AdminNewsService, AdminPeopleService, AuditService, StaffGuard],
+  providers: [AdminContentService, AiDraftService, AiNewsService, AdminNewsService, AdminPeopleService, AuditService, StaffGuard],
 })
 export class AdminModule {}

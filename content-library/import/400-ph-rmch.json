@@ -1,0 +1,663 @@
+{
+ "courses": [
+  {
+   "title": "Reproductive, Maternal, Newborn and Child Health",
+   "code": "PUH405",
+   "color": "#B45309",
+   "description": "Maternal mortality and safe motherhood, family planning, newborn and child survival, adolescent health and nutrition programmes in Nigeria.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Public Health"
+    },
+    {
+     "level": "400 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Maternal Health and Safe Motherhood",
+     "order": 1,
+     "summary": "Maternal mortality measures and causes, the three delays, and effective interventions.",
+     "material": [
+      {
+       "heading": "Maternal mortality",
+       "body": "Maternal death is the death of a woman while pregnant or within 42 days of the end of pregnancy from causes related to or aggravated by pregnancy, excluding accidental causes. The maternal mortality ratio (MMR) is maternal deaths per 100,000 live births; Nigeria's MMR is among the world's highest (around 1,000 per 100,000), and Nigeria accounts for over a quarter of global maternal deaths. Direct causes: haemorrhage (especially postpartum — the leading cause), hypertensive disorders (pre-eclampsia/eclampsia), sepsis, unsafe abortion and obstructed labour; indirect causes include anaemia, malaria and HIV. SDG target 3.1 aims for global MMR < 70 per 100,000 by 2030.",
+       "keyPoints": [
+        "Maternal death: within 42 days",
+        "MMR per 100,000 live births",
+        "Nigeria MMR ~1,000",
+        "PPH leading cause",
+        "SDG 3.1: < 70"
+       ]
+      },
+      {
+       "heading": "Three delays and interventions",
+       "body": "The three delays model (Thaddeus and Maine): delay in deciding to seek care (poor recognition of danger signs, cost, women's autonomy, cultural factors), delay in reaching a facility (transport, distance, roads, insecurity) and delay in receiving adequate care at the facility (staff, supplies, blood, referral). Effective interventions: family planning, focused/positive antenatal care (WHO recommends at least 8 contacts), skilled birth attendance, emergency obstetric care (basic EmONC — parenteral antibiotics, uterotonics, anticonvulsants (MgSO4), manual removal of placenta, removal of retained products, assisted vaginal delivery, newborn resuscitation; comprehensive EmONC adds caesarean section and blood transfusion), active management of the third stage of labour (oxytocin), misoprostol for community PPH prevention, and postnatal care. Maternal death surveillance and response (MPDSR) reviews deaths to prevent recurrence.",
+       "keyPoints": [
+        "Three delays",
+        "WHO: 8 ANC contacts",
+        "Basic vs comprehensive EmONC",
+        "AMTSL with oxytocin",
+        "MPDSR"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A maternal death includes deaths during pregnancy or within how many days after it ends?",
+       "options": [
+        "7",
+        "28",
+        "42",
+        "90",
+        "365"
+       ],
+       "answerIndex": 2,
+       "explanation": "Accidental causes are excluded."
+      },
+      {
+       "stem": "The maternal mortality ratio is expressed per:",
+       "options": [
+        "10,000 pregnancies",
+        "1,000 live births",
+        "100,000 population",
+        "1,000 women",
+        "100,000 live births"
+       ],
+       "answerIndex": 4,
+       "explanation": "It measures obstetric risk."
+      },
+      {
+       "stem": "The leading direct cause of maternal death in Nigeria is:",
+       "options": [
+        "Malaria",
+        "Postpartum haemorrhage",
+        "HIV",
+        "Anaemia",
+        "Road accidents"
+       ],
+       "answerIndex": 1,
+       "explanation": "Haemorrhage is the commonest direct cause."
+      },
+      {
+       "stem": "In the three delays model, lack of transport to hospital is the:",
+       "options": [
+        "First delay",
+        "Fourth delay",
+        "Not a delay",
+        "Second delay",
+        "Third delay"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is the delay in reaching care."
+      },
+      {
+       "stem": "WHO recommends a minimum of how many antenatal care contacts?",
+       "options": [
+        "2",
+        "4",
+        "8",
+        "12",
+        "1"
+       ],
+       "answerIndex": 2,
+       "explanation": "The 2016 model increased contacts to eight."
+      },
+      {
+       "stem": "Comprehensive emergency obstetric care adds which functions to basic EmONC?",
+       "options": [
+        "Newborn resuscitation",
+        "Magnesium sulfate",
+        "Manual removal of placenta",
+        "Antibiotics and oxytocics",
+        "Caesarean section and blood transfusion"
+       ],
+       "answerIndex": 4,
+       "explanation": "These require surgical capacity."
+      },
+      {
+       "stem": "The drug of choice to prevent and treat eclamptic seizures is:",
+       "options": [
+        "Paracetamol",
+        "Oxytocin",
+        "Magnesium sulfate",
+        "Phenytoin",
+        "Diazepam"
+       ],
+       "answerIndex": 2,
+       "explanation": "MgSO4 is superior to other anticonvulsants."
+      },
+      {
+       "stem": "SDG target 3.1 aims to reduce the global MMR to below:",
+       "options": [
+        "10",
+        "70",
+        "500",
+        "1,000",
+        "140"
+       ],
+       "answerIndex": 1,
+       "explanation": "Per 100,000 live births by 2030."
+      }
+     ]
+    },
+    {
+     "title": "Family Planning",
+     "order": 2,
+     "summary": "Benefits, methods and effectiveness, unmet need, and programme approaches.",
+     "material": [
+      {
+       "heading": "Benefits and methods",
+       "body": "Family planning allows individuals and couples to anticipate and attain their desired number and spacing of children. Benefits: reduced maternal and child deaths (preventing high-risk and closely spaced pregnancies and unsafe abortions), women's empowerment, and demographic benefits. Methods: long-acting reversible contraceptives (LARCs — implants such as Jadelle and Implanon, lasting 3–5 years; copper IUD lasting up to 10–12 years; hormonal IUD), short-acting (injectables — DMPA every 3 months, combined oral pills, progestogen-only pills, condoms), permanent (tubal ligation, vasectomy), emergency contraception (levonorgestrel within 72–120 hours, copper IUD within 5 days), lactational amenorrhoea method (exclusive breastfeeding, amenorrhoea, infant < 6 months) and fertility awareness methods. LARCs are the most effective reversible methods (failure < 1%). Condoms are the only method also preventing STIs.",
+       "keyPoints": [
+        "LARCs most effective",
+        "Implants 3–5 years; copper IUD 10–12 years",
+        "DMPA every 3 months",
+        "Emergency contraception",
+        "LAM criteria",
+        "Condoms: dual protection"
+       ]
+      },
+      {
+       "heading": "Programme issues",
+       "body": "Nigeria's modern contraceptive prevalence rate (mCPR) among married women is low (about 12–15%), with a total fertility rate around 5 and wide regional variation (lowest use in the North-West). Unmet need for family planning is the proportion of women who want to stop or delay childbearing but are not using contraception. Barriers include cultural and religious beliefs, spousal disapproval, myths about side effects and infertility, cost, stock-outs and poor access. Strategies: community-based distribution, task-sharing (CHEWs providing injectables and implants), postpartum family planning, male involvement, engagement of religious leaders, adolescent-friendly services, and integration with immunisation and HIV services. Informed choice and voluntarism are core principles.",
+       "keyPoints": [
+        "mCPR ~12–15%",
+        "TFR ~5",
+        "Unmet need",
+        "Task-sharing with CHEWs",
+        "Postpartum family planning",
+        "Informed choice"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most effective reversible contraceptive methods are:",
+       "options": [
+        "Spermicides",
+        "Withdrawal",
+        "Fertility awareness",
+        "Condoms",
+        "Long-acting reversible contraceptives (implants and IUDs)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Their failure rate is below 1%."
+      },
+      {
+       "stem": "DMPA injectable contraceptive is given every:",
+       "options": [
+        "Month",
+        "Week",
+        "5 years",
+        "3 months",
+        "Year"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is a progestogen injection."
+      },
+      {
+       "stem": "The only contraceptive method that also protects against STIs is the:",
+       "options": [
+        "IUD",
+        "Injectable",
+        "Condom",
+        "Pill",
+        "Implant"
+       ],
+       "answerIndex": 2,
+       "explanation": "It provides dual protection."
+      },
+      {
+       "stem": "The lactational amenorrhoea method is effective only if the infant is under:",
+       "options": [
+        "1 month",
+        "6 months",
+        "1 year",
+        "2 years",
+        "3 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "Plus exclusive breastfeeding and amenorrhoea."
+      },
+      {
+       "stem": "A copper IUD can be used as emergency contraception within:",
+       "options": [
+        "12 hours",
+        "24 hours",
+        "5 days",
+        "2 weeks",
+        "1 month"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is the most effective emergency method."
+      },
+      {
+       "stem": "Women who want to delay or stop childbearing but are not using contraception have:",
+       "options": [
+        "Infertility",
+        "Contraceptive failure",
+        "Secondary amenorrhoea",
+        "Unmet need for family planning",
+        "High mCPR"
+       ],
+       "answerIndex": 3,
+       "explanation": "Unmet need is a key programme indicator."
+      },
+      {
+       "stem": "Nigeria's total fertility rate is approximately:",
+       "options": [
+        "1.5",
+        "2.1",
+        "5",
+        "9",
+        "12"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is among the highest globally."
+      },
+      {
+       "stem": "A core ethical principle of family planning services is:",
+       "options": [
+        "Coercion to meet targets",
+        "Incentives for sterilisation",
+        "Only married women served",
+        "Informed and voluntary choice",
+        "Spousal consent required always"
+       ],
+       "answerIndex": 3,
+       "explanation": "Clients choose freely with full information."
+      }
+     ]
+    },
+    {
+     "title": "Newborn Health",
+     "order": 3,
+     "summary": "Neonatal mortality, essential newborn care, and major causes of newborn deaths.",
+     "material": [
+      {
+       "heading": "Neonatal mortality",
+       "body": "The neonatal period is the first 28 days of life; the neonatal mortality rate (NMR) is deaths per 1,000 live births — Nigeria's is about 35–40, among the highest in the world, and newborns account for nearly half of under-five deaths. Main causes: prematurity complications, birth asphyxia (intrapartum-related events), and neonatal infections (sepsis, pneumonia, tetanus), plus neonatal jaundice. The perinatal mortality rate counts stillbirths (≥ 28 weeks) and early neonatal deaths (first 7 days) per 1,000 total births. The Every Newborn Action Plan (ENAP) targets NMR ≤ 12 by 2030 (SDG 3.2).",
+       "keyPoints": [
+        "Neonatal: first 28 days",
+        "Nigeria NMR ~35–40",
+        "Causes: prematurity, asphyxia, infection",
+        "Perinatal: stillbirths + early neonatal",
+        "SDG 3.2: NMR ≤ 12"
+       ]
+      },
+      {
+       "heading": "Essential newborn care",
+       "body": "Essential newborn care includes immediate drying and warming (skin-to-skin contact), clean cord care (chlorhexidine 7.1% gel to the cord stump — adopted in Nigeria to reduce infection), delayed cord clamping (1–3 minutes), early initiation of breastfeeding within 1 hour and exclusive breastfeeding for 6 months, eye prophylaxis (tetracycline ointment), vitamin K, birth-dose vaccines, and birth registration. Helping Babies Breathe trains birth attendants in resuscitation within the 'Golden Minute'. Kangaroo mother care (continuous skin-to-skin contact and breastfeeding) reduces deaths among low-birth-weight babies. Postnatal home visits in the first week detect danger signs (not feeding, convulsions, fast breathing, chest indrawing, fever or low temperature, jaundice on day 1 or on palms and soles).",
+       "keyPoints": [
+        "Dry, warm, skin-to-skin",
+        "Chlorhexidine cord care",
+        "Breastfeed within 1 hour",
+        "Golden Minute resuscitation",
+        "Kangaroo mother care for LBW"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The neonatal period covers the first:",
+       "options": [
+        "7 days",
+        "28 days",
+        "6 months",
+        "1 year",
+        "5 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "Neonatal mortality is counted in this period."
+      },
+      {
+       "stem": "The leading causes of neonatal death are prematurity, birth asphyxia and:",
+       "options": [
+        "Malaria",
+        "Malnutrition",
+        "Neonatal infections",
+        "Measles",
+        "Accidents"
+       ],
+       "answerIndex": 2,
+       "explanation": "Sepsis, pneumonia and tetanus are major killers."
+      },
+      {
+       "stem": "Chlorhexidine gel is applied to the umbilical cord to:",
+       "options": [
+        "Speed separation",
+        "Stop bleeding",
+        "Prevent cord infection",
+        "Treat jaundice",
+        "Improve breastfeeding"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces omphalitis and neonatal deaths."
+      },
+      {
+       "stem": "Breastfeeding should be initiated within:",
+       "options": [
+        "24 hours",
+        "After naming ceremony",
+        "1 week",
+        "1 hour of birth",
+        "3 days"
+       ],
+       "answerIndex": 3,
+       "explanation": "Early initiation reduces neonatal deaths."
+      },
+      {
+       "stem": "The 'Golden Minute' refers to:",
+       "options": [
+        "Time for the first bath",
+        "The first minute after birth for initiating resuscitation if the baby is not breathing",
+        "The time to cut the cord",
+        "Time to weigh the baby",
+        "Duration of breastfeeding"
+       ],
+       "answerIndex": 1,
+       "explanation": "Helping Babies Breathe teaches this."
+      },
+      {
+       "stem": "Kangaroo mother care is especially beneficial for:",
+       "options": [
+        "Babies over 4 kg",
+        "Twins only",
+        "Low-birth-weight and preterm babies",
+        "Babies with fever",
+        "Older children"
+       ],
+       "answerIndex": 2,
+       "explanation": "Continuous skin-to-skin contact keeps them warm."
+      },
+      {
+       "stem": "Perinatal mortality includes stillbirths and deaths in the first:",
+       "options": [
+        "28 days",
+        "7 days",
+        "1 year",
+        "24 hours",
+        "6 weeks"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reflects quality of obstetric and newborn care."
+      },
+      {
+       "stem": "A newborn danger sign requiring urgent referral is:",
+       "options": [
+        "Hiccups",
+        "Sleeping between feeds",
+        "Sneezing",
+        "Passing meconium on day 1",
+        "Convulsions or inability to feed"
+       ],
+       "answerIndex": 4,
+       "explanation": "These indicate serious illness."
+      }
+     ]
+    },
+    {
+     "title": "Child Survival and Nutrition",
+     "order": 4,
+     "summary": "Under-five mortality, IMCI, growth monitoring, malnutrition and micronutrient programmes.",
+     "material": [
+      {
+       "heading": "Child survival",
+       "body": "The under-five mortality rate (U5MR, deaths before age 5 per 1,000 live births) in Nigeria is about 100–110, among the highest globally. Major causes after the neonatal period: malaria, pneumonia, diarrhoea, measles and malnutrition (an underlying factor in about 45% of deaths). GOBI-FFF (UNICEF's child survival revolution): Growth monitoring, Oral rehydration, Breastfeeding, Immunisation, Female education, Family spacing and Food supplementation. Integrated Management of Childhood Illness (IMCI) — and its community version iCCM — classifies sick children by danger signs and colour-coded treatment (pink — urgent referral; yellow — specific treatment; green — home care). Diarrhoea is treated with low-osmolarity ORS and zinc for 10–14 days; pneumonia with amoxicillin dispersible tablets.",
+       "keyPoints": [
+        "U5MR ~100–110",
+        "Malnutrition underlies ~45% of deaths",
+        "GOBI-FFF",
+        "IMCI: pink, yellow, green",
+        "Diarrhoea: ORS + zinc"
+       ]
+      },
+      {
+       "heading": "Nutrition",
+       "body": "Forms of malnutrition: stunting (low height-for-age — chronic; about a third of Nigerian under-fives, among the highest numbers globally), wasting (low weight-for-height — acute), underweight (low weight-for-age), micronutrient deficiencies (vitamin A, iron, iodine, zinc) and overweight. Severe acute malnutrition (SAM): weight-for-height < −3 SD, MUAC < 11.5 cm, or bilateral pitting oedema (kwashiorkor); managed through community management of acute malnutrition (CMAM) with ready-to-use therapeutic food (RUTF) as outpatients, or inpatient stabilisation (F-75, F-100) if complicated. Interventions: exclusive breastfeeding for 6 months, appropriate complementary feeding from 6 months, vitamin A supplementation (6–59 months, every 6 months), iron-folic acid, universal salt iodisation, deworming, growth monitoring and food fortification. The first 1,000 days (conception to age 2) are the critical window.",
+       "keyPoints": [
+        "Stunting: chronic; wasting: acute",
+        "SAM: MUAC < 11.5 cm or oedema",
+        "CMAM with RUTF",
+        "Vitamin A every 6 months",
+        "First 1,000 days"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Malnutrition is an underlying factor in about what proportion of under-five deaths?",
+       "options": [
+        "5%",
+        "15%",
+        "45%",
+        "80%",
+        "95%"
+       ],
+       "answerIndex": 2,
+       "explanation": "It increases the fatality of infections."
+      },
+      {
+       "stem": "In IMCI, a child classified in the pink row needs:",
+       "options": [
+        "Home care",
+        "Urgent referral",
+        "Follow-up in 1 month",
+        "No treatment",
+        "Specific outpatient treatment"
+       ],
+       "answerIndex": 1,
+       "explanation": "Pink indicates severe classification."
+      },
+      {
+       "stem": "Acute diarrhoea in children should be treated with low-osmolarity ORS and:",
+       "options": [
+        "Antidiarrhoeal drugs",
+        "Stopping feeding",
+        "Zinc for 10–14 days",
+        "Vitamin C",
+        "Antibiotics for all"
+       ],
+       "answerIndex": 2,
+       "explanation": "Zinc reduces duration and severity."
+      },
+      {
+       "stem": "Low height-for-age indicates:",
+       "options": [
+        "Obesity",
+        "Oedema",
+        "Stunting",
+        "Wasting",
+        "Acute malnutrition"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reflects chronic undernutrition."
+      },
+      {
+       "stem": "A MUAC below 11.5 cm in a child aged 6–59 months indicates:",
+       "options": [
+        "Moderate acute malnutrition",
+        "Severe acute malnutrition",
+        "Stunting",
+        "Overweight",
+        "Normal nutrition"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is a SAM criterion."
+      },
+      {
+       "stem": "Uncomplicated severe acute malnutrition is treated at home with:",
+       "options": [
+        "Ready-to-use therapeutic food (RUTF)",
+        "Adult food only",
+        "Antibiotics alone",
+        "IV fluids",
+        "F-75 milk"
+       ],
+       "answerIndex": 0,
+       "explanation": "CMAM uses outpatient RUTF."
+      },
+      {
+       "stem": "Vitamin A supplementation for children aged 6–59 months is given every:",
+       "options": [
+        "Month",
+        "5 years",
+        "6 months",
+        "Week",
+        "2 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces child mortality."
+      },
+      {
+       "stem": "The 'first 1,000 days' refers to the period from:",
+       "options": [
+        "Pregnancy only",
+        "Birth to age 3",
+        "Conception to the child's second birthday",
+        "Age 2 to 5",
+        "School entry"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is the critical window for nutrition."
+      }
+     ]
+    },
+    {
+     "title": "Adolescent and Sexual Health",
+     "order": 5,
+     "summary": "Adolescent health needs, harmful practices, STIs, and gender-based violence.",
+     "material": [
+      {
+       "heading": "Adolescents",
+       "body": "Adolescents (10–19 years) form about a quarter of Nigeria's population. Health issues: early marriage and adolescent pregnancy (high in the North-West — girls < 18 face higher risks of obstructed labour, obstetric fistula, eclampsia and death), unsafe abortion, HIV and STIs, mental health problems, substance use (e.g. tramadol, codeine syrup), malnutrition and anaemia, and injuries. Youth-friendly health services are accessible, acceptable, confidential, non-judgemental and appropriately staffed. Comprehensive sexuality education (Family Life and HIV Education in Nigeria) and keeping girls in school delay marriage and pregnancy. The Child Rights Act 2003 sets 18 as the minimum age of marriage, though not domesticated in all states.",
+       "keyPoints": [
+        "Adolescents 10–19 years",
+        "Early marriage → fistula, maternal death",
+        "Youth-friendly services",
+        "FLHE",
+        "Child Rights Act 2003"
+       ]
+      },
+      {
+       "heading": "Harmful practices and GBV",
+       "body": "Female genital mutilation/cutting (FGM/C) involves partial or total removal of external genitalia for non-medical reasons (types I–IV); Nigeria has a large absolute number of women affected; it causes haemorrhage, infection, obstructed labour, fistula and psychological harm, and was banned federally by the Violence Against Persons (Prohibition) Act 2015. Gender-based violence (physical, sexual, emotional and economic) is widespread; survivors need clinical management of rape (within 72 hours: emergency contraception, HIV post-exposure prophylaxis, STI prophylaxis, hepatitis B vaccination, psychosocial support, forensic documentation) and referral to Sexual Assault Referral Centres. STI syndromic management treats syndromes (urethral discharge, vaginal discharge, genital ulcer) without lab confirmation, plus partner notification.",
+       "keyPoints": [
+        "FGM types I–IV",
+        "VAPP Act 2015",
+        "Post-rape care within 72 hours: PEP, EC",
+        "SARCs",
+        "STI syndromic management"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Adolescence, as defined by WHO, covers ages:",
+       "options": [
+        "5–12",
+        "10–19",
+        "13–25",
+        "15–30",
+        "18–24"
+       ],
+       "answerIndex": 1,
+       "explanation": "Youth is 15–24."
+      },
+      {
+       "stem": "A major complication of early marriage and adolescent pregnancy is:",
+       "options": [
+        "Post-term pregnancy",
+        "Macrosomia",
+        "Polyhydramnios",
+        "Obstructed labour and obstetric fistula",
+        "Twin pregnancy"
+       ],
+       "answerIndex": 3,
+       "explanation": "Immature pelvis increases risk."
+      },
+      {
+       "stem": "Youth-friendly health services should be:",
+       "options": [
+        "Confidential, accessible and non-judgemental",
+        "Judgemental",
+        "Expensive",
+        "Restricted to married youth",
+        "Available only with parents"
+       ],
+       "answerIndex": 0,
+       "explanation": "These features encourage uptake."
+      },
+      {
+       "stem": "The federal law that prohibits FGM in Nigeria is the:",
+       "options": [
+        "Child Rights Act 2003",
+        "NHIA Act 2022",
+        "National Health Act 2014",
+        "Violence Against Persons (Prohibition) Act 2015",
+        "Public Health Law"
+       ],
+       "answerIndex": 3,
+       "explanation": "It criminalises FGM and other violence."
+      },
+      {
+       "stem": "HIV post-exposure prophylaxis after rape should ideally start within:",
+       "options": [
+        "72 hours",
+        "1 week",
+        "1 month",
+        "6 months",
+        "1 year"
+       ],
+       "answerIndex": 0,
+       "explanation": "Earlier initiation is more effective."
+      },
+      {
+       "stem": "Syndromic management of STIs means:",
+       "options": [
+        "Referring all cases",
+        "Treating only partners",
+        "Treating based on syndromes without lab tests",
+        "Only counselling",
+        "Waiting for lab confirmation"
+       ],
+       "answerIndex": 2,
+       "explanation": "It allows same-visit treatment."
+      },
+      {
+       "stem": "Minimum legal age of marriage under Nigeria's Child Rights Act is:",
+       "options": [
+        "12",
+        "15",
+        "16",
+        "18",
+        "21"
+       ],
+       "answerIndex": 3,
+       "explanation": "Not all states have domesticated it."
+      },
+      {
+       "stem": "Substances increasingly misused by Nigerian youths include:",
+       "options": [
+        "Iron tablets",
+        "Paracetamol only",
+        "ORS",
+        "Vitamin C",
+        "Tramadol and codeine cough syrup"
+       ],
+       "answerIndex": 4,
+       "explanation": "Codeine syrup was banned in 2018."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

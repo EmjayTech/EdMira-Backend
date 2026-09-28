@@ -1,0 +1,671 @@
+{
+ "courses": [
+  {
+   "title": "Surgical Specialties: Urology, Orthopaedics, Neurosurgery and Paediatric Surgery",
+   "code": "SUR601",
+   "color": "#EA580C",
+   "description": "Urological conditions, fractures and orthopaedic infections, neurosurgical emergencies, and common paediatric surgical problems.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Physiotherapy"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Urology",
+     "order": 1,
+     "summary": "BPH and urinary retention, urolithiasis, urethral stricture, and urological cancers.",
+     "material": [
+      {
+       "heading": "Benign conditions",
+       "body": "Benign prostatic hyperplasia (BPH) causes lower urinary tract symptoms in older men — voiding (hesitancy, poor stream, dribbling) and storage (frequency, urgency, nocturia); assess with IPSS, DRE (smooth enlarged prostate), urinalysis, renal function, PSA (after counselling) and ultrasound (post-void residual, hydronephrosis). Treatment: alpha-blockers (tamsulosin), 5-alpha-reductase inhibitors (finasteride — shrink the gland), and surgery (TURP or open prostatectomy — still common in Nigeria) for complications. Acute urinary retention: painful, palpable bladder — urethral catheterisation (suprapubic if urethral fails or stricture). Urethral stricture (post-gonococcal urethritis, trauma, instrumentation): poor stream, retention; urethrotomy or urethroplasty. Urolithiasis: renal colic (loin-to-groin pain, haematuria); non-contrast CT KUB; analgesia (NSAIDs); stones < 5 mm usually pass; larger ones need ESWL, ureteroscopy or PCNL; obstructed infected kidney is an emergency requiring drainage (nephrostomy or stent). Testicular torsion: sudden severe testicular pain in adolescents — surgical exploration within 6 hours.",
+       "keyPoints": [
+        "BPH: tamsulosin, finasteride, TURP",
+        "Retention: catheterise",
+        "Stricture: post-gonococcal",
+        "Renal colic: CT KUB, NSAIDs",
+        "Obstructed infected kidney: drain",
+        "Torsion: explore within 6 h"
+       ]
+      },
+      {
+       "heading": "Urological cancers",
+       "body": "Prostate cancer is the most common cancer in Nigerian men, often diagnosed at an advanced stage with bone metastases (back pain, pathological fractures, spinal cord compression); men of African descent have higher incidence and mortality. Diagnosis: DRE (hard, irregular prostate), PSA and transrectal or transperineal biopsy (Gleason score/ISUP grade group), bone scan for staging. Treatment: localised — radical prostatectomy, radiotherapy or active surveillance; advanced — androgen deprivation therapy (bilateral orchidectomy — affordable and widely used in Nigeria; LHRH agonists), plus newer agents. Bladder cancer: painless haematuria; squamous cell carcinoma linked to chronic Schistosoma haematobium infection is common in northern Nigeria (transitional cell carcinoma elsewhere, linked to smoking). Renal cell carcinoma (haematuria, loin pain, mass) and Wilms tumour (nephroblastoma — abdominal mass in young children) are other urological malignancies. Painless haematuria in adults warrants investigation for cancer.",
+       "keyPoints": [
+        "Prostate cancer: commonest in Nigerian men",
+        "PSA, DRE, biopsy (Gleason)",
+        "Bilateral orchidectomy affordable",
+        "Bladder SCC with schistosomiasis",
+        "Painless haematuria → investigate",
+        "Wilms tumour in children"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "First-line medication for symptomatic BPH to relax prostatic smooth muscle is:",
+       "options": [
+        "Furosemide",
+        "Oxybutynin",
+        "Finasteride",
+        "Tamsulosin (alpha-blocker)",
+        "Testosterone"
+       ],
+       "answerIndex": 3,
+       "explanation": "It improves flow quickly."
+      },
+      {
+       "stem": "Finasteride works in BPH by:",
+       "options": [
+        "Blocking calcium channels",
+        "Killing bacteria",
+        "Increasing testosterone",
+        "Inhibiting 5-alpha-reductase to shrink the prostate",
+        "Relaxing smooth muscle"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces dihydrotestosterone."
+      },
+      {
+       "stem": "A common cause of urethral stricture in Nigerian men is:",
+       "options": [
+        "Prostate cancer",
+        "Hypertension",
+        "Kidney stones",
+        "Diabetes",
+        "Previous gonococcal urethritis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Inflammation leads to scarring."
+      },
+      {
+       "stem": "The best imaging for suspected renal colic is:",
+       "options": [
+        "MRI",
+        "IVU always",
+        "Plain X-ray only",
+        "Non-contrast CT KUB",
+        "Ultrasound of the heart"
+       ],
+       "answerIndex": 3,
+       "explanation": "It detects nearly all stones."
+      },
+      {
+       "stem": "An obstructed kidney with fever and infection requires:",
+       "options": [
+        "Oral antibiotics only",
+        "ESWL",
+        "Observation",
+        "Fluid restriction",
+        "Urgent decompression (nephrostomy or stent)"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a urological emergency."
+      },
+      {
+       "stem": "Sudden severe testicular pain in a 14-year-old boy requires:",
+       "options": [
+        "Antibiotics and review in a week",
+        "Analgesics only",
+        "Scrotal support only",
+        "Ultrasound after a month",
+        "Urgent surgical exploration for torsion"
+       ],
+       "answerIndex": 4,
+       "explanation": "Testicular viability falls after 6 hours."
+      },
+      {
+       "stem": "The most common cancer among Nigerian men is:",
+       "options": [
+        "Liver cancer",
+        "Lung cancer",
+        "Prostate cancer",
+        "Colorectal cancer",
+        "Bladder cancer"
+       ],
+       "answerIndex": 2,
+       "explanation": "It often presents with bone metastases."
+      },
+      {
+       "stem": "Squamous cell carcinoma of the bladder in northern Nigeria is associated with chronic:",
+       "options": [
+        "Diabetes",
+        "Smoking",
+        "Schistosoma haematobium infection",
+        "Alcohol",
+        "Kidney stones"
+       ],
+       "answerIndex": 2,
+       "explanation": "Chronic inflammation causes squamous metaplasia."
+      }
+     ]
+    },
+    {
+     "title": "Fractures and Orthopaedic Trauma",
+     "order": 2,
+     "summary": "Fracture description and management, complications, common fractures and traditional bone setters.",
+     "material": [
+      {
+       "heading": "Principles",
+       "body": "Describe fractures by site, pattern (transverse, oblique, spiral, comminuted, segmental, greenstick in children), displacement (angulation, translation, shortening, rotation) and whether open or closed. Open fractures are emergencies: antibiotics (within 1 hour), tetanus prophylaxis, wound photograph and dressing, splinting, then debridement and stabilisation (Gustilo–Anderson classification). Principles of fracture management: reduce (closed or open), hold (casts, traction, external fixation, internal fixation — plates, nails), rehabilitate. Complications: early — neurovascular injury, compartment syndrome (pain out of proportion, pain on passive stretch; fasciotomy), fat embolism (long bone fractures — hypoxia, confusion, petechiae), infection, DVT; late — malunion, delayed union, non-union, avascular necrosis (femoral neck, scaphoid), joint stiffness and post-traumatic arthritis. In Nigeria, many fractures are first treated by traditional bone setters, leading to complications such as gangrene (tight splints), malunion, non-union and chronic osteomyelitis — some needing amputation.",
+       "keyPoints": [
+        "Describe: site, pattern, displacement, open/closed",
+        "Open fracture: antibiotics within 1 h",
+        "Reduce, hold, rehabilitate",
+        "Compartment syndrome: fasciotomy",
+        "Fat embolism",
+        "Traditional bone setter gangrene"
+       ]
+      },
+      {
+       "heading": "Common fractures and infections",
+       "body": "Fracture of the neck of femur (elderly, osteoporosis — shortened externally rotated leg; intracapsular fractures risk avascular necrosis — hemiarthroplasty or total hip replacement; extracapsular — dynamic hip screw). Femoral shaft fractures (young, high-energy; significant blood loss; intramedullary nailing — SIGN nails widely used in Nigeria). Tibial fractures (commonly open; compartment syndrome). Distal radius (Colles' fracture — dorsal angulation 'dinner fork' deformity after falling on an outstretched hand). Supracondylar humerus fracture in children (brachial artery and median nerve injury; Volkmann's ischaemic contracture). Scaphoid fracture (anatomical snuffbox tenderness — risk of avascular necrosis; treat clinically even if the initial X-ray is normal). Osteomyelitis: acute haematogenous in children (Staphylococcus aureus; Salmonella in sickle cell disease) — antibiotics and drainage; chronic osteomyelitis with sequestrum and involucrum, sinuses — common in Nigeria — sequestrectomy. Tuberculosis of the spine (Pott's disease — gibbus, paraplegia).",
+       "keyPoints": [
+        "NOF: shortened, externally rotated",
+        "Intracapsular: AVN risk",
+        "SIGN intramedullary nail",
+        "Colles': dinner fork",
+        "Supracondylar: brachial artery",
+        "Scaphoid: snuffbox tenderness",
+        "Chronic osteomyelitis: sequestrum, involucrum"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An open fracture requires antibiotics:",
+       "options": [
+        "After 24 hours",
+        "Only if infection appears",
+        "Never",
+        "After surgery only",
+        "As soon as possible, within 1 hour"
+       ],
+       "answerIndex": 4,
+       "explanation": "Early antibiotics reduce infection."
+      },
+      {
+       "stem": "Severe pain on passive stretching of the toes after a tibial fracture suggests:",
+       "options": [
+        "Malunion",
+        "DVT",
+        "Osteomyelitis",
+        "Fat embolism",
+        "Compartment syndrome"
+       ],
+       "answerIndex": 4,
+       "explanation": "Urgent fasciotomy is needed."
+      },
+      {
+       "stem": "Confusion, hypoxia and petechiae 1–3 days after a femoral shaft fracture suggest:",
+       "options": [
+        "Sepsis",
+        "Stroke",
+        "Hypoglycaemia",
+        "Fat embolism syndrome",
+        "Pulmonary embolism from DVT"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fat globules enter the circulation."
+      },
+      {
+       "stem": "An elderly woman with a shortened, externally rotated leg after a fall most likely has a:",
+       "options": [
+        "Tibial fracture",
+        "Fracture of the neck of femur",
+        "Pelvic bruise only",
+        "Ankle sprain",
+        "Knee dislocation"
+       ],
+       "answerIndex": 1,
+       "explanation": "Typical presentation of hip fracture."
+      },
+      {
+       "stem": "A fall on an outstretched hand causing a dorsally angulated distal radius fracture is a:",
+       "options": [
+        "Colles' fracture",
+        "Barton's fracture",
+        "Monteggia fracture",
+        "Galeazzi fracture",
+        "Smith's fracture"
+       ],
+       "answerIndex": 0,
+       "explanation": "It gives a 'dinner fork' deformity."
+      },
+      {
+       "stem": "Anatomical snuffbox tenderness after a fall suggests fracture of the:",
+       "options": [
+        "First metacarpal only",
+        "Scaphoid",
+        "Hamate",
+        "Radial head",
+        "Lunate"
+       ],
+       "answerIndex": 1,
+       "explanation": "Risk of avascular necrosis."
+      },
+      {
+       "stem": "In chronic osteomyelitis, dead bone is called the:",
+       "options": [
+        "Sequestrum",
+        "Involucrum",
+        "Periosteum",
+        "Callus",
+        "Cloaca"
+       ],
+       "answerIndex": 0,
+       "explanation": "New bone around it is the involucrum."
+      },
+      {
+       "stem": "A common complication of fracture treatment by traditional bone setters is:",
+       "options": [
+        "Improved alignment",
+        "Reduced infection",
+        "Perfect healing",
+        "Faster union always",
+        "Limb gangrene from tight splints"
+       ],
+       "answerIndex": 4,
+       "explanation": "Some patients require amputation."
+      }
+     ]
+    },
+    {
+     "title": "Neurosurgery",
+     "order": 3,
+     "summary": "Head injury, intracranial haematomas, raised ICP, hydrocephalus, spinal injury and brain tumours.",
+     "material": [
+      {
+       "heading": "Head injury and haematomas",
+       "body": "Traumatic brain injury (mostly motorcycle and road crashes) is graded by GCS: mild 13–15, moderate 9–12, severe ≤ 8 (intubate to protect the airway). Primary brain injury occurs at impact; management aims to prevent secondary injury from hypoxia, hypotension, raised intracranial pressure, hypoglycaemia, seizures and fever. Extradural haematoma: temporal bone fracture tearing the middle meningeal artery, lucid interval followed by deterioration, biconvex (lentiform) hyperdensity on CT — urgent craniotomy (burr hole in emergencies); excellent outcome if treated early. Acute subdural haematoma: bridging veins, crescent-shaped, often with underlying brain injury — worse prognosis. Chronic subdural haematoma: elderly, alcoholics, anticoagulated — insidious confusion; burr-hole drainage. Raised ICP: headache, vomiting, papilloedema, falling GCS, Cushing's reflex (hypertension, bradycardia, irregular breathing) and a dilating pupil (uncal herniation compressing CN III); management — head elevation 30°, adequate oxygenation, normocapnia, mannitol or hypertonic saline, and surgery.",
+       "keyPoints": [
+        "Severe TBI: GCS ≤ 8",
+        "Prevent secondary injury",
+        "EDH: lucid interval, biconvex",
+        "Acute SDH: crescent",
+        "Chronic SDH: elderly, burr hole",
+        "Cushing's reflex; blown pupil"
+       ]
+      },
+      {
+       "heading": "Other neurosurgical conditions",
+       "body": "Hydrocephalus (excess CSF with ventricular dilatation): congenital (aqueductal stenosis, spina bifida-associated) or acquired (post-meningitic — common in Nigeria, tumours, haemorrhage); infants have enlarging head circumference, bulging fontanelle and 'sunset' eyes; treated with ventriculoperitoneal shunt or endoscopic third ventriculostomy. Neural tube defects (myelomeningocele) need early closure and folic acid prevention. Spinal cord injury: immobilise the spine, protect the airway, maintain BP (neurogenic shock), imaging and surgical stabilisation or decompression when indicated. Brain tumours: gliomas, meningiomas (common in adults in Nigeria), pituitary adenomas and metastases; in children, medulloblastoma and astrocytomas in the posterior fossa; symptoms of raised ICP, seizures or focal deficits; dexamethasone reduces oedema. Spinal TB and metastatic cord compression need urgent decompression when neurological deficit progresses.",
+       "keyPoints": [
+        "Post-meningitic hydrocephalus common",
+        "Sunset eyes; VP shunt or ETV",
+        "Myelomeningocele: early closure",
+        "Neurogenic shock",
+        "Meningioma common in adults",
+        "Dexamethasone for tumour oedema"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A lucid interval after head injury followed by rapid deterioration is classic for:",
+       "options": [
+        "Extradural haematoma",
+        "Diffuse axonal injury",
+        "Chronic subdural haematoma",
+        "Subarachnoid haemorrhage",
+        "Concussion"
+       ],
+       "answerIndex": 0,
+       "explanation": "Arterial bleeding accumulates rapidly."
+      },
+      {
+       "stem": "An extradural haematoma appears on CT as a:",
+       "options": [
+        "Biconvex (lentiform) hyperdensity",
+        "Crescent-shaped hyperdensity",
+        "Normal scan always",
+        "Diffuse hypodensity",
+        "Ring-enhancing lesion"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is limited by suture lines."
+      },
+      {
+       "stem": "Insidious confusion in an elderly alcoholic weeks after a minor fall suggests:",
+       "options": [
+        "Stroke only",
+        "Meningitis",
+        "Chronic subdural haematoma",
+        "Extradural haematoma",
+        "Brain tumour always"
+       ],
+       "answerIndex": 2,
+       "explanation": "Bridging veins bleed slowly."
+      },
+      {
+       "stem": "Cushing's reflex, indicating raised ICP, consists of hypertension, bradycardia and:",
+       "options": [
+        "Irregular respiration",
+        "Fever",
+        "Tachypnoea only",
+        "Hyperglycaemia",
+        "Hypothermia"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a late, ominous sign."
+      },
+      {
+       "stem": "A unilateral fixed dilated pupil after head injury indicates compression of:",
+       "options": [
+        "The oculomotor nerve (CN III) from uncal herniation",
+        "The facial nerve",
+        "The abducens nerve only",
+        "The optic nerve",
+        "The trochlear nerve"
+       ],
+       "answerIndex": 0,
+       "explanation": "It signals impending herniation."
+      },
+      {
+       "stem": "A common cause of acquired hydrocephalus in Nigerian infants is:",
+       "options": [
+        "Migraine",
+        "Hypertension",
+        "Diabetes",
+        "Previous meningitis",
+        "Stroke"
+       ],
+       "answerIndex": 3,
+       "explanation": "Inflammation blocks CSF absorption."
+      },
+      {
+       "stem": "Hydrocephalus is commonly treated by:",
+       "options": [
+        "Ventriculoperitoneal shunt or endoscopic third ventriculostomy",
+        "Diuretics alone",
+        "Lumbar puncture daily",
+        "Craniotomy for all",
+        "Antibiotics only"
+       ],
+       "answerIndex": 0,
+       "explanation": "These divert CSF."
+      },
+      {
+       "stem": "Dexamethasone is given to patients with brain tumours to:",
+       "options": [
+        "Prevent seizures",
+        "Reduce vasogenic cerebral oedema",
+        "Kill tumour cells",
+        "Treat infection",
+        "Increase ICP"
+       ],
+       "answerIndex": 1,
+       "explanation": "It rapidly improves symptoms."
+      }
+     ]
+    },
+    {
+     "title": "Paediatric Surgery",
+     "order": 4,
+     "summary": "Neonatal surgical emergencies, congenital anomalies, hernias, and childhood tumours.",
+     "material": [
+      {
+       "heading": "Neonatal conditions",
+       "body": "Neonatal surgical emergencies often present late in Nigeria with sepsis and dehydration. Oesophageal atresia with tracheo-oesophageal fistula: excessive frothy saliva, choking with feeds, inability to pass a nasogastric tube (coils on X-ray); keep nil by mouth with suction, then surgical repair. Duodenal atresia (associated with Down syndrome): bilious vomiting and 'double bubble' on X-ray. Malrotation with volvulus: bilious vomiting in a neonate is a surgical emergency until proven otherwise. Hirschsprung disease: delayed passage of meconium beyond 48 hours, distension; rectal biopsy (absent ganglion cells); pull-through surgery. Anorectal malformations: no anal opening — colostomy then reconstruction. Abdominal wall defects: gastroschisis (bowel protruding to the right of the umbilicus without a sac) and exomphalos/omphalocele (covered by a sac, associated anomalies). Infantile hypertrophic pyloric stenosis (2–8 weeks, first-born boys): projectile non-bilious vomiting, olive-shaped mass, hypochloraemic hypokalaemic alkalosis — correct fluids first, then Ramstedt's pyloromyotomy.",
+       "keyPoints": [
+        "OA/TOF: frothy saliva, NG tube coils",
+        "Duodenal atresia: double bubble, Down syndrome",
+        "Bilious vomiting: malrotation until proven otherwise",
+        "Hirschsprung: delayed meconium",
+        "Gastroschisis: no sac",
+        "Pyloric stenosis: correct alkalosis first"
+       ]
+      },
+      {
+       "heading": "Hernias, testes and tumours",
+       "body": "Inguinal hernias in children are indirect (patent processus vaginalis), more common in boys and premature infants, and need prompt herniotomy because of incarceration risk. Hydrocoeles (transilluminate) often resolve by age 1–2 years. Umbilical hernias are very common in African children and usually close spontaneously by 4–5 years. Undescended testis: orchidopexy by 6–18 months to reduce infertility and malignancy risk. Circumcision complications (bleeding, glans injury, meatal stenosis) from untrained practitioners are seen in Nigeria. Childhood tumours: Burkitt lymphoma (jaw or abdominal masses — chemotherapy), Wilms tumour (smooth flank mass not crossing the midline, in children 2–5 years; nephrectomy and chemotherapy), neuroblastoma (irregular mass crossing the midline, raised urinary catecholamines), retinoblastoma (leukocoria — white pupil reflex) and rhabdomyosarcoma. Burns and trauma, typhoid perforation and intussusception are also common paediatric surgical problems.",
+       "keyPoints": [
+        "Paediatric inguinal hernia: indirect, herniotomy",
+        "Umbilical hernia: closes by 4–5 years",
+        "Orchidopexy by 6–18 months",
+        "Wilms: doesn't cross midline",
+        "Neuroblastoma: crosses midline, catecholamines",
+        "Retinoblastoma: leukocoria"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A newborn with frothy saliva, choking with feeds and a nasogastric tube that coils in the chest has:",
+       "options": [
+        "Duodenal atresia",
+        "Hirschsprung disease",
+        "Pyloric stenosis",
+        "Malrotation",
+        "Oesophageal atresia"
+       ],
+       "answerIndex": 4,
+       "explanation": "Often with a tracheo-oesophageal fistula."
+      },
+      {
+       "stem": "A 'double bubble' sign on abdominal X-ray in a neonate indicates:",
+       "options": [
+        "Pyloric stenosis",
+        "Oesophageal atresia",
+        "Hirschsprung disease",
+        "Intussusception",
+        "Duodenal atresia"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is associated with Down syndrome."
+      },
+      {
+       "stem": "Bilious vomiting in a neonate should be treated as a surgical emergency because of possible:",
+       "options": [
+        "Malrotation with volvulus",
+        "Pyloric stenosis",
+        "Overfeeding",
+        "Gastro-oesophageal reflux",
+        "Colic"
+       ],
+       "answerIndex": 0,
+       "explanation": "Delay risks losing the whole midgut."
+      },
+      {
+       "stem": "Failure to pass meconium within 48 hours with abdominal distension suggests:",
+       "options": [
+        "Appendicitis",
+        "Pyloric stenosis",
+        "Umbilical hernia",
+        "Gastroschisis",
+        "Hirschsprung disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Confirmed by rectal biopsy."
+      },
+      {
+       "stem": "Before pyloromyotomy for pyloric stenosis, the priority is to:",
+       "options": [
+        "Perform endoscopy",
+        "Feed the baby",
+        "Correct dehydration and metabolic alkalosis",
+        "Operate immediately",
+        "Give antibiotics"
+       ],
+       "answerIndex": 2,
+       "explanation": "Anaesthesia is dangerous with alkalosis."
+      },
+      {
+       "stem": "Umbilical hernias in African children usually:",
+       "options": [
+        "Need strapping with coins",
+        "Strangulate frequently",
+        "Need urgent surgery",
+        "Become malignant",
+        "Close spontaneously by 4–5 years"
+       ],
+       "answerIndex": 4,
+       "explanation": "Surgery is reserved for persistent hernias."
+      },
+      {
+       "stem": "A smooth flank mass that does not cross the midline in a 3-year-old suggests:",
+       "options": [
+        "Wilms tumour",
+        "Splenomegaly",
+        "Burkitt lymphoma",
+        "Neuroblastoma",
+        "Hydronephrosis always"
+       ],
+       "answerIndex": 0,
+       "explanation": "Neuroblastoma often crosses the midline."
+      },
+      {
+       "stem": "A white pupillary reflex (leukocoria) in a young child suggests:",
+       "options": [
+        "Conjunctivitis",
+        "Retinoblastoma",
+        "Cataract only",
+        "Glaucoma",
+        "Measles"
+       ],
+       "answerIndex": 1,
+       "explanation": "It needs urgent ophthalmic referral."
+      }
+     ]
+    },
+    {
+     "title": "Vascular Surgery, Amputations and Surgical Infections",
+     "order": 5,
+     "summary": "Peripheral arterial disease, varicose veins, diabetic foot, amputation, and surgical infections such as pyomyositis.",
+     "material": [
+      {
+       "heading": "Vascular disease and amputation",
+       "body": "Peripheral arterial disease: intermittent claudication (calf pain on walking relieved by rest), critical limb ischaemia (rest pain, ulcers, gangrene); ankle–brachial pressure index (ABPI < 0.9 abnormal); risk factor control, exercise, antiplatelets and statins; revascularisation (angioplasty, bypass). Acute limb ischaemia — the 6 Ps (pain, pallor, pulselessness, paraesthesia, paralysis, perishingly cold) — needs urgent heparin and embolectomy. Varicose veins (valve incompetence — saphenofemoral junction) and venous ulcers (medial gaiter area; compression therapy after excluding arterial disease). Diabetic foot: neuropathic ulcers on pressure points, infection and ischaemia; debridement, offloading, antibiotics and glycaemic control. Amputations in Nigeria commonly result from diabetic foot sepsis, trauma, traditional bone setter gangrene and malignancy; levels (below-knee preferred for prosthetic function), and rehabilitation with prostheses.",
+       "keyPoints": [
+        "Claudication: pain relieved by rest",
+        "ABPI < 0.9",
+        "Acute ischaemia: 6 Ps",
+        "Venous ulcer: compression",
+        "Diabetic foot: offload, debride",
+        "Below-knee amputation preferred"
+       ]
+      },
+      {
+       "heading": "Surgical infections",
+       "body": "Pyomyositis (tropical pyomyositis — Staphylococcus aureus abscess within large muscles like the thigh and gluteals; common in Nigeria; drainage and antibiotics). Cellulitis and erysipelas (streptococcal; antibiotics, elevation). Hand infections: paronychia, felon (pulp space infection), and flexor tenosynovitis (Kanavel's signs — flexed finger, fusiform swelling, tenderness along the sheath, pain on passive extension — urgent surgical drainage). Buruli ulcer (Mycobacterium ulcerans — painless nodule progressing to large ulcers with undermined edges; reported in southern Nigeria; rifampicin plus clarithromycin, surgery). Gas gangrene (Clostridium perfringens — crepitus, rapidly spreading myonecrosis; radical debridement and penicillin). Tetanus-prone wounds need tetanus toxoid ± immunoglobulin. Hydatid disease and amoebic abscesses are other surgical infections. Principles: drain pus, debride dead tissue, give appropriate antibiotics, and control source.",
+       "keyPoints": [
+        "Pyomyositis: S. aureus, drain",
+        "Kanavel's signs: flexor tenosynovitis",
+        "Buruli ulcer: rifampicin + clarithromycin",
+        "Gas gangrene: debride + penicillin",
+        "Drain pus, debride, source control"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Calf pain on walking that is relieved by rest suggests:",
+       "options": [
+        "Intermittent claudication",
+        "DVT",
+        "Muscle strain",
+        "Venous insufficiency",
+        "Sciatica"
+       ],
+       "answerIndex": 0,
+       "explanation": "Due to peripheral arterial disease."
+      },
+      {
+       "stem": "An ankle–brachial pressure index below 0.9 indicates:",
+       "options": [
+        "Normal circulation",
+        "Venous disease",
+        "Heart failure",
+        "Hypertension",
+        "Peripheral arterial disease"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lower values indicate more severe disease."
+      },
+      {
+       "stem": "Pain, pallor, pulselessness, paraesthesia, paralysis and a cold limb indicate:",
+       "options": [
+        "DVT",
+        "Chronic venous insufficiency",
+        "Lymphoedema",
+        "Acute limb ischaemia",
+        "Cellulitis"
+       ],
+       "answerIndex": 3,
+       "explanation": "It needs urgent revascularisation."
+      },
+      {
+       "stem": "Venous leg ulcers are treated mainly with:",
+       "options": [
+        "Antibiotics only",
+        "Amputation",
+        "Compression therapy (after excluding arterial disease)",
+        "Heat packs",
+        "Surgery for all"
+       ],
+       "answerIndex": 2,
+       "explanation": "Compression reverses venous hypertension."
+      },
+      {
+       "stem": "A deep abscess within the thigh muscle of a young Nigerian, usually caused by Staphylococcus aureus, is:",
+       "options": [
+        "Pyomyositis",
+        "Gas gangrene",
+        "Erysipelas",
+        "Buruli ulcer",
+        "Cellulitis"
+       ],
+       "answerIndex": 0,
+       "explanation": "It requires drainage."
+      },
+      {
+       "stem": "Kanavel's signs indicate:",
+       "options": [
+        "Flexor tendon sheath infection",
+        "Fracture",
+        "Paronychia",
+        "Gout",
+        "Carpal tunnel syndrome"
+       ],
+       "answerIndex": 0,
+       "explanation": "It needs urgent surgical drainage."
+      },
+      {
+       "stem": "A painless nodule progressing to a large ulcer with undermined edges suggests:",
+       "options": [
+        "Diabetic ulcer",
+        "Buruli ulcer (Mycobacterium ulcerans)",
+        "Tropical ulcer",
+        "Pressure sore",
+        "Venous ulcer"
+       ],
+       "answerIndex": 1,
+       "explanation": "Treated with rifampicin and clarithromycin."
+      },
+      {
+       "stem": "The preferred amputation level to allow good prosthetic walking, when viable, is:",
+       "options": [
+        "Hemipelvectomy",
+        "Through-knee always",
+        "Above-knee always",
+        "Below-knee",
+        "Hip disarticulation"
+       ],
+       "answerIndex": 3,
+       "explanation": "Preserving the knee reduces energy cost."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

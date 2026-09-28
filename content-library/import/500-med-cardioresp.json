@@ -1,0 +1,672 @@
+{
+ "courses": [
+  {
+   "title": "Internal Medicine I: Cardiology and Respiratory Medicine",
+   "code": "MED501",
+   "color": "#DC2626",
+   "description": "Hypertension, heart failure, rheumatic and ischaemic heart disease, arrhythmias, asthma, COPD, pneumonia, tuberculosis and pleural disease in Nigerian practice.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Hypertension",
+     "order": 1,
+     "summary": "Diagnosis, target-organ damage, treatment in Africans, and hypertensive emergencies.",
+     "material": [
+      {
+       "heading": "Diagnosis and evaluation",
+       "body": "Hypertension affects about 30% of Nigerian adults and is the leading risk factor for stroke, heart failure and chronic kidney disease; most patients are unaware. Diagnosis: clinic BP ≥ 140/90 mmHg on repeated measurements (correct cuff size, seated, rested), ideally confirmed by ambulatory or home monitoring (excluding white-coat hypertension). Over 90% is primary (essential); secondary causes are suspected in young patients, resistant hypertension or suggestive features — renal disease, renal artery stenosis, primary aldosteronism (hypokalaemia), phaeochromocytoma (paroxysmal symptoms), Cushing's syndrome, coarctation of the aorta, thyroid disease, and drugs (oral contraceptives, NSAIDs, steroids). Evaluation seeks target-organ damage: left ventricular hypertrophy (ECG, echo), retinopathy (fundoscopy — Keith–Wagener grades), proteinuria and renal function, and cardiovascular risk factors (diabetes, lipids, smoking).",
+       "keyPoints": [
+        "~30% of Nigerian adults",
+        "≥ 140/90 on repeated readings",
+        "> 90% essential",
+        "Secondary: young, resistant, hypokalaemia",
+        "Target organs: heart, eyes, kidneys, brain"
+       ]
+      },
+      {
+       "heading": "Treatment",
+       "body": "Lifestyle: salt reduction (< 5 g/day — high salt intake is common, including seasoning cubes), weight loss, regular exercise, limited alcohol, smoking cessation, diets rich in fruit and vegetables (DASH). Drug therapy in black Africans: calcium channel blockers (amlodipine) and thiazide(-like) diuretics (hydrochlorothiazide, indapamide) are more effective first-line agents than ACE inhibitors or beta-blockers as monotherapy; ACE inhibitors/ARBs are added (and preferred in diabetes with proteinuria, CKD, heart failure). Single-pill combinations improve adherence. Target generally < 140/90 (< 130/80 in high-risk patients if tolerated). ACE inhibitors cause cough and angioedema (more common in black patients); avoid in pregnancy. Hypertensive emergency (severe BP with acute organ damage — encephalopathy, acute LV failure, dissection, eclampsia) requires controlled IV reduction (e.g. labetalol, hydralazine, nitroglycerin) by no more than about 25% in the first hour; hypertensive urgency without organ damage is treated with oral drugs.",
+       "keyPoints": [
+        "Salt < 5 g/day",
+        "CCB or thiazide first-line in Africans",
+        "ACEi/ARB in diabetes, CKD",
+        "ACEi angioedema more common in black patients",
+        "Emergency: reduce ≤ 25% in first hour"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Hypertension is diagnosed when clinic blood pressure is repeatedly at least:",
+       "options": [
+        "120/80 mmHg",
+        "130/85 mmHg",
+        "140/90 mmHg",
+        "160/100 mmHg",
+        "180/110 mmHg"
+       ],
+       "answerIndex": 2,
+       "explanation": "Confirmation with out-of-office readings is ideal."
+      },
+      {
+       "stem": "The most effective first-line antihypertensive monotherapy for black African patients is usually:",
+       "options": [
+        "ACE inhibitor alone",
+        "Alpha-blocker",
+        "Loop diuretic",
+        "Beta-blocker",
+        "Calcium channel blocker (e.g. amlodipine)"
+       ],
+       "answerIndex": 4,
+       "explanation": "CCBs and thiazides are more effective in this group."
+      },
+      {
+       "stem": "Hypertension with unprovoked hypokalaemia suggests:",
+       "options": [
+        "Primary aldosteronism",
+        "Essential hypertension",
+        "Coarctation",
+        "Phaeochromocytoma",
+        "Hypothyroidism"
+       ],
+       "answerIndex": 0,
+       "explanation": "Excess aldosterone wastes potassium."
+      },
+      {
+       "stem": "An adverse effect of ACE inhibitors that is more common in black patients is:",
+       "options": [
+        "Ankle oedema",
+        "Angioedema",
+        "Gum hypertrophy",
+        "Bradycardia",
+        "Hyperglycaemia"
+       ],
+       "answerIndex": 1,
+       "explanation": "It can be life-threatening."
+      },
+      {
+       "stem": "In diabetic patients with proteinuria, the preferred antihypertensive class is:",
+       "options": [
+        "Alpha-blockers",
+        "Centrally acting drugs",
+        "Beta-blockers",
+        "ACE inhibitors or ARBs",
+        "Loop diuretics"
+       ],
+       "answerIndex": 3,
+       "explanation": "They reduce proteinuria and slow nephropathy."
+      },
+      {
+       "stem": "In a hypertensive emergency, blood pressure should initially be lowered by no more than about:",
+       "options": [
+        "5% in the first hour",
+        "50% in 10 minutes",
+        "25% in the first hour",
+        "Normal within 5 minutes",
+        "75% in the first hour"
+       ],
+       "answerIndex": 2,
+       "explanation": "Rapid falls cause cerebral and myocardial ischaemia."
+      },
+      {
+       "stem": "The recommended daily salt intake is less than:",
+       "options": [
+        "1 g",
+        "5 g",
+        "10 g",
+        "15 g",
+        "20 g"
+       ],
+       "answerIndex": 1,
+       "explanation": "Nigerians often exceed this through seasoning cubes."
+      },
+      {
+       "stem": "Left ventricular hypertrophy in hypertension is an example of:",
+       "options": [
+        "Target-organ damage",
+        "Secondary hypertension",
+        "Drug side effect",
+        "White-coat effect",
+        "Normal ageing"
+       ],
+       "answerIndex": 0,
+       "explanation": "It increases cardiovascular risk."
+      }
+     ]
+    },
+    {
+     "title": "Heart Failure and Cardiomyopathies",
+     "order": 2,
+     "summary": "Causes in Africa, clinical features, classification, investigation and management.",
+     "material": [
+      {
+       "heading": "Causes and assessment",
+       "body": "Heart failure (HF) is a syndrome of symptoms (breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea, fatigue, ankle swelling) and signs (raised JVP, third heart sound, basal crackles, peripheral oedema, hepatomegaly) due to cardiac dysfunction. In sub-Saharan Africa (THESUS-HF registry), leading causes are hypertensive heart disease, cardiomyopathies (dilated; peripartum cardiomyopathy — high incidence in northern Nigeria; endomyocardial fibrosis), rheumatic heart disease, and increasingly ischaemic heart disease; patients are younger than in high-income countries. Classification: HF with reduced ejection fraction (HFrEF, EF ≤ 40%), mildly reduced (41–49%) and preserved EF (HFpEF ≥ 50%). NYHA classes I–IV grade symptoms. Investigations: ECG, chest X-ray (cardiomegaly, pulmonary congestion, Kerley B lines, effusions), echocardiography (key test), natriuretic peptides (BNP/NT-proBNP), renal function, electrolytes, FBC and thyroid function.",
+       "keyPoints": [
+        "Hypertensive heart disease commonest",
+        "Peripartum cardiomyopathy in northern Nigeria",
+        "HFrEF ≤ 40%",
+        "NYHA I–IV",
+        "Echocardiography is key",
+        "BNP/NT-proBNP"
+       ]
+      },
+      {
+       "heading": "Management",
+       "body": "Acute decompensated HF: sit upright, oxygen if hypoxic, IV furosemide, nitrates if BP adequate, treat precipitants (uncontrolled BP, infection, arrhythmia, non-adherence, anaemia, excess salt). Chronic HFrEF — prognostic 'four pillars': ACE inhibitor/ARB or ARNI (sacubitril–valsartan), evidence-based beta-blocker (carvedilol, bisoprolol, metoprolol succinate — start low when stable), mineralocorticoid receptor antagonist (spironolactone) and SGLT2 inhibitor (dapagliflozin, empagliflozin); loop diuretics relieve congestion but do not improve survival; hydralazine plus isosorbide dinitrate benefits black patients (A-HeFT). Digoxin controls rate in atrial fibrillation. Devices (ICD, CRT) where available. Monitor potassium and renal function, daily weights, salt and fluid restriction, and vaccination. Peripartum cardiomyopathy may benefit from bromocriptine and requires contraception counselling.",
+       "keyPoints": [
+        "Acute: furosemide, nitrates, treat precipitants",
+        "Four pillars: ACEi/ARNI, BB, MRA, SGLT2i",
+        "Diuretics: symptoms only",
+        "Hydralazine + nitrate in black patients",
+        "Monitor K⁺ and renal function"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most common cause of heart failure in sub-Saharan Africa is:",
+       "options": [
+        "Thyrotoxicosis",
+        "Amyloidosis",
+        "Hypertensive heart disease",
+        "Ischaemic heart disease",
+        "Congenital heart disease"
+       ],
+       "answerIndex": 2,
+       "explanation": "The THESUS-HF registry confirmed this."
+      },
+      {
+       "stem": "Heart failure with reduced ejection fraction is defined as an EF of:",
+       "options": [
+        "50–60%",
+        "≤ 40%",
+        "45–55%",
+        "Exactly 50%",
+        "≥ 70%"
+       ],
+       "answerIndex": 1,
+       "explanation": "HFpEF has EF ≥ 50%."
+      },
+      {
+       "stem": "The single most useful investigation to confirm heart failure and its cause is:",
+       "options": [
+        "Abdominal ultrasound",
+        "Urinalysis",
+        "Echocardiography",
+        "Chest X-ray",
+        "Full blood count"
+       ],
+       "answerIndex": 2,
+       "explanation": "It shows function, valves and structure."
+      },
+      {
+       "stem": "Heart failure presenting in the last month of pregnancy or within five months after delivery, without another cause, is:",
+       "options": [
+        "Endomyocardial fibrosis",
+        "Hypertrophic cardiomyopathy",
+        "Rheumatic heart disease",
+        "Pericarditis",
+        "Peripartum cardiomyopathy"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is common in northern Nigeria."
+      },
+      {
+       "stem": "Which drug relieves congestion but does not improve survival in HFrEF?",
+       "options": [
+        "Furosemide",
+        "Dapagliflozin",
+        "Spironolactone",
+        "Enalapril",
+        "Bisoprolol"
+       ],
+       "answerIndex": 0,
+       "explanation": "Loop diuretics are symptomatic therapy."
+      },
+      {
+       "stem": "The combination of hydralazine and isosorbide dinitrate improved survival in HF patients who were:",
+       "options": [
+        "East Asian",
+        "Children",
+        "Pregnant",
+        "Elderly white",
+        "Self-identified black"
+       ],
+       "answerIndex": 4,
+       "explanation": "Shown in the A-HeFT trial."
+      },
+      {
+       "stem": "SGLT2 inhibitors such as dapagliflozin are now used in heart failure because they:",
+       "options": [
+        "Treat arrhythmias",
+        "Reduce hospitalisation and death in HFrEF",
+        "Increase heart rate",
+        "Cause fluid retention",
+        "Only lower glucose"
+       ],
+       "answerIndex": 1,
+       "explanation": "They are one of the four pillars."
+      },
+      {
+       "stem": "Orthopnoea is breathlessness that:",
+       "options": [
+        "Occurs on exertion only",
+        "Occurs in the upright position",
+        "Is due to anxiety",
+        "Occurs when lying flat",
+        "Wakes the patient after hours of sleep only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluid redistributes to the lungs when lying down."
+      }
+     ]
+    },
+    {
+     "title": "Rheumatic, Ischaemic and Other Heart Diseases",
+     "order": 3,
+     "summary": "Rheumatic fever and valve disease, acute coronary syndromes, infective endocarditis and arrhythmias.",
+     "material": [
+      {
+       "heading": "Rheumatic and infective heart disease",
+       "body": "Acute rheumatic fever follows group A streptococcal pharyngitis in children (5–15 years), diagnosed with the revised Jones criteria — major: carditis, polyarthritis, chorea, erythema marginatum, subcutaneous nodules; minor: fever, arthralgia, raised ESR/CRP, prolonged PR interval — plus evidence of recent streptococcal infection (ASO). Rheumatic heart disease most commonly affects the mitral valve (mitral regurgitation in the young, mitral stenosis later — loud S1, opening snap, mid-diastolic murmur; atrial fibrillation and stroke), then the aortic valve. Secondary prophylaxis with monthly benzathine penicillin prevents recurrence. Infective endocarditis: fever with a new murmur; Duke criteria (positive blood cultures — at least three sets before antibiotics — and echocardiographic vegetations); causes include Streptococcus viridans (dental), Staphylococcus aureus (IV drug users — tricuspid valve) and enterococci; prolonged IV antibiotics and sometimes surgery.",
+       "keyPoints": [
+        "Jones criteria",
+        "Mitral valve most affected",
+        "Monthly benzathine penicillin",
+        "Endocarditis: Duke criteria",
+        "Three blood culture sets"
+       ]
+      },
+      {
+       "heading": "Ischaemic heart disease and arrhythmias",
+       "body": "Ischaemic heart disease is increasing in Nigeria with urbanisation, diabetes, hypertension, dyslipidaemia and smoking. Acute coronary syndromes: STEMI (ST elevation ≥ 1 mm in two contiguous limb leads or ≥ 2 mm in chest leads, or new LBBB), NSTEMI (raised troponin without ST elevation) and unstable angina. Immediate management: aspirin 300 mg, a P2Y12 inhibitor (clopidogrel), oxygen only if hypoxic, nitrates and opioid analgesia, anticoagulation, and reperfusion — primary PCI within 120 minutes (limited availability in Nigeria) or fibrinolysis (streptokinase, tenecteplase) within 12 hours of onset; then secondary prevention (aspirin, statin, beta-blocker, ACE inhibitor, lifestyle). Atrial fibrillation (irregularly irregular pulse, absent P waves): rate control (beta-blockers, digoxin), rhythm control in selected cases, and stroke prevention with anticoagulation guided by CHA2DS2-VASc score. Complete heart block may need pacing.",
+       "keyPoints": [
+        "STEMI criteria",
+        "Aspirin 300 mg + clopidogrel",
+        "PCI < 120 min or fibrinolysis < 12 h",
+        "Secondary prevention",
+        "AF: rate control + CHA2DS2-VASc"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Acute rheumatic fever follows infection with:",
+       "options": [
+        "Group B streptococcus",
+        "Salmonella",
+        "Group A streptococcus",
+        "Staphylococcus aureus",
+        "Pneumococcus"
+       ],
+       "answerIndex": 2,
+       "explanation": "It follows streptococcal pharyngitis."
+      },
+      {
+       "stem": "Which is a major Jones criterion?",
+       "options": [
+        "Fever",
+        "Carditis",
+        "Arthralgia",
+        "Raised ESR",
+        "Prolonged PR interval"
+       ],
+       "answerIndex": 1,
+       "explanation": "Fever and raised ESR are minor criteria."
+      },
+      {
+       "stem": "The heart valve most commonly affected by rheumatic heart disease is:",
+       "options": [
+        "Mitral",
+        "Pulmonary",
+        "Aortic only",
+        "Eustachian",
+        "Tricuspid"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mitral involvement is almost universal."
+      },
+      {
+       "stem": "Secondary prophylaxis after rheumatic fever uses:",
+       "options": [
+        "Monthly benzathine penicillin injections",
+        "Aspirin",
+        "Vaccination",
+        "Oral amoxicillin once",
+        "Steroids"
+       ],
+       "answerIndex": 0,
+       "explanation": "It prevents recurrent attacks."
+      },
+      {
+       "stem": "Infective endocarditis in intravenous drug users most often affects the:",
+       "options": [
+        "Tricuspid valve",
+        "Aortic valve",
+        "Coronary arteries",
+        "Mitral valve",
+        "Pulmonary valve"
+       ],
+       "answerIndex": 0,
+       "explanation": "Right-sided valves are exposed first."
+      },
+      {
+       "stem": "The first drug given to a patient with suspected STEMI is usually:",
+       "options": [
+        "Warfarin",
+        "Amiodarone",
+        "Aspirin 300 mg",
+        "Furosemide",
+        "Digoxin"
+       ],
+       "answerIndex": 2,
+       "explanation": "Given with a P2Y12 inhibitor."
+      },
+      {
+       "stem": "Fibrinolysis for STEMI is most beneficial when given within:",
+       "options": [
+        "1 week",
+        "Only after 24 hours",
+        "48 hours",
+        "Any time",
+        "12 hours of symptom onset"
+       ],
+       "answerIndex": 4,
+       "explanation": "Earlier is better."
+      },
+      {
+       "stem": "Stroke risk in atrial fibrillation is assessed with the:",
+       "options": [
+        "Wells score",
+        "Glasgow score",
+        "CHA2DS2-VASc score",
+        "Child–Pugh score",
+        "CURB-65"
+       ],
+       "answerIndex": 2,
+       "explanation": "It guides anticoagulation decisions."
+      }
+     ]
+    },
+    {
+     "title": "Asthma, COPD and Pneumonia",
+     "order": 4,
+     "summary": "Obstructive airway diseases and community-acquired pneumonia.",
+     "material": [
+      {
+       "heading": "Asthma and COPD",
+       "body": "Asthma is chronic airway inflammation with variable, reversible airflow obstruction — episodic wheeze, cough (often nocturnal), chest tightness and breathlessness; triggers include dust, smoke, pollen, harmattan, infections, exercise and NSAIDs. Diagnosis: history plus evidence of variability (peak flow variability, bronchodilator reversibility ≥ 12% and 200 mL on spirometry). GINA recommends inhaled corticosteroid (ICS)-containing treatment for all adults and adolescents — as-needed low-dose ICS–formoterol or daily ICS with SABA reliever — stepping up to ICS–LABA and specialist therapies; SABA-only treatment increases risk of death. Acute severe asthma: inability to complete sentences, PEF 33–50%, RR ≥ 25, HR ≥ 110; life-threatening features — silent chest, cyanosis, exhaustion, PEF < 33%, SpO2 < 92%. Treat with oxygen, nebulised salbutamol and ipratropium, systemic steroids, IV magnesium, and ICU referral. COPD: persistent airflow limitation (post-bronchodilator FEV1/FVC < 0.7) from smoking or biomass smoke; management includes smoking cessation, bronchodilators (LAMA, LABA), pulmonary rehabilitation, vaccination and treating exacerbations with steroids and antibiotics when sputum is purulent.",
+       "keyPoints": [
+        "Reversibility ≥ 12% and 200 mL",
+        "ICS for all adults (GINA)",
+        "SABA-only risky",
+        "Life-threatening: silent chest, PEF < 33%",
+        "COPD: FEV1/FVC < 0.7; biomass smoke"
+       ]
+      },
+      {
+       "heading": "Pneumonia",
+       "body": "Community-acquired pneumonia (CAP): cough, fever, pleuritic chest pain, breathlessness, focal crackles or bronchial breathing, and new consolidation on chest X-ray. Commonest cause is Streptococcus pneumoniae; others: Haemophilus influenzae, Staphylococcus aureus (post-influenza, cavitation), Klebsiella (alcoholics — upper lobe, 'red currant jelly' sputum), atypicals (Mycoplasma, Legionella, Chlamydophila), and viruses; consider TB and Pneumocystis in HIV. Severity: CURB-65 (Confusion, Urea > 7 mmol/L, Respiratory rate ≥ 30, BP systolic < 90 or diastolic ≤ 60, age ≥ 65) — 0–1 home, 2 hospital, ≥ 3 severe (consider ICU). Treatment: amoxicillin for low severity; amoxicillin or ceftriaxone plus a macrolide for moderate–severe; oxygen, fluids, analgesia. Complications: parapneumonic effusion, empyema (drain), lung abscess, sepsis. Aspiration pneumonia (right lower lobe) occurs with reduced consciousness or swallowing problems. Pneumococcal and influenza vaccines prevent disease.",
+       "keyPoints": [
+        "S. pneumoniae commonest",
+        "Klebsiella: alcoholics, upper lobe",
+        "CURB-65",
+        "Amoxicillin; add macrolide if severe",
+        "Empyema: drain",
+        "Aspiration: right lower lobe"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Significant bronchodilator reversibility supporting asthma is an increase in FEV1 of at least:",
+       "options": [
+        "30% and 1 litre",
+        "50%",
+        "5% and 50 mL",
+        "2% only",
+        "12% and 200 mL"
+       ],
+       "answerIndex": 4,
+       "explanation": "This demonstrates variable airflow obstruction."
+      },
+      {
+       "stem": "Current GINA guidance advises that adults with asthma should not be treated with:",
+       "options": [
+        "Inhaled steroids",
+        "Spacers",
+        "Written action plans",
+        "ICS–formoterol",
+        "SABA alone without an inhaled corticosteroid"
+       ],
+       "answerIndex": 4,
+       "explanation": "SABA-only treatment increases severe attacks and death."
+      },
+      {
+       "stem": "A life-threatening feature of acute asthma is:",
+       "options": [
+        "Wheeze",
+        "PEF of 70%",
+        "Respiratory rate of 20",
+        "Ability to talk in sentences",
+        "Silent chest"
+       ],
+       "answerIndex": 4,
+       "explanation": "Little air movement indicates severe obstruction."
+      },
+      {
+       "stem": "The most common cause of community-acquired pneumonia is:",
+       "options": [
+        "Pseudomonas",
+        "Mycoplasma",
+        "Staphylococcus aureus",
+        "Klebsiella pneumoniae",
+        "Streptococcus pneumoniae"
+       ],
+       "answerIndex": 4,
+       "explanation": "Pneumococcus predominates."
+      },
+      {
+       "stem": "A CURB-65 score of 3 or more indicates:",
+       "options": [
+        "Severe pneumonia needing hospital and possibly ICU care",
+        "Home treatment",
+        "Viral infection",
+        "No pneumonia",
+        "Tuberculosis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mortality risk is high."
+      },
+      {
+       "stem": "Which is a CURB-65 criterion?",
+       "options": [
+        "Temperature > 39 °C",
+        "Respiratory rate ≥ 30",
+        "Sputum colour",
+        "WBC > 15",
+        "Heart rate > 100"
+       ],
+       "answerIndex": 1,
+       "explanation": "Plus confusion, urea, BP and age."
+      },
+      {
+       "stem": "Aspiration pneumonia most commonly affects the:",
+       "options": [
+        "Left upper lobe",
+        "Lingula",
+        "Apex of both lungs",
+        "Right lower lobe",
+        "Left lower lobe only"
+       ],
+       "answerIndex": 3,
+       "explanation": "The right main bronchus is straighter and wider."
+      },
+      {
+       "stem": "A common cause of COPD among non-smoking Nigerian women is:",
+       "options": [
+        "Diabetes",
+        "Air conditioning",
+        "Hypertension",
+        "Asthma medication",
+        "Biomass cooking smoke exposure"
+       ],
+       "answerIndex": 4,
+       "explanation": "Indoor air pollution damages the lungs."
+      }
+     ]
+    },
+    {
+     "title": "Tuberculosis and Pleural Disease",
+     "order": 5,
+     "summary": "Pulmonary and extrapulmonary TB, TB–HIV, drug-resistant TB, pleural effusion and pneumothorax.",
+     "material": [
+      {
+       "heading": "Tuberculosis",
+       "body": "Nigeria has one of the highest TB burdens globally and the highest in Africa, with many undiagnosed cases. Pulmonary TB: cough > 2 weeks, fever, night sweats, weight loss and haemoptysis; chest X-ray shows upper-lobe infiltrates and cavities (atypical in HIV). Diagnosis: Xpert MTB/RIF Ultra on sputum (first-line in Nigeria), smear microscopy (ZN), culture (gold standard; drug susceptibility testing), urine LAM in advanced HIV. Extrapulmonary TB: lymph nodes (commonest), pleura, spine (Pott's disease), abdomen, meninges and pericardium. Treatment: 2HRZE/4HR (6 months); longer for TB meningitis and spinal TB, with steroids in meningitis and pericarditis. Drug-resistant TB (rifampicin-resistant/MDR) uses all-oral short regimens (BPaLM). TB–HIV: test all TB patients for HIV; start ART within 2 weeks of TB treatment (delay 4–8 weeks in TB meningitis because of IRIS risk); give TB preventive therapy to eligible people living with HIV and household contacts.",
+       "keyPoints": [
+        "Nigeria: highest TB burden in Africa",
+        "Cough > 2 weeks",
+        "Xpert MTB/RIF first-line",
+        "Lymph node TB commonest extrapulmonary",
+        "2HRZE/4HR",
+        "ART within 2 weeks (not meningitis)"
+       ]
+      },
+      {
+       "heading": "Pleural disease",
+       "body": "Pleural effusion: dullness to percussion ('stony dull'), reduced breath sounds and vocal resonance. Light's criteria distinguish exudates (pleural fluid protein/serum protein > 0.5, LDH ratio > 0.6, or pleural LDH > two-thirds of the upper limit of normal serum LDH) from transudates. Transudates: heart failure, cirrhosis, nephrotic syndrome, hypoalbuminaemia. Exudates: TB (commonest in Nigeria — lymphocytic, high adenosine deaminase), parapneumonic effusion/empyema (pus, low pH < 7.2 and low glucose — drain), malignancy (breast, lung, lymphoma — often bloody). Diagnostic tap sends fluid for protein, LDH, glucose, pH, cells, Gram and ZN stains, culture and cytology; pleural biopsy may be needed. Pneumothorax: primary spontaneous (tall thin young men), secondary (COPD, TB, PCP), traumatic and tension (emergency — needle decompression then chest drain); small pneumothoraces may be observed, larger or symptomatic ones aspirated or drained.",
+       "keyPoints": [
+        "Stony dull percussion",
+        "Light's criteria: exudate vs transudate",
+        "TB effusion: lymphocytic, high ADA",
+        "Empyema: pH < 7.2 → drain",
+        "Tension pneumothorax: emergency"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first-line diagnostic test for pulmonary TB in Nigeria is:",
+       "options": [
+        "ESR",
+        "Chest X-ray alone",
+        "Widal test",
+        "Mantoux test",
+        "Xpert MTB/RIF (Ultra) on sputum"
+       ],
+       "answerIndex": 4,
+       "explanation": "It also detects rifampicin resistance."
+      },
+      {
+       "stem": "The most common site of extrapulmonary tuberculosis is:",
+       "options": [
+        "Skin",
+        "Lymph nodes",
+        "Brain",
+        "Kidney",
+        "Spine"
+       ],
+       "answerIndex": 1,
+       "explanation": "Cervical lymphadenitis is typical."
+      },
+      {
+       "stem": "Standard treatment for drug-susceptible TB lasts:",
+       "options": [
+        "2 weeks",
+        "6 months",
+        "2 years",
+        "1 month",
+        "9 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "2 months intensive plus 4 months continuation."
+      },
+      {
+       "stem": "In an HIV-positive patient with pulmonary TB, ART should generally be started:",
+       "options": [
+        "Only if CD4 < 50",
+        "Never",
+        "Before TB treatment",
+        "Within 2 weeks of starting TB treatment",
+        "After finishing TB treatment"
+       ],
+       "answerIndex": 3,
+       "explanation": "Earlier ART reduces mortality (except TB meningitis)."
+      },
+      {
+       "stem": "A pleural fluid with protein ratio > 0.5 relative to serum is classified as:",
+       "options": [
+        "Exudate",
+        "Transudate",
+        "Haemothorax",
+        "Normal",
+        "Chylothorax always"
+       ],
+       "answerIndex": 0,
+       "explanation": "Light's criteria."
+      },
+      {
+       "stem": "The commonest cause of exudative pleural effusion in Nigeria is:",
+       "options": [
+        "Tuberculosis",
+        "Hypothyroidism",
+        "Cirrhosis",
+        "Heart failure",
+        "Nephrotic syndrome"
+       ],
+       "answerIndex": 0,
+       "explanation": "TB effusions are lymphocytic."
+      },
+      {
+       "stem": "A parapneumonic effusion with pH below 7.2 requires:",
+       "options": [
+        "Diuretics",
+        "Chest drain insertion",
+        "Observation only",
+        "Discharge",
+        "Steroids"
+       ],
+       "answerIndex": 1,
+       "explanation": "It indicates complicated effusion/empyema."
+      },
+      {
+       "stem": "Tracheal deviation away from the affected side with hypotension after trauma suggests:",
+       "options": [
+        "Simple pneumothorax",
+        "Lung collapse",
+        "Pleural effusion",
+        "Tension pneumothorax",
+        "Pneumonia"
+       ],
+       "answerIndex": 3,
+       "explanation": "It needs immediate decompression."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

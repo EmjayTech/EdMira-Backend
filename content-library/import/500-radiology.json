@@ -1,0 +1,666 @@
+{
+ "courses": [
+  {
+   "title": "Clinical Radiology",
+   "code": "RAD501",
+   "color": "#4338CA",
+   "description": "Choosing and interpreting imaging: chest and abdominal radiographs, musculoskeletal imaging, neuroimaging, emergency and interventional radiology, and radiation protection for clinicians.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Radiography"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Chest Radiograph Interpretation",
+     "order": 1,
+     "summary": "Systematic review, common patterns: consolidation, collapse, effusion, pneumothorax, TB and heart failure.",
+     "material": [
+      {
+       "heading": "Systematic approach",
+       "body": "Check patient details, date, projection (PA preferred — AP magnifies the heart), rotation (spinous processes midway between the clavicle heads), inspiration (about 6 anterior or 10 posterior ribs above the diaphragm) and penetration. Then review: airway (trachea central), breathing (lung fields, pleura, costophrenic angles), cardiac (cardiothoracic ratio > 0.5 on PA suggests cardiomegaly; borders), diaphragm (right usually higher; free air under the diaphragm), and everything else — bones, soft tissues, lines and tubes, and 'review areas' (apices, behind the heart, hila, below the diaphragm). The silhouette sign: loss of a normal border indicates adjacent pathology (right heart border — right middle lobe; left heart border — lingula; hemidiaphragm — lower lobe).",
+       "keyPoints": [
+        "PA preferred; AP magnifies heart",
+        "Rotation, inspiration, penetration",
+        "ABCDE approach",
+        "CTR > 0.5: cardiomegaly",
+        "Silhouette sign localises",
+        "Review areas"
+       ]
+      },
+      {
+       "heading": "Common patterns",
+       "body": "Consolidation: airspace opacification with air bronchograms (pneumonia). Collapse (atelectasis): volume loss with displacement of fissures, trachea and mediastinum towards the affected side (e.g. sail sign of left lower lobe collapse behind the heart). Pleural effusion: blunted costophrenic angle, meniscus sign; large effusions push the mediastinum away. Pneumothorax: visible pleural edge without lung markings beyond; tension pneumothorax shifts the mediastinum away (clinical diagnosis — don't wait for X-ray). Pulmonary TB: upper-zone infiltrates, cavitation, fibrosis with volume loss, hilar lymphadenopathy (primary), miliary pattern (tiny nodules throughout — disseminated); atypical appearances in HIV. Heart failure: cardiomegaly, upper lobe venous diversion, Kerley B lines, bat-wing alveolar oedema and effusions (ABCDE mnemonic: Alveolar oedema, kerley B lines, Cardiomegaly, Dilated upper lobe vessels, Effusions). Mass lesions: lung cancer, metastases ('cannonball'), and pneumoconiosis in miners.",
+       "keyPoints": [
+        "Consolidation: air bronchograms",
+        "Collapse: shift towards",
+        "Effusion: meniscus; shift away",
+        "Tension pneumothorax: clinical diagnosis",
+        "TB: upper zone, cavities, miliary",
+        "Heart failure ABCDE"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The preferred chest X-ray projection for assessing heart size is:",
+       "options": [
+        "PA erect",
+        "Lordotic",
+        "Lateral decubitus",
+        "AP supine",
+        "Oblique"
+       ],
+       "answerIndex": 0,
+       "explanation": "AP views magnify the heart."
+      },
+      {
+       "stem": "A cardiothoracic ratio above what value on a PA film suggests cardiomegaly?",
+       "options": [
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.7",
+        "0.9"
+       ],
+       "answerIndex": 2,
+       "explanation": "Measure maximum cardiac and thoracic widths."
+      },
+      {
+       "stem": "Loss of the right heart border on a PA chest X-ray suggests pathology in the:",
+       "options": [
+        "Right lower lobe",
+        "Left lower lobe",
+        "Right upper lobe",
+        "Lingula",
+        "Right middle lobe"
+       ],
+       "answerIndex": 4,
+       "explanation": "The silhouette sign."
+      },
+      {
+       "stem": "Air bronchograms within an area of opacification indicate:",
+       "options": [
+        "Consolidation",
+        "Collapse always",
+        "Pleural effusion",
+        "Pneumothorax",
+        "Emphysema"
+       ],
+       "answerIndex": 0,
+       "explanation": "Air-filled bronchi are outlined by fluid-filled alveoli."
+      },
+      {
+       "stem": "In lobar collapse, the trachea and mediastinum shift:",
+       "options": [
+        "Away from the affected side",
+        "Towards the affected side",
+        "Not at all",
+        "Upwards only",
+        "Downwards"
+       ],
+       "answerIndex": 1,
+       "explanation": "Volume loss pulls structures across."
+      },
+      {
+       "stem": "Numerous tiny nodules evenly distributed throughout both lungs suggest:",
+       "options": [
+        "Asthma",
+        "Pneumothorax",
+        "Miliary tuberculosis",
+        "Lobar pneumonia",
+        "Pleural effusion"
+       ],
+       "answerIndex": 2,
+       "explanation": "Haematogenous dissemination."
+      },
+      {
+       "stem": "Kerley B lines, upper lobe diversion and bat-wing shadowing suggest:",
+       "options": [
+        "Pneumothorax",
+        "Lung cancer",
+        "Pneumonia",
+        "Pulmonary oedema from heart failure",
+        "Tuberculosis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Interstitial and alveolar oedema."
+      },
+      {
+       "stem": "A suspected tension pneumothorax should be:",
+       "options": [
+        "Ignored if the patient talks",
+        "Confirmed by chest X-ray before treatment",
+        "Imaged with CT first",
+        "Observed",
+        "Treated immediately on clinical grounds"
+       ],
+       "answerIndex": 4,
+       "explanation": "Delay can be fatal."
+      }
+     ]
+    },
+    {
+     "title": "Abdominal and Genitourinary Imaging",
+     "order": 2,
+     "summary": "Abdominal X-rays, ultrasound and CT in the acute abdomen, urinary tract imaging.",
+     "material": [
+      {
+       "heading": "Acute abdomen",
+       "body": "An erect chest X-ray shows free intraperitoneal air under the diaphragm (perforated viscus — peptic ulcer, typhoid perforation). The supine abdominal X-ray assesses bowel obstruction (dilated small bowel > 3 cm with valvulae conniventes, centrally; large bowel > 6 cm (caecum > 9 cm) with haustra, peripherally), volvulus (sigmoid — coffee bean; caecal), and some stones and calcifications (about 90% of renal stones are radio-opaque; gallstones mostly not). Rigler's sign (both sides of the bowel wall visible) indicates pneumoperitoneum. Ultrasound is first-line for right upper quadrant pain (gallstones, cholecystitis), pelvic pain in women (ectopic pregnancy, ovarian pathology), children (intussusception — target sign; appendicitis) and the FAST scan in trauma. CT abdomen/pelvis with contrast is the most useful test for undifferentiated acute abdomen in adults (appendicitis, diverticulitis, perforation, abscess, pancreatitis complications, bowel ischaemia, and cancer staging).",
+       "keyPoints": [
+        "Erect CXR: free air",
+        "SB > 3 cm; LB > 6 cm; caecum > 9 cm",
+        "Rigler's sign",
+        "US first: RUQ, pelvis, children",
+        "CT: undifferentiated adult acute abdomen"
+       ]
+      },
+      {
+       "heading": "Urinary tract",
+       "body": "Renal colic: non-contrast CT KUB is the most sensitive test (detects nearly all stones); ultrasound (hydronephrosis) is preferred in pregnancy and children. Ultrasound assesses kidney size and echogenicity (small echogenic kidneys — chronic kidney disease), hydronephrosis, cysts and masses, bladder (wall thickening and calcification in schistosomiasis; post-void residual) and prostate volume. Intravenous urography (IVU) is largely replaced by CT urography (haematuria workup — urothelial tumours). Micturating cystourethrography (MCU) shows vesicoureteric reflux and posterior urethral valves in boys; retrograde urethrography (RUG) evaluates urethral strictures (common in Nigerian men) and trauma. Contrast safety: check renal function and allergy history before iodinated contrast.",
+       "keyPoints": [
+        "CT KUB for stones",
+        "US in pregnancy/children",
+        "Small echogenic kidneys: CKD",
+        "Bladder calcification: schistosomiasis",
+        "MCU: reflux, PUV",
+        "RUG: urethral stricture"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Free air under the diaphragm is best seen on an:",
+       "options": [
+        "Erect chest X-ray",
+        "Ultrasound of the thyroid",
+        "Supine abdominal X-ray",
+        "Lateral skull X-ray",
+        "Pelvic X-ray"
+       ],
+       "answerIndex": 0,
+       "explanation": "Air rises to the highest point."
+      },
+      {
+       "stem": "On an abdominal X-ray, small bowel is considered dilated when its diameter exceeds:",
+       "options": [
+        "1 cm",
+        "3 cm",
+        "6 cm",
+        "9 cm",
+        "12 cm"
+       ],
+       "answerIndex": 1,
+       "explanation": "Large bowel > 6 cm, caecum > 9 cm."
+      },
+      {
+       "stem": "Mucosal folds that cross the full width of dilated bowel (valvulae conniventes) identify:",
+       "options": [
+        "Small bowel",
+        "Large bowel",
+        "Rectum",
+        "Stomach",
+        "Oesophagus"
+       ],
+       "answerIndex": 0,
+       "explanation": "Haustra only partly cross the large bowel."
+      },
+      {
+       "stem": "The first imaging test for right upper quadrant pain suggestive of cholecystitis is:",
+       "options": [
+        "CT",
+        "MRI",
+        "Plain X-ray",
+        "Barium meal",
+        "Ultrasound"
+       ],
+       "answerIndex": 4,
+       "explanation": "It detects gallstones and wall thickening."
+      },
+      {
+       "stem": "The most sensitive imaging test for suspected ureteric stones in adults is:",
+       "options": [
+        "Plain KUB",
+        "Ultrasound always",
+        "IVU",
+        "Non-contrast CT KUB",
+        "MRI"
+       ],
+       "answerIndex": 3,
+       "explanation": "It detects nearly all stones."
+      },
+      {
+       "stem": "The preferred imaging for suspected renal colic in pregnancy is:",
+       "options": [
+        "Ultrasound",
+        "CT KUB",
+        "Plain X-ray",
+        "IVU",
+        "Nuclear scan"
+       ],
+       "answerIndex": 0,
+       "explanation": "It avoids ionising radiation."
+      },
+      {
+       "stem": "Urethral stricture is best demonstrated with:",
+       "options": [
+        "Chest X-ray",
+        "Retrograde urethrography",
+        "Ultrasound of the kidneys",
+        "CT head",
+        "MCU only"
+       ],
+       "answerIndex": 1,
+       "explanation": "Contrast is injected retrogradely."
+      },
+      {
+       "stem": "Bladder wall calcification in a young man from northern Nigeria suggests:",
+       "options": [
+        "Chronic schistosomiasis",
+        "Prostate cancer",
+        "Tuberculosis only",
+        "Kidney stones",
+        "Normal ageing"
+       ],
+       "answerIndex": 0,
+       "explanation": "S. haematobium eggs calcify in the bladder wall."
+      }
+     ]
+    },
+    {
+     "title": "Musculoskeletal Imaging",
+     "order": 3,
+     "summary": "Fracture imaging, bone infections and tumours, sickle cell bone disease and spine imaging.",
+     "material": [
+      {
+       "heading": "Trauma and infection",
+       "body": "Fracture imaging requires two views at right angles and inclusion of the joints above and below (rule of twos: two views, two joints, two occasions if needed, two limbs in children for comparison). Some fractures are occult initially (scaphoid, hip — MRI or CT). Paediatric fractures: greenstick, buckle (torus), and growth plate injuries (Salter–Harris classification I–V; higher grades risk growth disturbance). Osteomyelitis: plain films are normal for the first 10–14 days, then show periosteal reaction, lytic areas, sequestrum (dense dead bone) and involucrum (new bone); MRI detects early changes. Septic arthritis: ultrasound shows effusion to guide aspiration. Sickle cell bone disease: avascular necrosis of the femoral head (flattening, sclerosis), H-shaped vertebrae, bone infarcts, dactylitis in infants and Salmonella osteomyelitis. Spinal TB (Pott's disease): disc space narrowing with destruction of adjacent vertebral end plates, paravertebral abscess and gibbus — MRI is best.",
+       "keyPoints": [
+        "Two views, two joints",
+        "Occult scaphoid/hip: MRI",
+        "Salter–Harris I–V",
+        "Osteomyelitis: X-ray normal first 10–14 days",
+        "Sickle: AVN, H-shaped vertebrae",
+        "Pott's: disc involvement"
+       ]
+      },
+      {
+       "heading": "Bone tumours and metabolic disease",
+       "body": "Features of aggressive bone lesions: wide zone of transition, permeative or moth-eaten destruction, cortical breakthrough, aggressive periosteal reaction (sunburst, Codman's triangle, onion-skin) and soft-tissue mass. Primary tumours by age: osteosarcoma (adolescents, metaphysis around the knee — sunburst and Codman's triangle), Ewing sarcoma (children, diaphysis — onion-skin periosteal reaction), giant cell tumour (young adults, epiphysis extending to articular surface), and multiple myeloma (older adults — punched-out lytic lesions, 'pepper-pot' skull). Metastases (breast, prostate — sclerotic; lung, kidney, thyroid — lytic) are the commonest bone tumours in adults; bone scintigraphy detects them. Rickets: cupped, frayed metaphyses and widened growth plates; osteoporosis: reduced density and fragility fractures (DEXA). Burkitt lymphoma causes jaw bone destruction with loss of lamina dura in children.",
+       "keyPoints": [
+        "Aggressive lesion features",
+        "Osteosarcoma: sunburst, Codman's",
+        "Ewing: onion-skin",
+        "Myeloma: punched-out, pepper-pot skull",
+        "Prostate mets: sclerotic",
+        "Rickets: cupped, frayed metaphyses"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The 'rule of twos' for fracture imaging includes two views and imaging of:",
+       "options": [
+        "Two radiologists",
+        "Two patients",
+        "Two days only",
+        "Two hospitals",
+        "The joints above and below"
+       ],
+       "answerIndex": 4,
+       "explanation": "Associated injuries may be missed otherwise."
+      },
+      {
+       "stem": "A suspected scaphoid fracture with a normal initial X-ray should be:",
+       "options": [
+        "Treated clinically and further imaged (MRI or repeat X-ray)",
+        "Ignored",
+        "Operated immediately",
+        "Treated with physiotherapy only",
+        "Discharged"
+       ],
+       "answerIndex": 0,
+       "explanation": "Occult scaphoid fractures risk avascular necrosis."
+      },
+      {
+       "stem": "Plain radiographs in acute osteomyelitis typically become abnormal after about:",
+       "options": [
+        "Never",
+        "6 months",
+        "1 hour",
+        "10–14 days",
+        "1 day"
+       ],
+       "answerIndex": 3,
+       "explanation": "MRI detects earlier changes."
+      },
+      {
+       "stem": "H-shaped vertebrae are characteristic of:",
+       "options": [
+        "Rickets",
+        "Ankylosing spondylitis",
+        "Sickle cell disease",
+        "Pott's disease",
+        "Osteoporosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Central end-plate infarction."
+      },
+      {
+       "stem": "A 'sunburst' periosteal reaction and Codman's triangle around the knee in a teenager suggest:",
+       "options": [
+        "Osteosarcoma",
+        "Giant cell tumour",
+        "Ewing sarcoma",
+        "Osteomyelitis only",
+        "Myeloma"
+       ],
+       "answerIndex": 0,
+       "explanation": "Osteosarcoma is commonest around the knee."
+      },
+      {
+       "stem": "An 'onion-skin' periosteal reaction in the diaphysis of a child's femur suggests:",
+       "options": [
+        "Ewing sarcoma",
+        "Myeloma",
+        "Fracture",
+        "Osteosarcoma",
+        "Rickets"
+       ],
+       "answerIndex": 0,
+       "explanation": "Layered periosteal new bone."
+      },
+      {
+       "stem": "Punched-out lytic lesions in the skull of an older adult suggest:",
+       "options": [
+        "Multiple myeloma",
+        "Osteoporosis",
+        "Rickets",
+        "Paget's disease",
+        "Prostate metastases"
+       ],
+       "answerIndex": 0,
+       "explanation": "The 'pepper-pot' skull."
+      },
+      {
+       "stem": "Sclerotic bone metastases are typically from carcinoma of the:",
+       "options": [
+        "Kidney",
+        "Liver",
+        "Thyroid",
+        "Prostate",
+        "Lung always"
+       ],
+       "answerIndex": 3,
+       "explanation": "Breast can be mixed."
+      }
+     ]
+    },
+    {
+     "title": "Neuroimaging and Emergency Radiology",
+     "order": 4,
+     "summary": "CT in head injury and stroke, MRI indications, and imaging in trauma.",
+     "material": [
+      {
+       "heading": "Neuroimaging",
+       "body": "Non-contrast CT head is the first test for head injury, suspected stroke, subarachnoid haemorrhage, and acute neurological deterioration. Acute blood is hyperdense: extradural haematoma (biconvex, limited by sutures), subdural haematoma (crescentic, crosses sutures; chronic subdurals are hypodense), subarachnoid haemorrhage (blood in cisterns and sulci), and intracerebral haemorrhage. Early ischaemic stroke may be normal or show subtle loss of grey–white differentiation and a hyperdense artery sign; infarcts become hypodense after 24 hours. Signs of raised intracranial pressure: effaced sulci and cisterns, midline shift, hydrocephalus. CT indications after head injury include GCS < 13 initially or < 15 at 2 hours, suspected skull fracture, seizures, vomiting more than once, focal deficit, and anticoagulation. MRI is superior for posterior fossa lesions, demyelination, tumours, infection (abscess, encephalitis), spinal cord compression and early stroke (diffusion-weighted imaging). Ring-enhancing lesions: abscess, toxoplasmosis, tuberculoma, metastases and glioma.",
+       "keyPoints": [
+        "Acute blood hyperdense",
+        "EDH biconvex; SDH crescentic",
+        "Early stroke CT may be normal",
+        "Raised ICP signs",
+        "MRI: posterior fossa, cord, DWI",
+        "Ring-enhancing lesion differentials"
+       ]
+      },
+      {
+       "heading": "Trauma and emergency imaging",
+       "body": "In major trauma, imaging supports but must not delay resuscitation: chest and pelvic X-rays and FAST in the resuscitation room, then whole-body CT ('trauma CT') for stable patients. Cervical spine imaging: CT is preferred in adults with high-risk mechanisms; clinical decision rules (NEXUS, Canadian C-spine rule) identify who needs imaging. Lateral C-spine X-ray must show C1 to the C7/T1 junction. Pelvic fractures (open-book) cause major haemorrhage — pelvic binder. Aortic injury (widened mediastinum). CT angiography identifies active bleeding; interventional radiology can embolise bleeding vessels (splenic, pelvic, bronchial arteries for haemoptysis, postpartum haemorrhage). Other interventional procedures: image-guided biopsies and drainages (liver abscess, empyema, obstructed kidney — nephrostomy), angioplasty and stenting, TIPS, and biliary drainage. Nigeria has growing but limited interventional radiology capacity.",
+       "keyPoints": [
+        "Imaging must not delay resuscitation",
+        "FAST + CXR + pelvic XR",
+        "C-spine: CT; NEXUS/Canadian rule",
+        "C1 to C7/T1",
+        "Embolisation for bleeding",
+        "Image-guided drainage"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Acute haemorrhage on non-contrast CT appears:",
+       "options": [
+        "Black like air",
+        "Hypodense (dark)",
+        "Hyperdense (bright)",
+        "Isodense always",
+        "Invisible"
+       ],
+       "answerIndex": 2,
+       "explanation": "Blood becomes isodense then hypodense over weeks."
+      },
+      {
+       "stem": "A crescent-shaped collection that crosses suture lines is a:",
+       "options": [
+        "Subdural haematoma",
+        "Brain abscess",
+        "Subarachnoid haemorrhage",
+        "Extradural haematoma",
+        "Tumour"
+       ],
+       "answerIndex": 0,
+       "explanation": "EDHs are biconvex and limited by sutures."
+      },
+      {
+       "stem": "A CT scan in a patient 2 hours after ischaemic stroke onset may:",
+       "options": [
+        "Appear normal or show subtle early signs",
+        "Show bright blood",
+        "Show calcification",
+        "Always show clear hypodensity",
+        "Show air"
+       ],
+       "answerIndex": 0,
+       "explanation": "Infarcts become obvious after about 24 hours."
+      },
+      {
+       "stem": "The imaging modality of choice for suspected spinal cord compression is:",
+       "options": [
+        "Plain X-ray",
+        "Bone scan",
+        "MRI",
+        "CT head",
+        "Ultrasound"
+       ],
+       "answerIndex": 2,
+       "explanation": "It shows the cord and soft tissues."
+      },
+      {
+       "stem": "A ring-enhancing brain lesion in an HIV-positive Nigerian patient may be:",
+       "options": [
+        "Normal anatomy",
+        "Stroke always",
+        "Migraine",
+        "Toxoplasmosis, tuberculoma or abscess",
+        "Only a tumour"
+       ],
+       "answerIndex": 3,
+       "explanation": "Several infections produce ring enhancement."
+      },
+      {
+       "stem": "An adequate lateral cervical spine X-ray must show:",
+       "options": [
+        "C1 to the C7/T1 junction",
+        "Only C2",
+        "The skull only",
+        "C1 to C5",
+        "The lumbar spine"
+       ],
+       "answerIndex": 0,
+       "explanation": "Injuries at C7 are otherwise missed."
+      },
+      {
+       "stem": "A widened mediastinum after a high-speed road crash suggests:",
+       "options": [
+        "Heart failure",
+        "Traumatic aortic injury",
+        "Pneumonia",
+        "Rib fracture only",
+        "Pneumothorax"
+       ],
+       "answerIndex": 1,
+       "explanation": "Confirm with CT angiography."
+      },
+      {
+       "stem": "Interventional radiology can control haemorrhage by:",
+       "options": [
+        "Transcatheter embolisation of bleeding vessels",
+        "Plain X-ray",
+        "MRI scanning",
+        "Ultrasound gel",
+        "Barium enema"
+       ],
+       "answerIndex": 0,
+       "explanation": "Used in pelvic, splenic and postpartum bleeding."
+      }
+     ]
+    },
+    {
+     "title": "Choosing Imaging Wisely and Radiation Protection",
+     "order": 5,
+     "summary": "Appropriate requests, radiation doses, imaging in pregnancy and children, and contrast safety.",
+     "material": [
+      {
+       "heading": "Appropriate imaging",
+       "body": "A good imaging request states the clinical question, relevant history and examination, and how the result will change management. Justification is the first principle of radiation protection: an exposure must do more good than harm. Choose the test that answers the question with least radiation — ultrasound and MRI use no ionising radiation. Referral guidelines (e.g. iRefer, ACR Appropriateness Criteria) help clinicians choose. Unnecessary imaging (e.g. routine skull X-rays for head injury — CT is better; lumbar spine X-rays in non-specific back pain without red flags) wastes resources and exposes patients. Approximate effective doses: chest X-ray 0.02 mSv (a few days of background radiation), lumbar spine X-ray ~1 mSv, CT head ~2 mSv, CT abdomen–pelvis ~8–10 mSv (years of background); natural background is about 2–3 mSv per year. Radiation risk (stochastic — cancer) is higher in children.",
+       "keyPoints": [
+        "Request: clinical question",
+        "Justification first",
+        "US and MRI: no ionising radiation",
+        "CXR 0.02 mSv; CT abdomen ~10 mSv",
+        "Background 2–3 mSv/year",
+        "Children more sensitive"
+       ]
+      },
+      {
+       "heading": "Special groups and contrast",
+       "body": "Pregnancy: ask all women of reproductive age about pregnancy before abdominal/pelvic exposures (10-day rule/28-day rule practices); prefer ultrasound or MRI; if CT is necessary (e.g. trauma, suspected PE), the benefit usually outweighs the small risk — doses below 50–100 mGy are not associated with fetal malformations. Children: use child-sized protocols (ALARA — as low as reasonably achievable), ultrasound first where possible. Iodinated contrast: check renal function (eGFR), history of prior reactions, asthma and metformin use; hydrate at-risk patients; manage reactions (anaphylaxis — IM adrenaline). Gadolinium in MRI: caution in severe renal impairment (nephrogenic systemic fibrosis). Clinicians should also protect themselves in fluoroscopy (lead aprons, distance, shielding) and follow NNRA regulations.",
+       "keyPoints": [
+        "Ask about pregnancy",
+        "Fetal doses < 50–100 mGy: no malformations",
+        "ALARA for children",
+        "Check eGFR before contrast",
+        "Anaphylaxis: IM adrenaline",
+        "Gadolinium: NSF risk"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first principle of radiation protection, requiring that an exposure does more good than harm, is:",
+       "options": [
+        "Distance",
+        "Shielding",
+        "Optimisation",
+        "Dose limitation",
+        "Justification"
+       ],
+       "answerIndex": 4,
+       "explanation": "Every exposure must be justified."
+      },
+      {
+       "stem": "Which imaging modality does NOT use ionising radiation?",
+       "options": [
+        "Plain radiography",
+        "CT",
+        "Fluoroscopy",
+        "Ultrasound",
+        "Nuclear medicine"
+       ],
+       "answerIndex": 3,
+       "explanation": "MRI also avoids ionising radiation."
+      },
+      {
+       "stem": "A chest X-ray delivers an effective dose of about:",
+       "options": [
+        "0.02 mSv",
+        "2 mSv",
+        "10 mSv",
+        "50 mSv",
+        "100 mSv"
+       ],
+       "answerIndex": 0,
+       "explanation": "Equivalent to a few days of background radiation."
+      },
+      {
+       "stem": "Which examination delivers the highest radiation dose?",
+       "options": [
+        "Chest X-ray",
+        "CT abdomen and pelvis",
+        "MRI",
+        "Ultrasound",
+        "Hand X-ray"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 8–10 mSv."
+      },
+      {
+       "stem": "Lumbar spine X-rays for acute non-specific back pain without red flags are:",
+       "options": [
+        "Better than MRI",
+        "Required by law",
+        "Always required",
+        "The first test for cauda equina",
+        "Generally unnecessary"
+       ],
+       "answerIndex": 4,
+       "explanation": "They rarely change management."
+      },
+      {
+       "stem": "The preferred imaging for abdominal pain in a pregnant woman is usually:",
+       "options": [
+        "Nuclear scan",
+        "Barium study",
+        "CT",
+        "Ultrasound (or MRI)",
+        "Plain abdominal X-ray"
+       ],
+       "answerIndex": 3,
+       "explanation": "They avoid ionising radiation."
+      },
+      {
+       "stem": "Before giving iodinated contrast, clinicians should check:",
+       "options": [
+        "Blood group",
+        "Hearing",
+        "Height",
+        "Vision",
+        "Renal function and previous contrast reactions"
+       ],
+       "answerIndex": 4,
+       "explanation": "To reduce contrast-associated kidney injury and reactions."
+      },
+      {
+       "stem": "ALARA stands for:",
+       "options": [
+        "All Lesions Are Radiologically Apparent",
+        "Avoid Lead Aprons Regularly Always",
+        "As Low As Reasonably Achievable",
+        "Assess Late Adverse Reactions Actively",
+        "Always Look At Radiographs Again"
+       ],
+       "answerIndex": 2,
+       "explanation": "It guides dose optimisation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

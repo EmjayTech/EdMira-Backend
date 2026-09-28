@@ -1,0 +1,666 @@
+{
+ "courses": [
+  {
+   "title": "Periodontology and Community Dentistry",
+   "code": "DEN603",
+   "color": "#0891B2",
+   "description": "Periodontal diseases and their classification, diagnosis and treatment, systemic links, and dental public health, epidemiology and oral health promotion in Nigeria.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Periodontal Disease: Aetiology and Classification",
+     "order": 1,
+     "summary": "Plaque biofilm, host response, risk factors, and the 2017 classification.",
+     "material": [
+      {
+       "heading": "Aetiology",
+       "body": "Periodontal diseases are initiated by dental plaque biofilm; a dysbiotic microbiome (keystone pathogen Porphyromonas gingivalis; red complex — P. gingivalis, Treponema denticola, Tannerella forsythia; Aggregatibacter actinomycetemcomitans in molar–incisor pattern disease) triggers a host inflammatory response that causes most of the tissue destruction (MMPs, cytokines, osteoclast activation via RANKL). Gingivitis (inflammation confined to the gingiva — bleeding on probing, redness, swelling) is reversible with plaque control. Periodontitis involves loss of connective tissue attachment and alveolar bone, pocket formation, gingival recession, mobility and eventual tooth loss; it is not reversible but can be arrested. Risk factors: smoking (the strongest modifiable factor; masks bleeding), diabetes (bidirectional relationship), genetics, stress, HIV, pregnancy (pregnancy gingivitis) and medications (gingival overgrowth — phenytoin, ciclosporin, calcium channel blockers). Local factors: calculus, overhanging restorations and crowding retain plaque.",
+       "keyPoints": [
+        "Plaque biofilm initiates",
+        "Red complex; P. gingivalis keystone",
+        "Host response causes destruction",
+        "Gingivitis reversible",
+        "Periodontitis: attachment and bone loss",
+        "Smoking and diabetes"
+       ]
+      },
+      {
+       "heading": "Classification",
+       "body": "The 2017 World Workshop classification: periodontal health; gingivitis (plaque-induced and non-plaque-induced); periodontitis — staged by severity and complexity (Stage I–IV: interdental clinical attachment loss, radiographic bone loss, tooth loss due to periodontitis, complexity factors) and graded by rate of progression and risk (Grade A slow, B moderate, C rapid — using bone loss/age ratio, smoking and diabetes modifiers); extent (localised < 30% of teeth, generalised, or molar–incisor pattern — formerly aggressive periodontitis, which is relatively common in young West Africans); necrotising periodontal diseases (NG, NP, necrotising stomatitis — associated with HIV, malnutrition and stress); periodontitis as a manifestation of systemic disease; and peri-implant health, mucositis and peri-implantitis. Periodontal abscesses and endo–perio lesions are also classified.",
+       "keyPoints": [
+        "2017 classification",
+        "Stage I–IV: severity",
+        "Grade A–C: progression",
+        "Molar–incisor pattern in young West Africans",
+        "Necrotising periodontal diseases",
+        "Peri-implantitis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The keystone pathogen in periodontitis is:",
+       "options": [
+        "Porphyromonas gingivalis",
+        "Staphylococcus aureus",
+        "Candida albicans",
+        "Streptococcus mutans",
+        "Lactobacillus"
+       ],
+       "answerIndex": 0,
+       "explanation": "It disrupts host–microbe balance."
+      },
+      {
+       "stem": "Most tissue destruction in periodontitis is caused by:",
+       "options": [
+        "Direct bacterial toxins only",
+        "The host inflammatory response",
+        "Fluoride",
+        "Brushing",
+        "Calculus mechanically"
+       ],
+       "answerIndex": 1,
+       "explanation": "Cytokines and MMPs destroy tissues."
+      },
+      {
+       "stem": "Gingivitis differs from periodontitis in that gingivitis:",
+       "options": [
+        "Involves bone loss",
+        "Causes tooth mobility",
+        "Is always painful",
+        "Is reversible with no attachment loss",
+        "Requires surgery"
+       ],
+       "answerIndex": 3,
+       "explanation": "Plaque control resolves it."
+      },
+      {
+       "stem": "The strongest modifiable risk factor for periodontitis is:",
+       "options": [
+        "Fluoride",
+        "Vegetarian diet",
+        "Sugar intake",
+        "Smoking",
+        "Coffee"
+       ],
+       "answerIndex": 3,
+       "explanation": "It also masks gingival bleeding."
+      },
+      {
+       "stem": "In the 2017 classification, the grade of periodontitis describes:",
+       "options": [
+        "The number of teeth",
+        "The rate of progression and risk",
+        "Tooth shape",
+        "The patient's age only",
+        "The pocket colour"
+       ],
+       "answerIndex": 1,
+       "explanation": "Grades A, B and C."
+      },
+      {
+       "stem": "Rapid attachment loss around first molars and incisors in a young West African adolescent suggests:",
+       "options": [
+        "Chronic gingivitis",
+        "Molar–incisor pattern periodontitis (formerly aggressive)",
+        "Peri-implantitis",
+        "Normal",
+        "Drug-induced overgrowth"
+       ],
+       "answerIndex": 1,
+       "explanation": "Aggregatibacter actinomycetemcomitans is implicated."
+      },
+      {
+       "stem": "Diabetes and periodontitis have a:",
+       "options": [
+        "Protective effect",
+        "Relationship only in smokers",
+        "No relationship",
+        "Relationship only in children",
+        "Bidirectional relationship"
+       ],
+       "answerIndex": 4,
+       "explanation": "Treating periodontitis can improve glycaemic control."
+      },
+      {
+       "stem": "Inflammation around a dental implant with bone loss is called:",
+       "options": [
+        "Gingivitis",
+        "Peri-implantitis",
+        "Peri-implant mucositis",
+        "Pericoronitis",
+        "Osteitis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Mucositis has no bone loss."
+      }
+     ]
+    },
+    {
+     "title": "Periodontal Diagnosis and Treatment",
+     "order": 2,
+     "summary": "BPE, charting, radiographs, non-surgical and surgical therapy, and maintenance.",
+     "material": [
+      {
+       "heading": "Diagnosis",
+       "body": "The Basic Periodontal Examination (BPE) screens each sextant with a WHO probe (ball end; black band 3.5–5.5 mm): code 0 (healthy), 1 (bleeding), 2 (calculus or overhang), 3 (black band partly visible — pocket 3.5–5.5 mm), 4 (black band disappears — pocket > 5.5 mm), * (furcation involvement). Codes 3 and 4 lead to detailed charting: probing pocket depths, recession, clinical attachment loss, bleeding on probing, mobility (grades I–III), furcation involvement (grades I–III) and plaque scores. Radiographs (periapicals, bitewings, OPG) show bone loss pattern (horizontal, vertical/angular defects). Diagnosis combines stage, grade and extent; risk factors are recorded. Community Periodontal Index (CPI) is used in epidemiology.",
+       "keyPoints": [
+        "BPE codes 0–4 and *",
+        "WHO probe black band 3.5–5.5 mm",
+        "Code 3/4: full charting",
+        "Clinical attachment loss",
+        "Mobility and furcation grades",
+        "Horizontal vs vertical bone loss"
+       ]
+      },
+      {
+       "heading": "Treatment",
+       "body": "Step 1: patient education and motivation, oral hygiene instruction (modified Bass toothbrushing, interdental brushes — the most effective interdental aid for open spaces, floss), risk factor control (smoking cessation, diabetes control) and supragingival plaque control. Step 2: subgingival instrumentation (root surface debridement/scaling and root planing with hand or ultrasonic instruments), with adjuncts in selected cases (systemic antibiotics such as amoxicillin plus metronidazole for grade C or molar–incisor pattern disease; chlorhexidine mouthwash short-term — stains teeth). Re-evaluation after 3 months. Step 3: periodontal surgery for residual deep pockets (access flap, regenerative procedures with barrier membranes or enamel matrix derivative for vertical defects, resective surgery, gingivectomy for drug-induced overgrowth, root coverage grafts for recession). Step 4: supportive periodontal therapy (maintenance every 3–6 months) — crucial for long-term stability. Tooth loss from periodontitis is common in older Nigerians due to limited access to care.",
+       "keyPoints": [
+        "Step 1: OHI, risk factors",
+        "Interdental brushes",
+        "Step 2: subgingival instrumentation",
+        "Amoxicillin + metronidazole in selected cases",
+        "Re-evaluate at 3 months",
+        "Step 4: maintenance 3–6 monthly"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A BPE code 4 means:",
+       "options": [
+        "Calculus present",
+        "Pocket depth over 5.5 mm (black band disappears)",
+        "Bleeding only",
+        "Healthy gingiva",
+        "Furcation involvement"
+       ],
+       "answerIndex": 1,
+       "explanation": "It requires full periodontal charting."
+      },
+      {
+       "stem": "The black band on the WHO BPE probe spans:",
+       "options": [
+        "0–2 mm",
+        "3.5–5.5 mm",
+        "6–8 mm",
+        "10–12 mm",
+        "1–3 mm"
+       ],
+       "answerIndex": 1,
+       "explanation": "Its visibility determines codes 3 and 4."
+      },
+      {
+       "stem": "Vertical (angular) bony defects may be suitable for:",
+       "options": [
+        "Crown lengthening only",
+        "Extraction only",
+        "Nothing",
+        "Gingivectomy",
+        "Regenerative periodontal surgery"
+       ],
+       "answerIndex": 4,
+       "explanation": "Barrier membranes or enamel matrix derivative can regenerate tissue."
+      },
+      {
+       "stem": "The most effective interdental cleaning aid where spaces allow is the:",
+       "options": [
+        "Mouthwash",
+        "Tongue scraper",
+        "Toothpick",
+        "Water only",
+        "Interdental brush"
+       ],
+       "answerIndex": 4,
+       "explanation": "More effective than floss in open embrasures."
+      },
+      {
+       "stem": "The core of non-surgical periodontal therapy is:",
+       "options": [
+        "Subgingival instrumentation (root surface debridement)",
+        "Extraction of all molars",
+        "Whitening",
+        "Orthodontics",
+        "Antibiotics alone"
+       ],
+       "answerIndex": 0,
+       "explanation": "It disrupts the subgingival biofilm."
+      },
+      {
+       "stem": "A common side effect of long-term chlorhexidine mouthwash use is:",
+       "options": [
+        "Brown extrinsic staining of teeth",
+        "Gingival overgrowth",
+        "Fluorosis",
+        "Tooth sensitivity only",
+        "Caries"
+       ],
+       "answerIndex": 0,
+       "explanation": "It also alters taste."
+      },
+      {
+       "stem": "After non-surgical periodontal therapy, re-evaluation is usually done after about:",
+       "options": [
+        "1 day",
+        "3 months",
+        "2 years",
+        "5 years",
+        "1 week"
+       ],
+       "answerIndex": 1,
+       "explanation": "Healing takes several weeks."
+      },
+      {
+       "stem": "Long-term success of periodontal treatment depends most on:",
+       "options": [
+        "Whitening",
+        "One-off scaling",
+        "Extraction of teeth",
+        "Antibiotics every month",
+        "Regular supportive periodontal maintenance"
+       ],
+       "answerIndex": 4,
+       "explanation": "Without maintenance, disease recurs."
+      }
+     ]
+    },
+    {
+     "title": "Periodontal–Systemic Links and Special Conditions",
+     "order": 3,
+     "summary": "Diabetes, cardiovascular disease, pregnancy, HIV, necrotising diseases and gingival enlargement.",
+     "material": [
+      {
+       "heading": "Systemic links",
+       "body": "Periodontitis is associated with diabetes (poor glycaemic control worsens periodontitis; periodontal treatment reduces HbA1c by about 0.3–0.4%), cardiovascular disease (systemic inflammation, bacteraemia), adverse pregnancy outcomes (preterm birth, low birth weight, pre-eclampsia), rheumatoid arthritis (P. gingivalis citrullination), chronic kidney disease, and aspiration pneumonia in frail elderly patients. Pregnancy gingivitis and pyogenic granuloma ('pregnancy epulis') result from hormonal changes exaggerating the response to plaque. Puberty gingivitis is similar. Oral health promotion in antenatal care benefits mothers and children. Dentists should screen diabetic patients for periodontitis and refer patients with periodontitis and risk factors for diabetes screening.",
+       "keyPoints": [
+        "Periodontal therapy lowers HbA1c",
+        "Links with CVD, pregnancy outcomes, RA",
+        "Pregnancy epulis",
+        "Screen diabetics",
+        "Aspiration pneumonia in elderly"
+       ]
+      },
+      {
+       "heading": "Special conditions",
+       "body": "Necrotising gingivitis/periodontitis (punched-out papillae, pain, bleeding, halitosis, pseudomembrane; fusiform bacteria and spirochaetes; predisposed by HIV, malnutrition, stress, smoking and poor hygiene): gentle debridement, chlorhexidine or hydrogen peroxide rinses, metronidazole if systemic involvement; in malnourished children it can progress to noma. HIV-associated periodontal lesions include linear gingival erythema and necrotising periodontal disease — may be the first sign of HIV. Gingival enlargement: inflammatory, drug-induced (phenytoin, ciclosporin, nifedipine/amlodipine), leukaemic infiltration, hereditary gingival fibromatosis, and pregnancy. Gingival recession (thin biotype, traumatic brushing, orthodontic movement, periodontitis) causes sensitivity and aesthetic concerns; root coverage grafts may help. Trauma from occlusion causes mobility. Chewing sticks (e.g. Salvadora persica, orange stick) are traditionally used for oral hygiene in Nigeria and can be effective when used correctly.",
+       "keyPoints": [
+        "NG/NP: HIV, malnutrition",
+        "Metronidazole if systemic",
+        "Linear gingival erythema in HIV",
+        "Drug-induced enlargement",
+        "Recession: thin biotype, brushing",
+        "Chewing sticks"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Successful periodontal treatment in diabetic patients can:",
+       "options": [
+        "Modestly reduce HbA1c",
+        "Have no effect ever",
+        "Worsen glycaemic control",
+        "Cause hypoglycaemia always",
+        "Cure diabetes"
+       ],
+       "answerIndex": 0,
+       "explanation": "Reductions of about 0.3–0.4% are reported."
+      },
+      {
+       "stem": "A red, rapidly growing gingival lump in a pregnant woman is likely a:",
+       "options": [
+        "Fibroma",
+        "Lipoma",
+        "Pyogenic granuloma (pregnancy epulis)",
+        "Squamous cell carcinoma",
+        "Mucocele"
+       ],
+       "answerIndex": 2,
+       "explanation": "It often regresses after delivery."
+      },
+      {
+       "stem": "Punched-out necrotic interdental papillae with pain and halitosis in a malnourished child may progress to:",
+       "options": [
+        "Caries",
+        "Noma (cancrum oris)",
+        "Pericoronitis",
+        "Orthodontic relapse",
+        "Fluorosis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Urgent nutritional and medical care is needed."
+      },
+      {
+       "stem": "A band of intense erythema along the gingival margin in an HIV-positive patient is:",
+       "options": [
+        "Desquamative gingivitis",
+        "Gingival fibromatosis",
+        "Pregnancy gingivitis",
+        "Pyogenic granuloma",
+        "Linear gingival erythema"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is associated with Candida."
+      },
+      {
+       "stem": "Which drug is NOT typically associated with gingival overgrowth?",
+       "options": [
+        "Amlodipine",
+        "Nifedipine",
+        "Paracetamol",
+        "Ciclosporin",
+        "Phenytoin"
+       ],
+       "answerIndex": 2,
+       "explanation": "The others commonly cause it."
+      },
+      {
+       "stem": "Gingival recession is more likely with:",
+       "options": [
+        "Fluoride use",
+        "Thick gingival biotype",
+        "Thin biotype and traumatic toothbrushing",
+        "Chewing gum",
+        "Good oral hygiene"
+       ],
+       "answerIndex": 2,
+       "explanation": "Thin tissues are vulnerable."
+      },
+      {
+       "stem": "Periodontitis has been associated with which pregnancy outcome?",
+       "options": [
+        "Post-term delivery",
+        "Macrosomia",
+        "Preterm birth and low birth weight",
+        "Polyhydramnios",
+        "Twins"
+       ],
+       "answerIndex": 2,
+       "explanation": "Systemic inflammation may contribute."
+      },
+      {
+       "stem": "Chewing sticks traditionally used in Nigeria for oral hygiene are:",
+       "options": [
+        "Only decorative",
+        "Always harmful",
+        "Effective when used correctly",
+        "A cause of caries",
+        "Banned"
+       ],
+       "answerIndex": 2,
+       "explanation": "Some have antimicrobial properties."
+      }
+     ]
+    },
+    {
+     "title": "Dental Public Health and Epidemiology",
+     "order": 4,
+     "summary": "Oral disease burden in Nigeria, epidemiological indices, and oral health care systems.",
+     "material": [
+      {
+       "heading": "Burden and indices",
+       "body": "Oral diseases (caries, periodontal disease, oral cancer, noma, dental trauma, cleft lip and palate, and tooth loss) affect billions globally and are largely preventable. In Nigeria, caries prevalence is rising with sugar consumption and urbanisation, periodontal disease is common in adults, and access to care is poor — there are very few dentists (under 5,000 for over 200 million people), concentrated in cities, with most care out-of-pocket and emergency-oriented (extractions). Epidemiological indices: DMFT/dmft (Decayed, Missing, Filled Teeth — permanent/primary; WHO index ages 5, 12, 15, 35–44, 65–74; DMFT at 12 years is the key global indicator), Community Periodontal Index (CPI), plaque and gingival indices (Silness–Löe, Löe–Silness), Dean's fluorosis index, and oral health-related quality of life measures (OHIP). WHO oral health surveys use standardised methods and calibrated examiners.",
+       "keyPoints": [
+        "Oral diseases largely preventable",
+        "Few dentists, urban concentration",
+        "Care mostly out-of-pocket",
+        "DMFT; index age 12",
+        "CPI",
+        "Dean's fluorosis index"
+       ]
+      },
+      {
+       "heading": "Oral health systems and policy",
+       "body": "Nigeria's National Oral Health Policy (revised 2012) promotes integrating oral health into primary health care, school oral health programmes, oral health education, basic package of oral care (emergency relief of pain, ART, fluoride), and workforce development including dental therapists and dental nurses (task-sharing). The WHO Global Oral Health Action Plan (2023–2030) and the 2021 WHA resolution call for universal health coverage for oral health, reducing sugar consumption (WHO recommends free sugars < 10%, ideally < 5% of energy intake), fluoride toothpaste affordability, minimal intervention approaches, and the phase-down of dental amalgam. Common risk factor approach: oral diseases share risk factors with NCDs (sugar, tobacco, alcohol), so integrated prevention is efficient. Special groups: children, pregnant women, elderly, people with disabilities, and people living with HIV.",
+       "keyPoints": [
+        "National Oral Health Policy",
+        "Integrate into PHC",
+        "Dental therapists: task-sharing",
+        "WHO Oral Health Action Plan 2023–2030",
+        "Free sugars < 10% (ideally < 5%)",
+        "Common risk factor approach"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The DMFT index measures:",
+       "options": [
+        "Decayed, missing and filled permanent teeth",
+        "Oral cancer risk",
+        "Plaque levels",
+        "Fluorosis",
+        "Periodontal pockets"
+       ],
+       "answerIndex": 0,
+       "explanation": "Lower case dmft is used for primary teeth."
+      },
+      {
+       "stem": "The key global indicator age for caries experience in WHO surveys is:",
+       "options": [
+        "5 years",
+        "12 years",
+        "18 years",
+        "35 years",
+        "65 years"
+       ],
+       "answerIndex": 1,
+       "explanation": "DMFT at 12 years."
+      },
+      {
+       "stem": "The index used to assess periodontal status in populations is the:",
+       "options": [
+        "DMFT",
+        "IOTN",
+        "Dean's index",
+        "Community Periodontal Index",
+        "Apgar score"
+       ],
+       "answerIndex": 3,
+       "explanation": "It uses a WHO probe."
+      },
+      {
+       "stem": "WHO recommends limiting free sugars to less than what percentage of energy intake?",
+       "options": [
+        "75%",
+        "50%",
+        "25%",
+        "10% (ideally 5%)",
+        "1%"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduces caries and obesity."
+      },
+      {
+       "stem": "The common risk factor approach recognises that oral diseases share risk factors such as:",
+       "options": [
+        "Fluoride",
+        "Water",
+        "Sugar, tobacco and alcohol with other NCDs",
+        "Exercise",
+        "Genetics only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Integrated prevention is efficient."
+      },
+      {
+       "stem": "A major barrier to oral health care in Nigeria is:",
+       "options": [
+        "Excess fluoride toothpaste",
+        "Too many dentists",
+        "Low sugar intake",
+        "Free universal dental care",
+        "Few dentists concentrated in cities and out-of-pocket costs"
+       ],
+       "answerIndex": 4,
+       "explanation": "Access is limited in rural areas."
+      },
+      {
+       "stem": "Dean's index is used to grade:",
+       "options": [
+        "Dental fluorosis",
+        "Periodontitis",
+        "Malocclusion",
+        "Oral hygiene",
+        "Caries"
+       ],
+       "answerIndex": 0,
+       "explanation": "From normal to severe."
+      },
+      {
+       "stem": "Task-sharing in oral health in Nigeria involves:",
+       "options": [
+        "Dental therapists and nurses providing basic care",
+        "Pharmacists doing extractions",
+        "Removing primary care",
+        "Doctors doing orthodontics",
+        "Patients treating themselves"
+       ],
+       "answerIndex": 0,
+       "explanation": "It extends basic services."
+      }
+     ]
+    },
+    {
+     "title": "Oral Health Promotion and Preventive Programmes",
+     "order": 5,
+     "summary": "Health promotion principles, fluoride delivery, school programmes, and evaluating interventions.",
+     "material": [
+      {
+       "heading": "Health promotion",
+       "body": "The Ottawa Charter for Health Promotion (1986) outlines five action areas: build healthy public policy (e.g. sugar-sweetened beverage tax, fluoride toothpaste standards), create supportive environments (healthy school meals, water access), strengthen community action, develop personal skills (oral health education) and reorient health services towards prevention. Health education alone produces short-term knowledge gains but rarely sustained behaviour change; upstream approaches (policy, environment) are more effective and equitable. Behaviour change models: health belief model, stages of change (transtheoretical model), and motivational interviewing. Oral health messages: brush twice daily with fluoride toothpaste, reduce frequency and amount of sugar, avoid tobacco and limit alcohol, and visit a dentist regularly. Messages should be culturally appropriate and delivered in local languages (Yoruba, Hausa, Igbo, Pidgin).",
+       "keyPoints": [
+        "Ottawa Charter: five action areas",
+        "Upstream > education alone",
+        "Health belief model",
+        "Stages of change",
+        "Key messages",
+        "Local languages"
+       ]
+      },
+      {
+       "heading": "Fluoride and programmes",
+       "body": "Fluoride works mainly topically by enhancing remineralisation, inhibiting demineralisation and bacterial metabolism. Delivery: fluoride toothpaste (most important globally; ≥ 1,000 ppm), community water fluoridation (optimal about 0.5–1.0 ppm; not practised in Nigeria), salt and milk fluoridation, varnishes, gels and mouthrinses. Excess fluoride (naturally high in some Nigerian groundwater, e.g. parts of the north and rift areas) causes dental and skeletal fluorosis; the WHO guideline for drinking water is 1.5 mg/L. School-based programmes: supervised toothbrushing with fluoride toothpaste, fissure sealant programmes, ART, oral health education and healthy school food policies. Community programmes for noma prevention (nutrition, oral hygiene, early recognition), oral cancer screening, and integration with maternal and child health services. Evaluation uses process, impact and outcome measures (e.g. changes in DMFT, plaque scores, knowledge and behaviour).",
+       "keyPoints": [
+        "Fluoride acts mainly topically",
+        "Toothpaste ≥ 1,000 ppm",
+        "Water fluoridation 0.5–1.0 ppm",
+        "WHO water limit 1.5 mg/L",
+        "Supervised school toothbrushing",
+        "Noma prevention programmes"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Ottawa Charter for Health Promotion was adopted in:",
+       "options": [
+        "1978",
+        "1986",
+        "2000",
+        "2015",
+        "1948"
+       ],
+       "answerIndex": 1,
+       "explanation": "It defined five action areas."
+      },
+      {
+       "stem": "Which Ottawa Charter action area includes a sugar tax?",
+       "options": [
+        "Build healthy public policy",
+        "Develop personal skills",
+        "Create supportive environments only",
+        "Reorient health services",
+        "Strengthen community action"
+       ],
+       "answerIndex": 0,
+       "explanation": "Policy changes affect whole populations."
+      },
+      {
+       "stem": "Oral health education alone usually produces:",
+       "options": [
+        "Water fluoridation",
+        "Permanent behaviour change",
+        "Short-term knowledge gains but limited sustained behaviour change",
+        "Reduction in fluorosis",
+        "No effect on knowledge"
+       ],
+       "answerIndex": 2,
+       "explanation": "Upstream approaches are more effective."
+      },
+      {
+       "stem": "Fluoride prevents caries mainly by:",
+       "options": [
+        "Whitening teeth",
+        "Killing all bacteria systemically",
+        "Topical effects enhancing remineralisation and inhibiting demineralisation",
+        "Strengthening gums",
+        "Increasing saliva"
+       ],
+       "answerIndex": 2,
+       "explanation": "Post-eruptive topical action is key."
+      },
+      {
+       "stem": "The most widely used and important fluoride vehicle globally is:",
+       "options": [
+        "Fluoride tablets",
+        "Milk fluoridation",
+        "Water fluoridation",
+        "Fluoride gels",
+        "Fluoride toothpaste"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is affordable and accessible."
+      },
+      {
+       "stem": "The WHO guideline value for fluoride in drinking water is:",
+       "options": [
+        "0.1 mg/L",
+        "1.5 mg/L",
+        "5 mg/L",
+        "10 mg/L",
+        "0.01 mg/L"
+       ],
+       "answerIndex": 1,
+       "explanation": "Higher levels cause fluorosis."
+      },
+      {
+       "stem": "A school-based preventive programme with strong evidence is:",
+       "options": [
+        "Annual lectures only",
+        "Removing water fountains",
+        "Supervised toothbrushing with fluoride toothpaste",
+        "Mouthwash with alcohol",
+        "Sugar distribution"
+       ],
+       "answerIndex": 2,
+       "explanation": "Daily supervised brushing reduces caries."
+      },
+      {
+       "stem": "The behaviour change model describing precontemplation, contemplation, preparation, action and maintenance is:",
+       "options": [
+        "PRECEDE model",
+        "Health belief model",
+        "SAFE strategy",
+        "Ottawa Charter",
+        "Stages of change (transtheoretical) model"
+       ],
+       "answerIndex": 4,
+       "explanation": "Interventions are matched to the stage."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,678 @@
+{
+ "courses": [
+  {
+   "title": "Gynaecology and Family Planning",
+   "code": "OBG503",
+   "color": "#DB2777",
+   "description": "Menstrual disorders, fibroids, infertility, gynaecological infections, gynaecological cancers, urogynaecology and contraception.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Menstrual Disorders and Fibroids",
+     "order": 1,
+     "summary": "Amenorrhoea, abnormal uterine bleeding, dysmenorrhoea, uterine fibroids and endometriosis.",
+     "material": [
+      {
+       "heading": "Menstrual disorders",
+       "body": "Normal menstrual cycles are 21–35 days, bleeding for up to 8 days. Primary amenorrhoea: no menses by 15 years (with secondary sexual characteristics) — causes include Müllerian anomalies, imperforate hymen, Turner syndrome and hypothalamic causes. Secondary amenorrhoea (no menses for ≥ 3 months after previously regular cycles): pregnancy first (always do a pregnancy test), then PCOS, hyperprolactinaemia, thyroid disease, hypothalamic (weight loss, stress, exercise), premature ovarian insufficiency, and Asherman's syndrome (intrauterine adhesions after curettage — common after unsafe abortions and D&C in Nigeria). Abnormal uterine bleeding is classified by FIGO PALM–COEIN: structural — Polyp, Adenomyosis, Leiomyoma, Malignancy; non-structural — Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified. Postmenopausal bleeding must be investigated for endometrial cancer (ultrasound endometrial thickness, biopsy). PCOS: oligomenorrhoea, hyperandrogenism (hirsutism, acne) and polycystic ovaries (Rotterdam criteria — 2 of 3); insulin resistance; manage with weight loss, combined pills, metformin and letrozole for fertility.",
+       "keyPoints": [
+        "Cycle 21–35 days",
+        "Secondary amenorrhoea: pregnancy test first",
+        "Asherman's after curettage",
+        "PALM–COEIN",
+        "Postmenopausal bleeding → exclude cancer",
+        "PCOS: Rotterdam 2 of 3"
+       ]
+      },
+      {
+       "heading": "Fibroids and endometriosis",
+       "body": "Uterine fibroids (leiomyomas) are benign smooth muscle tumours — very common in black women, occurring earlier and larger; oestrogen-dependent (shrink after menopause). Types: submucous (heavy bleeding, infertility, miscarriage), intramural and subserous (pressure symptoms). Presentation: heavy menstrual bleeding with anaemia, pelvic mass, pressure, pain (red degeneration in pregnancy), subfertility. Diagnosis by ultrasound. Management: observe if asymptomatic; medical — tranexamic acid, NSAIDs, levonorgestrel IUS, GnRH analogues before surgery; surgical — myomectomy (fertility-preserving — very common operation in Nigeria; risk of haemorrhage, adhesions, recurrence), hysterectomy, or uterine artery embolisation. Endometriosis (endometrial tissue outside the uterus): dysmenorrhoea, deep dyspareunia, chronic pelvic pain and infertility; laparoscopy for diagnosis; NSAIDs, hormonal suppression and surgery. Adenomyosis: endometrium within the myometrium — bulky tender uterus, heavy painful periods.",
+       "keyPoints": [
+        "Fibroids common, earlier in black women",
+        "Submucous: bleeding, infertility",
+        "Red degeneration in pregnancy",
+        "Myomectomy preserves fertility",
+        "Endometriosis: laparoscopy",
+        "Adenomyosis: bulky tender uterus"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The first investigation in a woman with secondary amenorrhoea is:",
+       "options": [
+        "Pelvic ultrasound",
+        "Karyotype",
+        "FSH",
+        "Pregnancy test",
+        "Prolactin"
+       ],
+       "answerIndex": 3,
+       "explanation": "Pregnancy is the commonest cause."
+      },
+      {
+       "stem": "Amenorrhoea after repeated uterine curettage suggests:",
+       "options": [
+        "PCOS",
+        "Turner syndrome",
+        "Asherman's syndrome",
+        "Hyperthyroidism",
+        "Sheehan's syndrome"
+       ],
+       "answerIndex": 2,
+       "explanation": "Intrauterine adhesions form."
+      },
+      {
+       "stem": "In the PALM–COEIN classification, 'L' stands for:",
+       "options": [
+        "Leiomyoma",
+        "Luteal phase",
+        "Lichen sclerosus",
+        "Levonorgestrel",
+        "Lymphoma"
+       ],
+       "answerIndex": 0,
+       "explanation": "Fibroids."
+      },
+      {
+       "stem": "Postmenopausal bleeding must be investigated primarily to exclude:",
+       "options": [
+        "PCOS",
+        "Endometrial cancer",
+        "Endometriosis",
+        "Pregnancy",
+        "Fibroids"
+       ],
+       "answerIndex": 1,
+       "explanation": "About 10% have cancer."
+      },
+      {
+       "stem": "The Rotterdam criteria for PCOS require:",
+       "options": [
+        "Two of three: oligo/anovulation, hyperandrogenism, polycystic ovaries",
+        "Only ultrasound findings",
+        "Only raised prolactin",
+        "All three features",
+        "Only obesity"
+       ],
+       "answerIndex": 0,
+       "explanation": "After excluding other causes."
+      },
+      {
+       "stem": "The fertility-preserving surgery for symptomatic fibroids is:",
+       "options": [
+        "Myomectomy",
+        "Tubal ligation",
+        "Oophorectomy",
+        "Hysterectomy",
+        "Endometrial ablation"
+       ],
+       "answerIndex": 0,
+       "explanation": "The uterus is conserved."
+      },
+      {
+       "stem": "Acute pain from a fibroid in pregnancy is often due to:",
+       "options": [
+        "Infection only",
+        "Torsion always",
+        "Red degeneration",
+        "Malignant change",
+        "Calcification"
+       ],
+       "answerIndex": 2,
+       "explanation": "Managed conservatively with analgesia."
+      },
+      {
+       "stem": "Dysmenorrhoea, deep dyspareunia and infertility suggest:",
+       "options": [
+        "PCOS",
+        "Vaginitis",
+        "Endometriosis",
+        "Fibroids",
+        "Cervical cancer"
+       ],
+       "answerIndex": 2,
+       "explanation": "Laparoscopy confirms the diagnosis."
+      }
+     ]
+    },
+    {
+     "title": "Infertility",
+     "order": 2,
+     "summary": "Causes, investigation of the couple, tubal factor, male factor and assisted reproduction.",
+     "material": [
+      {
+       "heading": "Causes and investigation",
+       "body": "Infertility is failure to conceive after 12 months of regular unprotected intercourse (6 months if the woman is over 35). It carries heavy social consequences for Nigerian women, who are often blamed although male factors contribute to about 40–50%. Causes: tubal factor (the leading cause in Nigeria — due to pelvic inflammatory disease, post-abortion and puerperal sepsis, and genital TB), ovulatory disorders (PCOS, hyperprolactinaemia, thyroid disease, premature ovarian insufficiency), uterine factors (fibroids, Asherman's syndrome), male factors (oligozoospermia, azoospermia, varicocele, infections, hormonal, lifestyle) and unexplained. Investigate both partners: semen analysis (WHO reference values — volume ≥ 1.4 mL, concentration ≥ 16 million/mL, progressive motility ≥ 30%, normal forms ≥ 4%), mid-luteal progesterone (day 21 in a 28-day cycle — confirms ovulation), FSH/LH, prolactin, TSH, AMH (ovarian reserve), pelvic ultrasound, and tubal patency tests (hysterosalpingography — HSG, or laparoscopy with dye test).",
+       "keyPoints": [
+        "12 months (6 if > 35)",
+        "Male factor 40–50%",
+        "Tubal factor leading in Nigeria",
+        "Semen: ≥ 16 million/mL",
+        "Day 21 progesterone",
+        "HSG for tubal patency"
+       ]
+      },
+      {
+       "heading": "Treatment",
+       "body": "Treat the cause: ovulation induction with letrozole (first-line in PCOS) or clomiphene citrate (monitor for multiple pregnancy and ovarian hyperstimulation), gonadotrophins; dopamine agonists for hyperprolactinaemia; surgery — tubal surgery (limited success), myomectomy, hysteroscopic adhesiolysis for Asherman's, varicocelectomy. Assisted reproductive technology (ART): intrauterine insemination (IUI — mild male factor, unexplained), in vitro fertilisation (IVF — tubal damage, severe male factor, failed other treatments), and intracytoplasmic sperm injection (ICSI — severe male factor). IVF is widely available in private Nigerian clinics but expensive, with limited regulation; complications include ovarian hyperstimulation syndrome and multiple pregnancy. Sperm and egg donation and surrogacy raise ethical and legal questions. Counselling and psychosocial support for the couple are essential; prevention of STIs and unsafe abortion reduces tubal infertility.",
+       "keyPoints": [
+        "Letrozole first-line in PCOS",
+        "Clomiphene: multiple pregnancy",
+        "IUI, IVF, ICSI",
+        "IVF: tubal and male factor",
+        "OHSS",
+        "Prevent STIs and unsafe abortion"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Infertility is defined as failure to conceive after regular unprotected intercourse for:",
+       "options": [
+        "3 months",
+        "6 months in all women",
+        "12 months (6 months if over 35)",
+        "5 years",
+        "2 years"
+       ],
+       "answerIndex": 2,
+       "explanation": "Earlier evaluation is appropriate in older women."
+      },
+      {
+       "stem": "The leading cause of female infertility in Nigeria is:",
+       "options": [
+        "Endometriosis",
+        "Tubal damage from infection",
+        "PCOS",
+        "Hypothyroidism",
+        "Uterine anomalies"
+       ],
+       "answerIndex": 1,
+       "explanation": "PID, post-abortion and puerperal sepsis are common causes."
+      },
+      {
+       "stem": "Male factors contribute to about what proportion of infertility?",
+       "options": [
+        "5%",
+        "10%",
+        "40–50%",
+        "90%",
+        "0%"
+       ],
+       "answerIndex": 2,
+       "explanation": "Both partners must be investigated."
+      },
+      {
+       "stem": "The lower reference limit for sperm concentration (WHO) is about:",
+       "options": [
+        "1 million/mL",
+        "16 million/mL",
+        "100 million/mL",
+        "500 million/mL",
+        "5 million/mL"
+       ],
+       "answerIndex": 1,
+       "explanation": "Lower values indicate oligozoospermia."
+      },
+      {
+       "stem": "Ovulation is confirmed by measuring serum progesterone in the:",
+       "options": [
+        "Mid-luteal phase (day 21 of a 28-day cycle)",
+        "Any day",
+        "At ovulation exactly",
+        "Early follicular phase",
+        "During menstruation"
+       ],
+       "answerIndex": 0,
+       "explanation": "A rise indicates ovulation occurred."
+      },
+      {
+       "stem": "Tubal patency is commonly assessed by:",
+       "options": [
+        "Pap smear",
+        "Mammography",
+        "CT scan",
+        "Semen analysis",
+        "Hysterosalpingography"
+       ],
+       "answerIndex": 4,
+       "explanation": "Contrast outlines the uterine cavity and tubes."
+      },
+      {
+       "stem": "The first-line drug for ovulation induction in PCOS is:",
+       "options": [
+        "Letrozole",
+        "Bromocriptine",
+        "Progesterone",
+        "Metformin alone",
+        "Oral contraceptive pill"
+       ],
+       "answerIndex": 0,
+       "explanation": "It gives higher live birth rates than clomiphene."
+      },
+      {
+       "stem": "Severe male factor infertility is best treated by:",
+       "options": [
+        "Tubal surgery",
+        "IUI",
+        "IVF with intracytoplasmic sperm injection (ICSI)",
+        "Clomiphene",
+        "Myomectomy"
+       ],
+       "answerIndex": 2,
+       "explanation": "A single sperm is injected into the egg."
+      }
+     ]
+    },
+    {
+     "title": "Gynaecological Infections",
+     "order": 3,
+     "summary": "Vaginal discharge, sexually transmitted infections, pelvic inflammatory disease and genital TB.",
+     "material": [
+      {
+       "heading": "Vaginal discharge",
+       "body": "Physiological discharge varies with the cycle. Common infections: bacterial vaginosis (thin grey discharge, fishy odour, pH > 4.5, clue cells, positive whiff test — metronidazole; associated with preterm birth), vulvovaginal candidiasis (thick white 'cottage cheese' discharge, itching, normal pH — clotrimazole or fluconazole; risk factors include pregnancy, diabetes, antibiotics, HIV) and trichomoniasis (frothy yellow-green discharge, 'strawberry' cervix, motile trichomonads — metronidazole for both partners). Cervicitis from Chlamydia trachomatis and Neisseria gonorrhoeae is often asymptomatic in women but causes PID and tubal infertility. Nigeria uses syndromic management where laboratory testing is unavailable (vaginal discharge syndrome, lower abdominal pain syndrome, genital ulcer syndrome — syphilis, chancroid, herpes), plus partner notification, condom promotion and HIV testing.",
+       "keyPoints": [
+        "BV: clue cells, fishy odour, pH > 4.5",
+        "Candida: cottage cheese, normal pH",
+        "Trichomonas: frothy, strawberry cervix",
+        "Chlamydia/gonorrhoea often silent",
+        "Syndromic management",
+        "Treat partners"
+       ]
+      },
+      {
+       "heading": "PID and genital TB",
+       "body": "Pelvic inflammatory disease (ascending infection — chlamydia, gonorrhoea, anaerobes; after abortion, delivery or IUD insertion): lower abdominal pain, fever, abnormal discharge, cervical motion tenderness and adnexal tenderness. Treat promptly with broad-spectrum antibiotics (e.g. ceftriaxone plus doxycycline plus metronidazole for 14 days; admit if severe, pregnant, tubo-ovarian abscess or not improving). Complications: tubo-ovarian abscess, tubal infertility, ectopic pregnancy, chronic pelvic pain and Fitz-Hugh–Curtis syndrome (perihepatitis). Genital tuberculosis (usually secondary to pulmonary TB) causes infertility, menstrual disturbance and pelvic pain; tubes are almost always involved ('tobacco pouch' or beaded tubes on HSG); diagnose by endometrial biopsy (histology, culture, Xpert) and treat with standard anti-TB therapy. Cervical cancer screening and HIV testing are part of STI care.",
+       "keyPoints": [
+        "PID: cervical motion tenderness",
+        "Ceftriaxone + doxycycline + metronidazole",
+        "Complications: infertility, ectopic",
+        "Fitz-Hugh–Curtis",
+        "Genital TB: beaded tubes, endometrial biopsy"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A thin grey discharge with fishy odour and clue cells suggests:",
+       "options": [
+        "Bacterial vaginosis",
+        "Candidiasis",
+        "Normal discharge",
+        "Trichomoniasis",
+        "Gonorrhoea"
+       ],
+       "answerIndex": 0,
+       "explanation": "pH is above 4.5."
+      },
+      {
+       "stem": "Thick white 'cottage cheese' discharge with vulval itching suggests:",
+       "options": [
+        "Vulvovaginal candidiasis",
+        "Trichomoniasis",
+        "Chlamydia",
+        "Bacterial vaginosis",
+        "Syphilis"
+       ],
+       "answerIndex": 0,
+       "explanation": "Vaginal pH is normal."
+      },
+      {
+       "stem": "Frothy yellow-green discharge and a 'strawberry' cervix suggest:",
+       "options": [
+        "Gonorrhoea",
+        "Herpes",
+        "Bacterial vaginosis",
+        "Trichomoniasis",
+        "Candidiasis"
+       ],
+       "answerIndex": 3,
+       "explanation": "Both partners need metronidazole."
+      },
+      {
+       "stem": "The drug of choice for bacterial vaginosis is:",
+       "options": [
+        "Fluconazole",
+        "Ceftriaxone",
+        "Penicillin",
+        "Acyclovir",
+        "Metronidazole"
+       ],
+       "answerIndex": 4,
+       "explanation": "Clindamycin is an alternative."
+      },
+      {
+       "stem": "Cervical motion tenderness with fever and lower abdominal pain suggests:",
+       "options": [
+        "Ovarian cyst",
+        "Cystitis",
+        "Endometriosis",
+        "Pelvic inflammatory disease",
+        "Fibroids"
+       ],
+       "answerIndex": 3,
+       "explanation": "Treat promptly to prevent infertility."
+      },
+      {
+       "stem": "Perihepatitis associated with pelvic inflammatory disease is called:",
+       "options": [
+        "Meigs syndrome",
+        "Sheehan's syndrome",
+        "Budd–Chiari syndrome",
+        "Fitz-Hugh–Curtis syndrome",
+        "Asherman's syndrome"
+       ],
+       "answerIndex": 3,
+       "explanation": "It causes right upper quadrant pain."
+      },
+      {
+       "stem": "A major long-term consequence of PID is:",
+       "options": [
+        "Menopause",
+        "Fibroids",
+        "PCOS",
+        "Tubal infertility and ectopic pregnancy",
+        "Endometrial cancer"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tubal scarring blocks or damages tubes."
+      },
+      {
+       "stem": "Genital tuberculosis is confirmed by:",
+       "options": [
+        "Pap smear",
+        "HSG alone",
+        "Semen analysis",
+        "Endometrial biopsy for histology, culture or Xpert",
+        "Pregnancy test"
+       ],
+       "answerIndex": 3,
+       "explanation": "Tissue diagnosis is required."
+      }
+     ]
+    },
+    {
+     "title": "Gynaecological Oncology",
+     "order": 4,
+     "summary": "Cervical, endometrial and ovarian cancers, gestational trophoblastic disease and premalignant lesions.",
+     "material": [
+      {
+       "heading": "Cervical cancer",
+       "body": "Cervical cancer is the second most common cancer in Nigerian women and a leading cause of cancer death, caused by persistent high-risk HPV (16, 18). Risk factors: early sexual debut, multiple partners, HIV (higher risk and faster progression), smoking, high parity and lack of screening. Premalignant cervical intraepithelial neoplasia (CIN) is detected by screening — VIA, Pap cytology or HPV testing — and treated by cryotherapy, thermal ablation or LEEP (screen-and-treat). Invasive cancer presents with postcoital or intermenstrual bleeding, offensive discharge, and in advanced stages, fistulae, ureteric obstruction (renal failure — a common cause of death) and pain. FIGO staging is clinical–radiological. Treatment: early stages — radical hysterectomy; locally advanced — chemoradiation (radiotherapy capacity is limited in Nigeria). Prevention: HPV vaccination of girls 9–14 (introduced in Nigeria in 2023) and screening.",
+       "keyPoints": [
+        "HPV 16/18",
+        "HIV increases risk",
+        "Screen-and-treat: VIA + ablation",
+        "Postcoital bleeding",
+        "Renal failure from ureteric obstruction",
+        "Chemoradiation for advanced"
+       ]
+      },
+      {
+       "heading": "Endometrial, ovarian and trophoblastic",
+       "body": "Endometrial cancer (postmenopausal women; risk factors: unopposed oestrogen, obesity, nulliparity, PCOS, diabetes, tamoxifen): postmenopausal bleeding — ultrasound (endometrial thickness > 4 mm) and biopsy; treated by total hysterectomy and bilateral salpingo-oophorectomy; good prognosis when early. Ovarian cancer (epithelial — most common; germ cell tumours in young women; sex cord-stromal): vague symptoms (bloating, early satiety, abdominal distension, ascites) leading to late diagnosis; CA-125, ultrasound (Risk of Malignancy Index), CT; surgery (staging/debulking) and platinum-based chemotherapy; BRCA mutations increase risk; combined oral contraceptives are protective. Gestational trophoblastic disease: hydatidiform mole (complete — diploid, paternal only; partial — triploid) and gestational trophoblastic neoplasia (invasive mole, choriocarcinoma — can follow any pregnancy; metastasises to lungs); hCG is the tumour marker; highly curable with methotrexate or combination chemotherapy (EMA-CO).",
+       "keyPoints": [
+        "Endometrial: unopposed oestrogen, obesity",
+        "PMB: > 4 mm → biopsy",
+        "Ovarian: vague symptoms, late",
+        "CA-125, RMI",
+        "Complete mole: diploid paternal",
+        "Choriocarcinoma: hCG, methotrexate"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main cause of cervical cancer is persistent infection with:",
+       "options": [
+        "Candida",
+        "Chlamydia",
+        "High-risk human papillomavirus",
+        "Herpes simplex virus",
+        "HIV"
+       ],
+       "answerIndex": 2,
+       "explanation": "Especially HPV 16 and 18."
+      },
+      {
+       "stem": "A typical early symptom of cervical cancer is:",
+       "options": [
+        "Postcoital bleeding",
+        "Galactorrhoea",
+        "Weight gain",
+        "Hot flushes",
+        "Amenorrhoea"
+       ],
+       "answerIndex": 0,
+       "explanation": "Also intermenstrual bleeding."
+      },
+      {
+       "stem": "A common cause of death in advanced cervical cancer is:",
+       "options": [
+        "Heart failure",
+        "Pneumonia only",
+        "Brain metastases",
+        "Renal failure from ureteric obstruction",
+        "Liver failure"
+       ],
+       "answerIndex": 3,
+       "explanation": "Parametrial spread blocks the ureters."
+      },
+      {
+       "stem": "The 'screen-and-treat' approach in low-resource settings uses VIA followed by:",
+       "options": [
+        "Radical hysterectomy",
+        "Chemotherapy",
+        "Ablation (cryotherapy or thermal ablation)",
+        "Observation",
+        "Radiotherapy"
+       ],
+       "answerIndex": 2,
+       "explanation": "Lesions are treated at the same visit."
+      },
+      {
+       "stem": "Obesity and unopposed oestrogen are major risk factors for:",
+       "options": [
+        "Vulval cancer",
+        "Endometrial cancer",
+        "Cervical cancer",
+        "Choriocarcinoma",
+        "Germ cell tumours"
+       ],
+       "answerIndex": 1,
+       "explanation": "Adipose tissue converts androgens to oestrogen."
+      },
+      {
+       "stem": "Ovarian cancer is often diagnosed late because:",
+       "options": [
+        "It is always painful early",
+        "It causes early bleeding",
+        "Screening is universal",
+        "It is rare in older women",
+        "Symptoms such as bloating are vague"
+       ],
+       "answerIndex": 4,
+       "explanation": "Most present at advanced stages."
+      },
+      {
+       "stem": "The tumour marker used for monitoring gestational trophoblastic disease is:",
+       "options": [
+        "AFP",
+        "PSA",
+        "CA-125",
+        "CEA",
+        "hCG"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is highly sensitive."
+      },
+      {
+       "stem": "Choriocarcinoma is highly curable with:",
+       "options": [
+        "Radiotherapy only",
+        "Chemotherapy such as methotrexate or EMA-CO",
+        "Surgery alone",
+        "Hormone therapy",
+        "Observation"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is one of the most chemosensitive cancers."
+      }
+     ]
+    },
+    {
+     "title": "Urogynaecology, Fistula and Contraception",
+     "order": 5,
+     "summary": "Obstetric fistula, pelvic organ prolapse, urinary incontinence, menopause and contraception.",
+     "material": [
+      {
+       "heading": "Fistula, prolapse and incontinence",
+       "body": "Obstetric fistula (vesicovaginal or rectovaginal) results mainly from prolonged obstructed labour without timely caesarean section — pressure necrosis between the fetal head and pelvis; Nigeria has one of the highest burdens (especially in the north), with continuous leakage of urine, social isolation, divorce and stigma; associated with early marriage, poverty and lack of access to emergency obstetric care. Treatment is surgical repair in specialised centres (e.g. National Obstetric Fistula Centre, Abakaliki; Babbar Ruga, Katsina); prevention through family planning, skilled birth attendance, partograph use and access to caesarean section. Pelvic organ prolapse (uterine, cystocoele, rectocoele) — risk factors: multiparity, prolonged labour, ageing, obesity; pelvic floor exercises, pessaries or surgery (vaginal hysterectomy, repair). Urinary incontinence: stress (leak with coughing — pelvic floor training, surgery), urge/overactive bladder (bladder training, antimuscarinics), mixed, and overflow.",
+       "keyPoints": [
+        "Fistula: obstructed labour",
+        "Continuous urine leakage",
+        "Abakaliki fistula centre",
+        "Prevention: EmONC, family planning",
+        "Prolapse: pessary or surgery",
+        "Stress vs urge incontinence"
+       ]
+      },
+      {
+       "heading": "Menopause and contraception",
+       "body": "Menopause is the permanent cessation of menses (12 months of amenorrhoea), average age about 48–51 in Nigerian women. Symptoms: hot flushes, night sweats, vaginal dryness, mood changes; long-term osteoporosis and cardiovascular risk. Hormone replacement therapy relieves symptoms (oestrogen with progestogen if the uterus is present). Contraception: combined oral contraceptive pill (contraindicated in women with migraine with aura, age > 35 who smoke, history of VTE, uncontrolled hypertension, breastfeeding < 6 weeks postpartum), progestogen-only pill, injectables (DMPA 3-monthly — delayed return of fertility, bone density), implants (Jadelle 5 years, Implanon 3 years — most effective reversible), copper IUD (up to 12 years; also emergency contraception within 5 days), levonorgestrel IUS, barrier methods, lactational amenorrhoea, and permanent methods (bilateral tubal ligation, vasectomy). The WHO Medical Eligibility Criteria (MEC) categories 1–4 guide method choice. Postpartum family planning and counselling on informed choice are essential.",
+       "keyPoints": [
+        "Menopause: 12 months amenorrhoea",
+        "HRT: add progestogen if uterus present",
+        "COC contraindications: migraine with aura, smoker > 35",
+        "Implants most effective",
+        "Copper IUD: EC within 5 days",
+        "WHO MEC 1–4"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The main cause of obstetric fistula in Nigeria is:",
+       "options": [
+        "Prolonged obstructed labour",
+        "Infection",
+        "Radiotherapy",
+        "Cancer",
+        "Surgical injury only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pressure necrosis creates the fistula."
+      },
+      {
+       "stem": "The best prevention for obstetric fistula is:",
+       "options": [
+        "Antibiotics",
+        "Bed rest in pregnancy",
+        "Timely access to emergency obstetric care including caesarean section",
+        "Traditional birth attendants alone",
+        "Herbal medicines"
+       ],
+       "answerIndex": 2,
+       "explanation": "Relieving obstruction early prevents necrosis."
+      },
+      {
+       "stem": "Leakage of urine on coughing or sneezing is:",
+       "options": [
+        "Fistula",
+        "Enuresis",
+        "Stress incontinence",
+        "Overflow incontinence",
+        "Urge incontinence"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pelvic floor exercises are first-line."
+      },
+      {
+       "stem": "Menopause is diagnosed retrospectively after how many months of amenorrhoea?",
+       "options": [
+        "3",
+        "6",
+        "12",
+        "24",
+        "1"
+       ],
+       "answerIndex": 2,
+       "explanation": "In a woman of appropriate age."
+      },
+      {
+       "stem": "Women with a uterus using HRT need a progestogen to:",
+       "options": [
+        "Reduce weight",
+        "Prevent breast cancer",
+        "Improve bone density",
+        "Prevent endometrial hyperplasia and cancer",
+        "Relieve hot flushes"
+       ],
+       "answerIndex": 3,
+       "explanation": "Unopposed oestrogen stimulates the endometrium."
+      },
+      {
+       "stem": "The combined oral contraceptive pill is contraindicated in a woman with:",
+       "options": [
+        "Heavy periods",
+        "Migraine with aura",
+        "Acne",
+        "Irregular cycles",
+        "Dysmenorrhoea"
+       ],
+       "answerIndex": 1,
+       "explanation": "Stroke risk is increased."
+      },
+      {
+       "stem": "The contraceptive method associated with delayed return of fertility after stopping is:",
+       "options": [
+        "Progestogen-only pill",
+        "Condom",
+        "DMPA injection",
+        "Implant",
+        "Copper IUD"
+       ],
+       "answerIndex": 2,
+       "explanation": "Fertility may take several months to return."
+      },
+      {
+       "stem": "The WHO tool that guides which contraceptives are safe for women with medical conditions is the:",
+       "options": [
+        "Partograph",
+        "Bishop score",
+        "Medical Eligibility Criteria",
+        "Apgar score",
+        "IMCI chart"
+       ],
+       "answerIndex": 2,
+       "explanation": "Categories 1 to 4."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,683 @@
+{
+ "courses": [
+  {
+   "title": "Internal Medicine III: Infectious Diseases",
+   "code": "MED505",
+   "color": "#DC2626",
+   "description": "Clinical management of malaria, HIV and opportunistic infections, meningitis, sepsis, and tropical and emerging infections in Nigeria.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "500 Level",
+     "department": "Nursing Science"
+    },
+    {
+     "level": "500 Level",
+     "department": "Pharmacy"
+    },
+    {
+     "level": "500 Level",
+     "department": "Others"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Malaria",
+     "order": 1,
+     "summary": "Clinical features, severe malaria criteria, diagnosis and treatment.",
+     "material": [
+      {
+       "heading": "Clinical features and diagnosis",
+       "body": "Malaria in Nigeria is mostly caused by Plasmodium falciparum, transmitted by female Anopheles mosquitoes, with year-round transmission in the south and seasonal peaks in the north. Uncomplicated malaria: fever, chills, headache, myalgia, vomiting; young children, pregnant women, people with sickle cell disease and non-immune travellers are at highest risk. Diagnosis must be parasitological before treatment: rapid diagnostic tests (HRP2-based — may stay positive for weeks after treatment; HRP2 deletions are emerging) or microscopy of thick (detection) and thin (species, parasite density) Giemsa-stained films. Severe malaria (WHO): impaired consciousness (cerebral malaria), prostration, multiple convulsions, acidosis/deep breathing, hypoglycaemia (< 2.2 mmol/L), severe anaemia (Hb < 5 g/dL in children, < 7 in adults), renal impairment, jaundice, pulmonary oedema, significant bleeding, shock, and hyperparasitaemia (> 10%).",
+       "keyPoints": [
+        "P. falciparum predominates",
+        "Test before treat",
+        "HRP2 RDT stays positive for weeks",
+        "Thick film: detect; thin: species",
+        "Severe criteria: coma, acidosis, hypoglycaemia, Hb < 5"
+       ]
+      },
+      {
+       "heading": "Treatment",
+       "body": "Uncomplicated falciparum malaria: artemisinin-based combination therapy (ACT) for 3 days — artemether–lumefantrine (twice daily with fatty food) or artesunate–amodiaquine, dihydroartemisinin–piperaquine; ACTs are now recommended in all trimesters of pregnancy. Severe malaria: IV (or IM) artesunate 2.4 mg/kg at 0, 12 and 24 hours then daily until able to take oral treatment (minimum 24 hours), followed by a full ACT course; quinine if artesunate unavailable (causes hypoglycaemia). Pre-referral rectal artesunate for young children when injections are not possible. Supportive care: check and correct glucose, treat seizures, transfuse for severe anaemia, fluids cautiously, manage AKI, and treat co-infection (bacteraemia often coexists in children). Post-artesunate delayed haemolysis may occur 1–3 weeks later. Chloroquine and SP monotherapy are no longer used for treatment due to resistance; partial artemisinin resistance (kelch13 mutations) has emerged in East Africa.",
+       "keyPoints": [
+        "ACT for 3 days",
+        "IV artesunate for severe malaria",
+        "Minimum 24 h parenteral then ACT",
+        "Check glucose",
+        "Rectal artesunate pre-referral",
+        "Post-artesunate delayed haemolysis"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The dominant malaria species in Nigeria is:",
+       "options": [
+        "P. malariae",
+        "P. falciparum",
+        "P. vivax",
+        "P. knowlesi",
+        "P. ovale"
+       ],
+       "answerIndex": 1,
+       "explanation": "It causes most severe disease."
+      },
+      {
+       "stem": "Before treating suspected malaria, WHO recommends:",
+       "options": [
+        "Parasitological confirmation with RDT or microscopy",
+        "Blood culture only",
+        "Presumptive treatment for all fevers",
+        "Widal test",
+        "Chest X-ray"
+       ],
+       "answerIndex": 0,
+       "explanation": "Test before treat avoids overuse of ACTs."
+      },
+      {
+       "stem": "Thick blood films are mainly used to:",
+       "options": [
+        "Identify species precisely",
+        "Detect parasites (higher sensitivity)",
+        "Count platelets",
+        "Grow parasites",
+        "Measure haemoglobin"
+       ],
+       "answerIndex": 1,
+       "explanation": "Thin films identify species and density."
+      },
+      {
+       "stem": "Which is a criterion for severe malaria?",
+       "options": [
+        "Temperature 38 °C",
+        "Hypoglycaemia < 2.2 mmol/L",
+        "Mild headache",
+        "Hb 11 g/dL",
+        "Vomiting once"
+       ],
+       "answerIndex": 1,
+       "explanation": "Other criteria include coma and acidosis."
+      },
+      {
+       "stem": "The drug of choice for severe malaria is:",
+       "options": [
+        "Chloroquine injection",
+        "SP tablets",
+        "Parenteral artesunate",
+        "Primaquine",
+        "Oral artemether–lumefantrine"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces mortality compared with quinine."
+      },
+      {
+       "stem": "After at least 24 hours of parenteral artesunate, when the patient can take oral drugs, give:",
+       "options": [
+        "A full 3-day ACT course",
+        "Nothing more",
+        "Doxycycline only",
+        "Chloroquine",
+        "SP once"
+       ],
+       "answerIndex": 0,
+       "explanation": "This completes treatment and prevents recrudescence."
+      },
+      {
+       "stem": "A complication of quinine therapy that must be monitored is:",
+       "options": [
+        "Hyperglycaemia",
+        "Hypercalcaemia",
+        "Hypertension",
+        "Hypoglycaemia",
+        "Hyperkalaemia"
+       ],
+       "answerIndex": 3,
+       "explanation": "Quinine stimulates insulin release."
+      },
+      {
+       "stem": "HRP2-based malaria RDTs may remain positive after successful treatment because:",
+       "options": [
+        "The test is faulty",
+        "Of vaccination",
+        "Parasites persist always",
+        "Of anaemia",
+        "The antigen persists in blood for weeks"
+       ],
+       "answerIndex": 4,
+       "explanation": "They cannot be used to assess cure."
+      }
+     ]
+    },
+    {
+     "title": "HIV Disease and Opportunistic Infections",
+     "order": 2,
+     "summary": "Clinical staging, advanced HIV disease package, and major opportunistic infections.",
+     "material": [
+      {
+       "heading": "HIV care",
+       "body": "Nigeria has about 2 million people living with HIV. WHO clinical staging (1–4): stage 4 AIDS-defining conditions include Pneumocystis pneumonia, cryptococcal meningitis, extrapulmonary TB, oesophageal candidiasis, Kaposi sarcoma, HIV wasting syndrome, cerebral toxoplasmosis, CMV retinitis and HIV encephalopathy. Advanced HIV disease (CD4 < 200, WHO stage 3–4, or all children < 5 years) needs a package: CD4 testing, TB screening (urine LAM, Xpert), cryptococcal antigen screening with pre-emptive fluconazole, cotrimoxazole prophylaxis, TB preventive therapy, rapid ART and adherence support. Immune reconstitution inflammatory syndrome (IRIS) is paradoxical worsening of an infection after starting ART as immunity recovers — commonest with TB and cryptococcus. Differentiated service delivery (multi-month dispensing, community refill) improves retention.",
+       "keyPoints": [
+        "~2 million PLHIV in Nigeria",
+        "Stage 4 AIDS-defining illnesses",
+        "AHD: CD4 < 200",
+        "CrAg screening + fluconazole",
+        "Cotrimoxazole prophylaxis",
+        "IRIS after ART"
+       ]
+      },
+      {
+       "heading": "Opportunistic infections",
+       "body": "Cryptococcal meningitis: subacute headache, fever and raised intracranial pressure; CSF CrAg; induction with single high-dose liposomal amphotericin B plus flucytosine and fluconazole (WHO 2022), therapeutic lumbar punctures for raised pressure; delay ART by 4–6 weeks. Pneumocystis pneumonia: progressive dry cough and breathlessness, exertional desaturation, bilateral interstitial infiltrates; high-dose cotrimoxazole (plus steroids if hypoxic). Cerebral toxoplasmosis: focal neurological signs, ring-enhancing lesions on CT; treat with cotrimoxazole or pyrimethamine–sulfadiazine. Oral and oesophageal candidiasis: fluconazole. Kaposi sarcoma: violaceous skin and mucosal lesions — ART ± chemotherapy. TB remains the leading cause of death in people with HIV — test everyone with symptoms. HIV-associated malignancies, cryptosporidiosis and CMV are other concerns.",
+       "keyPoints": [
+        "Crypto: amphotericin + flucytosine + fluconazole",
+        "Delay ART 4–6 weeks in crypto",
+        "PCP: high-dose cotrimoxazole ± steroids",
+        "Toxo: ring-enhancing lesions",
+        "TB: leading cause of death in PLHIV"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "An AIDS-defining (WHO stage 4) condition is:",
+       "options": [
+        "Cryptococcal meningitis",
+        "Pulmonary TB",
+        "Oral hairy leukoplakia",
+        "Recurrent URTI",
+        "Herpes zoster"
+       ],
+       "answerIndex": 0,
+       "explanation": "Pulmonary TB is stage 3."
+      },
+      {
+       "stem": "Advanced HIV disease in adults is defined partly by a CD4 count below:",
+       "options": [
+        "500",
+        "350",
+        "200",
+        "1,000",
+        "50 only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Or WHO stage 3–4."
+      },
+      {
+       "stem": "Cryptococcal antigen screening in advanced HIV allows:",
+       "options": [
+        "Vaccination",
+        "Diagnosis of TB",
+        "Delay of ART indefinitely",
+        "Pre-emptive fluconazole to prevent meningitis",
+        "Treatment of malaria"
+       ],
+       "answerIndex": 3,
+       "explanation": "Screen-and-treat reduces deaths."
+      },
+      {
+       "stem": "Paradoxical worsening of an infection after starting ART is called:",
+       "options": [
+        "Lipodystrophy",
+        "Treatment failure",
+        "Allergy",
+        "Drug resistance",
+        "Immune reconstitution inflammatory syndrome"
+       ],
+       "answerIndex": 4,
+       "explanation": "The recovering immune system reacts to pathogens."
+      },
+      {
+       "stem": "In cryptococcal meningitis, ART should be started after about:",
+       "options": [
+        "4–6 weeks of antifungal treatment",
+        "Immediately always",
+        "1 day",
+        "1 year",
+        "Never"
+       ],
+       "answerIndex": 0,
+       "explanation": "Early ART increases mortality from IRIS."
+      },
+      {
+       "stem": "Progressive dry cough with marked exertional desaturation in advanced HIV suggests:",
+       "options": [
+        "Lung cancer",
+        "Lobar pneumonia",
+        "Pneumocystis pneumonia",
+        "Asthma",
+        "Bronchiectasis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Treat with high-dose cotrimoxazole."
+      },
+      {
+       "stem": "Ring-enhancing brain lesions in a patient with advanced HIV suggest:",
+       "options": [
+        "Migraine",
+        "Cryptococcal meningitis",
+        "Meningococcal meningitis",
+        "Stroke",
+        "Cerebral toxoplasmosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Lymphoma is an important differential."
+      },
+      {
+       "stem": "The leading cause of death among people living with HIV is:",
+       "options": [
+        "Kaposi sarcoma",
+        "Hepatitis A",
+        "Malaria",
+        "Candidiasis",
+        "Tuberculosis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Screening and preventive therapy save lives."
+      }
+     ]
+    },
+    {
+     "title": "Meningitis, Sepsis and Fever",
+     "order": 3,
+     "summary": "Bacterial meningitis, the meningitis belt, sepsis recognition and approach to fever.",
+     "material": [
+      {
+       "heading": "Meningitis",
+       "body": "Bacterial meningitis: fever, headache, neck stiffness, photophobia, altered consciousness, seizures; petechial/purpuric rash suggests meningococcaemia. Northern Nigeria lies in the African meningitis belt, with epidemics in the dry season (December–June) caused by Neisseria meningitidis (serogroup A virtually eliminated by MenAfriVac; serogroups C, W and X now cause outbreaks — pentavalent Men5CV vaccine introduced in 2024) and Streptococcus pneumoniae. Lumbar puncture (unless contraindicated by raised ICP signs or coagulopathy): bacterial — turbid CSF, high neutrophils, high protein, low glucose (CSF:blood < 0.4); viral — lymphocytes, normal glucose; TB — lymphocytes, high protein, very low glucose; cryptococcal — India ink/CrAg. Do not delay antibiotics: ceftriaxone 2 g IV 12-hourly (in epidemics, single-dose ceftriaxone as per WHO protocols); dexamethasone before/with the first dose in adults with pneumococcal meningitis in high-income settings (less benefit in low-income/HIV settings). Chemoprophylaxis for close contacts of meningococcal disease (ciprofloxacin single dose).",
+       "keyPoints": [
+        "Meningitis belt: dry season",
+        "Men5CV introduced 2024",
+        "Bacterial CSF: neutrophils, low glucose",
+        "TB CSF: lymphocytes, very low glucose",
+        "Don't delay ceftriaxone",
+        "Ciprofloxacin prophylaxis for contacts"
+       ]
+      },
+      {
+       "heading": "Sepsis and fever",
+       "body": "Sepsis is life-threatening organ dysfunction due to a dysregulated host response to infection. Recognise early using qSOFA or early warning scores and act within the first hour: blood cultures, lactate, broad-spectrum antibiotics, fluids for hypotension, vasopressors, source control (drain abscesses, remove infected lines), and monitor urine output. Common sources in Nigeria: pneumonia, urinary tract, intra-abdominal (typhoid perforation), skin and soft tissue, obstetric (puerperal sepsis, septic abortion) and neonatal. Approach to acute febrile illness in Nigeria: always test for malaria, but also consider bacterial sepsis, typhoid, pneumonia, UTI, meningitis, viral haemorrhagic fevers (Lassa — with bleeding, sore throat, retrosternal pain, proteinuria; travel/contact history), dengue, HIV-related infections and TB. Negative malaria tests should prompt a search for another cause rather than repeat antimalarials. Fever of unknown origin needs systematic investigation (TB, abscess, lymphoma, HIV, endocarditis).",
+       "keyPoints": [
+        "Sepsis: first-hour bundle",
+        "Source control",
+        "Obstetric and neonatal sepsis",
+        "Fever ≠ always malaria",
+        "Consider Lassa with bleeding, sore throat",
+        "Negative malaria test → look elsewhere"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Meningitis epidemics in northern Nigeria typically occur during:",
+       "options": [
+        "The rainy season",
+        "Only in cities",
+        "The dry season (December–June)",
+        "Any time equally",
+        "Harmattan only in August"
+       ],
+       "answerIndex": 2,
+       "explanation": "Dry, dusty conditions favour transmission."
+      },
+      {
+       "stem": "A petechial or purpuric rash with meningitis suggests infection with:",
+       "options": [
+        "Haemophilus influenzae",
+        "Cryptococcus",
+        "Streptococcus pneumoniae",
+        "Neisseria meningitidis",
+        "Listeria"
+       ],
+       "answerIndex": 3,
+       "explanation": "Meningococcal septicaemia causes purpura."
+      },
+      {
+       "stem": "CSF with neutrophils, high protein and low glucose suggests:",
+       "options": [
+        "Viral meningitis",
+        "Multiple sclerosis",
+        "Normal CSF",
+        "Migraine",
+        "Bacterial meningitis"
+       ],
+       "answerIndex": 4,
+       "explanation": "Bacteria consume glucose."
+      },
+      {
+       "stem": "CSF with lymphocytes, very high protein and very low glucose in a patient with subacute illness suggests:",
+       "options": [
+        "Tuberculous meningitis",
+        "Normal",
+        "Viral meningitis",
+        "Meningococcal meningitis",
+        "Subarachnoid haemorrhage"
+       ],
+       "answerIndex": 0,
+       "explanation": "TB meningitis is subacute."
+      },
+      {
+       "stem": "The first-line empirical antibiotic for bacterial meningitis in adults is:",
+       "options": [
+        "Ceftriaxone",
+        "Doxycycline",
+        "Oral amoxicillin",
+        "Metronidazole",
+        "Nitrofurantoin"
+       ],
+       "answerIndex": 0,
+       "explanation": "It covers meningococcus and pneumococcus."
+      },
+      {
+       "stem": "Close contacts of a patient with meningococcal meningitis should receive:",
+       "options": [
+        "Steroids",
+        "Antimalarials",
+        "IV ceftriaxone for 10 days",
+        "Nothing",
+        "Chemoprophylaxis such as a single dose of ciprofloxacin"
+       ],
+       "answerIndex": 4,
+       "explanation": "It eradicates nasopharyngeal carriage."
+      },
+      {
+       "stem": "If a febrile patient's malaria test is negative, the clinician should:",
+       "options": [
+        "Give antimalarials anyway",
+        "Discharge without assessment",
+        "Repeat antimalarials weekly",
+        "Give chloroquine",
+        "Search for other causes of fever"
+       ],
+       "answerIndex": 4,
+       "explanation": "Negative tests should prompt further evaluation."
+      },
+      {
+       "stem": "Fever with sore throat, retrosternal pain and bleeding in a patient from Edo State in January suggests:",
+       "options": [
+        "Lassa fever",
+        "Cholera",
+        "Malaria only",
+        "Typhoid",
+        "Influenza"
+       ],
+       "answerIndex": 0,
+       "explanation": "Consider VHF, isolate and test."
+      }
+     ]
+    },
+    {
+     "title": "Tropical and Neglected Infections",
+     "order": 4,
+     "summary": "Tetanus, rabies, leprosy, schistosomiasis, onchocerciasis, trypanosomiasis and snakebite.",
+     "material": [
+      {
+       "heading": "Tetanus, rabies and leprosy",
+       "body": "Tetanus (Clostridium tetani toxin — tetanospasmin blocks inhibitory neurotransmitter release): trismus (lockjaw), risus sardonicus, opisthotonus and painful spasms triggered by stimuli; neonatal tetanus follows unclean cord care. Treatment: human tetanus immunoglobulin, wound debridement, metronidazole, benzodiazepines for spasms, magnesium, a quiet dark room, airway protection (tracheostomy) and immunisation after recovery (disease does not confer immunity). Rabies (dog bites — most human cases in Nigeria): furious (hydrophobia, aerophobia, agitation) or paralytic forms; almost always fatal once symptomatic. Post-exposure prophylaxis: immediate thorough wound washing with soap and water for 15 minutes, rabies vaccine (e.g. days 0, 3, 7) and rabies immunoglobulin for category III exposures; dog vaccination prevents human rabies. Leprosy (Mycobacterium leprae): hypopigmented anaesthetic skin patches, thickened peripheral nerves; paucibacillary vs multibacillary; multidrug therapy (rifampicin, dapsone, clofazimine) for 6 or 12 months; manage reactions and prevent disability.",
+       "keyPoints": [
+        "Tetanus: trismus, spasms",
+        "TIG, metronidazole, benzodiazepines",
+        "Disease doesn't confer immunity",
+        "Rabies PEP: wash, vaccine, RIG",
+        "Leprosy: anaesthetic patches, thick nerves, MDT"
+       ]
+      },
+      {
+       "heading": "Parasitic NTDs and snakebite",
+       "body": "Schistosomiasis: S. haematobium (terminal haematuria in children — 'male menstruation' myth; bladder fibrosis, squamous cell carcinoma) and S. mansoni (periportal fibrosis, portal hypertension); praziquantel. Onchocerciasis (river blindness; Simulium blackfly near fast-flowing rivers): itchy dermatitis, nodules, visual loss; ivermectin mass distribution. Lymphatic filariasis (Wuchereria bancrofti — hydrocoele, lymphoedema/elephantiasis; night blood films). Human African trypanosomiasis (T. b. gambiense; tsetse fly; chronic, sleeping sickness stage — fexinidazole) persists in some foci. Leishmaniasis and loiasis (eye worm; Calabar swellings) occur. Snakebite is a major neglected problem in northern Nigeria (carpet viper — incoagulable blood and bleeding; cobras — neurotoxicity with ptosis and paralysis; puff adder — local necrosis): immobilise, avoid harmful first aid, 20-minute whole blood clotting test, and give antivenom for systemic envenoming (EchiTAb products used in Nigeria); neostigmine may help in some neurotoxic bites.",
+       "keyPoints": [
+        "S. haematobium: haematuria; praziquantel",
+        "Onchocerciasis: ivermectin",
+        "Filariasis: night blood film",
+        "Sleeping sickness: fexinidazole",
+        "Carpet viper: coagulopathy; antivenom",
+        "Cobra: neurotoxicity"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Lockjaw (trismus) is an early sign of:",
+       "options": [
+        "Botulism",
+        "Leprosy",
+        "Tetanus",
+        "Meningitis",
+        "Rabies"
+       ],
+       "answerIndex": 2,
+       "explanation": "Masseter spasm is often the first feature."
+      },
+      {
+       "stem": "After recovery from tetanus, the patient should:",
+       "options": [
+        "Be considered immune",
+        "Have no follow-up",
+        "Avoid vaccines",
+        "Receive a full course of tetanus immunisation",
+        "Take lifelong antibiotics"
+       ],
+       "answerIndex": 3,
+       "explanation": "The disease does not confer immunity."
+      },
+      {
+       "stem": "The first step of rabies post-exposure prophylaxis is:",
+       "options": [
+        "Giving antibiotics",
+        "Applying herbs",
+        "Thorough washing of the wound with soap and water for 15 minutes",
+        "Suturing the wound",
+        "Waiting for symptoms"
+       ],
+       "answerIndex": 2,
+       "explanation": "Washing removes much of the virus."
+      },
+      {
+       "stem": "Hypopigmented skin patches with loss of sensation and thickened nerves suggest:",
+       "options": [
+        "Onchocerciasis",
+        "Vitiligo",
+        "Leprosy",
+        "Pityriasis versicolor",
+        "Eczema"
+       ],
+       "answerIndex": 2,
+       "explanation": "Anaesthesia distinguishes leprosy."
+      },
+      {
+       "stem": "Terminal haematuria in a schoolboy from a riverine area suggests:",
+       "options": [
+        "Wilms tumour",
+        "Schistosoma haematobium infection",
+        "Normal puberty",
+        "Glomerulonephritis",
+        "Kidney stones"
+       ],
+       "answerIndex": 1,
+       "explanation": "Treat with praziquantel."
+      },
+      {
+       "stem": "River blindness is caused by:",
+       "options": [
+        "Loa loa",
+        "Onchocerca volvulus",
+        "Trypanosoma",
+        "Schistosoma mansoni",
+        "Wuchereria bancrofti"
+       ],
+       "answerIndex": 1,
+       "explanation": "Transmitted by Simulium blackflies."
+      },
+      {
+       "stem": "Microfilariae of Wuchereria bancrofti are best detected in blood taken:",
+       "options": [
+        "At night",
+        "After meals",
+        "Any time",
+        "In the morning",
+        "At noon"
+       ],
+       "answerIndex": 0,
+       "explanation": "They show nocturnal periodicity."
+      },
+      {
+       "stem": "A patient bitten by a carpet viper who has incoagulable blood after 20 minutes should receive:",
+       "options": [
+        "Incision and suction",
+        "Antibiotics only",
+        "A tourniquet",
+        "Steroids only",
+        "Antivenom"
+       ],
+       "answerIndex": 4,
+       "explanation": "Coagulopathy indicates systemic envenoming."
+      }
+     ]
+    },
+    {
+     "title": "Emerging Infections and Infection Prevention",
+     "order": 5,
+     "summary": "Lassa, mpox, COVID-19, diphtheria, antimicrobial resistance and hospital infection control.",
+     "material": [
+      {
+       "heading": "Emerging and re-emerging infections",
+       "body": "Nigeria faces repeated outbreaks: Lassa fever (annual; isolation, ribavirin, IPC); mpox (re-emerged 2017; clade II; lesions progressing from macules to pustules and crusts, lymphadenopathy; PCR of lesion swabs; supportive care, isolation, vaccination of contacts in some settings); COVID-19 (SARS-CoV-2; 2020 onwards; RT-PCR/antigen tests; oxygen, dexamethasone for hypoxic patients; vaccination); diphtheria (major 2022–2024 outbreak in unvaccinated children — sore throat, grey pseudomembrane, 'bull neck', myocarditis; diphtheria antitoxin, antibiotics, contact prophylaxis and vaccination); cholera; yellow fever; and cerebrospinal meningitis. The One Health approach recognises that most emerging infections are zoonotic. NCDC's incident management and the International Health Regulations (2005) govern reporting and response.",
+       "keyPoints": [
+        "Lassa, mpox, COVID-19, diphtheria outbreaks",
+        "Diphtheria: pseudomembrane, antitoxin",
+        "COVID-19: dexamethasone if hypoxic",
+        "Zoonoses and One Health",
+        "IHR 2005"
+       ]
+      },
+      {
+       "heading": "Infection prevention and control",
+       "body": "Standard precautions apply to all patients: hand hygiene (WHO five moments — before touching a patient, before clean/aseptic procedures, after body fluid exposure risk, after touching a patient, after touching patient surroundings; alcohol hand rub or soap and water), appropriate PPE, respiratory hygiene, safe injection practices, sharps safety, environmental cleaning and waste management. Transmission-based precautions: contact (MRSA, C. difficile, Lassa/Ebola — plus droplet and full PPE), droplet (meningococcus, influenza, diphtheria — surgical mask within 1–2 m) and airborne (TB, measles, varicella — N95 respirator, negative-pressure or well-ventilated isolation rooms). Health workers have died from nosocomial Lassa fever in Nigeria — maintain high suspicion, triage and isolate febrile patients, and use PPE. Needlestick injuries: wash, report, assess source, and give HIV PEP within 72 hours and hepatitis B prophylaxis if needed. Healthcare-associated infections and antimicrobial resistance are reduced by IPC programmes and stewardship.",
+       "keyPoints": [
+        "WHO five moments of hand hygiene",
+        "Standard precautions for all",
+        "Droplet vs airborne precautions",
+        "N95 for TB and measles",
+        "Nosocomial Lassa deaths",
+        "Needlestick: PEP within 72 h"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A grey adherent pseudomembrane on the tonsils with 'bull neck' swelling in an unvaccinated child suggests:",
+       "options": [
+        "Mumps",
+        "Candidiasis",
+        "Diphtheria",
+        "Infectious mononucleosis",
+        "Streptococcal tonsillitis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Nigeria had a large outbreak from 2022."
+      },
+      {
+       "stem": "The specific treatment for diphtheria is:",
+       "options": [
+        "Antifungals",
+        "Diphtheria antitoxin plus antibiotics",
+        "Ribavirin",
+        "Antivenom",
+        "Steroids alone"
+       ],
+       "answerIndex": 1,
+       "explanation": "Antitoxin neutralises circulating toxin."
+      },
+      {
+       "stem": "Hospitalised COVID-19 patients who need oxygen benefit from:",
+       "options": [
+        "Hydroxychloroquine",
+        "Antibiotics routinely",
+        "Vitamin C",
+        "Dexamethasone",
+        "Ivermectin"
+       ],
+       "answerIndex": 3,
+       "explanation": "It reduced mortality in the RECOVERY trial."
+      },
+      {
+       "stem": "Most emerging infectious diseases originate from:",
+       "options": [
+        "Animals (zoonoses)",
+        "Plants",
+        "Food additives",
+        "Water only",
+        "Soil only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hence the One Health approach."
+      },
+      {
+       "stem": "How many 'moments' for hand hygiene does WHO describe?",
+       "options": [
+        "Three",
+        "Seven",
+        "Five",
+        "Two",
+        "Ten"
+       ],
+       "answerIndex": 2,
+       "explanation": "They define when hands must be cleaned."
+      },
+      {
+       "stem": "Pulmonary tuberculosis requires which type of precautions?",
+       "options": [
+        "None",
+        "Standard only",
+        "Airborne precautions with an N95 respirator",
+        "Droplet only",
+        "Contact only"
+       ],
+       "answerIndex": 2,
+       "explanation": "TB spreads via small airborne droplet nuclei."
+      },
+      {
+       "stem": "After a needlestick injury from an HIV-positive patient, HIV PEP should start within:",
+       "options": [
+        "72 hours (ideally within 2 hours)",
+        "1 month",
+        "1 week",
+        "Never",
+        "Only if symptoms appear"
+       ],
+       "answerIndex": 0,
+       "explanation": "The earlier the better."
+      },
+      {
+       "stem": "Health workers have died from Lassa fever in Nigeria mainly because of:",
+       "options": [
+        "Mosquito bites",
+        "Contaminated water",
+        "Airborne spread in communities",
+        "Vaccine reactions",
+        "Nosocomial transmission without adequate IPC"
+       ],
+       "answerIndex": 4,
+       "explanation": "High suspicion and PPE protect staff."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

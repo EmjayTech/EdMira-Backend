@@ -1,0 +1,660 @@
+{
+ "courses": [
+  {
+   "title": "Dental Materials Science",
+   "code": "DEN403",
+   "color": "#0891B2",
+   "description": "Properties of dental materials, restorative materials (amalgam, composites, glass ionomers), cements, impression materials, gypsum, alloys and ceramics.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Properties of Dental Materials",
+     "order": 1,
+     "summary": "Mechanical, thermal, chemical and biological properties relevant to dentistry.",
+     "material": [
+      {
+       "heading": "Mechanical properties",
+       "body": "Stress is force per unit area; strain is deformation per unit length. The elastic modulus (Young's modulus — stress/strain in the elastic region) measures stiffness; enamel is stiff, dentine less so. The proportional and elastic limits mark the end of elastic behaviour; yield strength is the stress producing a specified permanent deformation. Ultimate strength is the maximum stress before fracture (compressive, tensile, flexural). Brittle materials (ceramics, amalgam, gypsum) are strong in compression but weak in tension; ductile materials (gold alloys) deform plastically. Toughness is energy absorbed before fracture; resilience is energy absorbed elastically. Hardness (Vickers, Knoop) relates to wear. Creep is time-dependent deformation under load (e.g. amalgam creep causing marginal breakdown). Fatigue failure occurs under repeated cyclic loading.",
+       "keyPoints": [
+        "Elastic modulus = stiffness",
+        "Brittle: strong in compression, weak in tension",
+        "Toughness vs resilience",
+        "Hardness: Vickers, Knoop",
+        "Creep in amalgam"
+       ]
+      },
+      {
+       "heading": "Thermal, chemical and biological",
+       "body": "Coefficient of thermal expansion (CTE) should match tooth structure to prevent microleakage — composites have higher CTE than tooth; glass ionomers are close to dentine. Thermal conductivity: metals (amalgam) conduct heat and may need a liner/base over deep cavities; composites and GIC are insulators. Wettability and contact angle affect adhesion and impression detail. Corrosion (electrochemical) and galvanism (different metals in contact producing current and pain) occur in the oral environment. Dimensional stability, setting reactions and water sorption also matter. Biocompatibility: materials should be non-toxic, non-irritant, non-allergenic (e.g. nickel allergy, latex, methacrylate sensitisation) and non-carcinogenic; tested by cytotoxicity, implantation and usage tests. ISO and ADA specifications set standards.",
+       "keyPoints": [
+        "Match CTE to tooth",
+        "Metals conduct heat — use a base",
+        "Galvanism",
+        "Biocompatibility testing",
+        "ISO/ADA standards"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The ratio of stress to strain in the elastic region is the:",
+       "options": [
+        "Elastic (Young's) modulus",
+        "Yield strength",
+        "Creep",
+        "Toughness",
+        "Hardness"
+       ],
+       "answerIndex": 0,
+       "explanation": "It measures stiffness."
+      },
+      {
+       "stem": "Brittle dental materials such as ceramics are:",
+       "options": [
+        "Strong in tension, weak in compression",
+        "Highly elastic",
+        "Strong in compression but weak in tension",
+        "Very tough",
+        "Ductile"
+       ],
+       "answerIndex": 2,
+       "explanation": "They fracture with little plastic deformation."
+      },
+      {
+       "stem": "The total energy a material absorbs before fracture is its:",
+       "options": [
+        "Resilience",
+        "Hardness",
+        "Modulus",
+        "Density",
+        "Toughness"
+       ],
+       "answerIndex": 4,
+       "explanation": "Resilience is elastic energy only."
+      },
+      {
+       "stem": "Time-dependent deformation of amalgam under constant load is:",
+       "options": [
+        "Fatigue",
+        "Hardness",
+        "Corrosion",
+        "Creep",
+        "Galvanism"
+       ],
+       "answerIndex": 3,
+       "explanation": "Creep contributes to marginal breakdown."
+      },
+      {
+       "stem": "A material whose coefficient of thermal expansion is very different from tooth structure causes:",
+       "options": [
+        "Better sealing",
+        "Better aesthetics",
+        "Increased hardness",
+        "Microleakage at the margins",
+        "Faster setting"
+       ],
+       "answerIndex": 3,
+       "explanation": "Differential expansion opens gaps."
+      },
+      {
+       "stem": "A metallic taste and sharp pain when a fork touches an amalgam filling is due to:",
+       "options": [
+        "Galvanism",
+        "Fatigue",
+        "Wettability",
+        "Setting expansion",
+        "Creep"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dissimilar metals in saliva produce current."
+      },
+      {
+       "stem": "A liner or base is placed under deep amalgam restorations because amalgam:",
+       "options": [
+        "Conducts heat well",
+        "Is an insulator",
+        "Is aesthetic",
+        "Bonds to dentine",
+        "Releases fluoride"
+       ],
+       "answerIndex": 0,
+       "explanation": "Thermal protection of the pulp."
+      },
+      {
+       "stem": "Hardness of dental materials is commonly measured by:",
+       "options": [
+        "Charpy test",
+        "Tensile test only",
+        "Viscometer",
+        "pH meter",
+        "Vickers or Knoop indentation tests"
+       ],
+       "answerIndex": 4,
+       "explanation": "Indentation size reflects hardness."
+      }
+     ]
+    },
+    {
+     "title": "Dental Amalgam",
+     "order": 2,
+     "summary": "Composition, setting reaction, properties, handling and mercury safety.",
+     "material": [
+      {
+       "heading": "Composition and setting",
+       "body": "Dental amalgam is an alloy of mercury with a powder containing silver, tin and copper (plus sometimes zinc). The setting reaction in conventional (low-copper) amalgam: Ag3Sn (γ) + Hg → Ag2Hg3 (γ1, matrix) + Sn7-8Hg (γ2 — weakest, most corrosion-prone phase) + unreacted γ. High-copper amalgams (> 12% Cu, admixed or single-composition) eliminate the γ2 phase by forming Cu6Sn5 (η), improving strength, corrosion resistance and marginal integrity and reducing creep. Particle shapes: lathe-cut, spherical (requires less mercury and less condensation force) and admixed. Trituration (mixing in capsules with an amalgamator) and condensation (removing excess mercury, adapting to walls) are key handling steps; zinc-containing amalgam contaminated with moisture causes delayed expansion.",
+       "keyPoints": [
+        "Ag–Sn–Cu powder + Hg",
+        "γ2 phase: weakest",
+        "High-copper: eliminates γ2",
+        "Spherical alloys need less mercury",
+        "Zinc + moisture → delayed expansion"
+       ]
+      },
+      {
+       "heading": "Use and safety",
+       "body": "Amalgam is durable, strong, cheap and technique-tolerant — suited to posterior load-bearing restorations — but is non-aesthetic, non-adhesive (needs mechanical retention and removal of sound tooth), and conducts heat. Mercury hygiene: use pre-capsulated amalgam, work in well-ventilated rooms, avoid skin contact, store scrap under fixer or water in sealed containers, use amalgam separators, clean up spills with a mercury spill kit (never a vacuum cleaner), and monitor mercury levels. The Minamata Convention on Mercury (Nigeria is a party) calls for a phase-down of amalgam use through caries prevention and alternatives; many countries restrict use in children under 15 and pregnant women. Placed amalgam restorations are not considered harmful to patients, and removal of intact amalgams is not recommended.",
+       "keyPoints": [
+        "Durable, cheap, posterior use",
+        "Non-adhesive: mechanical retention",
+        "Mercury hygiene",
+        "Amalgam separators",
+        "Minamata Convention: phase-down"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The weakest and most corrosion-prone phase in conventional amalgam is:",
+       "options": [
+        "ε",
+        "γ1",
+        "γ",
+        "η",
+        "γ2"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sn–Hg phase."
+      },
+      {
+       "stem": "High-copper amalgams improve properties by eliminating the:",
+       "options": [
+        "γ2 phase",
+        "γ1 phase",
+        "Mercury",
+        "Tin completely",
+        "Silver"
+       ],
+       "answerIndex": 0,
+       "explanation": "Copper reacts with tin to form Cu6Sn5."
+      },
+      {
+       "stem": "Delayed expansion of amalgam is caused by:",
+       "options": [
+        "Excess copper",
+        "Low mercury",
+        "Spherical particles",
+        "Pre-capsulation",
+        "Moisture contamination of zinc-containing alloy"
+       ],
+       "answerIndex": 4,
+       "explanation": "Zinc reacts with water to produce hydrogen gas."
+      },
+      {
+       "stem": "Mixing amalgam alloy with mercury is called:",
+       "options": [
+        "Trituration",
+        "Carving",
+        "Polishing",
+        "Burnishing",
+        "Condensation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Done with an amalgamator."
+      },
+      {
+       "stem": "A disadvantage of amalgam compared with composite is that it is:",
+       "options": [
+        "Non-adhesive and non-aesthetic",
+        "Weak",
+        "Technique-sensitive to moisture always",
+        "Short-lived",
+        "Expensive"
+       ],
+       "answerIndex": 0,
+       "explanation": "It needs undercuts for retention."
+      },
+      {
+       "stem": "A mercury spill in the clinic should be cleaned with:",
+       "options": [
+        "A domestic vacuum cleaner",
+        "A mercury spill kit",
+        "A broom",
+        "Bare hands",
+        "Hot water"
+       ],
+       "answerIndex": 1,
+       "explanation": "Vacuuming vaporises mercury."
+      },
+      {
+       "stem": "The international treaty calling for the phase-down of dental amalgam is the:",
+       "options": [
+        "Kyoto Protocol",
+        "Minamata Convention",
+        "Paris Agreement",
+        "Montreal Protocol",
+        "Geneva Convention"
+       ],
+       "answerIndex": 1,
+       "explanation": "It addresses mercury pollution."
+      },
+      {
+       "stem": "Spherical amalgam alloys compared with lathe-cut alloys:",
+       "options": [
+        "Need less mercury and less condensation force",
+        "Need more mercury",
+        "Cannot be used clinically",
+        "Are weaker always",
+        "Contain no silver"
+       ],
+       "answerIndex": 0,
+       "explanation": "Their shape packs efficiently."
+      }
+     ]
+    },
+    {
+     "title": "Resin Composites and Adhesion",
+     "order": 3,
+     "summary": "Composition, polymerisation shrinkage, light curing, and enamel/dentine bonding.",
+     "material": [
+      {
+       "heading": "Composites",
+       "body": "Resin composites consist of an organic resin matrix (Bis-GMA, UDMA, diluted with TEGDMA), inorganic filler particles (silica, glass — increasing strength and reducing shrinkage), a silane coupling agent bonding filler to matrix, and an initiator system (camphorquinone — activated by blue light around 470 nm — with an amine accelerator). Classification by filler size: macrofilled, microfilled (polishable), hybrid/microhybrid and nanofilled (strength plus polish); flowable composites have less filler; bulk-fill composites cure in thicker increments (4–5 mm). Polymerisation shrinkage (about 2–3%) creates stress, marginal gaps and post-operative sensitivity — reduced by incremental placement (2 mm layers), low C-factor configurations and adequate curing. Oxygen inhibits polymerisation at the surface. Light-curing units (LED) must be checked for output with a radiometer.",
+       "keyPoints": [
+        "Bis-GMA/UDMA matrix",
+        "Silane couples filler",
+        "Camphorquinone ~470 nm",
+        "Shrinkage 2–3%",
+        "Incremental 2 mm layers",
+        "C-factor"
+       ]
+      },
+      {
+       "heading": "Adhesion",
+       "body": "Enamel bonding (Buonocore, 1955): phosphoric acid etching (30–37%, about 15–30 seconds) creates micro-porosities; resin tags give reliable micromechanical retention. Dentine bonding is more challenging due to its water content, tubules and smear layer. Etch-and-rinse systems (3-step: etch, prime, bond; or 2-step) remove the smear layer; primer and adhesive infiltrate the demineralised collagen to form the hybrid layer (Nakabayashi). Self-etch systems use acidic monomers without rinsing, modifying the smear layer (less sensitivity; selective enamel etching improves enamel bonds). Universal adhesives work in either mode. Moisture control (rubber dam) is critical. Over-drying etched dentine collapses collagen, reducing bond strength (wet bonding technique).",
+       "keyPoints": [
+        "Acid etch: 30–37% phosphoric acid",
+        "Hybrid layer (Nakabayashi)",
+        "Etch-and-rinse vs self-etch",
+        "Universal adhesives",
+        "Wet bonding; rubber dam"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The photoinitiator in most light-cured composites is:",
+       "options": [
+        "Benzoyl peroxide",
+        "Camphorquinone",
+        "Silane",
+        "Hydroquinone",
+        "Bis-GMA"
+       ],
+       "answerIndex": 1,
+       "explanation": "It absorbs blue light around 470 nm."
+      },
+      {
+       "stem": "The silane coupling agent in composites:",
+       "options": [
+        "Initiates polymerisation",
+        "Bonds filler particles to the resin matrix",
+        "Provides colour",
+        "Releases fluoride",
+        "Prevents curing"
+       ],
+       "answerIndex": 1,
+       "explanation": "It improves strength and wear resistance."
+      },
+      {
+       "stem": "Polymerisation shrinkage of composites is minimised by:",
+       "options": [
+        "Omitting bonding",
+        "Using no light",
+        "Incremental layering of about 2 mm",
+        "Leaving the tooth wet with saliva",
+        "Bulk placement of 8 mm"
+       ],
+       "answerIndex": 2,
+       "explanation": "Smaller increments reduce stress."
+      },
+      {
+       "stem": "The acid used to etch enamel is usually:",
+       "options": [
+        "Sulfuric acid",
+        "Hydrofluoric acid always",
+        "Phosphoric acid 30–37%",
+        "Citric acid 50%",
+        "Hydrochloric acid 5%"
+       ],
+       "answerIndex": 2,
+       "explanation": "It creates micromechanical retention."
+      },
+      {
+       "stem": "The hybrid layer is formed by:",
+       "options": [
+        "Amalgam and dentine",
+        "Resin infiltrating demineralised dentine collagen",
+        "Cement dissolution",
+        "Fluoride release",
+        "Enamel crystals"
+       ],
+       "answerIndex": 1,
+       "explanation": "It was described by Nakabayashi."
+      },
+      {
+       "stem": "Self-etch adhesives differ from etch-and-rinse adhesives in that they:",
+       "options": [
+        "Cannot bond to dentine",
+        "Need no light curing ever",
+        "Use acidic monomers without a separate rinse step",
+        "Require phosphoric acid rinsing",
+        "Are for amalgam only"
+       ],
+       "answerIndex": 2,
+       "explanation": "They modify rather than remove the smear layer."
+      },
+      {
+       "stem": "Over-drying etched dentine reduces bond strength because:",
+       "options": [
+        "The collagen network collapses",
+        "Fluoride is lost",
+        "Resin becomes too thin",
+        "Enamel dissolves",
+        "The pulp dies"
+       ],
+       "answerIndex": 0,
+       "explanation": "Wet bonding keeps collagen expanded."
+      },
+      {
+       "stem": "A composite surface that remains sticky after curing is due to:",
+       "options": [
+        "Moisture only",
+        "Silane",
+        "Excess filler",
+        "Too much light",
+        "Oxygen inhibition of polymerisation"
+       ],
+       "answerIndex": 4,
+       "explanation": "The oxygen-inhibited layer."
+      }
+     ]
+    },
+    {
+     "title": "Glass Ionomers and Dental Cements",
+     "order": 4,
+     "summary": "GIC chemistry and uses, resin-modified GIC, ART, and luting and lining cements.",
+     "material": [
+      {
+       "heading": "Glass ionomer cements",
+       "body": "Glass ionomer cements (GICs) set by an acid–base reaction between fluoroaluminosilicate glass powder and polyacrylic acid (with tartaric acid controlling setting). Advantages: chemical adhesion to enamel and dentine (ionic bonding to calcium), fluoride release and recharge (caries-inhibiting), CTE similar to tooth and biocompatibility. Disadvantages: low fracture toughness and wear resistance, and sensitivity to moisture during early setting (protect with varnish or bonding agent). Resin-modified GICs (RMGIC) add HEMA and light-curing, improving strength and early moisture resistance. Uses: cervical (abrasion/erosion) lesions, primary teeth restorations, liners/bases, luting, fissure sealing and the Atraumatic Restorative Treatment (ART) — hand excavation of caries and restoration with high-viscosity GIC, without electricity or drills — WHO-endorsed and valuable in rural Nigerian communities and school programmes.",
+       "keyPoints": [
+        "Acid–base: glass + polyacrylic acid",
+        "Chemical adhesion",
+        "Fluoride release",
+        "Moisture-sensitive early",
+        "RMGIC adds HEMA",
+        "ART: no drill, no electricity"
+       ]
+      },
+      {
+       "heading": "Other cements",
+       "body": "Zinc phosphate cement (zinc oxide + phosphoric acid) — traditional luting cement; initially acidic (pulpal irritation), exothermic (mix on a cool glass slab in small increments), no adhesion. Zinc oxide–eugenol (ZOE) — sedative/obtundent effect on the pulp, used for temporary restorations and root canal sealers; eugenol inhibits resin polymerisation, so avoid under composites. Calcium hydroxide (high pH ~12; antibacterial; stimulates reparative dentine) — liner for pulp capping; mineral trioxide aggregate (MTA) and calcium silicate cements (e.g. Biodentine) now preferred for pulp capping, pulpotomy, perforation repair and apexification. Polycarboxylate cement adheres to tooth and is kind to the pulp. Resin cements are used for bonding ceramics and indirect composites.",
+       "keyPoints": [
+        "Zinc phosphate: acidic, exothermic",
+        "ZOE: sedative; inhibits resin",
+        "Calcium hydroxide pH ~12",
+        "MTA/Biodentine for pulp therapy",
+        "Resin cements for ceramics"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Glass ionomer cement sets by a reaction between:",
+       "options": [
+        "Fluoroaluminosilicate glass and polyacrylic acid",
+        "Gypsum and water",
+        "Silver and mercury",
+        "Zinc oxide and eugenol",
+        "Resin and light"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is an acid–base reaction."
+      },
+      {
+       "stem": "A major clinical advantage of glass ionomer is:",
+       "options": [
+        "High polish like porcelain",
+        "No moisture sensitivity",
+        "Very high strength",
+        "Chemical adhesion and fluoride release",
+        "Excellent wear resistance"
+       ],
+       "answerIndex": 3,
+       "explanation": "These make it caries-inhibiting."
+      },
+      {
+       "stem": "Atraumatic Restorative Treatment uses:",
+       "options": [
+        "Hand instruments and high-viscosity glass ionomer",
+        "Gold inlays",
+        "Composite with light cure",
+        "Lasers",
+        "High-speed drills and amalgam"
+       ],
+       "answerIndex": 0,
+       "explanation": "It needs no electricity."
+      },
+      {
+       "stem": "Freshly placed conventional GIC should be protected with varnish because it is:",
+       "options": [
+        "Heat-conducting",
+        "Too hard",
+        "Sensitive to moisture during early setting",
+        "Toxic",
+        "Radiolucent"
+       ],
+       "answerIndex": 2,
+       "explanation": "Water contamination weakens it."
+      },
+      {
+       "stem": "Zinc oxide–eugenol should not be used under composite restorations because eugenol:",
+       "options": [
+        "Is acidic",
+        "Is too strong",
+        "Releases fluoride",
+        "Inhibits resin polymerisation",
+        "Is radiopaque"
+       ],
+       "answerIndex": 3,
+       "explanation": "Residual eugenol prevents curing."
+      },
+      {
+       "stem": "The pH of calcium hydroxide lining materials is about:",
+       "options": [
+        "3",
+        "5.5",
+        "7",
+        "12",
+        "9"
+       ],
+       "answerIndex": 3,
+       "explanation": "The high pH is antibacterial."
+      },
+      {
+       "stem": "The preferred modern material for direct pulp capping and perforation repair is:",
+       "options": [
+        "Zinc phosphate",
+        "Gutta-percha only",
+        "Composite",
+        "Mineral trioxide aggregate (MTA) or calcium silicate cement",
+        "Amalgam"
+       ],
+       "answerIndex": 3,
+       "explanation": "It is biocompatible and bioactive."
+      },
+      {
+       "stem": "Zinc phosphate cement is mixed on a cool glass slab in small increments because:",
+       "options": [
+        "It is light-cured",
+        "It releases fluoride",
+        "The setting reaction is exothermic",
+        "It contains eugenol",
+        "It sets too slowly"
+       ],
+       "answerIndex": 2,
+       "explanation": "This extends working time."
+      }
+     ]
+    },
+    {
+     "title": "Impression Materials, Gypsum and Prosthetic Materials",
+     "order": 5,
+     "summary": "Impression materials, dental stones, acrylic resins, alloys and ceramics.",
+     "material": [
+      {
+       "heading": "Impressions and gypsum",
+       "body": "Impression materials: non-elastic (impression compound, zinc oxide–eugenol paste, impression plaster — for edentulous mouths) and elastic. Elastic hydrocolloids: alginate (irreversible; sets by reaction of sodium alginate with calcium sulfate, retarded by trisodium phosphate; cheap and widely used for study models and dentures; dimensionally unstable — syneresis and imbibition — so pour within about 10–15 minutes) and agar (reversible). Elastomers: polysulfide, condensation silicone (by-product causes shrinkage), addition silicone/polyvinyl siloxane (most accurate and stable; setting inhibited by latex gloves) and polyether (rigid, hydrophilic). Gypsum products (calcium sulfate hemihydrate + water → dihydrate): Type I impression plaster, Type II model plaster (β-hemihydrate, porous), Type III dental stone (α-hemihydrate), Type IV die stone (high strength, low expansion) and Type V (high strength, high expansion). Higher water/powder ratio weakens gypsum.",
+       "keyPoints": [
+        "Alginate: pour within ~15 min",
+        "Syneresis and imbibition",
+        "PVS most accurate; latex inhibits",
+        "Gypsum: hemihydrate → dihydrate",
+        "Type IV die stone"
+       ]
+      },
+      {
+       "heading": "Acrylics, alloys and ceramics",
+       "body": "Denture bases are made of heat-cured polymethyl methacrylate (PMMA): powder (polymer beads with benzoyl peroxide initiator) and liquid (methyl methacrylate monomer with hydroquinone inhibitor). Proper curing cycles avoid porosity; residual monomer can irritate mucosa. Self-cured (cold-cure) acrylics are used for repairs and temporary crowns. Casting alloys: high-noble (gold), noble, and base metal (cobalt–chromium — for removable partial denture frameworks; nickel–chromium — metal-ceramic crowns, with nickel allergy concerns). Titanium is used for dental implants because of biocompatibility and osseointegration. Dental ceramics: feldspathic porcelain (aesthetic, brittle), glass-ceramics (lithium disilicate — strong and aesthetic), and polycrystalline zirconia (very strong; used for crowns, bridges and implant abutments). Metal-ceramic crowns bond porcelain to an oxide layer on the alloy. CAD/CAM milling and 3D printing are transforming fabrication.",
+       "keyPoints": [
+        "PMMA: powder + monomer",
+        "Benzoyl peroxide initiator",
+        "Co–Cr for partial denture frames",
+        "Titanium: osseointegration",
+        "Lithium disilicate and zirconia",
+        "CAD/CAM"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Alginate impressions should be poured promptly because of:",
+       "options": [
+        "Colour change",
+        "Dimensional change from syneresis and imbibition",
+        "Excessive strength",
+        "Heat release",
+        "Toxicity"
+       ],
+       "answerIndex": 1,
+       "explanation": "Water loss or uptake distorts the impression."
+      },
+      {
+       "stem": "The most accurate and dimensionally stable impression material is:",
+       "options": [
+        "Alginate",
+        "Condensation silicone",
+        "Agar",
+        "Addition silicone (polyvinyl siloxane)",
+        "Impression compound"
+       ],
+       "answerIndex": 3,
+       "explanation": "It has no by-product and minimal shrinkage."
+      },
+      {
+       "stem": "Setting of addition silicone impression material can be inhibited by:",
+       "options": [
+        "Light",
+        "Cold temperature",
+        "Water",
+        "Nitrile gloves",
+        "Latex gloves"
+       ],
+       "answerIndex": 4,
+       "explanation": "Sulfur compounds in latex poison the catalyst."
+      },
+      {
+       "stem": "The setting reaction of gypsum converts:",
+       "options": [
+        "Calcium carbonate to oxide",
+        "Calcium sulfate hemihydrate to dihydrate",
+        "Alginate to calcium alginate",
+        "Silica to glass",
+        "Dihydrate to hemihydrate"
+       ],
+       "answerIndex": 1,
+       "explanation": "Water is added to the hemihydrate."
+      },
+      {
+       "stem": "The strongest gypsum product with low expansion used for dies is:",
+       "options": [
+        "Type I impression plaster",
+        "Type III dental stone",
+        "Type II model plaster",
+        "Type IV die stone",
+        "Orthodontic plaster"
+       ],
+       "answerIndex": 3,
+       "explanation": "It has high strength and low expansion."
+      },
+      {
+       "stem": "The initiator in heat-cured PMMA denture base material is:",
+       "options": [
+        "Benzoyl peroxide",
+        "Hydroquinone",
+        "Silane",
+        "Eugenol",
+        "Camphorquinone"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hydroquinone is the inhibitor."
+      },
+      {
+       "stem": "The alloy commonly used for removable partial denture frameworks is:",
+       "options": [
+        "Silver–palladium only",
+        "Amalgam",
+        "Cobalt–chromium",
+        "Titanium–nickel shape memory only",
+        "Gold type I"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is rigid and inexpensive."
+      },
+      {
+       "stem": "Titanium is used for dental implants mainly because of its:",
+       "options": [
+        "Low cost",
+        "Colour",
+        "Biocompatibility and osseointegration",
+        "High thermal conductivity",
+        "Magnetic properties"
+       ],
+       "answerIndex": 2,
+       "explanation": "Bone bonds directly to its oxide surface."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,675 @@
+{
+ "courses": [
+  {
+   "title": "Paediatrics II: Childhood Illness and IMCI",
+   "code": "PAE503",
+   "color": "#0EA5E9",
+   "description": "Integrated management of childhood illness, pneumonia, diarrhoea, severe malaria, meningitis, sickle cell disease, HIV, heart and kidney disease in children, and emergency triage.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "500 Level",
+     "department": "Community Medicine"
+    },
+    {
+     "level": "600 Level",
+     "department": "Medicine & Surgery (MBBS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Community Medicine"
+    }
+   ],
+   "topics": [
+    {
+     "title": "IMCI and Emergency Triage",
+     "order": 1,
+     "summary": "ETAT emergency signs, IMCI danger signs and classification, and paediatric emergencies.",
+     "material": [
+      {
+       "heading": "Triage",
+       "body": "Emergency Triage Assessment and Treatment (ETAT) sorts sick children into emergency (E), priority (P) and queue. Emergency signs (ABCD): obstructed or absent breathing, severe respiratory distress, central cyanosis, signs of shock (cold hands with capillary refill > 3 seconds and weak fast pulse), coma, convulsions, and severe dehydration (lethargy, sunken eyes, very slow skin pinch) in a child with diarrhoea. Priority signs (3 TPR MOB): tiny baby, temperature (very high), trauma, pallor (severe), poisoning, pain (severe), respiratory distress, restless/irritable/lethargic, referral (urgent), malnutrition (visible severe wasting), oedema of both feet, burns. Treatments: airway positioning, oxygen, IV/IO fluids for shock (10–20 mL/kg crystalloid, caution in severe malnutrition and severe anaemia), 10% dextrose 5 mL/kg for hypoglycaemia, and anticonvulsants (rectal or IV diazepam, or buccal midazolam).",
+       "keyPoints": [
+        "ETAT: E, P, queue",
+        "Shock: cold hands, CRT > 3 s, weak fast pulse",
+        "Priority: 3 TPR MOB",
+        "Shock fluids 10–20 mL/kg",
+        "10% dextrose 5 mL/kg",
+        "Diazepam for convulsions"
+       ]
+      },
+      {
+       "heading": "IMCI",
+       "body": "Integrated Management of Childhood Illness (IMCI — for children 2 months to 5 years) uses a standard approach: check general danger signs (unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious) — any sign means urgent referral; then assess main symptoms (cough or difficult breathing, diarrhoea, fever, ear problem), nutrition and anaemia, immunisation, vitamin A and deworming status, and other problems. Classifications use colour codes: pink (urgent referral after pre-referral treatment), yellow (specific treatment at the clinic), green (home care). Counselling mothers on feeding, fluids and when to return is integral. Community-based IMCI (iCCM) enables trained community health workers to treat malaria (RDT + ACT), pneumonia (amoxicillin) and diarrhoea (ORS + zinc) in hard-to-reach areas.",
+       "keyPoints": [
+        "General danger signs → refer",
+        "Assess cough, diarrhoea, fever, ear",
+        "Pink, yellow, green",
+        "Counsel mothers",
+        "iCCM: malaria, pneumonia, diarrhoea"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "In ETAT, signs of shock in a child include cold hands and capillary refill longer than:",
+       "options": [
+        "1 second",
+        "3 seconds",
+        "10 seconds",
+        "0.5 seconds",
+        "30 seconds"
+       ],
+       "answerIndex": 1,
+       "explanation": "With a weak, fast pulse."
+      },
+      {
+       "stem": "Which is an IMCI general danger sign?",
+       "options": [
+        "Unable to drink or breastfeed",
+        "Mild fever",
+        "Runny nose",
+        "Ear pain",
+        "Cough for 3 days"
+       ],
+       "answerIndex": 0,
+       "explanation": "Any danger sign requires urgent referral."
+      },
+      {
+       "stem": "In IMCI, a yellow classification means the child needs:",
+       "options": [
+        "Urgent referral",
+        "Admission to ICU",
+        "Specific treatment at the health facility",
+        "No treatment",
+        "Home care only"
+       ],
+       "answerIndex": 2,
+       "explanation": "Pink needs referral; green home care."
+      },
+      {
+       "stem": "The IV dextrose dose for hypoglycaemia in a sick child is:",
+       "options": [
+        "5% dextrose 50 mL/kg",
+        "Normal saline 20 mL/kg",
+        "50% dextrose 1 mL/kg",
+        "Oral sugar only",
+        "10% dextrose 5 mL/kg"
+       ],
+       "answerIndex": 4,
+       "explanation": "Recheck glucose afterwards."
+      },
+      {
+       "stem": "Integrated community case management allows community health workers to treat:",
+       "options": [
+        "Cancer",
+        "Heart failure",
+        "Surgical emergencies",
+        "Malaria, pneumonia and diarrhoea",
+        "Severe malaria with coma"
+       ],
+       "answerIndex": 3,
+       "explanation": "It extends care to remote communities."
+      },
+      {
+       "stem": "The first-line treatment for a convulsing child in ETAT is:",
+       "options": [
+        "Antibiotics",
+        "Phenytoin",
+        "Rectal or IV diazepam (or buccal midazolam)",
+        "Paracetamol",
+        "Oral fluids"
+       ],
+       "answerIndex": 2,
+       "explanation": "Check glucose too."
+      },
+      {
+       "stem": "Priority signs in ETAT include:",
+       "options": [
+        "A tiny baby (< 2 months) and severe pallor",
+        "Mild rash",
+        "Follow-up visits",
+        "Routine vaccination",
+        "Mild cough"
+       ],
+       "answerIndex": 0,
+       "explanation": "They need rapid assessment."
+      },
+      {
+       "stem": "Children with severe malnutrition in shock need:",
+       "options": [
+        "Rapid large fluid boluses",
+        "Oral ReSoMal only",
+        "No fluids ever",
+        "Blood always",
+        "Cautious fluids with close monitoring"
+       ],
+       "answerIndex": 4,
+       "explanation": "They are prone to heart failure."
+      }
+     ]
+    },
+    {
+     "title": "Pneumonia and Diarrhoeal Disease",
+     "order": 2,
+     "summary": "Assessment and treatment of childhood pneumonia, bronchiolitis, and diarrhoea and dehydration.",
+     "material": [
+      {
+       "heading": "Pneumonia",
+       "body": "Pneumonia is a leading killer of Nigerian under-fives (Nigeria has the highest number of child pneumonia deaths globally). IMCI classification: fast breathing (≥ 50/min at 2–11 months; ≥ 40/min at 12–59 months) and/or chest indrawing — pneumonia treated with oral amoxicillin (dispersible, 5 days, or 3 days in low-HIV settings); any general danger sign or severe respiratory distress, SpO2 < 90% or central cyanosis — severe pneumonia requiring admission, oxygen and injectable antibiotics (ampicillin/penicillin plus gentamicin; ceftriaxone second-line). Pulse oximetry and reliable oxygen supply (concentrators, solar-powered systems) save lives. Causes: pneumococcus and Hib (vaccines reduce these), Staphylococcus aureus (post-measles; pneumatoceles, empyema), RSV and other viruses; consider TB and PCP in HIV-exposed infants. Bronchiolitis (RSV, infants < 1 year): wheeze and crackles, supportive care (oxygen, feeding, nasal suction) — antibiotics and bronchodilators are not routinely needed. Risk factors: malnutrition, lack of breastfeeding, indoor smoke, crowding, HIV.",
+       "keyPoints": [
+        "Nigeria: highest child pneumonia deaths",
+        "Fast breathing thresholds 50/40",
+        "Oral amoxicillin",
+        "SpO2 < 90%: oxygen, admit",
+        "Ampicillin + gentamicin",
+        "Bronchiolitis: supportive"
+       ]
+      },
+      {
+       "heading": "Diarrhoea and dehydration",
+       "body": "Diarrhoea is another leading cause of child death. Assess dehydration: no dehydration (Plan A — extra fluids, ORS, continue feeding, zinc 10–14 days: 10 mg < 6 months, 20 mg ≥ 6 months), some dehydration (restless/irritable, sunken eyes, drinks eagerly, skin pinch goes back slowly — Plan B: 75 mL/kg ORS over 4 hours), severe dehydration (lethargic/unconscious, sunken eyes, drinks poorly, skin pinch goes back very slowly — Plan C: IV Ringer's lactate 100 mL/kg — in infants 30 mL/kg over 1 hour then 70 mL/kg over 5 hours; children ≥ 12 months 30 mL/kg over 30 minutes then 70 mL/kg over 2½ hours). Dysentery (blood in stool — Shigella): ciprofloxacin. Persistent diarrhoea (≥ 14 days) needs nutritional management and HIV testing. Antidiarrhoeal and antiemetic drugs are not recommended. Prevention: rotavirus vaccine, exclusive breastfeeding, safe water, handwashing, sanitation and vitamin A.",
+       "keyPoints": [
+        "Plan A: ORS + zinc",
+        "Plan B: 75 mL/kg ORS over 4 h",
+        "Plan C: Ringer's lactate 100 mL/kg",
+        "Zinc 10–14 days",
+        "Dysentery: ciprofloxacin",
+        "No antidiarrhoeals"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Fast breathing in a 2-year-old child is a respiratory rate of at least:",
+       "options": [
+        "50 per minute",
+        "60 per minute",
+        "30 per minute",
+        "40 per minute",
+        "20 per minute"
+       ],
+       "answerIndex": 3,
+       "explanation": "For 12–59 months."
+      },
+      {
+       "stem": "The first-line oral antibiotic for non-severe childhood pneumonia is:",
+       "options": [
+        "Metronidazole",
+        "Chloramphenicol",
+        "Amoxicillin (dispersible tablets)",
+        "Cotrimoxazole",
+        "Ciprofloxacin"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is effective and safe."
+      },
+      {
+       "stem": "A child with pneumonia and SpO2 of 86% needs:",
+       "options": [
+        "Cough syrup",
+        "Nebulised salbutamol only",
+        "Admission with oxygen and injectable antibiotics",
+        "Oral amoxicillin at home",
+        "Steroids"
+       ],
+       "answerIndex": 2,
+       "explanation": "Hypoxaemia defines severe pneumonia."
+      },
+      {
+       "stem": "Bronchiolitis in infants is mostly caused by:",
+       "options": [
+        "Haemophilus influenzae",
+        "Staphylococcus aureus",
+        "Respiratory syncytial virus",
+        "Streptococcus pneumoniae",
+        "Mycobacterium tuberculosis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Supportive care is the mainstay."
+      },
+      {
+       "stem": "A child with diarrhoea who is restless, has sunken eyes and drinks eagerly has:",
+       "options": [
+        "No dehydration",
+        "Severe dehydration",
+        "Normal hydration",
+        "Shock",
+        "Some dehydration"
+       ],
+       "answerIndex": 4,
+       "explanation": "Treat with Plan B ORS."
+      },
+      {
+       "stem": "Plan B treatment for some dehydration is:",
+       "options": [
+        "Antidiarrhoeal drugs",
+        "Plain water only",
+        "ORS 75 mL/kg over 4 hours",
+        "Only breast milk",
+        "IV fluids 100 mL/kg"
+       ],
+       "answerIndex": 2,
+       "explanation": "Reassess after 4 hours."
+      },
+      {
+       "stem": "Zinc supplementation in childhood diarrhoea is given for:",
+       "options": [
+        "1 day",
+        "Only if bloody",
+        "3 months",
+        "Never",
+        "10–14 days"
+       ],
+       "answerIndex": 4,
+       "explanation": "It reduces duration and recurrence."
+      },
+      {
+       "stem": "Bloody diarrhoea in a child is most commonly due to:",
+       "options": [
+        "Cholera",
+        "Shigella",
+        "Rotavirus",
+        "Giardia",
+        "Norovirus"
+       ],
+       "answerIndex": 1,
+       "explanation": "Treat with ciprofloxacin."
+      }
+     ]
+    },
+    {
+     "title": "Severe Malaria, Meningitis and Measles",
+     "order": 3,
+     "summary": "Paediatric severe malaria, bacterial meningitis, measles and its complications.",
+     "material": [
+      {
+       "heading": "Severe malaria and meningitis",
+       "body": "Severe malaria in children commonly presents as cerebral malaria (coma, convulsions), severe anaemia (Hb < 5 g/dL — transfuse 20 mL/kg whole blood or 10 mL/kg packed cells), respiratory distress (metabolic acidosis — deep breathing), hypoglycaemia and prostration. Treat with IV/IM artesunate (3 mg/kg for children < 20 kg), correct hypoglycaemia, treat convulsions, cautious fluids (avoid boluses unless shocked — FEAST trial), transfuse when indicated, and give antibiotics if bacterial co-infection is suspected (non-typhoidal Salmonella bacteraemia is common). Pre-referral rectal artesunate in the community. Neurological sequelae can follow cerebral malaria. Bacterial meningitis in children (pneumococcus, meningococcus, Hib; in neonates GBS, E. coli): fever, bulging fontanelle, neck stiffness (unreliable in infants), convulsions, altered consciousness; lumbar puncture unless contraindicated; ceftriaxone; complications include hearing loss (test all survivors), hydrocephalus, subdural effusions and seizures.",
+       "keyPoints": [
+        "Cerebral malaria, severe anaemia, acidosis",
+        "Transfuse Hb < 5",
+        "Artesunate 3 mg/kg if < 20 kg",
+        "Avoid fluid boluses (FEAST)",
+        "Meningitis: ceftriaxone",
+        "Hearing test after meningitis"
+       ]
+      },
+      {
+       "heading": "Measles",
+       "body": "Measles remains a major childhood killer in Nigeria due to low vaccine coverage (large outbreaks, especially in the north). Features: prodrome of high fever, cough, coryza and conjunctivitis ('3 Cs'), Koplik spots (white spots on the buccal mucosa), then a maculopapular rash starting behind the ears and spreading down the body, fading with desquamation. Complications: pneumonia (the commonest cause of death), diarrhoea, malnutrition (measles precipitates kwashiorkor), otitis media, croup, keratitis and corneal ulceration (blindness — especially with vitamin A deficiency), encephalitis, and later subacute sclerosing panencephalitis (SSPE). Measles causes immune amnesia, increasing risk of other infections for months. Management: vitamin A (on days 1 and 2 — 50,000 IU < 6 months, 100,000 IU 6–11 months, 200,000 IU ≥ 12 months; a third dose if eye signs), treat complications, nutrition, and isolate. Prevention: two doses of measles-containing vaccine (9 and 15 months) and outbreak response.",
+       "keyPoints": [
+        "3 Cs + Koplik spots",
+        "Rash starts behind ears",
+        "Pneumonia: commonest cause of death",
+        "Corneal ulceration and blindness",
+        "Vitamin A on days 1 and 2",
+        "Immune amnesia",
+        "Two vaccine doses"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A child with severe malaria and Hb of 4 g/dL needs:",
+       "options": [
+        "Blood transfusion",
+        "Oral iron only",
+        "Observation",
+        "Steroids",
+        "Antibiotics only"
+       ],
+       "answerIndex": 0,
+       "explanation": "Severe anaemia < 5 g/dL needs transfusion."
+      },
+      {
+       "stem": "The FEAST trial showed that in children with severe febrile illness without shock, fluid boluses:",
+       "options": [
+        "Increased mortality",
+        "Improved survival",
+        "Prevented anaemia",
+        "Cured malaria",
+        "Had no effect at all"
+       ],
+       "answerIndex": 0,
+       "explanation": "Maintenance fluids are preferred."
+      },
+      {
+       "stem": "The parenteral artesunate dose for children under 20 kg is:",
+       "options": [
+        "1 mg/kg",
+        "2.4 mg/kg",
+        "3 mg/kg",
+        "10 mg/kg",
+        "20 mg/kg"
+       ],
+       "answerIndex": 2,
+       "explanation": "Higher dose gives equivalent exposure."
+      },
+      {
+       "stem": "All children who survive bacterial meningitis should have:",
+       "options": [
+        "A hearing assessment",
+        "Nothing further",
+        "Kidney ultrasound",
+        "Echocardiogram",
+        "Chest X-ray"
+       ],
+       "answerIndex": 0,
+       "explanation": "Hearing loss is a common complication."
+      },
+      {
+       "stem": "Koplik spots, found on the buccal mucosa, are a sign of:",
+       "options": [
+        "Scarlet fever",
+        "Measles",
+        "Chickenpox",
+        "Mumps",
+        "Rubella"
+       ],
+       "answerIndex": 1,
+       "explanation": "They appear before the rash."
+      },
+      {
+       "stem": "The most common cause of death from measles is:",
+       "options": [
+        "Pneumonia",
+        "Diarrhoea only",
+        "Otitis media",
+        "Encephalitis",
+        "SSPE"
+       ],
+       "answerIndex": 0,
+       "explanation": "Viral or secondary bacterial pneumonia."
+      },
+      {
+       "stem": "Children with measles should receive:",
+       "options": [
+        "Vitamin A supplementation",
+        "Measles vaccine during illness",
+        "Antibiotics routinely only",
+        "Aspirin",
+        "Steroids"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reduces complications and deaths."
+      },
+      {
+       "stem": "The measles rash typically begins:",
+       "options": [
+        "On the trunk only",
+        "On the palms",
+        "Around the mouth only",
+        "Behind the ears and on the face, spreading downwards",
+        "On the feet"
+       ],
+       "answerIndex": 3,
+       "explanation": "It fades in the same order."
+      }
+     ]
+    },
+    {
+     "title": "Sickle Cell Disease and HIV in Children",
+     "order": 4,
+     "summary": "Paediatric sickle cell complications and prevention, and paediatric HIV care.",
+     "material": [
+      {
+       "heading": "Sickle cell disease",
+       "body": "About 150,000 Nigerian babies are born with sickle cell disease yearly; without care, many die before age 5 (infection, splenic sequestration, anaemia). Early presentations: dactylitis (hand–foot syndrome — painful swollen hands and feet in infants 6 months–2 years), bacterial infections (pneumococcus — functional asplenia; Salmonella osteomyelitis), acute splenic sequestration (sudden enlarging spleen with falling Hb and shock — transfusion; teach parents to palpate the spleen), acute chest syndrome, stroke (screen with transcranial Doppler — TCD velocity ≥ 200 cm/s indicates high risk; hydroxyurea or transfusion), and aplastic crises. Comprehensive care: newborn screening and early diagnosis, penicillin V prophylaxis until at least 5 years, pneumococcal and other vaccines, folic acid, malaria chemoprophylaxis, hydroxyurea from 9 months (reduces crises, ACS and mortality — increasingly recommended in Africa), hydration and prompt analgesia, parent education, and genetic counselling.",
+       "keyPoints": [
+        "Dactylitis in infants",
+        "Functional asplenia: pneumococcus",
+        "Splenic sequestration: palpate spleen",
+        "TCD ≥ 200 cm/s: stroke risk",
+        "Penicillin prophylaxis to 5 years",
+        "Hydroxyurea from 9 months"
+       ]
+      },
+      {
+       "heading": "Paediatric HIV",
+       "body": "Most paediatric HIV results from mother-to-child transmission (in pregnancy, during delivery or through breastfeeding); Nigeria has one of the largest numbers of children living with HIV. PMTCT: maternal ART, infant prophylaxis (nevirapine ± zidovudine for 6–12 weeks), safe breastfeeding on ART, and early infant diagnosis (DNA PCR at 6 weeks, then after breastfeeding cessation; antibody tests at 18 months). All children diagnosed with HIV start ART promptly (dolutegravir-based regimens; paediatric DTG 10 mg dispersible tablets) with cotrimoxazole prophylaxis. Clinical features: failure to thrive, recurrent infections, oral thrush, persistent diarrhoea, lymphadenopathy, parotid enlargement, developmental delay and TB. Adolescents living with HIV need support for adherence, disclosure, transition to adult care and sexual and reproductive health.",
+       "keyPoints": [
+        "MTCT: pregnancy, delivery, breastfeeding",
+        "Infant NVP ± AZT prophylaxis",
+        "DNA PCR at 6 weeks",
+        "Antibody tests at 18 months",
+        "ART for all: paediatric DTG",
+        "Adolescent adherence and disclosure"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Painful swelling of the hands and feet in a 1-year-old with sickle cell disease is:",
+       "options": [
+        "Rheumatoid arthritis",
+        "Gout",
+        "Cellulitis",
+        "Osteomyelitis always",
+        "Dactylitis (hand–foot syndrome)"
+       ],
+       "answerIndex": 4,
+       "explanation": "Often the first presentation of SCD."
+      },
+      {
+       "stem": "Sudden pallor, shock and a rapidly enlarging spleen in a child with SCD suggest:",
+       "options": [
+        "Aplastic crisis",
+        "Acute splenic sequestration",
+        "Painful crisis",
+        "Malaria only",
+        "Hepatitis"
+       ],
+       "answerIndex": 1,
+       "explanation": "Urgent transfusion is needed."
+      },
+      {
+       "stem": "Children with sickle cell disease are highly susceptible to pneumococcal infection because of:",
+       "options": [
+        "Folic acid",
+        "Hydroxyurea",
+        "Anaemia",
+        "Functional asplenia",
+        "Iron overload"
+       ],
+       "answerIndex": 3,
+       "explanation": "Penicillin prophylaxis and vaccines protect them."
+      },
+      {
+       "stem": "Stroke risk in children with sickle cell anaemia is screened using:",
+       "options": [
+        "Transcranial Doppler ultrasound",
+        "ECG",
+        "EEG",
+        "Chest X-ray",
+        "Skull X-ray"
+       ],
+       "answerIndex": 0,
+       "explanation": "High velocities predict stroke."
+      },
+      {
+       "stem": "Penicillin prophylaxis in sickle cell disease should continue until at least age:",
+       "options": [
+        "1 year",
+        "5 years",
+        "12 years",
+        "18 years",
+        "6 months"
+       ],
+       "answerIndex": 1,
+       "explanation": "The highest infection risk is in early childhood."
+      },
+      {
+       "stem": "HIV infection in a 6-week-old HIV-exposed infant is diagnosed with:",
+       "options": [
+        "Western blot",
+        "Rapid antibody test",
+        "ELISA",
+        "CD4 count",
+        "HIV DNA PCR"
+       ],
+       "answerIndex": 4,
+       "explanation": "Maternal antibodies confound antibody tests."
+      },
+      {
+       "stem": "Children diagnosed with HIV should start ART:",
+       "options": [
+        "At adolescence",
+        "Promptly, regardless of CD4 count",
+        "After age 5",
+        "Only if symptomatic",
+        "Only when CD4 falls"
+       ],
+       "answerIndex": 1,
+       "explanation": "Early ART saves lives."
+      },
+      {
+       "stem": "The preferred ART anchor drug for children in Nigeria is:",
+       "options": [
+        "Nevirapine",
+        "Efavirenz",
+        "Lopinavir only",
+        "Stavudine",
+        "Dolutegravir"
+       ],
+       "answerIndex": 4,
+       "explanation": "Dispersible paediatric DTG is available."
+      }
+     ]
+    },
+    {
+     "title": "Heart, Kidney and Neurological Disorders in Children",
+     "order": 5,
+     "summary": "Congenital heart disease, rheumatic heart disease, nephrotic and nephritic syndromes, febrile seizures and epilepsy.",
+     "material": [
+      {
+       "heading": "Heart and kidney",
+       "body": "Congenital heart disease (about 8 per 1,000 births): acyanotic (VSD — the commonest, holosystolic murmur at the left lower sternal edge; ASD; PDA — continuous machinery murmur, more common in preterms) and cyanotic (tetralogy of Fallot — VSD, overriding aorta, pulmonary stenosis, RVH; hypercyanotic 'tet' spells treated with knee–chest position, oxygen, morphine; transposition of the great arteries — cyanosis at birth). Signs of heart failure in infants: fast breathing, sweating and breathlessness during feeds, poor weight gain, hepatomegaly. Surgery is available in few Nigerian centres, and many children travel abroad or die untreated. Rheumatic heart disease in school-age children follows rheumatic fever. Nephrotic syndrome (oedema, heavy proteinuria, hypoalbuminaemia): minimal change disease commonest globally (steroid-responsive), though steroid-resistant forms and secondary causes (quartan malaria, hepatitis B, HIV) are relatively more common in Nigeria; treat with prednisolone. Acute post-streptococcal glomerulonephritis: haematuria (cola-coloured urine), oedema, hypertension 1–3 weeks after throat or skin infection; low C3; supportive care.",
+       "keyPoints": [
+        "VSD commonest CHD",
+        "PDA: machinery murmur",
+        "Tetralogy: tet spells, knee–chest",
+        "Infant HF: sweating with feeds",
+        "Nephrotic: prednisolone",
+        "PSGN: cola urine, low C3"
+       ]
+      },
+      {
+       "heading": "Neurology",
+       "body": "Febrile seizures occur between 6 months and 5 years with fever (not due to CNS infection): simple (generalised, < 15 minutes, once in 24 hours) have an excellent prognosis; complex (focal, prolonged, recurrent) need further evaluation. Always exclude meningitis and cerebral malaria (lumbar puncture in infants and when signs are present). Management: treat fever cause, parent education; antipyretics do not prevent recurrence. Epilepsy in children: absence seizures (brief staring, 3 Hz spike-and-wave on EEG — ethosuximide or valproate), infantile spasms (West syndrome — hypsarrhythmia), and focal epilepsies; stigma and school exclusion are problems in Nigeria. Other conditions: cerebral palsy (non-progressive; multidisciplinary rehabilitation), hydrocephalus, neural tube defects, and post-infectious sequelae (after meningitis, cerebral malaria, kernicterus). Acute flaccid paralysis in a child must be reported for polio surveillance.",
+       "keyPoints": [
+        "Febrile seizures: 6 months–5 years",
+        "Simple vs complex",
+        "Exclude meningitis and cerebral malaria",
+        "Antipyretics don't prevent recurrence",
+        "Absence: 3 Hz spike-wave",
+        "Report AFP for polio surveillance"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The most common congenital heart defect is:",
+       "options": [
+        "Tetralogy of Fallot",
+        "Ventricular septal defect",
+        "Transposition",
+        "Coarctation of the aorta",
+        "ASD"
+       ],
+       "answerIndex": 1,
+       "explanation": "It causes a holosystolic murmur."
+      },
+      {
+       "stem": "A continuous 'machinery' murmur suggests:",
+       "options": [
+        "Aortic stenosis",
+        "ASD",
+        "Mitral stenosis",
+        "VSD",
+        "Patent ductus arteriosus"
+       ],
+       "answerIndex": 4,
+       "explanation": "More common in preterm infants."
+      },
+      {
+       "stem": "During a hypercyanotic 'tet' spell, the child should be placed in the:",
+       "options": [
+        "Knee–chest position",
+        "Supine position",
+        "Prone position",
+        "Standing position",
+        "Head-down position"
+       ],
+       "answerIndex": 0,
+       "explanation": "It increases systemic vascular resistance."
+      },
+      {
+       "stem": "Sweating and breathlessness during feeds in an infant suggest:",
+       "options": [
+        "Teething",
+        "Colic",
+        "Heart failure",
+        "Reflux only",
+        "Normal feeding"
+       ],
+       "answerIndex": 2,
+       "explanation": "Feeding is exercise for infants."
+      },
+      {
+       "stem": "The first-line treatment for childhood nephrotic syndrome is:",
+       "options": [
+        "Furosemide alone",
+        "Antibiotics",
+        "Dialysis",
+        "ACE inhibitor alone",
+        "Prednisolone"
+       ],
+       "answerIndex": 4,
+       "explanation": "Most minimal change disease responds."
+      },
+      {
+       "stem": "Cola-coloured urine, oedema and hypertension two weeks after a sore throat suggest:",
+       "options": [
+        "Post-streptococcal glomerulonephritis",
+        "Kidney stones",
+        "Wilms tumour",
+        "Nephrotic syndrome",
+        "UTI"
+       ],
+       "answerIndex": 0,
+       "explanation": "Complement C3 is low."
+      },
+      {
+       "stem": "A simple febrile seizure lasts less than:",
+       "options": [
+        "1 minute",
+        "15 minutes",
+        "30 minutes",
+        "1 hour",
+        "5 seconds"
+       ],
+       "answerIndex": 1,
+       "explanation": "It is generalised and not repeated within 24 hours."
+      },
+      {
+       "stem": "Acute flaccid paralysis in a child under 15 must be:",
+       "options": [
+        "Treated with steroids only",
+        "Managed at home",
+        "Ignored",
+        "Observed for a year",
+        "Reported for polio surveillance with stool samples"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a key part of polio eradication."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

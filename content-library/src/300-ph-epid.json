@@ -3,7 +3,7 @@
   "code": "EPI301",
   "color": "#0D9488",
   "description": "Measures of disease frequency and association, surveillance, outbreak investigation, screening test evaluation and causation.",
-  "for": { "300": ["PH"], "400": ["MBBS", "CM", "NUR"], "PG": ["*"] },
+  "for": { "300": ["PH"], "400": ["MBBS", "CM", "NUR"] },
   "topics": [
     {
       "title": "Measures of Disease Frequency",

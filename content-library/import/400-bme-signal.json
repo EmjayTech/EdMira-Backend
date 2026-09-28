@@ -1,0 +1,657 @@
+{
+ "courses": [
+  {
+   "title": "Biomedical Signal Processing",
+   "code": "BME403",
+   "color": "#475569",
+   "description": "Origin and characteristics of biosignals, sampling and digitisation, filtering, frequency analysis, and processing of ECG, EEG and EMG.",
+   "audience": [
+    {
+     "level": "400 Level",
+     "department": "Biomedical engineering"
+    },
+    {
+     "level": "500 Level",
+     "department": "Biomedical engineering"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Biosignals and Acquisition",
+     "order": 1,
+     "summary": "Types of biosignals, amplitude and frequency ranges, electrodes and amplifiers.",
+     "material": [
+      {
+       "heading": "Characteristics",
+       "body": "Biosignals are measurable quantities reflecting physiological activity: bioelectric (ECG from the heart — about 0.5–4 mV, 0.05–150 Hz diagnostic bandwidth; EEG from the brain — 10–100 µV, 0.5–100 Hz; EMG from muscles — 0.1–5 mV, 20–500 Hz or more; EOG from eye movement), biomechanical (blood pressure, respiration), biochemical (glucose, oxygen saturation) and bioacoustic (heart sounds). Signals may be deterministic or random, stationary or non-stationary (most biosignals are non-stationary). Sources of noise and artefacts: power-line interference (50 Hz in Nigeria), baseline wander (respiration, movement), muscle (EMG) artefact, electrode motion artefact and electromagnetic interference.",
+       "keyPoints": [
+        "ECG 0.5–4 mV",
+        "EEG 10–100 µV",
+        "EMG 20–500 Hz",
+        "Biosignals mostly non-stationary",
+        "50 Hz mains interference in Nigeria"
+       ]
+      },
+      {
+       "heading": "Electrodes and amplifiers",
+       "body": "Silver/silver chloride (Ag/AgCl) electrodes are non-polarisable, giving stable low-noise recordings; electrode gel reduces skin impedance. Biopotential amplifiers must have high input impedance (to avoid loading the source), high common-mode rejection ratio (CMRR > 80–100 dB — rejecting interference common to both inputs such as mains hum), appropriate gain (e.g. 1,000 for ECG) and bandwidth, and patient isolation for electrical safety. The instrumentation amplifier (three op-amp configuration) is the standard differential front end. The right-leg drive circuit feeds back inverted common-mode voltage to the body to reduce interference. Anti-aliasing low-pass filters precede digitisation.",
+       "keyPoints": [
+        "Ag/AgCl electrodes",
+        "High input impedance",
+        "High CMRR rejects mains",
+        "Instrumentation amplifier",
+        "Right-leg drive"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The typical amplitude of the ECG at the body surface is about:",
+       "options": [
+        "1–10 µV",
+        "0.5–4 mV",
+        "1–5 V",
+        "100 V",
+        "10 nV"
+       ],
+       "answerIndex": 1,
+       "explanation": "Millivolt-level signals need amplification."
+      },
+      {
+       "stem": "EEG signals are typically in the range of:",
+       "options": [
+        "10–100 µV",
+        "1–5 mV",
+        "1–10 V",
+        "1 nV",
+        "100 mV"
+       ],
+       "answerIndex": 0,
+       "explanation": "They are much smaller than ECG."
+      },
+      {
+       "stem": "Power-line interference in Nigerian recordings occurs at:",
+       "options": [
+        "50 Hz",
+        "60 Hz",
+        "100 kHz",
+        "1 Hz",
+        "500 Hz"
+       ],
+       "answerIndex": 0,
+       "explanation": "Nigeria's mains frequency is 50 Hz."
+      },
+      {
+       "stem": "The electrode type preferred for biopotential recording is:",
+       "options": [
+        "Plastic",
+        "Copper",
+        "Silver/silver chloride",
+        "Stainless steel",
+        "Aluminium"
+       ],
+       "answerIndex": 2,
+       "explanation": "Ag/AgCl is non-polarisable and stable."
+      },
+      {
+       "stem": "A high common-mode rejection ratio allows an amplifier to:",
+       "options": [
+        "Reject interference common to both inputs",
+        "Reduce gain",
+        "Amplify common-mode noise",
+        "Isolate batteries",
+        "Increase input current"
+       ],
+       "answerIndex": 0,
+       "explanation": "Mains interference appears on both inputs."
+      },
+      {
+       "stem": "Biopotential amplifiers need high input impedance to:",
+       "options": [
+        "Avoid loading the signal source",
+        "Make them cheaper",
+        "Reduce bandwidth",
+        "Increase noise",
+        "Heat the electrodes"
+       ],
+       "answerIndex": 0,
+       "explanation": "Skin–electrode impedance is high."
+      },
+      {
+       "stem": "The standard differential front-end amplifier for biosignals is the:",
+       "options": [
+        "Power amplifier",
+        "Class C amplifier",
+        "Oscillator",
+        "Instrumentation amplifier",
+        "Inverting amplifier"
+       ],
+       "answerIndex": 3,
+       "explanation": "It has high CMRR and input impedance."
+      },
+      {
+       "stem": "Baseline wander in ECG recordings is mainly caused by:",
+       "options": [
+        "Mains interference",
+        "Aliasing",
+        "Respiration and body movement",
+        "Quantisation",
+        "High-frequency muscle noise"
+       ],
+       "answerIndex": 2,
+       "explanation": "It is a low-frequency artefact."
+      }
+     ]
+    },
+    {
+     "title": "Sampling and Digitisation",
+     "order": 2,
+     "summary": "Nyquist theorem, aliasing, quantisation and analogue-to-digital conversion.",
+     "material": [
+      {
+       "heading": "Sampling",
+       "body": "Analogue signals are converted into discrete-time digital signals by sampling at regular intervals. The Nyquist–Shannon sampling theorem states that the sampling frequency must be at least twice the highest frequency present in the signal (fs ≥ 2fmax) to reconstruct it without loss; half the sampling rate is the Nyquist frequency. Sampling below this causes aliasing — high frequencies appear falsely as lower frequencies — prevented by an analogue anti-aliasing low-pass filter before the ADC. In practice, oversampling (e.g. ECG at 250–1,000 Hz, EMG at 1–2 kHz or more) is used.",
+       "keyPoints": [
+        "fs ≥ 2fmax",
+        "Nyquist frequency = fs/2",
+        "Aliasing",
+        "Anti-aliasing filter before ADC",
+        "ECG sampled 250–1,000 Hz"
+       ]
+      },
+      {
+       "heading": "Quantisation and ADC",
+       "body": "Quantisation assigns each sample to one of a finite number of levels determined by ADC resolution (n bits → 2^n levels). The quantisation step size (LSB) = input range / 2^n; quantisation error introduces noise, and the signal-to-quantisation-noise ratio improves by about 6 dB per bit. Typical biomedical ADCs use 12–24 bits (sigma–delta converters for high resolution at low frequencies). Other ADC types: successive approximation (common, moderate speed) and flash (fastest). Digital signals are stored and processed as sequences x[n]; the sampling interval T = 1/fs.",
+       "keyPoints": [
+        "2^n levels",
+        "LSB = range / 2^n",
+        "~6 dB per bit",
+        "Sigma–delta for high resolution",
+        "SAR and flash ADCs"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "According to the Nyquist theorem, a signal with maximum frequency 150 Hz must be sampled at least at:",
+       "options": [
+        "75 Hz",
+        "150 Hz",
+        "300 Hz",
+        "1,500 Hz",
+        "50 Hz"
+       ],
+       "answerIndex": 2,
+       "explanation": "fs ≥ 2 × fmax."
+      },
+      {
+       "stem": "Aliasing occurs when:",
+       "options": [
+        "Signals are filtered",
+        "Sampling rate is too high",
+        "Sampling rate is below twice the highest signal frequency",
+        "Too many bits are used",
+        "Amplifier gain is low"
+       ],
+       "answerIndex": 2,
+       "explanation": "High frequencies masquerade as low ones."
+      },
+      {
+       "stem": "Aliasing is prevented by:",
+       "options": [
+        "A high-pass filter after the ADC",
+        "An analogue low-pass anti-aliasing filter before sampling",
+        "More electrodes",
+        "Increasing mains frequency",
+        "Lower resolution"
+       ],
+       "answerIndex": 1,
+       "explanation": "Frequencies above Nyquist must be removed first."
+      },
+      {
+       "stem": "An 8-bit ADC provides how many quantisation levels?",
+       "options": [
+        "8",
+        "64",
+        "256",
+        "1,024",
+        "16"
+       ],
+       "answerIndex": 2,
+       "explanation": "2^8 = 256."
+      },
+      {
+       "stem": "Each additional bit of ADC resolution improves signal-to-quantisation-noise ratio by about:",
+       "options": [
+        "1 dB",
+        "3 dB",
+        "6 dB",
+        "20 dB",
+        "0 dB"
+       ],
+       "answerIndex": 2,
+       "explanation": "SQNR ≈ 6.02n + 1.76 dB."
+      },
+      {
+       "stem": "If fs = 500 Hz, the Nyquist frequency is:",
+       "options": [
+        "125 Hz",
+        "250 Hz",
+        "500 Hz",
+        "1,000 Hz",
+        "50 Hz"
+       ],
+       "answerIndex": 1,
+       "explanation": "Nyquist frequency is fs/2."
+      },
+      {
+       "stem": "The fastest type of ADC is the:",
+       "options": [
+        "Counting ADC",
+        "Dual-slope",
+        "Successive approximation",
+        "Sigma–delta",
+        "Flash converter"
+       ],
+       "answerIndex": 4,
+       "explanation": "It compares all levels simultaneously."
+      },
+      {
+       "stem": "The sampling interval for fs = 1,000 Hz is:",
+       "options": [
+        "1 s",
+        "1 ms",
+        "10 ms",
+        "0.1 ms",
+        "100 ms"
+       ],
+       "answerIndex": 1,
+       "explanation": "T = 1/fs."
+      }
+     ]
+    },
+    {
+     "title": "Digital Filtering",
+     "order": 3,
+     "summary": "FIR and IIR filters, filter types, notch filters and moving average.",
+     "material": [
+      {
+       "heading": "Filter types",
+       "body": "Filters remove unwanted components: low-pass (removes high-frequency noise such as muscle artefact), high-pass (removes baseline wander — e.g. 0.5 Hz cut-off for monitoring ECG, 0.05 Hz for diagnostic ECG to preserve ST segments), band-pass (retains a frequency band — e.g. QRS detection 5–15 Hz) and band-stop/notch (removes a narrow band such as 50 Hz mains interference). Filter characteristics include cut-off frequency (−3 dB point), passband ripple, transition band, stopband attenuation, order (steepness) and phase response. Filtering must preserve clinically important features — aggressive high-pass filtering distorts ST segments and can mimic ischaemia.",
+       "keyPoints": [
+        "Low-pass: muscle noise",
+        "High-pass: baseline wander",
+        "Notch: 50 Hz",
+        "Cut-off at −3 dB",
+        "Over-filtering distorts ST segments"
+       ]
+      },
+      {
+       "heading": "FIR and IIR",
+       "body": "Finite impulse response (FIR) filters use only current and past inputs (y[n] = Σ bk x[n−k]); they are always stable and can have exactly linear phase (no waveform distortion), but need higher orders. The moving average filter is a simple FIR low-pass filter. Infinite impulse response (IIR) filters also use past outputs (feedback), achieving sharp responses with lower order, but may be unstable and have non-linear phase; designs include Butterworth (maximally flat passband), Chebyshev (steeper with ripple) and elliptic. Zero-phase filtering (forward–backward filtering, e.g. filtfilt) removes phase distortion offline. Adaptive filters (LMS algorithm) track changing noise, e.g. removing maternal ECG from fetal ECG or mains interference with a reference input.",
+       "keyPoints": [
+        "FIR: stable, linear phase",
+        "Moving average = FIR low-pass",
+        "IIR: feedback, lower order",
+        "Butterworth: maximally flat",
+        "Adaptive LMS filters"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "To remove 50 Hz mains interference from an ECG, the most appropriate filter is a:",
+       "options": [
+        "High-pass filter at 50 Hz",
+        "Low-pass at 0.5 Hz",
+        "Band-pass 45–55 Hz",
+        "Notch (band-stop) filter at 50 Hz",
+        "No filter"
+       ],
+       "answerIndex": 3,
+       "explanation": "It removes a narrow band around 50 Hz."
+      },
+      {
+       "stem": "Baseline wander is removed with a:",
+       "options": [
+        "High-pass filter",
+        "Anti-aliasing filter",
+        "Notch at 50 Hz",
+        "Low-pass filter",
+        "Amplifier"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is low-frequency drift."
+      },
+      {
+       "stem": "Excessive high-pass filtering of a diagnostic ECG can:",
+       "options": [
+        "Distort ST segments and mimic ischaemia",
+        "Improve ST analysis",
+        "Improve P waves",
+        "Remove muscle noise",
+        "Increase heart rate"
+       ],
+       "answerIndex": 0,
+       "explanation": "Diagnostic ECG needs a 0.05 Hz cut-off."
+      },
+      {
+       "stem": "A key advantage of FIR filters is:",
+       "options": [
+        "They need very low order",
+        "They are infinite",
+        "They use feedback",
+        "They always distort waveforms",
+        "They are always stable and can have linear phase"
+       ],
+       "answerIndex": 4,
+       "explanation": "Linear phase preserves waveform shape."
+      },
+      {
+       "stem": "The moving average filter is a:",
+       "options": [
+        "Band-stop IIR",
+        "Adaptive filter",
+        "Notch filter",
+        "High-pass IIR filter",
+        "Simple FIR low-pass filter"
+       ],
+       "answerIndex": 4,
+       "explanation": "It averages consecutive samples."
+      },
+      {
+       "stem": "A Butterworth filter is characterised by:",
+       "options": [
+        "Ripple in the passband",
+        "Instability",
+        "Linear phase always",
+        "No roll-off",
+        "Maximally flat passband"
+       ],
+       "answerIndex": 4,
+       "explanation": "It has no passband ripple."
+      },
+      {
+       "stem": "Adaptive filters using the LMS algorithm can be used to:",
+       "options": [
+        "Store data",
+        "Sample signals",
+        "Amplify noise",
+        "Extract fetal ECG from maternal ECG",
+        "Increase mains interference"
+       ],
+       "answerIndex": 3,
+       "explanation": "They adapt to changing noise."
+      },
+      {
+       "stem": "The cut-off frequency of a filter is conventionally where the gain falls by:",
+       "options": [
+        "1 dB",
+        "3 dB",
+        "10 dB",
+        "20 dB",
+        "50 dB"
+       ],
+       "answerIndex": 1,
+       "explanation": "The −3 dB (half-power) point."
+      }
+     ]
+    },
+    {
+     "title": "Frequency and Time–Frequency Analysis",
+     "order": 4,
+     "summary": "Fourier transform, FFT, power spectrum, windowing, and wavelets.",
+     "material": [
+      {
+       "heading": "Fourier analysis",
+       "body": "The Fourier transform decomposes signals into sinusoidal components, revealing frequency content. The discrete Fourier transform (DFT) applies to sampled signals; the fast Fourier transform (FFT, Cooley–Tukey) computes it efficiently (N log N rather than N² operations). Frequency resolution = fs / N (longer records give finer resolution). The power spectral density shows power distribution across frequencies — e.g. EEG bands: delta (< 4 Hz, deep sleep), theta (4–8 Hz), alpha (8–13 Hz, relaxed awake with eyes closed), beta (13–30 Hz, active thinking) and gamma (> 30 Hz). Heart rate variability analysis uses spectral bands (LF, HF) reflecting autonomic balance. Windowing (Hamming, Hanning) reduces spectral leakage from truncating signals.",
+       "keyPoints": [
+        "FFT: N log N",
+        "Frequency resolution = fs/N",
+        "EEG bands: delta, theta, alpha, beta, gamma",
+        "HRV LF/HF",
+        "Windowing reduces leakage"
+       ]
+      },
+      {
+       "heading": "Time–frequency methods",
+       "body": "Because biosignals are non-stationary, time–frequency methods show how frequency content changes over time. The short-time Fourier transform (STFT) applies FFT to short sliding windows, producing a spectrogram, with a fixed trade-off between time and frequency resolution. The wavelet transform uses scaled and shifted wavelets (e.g. Daubechies, Morlet), giving good time resolution at high frequencies and good frequency resolution at low frequencies — useful for detecting transients (QRS complexes, epileptic spikes) and for denoising and compression. Other techniques: autocorrelation (periodicity), cross-correlation (similarity/time delay between signals), principal and independent component analysis (ICA — removing eye-blink artefacts from EEG).",
+       "keyPoints": [
+        "STFT → spectrogram",
+        "Time–frequency trade-off",
+        "Wavelets: good for transients",
+        "Cross-correlation: time delay",
+        "ICA removes EEG artefacts"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The fast Fourier transform is used to:",
+       "options": [
+        "Store data",
+        "Amplify signals",
+        "Sample signals",
+        "Filter noise in time only",
+        "Efficiently compute the frequency spectrum of a sampled signal"
+       ],
+       "answerIndex": 4,
+       "explanation": "It computes the DFT efficiently."
+      },
+      {
+       "stem": "With fs = 256 Hz and N = 512 samples, frequency resolution is:",
+       "options": [
+        "0.25 Hz",
+        "0.5 Hz",
+        "1 Hz",
+        "2 Hz",
+        "256 Hz"
+       ],
+       "answerIndex": 1,
+       "explanation": "256/512 = 0.5 Hz."
+      },
+      {
+       "stem": "The EEG alpha rhythm (8–13 Hz) is most prominent when a person is:",
+       "options": [
+        "Solving problems actively",
+        "Anaesthetised deeply",
+        "Relaxed and awake with eyes closed",
+        "In deep sleep",
+        "Having a seizure"
+       ],
+       "answerIndex": 2,
+       "explanation": "It attenuates on eye opening."
+      },
+      {
+       "stem": "Delta waves (< 4 Hz) in adults are characteristic of:",
+       "options": [
+        "Deep sleep",
+        "Active concentration",
+        "REM sleep only",
+        "Alert wakefulness",
+        "Eyes-closed relaxation"
+       ],
+       "answerIndex": 0,
+       "explanation": "Slow-wave sleep shows delta activity."
+      },
+      {
+       "stem": "Windowing before an FFT is used to reduce:",
+       "options": [
+        "Signal amplitude",
+        "Spectral leakage",
+        "Sampling rate",
+        "Quantisation",
+        "Aliasing"
+       ],
+       "answerIndex": 1,
+       "explanation": "Truncation causes leakage."
+      },
+      {
+       "stem": "A spectrogram is produced by:",
+       "options": [
+        "The short-time Fourier transform",
+        "Notch filtering",
+        "Averaging",
+        "Autocorrelation",
+        "Wavelet denoising"
+       ],
+       "answerIndex": 0,
+       "explanation": "It plots frequency against time."
+      },
+      {
+       "stem": "Wavelet analysis is especially good for:",
+       "options": [
+        "Detecting transient events like QRS complexes and spikes",
+        "Removing DC only",
+        "Amplifying mains",
+        "Increasing sampling rate",
+        "Stationary pure tones only"
+       ],
+       "answerIndex": 0,
+       "explanation": "It adapts resolution to frequency."
+      },
+      {
+       "stem": "Independent component analysis is commonly used in EEG to:",
+       "options": [
+        "Separate and remove artefacts such as eye blinks",
+        "Filter 50 Hz only",
+        "Increase amplitude",
+        "Measure blood pressure",
+        "Sample data"
+       ],
+       "answerIndex": 0,
+       "explanation": "ICA separates independent sources."
+      }
+     ]
+    },
+    {
+     "title": "Applications: ECG, EEG and EMG Processing",
+     "order": 5,
+     "summary": "QRS detection, heart rate variability, seizure detection, EMG analysis and wearables.",
+     "material": [
+      {
+       "heading": "ECG and EEG",
+       "body": "Automated ECG analysis begins with QRS detection; the Pan–Tompkins algorithm uses band-pass filtering (5–15 Hz), differentiation, squaring, moving-window integration and adaptive thresholds. R–R intervals give heart rate and heart rate variability (time-domain measures: SDNN, RMSSD). Arrhythmia classification increasingly uses machine learning and deep learning (e.g. atrial fibrillation detection by smartwatches). ST segment analysis detects ischaemia. EEG processing supports seizure detection, sleep staging, depth-of-anaesthesia monitoring (bispectral index), and brain–computer interfaces. Event-related potentials are extracted by ensemble averaging, improving SNR by √N.",
+       "keyPoints": [
+        "Pan–Tompkins QRS detection",
+        "HRV: SDNN, RMSSD",
+        "Ensemble averaging: SNR ∝ √N",
+        "Bispectral index",
+        "AF detection by wearables"
+       ]
+      },
+      {
+       "heading": "EMG and wearables",
+       "body": "Surface EMG features include root mean square (RMS) amplitude and integrated EMG (muscle activation level), median and mean frequency (fall with fatigue), and onset detection. Needle EMG and nerve conduction studies diagnose neuromuscular disease. EMG signals control myoelectric prosthetic hands via pattern recognition. Wearable and mobile health devices (smartwatches, patches, low-cost ECG devices) acquire biosignals continuously with limited power, requiring efficient algorithms, motion-artefact handling, data compression and secure transmission. Photoplethysmography (PPG) measures pulse and oxygen saturation (pulse oximetry uses red and infrared light absorption ratios). Validation against gold standards and regulatory approval are essential before clinical use.",
+       "keyPoints": [
+        "EMG RMS: activation",
+        "Median frequency falls with fatigue",
+        "Myoelectric prostheses",
+        "PPG and pulse oximetry: red/IR ratio",
+        "Validate wearables"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The Pan–Tompkins algorithm is used for:",
+       "options": [
+        "EMG fatigue analysis",
+        "Blood pressure measurement",
+        "Image reconstruction",
+        "EEG sleep staging",
+        "QRS detection in ECG"
+       ],
+       "answerIndex": 4,
+       "explanation": "It is a classic real-time QRS detector."
+      },
+      {
+       "stem": "RMSSD is a time-domain measure of:",
+       "options": [
+        "Heart rate variability",
+        "Blood pressure variability",
+        "EMG amplitude",
+        "Respiration rate",
+        "EEG power"
+       ],
+       "answerIndex": 0,
+       "explanation": "It reflects parasympathetic activity."
+      },
+      {
+       "stem": "Ensemble averaging of N responses improves signal-to-noise ratio by a factor of:",
+       "options": [
+        "√N",
+        "1/N",
+        "N",
+        "log N",
+        "N²"
+       ],
+       "answerIndex": 0,
+       "explanation": "Random noise averages out."
+      },
+      {
+       "stem": "During muscle fatigue, the median frequency of surface EMG:",
+       "options": [
+        "Doubles",
+        "Becomes zero",
+        "Decreases",
+        "Increases",
+        "Stays the same"
+       ],
+       "answerIndex": 2,
+       "explanation": "Conduction velocity slows."
+      },
+      {
+       "stem": "Myoelectric prosthetic hands are controlled using:",
+       "options": [
+        "EMG signals from residual muscles",
+        "Temperature",
+        "EEG only",
+        "ECG",
+        "Blood pressure"
+       ],
+       "answerIndex": 0,
+       "explanation": "Muscle activity drives motors."
+      },
+      {
+       "stem": "Pulse oximetry estimates oxygen saturation using:",
+       "options": [
+        "The ratio of red and infrared light absorption",
+        "Electrical impedance",
+        "Magnetic fields",
+        "Sound waves",
+        "X-rays"
+       ],
+       "answerIndex": 0,
+       "explanation": "Oxy- and deoxyhaemoglobin absorb differently."
+      },
+      {
+       "stem": "The bispectral index derived from EEG is used to monitor:",
+       "options": [
+        "Muscle fatigue",
+        "Depth of anaesthesia",
+        "Heart rhythm",
+        "Respiration",
+        "Blood glucose"
+       ],
+       "answerIndex": 1,
+       "explanation": "It guides anaesthetic dosing."
+      },
+      {
+       "stem": "Before a wearable ECG algorithm is used clinically, it must be:",
+       "options": [
+        "Used without testing",
+        "Only tested on engineers",
+        "Validated against gold standards and approved by regulators",
+        "Made cheaper",
+        "Marketed widely"
+       ],
+       "answerIndex": 2,
+       "explanation": "Validation ensures safety and accuracy."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

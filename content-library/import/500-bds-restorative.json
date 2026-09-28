@@ -1,0 +1,667 @@
+{
+ "courses": [
+  {
+   "title": "Restorative and Conservative Dentistry",
+   "code": "DEN503",
+   "color": "#0891B2",
+   "description": "Diagnosis and treatment planning, minimal intervention cavity preparation, direct restorations, endodontics, crowns and bridges, and tooth wear and aesthetics.",
+   "audience": [
+    {
+     "level": "500 Level",
+     "department": "Dentistry (BDS)"
+    },
+    {
+     "level": "600 Level",
+     "department": "Dentistry (BDS)"
+    }
+   ],
+   "topics": [
+    {
+     "title": "Diagnosis, Treatment Planning and Minimal Intervention",
+     "order": 1,
+     "summary": "History and examination, caries risk assessment, radiographs and minimal intervention dentistry.",
+     "material": [
+      {
+       "heading": "Assessment",
+       "body": "Restorative care begins with a thorough history (complaint, medical history — anticoagulants, bisphosphonates, cardiac conditions, diabetes, pregnancy, HIV; dental history, diet, habits) and examination (extraoral, soft tissues, periodontal screening with BPE, teeth — caries, restorations, wear, mobility; occlusion). Pulp sensibility tests (cold — ethyl chloride or refrigerant spray; electric pulp test) and percussion help diagnose pulp and periapical status. Radiographs: bitewings (interproximal caries and bone levels), periapicals (roots, periapical tissues), OPG (overview — third molars, pathology). Caries risk assessment (diet, fluoride exposure, plaque, saliva, previous caries, social factors) determines recall intervals and preventive intensity. Treatment planning follows phases: relief of pain and emergency care, disease control (oral hygiene, diet, caries stabilisation, periodontal therapy), definitive restorative care, and maintenance.",
+       "keyPoints": [
+        "Medical history matters",
+        "BPE screening",
+        "Cold and EPT sensibility tests",
+        "Bitewings: interproximal caries",
+        "Caries risk assessment",
+        "Phases: emergency → control → definitive → maintenance"
+       ]
+      },
+      {
+       "heading": "Minimal intervention dentistry",
+       "body": "Minimal intervention dentistry (MID) emphasises prevention, early detection and remineralisation of non-cavitated lesions (fluoride varnish, toothpaste, diet change), preserving tooth structure, and repairing rather than replacing defective restorations. Selective caries removal: remove soft infected dentine peripherally to achieve a sound margin for sealing but leave firm/leathery dentine over the pulp in deep lesions to avoid pulp exposure (reduces pulp exposure versus complete removal). Sealing caries (fissure sealants, Hall technique crowns in primary molars) arrests lesions by depriving bacteria of substrate. Atraumatic restorative treatment (ART) with hand instruments and high-viscosity glass ionomer suits community settings in Nigeria without electricity. Silver diamine fluoride (SDF) arrests caries non-invasively (stains lesions black). Cavity design has moved from G.V. Black's 'extension for prevention' to adhesive, conservative preparations.",
+       "keyPoints": [
+        "Prevent and remineralise",
+        "Selective caries removal",
+        "Hall technique",
+        "ART with GIC",
+        "Silver diamine fluoride",
+        "Conservative adhesive preparations"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Bitewing radiographs are mainly used to detect:",
+       "options": [
+        "Third molar position",
+        "Sinus disease",
+        "Periapical lesions",
+        "TMJ disorders",
+        "Interproximal caries and alveolar bone levels"
+       ],
+       "answerIndex": 4,
+       "explanation": "They show crowns of upper and lower posterior teeth."
+      },
+      {
+       "stem": "Pulp sensibility is commonly tested with:",
+       "options": [
+        "Radiographs only",
+        "Probing",
+        "Mobility test",
+        "Percussion only",
+        "Cold stimulus or electric pulp tester"
+       ],
+       "answerIndex": 4,
+       "explanation": "They test nerve response, not blood supply."
+      },
+      {
+       "stem": "The first phase of a treatment plan is usually:",
+       "options": [
+        "Tooth whitening",
+        "Relief of pain and emergency care",
+        "Orthodontics",
+        "Implants",
+        "Crowns and bridges"
+       ],
+       "answerIndex": 1,
+       "explanation": "Then disease control."
+      },
+      {
+       "stem": "Selective caries removal in deep lesions aims to:",
+       "options": [
+        "Leave soft dentine at the margins",
+        "Avoid pulp exposure by leaving firm dentine over the pulp while sealing sound margins",
+        "Avoid restoring",
+        "Extract the tooth",
+        "Remove all dentine to the pulp"
+       ],
+       "answerIndex": 1,
+       "explanation": "Sealed residual bacteria become inactive."
+      },
+      {
+       "stem": "The Hall technique involves:",
+       "options": [
+        "Implant placement",
+        "Cementing preformed metal crowns over carious primary molars without caries removal",
+        "Extraction",
+        "Composite veneers",
+        "Root canal treatment"
+       ],
+       "answerIndex": 1,
+       "explanation": "It seals caries in children."
+      },
+      {
+       "stem": "Silver diamine fluoride arrests caries but has the side effect of:",
+       "options": [
+        "Gum overgrowth",
+        "Tooth sensitivity always",
+        "Pain",
+        "Allergy commonly",
+        "Black staining of lesions"
+       ],
+       "answerIndex": 4,
+       "explanation": "Aesthetics limit its use on front teeth."
+      },
+      {
+       "stem": "G.V. Black's principle replaced by minimal intervention was:",
+       "options": [
+        "Adhesion",
+        "Extension for prevention",
+        "Remineralisation",
+        "Sealing",
+        "Repair"
+       ],
+       "answerIndex": 1,
+       "explanation": "Modern preparations are conservative."
+      },
+      {
+       "stem": "Caries risk assessment is used to determine:",
+       "options": [
+        "Anaesthetic dose",
+        "Tooth colour",
+        "Recall intervals and preventive intensity",
+        "Blood group",
+        "Implant size"
+       ],
+       "answerIndex": 2,
+       "explanation": "High-risk patients need more intensive prevention."
+      }
+     ]
+    },
+    {
+     "title": "Direct Restorations",
+     "order": 2,
+     "summary": "Amalgam and composite techniques, matrix systems, moisture control and restoration failure.",
+     "material": [
+      {
+       "heading": "Techniques",
+       "body": "Moisture control (rubber dam — gold standard for adhesive restorations and endodontics; cotton rolls, saliva ejectors) is essential. Amalgam preparation requires mechanical retention (undercuts, grooves), sufficient bulk (at least 1.5–2 mm), and a 90° cavosurface margin (butt joint); it is condensed incrementally, carved and burnished. Composite restorations use adhesive bonding with bevelled enamel margins (anterior), incremental placement (≤ 2 mm layers) to reduce polymerisation shrinkage stress, adequate light curing, and finishing and polishing. Matrix systems (Tofflemire, sectional matrices with rings) and wedges restore proximal contour and contact points, preventing overhangs and food packing. Glass ionomer is ideal for cervical lesions, high-caries-risk patients and primary teeth; the sandwich (layered) technique combines GIC base with composite. Shade selection under natural light before rubber dam isolation (teeth dehydrate and lighten).",
+       "keyPoints": [
+        "Rubber dam: gold standard",
+        "Amalgam: undercuts, 90° margin",
+        "Composite: bevel, ≤ 2 mm increments",
+        "Matrix + wedge for contacts",
+        "GIC for cervical and high risk",
+        "Shade before isolation"
+       ]
+      },
+      {
+       "heading": "Failure and replacement",
+       "body": "Restoration failure causes: secondary (recurrent) caries at margins (the most common reason for replacement), fracture of restoration or tooth (cuspal fracture — consider cuspal coverage for teeth with large restorations or after root canal treatment), marginal breakdown, wear, discolouration, and postoperative sensitivity (from polymerisation shrinkage, microleakage, occlusal high spots, or pulpal inflammation). Assessment of existing restorations uses criteria such as marginal integrity, anatomy, secondary caries and aesthetics (FDI criteria). Repair rather than replacement conserves tooth structure when feasible. Amalgam alternatives are promoted under the Minamata Convention phase-down, with restrictions for children under 15 and pregnant women in many jurisdictions. Cracked tooth syndrome causes sharp pain on biting (especially on release) — diagnosed with bite tests and transillumination; treat with cuspal coverage restorations.",
+       "keyPoints": [
+        "Secondary caries: commonest failure",
+        "Cuspal coverage for weakened teeth",
+        "Repair vs replace",
+        "Minamata phase-down",
+        "Cracked tooth: pain on release"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The gold standard method of moisture control for adhesive dentistry is:",
+       "options": [
+        "Saliva ejector alone",
+        "Air drying only",
+        "Rubber dam",
+        "Cotton rolls",
+        "Gauze"
+       ],
+       "answerIndex": 2,
+       "explanation": "It isolates the tooth completely."
+      },
+      {
+       "stem": "Amalgam cavity margins should ideally have a cavosurface angle of about:",
+       "options": [
+        "135°",
+        "180°",
+        "45°",
+        "90°",
+        "30°"
+       ],
+       "answerIndex": 3,
+       "explanation": "A butt joint prevents thin brittle edges."
+      },
+      {
+       "stem": "Composite resin is placed in increments of about 2 mm to reduce:",
+       "options": [
+        "Radiopacity",
+        "Colour change",
+        "Polymerisation shrinkage stress",
+        "Cost",
+        "Fluoride release"
+       ],
+       "answerIndex": 2,
+       "explanation": "It also ensures complete curing."
+      },
+      {
+       "stem": "A matrix band and wedge are used to:",
+       "options": [
+        "Remove caries",
+        "Restore proximal contour and contact and prevent overhangs",
+        "Whiten teeth",
+        "Anaesthetise",
+        "Take impressions"
+       ],
+       "answerIndex": 1,
+       "explanation": "Poor contacts cause food packing."
+      },
+      {
+       "stem": "Shade for a composite restoration should be selected:",
+       "options": [
+        "Before isolation, under natural light",
+        "In the dark",
+        "Once the tooth is dry for 30 minutes",
+        "After curing",
+        "After rubber dam placement"
+       ],
+       "answerIndex": 0,
+       "explanation": "Dehydrated teeth appear lighter."
+      },
+      {
+       "stem": "The most common reason for replacing restorations is:",
+       "options": [
+        "Patient request",
+        "Wear",
+        "Overhang only",
+        "Secondary (recurrent) caries",
+        "Colour change"
+       ],
+       "answerIndex": 3,
+       "explanation": "It occurs at the margins."
+      },
+      {
+       "stem": "Sharp pain on biting, especially on release, suggests:",
+       "options": [
+        "Irreversible pulpitis",
+        "Dentine hypersensitivity only",
+        "Cracked tooth syndrome",
+        "Sinusitis",
+        "Periodontitis"
+       ],
+       "answerIndex": 2,
+       "explanation": "Confirm with a bite test."
+      },
+      {
+       "stem": "Glass ionomer is especially suitable for:",
+       "options": [
+        "Large posterior load-bearing restorations in bruxists",
+        "Implants",
+        "Crowns",
+        "Cervical lesions and high-caries-risk patients",
+        "Veneers"
+       ],
+       "answerIndex": 3,
+       "explanation": "It releases fluoride and bonds chemically."
+      }
+     ]
+    },
+    {
+     "title": "Endodontics",
+     "order": 3,
+     "summary": "Pulp therapy, root canal treatment steps, irrigation, obturation and outcomes.",
+     "material": [
+      {
+       "heading": "Vital pulp therapy and access",
+       "body": "Vital pulp therapy preserves pulp vitality: indirect pulp capping, direct pulp capping of small exposures (calcium silicate cements such as MTA or Biodentine preferred over calcium hydroxide), and pulpotomy (removing inflamed coronal pulp — increasingly used even for irreversible pulpitis in mature teeth; standard in primary molars). Root canal treatment (RCT) is indicated for irreversible pulpitis, pulp necrosis and apical periodontitis in restorable teeth. Steps: diagnosis and preoperative radiograph, local anaesthesia, rubber dam isolation (mandatory — prevents contamination and inhalation of files), access cavity (remove the entire roof of the pulp chamber — straight-line access), locating canals (e.g. second mesiobuccal canal in upper first molars; lower incisors may have two canals), working length determination (electronic apex locator and radiograph — about 0.5–1 mm short of the radiographic apex), cleaning and shaping (hand or rotary nickel–titanium files; crown-down), irrigation, and obturation.",
+       "keyPoints": [
+        "MTA/Biodentine for pulp capping",
+        "Pulpotomy",
+        "Rubber dam mandatory in RCT",
+        "Straight-line access",
+        "MB2 canal in upper molars",
+        "Working length with apex locator"
+       ]
+      },
+      {
+       "heading": "Irrigation, obturation and outcomes",
+       "body": "Irrigation disinfects the canal system that files cannot reach: sodium hypochlorite (0.5–5.25% — dissolves organic tissue, antibacterial; extrusion beyond the apex causes a painful 'hypochlorite accident' with swelling and bruising), EDTA (removes the smear layer), and chlorhexidine; activation (sonic or ultrasonic) improves efficacy. Intracanal medicament (calcium hydroxide) between visits. Obturation with gutta-percha and sealer (cold lateral condensation or warm vertical techniques) to seal the canal; then a coronal seal — definitive restoration (cuspal coverage for posterior teeth) promptly to prevent coronal leakage, a major cause of failure. Outcome assessment by clinical signs and radiographic periapical healing at 1 year and beyond; failure may require non-surgical retreatment or surgical endodontics (apicectomy). Procedural errors: ledges, perforations, file separation, and missed canals. Immature teeth with necrotic pulps: apexification (MTA plug) or regenerative endodontics.",
+       "keyPoints": [
+        "NaOCl dissolves tissue",
+        "Hypochlorite accident",
+        "EDTA removes smear layer",
+        "Gutta-percha + sealer",
+        "Coronal seal prevents failure",
+        "Apicectomy",
+        "Apexification"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "The preferred material for direct pulp capping today is:",
+       "options": [
+        "Calcium silicate cement (MTA or Biodentine)",
+        "Gutta-percha",
+        "Composite directly",
+        "Zinc phosphate",
+        "Amalgam"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is bioactive with better outcomes."
+      },
+      {
+       "stem": "Rubber dam in root canal treatment is:",
+       "options": [
+        "Optional",
+        "Harmful",
+        "Mandatory",
+        "Only for anterior teeth",
+        "Only for children"
+       ],
+       "answerIndex": 2,
+       "explanation": "It prevents contamination and inhalation of instruments."
+      },
+      {
+       "stem": "A frequently missed canal in maxillary first molars is the:",
+       "options": [
+        "Second mesiobuccal (MB2) canal",
+        "Distobuccal canal",
+        "Central canal",
+        "Palatal canal",
+        "Lingual canal"
+       ],
+       "answerIndex": 0,
+       "explanation": "Missing it causes failure."
+      },
+      {
+       "stem": "Working length is commonly determined with an electronic apex locator and a:",
+       "options": [
+        "Periapical radiograph",
+        "OPG only",
+        "CBCT always",
+        "Cold test",
+        "Bitewing"
+       ],
+       "answerIndex": 0,
+       "explanation": "Aim slightly short of the radiographic apex."
+      },
+      {
+       "stem": "The irrigant that dissolves organic pulp tissue is:",
+       "options": [
+        "Sodium hypochlorite",
+        "EDTA",
+        "Hydrogen peroxide",
+        "Saline",
+        "Chlorhexidine"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is also strongly antibacterial."
+      },
+      {
+       "stem": "Severe pain and rapid swelling during irrigation suggest:",
+       "options": [
+        "Sinus perforation always",
+        "Pulp regeneration",
+        "Allergy to gutta-percha",
+        "Normal reaction",
+        "Sodium hypochlorite extrusion beyond the apex"
+       ],
+       "answerIndex": 4,
+       "explanation": "Manage with analgesia, cold compress and reassurance."
+      },
+      {
+       "stem": "The material used to fill root canals is:",
+       "options": [
+        "Composite",
+        "Zinc phosphate",
+        "Gutta-percha with sealer",
+        "Calcium hydroxide permanently",
+        "Amalgam"
+       ],
+       "answerIndex": 2,
+       "explanation": "Calcium hydroxide is an interim medicament."
+      },
+      {
+       "stem": "A major cause of root canal treatment failure after obturation is:",
+       "options": [
+        "Using rubber dam",
+        "Using NaOCl",
+        "Coronal leakage from delayed or poor restoration",
+        "Proper access",
+        "Accurate working length"
+       ],
+       "answerIndex": 2,
+       "explanation": "Prompt definitive restoration is essential."
+      }
+     ]
+    },
+    {
+     "title": "Crowns, Bridges and Indirect Restorations",
+     "order": 4,
+     "summary": "Indications, tooth preparation, materials, impressions and replacing missing teeth with bridges.",
+     "material": [
+      {
+       "heading": "Crowns",
+       "body": "Indications for crowns: heavily restored or fractured teeth, root-canal-treated posterior teeth (cuspal protection), aesthetics (discoloured or malformed teeth), and bridge retainers. Materials: full metal (gold or base metal — minimal reduction), metal–ceramic (porcelain fused to metal), all-ceramic (lithium disilicate — excellent aesthetics; zirconia — high strength, posterior use), and composite. Principles of preparation: preservation of tooth structure, retention and resistance form (taper of about 6° total, adequate height), structural durability (adequate reduction — e.g. 1.5–2 mm occlusal for metal–ceramic), marginal integrity (chamfer or shoulder finish lines) and preservation of the periodontium (supragingival margins where possible). Posts and cores restore endodontically treated teeth with insufficient coronal structure; a ferrule (at least 1.5–2 mm of sound tooth encircled by the crown) reduces fracture risk. Impressions (addition silicone, digital scans), provisional crowns, occlusal registration, try-in and cementation follow.",
+       "keyPoints": [
+        "Crown indications",
+        "Metal–ceramic, lithium disilicate, zirconia",
+        "6° taper",
+        "Chamfer/shoulder margins",
+        "Ferrule 1.5–2 mm",
+        "Provisional crowns"
+       ]
+      },
+      {
+       "heading": "Bridges",
+       "body": "Fixed partial dentures (bridges) replace missing teeth: conventional (full-coverage retainers on prepared abutments — fixed–fixed, cantilever), and resin-bonded (minimal-preparation adhesive bridges with metal wings — conservative, ideal for replacing single anterior teeth in young patients). Abutment evaluation: periodontal support, crown–root ratio, root form, vitality and position; Ante's law (the root surface area of abutments should equal or exceed that of the teeth being replaced) is a guideline. Pontic designs: ridge-lap, modified ridge-lap (anterior aesthetics), hygienic/sanitary (posterior mandible), ovate. Cleaning under pontics with superfloss or interdental brushes is essential. Alternatives: removable partial dentures (common and affordable in Nigeria) and dental implants (growing availability, cost is a barrier). Complications: caries under retainers, debonding, loss of vitality of abutments, and periodontal disease.",
+       "keyPoints": [
+        "Conventional vs resin-bonded",
+        "Resin-bonded: conservative, young patients",
+        "Ante's law",
+        "Pontic designs",
+        "Clean under pontics",
+        "Alternatives: RPD, implants"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "A posterior tooth after root canal treatment usually needs:",
+       "options": [
+        "Extraction",
+        "Orthodontics",
+        "Cuspal coverage (e.g. a crown or onlay)",
+        "No restoration",
+        "A veneer"
+       ],
+       "answerIndex": 2,
+       "explanation": "It reduces the risk of fracture."
+      },
+      {
+       "stem": "The ideal total convergence (taper) of crown preparations is about:",
+       "options": [
+        "90°",
+        "45°",
+        "30°",
+        "0°",
+        "6°"
+       ],
+       "answerIndex": 4,
+       "explanation": "Greater taper reduces retention."
+      },
+      {
+       "stem": "A 'ferrule' in post–core crown restorations refers to:",
+       "options": [
+        "The bite registration",
+        "The pontic design",
+        "Sound tooth structure encircled by the crown margin",
+        "The post length",
+        "The cement type"
+       ],
+       "answerIndex": 2,
+       "explanation": "At least 1.5–2 mm reduces fracture risk."
+      },
+      {
+       "stem": "The all-ceramic material with the highest strength for posterior crowns and bridges is:",
+       "options": [
+        "Zirconia",
+        "Composite",
+        "Acrylic",
+        "Feldspathic porcelain",
+        "Glass ionomer"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is a polycrystalline ceramic."
+      },
+      {
+       "stem": "A conservative bridge with metal wings bonded to adjacent teeth is a:",
+       "options": [
+        "Conventional fixed–fixed bridge",
+        "Cantilever with full crowns",
+        "Removable denture",
+        "Resin-bonded bridge",
+        "Implant bridge"
+       ],
+       "answerIndex": 3,
+       "explanation": "Minimal tooth preparation is needed."
+      },
+      {
+       "stem": "Ante's law concerns:",
+       "options": [
+        "Impression material",
+        "Cement thickness",
+        "Crown height",
+        "Tooth colour",
+        "The root surface area of abutments relative to the teeth replaced"
+       ],
+       "answerIndex": 4,
+       "explanation": "It guides abutment selection."
+      },
+      {
+       "stem": "The pontic design preferred for easy cleaning in the posterior mandible is the:",
+       "options": [
+        "Hygienic (sanitary) pontic",
+        "Ridge-lap",
+        "Saddle",
+        "Ovate",
+        "Modified ridge-lap"
+       ],
+       "answerIndex": 0,
+       "explanation": "It leaves space beneath for cleaning."
+      },
+      {
+       "stem": "Patients with bridges should clean under the pontic with:",
+       "options": [
+        "Wire brushes",
+        "Nothing",
+        "Mouthwash only",
+        "Superfloss or interdental brushes",
+        "Toothpicks only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Plaque accumulation causes caries and gum disease."
+      }
+     ]
+    },
+    {
+     "title": "Tooth Wear, Hypersensitivity and Aesthetic Dentistry",
+     "order": 5,
+     "summary": "Erosion, attrition, abrasion, dentine hypersensitivity, discolouration and bleaching.",
+     "material": [
+      {
+       "heading": "Tooth wear and sensitivity",
+       "body": "Tooth wear (non-carious tooth surface loss): erosion (acid — soft drinks, citrus, vomiting in eating disorders or pregnancy, gastro-oesophageal reflux — smooth, cupped lesions, palatal surfaces of upper incisors with reflux/vomiting), attrition (tooth-to-tooth — bruxism; flat facets matching opposing teeth), abrasion (external objects — incorrect horizontal toothbrushing, chewing sticks used vigorously — notched cervical lesions), and abfraction (flexural stress — wedge-shaped cervical lesions). Management: identify and remove the cause (diet advice, reflux treatment, occlusal splints for bruxism, brushing technique), monitor (study models, photographs, indices), fluoride, and restore when necessary (composite additions, Dahl technique for localised anterior wear). Dentine hypersensitivity: short sharp pain from exposed dentine to thermal, tactile or osmotic stimuli (hydrodynamic theory) — desensitising toothpastes (potassium nitrate, stannous fluoride, arginine), fluoride varnish, bonding agents, and treating causes (gingival recession, wear).",
+       "keyPoints": [
+        "Erosion: acids, reflux",
+        "Attrition: bruxism facets",
+        "Abrasion: brushing, chewing sticks",
+        "Abfraction: wedge-shaped",
+        "Remove cause, monitor, restore",
+        "Desensitising toothpaste"
+       ]
+      },
+      {
+       "heading": "Discolouration and aesthetics",
+       "body": "Tooth discolouration: extrinsic (tea, coffee, tobacco, kola nut chewing — common in parts of Nigeria, chlorhexidine; removed by scaling and polishing) and intrinsic (fluorosis — mottling in high-fluoride areas; tetracycline — grey–brown banding; trauma and pulp necrosis — dark single tooth; dentinogenesis imperfecta; ageing). Treatment options: external vital bleaching (carbamide peroxide 10% in custom trays; hydrogen peroxide in-office — sensitivity is common; regulated concentrations), internal ('walking') bleaching for root-filled discoloured teeth (with a cervical seal to prevent external cervical resorption), microabrasion for superficial fluorosis, resin infiltration, composite or porcelain veneers, and crowns. Informed consent, realistic expectations and minimal invasiveness guide aesthetic dentistry; smile analysis considers the smile line, midline, proportions and gingival display.",
+       "keyPoints": [
+        "Extrinsic: kola nut, tea, tobacco",
+        "Intrinsic: fluorosis, tetracycline, necrosis",
+        "Vital bleaching: carbamide peroxide trays",
+        "Internal bleaching for root-filled teeth",
+        "Microabrasion for fluorosis",
+        "Veneers and crowns"
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "stem": "Smooth, cupped lesions on the palatal surfaces of upper incisors suggest erosion from:",
+       "options": [
+        "Gastric acid (reflux or vomiting)",
+        "Bruxism",
+        "Dental floss",
+        "Toothbrush abrasion",
+        "Chewing sticks"
+       ],
+       "answerIndex": 0,
+       "explanation": "Palatal surfaces face the regurgitated acid."
+      },
+      {
+       "stem": "Flat, shiny wear facets matching opposing teeth are caused by:",
+       "options": [
+        "Abfraction",
+        "Erosion",
+        "Attrition (e.g. bruxism)",
+        "Caries",
+        "Abrasion"
+       ],
+       "answerIndex": 2,
+       "explanation": "An occlusal splint may help."
+      },
+      {
+       "stem": "Notched cervical lesions from vigorous horizontal toothbrushing are:",
+       "options": [
+        "Abrasion",
+        "Erosion",
+        "Fluorosis",
+        "Attrition",
+        "Caries"
+       ],
+       "answerIndex": 0,
+       "explanation": "Correct brushing technique."
+      },
+      {
+       "stem": "Dentine hypersensitivity is best explained by the:",
+       "options": [
+        "Enamel theory",
+        "Vascular theory",
+        "Neural theory only",
+        "Hydrodynamic theory",
+        "Chemical theory"
+       ],
+       "answerIndex": 3,
+       "explanation": "Fluid movement in tubules stimulates nerves."
+      },
+      {
+       "stem": "A common desensitising agent in toothpaste is:",
+       "options": [
+        "Chlorhexidine",
+        "Potassium nitrate",
+        "Sodium bicarbonate",
+        "Triclosan",
+        "Hydrogen peroxide"
+       ],
+       "answerIndex": 1,
+       "explanation": "It reduces nerve excitability."
+      },
+      {
+       "stem": "Extrinsic brown staining common among kola nut chewers is removed by:",
+       "options": [
+        "Scaling and polishing",
+        "Internal bleaching",
+        "Root canal treatment",
+        "Crowns",
+        "Extraction"
+       ],
+       "answerIndex": 0,
+       "explanation": "It is surface staining."
+      },
+      {
+       "stem": "A single dark anterior tooth after trauma with a root filling can be treated by:",
+       "options": [
+        "Microabrasion",
+        "Scaling",
+        "Fluoride",
+        "Internal (walking) bleaching",
+        "External bleaching only"
+       ],
+       "answerIndex": 3,
+       "explanation": "Bleach is placed in the pulp chamber."
+      },
+      {
+       "stem": "Mild superficial fluorosis mottling can be improved with:",
+       "options": [
+        "Antibiotics",
+        "Microabrasion",
+        "Extraction",
+        "Root canal treatment",
+        "Crowns always"
+       ],
+       "answerIndex": 1,
+       "explanation": "It removes a thin surface enamel layer."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

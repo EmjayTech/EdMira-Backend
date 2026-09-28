@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, HttpException, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { ContentStatus } from '../common/enum/content-status.enum';
@@ -74,6 +74,21 @@ export class AdminNewsService {
       status === ContentStatus.PUBLISHED ? 'published' : status === ContentStatus.ARCHIVED ? 'archived' : 'unpublished';
     await this.audit.log(staff, 'news', id, verb, `${verb[0].toUpperCase()}${verb.slice(1)} news “${item.title}”`);
     return adminNews(item);
+  }
+
+  /** Publish / unpublish / archive several stories at once (e.g. AI suggestions). */
+  async bulkStatus(staff: Staff, ids: string[], status: NewsStatusDto['status']) {
+    const done: string[] = [];
+    const failed: { id: string; error: string }[] = [];
+    for (const id of [...new Set(ids)]) {
+      try {
+        await this.setStatus(staff, id, status);
+        done.push(id);
+      } catch (error) {
+        failed.push({ id, error: error instanceof HttpException ? error.message : 'Something went wrong.' });
+      }
+    }
+    return { done, failed };
   }
 
   private async findOr404(id: string) {

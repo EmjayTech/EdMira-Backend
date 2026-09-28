@@ -2,6 +2,7 @@ import {
   BadRequestException,
   Body,
   Controller,
+  Delete,
   Get,
   Param,
   Patch,
@@ -21,13 +22,16 @@ import { AdminContentService } from './admin-content.service';
 import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
 import { AiDraftService } from './ai-draft.service';
+import { AiNewsService } from './ai-news.service';
 import { AiDraftDto, BulkTransitionDto, ImportDto } from './dto/import.dto';
 import { AuditService } from './audit/audit.service';
 import {
   CourseInputDto,
   CourseStatusDto,
   FeedbackUpdateDto,
+  NewsBulkStatusDto,
   NewsInputDto,
+  NewsSourceInputDto,
   NewsStatusDto,
   QuestionInputDto,
   ReportUpdateDto,
@@ -55,6 +59,7 @@ export class AdminController {
     private readonly auditLog: AuditService,
     private readonly storage: FileStorageService,
     private readonly ai: AiDraftService,
+    private readonly aiNews: AiNewsService,
   ) {}
 
   // ── Courses ──
@@ -212,6 +217,52 @@ export class AdminController {
   @ApiOperation({ summary: 'All campus news, every status' })
   listNews() {
     return this.newsAdmin.list();
+  }
+
+  @Get('news/ai')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'AI news: on/off, schedule, last run and the list of trusted sources' })
+  newsAiStatus() {
+    return this.aiNews.status();
+  }
+
+  @Post('news/fetch')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'Check every enabled source now; new stories arrive as drafts (or published for auto-publish sources)' })
+  fetchNews(@CurrentStaff() staff: Staff) {
+    return this.aiNews.runNow(staff);
+  }
+
+  @Post('news/sources')
+  @RequirePermission('manageNews')
+  createNewsSource(@CurrentStaff() staff: Staff, @Body() dto: NewsSourceInputDto) {
+    return this.aiNews.saveSource(staff, dto);
+  }
+
+  @Post('news/sources/defaults')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'Add the suggested list of official sources (skips ones already added)' })
+  addDefaultNewsSources(@CurrentStaff() staff: Staff) {
+    return this.aiNews.addDefaults(staff);
+  }
+
+  @Patch('news/sources/:id')
+  @RequirePermission('manageNews')
+  updateNewsSource(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: NewsSourceInputDto) {
+    return this.aiNews.saveSource(staff, dto, id);
+  }
+
+  @Delete('news/sources/:id')
+  @RequirePermission('manageNews')
+  deleteNewsSource(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string) {
+    return this.aiNews.deleteSource(staff, id);
+  }
+
+  @Post('news/bulk-status')
+  @RequirePermission('manageNews')
+  @ApiOperation({ summary: 'Publish / unpublish / archive several stories → { done, failed }' })
+  bulkNewsStatus(@CurrentStaff() staff: Staff, @Body() dto: NewsBulkStatusDto) {
+    return this.newsAdmin.bulkStatus(staff, dto.ids, dto.status);
   }
 
   @Post('news')
