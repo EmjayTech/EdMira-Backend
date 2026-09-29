@@ -3,7 +3,8 @@
  *
  * - In-memory MongoDB (data is lost when you stop the server)
  * - Sample courses, quizzes and news loaded
- * - A demo student: demo@edmira.com / Demo!2345
+ * - A demo student: demo@edmira.com / Demo!2345 (free plan)
+ * - A Pro demo student: pro@edmira.com / Demo!2345 (EdMira Pro for a year)
  * - Dashboard staff: admin@ / creator@ / reviewer@edmira.com, password Staff!2345
  * - Emails are NOT sent; verification / reset codes are printed here
  */
@@ -13,9 +14,12 @@ import { startInMemoryApp } from './in-memory-app';
 import { seedSampleContent } from '../../src/seed/seed-sample-content';
 import { AuthService } from '../../src/auth/auth.service';
 import { UserType } from '../../src/common/enum/user-type.enum';
+import { SubscriptionService } from '../../src/subscription/subscription.service';
+import { UsersRepository } from '../../src/users/user.repository';
 
 const PORT = Number(process.env.PORT ?? 4000);
 const DEMO = { email: 'demo@edmira.com', password: 'Demo!2345' };
+const PRO_DEMO = { email: 'pro@edmira.com', password: DEMO.password };
 const STAFF_PASSWORD = 'Staff!2345';
 
 async function main() {
@@ -23,24 +27,31 @@ async function main() {
   const seeded = await seedSampleContent(server.connection);
 
   const auth = server.app.get(AuthService);
-  await auth.signup({
-    email: DEMO.email,
-    password: DEMO.password,
-    firstName: 'Demo',
-    lastName: 'Student',
-    username: 'demo',
-    userType: UserType.STUDENT,
-    countryCode: '+234',
-    phoneNumber: '8012345678',
-    studentProfile: {
-      institution: 'University of Lagos',
-      faculty: 'Faculty of Clinical Sciences',
-      department: 'Medicine & Surgery (MBBS)',
-      levelType: 'Undergraduate',
-      level: '300 Level',
-    } as any,
-  });
-  await auth.verifyOtp({ email: DEMO.email, code: server.mail.lastCode(DEMO.email) });
+  for (const [account, firstName] of [
+    [DEMO, 'Demo'],
+    [PRO_DEMO, 'Pro'],
+  ] as const) {
+    await auth.signup({
+      email: account.email,
+      password: account.password,
+      firstName,
+      lastName: 'Student',
+      username: account.email.split('@')[0],
+      userType: UserType.STUDENT,
+      countryCode: '+234',
+      phoneNumber: '8012345678',
+      studentProfile: {
+        institution: 'University of Lagos',
+        faculty: 'Faculty of Clinical Sciences',
+        department: 'Medicine & Surgery (MBBS)',
+        levelType: 'Undergraduate',
+        level: '300 Level',
+      } as any,
+    });
+    await auth.verifyOtp({ email: account.email, code: server.mail.lastCode(account.email) });
+  }
+  const proUser = await server.app.get(UsersRepository).findByEmail(PRO_DEMO.email);
+  await server.app.get(SubscriptionService).grant(String(proUser._id), 365, 'dev:memory demo');
 
   for (const [role, name] of [
     ['admin', 'Ada Admin'],
@@ -54,7 +65,8 @@ async function main() {
   console.log(`
 🚀 EdMira backend (in-memory) on http://localhost:${PORT}/api/v1   docs: /api/docs
    Seeded ${seeded.courses} courses, ${seeded.topics} topics, ${seeded.questions} questions, ${seeded.news} news
-   Demo student:  ${DEMO.email} / ${DEMO.password}
+   Demo student:  ${DEMO.email} / ${DEMO.password}   (free plan)
+   Pro student:   ${PRO_DEMO.email} / ${PRO_DEMO.password}   (EdMira Pro)
    Dashboard:     admin@edmira.com · creator@edmira.com · reviewer@edmira.com  (password ${STAFF_PASSWORD})
    Codes for sign-up / password reset are printed below as ✉️ lines.
 

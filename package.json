@@ -15,7 +15,8 @@
     "news:fetch": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/fetch-news.ts",
     "start:prod": "node dist/main",
     "dev:memory": "ts-node --transpile-only -r tsconfig-paths/register test/support/dev-server.ts",
-    "staff": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/staff.ts"
+    "staff": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/staff.ts",
+    "pro": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/pro.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",

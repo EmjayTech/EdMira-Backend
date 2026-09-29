@@ -57,6 +57,17 @@ export const presentReviewQuestion = (question: QuestionDocument) => ({
 });
 
 /**
+ * Review for a student: everyone sees the right answer; the explanation is
+ * EdMira Pro. `explanationLocked` tells the app to show the "Go Pro" teaser.
+ */
+export const presentStudentReviewQuestion = (question: QuestionDocument, isPro: boolean) => ({
+  ...presentQuizQuestion(question),
+  answerIndex: question.answerIndex,
+  explanation: isPro ? question.explanation : undefined,
+  explanationLocked: !isPro && !!question.explanation,
+});
+
+/**
  * A study material for the app. Files are fetched through
  * GET /resources/:id/download (short-lived link); links open as they are.
  */

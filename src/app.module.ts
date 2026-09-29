@@ -11,6 +11,8 @@ import { ContentModule } from './content/content.module';
 import { FeedbackModule } from './feedback/feedback.module';
 import { NewsModule } from './news/news.module';
 import { QuizModule } from './quiz/quiz.module';
+import { MockExamModule } from './mock-exam/mock-exam.module';
+import { SubscriptionModule } from './subscription/subscription.module';
 import { ReferenceModule } from './reference/reference.module';
 import { StorageModule } from './storage/storage.module';
 import { CacheModule } from '@nestjs/cache-manager';
@@ -43,6 +45,12 @@ import * as Joi from 'joi';
         JWT_REFRESH_EXPIRES_IN: Joi.string().required(),
         RESEND_API_KEY: Joi.string().required(),
         MAIL_FROM: Joi.string().required(),
+        // EdMira Pro (Google Play Billing). All optional: without the service
+        // account, purchases can't be verified but everything else works.
+        GOOGLE_PLAY_PACKAGE_NAME: Joi.string().allow('').optional(),
+        GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: Joi.string().allow('').optional(),
+        GOOGLE_PLAY_RTDN_SECRET: Joi.string().allow('').optional(),
+        FREE_DAILY_QUIZ_LIMIT: Joi.number().integer().min(0).optional(),
       }),
     }),
     CacheModule.registerAsync({
@@ -85,6 +93,8 @@ import * as Joi from 'joi';
     StorageModule,
     ContentModule,
     QuizModule,
+    SubscriptionModule,
+    MockExamModule,
     FeedbackModule,
     NewsModule,
     AdminModule,

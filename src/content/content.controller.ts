@@ -3,6 +3,8 @@ import type { Request } from 'express';
 import { ApiBearerAuth, ApiOperation, ApiQuery, ApiTags } from '@nestjs/swagger';
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
 import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
+import { ProFeature } from '../subscription/pro.constants';
+import { SubscriptionService } from '../subscription/subscription.service';
 import { ContentService } from './content.service';
 import { NotesPdfService } from './notes-pdf.service';
 
@@ -13,6 +15,7 @@ export class ContentController {
   constructor(
     private readonly content: ContentService,
     private readonly notesPdf: NotesPdfService,
+    private readonly subscriptions: SubscriptionService,
   ) {}
 
   @Get('courses')
@@ -43,8 +46,15 @@ export class ContentController {
   }
 
   @Get('topics/:topicId/questions')
-  @ApiOperation({ summary: 'Quiz questions for a topic — no answers or explanations' })
-  getQuizQuestions(@Param('topicId', ParseObjectIdPipe) topicId: string) {
+  @ApiOperation({
+    summary: 'Quiz questions for a topic — no answers or explanations',
+    description: 'Free students get a few quizzes a day; past that, 403 with code PRO_REQUIRED.',
+  })
+  async getQuizQuestions(
+    @GetCurrentUser('userId') userId: string,
+    @Param('topicId', ParseObjectIdPipe) topicId: string,
+  ) {
+    await this.subscriptions.assertCanTakeQuiz(userId);
     return this.content.getQuizQuestions(topicId);
   }
 
@@ -69,14 +79,33 @@ export class ContentController {
 
   @Get('topics/:topicId/notes')
   @ApiOperation({ summary: "A 15-minute link to the topic's study notes as a PDF (for offline reading)" })
-  topicNotes(@Param('topicId', ParseObjectIdPipe) topicId: string, @Req() req: Request) {
+  async topicNotes(
+    @GetCurrentUser('userId') userId: string,
+    @Param('topicId', ParseObjectIdPipe) topicId: string,
+    @Req() req: Request,
+  ) {
+    await this.assertCanDownloadNotes(userId);
     return this.notesPdf.topicLink(topicId, `${req.protocol}://${req.get('host')}`);
   }
 
   @Get('courses/:courseId/notes')
   @ApiOperation({ summary: "A 15-minute link to all of a course's published notes as one PDF" })
-  courseNotes(@Param('courseId', ParseObjectIdPipe) courseId: string, @Req() req: Request) {
+  async courseNotes(
+    @GetCurrentUser('userId') userId: string,
+    @Param('courseId', ParseObjectIdPipe) courseId: string,
+    @Req() req: Request,
+  ) {
+    await this.assertCanDownloadNotes(userId);
     return this.notesPdf.courseLink(courseId, `${req.protocol}://${req.get('host')}`);
+  }
+
+  /** Notes are free to read in the app; the offline PDF is EdMira Pro. */
+  private assertCanDownloadNotes(userId: string) {
+    return this.subscriptions.assertPro(
+      userId,
+      ProFeature.OFFLINE_DOWNLOADS,
+      'Downloading notes for offline study is part of EdMira Pro.',
+    );
   }
 
   @Get('resources/:resourceId/download')

@@ -1,6 +1,8 @@
 import request from 'supertest';
 import { seedSampleContent } from '../src/seed/seed-sample-content';
 import { AiNewsService } from '../src/admin/ai-news.service';
+import { SubscriptionService } from '../src/subscription/subscription.service';
+import { UsersRepository } from '../src/users/user.repository';
 import { startInMemoryApp } from './support/in-memory-app';
 
 /**
@@ -743,7 +745,7 @@ describe('bulk import, bulk review and AI drafting', () => {
     expect(titles).not.toContain('Course nobody imported');
   });
 
-  it('gives students a signed PDF of topic and course notes', async () => {
+  it('gives Pro students a signed PDF of topic and course notes', async () => {
     const binary = (res: any, done: (err: Error | null, body: Buffer) => void) => {
       const chunks: Buffer[] = [];
       res.on('data', (c: Buffer) => chunks.push(c));
@@ -752,6 +754,12 @@ describe('bulk import, bulk review and AI drafting', () => {
     const pathOf = (url: string) => { const u = new URL(url); return u.pathname + u.search; };
     const libCourse = (await as('student').get('/courses')).body.find((c: any) => c.title === 'Library course');
     const topicId = libCourse.topics[0].id;
+
+    // Offline notes are EdMira Pro.
+    const locked = await as('student').get(`/topics/${topicId}/notes`).expect(403);
+    expect(locked.body).toMatchObject({ code: 'PRO_REQUIRED', feature: 'offlineDownloads' });
+    const student = await server.app.get(UsersRepository).findByEmail('student@uni.edu');
+    await server.app.get(SubscriptionService).grant(String(student._id), 30, 'e2e');
 
     const link = (await as('student').get(`/topics/${topicId}/notes`).expect(200)).body;
     expect(link).toMatchObject({ name: 'Gastrulation_notes.pdf', mimeType: 'application/pdf' });

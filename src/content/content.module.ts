@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
+import { SubscriptionModule } from '../subscription/subscription.module';
 import { ContentController } from './content.controller';
 import { ContentService } from './content.service';
 import { NotesController } from './notes.controller';
@@ -11,6 +12,7 @@ import { Topic, TopicSchema } from './schemas/topic.schema';
 
 @Module({
   imports: [
+    SubscriptionModule,
     MongooseModule.forFeature([
       { name: Course.name, schema: CourseSchema },
       { name: Topic.name, schema: TopicSchema },

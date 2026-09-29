@@ -310,7 +310,7 @@ describe('learning', () => {
     expect(res.body.message).toMatch(/no longer available/);
   });
 
-  it('lists attempts and reviews one with answers — for its owner only', async () => {
+  it('lists attempts and reviews one with answers (explanations are Pro) — for its owner only', async () => {
     const list = await http().get(api('/quiz-attempts')).set(auth(student.accessToken)).expect(200);
     expect(list.body.map((a: any) => a.id)).toEqual([attemptId]);
 
@@ -321,7 +321,9 @@ describe('learning', () => {
     expect(review.body.questions).toHaveLength(5);
     expect(review.body.questions[0].id).toBe(firstQuestionId);
     expect(review.body.questions[0]).toHaveProperty('answerIndex');
-    expect(review.body.questions[0]).toHaveProperty('explanation');
+    // Free plan: the right answer, but the explanation is locked behind Pro.
+    expect(review.body.questions[0].explanation).toBeUndefined();
+    expect(review.body.questions[0].explanationLocked).toBe(true);
 
     await http().get(api(`/quiz-attempts/${attemptId}`)).set(auth(other.accessToken)).expect(404);
     const othersList = await http().get(api('/quiz-attempts')).set(auth(other.accessToken)).expect(200);

@@ -136,6 +136,27 @@ export class ContentService {
       .exec();
   }
 
+  /**
+   * Up to `size` random published questions from a course's published topics
+   * — for mock exams. Returns the course too (for its title).
+   */
+  async sampleCourseQuestions(courseId: string, size: number) {
+    const course = await this.courses.findOne({ _id: courseId, status: PUBLISHED }).exec();
+    if (!course) throw new NotFoundException('Course not found');
+    const topicIds = await this.topics.find({ courseId: course._id, status: PUBLISHED }).distinct('_id').exec();
+    const picked = await this.questions
+      .aggregate<{ _id: Types.ObjectId }>([
+        { $match: { topicId: { $in: topicIds }, status: PUBLISHED } },
+        { $sample: { size } },
+        { $project: { _id: 1 } },
+      ])
+      .exec();
+    // Re-read as documents (aggregate returns plain objects), keeping the random order.
+    const docs = await this.questions.find({ _id: { $in: picked.map(p => p._id) } }).exec();
+    const byId = new Map(docs.map(d => [d.id, d]));
+    return { course, questions: picked.map(p => byId.get(String(p._id))).filter(Boolean) };
+  }
+
   /** Questions by id in any status — for reviewing a student's own past attempt. */
   findQuestionsByIds(questionIds: (string | Types.ObjectId)[]) {
     return this.questions.find({ _id: { $in: questionIds } }).exec();

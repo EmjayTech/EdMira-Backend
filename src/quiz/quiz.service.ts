@@ -1,8 +1,9 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
-import { presentReviewQuestion } from '../content/content.presenter';
+import { presentStudentReviewQuestion } from '../content/content.presenter';
 import { ContentService } from '../content/content.service';
+import { SubscriptionService } from '../subscription/subscription.service';
 import { SubmitAttemptDto } from './dto/submit-attempt.dto';
 import { QuizAttempt, QuizAttemptDocument } from './quiz-attempt.schema';
 import { presentAttempt } from './quiz.presenter';
@@ -15,6 +16,7 @@ export class QuizService {
   constructor(
     @InjectModel(QuizAttempt.name) private readonly attempts: Model<QuizAttemptDocument>,
     private readonly content: ContentService,
+    private readonly subscriptions: SubscriptionService,
   ) {}
 
   /**
@@ -30,6 +32,8 @@ export class QuizService {
       .findOne({ studentId: studentObjectId, topicId: topic._id, startedAt })
       .exec();
     if (existing) return presentAttempt(existing);
+    // Also checked when the quiz starts; this stops the daily limit being skipped.
+    await this.subscriptions.assertCanTakeQuiz(studentId);
 
     // One answer per question; later duplicates are ignored.
     const answers = [...new Map(dto.answers.map(a => [a.questionId, a])).values()];
@@ -93,7 +97,7 @@ export class QuizService {
     return attempts.map(presentAttempt);
   }
 
-  /** One of the student's own attempts, with full questions (answers + explanations). */
+  /** One of the student's own attempts, with full questions (answers; explanations for Pro). */
   async review(studentId: string, attemptId: string) {
     const attempt = await this.attempts
       .findOne({ _id: attemptId, studentId: new Types.ObjectId(studentId) })
@@ -101,10 +105,16 @@ export class QuizService {
     // Someone else's attempt is reported as not found, not forbidden.
     if (!attempt) throw new NotFoundException('We couldn’t find this attempt.');
 
-    const questions = await this.content.findQuestionsByIds(attempt.answers.map(a => a.questionId));
+    const [questions, isPro] = await Promise.all([
+      this.content.findQuestionsByIds(attempt.answers.map(a => a.questionId)),
+      this.subscriptions.isPro(studentId),
+    ]);
     const order = new Map(attempt.answers.map((a, i) => [String(a.questionId), i]));
     questions.sort((a, b) => order.get(a.id) - order.get(b.id));
 
-    return { ...presentAttempt(attempt), questions: questions.map(presentReviewQuestion) };
+    return {
+      ...presentAttempt(attempt),
+      questions: questions.map(q => presentStudentReviewQuestion(q, isPro)),
+    };
   }
 }
