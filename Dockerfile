@@ -29,6 +29,8 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
+# Fonts for the notes PDFs (read from ../../assets/fonts relative to dist/content).
+COPY --from=build /app/assets ./assets
 
 
 EXPOSE 4000
