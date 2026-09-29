@@ -135,6 +135,13 @@
        "answerIndex": 2,
        "explanation": "Unstable angina carries a high risk of cardiac events."
       }
+     ],
+     "videos": [
+      {
+       "title": "21. Exercise Prescription and Training principles - Part 1",
+       "link": "https://www.youtube.com/watch?v=1WNTxmxWUq0",
+       "description": "NPTEL-NOC IITM · 34 min"
+      }
      ]
     },
     {
@@ -383,6 +390,13 @@
        ],
        "answerIndex": 3,
        "explanation": "Impaired sensation increases burn risk."
+      }
+     ],
+     "videos": [
+      {
+       "title": "NMES & Russian Stimulation EXPLAINED | Theory, Use, & Parameters",
+       "link": "https://www.youtube.com/watch?v=9mMzNXVC5M0",
+       "description": "Catalyst University · 17 min"
       }
      ]
     },

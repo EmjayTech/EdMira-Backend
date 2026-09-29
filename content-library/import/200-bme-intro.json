@@ -260,6 +260,13 @@
        "answerIndex": 0,
        "explanation": "Capacitance is measured in farads."
       }
+     ],
+     "videos": [
+      {
+       "title": "Lesson 1 - Voltage, Current, Resistance (Engineering Circuit Analysis)",
+       "link": "https://www.youtube.com/watch?v=OGa_b26eK2c",
+       "description": "Math and Science · 41 min"
+      }
      ]
     },
     {
@@ -382,6 +389,18 @@
        ],
        "answerIndex": 3,
        "explanation": "Inverters convert DC to AC."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Alternating Current vs Direct Current - Rms Voltage, Peak Current & Average Power of AC Circuits",
+       "link": "https://www.youtube.com/watch?v=ERIToctYUcQ",
+       "description": "The Organic Chemistry Tutor · 12 min"
+      },
+      {
+       "title": "Lecture 1: Introduction to Power Electronics",
+       "link": "https://www.youtube.com/watch?v=f7oXhDatwtY",
+       "description": "MIT OpenCourseWare · 43 min"
       }
      ]
     },

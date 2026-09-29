@@ -159,6 +159,18 @@
        "answerIndex": 0,
        "explanation": "They are needed for repair of double-strand breaks."
       }
+     ],
+     "videos": [
+      {
+       "title": "DNA replication in Prokaryotes & Eukaryotes (DETAILED) - Molecular Biology 🧬 & Biochemistry 🧪",
+       "link": "https://www.youtube.com/watch?v=_IIAeNgelaA",
+       "description": "Medicosis Perfectionalis · 34 min"
+      },
+      {
+       "title": "Cell Biology | DNA Replication 🧬",
+       "link": "https://www.youtube.com/watch?v=xvWdIi6_fGg",
+       "description": "Ninja Nerd · 67 min"
+      }
      ]
     },
     {
@@ -282,6 +294,18 @@
        ],
        "answerIndex": 3,
        "explanation": "Anti-Sm antibodies are highly specific for SLE."
+      }
+     ],
+     "videos": [
+      {
+       "title": "DNA Transcription (Converting DNA to RNA) - Molecular Biology - Genetics - Cell Biology",
+       "link": "https://www.youtube.com/watch?v=w2BVaWlZtbw",
+       "description": "Medicosis Perfectionalis · 20 min"
+      },
+      {
+       "title": "Transcription and mRNA processing | Biomolecules | MCAT | Khan Academy",
+       "link": "https://www.youtube.com/watch?v=JQIwwJqF5D0",
+       "description": "Khan Academy · 10 min"
       }
      ]
     },
@@ -408,6 +432,18 @@
        "answerIndex": 3,
        "explanation": "C-peptide measures endogenous insulin production."
       }
+     ],
+     "videos": [
+      {
+       "title": "DNA, RNA (mRNA, tRNA, rRNA), and the Genetic Code | Molecular Biology",
+       "link": "https://www.youtube.com/watch?v=TrlIjZFnMf0",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Transcription and Translation - Protein Synthesis From DNA - Biology",
+       "link": "https://www.youtube.com/watch?v=8wAwLwJAGHs",
+       "description": "The Organic Chemistry Tutor · 11 min"
+      }
      ]
     },
     {
@@ -533,6 +569,18 @@
        "answerIndex": 4,
        "explanation": "The phenotype depends on which parent's chromosome 15 region is lost."
       }
+     ],
+     "videos": [
+      {
+       "title": "Recombinant DNA technology - Biotechnology - Molecular Biology 🧬 - Biochemistry & Genetics",
+       "link": "https://www.youtube.com/watch?v=6bjTink0MrI",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Gene Expression and Regulation",
+       "link": "https://www.youtube.com/watch?v=ebIpkw3XapE",
+       "description": "Amoeba Sisters · 10 min"
+      }
      ]
     },
     {
@@ -657,6 +705,18 @@
        ],
        "answerIndex": 2,
        "explanation": "Dental fluorosis results from excess fluoride during tooth development."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Your Body Needs Minerals (Trace Elements) | Diet and Nutrition",
+       "link": "https://www.youtube.com/watch?v=34FTvJZCrt4",
+       "description": "Medicosis Perfectionalis · 14 min"
+      },
+      {
+       "title": "13 Vitamins in 26 Minutes - All Vitamins - Quick Review - Diet & Nutrition - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=k49CUT_Zx10",
+       "description": "Medicosis Perfectionalis · 25 min"
       }
      ]
     }

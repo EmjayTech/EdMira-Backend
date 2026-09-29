@@ -28,6 +28,12 @@ export class ImportQuestionDto {
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(4000) explanation?: string;
 }
 
+export class ImportVideoDto {
+  @ApiProperty() @IsString() @MaxLength(200) title: string;
+  @ApiProperty({ description: 'YouTube link' }) @IsString() @MaxLength(500) link: string;
+  @ApiProperty({ required: false, example: 'Ninja Nerd · 31 min' }) @IsOptional() @IsString() @MaxLength(1000) description?: string;
+}
+
 export class ImportTopicDto {
   @ApiProperty() @IsString() @MaxLength(200) title: string;
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(1000) summary?: string;
@@ -40,6 +46,9 @@ export class ImportTopicDto {
   @ApiProperty({ required: false, type: [ImportQuestionDto] })
   @IsOptional() @IsArray() @ArrayMaxSize(1000) @ValidateNested({ each: true }) @Type(() => ImportQuestionDto)
   questions?: ImportQuestionDto[];
+  @ApiProperty({ required: false, type: [ImportVideoDto], description: 'Recommended YouTube videos for the topic (study materials)' })
+  @IsOptional() @IsArray() @ArrayMaxSize(20) @ValidateNested({ each: true }) @Type(() => ImportVideoDto)
+  videos?: ImportVideoDto[];
 }
 
 export class ImportCourseDto {

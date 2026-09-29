@@ -261,6 +261,13 @@
        "answerIndex": 0,
        "explanation": "The agonist produces the movement."
       }
+     ],
+     "videos": [
+      {
+       "title": "Body Movement Terms Anatomy | Body Planes of Motion | Synovial Joint Movement Terminology",
+       "link": "https://www.youtube.com/watch?v=KO4nUzO7xoo",
+       "description": "RegisteredNurseRN · 24 min"
+      }
      ]
     },
     {
@@ -508,6 +515,13 @@
        "answerIndex": 3,
        "explanation": "Longer applications risk ice burns and nerve injury."
       }
+     ],
+     "videos": [
+      {
+       "title": "Overview Flowchart for Therapeutic Modalities",
+       "link": "https://www.youtube.com/watch?v=VwbkrVTbfH8",
+       "description": "Catalyst University · 14 min"
+      }
      ]
     },
     {
@@ -630,6 +644,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Prosthetists design and fit artificial limbs."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Crutches, Canes, and Walkers Nursing NCLEX Assistive Devices Review",
+       "link": "https://www.youtube.com/watch?v=k2-w3LZlCVk",
+       "description": "RegisteredNurseRN · 17 min"
+      },
+      {
+       "title": "WHO and UNICEF partner to bring quality assistive devices to people living with disabilities",
+       "link": "https://www.youtube.com/watch?v=NHNV0jpC8sY",
+       "description": "World Health Organization (WHO) · 3 min"
       }
      ]
     }

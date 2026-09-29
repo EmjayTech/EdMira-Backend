@@ -135,6 +135,13 @@
        "answerIndex": 3,
        "explanation": "Markers must be exposed on the image."
       }
+     ],
+     "videos": [
+      {
+       "title": "Patient Positioning Nursing Care | Nursing Fundamentals Next Generation NCLEX Review",
+       "link": "https://www.youtube.com/watch?v=sklquo00ElQ",
+       "description": "RegisteredNurseRN · 14 min"
+      }
      ]
     },
     {
@@ -261,6 +268,18 @@
        "answerIndex": 2,
        "explanation": "Nine to ten posterior ribs show good inspiratory effort."
       }
+     ],
+     "videos": [
+      {
+       "title": "Chest X-Ray Techniques: Inspiration, Penetration, Rotation – Radiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=DNNd_j9hpV0",
+       "description": "Lecturio Medical · 5 min"
+      },
+      {
+       "title": "Chest X-ray Interpretation | How to Read a CXR | OSCE Guide | UKMLA | CPSA | PLAB 2",
+       "link": "https://www.youtube.com/watch?v=e39pLXGjNbA",
+       "description": "Geeky Medics · 24 min"
+      }
      ]
     },
     {
@@ -384,6 +403,18 @@
        ],
        "answerIndex": 2,
        "explanation": "Supracondylar fractures are common in children."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Anatomy of Shoulder X-rays",
+       "link": "https://www.youtube.com/watch?v=yo_ACrNqEfc",
+       "description": "The Noted Anatomist · 11 min"
+      },
+      {
+       "title": "Shoulder X-ray interpretation | How to read a trauma shoulder X-ray",
+       "link": "https://www.youtube.com/watch?v=-ZlY-1Wsbd0",
+       "description": "Radiology Tutorials · 16 min"
       }
      ]
     },
@@ -509,6 +540,18 @@
        ],
        "answerIndex": 3,
        "explanation": "Weight bearing shows true cartilage loss."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Anatomy of Lower Limb - Quick Review - Anatomy Review Series",
+       "link": "https://www.youtube.com/watch?v=o8-jI-TX0nI",
+       "description": "Medicosis Perfectionalis · 22 min"
+      },
+      {
+       "title": "Pelvis Anatomy | Radiology anatomy part 1 prep | Pelvic X-ray interpretation",
+       "link": "https://www.youtube.com/watch?v=YR2M2MvY_y8",
+       "description": "Radiology Tutorials · 21 min"
       }
      ]
     },

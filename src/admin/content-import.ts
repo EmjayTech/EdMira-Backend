@@ -3,12 +3,13 @@ import { ContentStatus } from '../common/enum/content-status.enum';
 import { AudienceRule, cleanAudience } from '../content/audience';
 import { CourseDocument } from '../content/schemas/course.schema';
 import { QuestionDocument } from '../content/schemas/question.schema';
+import { ResourceDocument, youTubeId } from '../content/schemas/resource.schema';
 import { TopicDocument } from '../content/schemas/topic.schema';
 import type { ImportCourseDto } from './dto/import.dto';
 import { estimateReadMinutes, questionProblems } from './workflow';
 
 /**
- * Bulk import of courses → topics → questions (dashboard "Import" page and
+ * Bulk import of courses → topics → questions and videos (dashboard "Import" page and
  * `yarn content:load`).
  *
  * - Courses are matched by title, topics by title within their course, so the
@@ -33,6 +34,7 @@ export interface ImportModels {
   courses: Model<CourseDocument>;
   topics: Model<TopicDocument>;
   questions: Model<QuestionDocument>;
+  resources: Model<ResourceDocument>;
 }
 
 export interface ImportOptions {
@@ -54,10 +56,12 @@ export interface ImportResult {
   courses: { created: number; matched: number };
   topics: { created: number; matched: number; withoutNotes: number };
   questions: { created: number; duplicates: number };
+  /** Recommended YouTube videos (topic study materials). */
+  videos: { created: number; duplicates: number };
   errors: ImportProblem[];
   warnings: string[];
   /** Per course, for the audit log. */
-  perCourse: { courseId?: string; title: string; created: boolean; topics: number; questions: number }[];
+  perCourse: { courseId?: string; title: string; created: boolean; topics: number; questions: number; videos: number }[];
 }
 
 const norm = (text: string) => text.trim().replace(/\s+/g, ' ').toLowerCase();
@@ -76,6 +80,7 @@ export async function importContent(
     courses: { created: 0, matched: 0 },
     topics: { created: 0, matched: 0, withoutNotes: 0 },
     questions: { created: 0, duplicates: 0 },
+    videos: { created: 0, duplicates: 0 },
     errors: [],
     warnings: [],
     perCourse: [],
@@ -103,6 +108,7 @@ export async function importContent(
     summary: string;
     material: { heading: string; body: string; keyPoints: string[] }[];
     questions: { stem: string; options: string[]; answerIndex: number; explanation?: string }[];
+    videos: { title: string; link: string; description: string }[];
   };
   type PlannedCourse = {
     existing?: CourseDocument;
@@ -116,6 +122,16 @@ export async function importContent(
   const planned = new Map<string, PlannedCourse>();
   // Question texts already present per topic key, filled lazily.
   const knownStems = new Map<string, Set<string>>();
+
+  // YouTube ids already attached per topic key, filled lazily.
+  const knownVideos = new Map<string, Set<string>>();
+  const videosFor = async (key: string, topic?: TopicDocument) => {
+    if (!knownVideos.has(key)) {
+      const found = topic ? await models.resources.find({ topicId: topic._id, kind: 'video' }).select('link').exec() : [];
+      knownVideos.set(key, new Set(found.map(r => youTubeId(r.link)).filter((id): id is string => !!id)));
+    }
+    return knownVideos.get(key)!;
+  };
 
   const stemsFor = async (key: string, topic?: TopicDocument) => {
     if (!knownStems.has(key)) {
@@ -162,7 +178,7 @@ export async function importContent(
       const topicKey = `${courseKey}|${norm(tTitle)}`;
       let topic = course.topics.get(topicKey);
       if (!topic) {
-        topic = { existing: existingTopic, title: tTitle, order: t.order, summary: '', material: [], questions: [] };
+        topic = { existing: existingTopic, title: tTitle, order: t.order, summary: '', material: [], questions: [], videos: [] };
         course.topics.set(topicKey, topic);
       }
 
@@ -207,6 +223,22 @@ export async function importContent(
           explanation: q.explanation?.trim() || undefined,
         });
       }
+
+      const videoIds = await videosFor(topicKey, existingTopic);
+      for (const [vi, v] of (t.videos ?? []).entries()) {
+        const id = youTubeId(v.link);
+        const vTitle = v.title?.trim();
+        if (!id || !vTitle) {
+          problem(`${tPath}.videos[${vi}]`, `${tWhere} › video ${vi + 1}`, !vTitle ? 'Give the video a title.' : 'Videos must be YouTube links.');
+          continue;
+        }
+        if (videoIds.has(id)) {
+          result.videos.duplicates++;
+          continue;
+        }
+        videoIds.add(id);
+        topic.videos.push({ title: vTitle, link: `https://www.youtube.com/watch?v=${id}`, description: v.description?.trim() ?? '' });
+      }
     }
   }
 
@@ -220,6 +252,7 @@ export async function importContent(
         if (!topic.material.length) result.topics.withoutNotes++;
       }
       result.questions.created += topic.questions.length;
+      result.videos.created += topic.videos.length;
     }
   }
   if (result.topics.withoutNotes) {
@@ -257,6 +290,7 @@ export async function importContent(
     let order = maxOrder.get(doc.id) ?? 0;
     let topicCount = 0;
     let questionCount = 0;
+    let videoCount = 0;
     for (const topic of course.topics.values()) {
       let topicId = topic.existing?._id;
       if (!topicId) {
@@ -288,6 +322,20 @@ export async function importContent(
         );
         questionCount += topic.questions.length;
       }
+      if (topic.videos.length) {
+        await models.resources.insertMany(
+          topic.videos.map(v => ({
+            ...v,
+            kind: 'video',
+            courseId: doc._id,
+            topicId,
+            status: ContentStatus.IN_REVIEW,
+            ...createdBy,
+            createdByName: author.name,
+          })),
+        );
+        videoCount += topic.videos.length;
+      }
     }
     result.perCourse.push({
       courseId: doc.id,
@@ -295,6 +343,7 @@ export async function importContent(
       created: !course.existing,
       topics: topicCount,
       questions: questionCount,
+      videos: videoCount,
     });
   }
   result.imported = true;

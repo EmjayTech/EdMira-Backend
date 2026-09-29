@@ -508,6 +508,18 @@
        "answerIndex": 0,
        "explanation": "WHO and national Essential Medicines Lists guide selection."
       }
+     ],
+     "videos": [
+      {
+       "title": "Introduction, Drug Names, Medication Regulation and Reconciliation - Pharm Basics | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=nirpkjciTNM",
+       "description": "Level Up RN · 9 min"
+      },
+      {
+       "title": "Categorizing Drugs: Classes, Names, and Schedules",
+       "link": "https://www.youtube.com/watch?v=FPLzzuwZyMo",
+       "description": "Professor Dave Explains · 13 min"
+      }
      ]
     },
     {
@@ -630,6 +642,13 @@
        ],
        "answerIndex": 2,
        "explanation": "Enteric coating protects the drug through the stomach."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Introduction to Pharmaceutical Dosage Forms",
+       "link": "https://www.youtube.com/watch?v=tEVaWsWAZWc",
+       "description": "NPTEL-NOC IITM · 10 min"
       }
      ]
     }

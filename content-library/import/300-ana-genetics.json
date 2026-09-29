@@ -159,6 +159,13 @@
        "answerIndex": 4,
        "explanation": "Fluorescence in situ hybridisation."
       }
+     ],
+     "videos": [
+      {
+       "title": "Structure of Chromosomes: Chromosome morphology & Karyotyping : USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=sTxODKL4sA4",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 3 min"
+      }
      ]
     },
     {
@@ -281,6 +288,13 @@
        ],
        "answerIndex": 1,
        "explanation": "Relatives are more likely to carry the same recessive allele."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Single Gene Disorders: Terminology & Concept Recap – Medical Genetics | Lecturio",
+       "link": "https://www.youtube.com/watch?v=Ha2OM7cyWDM",
+       "description": "Lecturio Medical · 5 min"
       }
      ]
     },
@@ -406,6 +420,13 @@
        "answerIndex": 0,
        "explanation": "It creates the BCR-ABL tyrosine kinase."
       }
+     ],
+     "videos": [
+      {
+       "title": "Chromosomal Abnormalities: Trisomy 21,18 & 13 – Embryology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=fFYjcqBbxj4",
+       "description": "Lecturio Medical · 5 min"
+      }
      ]
     },
     {
@@ -529,6 +550,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Heating separates the DNA strands."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Mutation | Types of Mutations | DNA Genetics |  Part 1👨‍⚕️",
+       "link": "https://www.youtube.com/watch?v=dSFmISF_BT0",
+       "description": "Dr. Najeeb Lectures · 62 min"
+      },
+      {
+       "title": "Introduction to Genetics - DNA, RNA, Genes, Nucleosides, Nucleotides, Transcription, Translation",
+       "link": "https://www.youtube.com/watch?v=Z6O_5Noh4WM",
+       "description": "Medicosis Perfectionalis · 7 min"
       }
      ]
     },
@@ -654,6 +687,13 @@
        ],
        "answerIndex": 2,
        "explanation": "It mostly affects males."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Genetic Diseases: Categories – Genetics | Lecturio",
+       "link": "https://www.youtube.com/watch?v=4gJM5T_xFpQ",
+       "description": "Lecturio Medical · 6 min"
       }
      ]
     }

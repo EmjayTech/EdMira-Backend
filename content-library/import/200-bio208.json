@@ -136,6 +136,18 @@
        "answerIndex": 4,
        "explanation": "Adjacent bars reflect the continuity of the data."
       }
+     ],
+     "videos": [
+      {
+       "title": "02 - Random Variables and Discrete Probability Distributions",
+       "link": "https://www.youtube.com/watch?v=UnzbuqgU2LE",
+       "description": "Math and Science · 30 min"
+      },
+      {
+       "title": "Types of Variables - Numerical vs. Categorical - Discrete vs. Continuous - Ordinal vs. Nominal",
+       "link": "https://www.youtube.com/watch?v=rodnzzR4dLo",
+       "description": "Medicosis Perfectionalis · 12 min"
+      }
      ]
     },
     {
@@ -260,6 +272,13 @@
        "answerIndex": 4,
        "explanation": "IQR spans Q1 to Q3."
       }
+     ],
+     "videos": [
+      {
+       "title": "Mean, Median, and Mode: Measures of Central Tendency: Crash Course Statistics #3",
+       "link": "https://www.youtube.com/watch?v=kn83BA7cRNM",
+       "description": "CrashCourse · 11 min"
+      }
      ]
     },
     {
@@ -382,6 +401,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Binomial describes counts of successes in n trials."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Normal Distribution & Probability Problems",
+       "link": "https://www.youtube.com/watch?v=gHBL5Zau3NE",
+       "description": "The Organic Chemistry Tutor · 30 min"
+      },
+      {
+       "title": "03 - The Normal Probability Distribution",
+       "link": "https://www.youtube.com/watch?v=gI5y3RZe9fk",
+       "description": "Math and Science · 20 min"
       }
      ]
     },
@@ -629,6 +660,18 @@
        ],
        "answerIndex": 3,
        "explanation": "The p-value assumes H0 is true; it is not the probability that H0 is true."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Hypothesis Testing Problems - Z Test & T Statistics - One & Two Tailed Tests   2",
+       "link": "https://www.youtube.com/watch?v=zJ8e_wAWUzE",
+       "description": "The Organic Chemistry Tutor · 14 min"
+      },
+      {
+       "title": "Statistics in 10 minutes.   Hypothesis testing, the p value, t-test, chi squared, ANOVA and more",
+       "link": "https://www.youtube.com/watch?v=FmUJSbo_z74",
+       "description": "Global Health with Greg Martin · 10 min"
       }
      ]
     }

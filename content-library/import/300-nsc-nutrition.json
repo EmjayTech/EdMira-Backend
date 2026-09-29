@@ -145,6 +145,18 @@
        "answerIndex": 2,
        "explanation": "Fat-soluble vitamins need dietary fat."
       }
+     ],
+     "videos": [
+      {
+       "title": "Introduction, Overview of Nutrients - Nutrition Essentials | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=TlXZeu0kjFY",
+       "description": "Level Up RN · 6 min"
+      },
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
+      }
      ]
     },
     {
@@ -270,6 +282,13 @@
        "answerIndex": 2,
        "explanation": "Below −3 SD is severe."
       }
+     ],
+     "videos": [
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
+      }
      ]
     },
     {
@@ -394,6 +413,13 @@
        ],
        "answerIndex": 2,
        "explanation": "Continued feeding prevents malnutrition."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Infant Nutrition, Breastfeeding & Formula Feeding Best Practices - Maternity Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=Rn6dDWkS5EM",
+       "description": "Level Up RN · 16 min"
       }
      ]
     },
@@ -643,6 +669,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Gluten triggers the immune enteropathy in coeliac disease."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Nutrition Therapy Overview: Specialty Diets, Administration Methods & Benefits | Lecturio Nursing",
+       "link": "https://www.youtube.com/watch?v=rnh-T89MsyI",
+       "description": "Lecturio Nursing · 8 min"
+      },
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
       }
      ]
     }

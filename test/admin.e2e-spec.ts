@@ -696,6 +696,66 @@ describe('bulk import, bulk review and AI drafting', () => {
     expect(visible.topics.map((t: any) => t.title)).toEqual(['Gastrulation']);
   });
 
+  it('imports recommended YouTube videos into the review queue, once', async () => {
+    const lib = (videos: object[]) => course({ title: 'Library course', topics: [{ title: 'Gastrulation', videos }] });
+    const good = { title: 'Gastrulation explained', link: 'https://youtu.be/dQw4w9WgXcQ', description: 'Osmosis · 8 min' };
+
+    const bad = await as('admin').post('/admin/import', { courses: [lib([good, { title: 'Elsewhere', link: 'https://vimeo.com/1' }])], asLibrary: true }).expect(201);
+    expect(bad.body.imported).toBe(false);
+    expect(bad.body.errors).toEqual([expect.objectContaining({ path: 'courses[0].topics[0].videos[1]', message: 'Videos must be YouTube links.' })]);
+
+    const res = await as('admin').post('/admin/import', { courses: [lib([good])], asLibrary: true }).expect(201);
+    expect(res.body).toMatchObject({ imported: true, videos: { created: 1, duplicates: 0 } });
+    const again = await as('admin').post('/admin/import', { courses: [lib([{ ...good, link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }])], asLibrary: true }).expect(201);
+    expect(again.body.videos).toEqual({ created: 0, duplicates: 1 });
+
+    const libCourse = (await as('admin').get('/admin/courses')).body.find((c: any) => c.title === 'Library course');
+    const video = (await as('admin').get('/admin/resources')).body.find((r: any) => r.courseId === libCourse.id && r.kind === 'video');
+    expect(video).toMatchObject({
+      title: 'Gastrulation explained',
+      link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      youTubeId: 'dQw4w9WgXcQ',
+      description: 'Osmosis · 8 min',
+      status: 'in_review',
+      createdByName: 'EdMira content library',
+    });
+    expect(video.topicId).toBeTruthy();
+
+    await as('admin').post('/admin/transitions/bulk', { action: 'approve', items: [{ kind: 'resource', id: video.id }] }).expect(201);
+    const materials = (await as('student').get(`/courses/${libCourse.id}/resources`).expect(200)).body;
+    expect(materials).toEqual([expect.objectContaining({ kind: 'video', source: 'youtube', youTubeId: 'dQw4w9WgXcQ' })]);
+  });
+
+  it('gives students a signed PDF of topic and course notes', async () => {
+    const binary = (res: any, done: (err: Error | null, body: Buffer) => void) => {
+      const chunks: Buffer[] = [];
+      res.on('data', (c: Buffer) => chunks.push(c));
+      res.on('end', () => done(null, Buffer.concat(chunks)));
+    };
+    const pathOf = (url: string) => { const u = new URL(url); return u.pathname + u.search; };
+    const libCourse = (await as('student').get('/courses')).body.find((c: any) => c.title === 'Library course');
+    const topicId = libCourse.topics[0].id;
+
+    const link = (await as('student').get(`/topics/${topicId}/notes`).expect(200)).body;
+    expect(link).toMatchObject({ name: 'Gastrulation_notes.pdf', mimeType: 'application/pdf' });
+    const pdf = await http().get(pathOf(link.url)).buffer(true).parse(binary).expect(200); // no token needed
+    expect(pdf.headers['content-type']).toBe('application/pdf');
+    expect(pdf.headers['content-disposition']).toContain('Gastrulation_notes.pdf');
+    expect((pdf.body as Buffer).subarray(0, 5).toString()).toBe('%PDF-');
+    expect((pdf.body as Buffer).length).toBeGreaterThan(2000);
+
+    await http().get(pathOf(link.url).replace(/sig=\w/, 'sig=0')).expect(404);
+    await http().get(pathOf(link.url).replace('/topic/', '/course/')).expect(404); // signature is per scope + id
+
+    const course = (await as('student').get(`/courses/${libCourse.id}/notes`).expect(200)).body;
+    expect(course.name).toBe('Library_course_notes.pdf');
+    const coursePdf = await http().get(pathOf(course.url)).buffer(true).parse(binary).expect(200);
+    expect((coursePdf.body as Buffer).subarray(0, 5).toString()).toBe('%PDF-');
+
+    await as('student').get('/topics/64b000000000000000000000/notes').expect(404);
+    await http().get(api(`/topics/${topicId}/notes`)).expect(401);
+  });
+
   it('bulk review checks each item on its own', async () => {
     const created = (await as('admin').get('/admin/courses')).body.find((c: any) => c.title === 'Embryology (import)');
     const topics = (await as('admin').get('/admin/topics')).body.filter((t: any) => t.courseId === created.id);

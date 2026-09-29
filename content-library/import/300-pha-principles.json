@@ -166,6 +166,18 @@
        "answerIndex": 3,
        "explanation": "Bioequivalence confirms comparable AUC and Cmax."
       }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacokinetics | Drug Absorption",
+       "link": "https://www.youtube.com/watch?v=kkUxUBoM-hM",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Pharmacokinetics: Absorption, Distribution, Metabolism, Excretion - Pharmacology Basics |@LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=HhlT8RJaQEY",
+       "description": "Level Up RN · 6 min"
+      }
      ]
     },
     {
@@ -291,6 +303,13 @@
        "answerIndex": 3,
        "explanation": "Isoniazid is inactivated by N-acetyltransferase."
       }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacokinetics | Drug Metabolism",
+       "link": "https://www.youtube.com/watch?v=qvucMHUVZA4",
+       "description": "Ninja Nerd · 28 min"
+      }
      ]
     },
     {
@@ -415,6 +434,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Gentamicin is cleared by the kidneys."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacokinetic and Pharmacodynamic Changes in the Older Adult",
+       "link": "https://www.youtube.com/watch?v=JI1Ee-BgFrE",
+       "description": "Dr Matt & Dr Mike · 9 min"
       }
      ]
     },
@@ -665,6 +691,13 @@
        ],
        "answerIndex": 3,
        "explanation": "Large numbers of real-world users reveal rare reactions."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacology - DRUG INTERACTIONS (MADE EASY)",
+       "link": "https://www.youtube.com/watch?v=BayzMj3n5_I",
+       "description": "Speed Pharmacology · 14 min"
       }
      ]
     }

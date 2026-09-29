@@ -142,6 +142,13 @@
        "answerIndex": 0,
        "explanation": "Community Health Extension Workers."
       }
+     ],
+     "videos": [
+      {
+       "title": "What is primary health care?",
+       "link": "https://www.youtube.com/watch?v=_EXy9DTDJu8",
+       "description": "World Health Organization (WHO) · 4 min"
+      }
      ]
     },
     {
@@ -514,6 +521,13 @@
        ],
        "answerIndex": 4,
        "explanation": "PPE is the least effective, last-line measure."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Environmental Health",
+       "link": "https://www.youtube.com/watch?v=xWoyhpZlIyI",
+       "description": "Global Health with Greg Martin · 3 min"
       }
      ]
     },

@@ -156,6 +156,13 @@
        "answerIndex": 0,
        "explanation": "Staphylococci divide in several planes forming clusters."
       }
+     ],
+     "videos": [
+      {
+       "title": "Bacterial Structure and Functions",
+       "link": "https://www.youtube.com/watch?v=b15Hy3jCPDs",
+       "description": "Osmosis from Elsevier · 7 min"
+      }
      ]
     },
     {
@@ -279,6 +286,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Sabouraud agar's low pH favours fungi."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Culture Media: Microbiology Growth Pre-Nursing, Pre-Med & Health Field Careers | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=bzvASJ_ynKI",
+       "description": "Level Up RN · 5 min"
+      },
+      {
+       "title": "Microbiology - Bacteria Growth, Reproduction, Classification",
+       "link": "https://www.youtube.com/watch?v=7Lh-M-rX86Q",
+       "description": "Armando Hasudungan · 11 min"
       }
      ]
     },
@@ -527,6 +546,13 @@
        "answerIndex": 1,
        "explanation": "Transposons can carry resistance genes between plasmids and chromosomes."
       }
+     ],
+     "videos": [
+      {
+       "title": "Bacterial Genetics",
+       "link": "https://www.youtube.com/watch?v=mg6tXQaiBaI",
+       "description": "Ninja Nerd · 41 min"
+      }
      ]
     },
     {
@@ -651,6 +677,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Their lipid envelope is disrupted by alcohol and detergents."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Protozoa: Definition & Types of Microbes – Microbiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=r83JW-yFVZE",
+       "description": "Lecturio Medical · 6 min"
+      },
+      {
+       "title": "Introduction to Protozoa - the unicellular parasites (amoeba, giardia, leishaniasia, plasmodium)",
+       "link": "https://www.youtube.com/watch?v=0NBQxasH4CY",
+       "description": "Armando Hasudungan · 9 min"
       }
      ]
     }

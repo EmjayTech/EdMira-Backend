@@ -142,6 +142,18 @@
        "answerIndex": 2,
        "explanation": "The marrow becomes the main site late in gestation."
       }
+     ],
+     "videos": [
+      {
+       "title": "Hematopoiesis | Formation of blood cells",
+       "link": "https://www.youtube.com/watch?v=anfpX7NzExg",
+       "description": "Dr Matt & Dr Mike · 20 min"
+      },
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
+      }
      ]
     },
     {
@@ -266,6 +278,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Hydroxyurea impairs DNA synthesis, raising MCV."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
+      },
+      {
+       "title": "Complete Blood Count (CBC) Test Results Interpretation w/ Differential Nursing NCLEX",
+       "link": "https://www.youtube.com/watch?v=lF_GHFEqnYM",
+       "description": "RegisteredNurseRN · 12 min"
       }
      ]
     },
@@ -392,6 +416,18 @@
        "answerIndex": 3,
        "explanation": "Ferritin is an acute-phase protein and iron is sequestered."
       }
+     ],
+     "videos": [
+      {
+       "title": "Understanding Pernicious Anaemia (B12 Deficiency)",
+       "link": "https://www.youtube.com/watch?v=TNug0MHdhq0",
+       "description": "Zero To Finals · 4 min"
+      },
+      {
+       "title": "Iron Deficiency Anemia - All you need to know - Causes, Symptoms, Diagnosis, Treatment",
+       "link": "https://www.youtube.com/watch?v=nWHQRptC_9Q",
+       "description": "Medicosis Perfectionalis · 16 min"
+      }
      ]
     },
     {
@@ -515,6 +551,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Plasmodium falciparum destroys red cells."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Haemolytic Anaemia - classification (intravascular, extravascular), pathophysiology, investigations",
+       "link": "https://www.youtube.com/watch?v=wxzf_rg_Wd4",
+       "description": "Armando Hasudungan · 13 min"
       }
      ]
     },
@@ -640,6 +683,13 @@
        ],
        "answerIndex": 2,
        "explanation": "It is incompatible with life."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Sickle cell anemia - causes, symptoms, diagnosis, treatment & pathology",
+       "link": "https://www.youtube.com/watch?v=fIIJmg_1hv0",
+       "description": "Osmosis from Elsevier · 9 min"
       }
      ]
     }

@@ -515,6 +515,13 @@
        "answerIndex": 2,
        "explanation": "2¹⁰ = 1,024."
       }
+     ],
+     "videos": [
+      {
+       "title": "Overview of amplifiers and signal processing technique",
+       "link": "https://www.youtube.com/watch?v=9baxHy3a4l4",
+       "description": "NPTEL-NOC IITM · 8 min"
+      }
      ]
     },
     {

@@ -162,6 +162,18 @@
        "answerIndex": 4,
        "explanation": "Epithelium is avascular and relies on diffusion across the basement membrane."
       }
+     ],
+     "videos": [
+      {
+       "title": "Types of Tissue Part 1: Epithelial Tissue",
+       "link": "https://www.youtube.com/watch?v=oe-Z9t0KBfU",
+       "description": "Professor Dave Explains · 10 min"
+      },
+      {
+       "title": "Epithelial Tissue and Epithelial Cells Explained Clearly",
+       "link": "https://www.youtube.com/watch?v=7SlTObIQu6M",
+       "description": "Armando Hasudungan · 13 min"
+      }
      ]
     },
     {
@@ -285,6 +297,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Fibrillin-1 mutations weaken elastic tissue."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Connective Tissue Proper",
+       "link": "https://www.youtube.com/watch?v=Mgf2a_Ner3I",
+       "description": "Dr Matt & Dr Mike · 11 min"
+      },
+      {
+       "title": "Connective Tissue – Histology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=wwHqpY_1riM",
+       "description": "Lecturio Medical · 31 min"
       }
      ]
     },
@@ -532,6 +556,18 @@
        "answerIndex": 0,
        "explanation": "Satellite cells are skeletal muscle stem cells."
       }
+     ],
+     "videos": [
+      {
+       "title": "Muscle Tissue | Skeletal, Cardiac, and Smooth",
+       "link": "https://www.youtube.com/watch?v=RVl1dni2LDQ",
+       "description": "Dr Matt & Dr Mike · 18 min"
+      },
+      {
+       "title": "Types of Tissue Part 3: Muscle Tissue",
+       "link": "https://www.youtube.com/watch?v=7t-DGxG09l8",
+       "description": "Professor Dave Explains · 11 min"
+      }
      ]
     },
     {
@@ -655,6 +691,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Microglia are phagocytic immune cells of the CNS."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Types of Tissue Part 4: Nervous Tissue",
+       "link": "https://www.youtube.com/watch?v=4RS-3Ex04NU",
+       "description": "Professor Dave Explains · 14 min"
       }
      ]
     }

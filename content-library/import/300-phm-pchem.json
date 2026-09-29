@@ -137,6 +137,13 @@
        "answerIndex": 2,
        "explanation": "pKa relative to pH determines ionisation."
       }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacodynamics: Mechanisms of Drug Action",
+       "link": "https://www.youtube.com/watch?v=PGzT3cTPah8",
+       "description": "Professor Dave Explains · 8 min"
+      }
      ]
     },
     {
@@ -385,6 +392,18 @@
        "answerIndex": 1,
        "explanation": "The longer-acting partner protects the artemisinin from resistance."
       }
+     ],
+     "videos": [
+      {
+       "title": "Pharmacology and life cycle - Malaria (Antimalarials, pathophysiology, treatment)",
+       "link": "https://www.youtube.com/watch?v=hZnekAAzH9k",
+       "description": "Armando Hasudungan · 16 min"
+      },
+      {
+       "title": "Antimalarials ~Pharmacology~",
+       "link": "https://www.youtube.com/watch?v=NPxd9cRQ3JE",
+       "description": "Osmosis from Elsevier · 15 min"
+      }
      ]
     },
     {
@@ -510,6 +529,18 @@
        "answerIndex": 0,
        "explanation": "Reduced nitro radicals damage DNA in low-oxygen organisms."
       }
+     ],
+     "videos": [
+      {
+       "title": "Medicinal Chemistry and Penicillin Total Synthesis: Crash Course Organic Chemistry #50",
+       "link": "https://www.youtube.com/watch?v=qygFjt2_LG4",
+       "description": "CrashCourse · 14 min"
+      },
+      {
+       "title": "Introduction - Medicinal Chemistry",
+       "link": "https://www.youtube.com/watch?v=lUxkcEoGkVg",
+       "description": "NPTEL-NOC IITM · 4 min"
+      }
      ]
     },
     {
@@ -634,6 +665,18 @@
        ],
        "answerIndex": 3,
        "explanation": "N-allyl derivatives (nalorphine, naloxone) antagonise opioid receptors."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Medicinal Chemistry and Penicillin Total Synthesis: Crash Course Organic Chemistry #50",
+       "link": "https://www.youtube.com/watch?v=qygFjt2_LG4",
+       "description": "CrashCourse · 14 min"
+      },
+      {
+       "title": "Introduction to Medicinal Chemistry Part-I",
+       "link": "https://www.youtube.com/watch?v=UHEXXGiegd0",
+       "description": "NPTEL-NOC IITM · 35 min"
       }
      ]
     }

@@ -158,6 +158,18 @@
        "answerIndex": 0,
        "explanation": "Phasic receptors signal change."
       }
+     ],
+     "videos": [
+      {
+       "title": "Sensory Pathways | Touch/Proprioception vs Pain/Temperature",
+       "link": "https://www.youtube.com/watch?v=0gjdP-cYujw",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      },
+      {
+       "title": "3. Sensory Nervous System Physiology 🧠✨ | Receptors, Sensory Pathways & Coding of Sensation",
+       "link": "https://www.youtube.com/watch?v=yyoaR98lGT8",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      }
      ]
     },
     {
@@ -282,6 +294,18 @@
        "answerIndex": 3,
        "explanation": "Spinal shock causes temporary areflexia."
       }
+     ],
+     "videos": [
+      {
+       "title": "Neurology | Spinal Cord: Stretch Reflex | Muscle Spindle",
+       "link": "https://www.youtube.com/watch?v=IXV4fRC6nPc",
+       "description": "Ninja Nerd · 34 min"
+      },
+      {
+       "title": "Spinal Reflex (Simple Reflex Arc)",
+       "link": "https://www.youtube.com/watch?v=EqsNHbbJQJ4",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      }
      ]
     },
     {
@@ -405,6 +429,18 @@
        ],
        "answerIndex": 0,
        "explanation": "D1 activation promotes movement via the direct pathway."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Neurology | Basal Ganglia Anatomy & Function | Direct & Indirect Pathways",
+       "link": "https://www.youtube.com/watch?v=hxvep2Y8ShI",
+       "description": "Ninja Nerd · 42 min"
+      },
+      {
+       "title": "Basal Ganglia (Direct vs. Indirect Pathways)",
+       "link": "https://www.youtube.com/watch?v=Gfunn9cYLNY",
+       "description": "Dirty Medicine · 12 min"
       }
      ]
     },
@@ -531,6 +567,18 @@
        "answerIndex": 1,
        "explanation": "Parasympathetic M3 stimulation contracts the detrusor."
       }
+     ],
+     "videos": [
+      {
+       "title": "Neurology | Autonomic Nervous System",
+       "link": "https://www.youtube.com/watch?v=7dZHmKMLdC0",
+       "description": "Ninja Nerd · 31 min"
+      },
+      {
+       "title": "The Autonomic Nervous System: Sympathetic and Parasympathetic Divisions",
+       "link": "https://www.youtube.com/watch?v=DPWEhl7gbu4",
+       "description": "Professor Dave Explains · 7 min"
+      }
      ]
     },
     {
@@ -655,6 +703,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Endolymph movement in the semicircular canals bends the cupula."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Special Senses | The Phototransduction Cascade",
+       "link": "https://www.youtube.com/watch?v=GKaFjw8N8zQ",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Special Senses | Eye Anatomy",
+       "link": "https://www.youtube.com/watch?v=Hclc7lL_Oyw",
+       "description": "Ninja Nerd · 46 min"
       }
      ]
     }

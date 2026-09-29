@@ -4,12 +4,16 @@ import { ApiBearerAuth, ApiOperation, ApiQuery, ApiTags } from '@nestjs/swagger'
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
 import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
 import { ContentService } from './content.service';
+import { NotesPdfService } from './notes-pdf.service';
 
 @ApiTags('Content')
 @ApiBearerAuth()
 @Controller()
 export class ContentController {
-  constructor(private readonly content: ContentService) {}
+  constructor(
+    private readonly content: ContentService,
+    private readonly notesPdf: NotesPdfService,
+  ) {}
 
   @Get('courses')
   @ApiOperation({
@@ -61,6 +65,18 @@ export class ContentController {
     @Param('courseId', ParseObjectIdPipe) courseId: string,
   ) {
     return this.content.listResources(courseId, await this.content.academicsOf(userId));
+  }
+
+  @Get('topics/:topicId/notes')
+  @ApiOperation({ summary: "A 15-minute link to the topic's study notes as a PDF (for offline reading)" })
+  topicNotes(@Param('topicId', ParseObjectIdPipe) topicId: string, @Req() req: Request) {
+    return this.notesPdf.topicLink(topicId, `${req.protocol}://${req.get('host')}`);
+  }
+
+  @Get('courses/:courseId/notes')
+  @ApiOperation({ summary: "A 15-minute link to all of a course's published notes as one PDF" })
+  courseNotes(@Param('courseId', ParseObjectIdPipe) courseId: string, @Req() req: Request) {
+    return this.notesPdf.courseLink(courseId, `${req.protocol}://${req.get('host')}`);
   }
 
   @Get('resources/:resourceId/download')

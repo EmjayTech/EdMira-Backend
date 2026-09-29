@@ -138,6 +138,18 @@
        "answerIndex": 4,
        "explanation": "It maximises output within rating limits."
       }
+     ],
+     "videos": [
+      {
+       "title": "Primary X-ray Circuit | X-ray physics | Radiology Physics Course #16",
+       "link": "https://www.youtube.com/watch?v=uWfx1KZPTp8",
+       "description": "Radiology Tutorials · 9 min"
+      },
+      {
+       "title": "Other X-ray Machine Components | X-ray physics #4 | Radiology Physics Course #11",
+       "link": "https://www.youtube.com/watch?v=lJ7DLzTWei0",
+       "description": "Radiology Tutorials · 4 min"
+      }
      ]
     },
     {
@@ -263,6 +275,13 @@
        "answerIndex": 3,
        "explanation": "The fine focus gives sharper images at lower mA."
       }
+     ],
+     "videos": [
+      {
+       "title": "Other X-ray Machine Components | X-ray physics #4 | Radiology Physics Course #11",
+       "link": "https://www.youtube.com/watch?v=lJ7DLzTWei0",
+       "description": "Radiology Tutorials · 4 min"
+      }
      ]
     },
     {
@@ -386,6 +405,13 @@
        ],
        "answerIndex": 2,
        "explanation": "Less scatter improves contrast."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Anti-scatter grids | X-ray Physics | Radiology Physics Course #39",
+       "link": "https://www.youtube.com/watch?v=vZ9dcesc3e4",
+       "description": "Radiology Tutorials · 11 min"
       }
      ]
     },

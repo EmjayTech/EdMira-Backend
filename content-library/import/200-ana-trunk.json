@@ -165,6 +165,18 @@
        "answerIndex": 4,
        "explanation": "Each segment has its own bronchus and artery and can be resected separately."
       }
+     ],
+     "videos": [
+      {
+       "title": "Anatomy of the Thoracic Wall",
+       "link": "https://www.youtube.com/watch?v=c-2Yk9rBCcA",
+       "description": "Ninja Nerd · 25 min"
+      },
+      {
+       "title": "Lungs (Function, Parts, Pleura & Recesses) - Anatomy",
+       "link": "https://www.youtube.com/watch?v=66PR3IYWb0A",
+       "description": "Taim Talks Med · 12 min"
+      }
      ]
     },
     {
@@ -411,6 +423,18 @@
        "answerIndex": 3,
        "explanation": "All aponeuroses pass anteriorly below the arcuate line."
       }
+     ],
+     "videos": [
+      {
+       "title": "Inguinal Canal — Cadaveric Anatomy 🦴 Walls, Rings, Spermatic Cord/ROUND Ligament | USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=oT6YoIdflRs",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 7 min"
+      },
+      {
+       "title": "Ant Abdominal Wall Anterior view",
+       "link": "https://www.youtube.com/watch?v=x1zDBtEL59Y",
+       "description": "The Noted Anatomist · 11 min"
+      }
      ]
     },
     {
@@ -536,6 +560,18 @@
        "answerIndex": 3,
        "explanation": "Calot's (cystohepatic) triangle contains the cystic artery."
       }
+     ],
+     "videos": [
+      {
+       "title": "Peritoneal cavity, abdominal organs and spaces | Radiology anatomy part 1 prep | CT abdomen",
+       "link": "https://www.youtube.com/watch?v=ra30fb7y_t0",
+       "description": "Radiology Tutorials · 25 min"
+      },
+      {
+       "title": "Anatomy of the peritoneum and peritoneal cavity",
+       "link": "https://www.youtube.com/watch?v=fvzHnhbkwOk",
+       "description": "Osmosis from Elsevier · 13 min"
+      }
      ]
     },
     {
@@ -658,6 +694,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Most uteri are anteverted and anteflexed."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Gross Anatomy - Male & Female Pelvis, Perineum, and Genitalia. Gross and Cross-section Anatomy",
+       "link": "https://www.youtube.com/watch?v=pbCdR1PumnU",
+       "description": "Clinical Anatomy Explained! · 55 min"
       }
      ]
     }

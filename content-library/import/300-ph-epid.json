@@ -146,6 +146,13 @@
        "answerIndex": 4,
        "explanation": "SMR = observed/expected × 100."
       }
+     ],
+     "videos": [
+      {
+       "title": "04 Measures of disease frequency",
+       "link": "https://www.youtube.com/watch?v=IoK0c9__5DA",
+       "description": "NPTEL-NOC IITM · 14 min"
+      }
      ]
     },
     {
@@ -395,6 +402,18 @@
        "answerIndex": 0,
        "explanation": "Early control saves lives."
       }
+     ],
+     "videos": [
+      {
+       "title": "Outbreaks -  investigation and control",
+       "link": "https://www.youtube.com/watch?v=xqoaGhxrIfY",
+       "description": "Global Health with Greg Martin · 8 min"
+      },
+      {
+       "title": "How Do We Investigate Outbreaks? Epidemiology: Crash Course Outbreak Science #8",
+       "link": "https://www.youtube.com/watch?v=vk6e0pCbh1k",
+       "description": "CrashCourse · 12 min"
+      }
      ]
     },
     {
@@ -519,6 +538,13 @@
        ],
        "answerIndex": 4,
        "explanation": "Likelihood ratios depend only on sensitivity and specificity."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Screening Tests: Introduction – Epidemiology & Biostatistics  | Lecturio",
+       "link": "https://www.youtube.com/watch?v=4KfWDqM4rkY",
+       "description": "Lecturio Medical · 5 min"
       }
      ]
     },
@@ -645,6 +671,13 @@
        ],
        "answerIndex": 2,
        "explanation": "Many emerging infections are zoonotic."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Infectious disease epidemiology and transmission dynamics (how infections spread)",
+       "link": "https://www.youtube.com/watch?v=V0TBsGckUYM",
+       "description": "Global Health with Greg Martin · 3 min"
       }
      ]
     }

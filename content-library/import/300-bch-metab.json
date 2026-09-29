@@ -154,6 +154,18 @@
        "answerIndex": 3,
        "explanation": "ALT is found mainly in the liver."
       }
+     ],
+     "videos": [
+      {
+       "title": "Metabolism | Urea Cycle",
+       "link": "https://www.youtube.com/watch?v=XZEJ5PNvjkk",
+       "description": "Ninja Nerd · 19 min"
+      },
+      {
+       "title": "Nitrogen Metabolism (Part 1 of 2) - Introduction and Nitrogen Fixation",
+       "link": "https://www.youtube.com/watch?v=A9z9TQd57IY",
+       "description": "Moof University · 6 min"
+      }
      ]
     },
     {
@@ -279,6 +291,18 @@
        "answerIndex": 3,
        "explanation": "Histidine decarboxylase forms histamine."
       }
+     ],
+     "videos": [
+      {
+       "title": "Amino Acid Profiles | Inborn Errors of Metabolism Diagnosis | Blood & Urine Tests | Labs 🧪",
+       "link": "https://www.youtube.com/watch?v=0aDIKymGIpg",
+       "description": "Medicosis Perfectionalis · 16 min"
+      },
+      {
+       "title": "Metabolism | Amino Acid Metabolism",
+       "link": "https://www.youtube.com/watch?v=0M-B2dOfcUo",
+       "description": "Ninja Nerd · 27 min"
+      }
      ]
     },
     {
@@ -403,6 +427,18 @@
        ],
        "answerIndex": 3,
        "explanation": "It blocks dTMP synthesis."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Metabolism | Nucleotide Synthesis | Purine and Pyrimidine Synthesis",
+       "link": "https://www.youtube.com/watch?v=4GFKdLy2fOE",
+       "description": "Ninja Nerd · 44 min"
+      },
+      {
+       "title": "Purine Metabolism - De Novo, Salvage, Degradation, Uric Acid - Biochemistry & Rheumatology",
+       "link": "https://www.youtube.com/watch?v=EHZuFDf7VPE",
+       "description": "Medicosis Perfectionalis · 16 min"
       }
      ]
     },
@@ -653,6 +689,13 @@
        ],
        "answerIndex": 2,
        "explanation": "The liver integrates fuel metabolism."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Introduction to Biochemistry - Metabolism - Anabolic, Catabolic - Insulin, Glucagon - Amino Acids",
+       "link": "https://www.youtube.com/watch?v=BjzH4Hr_wGg",
+       "description": "Medicosis Perfectionalis · 57 min"
       }
      ]
     }

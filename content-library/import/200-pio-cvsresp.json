@@ -189,6 +189,18 @@
        "answerIndex": 4,
        "explanation": "S2 marks aortic and pulmonary valve closure."
       }
+     ],
+     "videos": [
+      {
+       "title": "Cardiovascular System Physiology - Cardiac Output (stroke volume, heart rate, preload and afterload)",
+       "link": "https://www.youtube.com/watch?v=hpQFToprlH8",
+       "description": "Armando Hasudungan · 5 min"
+      },
+      {
+       "title": "Cardiovascular Physiology - Pressure-Volume loops, Cardiac Cycle, ESV, EDV, SV, CO, Starling Law",
+       "link": "https://www.youtube.com/watch?v=EjZOtfhBp4A",
+       "description": "Medicosis Perfectionalis · 48 min"
+      }
      ]
     },
     {
@@ -313,6 +325,18 @@
        "answerIndex": 2,
        "explanation": "Normal left ventricular ejection fraction is about 55–70%."
       }
+     ],
+     "videos": [
+      {
+       "title": "Cardiovascular System Physiology - Cardiac Output (stroke volume, heart rate, preload and afterload)",
+       "link": "https://www.youtube.com/watch?v=hpQFToprlH8",
+       "description": "Armando Hasudungan · 5 min"
+      },
+      {
+       "title": "Cardiovascular | Cardiac Output",
+       "link": "https://www.youtube.com/watch?v=0O3FfHPE9PU",
+       "description": "Ninja Nerd · 45 min"
+      }
      ]
     },
     {
@@ -435,6 +459,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Reduced baroreceptor firing increases sympathetic outflow."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Cardiovascular | Fundamentals of Blood Pressure",
+       "link": "https://www.youtube.com/watch?v=2g7pFPXG2eE",
+       "description": "Ninja Nerd · 40 min"
+      },
+      {
+       "title": "Blood Pressure",
+       "link": "https://www.youtube.com/watch?v=k-BWyBePu8Q",
+       "description": "Dr Matt & Dr Mike · 11 min"
       }
      ]
     },
@@ -559,6 +595,18 @@
        "answerIndex": 1,
        "explanation": "(500 − 150) × 12 = 4,200 mL/min."
       }
+     ],
+     "videos": [
+      {
+       "title": "Work of Breathing: Breathing and Lung Mechanics – Physiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=zlMSmag19So",
+       "description": "Lecturio Medical · 4 min"
+      },
+      {
+       "title": "The mechanics of breathing 😮‍💨 - Normal inhalation and exhalation - Respiratory Physiology",
+       "link": "https://www.youtube.com/watch?v=Icf14qO9kX0",
+       "description": "Medicosis Perfectionalis · 17 min"
+      }
      ]
     },
     {
@@ -681,6 +729,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Cl− enters red cells in exchange for bicarbonate to maintain electroneutrality."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Oxygen-Dissociation Curve - Pulmonary Gas Exchange 🫁 - Respiratory System (Pulmonology)",
+       "link": "https://www.youtube.com/watch?v=Ku4f0EzP9OQ",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Respiration Gas Exchange",
+       "link": "https://www.youtube.com/watch?v=qDrV33rZlyA",
+       "description": "Armando Hasudungan · 14 min"
       }
      ]
     }

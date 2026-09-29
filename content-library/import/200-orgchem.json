@@ -146,6 +146,18 @@
        "answerIndex": 0,
        "explanation": "More substituted alkenes are more stable."
       }
+     ],
+     "videos": [
+      {
+       "title": "Organic Chemistry - Reaction Mechanisms - Addition, Elimination, Substitution, & Rearrangement",
+       "link": "https://www.youtube.com/watch?v=Efh5GkVbhEc",
+       "description": "The Organic Chemistry Tutor · 35 min"
+      },
+      {
+       "title": "Intro to Reaction Mechanisms: Crash Course Organic Chemistry #13",
+       "link": "https://www.youtube.com/watch?v=ORMUTUhYjvg",
+       "description": "CrashCourse · 13 min"
+      }
      ]
     },
     {
@@ -270,6 +282,18 @@
        "answerIndex": 0,
        "explanation": "Cis–trans isomers differ in spatial arrangement around a centre."
       }
+     ],
+     "videos": [
+      {
+       "title": "Stereochemistry: Crash Course Organic Chemistry #8",
+       "link": "https://www.youtube.com/watch?v=Bw_cetheReo",
+       "description": "CrashCourse · 15 min"
+      },
+      {
+       "title": "Stereochemistry: Enantiomers",
+       "link": "https://www.youtube.com/watch?v=dGyM4l_sSgQ",
+       "description": "Professor Dave Explains · 7 min"
+      }
      ]
     },
     {
@@ -392,6 +416,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Alcohol dehydrogenase converts ethanol to acetaldehyde."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Alcohols, Ethers, and Epoxides: Crash Course Organic Chemistry #24",
+       "link": "https://www.youtube.com/watch?v=j04zMFwDeDU",
+       "description": "CrashCourse · 13 min"
       }
      ]
     },
@@ -517,6 +548,18 @@
        ],
        "answerIndex": 1,
        "explanation": "Ethanol is oxidised to ethanal, which gives iodoform."
+      }
+     ],
+     "videos": [
+      {
+       "title": "NaBH4, LiAlH4, DIBAL Reduction Mechanism, Carboxylic Acid, Acid Chloride, Ester, & Ketones",
+       "link": "https://www.youtube.com/watch?v=Pp0LeL0SkRg",
+       "description": "The Organic Chemistry Tutor · 39 min"
+      },
+      {
+       "title": "An Overview of Aldehydes and Ketones: Crash Course Organic Chemistry #27",
+       "link": "https://www.youtube.com/watch?v=-fBPX-4kFlw",
+       "description": "CrashCourse · 12 min"
       }
      ]
     },

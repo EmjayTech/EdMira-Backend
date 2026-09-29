@@ -361,6 +361,13 @@
        "answerIndex": 3,
        "explanation": "FGDs explore views and experiences."
       }
+     ],
+     "videos": [
+      {
+       "title": "Study Design - Case-control study, Cross-sectional study, Cohort study (Prospective, Retrospective)",
+       "link": "https://www.youtube.com/watch?v=yu0LzDlhLMA",
+       "description": "Medicosis Perfectionalis · 21 min"
+      }
      ]
     },
     {
@@ -485,6 +492,13 @@
        ],
        "answerIndex": 3,
        "explanation": "Larger samples improve precision but do not remove bias."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Reliability & Validity Explained",
+       "link": "https://www.youtube.com/watch?v=KuT2n1w0Ixc",
+       "description": "Physiotutors · 3 min"
       }
      ]
     },

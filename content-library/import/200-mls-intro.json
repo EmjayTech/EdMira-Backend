@@ -393,6 +393,13 @@
        "answerIndex": 3,
        "explanation": "Unlabelled specimens cannot be linked safely to a patient."
       }
+     ],
+     "videos": [
+      {
+       "title": "Urinary Specimen Collection, Incontinence, and UTI's - Fundamentals of Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=-6mRzQqJZ5k",
+       "description": "Level Up RN · 8 min"
+      }
      ]
     },
     {
@@ -640,6 +647,13 @@
        ],
        "answerIndex": 0,
        "explanation": "SLIPTA uses a star rating for African laboratories."
+      }
+     ],
+     "videos": [
+      {
+       "title": "WHO: LQSI series - Implementing a laboratory quality management system",
+       "link": "https://www.youtube.com/watch?v=rl9vKY3FJUs",
+       "description": "World Health Organization (WHO) · 3 min"
       }
      ]
     }

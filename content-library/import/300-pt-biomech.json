@@ -138,6 +138,13 @@
        "answerIndex": 3,
        "explanation": "The fulcrum lies between the facial weight and the neck extensors."
       }
+     ],
+     "videos": [
+      {
+       "title": "Torque, Basic Introduction, Lever Arm, Moment of Force, Simple Machines & Mechanical Advantage",
+       "link": "https://www.youtube.com/watch?v=jg4e8W44_E4",
+       "description": "The Organic Chemistry Tutor · 21 min"
+      }
      ]
     },
     {
@@ -261,6 +268,13 @@
        ],
        "answerIndex": 0,
        "explanation": "It moves only in flexion–extension."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Arthrokinematics: Roll, Glide, Spin, Traction & Compression",
+       "link": "https://www.youtube.com/watch?v=dfFGaUQ6P_Y",
+       "description": "Physiotutors · 4 min"
       }
      ]
     },
@@ -386,6 +400,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Improved recruitment and coordination come first."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Musculoskeletal System | Muscle Mechanics | Types of Contractions & Levers",
+       "link": "https://www.youtube.com/watch?v=uZ5Sm2NFuGM",
+       "description": "Ninja Nerd · 35 min"
       }
      ]
     },
@@ -637,6 +658,13 @@
        ],
        "answerIndex": 4,
        "explanation": "Patients limit weight bearing on the painful side."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Gait Cycle & Gait Analysis",
+       "link": "https://www.youtube.com/watch?v=1u6d1CX7o9c",
+       "description": "Physiotutors · 5 min"
       }
      ]
     }

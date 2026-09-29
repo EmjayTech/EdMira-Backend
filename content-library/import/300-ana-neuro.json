@@ -158,6 +158,18 @@
        "answerIndex": 4,
        "explanation": "Damage causes conduction aphasia with impaired repetition."
       }
+     ],
+     "videos": [
+      {
+       "title": "Brodmann areas of the cerebral cortex / Lobes of the brain: Structure and function / Neuroanatomy",
+       "link": "https://www.youtube.com/watch?v=AvcB9cXI1Yk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      },
+      {
+       "title": "Neurology | Cerebral Cortex Anatomy & Function: Overview",
+       "link": "https://www.youtube.com/watch?v=2LzZMWGQe1k",
+       "description": "Ninja Nerd · 27 min"
+      }
      ]
     },
     {
@@ -283,6 +295,18 @@
        "answerIndex": 0,
        "explanation": "Below the end of the cord, the needle meets only cauda equina roots."
       }
+     ],
+     "videos": [
+      {
+       "title": "Ascending and Descending Spinal Cord Tracts Made Easy",
+       "link": "https://www.youtube.com/watch?v=_G-d8gKIlOw",
+       "description": "Rhesus Medicine · 4 min"
+      },
+      {
+       "title": "Sensory (Ascending) Tracts in the Spinal Cord",
+       "link": "https://www.youtube.com/watch?v=oCcxOtFiD2k",
+       "description": "Dr Matt & Dr Mike · 6 min"
+      }
      ]
     },
     {
@@ -405,6 +429,18 @@
        ],
        "answerIndex": 4,
        "explanation": "Dysdiadochokinesia is a cerebellar sign."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Understanding brainstem cranial nerve nuclei",
+       "link": "https://www.youtube.com/watch?v=5xo-78LI3ec",
+       "description": "The Noted Anatomist · 9 min"
+      },
+      {
+       "title": "Cranial nerve nuclei: locations and functions (preview) - Human Neuroanatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=Y2W0-iLexE8",
+       "description": "Kenhub - Learn Human Anatomy · 4 min"
       }
      ]
     },
@@ -531,6 +567,18 @@
        "answerIndex": 3,
        "explanation": "PComm arteries link the ICA with the PCA."
       }
+     ],
+     "videos": [
+      {
+       "title": "Blood Supply to Brain | Neuroanatomy",
+       "link": "https://www.youtube.com/watch?v=eH-cEWZXyGw",
+       "description": "Dr. Najeeb Lectures · 24 min"
+      },
+      {
+       "title": "Anterior vs Middle vs Posterior Cerebral Arteries | Brain Blood Supply",
+       "link": "https://www.youtube.com/watch?v=QYmApwTicHs",
+       "description": "The Noted Anatomist · 13 min"
+      }
      ]
     },
     {
@@ -655,6 +703,18 @@
        ],
        "answerIndex": 4,
        "explanation": "Low CSF glucose suggests bacterial or TB meningitis."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Optic Nerve & Visual Pathway | Cranial Nerve 2 (CN II) | Neuroanatomy Series",
+       "link": "https://www.youtube.com/watch?v=ZCQIXKn4sUI",
+       "description": "Medicosis Perfectionalis · 31 min"
+      },
+      {
+       "title": "Neurology | Optic Nerve | Cranial Nerve II: Visual Pathway and Lesions",
+       "link": "https://www.youtube.com/watch?v=FnCiLD4gARI",
+       "description": "Ninja Nerd · 37 min"
       }
      ]
     }

@@ -185,6 +185,18 @@
        "answerIndex": 2,
        "explanation": "Muscle lactate is recycled to glucose by the liver."
       }
+     ],
+     "videos": [
+      {
+       "title": "Metabolism | Regulation of Glycolysis",
+       "link": "https://www.youtube.com/watch?v=xoqyF6DJZ-Y",
+       "description": "Ninja Nerd · 29 min"
+      },
+      {
+       "title": "Glycolysis Pathway | Enzymes, Regulation and Products",
+       "link": "https://www.youtube.com/watch?v=fDK-SoWV61w",
+       "description": "JJ Medicine · 21 min"
+      }
      ]
     },
     {
@@ -308,6 +320,18 @@
        ],
        "answerIndex": 3,
        "explanation": "Modern estimates give about 30–32 ATP per glucose."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Uncouplers of Oxidative Phosphorylation (ETC) - Mitochondrial Poisons (Toxins) - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=SKvwlBveZSg",
+       "description": "Medicosis Perfectionalis · 17 min"
+      },
+      {
+       "title": "Electron Transport Chain (Oxidative Phosphorylation)",
+       "link": "https://www.youtube.com/watch?v=LsRQ5_EmxJA",
+       "description": "Dirty Medicine · 17 min"
       }
      ]
     },
@@ -433,6 +457,18 @@
        "answerIndex": 0,
        "explanation": "Type I glycogen storage disease causes fasting hypoglycaemia and hepatomegaly."
       }
+     ],
+     "videos": [
+      {
+       "title": "Metabolism | Pentose Phosphate Pathway",
+       "link": "https://www.youtube.com/watch?v=eXXpUxg9vn4",
+       "description": "Ninja Nerd · 34 min"
+      },
+      {
+       "title": "Glycogen Metabolism | Glycogenolysis | Pathway, Enzymes and Regulation",
+       "link": "https://www.youtube.com/watch?v=d-HgDkWK3P0",
+       "description": "JJ Medicine · 10 min"
+      }
      ]
     },
     {
@@ -557,6 +593,18 @@
        "answerIndex": 1,
        "explanation": "Citrate crosses the membrane and is cleaved by ATP-citrate lyase."
       }
+     ],
+     "videos": [
+      {
+       "title": "Metabolism | Fatty Acid Synthesis: Part 1",
+       "link": "https://www.youtube.com/watch?v=nBFSz63T1c0",
+       "description": "Ninja Nerd · 22 min"
+      },
+      {
+       "title": "Fatty Acid-Oxidation ( Beta oxidation of fatty acids ) Biochemistry Animations",
+       "link": "https://www.youtube.com/watch?v=slCmrtFHFQQ",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 15 min"
+      }
      ]
     },
     {
@@ -680,6 +728,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Kwashiorkor features oedema from low albumin and a fatty liver."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Ketone Body Synthesis Pathway | Ketogenesis | Medical Biochemistry",
+       "link": "https://www.youtube.com/watch?v=HxopfcsuLzQ",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 22 min"
+      },
+      {
+       "title": "Ketone Body Synthesis | Ketogenesis | Formation Pathway and Regulation",
+       "link": "https://www.youtube.com/watch?v=AK9Q2ClI8y4",
+       "description": "JJ Medicine · 7 min"
       }
      ]
     }

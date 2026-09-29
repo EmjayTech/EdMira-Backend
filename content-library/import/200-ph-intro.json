@@ -272,6 +272,13 @@
        "answerIndex": 2,
        "explanation": "Public health works at the population level."
       }
+     ],
+     "videos": [
+      {
+       "title": "What is Public Health? Crash Course Public Health #1",
+       "link": "https://www.youtube.com/watch?v=5aww-Bpgkf4",
+       "description": "CrashCourse · 13 min"
+      }
      ]
     },
     {
@@ -519,6 +526,13 @@
        ],
        "answerIndex": 4,
        "explanation": "Quaternary prevention protects against overmedicalisation."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Prevention Levels & Determinants of Health: Community Health - Fundamentals of Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=wAYlurDlGAI",
+       "description": "Level Up RN · 7 min"
       }
      ]
     },

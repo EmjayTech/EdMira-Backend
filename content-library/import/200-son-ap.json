@@ -264,6 +264,18 @@
        "answerIndex": 4,
        "explanation": "A resting pulse of 60–100 bpm is normal."
       }
+     ],
+     "videos": [
+      {
+       "title": "Blood Flow Through the Heart | Heart Anatomy and Physiology NCLEX",
+       "link": "https://www.youtube.com/watch?v=J3YTxBreXe4",
+       "description": "RegisteredNurseRN · 4 min"
+      },
+      {
+       "title": "Circulatory System and Pathway of Blood Through the Heart",
+       "link": "https://www.youtube.com/watch?v=_vZ0lefPg_0",
+       "description": "Amoeba Sisters · 8 min"
+      }
      ]
     },
     {
@@ -386,6 +398,18 @@
        ],
        "answerIndex": 4,
        "explanation": "They filter inspired air."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Lower Respiratory Tract Anatomy | Anatomy & Physiology for Nurses",
+       "link": "https://www.youtube.com/watch?v=u51vsdUQuBs",
+       "description": "Lecturio Nursing · 7 min"
+      },
+      {
+       "title": "Anatomy and physiology of the respiratory system",
+       "link": "https://www.youtube.com/watch?v=0fVoz4V75_E",
+       "description": "Osmosis from Elsevier · 10 min"
       }
      ]
     },
@@ -634,6 +658,18 @@
        ],
        "answerIndex": 4,
        "explanation": "The adrenal medulla releases adrenaline and noradrenaline."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Medical Terminology | Lesson 8 | Nervous System, Cardiorespiratory and Endocrine Anatomy Terms",
+       "link": "https://www.youtube.com/watch?v=QiivC3iLZew",
+       "description": "JJ Medicine · 17 min"
+      },
+      {
+       "title": "Nervous & Endocrine Systems: What Really Happens When You Step on a Lego: Crash Course Biology #46",
+       "link": "https://www.youtube.com/watch?v=NKpkU4-Sf9A",
+       "description": "CrashCourse · 10 min"
       }
      ]
     }

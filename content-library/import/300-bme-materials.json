@@ -266,6 +266,13 @@
        "answerIndex": 2,
        "explanation": "The TiO2 film protects the metal."
       }
+     ],
+     "videos": [
+      {
+       "title": "13. Tissue Engineering Scaffolds: Processing and Properties",
+       "link": "https://www.youtube.com/watch?v=Txidu-5VYfU",
+       "description": "MIT OpenCourseWare · 72 min"
+      }
      ]
     },
     {
@@ -390,6 +397,18 @@
        ],
        "answerIndex": 2,
        "explanation": "Biocompatibility is application-specific."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Lec 33: Biomaterial Implantation and the Host Response | Polymeric Biomaterials",
+       "link": "https://www.youtube.com/watch?v=ahB7dImnH4o",
+       "description": "NPTEL-NOC IITM · 66 min"
+      },
+      {
+       "title": "#27 Host integration & Immune Responses | Part 2 | Introduction to Tissue Engineering",
+       "link": "https://www.youtube.com/watch?v=d9DOq7-Vmuc",
+       "description": "NPTEL-NOC IITM · 25 min"
       }
      ]
     },

@@ -189,6 +189,18 @@
        "answerIndex": 2,
        "explanation": "Digoxin inhibits the pump in cardiac cells."
       }
+     ],
+     "videos": [
+      {
+       "title": "Physiology Introduction - Cell Membrane - Passive Simple Diffusion, Osmosis, Active Transport",
+       "link": "https://www.youtube.com/watch?v=nDhYe1kq-38",
+       "description": "Medicosis Perfectionalis · 53 min"
+      },
+      {
+       "title": "Cell membrane Physiology: Part 1",
+       "link": "https://www.youtube.com/watch?v=nFvO0dNl8xk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 30 min"
+      }
      ]
     },
     {
@@ -313,6 +325,18 @@
        ],
        "answerIndex": 4,
        "explanation": "Serum is the fluid left after blood clots."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Blood, Plasma, and Red Blood Cells - Physiology of Blood and Immune System -  Physiology Playlist",
+       "link": "https://www.youtube.com/watch?v=cpMpzHBtBXc",
+       "description": "Medicosis Perfectionalis · 20 min"
+      },
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
       }
      ]
     },
@@ -439,6 +463,18 @@
        "answerIndex": 3,
        "explanation": "Aspirin irreversibly inhibits COX-1 in platelets, blocking TXA2."
       }
+     ],
+     "videos": [
+      {
+       "title": "Hematology | Leukopoiesis: White Blood Cell Formation",
+       "link": "https://www.youtube.com/watch?v=nyKxu7Kkguo",
+       "description": "Ninja Nerd · 36 min"
+      },
+      {
+       "title": "Leukocytes | White Blood Cells | Immune System",
+       "link": "https://www.youtube.com/watch?v=f6o5sCFpX_0",
+       "description": "Dr. Najeeb Lectures · 18 min"
+      }
      ]
     },
     {
@@ -564,6 +600,18 @@
        "answerIndex": 2,
        "explanation": "Unmyelinated C fibres are the slowest (≈ 0.5–2 m/s)."
       }
+     ],
+     "videos": [
+      {
+       "title": "Nerve Physiology (Part - 2) Action potential, Refractory Period, and Resting Membrane Potential",
+       "link": "https://www.youtube.com/watch?v=aiiO4qAw_CE",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 69 min"
+      },
+      {
+       "title": "Neurology | Resting Membrane, Graded, Action Potentials",
+       "link": "https://www.youtube.com/watch?v=Jk_9IhHVOTk",
+       "description": "Ninja Nerd · 57 min"
+      }
      ]
     },
     {
@@ -688,6 +736,18 @@
        ],
        "answerIndex": 4,
        "explanation": "It cleaves SNARE proteins needed for ACh exocytosis."
+      }
+     ],
+     "videos": [
+      {
+       "title": "The Mechanism of Muscle Contraction: Sarcomeres, Action Potential, and the Neuromuscular Junction",
+       "link": "https://www.youtube.com/watch?v=NfEJUPnqxk0",
+       "description": "Professor Dave Explains · 13 min"
+      },
+      {
+       "title": "Musculoskeletal System | Neuromuscular Junction | Excitation Contraction Coupling: Part 2",
+       "link": "https://www.youtube.com/watch?v=A96kAMPZXv8",
+       "description": "Ninja Nerd · 44 min"
       }
      ]
     }

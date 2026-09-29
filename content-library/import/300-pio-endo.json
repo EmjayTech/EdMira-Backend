@@ -159,6 +159,18 @@
        "answerIndex": 4,
        "explanation": "Negative feedback maintains hormone levels."
       }
+     ],
+     "videos": [
+      {
+       "title": "Hypothalamic Pituitary Axis | Endocrine System",
+       "link": "https://www.youtube.com/watch?v=fqz4WOwfz4Q",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      },
+      {
+       "title": "Hypothalamic Pituitary Thyroid Axis (regulation, TRH, TSH, thyroid hormones T3 and T4)",
+       "link": "https://www.youtube.com/watch?v=KzM8BiSnKQM",
+       "description": "Armando Hasudungan · 5 min"
+      }
      ]
     },
     {
@@ -282,6 +294,18 @@
        ],
        "answerIndex": 2,
        "explanation": "Iodised salt supplies dietary iodine."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Thyroid Gland and Hormones",
+       "link": "https://www.youtube.com/watch?v=FCngwKqLaT0",
+       "description": "Dr Matt & Dr Mike · 36 min"
+      },
+      {
+       "title": "Understanding Thyroid Hormones",
+       "link": "https://www.youtube.com/watch?v=AQHYiZ0kMlI",
+       "description": "Zero To Finals · 14 min"
       }
      ]
     },
@@ -407,6 +431,18 @@
        "answerIndex": 2,
        "explanation": "Catecholamine-secreting tumour of the adrenal medulla."
       }
+     ],
+     "videos": [
+      {
+       "title": "Hormones of Adrenal Cortex and Adrenal medulla : Endocrine physiology USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=9EhQjUjZHzk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      },
+      {
+       "title": "Endocrine System, Part 1 - Glands & Hormones: Crash Course Anatomy & Physiology #23",
+       "link": "https://www.youtube.com/watch?v=eWHH9je2zG4",
+       "description": "CrashCourse · 10 min"
+      }
      ]
     },
     {
@@ -531,6 +567,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Renal 1α-hydroxylase forms 1,25-dihydroxyvitamin D."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Pancreatic Enzymes & Hormones | (Exocrine vs  Endocrine) | Gastrointestinal (GI) Physiology Lectures",
+       "link": "https://www.youtube.com/watch?v=bprXNSpQVI4",
+       "description": "Medicosis Perfectionalis · 27 min"
       }
      ]
     },

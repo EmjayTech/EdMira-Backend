@@ -142,6 +142,13 @@
        "answerIndex": 1,
        "explanation": "It is concentrated by the thyroid and emits beta particles."
       }
+     ],
+     "videos": [
+      {
+       "title": "Basic Atomic Structure | Radiology Physics Course #1",
+       "link": "https://www.youtube.com/watch?v=3esx20XioMc",
+       "description": "Radiology Tutorials · 5 min"
+      }
      ]
     },
     {
@@ -267,6 +274,18 @@
        "answerIndex": 1,
        "explanation": "Photons produced deeper in the angled anode are more absorbed on the anode side."
       }
+     ],
+     "videos": [
+      {
+       "title": "Bremsstrahlung Radiation | X-ray production | X-ray physics | Radiology Physics Course #19",
+       "link": "https://www.youtube.com/watch?v=BWbr3LDunv8",
+       "description": "Radiology Tutorials · 11 min"
+      },
+      {
+       "title": "How X-rays see through your skin - Ge Wang",
+       "link": "https://www.youtube.com/watch?v=gsV7SJDDCY4",
+       "description": "TED-Ed · 5 min"
+      }
      ]
     },
     {
@@ -391,6 +410,18 @@
        "answerIndex": 3,
        "explanation": "High Z increases photoelectric absorption."
       }
+     ],
+     "videos": [
+      {
+       "title": "Compton Scatter | X-ray interaction with matter | X-ray physics | Radiology Physics Course #24",
+       "link": "https://www.youtube.com/watch?v=MgfB6VKFYbo",
+       "description": "Radiology Tutorials · 6 min"
+      },
+      {
+       "title": "Photoelectric Effect | X-ray interaction with matter | X-ray physics | Radiology Physics Course #23",
+       "link": "https://www.youtube.com/watch?v=A-ztje-y3Rs",
+       "description": "Radiology Tutorials · 11 min"
+      }
      ]
     },
     {
@@ -514,6 +545,18 @@
        ],
        "answerIndex": 2,
        "explanation": "X-rays mainly ionise water, producing damaging free radicals."
+      }
+     ],
+     "videos": [
+      {
+       "title": "32. Chemical and Biological Effects of Radiation, Smelling Nuclear Bullshit",
+       "link": "https://www.youtube.com/watch?v=HfRpkTG7Iow",
+       "description": "MIT OpenCourseWare · 60 min"
+      },
+      {
+       "title": "33. Long-Term Biological Effects of Radiation, Statistics, Radiation Risk",
+       "link": "https://www.youtube.com/watch?v=yYto-sIfHjo",
+       "description": "MIT OpenCourseWare · 51 min"
       }
      ]
     },

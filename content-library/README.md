@@ -28,6 +28,7 @@ department and level a student can pick at sign-up (see
 |---|---|
 | `src/*.json` | Compact sources, one course per file (format in `build.mjs`) |
 | `build.mjs` | `node content-library/build.mjs [--coverage]` → checks every question and writes `import/` |
+| `videos.mjs` | `node content-library/videos.mjs [200- 300-]` → finds recommended YouTube videos per topic (trusted education channels only, each checked to exist) and saves them in `videos.json`; `build.mjs` adds them to the import files, and they arrive in the review queue as topic study materials |
 | `import/*.json` | Import files: `{ "courses": [ … ] }` — the dashboard’s Import page and `yarn content:load` read these |
 
 ## Loading it

@@ -282,7 +282,7 @@ export class AdminContentService {
     }
     const author = dto.asLibrary ? { name: LIBRARY_AUTHOR_NAME } : { id: staff.id, name: staff.name };
     const result = await importContent(
-      { courses: this.courses, topics: this.topics, questions: this.questions },
+      { courses: this.courses, topics: this.topics, questions: this.questions, resources: this.resources },
       dto.courses,
       author,
       { dryRun: dto.dryRun, publishNewCourses: can(staff.role, 'manageLifecycle') },
@@ -293,7 +293,8 @@ export class AdminContentService {
         'course',
         c.courseId ?? '',
         'imported',
-        `Imported ${c.topics} topic${c.topics === 1 ? '' : 's'} and ${c.questions} question${c.questions === 1 ? '' : 's'} ` +
+        `Imported ${c.topics} topic${c.topics === 1 ? '' : 's'}, ${c.questions} question${c.questions === 1 ? '' : 's'}` +
+          (c.videos ? ` and ${c.videos} video${c.videos === 1 ? '' : 's'} ` : ' ') +
           `into ${c.created ? 'new course' : 'course'} “${c.title}”${dto.asLibrary ? ' (library content)' : ''}`,
       );
     }

@@ -139,6 +139,18 @@
        "answerIndex": 0,
        "explanation": "Enterococci tolerate salt and bile."
       }
+     ],
+     "videos": [
+      {
+       "title": "Gram-Positive Cocci - Quick Review - Microbiology 🧫 and Infectious Diseases 🦠",
+       "link": "https://www.youtube.com/watch?v=ufmfgnwAQ7Q",
+       "description": "Medicosis Perfectionalis · 28 min"
+      },
+      {
+       "title": "GRAM POSITIVE VS GRAM NEGATIVE BACTERIA",
+       "link": "https://www.youtube.com/watch?v=Didrc3wJ3E8",
+       "description": "Neural Academy · 3 min"
+      }
      ]
     },
     {
@@ -387,6 +399,13 @@
        ],
        "answerIndex": 1,
        "explanation": "It is acquired during birth from an infected mother."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Microbiology -Gram (-) | Campylobacter jejuni, Vibrio cholera, E.coli, Klebsiella - Picmonic- Part 9",
+       "link": "https://www.youtube.com/watch?v=KLwL1E1Ndlk",
+       "description": "Medicosis Perfectionalis · 27 min"
       }
      ]
     },

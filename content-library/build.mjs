@@ -25,7 +25,7 @@
  *   ]
  * }
  */
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -103,7 +103,10 @@ function audience(forMap, where) {
 
 const problems = [];
 const coverage = new Map(); // "DEPT|level" → course count
-let totals = { courses: 0, topics: 0, questions: 0 };
+let totals = { courses: 0, topics: 0, questions: 0, videos: 0 };
+// Recommended YouTube videos per topic, found by videos.mjs ("file::topic title" → videos).
+const VIDEOS_FILE = join(dirname(fileURLToPath(import.meta.url)), 'videos.json');
+const VIDEOS = existsSync(VIDEOS_FILE) ? JSON.parse(readFileSync(VIDEOS_FILE, 'utf8')) : {};
 const answerSpread = [0, 0, 0, 0, 0, 0];
 
 rmSync(OUT, { recursive: true, force: true });
@@ -163,12 +166,19 @@ for (const file of files) {
     if (questions.length < 5) problems.push(`${tw}: only ${questions.length} questions`);
     totals.topics++;
     totals.questions += questions.length;
+    const videos = (VIDEOS[`${file}::${t.title}`] ?? []).map((v) => ({
+      title: v.title,
+      link: `https://www.youtube.com/watch?v=${v.youTubeId}`,
+      description: `${v.channel}${v.minutes ? ` · ${v.minutes} min` : ''}`,
+    }));
+    totals.videos += videos.length;
     return {
       title: t.title,
       order: ti + 1,
       summary: t.summary,
       material: (t.notes ?? []).map((n) => ({ heading: n.h, body: n.b, ...(n.k?.length ? { keyPoints: n.k } : {}) })),
       questions,
+      ...(videos.length ? { videos } : {}),
     };
   });
   totals.courses++;
@@ -188,7 +198,7 @@ for (const [d, years] of Object.entries(DURATION)) {
   }
 }
 
-console.log(`${totals.courses} courses, ${totals.topics} topics, ${totals.questions} questions → content-library/import/`);
+console.log(`${totals.courses} courses, ${totals.topics} topics, ${totals.questions} questions, ${totals.videos} videos → content-library/import/`);
 console.log(`Correct answer spread A–F: ${answerSpread.join(' / ')}`);
 if (process.argv.includes('--coverage')) {
   const header = ['', ...UG, 'PG'].map((s) => s.padStart(5)).join('');

@@ -21,6 +21,7 @@ import { LIBRARY_AUTHOR_NAME, importContent } from '../admin/content-import';
 import { ImportDto } from '../admin/dto/import.dto';
 import { CourseSchema } from '../content/schemas/course.schema';
 import { QuestionSchema } from '../content/schemas/question.schema';
+import { ResourceSchema } from '../content/schemas/resource.schema';
 import { TopicSchema } from '../content/schemas/topic.schema';
 
 const LIBRARY_DIR = resolve(__dirname, '../../content-library/import');
@@ -56,9 +57,10 @@ async function main() {
     courses: mongoose.model('Course', CourseSchema),
     topics: mongoose.model('Topic', TopicSchema),
     questions: mongoose.model('Question', QuestionSchema),
+    resources: mongoose.model('Resource', ResourceSchema),
   } as any;
 
-  const total = { courses: 0, topics: 0, questions: 0, duplicates: 0, failedFiles: 0 };
+  const total = { courses: 0, topics: 0, questions: 0, videos: 0, duplicates: 0, failedFiles: 0 };
   for (const path of paths) {
     const name = path.replace(`${LIBRARY_DIR}/`, '');
     const dto = plainToInstance(ImportDto, JSON.parse(readFileSync(path, 'utf8')));
@@ -81,8 +83,9 @@ async function main() {
     total.topics += result.topics.created;
     total.questions += result.questions.created;
     total.duplicates += result.questions.duplicates;
+    total.videos += result.videos.created;
     console.log(
-      `✓ ${name}: ${result.topics.created} topics, ${result.questions.created} questions` +
+      `✓ ${name}: ${result.topics.created} topics, ${result.questions.created} questions, ${result.videos.created} videos` +
         (result.questions.duplicates ? ` (${result.questions.duplicates} already there)` : ''),
     );
   }
@@ -90,7 +93,7 @@ async function main() {
 
   console.log(
     `\n${dryRun ? 'Dry run — nothing saved. Would add' : 'Added'} ${total.courses} courses, ${total.topics} topics, ` +
-      `${total.questions} questions${total.duplicates ? `; skipped ${total.duplicates} repeats` : ''}.` +
+      `${total.questions} questions, ${total.videos} videos${total.duplicates ? `; skipped ${total.duplicates} repeats` : ''}.` +
       (total.failedFiles ? `\n${total.failedFiles} file(s) had problems (above) and were skipped.` : '') +
       (dryRun ? '' : '\nApprove them in the dashboard’s Review queue.'),
   );

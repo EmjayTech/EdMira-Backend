@@ -186,6 +186,18 @@
        "answerIndex": 3,
        "explanation": "Heparin activates antithrombin III."
       }
+     ],
+     "videos": [
+      {
+       "title": "Carbohydrates & sugars - biochemistry",
+       "link": "https://www.youtube.com/watch?v=jQi84TnstI4",
+       "description": "Osmosis from Elsevier · 12 min"
+      },
+      {
+       "title": "Carbohydrates | Biochemistry",
+       "link": "https://www.youtube.com/watch?v=AC5yGU7EfBI",
+       "description": "Dr Matt & Dr Mike · 7 min"
+      }
      ]
     },
     {
@@ -308,6 +320,13 @@
        ],
        "answerIndex": 3,
        "explanation": "The ':1' indicates one double bond."
+      }
+     ],
+     "videos": [
+      {
+       "title": "2. Chemical Bonding and Molecular Interactions; Lipids and Membranes",
+       "link": "https://www.youtube.com/watch?v=aKTOS0Nrlug",
+       "description": "MIT OpenCourseWare · 49 min"
       }
      ]
     },
@@ -433,6 +452,18 @@
        "answerIndex": 4,
        "explanation": "It carries both NH3+ and COO− groups."
       }
+     ],
+     "videos": [
+      {
+       "title": "Proteins & Amino Acids | Biochemistry",
+       "link": "https://www.youtube.com/watch?v=9ssCKw-7OvQ",
+       "description": "Dr Matt & Dr Mike · 5 min"
+      },
+      {
+       "title": "3. Structures of Amino Acids, Peptides, and Proteins",
+       "link": "https://www.youtube.com/watch?v=oOya3cFmAMc",
+       "description": "MIT OpenCourseWare · 52 min"
+      }
      ]
     },
     {
@@ -557,6 +588,18 @@
        "answerIndex": 1,
        "explanation": "Vitamin D deficiency impairs bone mineralisation."
       }
+     ],
+     "videos": [
+      {
+       "title": "Introduction to nucleic acids and nucleotides | High school biology | Khan Academy",
+       "link": "https://www.youtube.com/watch?v=hI4v7v8AdfI",
+       "description": "Khan Academy · 6 min"
+      },
+      {
+       "title": "Nucleic Acids - RNA and DNA Structure - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=7AtO8DuWsck",
+       "description": "The Organic Chemistry Tutor · 33 min"
+      }
      ]
     },
     {
@@ -680,6 +723,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Pepsin works best in the acidic stomach."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Enzymes: Catalysis, Kinetics & Classification – Biochemistry | Lecturio",
+       "link": "https://www.youtube.com/watch?v=-slPtkO2d9g",
+       "description": "Lecturio Medical · 67 min"
+      },
+      {
+       "title": "Michaelis-Menten Equation & Enzyme Kinetics - Biochemistry Series",
+       "link": "https://www.youtube.com/watch?v=CotD9m8Wm78",
+       "description": "Medicosis Perfectionalis · 19 min"
       }
      ]
     }

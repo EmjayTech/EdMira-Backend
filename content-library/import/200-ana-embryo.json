@@ -406,6 +406,13 @@
        "answerIndex": 4,
        "explanation": "Sclerotome cells form vertebrae and ribs."
       }
+     ],
+     "videos": [
+      {
+       "title": "Gastrulation | Formation of Germ Layers | Ectoderm, Mesoderm and Endoderm",
+       "link": "https://www.youtube.com/watch?v=d6Kkn0SECJ4",
+       "description": "JJ Medicine · 9 min"
+      }
      ]
     },
     {
@@ -653,6 +660,13 @@
        ],
        "answerIndex": 3,
        "explanation": "Incomplete fusion of the urethral folds leaves the urethral opening on the ventral penis."
+      }
+     ],
+     "videos": [
+      {
+       "title": "CNS Pathology Part - 1 / Congenital Anomalies, Demyelinating disorders & Neurodegenerative diseases",
+       "link": "https://www.youtube.com/watch?v=aVOmygwuaIE",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 51 min"
       }
      ]
     }

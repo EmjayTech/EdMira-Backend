@@ -2,6 +2,8 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ContentController } from './content.controller';
 import { ContentService } from './content.service';
+import { NotesController } from './notes.controller';
+import { NotesPdfService } from './notes-pdf.service';
 import { Course, CourseSchema } from './schemas/course.schema';
 import { Question, QuestionSchema } from './schemas/question.schema';
 import { Resource, ResourceSchema } from './schemas/resource.schema';
@@ -16,8 +18,8 @@ import { Topic, TopicSchema } from './schemas/topic.schema';
       { name: Resource.name, schema: ResourceSchema },
     ]),
   ],
-  controllers: [ContentController],
-  providers: [ContentService],
+  controllers: [ContentController, NotesController],
+  providers: [ContentService, NotesPdfService],
   exports: [ContentService, MongooseModule],
 })
 export class ContentModule {}

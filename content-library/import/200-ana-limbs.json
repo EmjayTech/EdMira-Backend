@@ -165,6 +165,18 @@
        "answerIndex": 3,
        "explanation": "T1 carries preganglionic sympathetic fibres to the head."
       }
+     ],
+     "videos": [
+      {
+       "title": "Anatomy of Thorax - Anatomy of Pectoral Region - Anatomy of Upper Limbs - Brachial Plexus",
+       "link": "https://www.youtube.com/watch?v=XAJloclkR2c",
+       "description": "Medicosis Perfectionalis · 40 min"
+      },
+      {
+       "title": "Brachial Plexus & Axillary Vessels Via Pectoral Dissection | Step 1 Essentials",
+       "link": "https://www.youtube.com/watch?v=CyW2YO_GD-Q",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 10 min"
+      }
      ]
     },
     {
@@ -289,6 +301,18 @@
        "answerIndex": 0,
        "explanation": "FCU and the medial half of FDP are the ulnar-supplied forearm flexors."
       }
+     ],
+     "videos": [
+      {
+       "title": "Muscles of the arm - Origin, Insertion & Innervation -  Human Anatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=w7G0OzUQSpI",
+       "description": "Kenhub - Learn Human Anatomy · 9 min"
+      },
+      {
+       "title": "Clinical Anatomy - Hand, Wrist (palmar aspect/flexors)",
+       "link": "https://www.youtube.com/watch?v=3aIHxXqKzcU",
+       "description": "Armando Hasudungan · 11 min"
+      }
      ]
     },
     {
@@ -411,6 +435,18 @@
        ],
        "answerIndex": 0,
        "explanation": "The glenoid labrum increases the depth of the socket."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Shoulder joint: Movements, bones and muscles - Human Anatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=SfQzA6W5xA0",
+       "description": "Kenhub - Learn Human Anatomy · 20 min"
+      },
+      {
+       "title": "Elbow Joint: Ligaments, Movements & Injuries | Clinical Anatomy",
+       "link": "https://www.youtube.com/watch?v=rpigkougPJE",
+       "description": "Taim Talks Med · 8 min"
       }
      ]
     },
@@ -535,6 +571,18 @@
        "answerIndex": 1,
        "explanation": "It is the powerful hip extensor used in climbing and rising."
       }
+     ],
+     "videos": [
+      {
+       "title": "Topography of the Thigh and Leg (Femoral Triangle, Adductor Canal, Popliteal Fossa)",
+       "link": "https://www.youtube.com/watch?v=87lVKkoY6WQ",
+       "description": "Taim Talks Med · 4 min"
+      },
+      {
+       "title": "ANATOMY OF FEMORAL TRIANGLE , FEMORAL CANAL , FEMORAL SHEATH (Animation)",
+       "link": "https://www.youtube.com/watch?v=NMXdU4UIu9Y",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 14 min"
+      }
      ]
     },
     {
@@ -657,6 +705,18 @@
        ],
        "answerIndex": 3,
        "explanation": "O'Donoghue's triad: ACL, MCL and medial meniscus."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Lower Limb: Movements of the Hip, Knee and Ankle Joint – Anatomy | Lecturio",
+       "link": "https://www.youtube.com/watch?v=i6OcCAKxbkk",
+       "description": "Lecturio Medical · 4 min"
+      },
+      {
+       "title": "Bones of the Foot and Ankle | Radiology anatomy part 1 prep | Foot and ankle anatomy | X-ray",
+       "link": "https://www.youtube.com/watch?v=wiSBFS_qQZ4",
+       "description": "Radiology Tutorials · 16 min"
       }
      ]
     }

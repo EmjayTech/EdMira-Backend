@@ -132,6 +132,13 @@
        "answerIndex": 0,
        "explanation": "Oruka studied the reflective thought of African sages."
       }
+     ],
+     "videos": [
+      {
+       "title": "What is Philosophy?: Crash Course Philosophy #1",
+       "link": "https://www.youtube.com/watch?v=1A_CAkYt3GY",
+       "description": "CrashCourse · 11 min"
+      }
      ]
     },
     {
@@ -378,6 +385,13 @@
        ],
        "answerIndex": 0,
        "explanation": "Critical thinkers evaluate evidence before accepting claims."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Logical Fallacies Part 1: Formal and Informal Fallacies",
+       "link": "https://www.youtube.com/watch?v=WZhj9S6axuo",
+       "description": "Professor Dave Explains · 7 min"
       }
      ]
     },

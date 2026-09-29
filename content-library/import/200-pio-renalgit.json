@@ -190,6 +190,18 @@
        "answerIndex": 4,
        "explanation": "Macula densa cells sense NaCl delivery to the distal tubule."
       }
+     ],
+     "videos": [
+      {
+       "title": "Renal | Glomerular Filtration",
+       "link": "https://www.youtube.com/watch?v=SVqSqPOcahY",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Regulation of Renal Blood Flow",
+       "link": "https://www.youtube.com/watch?v=dFnLbgPjiUw",
+       "description": "Osmosis from Elsevier · 11 min"
+      }
      ]
     },
     {
@@ -438,6 +450,18 @@
        "answerIndex": 3,
        "explanation": "Phosphate buffers (titratable acid) and NH4+ carry most H+."
       }
+     ],
+     "videos": [
+      {
+       "title": "The role of the kidney in acid-base balance - renal physiology",
+       "link": "https://www.youtube.com/watch?v=vdNwdC7eCT0",
+       "description": "Osmosis from Elsevier · 6 min"
+      },
+      {
+       "title": "Physiology of Acid Base Balance : Renal physiology USMLE step 1",
+       "link": "https://www.youtube.com/watch?v=GyVuDZ0d3L8",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 27 min"
+      }
      ]
     },
     {
@@ -560,6 +584,18 @@
        ],
        "answerIndex": 3,
        "explanation": "Cimetidine and ranitidine are H2-receptor antagonists."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Small Intestine Motility and Secretions - Gastrointestinal (GI) Physiology Series",
+       "link": "https://www.youtube.com/watch?v=ueMJWsPy3hA",
+       "description": "Medicosis Perfectionalis · 22 min"
+      },
+      {
+       "title": "Motility of the Gastrointestinal Tract | Peristalsis Physiology",
+       "link": "https://www.youtube.com/watch?v=By8lObnELH4",
+       "description": "Dr Matt & Dr Mike · 16 min"
       }
      ]
     },
@@ -684,6 +720,18 @@
        ],
        "answerIndex": 0,
        "explanation": "Salivary α-amylase starts starch digestion."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Gastrointestinal | Digestion & Absorption of Carbohydrates",
+       "link": "https://www.youtube.com/watch?v=BXXxtEW5v3o",
+       "description": "Ninja Nerd · 38 min"
+      },
+      {
+       "title": "Fat (lipid) digestion and absorption physiology",
+       "link": "https://www.youtube.com/watch?v=tmZksHXtZtg",
+       "description": "Armando Hasudungan · 6 min"
       }
      ]
     }

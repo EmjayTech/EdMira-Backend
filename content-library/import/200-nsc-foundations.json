@@ -265,6 +265,18 @@
        "answerIndex": 2,
        "explanation": "Planning establishes priorities, goals and interventions."
       }
+     ],
+     "videos": [
+      {
+       "title": "The Five Step Nursing Process Explained | Intro to ADPIE | Lecturio Nursing",
+       "link": "https://www.youtube.com/watch?v=ReVtLRuRZTA",
+       "description": "Lecturio Nursing · 5 min"
+      },
+      {
+       "title": "ADPIE Nursing Process Fundamentals | 5 Steps Made Simple",
+       "link": "https://www.youtube.com/watch?v=bRp2L0N7ppI",
+       "description": "SimpleNursing · 6 min"
+      }
      ]
     },
     {
@@ -390,6 +402,18 @@
        "answerIndex": 0,
        "explanation": "Prompt PEP (within 72 hours, ideally 2 hours) reduces HIV risk."
       }
+     ],
+     "videos": [
+      {
+       "title": "Standard & Isolation Precautions Nursing | Infection Control Contact, Droplet, Airborne PPE NCLEX",
+       "link": "https://www.youtube.com/watch?v=vLq6B3Qjy98",
+       "description": "RegisteredNurseRN · 17 min"
+      },
+      {
+       "title": "What Causes an INFECTION? :  Breaking the Chain of Infection | Lecturio Nursing Fundamentals/Theory",
+       "link": "https://www.youtube.com/watch?v=EXtTTG6YYAI",
+       "description": "Lecturio Nursing · 4 min"
+      }
      ]
     },
     {
@@ -514,6 +538,13 @@
        "answerIndex": 0,
        "explanation": "It scores sensory perception, moisture, activity, mobility, nutrition and friction."
       }
+     ],
+     "videos": [
+      {
+       "title": "Patient Positioning Nursing Care | Nursing Fundamentals Next Generation NCLEX Review",
+       "link": "https://www.youtube.com/watch?v=sklquo00ElQ",
+       "description": "RegisteredNurseRN · 14 min"
+      }
      ]
     },
     {
@@ -636,6 +667,13 @@
        ],
        "answerIndex": 1,
        "explanation": "The Nursing and Midwifery Council of Nigeria sets the professional code."
+      }
+     ],
+     "videos": [
+      {
+       "title": "Nursing Profession and Ethics - Fundamentals of Nursing  | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=CGvjk7hgASQ",
+       "description": "Level Up RN · 14 min"
       }
      ]
     }
