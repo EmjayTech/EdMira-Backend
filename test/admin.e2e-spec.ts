@@ -726,6 +726,23 @@ describe('bulk import, bulk review and AI drafting', () => {
     expect(materials).toEqual([expect.objectContaining({ kind: 'video', source: 'youtube', youTubeId: 'dQw4w9WgXcQ' })]);
   });
 
+  it('never creates topics or courses from a videos-only update', async () => {
+    const video = { title: 'Some video', link: 'https://youtu.be/dQw4w9WgXcQ' };
+    const res = await as('admin')
+      .post('/admin/import', {
+        asLibrary: true,
+        courses: [
+          { title: 'Library course', topics: [{ title: 'Not imported yet', videos: [video] }] },
+          { title: 'Course nobody imported', topics: [{ title: 'Anything', videos: [video] }] },
+        ],
+      })
+      .expect(201);
+    expect(res.body).toMatchObject({ imported: true, courses: { created: 0 }, topics: { created: 0 }, videos: { created: 0 } });
+    expect(res.body.warnings.join(' ')).toContain('2 topics have not been imported yet');
+    const titles = (await as('admin').get('/admin/courses')).body.map((c: any) => c.title);
+    expect(titles).not.toContain('Course nobody imported');
+  });
+
   it('gives students a signed PDF of topic and course notes', async () => {
     const binary = (res: any, done: (err: Error | null, body: Buffer) => void) => {
       const chunks: Buffer[] = [];

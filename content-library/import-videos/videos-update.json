@@ -1,0 +1,2334 @@
+{
+ "courses": [
+  {
+   "title": "General and Systemic Embryology (ANA 203)",
+   "topics": [
+    {
+     "title": "Gastrulation, Neurulation and Germ Layer Derivatives (Week 3 onward)",
+     "videos": [
+      {
+       "title": "Gastrulation | Formation of Germ Layers | Ectoderm, Mesoderm and Endoderm",
+       "link": "https://www.youtube.com/watch?v=d6Kkn0SECJ4",
+       "description": "JJ Medicine · 9 min"
+      }
+     ]
+    },
+    {
+     "title": "Systemic Development and Congenital Anomalies",
+     "videos": [
+      {
+       "title": "CNS Pathology Part - 1 / Congenital Anomalies, Demyelinating disorders & Neurodegenerative diseases",
+       "link": "https://www.youtube.com/watch?v=aVOmygwuaIE",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 51 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Histology of Basic Tissues (ANA 202)",
+   "topics": [
+    {
+     "title": "Epithelial Tissue and Glands",
+     "videos": [
+      {
+       "title": "Types of Tissue Part 1: Epithelial Tissue",
+       "link": "https://www.youtube.com/watch?v=oe-Z9t0KBfU",
+       "description": "Professor Dave Explains · 10 min"
+      },
+      {
+       "title": "Epithelial Tissue and Epithelial Cells Explained Clearly",
+       "link": "https://www.youtube.com/watch?v=7SlTObIQu6M",
+       "description": "Armando Hasudungan · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Connective Tissue Proper",
+     "videos": [
+      {
+       "title": "Connective Tissue Proper",
+       "link": "https://www.youtube.com/watch?v=Mgf2a_Ner3I",
+       "description": "Dr Matt & Dr Mike · 11 min"
+      },
+      {
+       "title": "Connective Tissue – Histology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=wwHqpY_1riM",
+       "description": "Lecturio Medical · 31 min"
+      }
+     ]
+    },
+    {
+     "title": "Muscle Tissue",
+     "videos": [
+      {
+       "title": "Muscle Tissue | Skeletal, Cardiac, and Smooth",
+       "link": "https://www.youtube.com/watch?v=RVl1dni2LDQ",
+       "description": "Dr Matt & Dr Mike · 18 min"
+      },
+      {
+       "title": "Types of Tissue Part 3: Muscle Tissue",
+       "link": "https://www.youtube.com/watch?v=7t-DGxG09l8",
+       "description": "Professor Dave Explains · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Nervous Tissue and Histological Techniques",
+     "videos": [
+      {
+       "title": "Types of Tissue Part 4: Nervous Tissue",
+       "link": "https://www.youtube.com/watch?v=4RS-3Ex04NU",
+       "description": "Professor Dave Explains · 14 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gross Anatomy I: Upper and Lower Limbs (ANA 201)",
+   "topics": [
+    {
+     "title": "Pectoral Region, Axilla and Brachial Plexus",
+     "videos": [
+      {
+       "title": "Anatomy of Thorax - Anatomy of Pectoral Region - Anatomy of Upper Limbs - Brachial Plexus",
+       "link": "https://www.youtube.com/watch?v=XAJloclkR2c",
+       "description": "Medicosis Perfectionalis · 40 min"
+      },
+      {
+       "title": "Brachial Plexus & Axillary Vessels Via Pectoral Dissection | Step 1 Essentials",
+       "link": "https://www.youtube.com/watch?v=CyW2YO_GD-Q",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Arm, Forearm and Hand",
+     "videos": [
+      {
+       "title": "Muscles of the arm - Origin, Insertion & Innervation -  Human Anatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=w7G0OzUQSpI",
+       "description": "Kenhub - Learn Human Anatomy · 9 min"
+      },
+      {
+       "title": "Clinical Anatomy - Hand, Wrist (palmar aspect/flexors)",
+       "link": "https://www.youtube.com/watch?v=3aIHxXqKzcU",
+       "description": "Armando Hasudungan · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Shoulder, Elbow and Wrist Joints",
+     "videos": [
+      {
+       "title": "Shoulder joint: Movements, bones and muscles - Human Anatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=SfQzA6W5xA0",
+       "description": "Kenhub - Learn Human Anatomy · 20 min"
+      },
+      {
+       "title": "Elbow Joint: Ligaments, Movements & Injuries | Clinical Anatomy",
+       "link": "https://www.youtube.com/watch?v=rpigkougPJE",
+       "description": "Taim Talks Med · 8 min"
+      }
+     ]
+    },
+    {
+     "title": "Gluteal Region, Thigh and Femoral Triangle",
+     "videos": [
+      {
+       "title": "Topography of the Thigh and Leg (Femoral Triangle, Adductor Canal, Popliteal Fossa)",
+       "link": "https://www.youtube.com/watch?v=87lVKkoY6WQ",
+       "description": "Taim Talks Med · 4 min"
+      },
+      {
+       "title": "ANATOMY OF FEMORAL TRIANGLE , FEMORAL CANAL , FEMORAL SHEATH (Animation)",
+       "link": "https://www.youtube.com/watch?v=NMXdU4UIu9Y",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Knee, Leg, Ankle and Foot",
+     "videos": [
+      {
+       "title": "Lower Limb: Movements of the Hip, Knee and Ankle Joint – Anatomy | Lecturio",
+       "link": "https://www.youtube.com/watch?v=i6OcCAKxbkk",
+       "description": "Lecturio Medical · 4 min"
+      },
+      {
+       "title": "Bones of the Foot and Ankle | Radiology anatomy part 1 prep | Foot and ankle anatomy | X-ray",
+       "link": "https://www.youtube.com/watch?v=wiSBFS_qQZ4",
+       "description": "Radiology Tutorials · 16 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gross Anatomy II: Thorax, Abdomen, Pelvis and Perineum (ANA 204)",
+   "topics": [
+    {
+     "title": "Thoracic Wall, Pleura and Lungs",
+     "videos": [
+      {
+       "title": "Anatomy of the Thoracic Wall",
+       "link": "https://www.youtube.com/watch?v=c-2Yk9rBCcA",
+       "description": "Ninja Nerd · 25 min"
+      },
+      {
+       "title": "Lungs (Function, Parts, Pleura & Recesses) - Anatomy",
+       "link": "https://www.youtube.com/watch?v=66PR3IYWb0A",
+       "description": "Taim Talks Med · 12 min"
+      }
+     ]
+    },
+    {
+     "title": "Anterior Abdominal Wall and Inguinal Canal",
+     "videos": [
+      {
+       "title": "Inguinal Canal — Cadaveric Anatomy 🦴 Walls, Rings, Spermatic Cord/ROUND Ligament | USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=oT6YoIdflRs",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 7 min"
+      },
+      {
+       "title": "Ant Abdominal Wall Anterior view",
+       "link": "https://www.youtube.com/watch?v=x1zDBtEL59Y",
+       "description": "The Noted Anatomist · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Abdominal Viscera and Peritoneum",
+     "videos": [
+      {
+       "title": "Peritoneal cavity, abdominal organs and spaces | Radiology anatomy part 1 prep | CT abdomen",
+       "link": "https://www.youtube.com/watch?v=ra30fb7y_t0",
+       "description": "Radiology Tutorials · 25 min"
+      },
+      {
+       "title": "Anatomy of the peritoneum and peritoneal cavity",
+       "link": "https://www.youtube.com/watch?v=fvzHnhbkwOk",
+       "description": "Osmosis from Elsevier · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Pelvis and Perineum",
+     "videos": [
+      {
+       "title": "Gross Anatomy - Male & Female Pelvis, Perineum, and Genitalia. Gross and Cross-section Anatomy",
+       "link": "https://www.youtube.com/watch?v=pbCdR1PumnU",
+       "description": "Clinical Anatomy Explained! · 55 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biochemistry I: Biomolecules and Enzymes (BCH 201)",
+   "topics": [
+    {
+     "title": "Carbohydrates",
+     "videos": [
+      {
+       "title": "Carbohydrates & sugars - biochemistry",
+       "link": "https://www.youtube.com/watch?v=jQi84TnstI4",
+       "description": "Osmosis from Elsevier · 12 min"
+      },
+      {
+       "title": "Carbohydrates | Biochemistry",
+       "link": "https://www.youtube.com/watch?v=AC5yGU7EfBI",
+       "description": "Dr Matt & Dr Mike · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Lipids and Membranes",
+     "videos": [
+      {
+       "title": "2. Chemical Bonding and Molecular Interactions; Lipids and Membranes",
+       "link": "https://www.youtube.com/watch?v=aKTOS0Nrlug",
+       "description": "MIT OpenCourseWare · 49 min"
+      }
+     ]
+    },
+    {
+     "title": "Amino Acids and Proteins",
+     "videos": [
+      {
+       "title": "Proteins & Amino Acids | Biochemistry",
+       "link": "https://www.youtube.com/watch?v=9ssCKw-7OvQ",
+       "description": "Dr Matt & Dr Mike · 5 min"
+      },
+      {
+       "title": "3. Structures of Amino Acids, Peptides, and Proteins",
+       "link": "https://www.youtube.com/watch?v=oOya3cFmAMc",
+       "description": "MIT OpenCourseWare · 52 min"
+      }
+     ]
+    },
+    {
+     "title": "Nucleotides, Nucleic Acids and Vitamins",
+     "videos": [
+      {
+       "title": "Introduction to nucleic acids and nucleotides | High school biology | Khan Academy",
+       "link": "https://www.youtube.com/watch?v=hI4v7v8AdfI",
+       "description": "Khan Academy · 6 min"
+      },
+      {
+       "title": "Nucleic Acids - RNA and DNA Structure - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=7AtO8DuWsck",
+       "description": "The Organic Chemistry Tutor · 33 min"
+      }
+     ]
+    },
+    {
+     "title": "Enzymes and Enzyme Kinetics",
+     "videos": [
+      {
+       "title": "Enzymes: Catalysis, Kinetics & Classification – Biochemistry | Lecturio",
+       "link": "https://www.youtube.com/watch?v=-slPtkO2d9g",
+       "description": "Lecturio Medical · 67 min"
+      },
+      {
+       "title": "Michaelis-Menten Equation & Enzyme Kinetics - Biochemistry Series",
+       "link": "https://www.youtube.com/watch?v=CotD9m8Wm78",
+       "description": "Medicosis Perfectionalis · 19 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biochemistry II: Carbohydrate and Lipid Metabolism (BCH 202)",
+   "topics": [
+    {
+     "title": "Glycolysis and Its Regulation",
+     "videos": [
+      {
+       "title": "Metabolism | Regulation of Glycolysis",
+       "link": "https://www.youtube.com/watch?v=xoqyF6DJZ-Y",
+       "description": "Ninja Nerd · 29 min"
+      },
+      {
+       "title": "Glycolysis Pathway | Enzymes, Regulation and Products",
+       "link": "https://www.youtube.com/watch?v=fDK-SoWV61w",
+       "description": "JJ Medicine · 21 min"
+      }
+     ]
+    },
+    {
+     "title": "TCA Cycle and Oxidative Phosphorylation",
+     "videos": [
+      {
+       "title": "Uncouplers of Oxidative Phosphorylation (ETC) - Mitochondrial Poisons (Toxins) - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=SKvwlBveZSg",
+       "description": "Medicosis Perfectionalis · 17 min"
+      },
+      {
+       "title": "Electron Transport Chain (Oxidative Phosphorylation)",
+       "link": "https://www.youtube.com/watch?v=LsRQ5_EmxJA",
+       "description": "Dirty Medicine · 17 min"
+      }
+     ]
+    },
+    {
+     "title": "Glycogen Metabolism, Gluconeogenesis and the Pentose Phosphate Pathway",
+     "videos": [
+      {
+       "title": "Metabolism | Pentose Phosphate Pathway",
+       "link": "https://www.youtube.com/watch?v=eXXpUxg9vn4",
+       "description": "Ninja Nerd · 34 min"
+      },
+      {
+       "title": "Glycogen Metabolism | Glycogenolysis | Pathway, Enzymes and Regulation",
+       "link": "https://www.youtube.com/watch?v=d-HgDkWK3P0",
+       "description": "JJ Medicine · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Fatty Acid Oxidation and Synthesis",
+     "videos": [
+      {
+       "title": "Metabolism | Fatty Acid Synthesis: Part 1",
+       "link": "https://www.youtube.com/watch?v=nBFSz63T1c0",
+       "description": "Ninja Nerd · 22 min"
+      },
+      {
+       "title": "Fatty Acid-Oxidation ( Beta oxidation of fatty acids ) Biochemistry Animations",
+       "link": "https://www.youtube.com/watch?v=slCmrtFHFQQ",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 15 min"
+      }
+     ]
+    },
+    {
+     "title": "Ketone Bodies, Cholesterol Synthesis and Metabolic Integration",
+     "videos": [
+      {
+       "title": "Ketone Body Synthesis Pathway | Ketogenesis | Medical Biochemistry",
+       "link": "https://www.youtube.com/watch?v=HxopfcsuLzQ",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 22 min"
+      },
+      {
+       "title": "Ketone Body Synthesis | Ketogenesis | Formation Pathway and Regulation",
+       "link": "https://www.youtube.com/watch?v=AK9Q2ClI8y4",
+       "description": "JJ Medicine · 7 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biostatistics (BIO 208)",
+   "topics": [
+    {
+     "title": "Data, Variables and Presentation",
+     "videos": [
+      {
+       "title": "02 - Random Variables and Discrete Probability Distributions",
+       "link": "https://www.youtube.com/watch?v=UnzbuqgU2LE",
+       "description": "Math and Science · 30 min"
+      },
+      {
+       "title": "Types of Variables - Numerical vs. Categorical - Discrete vs. Continuous - Ordinal vs. Nominal",
+       "link": "https://www.youtube.com/watch?v=rodnzzR4dLo",
+       "description": "Medicosis Perfectionalis · 12 min"
+      }
+     ]
+    },
+    {
+     "title": "Measures of Central Tendency and Dispersion",
+     "videos": [
+      {
+       "title": "Mean, Median, and Mode: Measures of Central Tendency: Crash Course Statistics #3",
+       "link": "https://www.youtube.com/watch?v=kn83BA7cRNM",
+       "description": "CrashCourse · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Probability and the Normal Distribution",
+     "videos": [
+      {
+       "title": "Normal Distribution & Probability Problems",
+       "link": "https://www.youtube.com/watch?v=gHBL5Zau3NE",
+       "description": "The Organic Chemistry Tutor · 30 min"
+      },
+      {
+       "title": "03 - The Normal Probability Distribution",
+       "link": "https://www.youtube.com/watch?v=gI5y3RZe9fk",
+       "description": "Math and Science · 20 min"
+      }
+     ]
+    },
+    {
+     "title": "Hypothesis Testing and Statistical Tests",
+     "videos": [
+      {
+       "title": "Hypothesis Testing Problems - Z Test & T Statistics - One & Two Tailed Tests   2",
+       "link": "https://www.youtube.com/watch?v=zJ8e_wAWUzE",
+       "description": "The Organic Chemistry Tutor · 14 min"
+      },
+      {
+       "title": "Statistics in 10 minutes.   Hypothesis testing, the p value, t-test, chi squared, ANOVA and more",
+       "link": "https://www.youtube.com/watch?v=FmUJSbo_z74",
+       "description": "Global Health with Greg Martin · 10 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Biomedical Engineering and Circuits",
+   "topics": [
+    {
+     "title": "DC Circuit Fundamentals",
+     "videos": [
+      {
+       "title": "Lesson 1 - Voltage, Current, Resistance (Engineering Circuit Analysis)",
+       "link": "https://www.youtube.com/watch?v=OGa_b26eK2c",
+       "description": "Math and Science · 41 min"
+      }
+     ]
+    },
+    {
+     "title": "AC Circuits and Power Supplies",
+     "videos": [
+      {
+       "title": "Alternating Current vs Direct Current - Rms Voltage, Peak Current & Average Power of AC Circuits",
+       "link": "https://www.youtube.com/watch?v=ERIToctYUcQ",
+       "description": "The Organic Chemistry Tutor · 12 min"
+      },
+      {
+       "title": "Lecture 1: Introduction to Power Electronics",
+       "link": "https://www.youtube.com/watch?v=f7oXhDatwtY",
+       "description": "MIT OpenCourseWare · 43 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Entrepreneurship and Innovation (ENT 211)",
+   "topics": [
+    {
+     "title": "Concepts of Entrepreneurship",
+     "videos": [
+      {
+       "title": "Who Even Is An Entrepreneur?: Crash Course Business - Entrepreneurship #1",
+       "link": "https://www.youtube.com/watch?v=aozlwC3XwfY",
+       "description": "CrashCourse · 13 min"
+      },
+      {
+       "title": "What is Entrepreneurship",
+       "link": "https://www.youtube.com/watch?v=Xcsp0486olY",
+       "description": "MIT OpenCourseWare · 5 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Philosophy, Logic and Human Existence (GST 212)",
+   "topics": [
+    {
+     "title": "What Is Philosophy?",
+     "videos": [
+      {
+       "title": "What is Philosophy?: Crash Course Philosophy #1",
+       "link": "https://www.youtube.com/watch?v=1A_CAkYt3GY",
+       "description": "CrashCourse · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Informal Fallacies and Critical Thinking",
+     "videos": [
+      {
+       "title": "Logical Fallacies Part 1: Formal and Informal Fallacies",
+       "link": "https://www.youtube.com/watch?v=WZhj9S6axuo",
+       "description": "Professor Dave Explains · 7 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "General Microbiology (MCB 201)",
+   "topics": [
+    {
+     "title": "History and Bacterial Cell Structure",
+     "videos": [
+      {
+       "title": "Bacterial Structure and Functions",
+       "link": "https://www.youtube.com/watch?v=b15Hy3jCPDs",
+       "description": "Osmosis from Elsevier · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Microbial Growth and Culture Media",
+     "videos": [
+      {
+       "title": "Culture Media: Microbiology Growth Pre-Nursing, Pre-Med & Health Field Careers | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=bzvASJ_ynKI",
+       "description": "Level Up RN · 5 min"
+      },
+      {
+       "title": "Microbiology - Bacteria Growth, Reproduction, Classification",
+       "link": "https://www.youtube.com/watch?v=7Lh-M-rX86Q",
+       "description": "Armando Hasudungan · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Bacterial Genetics and Antimicrobial Resistance",
+     "videos": [
+      {
+       "title": "Bacterial Genetics",
+       "link": "https://www.youtube.com/watch?v=mg6tXQaiBaI",
+       "description": "Ninja Nerd · 41 min"
+      }
+     ]
+    },
+    {
+     "title": "Viruses, Fungi and Protozoa: An Introduction",
+     "videos": [
+      {
+       "title": "Protozoa: Definition & Types of Microbes – Microbiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=r83JW-yFVZE",
+       "description": "Lecturio Medical · 6 min"
+      },
+      {
+       "title": "Introduction to Protozoa - the unicellular parasites (amoeba, giardia, leishaniasia, plasmodium)",
+       "link": "https://www.youtube.com/watch?v=0NBQxasH4CY",
+       "description": "Armando Hasudungan · 9 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Medical Laboratory Science",
+   "topics": [
+    {
+     "title": "Specimen Collection and Handling",
+     "videos": [
+      {
+       "title": "Urinary Specimen Collection, Incontinence, and UTI's - Fundamentals of Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=-6mRzQqJZ5k",
+       "description": "Level Up RN · 8 min"
+      }
+     ]
+    },
+    {
+     "title": "Quality Assurance in the Laboratory",
+     "videos": [
+      {
+       "title": "WHO: LQSI series - Implementing a laboratory quality management system",
+       "link": "https://www.youtube.com/watch?v=rl9vKY3FJUs",
+       "description": "World Health Organization (WHO) · 3 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Foundations of Nursing (NSC 201)",
+   "topics": [
+    {
+     "title": "The Nursing Process",
+     "videos": [
+      {
+       "title": "The Five Step Nursing Process Explained | Intro to ADPIE | Lecturio Nursing",
+       "link": "https://www.youtube.com/watch?v=ReVtLRuRZTA",
+       "description": "Lecturio Nursing · 5 min"
+      },
+      {
+       "title": "ADPIE Nursing Process Fundamentals | 5 Steps Made Simple",
+       "link": "https://www.youtube.com/watch?v=bRp2L0N7ppI",
+       "description": "SimpleNursing · 6 min"
+      }
+     ]
+    },
+    {
+     "title": "Infection Prevention and Control",
+     "videos": [
+      {
+       "title": "Standard & Isolation Precautions Nursing | Infection Control Contact, Droplet, Airborne PPE NCLEX",
+       "link": "https://www.youtube.com/watch?v=vLq6B3Qjy98",
+       "description": "RegisteredNurseRN · 17 min"
+      },
+      {
+       "title": "What Causes an INFECTION? :  Breaking the Chain of Infection | Lecturio Nursing Fundamentals/Theory",
+       "link": "https://www.youtube.com/watch?v=EXtTTG6YYAI",
+       "description": "Lecturio Nursing · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Basic Nursing Procedures and Patient Comfort",
+     "videos": [
+      {
+       "title": "Patient Positioning Nursing Care | Nursing Fundamentals Next Generation NCLEX Review",
+       "link": "https://www.youtube.com/watch?v=sklquo00ElQ",
+       "description": "RegisteredNurseRN · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Professional Ethics, Law and Communication in Nursing",
+     "videos": [
+      {
+       "title": "Nursing Profession and Ethics - Fundamentals of Nursing  | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=CGvjk7hgASQ",
+       "description": "Level Up RN · 14 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Organic Chemistry for Health Sciences",
+   "topics": [
+    {
+     "title": "Reaction Mechanisms",
+     "videos": [
+      {
+       "title": "Organic Chemistry - Reaction Mechanisms - Addition, Elimination, Substitution, & Rearrangement",
+       "link": "https://www.youtube.com/watch?v=Efh5GkVbhEc",
+       "description": "The Organic Chemistry Tutor · 35 min"
+      },
+      {
+       "title": "Intro to Reaction Mechanisms: Crash Course Organic Chemistry #13",
+       "link": "https://www.youtube.com/watch?v=ORMUTUhYjvg",
+       "description": "CrashCourse · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Stereochemistry and Drug Action",
+     "videos": [
+      {
+       "title": "Stereochemistry: Crash Course Organic Chemistry #8",
+       "link": "https://www.youtube.com/watch?v=Bw_cetheReo",
+       "description": "CrashCourse · 15 min"
+      },
+      {
+       "title": "Stereochemistry: Enantiomers",
+       "link": "https://www.youtube.com/watch?v=dGyM4l_sSgQ",
+       "description": "Professor Dave Explains · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Alcohols, Phenols and Ethers",
+     "videos": [
+      {
+       "title": "Alcohols, Ethers, and Epoxides: Crash Course Organic Chemistry #24",
+       "link": "https://www.youtube.com/watch?v=j04zMFwDeDU",
+       "description": "CrashCourse · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Aldehydes, Ketones, Carboxylic Acids and Esters",
+     "videos": [
+      {
+       "title": "NaBH4, LiAlH4, DIBAL Reduction Mechanism, Carboxylic Acid, Acid Chloride, Ester, & Ketones",
+       "link": "https://www.youtube.com/watch?v=Pp0LeL0SkRg",
+       "description": "The Organic Chemistry Tutor · 39 min"
+      },
+      {
+       "title": "An Overview of Aldehydes and Ketones: Crash Course Organic Chemistry #27",
+       "link": "https://www.youtube.com/watch?v=-fBPX-4kFlw",
+       "description": "CrashCourse · 12 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Public Health and Health Promotion",
+   "topics": [
+    {
+     "title": "History and Functions of Public Health",
+     "videos": [
+      {
+       "title": "What is Public Health? Crash Course Public Health #1",
+       "link": "https://www.youtube.com/watch?v=5aww-Bpgkf4",
+       "description": "CrashCourse · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Levels of Prevention",
+     "videos": [
+      {
+       "title": "Prevention Levels & Determinants of Health: Community Health - Fundamentals of Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=wAYlurDlGAI",
+       "description": "Level Up RN · 7 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Pharmacy and Pharmaceutics",
+   "topics": [
+    {
+     "title": "Sources of Drugs and Drug Nomenclature",
+     "videos": [
+      {
+       "title": "Introduction, Drug Names, Medication Regulation and Reconciliation - Pharm Basics | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=nirpkjciTNM",
+       "description": "Level Up RN · 9 min"
+      },
+      {
+       "title": "Categorizing Drugs: Classes, Names, and Schedules",
+       "link": "https://www.youtube.com/watch?v=FPLzzuwZyMo",
+       "description": "Professor Dave Explains · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Introduction to Dosage Forms and Routes",
+     "videos": [
+      {
+       "title": "Introduction to Pharmaceutical Dosage Forms",
+       "link": "https://www.youtube.com/watch?v=tEVaWsWAZWc",
+       "description": "NPTEL-NOC IITM · 10 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Physiology I: Blood, Nerve and Muscle (PIO 201/203)",
+   "topics": [
+    {
+     "title": "Body Fluids and the Cell Membrane",
+     "videos": [
+      {
+       "title": "Physiology Introduction - Cell Membrane - Passive Simple Diffusion, Osmosis, Active Transport",
+       "link": "https://www.youtube.com/watch?v=nDhYe1kq-38",
+       "description": "Medicosis Perfectionalis · 53 min"
+      },
+      {
+       "title": "Cell membrane Physiology: Part 1",
+       "link": "https://www.youtube.com/watch?v=nFvO0dNl8xk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 30 min"
+      }
+     ]
+    },
+    {
+     "title": "Blood: Plasma, Red Cells and Haemoglobin",
+     "videos": [
+      {
+       "title": "Blood, Plasma, and Red Blood Cells - Physiology of Blood and Immune System -  Physiology Playlist",
+       "link": "https://www.youtube.com/watch?v=cpMpzHBtBXc",
+       "description": "Medicosis Perfectionalis · 20 min"
+      },
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
+      }
+     ]
+    },
+    {
+     "title": "White Blood Cells, Immunity and Haemostasis",
+     "videos": [
+      {
+       "title": "Hematology | Leukopoiesis: White Blood Cell Formation",
+       "link": "https://www.youtube.com/watch?v=nyKxu7Kkguo",
+       "description": "Ninja Nerd · 36 min"
+      },
+      {
+       "title": "Leukocytes | White Blood Cells | Immune System",
+       "link": "https://www.youtube.com/watch?v=f6o5sCFpX_0",
+       "description": "Dr. Najeeb Lectures · 18 min"
+      }
+     ]
+    },
+    {
+     "title": "Nerve: Resting Membrane and Action Potentials",
+     "videos": [
+      {
+       "title": "Nerve Physiology (Part - 2) Action potential, Refractory Period, and Resting Membrane Potential",
+       "link": "https://www.youtube.com/watch?v=aiiO4qAw_CE",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 69 min"
+      },
+      {
+       "title": "Neurology | Resting Membrane, Graded, Action Potentials",
+       "link": "https://www.youtube.com/watch?v=Jk_9IhHVOTk",
+       "description": "Ninja Nerd · 57 min"
+      }
+     ]
+    },
+    {
+     "title": "Synapse, Neuromuscular Junction and Muscle Contraction",
+     "videos": [
+      {
+       "title": "The Mechanism of Muscle Contraction: Sarcomeres, Action Potential, and the Neuromuscular Junction",
+       "link": "https://www.youtube.com/watch?v=NfEJUPnqxk0",
+       "description": "Professor Dave Explains · 13 min"
+      },
+      {
+       "title": "Musculoskeletal System | Neuromuscular Junction | Excitation Contraction Coupling: Part 2",
+       "link": "https://www.youtube.com/watch?v=A96kAMPZXv8",
+       "description": "Ninja Nerd · 44 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Physiology II: Cardiovascular and Respiratory (PIO 214)",
+   "topics": [
+    {
+     "title": "Cardiac Muscle, the Cardiac Cycle and Heart Sounds",
+     "videos": [
+      {
+       "title": "Cardiovascular System Physiology - Cardiac Output (stroke volume, heart rate, preload and afterload)",
+       "link": "https://www.youtube.com/watch?v=hpQFToprlH8",
+       "description": "Armando Hasudungan · 5 min"
+      },
+      {
+       "title": "Cardiovascular Physiology - Pressure-Volume loops, Cardiac Cycle, ESV, EDV, SV, CO, Starling Law",
+       "link": "https://www.youtube.com/watch?v=EjZOtfhBp4A",
+       "description": "Medicosis Perfectionalis · 48 min"
+      }
+     ]
+    },
+    {
+     "title": "Electrocardiogram and Cardiac Output",
+     "videos": [
+      {
+       "title": "Cardiovascular System Physiology - Cardiac Output (stroke volume, heart rate, preload and afterload)",
+       "link": "https://www.youtube.com/watch?v=hpQFToprlH8",
+       "description": "Armando Hasudungan · 5 min"
+      },
+      {
+       "title": "Cardiovascular | Cardiac Output",
+       "link": "https://www.youtube.com/watch?v=0O3FfHPE9PU",
+       "description": "Ninja Nerd · 45 min"
+      }
+     ]
+    },
+    {
+     "title": "Blood Pressure and Circulation",
+     "videos": [
+      {
+       "title": "Cardiovascular | Fundamentals of Blood Pressure",
+       "link": "https://www.youtube.com/watch?v=2g7pFPXG2eE",
+       "description": "Ninja Nerd · 40 min"
+      },
+      {
+       "title": "Blood Pressure",
+       "link": "https://www.youtube.com/watch?v=k-BWyBePu8Q",
+       "description": "Dr Matt & Dr Mike · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Mechanics of Breathing and Lung Volumes",
+     "videos": [
+      {
+       "title": "Work of Breathing: Breathing and Lung Mechanics – Physiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=zlMSmag19So",
+       "description": "Lecturio Medical · 4 min"
+      },
+      {
+       "title": "The mechanics of breathing 😮‍💨 - Normal inhalation and exhalation - Respiratory Physiology",
+       "link": "https://www.youtube.com/watch?v=Icf14qO9kX0",
+       "description": "Medicosis Perfectionalis · 17 min"
+      }
+     ]
+    },
+    {
+     "title": "Gas Exchange, Oxygen Transport and Control of Breathing",
+     "videos": [
+      {
+       "title": "Oxygen-Dissociation Curve - Pulmonary Gas Exchange 🫁 - Respiratory System (Pulmonology)",
+       "link": "https://www.youtube.com/watch?v=Ku4f0EzP9OQ",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Respiration Gas Exchange",
+       "link": "https://www.youtube.com/watch?v=qDrV33rZlyA",
+       "description": "Armando Hasudungan · 14 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Physiology III: Renal, Body Fluids and Gastrointestinal (PIO 212/216)",
+   "topics": [
+    {
+     "title": "Glomerular Filtration and Renal Blood Flow",
+     "videos": [
+      {
+       "title": "Renal | Glomerular Filtration",
+       "link": "https://www.youtube.com/watch?v=SVqSqPOcahY",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Regulation of Renal Blood Flow",
+       "link": "https://www.youtube.com/watch?v=dFnLbgPjiUw",
+       "description": "Osmosis from Elsevier · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Acid–Base Balance",
+     "videos": [
+      {
+       "title": "The role of the kidney in acid-base balance - renal physiology",
+       "link": "https://www.youtube.com/watch?v=vdNwdC7eCT0",
+       "description": "Osmosis from Elsevier · 6 min"
+      },
+      {
+       "title": "Physiology of Acid Base Balance : Renal physiology USMLE step 1",
+       "link": "https://www.youtube.com/watch?v=GyVuDZ0d3L8",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 27 min"
+      }
+     ]
+    },
+    {
+     "title": "Gastrointestinal Motility and Secretions",
+     "videos": [
+      {
+       "title": "Small Intestine Motility and Secretions - Gastrointestinal (GI) Physiology Series",
+       "link": "https://www.youtube.com/watch?v=ueMJWsPy3hA",
+       "description": "Medicosis Perfectionalis · 22 min"
+      },
+      {
+       "title": "Motility of the Gastrointestinal Tract | Peristalsis Physiology",
+       "link": "https://www.youtube.com/watch?v=By8lObnELH4",
+       "description": "Dr Matt & Dr Mike · 16 min"
+      }
+     ]
+    },
+    {
+     "title": "Digestion and Absorption",
+     "videos": [
+      {
+       "title": "Gastrointestinal | Digestion & Absorption of Carbohydrates",
+       "link": "https://www.youtube.com/watch?v=BXXxtEW5v3o",
+       "description": "Ninja Nerd · 38 min"
+      },
+      {
+       "title": "Fat (lipid) digestion and absorption physiology",
+       "link": "https://www.youtube.com/watch?v=tmZksHXtZtg",
+       "description": "Armando Hasudungan · 6 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Introduction to Physiotherapy",
+   "topics": [
+    {
+     "title": "Basic Movement Science and Terminology",
+     "videos": [
+      {
+       "title": "Body Movement Terms Anatomy | Body Planes of Motion | Synovial Joint Movement Terminology",
+       "link": "https://www.youtube.com/watch?v=KO4nUzO7xoo",
+       "description": "RegisteredNurseRN · 24 min"
+      }
+     ]
+    },
+    {
+     "title": "Therapeutic Modalities",
+     "videos": [
+      {
+       "title": "Overview Flowchart for Therapeutic Modalities",
+       "link": "https://www.youtube.com/watch?v=VwbkrVTbfH8",
+       "description": "Catalyst University · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Disability, Rehabilitation and Assistive Devices",
+     "videos": [
+      {
+       "title": "Crutches, Canes, and Walkers Nursing NCLEX Assistive Devices Review",
+       "link": "https://www.youtube.com/watch?v=k2-w3LZlCVk",
+       "description": "RegisteredNurseRN · 17 min"
+      },
+      {
+       "title": "WHO and UNICEF partner to bring quality assistive devices to people living with disabilities",
+       "link": "https://www.youtube.com/watch?v=NHNV0jpC8sY",
+       "description": "World Health Organization (WHO) · 3 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Radiation Physics for Radiography",
+   "topics": [
+    {
+     "title": "Atomic Structure and Radioactivity",
+     "videos": [
+      {
+       "title": "Basic Atomic Structure | Radiology Physics Course #1",
+       "link": "https://www.youtube.com/watch?v=3esx20XioMc",
+       "description": "Radiology Tutorials · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Production of X-rays and the X-ray Tube",
+     "videos": [
+      {
+       "title": "Bremsstrahlung Radiation | X-ray production | X-ray physics | Radiology Physics Course #19",
+       "link": "https://www.youtube.com/watch?v=BWbr3LDunv8",
+       "description": "Radiology Tutorials · 11 min"
+      },
+      {
+       "title": "How X-rays see through your skin - Ge Wang",
+       "link": "https://www.youtube.com/watch?v=gsV7SJDDCY4",
+       "description": "TED-Ed · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Interaction of Radiation with Matter",
+     "videos": [
+      {
+       "title": "Compton Scatter | X-ray interaction with matter | X-ray physics | Radiology Physics Course #24",
+       "link": "https://www.youtube.com/watch?v=MgfB6VKFYbo",
+       "description": "Radiology Tutorials · 6 min"
+      },
+      {
+       "title": "Photoelectric Effect | X-ray interaction with matter | X-ray physics | Radiology Physics Course #23",
+       "link": "https://www.youtube.com/watch?v=A-ztje-y3Rs",
+       "description": "Radiology Tutorials · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Radiation Quantities, Units and Biological Effects",
+     "videos": [
+      {
+       "title": "32. Chemical and Biological Effects of Radiation, Smelling Nuclear Bullshit",
+       "link": "https://www.youtube.com/watch?v=HfRpkTG7Iow",
+       "description": "MIT OpenCourseWare · 60 min"
+      },
+      {
+       "title": "33. Long-Term Biological Effects of Radiation, Statistics, Radiation Risk",
+       "link": "https://www.youtube.com/watch?v=yYto-sIfHjo",
+       "description": "MIT OpenCourseWare · 51 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Anatomy and Physiology for Nurses",
+   "topics": [
+    {
+     "title": "The Heart, Blood and Circulation",
+     "videos": [
+      {
+       "title": "Blood Flow Through the Heart | Heart Anatomy and Physiology NCLEX",
+       "link": "https://www.youtube.com/watch?v=J3YTxBreXe4",
+       "description": "RegisteredNurseRN · 4 min"
+      },
+      {
+       "title": "Circulatory System and Pathway of Blood Through the Heart",
+       "link": "https://www.youtube.com/watch?v=_vZ0lefPg_0",
+       "description": "Amoeba Sisters · 8 min"
+      }
+     ]
+    },
+    {
+     "title": "The Respiratory System",
+     "videos": [
+      {
+       "title": "Lower Respiratory Tract Anatomy | Anatomy & Physiology for Nurses",
+       "link": "https://www.youtube.com/watch?v=u51vsdUQuBs",
+       "description": "Lecturio Nursing · 7 min"
+      },
+      {
+       "title": "Anatomy and physiology of the respiratory system",
+       "link": "https://www.youtube.com/watch?v=0fVoz4V75_E",
+       "description": "Osmosis from Elsevier · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Nervous and Endocrine Systems",
+     "videos": [
+      {
+       "title": "Medical Terminology | Lesson 8 | Nervous System, Cardiorespiratory and Endocrine Anatomy Terms",
+       "link": "https://www.youtube.com/watch?v=QiivC3iLZew",
+       "description": "JJ Medicine · 17 min"
+      },
+      {
+       "title": "Nervous & Endocrine Systems: What Really Happens When You Step on a Lego: Crash Course Biology #46",
+       "link": "https://www.youtube.com/watch?v=NKpkU4-Sf9A",
+       "description": "CrashCourse · 10 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Human Genetics (ANA 341)",
+   "topics": [
+    {
+     "title": "Chromosomes and Karyotyping",
+     "videos": [
+      {
+       "title": "Structure of Chromosomes: Chromosome morphology & Karyotyping : USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=sTxODKL4sA4",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 3 min"
+      }
+     ]
+    },
+    {
+     "title": "Patterns of Single-Gene Inheritance",
+     "videos": [
+      {
+       "title": "Single Gene Disorders: Terminology & Concept Recap – Medical Genetics | Lecturio",
+       "link": "https://www.youtube.com/watch?v=Ha2OM7cyWDM",
+       "description": "Lecturio Medical · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Chromosomal Disorders",
+     "videos": [
+      {
+       "title": "Chromosomal Abnormalities: Trisomy 21,18 & 13 – Embryology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=fFYjcqBbxj4",
+       "description": "Lecturio Medical · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Molecular Genetics and Mutations",
+     "videos": [
+      {
+       "title": "Mutation | Types of Mutations | DNA Genetics |  Part 1👨‍⚕️",
+       "link": "https://www.youtube.com/watch?v=dSFmISF_BT0",
+       "description": "Dr. Najeeb Lectures · 62 min"
+      },
+      {
+       "title": "Introduction to Genetics - DNA, RNA, Genes, Nucleosides, Nucleotides, Transcription, Translation",
+       "link": "https://www.youtube.com/watch?v=Z6O_5Noh4WM",
+       "description": "Medicosis Perfectionalis · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Genetic Disorders in Nigeria and Genetic Counselling",
+     "videos": [
+      {
+       "title": "Genetic Diseases: Categories – Genetics | Lecturio",
+       "link": "https://www.youtube.com/watch?v=4gJM5T_xFpQ",
+       "description": "Lecturio Medical · 6 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gross Anatomy of the Head and Neck (ANA 301)",
+   "topics": [
+    {
+     "title": "Skull, Scalp and Cranial Cavity",
+     "videos": [
+      {
+       "title": "Skull Bones Mnemonic (Cranial and Facial Bones) | Anatomy and Physiology",
+       "link": "https://www.youtube.com/watch?v=ocqoZyY12GM",
+       "description": "RegisteredNurseRN · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Face and Cranial Nerves V and VII",
+     "videos": [
+      {
+       "title": "Head and Neck Assessment Nursing | Head to Toe Assessment of Head Neck ENT Lymphatic Cranial Nerves",
+       "link": "https://www.youtube.com/watch?v=MkqCjH-BlMo",
+       "description": "RegisteredNurseRN · 18 min"
+      },
+      {
+       "title": "Superficial nerves of the face and scalp (preview) - Human Anatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=32PQho04OiA",
+       "description": "Kenhub - Learn Human Anatomy · 3 min"
+      }
+     ]
+    },
+    {
+     "title": "Triangles of the Neck and Thyroid",
+     "videos": [
+      {
+       "title": "Triangles of the Neck - Muscles of Neck - Anatomy of the Head and Neck - Anatomy Series",
+       "link": "https://www.youtube.com/watch?v=W3PBV9XoQvI",
+       "description": "Medicosis Perfectionalis · 35 min"
+      },
+      {
+       "title": "Triangles & Subdivisions of the Neck – Head and Neck Anatomy | Lecturio",
+       "link": "https://www.youtube.com/watch?v=Em16byf8PxM",
+       "description": "Lecturio Medical · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Oral Cavity, Pharynx and Larynx",
+     "videos": [
+      {
+       "title": "Oral Vestibule (Lips, Cheeks, Teeth, Gums) - Oral Cavity Anatomy",
+       "link": "https://www.youtube.com/watch?v=jrqFc9uvMDo",
+       "description": "Taim Talks Med · 12 min"
+      },
+      {
+       "title": "Oral cavity anatomy",
+       "link": "https://www.youtube.com/watch?v=9xVGxuUB3P0",
+       "description": "Sam Webster · 15 min"
+      }
+     ]
+    },
+    {
+     "title": "Orbit, Eye Movements and Ear",
+     "videos": [
+      {
+       "title": "Anatomy of the Orbit and Extraocular Muscles (including movement of the eyes) | Eye Anatomy | PLAB 2",
+       "link": "https://www.youtube.com/watch?v=rZWustT2axU",
+       "description": "Geeky Medics · 13 min"
+      },
+      {
+       "title": "Anatomy   Eye Orbit and Eyelid",
+       "link": "https://www.youtube.com/watch?v=LwZtK9Ra3b4",
+       "description": "Armando Hasudungan · 8 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Neuroanatomy (ANA 302)",
+   "topics": [
+    {
+     "title": "Cerebral Hemispheres and Functional Areas",
+     "videos": [
+      {
+       "title": "Brodmann areas of the cerebral cortex / Lobes of the brain: Structure and function / Neuroanatomy",
+       "link": "https://www.youtube.com/watch?v=AvcB9cXI1Yk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      },
+      {
+       "title": "Neurology | Cerebral Cortex Anatomy & Function: Overview",
+       "link": "https://www.youtube.com/watch?v=2LzZMWGQe1k",
+       "description": "Ninja Nerd · 27 min"
+      }
+     ]
+    },
+    {
+     "title": "Spinal Cord and Major Tracts",
+     "videos": [
+      {
+       "title": "Ascending and Descending Spinal Cord Tracts Made Easy",
+       "link": "https://www.youtube.com/watch?v=_G-d8gKIlOw",
+       "description": "Rhesus Medicine · 4 min"
+      },
+      {
+       "title": "Sensory (Ascending) Tracts in the Spinal Cord",
+       "link": "https://www.youtube.com/watch?v=oCcxOtFiD2k",
+       "description": "Dr Matt & Dr Mike · 6 min"
+      }
+     ]
+    },
+    {
+     "title": "Brainstem, Cerebellum and Cranial Nerve Nuclei",
+     "videos": [
+      {
+       "title": "Understanding brainstem cranial nerve nuclei",
+       "link": "https://www.youtube.com/watch?v=5xo-78LI3ec",
+       "description": "The Noted Anatomist · 9 min"
+      },
+      {
+       "title": "Cranial nerve nuclei: locations and functions (preview) - Human Neuroanatomy | Kenhub",
+       "link": "https://www.youtube.com/watch?v=Y2W0-iLexE8",
+       "description": "Kenhub - Learn Human Anatomy · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Blood Supply of the Brain and Stroke",
+     "videos": [
+      {
+       "title": "Blood Supply to Brain | Neuroanatomy",
+       "link": "https://www.youtube.com/watch?v=eH-cEWZXyGw",
+       "description": "Dr. Najeeb Lectures · 24 min"
+      },
+      {
+       "title": "Anterior vs Middle vs Posterior Cerebral Arteries | Brain Blood Supply",
+       "link": "https://www.youtube.com/watch?v=QYmApwTicHs",
+       "description": "The Noted Anatomist · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Ventricles, CSF and the Visual Pathway",
+     "videos": [
+      {
+       "title": "Optic Nerve & Visual Pathway | Cranial Nerve 2 (CN II) | Neuroanatomy Series",
+       "link": "https://www.youtube.com/watch?v=ZCQIXKn4sUI",
+       "description": "Medicosis Perfectionalis · 31 min"
+      },
+      {
+       "title": "Neurology | Optic Nerve | Cranial Nerve II: Visual Pathway and Lesions",
+       "link": "https://www.youtube.com/watch?v=FnCiLD4gARI",
+       "description": "Ninja Nerd · 37 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Amino Acid, Nucleotide and Haem Metabolism",
+   "topics": [
+    {
+     "title": "Nitrogen Metabolism and the Urea Cycle",
+     "videos": [
+      {
+       "title": "Metabolism | Urea Cycle",
+       "link": "https://www.youtube.com/watch?v=XZEJ5PNvjkk",
+       "description": "Ninja Nerd · 19 min"
+      },
+      {
+       "title": "Nitrogen Metabolism (Part 1 of 2) - Introduction and Nitrogen Fixation",
+       "link": "https://www.youtube.com/watch?v=A9z9TQd57IY",
+       "description": "Moof University · 6 min"
+      }
+     ]
+    },
+    {
+     "title": "Amino Acid Derivatives and Inborn Errors",
+     "videos": [
+      {
+       "title": "Amino Acid Profiles | Inborn Errors of Metabolism Diagnosis | Blood & Urine Tests | Labs 🧪",
+       "link": "https://www.youtube.com/watch?v=0aDIKymGIpg",
+       "description": "Medicosis Perfectionalis · 16 min"
+      },
+      {
+       "title": "Metabolism | Amino Acid Metabolism",
+       "link": "https://www.youtube.com/watch?v=0M-B2dOfcUo",
+       "description": "Ninja Nerd · 27 min"
+      }
+     ]
+    },
+    {
+     "title": "Purine and Pyrimidine Metabolism",
+     "videos": [
+      {
+       "title": "Metabolism | Nucleotide Synthesis | Purine and Pyrimidine Synthesis",
+       "link": "https://www.youtube.com/watch?v=4GFKdLy2fOE",
+       "description": "Ninja Nerd · 44 min"
+      },
+      {
+       "title": "Purine Metabolism - De Novo, Salvage, Degradation, Uric Acid - Biochemistry & Rheumatology",
+       "link": "https://www.youtube.com/watch?v=EHZuFDf7VPE",
+       "description": "Medicosis Perfectionalis · 16 min"
+      }
+     ]
+    },
+    {
+     "title": "Integration of Metabolism and Diabetes Biochemistry",
+     "videos": [
+      {
+       "title": "Introduction to Biochemistry - Metabolism - Anabolic, Catabolic - Insulin, Glucagon - Amino Acids",
+       "link": "https://www.youtube.com/watch?v=BjzH4Hr_wGg",
+       "description": "Medicosis Perfectionalis · 57 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Molecular Biology and Nutritional Biochemistry",
+   "topics": [
+    {
+     "title": "DNA Replication and Repair",
+     "videos": [
+      {
+       "title": "DNA replication in Prokaryotes & Eukaryotes (DETAILED) - Molecular Biology 🧬 & Biochemistry 🧪",
+       "link": "https://www.youtube.com/watch?v=_IIAeNgelaA",
+       "description": "Medicosis Perfectionalis · 34 min"
+      },
+      {
+       "title": "Cell Biology | DNA Replication 🧬",
+       "link": "https://www.youtube.com/watch?v=xvWdIi6_fGg",
+       "description": "Ninja Nerd · 67 min"
+      }
+     ]
+    },
+    {
+     "title": "Transcription and RNA Processing",
+     "videos": [
+      {
+       "title": "DNA Transcription (Converting DNA to RNA) - Molecular Biology - Genetics - Cell Biology",
+       "link": "https://www.youtube.com/watch?v=w2BVaWlZtbw",
+       "description": "Medicosis Perfectionalis · 20 min"
+      },
+      {
+       "title": "Transcription and mRNA processing | Biomolecules | MCAT | Khan Academy",
+       "link": "https://www.youtube.com/watch?v=JQIwwJqF5D0",
+       "description": "Khan Academy · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Translation and the Genetic Code",
+     "videos": [
+      {
+       "title": "DNA, RNA (mRNA, tRNA, rRNA), and the Genetic Code | Molecular Biology",
+       "link": "https://www.youtube.com/watch?v=TrlIjZFnMf0",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Transcription and Translation - Protein Synthesis From DNA - Biology",
+       "link": "https://www.youtube.com/watch?v=8wAwLwJAGHs",
+       "description": "The Organic Chemistry Tutor · 11 min"
+      }
+     ]
+    },
+    {
+     "title": "Gene Regulation and Recombinant DNA Technology",
+     "videos": [
+      {
+       "title": "Recombinant DNA technology - Biotechnology - Molecular Biology 🧬 - Biochemistry & Genetics",
+       "link": "https://www.youtube.com/watch?v=6bjTink0MrI",
+       "description": "Medicosis Perfectionalis · 19 min"
+      },
+      {
+       "title": "Gene Expression and Regulation",
+       "link": "https://www.youtube.com/watch?v=ebIpkw3XapE",
+       "description": "Amoeba Sisters · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Nutritional Biochemistry and Trace Elements",
+     "videos": [
+      {
+       "title": "Your Body Needs Minerals (Trace Elements) | Diet and Nutrition",
+       "link": "https://www.youtube.com/watch?v=34FTvJZCrt4",
+       "description": "Medicosis Perfectionalis · 14 min"
+      },
+      {
+       "title": "13 Vitamins in 26 Minutes - All Vitamins - Quick Review - Diet & Nutrition - Biochemistry",
+       "link": "https://www.youtube.com/watch?v=k49CUT_Zx10",
+       "description": "Medicosis Perfectionalis · 25 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Medical Instrumentation and Biosensors",
+   "topics": [
+    {
+     "title": "Biomedical Amplifiers and Signal Conditioning",
+     "videos": [
+      {
+       "title": "Overview of amplifiers and signal processing technique",
+       "link": "https://www.youtube.com/watch?v=9baxHy3a4l4",
+       "description": "NPTEL-NOC IITM · 8 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biomaterials and Tissue Engineering",
+   "topics": [
+    {
+     "title": "Mechanical and Surface Properties",
+     "videos": [
+      {
+       "title": "13. Tissue Engineering Scaffolds: Processing and Properties",
+       "link": "https://www.youtube.com/watch?v=Txidu-5VYfU",
+       "description": "MIT OpenCourseWare · 72 min"
+      }
+     ]
+    },
+    {
+     "title": "Host Response and Biocompatibility",
+     "videos": [
+      {
+       "title": "Lec 33: Biomaterial Implantation and the Host Response | Polymeric Biomaterials",
+       "link": "https://www.youtube.com/watch?v=ahB7dImnH4o",
+       "description": "NPTEL-NOC IITM · 66 min"
+      },
+      {
+       "title": "#27 Host integration & Immune Responses | Part 2 | Introduction to Tissue Engineering",
+       "link": "https://www.youtube.com/watch?v=d9DOq7-Vmuc",
+       "description": "NPTEL-NOC IITM · 25 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Clinical Chemistry I",
+   "topics": [
+    {
+     "title": "Glucose Metabolism Tests and Diabetes",
+     "videos": [
+      {
+       "title": "Blood Glucose Regulation and Diabetes",
+       "link": "https://www.youtube.com/watch?v=UznxKiHrNx4",
+       "description": "Zero To Finals · 8 min"
+      }
+     ]
+    },
+    {
+     "title": "Renal Function Tests and Electrolytes",
+     "videos": [
+      {
+       "title": "Kidney and Nephron Anatomy Structure Function | Renal Function System",
+       "link": "https://www.youtube.com/watch?v=0qZxw0Nd1lI",
+       "description": "RegisteredNurseRN · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Liver Function Tests and Bilirubin",
+     "videos": [
+      {
+       "title": "Liver Function Test Interpretation (LFTs) | Liver Enzymes Remastered (Bilirubin, GGT, Alk Phos)",
+       "link": "https://www.youtube.com/watch?v=57mvZvV3zpY",
+       "description": "MedCram - Medical Lectures Explained CLEARLY · 10 min"
+      },
+      {
+       "title": "Liver Function Tests - an overview",
+       "link": "https://www.youtube.com/watch?v=tY-1eOoDHSU",
+       "description": "Dr Matt & Dr Mike · 21 min"
+      }
+     ]
+    },
+    {
+     "title": "Plasma Proteins and Cardiac and Pancreatic Enzymes",
+     "videos": [
+      {
+       "title": "Liver and pancreatic enzymes explained | AST, ALT, GGT, ALP, Amylase & Lipase",
+       "link": "https://www.youtube.com/watch?v=c4CvXTYimck",
+       "description": "Medicosis Perfectionalis · 10 min"
+      },
+      {
+       "title": "Albumin & Globulins (Alpha, Beta & Gamma) - Plasma Proteins and Electrophoresis - Labs",
+       "link": "https://www.youtube.com/watch?v=EBf97p7AeZc",
+       "description": "Medicosis Perfectionalis · 17 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Haematology I: Blood Cells and Anaemias",
+   "topics": [
+    {
+     "title": "Haematopoiesis and Blood Cell Morphology",
+     "videos": [
+      {
+       "title": "Hematopoiesis | Formation of blood cells",
+       "link": "https://www.youtube.com/watch?v=anfpX7NzExg",
+       "description": "Dr Matt & Dr Mike · 20 min"
+      },
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
+      }
+     ]
+    },
+    {
+     "title": "Full Blood Count and Red Cell Indices",
+     "videos": [
+      {
+       "title": "Hematology | Erythropoiesis: Red Blood Cell Formation: Part 1",
+       "link": "https://www.youtube.com/watch?v=kcnOXlr-9Ic",
+       "description": "Ninja Nerd · 30 min"
+      },
+      {
+       "title": "Complete Blood Count (CBC) Test Results Interpretation w/ Differential Nursing NCLEX",
+       "link": "https://www.youtube.com/watch?v=lF_GHFEqnYM",
+       "description": "RegisteredNurseRN · 12 min"
+      }
+     ]
+    },
+    {
+     "title": "Iron Deficiency and Megaloblastic Anaemias",
+     "videos": [
+      {
+       "title": "Understanding Pernicious Anaemia (B12 Deficiency)",
+       "link": "https://www.youtube.com/watch?v=TNug0MHdhq0",
+       "description": "Zero To Finals · 4 min"
+      },
+      {
+       "title": "Iron Deficiency Anemia - All you need to know - Causes, Symptoms, Diagnosis, Treatment",
+       "link": "https://www.youtube.com/watch?v=nWHQRptC_9Q",
+       "description": "Medicosis Perfectionalis · 16 min"
+      }
+     ]
+    },
+    {
+     "title": "Haemolytic Anaemias",
+     "videos": [
+      {
+       "title": "Haemolytic Anaemia - classification (intravascular, extravascular), pathophysiology, investigations",
+       "link": "https://www.youtube.com/watch?v=wxzf_rg_Wd4",
+       "description": "Armando Hasudungan · 13 min"
+      }
+     ]
+    },
+    {
+     "title": "Haemoglobinopathies and Their Laboratory Diagnosis",
+     "videos": [
+      {
+       "title": "Sickle cell anemia - causes, symptoms, diagnosis, treatment & pathology",
+       "link": "https://www.youtube.com/watch?v=fIIJmg_1hv0",
+       "description": "Osmosis from Elsevier · 9 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Medical Bacteriology",
+   "topics": [
+    {
+     "title": "Gram-Positive Cocci",
+     "videos": [
+      {
+       "title": "Gram-Positive Cocci - Quick Review - Microbiology 🧫 and Infectious Diseases 🦠",
+       "link": "https://www.youtube.com/watch?v=ufmfgnwAQ7Q",
+       "description": "Medicosis Perfectionalis · 28 min"
+      },
+      {
+       "title": "GRAM POSITIVE VS GRAM NEGATIVE BACTERIA",
+       "link": "https://www.youtube.com/watch?v=Didrc3wJ3E8",
+       "description": "Neural Academy · 3 min"
+      }
+     ]
+    },
+    {
+     "title": "Gram-Negative Non-fermenters, Neisseria and Vibrio",
+     "videos": [
+      {
+       "title": "Microbiology -Gram (-) | Campylobacter jejuni, Vibrio cholera, E.coli, Klebsiella - Picmonic- Part 9",
+       "link": "https://www.youtube.com/watch?v=KLwL1E1Ndlk",
+       "description": "Medicosis Perfectionalis · 27 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Community Health Nursing",
+   "topics": [
+    {
+     "title": "Primary Health Care",
+     "videos": [
+      {
+       "title": "What is primary health care?",
+       "link": "https://www.youtube.com/watch?v=_EXy9DTDJu8",
+       "description": "World Health Organization (WHO) · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "School, Occupational and Environmental Health Nursing",
+     "videos": [
+      {
+       "title": "Environmental Health",
+       "link": "https://www.youtube.com/watch?v=xWoyhpZlIyI",
+       "description": "Global Health with Greg Martin · 3 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Medical-Surgical Nursing I",
+   "topics": [
+    {
+     "title": "Fluid, Electrolyte and Acid–Base Nursing",
+     "videos": [
+      {
+       "title": "Acid-Base Imbalances - Medical-Surgical - Cardiovascular System | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=VwbG_gjJj8w",
+       "description": "Level Up RN · 6 min"
+      }
+     ]
+    },
+    {
+     "title": "Peri-operative Nursing",
+     "videos": [
+      {
+       "title": "Peri-operative Nursing Explained: Career Guide for Future Nurses",
+       "link": "https://www.youtube.com/watch?v=xNQqxJOtOsE",
+       "description": "SimpleNursing · 5 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Nutrition and Dietetics in Health Care",
+   "topics": [
+    {
+     "title": "Nutrients and the Balanced Diet",
+     "videos": [
+      {
+       "title": "Introduction, Overview of Nutrients - Nutrition Essentials | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=TlXZeu0kjFY",
+       "description": "Level Up RN · 6 min"
+      },
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Nutritional Assessment",
+     "videos": [
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Infant and Young Child Feeding",
+     "videos": [
+      {
+       "title": "Infant Nutrition, Breastfeeding & Formula Feeding Best Practices - Maternity Nursing | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=Rn6dDWkS5EM",
+       "description": "Level Up RN · 16 min"
+      }
+     ]
+    },
+    {
+     "title": "Therapeutic Diets and Clinical Nutrition",
+     "videos": [
+      {
+       "title": "Nutrition Therapy Overview: Specialty Diets, Administration Methods & Benefits | Lecturio Nursing",
+       "link": "https://www.youtube.com/watch?v=rnh-T89MsyI",
+       "description": "Lecturio Nursing · 8 min"
+      },
+      {
+       "title": "Nutritional Assessment & Oral Diets - Nutrition Essentials for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=kgTA0uzM99k",
+       "description": "Level Up RN · 7 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Environmental and Occupational Health",
+   "topics": [
+    {
+     "title": "Air Pollution, Housing and Vector Control",
+     "videos": [
+      {
+       "title": "Tackling air pollution and climate change for global health - Podcast on transforming WHO",
+       "link": "https://www.youtube.com/watch?v=ay7Mp_HDxnM",
+       "description": "World Health Organization (WHO) · 25 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Principles of Epidemiology",
+   "topics": [
+    {
+     "title": "Measures of Disease Frequency",
+     "videos": [
+      {
+       "title": "04 Measures of disease frequency",
+       "link": "https://www.youtube.com/watch?v=IoK0c9__5DA",
+       "description": "NPTEL-NOC IITM · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Surveillance and Outbreak Investigation",
+     "videos": [
+      {
+       "title": "Outbreaks -  investigation and control",
+       "link": "https://www.youtube.com/watch?v=xqoaGhxrIfY",
+       "description": "Global Health with Greg Martin · 8 min"
+      },
+      {
+       "title": "How Do We Investigate Outbreaks? Epidemiology: Crash Course Outbreak Science #8",
+       "link": "https://www.youtube.com/watch?v=vk6e0pCbh1k",
+       "description": "CrashCourse · 12 min"
+      }
+     ]
+    },
+    {
+     "title": "Screening and Diagnostic Test Evaluation",
+     "videos": [
+      {
+       "title": "Screening Tests: Introduction – Epidemiology & Biostatistics  | Lecturio",
+       "link": "https://www.youtube.com/watch?v=4KfWDqM4rkY",
+       "description": "Lecturio Medical · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Causation and Disease Transmission",
+     "videos": [
+      {
+       "title": "Infectious disease epidemiology and transmission dynamics (how infections spread)",
+       "link": "https://www.youtube.com/watch?v=V0TBsGckUYM",
+       "description": "Global Health with Greg Martin · 3 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "General Principles of Pharmacology (PHA 301)",
+   "topics": [
+    {
+     "title": "Drug Absorption and Bioavailability",
+     "videos": [
+      {
+       "title": "Pharmacokinetics | Drug Absorption",
+       "link": "https://www.youtube.com/watch?v=kkUxUBoM-hM",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Pharmacokinetics: Absorption, Distribution, Metabolism, Excretion - Pharmacology Basics |@LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=HhlT8RJaQEY",
+       "description": "Level Up RN · 6 min"
+      }
+     ]
+    },
+    {
+     "title": "Distribution, Metabolism and Excretion",
+     "videos": [
+      {
+       "title": "Pharmacokinetics | Drug Metabolism",
+       "link": "https://www.youtube.com/watch?v=qvucMHUVZA4",
+       "description": "Ninja Nerd · 28 min"
+      }
+     ]
+    },
+    {
+     "title": "Pharmacokinetic Parameters and Dosing",
+     "videos": [
+      {
+       "title": "Pharmacokinetic and Pharmacodynamic Changes in the Older Adult",
+       "link": "https://www.youtube.com/watch?v=JI1Ee-BgFrE",
+       "description": "Dr Matt & Dr Mike · 9 min"
+      }
+     ]
+    },
+    {
+     "title": "Adverse Drug Reactions, Interactions and Drug Development",
+     "videos": [
+      {
+       "title": "Pharmacology - DRUG INTERACTIONS (MADE EASY)",
+       "link": "https://www.youtube.com/watch?v=BayzMj3n5_I",
+       "description": "Speed Pharmacology · 14 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Physical Pharmacy and Dosage Form Design",
+   "topics": [
+    {
+     "title": "Tablets and Capsules",
+     "videos": [
+      {
+       "title": "Tablets and Capsules Oral Dosage Calculations Nursing NCLEX Review",
+       "link": "https://www.youtube.com/watch?v=kbnTxiMibTc",
+       "description": "RegisteredNurseRN · 9 min"
+      },
+      {
+       "title": "Oral Medication:Tablets & Capsules  - Dose Calculations for Nursing Students | @LevelUpRN",
+       "link": "https://www.youtube.com/watch?v=sKwkfDqKskg",
+       "description": "Level Up RN · 7 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pharmaceutical and Medicinal Chemistry",
+   "topics": [
+    {
+     "title": "Physicochemical Properties and Drug Action",
+     "videos": [
+      {
+       "title": "Pharmacodynamics: Mechanisms of Drug Action",
+       "link": "https://www.youtube.com/watch?v=PGzT3cTPah8",
+       "description": "Professor Dave Explains · 8 min"
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of Antimalarials",
+     "videos": [
+      {
+       "title": "Pharmacology and life cycle - Malaria (Antimalarials, pathophysiology, treatment)",
+       "link": "https://www.youtube.com/watch?v=hZnekAAzH9k",
+       "description": "Armando Hasudungan · 16 min"
+      },
+      {
+       "title": "Antimalarials ~Pharmacology~",
+       "link": "https://www.youtube.com/watch?v=NPxd9cRQ3JE",
+       "description": "Osmosis from Elsevier · 15 min"
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of Antibacterials",
+     "videos": [
+      {
+       "title": "Medicinal Chemistry and Penicillin Total Synthesis: Crash Course Organic Chemistry #50",
+       "link": "https://www.youtube.com/watch?v=qygFjt2_LG4",
+       "description": "CrashCourse · 14 min"
+      },
+      {
+       "title": "Introduction - Medicinal Chemistry",
+       "link": "https://www.youtube.com/watch?v=lUxkcEoGkVg",
+       "description": "NPTEL-NOC IITM · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Medicinal Chemistry of CNS and Cardiovascular Drugs",
+     "videos": [
+      {
+       "title": "Medicinal Chemistry and Penicillin Total Synthesis: Crash Course Organic Chemistry #50",
+       "link": "https://www.youtube.com/watch?v=qygFjt2_LG4",
+       "description": "CrashCourse · 14 min"
+      },
+      {
+       "title": "Introduction to Medicinal Chemistry Part-I",
+       "link": "https://www.youtube.com/watch?v=UHEXXGiegd0",
+       "description": "NPTEL-NOC IITM · 35 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Endocrine and Reproductive Physiology (PIO 301/303)",
+   "topics": [
+    {
+     "title": "Hormone Action and the Hypothalamic–Pituitary Axis",
+     "videos": [
+      {
+       "title": "Hypothalamic Pituitary Axis | Endocrine System",
+       "link": "https://www.youtube.com/watch?v=fqz4WOwfz4Q",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      },
+      {
+       "title": "Hypothalamic Pituitary Thyroid Axis (regulation, TRH, TSH, thyroid hormones T3 and T4)",
+       "link": "https://www.youtube.com/watch?v=KzM8BiSnKQM",
+       "description": "Armando Hasudungan · 5 min"
+      }
+     ]
+    },
+    {
+     "title": "Thyroid Hormones",
+     "videos": [
+      {
+       "title": "Thyroid Gland and Hormones",
+       "link": "https://www.youtube.com/watch?v=FCngwKqLaT0",
+       "description": "Dr Matt & Dr Mike · 36 min"
+      },
+      {
+       "title": "Understanding Thyroid Hormones",
+       "link": "https://www.youtube.com/watch?v=AQHYiZ0kMlI",
+       "description": "Zero To Finals · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Adrenal Hormones and Stress",
+     "videos": [
+      {
+       "title": "Hormones of Adrenal Cortex and Adrenal medulla : Endocrine physiology USMLE Step 1",
+       "link": "https://www.youtube.com/watch?v=9EhQjUjZHzk",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      },
+      {
+       "title": "Endocrine System, Part 1 - Glands & Hormones: Crash Course Anatomy & Physiology #23",
+       "link": "https://www.youtube.com/watch?v=eWHH9je2zG4",
+       "description": "CrashCourse · 10 min"
+      }
+     ]
+    },
+    {
+     "title": "Pancreatic Hormones and Calcium Regulation",
+     "videos": [
+      {
+       "title": "Pancreatic Enzymes & Hormones | (Exocrine vs  Endocrine) | Gastrointestinal (GI) Physiology Lectures",
+       "link": "https://www.youtube.com/watch?v=bprXNSpQVI4",
+       "description": "Medicosis Perfectionalis · 27 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Neurophysiology (PIO 305/307)",
+   "topics": [
+    {
+     "title": "Sensory Receptors and Pain",
+     "videos": [
+      {
+       "title": "Sensory Pathways | Touch/Proprioception vs Pain/Temperature",
+       "link": "https://www.youtube.com/watch?v=0gjdP-cYujw",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      },
+      {
+       "title": "3. Sensory Nervous System Physiology 🧠✨ | Receptors, Sensory Pathways & Coding of Sensation",
+       "link": "https://www.youtube.com/watch?v=yyoaR98lGT8",
+       "description": "Dr.G Bhanu Prakash Animated Medical Videos · 9 min"
+      }
+     ]
+    },
+    {
+     "title": "Spinal Reflexes and Muscle Tone",
+     "videos": [
+      {
+       "title": "Neurology | Spinal Cord: Stretch Reflex | Muscle Spindle",
+       "link": "https://www.youtube.com/watch?v=IXV4fRC6nPc",
+       "description": "Ninja Nerd · 34 min"
+      },
+      {
+       "title": "Spinal Reflex (Simple Reflex Arc)",
+       "link": "https://www.youtube.com/watch?v=EqsNHbbJQJ4",
+       "description": "Dr Matt & Dr Mike · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Motor Control: Cortex, Basal Ganglia and Cerebellum",
+     "videos": [
+      {
+       "title": "Neurology | Basal Ganglia Anatomy & Function | Direct & Indirect Pathways",
+       "link": "https://www.youtube.com/watch?v=hxvep2Y8ShI",
+       "description": "Ninja Nerd · 42 min"
+      },
+      {
+       "title": "Basal Ganglia (Direct vs. Indirect Pathways)",
+       "link": "https://www.youtube.com/watch?v=Gfunn9cYLNY",
+       "description": "Dirty Medicine · 12 min"
+      }
+     ]
+    },
+    {
+     "title": "The Autonomic Nervous System",
+     "videos": [
+      {
+       "title": "Neurology | Autonomic Nervous System",
+       "link": "https://www.youtube.com/watch?v=7dZHmKMLdC0",
+       "description": "Ninja Nerd · 31 min"
+      },
+      {
+       "title": "The Autonomic Nervous System: Sympathetic and Parasympathetic Divisions",
+       "link": "https://www.youtube.com/watch?v=DPWEhl7gbu4",
+       "description": "Professor Dave Explains · 7 min"
+      }
+     ]
+    },
+    {
+     "title": "Special Senses: Vision and Hearing",
+     "videos": [
+      {
+       "title": "Special Senses | The Phototransduction Cascade",
+       "link": "https://www.youtube.com/watch?v=GKaFjw8N8zQ",
+       "description": "Ninja Nerd · 43 min"
+      },
+      {
+       "title": "Special Senses | Eye Anatomy",
+       "link": "https://www.youtube.com/watch?v=Hclc7lL_Oyw",
+       "description": "Ninja Nerd · 46 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Biomechanics and Kinesiology",
+   "topics": [
+    {
+     "title": "Forces, Torque and Levers in the Body",
+     "videos": [
+      {
+       "title": "Torque, Basic Introduction, Lever Arm, Moment of Force, Simple Machines & Mechanical Advantage",
+       "link": "https://www.youtube.com/watch?v=jg4e8W44_E4",
+       "description": "The Organic Chemistry Tutor · 21 min"
+      }
+     ]
+    },
+    {
+     "title": "Joint Mechanics and Arthrokinematics",
+     "videos": [
+      {
+       "title": "Arthrokinematics: Roll, Glide, Spin, Traction & Compression",
+       "link": "https://www.youtube.com/watch?v=dfFGaUQ6P_Y",
+       "description": "Physiotutors · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Muscle Mechanics",
+     "videos": [
+      {
+       "title": "Musculoskeletal System | Muscle Mechanics | Types of Contractions & Levers",
+       "link": "https://www.youtube.com/watch?v=uZ5Sm2NFuGM",
+       "description": "Ninja Nerd · 35 min"
+      }
+     ]
+    },
+    {
+     "title": "Gait Analysis",
+     "videos": [
+      {
+       "title": "Gait Cycle & Gait Analysis",
+       "link": "https://www.youtube.com/watch?v=1u6d1CX7o9c",
+       "description": "Physiotutors · 5 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Therapeutic Exercise and Electrotherapy",
+   "topics": [
+    {
+     "title": "Principles of Exercise Prescription",
+     "videos": [
+      {
+       "title": "21. Exercise Prescription and Training principles - Part 1",
+       "link": "https://www.youtube.com/watch?v=1WNTxmxWUq0",
+       "description": "NPTEL-NOC IITM · 34 min"
+      }
+     ]
+    },
+    {
+     "title": "Electrical Stimulation: TENS and NMES",
+     "videos": [
+      {
+       "title": "NMES & Russian Stimulation EXPLAINED | Theory, Use, & Parameters",
+       "link": "https://www.youtube.com/watch?v=9mMzNXVC5M0",
+       "description": "Catalyst University · 17 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Imaging Equipment and Image Production",
+   "topics": [
+    {
+     "title": "X-ray Generators and Circuits",
+     "videos": [
+      {
+       "title": "Primary X-ray Circuit | X-ray physics | Radiology Physics Course #16",
+       "link": "https://www.youtube.com/watch?v=uWfx1KZPTp8",
+       "description": "Radiology Tutorials · 9 min"
+      },
+      {
+       "title": "Other X-ray Machine Components | X-ray physics #4 | Radiology Physics Course #11",
+       "link": "https://www.youtube.com/watch?v=lJ7DLzTWei0",
+       "description": "Radiology Tutorials · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "The X-ray Tube and Tube Ratings",
+     "videos": [
+      {
+       "title": "Other X-ray Machine Components | X-ray physics #4 | Radiology Physics Course #11",
+       "link": "https://www.youtube.com/watch?v=lJ7DLzTWei0",
+       "description": "Radiology Tutorials · 4 min"
+      }
+     ]
+    },
+    {
+     "title": "Grids, Beam Restriction and Scatter Control",
+     "videos": [
+      {
+       "title": "Anti-scatter grids | X-ray Physics | Radiology Physics Course #39",
+       "link": "https://www.youtube.com/watch?v=vZ9dcesc3e4",
+       "description": "Radiology Tutorials · 11 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Radiographic Techniques I: Skeletal and Chest",
+   "topics": [
+    {
+     "title": "Principles of Positioning and Projection Terminology",
+     "videos": [
+      {
+       "title": "Patient Positioning Nursing Care | Nursing Fundamentals Next Generation NCLEX Review",
+       "link": "https://www.youtube.com/watch?v=sklquo00ElQ",
+       "description": "RegisteredNurseRN · 14 min"
+      }
+     ]
+    },
+    {
+     "title": "Chest and Abdomen Radiography",
+     "videos": [
+      {
+       "title": "Chest X-Ray Techniques: Inspiration, Penetration, Rotation – Radiology | Lecturio",
+       "link": "https://www.youtube.com/watch?v=DNNd_j9hpV0",
+       "description": "Lecturio Medical · 5 min"
+      },
+      {
+       "title": "Chest X-ray Interpretation | How to Read a CXR | OSCE Guide | UKMLA | CPSA | PLAB 2",
+       "link": "https://www.youtube.com/watch?v=e39pLXGjNbA",
+       "description": "Geeky Medics · 24 min"
+      }
+     ]
+    },
+    {
+     "title": "Upper Limb and Shoulder",
+     "videos": [
+      {
+       "title": "Anatomy of Shoulder X-rays",
+       "link": "https://www.youtube.com/watch?v=yo_ACrNqEfc",
+       "description": "The Noted Anatomist · 11 min"
+      },
+      {
+       "title": "Shoulder X-ray interpretation | How to read a trauma shoulder X-ray",
+       "link": "https://www.youtube.com/watch?v=-ZlY-1Wsbd0",
+       "description": "Radiology Tutorials · 16 min"
+      }
+     ]
+    },
+    {
+     "title": "Lower Limb and Pelvis",
+     "videos": [
+      {
+       "title": "Anatomy of Lower Limb - Quick Review - Anatomy Review Series",
+       "link": "https://www.youtube.com/watch?v=o8-jI-TX0nI",
+       "description": "Medicosis Perfectionalis · 22 min"
+      },
+      {
+       "title": "Pelvis Anatomy | Radiology anatomy part 1 prep | Pelvic X-ray interpretation",
+       "link": "https://www.youtube.com/watch?v=YR2M2MvY_y8",
+       "description": "Radiology Tutorials · 21 min"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Research Methods and Scientific Writing",
+   "topics": [
+    {
+     "title": "Study Designs",
+     "videos": [
+      {
+       "title": "Study Design - Case-control study, Cross-sectional study, Cohort study (Prospective, Retrospective)",
+       "link": "https://www.youtube.com/watch?v=yu0LzDlhLMA",
+       "description": "Medicosis Perfectionalis · 21 min"
+      }
+     ]
+    },
+    {
+     "title": "Measurement, Validity and Bias",
+     "videos": [
+      {
+       "title": "Reliability & Validity Explained",
+       "link": "https://www.youtube.com/watch?v=KuT2n1w0Ixc",
+       "description": "Physiotutors · 3 min"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

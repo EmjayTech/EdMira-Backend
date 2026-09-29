@@ -111,6 +111,10 @@ const answerSpread = [0, 0, 0, 0, 0, 0];
 
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
+// Videos-only update file: just course → topic titles → videos, so adding
+// videos to an already-imported library doesn't re-send every question.
+const VIDEO_UPDATE = join(dirname(fileURLToPath(import.meta.url)), 'import-videos');
+const videoCourses = [];
 
 const files = readdirSync(SRC).filter((f) => f.endsWith('.json')).sort();
 const titles = new Set();
@@ -182,10 +186,18 @@ for (const file of files) {
     };
   });
   totals.courses++;
+  const withVideos = topics.filter((t) => t.videos?.length).map((t) => ({ title: t.title, videos: t.videos }));
+  if (withVideos.length) videoCourses.push({ title: c.title, topics: withVideos });
   writeFileSync(
     join(OUT, file),
     JSON.stringify({ courses: [{ title: c.title, code: c.code, color: c.color, description: c.description, audience: rules, topics }] }, null, 1),
   );
+}
+
+rmSync(VIDEO_UPDATE, { recursive: true, force: true });
+if (videoCourses.length) {
+  mkdirSync(VIDEO_UPDATE, { recursive: true });
+  writeFileSync(join(VIDEO_UPDATE, 'videos-update.json'), JSON.stringify({ courses: videoCourses }, null, 1));
 }
 
 // ── Coverage: every department at every level of its programme (postgraduate is
@@ -199,6 +211,9 @@ for (const [d, years] of Object.entries(DURATION)) {
 }
 
 console.log(`${totals.courses} courses, ${totals.topics} topics, ${totals.questions} questions, ${totals.videos} videos → content-library/import/`);
+if (videoCourses.length) {
+  console.log(`Videos-only update: ${videoCourses.length} courses → content-library/import-videos/videos-update.json`);
+}
 console.log(`Correct answer spread A–F: ${answerSpread.join(' / ')}`);
 if (process.argv.includes('--coverage')) {
   const header = ['', ...UG, 'PG'].map((s) => s.padStart(5)).join('');

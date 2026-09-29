@@ -120,6 +120,7 @@ export async function importContent(
     topics: Map<string, PlannedTopic>;
   };
   const planned = new Map<string, PlannedCourse>();
+  const videoOnlySkipped: string[] = [];
   // Question texts already present per topic key, filled lazily.
   const knownStems = new Map<string, Set<string>>();
 
@@ -176,6 +177,12 @@ export async function importContent(
       }
       const existingTopic = course.existing ? topicByKey.get(`${course.existing.id}|${norm(tTitle)}`) : undefined;
       const topicKey = `${courseKey}|${norm(tTitle)}`;
+      // A videos-only update (no notes, no questions) never creates topics: the
+      // videos wait until the topic itself has been imported.
+      if (!existingTopic && !course.topics.has(topicKey) && !t.material?.length && !t.questions?.length && t.videos?.length) {
+        videoOnlySkipped.push(`${title} › ${tTitle}`);
+        continue;
+      }
       let topic = course.topics.get(topicKey);
       if (!topic) {
         topic = { existing: existingTopic, title: tTitle, order: t.order, summary: '', material: [], questions: [], videos: [] };
@@ -240,6 +247,17 @@ export async function importContent(
         topic.videos.push({ title: vTitle, link: `https://www.youtube.com/watch?v=${id}`, description: v.description?.trim() ?? '' });
       }
     }
+  }
+
+  // Courses that only brought videos for topics that don't exist yet aren't created either.
+  for (const [key, course] of planned) {
+    if (!course.existing && !course.topics.size && videoOnlySkipped.some(s => norm(s).startsWith(`${key} ›`))) planned.delete(key);
+  }
+  if (videoOnlySkipped.length) {
+    result.warnings.push(
+      `${videoOnlySkipped.length} topic${videoOnlySkipped.length > 1 ? 's have' : ' has'} not been imported yet, so ${videoOnlySkipped.length > 1 ? 'their' : 'its'} videos were skipped ` +
+        `(e.g. ${videoOnlySkipped.slice(0, 3).join('; ')}). Import those courses first, then this file again.`,
+    );
   }
 
   // Counts (also what a dry run reports).
