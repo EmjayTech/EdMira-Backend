@@ -200,6 +200,11 @@ export class AuthService {
 
     await this.cacheManager.del(key);
 
+    // The account already exists, so a failed welcome email shouldn't fail verification.
+    this.emailService
+      .sendWelcomeEmail(savedUser.email, savedUser.firstName, savedUser.userType)
+      .catch(error => console.error('Failed to send welcome email:', error));
+
     const tokens = await this.getTokens(savedUser._id as Types.ObjectId, savedUser.email, savedUser.userType);
     await this.updateRtHash(savedUser._id as Types.ObjectId, tokens.refreshToken);
 

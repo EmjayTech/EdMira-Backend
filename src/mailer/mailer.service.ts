@@ -22,8 +22,17 @@ export class EmailService {
   ): Promise<void> {
     await this.sendMail({
       to: email,
-      subject: 'Welcome to EdMira — Verify Your Account',
+      subject: 'EdMira — Verify Your Email',
       html: this.getWelcomeVerificationTemplate(firstName, userType, code),
+    });
+  }
+
+  /** Sent once the code is verified and the account actually exists. */
+  async sendWelcomeEmail(email: string, firstName: string, userType: string): Promise<void> {
+    await this.sendMail({
+      to: email,
+      subject: `Welcome to EdMira, ${firstName}!`,
+      html: this.getWelcomeTemplate(firstName, userType),
     });
   }
 
@@ -98,6 +107,29 @@ export class EmailService {
               ${code}
             </div>
             <p>This code expires in <strong>10 minutes</strong>.</p>
+            <hr />
+            <small>&copy; ${new Date().getFullYear()} EdMira</small>
+          </div>
+        </body>
+      </html>
+    `;
+  }
+
+  private getWelcomeTemplate(firstName: string, userType: string): string {
+    const welcomeMessage = this.getWelcomeMessage(firstName, userType);
+
+    return `
+      <html>
+        <body style="font-family: Arial, sans-serif; background:#f6f8fa;">
+          <div style="max-width:600px;margin:auto;background:#fff;padding:20px;border-radius:8px;">
+            <h1 style="background:#0a4d68;color:#fff;padding:15px;text-align:center;">
+              Welcome to EdMira
+            </h1>
+            <p>${welcomeMessage}</p>
+            <p>Your account is verified and ready. Thank you for joining us!</p>
+            <p>Open the EdMira app and sign in to get started.</p>
+            <p>If you didn't create this account, please reply to this email and let us know.</p>
+            <p>EdMira Team</p>
             <hr />
             <small>&copy; ${new Date().getFullYear()} EdMira</small>
           </div>

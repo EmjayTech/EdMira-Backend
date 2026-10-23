@@ -11,7 +11,7 @@ import { Connection } from 'mongoose';
  * Used by the e2e tests and by `yarn dev:memory`.
  */
 
-export type SentMail = { to: string; kind: 'verify' | 'resend' | 'reset'; code: string };
+export type SentMail = { to: string; kind: 'verify' | 'resend' | 'reset' | 'welcome'; code?: string };
 
 export class FakeEmailService {
   readonly sent: SentMail[] = [];
@@ -34,9 +34,13 @@ export class FakeEmailService {
     this.record({ to, kind: 'reset', code });
   }
 
+  async sendWelcomeEmail(to: string, _firstName: string, _userType: string) {
+    this.record({ to, kind: 'welcome' });
+  }
+
   /** Latest code emailed to `to`. */
   lastCode(to: string) {
-    return [...this.sent].reverse().find(m => m.to === to)?.code;
+    return [...this.sent].reverse().find(m => m.to === to && m.code)?.code;
   }
 }
 

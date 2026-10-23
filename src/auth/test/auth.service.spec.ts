@@ -48,7 +48,11 @@ describe('AuthService', () => {
     updateRefreshToken: jest.fn(),
     updateFields: jest.fn(),
   };
-  const email = { sendWelcomeAndVerificationEmail: jest.fn(), sendResendOtpEmail: jest.fn() };
+  const email = {
+    sendWelcomeAndVerificationEmail: jest.fn(),
+    sendResendOtpEmail: jest.fn(),
+    sendWelcomeEmail: jest.fn().mockResolvedValue(undefined),
+  };
 
   beforeEach(async () => {
     cache.clear();
@@ -125,6 +129,7 @@ describe('AuthService', () => {
       );
       expect(result).toMatchObject({ accessToken: 'signed.jwt.token', refreshToken: 'signed.jwt.token' });
       expect(result.user).not.toHaveProperty('password');
+      expect(email.sendWelcomeEmail).toHaveBeenCalledWith(signupDto.email, signupDto.firstName, signupDto.userType);
     });
 
     it('rejects a wrong code', async () => {
