@@ -26,6 +26,7 @@ const as = (who: keyof typeof tokens) => ({
   get: (path: string) => http().get(api(path)).set(bearer(tokens[who])),
   post: (path: string, body?: object) => http().post(api(path)).set(bearer(tokens[who])).send(body),
   patch: (path: string, body: object) => http().patch(api(path)).set(bearer(tokens[who])).send(body),
+  delete: (path: string) => http().delete(api(path)).set(bearer(tokens[who])),
 });
 
 const topicBody = (courseId: string, overrides: object = {}) => ({
@@ -981,5 +982,133 @@ describe('AI news from trusted sources', () => {
     const again = await as('admin').post('/admin/news/sources/defaults').expect(201);
     expect(again.body.sources).toHaveLength(count);
     service().useForTesting(undefined);
+  });
+});
+
+describe('team: invites and roles', () => {
+  const ORIGIN = 'https://admin.example.test';
+  const invite = (body: object) =>
+    as('admin').post('/admin/team').set('Origin', ORIGIN).send(body);
+  const tokenFrom = (url: string) => new URL(url).searchParams.get('token')!;
+  const member = async (email: string) =>
+    (await as('admin').get('/admin/team').expect(200)).body.find((m: any) => m.email === email);
+
+  it('is admin-only', async () => {
+    await as('reviewer').get('/admin/team').expect(403);
+    await http().post(api('/admin/team')).set(bearer(tokens.reviewer)).send({ email: 'x@y.z', firstName: 'X', role: 'admin' }).expect(403);
+  });
+
+  it('lists staff — not students — with last activity', async () => {
+    const res = await as('admin').get('/admin/team').expect(200);
+    const emails = res.body.map((m: any) => m.email);
+    expect(emails).toEqual(expect.arrayContaining(['admin@edmira.com', 'reviewer@edmira.com']));
+    expect(emails).not.toContain('student@uni.edu');
+    expect(res.body.find((m: any) => m.email === 'admin@edmira.com')).toMatchObject({
+      name: 'Ada Admin', role: 'admin', status: 'active', lastActiveAt: expect.any(String),
+    });
+  });
+
+  it('invites by link: emailed, single-use, then a normal sign-in', async () => {
+    const res = await invite({ email: '  New.Reviewer@Uni.edu ', firstName: 'Ngozi', lastName: 'Eze', role: 'reviewer' }).expect(201);
+    expect(res.body).toMatchObject({
+      emailSent: true,
+      existingAccount: false,
+      member: { email: 'new.reviewer@uni.edu', name: 'Ngozi Eze', role: 'reviewer', status: 'invited', invitedByName: 'Ada Admin' },
+    });
+    expect(res.body.inviteUrl).toMatch(new RegExp(`^${ORIGIN}/accept-invite\\?token=`));
+    expect(server.mail.sent.at(-1)).toMatchObject({ to: 'new.reviewer@uni.edu', kind: 'invite', url: res.body.inviteUrl });
+
+    // Not usable before accepting, and no password to guess.
+    await http().post(api('/auth/login')).send({ email: 'new.reviewer@uni.edu', password: '' }).expect(401);
+    await http().post(api('/auth/login')).send({ email: 'new.reviewer@uni.edu', password: 'Anything1!' }).expect(401);
+
+    const token = tokenFrom(res.body.inviteUrl);
+    const lookup = await http().get(api(`/admin/invites/${token}`)).expect(200);
+    expect(lookup.body).toEqual({ email: 'new.reviewer@uni.edu', firstName: 'Ngozi', lastName: 'Eze', role: 'reviewer', invitedByName: 'Ada Admin' });
+
+    await http().post(api(`/admin/invites/${token}/accept`)).send({ firstName: 'Ngozi', password: 'weak' }).expect(400);
+    await http().post(api(`/admin/invites/${token}/accept`)).send({ firstName: 'Ngozi', lastName: 'Eze-Obi', password: 'Str0ng!Pass' }).expect(201);
+    await http().post(api(`/admin/invites/${token}/accept`)).send({ firstName: 'Ngozi', password: 'Str0ng!Pass' }).expect(404);
+
+    const access = await login('new.reviewer@uni.edu', 'Str0ng!Pass');
+    await http().get(api('/admin/courses')).set(bearer(access)).expect(200);
+    await http().get(api('/admin/team')).set(bearer(access)).expect(403);
+    expect(await member('new.reviewer@uni.edu')).toMatchObject({ name: 'Ngozi Eze-Obi', status: 'active' });
+  });
+
+  it('refuses duplicates and bad input with readable messages', async () => {
+    const dup = await invite({ email: 'REVIEWER@edmira.com', firstName: 'R', role: 'creator' }).expect(409);
+    expect(dup.body.message).toBe('reviewer@edmira.com is already on the team.');
+    await invite({ email: 'not-an-email', firstName: 'X', role: 'creator' }).expect(400);
+    await invite({ email: 'x@uni.edu', firstName: 'X', role: 'superuser' }).expect(400);
+  });
+
+  it('gives an existing app account staff access without a link', async () => {
+    const res = await invite({ email: 'student@uni.edu', firstName: 'Sade', role: 'creator' }).expect(201);
+    expect(res.body).toMatchObject({ existingAccount: true, inviteUrl: null, member: { status: 'active', role: 'creator' } });
+    await as('student').get('/admin/courses').expect(200);
+    // Staff no longer appear in the student list.
+    const students = await as('admin').get('/admin/students').expect(200);
+    expect(students.body.map((s: any) => s.email)).not.toContain('student@uni.edu');
+  });
+
+  it('changes roles, effective on the next request', async () => {
+    const id = (await member('student@uni.edu')).id;
+    await as('student').post('/admin/courses', { title: 'Allowed as creator', description: 'x', code: 'ALW', color: '#0A369D' }).expect(201);
+    const res = await as('admin').patch(`/admin/team/${id}`, { role: 'reviewer' }).expect(200);
+    expect(res.body.role).toBe('reviewer');
+    await as('student').post('/admin/courses', { title: 'Now refused', description: 'x', code: 'NOP', color: '#0A369D' }).expect(403);
+  });
+
+  it('expires links, and a new link replaces the old one', async () => {
+    const res = await invite({ email: 'late@uni.edu', firstName: 'Late', role: 'creator' }).expect(201);
+    const oldToken = tokenFrom(res.body.inviteUrl);
+    await server.connection.collection('users').updateOne({ email: 'late@uni.edu' }, { $set: { inviteExpiresAt: new Date(Date.now() - 1000) } });
+    const expired = await http().get(api(`/admin/invites/${oldToken}`)).expect(410);
+    expect(expired.body.message).toMatch(/expired/);
+
+    const again = await as('admin').post(`/admin/team/${res.body.member.id}/invite`).set('Origin', ORIGIN).expect(201);
+    expect(again.body.emailSent).toBe(true);
+    await http().get(api(`/admin/invites/${oldToken}`)).expect(404);
+    await http().get(api(`/admin/invites/${tokenFrom(again.body.inviteUrl)}`)).expect(200);
+    // Already set up → no new link.
+    const active = await member('new.reviewer@uni.edu');
+    await as('admin').post(`/admin/team/${active.id}/invite`).expect(400);
+  });
+
+  it('removes access: cancels unaccepted invites, keeps used accounts as app accounts', async () => {
+    const late = await member('late@uni.edu');
+    await as('admin').delete(`/admin/team/${late.id}`).expect(200);
+    expect(await server.connection.collection('users').findOne({ email: 'late@uni.edu' })).toBeNull();
+
+    const ngozi = await member('new.reviewer@uni.edu');
+    const access = await login('new.reviewer@uni.edu', 'Str0ng!Pass');
+    await as('admin').delete(`/admin/team/${ngozi.id}`).expect(200);
+    await http().get(api('/admin/courses')).set(bearer(access)).expect(403);
+    expect(await member('new.reviewer@uni.edu')).toBeUndefined();
+    await login('new.reviewer@uni.edu', 'Str0ng!Pass'); // still an app account
+  });
+
+  it('never lets an admin change or remove themselves', async () => {
+    const me = await member('admin@edmira.com');
+    const self = await as('admin').patch(`/admin/team/${me.id}`, { role: 'creator' }).expect(400);
+    expect(self.body.message).toMatch(/your own role/);
+    await as('admin').delete(`/admin/team/${me.id}`).expect(400);
+    expect(await member('admin@edmira.com')).toMatchObject({ role: 'admin' });
+  });
+
+  it('logs every team change', async () => {
+    const res = await as('admin').get('/admin/audit-log').expect(200);
+    const team = res.body.filter((e: any) => e.entity === 'staff').map((e: any) => e.summary);
+    expect(team).toEqual(
+      expect.arrayContaining([
+        'Invited Ngozi Eze (new.reviewer@uni.edu) as Medical Reviewer',
+        'Gave Sade Student (student@uni.edu) Content Creator access',
+        'Changed Sade Student from Content Creator to Medical Reviewer',
+        'Sent a new invite link to Late',
+        'Cancelled the invite for Late (late@uni.edu)',
+        'Removed Ngozi Eze-Obi (new.reviewer@uni.edu) from the team',
+      ]),
+    );
   });
 });

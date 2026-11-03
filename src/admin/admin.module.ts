@@ -2,16 +2,19 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ContentModule } from '../content/content.module';
 import { FeedbackModule } from '../feedback/feedback.module';
+import { MailerModule } from '../mailer/mailer.module';
 import { NewsModule } from '../news/news.module';
 import { QuizModule } from '../quiz/quiz.module';
 import { AdminContentService } from './admin-content.service';
 import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
+import { AdminTeamService } from './admin-team.service';
 import { AiDraftService } from './ai-draft.service';
 import { AiNewsService } from './ai-news.service';
 import { AdminController } from './admin.controller';
 import { AuditEntry, AuditEntrySchema } from './audit/audit.schema';
 import { AuditService } from './audit/audit.service';
+import { StaffInviteController } from './staff-invite.controller';
 import { StaffGuard } from './staff.guard';
 
 @Module({
@@ -20,9 +23,10 @@ import { StaffGuard } from './staff.guard';
     QuizModule,
     FeedbackModule,
     NewsModule,
+    MailerModule,
     MongooseModule.forFeature([{ name: AuditEntry.name, schema: AuditEntrySchema }]),
   ],
-  controllers: [AdminController],
-  providers: [AdminContentService, AiDraftService, AiNewsService, AdminNewsService, AdminPeopleService, AuditService, StaffGuard],
+  controllers: [AdminController, StaffInviteController],
+  providers: [AdminContentService, AiDraftService, AiNewsService, AdminNewsService, AdminPeopleService, AdminTeamService, AuditService, StaffGuard],
 })
 export class AdminModule {}

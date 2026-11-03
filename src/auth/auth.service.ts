@@ -250,13 +250,15 @@ export class AuthService {
     const user = await this.usersRepository.findByEmail(dto.email);
     if (!user) throw new UnauthorizedException('Invalid credentials');
 
-    const valid = await bcrypt.compare(dto.password, user.password);
+    // Invited staff have no password until they accept the invite.
+    const valid = !!user.password && (await bcrypt.compare(dto.password, user.password));
     if (!valid) throw new UnauthorizedException('Invalid credentials');
     if (!user.isVerified) throw new UnauthorizedException('Please verify your email first');
     this.assertActive(user);
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
+    await this.usersRepository.touchLastLogin(user._id as Types.ObjectId);
     return tokens;
   }
 

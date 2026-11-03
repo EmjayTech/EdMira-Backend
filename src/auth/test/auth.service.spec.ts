@@ -47,6 +47,7 @@ describe('AuthService', () => {
     create: jest.fn(),
     updateRefreshToken: jest.fn(),
     updateFields: jest.fn(),
+    touchLastLogin: jest.fn(),
   };
   const email = {
     sendWelcomeAndVerificationEmail: jest.fn(),
@@ -149,6 +150,16 @@ describe('AuthService', () => {
       expect(result).toEqual({ accessToken: 'signed.jwt.token', refreshToken: 'signed.jwt.token' });
       // Stored as a SHA-256 hex digest, never the raw token.
       expect(users.updateRefreshToken).toHaveBeenCalledWith('u1', expect.stringMatching(/^[0-9a-f]{64}$/));
+      expect(users.touchLastLogin).toHaveBeenCalledWith('u1');
+    });
+
+    it('rejects invited staff who have not set a password yet', async () => {
+      users.findByEmail.mockResolvedValue({ _id: 'u1', isVerified: true });
+      (bcrypt.compare as jest.Mock).mockClear();
+      await expect(service.login({ email: 'test@example.com', password: 'Str0ng!Pass' })).rejects.toThrow(
+        UnauthorizedException,
+      );
+      expect(bcrypt.compare).not.toHaveBeenCalled();
     });
 
     it('rejects a wrong password', async () => {

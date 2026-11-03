@@ -61,6 +61,21 @@ export class EmailService {
     });
   }
 
+  /** Admin → Team → Invite: a link to set a password for the staff dashboard. */
+  async sendStaffInvite(
+    email: string,
+    firstName: string,
+    inviterName: string,
+    roleLabel: string,
+    url: string,
+  ): Promise<void> {
+    await this.sendMail({
+      to: email,
+      subject: `${inviterName} invited you to the EdMira staff dashboard`,
+      html: this.getStaffInviteTemplate(firstName, inviterName, roleLabel, url),
+    });
+  }
+
   private async sendMail(options: { to: string; subject: string; html: string }): Promise<void> {
     const { data, error } = await this.resend.emails.send({
       from: this.from,
@@ -107,6 +122,32 @@ export class EmailService {
               ${code}
             </div>
             <p>This code expires in <strong>10 minutes</strong>.</p>
+            <hr />
+            <small>&copy; ${new Date().getFullYear()} EdMira</small>
+          </div>
+        </body>
+      </html>
+    `;
+  }
+
+  private getStaffInviteTemplate(firstName: string, inviterName: string, roleLabel: string, url: string): string {
+    const esc = (text: string) =>
+      text.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+    return `
+      <html>
+        <body style="font-family: Arial, sans-serif; background:#f6f8fa;">
+          <div style="max-width:600px;margin:auto;background:#fff;padding:20px;border-radius:8px;">
+            <h1 style="background:#0a369d;color:#fff;padding:15px;text-align:center;">
+              Join the EdMira team
+            </h1>
+            <p>Hi ${esc(firstName)},</p>
+            <p>${esc(inviterName)} invited you to the EdMira staff dashboard as a <strong>${esc(roleLabel)}</strong>.</p>
+            <p style="text-align:center;margin:28px 0;">
+              <a href="${esc(url)}" style="background:#0a369d;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;">
+                Set up your account
+              </a>
+            </p>
+            <p>The link works once and expires in <strong>7 days</strong>. If you weren't expecting this, you can ignore this email.</p>
             <hr />
             <small>&copy; ${new Date().getFullYear()} EdMira</small>
           </div>

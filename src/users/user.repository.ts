@@ -21,6 +21,11 @@ export class UsersRepository {
     return this.userModel.findById(id).exec();
   }
 
+  /** Shown as "Last active" on the dashboard's Team page. */
+  async touchLastLogin(id: string | Types.ObjectId) {
+    await this.userModel.updateOne({ _id: id }, { lastLogin: new Date() }).exec();
+  }
+
   async markVerified(userId: string | Types.ObjectId) {
     return this.userModel
       .findByIdAndUpdate(userId, { isVerified: true }, { new: true })

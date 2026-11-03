@@ -95,6 +95,22 @@ export class User {
   @Exclude()
   @Prop()
   refreshToken?: string;
+
+  /**
+   * Staff invite (admin → Team): SHA-256 of the one-time setup token. The
+   * account has no password until the invitee follows the link.
+   */
+  @Exclude()
+  @Prop()
+  inviteTokenHash?: string;
+
+  @Exclude()
+  @Prop({ type: Date })
+  inviteExpiresAt?: Date;
+
+  /** Who invited this staff member (shown on the Team page). */
+  @Prop()
+  invitedByName?: string;
 }
 
 export type UserDocument = User & mongoose.Document;

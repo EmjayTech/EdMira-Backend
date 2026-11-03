@@ -11,7 +11,7 @@ import { Connection } from 'mongoose';
  * Used by the e2e tests and by `yarn dev:memory`.
  */
 
-export type SentMail = { to: string; kind: 'verify' | 'resend' | 'reset' | 'welcome'; code?: string };
+export type SentMail = { to: string; kind: 'verify' | 'resend' | 'reset' | 'welcome' | 'invite'; code?: string; url?: string };
 
 export class FakeEmailService {
   readonly sent: SentMail[] = [];
@@ -19,7 +19,7 @@ export class FakeEmailService {
 
   private record(mail: SentMail) {
     this.sent.push(mail);
-    if (this.log) console.log(`✉️  [${mail.kind}] code for ${mail.to}: ${mail.code}`);
+    if (this.log) console.log(`✉️  [${mail.kind}] ${mail.url ? `link` : 'code'} for ${mail.to}: ${mail.url ?? mail.code}`);
   }
 
   async sendWelcomeAndVerificationEmail(to: string, _firstName: string, _userType: string, code: string) {
@@ -36,6 +36,10 @@ export class FakeEmailService {
 
   async sendWelcomeEmail(to: string, _firstName: string, _userType: string) {
     this.record({ to, kind: 'welcome' });
+  }
+
+  async sendStaffInvite(to: string, _firstName: string, _inviter: string, _role: string, url: string) {
+    this.record({ to, kind: 'invite', url });
   }
 
   /** Latest code emailed to `to`. */

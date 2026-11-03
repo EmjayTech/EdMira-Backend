@@ -1,10 +1,11 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { Type } from 'class-transformer';
+import { Transform, Type } from 'class-transformer';
 import {
   ArrayMaxSize,
   ArrayMinSize,
   IsArray,
   IsBoolean,
+  IsEmail,
   IsIn,
   IsISO8601,
   IsInt,
@@ -15,6 +16,7 @@ import {
   Matches,
   MaxLength,
   Min,
+  MinLength,
   ValidateIf,
   ValidateNested,
 } from 'class-validator';
@@ -22,7 +24,7 @@ import { ContentStatus } from '../../common/enum/content-status.enum';
 import { Department } from '../../common/enum/department.enum';
 import { Institution } from '../../common/enum/institution.enum';
 import { Level } from '../../common/enum/level.enum';
-import { AccountStatus } from '../../common/enum/staff-role.enum';
+import { AccountStatus, StaffRole } from '../../common/enum/staff-role.enum';
 import { RESOURCE_KINDS } from '../../content/schemas/resource.schema';
 import { NEWS_CATEGORIES } from '../../news/news.schema';
 import { REVIEW_ACTIONS } from '../workflow';
@@ -131,6 +133,59 @@ export class FeedbackUpdateDto {
   @ApiProperty({ enum: ['new', 'reviewed', 'planned', 'wont_do'] })
   @IsIn(['new', 'reviewed', 'planned', 'wont_do'])
   status: 'new' | 'reviewed' | 'planned' | 'wont_do';
+}
+
+export class TeamInviteDto {
+  @ApiProperty({ example: 'ada@edmira.org' })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim().toLowerCase() : value))
+  @IsEmail({}, { message: 'Enter a valid email address.' })
+  email: string;
+
+  @ApiProperty({ example: 'Ada' })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim() : value))
+  @IsString()
+  @MinLength(1, { message: 'Add their first name.' })
+  @MaxLength(60)
+  firstName: string;
+
+  @ApiProperty({ example: 'Obi', required: false })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim() : value))
+  @IsOptional()
+  @IsString()
+  @MaxLength(60)
+  lastName?: string;
+
+  @ApiProperty({ enum: StaffRole }) @IsIn(Object.values(StaffRole)) role: StaffRole;
+}
+
+export class TeamRoleDto {
+  @ApiProperty({ enum: StaffRole }) @IsIn(Object.values(StaffRole)) role: StaffRole;
+}
+
+/** Same password rule as student sign-up (auth/dto/signup.dto.ts). */
+export class AcceptInviteDto {
+  @ApiProperty({ example: 'Ada' })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim() : value))
+  @IsString()
+  @MinLength(1, { message: 'Add your first name.' })
+  @MaxLength(60)
+  firstName: string;
+
+  @ApiProperty({ example: 'Obi', required: false })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim() : value))
+  @IsOptional()
+  @IsString()
+  @MaxLength(60)
+  lastName?: string;
+
+  @ApiProperty({ example: 'StrongPass1!' })
+  @IsString()
+  @MinLength(8, { message: 'Use at least 8 characters.' })
+  @MaxLength(128)
+  @Matches(/((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/, {
+    message: 'Password too weak. Must contain at least 1 uppercase, 1 lowercase, and 1 number or special character',
+  })
+  password: string;
 }
 
 export class StudentStatusDto {

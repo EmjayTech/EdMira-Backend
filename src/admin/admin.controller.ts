@@ -21,6 +21,7 @@ import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
 import { AdminContentService } from './admin-content.service';
 import { AdminNewsService } from './admin-news.service';
 import { AdminPeopleService } from './admin-people.service';
+import { AdminTeamService } from './admin-team.service';
 import { AiDraftService } from './ai-draft.service';
 import { AiNewsService } from './ai-news.service';
 import { AiDraftDto, BulkTransitionDto, ImportDto } from './dto/import.dto';
@@ -37,6 +38,8 @@ import {
   ReportUpdateDto,
   ResourceInputDto,
   StudentStatusDto,
+  TeamInviteDto,
+  TeamRoleDto,
   TopicInputDto,
   TransitionDto,
 } from './dto/admin.dto';
@@ -55,6 +58,7 @@ export class AdminController {
   constructor(
     private readonly content: AdminContentService,
     private readonly people: AdminPeopleService,
+    private readonly team: AdminTeamService,
     private readonly newsAdmin: AdminNewsService,
     private readonly auditLog: AuditService,
     private readonly storage: FileStorageService,
@@ -322,6 +326,41 @@ export class AdminController {
   @ApiOperation({ summary: 'Suspend / reactivate a student' })
   setStudentStatus(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: StudentStatusDto) {
     return this.people.setStudentStatus(staff, id, dto.status);
+  }
+
+  // ── Team (staff accounts) ──
+  @Get('team')
+  @RequirePermission('manageTeam')
+  listTeam() {
+    return this.team.list();
+  }
+
+  @Post('team')
+  @RequirePermission('manageTeam')
+  @ApiOperation({ summary: 'Invite a staff member (or give an existing account staff access)' })
+  inviteMember(@CurrentStaff() staff: Staff, @Body() dto: TeamInviteDto, @Req() req: Request) {
+    return this.team.invite(staff, dto, req.headers.origin);
+  }
+
+  @Patch('team/:id')
+  @RequirePermission('manageTeam')
+  @ApiOperation({ summary: "Change a staff member's role" })
+  setMemberRole(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: TeamRoleDto) {
+    return this.team.setRole(staff, id, dto.role);
+  }
+
+  @Post('team/:id/invite')
+  @RequirePermission('manageTeam')
+  @ApiOperation({ summary: 'Send a new invite link (the old one stops working)' })
+  resendInvite(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Req() req: Request) {
+    return this.team.resendInvite(staff, id, req.headers.origin);
+  }
+
+  @Delete('team/:id')
+  @RequirePermission('manageTeam')
+  @ApiOperation({ summary: 'Remove dashboard access (cancels an unaccepted invite)' })
+  removeMember(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string) {
+    return this.team.remove(staff, id);
   }
 
   // ── Activity ──
