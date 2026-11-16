@@ -3,6 +3,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { User, userModel } from './model/user.model';
 import { UsersService } from './user.service';
 import { UsersRepository } from './user.repository';
+import { UsernameService } from './username.service';
+import { UsernameHistory, UsernameHistorySchema } from './schema/username-history.schema';
 
 @Global()
 @Module({
@@ -15,8 +17,9 @@ import { UsersRepository } from './user.repository';
         },
       },
     ]),
+    MongooseModule.forFeature([{ name: UsernameHistory.name, schema: UsernameHistorySchema }]),
   ],
-  providers: [UsersService, UsersRepository],
-  exports: [UsersService, UsersRepository, MongooseModule],
+  providers: [UsersService, UsersRepository, UsernameService],
+  exports: [UsersService, UsersRepository, UsernameService, MongooseModule],
 })
 export class UserModule { }

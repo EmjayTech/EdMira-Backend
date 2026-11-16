@@ -15,6 +15,9 @@ import { AdminController } from './admin.controller';
 import { AuditEntry, AuditEntrySchema } from './audit/audit.schema';
 import { AuditService } from './audit/audit.service';
 import { StaffInviteController } from './staff-invite.controller';
+import { LeaderboardModule } from '../leaderboard/leaderboard.module';
+import { SocialModule } from '../social/social.module';
+import { Challenge, ChallengeSchema } from '../social/schemas/challenge.schema';
 import { StaffGuard } from './staff.guard';
 
 @Module({
@@ -24,7 +27,12 @@ import { StaffGuard } from './staff.guard';
     FeedbackModule,
     NewsModule,
     MailerModule,
-    MongooseModule.forFeature([{ name: AuditEntry.name, schema: AuditEntrySchema }]),
+    LeaderboardModule,
+    SocialModule,
+    MongooseModule.forFeature([
+      { name: AuditEntry.name, schema: AuditEntrySchema },
+      { name: Challenge.name, schema: ChallengeSchema },
+    ]),
   ],
   controllers: [AdminController, StaffInviteController],
   providers: [AdminContentService, AiDraftService, AiNewsService, AdminNewsService, AdminPeopleService, AdminTeamService, AuditService, StaffGuard],

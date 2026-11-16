@@ -8,6 +8,7 @@ import { UserType } from "src/common/enum/user-type.enum";
 import { StudentProfile, StudentProfileSchema } from "../schema/studentProfile.schema";
 import { ProfessionalProfile, ProfessionalProfileSchema } from "../schema/professionalProfile.schema";
 import { AccountStatus, StaffRole } from "src/common/enum/staff-role.enum";
+import { normalizeUsername } from "../username-policy";
 
 
 @Schema({ timestamps: true })
@@ -32,8 +33,57 @@ export class User {
     return `${this.firstName} ${this.lastName}`;
   }
 
+  /** Public identity and login name; rules in users/username-policy.ts. */
   @Prop()
   username: string;
+
+  /**
+   * `username` lower-cased: what uniqueness and login compare. Set on every
+   * save (hook below). Older accounts get it from `yarn usernames backfill`;
+   * the unique index is created by `yarn usernames index` once the audit is clean.
+   */
+  @Prop()
+  usernameLower?: string;
+
+  /** Last time the student changed their username (once every 30 days). */
+  @Prop({ type: Date })
+  usernameChangedAt?: Date;
+
+  /**
+   * Privacy settings (Profile → Privacy). Missing = defaults, so older
+   * accounts need no migration. Phase 3 adds who-can-find-me etc. here.
+   */
+  @Prop({ type: Object, default: undefined })
+  privacy?: PrivacySettings;
+
+  /** Badges given or taken away by admins (see social/badges.ts). */
+  @Prop({ type: Object, default: undefined })
+  badgeOverrides?: { granted?: string[]; revoked?: string[] };
+
+  /** Who invited this student (invite link / "Invited by" at sign-up). */
+  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true })
+  referredBy?: mongoose.Types.ObjectId;
+
+  @Prop({ type: Date })
+  referredAt?: Date;
+
+  // ── Moderation (admin → Moderation; see src/social) ──
+
+  /** End of a timed suspension (status SUSPENDED); missing = until reactivated. */
+  @Prop({ type: Date })
+  suspendedUntil?: Date;
+
+  /** Warnings given by moderators. */
+  @Prop({ default: 0 })
+  warnings?: number;
+
+  /** Auto-flagged for review: can't send connection requests until then (or until an admin clears it). */
+  @Prop({ type: Date })
+  requestsPausedUntil?: Date;
+
+  /** Why the account was auto-flagged, and when (cleared by an admin). */
+  @Prop({ type: Object, default: undefined })
+  flag?: { at: Date; reasons: string[] };
 
   @Prop({ type: String, enum: Object.values(GenderType) })
   gender: GenderType;
@@ -115,3 +165,36 @@ export class User {
 
 export type UserDocument = User & mongoose.Document;
 export const userModel = SchemaFactory.createForClass(User);
+
+// Find classmates: prefix search on the lower-case username.
+userModel.index({ usernameLower: 1, isVerified: 1 }, { name: 'username_search' });
+
+// Keep `usernameLower` in step with `username` on create / save.
+userModel.pre('validate', function (next) {
+  if (this.isModified('username') && typeof this.username === 'string') {
+    this.usernameLower = normalizeUsername(this.username);
+  }
+  next();
+});
+/**
+ * Profile → Privacy. Missing settings mean the default shown, so older
+ * accounts need no migration.
+ */
+export interface PrivacySettings {
+  /** Leaderboards (default true). Off = "Anonymous student". */
+  showOnLeaderboard?: boolean;
+  /** Who can find me in search (default 'everyone'). */
+  findability?: 'everyone' | 'exact' | 'nobody';
+  /** Who can send me connection requests (default 'everyone'). */
+  requestsFrom?: 'everyone' | 'school' | 'nobody';
+  /** Connections see my streak and topics practised (default true). */
+  shareProgress?: boolean;
+  /** …and my exact scores (default false). */
+  shareScores?: boolean;
+  /** No inbox notifications for new requests (default false). */
+  muteRequestNotifications?: boolean;
+  /** Any signed-in student can see my profile: badges, streak, topics mastered (default false). */
+  publicProfile?: boolean;
+  /** …with my real name on it (default false). */
+  showRealName?: boolean;
+}

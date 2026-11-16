@@ -108,6 +108,7 @@ export const adminStudent = (u: UserDocument) => ({
   id: String(u._id),
   firstName: u.firstName ?? '',
   lastName: u.lastName ?? '',
+  username: u.username ?? '',
   email: u.email,
   institution: u.studentProfile?.institution ?? '',
   department: u.studentProfile?.department ?? '',

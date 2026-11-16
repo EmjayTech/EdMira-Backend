@@ -7,6 +7,7 @@ import {
   Param,
   Patch,
   Post,
+  Query,
   Req,
   UploadedFile,
   UseGuards,
@@ -43,6 +44,21 @@ import {
   TopicInputDto,
   TransitionDto,
 } from './dto/admin.dto';
+import { ChangeUsernameDto } from '../auth/dto/change-username.dto';
+import { LeaderboardService } from '../leaderboard/leaderboard.service';
+import { isWeekId, weekOf } from '../leaderboard/week';
+import { AdminLeaderboardQuery } from './dto/admin.dto';
+import { ModerationService } from '../social/moderation.service';
+import { ModerationActionDto, ModerationListQuery, SecurityEventsQuery } from './dto/admin.dto';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model } from 'mongoose';
+import { ReferralsService } from '../social/referrals.service';
+import { Challenge, ChallengeDocument } from '../social/schemas/challenge.schema';
+import { DateRangeQuery } from './dto/admin.dto';
+import { GroupsService } from '../social/groups.service';
+import { BadgesService } from '../social/badges.service';
+import { User, UserDocument } from '../users/model/user.model';
+import { BadgeDto, GroupSearchQuery } from './dto/admin.dto';
 import { CurrentStaff, RequirePermission, Staff, StaffGuard } from './staff.guard';
 
 /**
@@ -64,6 +80,13 @@ export class AdminController {
     private readonly storage: FileStorageService,
     private readonly ai: AiDraftService,
     private readonly aiNews: AiNewsService,
+    private readonly leaderboards: LeaderboardService,
+    private readonly moderation: ModerationService,
+    private readonly referrals: ReferralsService,
+    private readonly groupsAdmin: GroupsService,
+    private readonly badges: BadgesService,
+    @InjectModel(User.name) private readonly userModel: Model<UserDocument>,
+    @InjectModel(Challenge.name) private readonly challengeModel: Model<ChallengeDocument>,
   ) {}
 
   // ── Courses ──
@@ -326,6 +349,165 @@ export class AdminController {
   @ApiOperation({ summary: 'Suspend / reactivate a student' })
   setStudentStatus(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: StudentStatusDto) {
     return this.people.setStudentStatus(staff, id, dto.status);
+  }
+
+  @Patch('students/:id/username')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Change a student\'s username (moderation; skips the 30-day limit)' })
+  changeStudentUsername(
+    @CurrentStaff() staff: Staff,
+    @Param('id', ParseObjectIdPipe) id: string,
+    @Body() dto: ChangeUsernameDto,
+  ) {
+    return this.people.changeStudentUsername(staff, id, dto.username);
+  }
+
+  @Get('students/:id/usernames')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'A student\'s previous usernames' })
+  studentUsernameHistory(@Param('id', ParseObjectIdPipe) id: string) {
+    return this.people.studentUsernameHistory(id);
+  }
+
+  // ── Leaderboards (names included, for prizes) ──
+  @Get('leaderboards')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'A week\'s leaderboard (top 50) with names, optionally for one school / programme / level' })
+  adminLeaderboard(@Query() query: AdminLeaderboardQuery) {
+    const week = query.week ?? weekOf(new Date());
+    if (!isWeekId(week)) throw new BadRequestException('week must be a Monday, e.g. 2026-11-16.');
+    return this.leaderboards.adminBoard(week, query);
+  }
+
+  @Get('leaderboards/winners')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Top 3 of All of EdMira for each of the last 8 weeks' })
+  leaderboardWinners() {
+    return this.leaderboards.winners(8);
+  }
+
+  @Get('leaderboards/schools')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'School against school for a week' })
+  leaderboardSchools(@Query() query: AdminLeaderboardQuery) {
+    const week = query.week ?? weekOf(new Date());
+    if (!isWeekId(week)) throw new BadRequestException('week must be a Monday, e.g. 2026-11-16.');
+    return this.leaderboards.schools(week);
+  }
+
+  // ── Moderation (student reports, flags, security log) ──
+  @Get('moderation/reports')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Student reports with evidence (open by default)' })
+  moderationReports(@Query() query: ModerationListQuery) {
+    return this.moderation.listReports(query.status ?? 'open');
+  }
+
+  @Post('moderation/reports/:id/action')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Dismiss · warn · rename (username) · suspend (days) · ban — resolves the report' })
+  async moderate(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: ModerationActionDto) {
+    const { summary, studentId } = await this.moderation.act(staff, id, dto);
+    await this.auditLog.log(staff, 'student', studentId, `moderation_${dto.action}`, summary);
+    return { ok: true, summary };
+  }
+
+  @Get('moderation/flagged')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Auto-flagged students (requests paused until reviewed)' })
+  flaggedStudents() {
+    return this.moderation.flagged();
+  }
+
+  @Post('moderation/flagged/:id/clear')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Reviewed: lift the flag and the pause on requests' })
+  async clearFlag(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string) {
+    const { username } = await this.moderation.clearFlag(id);
+    await this.auditLog.log(staff, 'student', id, 'flag_cleared', `Cleared the review flag on @${username}`);
+    return { ok: true };
+  }
+
+  @Get('moderation/security-events')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Security log (newest 200), optionally by type or @username' })
+  securityEvents(@Query() query: SecurityEventsQuery) {
+    return this.moderation.securityEvents(query);
+  }
+
+  // ── Referrals & challenges ──
+  @Get('referrals')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Invites that led to sign-ups: per student and per school (optionally from/to dates)' })
+  referralReport(@Query() query: DateRangeQuery) {
+    return this.referrals.adminReport(query.from ? new Date(query.from) : undefined, query.to ? new Date(query.to) : undefined);
+  }
+
+  @Get('challenges/stats')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Challenges sent and completed (last 7 days and all time)' })
+  async challengeStats() {
+    const weekAgo = new Date(Date.now() - 7 * 86_400_000);
+    const [sentWeek, completedWeek, total, completed] = await Promise.all([
+      this.challengeModel.countDocuments({ createdAt: { $gte: weekAgo } }),
+      this.challengeModel.countDocuments({ status: 'completed', updatedAt: { $gte: weekAgo } }),
+      this.challengeModel.countDocuments({}),
+      this.challengeModel.countDocuments({ status: 'completed' }),
+    ]);
+    return { sentWeek, completedWeek, total, completed };
+  }
+
+  // ── Study groups (moderation) ──
+  @Get('groups')
+  @RequirePermission('moderateStudents')
+  adminGroups(@Query() query: GroupSearchQuery) {
+    return this.groupsAdmin.adminList(query.q);
+  }
+
+  @Get('groups/:id')
+  @RequirePermission('moderateStudents')
+  adminGroup(@Param('id', ParseObjectIdPipe) id: string) {
+    return this.groupsAdmin.adminDetail(id);
+  }
+
+  @Delete('groups/:id')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: 'Delete a study group (moderation)' })
+  async deleteGroup(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string) {
+    const { name, memberCount, ownerId } = await this.groupsAdmin.adminDelete(id);
+    // Logged against the owner so the activity log links to a real student.
+    await this.auditLog.log(staff, 'student', ownerId, 'group_deleted', `Deleted study group “${name}” (${memberCount} members)`);
+    return { ok: true };
+  }
+
+  // ── Badges ──
+  @Get('students/:id/badges')
+  @RequirePermission('viewStudents')
+  async studentBadges(@Param('id', ParseObjectIdPipe) id: string) {
+    const u = await this.userModel.findById(id).select('badgeOverrides').lean().exec();
+    return { badges: await this.badges.badgesOf(id), overrides: u?.badgeOverrides ?? {} };
+  }
+
+  @Patch('students/:id/badges')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Give or take away a manual badge (founding_tester, campus_ambassador)' })
+  async setBadge(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: BadgeDto) {
+    const u = await this.userModel.findById(id).exec();
+    if (!u || u.role) throw new BadRequestException('That student no longer exists.');
+    const granted = new Set(u.badgeOverrides?.granted ?? []);
+    const revoked = new Set(u.badgeOverrides?.revoked ?? []);
+    if (dto.give) {
+      granted.add(dto.badge);
+      revoked.delete(dto.badge);
+    } else {
+      granted.delete(dto.badge);
+      revoked.add(dto.badge);
+    }
+    u.badgeOverrides = { granted: [...granted], revoked: [...revoked] };
+    u.markModified('badgeOverrides');
+    await u.save();
+    await this.auditLog.log(staff, 'student', id, 'badge_changed', `${dto.give ? 'Gave' : 'Took away'} the ${dto.badge.replace('_', ' ')} badge ${dto.give ? 'to' : 'from'} @${u.username}`);
+    return { badges: await this.badges.badgesOf(id), overrides: u.badgeOverrides };
   }
 
   // ── Team (staff accounts) ──

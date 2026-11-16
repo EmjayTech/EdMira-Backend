@@ -19,6 +19,11 @@ export function configureApp(app: INestApplication) {
   // One log line per request (skipped under Jest to keep test output clean).
   if (process.env.NODE_ENV !== 'test') app.use(requestLogger);
 
+  // Render (and most hosts) put one proxy in front of the app: trust it, so
+  // req.ip is the student's address. Rate limits and the login lockout
+  // count per IP; without this every student shares the proxy's IP.
+  (app as NestExpressApplication).set('trust proxy', 1);
+
   // Security & Optimization
   app.use(helmet());
   app.use(compression());

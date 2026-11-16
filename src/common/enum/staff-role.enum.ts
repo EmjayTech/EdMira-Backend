@@ -7,5 +7,8 @@ export enum StaffRole {
 
 export enum AccountStatus {
   ACTIVE = 'active',
+  /** Can't log in — until `suspendedUntil` if set, otherwise until reactivated. */
   SUSPENDED = 'suspended',
+  /** Closed by moderation; can't log in. */
+  BANNED = 'banned',
 }

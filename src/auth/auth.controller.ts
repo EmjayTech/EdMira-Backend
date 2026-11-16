@@ -1,4 +1,5 @@
-import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Patch, Req } from '@nestjs/common';
+import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Patch, Req, Ip, Query } from '@nestjs/common';
+import { Throttle } from '@nestjs/throttler';
 import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
@@ -11,6 +12,8 @@ import { ResetPasswordDto } from './dto/rest-password.dto';
 import { SignupDto } from './dto/signup.dto';
 import { VerifyOtpDto } from './dto/verify-otp.dto';
 import { UpdateProfileDto } from './dto/update-profile.dto';
+import { ChangeUsernameDto } from './dto/change-username.dto';
+import { PrivacyDto } from './dto/privacy.dto';
 import { Public } from 'src/common/decorators/public.decorator';
 import { Request } from 'express';
 
@@ -48,11 +51,29 @@ export class AuthController {
 
   @Public()
   @Post('login')
-  @ApiOperation({ summary: 'Log in user' })
-  @ApiResponse({ status: 200, description: 'Login successful. Returns access and refresh tokens.' })
-  @ApiResponse({ status: 401, description: 'Invalid credentials or unverified email.' })
-  login(@Body() dto: LoginDto) {
-    return this.authService.login(dto);
+  @ApiOperation({ summary: 'Log in with email or username (any case) + password' })
+  @ApiResponse({ status: 201, description: 'Login successful. Returns access and refresh tokens.' })
+  @ApiResponse({ status: 401, description: 'code INVALID_CREDENTIALS — the same reply for any wrong email/username/password.' })
+  @ApiResponse({ status: 429, description: 'code LOGIN_LOCKED — 5 failures for this identifier from this IP in 15 minutes.' })
+  login(@Body() dto: LoginDto, @Ip() ip: string) {
+    return this.authService.login(dto, ip);
+  }
+
+  @Public()
+  @Get('username-available')
+  @Throttle({ default: { limit: 20, ttl: 60_000 } })
+  @ApiOperation({ summary: 'Live username check: { available } or { available: false, reason: invalid | reserved | offensive | taken }' })
+  usernameAvailable(@Query('username') username: string) {
+    return this.authService.usernameAvailability(username);
+  }
+
+  @Patch('username')
+  @ApiBearerAuth()
+  @ApiOperation({ summary: 'Change your username (once every 30 days). Returns the updated profile.' })
+  @ApiResponse({ status: 400, description: 'USERNAME_INVALID / RESERVED / OFFENSIVE, or USERNAME_CHANGE_TOO_SOON with nextChangeAt.' })
+  @ApiResponse({ status: 409, description: 'USERNAME_TAKEN' })
+  changeUsername(@GetCurrentUser('userId') userId: string, @Body() dto: ChangeUsernameDto) {
+    return this.authService.changeUsername(userId, dto);
   }
 
   @Post('logout')
@@ -84,6 +105,13 @@ export class AuthController {
     return this.authService.updateProfile(userId, dto);
   }
 
+  @Patch('privacy')
+  @ApiBearerAuth()
+  @ApiOperation({ summary: 'Update privacy settings (e.g. showOnLeaderboard). Returns the updated profile.' })
+  updatePrivacy(@GetCurrentUser('userId') userId: string, @Body() dto: PrivacyDto) {
+    return this.authService.updatePrivacy(userId, dto);
+  }
+
   @Public()
   @UseGuards(RtGuard)
   @Post('refresh')
@@ -100,7 +128,8 @@ export class AuthController {
 
   @Public()
   @Post('forgot-password')
-  @ApiOperation({ summary: 'Request password reset' })
+  @Throttle({ default: { limit: 5, ttl: 60_000 } })
+  @ApiOperation({ summary: 'Email a reset code — accepts email or username; same reply either way' })
   @ApiResponse({ status: 201, description: 'Reset code sent.' })
   forgotPassword(@Body() dto: ForgotPasswordDto) {
     return this.authService.forgotPassword(dto);

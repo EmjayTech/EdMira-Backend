@@ -1,3 +1,4 @@
+import * as bcrypt from 'bcrypt';
 import request from 'supertest';
 import { Types } from 'mongoose';
 import { seedSampleContent } from '../src/seed/seed-sample-content';
@@ -116,7 +117,7 @@ describe('auth', () => {
       .post(api('/auth/login'))
       .send({ email, password: 'nope' })
       .expect(401);
-    expect(res.body.message).toBe('Invalid credentials');
+    expect(res.body).toMatchObject({ code: 'INVALID_CREDENTIALS', message: 'Incorrect email/username or password.' });
   });
 
   it('logs in and returns the full profile', async () => {
@@ -142,6 +143,67 @@ describe('auth', () => {
     });
     expect(profile.body).not.toHaveProperty('password');
     expect(profile.body).not.toHaveProperty('refreshToken');
+  });
+
+  it('logs in with the username instead of the email, in any letter case', async () => {
+    for (const identifier of ['ada', 'ADA', '  Ada ', email]) {
+      const res = await http()
+        .post(api('/auth/login'))
+        .send({ identifier, password: 'Str0ng!Pass' })
+        .expect(201);
+      expect(res.body).toMatchObject({ accessToken: expect.any(String) });
+    }
+    const wrong = await http()
+      .post(api('/auth/login'))
+      .send({ identifier: 'ada', password: 'nope' })
+      .expect(401);
+    const unknown = await http().post(api('/auth/login')).send({ identifier: 'nobody', password: 'Str0ng!Pass' }).expect(401);
+    // An unknown account gets exactly the same reply as a wrong password.
+    expect(unknown.body).toEqual(wrong.body);
+    await http().post(api('/auth/login')).send({ password: 'Str0ng!Pass' }).expect(400);
+  });
+
+  it('refuses a username that is taken (in any case) or badly formed', async () => {
+    const taken = await http()
+      .post(api('/auth/signup'))
+      .send(signupBody('ada2@uni.edu', { username: 'ADA' }))
+      .expect(409);
+    expect(taken.body.message).toMatch(/username is already taken/);
+
+    for (const [username, code] of [
+      ['ad', 'USERNAME_INVALID'],
+      ['ada obi', 'USERNAME_INVALID'],
+      ['ada@uni', 'USERNAME_INVALID'],
+      ['x'.repeat(21), 'USERNAME_INVALID'],
+      ['.ada', 'USERNAME_INVALID'],
+      ['Support', 'USERNAME_RESERVED'],
+      ['edmira_team', 'USERNAME_RESERVED'],
+      ['b1tch', 'USERNAME_OFFENSIVE'],
+    ]) {
+      const res = await http().post(api('/auth/signup')).send(signupBody('ada3@uni.edu', { username })).expect(400);
+      expect(res.body.code).toBe(code);
+    }
+  });
+
+  it('still logs in older accounts that share a username — the password decides', async () => {
+    const users = server.connection.collection('users');
+    const legacy = (email: string, password: string) =>
+      bcrypt.hash(password, 4).then(hash =>
+        users.insertOne({ email, username: 'twin', password: hash, isVerified: true, userType: 'STUDENT' }),
+      );
+    await legacy('twin1@uni.edu', 'Tw1n!One');
+    await legacy('twin2@uni.edu', 'Tw1n!Two');
+    await legacy('twin3@uni.edu', 'Tw1n!Two');
+
+    const one = await http().post(api('/auth/login')).send({ identifier: 'twin', password: 'Tw1n!One' }).expect(201);
+    const profile = await http().get(api('/auth/profile')).set(auth(one.body.accessToken)).expect(200);
+    expect(profile.body.email).toBe('twin1@uni.edu');
+
+    // One password opens two of them: we can't tell which is meant, so the
+    // usual error — those students can still log in with their email.
+    const both = await http().post(api('/auth/login')).send({ identifier: 'twin', password: 'Tw1n!Two' }).expect(401);
+    expect(both.body.code).toBe('INVALID_CREDENTIALS');
+    await http().post(api('/auth/login')).send({ email: 'twin2@uni.edu', password: 'Tw1n!Two' }).expect(201);
   });
 
   it('never serves one student’s profile to another', async () => {
@@ -206,6 +268,81 @@ describe('auth', () => {
   it('logs out and revokes the access token', async () => {
     await http().post(api('/auth/logout')).set(auth(tokens.accessToken)).expect(200);
     await http().get(api('/auth/profile')).set(auth(tokens.accessToken)).expect(401);
+  });
+});
+
+describe('usernames', () => {
+  const email = 'femi@uni.edu';
+  let token: string;
+
+  beforeAll(async () => {
+    await http().post(api('/auth/signup')).send(signupBody(email, { username: 'Femi_K' })).expect(201);
+    const res = await http().post(api('/auth/verify')).send({ email, code: mail.lastCode(email) }).expect(201);
+    token = res.body.accessToken;
+    expect(res.body.user).toMatchObject({ username: 'Femi_K', usernameChangeAvailableAt: null });
+    expect(res.body.user).not.toHaveProperty('usernameLower');
+  });
+
+  it('answers the live availability check', async () => {
+    const check = async (username: string) =>
+      (await http().get(api('/auth/username-available')).query({ username }).expect(200)).body;
+    expect(await check('femi_k')).toEqual({ available: false, reason: 'taken' });
+    expect(await check('brand_new')).toEqual({ available: true });
+    expect(await check('admin')).toEqual({ available: false, reason: 'reserved' });
+    expect(await check('a b')).toEqual({ available: false, reason: 'invalid' });
+  });
+
+  it('emails a reset code when the student types their username, with a reply that reveals nothing', async () => {
+    const known = await http().post(api('/auth/forgot-password')).send({ identifier: 'FEMI_K' }).expect(201);
+    const unknown = await http().post(api('/auth/forgot-password')).send({ identifier: 'no_such_user' }).expect(201);
+    expect(known.body).toEqual(unknown.body);
+    // Asking again within the 60 s cooldown gets the same reply too (no "please wait" that would reveal the account).
+    const again = await http().post(api('/auth/forgot-password')).send({ identifier: 'femi_k' }).expect(201);
+    expect(again.body).toEqual(unknown.body);
+    const code = mail.lastCode(email);
+    expect(mail.sent.at(-1)).toMatchObject({ to: email, kind: 'reset' });
+
+    const wrongAccount = await http()
+      .post(api('/auth/reset-password'))
+      .send({ identifier: 'no_such_user', code, newPassword: 'N3w!Femi1' })
+      .expect(400);
+    expect(wrongAccount.body.message).toBe('That code is invalid or has expired.');
+
+    await http().post(api('/auth/reset-password')).send({ identifier: 'femi_k', code, newPassword: 'N3w!Femi1' }).expect(201);
+    await http().post(api('/auth/login')).send({ identifier: 'Femi_K', password: 'N3w!Femi1' }).expect(201);
+  });
+
+  it('changes the username once every 30 days and reserves the old one', async () => {
+    const res = await http().patch(api('/auth/username')).set(auth(token)).send({ username: 'femi.k' }).expect(200);
+    expect(res.body.username).toBe('femi.k');
+    expect(new Date(res.body.usernameChangeAvailableAt).getTime()).toBeGreaterThan(Date.now() + 29 * 86_400_000);
+
+    // Log in with the new name; the old one no longer works for him…
+    await http().post(api('/auth/login')).send({ identifier: 'FEMI.K', password: 'N3w!Femi1' }).expect(201);
+    await http().post(api('/auth/login')).send({ identifier: 'femi_k', password: 'N3w!Femi1' }).expect(401);
+    // …and nobody else can take it for 30 days.
+    const taken = await http().post(api('/auth/signup')).send(signupBody('copycat@uni.edu', { username: 'femi_k' })).expect(409);
+    expect(taken.body.code).toBe('USERNAME_TAKEN');
+
+    const tooSoon = await http().patch(api('/auth/username')).set(auth(token)).send({ username: 'femi_again' }).expect(400);
+    expect(tooSoon.body).toMatchObject({ code: 'USERNAME_CHANGE_TOO_SOON', nextChangeAt: expect.any(String) });
+    // Changing only the letter case is always allowed.
+    await http().patch(api('/auth/username')).set(auth(token)).send({ username: 'Femi.K' }).expect(200);
+    await http().patch(api('/auth/username')).send({ username: 'x_y_z' }).expect(401);
+  });
+
+  it('locks out an identifier after 5 failed logins from the same IP', async () => {
+    for (let i = 0; i < 5; i++) {
+      await http().post(api('/auth/login')).send({ identifier: 'locked_test', password: 'nope' }).expect(401);
+    }
+    const res = await http().post(api('/auth/login')).send({ identifier: 'locked_test', password: 'nope' }).expect(429);
+    expect(res.body).toMatchObject({ code: 'LOGIN_LOCKED', retryAfterSeconds: expect.any(Number) });
+  });
+
+  it('records username logins for analytics, without personal data', async () => {
+    const events = await server.connection.collection('analytics_events').find({ name: 'login_with_username' }).toArray();
+    expect(events.length).toBeGreaterThan(0);
+    expect(Object.keys(events[0]).sort()).toEqual(['__v', '_id', 'createdAt', 'name', 'userId']);
   });
 });
 
@@ -377,5 +514,137 @@ describe('learning', () => {
       .set(auth(student.accessToken))
       .expect(200);
     expect(one.body.body.length).toBeGreaterThan(0);
+  });
+});
+
+describe('leaderboards', () => {
+  const profile = (institution: string) => ({
+    institution,
+    faculty: 'Faculty of Clinical Sciences',
+    department: 'Medicine & Surgery (MBBS)',
+    levelType: 'Undergraduate',
+    level: '500 Level',
+  });
+  const join = async (email: string, institution: string) => {
+    await http().post(api('/auth/signup')).send(signupBody(email, { studentProfile: profile(institution) })).expect(201);
+    const res = await http().post(api('/auth/verify')).send({ email, code: mail.lastCode(email) }).expect(201);
+    return res.body.accessToken as string;
+  };
+  let kemi: string, tolu: string, zara: string;
+  let topicId: string;
+  /** Published questions in the topic (an earlier test unpublishes one). */
+  let n: number;
+
+  /** Submit a quiz on `topicId` with `right` correct answers. */
+  const take = async (token: string, right: number, startedAt = new Date(Date.now() - 10 * 60_000)) => {
+    const questions = await server.connection
+      .collection('questions')
+      .find({ topicId: new Types.ObjectId(topicId), status: 'published' })
+      .toArray();
+    const answers = questions.map((q, i) => ({
+      questionId: String(q._id),
+      selectedIndex: i < right ? q.answerIndex : (q.answerIndex + 1) % q.options.length,
+    }));
+    return http().post(api('/quiz-attempts')).set(auth(token)).send({ topicId, startedAt: startedAt.toISOString(), answers }).expect(201);
+  };
+  const board = async (token: string, scope: string) =>
+    (await http().get(api('/leaderboards')).query({ scope }).set(auth(token)).expect(200)).body;
+
+  beforeAll(async () => {
+    kemi = await join('kemi@ui.edu.ng', 'University of Ibadan');
+    tolu = await join('tolu@ui.edu.ng', 'University of Ibadan');
+    zara = await join('zara@unilag.edu.ng', 'University of Lagos');
+    const courses = (await http().get(api('/courses')).set(auth(kemi)).expect(200)).body;
+    topicId = courses[0].topics[0].id;
+    n = (await http().get(api(`/topics/${topicId}/questions`)).set(auth(kemi)).expect(200)).body.length;
+    expect(n).toBeGreaterThanOrEqual(3);
+
+    await take(kemi, n); // n correct + 2 completed + 2 active day
+    await take(tolu, 3); // 3 + 2 + 2 = 7
+    await take(zara, 1); // 1 + 2 + 2 = 5
+  });
+
+  it('ranks classmates ("My course" = same school, programme and level) with public details only', async () => {
+    const res = await board(kemi, 'course');
+    expect(res.entries.map((e: any) => [e.username, e.points])).toEqual([
+      ['kemi', n + 4],
+      ['tolu', 7],
+    ]);
+    expect(res.entries[0]).toEqual({ rank: 1, username: 'kemi', anonymous: false, school: 'UI', level: '500 Level', points: n + 4, isMe: true });
+    expect(res.me).toMatchObject({ rank: 1, points: n + 4, nextTier: null });
+    // Nothing personal anywhere in the response.
+    const json = JSON.stringify(res);
+    for (const secret of ['@ui.edu.ng', 'Ada', 'Obi', '8012345678', 'studentId']) expect(json).not.toContain(secret);
+  });
+
+  it('widens to the level and the whole school, and shows the gap to the next tier', async () => {
+    const level = await board(zara, 'level');
+    expect(level.entries.map((e: any) => e.username)).toEqual(['kemi', 'tolu', 'zara']);
+    expect(level.me).toMatchObject({ rank: 3, points: 5, nextTier: { rank: 1, pointsNeeded: n + 4 - 5 + 1 } });
+    expect((await board(zara, 'school')).entries.map((e: any) => e.username)).toEqual(['zara']);
+    expect((await board(zara, 'all')).totalStudents).toBeGreaterThanOrEqual(3);
+  });
+
+  it('counts each question once a week and ignores quizzes tapped through too fast', async () => {
+    await take(kemi, n); // same questions again: only the completed-quiz points
+    await take(tolu, n, new Date(Date.now() - 2_000)); // n questions in 2 s → nothing
+    const res = await board(kemi, 'course');
+    expect(res.entries.map((e: any) => [e.username, e.points])).toEqual([
+      ['kemi', n + 6],
+      ['tolu', 7],
+    ]);
+  });
+
+  it('shows students who opt out as "Anonymous student" to others — immediately', async () => {
+    const updated = await http().patch(api('/auth/privacy')).set(auth(tolu)).send({ showOnLeaderboard: false }).expect(200);
+    expect(updated.body.privacy).toEqual({ showOnLeaderboard: false });
+
+    const seenByKemi = (await board(kemi, 'course')).entries[1];
+    expect(seenByKemi).toMatchObject({ username: null, anonymous: true, points: 7, school: 'UI' });
+    const seenByTolu = (await board(tolu, 'course')).entries[1];
+    expect(seenByTolu).toMatchObject({ username: 'tolu', isMe: true });
+
+    await http().patch(api('/auth/privacy')).set(auth(tolu)).send({ showOnLeaderboard: true }).expect(200);
+    expect((await board(kemi, 'course')).entries[1].username).toBe('tolu');
+  });
+
+  it('compares schools by total and average points', async () => {
+    const res = (await http().get(api('/leaderboards/schools')).set(auth(kemi)).expect(200)).body;
+    const ui = res.schools.find((s: any) => s.school === 'UI');
+    expect(ui).toMatchObject({ totalPoints: n + 6 + 7, students: 2, averagePoints: Math.round((n + 13) / 2) });
+    expect(res.schools.find((s: any) => s.school === 'UNILAG')).toMatchObject({ students: 1 });
+  });
+
+  it('summarises streak, mastered topics and this week for share cards', async () => {
+    const res = (await http().get(api('/me/progress-summary')).set(auth(kemi)).expect(200)).body;
+    expect(res).toMatchObject({ streakDays: 1, topicsMastered: 1, weekPoints: n + 6, weekRank: expect.any(Number) });
+  });
+
+  it('rebuilds a week to the same totals (safe to re-run)', async () => {
+    const { LeaderboardService } = await import('../src/leaderboard/leaderboard.service');
+    const { weekOf } = await import('../src/leaderboard/week');
+    await server.app.get(LeaderboardService).rebuildWeek(weekOf(new Date()));
+    expect((await board(kemi, 'course')).entries.map((e: any) => e.points)).toEqual([n + 6, 7]);
+  });
+
+  it('moves the student to their new classmates when they change school in Edit profile', async () => {
+    await http()
+      .patch(api('/auth/profile'))
+      .set(auth(zara))
+      .send({ studentProfile: { institution: 'University of Ibadan' } })
+      .expect(200);
+    expect((await board(kemi, 'course')).entries.map((e: any) => e.username)).toEqual(['kemi', 'tolu', 'zara']);
+  });
+
+  it('accepts only known analytics events, without personal data', async () => {
+    await http().post(api('/analytics/events')).set(auth(kemi)).send({ name: 'leaderboard_viewed', detail: 'course' }).expect(204);
+    await http().post(api('/analytics/events')).set(auth(kemi)).send({ name: 'progress_card_shared', detail: 'quiz_score' }).expect(204);
+    await http().post(api('/analytics/events')).set(auth(kemi)).send({ name: 'hack' }).expect(400);
+    await http().post(api('/analytics/events')).set(auth(kemi)).send({ name: 'leaderboard_viewed', detail: 'kemi@ui.edu.ng' }).expect(400);
+    await http().post(api('/analytics/events')).send({ name: 'leaderboard_viewed' }).expect(401);
+    // Recorded in the background.
+    await new Promise(r => setTimeout(r, 50));
+    const events = await server.connection.collection('analytics_events').find({ name: 'progress_card_shared' }).toArray();
+    expect(events[0].props).toEqual({ detail: 'quiz_score' });
   });
 });

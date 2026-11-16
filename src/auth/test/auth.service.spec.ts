@@ -13,10 +13,16 @@ import { Department } from '../../common/enum/department.enum';
 import { Institution } from '../../common/enum/institution.enum';
 import { Level, LevelType } from '../../common/enum/level.enum';
 import { SignupDto } from '../dto/signup.dto';
+import { UsernameService } from '../../users/username.service';
+import { LoginAttemptsService } from '../login-attempts.service';
+import { AnalyticsService } from '../../analytics/analytics.service';
+import { LeaderboardService } from '../../leaderboard/leaderboard.service';
+import { ReferralsService } from '../../social/referrals.service';
 
 jest.mock('bcrypt', () => ({
   compare: jest.fn(),
   hash: jest.fn().mockResolvedValue('hashedPassword'),
+  hashSync: jest.fn().mockReturnValue('timing-guard-hash'),
 }));
 
 const signupDto: SignupDto = {
@@ -43,12 +49,17 @@ describe('AuthService', () => {
   const cache = new Map<string, unknown>();
   const users = {
     findByEmail: jest.fn(),
+    findByUsername: jest.fn().mockResolvedValue([]),
+    usernameInUse: jest.fn().mockResolvedValue(false),
+    setUsername: jest.fn(),
     findById: jest.fn(),
     create: jest.fn(),
     updateRefreshToken: jest.fn(),
     updateFields: jest.fn(),
     touchLastLogin: jest.fn(),
   };
+  const usernameHistory = { exists: jest.fn().mockResolvedValue(null), create: jest.fn() };
+  const analytics = { track: jest.fn() };
   const email = {
     sendWelcomeAndVerificationEmail: jest.fn(),
     sendResendOtpEmail: jest.fn(),
@@ -62,6 +73,11 @@ describe('AuthService', () => {
       providers: [
         AuthService,
         { provide: UsersRepository, useValue: users },
+        { provide: UsernameService, useFactory: () => new UsernameService(users as any, usernameHistory as any) },
+        LoginAttemptsService,
+        { provide: AnalyticsService, useValue: analytics },
+        { provide: LeaderboardService, useValue: { syncAcademics: jest.fn() } },
+        { provide: ReferralsService, useValue: { attribute: jest.fn().mockResolvedValue(undefined), count: jest.fn().mockResolvedValue(0) } },
         { provide: EmailService, useValue: email },
         { provide: OtpService, useValue: {} },
         { provide: JwtService, useValue: { signAsync: jest.fn().mockResolvedValue('signed.jwt.token') } },
@@ -100,6 +116,29 @@ describe('AuthService', () => {
       // Nothing left pending, so the student can simply try again.
       users.findByEmail.mockResolvedValue(null);
       await expect(service.signup(signupDto)).resolves.toHaveProperty('message');
+    });
+
+    it('refuses a username that is already taken', async () => {
+      users.findByEmail.mockResolvedValue(null);
+      users.usernameInUse.mockResolvedValueOnce(true);
+      await expect(service.signup(signupDto)).rejects.toThrow('username is already taken');
+      expect(email.sendWelcomeAndVerificationEmail).not.toHaveBeenCalledWith(
+        expect.anything(), expect.anything(), expect.anything(), expect.anything(),
+      );
+    });
+
+    it('refuses reserved, offensive and badly formed usernames before emailing a code', async () => {
+      users.findByEmail.mockResolvedValue(null);
+      for (const [username, code] of [
+        ['support', 'USERNAME_RESERVED'],
+        ['EdMira_NG', 'USERNAME_RESERVED'],
+        ['sh1thead', 'USERNAME_OFFENSIVE'],
+        ['ada obi', 'USERNAME_INVALID'],
+      ]) {
+        const error = await service.signup({ ...signupDto, username }).catch(e => e);
+        expect(error.getResponse()).toMatchObject({ code });
+      }
+      expect(email.sendWelcomeAndVerificationEmail).not.toHaveBeenCalled();
     });
 
     it('refuses an email that is already registered', async () => {
@@ -168,6 +207,34 @@ describe('AuthService', () => {
       await expect(service.login({ email: 'test@example.com', password: 'nope' })).rejects.toThrow(
         UnauthorizedException,
       );
+    });
+
+    it('gives the same error for an unknown account, and still checks a password (timing)', async () => {
+      users.findByEmail.mockResolvedValue(null);
+      (bcrypt.compare as jest.Mock).mockClear().mockResolvedValue(false);
+      const unknown = await service.login({ email: 'nobody@example.com', password: 'x' }).catch(e => e);
+      users.findByEmail.mockResolvedValue({ _id: 'u1', password: 'hash', isVerified: true });
+      const wrong = await service.login({ email: 'test@example.com', password: 'x' }).catch(e => e);
+      expect(unknown.getResponse()).toEqual(wrong.getResponse());
+      expect(unknown.getResponse()).toMatchObject({ code: 'INVALID_CREDENTIALS', message: 'Incorrect email/username or password.' });
+      expect(bcrypt.compare).toHaveBeenCalledWith('x', 'timing-guard-hash');
+    });
+
+    it('locks an identifier + IP out after 5 failures, and records username logins', async () => {
+      users.findByUsername.mockResolvedValue([]);
+      for (let i = 0; i < 5; i++) {
+        await expect(service.login({ identifier: 'ada', password: 'x' }, '1.2.3.4')).rejects.toThrow(UnauthorizedException);
+      }
+      const locked = await service.login({ identifier: 'ADA', password: 'x' }, '1.2.3.4').catch(e => e);
+      expect(locked.getStatus()).toBe(429);
+      expect(locked.getResponse()).toMatchObject({ code: 'LOGIN_LOCKED' });
+      // Another IP isn't affected.
+      await expect(service.login({ identifier: 'ada', password: 'x' }, '5.6.7.8')).rejects.toThrow(UnauthorizedException);
+
+      users.findByUsername.mockResolvedValue([{ _id: 'u2', password: 'hash', isVerified: true }]);
+      (bcrypt.compare as jest.Mock).mockResolvedValue(true);
+      await service.login({ identifier: 'ada', password: 'right' }, '5.6.7.8');
+      expect(analytics.track).toHaveBeenCalledWith('login_with_username', 'u2');
     });
   });
 

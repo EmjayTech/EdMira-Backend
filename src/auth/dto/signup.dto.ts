@@ -7,8 +7,9 @@ import {
   IsEnum,
   MinLength,
   Matches,
+  MaxLength,
 } from 'class-validator';
-import { Type } from 'class-transformer';
+import { Transform, Type } from 'class-transformer';
 import { UserType } from '../../common/enum/user-type.enum';
 import { StudentProfileDto } from './studentProfile.dto';
 import { ProfessionalProfileDto } from './professionalProfile.dto';
@@ -24,8 +25,12 @@ export class SignupDto {
   @ApiProperty({ example: 'Doe' })
   @IsString() @IsNotEmpty() lastName: string;
 
-  @ApiProperty({ example: 'johndoe' })
-  @IsString() @IsNotEmpty() username: string;
+  @ApiProperty({ example: 'johndoe', description: '3–20 letters, numbers, _ or . (also used to log in)' })
+  @Transform(({ value }) => (typeof value === 'string' ? value.trim() : value))
+  // The rules (format, reserved, offensive, taken) are checked by
+  // UsernameService so the error says which one failed (users/username-policy.ts).
+  @IsString() @IsNotEmpty() @MaxLength(64)
+  username: string;
 
   @ApiProperty({ example: 'john@example.com' })
   @IsEmail() email: string;

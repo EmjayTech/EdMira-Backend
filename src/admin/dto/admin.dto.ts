@@ -240,3 +240,44 @@ export class NewsSourceInputDto {
   @ApiProperty({ required: false, default: false, description: 'Publish found stories without waiting as drafts' })
   @IsOptional() @IsBoolean() autoPublish?: boolean;
 }
+
+/** Admin leaderboard filters. `week` is a Lagos Monday, e.g. "2026-11-16" (default: this week). */
+export class AdminLeaderboardQuery {
+  @ApiProperty({ required: false, example: '2026-11-16' }) @IsOptional() @Matches(/^\d{4}-\d{2}-\d{2}$/) week?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) institution?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) department?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(60) level?: string;
+}
+
+export class ModerationListQuery {
+  @ApiProperty({ required: false, enum: ['open', 'resolved'] }) @IsOptional() @IsIn(['open', 'resolved']) status?: 'open' | 'resolved';
+}
+
+export class ModerationActionDto {
+  @ApiProperty({ enum: ['dismiss', 'warn', 'rename', 'suspend', 'ban'] })
+  @IsIn(['dismiss', 'warn', 'rename', 'suspend', 'ban'])
+  action: 'dismiss' | 'warn' | 'rename' | 'suspend' | 'ban';
+
+  @ApiProperty({ required: false, description: 'Suspend: 1–365 days' }) @IsOptional() @IsInt() @Min(1) days?: number;
+  @ApiProperty({ required: false, description: 'Rename: the new username' }) @IsOptional() @IsString() @MaxLength(64) username?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(500) note?: string;
+}
+
+export class SecurityEventsQuery {
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(40) type?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(64) username?: string;
+}
+
+export class DateRangeQuery {
+  @ApiProperty({ required: false, example: '2026-11-01' }) @IsOptional() @IsISO8601() from?: string;
+  @ApiProperty({ required: false, example: '2026-12-01' }) @IsOptional() @IsISO8601() to?: string;
+}
+
+export class GroupSearchQuery {
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(60) q?: string;
+}
+
+export class BadgeDto {
+  @ApiProperty({ enum: ['founding_tester', 'campus_ambassador'] }) @IsIn(['founding_tester', 'campus_ambassador']) badge: 'founding_tester' | 'campus_ambassador';
+  @ApiProperty() @IsBoolean() give: boolean;
+}

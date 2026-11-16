@@ -12,6 +12,7 @@ import * as bcrypt from 'bcrypt';
 import mongoose from 'mongoose';
 import { SALT_ROUNDS } from '../common/config/constants';
 import { StaffRole } from '../common/enum/staff-role.enum';
+import { usernameStem } from '../users/username-policy';
 import { userModel } from '../users/model/user.model';
 
 function parseArgs(argv: string[]) {
@@ -57,13 +58,22 @@ async function main() {
       password: await bcrypt.hash(password, SALT_ROUNDS),
       firstName,
       lastName: rest.join(' '),
-      username: email.split('@')[0],
+      username: await freeUsername(User, email.split('@')[0]),
       role: newRole,
       isVerified: true,
     });
     console.log(`Created ${newRole} account ${email}`);
   }
   await mongoose.disconnect();
+}
+
+/** "ada" → "ada", "ada1", "ada2"… — the first one nobody uses (staff may use reserved names). */
+async function freeUsername(model: mongoose.Model<any>, base: string) {
+  const stem = usernameStem(base);
+  for (let n = 0; ; n++) {
+    const candidate = n ? `${stem}${n}` : stem;
+    if (!(await model.exists({ usernameLower: candidate }))) return candidate;
+  }
 }
 
 main().catch(error => {

@@ -383,7 +383,35 @@ describe('reports, feedback, students', () => {
     const student = res.body.find((s: any) => s.email === 'student@uni.edu');
     expect(student).toMatchObject({ institution: 'University of Lagos', level: '200 Level', status: 'active' });
     expect(new Date(student.joinedAt).getTime()).toBeGreaterThan(0);
+    expect(student.username).toBe('sade');
     studentId = student.id;
+  });
+
+  it('lets an admin change a student\'s username (moderation), with history and an audit entry', async () => {
+    await as('reviewer').patch(`/admin/students/${studentId}/username`, { username: 'sade_new' }).expect(403);
+    const bad = await as('admin').patch(`/admin/students/${studentId}/username`, { username: 'b1tch' }).expect(400);
+    expect(bad.body.code).toBe('USERNAME_OFFENSIVE');
+
+    const res = await as('admin').patch(`/admin/students/${studentId}/username`, { username: 'sade_new' }).expect(200);
+    expect(res.body.username).toBe('sade_new');
+    const history = await as('admin').get(`/admin/students/${studentId}/usernames`).expect(200);
+    expect(history.body[0]).toMatchObject({ username: 'sade', changedBy: expect.any(String) });
+    const audit = await as('admin').get('/admin/audit-log').expect(200);
+    expect(JSON.stringify(audit.body)).toContain('@sade → @sade_new');
+
+    // A staff change doesn't use up the student's own 30-day allowance.
+    const own = await as('student').patch('/auth/username', { username: 'sade.o' }).expect(200);
+    expect(own.body.username).toBe('sade.o');
+  });
+
+  it('shows admins the weekly leaderboard with names, winners and schools', async () => {
+    await as('reviewer').get('/admin/leaderboards').expect(403);
+    await as('admin').get('/admin/leaderboards').query({ week: '2026-11-17' }).expect(400); // not a Monday
+    const board = await as('admin').get('/admin/leaderboards').expect(200);
+    expect(board.body).toMatchObject({ week: expect.stringMatching(/^\d{4}-\d{2}-\d{2}$/), entries: expect.any(Array) });
+    const winners = await as('admin').get('/admin/leaderboards/winners').expect(200);
+    expect(winners.body).toHaveLength(8);
+    await as('admin').get('/admin/leaderboards/schools').expect(200);
   });
 
   it('suspends a student at once, and reactivates them', async () => {
@@ -406,9 +434,17 @@ describe('reports, feedback, students', () => {
   });
 
   it('shares quiz attempts with every role (overview metrics)', async () => {
-    const [course] = (await as('student').get('/courses')).body;
-    const topicId = course.topics[0].id;
-    const questions = (await as('student').get(`/topics/${topicId}/questions`)).body;
+    // Any published topic with questions (course order isn't fixed).
+    const courses = (await as('student').get('/courses').expect(200)).body;
+    let topicId = '';
+    let questions: any[] = [];
+    for (const t of courses.flatMap((c: any) => c.topics)) {
+      const res = await as('student').get(`/topics/${t.id}/questions`);
+      if (res.status === 200 && res.body.length) {
+        [topicId, questions] = [t.id, res.body];
+        break;
+      }
+    }
     await as('student').post('/quiz-attempts', {
       topicId,
       startedAt: new Date().toISOString(),
@@ -762,7 +798,8 @@ describe('bulk import, bulk review and AI drafting', () => {
     expect((pdf.body as Buffer).subarray(0, 5).toString()).toBe('%PDF-');
     expect((pdf.body as Buffer).length).toBeGreaterThan(2000);
 
-    await http().get(pathOf(link.url).replace(/sig=\w/, 'sig=0')).expect(404);
+    // Flip the signature's first character (always to a different one).
+    await http().get(pathOf(link.url).replace(/sig=(\w)/, (_m, c: string) => `sig=${c === '0' ? '1' : '0'}`)).expect(404);
     await http().get(pathOf(link.url).replace('/topic/', '/course/')).expect(404); // signature is per scope + id
 
     const course = (await as('student').get(`/courses/${libCourse.id}/notes`).expect(200)).body;

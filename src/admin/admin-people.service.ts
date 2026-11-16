@@ -17,6 +17,7 @@ import { adminAttempt, adminFeedback, adminReport, adminStudent } from './admin.
 import { AuditService } from './audit/audit.service';
 import { FeedbackUpdateDto, ReportUpdateDto } from './dto/admin.dto';
 import type { Staff } from './staff.guard';
+import { UsernameService } from '../users/username.service';
 
 const short = (text: string, n = 60) => (text.length > n ? `${text.slice(0, n - 1)}…` : text);
 
@@ -35,6 +36,7 @@ export class AdminPeopleService {
     @InjectModel(QuizAttempt.name) private readonly attempts: Model<QuizAttemptDocument>,
     @Inject(CACHE_MANAGER) private readonly cache: Cache,
     private readonly audit: AuditService,
+    private readonly usernames: UsernameService,
   ) {}
 
   // ── Reports ────────────────────────────────────────────────────────────────
@@ -98,7 +100,8 @@ export class AdminPeopleService {
     const student = await this.users.findOne({ _id: id, ...NOT_STAFF }).exec();
     if (!student) throw new NotFoundException('That student no longer exists.');
     student.status = status;
-    if (status === AccountStatus.SUSPENDED) {
+    student.suspendedUntil = undefined; // a manual change replaces any timed suspension
+    if (status !== AccountStatus.ACTIVE) {
       student.refreshToken = null; // no more refreshes
       await this.cache.set(suspendedKey(id), '1', SUSPENSION_FLAG_TTL_MS); // live tokens stop now
     } else {
@@ -114,6 +117,31 @@ export class AdminPeopleService {
       `${status === AccountStatus.SUSPENDED ? 'Suspended' : 'Reactivated'} student ${name}`,
     );
     return adminStudent(student);
+  }
+
+  /**
+   * Moderation: give a student a new username (e.g. an offensive one).
+   * Skips the 30-day limit; the old name is reserved for 30 days.
+   */
+  async changeStudentUsername(staff: Staff, id: string, username: string) {
+    const student = await this.users.findOne({ _id: id, ...NOT_STAFF }).exec();
+    if (!student) throw new NotFoundException('That student no longer exists.');
+    const before = student.username;
+    const updated = await this.usernames.change(student, username, { staffName: staff.name });
+    if (!updated) throw new NotFoundException('That student no longer exists.');
+    await this.audit.log(staff, 'student', id, 'username_changed', `Changed username @${before ?? '—'} → @${updated.username}`);
+    return adminStudent(updated);
+  }
+
+  /** A student's previous usernames, newest first. */
+  async studentUsernameHistory(id: string) {
+    const rows = await this.usernames.historyOf(id);
+    return rows.map(r => ({
+      username: r.username,
+      releasedAt: r.releasedAt.toISOString(),
+      reservedUntil: r.reservedUntil.toISOString(),
+      changedBy: r.changedBy,
+    }));
   }
 
   // ── Attempts ───────────────────────────────────────────────────────────────

@@ -22,3 +22,13 @@ describe('ACADEMIC_OPTIONS', () => {
     });
   });
 });
+
+describe('school short names', () => {
+  it('has a short name for every school', () => {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { SCHOOL_SHORT_NAMES } = require('./school-short-names');
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { Institution } = require('../common/enum/institution.enum');
+    for (const school of Object.values(Institution)) expect(SCHOOL_SHORT_NAMES[school as string]).toBeTruthy();
+  });
+});

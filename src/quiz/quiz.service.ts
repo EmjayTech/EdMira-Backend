@@ -6,6 +6,7 @@ import { ContentService } from '../content/content.service';
 import { SubmitAttemptDto } from './dto/submit-attempt.dto';
 import { QuizAttempt, QuizAttemptDocument } from './quiz-attempt.schema';
 import { presentAttempt } from './quiz.presenter';
+import { LeaderboardService } from '../leaderboard/leaderboard.service';
 
 const HISTORY_LIMIT = 500;
 const DUPLICATE_KEY = 11000;
@@ -15,6 +16,7 @@ export class QuizService {
   constructor(
     @InjectModel(QuizAttempt.name) private readonly attempts: Model<QuizAttemptDocument>,
     private readonly content: ContentService,
+    private readonly leaderboards: LeaderboardService,
   ) {}
 
   /**
@@ -72,6 +74,7 @@ export class QuizService {
         score: Math.round((correctCount / graded.length) * 100),
         answers: graded,
       });
+      await this.leaderboards.recomputeQuietly(studentObjectId);
       return presentAttempt(attempt);
     } catch (error) {
       // Two identical submissions raced; return the one that won.

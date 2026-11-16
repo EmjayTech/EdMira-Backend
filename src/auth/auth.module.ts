@@ -17,6 +17,9 @@ import { RolesGuard } from '../common/guards/roles.guard';
 import { EmailService } from '../mailer/mailer.service';
 import { Otp, OtpSchema } from '../otp/schema/otp.schema';
 import { UserModule } from '../users/user.module';
+import { LoginAttemptsService } from './login-attempts.service';
+import { LeaderboardModule } from '../leaderboard/leaderboard.module';
+import { SocialModule } from '../social/social.module';
 
 
 @Module({
@@ -24,6 +27,8 @@ import { UserModule } from '../users/user.module';
     ConfigModule,
     PassportModule,
     UserModule,
+    LeaderboardModule,
+    SocialModule,
 
     /**
      * ✅ Mongoose Schemas (OTP only — User is provided by UserModule)
@@ -51,6 +56,7 @@ import { UserModule } from '../users/user.module';
 
   providers: [
     AuthService,
+    LoginAttemptsService,
     OtpService,
     OtpRepository,
     EmailService,

@@ -16,6 +16,9 @@ import { StorageModule } from './storage/storage.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import { redisStore } from 'cache-manager-redis-store';
 import * as Joi from 'joi';
+import { AnalyticsModule } from './analytics/analytics.module';
+import { LeaderboardModule } from './leaderboard/leaderboard.module';
+import { SocialModule } from './social/social.module';
 
 @Module({
   imports: [
@@ -79,6 +82,9 @@ import * as Joi from 'joi';
       }),
       inject: [ConfigService],
     }),
+    AnalyticsModule,
+    LeaderboardModule,
+    SocialModule,
     AuthModule,
     HealthModule,
     ReferenceModule,

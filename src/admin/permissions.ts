@@ -17,6 +17,8 @@ export const PERMISSIONS = {
   handleReports: [StaffRole.ADMIN, StaffRole.REVIEWER],
   viewFeedback: [StaffRole.ADMIN],
   viewStudents: [StaffRole.ADMIN],
+  /** Student reports, flags, warnings, suspensions, bans, security log. */
+  moderateStudents: [StaffRole.ADMIN],
   viewAudit: [StaffRole.ADMIN],
   /** Write and publish campus news (no medical review needed). */
   manageNews: [StaffRole.ADMIN],

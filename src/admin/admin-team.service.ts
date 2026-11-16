@@ -17,6 +17,7 @@ import { EmailService } from '../mailer/mailer.service';
 import { User, UserDocument } from '../users/model/user.model';
 import { AuditService } from './audit/audit.service';
 import { AcceptInviteDto, TeamInviteDto } from './dto/admin.dto';
+import { UsernameService } from '../users/username.service';
 import type { Staff } from './staff.guard';
 
 /** How long an invite link works. */
@@ -72,6 +73,7 @@ export class AdminTeamService {
     private readonly audit: AuditService,
     private readonly mail: EmailService,
     private readonly config: ConfigService,
+    private readonly usernames: UsernameService,
   ) {}
 
   async list() {
@@ -109,7 +111,7 @@ export class AdminTeamService {
       email: dto.email,
       firstName: dto.firstName,
       lastName: dto.lastName ?? '',
-      username: dto.email.split('@')[0],
+      username: await this.usernames.uniqueFrom(dto.email.split('@')[0]),
       role: dto.role,
       isVerified: true,
       invitedByName: staff.name,

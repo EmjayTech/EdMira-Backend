@@ -28,6 +28,14 @@ import { ConfigService } from '@nestjs/config';
 import { UsersRepository } from '../users/user.repository';
 import { UpdateProfileDto } from './dto/update-profile.dto';
 import { AccountStatus } from '../common/enum/staff-role.enum';
+import { UsernameService } from '../users/username.service';
+import { UserDocument } from '../users/model/user.model';
+import { AnalyticsService } from '../analytics/analytics.service';
+import { LoginAttemptsService } from './login-attempts.service';
+import { ChangeUsernameDto } from './dto/change-username.dto';
+import { PrivacyDto } from './dto/privacy.dto';
+import { LeaderboardService } from '../leaderboard/leaderboard.service';
+import { ReferralsService } from '../social/referrals.service';
 
 /** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
 const AT_BLACKLIST_TTL = 15 * 60;
@@ -37,6 +45,22 @@ const PENDING_SIGNUP_TTL_MS = 10 * 60 * 1000;
 const OTP_RESEND_COOLDOWN_MS = 60 * 1000;
 const MAX_OTP_ATTEMPTS = 3;
 const pendingKey = (email: string) => `pending_signup:${email.toLowerCase()}`;
+
+/**
+ * The only login error, whatever went wrong (unknown email/username, wrong
+ * password, a username shared by older accounts) — never reveals which
+ * accounts exist. `code` lets the apps show translated text.
+ */
+const INVALID_CREDENTIALS = {
+  statusCode: 401,
+  code: 'INVALID_CREDENTIALS',
+  message: 'Incorrect email/username or password.',
+};
+
+/** Compared against when no account matches, so failures take the same time. */
+const TIMING_GUARD_HASH = bcrypt.hashSync('edmira-timing-guard', SALT_ROUNDS);
+
+const RESET_SENT_MESSAGE = "If an account matches, we've sent a password reset code to its email.";
 
 type PendingSignup = {
   payload: SignupDto & { password: string };
@@ -55,6 +79,11 @@ export class AuthService {
     private jwtService: JwtService,
     private configService: ConfigService,
     @Inject(CACHE_MANAGER) private cacheManager: Cache,
+    private readonly usernames: UsernameService,
+    private readonly loginAttempts: LoginAttemptsService,
+    private readonly analytics: AnalyticsService,
+    private readonly leaderboards: LeaderboardService,
+    private readonly referrals: ReferralsService,
   ) { }
 
   // ──────────────────────────────────── Signup ────────────────────────────────────
@@ -66,6 +95,7 @@ export class AuthService {
     if (existingUser) {
       throw new ConflictException('Email already in use');
     }
+    this.usernames.assertUsable(await this.usernames.verdict(signupDto.username));
 
     const existingPending = await this.cacheManager.get<PendingSignup>(pendingKey(signupDto.email));
     if (existingPending) {
@@ -172,6 +202,14 @@ export class AuthService {
       await this.cacheManager.del(key);
       throw new ConflictException('Email already in use');
     }
+    if ((await this.usernames.verdict(pending.payload.username)) === 'taken') {
+      await this.cacheManager.del(key);
+      throw new ConflictException({
+        statusCode: 409,
+        code: 'USERNAME_TAKEN',
+        message: 'Someone took that username while you were verifying. Please sign up again with a different username.',
+      });
+    }
 
     const {
       password,
@@ -199,6 +237,9 @@ export class AuthService {
     });
 
     await this.cacheManager.del(key);
+
+    // "Invited by": credit the inviter and send their connection request. Never fails sign-up.
+    await this.referrals.attribute(savedUser, referralCode).catch(error => console.error('Referral failed:', error));
 
     // The account already exists, so a failed welcome email shouldn't fail verification.
     this.emailService
@@ -246,20 +287,58 @@ export class AuthService {
 
   // ──────────────────────────────────── Login ─────────────────────────────────────
 
-  async login(dto: LoginDto): Promise<{ accessToken: string; refreshToken: string }> {
-    const user = await this.usersRepository.findByEmail(dto.email);
-    if (!user) throw new UnauthorizedException('Invalid credentials');
+  /**
+   * Log in with an email or a username (any letter case) and password.
+   * `ip` feeds the lockout: 5 failures per identifier + IP → 15-minute wait.
+   */
+  async login(dto: LoginDto, ip = 'unknown'): Promise<{ accessToken: string; refreshToken: string }> {
+    const identifier = (dto.identifier ?? dto.email ?? '').trim();
+    await this.loginAttempts.assertNotLocked(identifier, ip);
 
-    // Invited staff have no password until they accept the invite.
-    const valid = !!user.password && (await bcrypt.compare(dto.password, user.password));
-    if (!valid) throw new UnauthorizedException('Invalid credentials');
+    const user = await this.findLoginAccount(identifier, dto.password);
+    if (!user) {
+      await this.loginAttempts.recordFailure(identifier, ip);
+      throw new UnauthorizedException(INVALID_CREDENTIALS);
+    }
+    await this.loginAttempts.clear(identifier, ip);
+    // Only reached with the right password, so these reveal nothing new.
     if (!user.isVerified) throw new UnauthorizedException('Please verify your email first');
-    this.assertActive(user);
+    await this.assertActive(user);
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     await this.usersRepository.touchLastLogin(user._id as Types.ObjectId);
+    if (!identifier.includes('@')) this.analytics.track('login_with_username', user._id as Types.ObjectId);
     return tokens;
+  }
+
+  /** Email if it contains "@", otherwise username (any case). Older usernames may match several accounts. */
+  private async accountsFor(identifier: string): Promise<UserDocument[]> {
+    if (!identifier) return [];
+    if (identifier.includes('@')) {
+      const user = await this.usersRepository.findByEmail(identifier);
+      return user ? [user] : [];
+    }
+    return this.usersRepository.findByUsername(identifier);
+  }
+
+  /**
+   * The one account this identifier + password opens, or null. When a
+   * shared (pre-Nov 2026) username + password opens two accounts we can't
+   * tell which is meant, so that fails too — the student can use their email.
+   */
+  private async findLoginAccount(identifier: string, password: string) {
+    const candidates = await this.accountsFor(identifier);
+    if (!candidates.length) {
+      await bcrypt.compare(password, TIMING_GUARD_HASH);
+      return null;
+    }
+    const opened: UserDocument[] = [];
+    for (const account of candidates) {
+      // Invited staff have no password until they accept the invite.
+      if (account.password && (await bcrypt.compare(password, account.password))) opened.push(account);
+    }
+    return opened.length === 1 ? opened[0] : null;
   }
 
   // ────────────────────────────── Logout (with AT blacklist) ──────────────────────
@@ -286,17 +365,31 @@ export class AuthService {
     if (!this.refreshTokenMatches(rt, user.refreshToken)) {
       throw new UnauthorizedException('Access Denied');
     }
-    this.assertActive(user);
+    await this.assertActive(user);
 
     const tokens = await this.getTokens(user._id as Types.ObjectId, user.email, user.userType);
     await this.updateRtHash(user._id as Types.ObjectId, tokens.refreshToken);
     return tokens;
   }
 
-  private assertActive(user: { status?: string }) {
-    if (user.status === AccountStatus.SUSPENDED) {
-      throw new ForbiddenException('This account has been suspended. Contact EdMira support.');
+  /**
+   * Suspended (until a date, or until reactivated) and banned accounts can't
+   * log in or refresh. A timed suspension that has ended is lifted here.
+   */
+  private async assertActive(user: UserDocument) {
+    if (user.status === AccountStatus.BANNED) {
+      throw new ForbiddenException('This account has been closed. Contact EdMira support.');
     }
+    if (user.status !== AccountStatus.SUSPENDED) return;
+    if (user.suspendedUntil && user.suspendedUntil <= new Date()) {
+      await this.usersRepository.updateFields(user._id as Types.ObjectId, { status: AccountStatus.ACTIVE, suspendedUntil: null });
+      return;
+    }
+    throw new ForbiddenException(
+      user.suspendedUntil
+        ? `This account is suspended until ${user.suspendedUntil.toDateString()}. Contact EdMira support.`
+        : 'This account has been suspended. Contact EdMira support.',
+    );
   }
 
   /**
@@ -341,23 +434,36 @@ export class AuthService {
 
   // ────────────────────────── Forgot Password (anti-enumeration) ─────────────────
 
-  async forgotPassword(dto: ForgotPasswordDto) {
-    const user = await this.usersRepository.findByEmail(dto.email);
-    // Return generic success even if user not found — prevents email enumeration
-    if (!user) {
-      return { message: 'If an account with this email exists, a password reset code has been sent.' };
-    }
+  /** The account a password reset is for: one exact match, or none. */
+  private async resetAccountFor(identifier: string) {
+    const accounts = await this.accountsFor(identifier.trim());
+    return accounts.length === 1 ? accounts[0] : null;
+  }
 
-    const otp = await this.otpService.createOtp(user._id as Types.ObjectId, user.email);
-    await this.emailService.sendPasswordReset(user.email, otp);
-    return { message: 'If an account with this email exists, a password reset code has been sent.' };
+  /**
+   * Emails a reset code. Always the same reply — including while the
+   * 60-second resend cooldown runs or if the email fails — so the response
+   * never reveals whether an account matched. (The last code stays valid.)
+   */
+  async forgotPassword(dto: ForgotPasswordDto) {
+    const user = await this.resetAccountFor(dto.identifier ?? dto.email ?? '');
+    if (user?.email) {
+      try {
+        const otp = await this.otpService.createOtp(user._id as Types.ObjectId, user.email);
+        await this.emailService.sendPasswordReset(user.email, otp);
+      } catch (error) {
+        if (!(error instanceof BadRequestException)) console.error('Password reset email failed:', error);
+      }
+    }
+    return { message: RESET_SENT_MESSAGE };
   }
 
   // ──────────────────────────────── Reset Password ────────────────────────────────
 
   async resetPassword(dto: ResetPasswordDto) {
-    const user = await this.usersRepository.findByEmail(dto.email);
-    if (!user) throw new BadRequestException('Email not found');
+    const user = await this.resetAccountFor(dto.identifier ?? dto.email ?? '');
+    // Same error as a wrong code, so this doesn't reveal which accounts exist.
+    if (!user) throw new BadRequestException('That code is invalid or has expired.');
 
     await this.otpService.verifyOtp(user._id as Types.ObjectId, dto.code);
     const hashedPassword = await bcrypt.hash(dto.newPassword, SALT_ROUNDS);
@@ -369,7 +475,7 @@ export class AuthService {
   async getFullProfile(userId: string) {
     const user = await this.usersRepository.findById(userId);
     if (!user) throw new UnauthorizedException('User not found');
-    return this.toSafeProfile(user);
+    return { ...this.toSafeProfile(user), referralCount: await this.referrals.count(userId) };
   }
 
   async updateProfile(userId: string, dto: UpdateProfileDto) {
@@ -381,13 +487,42 @@ export class AuthService {
     }
     const user = await this.usersRepository.updateFields(userId, set);
     if (!user) throw new UnauthorizedException('User not found');
+    // A new school / programme / level moves this week's leaderboard row too.
+    if (dto.studentProfile) await this.leaderboards.syncAcademics(userId);
     return this.toSafeProfile(user);
   }
 
+  /** Profile → Privacy. Takes effect on the next leaderboard request. */
+  async updatePrivacy(userId: string, dto: PrivacyDto) {
+    const set: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(dto)) if (value !== undefined) set[`privacy.${key}`] = value;
+    const user = await this.usersRepository.updateFields(userId, set);
+    if (!user) throw new UnauthorizedException('User not found');
+    return this.toSafeProfile(user);
+  }
+
+  // ─────────────────────────────────── Username ───────────────────────────────────
+
+  /** For the live check while typing (sign-up and Change username). */
+  async usernameAvailability(username: string) {
+    const verdict = await this.usernames.verdict(username ?? '');
+    return verdict ? { available: false, reason: verdict } : { available: true };
+  }
+
+  /** Students can change their username once every 30 days. */
+  async changeUsername(userId: string, dto: ChangeUsernameDto) {
+    const user = await this.usersRepository.findById(userId);
+    if (!user) throw new UnauthorizedException('User not found');
+    const updated = await this.usernames.change(user, dto.username);
+    return this.toSafeProfile(updated);
+  }
+
   /** Profile without password / refresh-token hashes, plus a string `id`. */
-  private toSafeProfile(user: { toObject: () => any }) {
+  private toSafeProfile(user: UserDocument & { toObject: () => any }) {
     // `_id` is replaced by a string `id`: raw ObjectIds serialize as {}.
-    const { password, refreshToken, __v, _id, ...safeUser } = user.toObject();
-    return { id: String(_id), ...safeUser };
+    // Never sent: secrets, another student's id (referredBy), moderation internals.
+    const { password, refreshToken, __v, _id, usernameLower, referredBy, flag, requestsPausedUntil, ...safeUser } = user.toObject();
+    const next = this.usernames.nextChangeAt(user);
+    return { id: String(_id), ...safeUser, usernameChangeAvailableAt: next ? next.toISOString() : null };
   }
 }
