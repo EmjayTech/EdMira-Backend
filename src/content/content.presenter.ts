@@ -9,15 +9,33 @@ import { TopicDocument } from './schemas/topic.schema';
  * app repo). Keep these in sync with the app's DTO mappers.
  */
 
-/** `forYou`: the course matches the student's level / department / school. */
-export const presentCourse = (course: CourseDocument, student?: StudentAcademics) => ({
+/** A verified school's own code(s) for a module, e.g. { school: "UNIBEN", codes: ["PHS211"] }. */
+export type SchoolChip = { school: string; codes: string[] };
+
+/**
+ * `forYou`: the course matches the student's level / department / school.
+ * For a module (Physiology PHY-01 …) it's a recommendation only: every
+ * module stays open. Modules have no course code; `schoolChip` is shown only
+ * when the student's school has a verified mapping.
+ */
+export const presentCourse = (course: CourseDocument, student?: StudentAcademics, chips?: Map<string, SchoolChip>) => ({
   id: course.id,
   title: course.title,
   description: course.description,
-  code: course.code,
+  ...(course.moduleId ? {} : { code: course.code }),
   color: course.color,
   status: course.status,
   forYou: isForStudent(course.audience, student),
+  ...(course.moduleId
+    ? {
+        subject: course.subject,
+        moduleId: course.moduleId,
+        shortName: course.shortName,
+        icon: course.icon,
+        typicalLevels: [...(course.typicalLevels ?? [])],
+        ...(chips?.get(course.moduleId) ? { schoolChip: chips.get(course.moduleId) } : {}),
+      }
+    : {}),
 });
 
 export const presentTopic = (topic: TopicDocument, { withMaterial = true } = {}) => ({
@@ -35,10 +53,45 @@ export const presentTopic = (topic: TopicDocument, { withMaterial = true } = {})
           body,
           ...(keyPoints?.length ? { keyPoints: [...keyPoints] } : {}),
         })),
+        ...notesOf(topic),
       }
     : {}),
+  ...(topic.curriculumId ? { curriculumId: topic.curriculumId } : {}),
   status: topic.status,
 });
+
+const sectionsOf = (secs?: { heading: string; body: string }[]) => (secs ?? []).map(({ heading, body }) => ({ heading, body }));
+
+/** Where the app loads a figure from (relative to the API). The hash changes when the image does. */
+export const assetPath = (assetId: string) => `/api/v1/content-assets/${assetId}`;
+
+/**
+ * The standard note format, for topics that have it (older topics only have
+ * `material`). Extended notes and the clinical correlation are Pro (Part 4).
+ */
+function notesOf(topic: TopicDocument) {
+  const out: Record<string, unknown> = {};
+  if (topic.objectives?.length) out.objectives = [...topic.objectives];
+  if (topic.keyPoints?.length) out.keyPoints = [...topic.keyPoints];
+  if (topic.extended?.length) out.extended = sectionsOf(topic.extended);
+  if (topic.clinical?.length) out.clinical = sectionsOf(topic.clinical);
+  if (topic.revision?.length) out.revision = [...topic.revision];
+  if (topic.furtherReading?.length) out.furtherReading = [...topic.furtherReading];
+  if (topic.credits?.length) out.credits = [...topic.credits];
+  if (topic.figures?.length) {
+    out.figures = topic.figures.map(f => ({
+      key: f.key,
+      label: f.label,
+      caption: f.caption,
+      alt: f.alt,
+      // Shown under the figure. Our own figures need no credit line.
+      attribution: /^original$/i.test(f.licence ?? '') ? '' : f.attributionText,
+      url: assetPath(f.assetId),
+      mimeType: f.mimeType ?? 'image/svg+xml',
+    }));
+  }
+  return out;
+}
 
 /** During a quiz: no answer and no explanation, ever. */
 export const presentQuizQuestion = (question: QuestionDocument) => ({

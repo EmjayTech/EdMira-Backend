@@ -1,4 +1,6 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Req } from '@nestjs/common';
+import { Throttle } from '@nestjs/throttler';
+import type { Request } from 'express';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
 import { ParseObjectIdPipe } from '../common/pipes/parse-object-id.pipe';
@@ -12,9 +14,11 @@ export class QuizController {
   constructor(private readonly quiz: QuizService) {}
 
   @Post()
+  // A real quiz takes minutes; this only stops scripted submissions.
+  @Throttle({ default: { limit: 30, ttl: 60_000 } })
   @ApiOperation({ summary: 'Submit a quiz; graded and stored on the server. Safe to retry.' })
-  submit(@GetCurrentUser('userId') studentId: string, @Body() dto: SubmitAttemptDto) {
-    return this.quiz.submit(studentId, dto);
+  submit(@GetCurrentUser('userId') studentId: string, @Body() dto: SubmitAttemptDto, @Req() req: Request) {
+    return this.quiz.submit(studentId, dto, req.ip);
   }
 
   @Get()

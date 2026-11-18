@@ -12,6 +12,7 @@ import { NotificationsService } from './notifications.service';
 import { Person, PeopleService, publicStudent } from './people.service';
 import { StudyGroup, StudyGroupDocument } from './schemas/study-group.schema';
 import { GROUPS } from './social-policy';
+import { PlansService } from '../plans/plans.service';
 
 const NOT_FOUND = { statusCode: 404, message: 'Not found' };
 const newCode = () => {
@@ -36,6 +37,7 @@ export class GroupsService {
     private readonly people: PeopleService,
     private readonly content: ContentService,
     private readonly notifications: NotificationsService,
+    private readonly plans: PlansService,
   ) {}
 
   // ── Creating & listing ─────────────────────────────────────────────────────
@@ -43,6 +45,7 @@ export class GroupsService {
   async create(userId: string, name: string, courseId?: string) {
     const me = await this.people.me(userId);
     if (me.role || !this.people.isActive(me)) throw new ForbiddenException();
+    await this.plans.assertFeature(userId, 'create_group'); // joining stays free
     const clean = this.checkName(name);
     const owned = await this.groups.countDocuments({ ownerId: me._id });
     if (owned >= GROUPS.maxOwned) {
@@ -104,7 +107,7 @@ export class GroupsService {
     const visible = g.members.filter(m => same(m.userId, userId) || !hidden.has(String(m.userId)));
     const ids = visible.map(m => m.userId);
     const [people, points, recent] = await Promise.all([
-      this.users.find({ _id: { $in: ids } }).select('username role studentProfile').lean<Person[]>().exec(),
+      this.users.find({ _id: { $in: ids } }).select('username role studentProfile avatar').lean<Person[]>().exec(),
       this.weeks.find({ week: weekOf(new Date()), studentId: { $in: ids } }).select('studentId points').lean().exec(),
       this.attempts
         .find({ studentId: { $in: ids }, submittedAt: { $gte: new Date(Date.now() - GROUPS.activityDays * 86_400_000) } })

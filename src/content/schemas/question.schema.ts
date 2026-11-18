@@ -28,6 +28,16 @@ export class Question {
   @Prop()
   explanation?: string;
 
+  @Prop({ type: String, enum: ['easy', 'medium', 'hard'] }) difficulty?: 'easy' | 'medium' | 'hard';
+  /** recall · understanding · clinical application */
+  @Prop({ type: String, enum: ['recall', 'understanding', 'clinical'] }) kind?: 'recall' | 'understanding' | 'clinical';
+  /** Curriculum tag of its topic, e.g. "PHY-05-03". */
+  @Prop({ index: true, sparse: true }) tag?: string;
+  /** The notes version it was written for (missing = before versioning). */
+  @Prop() topicVersion?: number;
+  /** Archived because this topic version went live (restoring an older version brings it back). */
+  @Prop() retiredByVersion?: number;
+
   @Prop({ type: String, enum: Object.values(ContentStatus), default: ContentStatus.DRAFT, index: true })
   status: ContentStatus;
 

@@ -1,9 +1,9 @@
 /**
  * yarn leaderboard rebuild [--week 2026-11-16]
  *
- * Recount a week's leaderboard from the quiz attempts (default: this week).
- * Run it once after the first deploy, and after changing the formula in
- * src/leaderboard/scoring.ts. Safe to run any number of times.
+ * Recount a week's leaderboard totals from the points ledger (default: this
+ * week). The nightly job does this too. To recount the points themselves
+ * (first deploy, points change) use `yarn progress rebuild`.
  * Uses MONGODB_URI (from .env, or the Render shell).
  */
 import { NestFactory } from '@nestjs/core';
@@ -19,6 +19,7 @@ async function main() {
   if (!isWeekId(week)) throw new Error(`"${week}" isn't a Monday (YYYY-MM-DD).`);
 
   process.env.NEWS_FETCH_EVERY_HOURS = '0'; // no background timers in a one-off run
+  process.env.STUDY_JOBS = 'off';
   const app = await NestFactory.createApplicationContext(AppModule, { logger: ['error', 'warn'] });
   try {
     const { students } = await app.get(LeaderboardService).rebuildWeek(week);

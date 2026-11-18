@@ -5,9 +5,17 @@ export type NotificationType =
   | 'connection_request'
   | 'connection_accepted'
   | 'account_warning'
+  /** An admin removed your profile photo (it broke the community rules). */
+  | 'avatar_removed'
   | 'challenge_received'
   | 'challenge_result'
-  | 'group_invite';
+  | 'group_invite'
+  /** Monday 9am: "Last week you finished #8 in UNILAG" (data: rank, school, week). */
+  | 'leaderboard_weekly'
+  /** Someone passed you in your school's top 10 (data: rank). */
+  | 'leaderboard_overtaken'
+  /** A classmate you invited completed their first quiz (fromId: them). */
+  | 'referral_rewarded';
 
 /**
  * In-app inbox. Declines and blocks never create one. Kept 90 days.
@@ -27,6 +35,9 @@ export class Notification {
 
   /** What it's about (e.g. the challenge id), for opening it from the inbox. */
   @Prop() refId?: string;
+
+  /** Numbers or short labels the app puts in the message (e.g. rank, school). */
+  @Prop({ type: Object, default: undefined }) data?: Record<string, string | number>;
 
   @Prop() readAt?: Date;
 

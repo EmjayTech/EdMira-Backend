@@ -1,10 +1,11 @@
-import { GetObjectCommand, PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
+import { DeleteObjectCommand, GetObjectCommand, PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import { Injectable, Logger, ServiceUnavailableException } from '@nestjs/common';
 import { createHmac, randomUUID, timingSafeEqual } from 'crypto';
 import { promises as fs } from 'fs';
 import { tmpdir } from 'os';
 import { extname, join } from 'path';
+import { avatarUrlForKey } from '../avatars/avatar-view';
 
 /**
  * Where uploaded study materials (slides, textbooks, notes) are kept.
@@ -16,7 +17,10 @@ import { extname, join } from 'path';
  *   folder), served by FilesController with short-lived signed links.
  * - Otherwise uploads are switched off; admins can still add links.
  *
- * Downloads always go through short-lived signed URLs, never public links.
+ * Downloads always go through short-lived signed URLs, never public links —
+ * except profile pictures under `avatars/`, which are public by design: in
+ * production that prefix is exposed through a CDN domain (STORAGE_PUBLIC_URL,
+ * e.g. https://cdn.edmira.org/), locally FilesController serves it.
  */
 export interface StoredFile {
   key: string;
@@ -109,6 +113,60 @@ export class FileStorageService {
     const sig = this.sign(file.key, expires);
     const url = `${baseUrl}/api/v1/files/${file.key}?exp=${expires}&sig=${sig}&name=${encodeURIComponent(file.name)}`;
     return { url, expiresAt };
+  }
+
+  // ── Public files (profile pictures) ────────────────────────────────────────
+
+  /** Stores a public object such as `avatars/<uuid>.webp`. */
+  async savePublic(key: string, body: Buffer, contentType: string): Promise<void> {
+    if (!/^avatars\/[\w-]+\.\w+$/.test(key)) throw new Error(`Not a public key: ${key}`);
+    if (this.driver === 'off') {
+      throw new ServiceUnavailableException("Photo uploads aren't set up on this server yet. Pick an avatar instead.");
+    }
+    if (this.driver === 's3') {
+      await this.s3!.send(
+        new PutObjectCommand({
+          Bucket: this.bucket,
+          Key: key,
+          Body: body,
+          ContentType: contentType,
+          // Every change gets a new filename, so the file itself never changes.
+          CacheControl: 'public, max-age=31536000, immutable',
+        }),
+      );
+      return;
+    }
+    await fs.mkdir(join(this.localDir, 'avatars'), { recursive: true });
+    await fs.writeFile(join(this.localDir, key), body);
+  }
+
+  /** Best effort: a leftover file is harmless, a failed request is not. */
+  async deletePublic(key: string | undefined | null): Promise<void> {
+    if (!key || !/^avatars\/[\w-]+\.\w+$/.test(key)) return;
+    try {
+      if (this.driver === 's3') {
+        await this.s3!.send(new DeleteObjectCommand({ Bucket: this.bucket, Key: key }));
+      } else if (this.driver === 'local') {
+        await fs.unlink(join(this.localDir, key));
+      }
+    } catch (err) {
+      this.logger.warn(`Could not delete ${key}: ${(err as Error).message}`);
+    }
+  }
+
+  /**
+   * Public URL of a stored avatar. With a CDN it is absolute; locally it is
+   * relative to the API host (`/api/v1/files/avatars/…`) and the app prefixes
+   * its own server address.
+   */
+  publicUrl(key: string): string {
+    return avatarUrlForKey(key);
+  }
+
+  /** Path of a locally stored avatar, or null. */
+  localPublicPath(file: string): string | null {
+    if (this.driver !== 'local' || !/^[\w-]+\.webp$/.test(file)) return null;
+    return join(this.localDir, 'avatars', file);
   }
 
   // ── Local driver ───────────────────────────────────────────────────────────

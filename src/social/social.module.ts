@@ -3,6 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { LeaderboardModule } from '../leaderboard/leaderboard.module';
 import { ContentModule } from '../content/content.module';
 import { QuizModule } from '../quiz/quiz.module';
+import { StudyModule } from '../study/study.module';
 import { ChallengesController } from './challenges.controller';
 import { ChallengesService } from './challenges.service';
 import { ReferralsService } from './referrals.service';
@@ -35,6 +36,7 @@ import { SocialController } from './social.controller';
     LeaderboardModule,
     ContentModule,
     QuizModule,
+    StudyModule,
     MongooseModule.forFeature([
       { name: Connection.name, schema: ConnectionSchema },
       { name: Block.name, schema: BlockSchema },
@@ -49,6 +51,6 @@ import { SocialController } from './social.controller';
   ],
   controllers: [SocialController, ChallengesController, GroupsController],
   providers: [PeopleService, ConnectionsService, SafetyService, NotificationsService, ModerationService, ReferralsService, ChallengesService, BadgesService, GroupsService],
-  exports: [PeopleService, ModerationService, SafetyService, ReferralsService, GroupsService, BadgesService],
+  exports: [PeopleService, ModerationService, SafetyService, ReferralsService, GroupsService, BadgesService, NotificationsService],
 })
 export class SocialModule {}

@@ -18,6 +18,7 @@ import { LoginAttemptsService } from '../login-attempts.service';
 import { AnalyticsService } from '../../analytics/analytics.service';
 import { LeaderboardService } from '../../leaderboard/leaderboard.service';
 import { ReferralsService } from '../../social/referrals.service';
+import { AvatarService } from '../../avatars/avatar.service';
 
 jest.mock('bcrypt', () => ({
   compare: jest.fn(),
@@ -78,6 +79,7 @@ describe('AuthService', () => {
         { provide: AnalyticsService, useValue: analytics },
         { provide: LeaderboardService, useValue: { syncAcademics: jest.fn() } },
         { provide: ReferralsService, useValue: { attribute: jest.fn().mockResolvedValue(undefined), count: jest.fn().mockResolvedValue(0) } },
+        { provide: AvatarService, useValue: {} },
         { provide: EmailService, useValue: email },
         { provide: OtpService, useValue: {} },
         { provide: JwtService, useValue: { signAsync: jest.fn().mockResolvedValue('signed.jwt.token') } },

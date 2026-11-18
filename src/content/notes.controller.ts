@@ -8,6 +8,14 @@ import { NotesPdfService, NotesScope } from './notes-pdf.service';
  * Serves the notes PDFs behind the signed links from
  * GET /topics/:id/notes and GET /courses/:id/notes.
  */
+const toBuffer = (doc: PDFKit.PDFDocument) =>
+  new Promise<Buffer>((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    doc.on('data', (chunk: Buffer) => chunks.push(chunk));
+    doc.on('end', () => resolve(Buffer.concat(chunks)));
+    doc.on('error', reject);
+  });
+
 @ApiExcludeController()
 @Controller('notes')
 export class NotesController {
@@ -27,8 +35,14 @@ export class NotesController {
       throw new NotFoundException('This download link has expired.');
     }
     const { name, doc } = await this.notes.build(scope as NotesScope, id);
+    // Built in full before sending, with its exact size: the app can show real
+    // progress, and a download cut short is caught as an error instead of
+    // being saved as a broken PDF that viewers show as one page.
+    const pdf = await toBuffer(doc);
     res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Length', String(pdf.length));
     res.setHeader('Content-Disposition', `attachment; filename="${name}"`);
-    doc.pipe(res);
+    res.setHeader('Cache-Control', 'private, no-store');
+    res.end(pdf);
   }
 }

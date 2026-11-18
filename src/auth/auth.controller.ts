@@ -1,6 +1,7 @@
-import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Patch, Req, Ip, Query } from '@nestjs/common';
+import { Body, Controller, Post, UseGuards, HttpCode, HttpStatus, Get, Patch, Put, Delete, Req, Ip, Query, UploadedFile, UseInterceptors } from '@nestjs/common';
+import { FileInterceptor } from '@nestjs/platform-express';
 import { Throttle } from '@nestjs/throttler';
-import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
+import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth, ApiBody, ApiConsumes } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
 import { GetCurrentUser } from '../common/decorators/get-current-user.decorator';
 import { RtGuard } from './jwt/rt.guard';
@@ -14,6 +15,8 @@ import { VerifyOtpDto } from './dto/verify-otp.dto';
 import { UpdateProfileDto } from './dto/update-profile.dto';
 import { ChangeUsernameDto } from './dto/change-username.dto';
 import { PrivacyDto } from './dto/privacy.dto';
+import { AvatarPresetDto } from './dto/avatar-preset.dto';
+import { AVATAR_MAX_UPLOAD_BYTES } from '../avatars/avatar-view';
 import { Public } from 'src/common/decorators/public.decorator';
 import { Request } from 'express';
 
@@ -37,8 +40,10 @@ export class AuthController {
   @ApiOperation({ summary: 'Verify signup OTP and create the user account' })
   @ApiResponse({ status: 201, description: 'OTP verified, account created, access + refresh tokens returned.' })
   @ApiResponse({ status: 400, description: 'Invalid, expired, or missing pending signup OTP.' })
-  verify(@Body() otp: VerifyOtpDto) {
-    return this.authService.verifyOtp(otp);
+  verify(@Body() otp: VerifyOtpDto, @Req() req: Request) {
+    // Hashed before it's stored: spots many invited sign-ups from one phone / network.
+    const installId = req.header('x-install-id')?.slice(0, 100) ?? null;
+    return this.authService.verifyOtp(otp, { ip: req.ip, installId });
   }
 
   @Public()
@@ -110,6 +115,36 @@ export class AuthController {
   @ApiOperation({ summary: 'Update privacy settings (e.g. showOnLeaderboard). Returns the updated profile.' })
   updatePrivacy(@GetCurrentUser('userId') userId: string, @Body() dto: PrivacyDto) {
     return this.authService.updatePrivacy(userId, dto);
+  }
+
+  // ── Profile picture (max 10 changes a Lagos day; removing is always allowed) ──
+
+  @Put('avatar/preset')
+  @ApiBearerAuth()
+  @ApiOperation({ summary: 'Use a built-in avatar (a01–a18). Returns the updated profile.' })
+  @ApiResponse({ status: 429, description: 'AVATAR_LIMIT' })
+  setAvatarPreset(@GetCurrentUser('userId') userId: string, @Body() dto: AvatarPresetDto) {
+    return this.authService.setAvatarPreset(userId, dto.preset);
+  }
+
+  @Post('avatar/photo')
+  @ApiBearerAuth()
+  @Throttle({ default: { limit: 10, ttl: 60_000 } })
+  @ApiOperation({ summary: 'Upload a profile photo (JPEG/PNG/WebP/HEIC, 5 MB max); re-encoded to 512×512 WebP without EXIF' })
+  @ApiConsumes('multipart/form-data')
+  @ApiBody({ schema: { type: 'object', properties: { file: { type: 'string', format: 'binary' } } } })
+  @ApiResponse({ status: 400, description: 'AVATAR_FILE_MISSING / AVATAR_TOO_LARGE / AVATAR_NOT_IMAGE' })
+  @ApiResponse({ status: 429, description: 'AVATAR_LIMIT' })
+  @UseInterceptors(FileInterceptor('file', { limits: { fileSize: AVATAR_MAX_UPLOAD_BYTES, files: 1 } }))
+  uploadAvatar(@GetCurrentUser('userId') userId: string, @UploadedFile() file?: Express.Multer.File) {
+    return this.authService.uploadAvatar(userId, file);
+  }
+
+  @Delete('avatar')
+  @ApiBearerAuth()
+  @ApiOperation({ summary: 'Remove the profile picture (back to initials). Returns the updated profile.' })
+  removeAvatar(@GetCurrentUser('userId') userId: string) {
+    return this.authService.removeAvatar(userId);
   }
 
   @Public()

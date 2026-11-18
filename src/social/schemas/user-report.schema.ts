@@ -2,7 +2,7 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import mongoose, { HydratedDocument } from 'mongoose';
 import { REPORT_CATEGORIES, ReportCategory } from '../social-policy';
 
-export const MODERATION_ACTIONS = ['dismiss', 'warn', 'rename', 'suspend', 'ban'] as const;
+export const MODERATION_ACTIONS = ['dismiss', 'warn', 'rename', 'remove_photo', 'suspend', 'ban'] as const;
 export type ModerationAction = (typeof MODERATION_ACTIONS)[number];
 
 /** A student reported another student (admin → Moderation). */

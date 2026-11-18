@@ -56,9 +56,40 @@ export class User {
   @Prop({ type: Object, default: undefined })
   privacy?: PrivacySettings;
 
+  /** Admin removed this student from every leaderboard (Leaderboards → Flags / Students). */
+  @Prop({ type: Object, default: undefined })
+  leaderboardExclusion?: { reason: string; by: string; at: Date };
+
   /** Badges given or taken away by admins (see social/badges.ts). */
   @Prop({ type: Object, default: undefined })
   badgeOverrides?: { granted?: string[]; revoked?: string[] };
+
+  /**
+   * Profile picture: a built-in avatar (`preset`, e.g. "a07") or an uploaded
+   * photo (`key` = avatars/<uuid>.webp, a new name on every change so CDN
+   * caches never go stale). Absent → initials.
+   */
+  @Prop({ type: Object, default: undefined })
+  avatar?: { kind: 'preset' | 'photo'; preset?: string; key?: string; at: Date };
+
+  /** Avatar changes today (Lagos day) — capped to stop abuse. */
+  @Prop({ type: Object, default: undefined })
+  avatarQuota?: { day: string; count: number };
+
+  // ── Free / Pro (see src/plans) ──
+  /** The 3-day full-access trial; unset = not started (or not eligible: see trialDenied). */
+  @Prop({ type: Date }) trialStartedAt?: Date;
+  @Prop({ type: Date }) trialEndsAt?: Date;
+  /** Set when this person already had a trial on another account (same email, phone or phone install). */
+  @Prop({ type: String }) trialDenied?: string;
+  /** Pro until this moment (latest active purchase, grant or Founding Tester month). */
+  @Prop({ type: Date, index: true }) proExpiresAt?: Date;
+  /** What gives that Pro: founding_tester | grant | play | paystack. */
+  @Prop({ type: String }) proSource?: string;
+  /** Plan modals already shown (key → when), so each shows once on any device. */
+  @Prop({ type: Object, default: undefined }) planNotices?: Record<string, Date>;
+  /** Plan emails already sent (key → when). */
+  @Prop({ type: Object, default: undefined }) planEmails?: Record<string, Date>;
 
   /** Who invited this student (invite link / "Invited by" at sign-up). */
   @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', index: true })
@@ -66,6 +97,23 @@ export class User {
 
   @Prop({ type: Date })
   referredAt?: Date;
+
+  /**
+   * The inviter's +10: pending until this student completes a first quiz;
+   * held for admin review when many sign-ups share a network or install;
+   * rejected / reversed by admins (e.g. duplicate or banned account).
+   */
+  @Prop({ type: Object, default: undefined })
+  referral?: {
+    status: 'pending' | 'held' | 'rewarded' | 'rejected' | 'reversed';
+    at?: Date;
+    reason?: string;
+    by?: string;
+  };
+
+  /** Keyed hashes of the sign-up network and app install (never the raw values). */
+  @Prop() signupNetwork?: string;
+  @Prop() signupInstall?: string;
 
   // ── Moderation (admin → Moderation; see src/social) ──
 
@@ -181,8 +229,10 @@ userModel.pre('validate', function (next) {
  * accounts need no migration.
  */
 export interface PrivacySettings {
-  /** Leaderboards (default true). Off = "Anonymous student". */
+  /** Leaderboards (default true). Off = left out of everyone else's boards; they still see their own rank. */
   showOnLeaderboard?: boolean;
+  /** No inbox messages about leaderboards: weekly results, being overtaken (default false). */
+  muteLeaderboardNotifications?: boolean;
   /** Who can find me in search (default 'everyone'). */
   findability?: 'everyone' | 'exact' | 'nobody';
   /** Who can send me connection requests (default 'everyone'). */

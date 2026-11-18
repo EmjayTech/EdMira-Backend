@@ -4,6 +4,7 @@ import { User, userModel } from './model/user.model';
 import { UsersService } from './user.service';
 import { UsersRepository } from './user.repository';
 import { UsernameService } from './username.service';
+import { AvatarService } from '../avatars/avatar.service';
 import { UsernameHistory, UsernameHistorySchema } from './schema/username-history.schema';
 
 @Global()
@@ -19,7 +20,7 @@ import { UsernameHistory, UsernameHistorySchema } from './schema/username-histor
     ]),
     MongooseModule.forFeature([{ name: UsernameHistory.name, schema: UsernameHistorySchema }]),
   ],
-  providers: [UsersService, UsersRepository, UsernameService],
-  exports: [UsersService, UsersRepository, UsernameService, MongooseModule],
+  providers: [UsersService, UsersRepository, UsernameService, AvatarService],
+  exports: [UsersService, UsersRepository, UsernameService, AvatarService, MongooseModule],
 })
 export class UserModule { }

@@ -7,8 +7,11 @@ import { AccountStatus } from '../common/enum/staff-role.enum';
 import { suspendedKey } from '../common/guards/jwt-auth.guard';
 import { User, UserDocument } from '../users/model/user.model';
 import { UsernameService } from '../users/username.service';
+import { AvatarService } from '../avatars/avatar.service';
+import { avatarView } from '../avatars/avatar-view';
 import { NotificationsService } from './notifications.service';
 import { SafetyService } from './safety.service';
+import { ReferralsService } from './referrals.service';
 import { SecurityEvent, SecurityEventDocument } from './schemas/security-event.schema';
 import { ModerationAction, UserReport, UserReportDocument } from './schemas/user-report.schema';
 
@@ -16,7 +19,7 @@ import { ModerationAction, UserReport, UserReportDocument } from './schemas/user
 const TOKEN_CUTOFF_MS = 20 * 60 * 1000;
 
 type Staff = { id: string; name: string };
-type Named = { _id: Types.ObjectId; username?: string; firstName?: string; lastName?: string; email?: string; status?: string; warnings?: number; flag?: { at: Date; reasons: string[] } };
+type Named = { _id: Types.ObjectId; avatar?: User['avatar']; username?: string; firstName?: string; lastName?: string; email?: string; status?: string; warnings?: number; flag?: { at: Date; reasons: string[] } };
 
 /** Admin → Moderation: the report queue, actions, flags and the security log. */
 @Injectable()
@@ -29,12 +32,14 @@ export class ModerationService {
     private readonly usernames: UsernameService,
     private readonly notifications: NotificationsService,
     private readonly safety: SafetyService,
+    private readonly referrals: ReferralsService,
+    private readonly avatars: AvatarService,
   ) {}
 
   private async usersById(ids: unknown[]) {
     const rows = await this.users
       .find({ _id: { $in: ids } })
-      .select('username firstName lastName email status warnings flag suspendedUntil')
+      .select('username firstName lastName email status warnings flag suspendedUntil avatar')
       .lean<Named[]>()
       .exec();
     return new Map(rows.map(u => [String(u._id), u]));
@@ -50,6 +55,8 @@ export class ModerationService {
           status: u.status ?? 'active',
           warnings: u.warnings ?? 0,
           flag: u.flag ? { at: u.flag.at.toISOString(), reasons: u.flag.reasons } : null,
+          /** Current profile picture, so moderators can see what was reported. */
+          avatar: avatarView(u),
         }
       : null;
   }
@@ -80,7 +87,7 @@ export class ModerationService {
   }
 
   /**
-   * Act on a report: dismiss · warn · rename (new username) · suspend (days)
+   * Act on a report: dismiss · warn · rename (new username) · remove_photo · suspend (days)
    * · ban. Resolves the report and returns a one-line summary for the audit log.
    */
   async act(staff: Staff, reportId: string, input: { action: ModerationAction; days?: number; username?: string; note?: string }) {
@@ -108,6 +115,14 @@ export class ModerationService {
         summary = `Changed username @${before} → @${updated?.username}`;
         break;
       }
+      case 'remove_photo': {
+        // Back to initials; presets are ours, so only an uploaded photo can be removed.
+        const removed = await this.avatars.removeForModeration(String(target._id));
+        if (!removed) throw new BadRequestException('This student has no uploaded photo now.');
+        await this.notifications.notify(target._id, 'avatar_removed');
+        summary = `Removed the profile photo of @${before}`;
+        break;
+      }
       case 'suspend': {
         const days = Math.round(input.days ?? 0);
         if (!(days >= 1 && days <= 365)) throw new BadRequestException('Suspend for 1–365 days.');
@@ -122,6 +137,8 @@ export class ModerationService {
         await target.save();
         await this.cache.set(suspendedKey(String(target._id)), '1', TOKEN_CUTOFF_MS);
         summary = `Banned @${before}`;
+        // A banned account never earns its inviter a referral reward.
+        await this.referrals.reverse(target._id as never, 'Invited account banned', staff.name).catch(() => undefined);
         break;
     }
     report.set({ status: 'resolved', action: input.action, actionNote: input.note?.trim() || undefined, handledByName: staff.name, handledAt: new Date() });

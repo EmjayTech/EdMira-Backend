@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ContentModule } from '../content/content.module';
-import { LeaderboardModule } from '../leaderboard/leaderboard.module';
+import { StudyModule } from '../study/study.module';
 import { QuizAttempt, QuizAttemptSchema } from './quiz-attempt.schema';
 import { QuizController } from './quiz.controller';
 import { QuizService } from './quiz.service';
@@ -9,7 +9,7 @@ import { QuizService } from './quiz.service';
 @Module({
   imports: [
     ContentModule,
-    LeaderboardModule,
+    StudyModule,
     MongooseModule.forFeature([{ name: QuizAttempt.name, schema: QuizAttemptSchema }]),
   ],
   controllers: [QuizController],

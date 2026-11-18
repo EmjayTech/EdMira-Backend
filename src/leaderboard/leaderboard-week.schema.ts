@@ -37,8 +37,10 @@ export class LeaderboardWeek {
 export type LeaderboardWeekDocument = HydratedDocument<LeaderboardWeek>;
 export const LeaderboardWeekSchema = SchemaFactory.createForClass(LeaderboardWeek);
 LeaderboardWeekSchema.index({ week: 1, studentId: 1 }, { unique: true });
-// One index per leaderboard tab: All · My level · My school · My course.
-LeaderboardWeekSchema.index({ week: 1, points: -1, reachedAt: 1 });
-LeaderboardWeekSchema.index({ week: 1, level: 1, points: -1, reachedAt: 1 });
-LeaderboardWeekSchema.index({ week: 1, institution: 1, points: -1, reachedAt: 1 });
-LeaderboardWeekSchema.index({ week: 1, institution: 1, department: 1, level: 1, points: -1, reachedAt: 1 });
+// One index per leaderboard tab, in ranking order: points, then study days,
+// then correct answers, then whoever got there first.
+LeaderboardWeekSchema.index({ week: 1, points: -1, activeDays: -1, correct: -1, reachedAt: 1 });
+LeaderboardWeekSchema.index({ week: 1, level: 1, points: -1, activeDays: -1, correct: -1, reachedAt: 1 });
+LeaderboardWeekSchema.index({ week: 1, institution: 1, points: -1, activeDays: -1, correct: -1, reachedAt: 1 });
+LeaderboardWeekSchema.index({ week: 1, department: 1, points: -1, activeDays: -1, correct: -1, reachedAt: 1 });
+LeaderboardWeekSchema.index({ week: 1, institution: 1, department: 1, level: 1, points: -1, activeDays: -1, correct: -1, reachedAt: 1 });

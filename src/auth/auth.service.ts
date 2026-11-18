@@ -35,7 +35,9 @@ import { LoginAttemptsService } from './login-attempts.service';
 import { ChangeUsernameDto } from './dto/change-username.dto';
 import { PrivacyDto } from './dto/privacy.dto';
 import { LeaderboardService } from '../leaderboard/leaderboard.service';
-import { ReferralsService } from '../social/referrals.service';
+import { ReferralsService, SignupContext } from '../social/referrals.service';
+import { AvatarService } from '../avatars/avatar.service';
+import { avatarView } from '../avatars/avatar-view';
 
 /** TTL for blacklisted access tokens in seconds (15 minutes = AT lifetime) */
 const AT_BLACKLIST_TTL = 15 * 60;
@@ -70,6 +72,7 @@ type PendingSignup = {
   lastOtpIssuedAt: number;
 };
 
+
 @Injectable()
 export class AuthService {
   constructor(
@@ -84,6 +87,7 @@ export class AuthService {
     private readonly analytics: AnalyticsService,
     private readonly leaderboards: LeaderboardService,
     private readonly referrals: ReferralsService,
+    private readonly avatars: AvatarService,
   ) { }
 
   // ──────────────────────────────────── Signup ────────────────────────────────────
@@ -168,7 +172,7 @@ export class AuthService {
 
   // ──────────────────────────────────── OTP Verify ────────────────────────────────
 
-  async verifyOtp(dto: VerifyOtpDto): Promise<{ message: string; user: any; accessToken: string; refreshToken: string }> {
+  async verifyOtp(dto: VerifyOtpDto, ctx: SignupContext = {}): Promise<{ message: string; user: any; accessToken: string; refreshToken: string }> {
     const key = pendingKey(dto.email);
     const pending = await this.cacheManager.get<PendingSignup>(key);
 
@@ -239,7 +243,7 @@ export class AuthService {
     await this.cacheManager.del(key);
 
     // "Invited by": credit the inviter and send their connection request. Never fails sign-up.
-    await this.referrals.attribute(savedUser, referralCode).catch(error => console.error('Referral failed:', error));
+    await this.referrals.attribute(savedUser, referralCode, ctx).catch(error => console.error('Referral failed:', error));
 
     // The account already exists, so a failed welcome email shouldn't fail verification.
     this.emailService
@@ -498,7 +502,23 @@ export class AuthService {
     for (const [key, value] of Object.entries(dto)) if (value !== undefined) set[`privacy.${key}`] = value;
     const user = await this.usersRepository.updateFields(userId, set);
     if (!user) throw new UnauthorizedException('User not found');
+    // Show / hide on other students' boards straight away.
+    if (dto.showOnLeaderboard !== undefined) this.leaderboards.forgetHidden();
     return this.toSafeProfile(user);
+  }
+
+  // ─────────────────────────────────── Profile picture ────────────────────────────
+
+  async setAvatarPreset(userId: string, preset: string) {
+    return this.toSafeProfile(await this.avatars.setPreset(userId, preset));
+  }
+
+  async uploadAvatar(userId: string, file?: { buffer: Buffer; size: number }) {
+    return this.toSafeProfile(await this.avatars.uploadPhoto(userId, file));
+  }
+
+  async removeAvatar(userId: string) {
+    return this.toSafeProfile(await this.avatars.remove(userId));
   }
 
   // ─────────────────────────────────── Username ───────────────────────────────────
@@ -520,9 +540,17 @@ export class AuthService {
   /** Profile without password / refresh-token hashes, plus a string `id`. */
   private toSafeProfile(user: UserDocument & { toObject: () => any }) {
     // `_id` is replaced by a string `id`: raw ObjectIds serialize as {}.
-    // Never sent: secrets, another student's id (referredBy), moderation internals.
-    const { password, refreshToken, __v, _id, usernameLower, referredBy, flag, requestsPausedUntil, ...safeUser } = user.toObject();
+    // Never sent: secrets, another student's id (referredBy), referral review state,
+    // hashed sign-up network / install, moderation internals.
+    const { password, refreshToken, __v, _id, usernameLower, referredBy, referral, signupNetwork, signupInstall, flag, requestsPausedUntil, avatar, avatarQuota, ...safeUser } =
+      user.toObject();
     const next = this.usernames.nextChangeAt(user);
-    return { id: String(_id), ...safeUser, usernameChangeAvailableAt: next ? next.toISOString() : null };
+    return {
+      id: String(_id),
+      ...safeUser,
+      // { preset, url } — never the storage key or the daily change count.
+      avatar: avatarView({ avatar }),
+      usernameChangeAvailableAt: next ? next.toISOString() : null,
+    };
   }
 }

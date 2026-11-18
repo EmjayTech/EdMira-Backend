@@ -3,7 +3,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 /** Profile → Privacy. Omitted settings are unchanged; see social/social-policy.ts DEFAULT_PRIVACY. */
 export class PrivacyDto {
-  @ApiProperty({ required: false, description: 'Show me on leaderboards (default on). Off = "Anonymous student".' })
+  @ApiProperty({ required: false, description: "Show me on leaderboards (default on). Off = left out of other students' boards." })
   @IsOptional()
   @IsBoolean()
   showOnLeaderboard?: boolean;
@@ -32,6 +32,11 @@ export class PrivacyDto {
   @IsOptional()
   @IsBoolean()
   muteRequestNotifications?: boolean;
+
+  @ApiProperty({ required: false, description: 'No inbox messages about leaderboards (default off)' })
+  @IsOptional()
+  @IsBoolean()
+  muteLeaderboardNotifications?: boolean;
 
   @ApiProperty({ required: false, description: 'Make my profile public to other students (default off)' })
   @IsOptional()

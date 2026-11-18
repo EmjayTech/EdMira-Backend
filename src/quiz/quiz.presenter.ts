@@ -12,6 +12,9 @@ export const presentAttempt = (attempt: QuizAttemptDocument) => ({
   correctCount: attempt.correctCount,
   answeredCount: attempt.answeredCount,
   score: attempt.score,
+  /** Points earned (null until scored; older app builds ignore it). */
+  pointsAwarded: attempt.points ?? null,
+  retry: !!attempt.retry,
   answers: attempt.answers.map(a => ({
     questionId: String(a.questionId),
     selectedIndex: a.selectedIndex,

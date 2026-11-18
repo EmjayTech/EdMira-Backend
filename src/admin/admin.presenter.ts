@@ -7,6 +7,7 @@ import { TopicDocument } from '../content/schemas/topic.schema';
 import { FeedbackDocument, QuestionReportDocument } from '../feedback/feedback.schemas';
 import { QuizAttemptDocument } from '../quiz/quiz-attempt.schema';
 import { UserDocument } from '../users/model/user.model';
+import { avatarView } from '../avatars/avatar-view';
 
 /** Shapes in EdMira-Admin/src/data/types.ts. Staff see every status and all fields. */
 
@@ -34,6 +35,8 @@ export const adminCourse = (c: CourseDocument) => ({
   title: c.title,
   description: c.description,
   code: c.code ?? '',
+  ...(c.moduleId ? { moduleId: c.moduleId, subject: c.subject ?? '', shortName: c.shortName ?? '' } : {}),
+  ...(c.replacedBy?.length ? { replacedBy: [...c.replacedBy] } : {}),
   color: c.color ?? '#0A369D',
   audience: presentAudience(c.audience),
   status: c.status,
@@ -116,7 +119,17 @@ export const adminStudent = (u: UserDocument) => ({
   // Accounts created before timestamps existed: fall back to the id's time.
   joinedAt: iso(u.createdAt) ?? (u._id as any).getTimestamp().toISOString(),
   status: u.status ?? 'active',
+  /** { preset, url } — moderators can see and remove an uploaded photo. */
+  avatar: avatarView(u),
+  /** free | trial | pro right now (whether plans are switched on or not). */
+  plan: planOf(u),
+  proExpiresAt: iso(u.proExpiresAt) ?? null,
+  proSource: u.proSource ?? null,
+  trialEndsAt: iso(u.trialEndsAt) ?? null,
 });
+
+const planOf = (u: UserDocument, now = new Date()) =>
+  u.proExpiresAt && u.proExpiresAt > now ? 'pro' : u.trialEndsAt && u.trialEndsAt > now ? 'trial' : 'free';
 
 export const adminAttempt = (a: QuizAttemptDocument) => ({
   id: a.id,

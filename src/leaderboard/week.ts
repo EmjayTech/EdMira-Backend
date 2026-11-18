@@ -46,3 +46,20 @@ export function streakDays(practiceDays: Iterable<string>, now = new Date()): nu
   }
   return streak;
 }
+
+/** The day `n` days after `day` ("YYYY-MM-DD"; n may be negative). */
+export const addDays = (day: string, n: number): string =>
+  new Date(Date.parse(`${day}T00:00:00Z`) + n * DAY_MS).toISOString().slice(0, 10);
+
+/** Whole days from `from` to `to` (both "YYYY-MM-DD"). */
+export const daysBetween = (from: string, to: string): number =>
+  Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / DAY_MS);
+
+/** The Lagos Monday of the week a Lagos calendar day belongs to. */
+export function weekOfDay(day: string): string {
+  const daysSinceMonday = (new Date(`${day}T00:00:00Z`).getUTCDay() + 6) % 7;
+  return addDays(day, -daysSinceMonday);
+}
+
+/** The hour (0–23) in Lagos at `at`. */
+export const lagosHour = (at: Date): number => new Date(at.getTime() + LAGOS_OFFSET_MS).getUTCHours();

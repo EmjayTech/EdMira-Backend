@@ -91,7 +91,7 @@ describe('search', () => {
   it('finds by username prefix with public details only, never yourself', async () => {
     const res = await as(bola).get('/people/search', { q: 'ADA' }).expect(200);
     expect(res.body).toEqual([
-      { username: 'ada_med', initials: 'AD', school: 'UNILAG', level: '300 Level', badge: null, connection: { status: 'none' } },
+      { username: 'ada_med', initials: 'AD', school: 'UNILAG', level: '300 Level', badge: null, avatar: { preset: null, url: null }, connection: { status: 'none' } },
     ]);
     assertNoPersonalData(res.body);
     expect((await as(ada).get('/people/search', { q: 'ada' }).expect(200)).body).toEqual([]);
@@ -343,7 +343,7 @@ describe('invite links', () => {
 
     const newcomer = await student('new_kid', undefined, { referralCode: '@Ada_Med' });
     expect((await as(ada).get('/auth/profile').expect(200)).body.referralCount).toBe(1);
-    expect((await as(ada).get('/me/referrals').expect(200)).body).toEqual({ count: 1 });
+    expect((await as(ada).get('/me/referrals').expect(200)).body).toMatchObject({ count: 1, joined: 1, pending: 1, rewarded: 0, pointsEarned: 0 });
 
     const requests = (await as(newcomer).get('/connections/requests').expect(200)).body;
     expect(requests.incoming.map((r: any) => r.username)).toEqual(['ada_med']);

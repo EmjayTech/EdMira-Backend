@@ -14,12 +14,19 @@ export class NotificationsService {
     @InjectModel(User.name) private readonly users: Model<UserDocument>,
   ) {}
 
-  async notify(userId: Types.ObjectId | string, type: NotificationType, fromId?: Types.ObjectId | string | null, refId?: string) {
+  async notify(
+    userId: Types.ObjectId | string,
+    type: NotificationType,
+    fromId?: Types.ObjectId | string | null,
+    refId?: string,
+    data?: Record<string, string | number>,
+  ) {
     await this.notifications.create({
       userId: new Types.ObjectId(String(userId)),
       type,
       fromId: fromId ? new Types.ObjectId(String(fromId)) : undefined,
       refId,
+      ...(data ? { data } : {}),
     });
   }
 
@@ -47,6 +54,7 @@ export class NotificationsService {
       type: r.type,
       username: r.fromId ? names.get(String(r.fromId)) ?? null : null,
       refId: r.refId ?? null,
+      data: r.data ?? null,
       createdAt: r.createdAt?.toISOString(),
       read: !!r.readAt,
     }));

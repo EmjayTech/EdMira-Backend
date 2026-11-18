@@ -12,12 +12,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json --runInBand",
     "seed": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/seed/seed.ts",
     "content:load": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/load-content.ts",
+    "content:notes": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/content-notes.ts",
+    "content:physiology-modules": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/physiology-modules.ts",
     "news:fetch": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/fetch-news.ts",
     "start:prod": "node dist/main",
     "dev:memory": "ts-node --transpile-only -r tsconfig-paths/register test/support/dev-server.ts",
     "staff": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/staff.ts",
     "usernames": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/usernames.ts",
-    "leaderboard": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/leaderboard.ts"
+    "leaderboard": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/leaderboard.ts",
+    "progress": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/scripts/progress.ts",
+    "seed:leaderboard": "node -r dotenv/config -r ts-node/register -r tsconfig-paths/register src/seed/seed-leaderboard.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",
@@ -51,6 +55,8 @@
     "reflect-metadata": "^0.1.13",
     "resend": "^4.0.0",
     "rxjs": "^7.8.2",
+    "sharp": "^0.35.5",
+    "svg-to-pdfkit": "0.1.8",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {

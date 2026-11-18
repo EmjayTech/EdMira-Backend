@@ -11,6 +11,7 @@ import { QuizAttempt, QuizAttemptDocument } from '../quiz/quiz-attempt.schema';
 import { schoolShortName } from '../reference/school-short-names';
 import { User, UserDocument } from '../users/model/user.model';
 import { normalizeUsername } from '../users/username-policy';
+import { avatarView } from '../avatars/avatar-view';
 import { SafetyService } from './safety.service';
 import { BadgesService } from './badges.service';
 import { Block, BlockDocument } from './schemas/block.schema';
@@ -18,19 +19,21 @@ import { Connection, ConnectionDocument } from './schemas/connection.schema';
 import { DEFAULT_PRIVACY, SEARCH, pairKey } from './social-policy';
 
 /** The account fields visibility decisions need. */
-export type Person = Pick<User, 'username' | 'role' | 'status' | 'isVerified' | 'privacy' | 'studentProfile' | 'createdAt' | 'suspendedUntil'> & {
+export type Person = Pick<User, 'username' | 'role' | 'status' | 'isVerified' | 'privacy' | 'studentProfile' | 'createdAt' | 'suspendedUntil' | 'avatar'> & {
   _id: Types.ObjectId;
 };
-const PERSON_FIELDS = 'username usernameLower role status isVerified privacy studentProfile createdAt suspendedUntil';
+const PERSON_FIELDS = 'username usernameLower role status isVerified privacy studentProfile createdAt suspendedUntil avatar';
 
 /** What any student may see about another — never names, emails, phones or ids. */
-export const publicStudent = (u: Pick<Person, 'username' | 'role' | 'studentProfile'>) => ({
+export const publicStudent = (u: Pick<Person, 'username' | 'role' | 'studentProfile'> & Partial<Pick<Person, 'avatar'>>) => ({
   username: u.username,
   initials: (u.username ?? '?').replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || '?',
   school: u.role ? '' : schoolShortName(u.studentProfile?.institution),
   level: u.role ? '' : u.studentProfile?.level ?? '',
   /** Staff accounts carry the "EdMira team" badge so students can spot impersonators. */
   badge: u.role ? ('edmira_team' as const) : null,
+  /** Profile picture: preset id or photo URL; neither → initials. */
+  avatar: avatarView(u),
 });
 
 export const privacyOf = (u: Pick<Person, 'privacy'>) => ({ ...DEFAULT_PRIVACY, ...(u.privacy ?? {}) });
@@ -268,7 +271,7 @@ export class PeopleService {
       this.leaderboards.summary(String(id)),
       this.attempts.distinct('topicId', { studentId: id }),
       privacy.shareScores
-        ? this.attempts.aggregate<{ avg: number }>([{ $match: { studentId: id } }, { $group: { _id: null, avg: { $avg: '$score' } } }])
+        ? this.attempts.aggregate<{ avg: number }>([{ $match: { studentId: id, retry: { $ne: true } } }, { $group: { _id: null, avg: { $avg: '$score' } } }])
         : Promise.resolve([]),
     ]);
     return {

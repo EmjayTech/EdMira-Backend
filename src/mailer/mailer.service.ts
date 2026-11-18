@@ -76,6 +76,11 @@ export class EmailService {
     });
   }
 
+  /** Plan / trial emails (built in src/plans/plan-emails.ts). */
+  async sendPlanEmail(to: string, subject: string, html: string, _kind?: string): Promise<void> {
+    await this.sendMail({ to, subject, html });
+  }
+
   private async sendMail(options: { to: string; subject: string; html: string }): Promise<void> {
     const { data, error } = await this.resend.emails.send({
       from: this.from,

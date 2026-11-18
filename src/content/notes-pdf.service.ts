@@ -4,10 +4,12 @@ import { createHmac, timingSafeEqual } from 'crypto';
 import { Model } from 'mongoose';
 import { join, resolve } from 'path';
 import PDFDocument from 'pdfkit';
+import SVGtoPDF from 'svg-to-pdfkit';
 import { ContentStatus } from '../common/enum/content-status.enum';
 import { ContentService } from './content.service';
 import { Course, CourseDocument } from './schemas/course.schema';
-import { Topic, TopicDocument } from './schemas/topic.schema';
+import { MaterialSection, Topic, TopicDocument, TopicFigure } from './schemas/topic.schema';
+import { TopicVersionsService } from './topic-versions.service';
 
 const LINK_TTL_SECONDS = 15 * 60;
 const FONTS = resolve(__dirname, '..', '..', 'assets', 'fonts');
@@ -25,7 +27,9 @@ export interface NotesDownload {
   expiresAt: string;
 }
 
-const COLORS = { text: '#111827', muted: '#6B7280', brand: '#0A369D', rule: '#E5E7EB', keyBg: '#EEF2FF' };
+const COLORS = { text: '#111827', muted: '#6B7280', brand: '#0A369D', rule: '#E5E7EB', keyBg: '#EEF2FF', callout: '#FFF7ED', calloutRule: '#F26B1D' };
+
+type Figures = Map<string, { figure: TopicFigure; mimeType: string; data: Buffer }>;
 
 /** "Nucleotides, Nucleic Acids & Vitamins" → "Nucleotides_Nucleic_Acids_Vitamins" */
 const fileSafe = (text: string) =>
@@ -45,6 +49,7 @@ export class NotesPdfService {
     private readonly content: ContentService,
     @InjectModel(Course.name) private readonly courses: Model<CourseDocument>,
     @InjectModel(Topic.name) private readonly topics: Model<TopicDocument>,
+    private readonly versions: TopicVersionsService,
   ) {}
 
   private sign(scope: NotesScope, id: string, expires: number) {
@@ -101,10 +106,18 @@ export class NotesPdfService {
     topics = topics.filter(t => t.material?.length);
     if (!topics.length) throw new NotFoundException('No notes yet.');
     const title = scope === 'topic' ? topics[0].title : course.title;
-    return { name: `${fileSafe(title)}_notes.pdf`, doc: this.render(course, topics, scope) };
+    // Figure images, loaded before drawing (pdfkit draws synchronously).
+    const figures: Figures = new Map();
+    for (const t of topics) {
+      for (const f of t.figures ?? []) {
+        const asset = await this.versions.asset(f.assetId).catch(() => null);
+        if (asset) figures.set(`${t.id}:${f.key}`, { figure: f, ...asset });
+      }
+    }
+    return { name: `${fileSafe(title)}_notes.pdf`, doc: this.render(course, topics, scope, figures) };
   }
 
-  private render(course: CourseDocument, topics: TopicDocument[], scope: NotesScope) {
+  private render(course: CourseDocument, topics: TopicDocument[], scope: NotesScope, figures: Figures = new Map()) {
     const doc = new PDFDocument({
       size: 'A4',
       margins: { top: 56, bottom: 64, left: 56, right: 56 },
@@ -147,24 +160,24 @@ export class NotesPdfService {
       doc.moveTo(doc.x, doc.y).lineTo(doc.x + width, doc.y).strokeColor(COLORS.rule).lineWidth(1).stroke();
       doc.moveDown(0.8);
 
-      topic.material.forEach((section, si) => {
-        doc.font('semibold').fontSize(13).fillColor(COLORS.brand).text(`${si + 1}. ${section.heading}`);
-        doc.moveDown(0.3);
-        for (const paragraph of section.body.split(/\n\s*\n/)) {
-          doc.font('regular').fontSize(11).fillColor(COLORS.text).text(paragraph.trim(), { align: 'left', lineGap: 2.5 });
-          doc.moveDown(0.5);
-        }
-        if (section.keyPoints?.length) {
-          doc.font('semibold').fontSize(10).fillColor(COLORS.muted).text('KEY POINTS', { characterSpacing: 0.8 });
-          doc.moveDown(0.2);
-          doc.font('regular').fontSize(11).fillColor(COLORS.text);
-          for (const point of section.keyPoints) {
-            doc.text(`•  ${point}`, { indent: 8, lineGap: 1.5 });
-          }
-          doc.moveDown(0.6);
-        }
-        doc.moveDown(0.4);
-      });
+      const pdf = { doc, width, figures, topicId: topic.id };
+      if (topic.objectives?.length) box(pdf, 'LEARNING OBJECTIVES', topic.objectives, COLORS.keyBg);
+      if (topic.keyPoints?.length) box(pdf, 'KEY POINTS', topic.keyPoints, COLORS.keyBg);
+      sectionsBlock(pdf, topic.material, null);
+      // Extended notes and the clinical correlation are Pro (Part 4 decides who gets them).
+      if (topic.extended?.length) sectionsBlock(pdf, topic.extended, 'Extended notes');
+      if (topic.clinical?.length) sectionsBlock(pdf, topic.clinical, 'Clinical correlation');
+      if (topic.revision?.length) box(pdf, 'QUICK REVISION', topic.revision, COLORS.callout);
+      if (topic.furtherReading?.length) {
+        doc.font('semibold').fontSize(10).fillColor(COLORS.muted).text('FURTHER READING', { characterSpacing: 0.8 });
+        doc.moveDown(0.2).font('regular').fontSize(10).fillColor(COLORS.text);
+        for (const r of topic.furtherReading) doc.text(`•  ${r}`, { indent: 8, lineGap: 1.5 });
+        doc.moveDown(0.6);
+      }
+      if (topic.credits?.length) {
+        doc.font('regular').fontSize(9).fillColor(COLORS.muted).text(`Notes contributed by ${topic.credits.join(', ')}.`);
+        doc.moveDown(0.6);
+      }
     });
 
     // Footer on every page
@@ -184,4 +197,168 @@ export class NotesPdfService {
     doc.end();
     return doc;
   }
+}
+
+// ── Drawing helpers (a small subset of Markdown: what the note files use) ────
+
+interface Pdf {
+  doc: PDFKit.PDFDocument;
+  width: number;
+  figures: Figures;
+  topicId: string;
+}
+
+/** Text with **bold** runs. */
+function rich(doc: PDFKit.PDFDocument, text: string, opts: PDFKit.Mixins.TextOptions = {}) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+  parts.forEach((part, i) => {
+    const bold = /^\*\*[^*]+\*\*$/.test(part);
+    doc.font(bold ? 'semibold' : 'regular').text(bold ? part.slice(2, -2) : part, { ...opts, continued: i < parts.length - 1 });
+  });
+}
+
+function box(pdf: Pdf, label: string, items: string[], fill: string) {
+  const { doc, width } = pdf;
+  const x = doc.x;
+  const top = doc.y;
+  const inner = width - 24;
+  doc.font('regular').fontSize(11);
+  const height = 26 + items.reduce((h, t) => h + doc.heightOfString(`•  ${t.replace(/\*\*/g, '')}`, { width: inner - 8 }) + 3, 0);
+  if (top + height > doc.page.height - doc.page.margins.bottom) doc.addPage();
+  const y = doc.y;
+  doc.save().roundedRect(x, y, width, height, 8).fill(fill).restore();
+  doc.font('semibold').fontSize(9).fillColor(COLORS.brand).text(label, x + 12, y + 10, { characterSpacing: 0.8, width: inner });
+  doc.moveDown(0.3).fontSize(11).fillColor(COLORS.text);
+  for (const t of items) {
+    rich(doc, `•  ${t}`, { width: inner - 8, indent: 0, lineGap: 1.5 });
+    doc.moveDown(0.1);
+  }
+  doc.x = x;
+  doc.y = y + height + 10;
+}
+
+function sectionsBlock(pdf: Pdf, sections: MaterialSection[], title: string | null) {
+  const { doc } = pdf;
+  if (title) {
+    doc.moveDown(0.4).font('bold').fontSize(15).fillColor(COLORS.text).text(title);
+    doc.moveDown(0.4);
+  }
+  sections.forEach((section, si) => {
+    doc.font('semibold').fontSize(13).fillColor(COLORS.brand).text(`${si + 1}. ${section.heading}`);
+    doc.moveDown(0.3);
+    body(pdf, section.body);
+    if (section.keyPoints?.length) {
+      doc.font('semibold').fontSize(10).fillColor(COLORS.muted).text('KEY POINTS', { characterSpacing: 0.8 });
+      doc.moveDown(0.2).fontSize(11).fillColor(COLORS.text);
+      for (const point of section.keyPoints) rich(doc, `•  ${point}`, { indent: 8, lineGap: 1.5 });
+      doc.moveDown(0.6);
+    }
+    doc.moveDown(0.4);
+  });
+}
+
+/** Paragraphs, bullet / numbered lists, #### sub-headings, > callouts, | tables | and {{fig:key}}. */
+function body(pdf: Pdf, text: string) {
+  const { doc, width } = pdf;
+  const x = doc.page.margins.left;
+  for (const raw of text.split(/\n\s*\n/)) {
+    const block = raw.trim();
+    if (!block) continue;
+    const lines = block.split(/\n/).map(l => l.trimEnd());
+    const fig = block.match(/^\{\{fig:([a-z0-9-]+)\}\}$/);
+    if (fig) {
+      figure(pdf, fig[1]);
+      continue;
+    }
+    doc.fontSize(11).fillColor(COLORS.text);
+    if (lines.every(l => /^\s*[-*]\s+/.test(l))) {
+      for (const l of lines) rich(doc, `•  ${l.replace(/^\s*[-*]\s+/, '')}`, { indent: /^\s{2,}/.test(l) ? 20 : 8, lineGap: 1.5 });
+    } else if (lines.every(l => /^\s*\d+[.)]\s+/.test(l))) {
+      for (const l of lines) rich(doc, l.trim(), { indent: 8, lineGap: 1.5 });
+    } else if (lines[0].startsWith('#### ')) {
+      doc.font('semibold').fontSize(11.5).fillColor(COLORS.text).text(lines[0].slice(5));
+      if (lines.length > 1) rich(doc.font('regular').fontSize(11), lines.slice(1).join(' '), { lineGap: 2.5 });
+    } else if (lines.every(l => l.startsWith('>'))) {
+      const t = lines.map(l => l.replace(/^>\s?/, '')).join(' ');
+      doc.font('regular').fontSize(11);
+      const h = doc.heightOfString(t.replace(/\*\*/g, ''), { width: width - 28 }) + 16;
+      if (doc.y + h > doc.page.height - doc.page.margins.bottom) doc.addPage();
+      const y = doc.y;
+      doc.save().rect(x, y, width, h).fill(COLORS.callout).rect(x, y, 3, h).fill(COLORS.calloutRule).restore();
+      doc.fillColor(COLORS.text);
+      doc.x = x + 14;
+      doc.y = y + 8;
+      rich(doc, t, { width: width - 28, lineGap: 2 });
+      doc.x = x;
+      doc.y = y + h;
+    } else if (lines.every(l => l.trim().startsWith('|'))) {
+      table(pdf, lines);
+    } else {
+      // A paragraph; any {{fig:…}} inside it is drawn after the text.
+      const keys = [...block.matchAll(/\{\{fig:([a-z0-9-]+)\}\}/g)].map(m => m[1]);
+      const plain = block.replace(/\{\{fig:[a-z0-9-]+\}\}/g, '').replace(/\s*\n\s*/g, ' ').trim();
+      if (plain) rich(doc, plain, { align: 'left', lineGap: 2.5 });
+      keys.forEach(k => figure(pdf, k));
+    }
+    doc.moveDown(0.5);
+  }
+}
+
+function table(pdf: Pdf, lines: string[]) {
+  const { doc, width } = pdf;
+  const x = doc.page.margins.left;
+  const rows = lines
+    .filter(l => !/^\s*\|?\s*:?-{3,}/.test(l))
+    .map(l => l.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim().replace(/\*\*/g, '')));
+  const cols = Math.max(...rows.map(r => r.length));
+  const colW = width / cols;
+  doc.fontSize(10);
+  rows.forEach((row, ri) => {
+    const h = Math.max(...row.map(c => doc.heightOfString(c, { width: colW - 10 }))) + 10;
+    if (doc.y + h > doc.page.height - doc.page.margins.bottom) doc.addPage();
+    const y = doc.y;
+    if (ri === 0) doc.save().rect(x, y, width, h).fill(COLORS.keyBg).restore();
+    row.forEach((cell, ci) => {
+      doc.font(ri === 0 ? 'semibold' : 'regular').fillColor(COLORS.text).text(cell, x + ci * colW + 5, y + 5, { width: colW - 10 });
+    });
+    doc.save().moveTo(x, y + h).lineTo(x + width, y + h).strokeColor(COLORS.rule).lineWidth(0.7).stroke().restore();
+    doc.x = x;
+    doc.y = y + h;
+  });
+}
+
+/** A numbered figure with its caption and (for others' images) the attribution line. */
+function figure(pdf: Pdf, key: string) {
+  const { doc, width, figures, topicId } = pdf;
+  const found = figures.get(`${topicId}:${key}`);
+  if (!found) return;
+  const { figure: f, mimeType, data } = found;
+  const x = doc.page.margins.left;
+  const maxW = Math.min(width, 420);
+  let w = maxW;
+  let h = 240;
+  if (mimeType === 'image/svg+xml') {
+    const vb = data.toString('utf8').match(/viewBox\s*=\s*["']\s*[-\d.]+[\s,]+[-\d.]+[\s,]+([\d.]+)[\s,]+([\d.]+)/);
+    if (vb) h = (maxW * Number(vb[2])) / Number(vb[1]);
+  }
+  if (h > 320) {
+    w = (w * 320) / h;
+    h = 320;
+  }
+  if (doc.y + h + 40 > doc.page.height - doc.page.margins.bottom) doc.addPage();
+  const left = x + (width - w) / 2;
+  const top = doc.y + 4;
+  try {
+    if (mimeType === 'image/svg+xml') SVGtoPDF(doc, data.toString('utf8'), left, top, { width: w, height: h, preserveAspectRatio: 'xMidYMid meet' });
+    else if (mimeType === 'image/webp') doc.font('regular').fontSize(9).fillColor(COLORS.muted).text('[Figure available in the app]', left, top + h / 2, { width: w, align: 'center' });
+    else doc.image(data, left, top, { fit: [w, h], align: 'center' });
+  } catch {
+    doc.font('regular').fontSize(9).fillColor(COLORS.muted).text('[Figure available in the app]', left, top + h / 2, { width: w, align: 'center' });
+  }
+  doc.x = x;
+  doc.y = top + h + 6;
+  doc.font('semibold').fontSize(9.5).fillColor(COLORS.text).text(`${f.label}. `, { continued: true, width });
+  doc.font('regular').text(f.caption, { width });
+  if (f.attributionText && !/^original$/i.test(f.licence ?? '')) doc.font('regular').fontSize(8).fillColor(COLORS.muted).text(f.attributionText, { width });
+  doc.moveDown(0.6);
 }

@@ -3,11 +3,11 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { LeaderboardWeek, LeaderboardWeekDocument } from '../leaderboard/leaderboard-week.schema';
 import { MASTERY_SCORE } from '../leaderboard/leaderboard.service';
-import { isTooFast } from '../leaderboard/scoring';
-import { lagosDay, weekOf } from '../leaderboard/week';
+import { weekOf } from '../leaderboard/week';
+import { StudyService } from '../study/study.service';
 import { QuizAttempt, QuizAttemptDocument } from '../quiz/quiz-attempt.schema';
 import { User, UserDocument } from '../users/model/user.model';
-import { Badge, badgesFor, longestRun } from './badges';
+import { Badge, badgesFor } from './badges';
 import { Challenge, ChallengeDocument } from './schemas/challenge.schema';
 
 /** Works out a student's badges from their activity (rules: ./badges.ts). */
@@ -18,16 +18,19 @@ export class BadgesService {
     @InjectModel(QuizAttempt.name) private readonly attempts: Model<QuizAttemptDocument>,
     @InjectModel(LeaderboardWeek.name) private readonly weeks: Model<LeaderboardWeekDocument>,
     @InjectModel(Challenge.name) private readonly challenges: Model<ChallengeDocument>,
+    private readonly study: StudyService,
   ) {}
 
   async badgesOf(userId: Types.ObjectId | string): Promise<Badge[]> {
     const id = new Types.ObjectId(String(userId));
     const user = await this.users.findById(id).select('createdAt badgeOverrides role').lean().exec();
     if (!user || user.role) return [];
-    const [runs, mastered, weekly, wins] = await Promise.all([
-      this.attempts.find({ studentId: id }).select('submittedAt startedAt total').lean().exec(),
+    const [longestStreak, mastered, weekly, wins] = await Promise.all([
+      // Study days with streak freezes (study/streak.ts).
+      this.study.longestStreak(id),
       this.attempts.aggregate<{ n: number }>([
-        { $match: { studentId: id } },
+        // "Retry weak questions" runs only hold the missed questions: not a mastery score.
+        { $match: { studentId: id, retry: { $ne: true } } },
         { $group: { _id: '$topicId', best: { $max: '$score' } } },
         { $match: { best: { $gte: MASTERY_SCORE } } },
         { $count: 'n' },
@@ -41,12 +44,9 @@ export class BadgesService {
         ],
       }),
     ]);
-    const days = runs
-      .filter(a => !isTooFast({ ...a, answeredCount: 0, score: 0, topicId: '', correctQuestionIds: [] }))
-      .map(a => lagosDay(a.submittedAt));
     return badgesFor({
       createdAt: user.createdAt,
-      longestStreak: longestRun(days),
+      longestStreak,
       topicsMastered: mastered[0]?.n ?? 0,
       weeklyTop3: weekly,
       challengeWins: wins,

@@ -6,10 +6,12 @@ import {
   IsArray,
   IsBoolean,
   IsEmail,
+  IsEnum,
   IsIn,
   IsISO8601,
   IsInt,
   IsMongoId,
+  IsObject,
   IsOptional,
   IsString,
   IsUrl,
@@ -247,6 +249,65 @@ export class AdminLeaderboardQuery {
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) institution?: string;
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(120) department?: string;
   @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(60) level?: string;
+  /** Username starts with… */
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(30) q?: string;
+}
+
+export class FlagListQuery {
+  @ApiProperty({ required: false, enum: ['open', 'closed'] }) @IsOptional() @IsIn(['open', 'closed']) status?: 'open' | 'closed';
+}
+
+export class FlagActionDto {
+  @ApiProperty({ enum: ['dismiss', 'exclude', 'reset'] }) @IsIn(['dismiss', 'exclude', 'reset']) action: 'dismiss' | 'exclude' | 'reset';
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(300) reason?: string;
+}
+
+export class LeaderboardExclusionDto {
+  @ApiProperty() @IsBoolean() excluded: boolean;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(300) reason?: string;
+}
+
+export class ReasonDto {
+  @ApiProperty() @IsString() @MaxLength(300) reason: string;
+}
+
+export class ReferralActionDto {
+  @ApiProperty({ enum: ['approve', 'reject', 'reverse'] }) @IsIn(['approve', 'reject', 'reverse']) action: 'approve' | 'reject' | 'reverse';
+  @ApiProperty({ required: false, description: 'Required to reject or reverse' }) @IsOptional() @IsString() @MaxLength(300) reason?: string;
+}
+
+export class SavedWinnersQuery {
+  @ApiProperty({ required: false, example: '2026-11-09' }) @IsOptional() @Matches(/^\d{4}-\d{2}-\d{2}$/) week?: string;
+  @ApiProperty({ required: false, enum: ['all', 'school', 'level', 'department', 'schools'] })
+  @IsOptional()
+  @IsIn(['all', 'school', 'level', 'department', 'schools'])
+  scope?: string;
+}
+
+export class SettingsDto {
+  @ApiProperty({ required: false, description: 'Any points values to change (see study/points-config.ts)' })
+  @IsOptional()
+  @IsObject()
+  points?: Record<string, number>;
+
+  @ApiProperty({ required: false, description: '{ minActiveStudents }' })
+  @IsOptional()
+  @IsObject()
+  leaderboard?: Record<string, number>;
+}
+
+/** Question of the Day: a Lagos date and group ("all", "l:100 Level", "ld:100 Level|Physiology"). */
+export class AdminQotdQuery {
+  @ApiProperty({ required: false, example: '2026-11-20' }) @IsOptional() @Matches(/^\d{4}-\d{2}-\d{2}$/) day?: string;
+}
+
+export class AdminQotdTarget {
+  @ApiProperty({ example: '2026-11-20' }) @Matches(/^\d{4}-\d{2}-\d{2}$/) day: string;
+  @ApiProperty({ example: 'ld:100 Level|Physiology' }) @IsString() @MaxLength(160) group: string;
+}
+
+export class AdminQotdPinDto extends AdminQotdTarget {
+  @ApiProperty() @IsMongoId() questionId: string;
 }
 
 export class ModerationListQuery {
@@ -254,9 +315,9 @@ export class ModerationListQuery {
 }
 
 export class ModerationActionDto {
-  @ApiProperty({ enum: ['dismiss', 'warn', 'rename', 'suspend', 'ban'] })
-  @IsIn(['dismiss', 'warn', 'rename', 'suspend', 'ban'])
-  action: 'dismiss' | 'warn' | 'rename' | 'suspend' | 'ban';
+  @ApiProperty({ enum: ['dismiss', 'warn', 'rename', 'remove_photo', 'suspend', 'ban'] })
+  @IsIn(['dismiss', 'warn', 'rename', 'remove_photo', 'suspend', 'ban'])
+  action: 'dismiss' | 'warn' | 'rename' | 'remove_photo' | 'suspend' | 'ban';
 
   @ApiProperty({ required: false, description: 'Suspend: 1–365 days' }) @IsOptional() @IsInt() @Min(1) days?: number;
   @ApiProperty({ required: false, description: 'Rename: the new username' }) @IsOptional() @IsString() @MaxLength(64) username?: string;
@@ -280,4 +341,99 @@ export class GroupSearchQuery {
 export class BadgeDto {
   @ApiProperty({ enum: ['founding_tester', 'campus_ambassador'] }) @IsIn(['founding_tester', 'campus_ambassador']) badge: 'founding_tester' | 'campus_ambassador';
   @ApiProperty() @IsBoolean() give: boolean;
+}
+
+// ── Versioned notes, curriculum and contributors ─────────────────────────────
+
+export class VersionTransitionDto {
+  @ApiProperty({ enum: ['approve', 'request_changes', 'reject', 'restore'] })
+  @IsIn(['approve', 'request_changes', 'reject', 'restore'])
+  action: 'approve' | 'request_changes' | 'reject' | 'restore';
+
+  @ApiProperty({ required: false, description: 'Required to request changes or reject' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(2000)
+  note?: string;
+}
+
+export class SchoolCourseCodeDto {
+  @ApiProperty({ required: false, nullable: true, example: 'PHS 211' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(40)
+  code?: string | null;
+
+  @ApiProperty({ required: false, nullable: true, example: 'Cardiovascular Physiology' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(160)
+  title?: string | null;
+
+  @ApiProperty({ type: [String], example: ['PHY-05'] })
+  @IsArray()
+  @ArrayMinSize(1)
+  @IsString({ each: true })
+  modules: string[];
+}
+
+export class SchoolCodesDto {
+  @ApiProperty({ example: 'University of Lagos (UNILAG)' })
+  @IsString()
+  @MaxLength(160)
+  school: string;
+
+  @ApiProperty({ required: false, description: 'Confirmed from a curriculum document' })
+  @IsOptional()
+  @IsBoolean()
+  verified?: boolean;
+
+  @ApiProperty({ required: false, nullable: true, enum: Institution, description: "The students' profile school this is for (shows the code chip in the app)" })
+  @IsOptional()
+  @IsEnum(Institution)
+  institution?: Institution | null;
+
+  @ApiProperty({ required: false, nullable: true, description: 'Where the codes come from (link or note)' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(500)
+  source?: string | null;
+
+  @ApiProperty({ type: [SchoolCourseCodeDto] })
+  @IsArray()
+  @ArrayMaxSize(80)
+  @ValidateNested({ each: true })
+  @Type(() => SchoolCourseCodeDto)
+  courses: SchoolCourseCodeDto[];
+}
+
+export class ContributorDto {
+  @ApiProperty({ example: 'dr-okafor' }) @IsString() @Matches(/^[a-z0-9-]{2,40}$/) key: string;
+  @ApiProperty() @IsString() @MaxLength(120) name: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(160) role?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsEmail() email?: string;
+  @ApiProperty({ description: 'They granted EdMira permission to use their own notes' }) @IsBoolean() permissionGranted: boolean;
+  @ApiProperty({ required: false }) @IsOptional() @IsISO8601() permissionDate?: string;
+  @ApiProperty({ required: false, description: 'What they agreed to, or where the signed form is' }) @IsOptional() @IsString() @MaxLength(2000) permissionText?: string;
+  @ApiProperty({ required: false }) @IsOptional() @IsBoolean() credit?: boolean;
+  @ApiProperty({ required: false }) @IsOptional() @IsString() @MaxLength(160) creditName?: string;
+  @ApiProperty({ required: false, type: [String] }) @IsOptional() @IsArray() @IsString({ each: true }) topics?: string[];
+}
+
+export class ResolveFlagDto {
+  @ApiProperty({ enum: ['confirm', 'correct', 'remove'], description: 'confirm = the text is right (marker removed) · correct = replace it · remove = delete it' })
+  @IsIn(['confirm', 'correct', 'remove'])
+  action: 'confirm' | 'correct' | 'remove';
+
+  @ApiProperty({ required: false, description: 'The corrected text (for correct)' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(4000)
+  text?: string;
+
+  @ApiProperty({ required: false, description: 'How it was checked, e.g. the reference used' })
+  @IsOptional()
+  @IsString()
+  @MaxLength(1000)
+  note?: string;
 }

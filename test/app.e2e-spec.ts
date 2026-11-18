@@ -372,9 +372,13 @@ describe('learning', () => {
     const orders = anatomy.topics.map((t: any) => t.order);
     expect(orders).toEqual([...orders].sort((a, b) => a - b));
     expect(anatomy.topics[0]).not.toHaveProperty('material');
+    // Published questions per topic and per course ("12 topics · 340 MCQs").
+    expect(anatomy.topics[0].questionCount).toBeGreaterThan(0);
+    expect(anatomy.questionCount).toBe(anatomy.topics.reduce((n: number, t: any) => n + t.questionCount, 0));
     topicId = anatomy.topics[0].id;
 
-    await http().get(api(`/courses/${anatomy.id}`)).set(auth(student.accessToken)).expect(200);
+    const detail = (await http().get(api(`/courses/${anatomy.id}`)).set(auth(student.accessToken)).expect(200)).body;
+    expect(detail.questionCount).toBe(anatomy.questionCount);
   });
 
   it('opens a topic with its material, course and question count', async () => {
@@ -559,19 +563,20 @@ describe('leaderboards', () => {
     n = (await http().get(api(`/topics/${topicId}/questions`)).set(auth(kemi)).expect(200)).body.length;
     expect(n).toBeGreaterThanOrEqual(3);
 
-    await take(kemi, n); // n correct + 2 completed + 2 active day
-    await take(tolu, 3); // 3 + 2 + 2 = 7
-    await take(zara, 1); // 1 + 2 + 2 = 5
+    // Points (study/points-config.ts): +10 a correct answer, +5 completed quiz, +20 first quiz of the day.
+    await take(kemi, n); // 10n + 5 + 20
+    await take(tolu, 3); // 30 + 5 + 20 = 55
+    await take(zara, 1); // 10 + 5 + 20 = 35
   });
 
   it('ranks classmates ("My course" = same school, programme and level) with public details only', async () => {
     const res = await board(kemi, 'course');
     expect(res.entries.map((e: any) => [e.username, e.points])).toEqual([
-      ['kemi', n + 4],
-      ['tolu', 7],
+      ['kemi', 10 * n + 25],
+      ['tolu', 55],
     ]);
-    expect(res.entries[0]).toEqual({ rank: 1, username: 'kemi', anonymous: false, school: 'UI', level: '500 Level', points: n + 4, isMe: true });
-    expect(res.me).toMatchObject({ rank: 1, points: n + 4, nextTier: null });
+    expect(res.entries[0]).toEqual({ rank: 1, username: 'kemi', anonymous: false, school: 'UI', level: '500 Level', points: 10 * n + 25, isMe: true });
+    expect(res.me).toMatchObject({ rank: 1, points: 10 * n + 25, nextTier: null });
     // Nothing personal anywhere in the response.
     const json = JSON.stringify(res);
     for (const secret of ['@ui.edu.ng', 'Ada', 'Obi', '8012345678', 'studentId']) expect(json).not.toContain(secret);
@@ -580,51 +585,57 @@ describe('leaderboards', () => {
   it('widens to the level and the whole school, and shows the gap to the next tier', async () => {
     const level = await board(zara, 'level');
     expect(level.entries.map((e: any) => e.username)).toEqual(['kemi', 'tolu', 'zara']);
-    expect(level.me).toMatchObject({ rank: 3, points: 5, nextTier: { rank: 1, pointsNeeded: n + 4 - 5 + 1 } });
+    expect(level.me).toMatchObject({ rank: 3, points: 35, nextTier: { rank: 1, pointsNeeded: 10 * n + 25 - 35 + 1 } });
     expect((await board(zara, 'school')).entries.map((e: any) => e.username)).toEqual(['zara']);
     expect((await board(zara, 'all')).totalStudents).toBeGreaterThanOrEqual(3);
   });
 
-  it('counts each question once a week and ignores quizzes tapped through too fast', async () => {
-    await take(kemi, n); // same questions again: only the completed-quiz points
-    await take(tolu, n, new Date(Date.now() - 2_000)); // n questions in 2 s → nothing
+  it('rewards practising again, and ignores quizzes tapped through too fast', async () => {
+    const again = await take(kemi, n); // 2nd correct try at each: still +10, +5 completed, no 2nd study-day bonus
+    expect(again.body.pointsResult).toMatchObject({ points: 10 * n + 5, studyDay: false, tooFast: false, streak: 1 });
+    expect(again.body.pointsAwarded).toBe(10 * n + 5);
+    const fast = await take(tolu, n, new Date(Date.now() - 2_000)); // n questions in 2 s → nothing
+    expect(fast.body.pointsResult).toMatchObject({ points: 0, tooFast: true });
+    const flags = await server.connection.collection('integrity_flags').find({ kind: 'too_fast_quiz' }).toArray();
+    expect(flags).toHaveLength(1);
     const res = await board(kemi, 'course');
     expect(res.entries.map((e: any) => [e.username, e.points])).toEqual([
-      ['kemi', n + 6],
-      ['tolu', 7],
+      ['kemi', 20 * n + 30],
+      ['tolu', 55],
     ]);
   });
 
-  it('shows students who opt out as "Anonymous student" to others — immediately', async () => {
+  it('leaves students who opt out off everyone else’s board — immediately — but shows them their own rank', async () => {
     const updated = await http().patch(api('/auth/privacy')).set(auth(tolu)).send({ showOnLeaderboard: false }).expect(200);
     expect(updated.body.privacy).toEqual({ showOnLeaderboard: false });
 
-    const seenByKemi = (await board(kemi, 'course')).entries[1];
-    expect(seenByKemi).toMatchObject({ username: null, anonymous: true, points: 7, school: 'UI' });
-    const seenByTolu = (await board(tolu, 'course')).entries[1];
-    expect(seenByTolu).toMatchObject({ username: 'tolu', isMe: true });
+    const seenByKemi = await board(kemi, 'course');
+    expect(seenByKemi.entries.map((e: any) => e.username)).toEqual(['kemi']);
+    expect(seenByKemi.totalStudents).toBe(1);
+    const seenByTolu = await board(tolu, 'course');
+    expect(seenByTolu.entries.map((e: any) => e.username)).toEqual(['kemi']);
+    expect(seenByTolu.me).toMatchObject({ rank: 2, points: 55 }); // "You'd be #2", only for tolu
 
     await http().patch(api('/auth/privacy')).set(auth(tolu)).send({ showOnLeaderboard: true }).expect(200);
     expect((await board(kemi, 'course')).entries[1].username).toBe('tolu');
   });
 
-  it('compares schools by total and average points', async () => {
+  it('only ranks schools with 5+ active students on the Schools board', async () => {
+    // UI has 2 active students and UNILAG 1 this week: both below the minimum.
     const res = (await http().get(api('/leaderboards/schools')).set(auth(kemi)).expect(200)).body;
-    const ui = res.schools.find((s: any) => s.school === 'UI');
-    expect(ui).toMatchObject({ totalPoints: n + 6 + 7, students: 2, averagePoints: Math.round((n + 13) / 2) });
-    expect(res.schools.find((s: any) => s.school === 'UNILAG')).toMatchObject({ students: 1 });
+    expect(res.schools).toEqual([]);
   });
 
   it('summarises streak, mastered topics and this week for share cards', async () => {
     const res = (await http().get(api('/me/progress-summary')).set(auth(kemi)).expect(200)).body;
-    expect(res).toMatchObject({ streakDays: 1, topicsMastered: 1, weekPoints: n + 6, weekRank: expect.any(Number) });
+    expect(res).toMatchObject({ streakDays: 1, topicsMastered: 1, weekPoints: 20 * n + 30, weekRank: expect.any(Number) });
   });
 
-  it('rebuilds a week to the same totals (safe to re-run)', async () => {
+  it('recounts a week from the points ledger to the same totals (safe to re-run)', async () => {
     const { LeaderboardService } = await import('../src/leaderboard/leaderboard.service');
     const { weekOf } = await import('../src/leaderboard/week');
     await server.app.get(LeaderboardService).rebuildWeek(weekOf(new Date()));
-    expect((await board(kemi, 'course')).entries.map((e: any) => e.points)).toEqual([n + 6, 7]);
+    expect((await board(kemi, 'course')).entries.map((e: any) => e.points)).toEqual([20 * n + 30, 55]);
   });
 
   it('moves the student to their new classmates when they change school in Edit profile', async () => {

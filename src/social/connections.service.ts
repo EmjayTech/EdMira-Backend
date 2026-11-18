@@ -21,6 +21,7 @@ const DUPLICATE_KEY = 11000;
  * authorised here: you can only touch requests and connections you're part of,
  * and only in the ways social-policy.ts allows.
  */
+import { avatarView } from '../avatars/avatar-view';
 @Injectable()
 export class ConnectionsService {
   constructor(
@@ -266,7 +267,7 @@ export class ConnectionsService {
     const otherOf = (r: T) => (String(r.requesterId) === userId ? r.recipientId : r.requesterId);
     const others = await this.users
       .find({ _id: { $in: rows.map(otherOf) } })
-      .select('username role status isVerified studentProfile suspendedUntil')
+      .select('username role status isVerified studentProfile suspendedUntil avatar')
       .lean<Person[]>()
       .exec();
     const byId = new Map(others.map(o => [String(o._id), o]));
@@ -349,6 +350,8 @@ export class ConnectionsService {
       evidence: {
         reporterUsername: me.username,
         reportedUsername: target.username,
+        /** The picture they reported (the file may be gone if it changed since). */
+        reportedAvatar: avatarView(target),
         recentRequests: recent.map(r => ({
           from: String(r.requesterId) === userId ? me.username : target.username,
           status: r.status,

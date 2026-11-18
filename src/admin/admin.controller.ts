@@ -1,3 +1,4 @@
+import { publicBaseUrl } from '../common/public-url';
 import {
   BadRequestException,
   Body,
@@ -7,6 +8,7 @@ import {
   Param,
   Patch,
   Post,
+  Put,
   Query,
   Req,
   UploadedFile,
@@ -27,6 +29,7 @@ import { AiDraftService } from './ai-draft.service';
 import { AiNewsService } from './ai-news.service';
 import { AiDraftDto, BulkTransitionDto, ImportDto } from './dto/import.dto';
 import { AuditService } from './audit/audit.service';
+import { TopicVersionsService } from '../content/topic-versions.service';
 import {
   CourseInputDto,
   CourseStatusDto,
@@ -57,9 +60,30 @@ import { Challenge, ChallengeDocument } from '../social/schemas/challenge.schema
 import { DateRangeQuery } from './dto/admin.dto';
 import { GroupsService } from '../social/groups.service';
 import { BadgesService } from '../social/badges.service';
+import { NotificationsService } from '../social/notifications.service';
+import { AvatarService } from '../avatars/avatar.service';
 import { User, UserDocument } from '../users/model/user.model';
 import { BadgeDto, GroupSearchQuery } from './dto/admin.dto';
 import { CurrentStaff, RequirePermission, Staff, StaffGuard } from './staff.guard';
+import { QotdService } from '../study/qotd/qotd.service';
+import { LeaderboardAdminService } from '../leaderboard/leaderboard-admin.service';
+import { SettingsService } from '../settings/settings.service';
+import { previousWeek } from '../leaderboard/week';
+import {
+  FlagActionDto,
+  FlagListQuery,
+  LeaderboardExclusionDto,
+  ReasonDto,
+  ReferralActionDto,
+  VersionTransitionDto,
+  ResolveFlagDto,
+  SchoolCodesDto,
+  ContributorDto,
+  SavedWinnersQuery,
+  SettingsDto,
+} from './dto/admin.dto';
+import { AdminQotdPinDto, AdminQotdQuery, AdminQotdTarget } from './dto/admin.dto';
+import { lagosDay } from '../leaderboard/week';
 
 /**
  * Admin dashboard API (contract: EdMira-Admin/docs/ADMIN_API.md).
@@ -85,6 +109,12 @@ export class AdminController {
     private readonly referrals: ReferralsService,
     private readonly groupsAdmin: GroupsService,
     private readonly badges: BadgesService,
+    private readonly qotd: QotdService,
+    private readonly leaderboardAdmin: LeaderboardAdminService,
+    private readonly settings: SettingsService,
+    private readonly versions: TopicVersionsService,
+    private readonly avatars: AvatarService,
+    private readonly notifications: NotificationsService,
     @InjectModel(User.name) private readonly userModel: Model<UserDocument>,
     @InjectModel(Challenge.name) private readonly challengeModel: Model<ChallengeDocument>,
   ) {}
@@ -162,6 +192,97 @@ export class AdminController {
     return this.content.transition(staff, 'question', id, dto);
   }
 
+  // ── Versioned notes (imports land here; live notes change only on approval) ──
+  @Get('topic-versions')
+  @ApiOperation({ summary: 'Notes versions waiting for review (in review / changes requested)' })
+  pendingVersions() {
+    return this.versions.pending();
+  }
+
+  @Get('topics/:id/versions')
+  @ApiOperation({ summary: "Every version of a topic's notes, newest first" })
+  topicVersions(@Param('id', ParseObjectIdPipe) id: string) {
+    return this.versions.history(id);
+  }
+
+  @Get('topic-versions/:id')
+  @ApiOperation({ summary: 'One version, the live notes to compare it with, and its questions' })
+  topicVersion(@Param('id', ParseObjectIdPipe) id: string) {
+    return this.versions.detail(id);
+  }
+
+  @Post('topic-versions/:id/transitions')
+  @RequirePermission('review')
+  @ApiOperation({ summary: 'approve (goes live, replaces the old version) | request_changes | reject | restore (roll back to this earlier version)' })
+  async transitionVersion(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: VersionTransitionDto) {
+    const result = await this.versions.transition(staff, id, dto.action, dto.note);
+    const v = await this.versions.detail(id);
+    await this.auditLog.log(
+      staff,
+      'topic',
+      v.version.topicId,
+      `version_${dto.action}`,
+      `${dto.action === 'restore' ? 'Restored' : dto.action === 'approve' ? 'Approved' : dto.action === 'reject' ? 'Rejected' : 'Sent back'} notes v${v.version.version} of “${v.version.topicTitle}”${dto.note ? `: ${dto.note}` : ''}`,
+    );
+    return result;
+  }
+
+  @Post('topic-versions/:id/flags/:flagId')
+  @RequirePermission('review')
+  @ApiOperation({ summary: 'Resolve one "⚑" check: confirm, correct (with text) or remove — recorded with who resolved it' })
+  async resolveFlag(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Param('flagId') flagId: string, @Body() dto: ResolveFlagDto) {
+    const result = await this.versions.resolveFlag(staff, id, flagId, dto.action, dto.text, dto.note);
+    await this.auditLog.log(staff, 'topic', id, `flag_${result.status}`, `${result.status[0].toUpperCase()}${result.status.slice(1)} a ⚑ check (${result.where})${dto.note ? `: ${dto.note}` : ''}`);
+    return result;
+  }
+
+  // ── Curriculum: each school's course codes → modules (editable, for ambassadors' outlines) ──
+  @Get('curriculum/:subject')
+  @ApiOperation({ summary: "A subject's module tree and every school's course codes" })
+  curriculum(@Param('subject') subject: string) {
+    return this.versions.curriculum(subject);
+  }
+
+  @Put('curriculum/:subject/schools/:key')
+  @RequirePermission('editContent')
+  @ApiOperation({ summary: "Add or replace a school's course code → module mapping" })
+  async saveSchoolCodes(@CurrentStaff() staff: Staff, @Param('subject') subject: string, @Param('key') key: string, @Body() dto: SchoolCodesDto) {
+    const saved = await this.versions.saveSchool(subject, { key, school: dto.school, verified: !!dto.verified, institution: dto.institution ?? null, source: dto.source ?? null, courses: dto.courses.map(c => ({ code: c.code ?? null, title: c.title ?? null, modules: c.modules })) }, staff.name);
+    await this.auditLog.log(staff, 'curriculum', `${subject}/${key}`, 'school_saved', `Saved ${saved.courses.length} course codes for ${saved.school} (${subject})`);
+    return saved;
+  }
+
+  @Delete('curriculum/:subject/schools/:key')
+  @RequirePermission('editContent')
+  @ApiOperation({ summary: "Remove a school's course codes" })
+  async removeSchoolCodes(@CurrentStaff() staff: Staff, @Param('subject') subject: string, @Param('key') key: string) {
+    const result = await this.versions.removeSchool(subject, key);
+    await this.auditLog.log(staff, 'curriculum', `${subject}/${key}`, 'school_removed', `Removed ${key}'s course codes (${subject})`);
+    return result;
+  }
+
+  // ── Contributors (lecturers' own notes, with permission on record) ──
+  @Get('contributors')
+  listContributors() {
+    return this.versions.listContributors();
+  }
+
+  @Post('contributors')
+  @RequirePermission('editContent')
+  async createContributor(@CurrentStaff() staff: Staff, @Body() dto: ContributorDto) {
+    const saved = await this.versions.saveContributor(dto as never, staff.name);
+    await this.auditLog.log(staff, 'contributor', dto.key, 'created', `Added contributor ${dto.name} (permission ${dto.permissionGranted ? 'granted' : 'not granted'})`);
+    return saved;
+  }
+
+  @Patch('contributors/:id')
+  @RequirePermission('editContent')
+  async updateContributor(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: ContributorDto) {
+    const saved = await this.versions.saveContributor(dto as never, staff.name, id);
+    await this.auditLog.log(staff, 'contributor', dto.key, 'updated', `Updated contributor ${dto.name} (permission ${dto.permissionGranted ? 'granted' : 'not granted'})`);
+    return saved;
+  }
+
   // ── Bulk tools ──
   @Post('import')
   @RequirePermission('editContent')
@@ -215,7 +336,7 @@ export class AdminController {
   @Get('resources/:id/file')
   @ApiOperation({ summary: 'A 15-minute link to preview an uploaded material' })
   resourceFile(@Param('id', ParseObjectIdPipe) id: string, @Req() req: Request) {
-    return this.content.resourceFileLink(id, `${req.protocol}://${req.get('host')}`);
+    return this.content.resourceFileLink(id, publicBaseUrl(req));
   }
 
   @Get('uploads/status')
@@ -395,6 +516,106 @@ export class AdminController {
     return this.leaderboards.schools(week);
   }
 
+  @Get('leaderboards/saved-winners')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'The top 10 of every board, saved when the week closed (default: last week)' })
+  savedWinners(@Query() query: SavedWinnersQuery) {
+    const week = query.week ?? previousWeek(weekOf(new Date()));
+    if (!isWeekId(week)) throw new BadRequestException('week must be a Monday, e.g. 2026-11-16.');
+    return this.leaderboardAdmin.savedWinners(week, query.scope);
+  }
+
+  @Get('leaderboards/insights')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: 'Per closed week: students on the board, and next-week study days of viewers vs others' })
+  leaderboardInsights() {
+    return this.leaderboardAdmin.insights(8);
+  }
+
+  @Get('leaderboards/flags')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: 'Suspicious activity for review (too fast, point bursts, near-perfect volume, shared network)' })
+  leaderboardFlags(@Query() query: FlagListQuery) {
+    return this.leaderboardAdmin.listFlags(query.status ?? 'open');
+  }
+
+  @Post('leaderboards/flags/:id')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: 'Handle a flag: dismiss · exclude the student from leaderboards · reset their points this week' })
+  async actOnFlag(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: FlagActionDto) {
+    const result = await this.leaderboardAdmin.actOnFlag(id, dto.action, dto.reason ?? '', staff.name);
+    const verb = { dismiss: 'Dismissed a leaderboard flag', exclude: 'Excluded a student from leaderboards (flag)', reset: "Reset a student's weekly points (flag)" }[dto.action];
+    await this.auditLog.log(staff, 'student', result.studentId, `flag_${dto.action}`, dto.reason ? `${verb}: ${dto.reason}` : verb);
+    return result;
+  }
+
+  @Patch('students/:id/leaderboard')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: 'Exclude a student from every leaderboard (with a reason), or return them' })
+  async setLeaderboardExclusion(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: LeaderboardExclusionDto) {
+    const result = await this.leaderboardAdmin.setExclusion(id, dto.excluded, dto.reason ?? '', staff.name);
+    await this.auditLog.log(
+      staff,
+      'student',
+      id,
+      dto.excluded ? 'leaderboard_excluded' : 'leaderboard_restored',
+      dto.excluded ? `Excluded from leaderboards: ${dto.reason}` : 'Returned to leaderboards',
+    );
+    return result;
+  }
+
+  @Post('students/:id/leaderboard/reset')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: "Reset a student's points this week to 0 (with a reason)" })
+  async resetStudentWeek(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: ReasonDto) {
+    const result = await this.leaderboardAdmin.resetWeek(id, dto.reason, staff.name);
+    await this.auditLog.log(staff, 'student', id, 'leaderboard_reset', `Reset weekly points (${result.removed}): ${dto.reason}`);
+    return result;
+  }
+
+  @Get('settings')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: 'Points values, daily cap and leaderboard rules (with defaults)' })
+  getSettings() {
+    return this.settings.all();
+  }
+
+  @Put('settings')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: 'Change points values / leaderboard rules (validated ranges). Applies to new activity.' })
+  async updateSettings(@CurrentStaff() staff: Staff, @Body() dto: SettingsDto) {
+    const result = await this.settings.update(dto as never, staff.name);
+    const changed = [...Object.entries(dto.points ?? {}), ...Object.entries(dto.leaderboard ?? {})].map(([k, v]) => `${k}=${v}`).join(', ');
+    await this.auditLog.log(staff, 'settings', 'points', 'updated', `Changed settings: ${changed || 'nothing'}`);
+    return result;
+  }
+
+  // ── Question of the Day (pins; picked automatically otherwise) ──
+  @Get('qotd')
+  @RequirePermission('review')
+  @ApiOperation({ summary: "Every group's Question of the Day for a Lagos date (default today)" })
+  listQotd(@Query() query: AdminQotdQuery) {
+    return this.qotd.listForDay(query.day ?? lagosDay(new Date()));
+  }
+
+  @Put('qotd')
+  @RequirePermission('review')
+  @ApiOperation({ summary: 'Pin a published question as a group’s QOTD for today or a future day (not once students have answered)' })
+  async pinQotd(@CurrentStaff() staff: Staff, @Body() dto: AdminQotdPinDto) {
+    const result = await this.qotd.pin(dto.day, dto.group, dto.questionId, staff.name);
+    await this.auditLog.log(staff, 'qotd', `${dto.day}/${dto.group}`, 'pinned', `Pinned a Question of the Day for ${dto.group} on ${dto.day}`);
+    return result;
+  }
+
+  @Delete('qotd')
+  @RequirePermission('review')
+  @ApiOperation({ summary: 'Remove a pin (the question is then picked automatically)' })
+  async unpinQotd(@CurrentStaff() staff: Staff, @Query() query: AdminQotdTarget) {
+    const result = await this.qotd.unpin(query.day, query.group);
+    await this.auditLog.log(staff, 'qotd', `${query.day}/${query.group}`, 'unpinned', `Removed the Question of the Day pin for ${query.group} on ${query.day}`);
+    return result;
+  }
+
   // ── Moderation (student reports, flags, security log) ──
   @Get('moderation/reports')
   @RequirePermission('moderateStudents')
@@ -405,7 +626,7 @@ export class AdminController {
 
   @Post('moderation/reports/:id/action')
   @RequirePermission('moderateStudents')
-  @ApiOperation({ summary: 'Dismiss · warn · rename (username) · suspend (days) · ban — resolves the report' })
+  @ApiOperation({ summary: 'Dismiss · warn · rename (username) · remove_photo · suspend (days) · ban — resolves the report' })
   async moderate(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string, @Body() dto: ModerationActionDto) {
     const { summary, studentId } = await this.moderation.act(staff, id, dto);
     await this.auditLog.log(staff, 'student', studentId, `moderation_${dto.action}`, summary);
@@ -443,6 +664,22 @@ export class AdminController {
     return this.referrals.adminReport(query.from ? new Date(query.from) : undefined, query.to ? new Date(query.to) : undefined);
   }
 
+  @Get('referrals/students/:id')
+  @RequirePermission('viewStudents')
+  @ApiOperation({ summary: "Everyone one student invited, with each referral's status, reward and shared phone / network signs" })
+  referralStudent(@Param('id', ParseObjectIdPipe) id: string) {
+    return this.referrals.adminStudent(id);
+  }
+
+  @Post('referrals/:refereeId/action')
+  @RequirePermission('manageLeaderboards')
+  @ApiOperation({ summary: "Approve a held referral, reject one, or reverse a reward (duplicate / fake account) — reason needed to reject or reverse" })
+  async referralAction(@CurrentStaff() staff: Staff, @Param('refereeId', ParseObjectIdPipe) refereeId: string, @Body() dto: ReferralActionDto) {
+    const result = await this.referrals.adminAction(refereeId, dto.action, dto.reason, staff.name);
+    await this.auditLog.log(staff, 'student', refereeId, `referral_${dto.action}`, `Referral ${dto.action}${dto.reason ? `: ${dto.reason}` : ''} → ${result.status}`);
+    return result;
+  }
+
   @Get('challenges/stats')
   @RequirePermission('viewStudents')
   @ApiOperation({ summary: 'Challenges sent and completed (last 7 days and all time)' })
@@ -477,6 +714,19 @@ export class AdminController {
     const { name, memberCount, ownerId } = await this.groupsAdmin.adminDelete(id);
     // Logged against the owner so the activity log links to a real student.
     await this.auditLog.log(staff, 'student', ownerId, 'group_deleted', `Deleted study group “${name}” (${memberCount} members)`);
+    return { ok: true };
+  }
+
+  // ── Profile photo ──
+  @Delete('students/:id/avatar')
+  @RequirePermission('moderateStudents')
+  @ApiOperation({ summary: "Remove a student's uploaded profile photo (back to initials); logged and the student is told" })
+  async removeStudentPhoto(@CurrentStaff() staff: Staff, @Param('id', ParseObjectIdPipe) id: string) {
+    const u = await this.userModel.findById(id).select('username role').lean().exec();
+    if (!u || u.role) throw new BadRequestException('That student no longer exists.');
+    if (!(await this.avatars.removeForModeration(id))) throw new BadRequestException('This student has no uploaded photo now.');
+    await this.notifications.notify(u._id, 'avatar_removed');
+    await this.auditLog.log(staff, 'student', id, 'avatar_removed', `Removed the profile photo of @${u.username}`);
     return { ok: true };
   }
 

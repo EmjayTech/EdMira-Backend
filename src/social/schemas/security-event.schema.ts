@@ -17,6 +17,10 @@ export type SecurityEventType =
   | 'moderation_action'
   | 'referral_signup'
   | 'referral_rate_limited'
+  | 'referral_rewarded'
+  | 'referral_held'
+  | 'referral_self'
+  | 'referral_reversed'
   | 'challenge_sent'
   | 'challenge_rate_limited';
 

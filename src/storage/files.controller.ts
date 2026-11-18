@@ -29,4 +29,15 @@ export class FilesController {
     res.type(ALLOWED_UPLOAD_TYPES[extname(file).toLowerCase()] ?? 'application/octet-stream');
     res.download(path, name || file);
   }
+
+  /** Profile pictures (local driver only; production serves them from the CDN). */
+  @Public()
+  @Get('avatars/:file')
+  avatar(@Param('file') file: string, @Res() res: Response) {
+    const path = this.storage.localPublicPath(file);
+    if (!path || !existsSync(path)) throw new NotFoundException('Photo not found.');
+    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    res.type('image/webp');
+    res.sendFile(path);
+  }
 }

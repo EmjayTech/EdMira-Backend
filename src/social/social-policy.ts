@@ -39,6 +39,13 @@ export const FLAGS = {
 export const REFERRALS = {
   /** More new sign-ups than this in 24 h for one inviter aren't credited (and are logged). */
   perInviterPerDay: 20,
+  /**
+   * Hold the inviter's rewards for admin review when, within 24 h, this many
+   * of their sign-ups came from one app install (a phone) or one network.
+   * Networks are shared on campus Wi-Fi, so that bar is higher.
+   */
+  holdSameInstall: 2,
+  holdSameNetwork: 5,
 } as const;
 
 /** Challenge a friend. */
@@ -54,7 +61,7 @@ export const CHALLENGES = {
 export const REQUEST_NOTES = ['classmates', 'study_together', 'quiz_challenge'] as const;
 export type RequestNote = (typeof REQUEST_NOTES)[number];
 
-export const REPORT_CATEGORIES = ['harassment', 'spam', 'impersonation', 'inappropriate_username', 'underage', 'other'] as const;
+export const REPORT_CATEGORIES = ['harassment', 'spam', 'impersonation', 'inappropriate_username', 'inappropriate_photo', 'underage', 'other'] as const;
 export type ReportCategory = (typeof REPORT_CATEGORIES)[number];
 
 export const DEFAULT_PRIVACY = {
@@ -64,6 +71,7 @@ export const DEFAULT_PRIVACY = {
   shareProgress: true,
   shareScores: false,
   muteRequestNotifications: false,
+  muteLeaderboardNotifications: false,
   publicProfile: false,
   showRealName: false,
 } as const;

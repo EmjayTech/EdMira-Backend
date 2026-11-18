@@ -13,6 +13,7 @@ import { Person, PeopleService, publicStudent } from './people.service';
 import { SafetyService } from './safety.service';
 import { Challenge, ChallengeDocument, ChallengeRun, challengeWinner } from './schemas/challenge.schema';
 import { CHALLENGES } from './social-policy';
+import { PlansService } from '../plans/plans.service';
 
 type Side = 'challenger' | 'opponent';
 const NOT_FOUND = { statusCode: 404, message: 'Not found' };
@@ -41,6 +42,7 @@ export class ChallengesService {
     private readonly notifications: NotificationsService,
     private readonly safety: SafetyService,
     private readonly analytics: AnalyticsService,
+    private readonly plans: PlansService,
   ) {}
 
   // ── Creating ───────────────────────────────────────────────────────────────
@@ -52,6 +54,7 @@ export class ChallengesService {
   async create(userId: string, topicId: string, username?: string) {
     const me = await this.people.me(userId);
     if (me.role) throw new NotFoundException(NOT_FOUND);
+    await this.plans.assertFeature(userId, 'create_challenge'); // accepting one stays free
 
     let opponent: Person | null = null;
     if (username) {
@@ -157,7 +160,7 @@ export class ChallengesService {
     const c = await this.challenges.findOne({ code: String(code).toLowerCase() }).exec();
     if (!c) throw new NotFoundException(NOT_FOUND);
     await this.settle(c);
-    const challenger = await this.users.findById(c.challengerId).select('username role studentProfile status isVerified').lean().exec();
+    const challenger = await this.users.findById(c.challengerId).select('username role studentProfile status isVerified avatar').lean().exec();
     if (!challenger) throw new NotFoundException(NOT_FOUND);
     return {
       challenger: { username: challenger.username },
@@ -194,6 +197,9 @@ export class ChallengesService {
     const playable = side === 'challenger' ? (OPEN as readonly string[]).includes(c.status) : c.status === 'accepted';
     if (!playable || c[side].submittedAt) throw new ConflictException({ statusCode: 409, code: 'NOT_OPEN', message: 'This challenge is no longer open.' });
     if (!c[side].startedAt) {
+      // A challenge is played in full, so it needs that many questions left today.
+      const allowance = await this.plans.allowance(userId);
+      if (allowance.remaining !== null && allowance.remaining < c.questionIds.length) this.plans.limitReached(allowance);
       c.set(`${side}.startedAt`, new Date());
       await c.save();
     }
@@ -275,7 +281,7 @@ export class ChallengesService {
     const other: Side = side === 'challenger' ? 'opponent' : 'challenger';
     const otherId = side === 'challenger' ? c.opponentId : c.challengerId;
     const otherUser = otherId
-      ? await this.users.findById(otherId).select('username role studentProfile').lean<Person>().exec()
+      ? await this.users.findById(otherId).select('username role studentProfile avatar').lean<Person>().exec()
       : null;
     const result = (r: ChallengeRun) =>
       r.submittedAt ? { score: r.score ?? 0, correctCount: r.correctCount ?? 0, total: c.questionIds.length, timeMs: r.timeMs ?? 0 } : null;

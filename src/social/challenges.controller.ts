@@ -56,9 +56,12 @@ export class ChallengesController {
 
   @Get('me/referrals')
   @ApiBearerAuth()
-  @ApiOperation({ summary: '{ count } — classmates you invited' })
-  async myReferrals(@GetCurrentUser('userId') userId: string) {
-    return { count: await this.referrals.count(userId) };
+  @ApiOperation({
+    summary: 'Classmates you invited: joined · pending · rewarded, points earned (+10 each), lifetime points and the latest 20',
+  })
+  myReferrals(@GetCurrentUser('userId') userId: string) {
+    // `count` is kept for older app versions.
+    return this.referrals.mine(userId);
   }
 
   @Post('challenges')

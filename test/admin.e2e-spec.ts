@@ -333,7 +333,8 @@ describe('study materials (slides, videos, textbooks)', () => {
     }).expect(200);
     expect(Buffer.compare(file.body, PDF)).toBe(0);
 
-    await http().get(url.pathname + url.search.replace(/sig=\w/, 'sig=0')).expect(404);
+    // Change the signature's first character (always to a different one: a fixed '0' passed 1 time in 16).
+    await http().get(url.pathname + url.search.replace(/sig=(\w)/, (_m, c: string) => `sig=${c === '0' ? '1' : '0'}`)).expect(404);
     await as('student').get(`/resources/${video.id}/download`).expect(404); // a link, not a file
   });
 
@@ -797,6 +798,15 @@ describe('bulk import, bulk review and AI drafting', () => {
     expect(pdf.headers['content-disposition']).toContain('Gastrulation_notes.pdf');
     expect((pdf.body as Buffer).subarray(0, 5).toString()).toBe('%PDF-');
     expect((pdf.body as Buffer).length).toBeGreaterThan(2000);
+    // The exact size is sent, so the app shows progress and catches a cut-short download.
+    expect(Number(pdf.headers['content-length'])).toBe((pdf.body as Buffer).length);
+    expect((pdf.body as Buffer).toString('latin1').trimEnd().endsWith('%%EOF')).toBe(true);
+
+    // Behind a proxy (Render) the link is https even when the proxy speaks http to us.
+    const proxied = (
+      await as('student').get(`/topics/${topicId}/notes`).set('Host', 'edmira-backend.onrender.com').set('X-Forwarded-Proto', 'http').expect(200)
+    ).body;
+    expect(proxied.url.startsWith('https://edmira-backend.onrender.com/api/v1/notes/topic/')).toBe(true);
 
     // Flip the signature's first character (always to a different one).
     await http().get(pathOf(link.url).replace(/sig=(\w)/, (_m, c: string) => `sig=${c === '0' ? '1' : '0'}`)).expect(404);

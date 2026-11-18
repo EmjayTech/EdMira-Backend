@@ -1,4 +1,4 @@
-import { BadRequestException, ForbiddenException, HttpException, Injectable, NotFoundException } from '@nestjs/common';
+import { ConflictException, BadRequestException, ForbiddenException, HttpException, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { ContentStatus } from '../common/enum/content-status.enum';
@@ -80,13 +80,15 @@ export class AdminContentService {
     const fields = {
       title,
       description: input.description?.trim() ?? '',
-      code: (input.code?.trim() || title.slice(0, 3)).toUpperCase(),
+      code: (input.code?.trim() || title.slice(0, 3)).toUpperCase() as string | undefined,
       ...(input.color && { color: input.color }),
       ...(input.audience && { audience: cleanAudience(input.audience) }),
     };
 
     if (id) {
       const course = await this.findOr404(this.courses.findById(id).exec(), 'course');
+      // Modules (Physiology PHY-01 …) have no course code; schools' codes live in Curriculum.
+      if (course.moduleId) delete fields.code;
       course.set(fields);
       await course.save();
       await this.audit.log(staff, 'course', course.id, 'edited', `Edited course “${course.title}”`);
@@ -315,6 +317,7 @@ export class AdminContentService {
     const { action } = dto;
     const note = dto.note?.trim() ?? '';
     assertCanTransition(staff, item, action);
+    assertNoOpenFlag(kind, item, action);
     if (needsNote(action) && !note) {
       throw new BadRequestException('Add a note so the author knows what to change.');
     }
@@ -364,5 +367,15 @@ export class AdminContentService {
       }
     }
     return { done, failed };
+  }
+}
+
+/** A question (or topic) still carrying a "⚑" check can't be approved: a reviewer resolves it first (Notes versions). */
+function assertNoOpenFlag(kind: string, item: unknown, action: string) {
+  if (action !== 'approve' || kind === 'resource') return;
+  const q = item as { stem?: string; explanation?: string; options?: string[]; material?: { heading: string; body: string }[] };
+  const text = [q.stem, q.explanation, ...(q.options ?? []), ...(q.material ?? []).map(m => `${m.heading} ${m.body}`)].join(' ');
+  if (text.includes('⚑')) {
+    throw new ConflictException('This still has a "⚑" check. Resolve it first (Review → Notes versions → the topic’s checks).');
   }
 }

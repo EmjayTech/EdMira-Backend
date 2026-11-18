@@ -4,9 +4,11 @@ import {
   ArrayMaxSize,
   ArrayMinSize,
   IsArray,
+  IsBoolean,
   IsDateString,
   IsInt,
   IsMongoId,
+  IsOptional,
   Min,
   ValidateIf,
   ValidateNested,
@@ -41,4 +43,9 @@ export class SubmitAttemptDto {
   @ValidateNested({ each: true })
   @Type(() => SubmittedAnswerDto)
   answers: SubmittedAnswerDto[];
+
+  @ApiProperty({ required: false, description: '"Retry weak questions" run: stored and graded, but earns no points' })
+  @IsOptional()
+  @IsBoolean()
+  retry?: boolean;
 }

@@ -55,6 +55,29 @@ export class QuizAttempt {
 
   @Prop({ type: [AttemptAnswerSchema], default: [] })
   answers: AttemptAnswer[];
+
+  /**
+   * When study days / streak / points were recorded for this attempt (set in
+   * the same transaction). Missing = not yet: the nightly job and
+   * `yarn progress rebuild` score it.
+   */
+  @Prop({ type: Date })
+  scoredAt?: Date;
+
+  /** A "Retry weak questions" run: no points, and left out of topic averages. */
+  @Prop()
+  retry?: boolean;
+
+  /** Points this attempt earned (after the daily cap). */
+  @Prop()
+  points?: number;
+
+  /**
+   * Keyed hash of the network address it came from (never the address
+   * itself), to spot many accounts on one network climbing one board.
+   */
+  @Prop()
+  ipHash?: string;
 }
 
 export type QuizAttemptDocument = HydratedDocument<QuizAttempt>;
@@ -62,3 +85,5 @@ export const QuizAttemptSchema = SchemaFactory.createForClass(QuizAttempt);
 // Makes submission safe to retry: the same quiz run can only be stored once.
 QuizAttemptSchema.index({ studentId: 1, topicId: 1, startedAt: 1 }, { unique: true });
 QuizAttemptSchema.index({ studentId: 1, submittedAt: -1 });
+// The nightly repair: recent attempts that haven't been scored.
+QuizAttemptSchema.index({ submittedAt: 1, scoredAt: 1 });

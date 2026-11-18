@@ -13,12 +13,17 @@ import { NewsModule } from './news/news.module';
 import { QuizModule } from './quiz/quiz.module';
 import { ReferenceModule } from './reference/reference.module';
 import { StorageModule } from './storage/storage.module';
+import { PlansJobsModule, PlansModule } from './plans/plans.module';
+import { BillingModule } from './billing/billing.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import { redisStore } from 'cache-manager-redis-store';
 import * as Joi from 'joi';
 import { AnalyticsModule } from './analytics/analytics.module';
 import { LeaderboardModule } from './leaderboard/leaderboard.module';
 import { SocialModule } from './social/social.module';
+import { StudyModule } from './study/study.module';
+import { SettingsModule } from './settings/settings.service';
+import { HomeModule } from './home/home.module';
 
 @Module({
   imports: [
@@ -83,12 +88,18 @@ import { SocialModule } from './social/social.module';
       inject: [ConfigService],
     }),
     AnalyticsModule,
+    SettingsModule,
+    StudyModule,
+    HomeModule,
     LeaderboardModule,
     SocialModule,
     AuthModule,
     HealthModule,
     ReferenceModule,
     StorageModule,
+    PlansModule,
+    PlansJobsModule,
+    BillingModule,
     ContentModule,
     QuizModule,
     FeedbackModule,
